@@ -1,0 +1,1382 @@
+{
+  "authorDailyContributionsMap": {
+    "rlrh": [
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-16",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-17",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 62,
+        "deletions": 13,
+        "date": "2019-02-26",
+        "commitResults": [
+          {
+            "hash": "14cecbff60579a919a27dfa458bda5fcd85e830a",
+            "message": "Decouple saving AddressBook from command execution",
+            "insertions": 62,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 130,
+        "deletions": 22,
+        "date": "2019-02-27",
+        "commitResults": [
+          {
+            "hash": "dce2715da41da45b7fdb1e6418d1732ba82fdbd1",
+            "message": "Make manually set command result observable",
+            "insertions": 54,
+            "deletions": 0
+          },
+          {
+            "hash": "2ce0cb7509bf96c0886ace68dfe50d26aeada4e1",
+            "message": "Modify MainWindow, ResultDisplay, CommandBox to support manually set command result and exception",
+            "insertions": 76,
+            "deletions": 22
+          }
+        ]
+      },
+      {
+        "insertions": 172,
+        "deletions": 24,
+        "date": "2019-02-28",
+        "commitResults": [
+          {
+            "hash": "68eac2024bc47cbbc425e93366defc6ec5aa6c06",
+            "message": "Modify tests to support new implementation",
+            "insertions": 53,
+            "deletions": 3
+          },
+          {
+            "hash": "d652fdf5529f547c0419be54018f4812de1256e4",
+            "message": "Remove unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "3f4391a5412578c6f3cb469b20a9251b3cdb2388",
+            "message": "Add tests for async command result and exception to LogicManagerTest",
+            "insertions": 19,
+            "deletions": 3
+          },
+          {
+            "hash": "25e83432a45d6c44d434268ed612da17b6944213",
+            "message": "Modify BrowserPanel to load Entry.Link if valid, error page if invalid",
+            "insertions": 47,
+            "deletions": 3
+          },
+          {
+            "hash": "de5d00dd29d6171c5e181c9585f7ea6c8eb712bb",
+            "message": "Tests for BrowserPanel displaying default, correct and error pages",
+            "insertions": 44,
+            "deletions": 9
+          },
+          {
+            "hash": "23330f9ec3987067b3194bf097c3476cfe7b497c",
+            "message": "Remove wildcard imports",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "5c1930f1a7fd5cfe77dc8cea0d16b1550af7cb41",
+            "message": "Fix checkstyle violations",
+            "insertions": 7,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 122,
+        "deletions": 22,
+        "date": "2019-03-01",
+        "commitResults": [
+          {
+            "hash": "4675e18d5101453e4569359c84c7f3548fe8a478",
+            "message": "Remove expected and loaded URL test from AddressBookSystemTest#assertSelectedCardChanged",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "118ef91d2822e9c8540081b72c8a8ad614e37696",
+            "message": "Clarify language to prevent confusion by not using the word",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "511c7a9e4a07ea59f808900d0335e629de152e1b",
+            "message": "Add system test to check manually set command result and exception displays as expected",
+            "insertions": 99,
+            "deletions": 4
+          },
+          {
+            "hash": "8198c89456d639db58dfe4bc2119b8d024959b73",
+            "message": "Fix checkstyle violations",
+            "insertions": 7,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 432,
+        "deletions": 24,
+        "date": "2019-03-05",
+        "commitResults": [
+          {
+            "hash": "b6fb1aa487e1bd278ca00955e27db50b0d8b14cc",
+            "message": "Add view mode enum",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "ede50b0b5c44476d302ae0f3a5c95827c84ee7c2",
+            "message": "Add view mode observable property to Model",
+            "insertions": 37,
+            "deletions": 0
+          },
+          {
+            "hash": "77752217c7a5fbb9c192bb271d8f4b5d84dc6dd9",
+            "message": "Get and set Model\u0027s view mode property in Logic",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "badd85b0e86e69f52a268cd468b2ac6eba7b7cea",
+            "message": "Add view mode command",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "af655c0f70eb2a0675331a060dd36450ce2525a3",
+            "message": "Add view mode command parser",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "46548063a77c272e135a0ec37715be716b8db18c",
+            "message": "Modify EntryBookParser to accept ViewModeCommand",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "caa70f3f893f8d4684b37c0cf63af04da1115506",
+            "message": "Add test for ViewModeCommand in EntryBookParserTest",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "f06751511cb0556cd6a3fe71c686ab0aba03cc43",
+            "message": "Add ViewModeCommandTest",
+            "insertions": 103,
+            "deletions": 0
+          },
+          {
+            "hash": "fb112afcd3620aff9f8f92e4260a86ad16b9d035",
+            "message": "Add ViewModeCommandParserTest",
+            "insertions": 14,
+            "deletions": 11
+          },
+          {
+            "hash": "a58e04a89cc513b31dcc219bb81ee36a7cfc949f",
+            "message": "Update ModelStub in AddCommandTest",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "43f67f035ccc9e5ff1f491b0dda76a1f59ed5560",
+            "message": "Fix minor message issues in ViewModeCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "268ee30c8472153fb67f3e3fd5941888721c3ebd",
+            "message": "Add Crux dependency to build.gradle",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "52deaa26fec8f4f60c47d329dd31a880b6013948",
+            "message": "Connect BrowserPanel to ViewModeProperty",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a0b92766e2d592efbba6bd2b3052611256dc10c3",
+            "message": "Add utility to convert between XML Document and String",
+            "insertions": 41,
+            "deletions": 0
+          },
+          {
+            "hash": "16b9a47c0c2f11f7a8346fa6d7109673c3b1fdda",
+            "message": "Make Reader view work on loaded Document",
+            "insertions": 85,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 161,
+        "deletions": 83,
+        "date": "2019-03-08",
+        "commitResults": [
+          {
+            "hash": "53f71de8ed0e6da85019cd2815a59d9121b54d5e",
+            "message": "Refactor code",
+            "insertions": 100,
+            "deletions": 44
+          },
+          {
+            "hash": "63fcff57cf80646090a9c1b41c2037b8ba4324a2",
+            "message": "Fix import order",
+            "insertions": 10,
+            "deletions": 12
+          },
+          {
+            "hash": "fb4781bbee38506253912828cc3f37ce211e1f2e",
+            "message": "Add missing Javadoc comments",
+            "insertions": 18,
+            "deletions": 2
+          },
+          {
+            "hash": "b3cbeccbb555cd8e3cab8753775373b824326d97",
+            "message": "Fix checkstyle errors",
+            "insertions": 23,
+            "deletions": 11
+          },
+          {
+            "hash": "f014ed42c2019c0c9712b7ca0904551bdfcce044",
+            "message": "Remove setting of CommandResult, Exception",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "47ab0105fca25cb163821080af2be766d8f598ee",
+            "message": "Improve code style",
+            "insertions": 4,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 19,
+        "deletions": 39,
+        "date": "2019-03-09",
+        "commitResults": [
+          {
+            "hash": "bd14b727d417bb9397ecc7c9a928f31cd6de460b",
+            "message": "Remove irrelevant links, add links to additional libraries used",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "c38eedc1d7a8d00e5a69c3787a55303a6771ce00",
+            "message": "Consolidate test entries",
+            "insertions": 18,
+            "deletions": 37
+          }
+        ]
+      },
+      {
+        "insertions": 1329,
+        "deletions": 92,
+        "date": "2019-03-10",
+        "commitResults": [
+          {
+            "hash": "72e2522875fe26dd73b8670a66dd3fd048ac0437",
+            "message": "Simplify code in XmlUtil",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "4ccb040e4ed3ed87ef785d81f9878f5f5f900ce4",
+            "message": "Add Wikipedia test entry to TypicalEntries, test file in BrowserPanelTest",
+            "insertions": 1110,
+            "deletions": 0
+          },
+          {
+            "hash": "5c14307e8ec76baed76094abeaff94f63f4388ab",
+            "message": "Add test for reader view mode displays as expected in BrowserPanelTest",
+            "insertions": 53,
+            "deletions": 1
+          },
+          {
+            "hash": "04685e4fa2468e2e462c954838da7340e80b7793",
+            "message": "Remove browser status consumers",
+            "insertions": 17,
+            "deletions": 19
+          },
+          {
+            "hash": "3cfb55f5f1f4255a5a4cc10fbec06c377dbc1c42",
+            "message": "Fix checkstyle violations",
+            "insertions": 16,
+            "deletions": 13
+          },
+          {
+            "hash": "c97887485ff1f63e378b7670054846e2a0fcded5",
+            "message": "Improve code style",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "a49998a3ea5bbd8f0fbf5d3bf6702af5a6349e13",
+            "message": "Move default and error pages to browser file folder",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4280e4e65b10fcd637805a71473e75cad627b61c",
+            "message": "Use Bootstrap stylesheet",
+            "insertions": 32,
+            "deletions": 5
+          },
+          {
+            "hash": "a1956b9633d38db8798f745a9faa07ca6a65ece1",
+            "message": "Comment out unused code for future use",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "185c77afc31ed7f4b23719c713724161937ff7fc",
+            "message": "Improve reader view UI",
+            "insertions": 61,
+            "deletions": 28
+          },
+          {
+            "hash": "7681c6f8138d672f11fd8176444cf811ca805df2",
+            "message": "Clarify Javadoc comments",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "845f344e284bfcf19dcd7ed4215f4a6f1c7e86d3",
+            "message": "Display estimated reading time in UI",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "0129c6f0fe322e0f5828eedcb455a5f3d0f12bc3",
+            "message": "Remove trailing whitespaces in wikipedia.html",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "30141f76fa3763a936c19072a5812eeea8e6f6b2",
+            "message": "Update ModelManager equality check, fix broken tests",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "1a6f76dbf4613b84c5689433496e06d9e9ebb623",
+            "message": "Fix equality check to account for null Exception property",
+            "insertions": 8,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 17,
+        "deletions": 29,
+        "date": "2019-03-11",
+        "commitResults": [
+          {
+            "hash": "88fc2dbe55b80c98674512fd3de86bae5fdd38dc",
+            "message": "Simplify BrowserPanelTest#displayReader",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "715c48c098ffd1b6ad9784cd1abe1ff6257dfa11",
+            "message": "Improve exception handling",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "5d74e5e82f4053d1338585473d9ce9469ea27ec0",
+            "message": "Fix ModelManager#equals bug",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "9b52e5ce98e429e9a3bc975e36896e5c620e6f0d",
+            "message": "Refactor BrowserPanel",
+            "insertions": 1,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-03-14",
+        "commitResults": [
+          {
+            "hash": "403a15da101d11413582e9031ed1460e5d7583ee",
+            "message": "Increase wait for event timeout to 1 min",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      }
+    ],
+    "qjqqyy": [
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-16",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-17",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 41,
+        "deletions": 7,
+        "date": "2019-02-20",
+        "commitResults": [
+          {
+            "hash": "0825f77bdc4699da549e03923dcfaefb2f06af56",
+            "message": "Add target counter in status bar (#15)",
+            "insertions": 41,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 34,
+        "deletions": 4,
+        "date": "2019-03-01",
+        "commitResults": [
+          {
+            "hash": "e714fe8444c838f52a732ca6bd77cf15a6b3ee0b",
+            "message": "Add dependencies for initial rss support",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "6ce175bf3e334e759a345660a7c962b5dc797a5b",
+            "message": "Network: initial implementation",
+            "insertions": 32,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 97,
+        "deletions": 1,
+        "date": "2019-03-04",
+        "commitResults": [
+          {
+            "hash": "42812d044a69de3f9cee6ff5c19a48f2ecbc9bab",
+            "message": "remove no-longer needed dependency apache http components",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "a01354d34b99042c0696c450260983dc4c6958d9",
+            "message": "Feed Command: teach parser to recognise it",
+            "insertions": 97,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 516,
+        "deletions": 190,
+        "date": "2019-03-05",
+        "commitResults": [
+          {
+            "hash": "f24a184e692e70f4b78c8476c6fc462cce542516",
+            "message": "Feed Command: add tests",
+            "insertions": 110,
+            "deletions": 0
+          },
+          {
+            "hash": "c3d43d18ce2f49ec04ed6dff793471fe54aab510",
+            "message": "Feed: implement a command that imports the entire RSS feed",
+            "insertions": 62,
+            "deletions": 6
+          },
+          {
+            "hash": "8c9ff2a32f5a0323f6ce94a48576fcedd4528af0",
+            "message": "Feed: refine behaviour when no description in rss entry",
+            "insertions": 22,
+            "deletions": 10
+          },
+          {
+            "hash": "110cb9fc5d89e8346fd4e5d9e9effd1bf3536045",
+            "message": "Feed command: touch up whitespace behaviour.",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "9f6b07e19feaf24c9ba0a7ccf2637e9e84537811",
+            "message": "Developer Guide: indicate network requirement",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "15619d99cf8d2cc51af90ac85eb6aa5201bddce7",
+            "message": "UserGuide: minor touch-ups",
+            "insertions": 14,
+            "deletions": 12
+          },
+          {
+            "hash": "1bd266196e1c50af06cfe988b298d12e2aa0b72e",
+            "message": "Feed: add more tests",
+            "insertions": 22,
+            "deletions": 1
+          },
+          {
+            "hash": "d32df830ef8ce61d0c76856ed440dbaad2ba99d0",
+            "message": "Feed: add test that does not require network",
+            "insertions": 160,
+            "deletions": 42
+          },
+          {
+            "hash": "309b60321f941eecfe3f30bd8e591c27100d163c",
+            "message": "Feed: stage remote test resources in docs",
+            "insertions": 101,
+            "deletions": 0
+          },
+          {
+            "hash": "f0daaec1898232b80a55f7233ec6532ccbe0a9d2",
+            "message": "Add dependency: apache commons codec.",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "3a4f237fcc6f317ed2834398aebe2b119df6a699",
+            "message": "silence checkstyle",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "c2556f67edd1c309c82da0d40bb88f3de304bb0c",
+            "message": "Place RssFeedTest local files in a more sensible location.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f89d6c91f6b79c4c3cfc4ef4018f8f1b01780033",
+            "message": "Revert \"Feed: stage remote test resources in docs\"",
+            "insertions": 0,
+            "deletions": 101
+          },
+          {
+            "hash": "51feac0789b4330159d6e61ce9b4ec20bbcac358",
+            "message": "UG: Update terminology",
+            "insertions": 13,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 110,
+        "deletions": 0,
+        "date": "2019-03-12",
+        "commitResults": [
+          {
+            "hash": "4a9d8a3d29f2eb236824570da81ac4035a4b1084",
+            "message": "stage files for network tests with gh pages",
+            "insertions": 110,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 6,
+        "deletions": 5,
+        "date": "2019-03-13",
+        "commitResults": [
+          {
+            "hash": "46a92accb239811e00765b117113a376dc6951a1",
+            "message": "FeedCommandTest: Update URLs to point to GH pages.",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "dcd7607fb790ef000c5bbb46b0b8090ed97c2b8a",
+            "message": "ParserUtilTest: silence unchecked blabla warnings",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      }
+    ],
+    "thomastanck": [
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-16",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-17",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      }
+    ],
+    "epicfailname": [
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-16",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-17",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-02-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      }
+    ]
+  },
+  "authorFinalContributionMap": {
+    "rlrh": 2057,
+    "qjqqyy": 575,
+    "thomastanck": 0,
+    "epicfailname": 0
+  },
+  "authorFileFormatContributionMap": {
+    "rlrh": {
+      "adoc": 1,
+      "cs": 0,
+      "css": 12,
+      "fxml": 0,
+      "gradle": 3,
+      "html": 1126,
+      "java": 915,
+      "js": 0,
+      "json": 0,
+      "jsp": 0,
+      "md": 0,
+      "py": 0,
+      "tag": 0,
+      "txt": 0,
+      "xml": 0
+    },
+    "qjqqyy": {
+      "adoc": 30,
+      "cs": 0,
+      "css": 0,
+      "fxml": 2,
+      "gradle": 11,
+      "html": 3,
+      "java": 333,
+      "js": 0,
+      "json": 0,
+      "jsp": 0,
+      "md": 0,
+      "py": 0,
+      "tag": 0,
+      "txt": 0,
+      "xml": 196
+    },
+    "thomastanck": {
+      "adoc": 0,
+      "cs": 0,
+      "css": 0,
+      "fxml": 0,
+      "gradle": 0,
+      "html": 0,
+      "java": 0,
+      "js": 0,
+      "json": 0,
+      "jsp": 0,
+      "md": 0,
+      "py": 0,
+      "tag": 0,
+      "txt": 0,
+      "xml": 0
+    },
+    "epicfailname": {
+      "adoc": 0,
+      "cs": 0,
+      "css": 0,
+      "fxml": 0,
+      "gradle": 0,
+      "html": 0,
+      "java": 0,
+      "js": 0,
+      "json": 0,
+      "jsp": 0,
+      "md": 0,
+      "py": 0,
+      "tag": 0,
+      "txt": 0,
+      "xml": 0
+    }
+  },
+  "authorContributionVariance": {
+    "rlrh": 64955.137,
+    "qjqqyy": 14940.477,
+    "thomastanck": 0.0,
+    "epicfailname": 0.0
+  },
+  "authorDisplayNameMap": {
+    "rlrh": "RAY...HAN",
+    "qjqqyy": "QI ... JI",
+    "thomastanck": "TAN...MAS",
+    "epicfailname": "JON...ENG"
+  }
+}
