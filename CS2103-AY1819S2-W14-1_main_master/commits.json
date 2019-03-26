@@ -264,6 +264,87 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 14,
+        "deletions": 3,
+        "date": "2019-03-16",
+        "commitResults": [
+          {
+            "hash": "3962ac53e8082d2c613a08f4ed98936c508e7d78",
+            "message": "Update DG",
+            "insertions": 14,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 323,
+        "deletions": 25,
+        "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "da41855838771194a6cae446381e6ac4af8ccaa4",
+            "message": "Add CSVUserImportExport Add override calls in storage manager",
+            "insertions": 101,
+            "deletions": 3
+          },
+          {
+            "hash": "d86c6e09276c988125fb5212961378f0236c4717",
+            "message": "Add CsvUserStorage class to parse the file headers of cardSRSdata accordingly",
+            "insertions": 211,
+            "deletions": 12
+          },
+          {
+            "hash": "4db0516b328dd6c05ad8d8c9c7687552ae2dd52c",
+            "message": "Update jeraldtsy.adoc",
+            "insertions": 11,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 113,
+        "deletions": 220,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "5d6491c3f297b5ecf80a5f22202e928600a1e317",
+            "message": "Update User Update Storage Update CardSrsData",
+            "insertions": 111,
+            "deletions": 218
+          },
+          {
+            "hash": "ad37835ad1120490c5e93825c87d9b2445ed91a8",
+            "message": "Update jeraldtsy.adoc Update DG",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "eugenefdw": [
@@ -676,10 +757,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 59,
+        "deletions": 14,
         "date": "2019-03-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9d47f49211a788f92f24d604c6528881b91d76d2",
+            "message": "Add skeleton for save function",
+            "insertions": 16,
+            "deletions": 3
+          },
+          {
+            "hash": "b06817b06eb2fcb25202290b712b84a7ef0c6205",
+            "message": "Add default question answer index handling from file",
+            "insertions": 43,
+            "deletions": 11
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -688,10 +782,16 @@
         "commitResults": []
       },
       {
-        "insertions": 3,
-        "deletions": 3,
+        "insertions": 35,
+        "deletions": 5,
         "date": "2019-03-12",
         "commitResults": [
+          {
+            "hash": "58a1f65c77238e0825af06b86e58dc222bd7cde7",
+            "message": "Add partial save",
+            "insertions": 32,
+            "deletions": 2
+          },
           {
             "hash": "9f70be5d143747795724e5e0a042714ab35c8abe",
             "message": "Remove header",
@@ -703,6 +803,123 @@
             "message": "Add opencsv attribution",
             "insertions": 1,
             "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 145,
+        "deletions": 103,
+        "date": "2019-03-16",
+        "commitResults": [
+          {
+            "hash": "2e96f4e0f3abc5d3b8e5369d09f6be8f081677ac",
+            "message": "Updated CsvUtil to properly write UTF-8 BOM",
+            "insertions": 11,
+            "deletions": 9
+          },
+          {
+            "hash": "fd86b7db79c182cb919f3687f391bf545222fd1f",
+            "message": "Add partial Lessons saving, up to header data",
+            "insertions": 32,
+            "deletions": 12
+          },
+          {
+            "hash": "6f7913d673a4b9d89fe5a4b9f8e74b748af65745",
+            "message": "Update documentation on file encoding issues",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "c2cf103916a0e160b4d2d5f93a00949d3cdd449d",
+            "message": "Add lesson saving (full)",
+            "insertions": 25,
+            "deletions": 2
+          },
+          {
+            "hash": "b4148851896c95a8bb7894dc9369cdb5bcceffa4",
+            "message": "Add tests for lessons saving",
+            "insertions": 44,
+            "deletions": 64
+          },
+          {
+            "hash": "cca1ca405f6194416616ffd8942711397cf95641",
+            "message": "Update javadoc for saveLessons",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "645a5835215981d258323b1ad47f91af0c6d9c67",
+            "message": "Update test to force set files to read-only",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "384cc88465ed4c6a1741871ef083f5fc3ff6b6d2",
+            "message": "Fix import naming",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7d3d8c9ab3e522e125974fca72ac076a6bee3f85",
+            "message": "Update UserGuide",
+            "insertions": 9,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 39,
+        "deletions": 73,
+        "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "37536a25b7b17cda9c0f187e5d500e28e8a99910",
+            "message": "Add implementation documentation to DG",
+            "insertions": 39,
+            "deletions": 73
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 1,
+        "deletions": 4,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "9f71c373b65439baccc8f08eeac348cfe4125ecc",
+            "message": "Update diagram figure numbering",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "48d3dcd5e83815b2f7a85ad08e511eb265c7726c",
+            "message": "Fix duplicate header",
+            "insertions": 0,
+            "deletions": 4
           }
         ]
       }
@@ -1285,6 +1502,172 @@
             "deletions": 9
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 21,
+        "deletions": 35,
+        "date": "2019-03-15",
+        "commitResults": [
+          {
+            "hash": "8cf8525ce6c525d0ca495de839ed60b15a91b755",
+            "message": "Replace exception with assertion",
+            "insertions": 5,
+            "deletions": 9
+          },
+          {
+            "hash": "3f6a02298e53a8f760c6cf7f6e62677d96a4b658",
+            "message": "Update QuizAnswerCommand messages",
+            "insertions": 3,
+            "deletions": 7
+          },
+          {
+            "hash": "024dbb614a4eedf7bab64e0c8fdd8a01bbc4e733",
+            "message": "Add QuizHelpCommand in QuizModeParser with test",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "7f89bb7b7aba8ec89342a9d3e78c3cdaefd1779f",
+            "message": "Update QuizCardTest to remove NotInitialisedException",
+            "insertions": 1,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-16",
+        "commitResults": []
+      },
+      {
+        "insertions": 307,
+        "deletions": 42,
+        "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "6abe6e1588bb7b7e1d5e590c40c91a59cf216272",
+            "message": "Add quizTotalAttempts, getQuizTotalCorrectQuestions and getCurrentProgress with tests",
+            "insertions": 73,
+            "deletions": 8
+          },
+          {
+            "hash": "568806121dd3c71f145f09d4e5186a892577f1e5",
+            "message": "Add QuizStatusCommand to parser and logic with tests",
+            "insertions": 100,
+            "deletions": 0
+          },
+          {
+            "hash": "03f4accbd033876d9db301761ee15ffe900d5866",
+            "message": "Add \\status command implementation in DG",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "38ec739a962dd5fb69a45a51c9dc2dd8651e091b",
+            "message": "Support getting wrong twice before showing correct answer",
+            "insertions": 67,
+            "deletions": 11
+          },
+          {
+            "hash": "0d53169f85b8d827357a677d1c2d2a16ffb22839",
+            "message": "Update coverage",
+            "insertions": 27,
+            "deletions": 4
+          },
+          {
+            "hash": "b16da582c8a427fd232c7353731b67792a6db505",
+            "message": "Refactor isDone to isQuizDone",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "49109380a51dde8dcf7d812db60778f2e5af3ca5",
+            "message": "Improve coverage",
+            "insertions": 14,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 195,
+        "deletions": 44,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "2ed3f2c17017b67f979729974115a59a7882e67d",
+            "message": "Update Quiz Ui",
+            "insertions": 181,
+            "deletions": 36
+          },
+          {
+            "hash": "15d395a4d8bd7bac3ad53bc11e9c9afa4e758e25",
+            "message": "Fix coding style",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "35ac41d5a596766ac02aa4d1baa99c274ba442af",
+            "message": "Add test for isShowQuiz",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 216,
+        "deletions": 88,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "991efc28385238b38065027085100463ffc43223",
+            "message": "Separate feedback from question",
+            "insertions": 90,
+            "deletions": 20
+          },
+          {
+            "hash": "28c67d354ca58fb1151e85ed5645797e443d947e",
+            "message": "Fix QuizModelStub",
+            "insertions": 63,
+            "deletions": 3
+          },
+          {
+            "hash": "3e1ee85612146085c6eb854fb45e4d539e7d88b0",
+            "message": "Refactor classes in test folder to match main folder",
+            "insertions": 57,
+            "deletions": 54
+          },
+          {
+            "hash": "2425f70ee6e32c02345e7e879dfac1f0bbf6016c",
+            "message": "Update QuizHelpCommand usage message",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "53adb7dba9cbfbec53ca13d30207b4c808738066",
+            "message": "Fixed coding style",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5a137629a177519ca90b131ae6537c021f0a361d",
+            "message": "Update DG from AddressBook to BrainTrain",
+            "insertions": 3,
+            "deletions": 9
+          }
+        ]
       }
     ],
     "lallanachang": [
@@ -1585,6 +1968,98 @@
         "deletions": 0,
         "date": "2019-03-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-16",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-17",
+        "commitResults": []
+      },
+      {
+        "insertions": 831,
+        "deletions": 56,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "03db7f04dd518f0cced3f6650682793f17e4cb50",
+            "message": "v1.2 session",
+            "insertions": 831,
+            "deletions": 56
+          }
+        ]
+      },
+      {
+        "insertions": 294,
+        "deletions": 97,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "a5c250d1a8d6da185bec9bee8f379f7b87b98777",
+            "message": "Update codes and tests for v1.2",
+            "insertions": 226,
+            "deletions": 49
+          },
+          {
+            "hash": "caa387936495d59b8c57cb9cd8c3ea1f053692eb",
+            "message": "Update ppp and UG",
+            "insertions": 33,
+            "deletions": 23
+          },
+          {
+            "hash": "e8cfcee1b3dadfb73132e1525d0984fc1d5a29e9",
+            "message": "Resolve conflict",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d348e4cbbe3723e7468aa1f78b40c237650b5311",
+            "message": "Resolve checkstyle",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "c431bf8384b43b73d1a96208b0b2a790c1e19515",
+            "message": "Resolve test cases, (commented out some bugs, will resolve later.)",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "fba842f45081935b72a68466a7c6e4e75f59d1a1",
+            "message": "Resolve conflict",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "412887bc7041252399c3bca56b901e98b6386532",
+            "message": "Resolve QuizStartCommand",
+            "insertions": 25,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "DigiPie": [
@@ -2130,22 +2605,631 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-15",
+        "commitResults": []
+      },
+      {
+        "insertions": 46,
+        "deletions": 31,
+        "date": "2019-03-16",
+        "commitResults": [
+          {
+            "hash": "da66a25d230b9b7703bac5184cdc60d51a1af812",
+            "message": "Update digipie.adoc",
+            "insertions": 30,
+            "deletions": 10
+          },
+          {
+            "hash": "433afc816b77e2aaf2b9041aa2cc487149c1f950",
+            "message": "Update UserGuide.adoc",
+            "insertions": 12,
+            "deletions": 17
+          },
+          {
+            "hash": "51de96aa1316398140d2e1063373612199fe4d08",
+            "message": "Update digipie.adoc",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 2151,
+        "deletions": 839,
+        "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "0787109f54534bb9519033b189497ce6210f96e3",
+            "message": "Refactor to ManagementModeParser",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "c59ef2f9b8bf7d4d01b5094f2e6703b8819a088f",
+            "message": "Refactor Model to ManagementModel",
+            "insertions": 29,
+            "deletions": 24
+          },
+          {
+            "hash": "91f711eb1b2385ebcd33d1856d4b1af233643661",
+            "message": "Refactor QuizModel",
+            "insertions": 46,
+            "deletions": 39
+          },
+          {
+            "hash": "bb508b8b6c306a267419647b802082223d51d419",
+            "message": "Refactor Model to ManagementModel",
+            "insertions": 116,
+            "deletions": 116
+          },
+          {
+            "hash": "d3bc8756bd5716a8b2da842153a7e1c2032cfa61",
+            "message": "Add Model interface extended by QuizModel and ManagementModel",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "f2f48567e7ebc4fcaae22edeefe24c00cf47bbc3",
+            "message": "Change Command from abstract class to interface",
+            "insertions": 11,
+            "deletions": 12
+          },
+          {
+            "hash": "5c77347b42d86fb265685217db3f8ee9a6edeaf1",
+            "message": "Refactor package names",
+            "insertions": 82,
+            "deletions": 82
+          },
+          {
+            "hash": "475c29c9b95b1726ab9d59bfac21a12a51742b7c",
+            "message": "Refactor all commands to implement Command interface",
+            "insertions": 127,
+            "deletions": 86
+          },
+          {
+            "hash": "517c14be000e93f0fcb24afc6babce599a328e80",
+            "message": "Group management-related commands under a package",
+            "insertions": 23,
+            "deletions": 14
+          },
+          {
+            "hash": "871d8952e9a1e059c82e8aefa12cdbb05a35beb9",
+            "message": "Group quiz-related commands under a package",
+            "insertions": 21,
+            "deletions": 12
+          },
+          {
+            "hash": "43ed50ac047d68768e2f9f952b9ade2c07a6610c",
+            "message": "Fix QuizStartCommand imports",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "1e0b10844612deff74b65632da4f450785b8e078",
+            "message": "Fix MainApp imports",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5311b5ddc2c9fa7b6522193f7d4b1c1992fd3f76",
+            "message": "Fix LogicManager imports",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "74a7944a39ebb7a1c4cf6f755e67761fff8fc532",
+            "message": "Fix QuizHelpCommand imports",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "eb1b9721690b639b5abf3cbb470ab57092ce0cb4",
+            "message": "Fix imports in TestApp and LogicManagerTest",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "0c78234737152af3a642a5d9314ed41d489b59eb",
+            "message": "Fix line length for command test files",
+            "insertions": 16,
+            "deletions": 9
+          },
+          {
+            "hash": "d5c479a1bd74ddf8b2aa0163a3b06272d498c6ee",
+            "message": "Fix CommandBoxTest imports",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3d0e8a4b5a36cac4b9ebc6cb8ffd499835e8ba78",
+            "message": "Refactor managementcommand sub-package to management",
+            "insertions": 17,
+            "deletions": 17
+          },
+          {
+            "hash": "a37cfad174b9440d111461133aef591e1b496ac5",
+            "message": "Refactor quizcommand sub-package to quiz",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "a9737879586b1c624cb318713cc628163721ef2d",
+            "message": "Refactor quizcommand sub-package to quiz",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "eb48b26a08767b1193a7a6a127679199bde682ce",
+            "message": "Refactor managementmodel sub-package to management",
+            "insertions": 27,
+            "deletions": 27
+          },
+          {
+            "hash": "078c784f18d9d013b812bdf06393309b4c700f08",
+            "message": "Refactor quizmodel sub-package to quiz",
+            "insertions": 44,
+            "deletions": 44
+          },
+          {
+            "hash": "a50e0969118d94c461447babb01e22b9018658a0",
+            "message": "Add Parser interface for both Parser classes",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "4c692c9d352d2fcb9773bfe43c0a7750190dc182",
+            "message": "Refactor ManagementModeParser to use Parser interface",
+            "insertions": 17,
+            "deletions": 19
+          },
+          {
+            "hash": "cfa82ac37b9e32122599044d72ca0fa51b1bbe49",
+            "message": "Refactor QuizModeParser to implement Parser interface",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "92b14bdf1282cf690be9db134f9b5a19f19269ce",
+            "message": "Update digipie.adoc",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "71215ec81626023422651ada58f7d3bf2a6818dd",
+            "message": "Update digipie.adoc",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "d5fbe8d27e7a00aeda613d9fb378d938ca445cdc",
+            "message": "Update LogicManager constructor",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "4516e927a2a590b0507169a186d392a7fc3d4155",
+            "message": "Add AddLessonCommand stub",
+            "insertions": 67,
+            "deletions": 2
+          },
+          {
+            "hash": "0245733e3dea000797f423644ccdfaa48e8bf941",
+            "message": "Revert MainApp and LogicManager",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "12afa3309490172faf021fed801eafd4dc5f966a",
+            "message": "Reintegrate Prefix",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "a84a60060c2b161ea8bb7c046c54b912e7b3679f",
+            "message": "Update comment in Prefix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "04ddf43bf45c428230ded8c300610c8144af2455",
+            "message": "Reintegrate CliSyntax",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "c12d165d6448d9924d8146a55b2832b19fe37325",
+            "message": "Rename CliSyntax to Syntax and refactor",
+            "insertions": 12,
+            "deletions": 15
+          },
+          {
+            "hash": "906c40b532e52b7ea9679e50f28088c2217ed98d",
+            "message": "Update AddLessonCommand to use Prefix",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "1ed46ecb4fbb967f4bb6890fe66d7156b19e2657",
+            "message": "Reintegrate ArgumentMultimap and ArgumentTokenizer",
+            "insertions": 208,
+            "deletions": 0
+          },
+          {
+            "hash": "413f38dd3f1482425edda7e8ee8ebc26e3525ef7",
+            "message": "Reintegrate Parser",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "2b165e59abe1a4ad658f925763c85da3a1e2f99d",
+            "message": "Refactor QuizModeParser and MamangementModeParser",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3dd635d6b9fb0106209e7812891d282804eaafa5",
+            "message": "Reintegrate ParserUtil",
+            "insertions": 124,
+            "deletions": 0
+          },
+          {
+            "hash": "01101072b8efcdc73f00777ea8809996fcebbfe6",
+            "message": "Remove ParserUtil for now",
+            "insertions": 0,
+            "deletions": 124
+          },
+          {
+            "hash": "7b2366691615ba8cff3e03c3641f9fccca30e4e6",
+            "message": "Add AddLessonParser for AddLessonCommand",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "124323dfa5c1549218012f1bcf111bef6546c81c",
+            "message": "Implement addLesson command",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "9ec128bdf7efc49b1b3913995f126dc05f3ae069",
+            "message": "Update AddLessonParser with IllegalArgumentException handling",
+            "insertions": 30,
+            "deletions": 11
+          },
+          {
+            "hash": "dd6bb56a604810836741cdd6fb0ef970ce6f47d0",
+            "message": "Add test for AddLessonCommand",
+            "insertions": 228,
+            "deletions": 0
+          },
+          {
+            "hash": "93b8f717c4f7a2460e6cfa9ad92aef83d249773d",
+            "message": "Fix ArgumentTokenizer style",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "83531c11adfb4c709f75af24e58f42c5bcd42048",
+            "message": "Fix ManagementModeParser style",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "4aaa2cd563fd547c591b45b1c5ccb29e40ae1094",
+            "message": "Refactor AddLessonCommandTest",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "56e01aee1fe5676e0061462683eed81631a41156",
+            "message": "Fix AddLessonCommandTest style",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "69b802a2e68384cf55c30288dfad54301f81753d",
+            "message": "Update UserGuide for addLesson command",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "24ceaaa6267920b8b08a8d1c77cabaf07f962942",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "476af0d55c8db2345dcaecd0b07781607083fd1c",
+            "message": "Reintegrate ArgumentTokenizerTest",
+            "insertions": 150,
+            "deletions": 0
+          },
+          {
+            "hash": "d5964bfbf2bb40d62501ce98151e606e72b21712",
+            "message": "Reintegrate CommandParserTestUtil",
+            "insertions": 38,
+            "deletions": 0
+          },
+          {
+            "hash": "40d0cc15266925d8d093344c3c7c069d49de3907",
+            "message": "Add AddLessonParserTest",
+            "insertions": 94,
+            "deletions": 3
+          },
+          {
+            "hash": "7d5d5d29dd1dba5cd9853bc19f27cfca4a47c6d5",
+            "message": "Update AddLessonParser to catch missing name",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "96fb90cd6361c9ff69b568aa2df839723a40397e",
+            "message": " Update AddLessonParser and Lesson to catch empty core headers",
+            "insertions": 25,
+            "deletions": 2
+          },
+          {
+            "hash": "af2d0004226175c0c6f01446f3cc21c848be3c44",
+            "message": "Improve AddLessonParserTest",
+            "insertions": 30,
+            "deletions": 17
+          },
+          {
+            "hash": "38d94960d3d1c5e6a04278cb74d835def5d49433",
+            "message": "Remove MissingCoreException and MissingOptionalException",
+            "insertions": 6,
+            "deletions": 75
+          },
+          {
+            "hash": "f86a3650b28e3f0f2e624f9552133f2075d04f39",
+            "message": "Implement listLessons command",
+            "insertions": 86,
+            "deletions": 0
+          },
+          {
+            "hash": "035feb0bac67b8d2a9415666f62894445ef7811b",
+            "message": "Add test for ListlessonsCommand",
+            "insertions": 225,
+            "deletions": 12
+          },
+          {
+            "hash": "aede6faf4848e134e84e480597b1e17a9f0e0272",
+            "message": "Update UserGuide for listLessons command",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "9796a678da6bc293ec34cf45dac1be7d8be3ce1b",
+            "message": "Update listLessonsCommand to list with numbers",
+            "insertions": 3,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 932,
+        "deletions": 263,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "e7ae463c37596c9d5b6a04e530c2faba7410cc2a",
+            "message": "Update ListLessonsCommand and Lesson",
+            "insertions": 8,
+            "deletions": 32
+          },
+          {
+            "hash": "25e00eb8af123c5438eedd3c4a578b52735c92c8",
+            "message": "Update AddLessonCommand with comments",
+            "insertions": 26,
+            "deletions": 9
+          },
+          {
+            "hash": "0e5a1084df0546f0fcda8c01106a38339915a440",
+            "message": "Resolve conflicts in QuizStartCommandTest",
+            "insertions": 8,
+            "deletions": 18
+          },
+          {
+            "hash": "7d3764b32dfcbc77efb31a3ed1cc1a763b492f85",
+            "message": "Resolve conflicts in ArgumentTokenizer",
+            "insertions": 0,
+            "deletions": 22
+          },
+          {
+            "hash": "5621be260672e6d31c610577776029ffed6038bc",
+            "message": "Delete Clisyntax and merge its contents into Syntax",
+            "insertions": 3,
+            "deletions": 13
+          },
+          {
+            "hash": "552d83fb12977630e811323387b7c7f37c41064a",
+            "message": "Resolve conflicts in StartCommand related files",
+            "insertions": 44,
+            "deletions": 46
+          },
+          {
+            "hash": "bf3110984b089b4966ea63af01f7b328a8f864ec",
+            "message": "Resolve conflicts in Session and SrsCard",
+            "insertions": 1,
+            "deletions": 6
+          },
+          {
+            "hash": "c89eceb692c5a47a8101c6c0e90fc68b2f388d92",
+            "message": "Resolve conflicts",
+            "insertions": 76,
+            "deletions": 33
+          },
+          {
+            "hash": "923eff2c38a709929463a2b0f461cdb1440f045b",
+            "message": "Update ListLessonsCommand with comments",
+            "insertions": 22,
+            "deletions": 4
+          },
+          {
+            "hash": "bb377da94227a27d35e632231a2bdc348813bed3",
+            "message": "Update AddLessonParser with Javadoc comments",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "103c4050258a65ff5eea3a950ea3274eaa41ebf6",
+            "message": "Refactor AddLessonCommand",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "595d0331dd5b5b8da4ae26dd33567964df57e8c0",
+            "message": "Add standalone DeleteLessonCommand",
+            "insertions": 83,
+            "deletions": 0
+          },
+          {
+            "hash": "994c23ffcd9075711a9d62b72978a6304c027df5",
+            "message": "Correct typo in AddLessonCommandTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5a571bb320173ea86bfd4730d4f6e7881d3652ca",
+            "message": "Add DeleteLessonCommandTest",
+            "insertions": 238,
+            "deletions": 1
+          },
+          {
+            "hash": "6394a26d0f59b338995be4cca2f5fe6298d018de",
+            "message": "Reintegrate Index",
+            "insertions": 54,
+            "deletions": 0
+          },
+          {
+            "hash": "9625c5c77a324537a7794aa911108f15830e4f30",
+            "message": "Reintegrate ParserUtil",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "c33c017eb9b35ec4b31c8d276714a87b450aff5f",
+            "message": "Reintegrate IndexTest",
+            "insertions": 92,
+            "deletions": 0
+          },
+          {
+            "hash": "362e69b812d024f99a41ab3ec662e188a800a608",
+            "message": "Refactor TypicalIndexes to TypicalIndices",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "ac168b2b694e5a5191edf83271222632015dce4d",
+            "message": "Reintegrate ParserUtilTest",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "21701cc3d88140eb1d6d1ddd83c3d0cf409b4028",
+            "message": "Implement deleteLesson command",
+            "insertions": 51,
+            "deletions": 18
+          },
+          {
+            "hash": "a82715d66a6170373014bc8a4ea2d00ba4e24e60",
+            "message": "Update Lessons to throw IndexOutOfBoundExceptions",
+            "insertions": 13,
+            "deletions": 2
+          },
+          {
+            "hash": "5805a5ccd27050b88064757b9b1f29b2eeddc8f7",
+            "message": "Update deleteLesson command to handle invalid indices",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "a27049c40cd5d709042d224924a43e2095d3ee25",
+            "message": "Fix deleteLesson related tests",
+            "insertions": 35,
+            "deletions": 14
+          },
+          {
+            "hash": "ec6562578a15558b82fbe5ff3989136f3fbf2c11",
+            "message": "Fix deleteLesson related tests",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "6dc423065644763ee8a7c735bc7fced4386afe85",
+            "message": "Add DeleteLessonParserTest",
+            "insertions": 28,
+            "deletions": 1
+          },
+          {
+            "hash": "4ce42d47c79d615b26ccab76b81508bcae007683",
+            "message": "Fix DeleteLessonCommandTest",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "0dc2ba4d3c3395d13b592f747dc77ee39c4bbd16",
+            "message": "Fix various styling mistakes",
+            "insertions": 5,
+            "deletions": 11
+          },
+          {
+            "hash": "a5550eaf3324adfc42075a3e11175cb21124c74a",
+            "message": "Fix IndexTest",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "9f807ddab60ed542b68228357cbc62cf78287e44",
+            "message": "Fix IndexTest style",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "67e9848f50d688497f465736781316a2d67c87a5",
+            "message": "Update UserGuide.adoc",
+            "insertions": 35,
+            "deletions": 19
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jeraldtsy": 263,
-    "eugenefdw": 1405,
-    "halcyoneee": 2277,
-    "lallanachang": 362,
-    "DigiPie": 1220
+    "jeraldtsy": 457,
+    "eugenefdw": 1549,
+    "halcyoneee": 2942,
+    "lallanachang": 1120,
+    "DigiPie": 2909
   },
   "authorContributionVariance": {
-    "jeraldtsy": 1561.2511,
-    "eugenefdw": 6046464.5,
-    "halcyoneee": 823377.5,
-    "lallanachang": 3585.9824,
-    "DigiPie": 39184.676
+    "jeraldtsy": 6550.268,
+    "eugenefdw": 4976022.5,
+    "halcyoneee": 681065.9,
+    "lallanachang": 25490.922,
+    "DigiPie": 275903.25
   },
   "authorDisplayNameMap": {
     "jeraldtsy": "TAN...ALD",

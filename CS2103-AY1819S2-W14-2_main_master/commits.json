@@ -312,8 +312,8 @@
         "commitResults": []
       },
       {
-        "insertions": 24,
-        "deletions": 2,
+        "insertions": 30,
+        "deletions": 8,
         "date": "2019-03-19",
         "commitResults": [
           {
@@ -327,8 +327,100 @@
             "message": "removed stray letter",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "c0bf748841e1adbacd62dc9ad58de8a320027569",
+            "message": "removed stray letter",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bf39f16adcfcdddad5df520c587b39cbfd45b749",
+            "message": "rename tempImage to currentImage",
+            "insertions": 5,
+            "deletions": 5
           }
         ]
+      },
+      {
+        "insertions": 165,
+        "deletions": 43,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "d25ea531feb27750007625ea4787bed00359e689",
+            "message": "Updated Open method",
+            "insertions": 38,
+            "deletions": 19
+          },
+          {
+            "hash": "3264a17fc511df73bbaa4ad2e00319f3a121ea9a",
+            "message": "Open Command Updated",
+            "insertions": 7,
+            "deletions": 12
+          },
+          {
+            "hash": "50110f31587a060e0a35dc13166cbda7a1120681",
+            "message": "checkstyle edits",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "4d16739977d074cb549e0c4362bec3a6f0af7b09",
+            "message": "travis edits",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "3a101aaa3a0080637ea4565b1b4de308bb07231a",
+            "message": "Save Function",
+            "insertions": 113,
+            "deletions": 4
+          },
+          {
+            "hash": "ae6e7082731097d38fc277158c91f04d27e4c626",
+            "message": "travis edit",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fc0f70521c56911abf0f89e45d5ac6a5c50bd578",
+            "message": "checkstyle edits",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 2,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "9204577bff2cce020de71a91329cf1192a09a5d9",
+            "message": "Bug fix.",
+            "insertions": 5,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
       }
     ],
     "kayheen": [
@@ -666,6 +758,36 @@
         "deletions": 0,
         "date": "2019-03-19",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
       }
     ],
     "carrein": [
@@ -956,9 +1078,115 @@
         "commitResults": []
       },
       {
+        "insertions": 26,
+        "deletions": 2,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "bd7d4cdd415ea55eb512fcb02324c3e6c2e5c4ed",
+            "message": "Update developer guide with Import command.",
+            "insertions": 26,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 359,
+        "deletions": 37,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "14aa84128d70213d898cc9b3706b77bc1054fd64",
+            "message": "Add initPanel and informationPanel.",
+            "insertions": 354,
+            "deletions": 28
+          },
+          {
+            "hash": "46414f5e6fad2d7e0ad564b51c22e0e717d093b8",
+            "message": "Add additional text to InitPanel.",
+            "insertions": 3,
+            "deletions": 6
+          },
+          {
+            "hash": "bf98e1a10bc940eb3deb1c638b80948395292844",
+            "message": "Add author tags to respective files.",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 613,
+        "deletions": 275,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "aeed65520e7673bd9037d2f76f2b73373a680b7a",
+            "message": "Bake TabPane import cards.",
+            "insertions": 211,
+            "deletions": 48
+          },
+          {
+            "hash": "625420ce21224b63809e2c7af60754ef9a4ad8b6",
+            "message": "Wire PropertyChangeListener to TabPane. Add Album class.",
+            "insertions": 105,
+            "deletions": 58
+          },
+          {
+            "hash": "299b49a0afd54bbf7806f1458b9d9dc89b4e8b94",
+            "message": "Refactor ModelManager and add refresh method to update TabPane.",
+            "insertions": 46,
+            "deletions": 75
+          },
+          {
+            "hash": "3fd227fbabf30d1cea1f78519f80e2215ba8f0be",
+            "message": "Modularize Image class to Name, Height, Width classes.",
+            "insertions": 237,
+            "deletions": 64
+          },
+          {
+            "hash": "a3d30dafe324b7a4b269e15e3f837213da0ee7f7",
+            "message": "Add author tags.",
+            "insertions": 14,
+            "deletions": 30
+          }
+        ]
+      },
+      {
+        "insertions": 32,
+        "deletions": 3,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "d5cea9de9f947f525690be836e78c6430b1fe27f",
+            "message": "Remove unused imports.",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "c7e1260f59f3305f98c0c920bd9e2a08d22bdc90",
+            "message": "Add @Ignore for GUI test.",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "f70554bad4f017e4209ebb4bbcebe48e0dc188c5",
+            "message": "Temporarily @Ignore clear command unit tests.",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
         "commitResults": []
       }
     ],
@@ -1237,9 +1465,46 @@
         ]
       },
       {
+        "insertions": 24,
+        "deletions": 17,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "dd298d069cc473e48fad6bf72bc88b37bd66cc68",
+            "message": "Dev Guide for Undo Command",
+            "insertions": 24,
+            "deletions": 17
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
         "commitResults": []
       }
     ],
@@ -1580,26 +1845,113 @@
         ]
       },
       {
+        "insertions": 74,
+        "deletions": 41,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "89e9f535e582fb8822460d35f4a126a23c2e3e99",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 34,
+            "deletions": 1
+          },
+          {
+            "hash": "4752c632c0426e4565ed58a7f3e7ec63f4a4840b",
+            "message": "Rewrite developer guide",
+            "insertions": 0,
+            "deletions": 35
+          },
+          {
+            "hash": "3e853b10ac02561a91946994f4070c25377275e7",
+            "message": "update developer guide",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "16381364369fe68d4925a496f518e76ceae4c2e4",
+            "message": "fix travis",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 30,
+        "deletions": 30,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "3a7aedb9fdce8478a8870f6b7111e77671fdf31a",
+            "message": "update userguide",
+            "insertions": 30,
+            "deletions": 30
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-21",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 408,
+        "deletions": 137,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "5a9f244405fdf15c61e6ba9e30fd8e52b6aa93a5",
+            "message": "comment out certain code in contrast command",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "9826ffe0fe4a57497dcdcd5e997ca5ace9ebaa02",
+            "message": "create currentEdit class to replace AddressBook4 modelManage class",
+            "insertions": 179,
+            "deletions": 38
+          },
+          {
+            "hash": "417938840cb7378a738a3c47d7b9ba16639e30ae",
+            "message": "fix travis",
+            "insertions": 18,
+            "deletions": 9
+          },
+          {
+            "hash": "5597cde376787e5fee6dce87d90d4a44e11ee205",
+            "message": "Refactor test cases due to new CurrentEdit and Album parameters in execute method in Command class",
+            "insertions": 196,
+            "deletions": 86
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "itszp": 192,
-    "kayheen": 438,
-    "carrein": 355,
-    "randytqw": 139,
-    "thamsimun": 398
+    "itszp": 316,
+    "kayheen": 402,
+    "carrein": 1180,
+    "randytqw": 101,
+    "thamsimun": 733
   },
   "authorContributionVariance": {
-    "itszp": 922.3026,
-    "kayheen": 2248.4436,
-    "carrein": 6126.8633,
-    "randytqw": 663.1004,
-    "thamsimun": 5412.444
+    "itszp": 1732.9636,
+    "kayheen": 2007.8251,
+    "carrein": 25241.922,
+    "randytqw": 618.14075,
+    "thamsimun": 11156.33
   },
   "authorDisplayNameMap": {
     "itszp": "TAY...ENG",

@@ -758,6 +758,272 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 2,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "709f697110beb0ed8c5cff694f96f04f5b64ad72",
+            "message": "update putShip() and attackCell() in MapGrid to call updateUi",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 14,
+        "deletions": 5,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "8728eea70fd2033ed313abdea35811901efc4d3a",
+            "message": "Update InitialiseMapCommand to make use of SLAP",
+            "insertions": 13,
+            "deletions": 5
+          },
+          {
+            "hash": "64fe3e78b91010888439b59871051ba0ffc86d4e",
+            "message": "Update initialise() of MapGrid to updateUi",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 7,
+        "deletions": 7,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "6e36b2807eacc7d7c5449211b1a32069224f036a",
+            "message": "Update InitialiseMapCommandTest.java",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "b09f6d2fe7a60f696a2f4e028ff11802addd040a",
+            "message": "Update app header and icon",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 204,
+        "deletions": 170,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "f2e2d5af18d1463cf4849a881f344ecc97befc61",
+            "message": "Fix MapGrid methods",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "14da839cf8ea1df3d749cd0e4539db69752c5915",
+            "message": "Update putShip and attackCell of MapGrid to throw ArrayIndexOutOfBounds exception",
+            "insertions": 14,
+            "deletions": 4
+          },
+          {
+            "hash": "4b19791d5d10832a018eebe541511d2ab053d494",
+            "message": "Fix updateUi",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4848276dc583c758ea79d6c64101c9ef1611cf51",
+            "message": "Refactoring of ModelManager",
+            "insertions": 13,
+            "deletions": 12
+          },
+          {
+            "hash": "6afb94d1b46cef759bddbb4ccd429ba501c8dfe5",
+            "message": "Update ModelManager.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "20b888132d17b9ca851514cfa2102b90b9604496",
+            "message": "Map UI cahnges",
+            "insertions": 30,
+            "deletions": 88
+          },
+          {
+            "hash": "2bda4eb63b712419fc8ef53a0e6f4a88400d5955",
+            "message": "Model: Refactor getMapGrid to getHumanMapGrid and add getEnemyMapGrid",
+            "insertions": 36,
+            "deletions": 26
+          },
+          {
+            "hash": "d7dd1c2b4794c43ede9f9ef88bd2a921a83e16ad",
+            "message": "Fix trailing whitespace in MapGrid",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3c291bb96ea34c455aeb11ef0380f825f43f811b",
+            "message": "Logic: Add getHumanMapGrid and getEnemyMapGrid",
+            "insertions": 15,
+            "deletions": 2
+          },
+          {
+            "hash": "cf763b7d778566420c2a44e5b84dc40ae0d95eaa",
+            "message": "MainWindow: Update to use the human and enemy map grids",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "6e898b628c3ac29233624865482df39930b2117f",
+            "message": "Revert: Map UI changes",
+            "insertions": 87,
+            "deletions": 30
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 1,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "7fc45b761c51ee0d526cd50e0e998cb4ac66060c",
+            "message": "InitialiseMapCommand: update to also initialise enemy map",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "7db47ab804900cebb700aaf0a52f065ba11c4d85",
+            "message": "Change minimum map size from 5 to 6",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 109,
+        "deletions": 60,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "0ddec6a7063e10213bfb992c691d976f04de60c0",
+            "message": "Add getEnemyMapView() in MapGrid",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "62cdf72c5f151dc4b0fd427914eeb4b80b43ea1a",
+            "message": "Update DG with Instructions for Manual Testing for InitialiseMapCommand",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "d897137a3e9755d7b0743d70bf70af837642aa54",
+            "message": "Update ObservableValue used by the Ui to listen for changes",
+            "insertions": 33,
+            "deletions": 9
+          },
+          {
+            "hash": "d2533a4c57538588102f75c8522662a85bc45270",
+            "message": "Add getPlayerMapView in MapGrid",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
+            "hash": "21919d65578d65bc98bea9819ec954af6164eae7",
+            "message": "Update Ui to make use of player and enemy view",
+            "insertions": 26,
+            "deletions": 48
+          },
+          {
+            "hash": "f81a92edc55d1b196265d7bed5c1682d15c62d79",
+            "message": "Clean up Map in Ui",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 59,
+        "deletions": 19,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "abd55a89fdc4010413dc964e0ce4e8571ff4cb64",
+            "message": "Update implementation of map feature",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "f230c0da8a3ded5b2ed5a156d10e3934750e6273",
+            "message": "Add initialise map sequence diagram",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "4dca13595c6e0ae450e1b77a69c00bb86facc4ab",
+            "message": "Update InitialiseMapCommand to reset fleet",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "67cac610c79bc01577668b0d45d2139e0f140f54",
+            "message": "Fix MapGrid comment",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "78ba034bc163d89e00c8608cccd05655204d84e3",
+            "message": "Update Cell to require non null battleship and coordinates",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "97902c3400a05a1a0c3102cdb1e3a3410f43a28e",
+            "message": "Update UG with map feature",
+            "insertions": 23,
+            "deletions": 2
+          },
+          {
+            "hash": "1ff945d32a69a588724d4d7dbfd3fbe60156534f",
+            "message": "Remove prefix for init map in UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9b77f5569cddc1e87eb38b35d42a954a7c6f2414",
+            "message": "Change Empty to Water in maplegend.png",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "86231088b91847078fab48daaa9932b622393130",
+            "message": "Add figure numbers in UG",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "07f77e4437bf35a7fba1eee22f02fb5a5133be9d",
+            "message": "Fix italics and sentences under Map in UG",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "7a0ea29f30749890c82586e84f1f35cb8bcfc85a",
+            "message": "Increase initmapresult.png size",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "iwle": [
@@ -810,22 +1076,181 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 193,
+        "deletions": 29,
         "date": "2019-02-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "977caae28ee70476f06e899217d665152e6f5e51",
+            "message": "Add getAllTags() method to Model component",
+            "insertions": 32,
+            "deletions": 0
+          },
+          {
+            "hash": "6cc826cdff74862974ac65c9f14538cede5bcdb5",
+            "message": "Add getTagName() method to Model component for Tag class",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "28264c0c59758c30bb8640b8095e730985b9b57b",
+            "message": "Add getAllTagsString() method to Model component",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "950e99494771da976bc021ad752a96c96ff14ccf",
+            "message": "Add ListTagsCommand class to Logic component",
+            "insertions": 28,
+            "deletions": 13
+          },
+          {
+            "hash": "a80b4b79e8800a94ee35152eb82cb6649ac005d2",
+            "message": "Remove extra newline in ModelManager.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "c2da0ae41eef68db334c3c08da2044b4522f55c6",
+            "message": "Add getAllTags(), getAllTagsString() error in AddCommandTest.java",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "741c989773a61f40bacd5ffc6f8d0d11837cfd34",
+            "message": "Add ListTagsCommandTest class to Logic component test",
+            "insertions": 64,
+            "deletions": 0
+          },
+          {
+            "hash": "b2d4f8d0117b38de6366522bcb6fe6af885abf57",
+            "message": "Fix code style",
+            "insertions": 17,
+            "deletions": 5
+          },
+          {
+            "hash": "d4ee4f1582cbc2ee639e15a6a8976eede34fa121",
+            "message": "Fix code style",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a5733f77a55010b1993458663c4b72f563f2c937",
+            "message": "Fix code style",
+            "insertions": 16,
+            "deletions": 9
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 244,
+        "deletions": 87,
         "date": "2019-02-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3807f7bcd927c37ec2027168cd8f7f57ee742c46",
+            "message": "Fix code style",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "5846daaa8543045f70236b47c3e748cce2856fb7",
+            "message": "Add removeTag() method to Model component",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "4ac15d4efef5f93b97ae228156cd17780d61f702",
+            "message": "Add test for removeTag() method to test Model component",
+            "insertions": 18,
+            "deletions": 1
+          },
+          {
+            "hash": "e408f5ed90345f62335f24ecf13d45dd2db16ead",
+            "message": "Add deleteTag() method to Model component",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "8608c5725b20176c6b990d6c96dfebc019078936",
+            "message": "Add test for deleteTag() method to test Model component",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "2d70ec301dbf8531b809acce586240e2072b3aac",
+            "message": "Update ContactUs.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8bc59f7afd28a0be30a2c7ebbcc7254280a0b0df",
+            "message": "Update AboutUs.adoc",
+            "insertions": 13,
+            "deletions": 14
+          },
+          {
+            "hash": "97a54af77901ffd7e6f737fe1b8d8d3edcf39d97",
+            "message": "Update AboutUs.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "45139045dfc8f5c11e19f6e1d66eee6dc9f4d0a9",
+            "message": "Update UserGuide.adoc",
+            "insertions": 116,
+            "deletions": 47
+          },
+          {
+            "hash": "38a63c0a82f88885197a645036f0988ab4552446",
+            "message": "Update AboutUs.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5b36fc38098a2142a9bfc53895f4bcfb2d849362",
+            "message": "Update AboutUs.adoc",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "324e0594b81dcecc98214a4bb790728122bf65b8",
+            "message": "Add countTags() method to Model component",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "9fd8d9abb2fefdccda1a0123e0a9a9516187c62f",
+            "message": "Add countTags() error in AddCommandTest.java",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "792f63190c0bdc32369ebbba746d2c43b5c367bb",
+            "message": "Add test for countTags() method to test Model component",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "0ac6f2d7d1bfd0d04e090f961343308f88103911",
+            "message": "Update test for countTags() method to test Model component",
+            "insertions": 1,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 2,
         "date": "2019-02-20",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f7b05bfbe96cfc2b6a09d84348766896b419d8c8",
+            "message": "Update UserGuide.adoc",
+            "insertions": 4,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -864,16 +1289,108 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 159,
+        "deletions": 33,
         "date": "2019-02-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d7ac0fca9fe193ed57f7d1ab24e0a9f0f1607663",
+            "message": "Create Battleship.java",
+            "insertions": 123,
+            "deletions": 0
+          },
+          {
+            "hash": "57bfabec405f82e0cd690d98e05eda4f3304aa78",
+            "message": "Move and refactor Name.java to battleship package",
+            "insertions": 24,
+            "deletions": 21
+          },
+          {
+            "hash": "4de576c7c39f791830df33befcc2ba6164875aca",
+            "message": "Fix checkstyle issues",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "017c9c7411d362b3bee7770f923b1bbbe1c5aa4d",
+            "message": "Update comments in Battleship.java",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 287,
+        "deletions": 107,
         "date": "2019-02-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "910adf487e3e7aebb032a9d5e1dad566b2ebc28e",
+            "message": "Create Coordinate.java",
+            "insertions": 64,
+            "deletions": 0
+          },
+          {
+            "hash": "e3d35063542dca7208a6af63341afab25808b3e6",
+            "message": "Add test for Coordinate.java",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "d58c297ad068c4b9669b1f0373c67c62108754bd",
+            "message": "Update Battleship.java constructors",
+            "insertions": 84,
+            "deletions": 4
+          },
+          {
+            "hash": "62323a39fa1dedb2e2f7ae95c4a9a4b55eb1bac8",
+            "message": "Fix typo in test Coordinate.java",
+            "insertions": 1,
+            "deletions": 55
+          },
+          {
+            "hash": "cd956ed7233bd26cf8577bf19c452ce417df774a",
+            "message": "Update Coordinate.java to extract row, col as string",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "1ade88502ee5fa9c5cf1135adac45760b5857f5d",
+            "message": "Update Coordinate.java to extract row, col as string",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "b3ea84cbef588f87afb79dad0d12ba2aa304b9c7",
+            "message": "Update Coordinate.java with getter for row, col",
+            "insertions": 38,
+            "deletions": 6
+          },
+          {
+            "hash": "94c75fa2ee88002d0b472476c3cbbbddbc3d0cd4",
+            "message": "Fix typo in Coordinate.java",
+            "insertions": 0,
+            "deletions": 13
+          },
+          {
+            "hash": "01441ad482fa81b813a998a698276dc99a0cdc9d",
+            "message": "Refactor rename Coordinate to Coordinates",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "510e713232e880c32f8cd4bcfaf3ca5b429983e8",
+            "message": "Refactor rename Coordinate to Coordinates in ParseUtil.java",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "1dc511cc3ceb8909d5658058bafb3533ce10f191",
+            "message": "Update Coordinates.java from zero- to one-based Index",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -882,16 +1399,108 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 22,
+        "deletions": 5,
         "date": "2019-03-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "956b9503d6d9b4cfcf48388a8a8e47c387ee23ad",
+            "message": "Update Battleship.java to include reduceLife and isDestroyed methods",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
+            "hash": "23ada34f1dc0d37afd81b8d3bd1eef0b1f1727b8",
+            "message": "Move and refactor Coordinates.java from person to cell",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "faa65a8dc8fa203e9a98d5291499cbee9f667632",
+            "message": "Move and refactor Coordinates.java from person to cell",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 404,
+        "deletions": 34,
         "date": "2019-03-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a302b6acc2c78bf799fcd29dfe2997acf6c1fa3c",
+            "message": "Add test case to CoordinatesTest.java",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "78e6b7528ea83602ba25ba70e45949b893d6dad9",
+            "message": "Add invalid test cases for Coordinates in ParserUtilTest.java",
+            "insertions": 36,
+            "deletions": 0
+          },
+          {
+            "hash": "0364d9f89e83b2aa860d7db45cd5059ba4393cc4",
+            "message": "Update Coordinates.java to rectify problem in regex matching",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "b2da71e52265d9d6a8da2ff11ec86fe2c4dc109b",
+            "message": "Update test cases in CoordinatesTest.java",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "c41d8a72a2732062544b57a3409d8812d85b2b9d",
+            "message": "Add valid test cases for Coordinates in ParserUtilTest.java",
+            "insertions": 21,
+            "deletions": 5
+          },
+          {
+            "hash": "5587d39ee235be1acd7b3e488495946a51b0849d",
+            "message": "Remove trailing whitespace on Line 55",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3c7afaaa7c9b708fdfe50fbc1cf24674fd620764",
+            "message": "Create PutShipCommand",
+            "insertions": 289,
+            "deletions": 0
+          },
+          {
+            "hash": "cae5715d6993185f0678d69890022e3dfb597fc8",
+            "message": "Rename PREFIX_COORDINATE to PREFIX_COORDINATES",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "e3578a4cf8d74eeb38a4e9234d30fd156774968a",
+            "message": "Update comments in PutShipCommand.java and PutShipCommandParser.java",
+            "insertions": 5,
+            "deletions": 11
+          },
+          {
+            "hash": "b8b95875432a4c4fe5743da8651edcb861920e1c",
+            "message": "Update PutShipCommand to check for ship",
+            "insertions": 15,
+            "deletions": 3
+          },
+          {
+            "hash": "51a27fdc3ad7f5bab6bf241a3a42fa2094d287d4",
+            "message": "Update Cell to show name of ship in cell",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "70ee07f18483411241bf83d6a57e4cdc018863a4",
+            "message": "Update code style in PutShipCommand.java",
+            "insertions": 6,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -900,10 +1509,107 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 248,
+        "deletions": 67,
         "date": "2019-03-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f994c7148a4320bc85a83a4f09665e18c4aa552c",
+            "message": "Update Coordinates.java and CoordinatesTest.java",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "e57c8dce53298c8be9635e164baf00535a9cd75f",
+            "message": "Update MapGrid.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5343d76bdf8c8ef5b3ba763320818de234586d61",
+            "message": "Update PutShipCommandParser.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fa0d660dc8f4c632e5cadc9a1835698d1c2590a0",
+            "message": "Update PutShipCommand",
+            "insertions": 36,
+            "deletions": 27
+          },
+          {
+            "hash": "1781ab12b59d83c4291234708a18fac9ecb6d4b6",
+            "message": "Update PutShipCommand.java",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "91a0f54a390e0acc043d1e02c86b8db8b6bec28d",
+            "message": "Update PutShipCommandParser.java",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "bdcffee89674500aa936a026830d5ecf7fd8f71e",
+            "message": "Update PutShipCommand",
+            "insertions": 4,
+            "deletions": 11
+          },
+          {
+            "hash": "70fff797b779a488c2b842b27db5dfea322d4a8c",
+            "message": "Remove cell.setPerson() method from PutShipCommand",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "ba3325aaeb45cf745845cfe10a6cd242f4287a4a",
+            "message": "Update CommandTestUtil.java to test PutShipCommand",
+            "insertions": 15,
+            "deletions": 3
+          },
+          {
+            "hash": "208b26715e679249665a810b48991299af3fd56a",
+            "message": "Add test for PutShipCommandParser",
+            "insertions": 83,
+            "deletions": 0
+          },
+          {
+            "hash": "4fccc0a36012257666a667a359d9aaced251c5dd",
+            "message": "Update TypicalIndexes.java to include coordinates",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "5b04a9f6043d081f552807dabf88ef341fdcaa9b",
+            "message": "Add test for PutShipCommand",
+            "insertions": 62,
+            "deletions": 0
+          },
+          {
+            "hash": "0956ae83f53869a22293b5765620a7299a5b442f",
+            "message": "Fix code style",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "79bf85a9fd4d71593544474079568e4b32da60a8",
+            "message": "Add \u0027Put Battleship\u0027 user stories",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "e75c709d1adef37c358d6a0c312d99879ac809f4",
+            "message": "Add \u0027Put Battleship\u0027 use case to Developer Guide",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "f575bf7d997d34a44fafe3141af50b42cb8dc399",
+            "message": "Update \u0027Put Battleship\u0027 in User Guide",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -924,16 +1630,144 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 160,
+        "deletions": 31,
         "date": "2019-03-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2645c5b6584eff8854bb4bd18454fb5c15de6c04",
+            "message": "Move CoordinatesTest.java to battleship package",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "048348818be208bb36fef01109771825af49be61",
+            "message": "Update Battleship.java with constructors and tests",
+            "insertions": 71,
+            "deletions": 4
+          },
+          {
+            "hash": "056254266a48dc2f40ee991fbe4d2a1878fa1a2b",
+            "message": "Update Battleship.java and tests",
+            "insertions": 16,
+            "deletions": 4
+          },
+          {
+            "hash": "44ad6d917a2b26e54a5c12a57e5dc1581b7a6a66",
+            "message": "Update PutShipCommand to work with row, col",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "ca6cabc792d5ea00f12a97e19f276b59b9d147f0",
+            "message": "Update PutShipCommand to get cell from map grid",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "55929c3ee4c92cd1b2e4b1898ca73dc6da62395e",
+            "message": "Update TypicalIndexes.java to include max map size",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "3f94d07bb3147200bc3efe77661300346436ba2d",
+            "message": "Update test for PutShipCommand",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "d8049bf0f42a840f4169c08c84a0efcfca0192c4",
+            "message": "Refactor PutShipCommand",
+            "insertions": 19,
+            "deletions": 10
+          },
+          {
+            "hash": "ad8fb505b007df7f90c765794519a5aa24a38790",
+            "message": "Remove MESSAGE_DUPLICATE_PERSON message",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "527f9dd920cc83fa96f26ed87175725f0173c008",
+            "message": "Update constructor for PutShipCommand in PutShipCommandParser",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "883db54ae6e3fede6ba01f8263eb6ca731fbbeac",
+            "message": "Add boundary check for battleship length",
+            "insertions": 20,
+            "deletions": 2
+          },
+          {
+            "hash": "e1969890d05b1fbb703e6949cfaf54672cf33a14",
+            "message": "Add check for battleship along vertical length",
+            "insertions": 22,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 117,
+        "deletions": 8,
         "date": "2019-03-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f9880313ca2d180ac069168ec9fb1691cdc53db2",
+            "message": "Add check for battleship along horizontal length",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "5f0f4b709a98072df97f39ea23c8491db3080cd8",
+            "message": "Update JavaDoc comments for new methods",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "8447ad7f21ba9a63f57cffae19211c5d1d0f9d0e",
+            "message": "Update test for PutShipCommand",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "8f78d56e85160e246546b92468e25b60a1d3a82d",
+            "message": "Add putAlongHorizontal() method in PutShipCommand",
+            "insertions": 29,
+            "deletions": 1
+          },
+          {
+            "hash": "500d477bf33b489189b72ccc7b97fa1af340548b",
+            "message": "Update TypicalIndexes.java",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "84ac725e0aa37649e37358271adc800037d13372",
+            "message": "Update test for PutShipCommand",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "a0d8c232ef639b96bc87e6d0aeba3afcb5e4387a",
+            "message": "Add putAlongVertical() method in PutShipCommand",
+            "insertions": 24,
+            "deletions": 0
+          },
+          {
+            "hash": "fdd27b04faec547c905ce6b886db7c2a8d18e871",
+            "message": "Update TypicalIndexes.java",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "d1e5b2ebc68062981b070c72714e2851fcfc9523",
+            "message": "Update test for PutShipCommand",
+            "insertions": 13,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -942,28 +1776,176 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 166,
+        "deletions": 29,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b8069955ac0cd42b195b7f426b58a1ad73f629d5",
+            "message": "Fix bug in boundary checking for head and body",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "be5c1501ec672d3f6f8cbff5d629a62b3123016d",
+            "message": "Fix typo in PutShipCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "959e726e8f69845bb39895ee324707427c522741",
+            "message": "Fix bug in PutShipCommand",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "a78c156398ea31cfae13120012b7b32524329506",
+            "message": "Add Orientation class",
+            "insertions": 85,
+            "deletions": 0
+          },
+          {
+            "hash": "e97c6407525439ef0bd987f2502dad6adb514495",
+            "message": "Add prefix for Orientation",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7585308bd2d89dafdd828e5dfb223a82721c6a0a",
+            "message": "Update ParserUtil.java to check for orientation",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "78aac47d59f440c8cc5ff10a778092af11b93ac4",
+            "message": "Update PutShipCommand to accept orientation",
+            "insertions": 23,
+            "deletions": 7
+          },
+          {
+            "hash": "045c95dc04b58ba775710782a97168eac585cb9c",
+            "message": "Update tests for PutShipCommand",
+            "insertions": 33,
+            "deletions": 13
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 10,
+        "deletions": 3,
         "date": "2019-03-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3a8dc06ef2a85c4b54add5ef6f390cb342b9b3c3",
+            "message": "Add code coverage badge using Coveralls",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "0a1efd120e6cfc2e9dd7d68e087b8fe8f8f96ab6",
+            "message": "Update User Guide",
+            "insertions": 6,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 74,
+        "deletions": 29,
         "date": "2019-03-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5682add7efa39b78b8af2d2bb2dca91cd2e6197a",
+            "message": "Update out-of-bounds checks in PutShipCommand",
+            "insertions": 74,
+            "deletions": 29
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 401,
+        "deletions": 223,
         "date": "2019-03-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5ef7e5f504de3156172548ee6cc389212e05ffbb",
+            "message": "Update tests for PutShipCommand",
+            "insertions": 100,
+            "deletions": 22
+          },
+          {
+            "hash": "7b8afcbb1f416fe2d5621673c81e8674b24dfb34",
+            "message": "Update tests for Battleship",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "b0fb139ae3d2701a6e1a73ebd9d5a96cf4383d48",
+            "message": "Add new Battleship types",
+            "insertions": 57,
+            "deletions": 0
+          },
+          {
+            "hash": "8928709e3bb7c67ee90d32f57109e07edc4db394",
+            "message": "Update test for Battleship",
+            "insertions": 13,
+            "deletions": 14
+          },
+          {
+            "hash": "a785f3f3e5f64361ba3c8e8de6762b38f3f64592",
+            "message": "Update Battleship",
+            "insertions": 25,
+            "deletions": 17
+          },
+          {
+            "hash": "a9f1edcd403447605a9200a78f2730b9bab719f6",
+            "message": "Update tests for Battleship",
+            "insertions": 18,
+            "deletions": 8
+          },
+          {
+            "hash": "cab041e646bad0cbd89156f1b4ae9957ea1cac14",
+            "message": "Update Orientation class",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "1c188a52b22c23994dabea72c381c05d48de1cbc",
+            "message": "Update tests for Orientation class",
+            "insertions": 74,
+            "deletions": 4
+          },
+          {
+            "hash": "2a75f337fc0b554d09a9d7c61309831a11762700",
+            "message": "Update ParserUtil",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "fcb138bfaed74a96ffada5f03290cf5380d4a58c",
+            "message": "Update tests for ParserUtil",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "1effa89d7ced0cd88d84182dba2d35ac0e3b9763",
+            "message": "Update PutShipCommand for new Battleship types",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "e232761f1b2cb4c02a3ca12a20ebc361355fce85",
+            "message": "Remove redundant code from PutShipCommand",
+            "insertions": 0,
+            "deletions": 143
+          },
+          {
+            "hash": "0d8ffbf151c29566e1ce9c2e34e7131da50da3f9",
+            "message": "Update tests for PutShipCommand",
+            "insertions": 20,
+            "deletions": 12
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -972,16 +1954,422 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 637,
+        "deletions": 221,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "722fd7b1e032738dc3e4d096208d637a5fceddab",
+            "message": "Fix toString() bug in  Battleship",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "c8ce984631dbefd3f410300d6332063828213394",
+            "message": "Update tests for Battleship",
+            "insertions": 41,
+            "deletions": 0
+          },
+          {
+            "hash": "85ea9bc7bd920726cd739304abe9061ed4ddfdf9",
+            "message": "Update Fleet to include types of battleship",
+            "insertions": 258,
+            "deletions": 45
+          },
+          {
+            "hash": "45c1a340375a8cf48bdb4593530e90313293d06c",
+            "message": "Add test for Enemy",
+            "insertions": 52,
+            "deletions": 8
+          },
+          {
+            "hash": "8ac2a83397c36f5c7fdb719dc446248ef2176914",
+            "message": "Update PutShipCommand",
+            "insertions": 53,
+            "deletions": 51
+          },
+          {
+            "hash": "8a6bbf404d3e37794ed2136e8c11eea9209e9905",
+            "message": "Move fleet to ModelManager",
+            "insertions": 106,
+            "deletions": 54
+          },
+          {
+            "hash": "2cb274d9bded5dd9f1c4167d6fcc9d42b9abbeda",
+            "message": "Update tests for PutShipCommand",
+            "insertions": 91,
+            "deletions": 24
+          },
+          {
+            "hash": "fd28528afb433d56186eb7f2cec9b3f80af61e28",
+            "message": "Update tests for Fleet",
+            "insertions": 35,
+            "deletions": 37
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 135,
+        "deletions": 42,
         "date": "2019-03-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "075979cb236748c24a476976f4d523bf5fba33de",
+            "message": "Update Fleet and FleetTest",
+            "insertions": 110,
+            "deletions": 33
+          },
+          {
+            "hash": "b3eb3c12a2dfee08486567c4f0d9c93107837695",
+            "message": "Update ListCommand",
+            "insertions": 24,
+            "deletions": 7
+          },
+          {
+            "hash": "dec48ba90462f27d3f555310057e5b45b2187d69",
+            "message": "Remove unused import in FleetTest",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "19fe4d0aa442c4d8cd377bf2842fae0006d6c4f5",
+            "message": "Update LogicManagerTest",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 26,
+        "deletions": 4,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "1d6d7a7cfda1cc774ca2f18f1902403b8343a818",
+            "message": "Update UserGuide",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "7f189610548c05ded3cf0dd2ed73f5b3045f9cab",
+            "message": "Update DeveloperGuide",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "c25fa4116bdbadaa8cee26d163547b0c1ed35f8c",
+            "message": "Update DeveloperGuide",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 85,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "c0f32ad371f12b127774b72ae1f12a29a9e0c045",
+            "message": "Update RepoSense",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "48a459c8541d3353766e323bdaa7724fbeab15a8",
+            "message": "Update Fleet to fix bug #170",
+            "insertions": 18,
+            "deletions": 45
+          },
+          {
+            "hash": "3f40811d7bc003a4b287fa6373646901c310272d",
+            "message": "Update UserGuide",
+            "insertions": 0,
+            "deletions": 40
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "f1f1430e8cb8ac7f8e2afbe4c8371ec968b8f15f",
+            "message": "Update User Guide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 342,
+        "deletions": 157,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "74b52479a66ff06cecc370e3f56744b5333f46ee",
+            "message": "Add BoundaryValueChecker",
+            "insertions": 149,
+            "deletions": 0
+          },
+          {
+            "hash": "badcbba266d1e4fdee1201e7c3b979bac6b64331",
+            "message": "Update BoundaryValueChecker",
+            "insertions": 24,
+            "deletions": 4
+          },
+          {
+            "hash": "b6130332cd83a5a6d707bd1db5ca27edf23fd733",
+            "message": "Add tests for BoundaryValueChecker",
+            "insertions": 139,
+            "deletions": 0
+          },
+          {
+            "hash": "e6f3504e51b6e53d826c875a824144ea202e1768",
+            "message": "Update MESSAGE_USAGE for PutShipCommand",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "c027fce91aced428cc9db1a982f5a6e6e1858280",
+            "message": "Update PutShipCommand to use BoundaryValueChecker",
+            "insertions": 22,
+            "deletions": 148
+          },
+          {
+            "hash": "a7ef3ba2b72fffca114e1bbe4cc813da8aefb5df",
+            "message": "Update PutShipCommand",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "a3f9bbfe22a354937533872b522f7aff2d8c9f51",
+            "message": "Remove trailing whitespace in PutShipCommand",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 14,
+        "deletions": 15,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "6f69d1c35b8f0de4617d17af2618ed8d764fba51",
+            "message": "Update PutShipCommand",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "678f64bf3ca0e68b676a1aa49285758e8279f383",
+            "message": "Update BoundaryValueCheckerTest",
+            "insertions": 13,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 341,
+        "deletions": 228,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "5c5f23f3db5d568c625797b2b827db21b1c69dc9",
+            "message": "Add support for tagging Battleship",
+            "insertions": 41,
+            "deletions": 41
+          },
+          {
+            "hash": "b34e41fc9290ef8754621d9865609614ade10c5f",
+            "message": "Update tests to include tagging",
+            "insertions": 55,
+            "deletions": 35
+          },
+          {
+            "hash": "6a80bfb3dc4030041df3aea6647742f5bb757a2b",
+            "message": "Remove redundant MESSAGE_SUCCESS string",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "de531cbfc7b8b0301d8a647742f8692211e28361",
+            "message": "Update toString method of Fleet, Battleship",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "0ef4bd29b1d1102fa588124ab239b923e9e1dfa0",
+            "message": "Fix style issues",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "673af8e3d142a187a15c43fb6627927c3f2a978a",
+            "message": "Update PutShipCommandParser to fix bug",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "a293ca49bc0feadbf59e047996f107cb0451f66f",
+            "message": "Update ListTagsCommand and tests",
+            "insertions": 20,
+            "deletions": 93
+          },
+          {
+            "hash": "d5c8d5596c62f648c38449477f0e3169c789bd43",
+            "message": "Update test for ListTagsCommand",
+            "insertions": 35,
+            "deletions": 17
+          },
+          {
+            "hash": "21e3f55e520a369b0b9bcd50dd46af4d101e61ef",
+            "message": "Remove unused import from ModelManager",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "9ee1b5cd081257932f75c6482f1daf792a81367c",
+            "message": "Remove unused import in Model",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "3dddf89bcaa79d30c69b97a77e09b6294886a25c",
+            "message": "Update Coordinates",
+            "insertions": 23,
+            "deletions": 9
+          },
+          {
+            "hash": "ab22ea446efff54674222b8387e0c484d196bb9f",
+            "message": "Update PutShipCommand",
+            "insertions": 24,
+            "deletions": 5
+          },
+          {
+            "hash": "e9b10253e5f01b6ccba0dc0944733b82c99372d4",
+            "message": "Update Fleet",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "e714c9f0ecc94dbdcbbd02b3115659dde7fed9fa",
+            "message": "Update ListCommand to support tagging",
+            "insertions": 71,
+            "deletions": 5
+          },
+          {
+            "hash": "5f89a0cbf08d9cdd5557ee6ea77400326d017b1f",
+            "message": "Add newline to Coordinates",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "fdaef7b448877139b369ba44b8fb9c7c3bd64613",
+            "message": "Update tests for ListCommand, Coordinates",
+            "insertions": 34,
+            "deletions": 3
+          },
+          {
+            "hash": "e73e52b0e87aeebd3511c102a2eefaabf6050ea1",
+            "message": "Update RepoSense configuration file",
+            "insertions": 6,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 85,
+        "deletions": 74,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "442cdf3013bdab38555b1c66d69fda68b8af4c6e",
+            "message": "Update Fleet",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "2dfb9057980b9fd09aaa4eb1bc202803946e6d02",
+            "message": "Update test for Fleet",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "5490bb132bb9e7af4775633346ff6d78dd290a4b",
+            "message": "Update RepoSense configuration file",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "57225f1b31d3d936513730642d751948a06bd505",
+            "message": "Update Fleet with new constructor",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "1e42603e4f509b5427fcb0ece3a9438a81ee2331",
+            "message": "Refactor PutShipCommand and MapGrid",
+            "insertions": 31,
+            "deletions": 64
+          },
+          {
+            "hash": "f3feffbfc1d04a545523fcd1692fdf13cbffefb7",
+            "message": "Update test for MapGrid",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "f6ccb0ca529877b9e5a03c5773bfcb06971672d7",
+            "message": "Fix errors in style",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 151,
+        "deletions": 132,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "635338189efccce332be449789ce335111331c39",
+            "message": "Update Fleet",
+            "insertions": 110,
+            "deletions": 1
+          },
+          {
+            "hash": "833512f386cc613c1702ef7d19a378e52cfa8d7a",
+            "message": "Add image for ListCommand documentation",
+            "insertions": 0,
+            "deletions": 109
+          },
+          {
+            "hash": "d6834b5fd16051ea59c9ce2303e8a7a05a42dcef",
+            "message": "Update UG for PutShipCommand",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "3a41a7f08dcc827838740f0e94fe3da93038c2a6",
+            "message": "Update UG for ListCommand",
+            "insertions": 6,
+            "deletions": 12
+          },
+          {
+            "hash": "040ef2d79da2cb8e788fea8dfa4c76b00e96c5fa",
+            "message": "Update documentation for ListCommand",
+            "insertions": 11,
+            "deletions": 3
+          },
+          {
+            "hash": "57667e8051ad71ebf053425680b8eab5f3f62be5",
+            "message": "Update documentation for ListTagsCommand",
+            "insertions": 5,
+            "deletions": 7
+          }
+        ]
       }
     ],
     "lucydotc": [
@@ -1261,6 +2649,79 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 44,
+        "deletions": 48,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "02c1e70e84d23b96a480d23f056b0ade24655957",
+            "message": "Add attribute attackStatusHistory hashmap in Enemy.",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "8dc7dceafd0c98895e16269190cc8d41b8ef4ecc",
+            "message": "Improve algorithm for enemyShootAt()",
+            "insertions": 29,
+            "deletions": 16
+          },
+          {
+            "hash": "a95f27df2ee1eee59a0c7fe7307340ce4eaae0ff",
+            "message": "Update PutShipCommand example message with orientation",
+            "insertions": 8,
+            "deletions": 23
+          },
+          {
+            "hash": "9eec64e8c75490aeb917512080d200515c2f5cdb",
+            "message": "Revert \"Update PutShipCommand example message with orientation\"",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -1547,8 +3008,8 @@
         "commitResults": []
       },
       {
-        "insertions": 286,
-        "deletions": 56,
+        "insertions": 310,
+        "deletions": 57,
         "date": "2019-03-18",
         "commitResults": [
           {
@@ -1574,6 +3035,12 @@
             "message": "fixed checkstyle errors",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "0313679d8a2c7526540494c43d020423efb8e643",
+            "message": "setup StatsPane to display on ui",
+            "insertions": 12,
+            "deletions": 0
           },
           {
             "hash": "1e997111e4b540b2773dce87085cc2666abc7cf8",
@@ -1664,8 +3131,179 @@
             "message": "fixed testing for elapsedtime",
             "insertions": 14,
             "deletions": 16
+          },
+          {
+            "hash": "08b2bb5a86d902a6d72c3c238ab34bf39cede982",
+            "message": "added files for Stats Display on UI",
+            "insertions": 12,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 229,
+        "deletions": 108,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "13bae66abf54314df8cc67ce5e9653d36f82a107",
+            "message": "using StatusBarFooter to initialize the statsPane",
+            "insertions": 30,
+            "deletions": 4
+          },
+          {
+            "hash": "ec464ff05dedac396b3e5956235702c496eb95e9",
+            "message": "2nd update to my stats pane",
+            "insertions": 83,
+            "deletions": 16
+          },
+          {
+            "hash": "439c4479fd94bf19ba0fbe9973cc85b486b765f7",
+            "message": "fixed exit error",
+            "insertions": 29,
+            "deletions": 29
+          },
+          {
+            "hash": "5d2fda6827d5ea2edc4081e3f0685421f87dbc2d",
+            "message": "Initialized PlayerStatistics in Model and disabled StatsPane",
+            "insertions": 50,
+            "deletions": 20
+          },
+          {
+            "hash": "0aec68470054d3868a538fe07bf2b18e2c2d7f62",
+            "message": "Fixed checkstyle",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "5cfbdf8159eb9bf1c41f8bb26f34f48125ba14f8",
+            "message": "Fixed Checkstyle",
+            "insertions": 22,
+            "deletions": 37
+          },
+          {
+            "hash": "e2bef8d67c1b6cc2af9511853b1221f3ea6e261b",
+            "message": "Updated Developer Guide\"",
+            "insertions": 12,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 122,
+        "deletions": 51,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "52b22b2c36ca803a89573583807bc1905922c79d",
+            "message": "Disabled Stats Pane for now",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "b78cbec6eccf7fe34091f1ddece9f4eba7b1a428",
+            "message": "Moved entire stats dir from Logic to Model",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "886d505f454726a2a47fd2b9714fff92b683089f",
+            "message": "Added stats method to track from CommandResult in Logic Modified StatsCommand to call directly from Statistics Class",
+            "insertions": 52,
+            "deletions": 22
+          },
+          {
+            "hash": "e435f3031f08a764e628cf45a58d4d77358b5a88",
+            "message": "Made Stats attributes class attributes",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "1b3a9cda6302add3ccd0d980bd18540ea0783f15",
+            "message": "Initialized StatisticView files for the pop-up window",
+            "insertions": 54,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 218,
+        "deletions": 456,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "06cf8ac3574a4b01c0ba060f91bc6c01515686a8",
+            "message": "stats Command will now display a pop-up window",
+            "insertions": 103,
+            "deletions": 24
+          },
+          {
+            "hash": "a90f7122955232dd3bee3289039ede74699856b7",
+            "message": "Updated logo of stats pop-up window",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "3d473f6be2285ed6dee899855af0f278f00c0adc",
+            "message": "Rectified Checkstyle errors",
+            "insertions": 45,
+            "deletions": 14
+          },
+          {
+            "hash": "74fdbbb13a45e489ac2a2c4774f66e1725a12d1b",
+            "message": "Will update tests in next PR",
+            "insertions": 18,
+            "deletions": 17
+          },
+          {
+            "hash": "b7759812c24e3cab74d017952a67251a6733a522",
+            "message": "Rectified Checkstyle, commented out relevant tests",
+            "insertions": 18,
+            "deletions": 18
+          },
+          {
+            "hash": "61b201443aa1a2923dbb0d69d5b5e3553976bc82",
+            "message": "Messed up some conflict merging i hope this goes well.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "4ae220cecb4436eb9621a2f59d43a68c20239d0d",
+            "message": "Clean up Developer Guide prep for edit",
+            "insertions": 32,
+            "deletions": 377
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "s-tr": [
@@ -2182,22 +3820,152 @@
             "deletions": 10
           }
         ]
+      },
+      {
+        "insertions": 12,
+        "deletions": 2,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "5dd6365e1806470b10697f64f056c86c3805f8db",
+            "message": "Add behaviour for AttackCommand",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "050c1a79998a4af8a14d1873e0ff7d39e8e251a6",
+            "message": "Add error checking for AttackCommand",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 104,
+        "deletions": 50,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "3feae7c95aa3134aeba7f46f9959ddac8074a35c",
+            "message": "Put BattleManager into Model",
+            "insertions": 85,
+            "deletions": 33
+          },
+          {
+            "hash": "6ba9f24ae25dec9dc6ee0fd937b2ee6d62bdc22c",
+            "message": "Change Fleet, MapGrid in Model to be stored in Player instead",
+            "insertions": 19,
+            "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 202,
+        "deletions": 19,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "ac57c6f49999254d46dcd542775409a7163c395c",
+            "message": "Add BattleState class",
+            "insertions": 142,
+            "deletions": 12
+          },
+          {
+            "hash": "358dc6875509d6e338ce031ac0263c0fd4117ffa",
+            "message": "Add state-based execution permission mechanism to Command",
+            "insertions": 27,
+            "deletions": 1
+          },
+          {
+            "hash": "2b57e9d3581c09f70b0bc473fc45a25752e8406e",
+            "message": "Add battle state checking logic to AttackCommand",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "fe1ff76f455ffb93feff385c8f060c63ee4d7468",
+            "message": "Add detail to comments in Command",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "a40ad21495bea8c0f5a1a77d6026947c58f5c652",
+            "message": "Add detail to comments in Command",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "39abd55384499465ee55582a75d8dabdd2fa6144",
+            "message": "Add null checks in BattleManager and AttackCommand",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "833d821eae548e958eb11f421b6d787278819d34",
+            "message": "Add setter and test for ModelManager",
+            "insertions": 10,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 7,
+        "deletions": 2,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "6561372a593ed9e3363770195ee8f2e8e2fffe9c",
+            "message": "Modify spelling in AttackResult",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b8f12b63795dc319822b4b426b796c5924cf73be",
+            "message": "Add hashCode() to Index",
+            "insertions": 6,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1807,
-    "iwle": 0,
-    "lucydotc": 238,
-    "bos10": 263,
-    "s-tr": 621
+    "erjillsison": 1914,
+    "iwle": 2675,
+    "lucydotc": 246,
+    "bos10": 626,
+    "s-tr": 859
   },
   "authorContributionVariance": {
-    "erjillsison": 264785.9,
-    "iwle": 0.0,
-    "lucydotc": 1313.9885,
-    "bos10": 3390.5376,
-    "s-tr": 3002.592
+    "erjillsison": 221665.33,
+    "iwle": 40458.42,
+    "lucydotc": 1246.6497,
+    "bos10": 15072.107,
+    "s-tr": 3716.125
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

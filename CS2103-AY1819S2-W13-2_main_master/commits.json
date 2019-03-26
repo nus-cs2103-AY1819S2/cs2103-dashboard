@@ -222,6 +222,24 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
       }
     ],
     "A0143487X-Kevin": [
@@ -509,6 +527,81 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 188,
+        "deletions": 5,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "6f6940e658ec0328c8109446054307b8c62e44d6",
+            "message": "Export Command Implemented, merged conflicts",
+            "insertions": 167,
+            "deletions": 0
+          },
+          {
+            "hash": "6cb5834e692079f61a5181781fe284daacaea02b",
+            "message": "Change directory name and update Developer Guide",
+            "insertions": 14,
+            "deletions": 5
+          },
+          {
+            "hash": "969f3a65e0a88386e8e9fa06290945ed0eecdc68",
+            "message": "Add stub function assertion",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "0e38c31e6dd39ca6ee7582d02cf7c7d19cc57cd3",
+            "message": "Update Seq Diagram",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 642,
+        "deletions": 2,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "08e999e5919e86110ec4022c2124b0781a183952",
+            "message": "Implemented Mode and Mode change command function",
+            "insertions": 642,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 252,
+        "deletions": 410,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "c46d3f0f285ff5011be53e5e534af7231a3c5e63",
+            "message": "Change all existing functions to be of 3 types General / Member / Activity Command Added InvalidCommandModeException",
+            "insertions": 239,
+            "deletions": 30
+          },
+          {
+            "hash": "4181000998538da426bfe40602c9853ff8d2ccea",
+            "message": "Remove temp file",
+            "insertions": 0,
+            "deletions": 372
+          },
+          {
+            "hash": "68b7f60d094dbc9fb8c8b5e49edded4d0e3016c9",
+            "message": "Change message format",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "f28bc2d8ee8e8f11f749e7082e63a05744e700c6",
+            "message": "Resolve checkstyle error",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "ivyyangyq": [
@@ -746,10 +839,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 243,
+        "deletions": 12,
         "date": "2019-03-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b017fdb001ee5d8231f1fa8a0c2d2bd405ba5f28",
+            "message": "Add ActivityAddCommand and update parser for this command.",
+            "insertions": 166,
+            "deletions": 0
+          },
+          {
+            "hash": "9968ce9e27a16d1d3a35388ac2a959aeaef65704",
+            "message": "Formated message usage.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "cf64f290aa3bfee1b03c752608e9d95dd82b6fa6",
+            "message": "fix checkstyle errors",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "dcc3ce9cfa5216b74e9a73e694eea00dbe712faf",
+            "message": "modified ParserUtilTest and added activityAdd related tests",
+            "insertions": 61,
+            "deletions": 0
+          },
+          {
+            "hash": "bea063d5f84dcf485b75df7291e9fe7f7fa132f0",
+            "message": "fix checkstyle error in tests",
+            "insertions": 10,
+            "deletions": 7
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -776,8 +900,8 @@
         "commitResults": []
       },
       {
-        "insertions": 4,
-        "deletions": 4,
+        "insertions": 101,
+        "deletions": 14,
         "date": "2019-03-15",
         "commitResults": [
           {
@@ -791,11 +915,29 @@
             "message": "removed unrelated acknowledgement",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "4a34aa767ac377a028f708c657b796cfc55212d9",
+            "message": "index on activity_new: bea063d5 fix checkstyle error in tests",
+            "insertions": 83,
+            "deletions": 1
+          },
+          {
+            "hash": "c64cbc506b40bf6224b39cdfe738debaa8371ea0",
+            "message": "fixed checkstyle errors",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "7e667a4ccd179e950643e07175434b1963d3720e",
+            "message": "updated test for storing activity list in json",
+            "insertions": 10,
+            "deletions": 5
           }
         ]
       },
       {
-        "insertions": 5,
+        "insertions": 33,
         "deletions": 108,
         "date": "2019-03-16",
         "commitResults": [
@@ -804,11 +946,17 @@
             "message": "Update dev guide and user guide for deleting activityArchive unArchive command. Fix typo.",
             "insertions": 5,
             "deletions": 108
+          },
+          {
+            "hash": "417200fa593f733af2d628e6afd1c818d236d149",
+            "message": "add ActivityList Command and update command parser.",
+            "insertions": 28,
+            "deletions": 0
           }
         ]
       },
       {
-        "insertions": 1,
+        "insertions": 11,
         "deletions": 1,
         "date": "2019-03-17",
         "commitResults": [
@@ -817,12 +965,18 @@
             "message": "fixed link to photo for mel",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "edbbf22b169e4faf7b58c90a99ef4766173c34f8",
+            "message": "update logic to include returning an activity list",
+            "insertions": 10,
+            "deletions": 0
           }
         ]
       },
       {
-        "insertions": 23,
-        "deletions": 2,
+        "insertions": 379,
+        "deletions": 37,
         "date": "2019-03-18",
         "commitResults": [
           {
@@ -842,8 +996,81 @@
             "message": "fixed typo in activity model implementation",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "902627563a80070cdfe6316f95f9b688c8da8834",
+            "message": "update storage for activities.",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "b45a1dd0f5218579e56ccc850575ae00a3ec756d",
+            "message": "fixed activityDateTime regex format to \"dd/MM/YYYY HHMM\"",
+            "insertions": 52,
+            "deletions": 10
+          },
+          {
+            "hash": "cd636ed01f14c7e66351687921f5ccaa83774cb6",
+            "message": "fixed checkstyle errors",
+            "insertions": 10,
+            "deletions": 13
+          },
+          {
+            "hash": "244d3ccbdea220b7d8c1a674e8b572201c87e4e8",
+            "message": "Fixed bug in storage that couldn\u0027t read saved data for activities",
+            "insertions": 256,
+            "deletions": 3
+          },
+          {
+            "hash": "b56cf7d637338f52f1efada497d89b866bda8278",
+            "message": "fixed checkstyle errors",
+            "insertions": 19,
+            "deletions": 7
+          },
+          {
+            "hash": "f782f21d77ac7493db8bb4b7838653cc1080b6e0",
+            "message": "update tests with new methods in model",
+            "insertions": 17,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 151,
+        "deletions": 34,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "bef69a4380a44ef5844180f7fcd7a4d5226a3c01",
+            "message": "updated activity constructor and add command to include location and description",
+            "insertions": 122,
+            "deletions": 13
+          },
+          {
+            "hash": "4e0b929513d28f7a33d3f1e4e2007d522522c074",
+            "message": "fixed checksyle errors",
+            "insertions": 20,
+            "deletions": 20
+          },
+          {
+            "hash": "3cee774979e8a2d5dcbb68c142c03b6b0b496ff0",
+            "message": "update ui display with activity location and description",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
       }
     ],
     "melkwx": [
@@ -1137,6 +1364,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
         "commitResults": []
       }
     ],
@@ -1486,10 +1731,47 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 192,
+        "deletions": 173,
         "date": "2019-03-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7f91048637e6deaff72d557af9f92488e6bcd5c4",
+            "message": "Updated SelectCommand class and relevant tests to MemberSelectCommand",
+            "insertions": 57,
+            "deletions": 57
+          },
+          {
+            "hash": "28fd202741efb61d6b6dd03fb5555fbd8f57fc75",
+            "message": "Updated and corrected Checkstyle errors",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "0274a75d8e30042cf037db3fb1a68b9086557cd7",
+            "message": "Corrected Checkstyle issues",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "8da0a4bae45fa6c75dea26b6dc7f0bd2281555ee",
+            "message": "Updated EditCommand class and other variable names and tests to MemberEditCommand",
+            "insertions": 120,
+            "deletions": 106
+          },
+          {
+            "hash": "fede50550c5a53b71f1341cf400ebc81cd1979bf",
+            "message": "Corrected minor checkstyle issue",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "6887d134d3f402aca4c70b3f633d45abefb0cf52",
+            "message": "Corrected Checkstyle issues",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1504,26 +1786,118 @@
         "commitResults": []
       },
       {
+        "insertions": 392,
+        "deletions": 216,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "9a56a721e8dcc8d5611867412fd1c31e71d0cd26",
+            "message": "Created a SortCommand",
+            "insertions": 143,
+            "deletions": 3
+          },
+          {
+            "hash": "018da2268e19be793967c4a0477a6d98ff9997d4",
+            "message": "corrected checkstyle issues",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "92fc8151b7c4fcaa80771217ea38a7780662b50c",
+            "message": "corrected issues",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "e6a318649486ee4bd4241a306070380be91be763",
+            "message": "Updated Developer Guide for the documentation of the features implemented by me",
+            "insertions": 31,
+            "deletions": 4
+          },
+          {
+            "hash": "b86126d94b5f07436ce14b002fd5b8011e61fa72",
+            "message": "Corrected test issues",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7be97c1a2a5919b4194e64081c319bd87eac8161",
+            "message": "Updated the README",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "352f289ce8ecd8e8d19eb5102d9a9349c5074bec",
+            "message": "Updated UserGuide",
+            "insertions": 198,
+            "deletions": 194
+          },
+          {
+            "hash": "3b1407a86af60fa0d18b42065020204b0b8ccaaf",
+            "message": "updated README",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 18,
+        "deletions": 535,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "b829814ece43fc6550a7fcfa2655a06488f2d007",
+            "message": "delete unnecessary file",
+            "insertions": 0,
+            "deletions": 516
+          },
+          {
+            "hash": "f40dfc1b1d51a1acfe2b8483845293ad3d177669",
+            "message": "updated README",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
+            "hash": "aea07fff0abb33a2ad0231be62d2b192226f7600",
+            "message": "Removed MemberSetActive and MemberSetInactive from DeveloperGuide",
+            "insertions": 0,
+            "deletions": 17
+          },
+          {
+            "hash": "8e0f5ce579bb79f4467599b55a294482877b30ea",
+            "message": "Uploaded a sequence diagram for MemberSortCommand",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-18",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
     "minernchan": 0,
-    "A0143487X-Kevin": 68,
-    "ivyyangyq": 280,
-    "melkwx": 183,
-    "joel0111": 331
+    "A0143487X-Kevin": 736,
+    "ivyyangyq": 1051,
+    "melkwx": 179,
+    "joel0111": 836
   },
   "authorContributionVariance": {
     "minernchan": 0.0,
-    "A0143487X-Kevin": 463.55865,
-    "ivyyangyq": 2253.1892,
-    "melkwx": 1338.0199,
-    "joel0111": 2228.9634
+    "A0143487X-Kevin": 20990.93,
+    "ivyyangyq": 8129.698,
+    "melkwx": 1243.3895,
+    "joel0111": 19520.748
   },
   "authorDisplayNameMap": {
     "minernchan": "CHA...ERN",

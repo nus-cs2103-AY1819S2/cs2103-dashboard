@@ -705,6 +705,140 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 143,
+        "deletions": 12,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "72b5dd2375c5004743008ab143e9f833edb863f0",
+            "message": "docs: update developer guide",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "ef48a36d6d7051299b30abbb1c02499cba7bef42",
+            "message": "docs: update user guide",
+            "insertions": 10,
+            "deletions": 8
+          },
+          {
+            "hash": "5766c15c568fbaf57aa97a689b98e1570455a9d0",
+            "message": "logic/commands: add DeleteStaffCommand",
+            "insertions": 56,
+            "deletions": 0
+          },
+          {
+            "hash": "adb5fc773a703d887da732b0a473e22f63109fda",
+            "message": "logic/parser: add case for deleteStaff command",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "818cdb952f302f5b2d21eeac08a141ec0580aa18",
+            "message": "logic/parser: add parser for deleteStaff command",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "96d95b6870cada2370ee9a19bb172f34ddbb6b82",
+            "message": "logic/parser: enable delete staff command",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "97de3cfc57358ac9e6f70b3cac83d9b8fe3a798b",
+            "message": "docs: fix typo in user guide",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 294,
+        "deletions": 6,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "79fb778a4ee17031b0c3cd05086dd8e62d889894",
+            "message": "docs: fix typo in user guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7f9b47baf6dc9a8f13dc4cae935506c74da2f841",
+            "message": "logic: add EditStaffCommand",
+            "insertions": 203,
+            "deletions": 0
+          },
+          {
+            "hash": "06ef2ef66ed0e5d442bc0e4333c56b02c161658c",
+            "message": "model: add setStaff to ModelManager",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "e0a93ce98db0527c017e20d2f3c7511f9620f5f8",
+            "message": "parser: handle editstaff command in parser",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "ca29b29c89e8a6bd60eace70bd38da2330183df1",
+            "message": "parser: add parser for editstaff command",
+            "insertions": 61,
+            "deletions": 1
+          },
+          {
+            "hash": "0f9a95ee41c2c7cd453d9209e40eb297b576207b",
+            "message": "model: update message constraints for appointment",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ae791538813ff10fd6a815beedb07809677f375f",
+            "message": "tests: add setstaff method to ModelStub",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "7a24fe8f3df3185c743114a082ab75b33f0715a6",
+            "message": "commons/core: add message for invalid staff index",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ],
     "lingyanhao": [
@@ -1641,8 +1775,8 @@
         ]
       },
       {
-        "insertions": 87,
-        "deletions": 27,
+        "insertions": 298,
+        "deletions": 43,
         "date": "2019-03-16",
         "commitResults": [
           {
@@ -1704,20 +1838,339 @@
             "message": "Fix typo",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "c0587c2413bdcc7d1c812a847a5a2c67663b37be",
+            "message": "Enforce capacity constraint in addBooking command",
+            "insertions": 190,
+            "deletions": 4
+          },
+          {
+            "hash": "e518c9f0dc7f359d8a253ed80fdc3e57c4559802",
+            "message": "Move Capacity class to model/booking",
+            "insertions": 21,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 539,
+        "deletions": 107,
+        "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "2b112b9384d049b20f2426675027eae54ff86fda",
+            "message": "Implement DeleteBooking Command",
+            "insertions": 88,
+            "deletions": 1
+          },
+          {
+            "hash": "e9dd1f093fe7aba59fa2bf18bc67cbb57076ba92",
+            "message": "Implement editBooking command",
+            "insertions": 243,
+            "deletions": 0
+          },
+          {
+            "hash": "bcf04ad6a1ce7de5137c306fbd2d3db292770182",
+            "message": "Fix styleguide",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "9f31d6fd0b2d632ce35d9762b11c5d18ca0194f0",
+            "message": "Add method to stub",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "26e32a478f65ca1b712df2fb610e27c1e44782cc",
+            "message": "Change import order",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8ac41b839b85d96fc350fc6c16a23528e27b315c",
+            "message": "Un-generic setItem and addItem on RestaurantBook class",
+            "insertions": 63,
+            "deletions": 55
+          },
+          {
+            "hash": "1b0f6382717e0a99b9fba48a1fb666258350b7bf",
+            "message": "Un-generic removeItem method- finish up refactoring",
+            "insertions": 26,
+            "deletions": 21
+          },
+          {
+            "hash": "77896d155d5c66ba33d4b343dd5bc9ab93c1b7ff",
+            "message": "Edit test cases",
+            "insertions": 92,
+            "deletions": 11
+          },
+          {
+            "hash": "da1b81222474ea8f840f2342bc5c527718c02b87",
+            "message": "Fix styleguide",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "52da5ab446fb9bdc46fdfe4b1d8ca838865381d9",
+            "message": "Remove extra blank lines",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "f2f6518712a374a0cb4f239396cc076472fdf579",
+            "message": "Resolve overloaded method",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "91aea3fc8c6ec38cc869b4141d28a3711349f607",
+            "message": "Fix styleguide",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 81,
+        "deletions": 15,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "602a61b5abd3ecca99fc0edda190b455f1a6a240",
+            "message": "Finish up updateCapacity and editCapacity commands",
+            "insertions": 70,
+            "deletions": 14
+          },
+          {
+            "hash": "1833d5942bede8882dce0962fa0e0a813f2f6980",
+            "message": "Remove whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "44a941575e7c2733ef77b86bbcde93e1a34643ca",
+            "message": "Add implementation to modelstub",
+            "insertions": 10,
+            "deletions": 0
           }
         ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-17",
+        "date": "2019-03-19",
         "commitResults": []
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "51bc40f4fdd244f23793b5f1995fccb0c7db60c3",
+            "message": "Change start and end time to private",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 22,
+        "deletions": 56,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "2f07063ba0c87718d180b1e89ebef67020ece4cc",
+            "message": "Update user guide",
+            "insertions": 21,
+            "deletions": 55
+          },
+          {
+            "hash": "47fc323613f2c2f69008f82b1790d35f558e1a54",
+            "message": "Update user guide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-18",
+        "date": "2019-03-22",
         "commitResults": []
+      },
+      {
+        "insertions": 357,
+        "deletions": 279,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "fcdcc1c080e9d19a6a2eb7cfb901e584a49bc88e",
+            "message": "Introduce CustomerIndexedBookingBuilder",
+            "insertions": 78,
+            "deletions": 15
+          },
+          {
+            "hash": "5b07ec22da2ff417d9c9bd788a296bc7908a1a2d",
+            "message": "Change javadocs",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "a4402f590fcf23cc142d94a75f00bdbb6e882e07",
+            "message": "Override equals method",
+            "insertions": 19,
+            "deletions": 8
+          },
+          {
+            "hash": "3ef8daad301b08fcc5b105495a65845fb5fad68f",
+            "message": "Remove ProcessedAddBookingCommand, add new tests",
+            "insertions": 140,
+            "deletions": 222
+          },
+          {
+            "hash": "ec8010b31ed1cd4e9e68fc75bdb1da05d7cdd37b",
+            "message": "Remove unused imports",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "96ee91c2b2b85141dce5ac6ab5cda2053452d420",
+            "message": "Fix styleguide",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "9760c699901feb2b2b3645df288d700fc8760baf",
+            "message": "Add tests for AddBookingCommandParser",
+            "insertions": 49,
+            "deletions": 0
+          },
+          {
+            "hash": "80e04c5b23de43d0a392256a58259cb5fa83d7eb",
+            "message": "Change AddBookingCommandParserTest",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "50bbd6d8884bb44fba3b3b006aa4133bcf56f690",
+            "message": "Add tests for ParserUtilTest",
+            "insertions": 43,
+            "deletions": 2
+          },
+          {
+            "hash": "8435e7bfdfbd5ac4d3a0df37bf835d84b000ef68",
+            "message": "Fix styleguide",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "fa1141e2f26f9d2a1b1596c73a19cee9f99bb3ff",
+            "message": "Change the test generics to use safe operations",
+            "insertions": 7,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 151,
+        "deletions": 75,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "239b739f65c72069602c023b349e3fd1b6082a66",
+            "message": "Add space before typecast",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "422345ee6a6188c6fe45229bf078e33125809655",
+            "message": "Add tests for delete and edit booking commands",
+            "insertions": 142,
+            "deletions": 16
+          },
+          {
+            "hash": "fd87d76c1c0684611a0c23ab4bf5cd890df995bd",
+            "message": "remove unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b1f4fe0d83c3ee994373351ca3fa4b06261315c5",
+            "message": "remove unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2be2c9180e6e5ca38b43405c20c8a558a41a9075",
+            "message": "Remove id",
+            "insertions": 4,
+            "deletions": 51
+          },
+          {
+            "hash": "ce8fc40a01b88db5a4970d4eb7f96e3e7d464fbc",
+            "message": "Update CustomerIndexedBooking.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "73d25679a2f7309815a5a0840cd94d0c85af2d9d",
+            "message": "Change syntax to remove id",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 462,
+        "deletions": 151,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "aa273f56fa7c7e88fd058ea564ed44ddf1da779c",
+            "message": "Add tests for deleteBooking command",
+            "insertions": 450,
+            "deletions": 123
+          },
+          {
+            "hash": "6a282fca50fff8dfba5b28eaabb4969b4dfba553",
+            "message": "Add newline at eof",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "979c665b870b3b30ddb86cb30e5cac317945a05a",
+            "message": "Fix compile error in test",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "0000be0a841ac78164e3827c433c444562c7d1e5",
+            "message": "Fix styleguide",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "a3d7eb2d0c25e4e5e2cf61fc9a41d2f7c91674f2",
+            "message": "Fix styleguide",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "16a43590338623d92dd164be9c00b43b1d0eae98",
+            "message": "Update ParserUtilTest.java",
+            "insertions": 1,
+            "deletions": 20
+          },
+          {
+            "hash": "bee756016d3a128fc621f7eefc9490d8c775bcff",
+            "message": "Update CommandTestUtil.java",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "hiyingnn": [
@@ -2331,6 +2784,270 @@
             "message": "Updated Developers Guide for delete feature",
             "insertions": 75,
             "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 3,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "e1f0e7036c11867cae4d196ee0da6e99676d8487",
+            "message": "Added Sequence Diagram for DeleteIngredientCommand",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "2179c8893c10c1eb6ad808ec5fc0d73da0062942",
+            "message": "Rephrased Developers Guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "83fc118c74f54e361ede08af26e42bea0328c259",
+            "message": "Increased size of sequence diagram",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 735,
+        "deletions": 172,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "935c890963e4a4a0fc17ef1333b0d0a0eb128492",
+            "message": "Refactored Ingredient, OOP style",
+            "insertions": 267,
+            "deletions": 64
+          },
+          {
+            "hash": "eb29886d155754ec2ec4feaefeb20c36df2fc48c",
+            "message": "Edited affected commands for Ingredient",
+            "insertions": 96,
+            "deletions": 40
+          },
+          {
+            "hash": "7af94eba3002bdb96b0ae3b1803179ea8440d989",
+            "message": "Updated u/i for ingredient, added warningAmount",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "53317f3714b26253db93fbccd023841ed355d366",
+            "message": "Edited affected typical Ingredients for tests",
+            "insertions": 68,
+            "deletions": 20
+          },
+          {
+            "hash": "f2fd1c106ff457d4e829a6abcd0357d86f08656d",
+            "message": "Edited affected Ingredient command tests",
+            "insertions": 98,
+            "deletions": 33
+          },
+          {
+            "hash": "747d74659770ee4fa1401c757850cc46cc6349db",
+            "message": "Implemented DepleteIngredientCommand",
+            "insertions": 160,
+            "deletions": 0
+          },
+          {
+            "hash": "77db890be85f34232bb6756b2dce543e541126fd",
+            "message": "Corrected Ingredient gui tests",
+            "insertions": 39,
+            "deletions": 11
+          },
+          {
+            "hash": "374a38863cfa95f8cbd856f32c34d87189949236",
+            "message": "Removed print statement",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 275,
+        "deletions": 8,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "f6d404275b53839bafddb4c1b824a76e2f668f40",
+            "message": "Edited for IngredientQuantity and IngredientWarningAmount zero.",
+            "insertions": 22,
+            "deletions": 4
+          },
+          {
+            "hash": "301adb1513066c26f80ee42390233c80ff2b7fe8",
+            "message": "Added JUnit tests related to ingredient in ParserUtilTest",
+            "insertions": 164,
+            "deletions": 0
+          },
+          {
+            "hash": "d8af6ac8fbc3b4a56c46b4548f68a3d31e8851af",
+            "message": "Added JUnit tests for DeleteIngredientCommandParserTest",
+            "insertions": 36,
+            "deletions": 0
+          },
+          {
+            "hash": "2c7f21c24d694ed79360f87acad0842ff53ad38f",
+            "message": "Added JUnit tests for RestockIngredientParserTest",
+            "insertions": 53,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 590,
+        "deletions": 64,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "45bc3f1bb1ceab2efad9ca2b81d7c04228c8a718",
+            "message": "Added JUnit tests for DeleteIngredientCommandTest",
+            "insertions": 174,
+            "deletions": 4
+          },
+          {
+            "hash": "cb38a5865eaf5ba3531194844e20db724d7f7094",
+            "message": "Refactored ConsumeIngredientCommand",
+            "insertions": 44,
+            "deletions": 43
+          },
+          {
+            "hash": "8619b7c9fa68e8b8b288843ba701b08518f7f1a0",
+            "message": "Edited RestockIngredientCommand",
+            "insertions": 2,
+            "deletions": 7
+          },
+          {
+            "hash": "969c34a738e9ddfecf318313daf665ce9f06f35a",
+            "message": "Removed typo RestockIngredientCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bee5426106026522be1bab683fc77e1e52b68666",
+            "message": "Edited RestockIngredientCommandParserTest",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "81fabcafa4c9f1bf51374b742d562c5439d6ad46",
+            "message": "Implemented ConsumeIngredientCommand and Parser tests",
+            "insertions": 104,
+            "deletions": 0
+          },
+          {
+            "hash": "26823b43f868485ee06898e914d9a4938283c881",
+            "message": "Edited constructors of Ingredient",
+            "insertions": 18,
+            "deletions": 4
+          },
+          {
+            "hash": "1fa0aec37f7dbc156e781022017a698524e6ec17",
+            "message": "Edited default ingredient tomato in CommandTestUtil",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5b8484812aa116191d6dc57e8766543b26d3500f",
+            "message": "Implemented tests for model Ingredient",
+            "insertions": 241,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 139,
+        "deletions": 75,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "02edaf97001b5c16e1ebe00b6fdcf3b72ee0c2b8",
+            "message": "Solve merge conflicts",
+            "insertions": 10,
+            "deletions": 8
+          },
+          {
+            "hash": "81e747169584e41f3a55d4293cc9b45275e8fa45",
+            "message": "Edited CommandTestUtil",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "07705d7ce58ba38922e9db8f3b22a3397db95e79",
+            "message": "Edited ParserUtilTest, added other test cases",
+            "insertions": 57,
+            "deletions": 46
+          },
+          {
+            "hash": "6c5a6a3c1e0d328f8dc5cc627ab4a6972ee1c03b",
+            "message": "Edited tests for Ingredient",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "151b8db88bc1e31be42282f1a8cf41be52599c96",
+            "message": "Solved integer overflow tests in WarningAmount and Quantity tests",
+            "insertions": 5,
+            "deletions": 14
+          },
+          {
+            "hash": "6856a97b653bee1eba690e3d56fe44da0a65b0d7",
+            "message": "Dealt with integer overflow bug in RestockIngredient",
+            "insertions": 61,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 231,
+        "deletions": 111,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "ef3a16538f9138332310b87a4c60c70b485ade48",
+            "message": "Added predicate for listIngredients",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "9f783b1cf6c461069e723aff195f466a88df487b",
+            "message": "Implemented ListIngredientCommand and ListIngredientCommandParser",
+            "insertions": 109,
+            "deletions": 0
+          },
+          {
+            "hash": "e760a74140664156aa8b26efadb85320676f6176",
+            "message": "Edited User Guide",
+            "insertions": 63,
+            "deletions": 75
+          },
+          {
+            "hash": "9a99ab2b4cba574ec5ffd447d4471ad1e70e2e01",
+            "message": "Resolved conflict in ParserUtilTest",
+            "insertions": 4,
+            "deletions": 23
+          },
+          {
+            "hash": "4bacaa6d837a3a07c919128618b67a779d334a01",
+            "message": "Edited RestockIngredientCommandTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e3413820391816beddfefb02675e112df6cd78a2",
+            "message": "Edited ingredient tests",
+            "insertions": 12,
+            "deletions": 12
           }
         ]
       }
@@ -2967,20 +3684,228 @@
             "deletions": 7
           }
         ]
+      },
+      {
+        "insertions": 216,
+        "deletions": 81,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "b84933a3f376fccd0194249d338cc9c2ef6102a1",
+            "message": "update stats to display bookings count for last 10 days",
+            "insertions": 63,
+            "deletions": 31
+          },
+          {
+            "hash": "dae98586801a21add23670612b1f4cba7a00e0a8",
+            "message": "set days visible to be a final static variable",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "373ce4c8339bf9a148363a1643f060a6978add7a",
+            "message": "update stats to allow variable bucket size",
+            "insertions": 30,
+            "deletions": 11
+          },
+          {
+            "hash": "8d1b36e4989aa13c646fd7dd51a07b569bfdad01",
+            "message": "allow user to specify number of days to view stats",
+            "insertions": 81,
+            "deletions": 4
+          },
+          {
+            "hash": "5a882d7fa6eedb6d8141c7c09a9a923b58da4834",
+            "message": "update stats window dimensions",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "2129bf867eae3a5bd50f0784d1688eac44f1c5f7",
+            "message": "remove unused imports",
+            "insertions": 0,
+            "deletions": 10
+          },
+          {
+            "hash": "5bf34bcfad815aa1a5a695d3b36349a3b8d2e6b7",
+            "message": "refactor",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4ed2b4c62c5c72543944e8e1d01f756582bbbc3f",
+            "message": "fix checkstyle",
+            "insertions": 15,
+            "deletions": 11
+          },
+          {
+            "hash": "6a7ad61822c85d672ffb703d5a92bd4effdacaaf",
+            "message": "fix checkstyle",
+            "insertions": 17,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 475,
+        "deletions": 224,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "b6dfa2e7b76565d5739b328d8a15163237df1919",
+            "message": "edit ingredient card ui",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "0179af2b314c787df6c60e96cacd60e551dfd9c0",
+            "message": "implement listmembers command",
+            "insertions": 333,
+            "deletions": 187
+          },
+          {
+            "hash": "e78749f14cc1366fda5860742778160fb1275f0b",
+            "message": "add some parser tests",
+            "insertions": 86,
+            "deletions": 4
+          },
+          {
+            "hash": "1a083a80057261c8fb4e6f263db2f20d0866219f",
+            "message": "fix checkstyle",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "fc382dae9a465181c5448daa4b93c9f7177a97df",
+            "message": "fix checkstyle",
+            "insertions": 41,
+            "deletions": 22
+          },
+          {
+            "hash": "a0c2b93477a11cb90dfbe2cfeaacb15f819802c6",
+            "message": "fix checkstyle",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "b97b93df8a2f57e703bf127eb169aeca5c972086",
+            "message": "fix bug with empty n/ causing app to crash",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 83,
+        "deletions": 69,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "8d85489b14ed0af7b91bead7a50b9a0d648b7f1e",
+            "message": "add tests",
+            "insertions": 45,
+            "deletions": 35
+          },
+          {
+            "hash": "625078961e0a3bcf0535d380c06d8c074bc22707",
+            "message": "fix checkstyle",
+            "insertions": 14,
+            "deletions": 11
+          },
+          {
+            "hash": "f557cb69576eb219512e98cce91074dc5c0eb11c",
+            "message": "fix checkstyle",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "debf87236236bf668ef94562be8087759e24860b",
+            "message": "rename COMMAND_WORD for delete and edit member, and add implements Parser",
+            "insertions": 15,
+            "deletions": 10
+          },
+          {
+            "hash": "d34de16e23587057efc78f574a89905dfb02a2ce",
+            "message": "edit test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0d639a700ffe14ad417f955d9636fa021ff65140",
+            "message": "edit tests",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "1789b3bef26322224f1e8b23d8fa4b6b426397de",
+            "message": "shorten message",
+            "insertions": 3,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 197,
+        "deletions": 37,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "1757b66b07bd9f297027d65ec4807ebbeba69809",
+            "message": "add stats tests",
+            "insertions": 188,
+            "deletions": 13
+          },
+          {
+            "hash": "74529148d0e2c78873829e83c83444f028ceacad",
+            "message": "add newline",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "182c9bd8572fecbe619d7edc84e18f095e922c7f",
+            "message": "fix checkstyle",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "130b54afa6e889ee11148a81eb099b1eff8f27ad",
+            "message": "remove useless method",
+            "insertions": 6,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "zj-cs2103": 2769,
-    "lingyanhao": 2581,
-    "hiyingnn": 2278,
-    "limli": 2529
+    "zj-cs2103": 3041,
+    "lingyanhao": 3969,
+    "hiyingnn": 3772,
+    "limli": 3090
   },
   "authorContributionVariance": {
-    "zj-cs2103": 64897.066,
-    "lingyanhao": 106938.195,
-    "hiyingnn": 106452.59,
-    "limli": 285538.3
+    "zj-cs2103": 56984.8,
+    "lingyanhao": 104141.42,
+    "hiyingnn": 111375.59,
+    "limli": 248864.56
   },
   "authorDisplayNameMap": {
     "zj-cs2103": "WAN...IAN",

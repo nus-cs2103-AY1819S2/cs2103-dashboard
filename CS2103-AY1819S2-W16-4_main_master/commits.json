@@ -318,6 +318,19 @@
             "deletions": 9
           }
         ]
+      },
+      {
+        "insertions": 22,
+        "deletions": 22,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "31e551acb982a35e2882ea18410499ec9b14a8ac",
+            "message": "Filtering is updated according to skills and position property changes. Initial sample AdressBook is updated",
+            "insertions": 22,
+            "deletions": 22
+          }
+        ]
       }
     ],
     "charnixon": [
@@ -555,6 +568,37 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 289,
+        "deletions": 38,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "22a606e07414e26f2319a784da7e7c4b755634a4",
+            "message": "Including Education and GPA parameters",
+            "insertions": 278,
+            "deletions": 29
+          },
+          {
+            "hash": "72de968598885dc318fde0d95b3e42721da70979",
+            "message": "change prefix for GPA and EDUCATION",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d239c1564966c048a2a36a6140c468dc17889a5c",
+            "message": "Add and Sort command made compatible with GPA and education",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "c7eac784b93cc808d3dc25d52883e1392115fcc8",
+            "message": "A newline added to Education class",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "abwilli": [
@@ -697,8 +741,8 @@
         "commitResults": []
       },
       {
-        "insertions": 113,
-        "deletions": 113,
+        "insertions": 120,
+        "deletions": 115,
         "date": "2019-03-05",
         "commitResults": [
           {
@@ -718,6 +762,12 @@
             "message": "Updating my v1.1 accomplishments",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "c9344c11ab6960bd24246bc43bac36b27046ba2b",
+            "message": "recommit",
+            "insertions": 7,
+            "deletions": 2
           }
         ]
       },
@@ -798,6 +848,31 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 1334,
+        "deletions": 1253,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "6f5799b4c28ab871fd140cb46005bf83cb8234bc",
+            "message": "V1.2 Colored Tags and seperation of skills and position prefixes",
+            "insertions": 132,
+            "deletions": 50
+          },
+          {
+            "hash": "fb48db8ee606c32855923a3e5f0c4e806cab9108",
+            "message": "new line remove",
+            "insertions": 1184,
+            "deletions": 1184
+          },
+          {
+            "hash": "2012c58c1d53c3d009b771a5af0ebfd8879629c1",
+            "message": "check style bs",
+            "insertions": 18,
+            "deletions": 19
+          }
+        ]
       }
     ],
     "DMGreenhouse": [
@@ -1110,10 +1185,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 113,
+        "deletions": 26,
         "date": "2019-03-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7a86b3c5b3e2a9530401a4c6a6658a203d2647fe",
+            "message": "Addition of skills tag sorting method. Will sort by multiple tags, ordering them alphabetically. Accessed by \"sort skills\" in the cli.",
+            "insertions": 111,
+            "deletions": 11
+          },
+          {
+            "hash": "4f552927437d77b8a3d0b00a3c59a8111060fef9",
+            "message": "Update and simplification of the alphabetical sort methods, utilising stream and comparator.",
+            "insertions": 2,
+            "deletions": 15
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1134,10 +1222,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 80,
+        "deletions": 22,
         "date": "2019-03-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ba2ce4d10861b65736d05690d264605cd52972f4",
+            "message": "Modifications to sort command to allow for compatability with filter command. For this purpose an extra Model constructor was used to delete all persons stored at once and one to add persons without clearing the filter.",
+            "insertions": 67,
+            "deletions": 19
+          },
+          {
+            "hash": "13e9b0f31b618387cab90d33906bf82ac9489ace",
+            "message": "Update to User Guide describing the updated sort command",
+            "insertions": 13,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1168,20 +1269,51 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 72,
+        "deletions": 52,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "9998eeb3a60a78409e7774249bcc6687fd27ef46",
+            "message": "Sort command added to implementation",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "a482ac24badc4096cf20c3b3ff511b84e047cc77",
+            "message": "Solving conflict between filter and updated sort",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "51263dc32ce392cdda972fe8784c6ab120bddac4",
+            "message": "DO NOT USE",
+            "insertions": 24,
+            "deletions": 27
+          },
+          {
+            "hash": "37df91a8f870f87a5c78414f104223599a11d54d",
+            "message": "Mid-Change",
+            "insertions": 27,
+            "deletions": 24
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "barisbatuhan": 720,
-    "charnixon": 13,
-    "abwilli": 77,
-    "DMGreenhouse": 427
+    "barisbatuhan": 711,
+    "charnixon": 294,
+    "abwilli": 193,
+    "DMGreenhouse": 594
   },
   "authorContributionVariance": {
-    "barisbatuhan": 472661.47,
-    "charnixon": 17.776472,
-    "abwilli": 1343.1233,
-    "DMGreenhouse": 17719.49
+    "barisbatuhan": 460475.9,
+    "charnixon": 2745.4165,
+    "abwilli": 172058.5,
+    "DMGreenhouse": 17886.775
   },
   "authorDisplayNameMap": {
     "barisbatuhan": "TOP...HAN",

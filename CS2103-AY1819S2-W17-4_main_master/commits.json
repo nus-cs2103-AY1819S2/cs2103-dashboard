@@ -386,6 +386,68 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 225,
+        "deletions": 31,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "17e48dfc8f152ba857fbe41ac729d03f20c493be",
+            "message": "Adds report parser, GUI button",
+            "insertions": 207,
+            "deletions": 24
+          },
+          {
+            "hash": "cbd57d6300d7d071c2bde59bf3691a4997b3e673",
+            "message": "Updates UG",
+            "insertions": 18,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 65,
+        "deletions": 2,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "fcc384f89b82596b30448aa47c6f4b64151e67c7",
+            "message": "implements auto complete function for textField.",
+            "insertions": 65,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ],
     "kev-inc": [
@@ -623,6 +685,55 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 102,
+        "deletions": 98,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "5046afedac24c4da8a391b84a5a767604efa2155",
+            "message": "updated userdocs",
+            "insertions": 102,
+            "deletions": 98
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ],
     "pdnm": [
@@ -846,6 +957,48 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
         "commitResults": []
       }
     ],
@@ -1543,6 +1696,276 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 541,
+        "deletions": 178,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "e73d2c60ca104592b57d44e6c9f322bf0a07a201",
+            "message": "Edit budget part of addExpense in AddressBook",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "ef80fafbab01b99b873fe4e73f0758c49d9af7a0",
+            "message": "Only allow budget of \u003e/usr/bin/bash to be set",
+            "insertions": 19,
+            "deletions": 2
+          },
+          {
+            "hash": "91e3d7e5cb80d61cda35aed27c64b218d993416c",
+            "message": "Add a new isAfter method in Date class to calculate if the date comes after another date",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "7d9c16f1e52b6cecf4a86d30f53d22dc51e7ee4c",
+            "message": "Change Date in Expense, Allowance to the Date class in ePiggy",
+            "insertions": 20,
+            "deletions": 14
+          },
+          {
+            "hash": "bd096026f6979e9846aafea3b10169dce593205d",
+            "message": "Add a new addBudget command which adds a budget to an Observable List of Budget called BudgetList in AddressBook",
+            "insertions": 36,
+            "deletions": 1
+          },
+          {
+            "hash": "7330d66d70fd10415c483ef98a77e38fa8bef840",
+            "message": "Will automatically add a new Budget everytime the end Date is exceeded when created a new add Expense",
+            "insertions": 88,
+            "deletions": 37
+          },
+          {
+            "hash": "7bc5a5d76347419d0a18cbeb4efd341d523a7db9",
+            "message": "Add timePeriodBetween method in Date to calculate the time period between two dates",
+            "insertions": 61,
+            "deletions": 0
+          },
+          {
+            "hash": "9178c7956393904859ce8dfe905d6e0c7c484c13",
+            "message": "everytime a new budget is added, it will take into account the current expenses",
+            "insertions": 35,
+            "deletions": 7
+          },
+          {
+            "hash": "adc7eca50472920a3add575cb1d77f5d8aa5544e",
+            "message": "Changed all the Date to java.util.Data",
+            "insertions": 66,
+            "deletions": 37
+          },
+          {
+            "hash": "998dc33114bcf7ec649d5861907a801be937fa3f",
+            "message": "Minor changes to parseDate in ParserUtil",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "470214f0189b374762b24b32a9ae0f836b6b6574",
+            "message": "Add TODO for parseDate in ParserUtil",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "a037f22ddf69b848da88475c7bc7ee583afa50ac",
+            "message": "allow remainingDays of old budgets to always be 0",
+            "insertions": 67,
+            "deletions": 19
+          },
+          {
+            "hash": "4d2ea009532bd10af8260e32b201d7ac935314c3",
+            "message": "minor changes to AddressBook",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "b3be1695f3ebb0822baba6bc39b721acda075eac",
+            "message": "calculate remainingDays when new expense is added",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "d6955c6272b3e9659f4696dee8a7696a96efaf32",
+            "message": "Add a status in budget to show whether it\u0027s the old or new budget",
+            "insertions": 84,
+            "deletions": 45
+          },
+          {
+            "hash": "aff3c2b81bd6b5f18448f0226c92587feb62dc2d",
+            "message": "checkstyle fix",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c8bbe7c03e4f1d02f021cb1e51eaf9daa7980595",
+            "message": "Updated user guide",
+            "insertions": 34,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 157,
+        "deletions": 5,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "552b8e3299ce74cc79cf7f4d79c8e69f051bb5dc",
+            "message": "edited startDate of newly created budget to be the same as the endDate of the previous budget",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "acc93205b29a623d37839ee7b4307cc69d61bbbe",
+            "message": "create editBudgetCommand",
+            "insertions": 156,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 597,
+        "deletions": 258,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "5237fd198ca383bbb5a0599cb909b67094c0108a",
+            "message": "add editBudget command",
+            "insertions": 328,
+            "deletions": 113
+          },
+          {
+            "hash": "2359ff08924aa2217720b209e4092341809ff371",
+            "message": "Added editBudgetCommand, changed budgetList in AddressBook from ObservableList\u003cBudget\u003e to UniqueBudgetList which contains an ObservableList\u003cBudget\u003e",
+            "insertions": 24,
+            "deletions": 15
+          },
+          {
+            "hash": "03ddce693c0536d9b758a7927aa9faeb26031566",
+            "message": "Add EditBudgetCommandParser class",
+            "insertions": 64,
+            "deletions": 2
+          },
+          {
+            "hash": "57c2c96d34f41dec0290b1a291a17633a6f09faf",
+            "message": "Add EditBudgetCommandParser and EditBudgetCommand to AddressBookParser",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "7325e369b5f55cab9e9b39490e61b52430ff068f",
+            "message": "Edit MESSAGE_USAGE of EditBudgetCommand and SetBudgetCommand",
+            "insertions": 70,
+            "deletions": 29
+          },
+          {
+            "hash": "e089fd90f462f52dcb3cedcd39c746063a8a3a78",
+            "message": "checkstyle fix: comment indentations",
+            "insertions": 18,
+            "deletions": 30
+          },
+          {
+            "hash": "9392c71a8b3929e97225107d592a1c53a426d4e5",
+            "message": "standardise user guide and update budget segments",
+            "insertions": 87,
+            "deletions": 67
+          },
+          {
+            "hash": "7b62e4bafbab7994fffc23fe86b3344299f2971a",
+            "message": "checkstyle fix: remove unused imports",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 41,
+        "deletions": 24,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "51ef4213d649a7cd6a1d4bc76bc133d44a0352f9",
+            "message": "clean up UniqueBudgetList",
+            "insertions": 18,
+            "deletions": 5
+          },
+          {
+            "hash": "db2ca1951524a9365c42d12df2f5df4ce380a967",
+            "message": "minor changes to uniqueBudgetList and AddressBook such that most recent budgets are on top rather than below",
+            "insertions": 5,
+            "deletions": 19
+          },
+          {
+            "hash": "fa1dea45b92ec2b263846b7d6734471df0cf4bd1",
+            "message": "limit budget list size to 20 max (number adjustable)",
+            "insertions": 18,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 259,
+        "deletions": 78,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "df7e3e177ffb55f79e6ed098349c266359f9dd3c",
+            "message": "Allow budgets to be added anytime and introduce a future budget status",
+            "insertions": 91,
+            "deletions": 27
+          },
+          {
+            "hash": "c75311cfe576009b32f46feb02b369ce023c11a9",
+            "message": "added index on ui for budget for deletion purposes and allowed editBudget to edit the current budget",
+            "insertions": 91,
+            "deletions": 20
+          },
+          {
+            "hash": "e86fc8fcdba90986f938c8266cbf347dfc2ab772",
+            "message": "reformat date format in UI",
+            "insertions": 15,
+            "deletions": 3
+          },
+          {
+            "hash": "3d86d6d95160315dc25e2bdd8b11772a90cd5d14",
+            "message": "edit updating of remainingDays to fit current date",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "f7abcb92b85a0bb27d21deb6b75287bcd7ff5ed8",
+            "message": "clean up code",
+            "insertions": 52,
+            "deletions": 25
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 136,
+        "deletions": 22,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "fc5038c9f305fef874b5aac3b644141120864c32",
+            "message": "Add deleteBudgetCommand",
+            "insertions": 135,
+            "deletions": 10
+          },
+          {
+            "hash": "adddafa98220573913da45253b5a3f773f94ff46",
+            "message": "checkstyle changes",
+            "insertions": 1,
+            "deletions": 12
+          }
+        ]
       }
     ],
     "rahulb99": [
@@ -1767,22 +2190,158 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 602,
+        "deletions": 178,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "fa999bda20f64e52549b14b5f5d12bfac323c1b4",
+            "message": "added FindCommand",
+            "insertions": 48,
+            "deletions": 0
+          },
+          {
+            "hash": "252bf61aac602beb0c633bb0df4f77dfc0e64791",
+            "message": "added FindCommandParser",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "df44e5e86d39086d0d563cdfba34e8fc86a65c09",
+            "message": "added ExpenseContainsKeywordsPredicate",
+            "insertions": 151,
+            "deletions": 0
+          },
+          {
+            "hash": "a52b4bff1b3bbf4da4f7f0d55ec40f586d0cb210",
+            "message": "added updateFilteredExpenses method in interface model",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "8353028af7963e47194a9ff32a879fecc71bb0bc",
+            "message": "implement find expense feature",
+            "insertions": 256,
+            "deletions": 76
+          },
+          {
+            "hash": "ababfe010305f32d86469a8a48f2d7a493c2b51b",
+            "message": "checkstyle changes",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "9124dfa446740132d314fb7ea3b75a42a286b019",
+            "message": "checkstyle changes",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d79bbf7a6cbbfe3fd875e1ccc4f57c2e44308888",
+            "message": "checkstyle changes",
+            "insertions": 96,
+            "deletions": 96
+          }
+        ]
+      },
+      {
+        "insertions": 4,
+        "deletions": 3,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "f20b7c986befd5fa789fce768d62f918e126c751",
+            "message": "ExpenseCard: Removed white tag color",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d3d08a40016f7a8a646efc42b4dd3924d051901a",
+            "message": "fixed date in ExpenseCard",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "59d1371085193cbe696264a6404531fb35ec4471",
+            "message": "fixedExpense formatting issue",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 8,
+        "deletions": 11,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "79a2a68b537238741b2fc14c50883e1701339505",
+            "message": "checkstyle changes",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "e03d6f702dadca2d2e1432dc44a68caaada33927",
+            "message": "checkstyle changes",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 35,
+        "deletions": 469,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "2af9faf35eeb81bdb6f590d6fb002d5a92825cc5",
+            "message": "added eof",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "fdaf37171dc0b5de6507685a4c44b2cf489707c4",
+            "message": "Revert \"Merge branch \u0027master\u0027 into master\"",
+            "insertions": 27,
+            "deletions": 464
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 555,
-    "kev-inc": 94,
+    "yunjun199321": 809,
+    "kev-inc": 156,
     "pdnm": 0,
-    "tehwenyi": 1079,
-    "rahulb99": 0
+    "tehwenyi": 2207,
+    "rahulb99": 26
   },
   "authorContributionVariance": {
-    "yunjun199321": 4300.0557,
-    "kev-inc": 1030.9307,
+    "yunjun199321": 4911.1807,
+    "kev-inc": 1718.2708,
     "pdnm": 0.0,
-    "tehwenyi": 17240.855,
-    "rahulb99": 0.0
+    "tehwenyi": 39707.797,
+    "rahulb99": 18723.268
   },
   "authorDisplayNameMap": {
     "yunjun199321": "WU ...JUN",

@@ -98,10 +98,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2,
+        "deletions": 2,
         "date": "2019-02-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b8b3132ea9aee344fffc09aadedbeffd36e71c75",
+            "message": "Modified filepath to Mockup UI and Si Kai\u0027s images",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -122,28 +129,116 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 304,
+        "deletions": 23,
         "date": "2019-03-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "24e145392b0073ef392286296d020f93a0e3bff5",
+            "message": "Add Review Package containing Review, Rating and Entry classes",
+            "insertions": 206,
+            "deletions": 0
+          },
+          {
+            "hash": "30327999648d8980b77c5cea860c57644a1dc1f4",
+            "message": "Add reviews to sample data and Review attribute to Restaurant class",
+            "insertions": 48,
+            "deletions": 10
+          },
+          {
+            "hash": "21800bbafc2de30090dae884dafa41624ea528be",
+            "message": "Create another constructor for Restaurant class and fixed sample data bug",
+            "insertions": 22,
+            "deletions": 8
+          },
+          {
+            "hash": "d3618c0c5e0c9798a8720ea1a0c7fb2a3896cde9",
+            "message": "Fix entry toString method and add display for first Review entry of each Restaurant\u0027s sample data",
+            "insertions": 28,
+            "deletions": 5
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 198,
+        "deletions": 92,
         "date": "2019-03-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4a1b6e72a7ebea1c2ca95c393f9761c12aecdb91",
+            "message": "Update UI of Restaurant to include all Reviews for that Restaurant",
+            "insertions": 9,
+            "deletions": 14
+          },
+          {
+            "hash": "1f00b3991058cd026b7b3a223aafd2482bbb5b59",
+            "message": "Add new line to end of Review class",
+            "insertions": 64,
+            "deletions": 0
+          },
+          {
+            "hash": "97ef7623ba29bd731cbca923daee54dc43f89adc",
+            "message": "Add new line to end of Review class and remove ReviewCard class",
+            "insertions": 1,
+            "deletions": 66
+          },
+          {
+            "hash": "04769783837a4450356ed87734b1f1d1a1f4bfb5",
+            "message": "Fix Checkstyle errors",
+            "insertions": 3,
+            "deletions": 6
+          },
+          {
+            "hash": "1c18fc8e1f88ed8f969139396af5441c1d9a6559",
+            "message": "Create JsonAdaptedReview class and fix bug on Review\u0027s TimeStamp",
+            "insertions": 104,
+            "deletions": 2
+          },
+          {
+            "hash": "bb9399bf88496aff6014befc7baa74a07b3f0b37",
+            "message": "Add additional constructor for JsonAdaptedRestaurant and remove unused imports from JsonAdaptedReview",
+            "insertions": 17,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 285,
+        "deletions": 55,
         "date": "2019-03-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "42f374da9cf3bfa1a2d25dd46bf38e59f950ecc3",
+            "message": "Remove additional JsonAdaptedRestaurant constructor and modify RestaurantBuilder, typicalRestaurants and JSON files to include Review",
+            "insertions": 73,
+            "deletions": 44
+          },
+          {
+            "hash": "98911c6666998a0f38d64e0d794a31b68bd1d8be",
+            "message": "Create EntryTest and RatingTest classes",
+            "insertions": 82,
+            "deletions": 0
+          },
+          {
+            "hash": "6904a7c53940b4c45d52c75a1bc57d0614ed6d36",
+            "message": "Create ReviewTest, modify Review class equals method, add Reviews to GuiTestAssert and RestaurantCardHandle and modify getReviewSet method in SampleDataUtil",
+            "insertions": 130,
+            "deletions": 11
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 27,
         "date": "2019-03-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ba2881191cff9cf7964c802fba95b887cd4d8d38",
+            "message": "Remove redundant method and constructor from current version of organisation repo",
+            "insertions": 1,
+            "deletions": 27
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -222,6 +317,75 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 547,
+        "deletions": 241,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "20308614b59bed1394f905d0882a625f1bd6444e",
+            "message": "Add ReviewListPanel to the UI",
+            "insertions": 465,
+            "deletions": 0
+          },
+          {
+            "hash": "0d4c4a033f37ef52247e973e50827d320590001b",
+            "message": "Add Handles for ReviewListPanel and ReviewCard and debug failed HelpCommandSystemTest",
+            "insertions": 55,
+            "deletions": 178
+          },
+          {
+            "hash": "d05f232420200a41f513d537e7a3f28ce2d6e710",
+            "message": "Remove Reviews from RestaurantCards and change title of the app on the GUI",
+            "insertions": 5,
+            "deletions": 49
+          },
+          {
+            "hash": "ffcb48185a3e0e8e1540adf269e90b10ab59d70b",
+            "message": "Update UI Mockup with actual screenshot, update Developer Guide with updated component class diagrams",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "de2cb700f3230cea420e5b8992d9bbbc100a1466",
+            "message": "Update User Guide according to Tutor\u0027s comments",
+            "insertions": 13,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 32,
+        "deletions": 2,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "fd8540cd8587a91b553d6c063d4814a6274c083a",
+            "message": "Add new _reposense/config.json file",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "b000170db229ce44be336fa66136d567ca098201",
+            "message": "Add \u0027Koh Wei Xin\u0027 git username to authorsName and add newline character",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 84,
+        "deletions": 37,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "b4514cef54d49f321f22e34a30cdf484294edefe",
+            "message": "Minor edits to UserGuide and list all commands in Command Summary",
+            "insertions": 84,
+            "deletions": 37
+          }
+        ]
       }
     ],
     "chanqingzhou": [
@@ -543,9 +707,113 @@
         "commitResults": []
       },
       {
+        "insertions": 309,
+        "deletions": 50,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "af8934c722ef3e13b5d5dbb7770a2cd10edc5b97",
+            "message": "Added listUnvisited Command",
+            "insertions": 34,
+            "deletions": 1
+          },
+          {
+            "hash": "9bd196c77e72fb5d487f942becfa77ec0c6fd4b9",
+            "message": " Updated test cases for ListUnvisited",
+            "insertions": 40,
+            "deletions": 1
+          },
+          {
+            "hash": "50e7dc0581e848377d6bbf7c6945706beddea84c",
+            "message": "Added ability to track postal codes",
+            "insertions": 72,
+            "deletions": 0
+          },
+          {
+            "hash": "e1a75afb7ad82d494013ffb773c92bf4d9241f02",
+            "message": "fixed test cases",
+            "insertions": 158,
+            "deletions": 44
+          },
+          {
+            "hash": "67168b7f7996726a67f637503c1891caa4a6fdaf",
+            "message": "updated data.json",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6966e8d8f42f58c8d725001b8814ec7c7ffcba77",
+            "message": "updated test files",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "0fc4f2f97b4d32d331c3d26411a086c91cbf7f06",
+            "message": "updated styling",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 157,
+        "deletions": 62,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "8f5ba8842715c39607ddd356c92d37a3ccc35a1c",
+            "message": "integrated storage with model for postal data",
+            "insertions": 123,
+            "deletions": 45
+          },
+          {
+            "hash": "efdf1597aac7453e8d1e5cb8f7632fe8b0b1bc04",
+            "message": "updated developer guide",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "f5276a720efd42cb431d5ce5ea18b76d3b0cef8f",
+            "message": "Updated developer guide",
+            "insertions": 14,
+            "deletions": 9
+          },
+          {
+            "hash": "216b9925554a4f9a43e3546fad5c57e6445361ef",
+            "message": "updated developer guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5cb1dc584edf0e4f9614edff180502c41d916dab",
+            "message": "fix bug with developer guide not loading images",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6206cf5c7a58129e44a452357297c72c07e35bb5",
+            "message": "Fixed spelling mistakes in developer guide:",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "2b66b31fcf258d60aad27ac9b91fb4afae0019f7",
+            "message": "updated user guide to included command name",
+            "insertions": 9,
+            "deletions": 0
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-18",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
         "commitResults": []
       }
     ],
@@ -1170,6 +1438,73 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 89,
+        "deletions": 102,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "4197ab5f1f10540e1648a99f6d235328f35c1b09",
+            "message": "update about us doc to include roles and responsibilities",
+            "insertions": 11,
+            "deletions": 20
+          },
+          {
+            "hash": "69868255f3cc4306fbd50d63f8523848fa5f504f",
+            "message": "rename addName command to name",
+            "insertions": 12,
+            "deletions": 14
+          },
+          {
+            "hash": "0fc6371e62f4c6452f31fff00fc9d1f00a13a568",
+            "message": "fix review prefixes inconsistent case",
+            "insertions": 32,
+            "deletions": 32
+          },
+          {
+            "hash": "eda7d239d5161320359002d67407cc5f1d645260",
+            "message": "update name command parser with appropriate comments",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "9c0e6a1cb3c876ee17caea11c3b2fc2913853c2d",
+            "message": "update ending of categorisation tag in dev guide",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "7e99bc9147f1473e282210f8875f493c2adf4dee",
+            "message": "fix style violations",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9a350333b26a6dd92b9730ec4abb6b2f0f8a3cc9",
+            "message": "update sample data for tags and categories",
+            "insertions": 28,
+            "deletions": 12
+          },
+          {
+            "hash": "eb391f5d4f68366bd4bda2d478c51c68e7e1a57e",
+            "message": "remove unnecessary restaurant constructor",
+            "insertions": 0,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
       }
     ],
     "Wklee96": [
@@ -1673,9 +2008,161 @@
         "commitResults": []
       },
       {
+        "insertions": 159,
+        "deletions": 63,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "4e0f0382ca55e318aaa9379e61a154671db4fafd",
+            "message": "allowed users to access weblink of restaurant by clicking on restaurant panel",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f23210be5a05011393364615e95ef135f7d9eb95",
+            "message": "updated weblink validation to start with http or https",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "fc7df4faa3770ab36b611f8be64e78ee57274050",
+            "message": "created skeleton of GotoCommand",
+            "insertions": 54,
+            "deletions": 0
+          },
+          {
+            "hash": "5ab9a2fb355a0523c19418e79a8e09f46d5bd744",
+            "message": "created Parser for GotoCommand",
+            "insertions": 34,
+            "deletions": 1
+          },
+          {
+            "hash": "ffa22a83d680603fed9f539ea6ce1839aec881ec",
+            "message": "allowed users to go to website of Restaurant with Goto command",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "86a465352f23737f21ac2e13c09e50c92738f3b0",
+            "message": "updated test files to include https in weblink",
+            "insertions": 13,
+            "deletions": 20
+          },
+          {
+            "hash": "7d78abadb1d934782bcdde2b3bf5c412066430d7",
+            "message": "updated builder with correct kfc website link",
+            "insertions": 24,
+            "deletions": 14
+          },
+          {
+            "hash": "5c4f5e314c37d06abecefb74a617fa8c4d45fada",
+            "message": "updated typical restaurant json file",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "4dbcf595f781bcdf835fb210fd4ec5a28677abd7",
+            "message": "updated restaurantListPanelTest with https requirement of weblink",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "533f8ea3619a91963593fa84ada5ca008e2a308c",
+            "message": "updated respective test files",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "c4b4ff0e3d95d6bab5a9fddc4da921b5cc612099",
+            "message": "changed sampleDataUtil to include https in weblink",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "9a383bd82648739b7a2fe8804461783e3d8f5160",
+            "message": "changed sample data",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 70,
+        "deletions": 34,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "2ac14e00d13fc6f674d6c5c785dbb3a9f19b61e5",
+            "message": "modify weblink of test cases to default instead of kfc.com.sg",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "696e4d615b34fb7d371cf98a17b85d36391ee194",
+            "message": "debugged. browser panel now loads placeholder instead of blank html",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "789843659715291071d32d112050d3b4b416ad96",
+            "message": "updated default weblink for Amy and Bob",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "6d5a9e78696b0fbfbc6943f07f4d4bf4b41cb0a6",
+            "message": "added documentation part for visiting webpage feature",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "e50a232ba7c360419070a22d72a1b0477e2e6350",
+            "message": "renamed GotoCommand to VisitWebCommand",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "3eb0cc7ee7c8a97699bafe5d07e2e9800a1c6b05",
+            "message": "renamed GotoCommandParser to VisitWebCommandParser",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "88f99fa45a54f51106c5b666dc7135ed5e44f19f",
+            "message": "added visitWeb in UserGuide",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "7db61b1b80f4f7c683e8b1d27c61d1f4f8079337",
+            "message": "corrected order of features",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "877bf5efc959ff8f2e286c7f8bf233c364b50d52",
+            "message": "added sequence diagram for visitWeb",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "5a0d972c7914bf4977f44388a976f1f8b7446e34",
+            "message": "reorder imports",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-18",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
         "commitResults": []
       }
     ],
@@ -2016,8 +2503,8 @@
         "commitResults": []
       },
       {
-        "insertions": 31,
-        "deletions": 28,
+        "insertions": 347,
+        "deletions": 90,
         "date": "2019-03-18",
         "commitResults": [
           {
@@ -2037,24 +2524,121 @@
             "message": "fixed checkstyle errors in restaurant card handle",
             "insertions": 0,
             "deletions": 2
+          },
+          {
+            "hash": "1b624a0916f3aef19660977c531bd487e19c42e9",
+            "message": "wip 1",
+            "insertions": 185,
+            "deletions": 4
+          },
+          {
+            "hash": "72cf9d6cb817077223e568f8011a2ce534120e56",
+            "message": "wip2, finished EditReviewCommandParser, added message for NoRestaurantSelected",
+            "insertions": 131,
+            "deletions": 58
           }
         ]
+      },
+      {
+        "insertions": 229,
+        "deletions": 53,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "774a348dd56f4469ee53c34c00e686bfbfea9c49",
+            "message": "editReview command done, no checkstyle",
+            "insertions": 21,
+            "deletions": 28
+          },
+          {
+            "hash": "4a83cfeb2b99b7b7b9a95d0b783044560254abd8",
+            "message": "checkstyle fix",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "8007b3324c9d203789963f16bbc7b7a1a9dd90e7",
+            "message": "added EditReviewDescriptorBuilder for test cases",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "3d7703237c1f5e1138d768453e64312117c9e55d",
+            "message": "added ReviewUtil for test cases",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "0ef4e164d1d18db3cd18c33ec271fcab5010ef1a",
+            "message": "Added editReview test into ParserTest, fixed EditReviewCommand .equals() method",
+            "insertions": 19,
+            "deletions": 1
+          },
+          {
+            "hash": "ccc27de93203880952482286f95b50f6dd4b82b8",
+            "message": "modified ReviewBuilder to take timestamp into account. This is so that we can compare Reviews / things requiring reviews properly in the test cases.",
+            "insertions": 19,
+            "deletions": 1
+          },
+          {
+            "hash": "54a57d4b5b1e35558abb19721c2d40ba0d8cd2d8",
+            "message": "added toString() method to AddReview command for debugging",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "265ac3e43cc231f9f45e759734af837eab30d15e",
+            "message": "added getAddReviewCommand() to ReviewUtil to reproduce a AddReviewCommand for testing. Also added parseCommand_addReview() into FoodDiaryParserTest as a test case for the AddReview class.",
+            "insertions": 26,
+            "deletions": 1
+          },
+          {
+            "hash": "3b500b227396ab6159d61ea619608bf88de55d90",
+            "message": "Fixed checkstyle",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "0eb1226fcf91b62fd2e6f1382f43825d4246e6eb",
+            "message": "Modified developer guide according to tutors comments",
+            "insertions": 13,
+            "deletions": 5
+          },
+          {
+            "hash": "3afd123352a11777cdd65974e80dc5415e5af720",
+            "message": "fixed small typo to addReview command word, added implementation details of addReview command into developer guide.",
+            "insertions": 30,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "weixin-koh": 0,
-    "chanqingzhou": 291,
-    "rbth7e5": 4279,
-    "Wklee96": 504,
-    "skpai27": 383
+    "weixin-koh": 1004,
+    "chanqingzhou": 645,
+    "rbth7e5": 4310,
+    "Wklee96": 625,
+    "skpai27": 768
   },
   "authorContributionVariance": {
-    "weixin-koh": 0.0,
-    "chanqingzhou": 1975.1812,
-    "rbth7e5": 676047.56,
-    "Wklee96": 4528.388,
-    "skpai27": 2536.953
+    "weixin-koh": 21271.355,
+    "chanqingzhou": 5673.9443,
+    "rbth7e5": 627990.1,
+    "Wklee96": 5334.5386,
+    "skpai27": 8286.747
   },
   "authorDisplayNameMap": {
     "weixin-koh": "KOH...XIN",

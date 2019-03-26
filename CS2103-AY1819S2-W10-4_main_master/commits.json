@@ -56,10 +56,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3,
+        "deletions": 3,
         "date": "2019-02-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e2e35a8e96df5671672fe904c305ee6fb494ab5f",
+            "message": "Update Contact Us page",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "20a91436a6aa9a5d9cd47484ee7b642f8f6d406e",
+            "message": "Fix style issues for Contact Us",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -80,10 +93,47 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4697,
+        "deletions": 4656,
         "date": "2019-02-23",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "953cfcce99821e925c75ddbbd008b886317ac597",
+            "message": "Refactor \u0027address book\u0027 to \u0027card folder\u0027",
+            "insertions": 1240,
+            "deletions": 1239
+          },
+          {
+            "hash": "fc78c53ea5d20d0196834d27557259c0809ee28e",
+            "message": "Refactor \u0027person\u0027 to \u0027card\u0027",
+            "insertions": 2185,
+            "deletions": 2186
+          },
+          {
+            "hash": "3aa5dc4f4876c2832dee3c3989f0675c12c2fe8e",
+            "message": "Refactor \u0027name\u0027 to \u0027question\u0027",
+            "insertions": 610,
+            "deletions": 610
+          },
+          {
+            "hash": "1ace874cbf5ceecf288a158f16a7b7e3fc71e97e",
+            "message": "Refactor \u0027phone\u0027 to \u0027answer\u0027",
+            "insertions": 336,
+            "deletions": 336
+          },
+          {
+            "hash": "464c9ca91aca8994365e61276b67ae2bc5b24703",
+            "message": "Undo erronous renaming in previous commits",
+            "insertions": 177,
+            "deletions": 177
+          },
+          {
+            "hash": "9d13e744e4c011c39955292b0047f5d5a5dd6492",
+            "message": "Fix checkstyle issues produced during refactoring",
+            "insertions": 149,
+            "deletions": 108
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -98,16 +148,42 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 57,
         "deletions": 0,
         "date": "2019-02-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "441b79a7a361037c239294a8883e2b0ed69fc32e",
+            "message": "Add some skeleton files",
+            "insertions": 57,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 419,
+        "deletions": 274,
         "date": "2019-02-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8c2ab0388d9fe1db896431246b4b0a4b60046149",
+            "message": "Add folder name property to Storage",
+            "insertions": 148,
+            "deletions": 75
+          },
+          {
+            "hash": "eb27e3861539a8bb5d5595babcae151eedb91957",
+            "message": "Make CardFolder aware of folderName",
+            "insertions": 2,
+            "deletions": 8
+          },
+          {
+            "hash": "e6e53d862c1717e74cb110bc8d3694ade76fb565",
+            "message": "Update ModelManager to have list of CardFolders",
+            "insertions": 269,
+            "deletions": 191
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -122,16 +198,54 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 241,
+        "deletions": 131,
         "date": "2019-03-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "dcaeaa88260361b8bacb761474b0bd2ab08782a0",
+            "message": "Update folder equivalence: see full description",
+            "insertions": 103,
+            "deletions": 45
+          },
+          {
+            "hash": "7e412579584ef257f2dadf1cd73f9894e1c0c91d",
+            "message": "Have LogicManager attach listeners to all CardFolders",
+            "insertions": 59,
+            "deletions": 56
+          },
+          {
+            "hash": "d00959dafa44e22a9b74a51836089cfe9e27205a",
+            "message": "Add Storage API for creating/deleting folders",
+            "insertions": 61,
+            "deletions": 15
+          },
+          {
+            "hash": "0908255341af13fdb998be0570d4a213ad2e41dc",
+            "message": "Changed list of VersionedCardFolders to JavaFX FilteredList",
+            "insertions": 18,
+            "deletions": 15
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 91,
+        "deletions": 32,
         "date": "2019-03-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6227d5d53bf1107d62f9f1e8638905509ff3a7f6",
+            "message": "Enable Storage to listen for Model changes",
+            "insertions": 64,
+            "deletions": 20
+          },
+          {
+            "hash": "0e0a6a27e730c9a4f76276ef490721925656a7fc",
+            "message": "Update Developer Guide with User Stories",
+            "insertions": 27,
+            "deletions": 12
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -176,28 +290,80 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 114,
+        "deletions": 1,
         "date": "2019-03-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d1f44c3ab12c1769dafef8ad1497dd4a66bbc709",
+            "message": "Add addfolder command",
+            "insertions": 82,
+            "deletions": 0
+          },
+          {
+            "hash": "b2f604f5357eeff37ba2d9e895e4e483e92034c8",
+            "message": "Add addfolder parser",
+            "insertions": 32,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 106,
+        "deletions": 38,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1b67c170de42fc9e91972217d7f1931478cd3fd8",
+            "message": "Register addfolder to CommandParser",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "37e9b5ee1c0041046fe476c237b00ddc3af6e099",
+            "message": "Fix bug in ModelManager when adding folder",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "706959febee2f9c2f035e01018d7c7d394776a44",
+            "message": "Read all data files in data directory",
+            "insertions": 98,
+            "deletions": 36
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 163,
+        "deletions": 29,
         "date": "2019-03-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a439cd8990c2cb8c3404d1bfce3fa59ef168abda",
+            "message": "Fix checkstyle oversight",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "f56f5227017bb8f7c688c69ec7d65f81f63695c1",
+            "message": "Add change command (functional from folder-to-folder)",
+            "insertions": 161,
+            "deletions": 28
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 110,
+        "deletions": 5,
         "date": "2019-03-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "55d764f8901b9014e3d4edca1be2b3c21cb8a0fa",
+            "message": "Add deletefolder command",
+            "insertions": 110,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -206,10 +372,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 24,
+        "deletions": 22,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ac9b4cfdb337d07317abe9deb959ec68743106d1",
+            "message": "Clean up ModelManager variables",
+            "insertions": 21,
+            "deletions": 17
+          },
+          {
+            "hash": "fcc5a413886288dcdfc97e67260bd327b0b0952c",
+            "message": "Fix path separator bug",
+            "insertions": 3,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -224,9 +403,211 @@
         "commitResults": []
       },
       {
+        "insertions": 479,
+        "deletions": 259,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "5d8148a802d8c0d550bb5c9f6d550aa4e1133705",
+            "message": "Fix bug reading data storage path from preferences.json",
+            "insertions": 5,
+            "deletions": 10
+          },
+          {
+            "hash": "5e6163dd40c9f91f4c13cd0ee7c1094c9441e07e",
+            "message": "Add logic for home directory",
+            "insertions": 116,
+            "deletions": 65
+          },
+          {
+            "hash": "7d779d7d875d0c1f5e2f0adce07e4a897400df38",
+            "message": "Refactor exception raising to follow existing architecture",
+            "insertions": 97,
+            "deletions": 92
+          },
+          {
+            "hash": "d75a16d8b9d28234693e97c1e31a44d019acf3e4",
+            "message": "Add the change .. command to exit folder",
+            "insertions": 39,
+            "deletions": 8
+          },
+          {
+            "hash": "85b059a10aa0114a33a6a1aa3f0fded69e746f94",
+            "message": "Restrict undo command to only work within folder",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "5a754ca851391d4669b93f123a55adc5e5d72cb2",
+            "message": "Update and format user guide",
+            "insertions": 157,
+            "deletions": 56
+          },
+          {
+            "hash": "4657d5d7667bb1752497b6dbe7047a6e987f3ddd",
+            "message": "Remove trailing whitespace in user guide",
+            "insertions": 12,
+            "deletions": 13
+          },
+          {
+            "hash": "f536397fc0672590453861e9a8bbf4875e55566b",
+            "message": "Remove unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "032f379e91dd14f900c0425b16cc3385837c769a",
+            "message": "Add folder implementation to developer guide",
+            "insertions": 47,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 47,
+        "deletions": 25,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "c3885b2c62dc34d95e4e04db17414af9c79c627d",
+            "message": "Fix bug with saving folders",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "b590720e993a3088ade0778a284deb4a3f212ea3",
+            "message": "Fix developer guide formatting error",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "7176202f066bd2d70c2f37d1425955bd0de2cbc8",
+            "message": "Add glossary and rewrite introduction to User Guide",
+            "insertions": 35,
+            "deletions": 17
+          },
+          {
+            "hash": "c2a3a177bb019f937c61c7dc1e82d7a81532bbbe",
+            "message": "Minor changes to phrasing",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 107,
+        "deletions": 45,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "10c8b50e15f0dda1ff71b2bf04b0185042885d6d",
+            "message": "Fix typo in User Guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5041890060df2986bdde4e9ad638100054496751",
+            "message": "Add reposense config file",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "66de592d168b1fbdd6f3fe22d4297d174343a673",
+            "message": "Remove trailing whitespace in User Guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bcbb9a165033d1a0014575bdb0e4d0754e8801f5",
+            "message": "Refactor method order in ModelManager",
+            "insertions": 26,
+            "deletions": 21
+          },
+          {
+            "hash": "8440d226c709013797fa5b3b195c0456b7bf4b08",
+            "message": "Resolve equivalence conditions for folders",
+            "insertions": 50,
+            "deletions": 22
+          }
+        ]
+      },
+      {
+        "insertions": 909,
+        "deletions": 693,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "37a73578f7939aa9698403a7da6a1b0df1fa2991",
+            "message": "Add UI for home directory",
+            "insertions": 546,
+            "deletions": 357
+          },
+          {
+            "hash": "d2bf1f146ffd04c6751b3befdf6b3de25e68f0fc",
+            "message": "Fix bug in DeleteFolder command result",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "41f7027360dfadbfc75bbfe3a5a3ed7bb204cb92",
+            "message": "Enhance home directory styling",
+            "insertions": 26,
+            "deletions": 3
+          },
+          {
+            "hash": "fe45e24d3e6984faaedda466d6c1208905fb0b8b",
+            "message": "Undo erronous accidental renaming",
+            "insertions": 304,
+            "deletions": 301
+          },
+          {
+            "hash": "1d9114d357eade39280430b90397700daf5fd142",
+            "message": "Undo erronous renaming (continued)",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "1b4eb2570f085705d9568d8ae6b15ed99219de7c",
+            "message": "Undo erronous renaming (continued)",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "73e66197897a61a174de648198451e340d47684b",
+            "message": "Fix checkstyle errors",
+            "insertions": 9,
+            "deletions": 13
+          },
+          {
+            "hash": "b8a8538c262da0ec76396a089da6049ea861140a",
+            "message": "Add card count refresh for home directory",
+            "insertions": 5,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -394,10 +775,35 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 40,
+        "deletions": 19,
         "date": "2019-03-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "53e0db837a70e4cc323fb61e06bbb59434975f87",
+            "message": "change .json file extension to csv",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "d016a148a7db8209dc4ed3687782c1fc4ce947ce",
+            "message": "add check for valid card folder",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "286f64f7e4e4a636c19f3f2702b8da1894ab4f54",
+            "message": "add new card folder not found exception",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "01286c640be6f1b8303fecef550aaa42427e9613",
+            "message": "change method name for returnValidCardFolders",
+            "insertions": 13,
+            "deletions": 9
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -412,22 +818,187 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 178,
+        "deletions": 27,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b9bcbcd251d49704af043d9132a963b78df18a1f",
+            "message": "change logic of card folder not found",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "40e615b4fbb307eac364a6025123a3551016bdec",
+            "message": "change error handling for not found card folders",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "9bacb65f9a695849856e44f3bd8e546feb4bdcd6",
+            "message": "change add command test",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1cdbff3cbacebef2559a1f8cec5ec3a4ff7e46df",
+            "message": "add export and import csv classes",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "47dc13fb1191533fc3491c3b0f7379814aadbea9",
+            "message": "make export command parser return command",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "fd76abec754e86f4e25f35b4851d08525f1ed7c7",
+            "message": "add method to get default filepath for export",
+            "insertions": 18,
+            "deletions": 1
+          },
+          {
+            "hash": "436453fbce15ac9a68f90795cd234f2b6b5feaeb",
+            "message": "add methods for exporting folders",
+            "insertions": 27,
+            "deletions": 0
+          },
+          {
+            "hash": "b62e49df7c035af9a8122495c0cec1e7f3ed8fb5",
+            "message": "simple java docs",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "c335bf66b5567b41b43b43813c71d72abe511b68",
+            "message": "add command result for export command",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "9e97f71813acf6c84f65dd108f8e7c995248ed89",
+            "message": "add file flush and close",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "a958c268e6a7f2972209e4853e3200a5280f0de5",
+            "message": "add constatns for export command parser test",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "c18c6f1761fe1dfb3cc04e977a647d771da5699e",
+            "message": "add equals for export command",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "251e5681b087dd4c37d6199fc3327d45c251846f",
+            "message": "add parse all fields success for export command",
+            "insertions": 18,
+            "deletions": 3
+          },
+          {
+            "hash": "243f2dd22985af7711f7a0986987d6cf194ed4db",
+            "message": "add export command parser test for export command",
+            "insertions": 21,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 181,
+        "deletions": 44,
         "date": "2019-03-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4384e1951add9e9b18d1016fd16f21da4b36f39f",
+            "message": "add parser util method for parsing export folders",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "e6c07e8c1f91e06df8ee5830fd1935fba4a3293f",
+            "message": "add card folder export class",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "f489e187702b8b0f9172b4deab8ab9d1f610e967",
+            "message": "add parseFolder method in parser Util",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "2d73d0649ffb1358f3992ccc00c06017fefb4765",
+            "message": "add CsvFile class",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "ef091335ebcd79154accd4befad6c8476dca2a75",
+            "message": "add parser method for filename export in parser utils",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "c4df757387804273ab3d50ed6d7f5eb3251ff658",
+            "message": "change interface methods",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "e0ec3794bd8b3fb97bbd04dae73d1ad6ce8e46a2",
+            "message": "change method signatures and added helper method",
+            "insertions": 20,
+            "deletions": 12
+          },
+          {
+            "hash": "7914b5f9b7d7f32204a25074257eb3a9f5afbef3",
+            "message": "add build export command test method",
+            "insertions": 28,
+            "deletions": 1
+          },
+          {
+            "hash": "439d1c49599bd4f080f722ccc59d30d8f43d61d1",
+            "message": "add parser test for invalid values in export",
+            "insertions": 15,
+            "deletions": 8
+          },
+          {
+            "hash": "76419b8e9f6cfa36dc02e53ad9dca8d2426f7a86",
+            "message": "add parser test for invalid file ext",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "4a16f94768f9b0b834fdf3e4df5c4782002b83cd",
+            "message": "fixed naming issues in files",
+            "insertions": 30,
+            "deletions": 21
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 37,
+        "deletions": 14,
         "date": "2019-03-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "43b3c544d63faed7e7416b4c8649b88ebd16147b",
+            "message": "add equals and hashcode to newly created classes",
+            "insertions": 27,
+            "deletions": 13
+          },
+          {
+            "hash": "af9431b5f841001cae33173aaeef2abc2afe6976",
+            "message": "fix checkstyle",
+            "insertions": 10,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -448,15 +1019,125 @@
         "commitResults": []
       },
       {
+        "insertions": 109,
+        "deletions": 90,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "c8478e32611877d603868c840061b4f8e0dd7c20",
+            "message": "add API for file import/export command",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "e928315a24ac1e142f3534827f62b8fa00de40ef",
+            "message": "add csv manager to implement csvcommands interface",
+            "insertions": 62,
+            "deletions": 0
+          },
+          {
+            "hash": "a9b671f242e4f38144d56110796f52e29f28520c",
+            "message": "shift logic execution of export command to model",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "83e3f83219b20ce5be9a7e42ae4817b94216c94b",
+            "message": "add interface methods for model to import and export cardfolders",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "a64c928b1be364fd65af3d1819c99958fcc12868",
+            "message": "implement export method in model",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "9621ee3c71a9ec73a8c7f5a7d81b8c94e3156de0",
+            "message": "remove cardfolderExport class and import class",
+            "insertions": 0,
+            "deletions": 81
+          },
+          {
+            "hash": "a749aba9a4ba5f6a05952444559d8302440779c1",
+            "message": "change return type of import command",
+            "insertions": 3,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 110,
+        "deletions": 52,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "5250286bc072452e7021e05d367530ade4a60c40",
+            "message": "update developer guide to reflect import/export command feature",
+            "insertions": 86,
+            "deletions": 40
+          },
+          {
+            "hash": "5904b2322c7ebd9efa64234b051310f41af3e4b9",
+            "message": "fix checkstyle errors",
+            "insertions": 11,
+            "deletions": 11
+          },
+          {
+            "hash": "a72a78eb4a7f1301e57674d73d70e5fa40904e0c",
+            "message": "add import and export API for modelstubs in testing",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "bdaae89b2f6356013b75a6b8ebedf227842cd288",
+            "message": "add new line to end of developer guide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-18",
+        "date": "2019-03-20",
         "commitResults": []
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -949,10 +1630,188 @@
         "commitResults": []
       },
       {
+        "insertions": 133,
+        "deletions": 42,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "5466a0a674061f06f16e3b4a8464fdca7cb4bd4c",
+            "message": "update link on about us",
+            "insertions": 74,
+            "deletions": 2
+          },
+          {
+            "hash": "192520f27a510716889e9886ebad064134471b03",
+            "message": "update personal portfolio",
+            "insertions": 18,
+            "deletions": 23
+          },
+          {
+            "hash": "90dc7732aeef1c30cc4497621cbef57f3a3a014b",
+            "message": "update feature portion",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "75b1f6172df976815bc4df3634d8777b76b7b080",
+            "message": "add feature elaboration",
+            "insertions": 30,
+            "deletions": 6
+          },
+          {
+            "hash": "e9bffc23165f9c456587d66a44fc8a6e9457f69a",
+            "message": "change adoc tag",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 47,
+        "deletions": 33,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "f55b807720068d833cf0df378535d2817325e666",
+            "message": "Revert \"replace all isSameCard with equal\"",
+            "insertions": 46,
+            "deletions": 20
+          },
+          {
+            "hash": "be47d2c8c6a26759404bc0cae8c163c99b7a573e",
+            "message": "edit backk",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "0119858c4631de9162604bffb4c1137102640bdf",
+            "message": "remove list alphabetical test",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "4633bd852289cf8a4a88b7260c175200f9725d20",
+            "message": "update docs on list command",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "8afebd1236c2fadd3e526afa0d5b6b4b1e8a4a09",
+            "message": "remove unsed",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 96,
+        "deletions": 10,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "178dfd9c944fa02cb3abcae46684f949c1555f09",
+            "message": "add list of folder scores",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "ceb6341b2f90636ba627d5c1f6204d5e8f9f127c",
+            "message": "add folderscore to storage too",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "41414327f2cf7967316987d9608ae23af5ecedba",
+            "message": "add folderscore for sample",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "260df4adfece0197d5e4213aee4e451eb06fde2b",
+            "message": "transfer max number in list to const",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "f86a555ad2b83b7313dc9bb88b41cdd7a3ffdf5a",
+            "message": "add folderscores fields to all test data",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "3cb13ce209827d7b9b8fd52f8f8d3a5e262323a2",
+            "message": "add to stub",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "0c1c4c2e0b05645dbeab8df23a101c46cc1c0f13",
+            "message": "add unit test for folderScore",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "8dd53a7380d447ce47058b106353d6affc9dac27",
+            "message": "fix styles",
+            "insertions": 7,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 161,
+        "deletions": 269,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "2773ee6e60d4fbc107ace33cb19de5b8fc9afaff",
+            "message": "make one big refactor",
+            "insertions": 82,
+            "deletions": 175
+          },
+          {
+            "hash": "b65e77adcf3f05256c07605e854a701cf3cc6932",
+            "message": "fix checkstyles",
+            "insertions": 67,
+            "deletions": 80
+          },
+          {
+            "hash": "30d4d2205a9ff76c143f828ef238b96888a8f909",
+            "message": "fix line len",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "0d995084121395ccfb0a09c155c026688670c920",
+            "message": "delete answercommandreusltype",
+            "insertions": 0,
+            "deletions": 8
+          }
+        ]
       }
     ],
     "KerrynEer": [
@@ -1743,9 +2602,100 @@
         "commitResults": []
       },
       {
+        "insertions": 247,
+        "deletions": 43,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "691a4f7e1ab7fa73ee5d5310387f266e762162de",
+            "message": "Add test and end commands implementation in DG",
+            "insertions": 101,
+            "deletions": 0
+          },
+          {
+            "hash": "99a321f190324b954b3f21ec2a76821bebd0c7fc",
+            "message": "Introduce methods for answer command and fix phrasing",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "6647618f85a0b21c64268318e6db786c5b545613",
+            "message": "Update addressbook to flashcard context",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "2358e86c1d0c605e95ef21cf1d869c97392b9876",
+            "message": "Update test session feature in UG",
+            "insertions": 51,
+            "deletions": 8
+          },
+          {
+            "hash": "8a65e837754264daaa82d15f792ab1da9c3d04bb",
+            "message": "Add spaces to standardise formatting",
+            "insertions": 41,
+            "deletions": 14
+          },
+          {
+            "hash": "54ad35f97434a379a4841e7ca8df17cf59b7e91d",
+            "message": "Add quickstart to UG",
+            "insertions": 23,
+            "deletions": 9
+          },
+          {
+            "hash": "cd1fcb7580200be9a6004550ebe5c551f5d74d8c",
+            "message": "Fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "18de801f1ae17d915b5735ad76e12c10501a929b",
+            "message": "Add test session screen image",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -2340,8 +3290,8 @@
         ]
       },
       {
-        "insertions": 84,
-        "deletions": 24,
+        "insertions": 196,
+        "deletions": 25,
         "date": "2019-03-19",
         "commitResults": [
           {
@@ -2403,24 +3353,84 @@
             "message": "Update css for TestSession",
             "insertions": 12,
             "deletions": 4
+          },
+          {
+            "hash": "d8f0f82070f10c78f6c001e0ac6028541709a774",
+            "message": "Add section for Cards implementation",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "d60aea91e5fee309a764dfc682bbb3e33e98aece",
+            "message": "Update user guide for card-related commands",
+            "insertions": 32,
+            "deletions": 1
+          },
+          {
+            "hash": "177f269061f90e64543edc47169b20d25a100faa",
+            "message": "Readd undo/redo commands to user guide",
+            "insertions": 50,
+            "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 0,
-    "yichong96": 0,
-    "dlqs": 445,
-    "KerrynEer": 1159,
-    "mmdlow": 681
+    "afterdusk": 4609,
+    "yichong96": 471,
+    "dlqs": 730,
+    "KerrynEer": 1210,
+    "mmdlow": 687
   },
   "authorContributionVariance": {
-    "afterdusk": 0.0,
-    "yichong96": 0.0,
-    "dlqs": 3807.7217,
-    "KerrynEer": 17949.9,
-    "mmdlow": 35016.53
+    "afterdusk": 1936033.1,
+    "yichong96": 3256.3777,
+    "dlqs": 7533.1294,
+    "KerrynEer": 16803.38,
+    "mmdlow": 30965.13
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

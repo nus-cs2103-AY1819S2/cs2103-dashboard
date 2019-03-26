@@ -279,6 +279,191 @@
             "deletions": 62
           }
         ]
+      },
+      {
+        "insertions": 56,
+        "deletions": 1,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "bc69696062e5f9456b61eb5c24613069a1d6b02e",
+            "message": "Initial dev guide update for card management",
+            "insertions": 47,
+            "deletions": 0
+          },
+          {
+            "hash": "d250df46b88498d416b08b8966478dac5114a9f4",
+            "message": "Initial dev guide update for card management",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 227,
+        "deletions": 134,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "68474b91def3da817d9fa98738ad27d846f163ca",
+            "message": "Update Command Tests",
+            "insertions": 86,
+            "deletions": 37
+          },
+          {
+            "hash": "3223a7d0f837c7476b12738b15c983677518f139",
+            "message": "Update Parser Tests",
+            "insertions": 86,
+            "deletions": 47
+          },
+          {
+            "hash": "03885b90ebfc08b9ca0427cbf01a31f2100402df",
+            "message": "Update Storage Tests",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "995ed31e6a3e5afefc9c10a06f7d26668433ddf6",
+            "message": "Comment out System test of commands that have not been implemented",
+            "insertions": 47,
+            "deletions": 45
+          },
+          {
+            "hash": "002697b95395072bfbb7d0a8dffab4ce411d64f2",
+            "message": "Update ModelHelper",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 209,
+        "deletions": 188,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "eb5953e63abc9eb11dde5d01d48b2bd3ac02fdcf",
+            "message": "Fix duplicate card bug",
+            "insertions": 16,
+            "deletions": 11
+          },
+          {
+            "hash": "33e51cca795618e9524e92fa59a4bce8f92e4d12",
+            "message": "Fix EditCardCommand",
+            "insertions": 141,
+            "deletions": 143
+          },
+          {
+            "hash": "f855aafc48ecd2f5f0deb0f6df46296bc1127607",
+            "message": "Fix EditCardCommandTest",
+            "insertions": 52,
+            "deletions": 34
+          }
+        ]
+      },
+      {
+        "insertions": 204,
+        "deletions": 156,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "f958e47179fc2f23b66fe9402ca76e6466e277c5",
+            "message": "Fix all broken tests and update the UI tests to work on ListItem",
+            "insertions": 159,
+            "deletions": 125
+          },
+          {
+            "hash": "29b077499378ce2b6ca6dfcce224877e2990c8fe",
+            "message": "Fix ListPanelTest",
+            "insertions": 45,
+            "deletions": 31
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 1312,
+        "deletions": 950,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "34b34cd4c7158656a1acf55e34d84978b690ce04",
+            "message": "Fix LogicManager and ModelManager tests",
+            "insertions": 110,
+            "deletions": 31
+          },
+          {
+            "hash": "b39017c28fb0134ad77e975dae6626ffef5d40c2",
+            "message": "Fix EditCardCommandTest",
+            "insertions": 18,
+            "deletions": 11
+          },
+          {
+            "hash": "b8cdbe2f2f397a865061375317c1ec9b98e974e1",
+            "message": "Fix Undo/Redo command tests",
+            "insertions": 34,
+            "deletions": 21
+          },
+          {
+            "hash": "618574d7b43a63c8ab36d64789d4adb2dd8c74d3",
+            "message": "Fix DeleteCardCommandTest",
+            "insertions": 90,
+            "deletions": 41
+          },
+          {
+            "hash": "5ec44bc2d1124c0465a39c5a916fc40f0bb4b518",
+            "message": "Add FindCardCommand",
+            "insertions": 177,
+            "deletions": 111
+          },
+          {
+            "hash": "9e97bce385b205c4fad214d8062c2f6cdebd7577",
+            "message": "Create FindCardCommandTest",
+            "insertions": 137,
+            "deletions": 31
+          },
+          {
+            "hash": "2c879e6fb497bc507a2370867117053081c39c9a",
+            "message": "Fix SelectCardCommandTest",
+            "insertions": 21,
+            "deletions": 10
+          },
+          {
+            "hash": "7e3b60ab0cb0d01a31f6d98e7e20863a82ac5bc1",
+            "message": "Fix TopDeckParserTest",
+            "insertions": 45,
+            "deletions": 41
+          },
+          {
+            "hash": "31f78f873040117de877ff647904bed307ec4ff3",
+            "message": "Add Word matching method in StringUtil",
+            "insertions": 27,
+            "deletions": 0
+          },
+          {
+            "hash": "075e390024a0f054cd421ac2a063cc124261f61a",
+            "message": "Comment out all of the SystemTest",
+            "insertions": 596,
+            "deletions": 594
+          },
+          {
+            "hash": "22fcb018615d0bd0b2553e6974e5480d67a62c3e",
+            "message": "Remove unnecessary imports",
+            "insertions": 57,
+            "deletions": 59
+          }
+        ]
       }
     ],
     "ckjohn000": [
@@ -561,6 +746,191 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 44,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "126caf919c03b3ca9b78d09dcd79a1c53f3867e6",
+            "message": "update dev guide for deck",
+            "insertions": 44,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 35,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "2449efcbc5f3879bc1bd8d515c62c5071e244989",
+            "message": "add command summary in userguide",
+            "insertions": 35,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 375,
+        "deletions": 270,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "f44cf2028f36d6dfd06cc3481584713c06e68676",
+            "message": "minor ug  changes",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "4e3566090d4d5061b5d61345c708221ca92d8d70",
+            "message": "fix test util",
+            "insertions": 28,
+            "deletions": 5
+          },
+          {
+            "hash": "8058736d621a4af036d4bd18a3b5ebf89e16986a",
+            "message": "fix ui test - listpaneltest still needs changing",
+            "insertions": 70,
+            "deletions": 20
+          },
+          {
+            "hash": "067bb7a12ee5532bf168cd33dc0e77ef7cf58369",
+            "message": "fix versionedtopdecktest",
+            "insertions": 50,
+            "deletions": 39
+          },
+          {
+            "hash": "7024bcad65a69fc4e516d1e8f78bb4b25a366691",
+            "message": "fix modelmanagertest",
+            "insertions": 11,
+            "deletions": 3
+          },
+          {
+            "hash": "d5ce8a051afc0dd91d37a92b9971fbb5e546a6b6",
+            "message": "add deckdisplayhandle fix test",
+            "insertions": 206,
+            "deletions": 200
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 431,
+        "deletions": 40,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "92d0d8fdad2f5675bd3502a4287d083b1f467204",
+            "message": "add test for jsondeck",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "66c5beb7820e044ff00b4f98c6cdc97baff34534",
+            "message": "add deck test, TODO- add deck delete and set",
+            "insertions": 91,
+            "deletions": 27
+          },
+          {
+            "hash": "d8ff78b8247306326877c094378acec65a0e06af",
+            "message": "add delete deck",
+            "insertions": 61,
+            "deletions": 0
+          },
+          {
+            "hash": "de934c1cfe428963f80e63a0e8b1f53538fb0e0a",
+            "message": "update model and topdeck",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "4181b3fae63c2b9afa3cb7979ca893adc6ca3083",
+            "message": "add delete deck parser",
+            "insertions": 75,
+            "deletions": 12
+          },
+          {
+            "hash": "c65e32028296425dbf2340721af4b0a83de8b227",
+            "message": "add deletedeckcommandparser test",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "b905a981920eac3a0eb2ed629131beec762aafed",
+            "message": "add delete deckcommandtest",
+            "insertions": 118,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 937,
+        "deletions": 48,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "be97285abb0234bed0143ac17f216eae47aff6a1",
+            "message": "add editdeckcommand",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "f3ce4230d20145526328c858e4885b01794ec6a3",
+            "message": "add editdeckcommand",
+            "insertions": 232,
+            "deletions": 8
+          },
+          {
+            "hash": "de04a730d7adcd2fa9a1703c417337b1c59ed3d2",
+            "message": "add editcommandparser",
+            "insertions": 53,
+            "deletions": 0
+          },
+          {
+            "hash": "0ddde6a0f310d9dfe9a4431576922644824c0327",
+            "message": "add editdeckdescriptorbuilder",
+            "insertions": 77,
+            "deletions": 1
+          },
+          {
+            "hash": "ea750afe0c4be0d2952176900e1fd78afeac1e8f",
+            "message": "add editdeckcommandparser test",
+            "insertions": 85,
+            "deletions": 0
+          },
+          {
+            "hash": "215cd76f788a1e6c3851845abe931bd204be89a4",
+            "message": "add editdeckcommandtest",
+            "insertions": 276,
+            "deletions": 0
+          },
+          {
+            "hash": "e61d057b6343829d17f1badd5463451abf7bef4d",
+            "message": "fix test case in jsonserializable",
+            "insertions": 122,
+            "deletions": 31
+          },
+          {
+            "hash": "1547e2254574b8610a33eae9122992414362e7ac",
+            "message": "fix typicaldeck test case in jsonserializable",
+            "insertions": 88,
+            "deletions": 8
+          }
+        ]
       }
     ],
     "xsot": [
@@ -784,6 +1154,48 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
         "commitResults": []
       }
     ],
@@ -1022,20 +1434,353 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 407,
+        "deletions": 69,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "89faa5dcb664bd4b116cc6bea368af26c9074b8c",
+            "message": "update aDocs",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "547feac570f6c9d52b766287176a5290e59b6a6d",
+            "message": "add studyview and closedeckcommand",
+            "insertions": 100,
+            "deletions": 0
+          },
+          {
+            "hash": "0c2665f5ccb786016080541044be60f8f8f7a1d4",
+            "message": "add study commands to deck commands",
+            "insertions": 89,
+            "deletions": 6
+          },
+          {
+            "hash": "4e0aec625ac2eca257a4109e7c2881d0a62913a5",
+            "message": "enable study deck in models",
+            "insertions": 68,
+            "deletions": 34
+          },
+          {
+            "hash": "b136c7af50c12b4a86569970ad0a5cd25466b024",
+            "message": "rename close to done",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "814811c0229abdec40ad819e1bbcce30f7f4a2b7",
+            "message": "add questionPanel to UI",
+            "insertions": 62,
+            "deletions": 17
+          },
+          {
+            "hash": "80a21604b3025cd3c60f21fbcb7cf08b6ce21e7f",
+            "message": "simplify stuffs",
+            "insertions": 1,
+            "deletions": 10
+          },
+          {
+            "hash": "ad94fc4c91c41a67efe7e9245e25d357abbf4d20",
+            "message": "disable question panel",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "aa417720078cc49e9de847cc33e52f6db14898b3",
+            "message": "add back line to check null item",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "871b2b8b2495a68f5cf795ae67613e5fcaeb72ee",
+            "message": "update dev guide",
+            "insertions": 60,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 385,
+        "deletions": 208,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "439a7ccfad9a6580e5a156e98c052ac6693d0e59",
+            "message": "change to display contentPanel",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "9533718b0d2f08f7dbd4fe36d4d2a136ee714074",
+            "message": "enable switch to studyPanel",
+            "insertions": 20,
+            "deletions": 8
+          },
+          {
+            "hash": "ed4c25bfba34522a6a3709ff2949ef5938a13511",
+            "message": "add property currentCard into model",
+            "insertions": 48,
+            "deletions": 39
+          },
+          {
+            "hash": "8d3e04c1ba992ee8620ed17422e6919bd7e89dc4",
+            "message": "catch empty deck exception",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "d415f28a3a7a8ae179c08411b3c1118b53820678",
+            "message": "add text shown property",
+            "insertions": 51,
+            "deletions": 6
+          },
+          {
+            "hash": "4c34de174e36f1ec3238c850256342f76bc14227",
+            "message": "use study state enums",
+            "insertions": 26,
+            "deletions": 16
+          },
+          {
+            "hash": "95d335dd8d447a1489027967380e942588376286",
+            "message": "add command for showing q and a",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "d8286c1ab6f0fd1f97e3c9d551a002c82e39554c",
+            "message": "add showAnswerCommand",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "2681510db678f677d821f17e7dbf097f7b192ae2",
+            "message": "fix command priority for study state",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "6d4fff19725b76684c5076269a5411dc34a46d68",
+            "message": "update showanswer logic",
+            "insertions": 19,
+            "deletions": 4
+          },
+          {
+            "hash": "911d0d13225d6f6f3c9e8dacf7e20636e41c4528",
+            "message": "enable question generation",
+            "insertions": 37,
+            "deletions": 3
+          },
+          {
+            "hash": "505ca75e61b19c55814dc05fe2d53afa1221e7dd",
+            "message": "randomise card generation",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "8734e0073526e1d23ab7b5131b75e6fd36b5658d",
+            "message": "move properties to StudyView",
+            "insertions": 62,
+            "deletions": 92
+          },
+          {
+            "hash": "267787373629716bd8b1a50f0e31139558cf0b6c",
+            "message": "refactoring questionPanel to studyPanel",
+            "insertions": 7,
+            "deletions": 10
+          },
+          {
+            "hash": "58b49c0990397981fab7ea63aa0635b4682c8d7c",
+            "message": "add Strategy class",
+            "insertions": 28,
+            "deletions": 15
+          },
+          {
+            "hash": "c91cc836ae0a60b7229ed72da87bc42af3a2ea8d",
+            "message": "basic UI changes",
+            "insertions": 27,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 198,
+        "deletions": 67,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "a254f21f2fa68e3a102445c0190c93089523906a",
+            "message": "refactor Strategy to DeckShuffler",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "e1a0125d50c40bfe12f4f928b4e3952785fc00f8",
+            "message": "responsive UI",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
+            "hash": "04bf5b8983462d885a3bbc37d5b8c5e793177f34",
+            "message": "turn studyState into observable property",
+            "insertions": 21,
+            "deletions": 6
+          },
+          {
+            "hash": "e2d82e3097e984e1c0f13139e693f719bd8cf645",
+            "message": "make flash cards look nice",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "229cba63d88e07f1af2dd59aebcb5bf2afb7e826",
+            "message": "add graphics changes",
+            "insertions": 19,
+            "deletions": 1
+          },
+          {
+            "hash": "19b4384f590ebeffa646c007dc1a4ab7997202ac",
+            "message": "overload StudyDeckCommand constructor",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "c630528003df4aedd4b3304baf386ab62ba2436c",
+            "message": "enable study from cards view",
+            "insertions": 20,
+            "deletions": 9
+          },
+          {
+            "hash": "fb039c23e2f68f6514ee513a9c53052cb8548091",
+            "message": "add userAnswer Label in UI",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "1ce796213d875c526fbde38febc98bc562bfaa1a",
+            "message": "take in userAnswer for showAnswerCommand",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "f2d7631b44ef7faa7e4d88bba63754cba2dc2be7",
+            "message": "format study view",
+            "insertions": 23,
+            "deletions": 11
+          },
+          {
+            "hash": "3a8800383e928a8da39f5847b2c3249d4ccfd282",
+            "message": "create userAnswer functions in study view",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "517e95f6d7500704953ae67bf692a43fdfada401",
+            "message": "record userAnswer in studyview",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "541016f93804224ec2d42fcaab9c2201909b29f4",
+            "message": "cleanup questionPanelPlaceholder",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "d0e929c087f7412cae00a4add96fe0a737db46f9",
+            "message": "show userAnswer in UI",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "b850f05b80c293fec58dbcb07f2b39e5060179e1",
+            "message": "clean up code in studypanel",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "ccb535d7e963f0c5341032c24e1dbe7206202ee3",
+            "message": "link userAnswer in ui and studyview through logicmanager",
+            "insertions": 13,
+            "deletions": 2
+          },
+          {
+            "hash": "cb2222c7c22a54242eb3471e8cf1cb9dad78f15b",
+            "message": "make userInput equivalent to command word instead of arguments",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "21ba09cbcd8de98340812ed7be41eaf321464fcb",
+            "message": "label user\u0027s answer",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "1beacdc9d676114481a4e86e3a7d366fc23438c2",
+            "message": "remove message success for answer",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3509ce091cf0f66cf95ba6bc4de92e9ece8560e7",
+            "message": "set userAnswer to invisible when viewing qns",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "ed98c0a120420ca973c30ba25fa911d7e7f5daf5",
+            "message": "remove success statements",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "e77cbb223fc66458b3452b7b2840fa69dad82ff5",
+            "message": "write fxml to main/resources",
+            "insertions": 9,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 566,
-    "ckjohn000": 1573,
+    "ChangDarren": 2128,
+    "ckjohn000": 3181,
     "xsot": 0,
-    "sciffany": 33
+    "sciffany": 644
   },
   "authorContributionVariance": {
-    "ChangDarren": 21501.53,
-    "ckjohn000": 47780.195,
+    "ChangDarren": 133076.5,
+    "ckjohn000": 69891.01,
     "xsot": 0.0,
-    "sciffany": 871.04736
+    "sciffany": 14303.203
   },
   "authorDisplayNameMap": {
     "ChangDarren": "CHA...HEN",

@@ -301,21 +301,108 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 110,
         "deletions": 0,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "457c6904ea1798d68b4ebc51869936ee42266d4f",
+            "message": "Add BookingAndReservationPanel class and fxml files Add ReservationListPanel (currently showing the booking list)",
+            "insertions": 110,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 225,
+        "deletions": 46,
         "date": "2019-03-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e0c670214e2639fbd6f89cb86ed874ff853430fc",
+            "message": "Add BookingAndReservationPanel",
+            "insertions": 82,
+            "deletions": 20
+          },
+          {
+            "hash": "57b30ef6f14b2366f77b9e6c1a99346b44daf46f",
+            "message": "Removed unused variables",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "c53b3e6af0231943dd218445b9098b1088953e61",
+            "message": "Removed unused variables",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "d541da6b33e5be435336c19432b6af7a61ec6ebb",
+            "message": "Add findbookingcontainspayer command Edit logicManager so that the booking list will show the bookings paid   by the selected customer",
+            "insertions": 120,
+            "deletions": 1
+          },
+          {
+            "hash": "1faaaa7f0d781ab78f8b4727c372d7a237b2d802",
+            "message": "New feature:   Booking list panel will show the filtered booking list after selecting   the customer or click the customer",
+            "insertions": 20,
+            "deletions": 7
+          },
+          {
+            "hash": "59ab5f52dce04193c27fcab4386a44c219f0ba6b",
+            "message": "New feature:   Booking list panel will show the filtered booking list after selecting   the customer or click the customer",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "a3c1b6b2243a1bc360732a1c25f5f3cf2ca25eeb",
+            "message": "Change the \"customers\" and \"bookings\" words in the messages   to \"customer(s)\" and \"booking(s)\" Change the usage massage of findBookingContainsPayer command",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 36,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "a98afb1257e3542ffe089dec057895653e3587f5",
+            "message": "Update UserGuide about the findBookingContainsCustomer command",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "8e3a194bdfaa4df0e3ad3dab730dda0095689465",
+            "message": "Update DeveloperGuide about the findBookingContainsCustomer command",
+            "insertions": 23,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
         "commitResults": []
       }
     ],
@@ -381,10 +468,47 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 62,
+        "deletions": 22,
         "date": "2019-02-20",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "625bd9bb58c1b0b941e732d6996b0f53f4d29b6d",
+            "message": "Added VIP functionality",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "2d21fcf9fda205aa0377df2fc5cdb74ae7532454",
+            "message": "Added tests for VIP Tag and Person",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "64cf69ebcca6bf544f3af8a8339780297898cf18",
+            "message": "Fixed checkstyle errors",
+            "insertions": 16,
+            "deletions": 14
+          },
+          {
+            "hash": "403c8f788ee414bc60f77e33bdc128282ebe11a1",
+            "message": "Fixed typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d3f085bd1b4c067f4b11a3206f66f3fec982ce74",
+            "message": "Fixed more checkstyle errors",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "21bae584e1c8a6228cf92d0e452e05f2a83540cd",
+            "message": "Avoided star import",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -405,22 +529,61 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 5,
         "date": "2019-02-24",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "af3425b2c14a973c529d6a3385f7d0b26b94e748",
+            "message": "Added all badges",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "924aa1e0151e5fd40ca15e4b73a3a5c9157aba91",
+            "message": "Removed Codacy Badge to allow other PR",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 182,
+        "deletions": 2,
         "date": "2019-02-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "447ebc20c74f30359b1571c6dede30e05945d8ad",
+            "message": "Added 3 models",
+            "insertions": 159,
+            "deletions": 0
+          },
+          {
+            "hash": "a279abd9c520bb173cced14a8249861b6c0366dd",
+            "message": "Fixed scoping and imports",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "24990f16761479c91c8dfdf4baf372962757dfb7",
+            "message": "Added test for time range",
+            "insertions": 20,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 669,
+        "deletions": 158,
         "date": "2019-02-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "69c451a6ccc8703a241c0d67f19e5344f012393b",
+            "message": "Implemented end to end add booking",
+            "insertions": 669,
+            "deletions": 158
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -435,16 +598,84 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 118,
+        "deletions": 6,
         "date": "2019-03-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f6712a74b785291a6fb84ae1cd725989437f627e",
+            "message": "Added import",
+            "insertions": 109,
+            "deletions": 0
+          },
+          {
+            "hash": "80e969a3c3bb7f48244dd92334b4900d16c36566",
+            "message": "Made test public for codacy",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1b86e3f98eebe93721d83980e2596161b48c3624",
+            "message": "Added import again",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "73adfbc9547b2afebfd6ddf554d9b7d1008b9883",
+            "message": "Removed trailing whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5cc78c5e0717e6c189939cef1ee02e05a472d05b",
+            "message": "Fixed checkstyle errors",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "f1b875f985caca8e973924e319ab79e9be92b63c",
+            "message": "Checkstyle error fixed",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 484,
+        "deletions": 324,
         "date": "2019-03-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9aa14bf5d737f2e611cc4b208efc014543439cf7",
+            "message": "Added whitespace",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "17f8b71ead6432c41df8729e6ca041725a0098ce",
+            "message": "Fixed TimeRange as test failed",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "7043f602b02e2254e68f9cd8f52c1c08e27806a2",
+            "message": "Added javadoc comment",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "e6844130706f0edfc4ba6eb5a1da447b54bcad39",
+            "message": "Added bookings from JSON Serializable Address Book to Address Book",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "b423e33f67c7cea54a288b86b82f33c32818f8e2",
+            "message": "Can add booking :)",
+            "insertions": 467,
+            "deletions": 320
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -453,16 +684,192 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 5899,
+        "deletions": 4774,
         "date": "2019-03-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6d9376c6c55ef5cb77b59e7546ce3e17a1d99a17",
+            "message": "Remove unused imports",
+            "insertions": 747,
+            "deletions": 1230
+          },
+          {
+            "hash": "ff3fbd29ebc58f1f64a4dcc65ca313df18f93080",
+            "message": "Added important files and fixed codacy issues",
+            "insertions": 328,
+            "deletions": 5
+          },
+          {
+            "hash": "7be1fb647f72ac9e23ae31e44541d44acce16c1b",
+            "message": "Fixed codacy issues",
+            "insertions": 1,
+            "deletions": 14
+          },
+          {
+            "hash": "3160b4f7c0b85c4b5d6e91e6b27b3d25ac78a932",
+            "message": "Fixed codacy issues for JsonAdaptedServiceType",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "035c2e4df26a474685833585401d70bace2313aa",
+            "message": "Fixed checkstyle errors",
+            "insertions": 2487,
+            "deletions": 2018
+          },
+          {
+            "hash": "333b3ae3fccd14b44a9f75948bd5c011e9f8de6f",
+            "message": "Avoid star import check",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "61527bfa69570d3e67b20a1df2f946e767aab441",
+            "message": "Fixed system tests",
+            "insertions": 255,
+            "deletions": 434
+          },
+          {
+            "hash": "18fb8ad2037da674fafac268d36d98c0867460bc",
+            "message": "Fixed logic for choosing model",
+            "insertions": 190,
+            "deletions": 2
+          },
+          {
+            "hash": "b27783d188ff2adf503b716f9a647628a18db2ff",
+            "message": "Fixed checkstyle errors",
+            "insertions": 12,
+            "deletions": 18
+          },
+          {
+            "hash": "5b6e946ff6070a11e6b0f88ce66e6def1da09454",
+            "message": "Fixed custom import order checks",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "f6bc4749f1a83d6ddea76e30d0501917cd58b9b1",
+            "message": "Fixed custom import order",
+            "insertions": 103,
+            "deletions": 36
+          },
+          {
+            "hash": "5184f2715bf0d0140b94306e4d0ce6157d2689db",
+            "message": "Fixed declaration order",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "4a2267052869a25aa0625a8e4144a85dab97226f",
+            "message": "Fixed trailing whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "29dc599dc9df6288d84407fba9d0c9ef24ebf4ef",
+            "message": "Commented some Help Window, Exit Related and Customer Accepted tests",
+            "insertions": 91,
+            "deletions": 91
+          },
+          {
+            "hash": "d1eef69fb5bfc9e287479dea47676aa36aa0c5a4",
+            "message": "Removed unused imports and fixed codacy issue",
+            "insertions": 2,
+            "deletions": 23
+          },
+          {
+            "hash": "0ef555c1a04e2f1ee913cc503dc63cbb365ed8d4",
+            "message": "Fixed indentation",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c9b33ba04a39e24f18a09e05a363cd2cb73bd07f",
+            "message": "Fixed and commented some more tests",
+            "insertions": 352,
+            "deletions": 352
+          },
+          {
+            "hash": "778fb541f1a6f332c13e81d06d2cfc43a33996b2",
+            "message": "Removed unused imports",
+            "insertions": 0,
+            "deletions": 79
+          },
+          {
+            "hash": "ca4f5b001d804364b96ef7ba2470638bada54380",
+            "message": "Fixed line length issue",
+            "insertions": 30,
+            "deletions": 15
+          },
+          {
+            "hash": "8b53945712a6593a2c90e91f6e891895841d8ec5",
+            "message": "Comment last failing test - SELECT",
+            "insertions": 85,
+            "deletions": 91
+          },
+          {
+            "hash": "427cf314049cce222ebec1c9d29bbf2cbe52ba15",
+            "message": "Fixed trailing whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "78fc48f9e45ab6d1e9723f2b4e336093e4c14a59",
+            "message": "Removed unneccesary methods and imports",
+            "insertions": 18,
+            "deletions": 22
+          },
+          {
+            "hash": "f267c745c75e20ca9d4c8076ea2189dc6de315b2",
+            "message": "Saving bookings works, help window works",
+            "insertions": 198,
+            "deletions": 174
+          },
+          {
+            "hash": "fc7fbc93c6a4aa7f2cce0bccde994ff4cc85a656",
+            "message": "Commented FindCommandSystemTest",
+            "insertions": 150,
+            "deletions": 150
+          },
+          {
+            "hash": "f3822828bf2fa5bdba70ba4075b64e474b5b4873",
+            "message": "Fixed codacy issue and added help window",
+            "insertions": 826,
+            "deletions": 1
+          },
+          {
+            "hash": "0f2da4e8204e496e6233e8722d9539a89db016db",
+            "message": "Added newline at end of file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3e5c4c5d23947b4045a98981be713249bc20bf5f",
+            "message": "Fixed indentation",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 74,
+        "deletions": 51,
         "date": "2019-03-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "92bf6f7e3e47e435a06668ddffa95966c6f6ff46",
+            "message": "Fixed compilation errors",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "5877ec679d7f655db011dfa57de341e43b3668f9",
+            "message": "Fixed all compilation errors in tests as well",
+            "insertions": 70,
+            "deletions": 49
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -525,16 +932,150 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2786,
+        "deletions": 2615,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "720fa283e85c3f59a1448ccd178e9655f269431c",
+            "message": "Renamed AddressBook to HotelManagementSystem",
+            "insertions": 471,
+            "deletions": 2269
+          },
+          {
+            "hash": "7975c6af9372152e16b35b9de63fcb33da5beebc",
+            "message": "Added files back",
+            "insertions": 1875,
+            "deletions": 0
+          },
+          {
+            "hash": "cd6709e728876278c77c738ac5b6e8cc66bf291e",
+            "message": "Remove tutorial file",
+            "insertions": 0,
+            "deletions": 12
+          },
+          {
+            "hash": "93e13646096d9b488b25892f43f62e34f4a3a9f8",
+            "message": "Fixed codacy issue",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1571077c7099f5667ec8b1143e66a3308229a7e8",
+            "message": "Fix all checkstyle errors",
+            "insertions": 423,
+            "deletions": 325
+          },
+          {
+            "hash": "83335314d2cf149aea47d0a71a8e81331bd191c3",
+            "message": "Fixed more checkstyle errors",
+            "insertions": 16,
+            "deletions": 8
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 18141,
+        "deletions": 18778,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "43f28a5b0d59e303c3661d8f041281bb1218045a",
+            "message": "Renamed data files",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "e13ec308d24cd25698775d78dce93be7520c9783",
+            "message": "Fixed typo",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "f660f471a95e3a36fe8d704c9ed51e1ef6a962d1",
+            "message": "Implemented booking editing",
+            "insertions": 290,
+            "deletions": 59
+          },
+          {
+            "hash": "df3680642ea62bcf5850f63026c97b5de6de3f82",
+            "message": "Renamed all packages",
+            "insertions": 984,
+            "deletions": 8745
+          },
+          {
+            "hash": "fb30c79a718c8d2040e67318007ca87e56182b00",
+            "message": "Fixed naming issues",
+            "insertions": 7764,
+            "deletions": 0
+          },
+          {
+            "hash": "a999776880c6772725c9c5e9a5d4ab39e2a3e301",
+            "message": "Fixed all tests",
+            "insertions": 1211,
+            "deletions": 1037
+          },
+          {
+            "hash": "18d5adee568b5987899c27280f31c54d2e63b060",
+            "message": "Fixed checkstyle",
+            "insertions": 46,
+            "deletions": 36
+          },
+          {
+            "hash": "1fc7b5e55582b53191ad5047f639a12c04f632b9",
+            "message": "Project built successfuly",
+            "insertions": 0,
+            "deletions": 7594
+          },
+          {
+            "hash": "9a56622be429d7e487aa65d8250889c7266fc921",
+            "message": "Removed duplicate files",
+            "insertions": 0,
+            "deletions": 1178
+          },
+          {
+            "hash": "eeeccbdf62a09d7d69cd4a3644405b48e5e86419",
+            "message": "Added important files",
+            "insertions": 7595,
+            "deletions": 0
+          },
+          {
+            "hash": "e1125a77b61c080a2e6f36c8b69e52abce44a5ee",
+            "message": "Added delete and edit commands",
+            "insertions": 125,
+            "deletions": 1
+          },
+          {
+            "hash": "15ef3db99e8c5b18687846ceac2cc49bd407c278",
+            "message": "Chnaged message",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "5f88bc61754c83763848359eb283be1c99989068",
+            "message": "Fixed checkstyle errors",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "0e60379baed9023e232212a51b016ecd0b959419",
+            "message": "Reverting file name in file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "268a4e68bfd649c9c48e4fa74d89e2319f21bdcf",
+            "message": "reverted image path in file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fad2dbfbad9ce639a10060a178ac9cfe73026703",
+            "message": "Fixed all system tests",
+            "insertions": 120,
+            "deletions": 120
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -546,6 +1087,56 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 176,
+        "deletions": 114,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "2ed13c0fa7f12bd8833ec02ca790de5e5e6ef00c",
+            "message": "Updated DG with booking stuff",
+            "insertions": 154,
+            "deletions": 83
+          },
+          {
+            "hash": "7be46a1f6dbed7ad6c4c61cd540fcdd01d9ca6a0",
+            "message": "Updated UG for booking commands",
+            "insertions": 21,
+            "deletions": 30
+          },
+          {
+            "hash": "6cc50fc8d25134f561fcc89170c7004250637ed4",
+            "message": "Changed sequence diagram",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 25,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "9639375df3c903e74705f38aa42863856234caf4",
+            "message": "Added reposense config",
+            "insertions": 25,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
         "commitResults": []
       }
     ],
@@ -1061,8 +1652,8 @@
         ]
       },
       {
-        "insertions": 397,
-        "deletions": 1002,
+        "insertions": 453,
+        "deletions": 1059,
         "date": "2019-03-19",
         "commitResults": [
           {
@@ -1190,6 +1781,124 @@
             "message": "Corrected checkStyle errors",
             "insertions": 45,
             "deletions": 43
+          },
+          {
+            "hash": "938378fb3e09dc7888bfd703721c37d4bc90c4c3",
+            "message": "Updated UG to reflect current stage of HMS+.",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "6fc6c3e7e0b68e339a50fd90d7b050d06e30b968",
+            "message": "DG updated with user stories",
+            "insertions": 51,
+            "deletions": 52
+          }
+        ]
+      },
+      {
+        "insertions": 42,
+        "deletions": 18,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "b54a424af5c0868bdca4e562cbfed4dc37f47dae",
+            "message": "Updated DG and UG. Made DG more like HMS. Made UG more like HMS",
+            "insertions": 34,
+            "deletions": 10
+          },
+          {
+            "hash": "1da2148e466a1d53af54e8077bc29d312e97a0c6",
+            "message": "Upgraded ModelComponentDiagram based on current state of project.",
+            "insertions": 8,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "292e94aedf842e6bfa0e29b01d578ec54ca0440f",
+            "message": "Corrected diagrams for undo/redo feature implementation.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2fe3e98ef4b6ee7b097d987158a91d366c07f56d",
+            "message": "Corrected comment",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 105,
+        "deletions": 20,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "6147a8ff77af786e2b42c3ee56806c0e7201393b",
+            "message": "Added Tests to check: If DeleteBookingCommand works properly If ListBookingCommand works properly",
+            "insertions": 45,
+            "deletions": 10
+          },
+          {
+            "hash": "64c63b619d95682551e360e60b79987eda461ef1",
+            "message": "Please CheckStyle",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "06253473f736cfe8f152c222e44dbb052fd5ee5d",
+            "message": "Please codacy",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f15294f9383db83cbc39e6ba77436ca2d628877c",
+            "message": "Please codacy.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "80634e815841f81301668be661766814c0116c4b",
+            "message": "Implemented ClearBookingsCommand. Deletes all the bookings present but retains the customers.",
+            "insertions": 53,
+            "deletions": 5
+          },
+          {
+            "hash": "650bde71f42303e54028c401334dcde2090a59d8",
+            "message": "Please codacy",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "532e5c0923ac8864725ca2bb6bb299b70d654c39",
+            "message": "Please checkStyle",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 23,
+        "deletions": 5,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "6d1dd228120b33503f4706961b49f73ce28e64e2",
+            "message": "Added Tests for ClearBookingCommand. The tests are included in HotelManagementSystemParserTest.",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "0de606a5502bb30cca227e4934b805e1a23c8f4f",
+            "message": "Updated Tests.",
+            "insertions": 6,
+            "deletions": 5
           }
         ]
       }
@@ -1584,20 +2293,75 @@
         "deletions": 0,
         "date": "2019-03-19",
         "commitResults": []
+      },
+      {
+        "insertions": 33,
+        "deletions": 23,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "edbf4d88f798185957d42bcf8b347430ee46ceb0",
+            "message": "Fix EditCustomerCommandSystemTest",
+            "insertions": 11,
+            "deletions": 3
+          },
+          {
+            "hash": "7455adc9fd239ce8bb729b40d413adba886b101f",
+            "message": "Please checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "0cf49a175aeda18e763a2a56ccc8338f48b7a0b8",
+            "message": "Update testing part in DG",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "860a0e80d189ffe709fb197b1d3c44d69ff87099",
+            "message": "Fix all unit tests and a minor bug in Address",
+            "insertions": 11,
+            "deletions": 13
+          },
+          {
+            "hash": "a5f0b6b7f4fb6387eae3880b75cd2734c7af55ed",
+            "message": "Please checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 1154,
-    "sreycodes": 0,
-    "Tejas2805": 1160,
-    "nerrons": 496
+    "ZhangCX10032": 1433,
+    "sreycodes": 9343,
+    "Tejas2805": 1293,
+    "nerrons": 477
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 576849.8,
-    "sreycodes": 0.0,
-    "Tejas2805": 88444.35,
-    "nerrons": 130199.77
+    "ZhangCX10032": 523472.06,
+    "sreycodes": 3.4150772E7,
+    "Tejas2805": 87843.49,
+    "nerrons": 118723.81
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

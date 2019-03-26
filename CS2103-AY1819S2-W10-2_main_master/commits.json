@@ -478,9 +478,83 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 36,
         "deletions": 0,
         "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "96355dce8367226fe796fdfdc1751fc5d92dc6db",
+            "message": "Update DG for Stats feature",
+            "insertions": 36,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 137,
+        "deletions": 137,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "0eec82fb32b94041370295e6a00cd1ad90209d69",
+            "message": "Refactor AddressBook to PocketProject",
+            "insertions": 40,
+            "deletions": 40
+          },
+          {
+            "hash": "93ad0948e046a6eebc28181bb305247f1b8c438f",
+            "message": "Refactor Person to Employee",
+            "insertions": 26,
+            "deletions": 26
+          },
+          {
+            "hash": "fe7edb721090fad3f313944c5c6775d69b23eacc",
+            "message": "Refactor tag to skill",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "ed800d907737e6199a6a14491eb08576eff764a8",
+            "message": "Fix broken links",
+            "insertions": 62,
+            "deletions": 62
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -1255,8 +1329,8 @@
         ]
       },
       {
-        "insertions": 32,
-        "deletions": 0,
+        "insertions": 362,
+        "deletions": 4,
         "date": "2019-03-19",
         "commitResults": [
           {
@@ -1264,8 +1338,172 @@
             "message": "updated developers guide to include list command",
             "insertions": 32,
             "deletions": 0
+          },
+          {
+            "hash": "8ccd5eca3f8ff6d2d6e0b773a497c5b1a070d00f",
+            "message": "changed button colour and style to a not so ugly one",
+            "insertions": 330,
+            "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 93,
+        "deletions": 63,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "81728674d1a53b77e0ef03598f15d893a37cb755",
+            "message": "updated css styles to a decent one",
+            "insertions": 84,
+            "deletions": 58
+          },
+          {
+            "hash": "d94306ef97efb7ac7ea218027835c622dc767e51",
+            "message": "minor colour changes",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "1873b2a0a9356f14bfa0f77d689066e0a0f9dc1a",
+            "message": "Update PocketProjectTheme.css",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 547,
+        "deletions": 277,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "3c4aec64642f957faab455204e6877c010969316",
+            "message": "refactored select command to view command",
+            "insertions": 60,
+            "deletions": 60
+          },
+          {
+            "hash": "26a979e4d0a694923533012d3ac03f3ebe638830",
+            "message": "refactored view to view employee",
+            "insertions": 56,
+            "deletions": 56
+          },
+          {
+            "hash": "5589839230b658c797d247ed744f4df0761c5d09",
+            "message": "updated messages",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "a05104e69fc840c5701ba754927d3dde46f8f12d",
+            "message": "added view command",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "f3832c7fc350cc806f0362e123bc484157d5e288",
+            "message": "added parser for view",
+            "insertions": 81,
+            "deletions": 16
+          },
+          {
+            "hash": "e2cb84a2ebc6c8471206d7d1c7de0017bc8c59e1",
+            "message": "re arranged by lexicographcal order",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "7d3abf45e05727830d4765114580932bb1daf637",
+            "message": "added view project command",
+            "insertions": 59,
+            "deletions": 0
+          },
+          {
+            "hash": "a04444a85c5c7c452e7d59ccbe3cebf0bbff0542",
+            "message": "updated tests",
+            "insertions": 5,
+            "deletions": 33
+          },
+          {
+            "hash": "54813c0cd8ccd1edd8cddb3479e424aec6df652e",
+            "message": "editted message for usage of view command",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "12ea2b1119d07a3e4529ab15cbafcde9b566732b",
+            "message": "added command and parser tests",
+            "insertions": 181,
+            "deletions": 37
+          },
+          {
+            "hash": "7d167d39811add50299a2cb1d55e93381d7f3a37",
+            "message": "editted systemtests",
+            "insertions": 50,
+            "deletions": 39
+          },
+          {
+            "hash": "28254afc3b6bc0f605f9d2e5a91de48f2b59d62d",
+            "message": "formatting",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "c05c4887925384f1097c20bf148a0def978bee3d",
+            "message": "formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9f8af1a60d548883e65062450f5211cf6c471e6a",
+            "message": "formatting",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "9fd3a243b780b4c1d314f57a0f9ba685c7c9a034",
+            "message": "formating",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "9bd0a9b9777827022e9288b1b03f0330b629f3ee",
+            "message": "Update ViewCommandParser.java",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "dehui333": [
@@ -2000,6 +2238,145 @@
         "deletions": 0,
         "date": "2019-03-19",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 273,
+        "deletions": 91,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "3c564877b3baa2b1a8a83fcf48bbe0c5968bb403",
+            "message": "Model implemented method to get list of projects containing a certain employee",
+            "insertions": 37,
+            "deletions": 0
+          },
+          {
+            "hash": "15e475fc545e0b6e22d0d7ad0a6ddee65a7013db",
+            "message": "deleting employees also removes them from ongoing projects",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "5aaccfb2e2aeb56f4497efdef4616ce14897ab28",
+            "message": "implemented delete project by both name and index",
+            "insertions": 24,
+            "deletions": 4
+          },
+          {
+            "hash": "90b42f3ced6db5a9d0b4f02d8df8f592484d210f",
+            "message": "updated UserGuide and fixed bug with delete by index",
+            "insertions": 37,
+            "deletions": 15
+          },
+          {
+            "hash": "a7373b99938ecf4e52750ef4fcb21d11e53df282",
+            "message": "remove print statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "6d7d28be486dca0007447a088565dbd76d6613d2",
+            "message": "commented one line which fails a test but the test passes on my local repo",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "2b0d4ec029da7db421dbb320320088470572eab9",
+            "message": "deal with unused import",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "723b305a76347b40b67b8cf840abcfdc4b8d0363",
+            "message": "sorts milestone list in project each time a new one is added",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "83ebc3e6f7e88bc7221d665158b6c3a2538a1512",
+            "message": "fixed bug with sorting milestone and made non argument parts of inputs case insensitive",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "a2d613916514d387e88ff1caa07278787d85400b",
+            "message": "removed tests enforcing case sensitivity of command key words",
+            "insertions": 5,
+            "deletions": 17
+          },
+          {
+            "hash": "aa43b02cf78e064f9791a7ecec2b056ae77f75d9",
+            "message": "fixed formatting",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "44f8445b5d22aad9fe8c1b53f8392600b3a78a3e",
+            "message": "added aliases for employee, project, milestone and skill",
+            "insertions": 19,
+            "deletions": 33
+          },
+          {
+            "hash": "db784863b13bd5ce46289b105d48638429e79c8f",
+            "message": "fixed naming inconsistency in ListCommandParser",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "314111b3d59805b2cc5f6ef5d42feedddf5d2e81",
+            "message": "added tests for sorting of milestone",
+            "insertions": 60,
+            "deletions": 0
+          },
+          {
+            "hash": "ef84ed0ac760d231c197bffa35026d5a5a4fc1ce",
+            "message": "added tests to DeleteProjectCommandTest",
+            "insertions": 24,
+            "deletions": 0
+          },
+          {
+            "hash": "7760dfe1a976959791984980b794b2e5ca2aca26",
+            "message": "added tests for ModelManager#getProjectsContaining",
+            "insertions": 21,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "shunnizuka": [
@@ -2058,10 +2435,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 20,
+        "deletions": 16,
         "date": "2019-02-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "07f88db752e98a90bec2ffe41e6af2f3c3946212",
+            "message": "Update UG introduction and ui mockup",
+            "insertions": 20,
+            "deletions": 16
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2112,16 +2496,114 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 209,
+        "deletions": 155,
         "date": "2019-02-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d6821197f661190dd859184a50fc6ba293de4adc",
+            "message": "Refractor FindCommand to FindEmployeeCommand",
+            "insertions": 54,
+            "deletions": 64
+          },
+          {
+            "hash": "40c2d1b8d1a10f8f38006e6fc4dd38a0c306cc82",
+            "message": "Update FindCommand parser to detect diff types of command",
+            "insertions": 33,
+            "deletions": 4
+          },
+          {
+            "hash": "c3a82a886bcc6a90ab0a2bb96aec70845104f16b",
+            "message": "Restrict findcommand to only accept one keyword as argument",
+            "insertions": 16,
+            "deletions": 6
+          },
+          {
+            "hash": "bb63d27e8565f6b8e3f0c41e13237d0cb853afac",
+            "message": "Fix formatting",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "ae69cc214dbeb6b1a066064b708004921bed8640",
+            "message": "Fix formatting again",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "d145824e1a07c2e6aee4a50a24ad4cfc4ae2d02d",
+            "message": "the above ^",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "457806066741b555e3d7c28aa2d57cbedf4fffd4",
+            "message": "the above ^",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1d6d0b06aef0663736e7db3956e50e27d076c50c",
+            "message": "let me passsss",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "7b1f9dd86f4414760c2af065bf84d91d52e5eb7a",
+            "message": "Fix formatting",
+            "insertions": 24,
+            "deletions": 14
+          },
+          {
+            "hash": "11a979f0c96c356adaa0fe71f7bc32af2fb046b0",
+            "message": "Fix formatting",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "c55bfcc989a872ae11899316ae58b8d2440f3c2b",
+            "message": "Fix bug and update test cases",
+            "insertions": 29,
+            "deletions": 26
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 24,
+        "deletions": 31,
         "date": "2019-03-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "71b4fb82168bebe30464b8239ab65122634fe8f3",
+            "message": "fix bugs and test cases",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "8b23af6b7011d45a40c10e1c595ded06b0811137",
+            "message": "Fix formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2e21417517f32180e8215c07d77e5c9646152dfe",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 8
+          },
+          {
+            "hash": "7db82d23b30576d4c4911e56d6e8a2ea95b7ad3d",
+            "message": "Fix formatting",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "ca07869a9533346f5c4837bb505e99c09efce65d",
+            "message": "Fix formatting",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2130,10 +2612,95 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 441,
+        "deletions": 218,
         "date": "2019-03-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "72d9d4a732a6773e89d41ea2d562da625510dcca",
+            "message": "Add new FindCommand classes and update variable name",
+            "insertions": 138,
+            "deletions": 43
+          },
+          {
+            "hash": "85a2652929d4878f860d3e33721a51d67e126eb0",
+            "message": "Refactor NameContainsKeywordPredicate to EmployeeNameContainsKeywordsPredicate",
+            "insertions": 52,
+            "deletions": 49
+          },
+          {
+            "hash": "8e4ea9cd1feafe8c9ca097eb1cabbc7905e5cd48",
+            "message": "Update logic for FindProjectCommand",
+            "insertions": 41,
+            "deletions": 6
+          },
+          {
+            "hash": "467b7b33124ca991c75790e09616196bcaf3f32f",
+            "message": "Refactor FindCommandTest to FindEmployeeCommandTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fa17dd20df0cb859e0ab8237e8b23d52267f9b4c",
+            "message": "Add test for FindProjectCommand",
+            "insertions": 107,
+            "deletions": 21
+          },
+          {
+            "hash": "d36e4c419f64e673cc00d55acf4b295f89b62225",
+            "message": "Refactor FindCommandSystemTest to FindEmployeeCommandSystemTest",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "5b7f537865b8bdaaab8c7cd879ff12f8c7b53ff7",
+            "message": "Fix formatting",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "f64511e363a0c3248bc274564e531365651b3af3",
+            "message": "Update javadoc",
+            "insertions": 30,
+            "deletions": 62
+          },
+          {
+            "hash": "40bf4840bec5e6b14697ea56da7615582117a606",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "25b52fe3ac855d74b1cbeba28afe4e3bdeef7e54",
+            "message": "Fix formatting",
+            "insertions": 14,
+            "deletions": 8
+          },
+          {
+            "hash": "88cce665603e1cb63bbff7f598ccd929e6f3a989",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "95db2c5768f35e36ee755cdeb81c242d17ded742",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "1f9cefc3c3981ff42d4a7fb057cc2828c7fc90a4",
+            "message": "Fix Bug + Add more FindCommandParser tests",
+            "insertions": 38,
+            "deletions": 12
+          },
+          {
+            "hash": "1cc2df3ce166ac60aba86d2d58a888a423ce5fc9",
+            "message": "Add test for FindProjectCommand in AddressbookParserTest",
+            "insertions": 8,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2172,10 +2739,35 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 180,
+        "deletions": 61,
         "date": "2019-03-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c03efe9d47ef50da0509ee31a34db8ecdb9b0bc5",
+            "message": "Add description class for project",
+            "insertions": 93,
+            "deletions": 8
+          },
+          {
+            "hash": "20207e8320dceb735e238947b27c6153950cb240",
+            "message": "Update JsonAdaptedProject.java to include description",
+            "insertions": 21,
+            "deletions": 8
+          },
+          {
+            "hash": "66425adea51d05ca29b4b76a71da7a4a72c9431d",
+            "message": "Update storage files + tests",
+            "insertions": 62,
+            "deletions": 19
+          },
+          {
+            "hash": "78b78251ea7c921986331cefaca9bddacd9e3f14",
+            "message": "Remove restriction for description",
+            "insertions": 4,
+            "deletions": 26
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2208,16 +2800,48 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 215,
+        "deletions": 14,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9e573faa2535135939b7984188bb2525d22ce6dd",
+            "message": "Update findskillcommand logic + add test cases",
+            "insertions": 212,
+            "deletions": 11
+          },
+          {
+            "hash": "477d996da09df1f53394f7d3506062b84527ae1a",
+            "message": "Fix typicalAddressbook.json file",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 37,
+        "deletions": 5,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "86273ff01437cc5de2a941923ca3b3b3f43e8b8e",
+            "message": "Test test",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "cfe5fdbf6bc6e6ea12008a80fda2494c7723a367",
+            "message": "Update DG implementation for findcommand",
+            "insertions": 30,
+            "deletions": 1
+          },
+          {
+            "hash": "89451b99e613aca718c7f8ece2e8b4934a279c19",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2230,6 +2854,178 @@
         "deletions": 0,
         "date": "2019-03-19",
         "commitResults": []
+      },
+      {
+        "insertions": 83,
+        "deletions": 55,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "5bab893b4f567dbd0c1c441e4df043998cba118b",
+            "message": "Update UG",
+            "insertions": 29,
+            "deletions": 20
+          },
+          {
+            "hash": "b1b297f83b9227896659d1305f628dc2cf360761",
+            "message": "Update UG",
+            "insertions": 32,
+            "deletions": 11
+          },
+          {
+            "hash": "f6e01e1848654961405ebd20f193dd265fc76c8d",
+            "message": "Fix Formatting",
+            "insertions": 4,
+            "deletions": 6
+          },
+          {
+            "hash": "92e449734e5b55c01c07ea6a17f15310455ec2f9",
+            "message": "Update UG command summary",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "aed11e1ea29332b092ede45c9df101b7f632d984",
+            "message": "Fix Formatting",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 82,
+        "deletions": 14,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "64ac0d64d95514a29e087e0a4bd73f1acfc1b981",
+            "message": " Add reposense config file",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "2b45405ea988a686dea0402694a5fb4fa65794ad",
+            "message": " Add reposense config file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "495298e57b71567037cd7efe1d871491f0ed34ad",
+            "message": " Edit config file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4c8b84866727dc1a6abd88afd002961a75e8f811",
+            "message": "Update editEmployeeCommand logic",
+            "insertions": 20,
+            "deletions": 6
+          },
+          {
+            "hash": "f79bba17f0b77c351d90231a8ff540146b97e9c4",
+            "message": "Add EditCommandTest case",
+            "insertions": 30,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 474,
+        "deletions": 93,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "a0a0ff8ac821d961ea8973749ca57771220b338d",
+            "message": "Add FindProjectCommandSystemTest",
+            "insertions": 199,
+            "deletions": 9
+          },
+          {
+            "hash": "1d6ab045e82c8ef0a9e3615ff90b7fd401496770",
+            "message": "Update FindProjectCommandSystemTest",
+            "insertions": 70,
+            "deletions": 57
+          },
+          {
+            "hash": "7556ca8333d003fab5db09bdc28ebe9285afcda6",
+            "message": "Fix formatting",
+            "insertions": 178,
+            "deletions": 1
+          },
+          {
+            "hash": "36bf3c997038e28f3a6fa8cbb294f2b57c2047f2",
+            "message": "Update FindSkillCommandSystemTest",
+            "insertions": 17,
+            "deletions": 17
+          },
+          {
+            "hash": "183cae60dde97370e52eed94734b38d0ea29b5f7",
+            "message": "Remove unused import statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "bc9920271e98a1a718e9e2b6ed988bc3eb629298",
+            "message": "update findCommandParserTest",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "d57c39613e710cb8e9a23ef77a976f907d776e12",
+            "message": "Changed isSameEmployee() to equals()",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 85,
+        "deletions": 44,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "d7250b3bd292f552f67e2b80feae0480b7a208df",
+            "message": "Change some instances of isSameEmployee() to equals()",
+            "insertions": 12,
+            "deletions": 2
+          },
+          {
+            "hash": "bebdae33cd68ded1d07fc0aff51fee0c08cbea07",
+            "message": "Update EditCommandSystemTest to include testing for employees in project",
+            "insertions": 58,
+            "deletions": 26
+          },
+          {
+            "hash": "e44b4eb9d40a059a432fc5c302455d9a45bc1aff",
+            "message": "fix formatting",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "abac547a1dafd7bdbc2692bfce5c94ef7d1d0043",
+            "message": "Remove printf",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "jothipillay": [
@@ -2349,10 +3145,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 13,
+        "deletions": 2,
         "date": "2019-02-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "79131e99aae603909c2c4d39780ed1588691daa6",
+            "message": "Add alias \u0027c\u0027 for clear command",
+            "insertions": 13,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2361,22 +3164,205 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 182,
+        "deletions": 164,
         "date": "2019-03-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8e9c8cac65a29c84c0ca8ed1b297a3150be5a9cc",
+            "message": "update user guide",
+            "insertions": 145,
+            "deletions": 99
+          },
+          {
+            "hash": "e19d42bc261909a32c4ab682712f4bdd74a1745c",
+            "message": "corrected formatting",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "eb5424be2b4a062437b86fbdcacb0c88146538ff",
+            "message": "corrected formatting",
+            "insertions": 1,
+            "deletions": 24
+          },
+          {
+            "hash": "523812b206ec5a6c35c53a3b4cafbbd80a533bdd",
+            "message": "corrected trailing whitespaces",
+            "insertions": 16,
+            "deletions": 17
+          },
+          {
+            "hash": "f503da7b9519d513987c024a6f2d162b545c3dbe",
+            "message": "correct trailing whitespaces in AddressBookParser.java",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "ab9ec2749a0116805f3ab2a7ed7e9ad46b89aae6",
+            "message": "corrected trailing whitespaces",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "4cb85e268ef98c5f029dde26ce993bf3c3a1b0c0",
+            "message": "fixed formatting errors",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "df9013ebb9080d503bd1e2e2392f04d1289110e0",
+            "message": "removed rogue test",
+            "insertions": 0,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 261,
+        "deletions": 3,
         "date": "2019-03-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "eab67aa41b762f15e0ed5ebaf311a02794950b2a",
+            "message": "added new contained classes related to project",
+            "insertions": 44,
+            "deletions": 1
+          },
+          {
+            "hash": "addb628154c6f3750ee44e1ae267612189d0e1d9",
+            "message": "added in attributes and methods for Project.java",
+            "insertions": 55,
+            "deletions": 0
+          },
+          {
+            "hash": "e0731d501402c76bcbb05e097c4c9585a8382907",
+            "message": "Correct javadoc errors",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "75169233fa63c58794992356fda6eb1fe9e5081f",
+            "message": "updated ProjectName.java",
+            "insertions": 47,
+            "deletions": 0
+          },
+          {
+            "hash": "87dc285d744e75581e2fbae453753c5d09691322",
+            "message": "updated Client.java",
+            "insertions": 49,
+            "deletions": 1
+          },
+          {
+            "hash": "f013686094b805071ae42a239fdf153eee510a92",
+            "message": "Update Deadline.java",
+            "insertions": 43,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 987,
+        "deletions": 409,
         "date": "2019-03-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "42165fd8ce7764763c836658f9afb3faf68070f8",
+            "message": "Refactor AddCommand to AddEmployeeCommand",
+            "insertions": 138,
+            "deletions": 117
+          },
+          {
+            "hash": "641cd4f6376842493e5ea36063c7e871eb09f80a",
+            "message": "corrected formatting errors",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "3e62eb61e8e43dfe9c63b9cf6d5ea337a31be619",
+            "message": "corrected formatting errors",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "60129e009100a627d2b459f29cb1d5d0b61b14f8",
+            "message": "corrected formatting",
+            "insertions": 10,
+            "deletions": 7
+          },
+          {
+            "hash": "aa136b7a52744b8056d8167cea3d2327baf59281",
+            "message": "corrected formatting errors",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "b821602c6ffc74c516164ac11e113d97a6dd5253",
+            "message": "added AddProjectCommand.java",
+            "insertions": 67,
+            "deletions": 5
+          },
+          {
+            "hash": "529134d5b14e4d121607dd5b90b3af0b7090515f",
+            "message": "added parser for add project command",
+            "insertions": 114,
+            "deletions": 7
+          },
+          {
+            "hash": "000ff83e40e6ef13ecd3d910d8bf6a0e55bf938b",
+            "message": "combined into 1 addcommandparser",
+            "insertions": 174,
+            "deletions": 169
+          },
+          {
+            "hash": "a7a9f95e5f871d49a20d9ea782384ea4e0228a25",
+            "message": "corrected test cases",
+            "insertions": 26,
+            "deletions": 21
+          },
+          {
+            "hash": "32e6e6b0fac993e1a279b6e0b03621b2e91a6c9e",
+            "message": "corrected failing tests",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "3df4b054b570dc41c4d72d2323b02e2b11419326",
+            "message": "fixed formatting errors",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "ed1d1a3643a816a7d6c2f5a94d539b4bac3ee047",
+            "message": "corrected formatting errors",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "edafac1c953e95121860105ca4bbdccb1657e4f1",
+            "message": "added tests for AddCommandParser",
+            "insertions": 110,
+            "deletions": 31
+          },
+          {
+            "hash": "c209a2889e7d21e1cb9a7e02c9866d55661e110d",
+            "message": "added add project command tests",
+            "insertions": 291,
+            "deletions": 0
+          },
+          {
+            "hash": "aee5710774dbab92df7062b4f9dac5ef69c68d4e",
+            "message": "correct formatting errors",
+            "insertions": 24,
+            "deletions": 22
+          },
+          {
+            "hash": "8bf9c02133f0e58f3807f612fb13a72a7c752db0",
+            "message": "fixed formatting errors",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2445,50 +3431,623 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 65,
+        "deletions": 24,
         "date": "2019-03-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3e5c8c6b0b5a237c47ebfc2f1899db404f20e15b",
+            "message": "add pix for legends and implemented legends section",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "5cfbc4aa294071a9b36ff32d2e69efd6f2b25bb9",
+            "message": "changed legends to table form",
+            "insertions": 17,
+            "deletions": 12
+          },
+          {
+            "hash": "1a9ca4095d8eb0a635620341f76e805eb2341195",
+            "message": "updated wording",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "f4f516ad167d8d5fa6b52bf4030f4d521cdbaf8d",
+            "message": "updated glossary in UG",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "0e1c6ebee3482446e673e26bd5d585e0249fa760",
+            "message": "updated introduction",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "ad9aadb3f2cd1b571446a70236b2546deb94e0bc",
+            "message": "added examples of tips in command usage",
+            "insertions": 8,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 119,
+        "deletions": 24,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ed02dc9a04c29860dc9b8f023778cb572bb5ca31",
+            "message": "updated addto cmd in userguide",
+            "insertions": 25,
+            "deletions": 22
+          },
+          {
+            "hash": "2828ad72eda6a07b71dc716502e3045b635ec57e",
+            "message": "add AddToCommand abstract class",
+            "insertions": 24,
+            "deletions": 0
+          },
+          {
+            "hash": "913f06263e02f2d97381dc9de8753536e928f2f5",
+            "message": "aded addemployeetocommand execute logic",
+            "insertions": 70,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 206,
+        "deletions": 14,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "da758647ebb20b32dd57e2eacb0336f32d40ee74",
+            "message": "modified add milestone and employee to project",
+            "insertions": 71,
+            "deletions": 1
+          },
+          {
+            "hash": "fb9aa7c62197dbaf7d0dabbebcc4358ffe64eca4",
+            "message": "corrected formatting errors",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "c1f45a370c41315f57cfd0e46d0e1f7cff127e16",
+            "message": "implemented parser for addto command",
+            "insertions": 85,
+            "deletions": 0
+          },
+          {
+            "hash": "2667a5723cc53921b9fb2c50c03694ed2284c391",
+            "message": "created empty class for addemployeto testt",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "26147485070bce5df6f773a8d8c6d2db63fa2c8a",
+            "message": "update switch cases in address book parser",
+            "insertions": 19,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 488,
+        "deletions": 150,
         "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "4ac959e74a0073adcd9cb24ca3ca221e58a57b09",
+            "message": "added and modifed model components for addto employee and milestone",
+            "insertions": 77,
+            "deletions": 9
+          },
+          {
+            "hash": "221fefe62bbd02cf5767aefe9199930cf8601b59",
+            "message": "update pocketproject",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "406a6a19ef8640712ad6a580b50816e935856dd5",
+            "message": "updated failing tests",
+            "insertions": 52,
+            "deletions": 3
+          },
+          {
+            "hash": "ca5e36a70c1ab399b64afc63d086634a60391f24",
+            "message": "added another test",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "9aae4384e419991e7527de5682e159bb533aa667",
+            "message": "removed extra import statements",
+            "insertions": 46,
+            "deletions": 22
+          },
+          {
+            "hash": "8e92b3eb7b3d0fedcbf822480bb75b39bc6afb9a",
+            "message": "updated a few tests for add milestone to command",
+            "insertions": 88,
+            "deletions": 4
+          },
+          {
+            "hash": "be84805a0e1dc5dbc6b834658e26a02a18b9defa",
+            "message": "added addtocommandparser",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "2ce22aa557fc2718d79dcef6b52f1f518e96ce6a",
+            "message": "fixed milestone parsing bugs",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "3e0b7ccb19b66c88c2e20b23783ba1c2b54bdd22",
+            "message": "updated failing tests. some tests remain",
+            "insertions": 17,
+            "deletions": 5
+          },
+          {
+            "hash": "1baed12fd9172a587212a11ef203a260ff250218",
+            "message": "completed tests for add to command parser",
+            "insertions": 51,
+            "deletions": 2
+          },
+          {
+            "hash": "d072ae044584c9ac191b2409777e96f9a08c8a12",
+            "message": "fixed failing tests",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "cd1c93ed078e2337613acc246392ceadfac31eec",
+            "message": "remove unused import statements",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "f251f1a7af7c5dd881529b6626a539e3a21fa546",
+            "message": "correct failing tests for add milestone to command",
+            "insertions": 20,
+            "deletions": 17
+          },
+          {
+            "hash": "a561585c0f1060dca5e9db65d0200d03b689856d",
+            "message": "refactored addressbook to pocketproject",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "147e0324db744dae0bbeaadc805d8b05f2bc6a31",
+            "message": "correct formatting errors",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "0ae5dc411382909160be6bfe7f691381b9308134",
+            "message": "corrected formatting errors",
+            "insertions": 39,
+            "deletions": 45
+          },
+          {
+            "hash": "2b54c72ed51d2beb17cf3faf5f2b6239b31286bc",
+            "message": "corrected formatting errors",
+            "insertions": 10,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 115,
+        "deletions": 37,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "e18390b0a1bcc2d1e1f6ba76652853b204d6725d",
+            "message": "added intro and legends to dg",
+            "insertions": 37,
+            "deletions": 3
+          },
+          {
+            "hash": "448b49b43228bcb0ecadd6fcb9bf3c57cd6b5556",
+            "message": "refactored addressbook to pocketproject",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "a77669849fb5f127cbcb6955545d127ae9118366",
+            "message": "refactored addressbook to pocketproject",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5ea632d4805f332e87d30a242bd86ff3fdb0da66",
+            "message": "create section on addto feature",
+            "insertions": 9,
+            "deletions": 5
+          },
+          {
+            "hash": "d495367d1b65acdc9d94da251e3ab3cfe03e5fcf",
+            "message": "added feature explanation for add employee to command",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "34e582ce1140549a02a83eaf783e5a321752492c",
+            "message": "updated add milestone to command step procedure",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "c4c97d9f37efe07784009a99d0cc2d39b2c02406",
+            "message": "added future planned implementations section",
+            "insertions": 16,
+            "deletions": 3
+          },
+          {
+            "hash": "3302de2044b0530da66d2d12371c1652bea35e09",
+            "message": "added legends to addto and remove from feature explanations",
+            "insertions": 6,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 8,
+        "deletions": 6,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "69edb62c25c0abd93545afeb80f585b4624cd062",
+            "message": "updated intro and quickstart in userguide",
+            "insertions": 8,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 210,
+        "deletions": 127,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "2b5a4212a00b0bc42b999447f051fc8e3b92fcb3",
+            "message": "added new legend and updated userguide legends section",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "6a42db011ebc9dc0b4bc84ce47af7ac6da16e977",
+            "message": "updated add command, added extra level of indentation",
+            "insertions": 19,
+            "deletions": 13
+          },
+          {
+            "hash": "1f61a29c34727922a52b97f8a3331dffae2baf02",
+            "message": "updated delete command in user guide",
+            "insertions": 29,
+            "deletions": 13
+          },
+          {
+            "hash": "44e6a8017c7dbf508b537b1f9df085dfd6321eba",
+            "message": "updated glossary and list command",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "cfe89ab82061b4e9332a22d30c836f517322d4ad",
+            "message": "updated user guide edit command",
+            "insertions": 27,
+            "deletions": 19
+          },
+          {
+            "hash": "18d5e701ba720eb9a91f0a4faed7bacf3cf753f9",
+            "message": "updated find command userguide",
+            "insertions": 27,
+            "deletions": 18
+          },
+          {
+            "hash": "36fa71b36efc1c6ccb5454445c72cc9a90a3ae63",
+            "message": "updated view command userguide",
+            "insertions": 17,
+            "deletions": 9
+          },
+          {
+            "hash": "668337ca98b067674b966fbc79c7113455b39e14",
+            "message": "updated addto command user guide",
+            "insertions": 32,
+            "deletions": 10
+          },
+          {
+            "hash": "29be024f7c2f6cece4a9f84210eb3b593f0b3885",
+            "message": "updated removefrom in userguide",
+            "insertions": 22,
+            "deletions": 5
+          },
+          {
+            "hash": "e99c5c12c2a9eba7e990871c97f952470d628f85",
+            "message": "update complete and sort sections in user guide",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "f7e6516817594ca4a260dc89da048370765cf59d",
+            "message": "updated complete, stats and removed select section from ug",
+            "insertions": 5,
+            "deletions": 20
+          },
+          {
+            "hash": "cd56bcf878c096a21dbed3355972ec363b58a153",
+            "message": "updated command summary",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "282dbcf266eb33aed1e7d10ccd7cb11344f3847a",
+            "message": "refactor ab to pp",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 529,
+        "deletions": 97,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "51a313be3215fd536bef1b86e177b2ba39939b2d",
+            "message": "created system test class for add employee to command",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "ebdce6bb30827d248b8e624b32176afb014b1eb4",
+            "message": "added basic system test function where employee added to project",
+            "insertions": 39,
+            "deletions": 2
+          },
+          {
+            "hash": "38e8d80cc78e59fdb0bf6a581a57ef7c4f1d8741",
+            "message": "tested undo command",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "a0c6f6a38475ef4fccbf3a10a199dbaa86fdd5e6",
+            "message": "added redo command tests",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "b4c7cb0ed2377f52b3e507e94fe6e5c41af65026",
+            "message": "reject duplicate employee system test",
+            "insertions": 26,
+            "deletions": 1
+          },
+          {
+            "hash": "433987f75c80c38d8b968e5eb449e7ff19c7f920",
+            "message": "updated javadocs for assert methods",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "8e6fdbd9f2f05d3b4f728e5ec546b50065bf01ee",
+            "message": "added missing fields system tests for add employee to command",
+            "insertions": 25,
+            "deletions": 5
+          },
+          {
+            "hash": "b945bc5de71fc9c248fbb8102a407dd3a79a8cfc",
+            "message": "refactored ab to pp in add employee system tests",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "065e308d2771cb10cae2965d96df43b06a101cd8",
+            "message": "corrected formatting errors",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "9e5c872d4737d21a47333b029ca1c3bd85c7a589",
+            "message": "fixed failing tests in add command parser test",
+            "insertions": 15,
+            "deletions": 10
+          },
+          {
+            "hash": "7541316843a0e19c9b48d65c3fd3647424cd40c9",
+            "message": "set up project util",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "bd0b114053871e8f66a1add6b5a38f8ce1f99cc6",
+            "message": "set up system tests for add project",
+            "insertions": 107,
+            "deletions": 3
+          },
+          {
+            "hash": "8dcc81f7d9104bb4aab2a5e3e67c3221152093ce",
+            "message": "set up assertcommmandsuccess and assertcommand failure methods",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "f4583a15bbc3b8f9db98e69b27ed95aa5ba4a5e6",
+            "message": "tested undo and redo commands with add project",
+            "insertions": 22,
+            "deletions": 8
+          },
+          {
+            "hash": "b5bd5df9906b98703563fb81ad8d9899008c1ffc",
+            "message": "refactored tags to skills",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "aee1fa19ae8ef77f61bddb7ce67184008b42ce9c",
+            "message": "added tests to add project unit test",
+            "insertions": 35,
+            "deletions": 9
+          },
+          {
+            "hash": "29a5cffae277bd32f7ff552ceee93ce84bb328d9",
+            "message": "updated system tests",
+            "insertions": 40,
+            "deletions": 1
+          },
+          {
+            "hash": "52152f91d48a33c092f33c3c3e2e1fd8d3d0a52e",
+            "message": "updated methods in pocket project system tests",
+            "insertions": 15,
+            "deletions": 5
+          },
+          {
+            "hash": "2eaae0b5ce770821f0828932e932173965b0bf97",
+            "message": "revert project alice description to fix failing tests",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "3bc57c0c04caf9a2bf9896cc4f278a7c7b316fb5",
+            "message": "fixed failing tests in add command parser",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "3c0b7db338ebe600584c11a01d82accbc3eecca0",
+            "message": "updated utils used for testing to support project methods",
+            "insertions": 59,
+            "deletions": 7
+          },
+          {
+            "hash": "222089f71b7d8d7a148cb43f73ff85d80f4d7198",
+            "message": "commented out failing tests",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "bb91e570215785d4cca10e636ca2a2813ab1576c",
+            "message": "removed unused imports",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "bf483ff62270c086f0782c7e2642de0c00b416a5",
+            "message": "fixed formatting errors",
+            "insertions": 6,
+            "deletions": 10
+          },
+          {
+            "hash": "bd7d9cb4a4e233f97dfd5aed1579ccd1b8b8ec54",
+            "message": "fixed formatting errors",
+            "insertions": 7,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 216,
+        "deletions": 18,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "2ed6ff0ac1d8e311f4fbd5998392815bce073646",
+            "message": "set up system tests for add milestone to command",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "173f7b0f65dece83b3db77256daac430824c527f",
+            "message": "updated project util, milestone and typical milestones",
+            "insertions": 90,
+            "deletions": 2
+          },
+          {
+            "hash": "2dc0f2c9c58162db036435a57b835e0d5e931750",
+            "message": "added comprehensive assert methods",
+            "insertions": 54,
+            "deletions": 2
+          },
+          {
+            "hash": "d713cb91e97f1a9d05c790037902ae5a99bbc140",
+            "message": "modified typical milestone and corrected failing tests",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "39f1af58f08a1317a8084d6ea914a6193dda9c01",
+            "message": "added undo, redo tests",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "3f0718da85f63ac797d9e5f1c531e95a728ad6f3",
+            "message": "tested invalid addto operations in system tests",
+            "insertions": 35,
+            "deletions": 1
+          },
+          {
+            "hash": "c37b528210ba8aa0ba207a535859d77d7ab1336b",
+            "message": "corrected formatting errors",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "4f1e3a4d4080e7a08ed17bc8b1974afed50edecf",
+            "message": "corrected formatting errors",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "ae68aad0ec40a83369e88641babfd7847039012a",
+            "message": "removed wrong extends statement",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
         "commitResults": []
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-26",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 2348,
-    "jeffgan96": 2236,
-    "dehui333": 2486,
-    "shunnizuka": 0,
-    "jothipillay": 7
+    "ditan96": 2433,
+    "jeffgan96": 2982,
+    "dehui333": 2706,
+    "shunnizuka": 1260,
+    "jothipillay": 2601
   },
   "authorContributionVariance": {
-    "ditan96": 294264.78,
-    "jeffgan96": 123731.67,
-    "dehui333": 91132.48,
-    "shunnizuka": 0.0,
-    "jothipillay": 24.62397
+    "ditan96": 251695.16,
+    "jeffgan96": 118047.414,
+    "dehui333": 79848.28,
+    "shunnizuka": 20102.074,
+    "jothipillay": 61238.418
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

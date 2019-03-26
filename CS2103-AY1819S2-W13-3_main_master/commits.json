@@ -353,6 +353,73 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 194,
+        "deletions": 89,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "696a6ca95d5ef83e99a40b0afa9cc27282f9dfa4",
+            "message": "Edit and tested working of List Command post integration [ListCommand.java]",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "03568ae985bf47124771f5bde7ab577c28cd7052",
+            "message": "Edit and tested working of Find Command post integration [FindCommand.java]",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "80f7eb9eff0121cb6163b6ba3cce0e65a7571c0b",
+            "message": "Refactor FindCommand.java into SearchCommand.java; parser and tests updated too. Tested, working as per the default logic",
+            "insertions": 24,
+            "deletions": 24
+          },
+          {
+            "hash": "899a4d5567eeb5baa39141710c91c0af2209e9bf",
+            "message": "Update UserGuide.adoc for Search and List Command",
+            "insertions": 11,
+            "deletions": 10
+          },
+          {
+            "hash": "ed73543ef978665777a7c57bb7f227e0620195b7",
+            "message": "Update UserGuide.adoc for Search and List Command [minor fixes]",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "63aa6cde8d3c42a69e4595499d109d218789d6ed",
+            "message": "Update DeveloperGuide.adoc for Search Command (without pictures)",
+            "insertions": 125,
+            "deletions": 0
+          },
+          {
+            "hash": "578a8748ca4a65a19c445f4c2a638943986855ab",
+            "message": "Update DeveloperGuide.adoc for List Command (without pictures)",
+            "insertions": 21,
+            "deletions": 48
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
       }
     ],
     "DoItTomorrow": [
@@ -607,6 +674,30 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
         "commitResults": []
       }
     ],
@@ -944,6 +1035,30 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
       }
     ],
     "DarrenDragonLee": [
@@ -1263,6 +1378,30 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
       }
     ],
     "fterh": [
@@ -1357,16 +1496,48 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 90,
+        "deletions": 2,
         "date": "2019-02-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "70d5ab6066d0301fc77c1e1b664f0e9263b931e5",
+            "message": "Create commands \"panic\" and \"unpanic\"",
+            "insertions": 56,
+            "deletions": 0
+          },
+          {
+            "hash": "a4ccddb82ca6b5ea0aa35db67361a694c3b89684",
+            "message": "Accept \"panic\" and \"unpanic\" commands",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "6ae430c695c18389fa450767451397b74595b755",
+            "message": "ModelManager.java: update to implement PanicMode interface",
+            "insertions": 26,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 29,
+        "deletions": 11,
         "date": "2019-02-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "abfa3acb6c63b2fca8e3c6f7ce1baded1f475ee0",
+            "message": "Fix checkstyle violations",
+            "insertions": 17,
+            "deletions": 11
+          },
+          {
+            "hash": "80843c363f22aa3f204dbc5183c7bb07e65cc97c",
+            "message": "Model.java: add default implementation methods for PanicMode",
+            "insertions": 12,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1406,9 +1577,16 @@
       },
       {
         "insertions": 0,
-        "deletions": 0,
+        "deletions": 25,
         "date": "2019-03-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e1e46842a65d78f0bdc10b68bd60510a5f7c17fd",
+            "message": "Revert \"Implement Biblio Command\"",
+            "insertions": 0,
+            "deletions": 25
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1429,10 +1607,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 12,
         "deletions": 0,
         "date": "2019-03-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "34c63e309e18917656c2bf75c648ace0e5950407",
+            "message": "Add panic and unpanic commands to UserGuide.adoc",
+            "insertions": 12,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1447,10 +1632,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 50,
+        "deletions": 26,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7279c6e542d8b89c418ab156e2a0d73f5f78315e",
+            "message": "Fix bug: prevent enabling panic mode multiple times",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "0495c8ff43ccf86cd91c053f079c1db57f81515b",
+            "message": "Fix typo: \"Titles\" should be \"Types\" instead",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e286ba2792614a47bf1b85c0f4a45ef2f1318fd9",
+            "message": "Refactor source attribute validation logic into static utility method",
+            "insertions": 33,
+            "deletions": 25
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1471,38 +1675,319 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 580,
+        "deletions": 624,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "92459d03c9331f649cbc3fbd65f16bcf39f244a1",
+            "message": "Remove sourcemodel",
+            "insertions": 0,
+            "deletions": 479
+          },
+          {
+            "hash": "41e12e4081a4dd9eccf2195b13aeb728028a4de3",
+            "message": "Update API: rename \"address book\" references to \"source manager\"",
+            "insertions": 580,
+            "deletions": 145
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1080,
+        "deletions": 986,
         "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "c92deec2a3fa6956c3f454d958072282c79e55bd",
+            "message": "Update model tests: migrate from addressbook to source manager",
+            "insertions": 725,
+            "deletions": 394
+          },
+          {
+            "hash": "44937405f96dd99facbb168271f573543dd3e6c0",
+            "message": "Remove some deprecated tests and unused imports",
+            "insertions": 0,
+            "deletions": 187
+          },
+          {
+            "hash": "4c08ded71b65bb7111bf63d4c65eaaf8533a9638",
+            "message": "Implement TitleContainsKeywordsPredicate.java",
+            "insertions": 32,
+            "deletions": 0
+          },
+          {
+            "hash": "bae6a91ddeca189c8f861b411b0a9603beed03db",
+            "message": "Rewrite EditPersonDescriptorBuilder to EditSourceDescriptorBuilder",
+            "insertions": 78,
+            "deletions": 88
+          },
+          {
+            "hash": "d3619770f6a57fe6622800843c2ab1686800842f",
+            "message": "Fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "969fb6229a51bb12024765c901256d284087b33b",
+            "message": "Rewrite CommandTestUtil.java",
+            "insertions": 55,
+            "deletions": 61
+          },
+          {
+            "hash": "7396b8c68bfd9b09ae0425734897b9bf4e06c489",
+            "message": "Rewrite PersonUtil.java as SourceUtil.java",
+            "insertions": 60,
+            "deletions": 62
+          },
+          {
+            "hash": "0755de198f16b41c59a70f2afcb758bc1aecb729",
+            "message": "Update variable names in TypicalIndexes.java",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "ffda49871f63f9b263295a2229e1445e7cf382d8",
+            "message": "Rewrite SourceManagerParserTest.java",
+            "insertions": 18,
+            "deletions": 18
+          },
+          {
+            "hash": "f312c119b1082c95079b45acb46f23840eb67851",
+            "message": "Rewrite SelectCommandParserTest.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d1fabcde56f0a74343a04330b335b119668d81f0",
+            "message": "Rewrite ParserUtilTest.java",
+            "insertions": 47,
+            "deletions": 73
+          },
+          {
+            "hash": "260a6431a91144eca53f51d0f7cf954395605ecb",
+            "message": "Rewrite FindCommandParserTest.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "47229c38cb99526a00eb49d51ff5d2c5250db06c",
+            "message": "Rewrite EditCommandParserTest.java",
+            "insertions": 55,
+            "deletions": 93
+          },
+          {
+            "hash": "541774005d699979e15a8d4829c5db1af8155bae",
+            "message": "Rewrite DeleteCommandParserTest.java",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 680,
+        "deletions": 758,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "e9015ed8065c440de6b1ebe0b31162d5133fac69",
+            "message": "Rewrite AddCommandParserTest.java",
+            "insertions": 48,
+            "deletions": 83
+          },
+          {
+            "hash": "0e37b382b8d477dc5df2bd3a6f3875bbd2f5e9aa",
+            "message": "Rewrite LogicManagerTest.java",
+            "insertions": 26,
+            "deletions": 26
+          },
+          {
+            "hash": "53bf3f4380a288d808033f829dd00098059fc639",
+            "message": "Rewrite PersonCardHandle.java as SourceCardHandle.java",
+            "insertions": 79,
+            "deletions": 87
+          },
+          {
+            "hash": "1d9e6fce38dbcb0f2c80b50f72489774e97f1307",
+            "message": "Rewrite PersonListPanelHandle.java as SourceListPanelHandle.java",
+            "insertions": 34,
+            "deletions": 34
+          },
+          {
+            "hash": "3eea727b3e8d61ae2d9227d2d598c8ee01d2f633",
+            "message": "Revert \"Rewrite PersonListPanelHandle.java as SourceListPanelHandle.java\"",
+            "insertions": 34,
+            "deletions": 34
+          },
+          {
+            "hash": "824dc9eb8117adb014da8c960c5a3a7582090fb4",
+            "message": "Rewrite MainWindowHandle.java",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "e95e2ba4901bf871239124c39426724c3779073c",
+            "message": "Rewrite ModelHelper.java",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "96396c2ad68dbaf9fb38c338be1a98a7eabe0206",
+            "message": "Rewrite TestApp.java",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "7b93733cb94a35d2eeefa9e61cb0729add028a4a",
+            "message": "Rewrite SystemTestSetupHelper.java",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "ecc50b8c68859fdd2ba2dcba1d9718b7b4d3e34f",
+            "message": "Rewrite GuiTestAssert.java",
+            "insertions": 25,
+            "deletions": 27
+          },
+          {
+            "hash": "d75462797e3fb40ae5146b250c75c61091a8ad7e",
+            "message": "Rewrite SourceManagerSystemTest.java",
+            "insertions": 38,
+            "deletions": 38
+          },
+          {
+            "hash": "93aaf93e800b56c0d48492a478f3f69a52a44a07",
+            "message": "Rewrite AddCommandSystemTest.java",
+            "insertions": 99,
+            "deletions": 113
+          },
+          {
+            "hash": "5ef282c9b3167db7135433ebf35d8c3fb04d0422",
+            "message": "Rewrite ClearCommandSystemTest.java",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "704afd9bd636aa1890a89ffa78d8520858122c84",
+            "message": "Rewrite TestUtil.java",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "668e27927871b3ab61eedfa7b0907cf164e55201",
+            "message": "Rewrite DeleteCommandSystemTest.java",
+            "insertions": 47,
+            "deletions": 47
+          },
+          {
+            "hash": "5f7c73437c1a23bd9ab6939ddf471aed47a34ab2",
+            "message": "Rewrite EditCommandSystemTest.java",
+            "insertions": 136,
+            "deletions": 150
+          },
+          {
+            "hash": "236587a5badc7d55373e70b98539d654eeff6590",
+            "message": "Rewrite FindCommandSystemTest.java",
+            "insertions": 40,
+            "deletions": 45
+          },
+          {
+            "hash": "4ba9294e654dcf6ee716840e1603a7c7000b59a8",
+            "message": "Rewrite HelpCommandSystemTest.java",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "99b38fabd52c66a7e44038259dcececbe63ebb35",
+            "message": "Rewrite SampleDataTest.java",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "cad3c17c19fcd27c3bcd953d772b2936c95c6646",
+            "message": "Update files",
+            "insertions": 11,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 115,
+        "deletions": 11,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "83a55e0504c25be5070527edc70db7ed06a1d9d8",
+            "message": "Update DeveloperGuide.adoc with command alias feature",
+            "insertions": 32,
+            "deletions": 0
+          },
+          {
+            "hash": "7fa0d7575510e2c091b7a48651b91eaca864c44a",
+            "message": "Update .fxml files to fix NullPointerExceptions",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "ac7e78f9901de3734c07ac325387869261e0f496",
+            "message": "Implement rudimentary support for command aliases",
+            "insertions": 73,
+            "deletions": 0
+          },
+          {
+            "hash": "fd2b8394c40419b297e17cffecaf55ef41db61f0",
+            "message": "Reorder import statements (fix Travis checkstyle failing)",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "dfb80071301f957bfe661ffd2db215dfab35e687",
+            "message": "Remove trailing whitespaces (fix Travis failing)",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
         "commitResults": []
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-18",
+        "date": "2019-03-21",
         "commitResults": []
+      },
+      {
+        "insertions": 30,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "818a06b23d168b1a89a42b9c72db9d24abd97907",
+            "message": "Add reposense config file",
+            "insertions": 30,
+            "deletions": 0
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 253,
+    "suriruhani": 394,
     "DoItTomorrow": 25,
-    "case141": 384,
+    "case141": 374,
     "DarrenDragonLee": 160,
-    "fterh": 0
+    "fterh": 1549
   },
   "authorContributionVariance": {
-    "suriruhani": 8837.966,
-    "DoItTomorrow": 88.461655,
-    "case141": 4007.235,
-    "DarrenDragonLee": 17454.543,
-    "fterh": 0.0
+    "suriruhani": 9655.377,
+    "DoItTomorrow": 80.0476,
+    "case141": 3641.167,
+    "DarrenDragonLee": 15894.821,
+    "fterh": 175184.64
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",

@@ -320,8 +320,8 @@
         ]
       },
       {
-        "insertions": 69,
-        "deletions": 20,
+        "insertions": 78,
+        "deletions": 21,
         "date": "2019-03-19",
         "commitResults": [
           {
@@ -341,8 +341,51 @@
             "message": "Added ListCpnyCommand",
             "insertions": 34,
             "deletions": 0
+          },
+          {
+            "hash": "eab0b0d32475dd2e9d254c9fffbe038e59f0cfea",
+            "message": "Developer guide",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "449388963789fb9ce9cb96fa48bd532105651c37",
+            "message": "Added Company to DeveloperGuide",
+            "insertions": 8,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 102,
+        "deletions": 72,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "62fe0f62cc01d175204e255fc7ec23a130b982a8",
+            "message": "Fixed Code Style Errors",
+            "insertions": 102,
+            "deletions": 72
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
       }
     ],
     "ZhangJiayu0303": [
@@ -583,9 +626,47 @@
         ]
       },
       {
+        "insertions": 21,
+        "deletions": 1,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "3b880adef0f8a303ed493299e0a412e220cbffa5",
+            "message": "Update add command for Developer Guide",
+            "insertions": 21,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 110,
+        "deletions": 20,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "df170a8a7cd25874b992ff001575a9cacf2ecd1a",
+            "message": "fix tests errors",
+            "insertions": 110,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
         "commitResults": []
       }
     ],
@@ -895,6 +976,30 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
         "commitResults": []
       }
     ],
@@ -1241,20 +1346,88 @@
             "deletions": 8
           }
         ]
+      },
+      {
+        "insertions": 148,
+        "deletions": 63,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "9cfe4b80b5dd5fc96c1e65890a80db0c46a0a13e",
+            "message": "Fixed checkstyle errors",
+            "insertions": 58,
+            "deletions": 27
+          },
+          {
+            "hash": "e0abe0a8df16800a53d405721e0258b982f5155d",
+            "message": "Fixed checkstyle errors",
+            "insertions": 26,
+            "deletions": 19
+          },
+          {
+            "hash": "c3606b9b7502d8d51a3109e7466ea0968d031820",
+            "message": "Fixed checkstyle",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "f2380a0da4fde41fe29d853802f02dbc82826fb6",
+            "message": "Implemented abstract methods in tests",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "9684732dc8452063e89ba5d78a1d49ef3a17073c",
+            "message": "Fixed test checkstyle",
+            "insertions": 26,
+            "deletions": 13
+          },
+          {
+            "hash": "c886b0999db23e17113bac09d82df485e81d4f18",
+            "message": "editcommandparsertest reorganize imports",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "ebd2bbc359f08259f23406cc4b747eb3988fb7a0",
+            "message": "Fixed checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "roanurquhart": 878,
-    "ZhangJiayu0303": 811,
+    "roanurquhart": 911,
+    "ZhangJiayu0303": 894,
     "FanDongzhe": 94,
-    "jkhiani": 156
+    "jkhiani": 251
   },
   "authorContributionVariance": {
-    "roanurquhart": 11077.04,
-    "ZhangJiayu0303": 2890.7634,
-    "FanDongzhe": 419.81192,
-    "jkhiani": 447.19666
+    "roanurquhart": 10602.816,
+    "ZhangJiayu0303": 2964.1697,
+    "FanDongzhe": 380.8073,
+    "jkhiani": 1382.785
   },
   "authorDisplayNameMap": {
     "roanurquhart": "URQ...RAY",

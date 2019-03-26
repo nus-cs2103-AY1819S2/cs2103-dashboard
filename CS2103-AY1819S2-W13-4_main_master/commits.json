@@ -1230,36 +1230,153 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 39,
+        "deletions": 17,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "156c590fd46116223df1740fec3d9152b2ba30ac",
+            "message": "Fix minor error in what addall command returns",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "24473d3dd3ec3f589374c78fd9b3cc58704180e4",
+            "message": "Add a placeholder for allergy in PersonCard",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "62abaac641956d74e7952da1b21a1e1d2cac5c65",
+            "message": "Refactor \u0027addall\u0027 command - Change some strings into final values - Instead of a local parser, use the argument tokenizer and parser utility to implement the parser for \u0027addall\u0027 - Change the tag for allergy to be \u0027y/\u0027 to prevent clash with address",
+            "insertions": 27,
+            "deletions": 14
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 151,
+        "deletions": 172,
         "date": "2019-03-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "58e1482587eadfbac5e96ff80b86c526d7b33f7b",
+            "message": "Refactor test for \u0027addall\u0027 - Add some examples of valid allergy to test utility - Update test to reflect the new parsing format - Minor edit in usage message of \u0027addall\u0027 command",
+            "insertions": 54,
+            "deletions": 149
+          },
+          {
+            "hash": "12c925ce585fa4695c74fcb5aa5fbe27d9a25912",
+            "message": "Minor change in placeholder implementation of allergy in PersonCard",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9d9675443acb76e68e954d0c5c9896bff1dc674c",
+            "message": "Remove checkStyle error and update description of \u0027addall\u0027",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "ce9a146255898082684b60c287d0c2699a0da808",
+            "message": "Model the Allergy as an object instead of a String - Refactor the \u0027addall\u0027 method to take in Allergy instead of String - Refactor the respective tests for \u0027addall\u0027 method",
+            "insertions": 93,
+            "deletions": 19
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 281,
+        "deletions": 59,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2462ddc1bb07f3a67190af58075d4687e5c5fb00",
+            "message": "Modify \u0027Person\u0027 to support an \u0027Allergy\u0027 field - Currently, does not support addition of a patient with an allergy immediately - Currently, also does not support editing the allergy of a patient using \u0027edit\u0027 command - Modify \u0027SampleDataUtil\u0027 to include \u0027Allergy\u0027 field",
+            "insertions": 36,
+            "deletions": 12
+          },
+          {
+            "hash": "e4eba893eec2f35060b4366bb98d6565c7ae3c6f",
+            "message": "Refactor \u0027Person\u0027 to \u0027Patient\u0027 - Due to conflicts, some changes need to be committed again separately",
+            "insertions": 13,
+            "deletions": 6
+          },
+          {
+            "hash": "c06217da2a3366fd836dabe1697894f47b30341d",
+            "message": "Refactor a few more files: \u0027Person\u0027 to \u0027Patient\u0027",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "3ce9ae10de138a29330e5f9e16378179781eb280",
+            "message": "Rename JsonAdaptedPerson to JsonAdaptedPatient",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "92067565140fa12a7a563b73de8274655deba99a",
+            "message": "Add \u0027Allergy\u0027 field to JsonAdaptedPatient class",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "b078fbabe693ea347d425f2c92a393ebd6534975",
+            "message": "Add withAllergy() for PatientBuilder",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "82e505163a96774ebfe82c92770c4a70ea09bfc0",
+            "message": "Connect Allergy field to PatientCard - Modify the PatientCard\u0027s constructor to add the allergy - Modify GuiTestAssert to compare the allergy label",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "862cc42fb30a621e2cbf2dd5569c8c08671d8b22",
+            "message": "Edit the logic of \u0027addall\u0027 and update tests for execute",
+            "insertions": 193,
+            "deletions": 17
+          },
+          {
+            "hash": "6a62625c1edfd3ff015c0f1448d8026ce11471c1",
+            "message": "Add EOF for giatrosbook.json",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "9ec57dda32ad9e47d10cad7cd8dc8127c21ada69",
+            "message": "Remove checkStyle error in AddallCommandTest",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "56d5012c4ff8eb065a120856f36278096c73fde8",
+            "message": "Remove more checkStyle error",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "d9e1bce3fd34e67545406e10e18622b402a5de28",
+            "message": "Remove minor checkStyle error - unused import",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "chuaes": 3705,
+    "chuaes": 3662,
     "sickerin": 0,
     "radhika-lakhtakia": 0,
-    "wfxronald": 442
+    "wfxronald": 707
   },
   "authorContributionVariance": {
     "chuaes": 690356.7,
     "sickerin": 0.0,
     "radhika-lakhtakia": 0.0,
-    "wfxronald": 7926.661
+    "wfxronald": 12645.097
   },
   "authorDisplayNameMap": {
     "chuaes": "CHU...OON",

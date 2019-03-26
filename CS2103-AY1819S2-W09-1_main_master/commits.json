@@ -257,10 +257,171 @@
         "commitResults": []
       },
       {
+        "insertions": 1908,
+        "deletions": 201,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "b4c97e5fda79a2fd8151d9e384fc9a5a07c05a48",
+            "message": "Packaged classes regarding Cap Module into a package called cap Added CapModel Added CapModelManager Added VersionedCapEntryBook Added UniqueCapEntryList Added CapEntryBook Edited DeveloperGuide",
+            "insertions": 1312,
+            "deletions": 66
+          },
+          {
+            "hash": "8d8f8c63df8e85f7f109f63934d8cc85e3d6a348",
+            "message": "Corrected to fit stylecheck",
+            "insertions": 69,
+            "deletions": 63
+          },
+          {
+            "hash": "fe90a8d95b5be21bad81800982717f8ff75fd7e2",
+            "message": "Added ModuleCredits class Added CapEntry related attributes into ModelManager class Added CapEntry related attributes into Model Interface Added CapEntry related attributes into AddressBook class Added CapEntry related attributes into ReadOnlyAddressBook class",
+            "insertions": 349,
+            "deletions": 28
+          },
+          {
+            "hash": "f2c4258faff5028fb978d3af07f80a50bb9638d4",
+            "message": "Added AddCapEntryCommand class Added AddCapEntryParser class",
+            "insertions": 121,
+            "deletions": 42
+          },
+          {
+            "hash": "521869b25688f671232857e3c954789e1d0a7057",
+            "message": "Corrected to fit checkstyle",
+            "insertions": 57,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
         "commitResults": []
+      },
+      {
+        "insertions": 192,
+        "deletions": 46,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "2abace2f4e40cd8c46c6c1840a1ddae832e90317",
+            "message": "Update UserGuide",
+            "insertions": 187,
+            "deletions": 46
+          },
+          {
+            "hash": "48b93cdf1922d4e3d9de5965a2d7f1fb3efd3ea6",
+            "message": "Update for checkStyle",
+            "insertions": 5,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 350,
+        "deletions": 77,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "bc7a06ec195dc8794846ab2fb5fd5938cb565234",
+            "message": "Add Json for CapEntry",
+            "insertions": 131,
+            "deletions": 13
+          },
+          {
+            "hash": "91980aab515dcf8819a8e1c75103df1b9a116669",
+            "message": "Add DeleteCapEntry method Add Json files for CapEntry Fix bug for Addressbook",
+            "insertions": 138,
+            "deletions": 14
+          },
+          {
+            "hash": "8e89805b3b63ed1c3fc5fabdb7af04949d792016",
+            "message": "Fix for checkStyle",
+            "insertions": 21,
+            "deletions": 18
+          },
+          {
+            "hash": "d1fa9aaa3fc2158d495e941c941a4ac583e4a5e9",
+            "message": "Add ListCapEntryCommand Fix Message displayed for addCapEntry Command",
+            "insertions": 48,
+            "deletions": 20
+          },
+          {
+            "hash": "edc68312489d55710cae74296110bf718b7dad20",
+            "message": "Fix for Test",
+            "insertions": 12,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 39,
+        "deletions": 720,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "be1d98cc9c68b690e68fbf969b7bf2b45afb388b",
+            "message": "Delete Classes that are now unneeded due to change in model",
+            "insertions": 0,
+            "deletions": 640
+          },
+          {
+            "hash": "6f2b1ae59ce65c7050e34ed59d96675f14ad2c1c",
+            "message": "Add capScore calculation method in CapEntry class",
+            "insertions": 33,
+            "deletions": 16
+          },
+          {
+            "hash": "5485b2a2bf1eb86d031c87d16eff3c5becd1fa58",
+            "message": "Add Prefixes on CapEntry",
+            "insertions": 2,
+            "deletions": 61
+          },
+          {
+            "hash": "e12543c85d6fafa2f82d9fd3c1f08518a0e26b71",
+            "message": "Fix for checkStyle",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 629,
+        "deletions": 63,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "0c9720bdccda08f53ea11b563740d9cdd3e5af49",
+            "message": "Add EditCapManagerCommand Add EditCapManagerByModuleCodeCommand Delete duplicate ModuleCode class in cap package",
+            "insertions": 628,
+            "deletions": 59
+          },
+          {
+            "hash": "7406ad65b535b40c02cb5f3307ac5b66ae382872",
+            "message": "Resolve conflict",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "ce666ddd3e166e9895ba8c48e12d032b79060560",
+            "message": "Fix for checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "shimeilee": [
@@ -611,9 +772,101 @@
         "commitResults": []
       },
       {
+        "insertions": 370,
+        "deletions": 62,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "9d35f2f4f8aae2e7dce164510864a1f95681aa01",
+            "message": "Moved Note class to its own package",
+            "insertions": 62,
+            "deletions": 45
+          },
+          {
+            "hash": "11e1ca762ec3fe8fbfeb92034c4eb47fb1d14101",
+            "message": "Amended Note package",
+            "insertions": 226,
+            "deletions": 0
+          },
+          {
+            "hash": "a06ffd733e825c5d4a4d610de2bff63a2aef2867",
+            "message": "Amended Note storage",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0a4a7419864cf7ccd748bcdf414c84fd02282fc6",
+            "message": "Amended Note logic",
+            "insertions": 57,
+            "deletions": 0
+          },
+          {
+            "hash": "ecd584ea53648b85c3583bd44e86b0571457b7c1",
+            "message": "Minor fix for AddNoteCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d4e41c4186f41c35457c5fcf22203dc92eb51e22",
+            "message": "Checkstyle fixes",
+            "insertions": 23,
+            "deletions": 15
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 352,
+        "deletions": 2,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "0a011530d52f51e6799580b1e8bca4230574773a",
+            "message": "To resolve conflict in AddressBookParser.java and Note.java",
+            "insertions": 351,
+            "deletions": 1
+          },
+          {
+            "hash": "1669e4614e09cd13d8e03e9b063207f6b20d1d87",
+            "message": "Removed trailing whitespaces",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -975,6 +1228,110 @@
             "message": "Fixed checkstyle isses.",
             "insertions": 2,
             "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 149,
+        "deletions": 103,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "7adc592a59f8fe37b31e1f9060e40239e57ea8d2",
+            "message": "Revamped Date class",
+            "insertions": 20,
+            "deletions": 45
+          },
+          {
+            "hash": "2c5b925bdd17ebbddb888daafed4ff073b5bbac0",
+            "message": "Reeditted Parser class to suit Date revamp",
+            "insertions": 3,
+            "deletions": 8
+          },
+          {
+            "hash": "fbefb3c5e40c3ac7fcbf29dd0e1e60c1a52473f4",
+            "message": "Revamp JsonAdaptedHomeworkList to suit Date revamp.",
+            "insertions": 8,
+            "deletions": 19
+          },
+          {
+            "hash": "0f0b06d28aa7a066e9ca0fb912ec4d980f2c1c61",
+            "message": "Repackaged ModuleCode.",
+            "insertions": 26,
+            "deletions": 29
+          },
+          {
+            "hash": "5c84d2e6dd73d08aad637aa00fd1958e3ac16ed2",
+            "message": "Improved on regex for the date class. Credits to https://stackoverflow.com/questions/15491894/regex-to-validate-date-format-dd-mm-yyyy for the regex expression for dates.",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "1c6c5bb56ee54e9c49ce667e562d4df3f888a819",
+            "message": "Added deleteHomeworkCommand class.",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "9818679f5d330f84c194c21caa17ca826d20a019",
+            "message": "Added DeleteCommandParser class",
+            "insertions": 27,
+            "deletions": 0
+          },
+          {
+            "hash": "ac7e85e3adc5e6eecd1ca54b425b1e15a99a5d1e",
+            "message": "Updated UltiStudentParser class to include deleteHomeworkCommands",
+            "insertions": 4,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 7,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "be461f85cc9d5d90a0389a817445d9ef21a7cf0c",
+            "message": "Added JavaDocs for DeletehomeworkCommandParser.",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "26b7c1e8d1d70e61e79b3f1f66a9231c4971eacc",
+            "message": "Added Javadocs for the DeleteHomeworkCommand class.",
+            "insertions": 4,
+            "deletions": 0
           }
         ]
       }
@@ -1340,20 +1697,112 @@
         "deletions": 0,
         "date": "2019-03-19",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 29,
+        "deletions": 9,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "faf1b5ee4f9c894edc03a32dbd333490b2380fe5",
+            "message": "statusbar footer now displays the opened manager name",
+            "insertions": 29,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 1127,
+        "deletions": 203,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "47f29da762ea9a785cbfecf4432c16112a5ecb98",
+            "message": "Added listview for CapManager",
+            "insertions": 164,
+            "deletions": 58
+          },
+          {
+            "hash": "9550d02739fd7a6710050cbba5f613f7fdb6cf57",
+            "message": "Made package for Homework class",
+            "insertions": 36,
+            "deletions": 19
+          },
+          {
+            "hash": "5dd649bfd5471fb1b520edd66980160dad244ae0",
+            "message": "Added add homework functionality (WIP)",
+            "insertions": 515,
+            "deletions": 95
+          },
+          {
+            "hash": "f08afc88bcdf6b4870dbe1069ea70c8ebe20ab48",
+            "message": "Added storage functionality for Homework and Added listView for Homework(WIP)",
+            "insertions": 298,
+            "deletions": 8
+          },
+          {
+            "hash": "d65336ff6a899832947e62b1a0451479e550463a",
+            "message": "Added Javadocs and fixed test cases problem.",
+            "insertions": 110,
+            "deletions": 16
+          },
+          {
+            "hash": "eff655d5c22928cedc88036cf54f12c51a7ca78f",
+            "message": "Edited StatusBarFooterHandler and removed 2 testcases.",
+            "insertions": 4,
+            "deletions": 6
+          },
+          {
+            "hash": "12a75692a6a4f2ac9abed0ea56716090deb618f0",
+            "message": "Fixed checkstyle error",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "andrewscw": 55,
-    "shimeilee": 72,
-    "LimZhengJieBenjamin": 394,
-    "NgWeiXin": 631
+    "andrewscw": 2093,
+    "shimeilee": 381,
+    "LimZhengJieBenjamin": 472,
+    "NgWeiXin": 1511
   },
   "authorContributionVariance": {
-    "andrewscw": 1929.25,
-    "shimeilee": 2032.8146,
-    "LimZhengJieBenjamin": 2762.1282,
-    "NgWeiXin": 7997.6416
+    "andrewscw": 118759.07,
+    "shimeilee": 8009.1313,
+    "LimZhengJieBenjamin": 3575.485,
+    "NgWeiXin": 43571.02
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",

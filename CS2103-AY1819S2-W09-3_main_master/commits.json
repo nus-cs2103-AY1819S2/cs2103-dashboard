@@ -617,6 +617,213 @@
             "deletions": 7
           }
         ]
+      },
+      {
+        "insertions": 542,
+        "deletions": 321,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "dedd8ca1d0891eddae48a992b8057ec4c5601bd4",
+            "message": "Edit the UI receipt to a label instead of a textArea",
+            "insertions": 28,
+            "deletions": 58
+          },
+          {
+            "hash": "9a2401f976ea746392e966166a3a78a3900c43f3",
+            "message": "Attempt to remove the order list after bill is called (Not successful so I comment it out in bill command)",
+            "insertions": 25,
+            "deletions": 2
+          },
+          {
+            "hash": "55851ae66a70ad4a9c56cf95ba0612692240a48b",
+            "message": "Add duplicate check methods for DailyRevenueList",
+            "insertions": 47,
+            "deletions": 4
+          },
+          {
+            "hash": "d46dc02252b61c8d5b78633e57e9f5f2b873af4a",
+            "message": "Clean up my code for statistics related classes",
+            "insertions": 35,
+            "deletions": 16
+          },
+          {
+            "hash": "69ec24b6a04cab0eebcbc6c23c35eb63a98e623b",
+            "message": "Comment out new methods that I initially wanted to use to clear the orderlist when bill is called but to no avail.",
+            "insertions": 24,
+            "deletions": 17
+          },
+          {
+            "hash": "f51f9e440f43b98449c3bbb4dcd93d78aa84f4f7",
+            "message": "Made changes to Day, Month, Year tests to fix the exception mistakes.",
+            "insertions": 26,
+            "deletions": 20
+          },
+          {
+            "hash": "6126b1ca9a4669f439e2a45d8128056654bdde20",
+            "message": "Edit storage related tests",
+            "insertions": 24,
+            "deletions": 35
+          },
+          {
+            "hash": "ba6bff3180a9c05e0b8e243af6bdb615298b0017",
+            "message": "Rename the exception in import",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d6d353681309e859e82c951ca22a85a60e930caf",
+            "message": "Fix BillTest",
+            "insertions": 14,
+            "deletions": 17
+          },
+          {
+            "hash": "0361e8e18f3c4c1d21df09db5627c308eecc9de0",
+            "message": "BillCommandTest still WIP",
+            "insertions": 211,
+            "deletions": 51
+          },
+          {
+            "hash": "1167a00fa1eba00ca21c813732f0a6840a2f900f",
+            "message": "Edit DeveloperGuide for bill feature",
+            "insertions": 58,
+            "deletions": 3
+          },
+          {
+            "hash": "23890535307745d410ad6f5a76126d52b76c7d54",
+            "message": "Add images for DG",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "7e73a8a1281027f46149913f48f9439e60561a19",
+            "message": "Made some test changes",
+            "insertions": 6,
+            "deletions": 9
+          },
+          {
+            "hash": "cce740254314e584e0af9a1136f04f21fe78fa24",
+            "message": "Update BillCommand and storage test",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "a64a55ee09dd4208c6f7956087f1f5f19be8b07b",
+            "message": "Update Tests and commented out failed test cases for BillCommandTest, BillCommandIntegrationTest and ModelManagerTest",
+            "insertions": 29,
+            "deletions": 1
+          },
+          {
+            "hash": "3064f71adbad4e2f80333de41e5e2a56b54338cc",
+            "message": "Checkstyles",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "99f21d263ffaea329f459de5b61609bd0c610759",
+            "message": "Fix checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "87fbd681cb7e9e499f0c2a9d455840d0dcd117fc",
+            "message": "Delete unecessary changes",
+            "insertions": 0,
+            "deletions": 70
+          }
+        ]
+      },
+      {
+        "insertions": 96,
+        "deletions": 63,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "f256c2b5625d3658220a748dbb5ba295d1b91974",
+            "message": "Clean up comments and methods for RestOrRant and its interface.",
+            "insertions": 21,
+            "deletions": 9
+          },
+          {
+            "hash": "e626fede45bc68498ffcf732a21d4ac319c0b170",
+            "message": "Modify BillMode to delete order list when bill command is called.",
+            "insertions": 39,
+            "deletions": 31
+          },
+          {
+            "hash": "ba99fbb590021620fe210565a28bc097edb2ff5b",
+            "message": "Made changes to the Ui for Bill",
+            "insertions": 16,
+            "deletions": 23
+          },
+          {
+            "hash": "ba91770d386ece2db496d9e02808ffdbff382be6",
+            "message": "Clean up and add comments to the UserPrefs.",
+            "insertions": 20,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 163,
+        "deletions": 69,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "243d070fea37c49281fe4dceb1f50e6a3cc91c11",
+            "message": "Arrange the features according to their mode for Userguide",
+            "insertions": 36,
+            "deletions": 33
+          },
+          {
+            "hash": "7050951b523e85d1766f5d661919982cdae16310",
+            "message": "incomplete BillCommandTest with more ModelStubs",
+            "insertions": 125,
+            "deletions": 30
+          },
+          {
+            "hash": "4a676a51f74cfc04dd6c06d0e8339e7f0f9f4d20",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "096ca0dfbe36f9aed0e28d4935211eb739ac12aa",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "bava98": [
@@ -1254,6 +1461,73 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 150,
+        "deletions": 116,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "c2af2e0d2047c4c508d934acb98eebfc3e610085",
+            "message": "textual updates to DG",
+            "insertions": 42,
+            "deletions": 1
+          },
+          {
+            "hash": "e103cf175f870abefe824eebd15228c3c2e2b614",
+            "message": "fix issues with logic, model and storage (halfway) tests",
+            "insertions": 12,
+            "deletions": 19
+          },
+          {
+            "hash": "6fed64930e0a88a2f53cd14aa5242fcd0a8cac14",
+            "message": "all tests should pass",
+            "insertions": 96,
+            "deletions": 96
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "whyjayxp": [
@@ -1889,6 +2163,210 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 41,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "e431765f7d528eb207d791d16203712be0e143d9",
+            "message": "Update DG with implementation of tableMode",
+            "insertions": 41,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 54,
+        "deletions": 69,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "3ea663d6b741af186bc2a7d90c2f70b66be1746a",
+            "message": "Update UG",
+            "insertions": 54,
+            "deletions": 69
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 162,
+        "deletions": 73,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "07a2833c0a10f1f996484541b14d7feb80b7b217",
+            "message": "Update order item list to show item name",
+            "insertions": 84,
+            "deletions": 39
+          },
+          {
+            "hash": "55ab5f14c42d01ee8691a1e4487c20d9a463efb1",
+            "message": "Update UI to be more user friendly",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "590b6bfb31764c572eb73314565d15fd48d043a3",
+            "message": "Add method to clear order items from a table",
+            "insertions": 35,
+            "deletions": 16
+          },
+          {
+            "hash": "dc0cf1b951ab232d5b469928264cd07926039792",
+            "message": "Change updateTable to clear orders when unoccupied",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "4c65cd92ae7fa1ea6ac8b36cbe301e041764e6c1",
+            "message": "Add checks for values in Orders json file",
+            "insertions": 28,
+            "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 72,
+        "deletions": 33,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "33a3f441fd4489c13f33f940087e60b07ef33a14",
+            "message": "Add \u0027add\u0027 alias for all 3 main modes",
+            "insertions": 18,
+            "deletions": 25
+          },
+          {
+            "hash": "ee443bf4d5982493363361ab97a9b4760cd4c6f8",
+            "message": "Add clearOrder command",
+            "insertions": 54,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 1097,
+        "deletions": 95,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "8a76522655709116b43ef08248c32093aa697062",
+            "message": "Fix checkstyle issues",
+            "insertions": 41,
+            "deletions": 44
+          },
+          {
+            "hash": "b99b0cf95c3161310d63bf8ab445b2c5b2c6e8f9",
+            "message": "Fix errors with tests",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "c0e0035b37c16d99ae958457c1d8b92f438b0595",
+            "message": "Fix more errors with tests",
+            "insertions": 38,
+            "deletions": 12
+          },
+          {
+            "hash": "845998d2472e1a2df3532dc015bb02f55dce4bcc",
+            "message": "Add support for changing themes",
+            "insertions": 427,
+            "deletions": 10
+          },
+          {
+            "hash": "11c06eef3f0834ea4b05c0286fe6d0521a4901eb",
+            "message": "Fix checkstyle errors",
+            "insertions": 6,
+            "deletions": 8
+          },
+          {
+            "hash": "3da20b7dddb01d4e44684a324038e7d859749977",
+            "message": "Add newline at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b229d1eb46ba10ba2da5562ea0bccd720812a7c0",
+            "message": "Add themes for Table and Menu Mode",
+            "insertions": 401,
+            "deletions": 4
+          },
+          {
+            "hash": "7628f502819f7df7356bfa0fe2db127dcb932060",
+            "message": "Allow adding existing items to order",
+            "insertions": 45,
+            "deletions": 8
+          },
+          {
+            "hash": "1876c3c5edd13af048472d98ba587edba0a09eda",
+            "message": "Add deleteFromOrder command",
+            "insertions": 115,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 645,
+        "deletions": 287,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "951b8063c789daa1c212f95f78f0979be9ee8ac1",
+            "message": "Make previous Order related tests work",
+            "insertions": 121,
+            "deletions": 72
+          },
+          {
+            "hash": "64771ae4c6a5757aa96140b5833e558bc7636f30",
+            "message": "Add tests for clearOrder and deleteFromOrder",
+            "insertions": 373,
+            "deletions": 92
+          },
+          {
+            "hash": "5ff696aa8a47ff4055742284d80bbf923e566509",
+            "message": "Fix checkstyle errors",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "b0aecfb7c8ad76b9318f473deafbd792eecc5331",
+            "message": "Update UserGuide to reflect new commands",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "2b38a42f7cc73c0cde8dc01d1a60c9e629818798",
+            "message": "FIx one more checkstyle error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "95475444343dc69e6faa49b8f8215690ff91f7a1",
+            "message": "Fix test errors",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f9f31214c16e5b259e04e8438fd5ea7c6e5329b4",
+            "message": "Add UI tests for Orders and addToOrder integration test",
+            "insertions": 142,
+            "deletions": 110
+          }
+        ]
       }
     ],
     "Qing-Yuan": [
@@ -2299,20 +2777,68 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Beesaycheese": 3669,
-    "bava98": 3101,
-    "whyjayxp": 5021,
-    "Qing-Yuan": 145
+    "Beesaycheese": 4081,
+    "bava98": 3068,
+    "whyjayxp": 6650,
+    "Qing-Yuan": 129
   },
   "authorContributionVariance": {
-    "Beesaycheese": 171421.1,
-    "bava98": 213302.69,
-    "whyjayxp": 325577.75,
-    "Qing-Yuan": 2749.9688
+    "Beesaycheese": 155136.14,
+    "bava98": 181654.28,
+    "whyjayxp": 301239.12,
+    "Qing-Yuan": 2307.1714
   },
   "authorDisplayNameMap": {
     "Beesaycheese": "LEO...ICE",

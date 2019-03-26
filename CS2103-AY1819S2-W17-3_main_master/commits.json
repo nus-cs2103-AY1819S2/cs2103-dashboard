@@ -362,8 +362,8 @@
         "commitResults": []
       },
       {
-        "insertions": 30,
-        "deletions": 0,
+        "insertions": 331,
+        "deletions": 252,
         "date": "2019-03-19",
         "commitResults": [
           {
@@ -371,8 +371,68 @@
             "message": "Added _response\\config.json to fix duplicate names in RepoSense",
             "insertions": 30,
             "deletions": 0
+          },
+          {
+            "hash": "c2a30a924445a7fa4f94e181235c93eaeeb09ae2",
+            "message": "Added more pre-defined colours for tags #20",
+            "insertions": 34,
+            "deletions": 10
+          },
+          {
+            "hash": "27904e3bf211b45756a76da07014cefdac2e9f3a",
+            "message": "Edited test cases for pre-defined colours for tags #20",
+            "insertions": 232,
+            "deletions": 236
+          },
+          {
+            "hash": "27e8211e6e063439ee5fdb432eb9bf9e595466a4",
+            "message": "Resolved errors",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "4921a67e54721b4f1eca629174a5487d18c73312",
+            "message": "Resolved checkstyle errors",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "f4f6542e7dd40adc348ef8ecd20b589a184ab90f",
+            "message": "Edited Developer Guide - Added Summary feature",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "936ef93a8350df509f2eec3ff128b8ca775ba90b",
+            "message": "Scaled diagram to be smaller",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "cff019c04215b64119573fa2a4479a432d30cfd9",
+            "message": "Rescaled width of asterPlot diagram",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "921941ab04d7c7c2e2abd50d18c4b673a86031fd",
+            "message": "Updated Developer Guide - Added summary feature",
+            "insertions": 0,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
       }
     ],
     "JeremyLoye": [
@@ -749,9 +809,46 @@
         "commitResults": []
       },
       {
+        "insertions": 320,
+        "deletions": 14,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "e2c2abaed9fc972261ee681b0f27e99e33820c7a",
+            "message": "Added Set Command and Budget field for Finance Tracker. UI now reflects budget set",
+            "insertions": 278,
+            "deletions": 8
+          },
+          {
+            "hash": "5c1fcce677fd16fe24bc167a1956eb40a965fa6e",
+            "message": "Temporary Fix for Test Cases",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "39afdeedc8500e2fa68a700f6f7065cffac078b2",
+            "message": "Temporary Fixes for Test Case",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "e7e5ec0cea368239705e8fa1f4e2bc0e494ec62a",
+            "message": "Updated Developer Guide to include Implementation of budget features",
+            "insertions": 36,
+            "deletions": 0
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
         "commitResults": []
       }
     ],
@@ -1259,9 +1356,58 @@
         ]
       },
       {
+        "insertions": 47,
+        "deletions": 10,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "c726cc070c972599f39120997117225d25122286",
+            "message": "AllocateCommandTest: Changed amount to include `$`",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "fca0b204c901e102bfae471fe00e2e7195acd929",
+            "message": "Tests: include `$` in amounts`",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "21216ca3ab4cd5e6cc03e9e3d075ae7cd16d9f33",
+            "message": "checkStyle: AllocateCommandTest",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "e6b3b7686d4bee7268d408fd68228cec343656b0",
+            "message": "Updated DeveloperGuide with planned Security implementation",
+            "insertions": 26,
+            "deletions": 4
+          },
+          {
+            "hash": "e6080b4eddd071db834ff983e663e9e5e21e38f2",
+            "message": "DeveloperGuide: Security",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "a16333a507044cf9f31bbe486e7ced5160383f6d",
+            "message": "v1.2 tag",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-19",
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
         "commitResults": []
       }
     ],
@@ -1608,9 +1754,28 @@
         ]
       },
       {
-        "insertions": 0,
+        "insertions": 40,
         "deletions": 0,
         "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "beecfd5465ae799d3351c61525e185be2afd4216",
+            "message": "Updated DeveloperGuide with search by tag implementation.",
+            "insertions": 40,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
         "commitResults": []
       }
     ],
@@ -2085,8 +2250,8 @@
         "commitResults": []
       },
       {
-        "insertions": 20,
-        "deletions": 20,
+        "insertions": 75,
+        "deletions": 29,
         "date": "2019-03-19",
         "commitResults": [
           {
@@ -2118,24 +2283,61 @@
             "message": "Travis fix",
             "insertions": 4,
             "deletions": 4
+          },
+          {
+            "hash": "cc37a41ac3c0ad571f47c2a61f97557322eafb4b",
+            "message": "Updated implementation section for sort feature",
+            "insertions": 40,
+            "deletions": 1
+          },
+          {
+            "hash": "c51e8f1cd6cb43ef40eb0a9e2adf304b891d143e",
+            "message": "Updated glossary sections of both doc to correspond",
+            "insertions": 15,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 221,
+        "deletions": 108,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "5882f1ca1619f4f6f7bb86ab9c4fa38d14c3a911",
+            "message": "UserGuide: updated",
+            "insertions": 217,
+            "deletions": 105
+          },
+          {
+            "hash": "ea03e41a95d7165fa9ed17ca6e76ada0a9074e1e",
+            "message": "UG: minor formatting edits",
+            "insertions": 4,
+            "deletions": 3
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "geezlouisee": 552,
-    "JeremyLoye": 546,
-    "Jackimaru96": 975,
-    "eugeneyl": 1625,
-    "kjiaxuan": 2351
+    "geezlouisee": 800,
+    "JeremyLoye": 827,
+    "Jackimaru96": 938,
+    "eugeneyl": 1552,
+    "kjiaxuan": 2550
   },
   "authorContributionVariance": {
-    "geezlouisee": 22413.576,
-    "JeremyLoye": 96527.35,
-    "Jackimaru96": 18425.371,
-    "eugeneyl": 500418.84,
-    "kjiaxuan": 263278.1
+    "geezlouisee": 28630.844,
+    "JeremyLoye": 93463.05,
+    "Jackimaru96": 17570.244,
+    "eugeneyl": 475986.94,
+    "kjiaxuan": 251295.16
   },
   "authorDisplayNameMap": {
     "geezlouisee": "LOUISE LEE HUI LING",

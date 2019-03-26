@@ -419,6 +419,123 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 271,
+        "deletions": 130,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "ecc020b2956d53924576a8ac164b6540e5a77c68",
+            "message": "Add Sort Command",
+            "insertions": 268,
+            "deletions": 0
+          },
+          {
+            "hash": "12b9c6f6e0648f02abd8eb8d15283e70f680a9ba",
+            "message": "Enable acceptance of sort command",
+            "insertions": 3,
+            "deletions": 130
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 101,
+        "deletions": 69,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "59424c2d1817c73b81db331f6afad14596acd267",
+            "message": "Update sort command",
+            "insertions": 101,
+            "deletions": 69
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 87,
+        "deletions": 31,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "1a5d238fb49ba8b3c97c840946d5f808fe8aa7b5",
+            "message": "Enable delete for sort command",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "26de58deff63b362b705bb35f94a6b07d7038095",
+            "message": "Fix accuracy of add command duplicate detection",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4475e310b7161c761b2f02ec79c37f362f86deb2",
+            "message": "Add listing of available sort options",
+            "insertions": 24,
+            "deletions": 3
+          },
+          {
+            "hash": "998a9a7cbe8cc779b00dc79aeb1754d40468d8cd",
+            "message": "Enable sort by color",
+            "insertions": 16,
+            "deletions": 7
+          },
+          {
+            "hash": "7025154e31fc563847ca548284aae96b0f3c08a3",
+            "message": "Enable sort by Clothing Type",
+            "insertions": 15,
+            "deletions": 11
+          },
+          {
+            "hash": "80e179c52a0eff34b72ac5dfbda33b3f36555efc",
+            "message": "Reorder import statement",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "e45564effed90b399226eb9df9419fb47b5c9d8a",
+            "message": "Update user guide - sort command",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "eb71e00482ae5683124dded6f6884789890ea21e",
+            "message": "Make message for succesful sorting be more explicit.",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "efdfd45c7fcf2fd8d7e73f1985de8a1fac500743",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "stanleymok": [
@@ -708,6 +825,80 @@
         "deletions": 0,
         "date": "2019-03-18",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 6,
+        "deletions": 10,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "cf41f3b479933d5dff656c575dd25c2e47270d26",
+            "message": "Remove email field",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "6610295135c1d168462b726b7c889cdbae95d8c0",
+            "message": "Cleanup PersonCard field to properly reflect Apparel Attributes in UI",
+            "insertions": 4,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 13,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "1fe6f65a18291c0ef61d210357ecbb9d567886ed",
+            "message": "add method in Apparel to return String representation of avaiability",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "1929d1af16bc3afb1b45f2d4acf3d2de94ab295a",
+            "message": "Fix availability not showing in GUI",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "c64b4c7e0e5db9f6d83d9dcb00b9d8df9bcaf3d9",
+            "message": "Add availability status to fxml file, which displays PersonCard",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ],
     "PhilipPhil": [
@@ -931,6 +1122,48 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
         "commitResults": []
       }
     ],
@@ -1354,20 +1587,62 @@
             "deletions": 7
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rafflesandrison": 304,
-    "stanleymok": 179,
-    "PhilipPhil": 0,
-    "ReinSheer": 1676
+    "rafflesandrison": 542,
+    "stanleymok": 195,
+    "PhilipPhil": 371,
+    "ReinSheer": 1600
   },
   "authorContributionVariance": {
-    "rafflesandrison": 8477.493,
-    "stanleymok": 491.25497,
+    "rafflesandrison": 10814.845,
+    "stanleymok": 420.68182,
     "PhilipPhil": 0.0,
-    "ReinSheer": 374739.9
+    "ReinSheer": 318655.47
   },
   "authorDisplayNameMap": {
     "rafflesandrison": "RAF...SON",

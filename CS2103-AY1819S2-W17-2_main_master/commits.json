@@ -482,8 +482,8 @@
         ]
       },
       {
-        "insertions": 83,
-        "deletions": 34,
+        "insertions": 1404,
+        "deletions": 76,
         "date": "2019-03-14",
         "commitResults": [
           {
@@ -503,6 +503,12 @@
             "message": "Sorted patient list is now stored",
             "insertions": 1,
             "deletions": 0
+          },
+          {
+            "hash": "e6948e7b1f1e412423f57bdf76d2ded3f4c4f6c4",
+            "message": "Docs (#65)",
+            "insertions": 1321,
+            "deletions": 42
           }
         ]
       },
@@ -651,6 +657,86 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 12,
+        "deletions": 7,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "9aa0a6246e5076350779ae32e3e0224796718fb1",
+            "message": "Updated userGuide",
+            "insertions": 12,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 33,
+        "deletions": 3,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "c6a3ad0fb6b27b2d8c83e783b933d94b3cb7aff1",
+            "message": "Testing repoSense",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "0ca75c74b50db91a3e41f3dd637459ac8d89fe4c",
+            "message": "Update repo sense config",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "abd1097f74dfbf7440d43405f6cc87898187c713",
+            "message": "CheckStyle Update",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ab43ea1aad7f48aa793aded8dfe69618a5e82a0c",
+            "message": "Minor bug fix",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
       }
     ],
     "cchj1995": [
@@ -1199,7 +1285,7 @@
         ]
       },
       {
-        "insertions": 427,
+        "insertions": 505,
         "deletions": 60,
         "date": "2019-03-14",
         "commitResults": [
@@ -1346,6 +1432,18 @@
             "message": "Modified DateCustom and its related parsers in ParserUtil to support LocalDate",
             "insertions": 28,
             "deletions": 28
+          },
+          {
+            "hash": "49e7a334104d15cc62a7982f94a04aeec7b23772",
+            "message": "Added new user stories for task functionality in DeveloperGuide.adoc",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "1321687d422d149020b5aed53fdc347e397214a1",
+            "message": "Added cchj1995.adoc to team folder using johndoe\u0027s portfolio as base",
+            "insertions": 72,
+            "deletions": 0
           }
         ]
       },
@@ -1372,6 +1470,61 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-17",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 5,
+        "deletions": 5,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "089c3fcc2914d6abb1f0837f9cd566fb67007e29",
+            "message": "Fixed Errors",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
         "commitResults": []
       }
     ],
@@ -1473,16 +1626,108 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 93,
+        "deletions": 8,
         "date": "2019-02-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "557ce9d03017f0ad9b42ddd12d9e65cb7d2089ef",
+            "message": "Added Tooth and Teeth skeleton codes",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "a6c9db58b54b79956fcb2ae3b366082e2089de06",
+            "message": "Added Teeth as an attribute to Person",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "91706849be2b29ad93a06e8441d3d05f330be938",
+            "message": "Added Tooth isPresent attribute, with getter method",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "7527401deec9e4a0154479b2e2b5068f0a5d531e",
+            "message": "Added hasStatus getter method",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "d0357b6b5b25673fe2875caa9760e31bb3dfb045",
+            "message": "Modified and added constructors to initialise all attributes",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "c981b64d8edb98e43a90bb3107b40667b4e66265",
+            "message": "Added new Status class to represent Tooth status",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "cdba7ce07bdff8908d7c10babf90895546353676",
+            "message": "Added crucial attributes to Status class",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "2c18bffd342c378cd24fc34551cfae90e988f13c",
+            "message": "Added relevant getter methods to uphold OOP information hiding",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "401d50e40db9704ac708659b85ddbe7d8077f2ae",
+            "message": "Implemented Status variable, and its getter and setter methods",
+            "insertions": 19,
+            "deletions": 7
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 20,
+        "deletions": 13,
         "date": "2019-02-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "be8252fa7bf31d85d60515b6e13d914d35db2579",
+            "message": "Assigned default values to Tooth attributes",
+            "insertions": 3,
+            "deletions": 6
+          },
+          {
+            "hash": "be990d224aa61cdf01f2dcdb60c299c07dae1790",
+            "message": "Added skeleton code for Tooth getter method",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "45a286cb4395b857c5c233c39387c9cac7dd96fa",
+            "message": "Added relevant static teeth counts",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "e9f4f24a162d5b024b494077c3834a3cb89a2828",
+            "message": "Minor fixes for readability",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "90c96ea845d89814343e920e61bbc4009ad26427",
+            "message": "Minor fixes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "87d4a65684d63d6bc465d03aefcda8046b52b4d2",
+            "message": "Minor changes to code style",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1509,10 +1754,35 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 78,
+        "deletions": 30,
         "date": "2019-03-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2185deb18e220f95af1c788b878cdd92969619db",
+            "message": "Updated image name and ContactUs information",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "f21fdedbb4edb69fa96992edcb83442f1c85eed4",
+            "message": "Added personal adoc resume document template",
+            "insertions": 72,
+            "deletions": 0
+          },
+          {
+            "hash": "f666d1a883292b76167b889c4a4dc6c4b7a4c973",
+            "message": "Edited name to my name on template",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b0c3428c73d319e42f92e55d83f09c550ff4ab05",
+            "message": "Removed irrelevant information from AboutUs",
+            "insertions": 2,
+            "deletions": 26
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1527,69 +1797,1092 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 433,
+        "deletions": 160,
         "date": "2019-03-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b5e8f287504b2aff32e1ab539586833cb84903e2",
+            "message": "Refracted and abstracted Patient attributes from Person class to Patient class",
+            "insertions": 52,
+            "deletions": 11
+          },
+          {
+            "hash": "649e857cdf98355b85b0d3c9a91a016a7c554928",
+            "message": "Implemented teeth initialisation methods",
+            "insertions": 45,
+            "deletions": 3
+          },
+          {
+            "hash": "64ae109bf9b0a9c3ec4e4dc3e8655d4ac86eeb6f",
+            "message": "Implemented new ways to infer patients\u0027 teeth builds",
+            "insertions": 39,
+            "deletions": 3
+          },
+          {
+            "hash": "94a1241b96ba355ff141458e261dc392b3b91093",
+            "message": "Added new attributes and essential methods to Patient class",
+            "insertions": 38,
+            "deletions": 4
+          },
+          {
+            "hash": "8ed0b59b2a2c83632916841f11514d285a773b55",
+            "message": "Refracted methods to enhance class structure",
+            "insertions": 24,
+            "deletions": 24
+          },
+          {
+            "hash": "1f26cfc2ddf8963c78553fe23d86a418bb62a8a9",
+            "message": "Changed access modifiers of Person class to improve inheritance",
+            "insertions": 23,
+            "deletions": 8
+          },
+          {
+            "hash": "19f819a8e094382f85f35f6723d44cb82311529d",
+            "message": "Added javadoc to new methods",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "0877972d16f1ee9546b8f5e75bd61197747ed095",
+            "message": "Overwritten appropriate methods in Patient class",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "d9618e58195531002ce7a5a9c23ab3fd78c7eedc",
+            "message": "Added a method that adds a record to patient",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "1ca62872dd23668c7f5512539ca1a31ee85a0947",
+            "message": "Added methods to create template teeth layouts",
+            "insertions": 26,
+            "deletions": 4
+          },
+          {
+            "hash": "ee50a630d6c697d5f6d72c5c9b60ae20853c46fa",
+            "message": "New Tooth constructor that takes in a boolean variable",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "a0f83e73c3276fe96acbd33ac22a722f7cfb2a50",
+            "message": "Removed empty constructor",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "7de42e1565cf3ca885bedb9c98f00582a441c544",
+            "message": "Added appropriate getter and setter methods",
+            "insertions": 14,
+            "deletions": 5
+          },
+          {
+            "hash": "45bca4a4334381979096ecf246e51c3f595cb6d7",
+            "message": "Finished methods that build default teeth layouts for users",
+            "insertions": 47,
+            "deletions": 10
+          },
+          {
+            "hash": "487df3f8b32bc700d6b52290aa22840306933ba2",
+            "message": "Simplified attributes of status class",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "89ba81ba53c3dde618775cf2cc1afe740854e388",
+            "message": "Further simplified attributes and methods of status class",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "20c4dc4a86d08a381f1dafec74349acd4f265476",
+            "message": "Updated attributes in Tooth class",
+            "insertions": 9,
+            "deletions": 22
+          },
+          {
+            "hash": "20cfdd2b298ab7b1e374ee2966eb611e724f9e06",
+            "message": "Improved the algorithm in Teeth class",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "b86009182189fe422989ec257bcd9d104065e170",
+            "message": "New function that allows Patient class to create default teeth layouts",
+            "insertions": 13,
+            "deletions": 42
+          },
+          {
+            "hash": "3b175d268e670455f6657228e919326aad8c89be",
+            "message": "Changed success message to reflect our morphed program",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8bafba499d199a78a2322a6d441090d883f2c7cd",
+            "message": "Morphed add command to take in a patient rather than person",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "3e9dc5632404931ef6f98d275119e1926b93c484",
+            "message": "Updated CliSyntax with NRIC and DOB user input prefixes",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 291,
+        "deletions": 115,
         "date": "2019-03-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2905b03faea1be6e173f7b083f799e00f7e33baa",
+            "message": "Fixed regular expression of Nric class",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5be20ce26f04be131d6eeee343e09898c6591c55",
+            "message": "Modified AddCommand for polymorphism",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "2073051e6d59ec039c474582236d3c10937c33d3",
+            "message": "Change of attributes in Patient class",
+            "insertions": 17,
+            "deletions": 14
+          },
+          {
+            "hash": "ad955f78dde3efb1909b6032416a1e46f0a54649",
+            "message": "Class changes to accommodate Patient class",
+            "insertions": 29,
+            "deletions": 9
+          },
+          {
+            "hash": "f08571a5ee7fa2b02397a7f018fcfd08a8135cd5",
+            "message": "Small modifications to Nric class",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "b1e7867fa20c3560b249e42250c1eff58e4f1377",
+            "message": "Added default value if Nric or Year is not specified by user",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "e610953899f9554f63a9a3d0271d83cff220d41d",
+            "message": "Minor changes to AddCommandParser and Nric classes",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "614263ddc7d9b277d10c8d1731c9329bc4f91e1d",
+            "message": "Simplified add success message to show only name of person added",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2c3e7a9339003249d8a741cfdb40dd7b8b8310e1",
+            "message": "New class added to store birth day of patients",
+            "insertions": 46,
+            "deletions": 0
+          },
+          {
+            "hash": "d18fb7bc4d0d896a11d5653f3e15293552cead41",
+            "message": "New exception to indicate when a person instance is not a patient instance",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "67a90d232c3c2f7c92291db16f5adca6f6d48bd0",
+            "message": "Working copy",
+            "insertions": 163,
+            "deletions": 76
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 510,
+        "deletions": 198,
         "date": "2019-03-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e7dfaf32f863185875d92ac8018b778d11c829fb",
+            "message": "Updated DateOfBirth to generate raw input format for data storage",
+            "insertions": 16,
+            "deletions": 5
+          },
+          {
+            "hash": "4471141f882adc60859d7f906ac3ee67d232bd33",
+            "message": "Improved DateOfBirth isValidDob algorithm",
+            "insertions": 5,
+            "deletions": 12
+          },
+          {
+            "hash": "92776efb29161814d2c23c04c33f157499d3e715",
+            "message": "Updated JsonAdaptedPerson class to accommodate new attributes of patient class",
+            "insertions": 42,
+            "deletions": 9
+          },
+          {
+            "hash": "857b34c7849ee17d80927af67da7edce63fc4531",
+            "message": "Test case updated to test Patient class",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "cb7261ae97b51969b4d30b38d50d5afbf4e746c0",
+            "message": "Modified test case for proper patient class comparisons",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "7d6cd25fc9c26596bb9680121e23e9f8ad4925f6",
+            "message": "Fixed DOB validity check algorithm",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "b30a4975c9c291452ef7d5af4e32920c6358eb82",
+            "message": "Updated to test Patient class",
+            "insertions": 24,
+            "deletions": 6
+          },
+          {
+            "hash": "3de0dfeaff9bedf2b4a2719bf2f8f4897e6f4f1c",
+            "message": "Changed data to Patient\u0027s data",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "f13b03af0d28a0fde96ebe25872ecdd2e6e32c71",
+            "message": "Updated more test cases",
+            "insertions": 100,
+            "deletions": 36
+          },
+          {
+            "hash": "4a7ae1260a09e5efa5738ba5464329ca0eb2262d",
+            "message": "Updated access modifiers of Nric class",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "151d6a9a3c27a3ae1edd7e010679453fee589634",
+            "message": "Updated with new comparison case for Patient class",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "578b07c1a81b59071b52976e04a28e98a0691967",
+            "message": "PersonUtil is updated for polymorphism",
+            "insertions": 17,
+            "deletions": 9
+          },
+          {
+            "hash": "5efe6e904e02d3bcb5b758250b9f6aa890131346",
+            "message": "Edit command is updated to edit Patient class",
+            "insertions": 39,
+            "deletions": 7
+          },
+          {
+            "hash": "c2cf1c95005ba6100244636eb3a874172f121dac",
+            "message": "Updated more test cases and attributes to accommodate Patient class and outputs",
+            "insertions": 55,
+            "deletions": 15
+          },
+          {
+            "hash": "b502bf396c6c0a5ea8f6195bb8561565dd4f7ceb",
+            "message": "Added new test cases, and morphed old ones",
+            "insertions": 35,
+            "deletions": 11
+          },
+          {
+            "hash": "9be21c612b9c2b64b26b92a39788b73aef20f39a",
+            "message": "Updated test cases and assertions.",
+            "insertions": 70,
+            "deletions": 27
+          },
+          {
+            "hash": "2b8b28207a76dd4cff4c6d59779d31d28218ea84",
+            "message": "Sample persons now returns an array of Patient class",
+            "insertions": 17,
+            "deletions": 12
+          },
+          {
+            "hash": "5caf7b69d4c8acbc954f3611fac42c4cabbe360a",
+            "message": "Minor fixes",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "b63f101f3b6689b19dbc296eafaae95cdb9bc31f",
+            "message": "Edit command test cases are modified for new requirements",
+            "insertions": 31,
+            "deletions": 10
+          },
+          {
+            "hash": "dc1517e9a4a195db38d43b1c71a2d8da866e889b",
+            "message": "Throws a new exception if a certain method in class is run",
+            "insertions": 2,
+            "deletions": 8
+          },
+          {
+            "hash": "80396e1f0e03e98d15b9d623a340569443d6b2af",
+            "message": "Edit command is now able to make changes for NRIC and DOB",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "e3343026f779965253ef2287ca57be804f05d5a6",
+            "message": "Edit command parse is now able to parse NRIC and DOB contents",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "aaa09dbd27cd5f99b89e25cc1fdbcf60be94f975",
+            "message": "Removed redundant print statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "3a4d14103a792e0745705bf139c85b5287164418",
+            "message": "Updated test to accommodate new changes",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "f4ca64b3967af5edc7f58b66fb4b4da27e0845da",
+            "message": "Updated test case to reflect new changes",
+            "insertions": 3,
+            "deletions": 9
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 5,
+        "deletions": 3,
         "date": "2019-03-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e79286729ebc840e6516d906e89cc5c111149844",
+            "message": "Code arrangement and format updated to checkstyle requirements",
+            "insertions": 5,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 301,
+        "deletions": 108,
         "date": "2019-03-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fafa6752fd316a25ac83e3d625073e6b1cc3281b",
+            "message": "Days, month, and day and month combinations for DOB inputs are now validated",
+            "insertions": 32,
+            "deletions": 2
+          },
+          {
+            "hash": "cdf191a385029feca9dc8e54545af440038c1b4c",
+            "message": "Removed personal log statements",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "677698a163f002d0da981bc3076feabcd1ce92e9",
+            "message": "Abstracted DateBase class out of DateOfBirth class",
+            "insertions": 110,
+            "deletions": 90
+          },
+          {
+            "hash": "4c2653336fc7d40ce1d1e1e599a0750898077dfb",
+            "message": "Updated usage information of edit command to reflect new attributes",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "44e04dfd74defa5e2fd991d2a2bf5a8ca5e225f7",
+            "message": "Personal test log information is removed",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "c887dd81076e70eaaf8500815a3d68328b2b37e3",
+            "message": "Help message in Add command is updated",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "565d3e4811b4201fdcd4bcec1ca917ef16218a4e",
+            "message": "Fixed alone edits on NRIC or DOB",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bbcf6860e7dbe9b57b0aef849802b3612ad585da",
+            "message": "Added new Tag types and template tag messages",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "9bf3b345d956b31033dcc7d804fbfdcf9d21a8be",
+            "message": "DateBase can now return an instance of itself representing today\u0027s date",
+            "insertions": 32,
+            "deletions": 1
+          },
+          {
+            "hash": "cf246a396551c22dc6f7fc0e07599772dafbe022",
+            "message": "New Date class for Records",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "987bf7c7a2784badd4de723a0926d8978bef10d0",
+            "message": "Minor improvements",
+            "insertions": 44,
+            "deletions": 6
+          },
+          {
+            "hash": "e3a81ec297e11e787af947105f45e74867a95ef0",
+            "message": "New exception to catch non-descriptive tag classes",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "2bce767f47908608081730b8a1e6ea925fc19dcd",
+            "message": "Stores and retrieves more details about each tag",
+            "insertions": 23,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
+        "insertions": 66,
         "deletions": 0,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "04d4d45c3c96d956e63d537f59497620cf590bd6",
+            "message": "New Dentist class to retrieve and store dentist information, as well as a new exception it throws",
+            "insertions": 66,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 55,
+        "deletions": 243,
         "date": "2019-03-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9c7d0045b2e24f24e318a87553d2096312e53881",
+            "message": "Typical persons now do not have tags allocated to them",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "7995f196f922ab3e1316b4df14f15ff7119e3d63",
+            "message": "Tag is now not a valid field in add / edit commands",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "e1c2d18b9f3119d346b47939f50812c0bd6cc4de",
+            "message": "Removed redundant tag testing",
+            "insertions": 2,
+            "deletions": 8
+          },
+          {
+            "hash": "9247e38edd94ff6f3d4464b3e355d6230090e3dd",
+            "message": "Modified to throw a more specific exception",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "df444a1990b45fa0c8dc9b9b48e9115876a45ae9",
+            "message": "Person now takes in tags only from json files",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "3b4ff60fcb278bb2b7f666b31554c862f6c1fea5",
+            "message": "Remove tags from sample persons",
+            "insertions": 6,
+            "deletions": 20
+          },
+          {
+            "hash": "080071678a70c98ec625dbead3bea6c434109521",
+            "message": "Removed tag tests components",
+            "insertions": 0,
+            "deletions": 13
+          },
+          {
+            "hash": "854599ea053c407623edf2adadd9af7d8d554357",
+            "message": "Removed tags components",
+            "insertions": 6,
+            "deletions": 39
+          },
+          {
+            "hash": "0948fba9d0b66be539b6ed288616151e639a5911",
+            "message": "Removed tags components",
+            "insertions": 32,
+            "deletions": 152
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 41,
+        "deletions": 175,
         "date": "2019-03-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8d8fcefebc32b6c8e15ae7b31f5d27a703811265",
+            "message": "Test modified or removed to reflect new changes",
+            "insertions": 41,
+            "deletions": 175
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 64,
+        "deletions": 60,
         "date": "2019-03-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "13cec399b028442f4ded90c70bfff2e606167db6",
+            "message": "Test cases and test utilities are fixed to reflect new changes",
+            "insertions": 52,
+            "deletions": 41
+          },
+          {
+            "hash": "1313d026a565e5202817dfdd1d27d77d3c7ac7d1",
+            "message": "Changed how the UI displays unspecified fields",
+            "insertions": 12,
+            "deletions": 19
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 163,
+        "deletions": 129,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "63a3d771ace37223a4de9d2c0adb12a0ff977540",
+            "message": "Changes to date including new methods that checks if dob is before today",
+            "insertions": 118,
+            "deletions": 103
+          },
+          {
+            "hash": "1a81a56be6ed32b3aba47cbbbf9650a498ae318f",
+            "message": "New interface to specify requirements when create Date classes",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "1bb1b906bb1c7e8dca1726fddf4f6c90f3e5f231",
+            "message": "DateBase updated to implement from DateBuilder",
+            "insertions": 15,
+            "deletions": 12
+          },
+          {
+            "hash": "2b0a2d1f820e26d95346b07bf7e48a25f40b6c64",
+            "message": "DateCustom updated to implement from DateBuilder",
+            "insertions": 4,
+            "deletions": 12
+          },
+          {
+            "hash": "9822a258a198f7ac59c7d6bd79ab0d33ece66b43",
+            "message": "Minor algorithm improvements",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "945305b4d025f479f8bc8fe915ea487941d0158f",
+            "message": "Improved the constraint message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3b957220d05b5504fb970ce7fb3fb498349c6a2f",
+            "message": "Updated with Javadoc",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-17",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-19",
+        "commitResults": []
+      },
+      {
+        "insertions": 413,
+        "deletions": 189,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "16d3a4272de8fa9f784b2e6a9039c43fad9edb27",
+            "message": "Abstracted divider used to store specific tags",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f9b502c613faa30dcdaf31f4665fd305816e3ff9",
+            "message": "The class storing the abstracted divider used to store Json information",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "9cd7bde36c6582c8792e66aa6966bbb4bebcb7e6",
+            "message": "New Record to Json file parser and former",
+            "insertions": 80,
+            "deletions": 0
+          },
+          {
+            "hash": "52fe97a3e642723cf7f1287a43f54080327c9b0b",
+            "message": "Added new constructor for Json records use",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "3d22f3a50ffaa7d57dc77e6752a44fa9a8d22eac",
+            "message": "New interface abstracted and implemented in Teeth class",
+            "insertions": 26,
+            "deletions": 11
+          },
+          {
+            "hash": "b3db256c07b60ece229a294e6c5a42fe8a7ef3fb",
+            "message": "Json file now store patients\u0027 dental records",
+            "insertions": 85,
+            "deletions": 96
+          },
+          {
+            "hash": "db73a03abade672f09af59b588665ace66320327",
+            "message": "Json now saves Teeth information of patient",
+            "insertions": 95,
+            "deletions": 3
+          },
+          {
+            "hash": "512548647bafd9802bf3fb81bdd1e238955374a7",
+            "message": "Minor changes to accommodate Json compatibilities",
+            "insertions": 101,
+            "deletions": 75
+          }
+        ]
+      },
+      {
+        "insertions": 307,
+        "deletions": 11,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "b765245ce18e64dd78a5d8c1bdb9ee312c57e7db",
+            "message": "Removed unnecessary print statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "14c3c6f0650df5d2360a8dbaa4b21609332ee517",
+            "message": "Added new record filtered list generator",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "95e86e2b9f2c879db6185445b346923c27a49c3e",
+            "message": "New card and list panel for records",
+            "insertions": 114,
+            "deletions": 0
+          },
+          {
+            "hash": "8d962ab3ff8aa380456a8a28d6417e42c545f9f8",
+            "message": "Changed to accommodate changes to constructor",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b6b480488606687086203f2103907e3767f0c30a",
+            "message": "Model updated to accommodate the showing of records",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "153200891d8b3b8cb6fb17b4f64c32c44554c268",
+            "message": "Minor fixes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e0f1c4e148a3d10dd92624a48fa887cffd57d73c",
+            "message": "Updated for records showing",
+            "insertions": 40,
+            "deletions": 6
+          },
+          {
+            "hash": "018704a1bbb668df73a0d7dea66a1badfaa3ad2f",
+            "message": "Additions to run new GoTo command",
+            "insertions": 96,
+            "deletions": 0
+          },
+          {
+            "hash": "ed6d10044b05c1ce59ea1bec8fe163039d7a6b75",
+            "message": "Adds ability to show records",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
+            "hash": "97d3691b4406c24c3509a717b88f8a823b9d12c8",
+            "message": "Minor fixes",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 464,
+        "deletions": 106,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "3625b1cf15fcb151395e8b8fc2176e0fc265d377",
+            "message": "Modified to test and accommodate new features",
+            "insertions": 70,
+            "deletions": 18
+          },
+          {
+            "hash": "69ebc63eb0229a1acab7995229d5c030f4cf8ac0",
+            "message": "New UI files in order to display records panel and cards to user",
+            "insertions": 46,
+            "deletions": 0
+          },
+          {
+            "hash": "f16ebd118178c7c3c84e589629f67f9a776f6c4a",
+            "message": "Patient and records list now overlays one another",
+            "insertions": 56,
+            "deletions": 52
+          },
+          {
+            "hash": "99c44a36cfc402c455ea56cf15c04613a09dc0e9",
+            "message": "Minor bug fixes to retrieve dentist\u0027s name",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d05c43901797387c6f4373f0d21c81b342b95290",
+            "message": "Modified Logic interface and LogicManager implementation to accommodate records",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "fd2f92305c63492561f718001e58575d824c6144",
+            "message": "Minor bug fix when storing teeth in Json file",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "beb63e5998cd374019fe184acb6568d4f14c8e4d",
+            "message": "Add new essential methods required by other interacting classes",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "d39264266e55dfed9930204870c9083812d10fda",
+            "message": "UI elements used to display record information of patients",
+            "insertions": 38,
+            "deletions": 10
+          },
+          {
+            "hash": "7cf59384f6b36cbb4497993e4552a877e2fd231e",
+            "message": "New unique record list used to filter records before displaying them",
+            "insertions": 94,
+            "deletions": 0
+          },
+          {
+            "hash": "e4056b0c00e5c0bdd7986b588acf457648ea5b5b",
+            "message": "General modifications to implement the manipulation and display of patients records",
+            "insertions": 113,
+            "deletions": 15
+          },
+          {
+            "hash": "7630a4419b53398abfca44c90f3bc073bf437258",
+            "message": "Fixed test cases so they work properly with new implementations",
+            "insertions": 28,
+            "deletions": 7
+          },
+          {
+            "hash": "0b81cf7632a78a480620a9fe2483516f1cd3e922",
+            "message": "Reverted some deletions",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "b5aa0eedc71e29f99b2ae9d88b59988489e084a5",
+            "message": "handleExit now runs the correct overloaded method",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 125,
+        "deletions": 40,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "ab6b6034605f8e5830ef07d5c873903c9a33e278",
+            "message": "Placeholder for back command and implementation of confirmation alert box for back command",
+            "insertions": 44,
+            "deletions": 18
+          },
+          {
+            "hash": "a5a138e51968cb53f7d0068ad1cda0100590bd23",
+            "message": "Improved the GoToCommand success message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "573f85699c1665005a11a1b77b02bf7a638b311a",
+            "message": "Getter method for current window status",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "54937dce3769683c935aac5dcb90046ddca8bfd5",
+            "message": "Removed irrelevant comment",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "98890bcc1440850b2fa4424e637f12195adc342e",
+            "message": "Updated to use modified constructor",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "81711e2dc5e80b0c505036b232f637f84aacdfcf",
+            "message": "Updated to use modified constructor and prevents simultaneous goto calls",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "f71619042b72d9f59362277c75d31892e2fbd2bb",
+            "message": "Updated to accommodate back command",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "01df1250624898d5fca09e99f111e83fe6b5cd47",
+            "message": "Updated to accommodate back command",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "85cb5705c105d070dca0e6898a9051298ee40f02",
+            "message": "Added new GoTo and Back command messages",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "555b67d3487bb9b08339e9309222f772335e01b2",
+            "message": "Modified to parse new back command",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "6d9db51cd11466bdcd49a03b49421cb54b6ee8f9",
+            "message": "Added new nothing done message",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "64b695d8bfc982c6b64527cc5145a49adebfd6fb",
+            "message": "Implemented new back command",
+            "insertions": 37,
+            "deletions": 0
+          },
+          {
+            "hash": "6641e9743b5333605c6288fbba00f8ac756050d5",
+            "message": "Shifted confirmation alert to back command class",
+            "insertions": 7,
+            "deletions": 12
+          },
+          {
+            "hash": "4fab857fbd1eb904203b35d93462780d1557b53f",
+            "message": "Corrected the date message constraints",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 285,
+        "deletions": 48,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "f7616839a4cc77d85f8328d26764620644952e68",
+            "message": "Message constraints now uses the saved static final prefix",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "05d6dc1d5d3b7b95f6234c0154af5b101e723a8d",
+            "message": "Added new prefix to indicate record description for recordadd command",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "ad22cf3d3e7150db0aba2ccc6dca1716e7f24e2d",
+            "message": "Added a new recordadd command to add record to a specified patient",
+            "insertions": 70,
+            "deletions": 0
+          },
+          {
+            "hash": "9f7a5fcef44b73de7749005b3e9606f17f0b3da6",
+            "message": "Record description constructor parameter is now taken in as a Description rather than a String",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "c760a0c26a3200e12fc5efcfb9898b9bd28c6079",
+            "message": "ParserUtil can now parse String objects into Description classes",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "805f4192bc5f2db83b445f330b749f2e0b6ce145",
+            "message": "Minor fixes to follow coding format of other commands",
+            "insertions": 5,
+            "deletions": 10
+          },
+          {
+            "hash": "7b51b10667e1ef91eb783f98682f8c238cf040f0",
+            "message": "New RecordAdd command parse class to parse recordadd command operations",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "26e12be0522e7499517ce68fd3074c6b4e3b2a03",
+            "message": "AddressBookParser can now detect recordadd commands and calls its parser class and methods",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "0c66050dcc4f08326dc95d108f28d203c269167a",
+            "message": "Improved the message usage message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a97f89502d41b97f2d3874cdf5dd0f10a3a730e2",
+            "message": "Recordadd command now throws command exceptions if the main window is not showing records",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "e13b3fcf8f2ae7015e0b0c047e9d2716434fe4b9",
+            "message": "Recordadd command now throws command exceptions if the main window is not showing records",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "5880be6c4e453cd5d39505dd70b19117294f1541",
+            "message": "Minor fixes to abide to OOP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e403362d661c1a201d51f96749798040a1d69fd1",
+            "message": "Edits to Javadoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2bc5da14d8acacd4330bace6a4db4468f27e78d8",
+            "message": "DateBase now implements Comparable, earlier date -\u003e smaller",
+            "insertions": 54,
+            "deletions": 2
+          },
+          {
+            "hash": "501ecaaab4eb0937f3c4aa0e6b227e98b6776159",
+            "message": "DateBase, later date -\u003e smaller",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3eda556a26ebe2ed642bfc463ae51593d401f74c",
+            "message": "Method to get main window",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "43639468c203098b110af8581c139624753efba0",
+            "message": "Improved the DateBase comparable method",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "a42214609c145826e15ad34770073e51aef581f0",
+            "message": "When a new record is added, it is added to the top of the list now",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "1222ff615a6252dbde5fb17c27c2791bb94c082a",
+            "message": "Records are added then sorted now in Patient class",
+            "insertions": 4,
+            "deletions": 9
+          },
+          {
+            "hash": "e514475b35f9706e5061c7f234188e974249b0bd",
+            "message": "Improved message constraints of NRIC class",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "5ba87378b0a5331e9d36c10ed49c29309f955dec",
+            "message": "New prefix for sex attribute of patient",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "47af3d2649549252f9a234aca88c05772db2ef11",
+            "message": "New patient attribute -\u003e Sex, which indicates patient\u0027s sex",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "1a5f503db740bce210cbc638582c55bdd311acdf",
+            "message": "Added Sex as an attribute to Patient",
+            "insertions": 5,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
         "commitResults": []
       }
     ],
@@ -1914,9 +3207,335 @@
         "commitResults": []
       },
       {
+        "insertions": 110,
+        "deletions": 18,
+        "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "de78912e1d9ebda5d494a331e67a1a24f81479b9",
+            "message": "Change CopyCommand to copy patients",
+            "insertions": 12,
+            "deletions": 3
+          },
+          {
+            "hash": "6d6b81b5ff6fb0d8a9fe8932ad5ee7f50547e73b",
+            "message": "Change isSamePerson to allow temp copies",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "23e64c739177db99795ed56a8d85b75fa5f3b678",
+            "message": "Reduced redundant code",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8c7b52c5ddb6215106e93c079dec36500ab5eb2e",
+            "message": "Use inheritance for a better structure",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "3319aada6febc9fb9b746e4116f2a4223389cd6a",
+            "message": "Filter copies from saving to file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cdf0f67d90c9cf307725ad9c17b599daddcd3867",
+            "message": "Add checkNoCopy method",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "0ec72e1104febc9679fbe0cefd2f43d4b423e663",
+            "message": "Migrate exit check copy command",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "54d32df8d7de0e086fccaafc8508e99a39257359",
+            "message": "Add ExitAnyway class",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "0583d679f8b488f69f338fa4954666f8ff32ae17",
+            "message": "Add copy checker before exit",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "c7492f4984cbb84331a0109536b800a73a3812b1",
+            "message": "Add ExitAnyway into parser list",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "150955ff0af4eaabfdca57a8a4d0a3d9daf5af6f",
+            "message": "Add alert to GUI exit and bypass command exit",
+            "insertions": 32,
+            "deletions": 1
+          },
+          {
+            "hash": "ff6f5218e736b0adf1600f1f1e561f79479e91c8",
+            "message": "Style change",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d760a3d7c3aa09239ffcdfaa1446d3ac1562b0fa",
+            "message": "Style change",
+            "insertions": 5,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-17",
+        "date": "2019-03-18",
+        "commitResults": []
+      },
+      {
+        "insertions": 335,
+        "deletions": 66,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "eac01c5039dc2fb05079226b72ac885cd8b0847c",
+            "message": "Extend copy command function to massive copy",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "4983102012e62d56446bdf4536bdb08e8a235a40",
+            "message": "Add color label to MESSAGE_COPY_EXIST",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "b89f19eb389b6ee235c0bc6dc1bacc2031865263",
+            "message": "Add TaskcopyCommand class to copy tasks",
+            "insertions": 70,
+            "deletions": 0
+          },
+          {
+            "hash": "fc04ffd4fd781e2fdbe6e1189991032d02fb82ef",
+            "message": "Add Taskcopy command",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "0da942b6be27c9b374e69960d97b546eddf67811",
+            "message": "Update for massive copy",
+            "insertions": 48,
+            "deletions": 2
+          },
+          {
+            "hash": "8ed1f80494d4b25dd3675c102fd309538ed42f63",
+            "message": "Add TaskcopyCommandParser class",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "559589307945bdd36c613ff16578ddaa361b6da1",
+            "message": "Update to copy and identify copies",
+            "insertions": 27,
+            "deletions": 0
+          },
+          {
+            "hash": "8738fe2fecc3e8436ef56c537c209e16e66d6738",
+            "message": "Update to check copies in task",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "99daeb71c6cb02deda3f97fdc87c9d2d1c26f4bb",
+            "message": "Update to filter out copies in task",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "af5ff0a3381b6288f07826c1e47a6ece4e22fb7d",
+            "message": "Enhance display in result_display area",
+            "insertions": 48,
+            "deletions": 3
+          },
+          {
+            "hash": "02278cc78f197b1f2a969e3f78336fbb274fc3f0",
+            "message": "\u003d style change",
+            "insertions": 9,
+            "deletions": 5
+          },
+          {
+            "hash": "5fea7fd538384941740c55546a69676fba95b093",
+            "message": "\u003d style change",
+            "insertions": 11,
+            "deletions": 4
+          },
+          {
+            "hash": "64fa21503950c3d837527cceeeb60d6eaae7c398",
+            "message": "Revert \"\u003d style change\"",
+            "insertions": 4,
+            "deletions": 11
+          },
+          {
+            "hash": "59d19745e384334e7980cf64e11a55073cdf21de",
+            "message": "Revert \"Revert \"\u003d style change\"\"",
+            "insertions": 11,
+            "deletions": 4
+          },
+          {
+            "hash": "c8067fdee29718a28166136f2d545ce456224763",
+            "message": "\u003d style change",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8ffb1d2d80e3c6264ae9646c7d3c8b5f8dc57906",
+            "message": "Update test unit for gui",
+            "insertions": 13,
+            "deletions": 4
+          },
+          {
+            "hash": "677cec2f785bb911a116c50cce0b3ec4dad66ea8",
+            "message": "Update test unit for gui",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3b3a577bc88725d551a7e21b8f1d400a629f9ac0",
+            "message": "Bug fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ff3091e1843c8217e6186d1507742f8b76c9030f",
+            "message": "Bug fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "42f57fe0e27e04da618fdbcb0a63f731843b8f67",
+            "message": "Bug fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bfa31f67a8115ee708869f76377a3790b1e13e27",
+            "message": "Bug fix",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "6ae2b2551292cb33464f4d5f25df8f0d661ae9d1",
+            "message": "Bug fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bc8061a71f3b2645105355feb4286a5961b4f856",
+            "message": "Bug fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f688f4ab6168197db3d54c1047be001e69b9f645",
+            "message": "Bug fix",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "ecc61702209d4c1c77e41fef9e02896e357cbe60",
+            "message": "Temporary refrainment on the assertion",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "37ef33f6b71e26fb48083936968b567507934d77",
+            "message": "Temporary refrainment on the assertion",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e5615238f910a03ead2995d2a95e8a88e938a0ab",
+            "message": "Test1",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9659a8702bf4c96e1f4ef3e7c2f2a3e02dd9255d",
+            "message": "Test2",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "dda6d4b335bee1148998b56162c797bc8835ac50",
+            "message": "Test4",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "53ec5d3090a6b590c6e056a6aebf5b2347c3db1c",
+            "message": "Test5",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "e94a0f1c7fdda7dc8429b03189e147b716434965",
+            "message": "Test6",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "51095575a0e3dcd2d61342673548287843517203",
+            "message": "Test6",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d9bddc5f14d4a82fa48d83f6df51b87b05d31a27",
+            "message": "Test7",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
         "commitResults": []
       }
     ],
@@ -2370,8 +3989,8 @@
         "commitResults": []
       },
       {
-        "insertions": 449,
-        "deletions": 119,
+        "insertions": 506,
+        "deletions": 135,
         "date": "2019-03-15",
         "commitResults": [
           {
@@ -2511,6 +4130,12 @@
             "message": "Updated ParserUtil.java to accept multiple whitespaces.",
             "insertions": 17,
             "deletions": 17
+          },
+          {
+            "hash": "243fc9ba5df86bf6f6043293bb2f161458b30b92",
+            "message": "Updated UserGuide.adoc with OpenCommand, SaveCommand, ImportCommand and ExportCommand.",
+            "insertions": 57,
+            "deletions": 16
           }
         ]
       },
@@ -2525,22 +4150,351 @@
         "deletions": 0,
         "date": "2019-03-17",
         "commitResults": []
+      },
+      {
+        "insertions": 8,
+        "deletions": 8,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "616a734b942b8f78998fd87c0a055b0eb9c59af3",
+            "message": "Renamed variables in OpenCommand.java",
+            "insertions": 8,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 231,
+        "deletions": 113,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "5ecc1359ce1fd2758014263199832e865a0dc637",
+            "message": "Added \"all\" argument to ImportCommand",
+            "insertions": 48,
+            "deletions": 12
+          },
+          {
+            "hash": "60fc7a06d99124f166dba537b7cf25599a5a2345",
+            "message": "Updated ExportCommand to accept \"all\" argument",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "5990cbfa4453447662d2315cd03183a334ccabe5",
+            "message": "Added \"index\" JsonProperty to JsonAdaptedPerson.java",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "e3dfbea1b88d06883a6f26e591fd27a268ac6441",
+            "message": "Added \"index\" assigning loop to JsonSerializableAddressBook.java",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "cd10739fce2ddde3fefefac9767dde129ce42c96",
+            "message": "Updated ParsedInOut.java to avoid NullPointerException",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "17797566081991e0b50ad5e7f41e52ae0d28f923",
+            "message": "Refactored ImportCommand.java",
+            "insertions": 3,
+            "deletions": 8
+          },
+          {
+            "hash": "a2cb842d7270c95080da86c3f19df6959b0f97a5",
+            "message": "Removed unused import in ImportCommand.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "d04ab309325dfbc5d924adc76657ba2d621479a9",
+            "message": "Updated exception message and added Javadoc for ImportCommandParser.java",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "a31c11c9d00759afbada77431259f1220ed90974",
+            "message": "Updated exception message and added Javadoc for OpenCommandParser.java",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "245213614c8f70812ab733852dde97fe43b08a60",
+            "message": "Fixed naming error in OpenCommandParser.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "62fe001dc17cee474f5f957cd3eab56ce5ca6083",
+            "message": "Updated exception messages in parseImportExport() in ParserUtil.java",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "5d109e1f313deb81816145e9fbd3b064cb9e6d09",
+            "message": "Added export validation to ExportCommandParser.java",
+            "insertions": 17,
+            "deletions": 1
+          },
+          {
+            "hash": "06790324b47bd9afd64fd15765ddc566ebb415a6",
+            "message": "Added save validation to SaveCommandParser.java",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "94215f31ead04546cdbbd890d256fc8666d182de",
+            "message": "Removed accidental newlines in SaveCommandParser.java",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "9747b2806221d7ed641ed20d14b0f2d02f64711d",
+            "message": "Changed @code ParsedInOut back to String in parse() comment in ImportCommandParser.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9c8a625287363a8a8f39d26fe3feb5e76eb14b7b",
+            "message": "Added String type to ParsedInOut.java",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "6034abe26019895678582e43bd8a8fde47805d19",
+            "message": "Added fileType to parseImportExport() and parseOpenSave() in ParserUtil.java",
+            "insertions": 13,
+            "deletions": 11
+          },
+          {
+            "hash": "643df4e36b124828c4ad92b1af9bb2548128cc65",
+            "message": "Updated parseOpenSave() and parseImportExport() in ParserUtil.java to support .pdf filetypes.",
+            "insertions": 15,
+            "deletions": 10
+          },
+          {
+            "hash": "7153f0ae914ead050c113ddd0060504d83dabfd3",
+            "message": "Fixed pdfRegex and Javadoc comments in parseOpenSave() and parseImportExport() in ParserUtil.java",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "5197677a2ee2657b9069af4dcd5413a7a393e493",
+            "message": "Updated SaveCommand.java and SaveCommandParser.java to accept ParsedInOut.java class.",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "f5f852d716c3f275ed13bc4eb5e6bc1728aaaf1f",
+            "message": "Added json constrain to openValidation() in OpenCommandParser.java and updated OpenCommandParser.java to accept ParsedInOut.java class.",
+            "insertions": 16,
+            "deletions": 13
+          },
+          {
+            "hash": "48b0504e630513a3acdff999dbe9de9167d9856f",
+            "message": "Added json constrain to importValidation() ImportCommandParser.java",
+            "insertions": 13,
+            "deletions": 11
+          },
+          {
+            "hash": "13a1279bbd5d5da7fb3d722f812094c2d046a79d",
+            "message": "Added missing ! negation in openValidation() in OpenCommandParser.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "93191092b9c37b94b3351214d22b590d5e5d6f2c",
+            "message": "Updated ExportCommand\u0027s calling of SaveCommand.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "29ddb297b4cbd2c0eb9e06f1b5f529992599b91b",
+            "message": "Fixed misspelling in importValidation() in ImportCommandParser.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7cabbc3ba553d2df5099691949b1bed8bb2495fc",
+            "message": "Updated Javadoc for SaveCommandParser.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f27dbdeb9795d484bded8f1d72c72cc7976216c4",
+            "message": "Updated Javadoc for OpenCommandParser.java",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "fd7265164b9549c427e6df91e7def072bc813245",
+            "message": "Updated Javadoc for ImportCommandParser.java",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "ddd76581aba205da822d7122b1013b3bab0814d3",
+            "message": "Updated Javadoc for ExportCommandParser.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7f97058e8b711c5eb73dd6f548482b847f875a79",
+            "message": "Updated Javadoc for ExportCommand.java",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-20",
+        "commitResults": []
+      },
+      {
+        "insertions": 409,
+        "deletions": 93,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "3ffc1482d7060983ce25634fa868e08636bb1638",
+            "message": "Updated ExportCommand message.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "f68ef9f5eaa697a5dcccad99d6c9b83d5c80744d",
+            "message": "Updated SaveCommand message.",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "03c20cad49f71f49a10aef22958115c3d801f0f9",
+            "message": "Update OpenCommand message.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f927a4143f11dab315697cfcb9b2885ec716984b",
+            "message": "Updated ImportCommand message.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5fedc8ba43fa7ba2e95a2db20c840f4ac393616b",
+            "message": "Renamed JsonAddressBookStorage to InOutAddressBookStorage. Added saveAsPdf() to AddressBookStorage.java, Storage.java and StorageManager.java.",
+            "insertions": 83,
+            "deletions": 39
+          },
+          {
+            "hash": "09b64b7b047c6dc1c735d56294161eec54a444b2",
+            "message": "Added PDF export classes.",
+            "insertions": 228,
+            "deletions": 7
+          },
+          {
+            "hash": "362cd59adfa4c7c7b9167b7fc4003ea6d72e3f9b",
+            "message": "Updated PDF export classes.",
+            "insertions": 88,
+            "deletions": 39
+          }
+        ]
+      },
+      {
+        "insertions": 111,
+        "deletions": 42,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "2271f8544e842792d80f8c7bb9960ee6be1b098d",
+            "message": "Added apache commons-logging and pdfbox to build.gradle",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "1da461a7ac34376b093d23829c856d8901057f7e",
+            "message": "Refactored PDF writing in InOutAddressBookStorage.java",
+            "insertions": 42,
+            "deletions": 30
+          },
+          {
+            "hash": "97d4833c8cf9360d793319b9add5ddb45ca4879e",
+            "message": "Removed system print in PdfAdaptedPerson.java",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "a36fbe686da943ab0b6606b5fbcc569219f051a2",
+            "message": "Added title, subtitle and image to InOutAddressBookStorage.java. Refactored InOutAddressBookStorage.java.",
+            "insertions": 64,
+            "deletions": 9
+          },
+          {
+            "hash": "3d246efb116da98a3c226e1f751e60bbbe68b059",
+            "message": "Renamed JsonAddressBookStorageTest.java",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "d8b79c050ff59e4a69b25641d03509256ff2f52a",
+            "message": "Fixed \"Line is longer than 120 characters\" in MainWindowCloseTest.java",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 60,
+        "deletions": 41,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "5e6f42c017bb821df7fe22f1b353ac69ee61458d",
+            "message": "Renamed \"JsonAddressBookStorageTest\" folder to \"InOutAddressBookStorageTest\"",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "f13bd0c9cc8683ca66359739c985da2942e635c8",
+            "message": "Updated error messages and exception throwing in all IO commands.",
+            "insertions": 60,
+            "deletions": 41
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kthSim": 2370,
-    "cchj1995": 1490,
-    "kylerwsm": 0,
-    "wSemis": 193,
-    "JiaHaoLim": 573
+    "kthSim": 2369,
+    "cchj1995": 1569,
+    "kylerwsm": 2731,
+    "wSemis": 562,
+    "JiaHaoLim": 1181
   },
   "authorContributionVariance": {
-    "kthSim": 57007.06,
-    "cchj1995": 47575.594,
-    "kylerwsm": 0.0,
-    "wSemis": 3327.1875,
-    "JiaHaoLim": 10836.971
+    "kthSim": 91497.625,
+    "cchj1995": 41252.12,
+    "kylerwsm": 39193.965,
+    "wSemis": 6426.9546,
+    "JiaHaoLim": 18119.406
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",
