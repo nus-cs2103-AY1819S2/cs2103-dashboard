@@ -12088,9 +12088,9 @@
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            logger.info(\"Address book modified, saving to file.\");"
+        "content": "            logger.info(\"Bookshelf modified, saving to file.\");"
       },
       {
         "lineNumber": 60,
@@ -12619,8 +12619,9 @@
       }
     ],
     "authorContributionMap": {
+      "Jiangqinhua": 1,
       "EleenYang": 27,
-      "-": 99,
+      "-": 98,
       "0blivious": 8
     }
   },
@@ -16101,6 +16102,287 @@
     }
   },
   {
+    "path": "src/main/java/seedu/address/logic/commands/SortBookCommand.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "package seedu.address.logic.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import static java.util.Objects.requireNonNull;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import seedu.address.logic.CommandHistory;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import seedu.address.model.Model;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": " * Sort all books in provided order."
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "public class SortBookCommand extends Command {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"sortBook\";"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": sort all books in certain order\""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        + \"the specified keywords (case-insensitive).\\n\""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        + \"Parameters: [st/TYPE]...[o/ORDER]...\\n\""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        + \"Example: \" + COMMAND_WORD + \" st/rating o/asc\";"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public static final String MESSAGE_SUCCESS \u003d \"sorted successfully\";"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    private final String type;"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    private final String order;"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public SortBookCommand(String type, String order) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        this.type \u003d type;"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        this.order \u003d order;"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public CommandResult execute(Model model, CommandHistory history) {"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        requireNonNull(model);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        model.sortBook(type, order);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        model.commitBookShelf();"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        return new CommandResult(MESSAGE_SUCCESS);"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Jiangqinhua": 39
+    }
+  },
+  {
     "path": "src/main/java/seedu/address/logic/parser/AddBookCommandParser.java",
     "lines": [
       {
@@ -16696,621 +16978,649 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "import seedu.address.logic.commands.UndoCommand;"
+        "content": "import seedu.address.logic.commands.SortBookCommand;"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": "import seedu.address.logic.commands.UndoCommand;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": " * Parses user input."
+        "content": "/**"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": " */"
+        "content": " * Parses user input."
       },
       {
         "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 34,
         "author": {
           "gitId": "0blivious"
         },
         "content": "public class BookShelfParser {"
       },
       {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Used for initial separation of command word and args."
+        "content": "    /**"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * Used for initial separation of command word and args."
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static final Pattern BASIC_COMMAND_FORMAT \u003d Pattern.compile(\"(?\u003ccommandWord\u003e\\\\S+)(?\u003carguments\u003e.*)\");"
+        "content": "     */"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private static final Pattern BASIC_COMMAND_FORMAT \u003d Pattern.compile(\"(?\u003ccommandWord\u003e\\\\S+)(?\u003carguments\u003e.*)\");"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Parses user input into command for execution."
+        "content": "    /**"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
-        "content": "     *"
+        "content": "     * Parses user input into command for execution."
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @param userInput full user input string"
+        "content": "     *"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @return the command based on the user input"
+        "content": "     * @param userInput full user input string"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @throws ParseException if the user input does not conform the expected format"
+        "content": "     * @return the command based on the user input"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "    public Command parseCommand(String userInput) throws ParseException {"
+        "content": "     */"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "        final Matcher matcher \u003d BASIC_COMMAND_FORMAT.matcher(userInput.trim());"
+        "content": "    public Command parseCommand(String userInput) throws ParseException {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (!matcher.matches()) {"
+        "content": "        final Matcher matcher \u003d BASIC_COMMAND_FORMAT.matcher(userInput.trim());"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, HelpCommand.MESSAGE_USAGE));"
+        "content": "        if (!matcher.matches()) {"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, HelpCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "        final String commandWord \u003d matcher.group(\"commandWord\");"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "        final String arguments \u003d matcher.group(\"arguments\");"
+        "content": "        final String commandWord \u003d matcher.group(\"commandWord\");"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "        switch (commandWord) {"
+        "content": "        final String arguments \u003d matcher.group(\"arguments\");"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        switch (commandWord) {"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "        case AddCommand.COMMAND_WORD:"
-      },
-      {
-        "lineNumber": 58,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            return new AddCommandParser().parse(arguments);"
-      },
-      {
-        "lineNumber": 59,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 58,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        case AddBookCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 59,
         "author": {
           "gitId": "0blivious"
         },
         "content": "            return new AddBookCommandParser().parse(arguments);"
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        case AddCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return new AddCommandParser().parse(arguments);"
+      },
+      {
         "lineNumber": 63,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        case EditBookCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            return new EditBookCommandParser().parse(arguments);"
+        "content": "        case AddReviewCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "            return new AddReviewCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": "        case EditCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            return new EditCommandParser().parse(arguments);"
+        "content": "        case ClearCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "            return new ClearCommand();"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": "        case SelectCommand.COMMAND_WORD:"
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            return new SelectCommandParser().parse(arguments);"
-      },
-      {
-        "lineNumber": 71,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 72,
+        "lineNumber": 70,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        case DeleteBookCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 73,
+        "lineNumber": 71,
         "author": {
           "gitId": "0blivious"
         },
         "content": "            return new DeleteBookCommandParser().parse(arguments);"
       },
       {
-        "lineNumber": 74,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 75,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        case AddReviewCommand.COMMAND_WORD:"
-      },
-      {
-        "lineNumber": 76,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            return new AddReviewCommandParser().parse(arguments);"
-      },
-      {
-        "lineNumber": 77,
+        "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 78,
+        "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
         "content": "        case DeleteCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 79,
+        "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
         "content": "            return new DeleteCommandParser().parse(arguments);"
       },
       {
-        "lineNumber": 80,
+        "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        case EditBookCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            return new EditBookCommandParser().parse(arguments);"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        case EditCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            return new EditCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "        case ClearCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            return new ClearCommand();"
+        "content": "        case ExitCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 83,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "            return new ExitCommand();"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "-"
         },
-        "content": "        case FindCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "            return new FindCommandParser().parse(arguments);"
+        "content": "        case FindCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            return new FindCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "        case ListCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            return new ListCommand();"
+        "content": "        case HelpCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 89,
         "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            return new HelpCommand();"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 90,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "        case ListBookCommand.COMMAND_WORD:"
-      },
-      {
         "lineNumber": 91,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "            return new ListBookCommandParser().parse(arguments);"
-      },
-      {
-        "lineNumber": 92,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "        case ListReviewCommand.COMMAND_WORD:"
-      },
-      {
-        "lineNumber": 94,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "            return new ListReviewCommandParser().parse(arguments);"
-      },
-      {
-        "lineNumber": 95,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
         "content": "        case HistoryCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 97,
+        "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
         "content": "            return new HistoryCommand();"
       },
       {
-        "lineNumber": 98,
+        "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        case RedoCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            return new RedoCommand();"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "        case ListBookCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "            return new ListBookCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "-"
+          "gitId": "EleenYang"
         },
-        "content": "        case ExitCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            return new ExitCommand();"
+        "content": "        case ListCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "            return new ListCommand();"
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "        case HelpCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "-"
+          "gitId": "EleenYang"
         },
-        "content": "            return new HelpCommand();"
+        "content": "        case ListReviewCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "-"
+          "gitId": "EleenYang"
         },
-        "content": ""
+        "content": "            return new ListReviewCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "        case UndoCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": "            return new UndoCommand();"
+        "content": "        case UndoCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            return new UndoCommand();"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "        case RedoCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            return new RedoCommand();"
+        "content": "        case SelectCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "            return new SelectCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "        default:"
+        "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "            throw new ParseException(MESSAGE_UNKNOWN_COMMAND);"
+        "content": "        case SortBookCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "        }"
+        "content": "            return new SortBookCommandParser().parse(arguments);"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 115,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        default:"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            throw new ParseException(MESSAGE_UNKNOWN_COMMAND);"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
@@ -17318,9 +17628,10 @@
       }
     ],
     "authorContributionMap": {
-      "EleenYang": 6,
-      "-": 100,
-      "0blivious": 9
+      "Jiangqinhua": 25,
+      "EleenYang": 5,
+      "-": 84,
+      "0blivious": 5
     }
   },
   {
@@ -17448,12 +17759,27 @@
       {
         "lineNumber": 18,
         "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public static final Prefix PREFIX_SORTTYPE \u003d new Prefix(\"st/\");"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public static final Prefix PREFIX_ORDER \u003d new Prefix(\"o/\");"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
           "gitId": "-"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
+      "Jiangqinhua": 2,
       "-": 16,
       "0blivious": 2
     }
@@ -20105,33 +20431,363 @@
     }
   },
   {
-    "path": "src/main/java/seedu/address/model/BookShelf.java",
+    "path": "src/main/java/seedu/address/logic/parser/SortBookCommandParser.java",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "package seedu.address.model;"
+        "content": "package seedu.address.logic.parser;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_ORDER;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_SORTTYPE;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import java.util.stream.Stream;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import seedu.address.logic.commands.SortBookCommand;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": " * Parses input arguments and creates a new SortBookCommand object"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "public class SortBookCommandParser implements Parser\u003cSortBookCommand\u003e {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * Parses the given {@code String} of arguments in the context of the SortBookCommand"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * and returns an SortBookCommand object for execution."
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * @throws ParseException if the user input does not conform the expected format"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public SortBookCommand parse(String args) throws ParseException {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        ArgumentMultimap argMultimap \u003d"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            ArgumentTokenizer.tokenize(args, PREFIX_SORTTYPE, PREFIX_ORDER);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        if (!arePrefixesPresent(argMultimap, PREFIX_SORTTYPE, PREFIX_ORDER)"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            || !argMultimap.getPreamble().isEmpty()"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            \u0026\u0026 (!argMultimap.getValue(PREFIX_ORDER).get().toUpperCase().equals(\"ASC\")"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            || !argMultimap.getValue(PREFIX_ORDER).get().toUpperCase().equals(\"DES\"))) {"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortBookCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        String sortType \u003d argMultimap.getValue(PREFIX_SORTTYPE).get();"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        String orderType \u003d argMultimap.getValue(PREFIX_ORDER).get();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        return new SortBookCommand(sortType, orderType);"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * Returns true if none of the prefixes contains empty {@code Optional} values in the given"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * {@code ArgumentMultimap}."
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Jiangqinhua": 46
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/model/BookShelf.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "package seedu.address.model;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "0blivious"
         },
         "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
@@ -20145,7 +20801,7 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import java.util.List;"
       },
@@ -20159,28 +20815,28 @@
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import javafx.beans.InvalidationListener;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import javafx.collections.ObservableList;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import seedu.address.commons.util.InvalidationListenerManager;"
       },
@@ -20201,14 +20857,14 @@
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import seedu.address.model.person.Person;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import seedu.address.model.person.UniquePersonList;"
       },
@@ -20222,35 +20878,35 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "/**"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": " * Wraps all data at the address-book level"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": " * Duplicates are not allowed (by .isSamePerson comparison)"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": " */"
       },
@@ -20264,14 +20920,14 @@
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    private final UniquePersonList persons;"
       },
@@ -20285,1395 +20941,1395 @@
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    private final InvalidationListenerManager invalidationListenerManager \u003d new InvalidationListenerManager();"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "    /*"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * The \u0027unusual\u0027 code block below is an non-static initialization block, sometimes used to avoid duplication"
+        "content": "    /*"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * between constructors. See https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html"
+        "content": "     * The \u0027unusual\u0027 code block below is an non-static initialization block, sometimes used to avoid duplication"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     *"
+        "content": "     * between constructors. See https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * Note that non-static init blocks are not recommended to use. There are other ways to avoid duplication"
+        "content": "     *"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     *   among constructors."
+        "content": "     * Note that non-static init blocks are not recommended to use. There are other ways to avoid duplication"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     *   among constructors."
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    {"
+        "content": "     */"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        persons \u003d new UniquePersonList();"
+        "content": "    {"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        books \u003d new UniqueBookList();"
+        "content": "        persons \u003d new UniquePersonList();"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        books \u003d new UniqueBookList();"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public BookShelf() {}"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    public BookShelf() {}"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "0blivious"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 44,
         "author": {
           "gitId": "EleenYang"
         },
         "content": "     * Creates an BookShelf using the Books in the {@code toBeCopied}"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 45,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 46,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    public BookShelf(ReadOnlyBookShelf toBeCopied) {"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "        this();"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "        resetData(toBeCopied);"
       },
       {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    //// list overwrite operations"
+        "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    //// list overwrite operations"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * Replaces the contents of the person list with {@code persons}."
+        "content": "    /**"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * {@code persons} must not contain duplicate persons."
+        "content": "     * Replaces the contents of the person list with {@code persons}."
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * {@code persons} must not contain duplicate persons."
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public void setPersons(List\u003cPerson\u003e persons) {"
+        "content": "     */"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        this.persons.setPersons(persons);"
+        "content": "    public void setPersons(List\u003cPerson\u003e persons) {"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        indicateModified();"
+        "content": "        this.persons.setPersons(persons);"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void setBooks(List\u003cBook\u003e books) {"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        this.books.setBooks(books);"
+        "content": "    public void setBooks(List\u003cBook\u003e books) {"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        indicateModified();"
+        "content": "        this.books.setBooks(books);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Resets the existing data of this {@code BookShelf} with {@code newData}."
+        "content": "    /**"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * Resets the existing data of this {@code BookShelf} with {@code newData}."
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void resetData(ReadOnlyBookShelf newData) {"
+        "content": "     */"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        requireNonNull(newData);"
+        "content": "    public void resetData(ReadOnlyBookShelf newData) {"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        requireNonNull(newData);"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        setPersons(newData.getPersonList());"
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        setBooks(newData.getBookList());"
+        "content": "        setPersons(newData.getPersonList());"
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        setBooks(newData.getBookList());"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 76,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    //// person-level operations"
-      },
-      {
-        "lineNumber": 77,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 78,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 79,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     * Returns true if a person with the same identity as {@code person} exists in the address book."
-      },
-      {
-        "lineNumber": 80,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 81,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    public boolean hasPerson(Person person) {"
-      },
-      {
-        "lineNumber": 82,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        requireNonNull(person);"
-      },
-      {
-        "lineNumber": 83,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        return persons.contains(person);"
-      },
-      {
-        "lineNumber": 84,
-        "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 85,
+        "lineNumber": 76,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    //// person-level operations"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * Returns true if a person with the same identity as {@code person} exists in the address book."
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    public boolean hasPerson(Person person) {"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        requireNonNull(person);"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return persons.contains(person);"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Returns true if a book with the same identity as {@code book} exists in the book shelf."
+        "content": "    /**"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * Returns true if a book with the same identity as {@code book} exists in the book shelf."
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public boolean hasBook(Book book) {"
+        "content": "     */"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireNonNull(book);"
+        "content": "    public boolean hasBook(Book book) {"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        return books.contains(book);"
+        "content": "        requireNonNull(book);"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        return books.contains(book);"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 94,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * Adds a person to the address book."
+        "content": "    /**"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * The person must not already exist in the address book."
+        "content": "     * Adds a person to the address book."
       },
       {
         "lineNumber": 97,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * The person must not already exist in the address book."
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public void addPerson(Person p) {"
+        "content": "     */"
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        persons.add(p);"
+        "content": "    public void addPerson(Person p) {"
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        indicateModified();"
+        "content": "        persons.add(p);"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Adds a book to the book shelf."
+        "content": "    /**"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * The book must not already exist in the book shelf."
+        "content": "     * Adds a book to the book shelf."
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * The book must not already exist in the book shelf."
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void addBook(Book b) {"
+        "content": "     */"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        books.add(b);"
+        "content": "    public void addBook(Book b) {"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        indicateModified();"
+        "content": "        books.add(b);"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * Replaces the given person {@code target} in the list with {@code editedPerson}."
+        "content": "    /**"
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * {@code target} must exist in the address book."
+        "content": "     * Replaces the given person {@code target} in the list with {@code editedPerson}."
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * The person identity of {@code editedPerson} must not be the same as another existing person in the address book."
+        "content": "     * {@code target} must exist in the address book."
       },
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * The person identity of {@code editedPerson} must not be the same as another existing person in the address book."
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public void setPerson(Person target, Person editedPerson) {"
+        "content": "     */"
       },
       {
         "lineNumber": 118,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        requireNonNull(editedPerson);"
+        "content": "    public void setPerson(Person target, Person editedPerson) {"
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        requireNonNull(editedPerson);"
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "-"
-        },
-        "content": "        persons.setPerson(target, editedPerson);"
-      },
-      {
-        "lineNumber": 121,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        indicateModified();"
-      },
-      {
-        "lineNumber": 122,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 123,
-        "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        persons.setPerson(target, editedPerson);"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        indicateModified();"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
         "lineNumber": 124,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Replaces the given book {@code target} in the list with {@code editedBook}."
+        "content": "    /**"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * {@code target} must exist in the book shelf."
+        "content": "     * Replaces the given book {@code target} in the list with {@code editedBook}."
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * The book identity of {@code editedBook} must not be the same as another existing book in the book shelf."
+        "content": "     * {@code target} must exist in the book shelf."
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * The book identity of {@code editedBook} must not be the same as another existing book in the book shelf."
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void setBook(Book target, Book editedBook) {"
+        "content": "     */"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireNonNull(editedBook);"
+        "content": "    public void setBook(Book target, Book editedBook) {"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        requireNonNull(editedBook);"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        books.setBook(target, editedBook);"
+        "content": ""
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        indicateModified();"
+        "content": "        books.setBook(target, editedBook);"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Removes {@code key} from this {@code BookShelf}."
+        "content": "    /**"
       },
       {
         "lineNumber": 138,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * {@code key} must exist in the address book."
+        "content": "     * Removes {@code key} from this {@code BookShelf}."
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * {@code key} must exist in the address book."
       },
       {
         "lineNumber": 140,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public void removePerson(Person key) {"
+        "content": "     */"
       },
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        persons.remove(key);"
+        "content": "    public void removePerson(Person key) {"
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        indicateModified();"
+        "content": "        persons.remove(key);"
       },
       {
         "lineNumber": 143,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 144,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Removes {@code key} from this {@code BookShelf}."
+        "content": "    /**"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * {@code key} must exist in the book shelf."
+        "content": "     * Removes {@code key} from this {@code BookShelf}."
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * {@code key} must exist in the book shelf."
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void removeBook(Book key) {"
+        "content": "     */"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        books.remove(key);"
+        "content": "    public void removeBook(Book key) {"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        indicateModified();"
+        "content": "        books.remove(key);"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Removes {@code tag} from a {@code person}"
+        "content": "    /**"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * Removes {@code tag} from a {@code person}"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private void removeTagFromPerson(Tag tag, Person person) {"
+        "content": "     */"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Set\u003cTag\u003e tags \u003d new HashSet\u003cTag\u003e(person.getTags());"
+        "content": "    private void removeTagFromPerson(Tag tag, Person person) {"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (!tags.remove(tag)) {"
+        "content": "        Set\u003cTag\u003e tags \u003d new HashSet\u003cTag\u003e(person.getTags());"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            return;"
+        "content": "        if (!tags.remove(tag)) {"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            return;"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Person newPerson \u003d new Person(person.getName(), person.getPhone(),"
+        "content": ""
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                person.getEmail(), person.getAddress(), tags);"
+        "content": "        Person newPerson \u003d new Person(person.getName(), person.getPhone(),"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                person.getEmail(), person.getAddress(), tags);"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        setPerson(person, newPerson);"
+        "content": ""
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        setPerson(person, newPerson);"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Removes {@code tag} from a {@code book}"
+        "content": "    /**"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * Removes {@code tag} from a {@code book}"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private void removeTagFromBook(Tag tag, Book book) {"
+        "content": "     */"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Set\u003cTag\u003e tags \u003d new HashSet\u003cTag\u003e(book.getTags());"
+        "content": "    private void removeTagFromBook(Tag tag, Book book) {"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (!tags.remove(tag)) {"
+        "content": "        Set\u003cTag\u003e tags \u003d new HashSet\u003cTag\u003e(book.getTags());"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            return;"
+        "content": "        if (!tags.remove(tag)) {"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            return;"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Book newBook \u003d new Book(book.getBookName(), book.getAuthor(),"
+        "content": ""
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                book.getRating(), tags);"
+        "content": "        Book newBook \u003d new Book(book.getBookName(), book.getAuthor(),"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                book.getRating(), tags);"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        setBook(book, newBook);"
+        "content": ""
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        setBook(book, newBook);"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Remove {@code tag} from all person in the list"
+        "content": "    /**"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * Remove {@code tag} from all person in the list"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void removeTag(Tag tag) {"
+        "content": "     */"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        for (Book p: books) {"
+        "content": "    public void removeTag(Tag tag) {"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            removeTagFromBook(tag, p);"
+        "content": "        for (Book p: books) {"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            removeTagFromBook(tag, p);"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 193,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 194,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    public void addListener(InvalidationListener listener) {"
-      },
-      {
-        "lineNumber": 195,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        invalidationListenerManager.addListener(listener);"
-      },
-      {
-        "lineNumber": 196,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 197,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 198,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 199,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    public void removeListener(InvalidationListener listener) {"
-      },
-      {
-        "lineNumber": 200,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        invalidationListenerManager.removeListener(listener);"
-      },
-      {
-        "lineNumber": 201,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 202,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 203,
-        "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 204,
+        "lineNumber": 195,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "     * Notifies listeners that the address book has been modified."
+        "content": "     * Sort {@code books} in with {@code order}"
       },
       {
-        "lineNumber": 205,
+        "lineNumber": 196,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * @param type"
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * @param order"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * @throws Exception"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "Jiangqinhua"
         },
         "content": "     */"
       },
       {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public void sort(String type, String order) {"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            books.sortBooks(type, order);"
+      },
+      {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
         "lineNumber": 206,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "    protected void indicateModified() {"
+        "content": "        }"
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "        invalidationListenerManager.callListeners(this);"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 208,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
         "content": "    }"
       },
       {
         "lineNumber": 209,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
         "content": ""
       },
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    //// util methods"
+        "content": "    @Override"
       },
       {
         "lineNumber": 211,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    public void addListener(InvalidationListener listener) {"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    @Override"
+        "content": "        invalidationListenerManager.addListener(listener);"
       },
       {
         "lineNumber": 213,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public String toString() {"
+        "content": "    }"
       },
       {
         "lineNumber": 214,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "0blivious"
         },
-        "content": "        return books.asUnmodifiableObservableList().size() + \" books\";"
+        "content": ""
       },
       {
         "lineNumber": 215,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 216,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    @Override"
       },
       {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    public void removeListener(InvalidationListener listener) {"
+      },
+      {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        invalidationListenerManager.removeListener(listener);"
+      },
+      {
         "lineNumber": 218,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    public ObservableList\u003cPerson\u003e getPersonList() {"
-      },
-      {
-        "lineNumber": 219,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        return persons.asUnmodifiableObservableList();"
-      },
-      {
-        "lineNumber": 220,
-        "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 221,
+        "lineNumber": 219,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * Notifies listeners that the address book has been modified."
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Override"
+        "content": "     */"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public ObservableList\u003cBook\u003e getBookList() {"
+        "content": "    protected void indicateModified() {"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        return books.asUnmodifiableObservableList();"
+        "content": "        invalidationListenerManager.callListeners(this);"
       },
       {
         "lineNumber": 225,
@@ -21692,99 +22348,218 @@
       {
         "lineNumber": 227,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    @Override"
+        "content": "    //// util methods"
       },
       {
         "lineNumber": 228,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": ""
       },
       {
         "lineNumber": 229,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
+        "content": "    @Override"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                || (other instanceof BookShelf // instanceof handles nulls"
+        "content": "    public String toString() {"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "                \u0026\u0026 persons.equals(((BookShelf) other).persons)"
+        "content": "        return books.asUnmodifiableObservableList().size() + \" books\";"
       },
       {
         "lineNumber": 232,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    public ObservableList\u003cPerson\u003e getPersonList() {"
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return persons.asUnmodifiableObservableList();"
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    public ObservableList\u003cBook\u003e getBookList() {"
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return books.asUnmodifiableObservableList();"
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return other \u003d\u003d this // short circuit if same object"
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "                || (other instanceof BookShelf // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 248,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "                \u0026\u0026 persons.equals(((BookShelf) other).persons)"
+      },
+      {
+        "lineNumber": 249,
         "author": {
           "gitId": "EleenYang"
         },
         "content": "                \u0026\u0026 books.equals(((BookShelf) other).books));"
       },
       {
-        "lineNumber": 233,
+        "lineNumber": 250,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 234,
+        "lineNumber": 251,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
-        "lineNumber": 235,
+        "lineNumber": 252,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 236,
+        "lineNumber": 253,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    public int hashCode() {"
       },
       {
-        "lineNumber": 237,
+        "lineNumber": 254,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "        return persons.hashCode();"
       },
       {
-        "lineNumber": 238,
+        "lineNumber": 255,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 239,
+        "lineNumber": 256,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
+      "Jiangqinhua": 17,
       "EleenYang": 4,
-      "-": 133,
-      "0blivious": 102
+      "0blivious": 235
     }
   },
   {
@@ -22640,7 +23415,7 @@
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "     */"
       },
@@ -22654,7 +23429,7 @@
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
@@ -23102,15 +23877,51 @@
       {
         "lineNumber": 188,
         "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 190,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * Sort the Book list into different order"
+      },
+      {
+        "lineNumber": 191,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    void sortBook(String type, String order);"
+      },
+      {
+        "lineNumber": 193,
+        "author": {
           "gitId": "-"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
+      "Jiangqinhua": 5,
       "EleenYang": 6,
-      "-": 115,
-      "0blivious": 67
+      "-": 113,
+      "0blivious": 69
     }
   },
   {
@@ -24155,7 +24966,7 @@
       {
         "lineNumber": 149,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
@@ -24183,7 +24994,7 @@
       {
         "lineNumber": 153,
         "author": {
-          "gitId": "-"
+          "gitId": "EleenYang"
         },
         "content": "    }"
       },
@@ -24197,1195 +25008,1237 @@
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Filtered Person List Accessors \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": "    @Override"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "    public void sortBook(String type, String order) {"
       },
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "    /**"
+        "content": "        versionedBookShelf.sort(type, order);"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns an unmodifiable view of the list of {@code Person} backed by the internal list of"
+        "content": "    }"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": "     * {@code versionedBookShelf}"
+        "content": ""
       },
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Filtered Person List Accessors \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "-"
         },
-        "content": "    public ObservableList\u003cPerson\u003e getFilteredPersonList() {"
+        "content": ""
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
-        "content": "        return filteredPersons;"
+        "content": "    /**"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "     * Returns an unmodifiable view of the list of {@code Person} backed by the internal list of"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * {@code versionedBookShelf}"
       },
       {
         "lineNumber": 166,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "     */"
       },
       {
         "lineNumber": 167,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    public ObservableList\u003cBook\u003e getFilteredBookList() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 168,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        return filteredBooks;"
+        "content": "    public ObservableList\u003cPerson\u003e getFilteredPersonList() {"
       },
       {
         "lineNumber": 169,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return filteredPersons;"
       },
       {
         "lineNumber": 170,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public void updateFilteredPersonList(Predicate\u003cPerson\u003e predicate) {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 173,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        requireNonNull(predicate);"
+        "content": "    public ObservableList\u003cBook\u003e getFilteredBookList() {"
       },
       {
         "lineNumber": 174,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        filteredPersons.setPredicate(predicate);"
+        "content": "        return filteredBooks;"
       },
       {
         "lineNumber": 175,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
         "lineNumber": 177,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    public void updateFilteredBookList(Predicate\u003cBook\u003e predicate) {"
+        "content": "    public void updateFilteredPersonList(Predicate\u003cPerson\u003e predicate) {"
       },
       {
         "lineNumber": 179,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
         "content": "        requireNonNull(predicate);"
       },
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        filteredBooks.setPredicate(predicate);"
+        "content": "        filteredPersons.setPredicate(predicate);"
       },
       {
         "lineNumber": 181,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
         "content": "    }"
       },
       {
         "lineNumber": 182,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 183,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Undo/Redo \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
-      },
-      {
-        "lineNumber": 184,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 185,
-        "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    @Override"
       },
       {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    public void updateFilteredBookList(Predicate\u003cBook\u003e predicate) {"
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        requireNonNull(predicate);"
+      },
+      {
         "lineNumber": 186,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public boolean canUndoBookShelf() {"
+        "content": "        filteredBooks.setPredicate(predicate);"
       },
       {
         "lineNumber": 187,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        return versionedBookShelf.canUndo();"
+        "content": "    }"
       },
       {
         "lineNumber": 188,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Undo/Redo \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
-        "content": "    public boolean canRedoBookShelf() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "-"
         },
-        "content": "        return versionedBookShelf.canRedo();"
+        "content": "    public boolean canUndoBookShelf() {"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return versionedBookShelf.canUndo();"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void undoBookShelf() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "-"
         },
-        "content": "        versionedBookShelf.undo();"
+        "content": "    public boolean canRedoBookShelf() {"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return versionedBookShelf.canRedo();"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void redoBookShelf() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
-        "content": "        versionedBookShelf.redo();"
+        "content": "    public void undoBookShelf() {"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        versionedBookShelf.undo();"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void commitBookShelf() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
-        "content": "        versionedBookShelf.commit();"
+        "content": "    public void redoBookShelf() {"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        versionedBookShelf.redo();"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "-"
         },
-        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Selected person \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "    public void commitBookShelf() {"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
-        "content": "    public ReadOnlyProperty\u003cPerson\u003e selectedPersonProperty() {"
+        "content": "        versionedBookShelf.commit();"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "-"
         },
-        "content": "        return selectedPerson;"
+        "content": "    }"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Selected person \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 217,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 218,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    public ReadOnlyProperty\u003cBook\u003e selectedBookProperty() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 219,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        return selectedBook;"
+        "content": "    public ReadOnlyProperty\u003cPerson\u003e selectedPersonProperty() {"
       },
       {
         "lineNumber": 220,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return selectedPerson;"
       },
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 223,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public Person getSelectedPerson() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 224,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        return selectedPerson.getValue();"
+        "content": "    public ReadOnlyProperty\u003cBook\u003e selectedBookProperty() {"
       },
       {
         "lineNumber": 225,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        return selectedBook;"
       },
       {
         "lineNumber": 226,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 228,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    public Book getSelectedBook() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 229,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        return selectedBook.getValue();"
+        "content": "    public Person getSelectedPerson() {"
       },
       {
         "lineNumber": 230,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return selectedPerson.getValue();"
       },
       {
         "lineNumber": 231,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 233,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public void setSelectedPerson(Person person) {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 234,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        if (person !\u003d null \u0026\u0026 !filteredPersons.contains(person)) {"
+        "content": "    public Book getSelectedBook() {"
       },
       {
         "lineNumber": 235,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "            throw new PersonNotFoundException();"
+        "content": "        return selectedBook.getValue();"
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "    }"
       },
       {
         "lineNumber": 237,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        selectedPerson.setValue(person);"
+        "content": ""
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public void setSelectedPerson(Person person) {"
       },
       {
         "lineNumber": 240,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "        if (person !\u003d null \u0026\u0026 !filteredPersons.contains(person)) {"
       },
       {
         "lineNumber": 241,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    public void setSelectedBook(Book book) {"
+        "content": "            throw new PersonNotFoundException();"
       },
       {
         "lineNumber": 242,
         "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        if (book !\u003d null \u0026\u0026 !filteredBooks.contains(book)) {"
-      },
-      {
-        "lineNumber": 243,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "            throw new BookNotFoundException();"
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
         "content": "        }"
       },
       {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        selectedPerson.setValue(person);"
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
         "lineNumber": 245,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        selectedBook.setValue(book);"
+        "content": ""
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    public void setSelectedBook(Book book) {"
       },
       {
         "lineNumber": 248,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": "        if (book !\u003d null \u0026\u0026 !filteredBooks.contains(book)) {"
       },
       {
         "lineNumber": 249,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * Ensures {@code selectedPerson} is a valid person in {@code filteredPersons}."
+        "content": "            throw new BookNotFoundException();"
       },
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "        }"
       },
       {
         "lineNumber": 251,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    private void ensureSelectedPersonIsValid(ListChangeListener.Change\u003c? extends Person\u003e change) {"
+        "content": "        selectedBook.setValue(book);"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        while (change.next()) {"
+        "content": "    }"
       },
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "            if (selectedPerson.getValue() \u003d\u003d null) {"
+        "content": ""
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "-"
         },
-        "content": "                // null is always a valid selected person, so we do not need to check that it is valid anymore."
+        "content": "    /**"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "-"
         },
-        "content": "                return;"
+        "content": "     * Ensures {@code selectedPerson} is a valid person in {@code filteredPersons}."
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "-"
         },
-        "content": "            }"
+        "content": "     */"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private void ensureSelectedPersonIsValid(ListChangeListener.Change\u003c? extends Person\u003e change) {"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "-"
         },
-        "content": "            boolean wasSelectedPersonReplaced \u003d change.wasReplaced() \u0026\u0026 change.getAddedSize() \u003d\u003d change.getRemovedSize()"
+        "content": "        while (change.next()) {"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u0026\u0026 change.getRemoved().contains(selectedPerson.getValue());"
+        "content": "            if (selectedPerson.getValue() \u003d\u003d null) {"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
-        "content": "            if (wasSelectedPersonReplaced) {"
+        "content": "                // null is always a valid selected person, so we do not need to check that it is valid anymore."
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": "                // Update selectedPerson to its new value."
+        "content": "                return;"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "-"
         },
-        "content": "                int index \u003d change.getRemoved().indexOf(selectedPerson.getValue());"
+        "content": "            }"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "-"
         },
-        "content": "                selectedPerson.setValue(change.getAddedSubList().get(index));"
+        "content": ""
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "-"
         },
-        "content": "                continue;"
+        "content": "            boolean wasSelectedPersonReplaced \u003d change.wasReplaced() \u0026\u0026 change.getAddedSize() \u003d\u003d change.getRemovedSize()"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "-"
         },
-        "content": "            }"
+        "content": "                    \u0026\u0026 change.getRemoved().contains(selectedPerson.getValue());"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            if (wasSelectedPersonReplaced) {"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "-"
         },
-        "content": "            boolean wasSelectedPersonRemoved \u003d change.getRemoved().stream()"
+        "content": "                // Update selectedPerson to its new value."
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "-"
         },
-        "content": "                    .anyMatch(removedPerson -\u003e selectedPerson.getValue().isSamePerson(removedPerson));"
+        "content": "                int index \u003d change.getRemoved().indexOf(selectedPerson.getValue());"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "-"
         },
-        "content": "            if (wasSelectedPersonRemoved) {"
+        "content": "                selectedPerson.setValue(change.getAddedSubList().get(index));"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "-"
         },
-        "content": "                // Select the person that came before it in the list,"
+        "content": "                continue;"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "-"
         },
-        "content": "                // or clear the selection if there is no such person."
+        "content": "            }"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
-        "content": "                selectedPerson.setValue(change.getFrom() \u003e 0 ? change.getList().get(change.getFrom() - 1) : null);"
+        "content": ""
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
-        "content": "            }"
+        "content": "            boolean wasSelectedPersonRemoved \u003d change.getRemoved().stream()"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "                    .anyMatch(removedPerson -\u003e selectedPerson.getValue().isSamePerson(removedPerson));"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "            if (wasSelectedPersonRemoved) {"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "                // Select the person that came before it in the list,"
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    /**"
+        "content": "                // or clear the selection if there is no such person."
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "     * Ensures {@code selectedBook} is a valid book in {@code filteredBooks}."
+        "content": "                selectedPerson.setValue(change.getFrom() \u003e 0 ? change.getList().get(change.getFrom() - 1) : null);"
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "     */"
+        "content": "            }"
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "    private void ensureSelectedBookIsValid(ListChangeListener.Change\u003c? extends Book\u003e change) {"
+        "content": "        }"
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        while (change.next()) {"
+        "content": "    }"
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "            if (selectedBook.getValue() \u003d\u003d null) {"
+        "content": ""
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                // null is always a valid selected person, so we do not need to check that it is valid anymore."
+        "content": "    /**"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                return;"
+        "content": "     * Ensures {@code selectedBook} is a valid book in {@code filteredBooks}."
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            }"
+        "content": "     */"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    private void ensureSelectedBookIsValid(ListChangeListener.Change\u003c? extends Book\u003e change) {"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            boolean wasSelectedBookReplaced \u003d change.wasReplaced() \u0026\u0026 change.getAddedSize() \u003d\u003d change.getRemovedSize()"
+        "content": "        while (change.next()) {"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                    \u0026\u0026 change.getRemoved().contains(selectedBook.getValue());"
+        "content": "            if (selectedBook.getValue() \u003d\u003d null) {"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            if (wasSelectedBookReplaced) {"
+        "content": "                // null is always a valid selected person, so we do not need to check that it is valid anymore."
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                // Update selectedPerson to its new value."
+        "content": "                return;"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                int index \u003d change.getRemoved().indexOf(selectedBook.getValue());"
+        "content": "            }"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                selectedBook.setValue(change.getAddedSubList().get(index));"
+        "content": ""
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                continue;"
+        "content": "            boolean wasSelectedBookReplaced \u003d change.wasReplaced() \u0026\u0026 change.getAddedSize() \u003d\u003d change.getRemovedSize()"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            }"
+        "content": "                    \u0026\u0026 change.getRemoved().contains(selectedBook.getValue());"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "            if (wasSelectedBookReplaced) {"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            boolean wasSelectedBookRemoved \u003d change.getRemoved().stream()"
+        "content": "                // Update selectedPerson to its new value."
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                    .anyMatch(removedBook -\u003e selectedBook.getValue().isSameBook(removedBook));"
+        "content": "                int index \u003d change.getRemoved().indexOf(selectedBook.getValue());"
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            if (wasSelectedBookRemoved) {"
+        "content": "                selectedBook.setValue(change.getAddedSubList().get(index));"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                // Select the person that came before it in the list,"
+        "content": "                continue;"
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                // or clear the selection if there is no such person."
+        "content": "            }"
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                selectedBook.setValue(change.getFrom() \u003e 0 ? change.getList().get(change.getFrom() - 1) : null);"
+        "content": ""
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            }"
+        "content": "            boolean wasSelectedBookRemoved \u003d change.getRemoved().stream()"
       },
       {
         "lineNumber": 303,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "                    .anyMatch(removedBook -\u003e selectedBook.getValue().isSameBook(removedBook));"
       },
       {
         "lineNumber": 304,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "            if (wasSelectedBookRemoved) {"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                // Select the person that came before it in the list,"
       },
       {
         "lineNumber": 306,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    @Override"
+        "content": "                // or clear the selection if there is no such person."
       },
       {
         "lineNumber": 307,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public boolean equals(Object obj) {"
+        "content": "                selectedBook.setValue(change.getFrom() \u003e 0 ? change.getList().get(change.getFrom() - 1) : null);"
       },
       {
         "lineNumber": 308,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        // short circuit if same object"
+        "content": "            }"
       },
       {
         "lineNumber": 309,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        if (obj \u003d\u003d this) {"
+        "content": "        }"
       },
       {
         "lineNumber": 310,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "            return true;"
+        "content": "    }"
       },
       {
         "lineNumber": 311,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 312,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "-"
         },
-        "content": "        // instanceof handles nulls"
+        "content": "    public boolean equals(Object obj) {"
       },
       {
         "lineNumber": 314,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (!(obj instanceof ModelManager)) {"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "-"
         },
-        "content": "            return false;"
+        "content": "        if (obj \u003d\u003d this) {"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "            return true;"
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "-"
         },
-        "content": "        // state check"
+        "content": ""
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "-"
         },
-        "content": "        ModelManager other \u003d (ModelManager) obj;"
+        "content": "        // instanceof handles nulls"
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "-"
         },
-        "content": "        return versionedBookShelf.equals(other.versionedBookShelf)"
+        "content": "        if (!(obj instanceof ModelManager)) {"
       },
       {
         "lineNumber": 321,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 userPrefs.equals(other.userPrefs)"
+        "content": "            return false;"
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 filteredPersons.equals(other.filteredPersons)"
+        "content": "        }"
       },
       {
         "lineNumber": 323,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 Objects.equals(selectedPerson.get(), other.selectedPerson.get());"
+        "content": ""
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        // state check"
       },
       {
         "lineNumber": 325,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        ModelManager other \u003d (ModelManager) obj;"
+      },
+      {
+        "lineNumber": 326,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return versionedBookShelf.equals(other.versionedBookShelf)"
+      },
+      {
+        "lineNumber": 327,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 userPrefs.equals(other.userPrefs)"
+      },
+      {
+        "lineNumber": 328,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 filteredPersons.equals(other.filteredPersons)"
+      },
+      {
+        "lineNumber": 329,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 Objects.equals(selectedPerson.get(), other.selectedPerson.get());"
+      },
+      {
+        "lineNumber": 330,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 331,
         "author": {
           "gitId": "-"
         },
@@ -25393,9 +26246,10 @@
       }
     ],
     "authorContributionMap": {
-      "EleenYang": 15,
+      "Jiangqinhua": 4,
+      "EleenYang": 16,
       "-": 229,
-      "0blivious": 81
+      "0blivious": 82
     }
   },
   {
@@ -27673,9 +28527,9 @@
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": " * Represents a Book in the address book."
+        "content": " * Represents a Book in the bookShelf."
       },
       {
         "lineNumber": 14,
@@ -28512,7 +29366,8 @@
       }
     ],
     "authorContributionMap": {
-      "0blivious": 107,
+      "Jiangqinhua": 1,
+      "0blivious": 106,
       "-": 25
     }
   },
@@ -30913,58 +31768,58 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": "import java.util.Iterator;"
+        "content": "import java.util.Comparator;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import java.util.List;"
+        "content": "import java.util.Iterator;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "import java.util.List;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import javafx.collections.FXCollections;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import javafx.collections.ObservableList;"
+        "content": "import javafx.collections.FXCollections;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.model.book.exceptions.BookNotFoundException;"
+        "content": "import javafx.collections.ObservableList;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.model.book.exceptions.DuplicateBookException;"
+        "content": "import seedu.address.model.book.exceptions.BookNotFoundException;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "import seedu.address.model.book.exceptions.DuplicateBookException;"
       },
       {
         "lineNumber": 14,
@@ -30978,871 +31833,1172 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * A list of books that enforces uniqueness between its elements and does not allow nulls."
+        "content": "/**"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * A book is considered unique by comparing using {@code Book#isSameBook(Book)}. As such, adding and updating of"
+        "content": " * A list of books that enforces uniqueness between its elements and does not allow nulls."
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * books uses Book#isSameBook(Book) for equality so as to ensure that the book being added or updated is"
+        "content": " * A book is considered unique by comparing using {@code Book#isSameBook(Book)}. As such, adding and updating of"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * unique in terms of identity in the UniqueBookList. However, the removal of a book uses Book#equals(Object) so"
+        "content": " * books uses Book#isSameBook(Book) for equality so as to ensure that the book being added or updated is"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * as to ensure that the book with exactly the same fields will be removed."
+        "content": " * unique in terms of identity in the UniqueBookList. However, the removal of a book uses Book#equals(Object) so"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " *"
+        "content": " * as to ensure that the book with exactly the same fields will be removed."
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * Supports a minimal set of list operations."
+        "content": " *"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " *"
+        "content": " * Supports a minimal set of list operations."
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * @see Book#isSameBook(Book)"
+        "content": " *"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " */"
+        "content": " * @see Book#isSameBook(Book)"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "public class UniqueBookList implements Iterable\u003cBook\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "public class UniqueBookList implements Iterable\u003cBook\u003e {"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private final ObservableList\u003cBook\u003e internalList \u003d FXCollections.observableArrayList();"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": "    private final ObservableList\u003cBook\u003e internalUnmodifiableList \u003d"
+        "content": "    private ObservableList\u003cBook\u003e internalList \u003d FXCollections.observableArrayList();"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            FXCollections.unmodifiableObservableList(internalList);"
+        "content": "    private final ObservableList\u003cBook\u003e internalUnmodifiableList \u003d"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "            FXCollections.unmodifiableObservableList(internalList);"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Returns true if the list contains an equivalent book as the given argument."
+        "content": "    /**"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * Returns true if the list contains an equivalent book as the given argument."
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public boolean contains(Book toCheck) {"
+        "content": "     */"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireNonNull(toCheck);"
+        "content": "    public boolean contains(Book toCheck) {"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        return internalList.stream().anyMatch(toCheck::isSameBook);"
+        "content": "        requireNonNull(toCheck);"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        return internalList.stream().anyMatch(toCheck::isSameBook);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Adds a book to the list."
+        "content": "    /**"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * The book must not already exist in the list."
+        "content": "     * Adds a book to the list."
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * The book must not already exist in the list."
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void add(Book toAdd) {"
+        "content": "     */"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireNonNull(toAdd);"
+        "content": "    public void add(Book toAdd) {"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (contains(toAdd)) {"
+        "content": "        requireNonNull(toAdd);"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new DuplicateBookException();"
+        "content": "        if (contains(toAdd)) {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            throw new DuplicateBookException();"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        internalList.add(toAdd);"
+        "content": "        }"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        internalList.add(toAdd);"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Replaces the book {@code target} in the list with {@code editedBook}."
+        "content": "    /**"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * {@code target} must exist in the list."
+        "content": "     * Replaces the book {@code target} in the list with {@code editedBook}."
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * The book identity of {@code editedBook} must not be the same as another existing book in the list."
+        "content": "     * {@code target} must exist in the list."
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * The book identity of {@code editedBook} must not be the same as another existing book in the list."
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void setBook(Book target, Book editedBook) {"
+        "content": "     */"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireAllNonNull(target, editedBook);"
+        "content": "    public void setBook(Book target, Book editedBook) {"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        requireAllNonNull(target, editedBook);"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        int index \u003d internalList.indexOf(target);"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (index \u003d\u003d -1) {"
+        "content": "        int index \u003d internalList.indexOf(target);"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new BookNotFoundException();"
+        "content": "        if (index \u003d\u003d -1) {"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            throw new BookNotFoundException();"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (!target.isSameBook(editedBook) \u0026\u0026 contains(editedBook)) {"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new DuplicateBookException();"
+        "content": "        if (!target.isSameBook(editedBook) \u0026\u0026 contains(editedBook)) {"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            throw new DuplicateBookException();"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        internalList.set(index, editedBook);"
+        "content": ""
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        internalList.set(index, editedBook);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Removes the equivalent book from the list."
+        "content": "    /**"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * The book must exist in the list."
+        "content": "     * Removes the equivalent book from the list."
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * The book must exist in the list."
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void remove(Book toRemove) {"
+        "content": "     */"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireNonNull(toRemove);"
+        "content": "    public void remove(Book toRemove) {"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (!internalList.remove(toRemove)) {"
+        "content": "        requireNonNull(toRemove);"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new BookNotFoundException();"
+        "content": "        if (!internalList.remove(toRemove)) {"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            throw new BookNotFoundException();"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void setBooks(UniqueBookList replacement) {"
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireNonNull(replacement);"
+        "content": "    public void setBooks(UniqueBookList replacement) {"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        internalList.setAll(replacement.internalList);"
+        "content": "        requireNonNull(replacement);"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        internalList.setAll(replacement.internalList);"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Replaces the contents of this list with {@code books}."
+        "content": "    /**"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * {@code books} must not contain duplicate books."
+        "content": "     * Replaces the contents of this list with {@code books}."
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * {@code books} must not contain duplicate books."
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void setBooks(List\u003cBook\u003e books) {"
+        "content": "     */"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        requireAllNonNull(books);"
+        "content": "    public void setBooks(List\u003cBook\u003e books) {"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (!booksAreUnique(books)) {"
+        "content": "        requireAllNonNull(books);"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new DuplicateBookException();"
+        "content": "        if (!booksAreUnique(books)) {"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            throw new DuplicateBookException();"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        internalList.setAll(books);"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        internalList.setAll(books);"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 102,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * Sort the books with {@code type} in {@code order}."
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * @param type sorting type"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     * @param order order of sorting"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    public void sortBooks(String type, String order) throws Exception {"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        requireAllNonNull(type, order);"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        type \u003d type.toUpperCase();"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        order \u003d order.toUpperCase();"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        switch (type) {"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        case \"AUTHOR\":"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            if (order.equals(\"ASC\")) {"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                internalList.sort(Comparator.comparing(a -\u003e a.getAuthor().toString().toLowerCase()));"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            } else if (order.equals(\"DES\")) {"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                internalList.sort((a, b)"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                    -\u003e b.getAuthor().toString().toLowerCase().compareTo(a.getAuthor().toString().toLowerCase()));"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            break;"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        case \"NAME\":"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            if (order.equals(\"ASC\")) {"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                internalList.sort(Comparator.comparing(a -\u003e a.getBookName().toString().toLowerCase()));"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            } else if (order.equals(\"DES\")) {"
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                internalList.sort((a, b)"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                    -\u003e b.getBookName().toString().toLowerCase().compareTo(a.getBookName().toString().toLowerCase()));"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            break;"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        case \"RATING\":"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            if (order.equals(\"ASC\")) {"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                FXCollections.sort(internalList, Comparator.comparingInt(a -\u003e Integer.valueOf(a.getRating().value)));"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            } else if (order.equals(\"DES\")) {"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                FXCollections.sort(internalList, (a, b)"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "                    -\u003e Integer.valueOf(b.getRating().value) - Integer.valueOf(a.getRating().value));"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            break;"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        default:"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "            throw new Exception(\"Unknown sorting type\");"
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 145,
         "author": {
           "gitId": "0blivious"
         },
         "content": "     * Returns the backing list as an unmodifiable {@code ObservableList}."
       },
       {
-        "lineNumber": 103,
+        "lineNumber": 146,
         "author": {
           "gitId": "0blivious"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 104,
+        "lineNumber": 147,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    public ObservableList\u003cBook\u003e asUnmodifiableObservableList() {"
       },
       {
-        "lineNumber": 105,
+        "lineNumber": 148,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        return internalUnmodifiableList;"
       },
       {
-        "lineNumber": 106,
+        "lineNumber": 149,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 150,
         "author": {
           "gitId": "0blivious"
         },
         "content": ""
       },
       {
-        "lineNumber": 108,
+        "lineNumber": 151,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 152,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    public Iterator\u003cBook\u003e iterator() {"
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 153,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        return internalList.iterator();"
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 154,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 155,
         "author": {
           "gitId": "0blivious"
         },
         "content": ""
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 156,
         "author": {
           "gitId": "0blivious"
         },
         "content": ""
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 157,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 158,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    public boolean equals(Object other) {"
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 159,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 160,
         "author": {
           "gitId": "0blivious"
         },
         "content": "                || (other instanceof UniqueBookList // instanceof handles nulls"
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 161,
         "author": {
           "gitId": "0blivious"
         },
         "content": "                        \u0026\u0026 internalList.equals(((UniqueBookList) other).internalList));"
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 162,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 163,
         "author": {
           "gitId": "0blivious"
         },
         "content": ""
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 164,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 122,
+        "lineNumber": 165,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    public int hashCode() {"
       },
       {
-        "lineNumber": 123,
+        "lineNumber": 166,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        return internalList.hashCode();"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 167,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 125,
+        "lineNumber": 168,
         "author": {
           "gitId": "0blivious"
         },
         "content": ""
       },
       {
-        "lineNumber": 126,
+        "lineNumber": 169,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 127,
+        "lineNumber": 170,
         "author": {
           "gitId": "0blivious"
         },
         "content": "     * Returns true if {@code books} contains only unique books."
       },
       {
-        "lineNumber": 128,
+        "lineNumber": 171,
         "author": {
           "gitId": "0blivious"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 129,
+        "lineNumber": 172,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    private boolean booksAreUnique(List\u003cBook\u003e books) {"
       },
       {
-        "lineNumber": 130,
+        "lineNumber": 173,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        for (int i \u003d 0; i \u003c books.size() - 1; i++) {"
       },
       {
-        "lineNumber": 131,
+        "lineNumber": 174,
         "author": {
           "gitId": "0blivious"
         },
         "content": "            for (int j \u003d i + 1; j \u003c books.size(); j++) {"
       },
       {
-        "lineNumber": 132,
+        "lineNumber": 175,
         "author": {
           "gitId": "0blivious"
         },
         "content": "                if (books.get(i).isSameBook(books.get(j))) {"
       },
       {
-        "lineNumber": 133,
+        "lineNumber": 176,
         "author": {
           "gitId": "0blivious"
         },
         "content": "                    return false;"
       },
       {
-        "lineNumber": 134,
+        "lineNumber": 177,
         "author": {
           "gitId": "0blivious"
         },
         "content": "                }"
       },
       {
-        "lineNumber": 135,
+        "lineNumber": 178,
         "author": {
           "gitId": "0blivious"
         },
         "content": "            }"
       },
       {
-        "lineNumber": 136,
+        "lineNumber": 179,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 137,
+        "lineNumber": 180,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        return true;"
       },
       {
-        "lineNumber": 138,
+        "lineNumber": 181,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 139,
+        "lineNumber": 182,
         "author": {
           "gitId": "0blivious"
         },
@@ -31850,7 +33006,8 @@
       }
     ],
     "authorContributionMap": {
-      "0blivious": 139
+      "Jiangqinhua": 44,
+      "0blivious": 138
     }
   },
   {
@@ -47297,86 +48454,86 @@
       {
         "lineNumber": 254,
         "author": {
-          "gitId": "0blivious"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 255,
-        "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
         "content": ""
       },
       {
+        "lineNumber": 255,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        @Override"
+      },
+      {
         "lineNumber": 256,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": "    /**"
+        "content": "        public void sortBook(String type, String order) {"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": "     * A Model stub that contains a single book."
+        "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": "     */"
+        "content": "        }"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private class ModelStubWithBook extends ModelStub {"
+        "content": "    }"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        private final Book book;"
+        "content": ""
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        ModelStubWithBook(Book book) {"
+        "content": "     * A Model stub that contains a single book."
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            requireNonNull(book);"
+        "content": "     */"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            this.book \u003d book;"
+        "content": "    private class ModelStubWithBook extends ModelStub {"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "        private final Book book;"
       },
       {
         "lineNumber": 266,
@@ -47390,196 +48547,196 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        @Override"
+        "content": "        ModelStubWithBook(Book book) {"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        public boolean hasBook(Book book) {"
+        "content": "            requireNonNull(book);"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            requireNonNull(book);"
+        "content": "            this.book \u003d book;"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            return this.book.isSameBook(book);"
+        "content": "        }"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        @Override"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        public boolean hasBook(Book book) {"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": "            requireNonNull(book);"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * A Model stub that always accept the book being added."
+        "content": "            return this.book.isSameBook(book);"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "        }"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private class ModelStubAcceptingBookAdded extends ModelStub {"
+        "content": "    }"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        final ArrayList\u003cBook\u003e booksAdded \u003d new ArrayList\u003c\u003e();"
+        "content": ""
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        @Override"
+        "content": "     * A Model stub that always accept the book being added."
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        public boolean hasBook(Book book) {"
+        "content": "     */"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            requireNonNull(book);"
+        "content": "    private class ModelStubAcceptingBookAdded extends ModelStub {"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            return booksAdded.stream().anyMatch(book::isSameBook);"
+        "content": "        final ArrayList\u003cBook\u003e booksAdded \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        @Override"
+        "content": "        public boolean hasBook(Book book) {"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        public void addBook(Book book) {"
+        "content": "            requireNonNull(book);"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            requireNonNull(book);"
+        "content": "            return booksAdded.stream().anyMatch(book::isSameBook);"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            booksAdded.add(book);"
+        "content": "        }"
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        @Override"
+        "content": "        public void addBook(Book book) {"
       },
       {
         "lineNumber": 293,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        public void commitBookShelf() {"
+        "content": "            requireNonNull(book);"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            // called by {@code AddBookCommand#execute()}"
+        "content": "            booksAdded.add(book);"
       },
       {
         "lineNumber": 295,
@@ -47605,16 +48762,16 @@
       {
         "lineNumber": 298,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        public ReadOnlyBookShelf getBookShelf() {"
+        "content": "        public void commitBookShelf() {"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            return new BookShelf();"
+        "content": "            // called by {@code AddBookCommand#execute()}"
       },
       {
         "lineNumber": 300,
@@ -47628,10 +48785,45 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 302,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        @Override"
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        public ReadOnlyBookShelf getBookShelf() {"
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "            return new BookShelf();"
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 307,
         "author": {
           "gitId": "0blivious"
         },
@@ -47639,6 +48831,7 @@
       }
     ],
     "authorContributionMap": {
+      "Jiangqinhua": 5,
       "0blivious": 296,
       "-": 6
     }
@@ -49331,21 +50524,21 @@
       {
         "lineNumber": 191,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 192,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "        }"
       },
       {
         "lineNumber": 193,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
@@ -49765,86 +50958,86 @@
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 254,
-        "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
         "content": ""
       },
       {
+        "lineNumber": 254,
+        "author": {
+          "gitId": "Jiangqinhua"
+        },
+        "content": "        @Override"
+      },
+      {
         "lineNumber": 255,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "    /**"
+        "content": "        public void sortBook(String type, String order) {"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "     * A Model stub that contains a single person."
+        "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "     */"
+        "content": "        }"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "-"
         },
-        "content": "    private class ModelStubWithPerson extends ModelStub {"
+        "content": "    }"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
-        "content": "        private final Person person;"
+        "content": ""
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": "        ModelStubWithPerson(Person person) {"
+        "content": "     * A Model stub that contains a single person."
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "-"
         },
-        "content": "            requireNonNull(person);"
+        "content": "     */"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "-"
         },
-        "content": "            this.person \u003d person;"
+        "content": "    private class ModelStubWithPerson extends ModelStub {"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "        private final Person person;"
       },
       {
         "lineNumber": 265,
@@ -49858,196 +51051,196 @@
         "author": {
           "gitId": "-"
         },
-        "content": "        @Override"
+        "content": "        ModelStubWithPerson(Person person) {"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "-"
         },
-        "content": "        public boolean hasPerson(Person person) {"
+        "content": "            requireNonNull(person);"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "-"
         },
-        "content": "            requireNonNull(person);"
+        "content": "            this.person \u003d person;"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "-"
         },
-        "content": "            return this.person.isSamePerson(person);"
+        "content": "        }"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        @Override"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        public boolean hasPerson(Person person) {"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "            requireNonNull(person);"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "-"
         },
-        "content": "     * A Model stub that always accept the person being added."
+        "content": "            return this.person.isSamePerson(person);"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "        }"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "-"
         },
-        "content": "    private class ModelStubAcceptingPersonAdded extends ModelStub {"
+        "content": "    }"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "-"
         },
-        "content": "        final ArrayList\u003cPerson\u003e personsAdded \u003d new ArrayList\u003c\u003e();"
+        "content": ""
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "-"
         },
-        "content": "        @Override"
+        "content": "     * A Model stub that always accept the person being added."
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "-"
         },
-        "content": "        public boolean hasPerson(Person person) {"
+        "content": "     */"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "-"
         },
-        "content": "            requireNonNull(person);"
+        "content": "    private class ModelStubAcceptingPersonAdded extends ModelStub {"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "-"
         },
-        "content": "            return personsAdded.stream().anyMatch(person::isSamePerson);"
+        "content": "        final ArrayList\u003cPerson\u003e personsAdded \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "-"
         },
-        "content": "        @Override"
+        "content": "        public boolean hasPerson(Person person) {"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "-"
         },
-        "content": "        public void addPerson(Person person) {"
+        "content": "            requireNonNull(person);"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "-"
         },
-        "content": "            requireNonNull(person);"
+        "content": "            return personsAdded.stream().anyMatch(person::isSamePerson);"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "-"
         },
-        "content": "            personsAdded.add(person);"
+        "content": "        }"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "-"
         },
-        "content": "        @Override"
+        "content": "        public void addPerson(Person person) {"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "-"
         },
-        "content": "        public void commitBookShelf() {"
+        "content": "            requireNonNull(person);"
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "-"
         },
-        "content": "            // called by {@code AddCommand#execute()}"
+        "content": "            personsAdded.add(person);"
       },
       {
         "lineNumber": 294,
@@ -50073,16 +51266,16 @@
       {
         "lineNumber": 297,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        public ReadOnlyBookShelf getBookShelf() {"
+        "content": "        public void commitBookShelf() {"
       },
       {
         "lineNumber": 298,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "            return new BookShelf();"
+        "content": "            // called by {@code AddCommand#execute()}"
       },
       {
         "lineNumber": 299,
@@ -50096,17 +51289,52 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 302,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        public ReadOnlyBookShelf getBookShelf() {"
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "            return new BookShelf();"
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 307,
         "author": {
           "gitId": "-"
         },
@@ -50114,9 +51342,10 @@
       }
     ],
     "authorContributionMap": {
+      "Jiangqinhua": 5,
       "EleenYang": 6,
-      "-": 249,
-      "0blivious": 47
+      "-": 246,
+      "0blivious": 50
     }
   },
   {

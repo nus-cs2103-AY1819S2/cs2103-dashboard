@@ -41764,49 +41764,49 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        textField1 \u003d new TextField(\"Your nric\");"
+        "content": "        textField1 \u003d new TextField();"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        textField1.setOnAction(e -\u003e findAccount());"
+        "content": "        textField1.setPromptText(\"Your NRIC\");"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        textField2 \u003d new PasswordField();"
+        "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        textField2.setPromptText(\"Your password\");"
+        "content": "        textField1.setOnAction(e -\u003e findAccount());"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        textField2.setOnAction(e -\u003e findAccount());"
+        "content": "        textField2 \u003d new PasswordField();"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "        textField2.setPromptText(\"Your password\");"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        label \u003d new Label();"
+        "content": "        textField2.setOnAction(e -\u003e findAccount());"
       },
       {
         "lineNumber": 38,
@@ -41820,56 +41820,56 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        VBox layout \u003d new VBox();"
+        "content": "        label \u003d new Label();"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        layout.getChildren().addAll(textField1, textField2, label);"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "        VBox layout \u003d new VBox();"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        Scene scene \u003d new Scene(layout);"
+        "content": "        layout.getChildren().addAll(textField1, textField2, label);"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        window.setScene(scene);"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        window.showAndWait();"
+        "content": "        Scene scene \u003d new Scene(layout);"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "        window.setScene(scene);"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "        return userType;"
+        "content": "        window.showAndWait();"
       },
       {
         "lineNumber": 47,
@@ -41883,122 +41883,136 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "    }"
+        "content": "        return userType;"
       },
       {
         "lineNumber": 49,
-        "author": {
-          "gitId": "Valatheking"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "Valatheking"
-        },
-        "content": "     * Finds the account in the list of accounts and lets the user login."
-      },
-      {
-        "lineNumber": 51,
-        "author": {
-          "gitId": "Valatheking"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 52,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "    private void findAccount() {"
-      },
-      {
-        "lineNumber": 53,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "        if (textField1.getText().equals(\"General\") \u0026\u0026 textField2.getText().equals(\"General\")) {"
-      },
-      {
-        "lineNumber": 54,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "            userType \u003d UserType.GENERAL;"
-      },
-      {
-        "lineNumber": 55,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "            window.close();"
-      },
-      {
-        "lineNumber": 56,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "        } else if (textField1.getText().equals(\"Admin\") \u0026\u0026 textField2.getText().equals(\"Admin\")) {"
-      },
-      {
-        "lineNumber": 57,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "            userType \u003d UserType.ADMIN;"
-      },
-      {
-        "lineNumber": 58,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "            window.close();"
-      },
-      {
-        "lineNumber": 59,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 60,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "            label.setText(\"User not found!\");"
-      },
-      {
-        "lineNumber": 61,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 62,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 63,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": ""
       },
       {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "Valatheking"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Valatheking"
+        },
+        "content": "     * Finds the account in the list of accounts and lets the user login."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "Valatheking"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    private void findAccount() {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        if (textField1.getText().equals(\"General\") \u0026\u0026 textField2.getText().equals(\"General\")) {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            userType \u003d UserType.GENERAL;"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            window.close();"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        } else if (textField1.getText().equals(\"Admin\") \u0026\u0026 textField2.getText().equals(\"Admin\")) {"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            userType \u003d UserType.ADMIN;"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            window.close();"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        } else {"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            label.setText(\"User not found!\");"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        }"
+      },
+      {
         "lineNumber": 64,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "}"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 67,
         "author": {
           "gitId": "exactlyprecise"
         },
@@ -42007,7 +42021,7 @@
     ],
     "authorContributionMap": {
       "Valatheking": 9,
-      "exactlyprecise": 56
+      "exactlyprecise": 58
     }
   },
   {

@@ -277,6 +277,12 @@
         "deletions": 0,
         "date": "2019-03-25",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "daviddl9": [
@@ -542,6 +548,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -1268,6 +1280,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
         "commitResults": []
       }
     ],
@@ -2273,8 +2291,8 @@
         ]
       },
       {
-        "insertions": 578,
-        "deletions": 413,
+        "insertions": 600,
+        "deletions": 487,
         "date": "2019-03-24",
         "commitResults": [
           {
@@ -2342,14 +2360,82 @@
             "message": "Fixed tests involving list command in test suite.",
             "insertions": 10,
             "deletions": 6
+          },
+          {
+            "hash": "b856f658212d04682e22a53ff26ad867e1d7e5ae",
+            "message": "Modified SelectCommand to select requests instead of Person at the specific Index.",
+            "insertions": 22,
+            "deletions": 74
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 689,
+        "deletions": 410,
         "date": "2019-03-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "bf96733a659ef21e3936c1e6d5cc1280858da8b5",
+            "message": "Added containsAll method in Skills class to check for containing subset of skills",
+            "insertions": 356,
+            "deletions": 234
+          },
+          {
+            "hash": "c25b4f86e08a679b6882674bcb5769ecfa6f7065",
+            "message": "Added FilterHealthWorkerCommand and FilterHealthWorkerCommandTest. Also added functionality to parse multiple predicates for filtering health worker.",
+            "insertions": 151,
+            "deletions": 63
+          },
+          {
+            "hash": "be1856974760c111c0fa07e37ce7db43c0bc80cf",
+            "message": "Added functionality for FilterCommandParser. Added FilterCommandParserTest.",
+            "insertions": 146,
+            "deletions": 77
+          },
+          {
+            "hash": "cf7608132dccf504cb45d19b952c04873efc4092",
+            "message": "Fixed bugs in test suite.",
+            "insertions": 19,
+            "deletions": 18
+          },
+          {
+            "hash": "676cd7dddfced95d44de1facd026d8eaba304dc2",
+            "message": "Fixed checkstyle errors in FilterCommandParser.",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "260e4d1b6069cc6568115a043dfa37aedb89f5a3",
+            "message": "Fixed bug in test suite.",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "f84a43c2d95d8d70012ddc9fbb8473096155f1c0",
+            "message": "Fixed checkstyle errors in LogicManagerTest",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 51,
+        "deletions": 5,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "644c52e79921f66646873984d7c934be1bdf4c35",
+            "message": "Fixed preamble bug in FilterCommandParser.",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "c7709871e08500383604663b3f4302c90983cbac",
+            "message": "Updated the Developer Guide to include `list` and `filter` commands.",
+            "insertions": 44,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "huichun66": [
@@ -3068,22 +3154,28 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
     "brohandev": 7,
     "daviddl9": 0,
-    "jing1324": 2196,
-    "Lookuz": 4815,
-    "huichun66": 1154
+    "jing1324": 2190,
+    "Lookuz": 5442,
+    "huichun66": 1147
   },
   "authorContributionVariance": {
-    "brohandev": 4.3533077,
+    "brohandev": 4.2587624,
     "daviddl9": 0.0,
-    "jing1324": 328997.62,
-    "Lookuz": 471842.0,
-    "huichun66": 38883.055
+    "jing1324": 322789.22,
+    "Lookuz": 475378.8,
+    "huichun66": 38185.7
   },
   "authorDisplayNameMap": {
     "brohandev": "ROH...DEV",
