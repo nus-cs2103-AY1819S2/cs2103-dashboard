@@ -219,22 +219,49 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 88,
+        "deletions": 66,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0c729e7bbdbdfefcd059e676a61e30ee31acca00",
+            "message": "Edit UserGuide for Chapter 1, 3.10 to 3.19 and 5",
+            "insertions": 88,
+            "deletions": 66
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 120,
+        "deletions": 26,
         "date": "2019-03-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "79a0cedf5bc90fefd0b9aa1a535ac16f2c850488",
+            "message": "Change App Icon and Title in MainWindow",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "77667f820498d05911f1c61e05ca143faf009abf",
+            "message": "Add Field Names to PlaceListCards of each Place",
+            "insertions": 115,
+            "deletions": 21
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 34,
+        "deletions": 62,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c15a396bf5da9184eee4503a0688f8c2d5592ff1",
+            "message": "Updated UI Component details for DG",
+            "insertions": 34,
+            "deletions": 62
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -271,6 +298,137 @@
         "deletions": 0,
         "date": "2019-03-25",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 292,
+        "deletions": 35,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "f7898ef86c438e74d43b54a619abd0844d606abb",
+            "message": "Add SimpleBooleanProperty in Logic and Model for displaying Generate command",
+            "insertions": 292,
+            "deletions": 35
+          }
+        ]
+      },
+      {
+        "insertions": 151,
+        "deletions": 48,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "a5a7ad3ac4ea229e3463f55765c209142508e3f1",
+            "message": "Change Generate command so it displays chart on execution",
+            "insertions": 136,
+            "deletions": 16
+          },
+          {
+            "hash": "5cacf44a924edc250b6efe6930b4186eb9cb9cf3",
+            "message": "Add ExtendedPlacePanel to RightParentPanel",
+            "insertions": 14,
+            "deletions": 32
+          },
+          {
+            "hash": "98fefe7e2568da0264b57c4f4fabfa56263a52c4",
+            "message": "Try a different method of updating nodes in VBox",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 16,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "ea5dc6c1636749c9bf9c0864c06cf4fd085d7f4f",
+            "message": "Correct style violations",
+            "insertions": 5,
+            "deletions": 16
+          }
+        ]
+      },
+      {
+        "insertions": 153,
+        "deletions": 114,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "ac864d5d800b96cf82641e5b04cdb1f2b0e50cad",
+            "message": "[Not passing System tests] Added Pane-switching betwteen DisplayListPanel and ExpandedPlacePanel",
+            "insertions": 149,
+            "deletions": 110
+          },
+          {
+            "hash": "d8016e59a243c75533878579ed977b6654d5c7a8",
+            "message": "Fix BufferOverflow Exception for all Systemtests",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 161,
+        "deletions": 159,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "5dd4e95e20652afed0f51de86cd70d231308d73e",
+            "message": "Updated DG/UI Component for v1.4",
+            "insertions": 16,
+            "deletions": 13
+          },
+          {
+            "hash": "c55bfc1703ad6155791ec36246f2ccc68b6cdc26",
+            "message": "Updated DG diagrams and added intro for overall DG, and sections 1 and 2",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "d2ea8346df1030acea649c2d5000b93d47b03b65",
+            "message": "Updated all instances of \"address book\" to \"TravelBuddy\", changes to Section 3.1.1",
+            "insertions": 37,
+            "deletions": 34
+          },
+          {
+            "hash": "520f42bca53ab69421db0e0baff6358e6479dc80",
+            "message": "Add details to Section 3.1.1",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "010b16b740e007536f4c83f09706a9c45d0186b3",
+            "message": "Fix tag Flowplane overflow and Place Card misalignment issue",
+            "insertions": 90,
+            "deletions": 94
+          },
+          {
+            "hash": "4e14e5345322469cefc5f2b9b313bed687ba68a6",
+            "message": "Correct minor errors to DG",
+            "insertions": 8,
+            "deletions": 18
+          }
+        ]
       }
     ],
     "chung-ming": [
@@ -777,6 +935,100 @@
         "deletions": 0,
         "date": "2019-03-25",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 514,
+        "deletions": 58,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "71b3b686e041eb5ad811cd8ce9927701200782f0",
+            "message": "Modify UI",
+            "insertions": 510,
+            "deletions": 54
+          },
+          {
+            "hash": "a2ff4129d55a8bdb57d2fe49ee881dadc3a86825",
+            "message": "Modify test errors",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 559,
+        "deletions": 62,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "4172a29646edfbb179d480d6c247b69bcdfd89e1",
+            "message": "Modify chart feature",
+            "insertions": 209,
+            "deletions": 40
+          },
+          {
+            "hash": "d851f6fa0de091c9b7884587818262672f90f685",
+            "message": "Modify UI. Duplicate PlaceListPanel.",
+            "insertions": 340,
+            "deletions": 9
+          },
+          {
+            "hash": "c78c0ab967824e110a66318326edb68554f74b74",
+            "message": "Modify UI",
+            "insertions": 10,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 305,
+        "deletions": 378,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "c7f26e30e84a9c7b14e9245ad1764e7ccc7db748",
+            "message": "Modify UI for Chart feature",
+            "insertions": 305,
+            "deletions": 378
+          }
+        ]
+      },
+      {
+        "insertions": 245,
+        "deletions": 107,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "aa84777c1ad903ca2cfeac649e5697fd2a453ce2",
+            "message": "Add Rating and Year Charts",
+            "insertions": 245,
+            "deletions": 107
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "PremBagda": [
@@ -835,10 +1087,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 137,
+        "deletions": 11,
         "date": "2019-02-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b8c0b7969c2716fac1b569a29e096aac21936248",
+            "message": "Update AboutUs.adoc",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "9347d57c9ee45a56bf6c60917bde4328bea85cb3",
+            "message": "Fix coding standard issues.",
+            "insertions": 132,
+            "deletions": 5
+          },
+          {
+            "hash": "6b2c8b1df21c779f75b677384ec576cf7b7e5b81",
+            "message": "DarkTheme: Add newline at EOF",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -883,10 +1154,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2063,
+        "deletions": 2062,
         "date": "2019-02-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "436363babbf8fd7458afb5957bae481f4656fa58",
+            "message": "Convert Person object to Place object",
+            "insertions": 2062,
+            "deletions": 2061
+          },
+          {
+            "hash": "321252e602dcda053058d32e1d8627cf77aa58e9",
+            "message": "Update lexicographical order of imports",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -961,10 +1245,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 163,
+        "deletions": 112,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ad91d14e550621bfdac072aa2470854a150bd365",
+            "message": "Updated Diagrams and Developer guide based on v1.1 updated objects.",
+            "insertions": 163,
+            "deletions": 112
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -991,22 +1282,43 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 551,
+        "deletions": 92,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fd342cab5e854abeaf1c6901a7ba05a7872f44be",
+            "message": "Add Country Code",
+            "insertions": 551,
+            "deletions": 92
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 17,
+        "deletions": 33,
         "date": "2019-03-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "50295740590e2d2aa5a55c12dd494892d6c58f4a",
+            "message": "Update UserGuide from 3.1 to 3.9",
+            "insertions": 17,
+            "deletions": 33
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 82,
+        "deletions": 26,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "67f938a8ba8d7f400f9de52c5cd9b37e7ff68ab7",
+            "message": "Update Diagrams, UG \u0026 DG to match features in V1.2",
+            "insertions": 82,
+            "deletions": 26
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1033,15 +1345,159 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 648,
+        "deletions": 183,
         "date": "2019-03-24",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b23e0ba24bbd98e67f934bef38a3b1e9fd894fa6",
+            "message": "Add Date Visited",
+            "insertions": 633,
+            "deletions": 168
+          },
+          {
+            "hash": "10db9a944437fb64976e906db101c5008ebe93fa",
+            "message": "Fix bug on typicalPlacesTravelBuddy",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "3c02688c450cbda89d641b1837f217e8d742afc0",
+            "message": "Remove commented code related to google import statements.",
+            "insertions": 7,
+            "deletions": 7
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 30,
+        "deletions": 28,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "3e5a6acd14cabf3bed42be1f0afc7432b3ec9bcb",
+            "message": "Update UG \u0026 DG and re-alignment of PlaceCard",
+            "insertions": 30,
+            "deletions": 28
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "770204a981a06165c9b69e4fe9f421d2132aea78",
+            "message": "Update Java version in PlaceListCard from 8 to 11",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 38,
+        "deletions": 12,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "aae38bc02a5a673c82e5cc320fcd34485a534757",
+            "message": "Add _reposense/config.json for correct RepoSense Data",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "0cac0dfebdefcb71ecf413d58a49ca0c972bda83",
+            "message": "Fix #2 RepoSense",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3804f0c7c47ec74c004cabd47a386bd6920f7cf9",
+            "message": "Fix #2 RepoSense",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "83fb82792a55c62077d77ab379a1c789a69c622b",
+            "message": "RepoSense Fix#2",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f478aff0885be14c212212b61cf12cef3586ec87",
+            "message": "Update RepoSense config to display accurate info for all.",
+            "insertions": 8,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 51,
+        "deletions": 386,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "9c9df086273e06510f228e83c0677eba4ae18b13",
+            "message": "Update DG to CS2101 \u0026 CS2103T standard",
+            "insertions": 49,
+            "deletions": 384
+          },
+          {
+            "hash": "4141fa6e3300ef841f7ca92998e1db99db322aa5",
+            "message": "Update Name of image to prevent merge conflict",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fba6d8832197f72a9b5a222cc914bf844a5c1bf1",
+            "message": "Attempt #3 fix image conflict issue.",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 3,
+        "deletions": 4,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "6bfe94e5a32827395a41861bd9cd69d49adc3c16",
+            "message": "Fix broken image links in DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "05a43507d102955cbc51214b5b35f7b368a93f27",
+            "message": "Minor documentation update",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -1457,7 +1913,7 @@
       },
       {
         "insertions": 553,
-        "deletions": 28,
+        "deletions": 30,
         "date": "2019-03-24",
         "commitResults": [
           {
@@ -1471,6 +1927,12 @@
             "message": "Add test for SearchCountryCommandParser and SearchRatingCommandParser to improve coverage",
             "insertions": 14,
             "deletions": 0
+          },
+          {
+            "hash": "8366d145444bc53ece40a0a6d9312dd8671f050f",
+            "message": "Update TypicalPlaces.java",
+            "insertions": 0,
+            "deletions": 2
           }
         ]
       },
@@ -1534,25 +1996,111 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 160,
+        "deletions": 110,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "7bc7d0cfdea10e749a5e090a340eb151eba5a404",
+            "message": "Update UserGuide with Commands cheatsheet Update DeveloperGuide search feature and UI graphics Update PPP for nivenang Update README Update CountryCode MESSAGE_CONSTRAINTS",
+            "insertions": 157,
+            "deletions": 108
+          },
+          {
+            "hash": "bb6d6f219b25f947eeac5d3cbc1b9ffb11576afa",
+            "message": "Fix checkstyle errors",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6954bd91a74b3afab381bdf0196266bf0fc9e63c",
+            "message": "Update search command shortcut in UserGuide",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "630c27cf50f0078785279e100c5bd67cddae3363",
+            "message": "Fix StringUtil bugs",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 268,
+        "deletions": 268,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "d68102328207045ffee7098e2bcbce0a73dc6ebf",
+            "message": "Revert \"Update documentation for UserGuide, DeveloperGuide, README\"",
+            "insertions": 109,
+            "deletions": 159
+          },
+          {
+            "hash": "e1764351ed05fb9c3d2027c8826d52c60ebd78f0",
+            "message": "Update UserGuide with Commands cheatsheet Update DeveloperGuide search feature and UI graphics Update PPP for nivenang Update README Update CountryCode MESSAGE_CONSTRAINTS",
+            "insertions": 159,
+            "deletions": 109
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "shaungohsc": 2,
-    "chung-ming": 3761,
-    "PremBagda": 0,
-    "nivenang": 3638
+    "shaungohsc": 678,
+    "chung-ming": 4695,
+    "PremBagda": 2672,
+    "nivenang": 3724
   },
   "authorContributionVariance": {
-    "shaungohsc": 7.1962843,
-    "chung-ming": 783114.75,
-    "PremBagda": 0.0,
-    "nivenang": 79103.266
+    "shaungohsc": 6329.794,
+    "chung-ming": 676864.94,
+    "PremBagda": 337618.3,
+    "nivenang": 72446.3
   },
   "authorDisplayNameMap": {
-    "shaungohsc": "GOH...AUN",
-    "chung-ming": "ARI...ING",
-    "PremBagda": "PRE...ALA",
-    "nivenang": "NIV...HAO"
+    "shaungohsc": "Goh Shau Cher Shaun",
+    "chung-ming": "Arielyte Tsen Chung Ming",
+    "PremBagda": "Prem Rajeshkumar Bagdawala",
+    "nivenang": "Niven Ang Jia Hao"
   }
 }

@@ -737,6 +737,901 @@
         "deletions": 0,
         "date": "2019-03-25",
         "commitResults": []
+      },
+      {
+        "insertions": 238,
+        "deletions": 22,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "9d09525e1cc1f7026f571412fa731bf8587bc07c",
+            "message": "Impletemented containsStringIgnoreCase within StringUtil",
+            "insertions": 25,
+            "deletions": 1
+          },
+          {
+            "hash": "79e018de94a198be079f4ec4e2420d5e5bcce173",
+            "message": "Added new isIgnoreCase, isAnd flags for all predicates",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "170865f19d4013f543b348244b89f56f7161ee51",
+            "message": "added find flags to FindCommandParser",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "8f7335a5b4a126892528dd4015795005c9349d88",
+            "message": "Added caseSensitive variants of containsString \u0026 containsWord",
+            "insertions": 50,
+            "deletions": 0
+          },
+          {
+            "hash": "b042eb7fa491d22c3092d430c8f3cda53568cf0a",
+            "message": "Updated test based on predicate flag for NameContainsKeywarodsPredicate",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "7f6265afc0aa9b9d4ef8958f9508ddedf5781db8",
+            "message": "Updated test for AddressContainsKeywarodsPredicate",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "97bc8f40922cee8c2ac6fa25800dbea3222c52ed",
+            "message": "Updated test for EmailContainsKeywordsPredicate, now searches via substrings",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "047a236221569c56f07b75882bd2f86af781c3aa",
+            "message": "Updated test for PhoneContainsKeywarodsPredicate",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "4f4993efcde71703767ee5bdd43bcc0071269ce9",
+            "message": "Updated test for NricContainsKeywordsPredicate, now searches via substrings",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "8bf4a3d97f912757bd0d768d93bd61a065948d61",
+            "message": "Updated test for DateofBirthContainsKeywarodsPredicate",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "8eec7fb5ab61519d072b3599bb7884c7716a8288",
+            "message": "Implemented case sensitivity, AND for single parameter search",
+            "insertions": 9,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 66,
+        "deletions": 51,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "e0b428b5220b348e4aac36da8dffe52ed92e44a0",
+            "message": "Added new patient prefixes",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "27c33bcb34378ae4a2b1ed95de7af7e715a0545c",
+            "message": "Updated Person Sex attribute",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "eae8fe97c94096fa7c31051ce73e7759e7998e7a",
+            "message": "Moved Sex from patient to person",
+            "insertions": 0,
+            "deletions": 40
+          },
+          {
+            "hash": "cbc2df75fe2dae60d10a95acf29d05fcd91abec5",
+            "message": "Moved DrugAllergy from Person to Patient",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "6e1e816239e9d207fce6d2927c9302f2b4a96ee6",
+            "message": "Minor updates",
+            "insertions": 1,
+            "deletions": 6
+          },
+          {
+            "hash": "cf4082e6cb63d4286cf1fdcb5f93f054db01908d",
+            "message": "Added new NextOfKinRelation attribute",
+            "insertions": 49,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 178,
+        "deletions": 75,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "0b3d1353a6510b31db09f9653973b1bcc4e7e05c",
+            "message": "Moved nextofkinrelation to it\u0027s own nextofkin package",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b1d24e71264b35bd5cd585b35def0d1556b8a283",
+            "message": "Created MultipleContainsKeywordsPredicate",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "ad792fd1f6c926b1f0cc5fe06fdd20ef3a4dea94",
+            "message": "updated NamePredicate to use patient isntead of person",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "eb1804c3fb30e9d37917ec583aa927b840477a75",
+            "message": "Using MultipleContainsKeywordsPredicate within parser now.",
+            "insertions": 11,
+            "deletions": 4
+          },
+          {
+            "hash": "7a8ea918c31fbbb3b5a085711830149cc52e8cee",
+            "message": "allows AND for multipleContainsKeywordsPredicate",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "ee7b142e1fa83b147cbe5d430d1865cfc3af15cc",
+            "message": "Fixes functionality",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "62b1f6eac2af76290c93e51cc76ec7a1a4ae1258",
+            "message": "Fixed logic",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ef5c624f1b630f9548b4d138e66b5ffe7db0a7c5",
+            "message": "Added Predicate to abstract ContainsKeywordsPredicate for grater control",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "47dc2311e0cda5048db0d6ce2534426707dd55ff",
+            "message": "UPdate FindCommandTests with new flags",
+            "insertions": 26,
+            "deletions": 22
+          },
+          {
+            "hash": "f736d162639c146576fcb4ebc94efa432542bbe8",
+            "message": "Updated single parameter checks for FindCommand Test to test all flag variations",
+            "insertions": 87,
+            "deletions": 41
+          }
+        ]
+      },
+      {
+        "insertions": 523,
+        "deletions": 47,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "e055097d4a6a02f1bec972d055f0e895bccf88dc",
+            "message": "Tests for multiple parameters",
+            "insertions": 57,
+            "deletions": 0
+          },
+          {
+            "hash": "6d6612021de4e3b264db9352b73f387ed2d0a888",
+            "message": "Updated ParserTests with new expected behavior",
+            "insertions": 69,
+            "deletions": 15
+          },
+          {
+            "hash": "2dfbfb079558f2bbd225d2f131a5ef6edb173af0",
+            "message": "Checkstyle updates",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "5104590466f4e7b8e99b2a2c04f8a32460dc288d",
+            "message": "Updates",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "f302631a55fedba70134a0035a2fac3e1b709f96",
+            "message": "Created new NextOfKinPerson",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "a850b194a1482dd7a7fab8bcc26a7d1ae9feeb38",
+            "message": "Updated NextOfKin",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "7795ddfeeab3b2ff1088443045c9a1b128b3ecd1",
+            "message": "Updated AddCommandParser with NextOfKin Fields",
+            "insertions": 34,
+            "deletions": 2
+          },
+          {
+            "hash": "bd1a819362bb2021b22a40e5dc463b088a81554e",
+            "message": "Updated Patient with nextOfKin",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "794801be106d8feca27d0ff8c1b86ceea1507fcc",
+            "message": "Updated EditCommand with NextOfKin Fields",
+            "insertions": 57,
+            "deletions": 1
+          },
+          {
+            "hash": "2c4226ad28cd137d60a41568d49ea936e52b217e",
+            "message": "Updated AddCommandParser with next of kin",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "9c841ce7d5a7ca4d0181da4cb08e98def61e7aa9",
+            "message": "Updated edit for same functionality",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "d039f3a018ccd7c1a4f6923ea2e89790c25bd295",
+            "message": "Checkstyle update",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d0cc5618bf0457431ae96347c238e395e9cdfba2",
+            "message": "Added Next Of Kin to Edit command parser",
+            "insertions": 31,
+            "deletions": 1
+          },
+          {
+            "hash": "a523b2000ed2467c465ca909d3ee4d848d1ff77b",
+            "message": "allow same address for addCommandParser",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "09246fea8a4eedcd2f0728934b19c8c1afd1f3ff",
+            "message": "Updated sample data with next of kin info",
+            "insertions": 24,
+            "deletions": 6
+          },
+          {
+            "hash": "c2e6ee69c08049a996ecfaf3d00a2fff25816828",
+            "message": "checkStyle update",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "ac7c97da5a336ada373221e06bfbfb9dc02fea81",
+            "message": "Implemented JsonAdaptedNextOfKin",
+            "insertions": 103,
+            "deletions": 0
+          },
+          {
+            "hash": "5356ae5670f7b466b0b9b6e7901dc974488917b7",
+            "message": "updated jsonAdaptedPerson to include next of kin",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "4940d0332a960fc3320639e74d75ac39b15a4d3e",
+            "message": "Add exceptions to validity tests for Phone and Address",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "63b06a8e1d6c02bc3b15a15963f18395ed81eadf",
+            "message": "fixed misassigned parameter in JsonAdaptedNextOfKin",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ffa0f85abaf9772c759f42f588931dc49f98321c",
+            "message": "Created empty InstanceTime.java under DateTime package",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "af32ea34d917f2b9f84eae50c3966a6a6958daf5",
+            "message": "Implemented InstanceTime",
+            "insertions": 34,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 679,
+        "deletions": 83,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "a4c2cc1a49389f366cc570f22d03b8bbc556e63c",
+            "message": "Fix bug in dateBase",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cefb7c39319b0469196bde4a3a68e67f45c05235",
+            "message": "Updated isAnyFieldEdiited Function",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "136549eb255e7cc02466422404f6a7ab84a00fa9",
+            "message": "Udpated Patient toString with next of Kin details",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "f280ca5e7bf51b15e0fb5163dab7bd337d2cd41e",
+            "message": "Updated Patient with description and drugAllergy fields",
+            "insertions": 25,
+            "deletions": 3
+          },
+          {
+            "hash": "bd025a253dd6258ef2f9f40dd2cf4c8587b15705",
+            "message": "Added parseDrugAllergy to parserUtil",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "d116f58c84c1c43e4ab755067b954a31ee3b3eb9",
+            "message": "added drug allergy \u0026 description fields for AddCommandParser",
+            "insertions": 15,
+            "deletions": 3
+          },
+          {
+            "hash": "2de37a07f4e2d47a04d4da2d76c2c016b76c4d9a",
+            "message": "Updated EditCommandParser with description and drugAllergy Fields",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "5a21a89a643e14e7ed9e31d982e69e10b695ff5b",
+            "message": "Updated EditCommandDescriptor with description and drug allergy",
+            "insertions": 22,
+            "deletions": 2
+          },
+          {
+            "hash": "5b770682de256c80dd018c06a4db51882965b194",
+            "message": "Updated EditCommand with new description \u0026 drug allergy fields",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "1031f99b3a47ee21460a44d8305c63f622980a4e",
+            "message": "Updated JsonAdaptedPerson with desciption \u0026 drugAllergy",
+            "insertions": 31,
+            "deletions": 2
+          },
+          {
+            "hash": "12394db710042b43fe7bf974255a27911bfe864d",
+            "message": "Updated SampleDataUtil",
+            "insertions": 18,
+            "deletions": 12
+          },
+          {
+            "hash": "8f932d3f702f721b34e2b02b30f7bb302e694441",
+            "message": "Added NextOfKinBuild class within PersonBuilder",
+            "insertions": 70,
+            "deletions": 4
+          },
+          {
+            "hash": "836fc19ef0f669cbc7a5a21037731a066d79adf9",
+            "message": "Updated PersonBuild with NextOfKin, DrugAllergy, Description fields",
+            "insertions": 39,
+            "deletions": 2
+          },
+          {
+            "hash": "db24835f1d5a89207f34b9db6f7e34f1d8b2c819",
+            "message": "Set NextOfKinBuilder as static class",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5c93dacb44e1fc01b8af6917b2d737c7dd6545e1",
+            "message": "Updated TypicalPersons with DrugAllergy, Description, and nextOfKin fields",
+            "insertions": 37,
+            "deletions": 9
+          },
+          {
+            "hash": "7a4e79e69d9a6bf40248b15249454c001df937dd",
+            "message": "Updated JsonAdaptedPersonTest to work with new fields",
+            "insertions": 22,
+            "deletions": 8
+          },
+          {
+            "hash": "ca6ab55f03f55a5293ad948468b2c2e96858fc56",
+            "message": "updated Patient contructor to include new attributes (drug allergy, description, next of kin)",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "808edd52bc4f503ffb1d7ce87e1335053b329bda",
+            "message": "Includes tests for Description, Drug Allergy, Sex, Date Of Birth, NRIC",
+            "insertions": 105,
+            "deletions": 0
+          },
+          {
+            "hash": "de743cd5a3c14cf3fcf41851b37e9ffb02163038",
+            "message": "Fixed minor bug in getRawFormat",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "92636ac9f0f8db687e3db62c185bd5f8feae7358",
+            "message": "Added nextOfKin parameter tests to JsonAdaptedPersonTest",
+            "insertions": 107,
+            "deletions": 0
+          },
+          {
+            "hash": "7dff122bfd346560cff7fd5f07695047d30c433f",
+            "message": "updated typicalPersonsAddressBook.json",
+            "insertions": 81,
+            "deletions": 10
+          },
+          {
+            "hash": "9bd2a3d8080706b07edf61f8610b32eced58bf74",
+            "message": "updated duplicatelPersonsAddressBook.json",
+            "insertions": 34,
+            "deletions": 12
+          },
+          {
+            "hash": "5d335835d776accaefecb1713eac14a4dcc60f34",
+            "message": "Save json from typicalPersons",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "d746f940d28e7ff38293500831e116ad1a1d8220",
+            "message": "removed save json from typical persons code",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "5a1e08ef12543254a647f84c74d4326f7a124fbb",
+            "message": "Checkstyle update",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4c075e2675f17915015c3af3cca76d1fe36bbd96",
+            "message": "Updated Patient for copy",
+            "insertions": 8,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 1015,
+        "deletions": 161,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "16a3c1b56f2fe79dafa088930931ea69eea394e7",
+            "message": "removed debug text",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "4e2583f82b09a497180108b339cbc00e76a6eb7d",
+            "message": "updated jsonSerializableAddressBook to use filtered list size",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fdf57c4cc6048e3b7c1126ba245bb493603e3500",
+            "message": "Created a copy of existing sortCommand as SortPatientCommand",
+            "insertions": 63,
+            "deletions": 0
+          },
+          {
+            "hash": "4092d78967265e23e2bb5f20a9fc80d6457685de",
+            "message": "Turned SortCommand into a abstract class with generics",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "5ca4037a95da0d0411a19fae7ca48660053a91cf",
+            "message": "SOrtCommand\u0027s variables are now protected",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "dd2cbacb5629a593c3bab08d976858bbb79919b9",
+            "message": "SortPatientCommand now extends SortCommand",
+            "insertions": 2,
+            "deletions": 20
+          },
+          {
+            "hash": "75b66ab55bf82706e99def35990e84a285b2c4ae",
+            "message": "Updated AddressBookParser to allow SortCommand to work in all current modes except calendar",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "d1dc0e2cda98cb4497541d2812ab42a075ba662e",
+            "message": "Implemented context switching between patient mode and goto mode within SortCommand",
+            "insertions": 30,
+            "deletions": 13
+          },
+          {
+            "hash": "4d4aee46f3c2eacb0d1b39de0cf329868aebddaa",
+            "message": "Created empty file for SortRecordCommand that extends SortCommand",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "e8cda9bfb30100239bde2c1305efff59994aa20d",
+            "message": "Created basic functions for SortRecordCommand",
+            "insertions": 28,
+            "deletions": 4
+          },
+          {
+            "hash": "be3ba2a9162e6ab048e2cb3aa87bf26360b4ebca",
+            "message": "Added reference to sortRecordsBook within Model Interface",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "d06d95e5f20ec03fc4268acdbc409e4c7fea6ae0",
+            "message": "Added sortInternalList function to UniqueRecordList",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "e638867bae73f6d1cdd1c6204895e3cdb66e49e7",
+            "message": "updated record sorting in reverse order",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "38671f6ed5974509c52181dad9c760da01b7e1c5",
+            "message": "AddressBook is now able to call sortRecord function",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "72e05f77923a53bd34629e310b4b2c0f52f9fdc5",
+            "message": "ModelManager can now call sortRecordsBook function",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "847a8a64915307be2503b8c8c4b06e350e3bde01",
+            "message": "Updated Model Interface with reference to updateFilteredRecordList function",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "3a3abfcc74364c2ab1d6ac2a5fa52afb532facc8",
+            "message": "Implemented updateFilteredRecordList within ModelManager",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "b77edb9e574f959b013f3738fde0a3ae766c6b13",
+            "message": "Updated an always true predicate for record within model interface",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "8525b052c242ca0489e58786128e492c09a83354",
+            "message": "Impletemented execute logic for SortRecordCommand",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "8967e8f0fc242bc1a747f5e7799cd63ea0a7e039",
+            "message": "added skeleton code for RecordComparator",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "e79f9077134de7bed5180b2c75be4d57fade6ed6",
+            "message": "Added recordComparator based on record date",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "b5c0a014cd585be0488c2637a855115b4a75af25",
+            "message": "Added recordComparator based on record description",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "f0d075c35fc243c931d8eaae9ca43733c82848ae",
+            "message": "Skeleton to sort by sex, drug, description, \u0026 NextOfKin attributes",
+            "insertions": 22,
+            "deletions": 2
+          },
+          {
+            "hash": "d41f7f13cf448f4c3de4608cb6a569f7def32e0b",
+            "message": "Added patient comparator based on sex",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "b182903eacc256bf4ac2c9cf9321883c5a8916fb",
+            "message": "Added patient comparator based on drug allergy",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "7223647b26b1fbc718526413292adb6c8c5135f2",
+            "message": "Added patient comparator based on description",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "94a5ef5292ced89f6ce957192b8bd5114767de27",
+            "message": "Added patient comparator based on nextOfKin\u0027s attributes",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "66dc2bfb0e53e275360c0cba715f01f73ec852a5",
+            "message": "Implements sort records functionality",
+            "insertions": 28,
+            "deletions": 38
+          },
+          {
+            "hash": "b0a40b556132c24c0b870d173034cf751c8513a4",
+            "message": "Minor change",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "e0d9d9f614f19f6e504f9ce1efe51708fba87016",
+            "message": "Updated AddCommandTest with new tests for the new functions",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "31005e92ae4c2793ceaf9ca1b330ca173f8ae652",
+            "message": "Updated existing SortTests",
+            "insertions": 20,
+            "deletions": 18
+          },
+          {
+            "hash": "15c49baa8506988255edb028f4355ac6f7071c22",
+            "message": "Updated existing DateofBirth Sort tests",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "39d3f238bdf86775063330b68f044fdb1d0a808b",
+            "message": "CheckstyleUpdate",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "4591a6d3090aa9c2e303168458ea36f6af8c3a5d",
+            "message": "CheckStyle updates",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "5e26a88bc9c05771d1743c00fb5c7628d988bd82",
+            "message": "Updated SortCommandTests with new patient attributes",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "6275400666b8549415decb1f51264adf7160b8b2",
+            "message": "Updated program name",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "9842f4a4065e72d0d87a8151db2801457db9c9a0",
+            "message": "Created blank ContainsKeywordsPredicate for Description,Sex, DrugAllergy",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "c5082d20afcaf9941ab38cd1ff57e6359e165e74",
+            "message": "Implemented functionality for SexContainsKeywordsPredicate",
+            "insertions": 42,
+            "deletions": 1
+          },
+          {
+            "hash": "a89941dd96d0f52e870db1ccd222847e9b1c69c4",
+            "message": "Set javadoc comment",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "2c7611cfa568f9def027809d3ceaccbfb4a8c5c7",
+            "message": "Implemented fuctionality for DrugAllergyContainsKeywordsPredicate",
+            "insertions": 46,
+            "deletions": 1
+          },
+          {
+            "hash": "e92d7dca270452b4cced699f2bd69e0448704364",
+            "message": "Implemented fuctionality for DescriptionContainsKeywordsPredicate",
+            "insertions": 46,
+            "deletions": 1
+          },
+          {
+            "hash": "406e0403e159350db26eeec1d9e1e07653dacad5",
+            "message": "Linked new predicate options to FindCommandParser",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "bd05295da58d89d3a59043ffd21560665121bb95",
+            "message": "Updated FindCommandParser to detect new attribute prefixes",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "cfa7dfbf3e3d2687a39714be71f9eb185d2ab9f6",
+            "message": "Fixed missing link",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "4f181528c06cab81ad1f4805541d540c5cf01695",
+            "message": "Added empty ContainsKeywordsPredicates classes for NextOfKin Attributes",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "79cd56f98ee2f37b1ab60dd68fd472978609d784",
+            "message": "Renamed files",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "1643d81eb76c17faf8a24d8b313e0300adb8558a",
+            "message": "Implemented KinNameContainsKeywordsPredicate",
+            "insertions": 47,
+            "deletions": 1
+          },
+          {
+            "hash": "30e19cd318fc6562900953d3d4d0f32c6100048f",
+            "message": "Changed phone predicate to search as substrings instead of whole words",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "43b82b9473fff86b3f127f874eeecd47f09bf3a1",
+            "message": "Implemented KinAddressContainsKeywordsPredicate",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "17e547441a4533fb700505fd401587a2061a575a",
+            "message": "Implemented KinRelationContainsKeywordsPredicate",
+            "insertions": 48,
+            "deletions": 1
+          },
+          {
+            "hash": "0cbfa748c2d4f94422a149abaa43d786d776b350",
+            "message": "Implemented KinPhoneContainsKeywordsPredicate",
+            "insertions": 48,
+            "deletions": 1
+          },
+          {
+            "hash": "373ee372a364a39368ed4a0f5c834a4467600ca7",
+            "message": "Linked new predicates to FindCommandParser",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "b89bc79fc562e546033dbf18d4fb6c6a245a07a2",
+            "message": "CheckStyle Update",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "6a10da51d419919ca6231e6542243b4d14b10f04",
+            "message": "Updated FindCommandTest to read new patient attributes as valid",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "76218f5377330385cdd73f3f2c63567707cee488",
+            "message": "Implemented FindCommand tests for Sex,DrugAllergy, and Description",
+            "insertions": 61,
+            "deletions": 2
+          },
+          {
+            "hash": "c989da408864746eb3c1c9c093dccc2e3fc36b05",
+            "message": "Code clean up",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "405bdaa0c982919491fdf6bbc462969003395445",
+            "message": "Updated FindCommand tests for Next Of Kin attributes",
+            "insertions": 70,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 118,
+        "deletions": 68,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "dcc65f2af39a721763c11daa4863458e6d9352a9",
+            "message": "Created empty file for TagsContainKeywordsPredicate",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "b8bd0e7cc842509ff17a81bb5af74b6c5407f4dc",
+            "message": "renamed to proper convention",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "043d2f12fabbb46d4941acced594cfe746d05143",
+            "message": "Implement TagsContainsKeywordsPredicate",
+            "insertions": 45,
+            "deletions": 1
+          },
+          {
+            "hash": "b61e8beb463e1fd2d7dd3462fc2379d830f960d5",
+            "message": "added tag prefix for searching",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "2925982902e7d0cc51bbbc89c4c465eecfb1288f",
+            "message": "Linked tag searching to FindCommandParser",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "9f7d93e8b9f17d86e6f23f15d1d7aeb5ed5618f4",
+            "message": "fixed logic",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "5dd48e6d1d3874d13f4e4ec28ebc615f0c6d18eb",
+            "message": "Updated Json storage format",
+            "insertions": 52,
+            "deletions": 10
+          },
+          {
+            "hash": "8bc882b2dcdb22f8ac8b5515ae88ea6eb8a99570",
+            "message": "Clean up old code",
+            "insertions": 0,
+            "deletions": 44
+          },
+          {
+            "hash": "580947714c4c978013a9369d4b16df9ee5239c6f",
+            "message": "Checkstyle update",
+            "insertions": 0,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "cchj1995": [
@@ -1498,10 +2393,53 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 126,
+        "deletions": 11,
         "date": "2019-03-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5c9cfa91aaa8b1ceb24fbe9d94e7060ead8e5023",
+            "message": "Added new TeethPanel.fxml file and TeethPanel.java class file and made minor changes to MainWindow to prepare for change",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "a0eab41f93f68887052a9ba0aea51f0271448eea",
+            "message": "Added relevant imports to TeethPanel.java and added code to TeethPanel.fxml",
+            "insertions": 37,
+            "deletions": 0
+          },
+          {
+            "hash": "e4b3e1d865d8f368fc18feeea2f484df73d1f2d9",
+            "message": "Added constructor and attributes to TeethPanel",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "bd652c4d7b16ea35a5d360a7f4a05d7875824204",
+            "message": "Created base methods for TeethPanel and added logic flow for constructor",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "6699499d4d80124253762c2ec94481628642056f",
+            "message": "Added code to loadTeeth and clearTeeth methods in TeethPanel",
+            "insertions": 40,
+            "deletions": 1
+          },
+          {
+            "hash": "1a30feca43a4b6664ff652afd95601b7d3321fc9",
+            "message": "Fixed style",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "c18b172b3de5ce1bce160ce38d7d52dcc2067d89",
+            "message": "Modified MainWindow.java and MainWindow.fxml to dissplay new TeethPanel instead of BrowserPanel",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1522,10 +2460,958 @@
         "commitResults": []
       },
       {
+        "insertions": 32,
+        "deletions": 20,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "a674d3f55b3112e879118d3a6a5f427ac56206d4",
+            "message": "Updated MainWindow.fxml and Mainwindow.java",
+            "insertions": 25,
+            "deletions": 2
+          },
+          {
+            "hash": "5bc064dfde3406521df26eaa0739fbaed35114da",
+            "message": "Merged Changes",
+            "insertions": 7,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 81,
+        "deletions": 43,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "8027246825f028f301148e494d9a1bc89f907955",
+            "message": "Updated DarkTheme.css MainWindow.fxml and MainWindow.java to change GUI layout",
+            "insertions": 44,
+            "deletions": 38
+          },
+          {
+            "hash": "551f7ff82b287656478109518beafcf76a1c6e2c",
+            "message": "Added base code in TaskCard to show priority with color",
+            "insertions": 19,
+            "deletions": 1
+          },
+          {
+            "hash": "a6096d5d7ca532b857444eb6a5cee25a892200c3",
+            "message": "Changed padding for Task Card display",
+            "insertions": 18,
+            "deletions": 4
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-25",
+        "date": "2019-03-27",
         "commitResults": []
+      },
+      {
+        "insertions": 826,
+        "deletions": 168,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "7f4cf9912e7113d8b8d0e92fe3d4fd4533a71b8d",
+            "message": "Modified relevant class files to prepare for calendar command, added new CalendarWindow.java, CalendarWindow.fxml and TaskCalendar.java files + fixed toString bug for Task class",
+            "insertions": 51,
+            "deletions": 18
+          },
+          {
+            "hash": "99594c89bdea2a2051f8840cc67fb5761b87bb66",
+            "message": "Added imports for CalendarWindow java and fxml files and TaskCalendar",
+            "insertions": 69,
+            "deletions": 0
+          },
+          {
+            "hash": "cfc3741c98f1af6048ceec4f0d06d82aa606a8bc",
+            "message": "Added attributes for CalendarWindow.java",
+            "insertions": 24,
+            "deletions": 0
+          },
+          {
+            "hash": "eda684ad7ca923435ab323fbe1616caa340992d8",
+            "message": "Created base methods for CalendarWindow",
+            "insertions": 23,
+            "deletions": 0
+          },
+          {
+            "hash": "414f4651018375832d9786fc673d116fe865abd1",
+            "message": "Added new createCalendar method in CalendarWindow, updated code for other methods in the same class",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "bd0c6455fe2f72ee1dfce0786a6e647654f6f51c",
+            "message": "Updated code for createCalendar method",
+            "insertions": 34,
+            "deletions": 1
+          },
+          {
+            "hash": "54a3f9902daceaf4787b48054827aaad0ede3ecb",
+            "message": "Added conditios to building of date cells in createCalender method",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "c827a8e64b270ead95313da776609470d102c726",
+            "message": "Added code to extract only Calender Popup from DatePicker",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "8e1711b1869b21f2784097f69f1d1f3f8c54a147",
+            "message": "Added checks to extracted node to modify weekends, set handling for clicking on cells and prevent traversing with Tab",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "da5c9efdea78cf8b10cce63b66c56f59dde79bd9",
+            "message": "Updated constructor for CalendarWindow",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "392e7a7c34c60c82a4c720a65a9e11654eb84ed1",
+            "message": "Updated constructor for CalendarWindow, added new Calendar.css",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "675169c926a92d7d706e9ce19d47a1260d784c40",
+            "message": "Removed unused imports in CalendarWindow",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "06de14353ab0febd9ebca8d46ac23496eae1c22a",
+            "message": "Removed unused line in CalendarWindow",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "6c57b57b5e12110c7e5563c9062812900065fad5",
+            "message": "Removed unused imports in CalendarWindow",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "c79f603d2a1af739f0ec82235cb3f169b741c3af",
+            "message": "Added elements to CalendarWindow.fxml to display CalendarWindow",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "c1a82250cba28efb4eb73afa228662801a19c6c2",
+            "message": "Removed TaskCalendar.java as it is unneeded",
+            "insertions": 0,
+            "deletions": 27
+          },
+          {
+            "hash": "d99904ce94165b7d741631cae0688d0b7fa65d84",
+            "message": "Removed usages of TaskCalendar in CalendarWindow.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "970a4ca5a7abb0c004c9fe9235d0b8f46d581696",
+            "message": "Added css styles to Calendar.css to style Calendar PopUp",
+            "insertions": 65,
+            "deletions": 0
+          },
+          {
+            "hash": "ac099e4ad2ab38fd98fa665f9a48c2bcf8bb3191",
+            "message": "Imported CSS styles from DarkTheme.css into Calendar.css to maintain consistency for TaskListView in CalendarWindow",
+            "insertions": 130,
+            "deletions": 0
+          },
+          {
+            "hash": "4c98f2a806a2ce5adcc1d974e9059e35cfae2b60",
+            "message": "Updated CalendarWindow\u0027s custom command executor",
+            "insertions": 16,
+            "deletions": 7
+          },
+          {
+            "hash": "ced5c47bf96122d2f4b1d92af6ae258beec568d5",
+            "message": "Removed unused imports in CalendarWindow.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "05d74931926029867bebacd2711a32470069fe73",
+            "message": "Added new TaskCalendarCommand.java class file",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "00e8869023346d9e97580616823938a0a952d9e1",
+            "message": "Fixed TaskCalendarCommand.java being created in wrong file location.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bd249f0c04d9446abddeb4b98acb3821aacecde4",
+            "message": "Added imports for TaskCalenderCommand",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "5e3d1a0aad67da26df29ca7cab92c5eea0b109b6",
+            "message": "Update attributes and constructor for TaskCalendarCommand",
+            "insertions": 30,
+            "deletions": 3
+          },
+          {
+            "hash": "270ef1d93acc4eb9bfad9340b853426c86fecba9",
+            "message": "Added taskcal command word to AdddressBookParser",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "942bd1bf40aaf50397a556b1956b5963568697c9",
+            "message": "Added new TaskCalendarCommandParser.java class file",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "0fe707c850a1ad1dd0f01a3179717dfa3a82865a",
+            "message": "Updated parse method for TaskCalendarCommandParser",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "0d9d4cf6a44569e1f792ccc341a71ba5472c0a73",
+            "message": "Updated TaskCalenderCommand\u0027s execute method",
+            "insertions": 14,
+            "deletions": 2
+          },
+          {
+            "hash": "efe4e431fa9fe93adca65de803a3924185cf5e3a",
+            "message": "Added CommandResult return from TaskCalendarCommand",
+            "insertions": 11,
+            "deletions": 7
+          },
+          {
+            "hash": "92153b77ee9e6183b83578bc0270fbaf4adcfda4",
+            "message": "Modified MainWindow to support TaskCalendarCommand",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "94038046823354604651b08597c0d38042e3b6b6",
+            "message": "Updated MainWindow to handle calendar event",
+            "insertions": 34,
+            "deletions": 10
+          },
+          {
+            "hash": "01fa60a1cdc0aa3e93e383f3fbc055b406bda73b",
+            "message": "Updated CalendarWindow to provide method for focusing",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "7a20468cd81fe77fef2a412529815dce7bd094d1",
+            "message": "Added javadoc comments and fixed coding style",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "60bc08d6a777c8f17fe4168c8ac0826ec71e7dec",
+            "message": "Modified MainWindow exit to close CalendarWindow if exiting before Calendar is closed",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "9fcef9074bdd35984e8957b461d81e31e4f846ce",
+            "message": "Added TaskStartDateContainsKeywordsPredicate java file",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "a62a40a6a8c2c8964564726935f1a05061a40e16",
+            "message": "Fixed bug in CalendarWindow where new date is handled wrongly",
+            "insertions": 49,
+            "deletions": 10
+          },
+          {
+            "hash": "9098a24cfd61cc9bf6de4c59ae2950c7371e857f",
+            "message": "Added sample data for Tasks, minor changes made to TaskCalendarCommand",
+            "insertions": 35,
+            "deletions": 11
+          },
+          {
+            "hash": "be462fab6c0bd5fc459b5bcea8441e9fdd6504c4",
+            "message": "Minor changes to Task Cards in GUI display",
+            "insertions": 11,
+            "deletions": 7
+          },
+          {
+            "hash": "74d41e0c45139b5fb00db1d140fb44b3cd68c410",
+            "message": "Added functionality to change tasks showing in Task Calendar based on selected date.",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "cc334d3463fe50f15d94e97bbcd36a98d60c3a61",
+            "message": "Minor error fixes.",
+            "insertions": 8,
+            "deletions": 17
+          },
+          {
+            "hash": "6b286082a223b114e7f64dbf92d44c63472ebfc4",
+            "message": "Fixed unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "436b9282c757f18a5dd752a471e6912307db09d5",
+            "message": "Modified TeethPanel to use BaseLayer image",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e382d0f81974c2daea7b6645a2f4b75a1b318250",
+            "message": "Added comments to TeethPanel",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b1873d912dc13ee59aa7250f1b58237e18e1108d",
+            "message": "Minor change",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "abb5c04238733eadd67eaa9a555fbc59cbc9528b",
+            "message": "Nudging Travis",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f2f38e3d1148e0fcecfac28955deed54909c27bb",
+            "message": "Nudging Travis",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4fc6df677fef505465e1706aa56143b5c43e9cb5",
+            "message": "Fixed style errors",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 316,
+        "deletions": 141,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "0a27a00de81535523aa0474a95e508cc187c7e35",
+            "message": "Fixed bugs in Task Calendar",
+            "insertions": 22,
+            "deletions": 6
+          },
+          {
+            "hash": "2a3f980f974a371b2cc1dea1d30f814b535e72b8",
+            "message": "Fixed minor bug for Task Calendar",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "2b1a8324295063a193e843d13671b4ef7cd8a310",
+            "message": "Fixed code style errors",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "8489fd3cbaf1c22ef2728876998f8a10680c865e",
+            "message": "Fixed date comparison bug",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "222dad27a3a2178af7688f6743afdb5dd57850b5",
+            "message": "Removed unused code",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a1940a187dfe23a4df35c823dfede375dff82fec",
+            "message": "Added newline at end of file for certain files",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "e0a9554a5411b9c1210ec267077166d56259199c",
+            "message": "Fixed code dependencies for changes made",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f0ddda86ed76429570eb88436c67e9f98ceb427c",
+            "message": "Updated Teeth edit and Goto commands to display teeth for selected patient, modified AddressbookParser to feedback  messages for invalid commands in goto mode",
+            "insertions": 41,
+            "deletions": 42
+          },
+          {
+            "hash": "57c1f63333a9b104c61c4e2e34c90d0259b91910",
+            "message": "Moved Calendar shown message to Messages class",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "15e803600c432229162990246bba6260a6280b6d",
+            "message": "Removed TaskEditCommandParser system message.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "b3d6496d9a5dbb32e167cf6685bd67629f4d27b4",
+            "message": "Modified TaskEdit to allow only either start date or end date",
+            "insertions": 24,
+            "deletions": 9
+          },
+          {
+            "hash": "466c1eee560298fd29002a6ba966012080630f59",
+            "message": "Updated Date parsing to allow user to add dates before today",
+            "insertions": 32,
+            "deletions": 22
+          },
+          {
+            "hash": "e28ea64bafda50627e63336576f92d095a05c427",
+            "message": "Modified Task commands to take in TimeCustom class",
+            "insertions": 33,
+            "deletions": 9
+          },
+          {
+            "hash": "b6c2204718af36acb678609d0f0954f228949388",
+            "message": "Updated files to support new start time and end time attributes for tasks",
+            "insertions": 73,
+            "deletions": 17
+          },
+          {
+            "hash": "5a6c8a24d6709bfcba0ec8c14c2f8943f51882f4",
+            "message": "Updated TaskAdd and TaskEdit command parsers to support new attributes for task",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "3a000ecb6c1e49474d876736b32fdbf2ad23b7ae",
+            "message": "Updated TaskAdd message usage",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "cc499442fdbae384e4684dde87c6e9fde7ec3ea9",
+            "message": "Modified TaskCard to display new attribtues for task",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "697a713a3a9c1fcde042466c20b9d4932301504e",
+            "message": "Fixed bug with TaskEdit with regards to time attributes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "73a07d6ac2b5eead66bcb0b50c93eaf1e3473c0a",
+            "message": "Fixed bugs for TaskEdit",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "a62c9866691d84abf5f93b385cf5cbb96660933f",
+            "message": "Minor changes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2aca8c5ad3a1a15e8613d144578f5e16dabbb9dd",
+            "message": "Modified message feedback for user for Task Add Command",
+            "insertions": 17,
+            "deletions": 3
+          },
+          {
+            "hash": "521ae805d1ed8f13ae2d1ef7375a1fd74dc5706b",
+            "message": "Updated TaskEdit usage message",
+            "insertions": 8,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 620,
+        "deletions": 336,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "b821c4d1b53157edc1c115c9f88d53e051df2a5f",
+            "message": "Fixed minor bug with TaskEdit",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "aeb2bacb3d023ca705b24665b1b6c1d773ec414c",
+            "message": "Minor UI changes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b0f40e114e698dbd3dfb12020787e57f6efc1780",
+            "message": "Removed unused imports in CalendarWindow",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "9c03f15c58fbbf0d49e4417ee962bf05e89538d4",
+            "message": "Minor changes to labels",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "93e141ddfd417631df129c14318a864b3af78b1d",
+            "message": "Fixed coding style, removed unused imports",
+            "insertions": 100,
+            "deletions": 90
+          },
+          {
+            "hash": "71a269bbcb137d8b71b2c4274cb687f3767f4790",
+            "message": "Added Priority.java class file",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "e8a0119fce81395a321ae67c24c8186e026453e5",
+            "message": "Updated TaskAdddCommand to support adding of priority",
+            "insertions": 66,
+            "deletions": 11
+          },
+          {
+            "hash": "b0c0b4bd0db115f0243daffa0810f78d2b15ac66",
+            "message": "Modified files to support new priority attribute for tasks when adding",
+            "insertions": 25,
+            "deletions": 10
+          },
+          {
+            "hash": "8b0f5ae36bfe75cef9d206b41e1bbf6fb9b0b4e9",
+            "message": "Updated TaskEditCommand to accept priority as field",
+            "insertions": 23,
+            "deletions": 3
+          },
+          {
+            "hash": "ca849ee7425281ea3a1bfec62d4c63aab2e4c63b",
+            "message": "Updated GUI to show priority in different colors",
+            "insertions": 6,
+            "deletions": 9
+          },
+          {
+            "hash": "d5a118785ae4fe89cae6b26119346e142c9761c5",
+            "message": "Updated Task Calendar to display dates with task, color-coded",
+            "insertions": 46,
+            "deletions": 10
+          },
+          {
+            "hash": "e734289df45b3abace8c6239297f5402bcd468bb",
+            "message": "Fixed bugs in parsing priority",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "1b1039d63e80d9167b804823e24b2a3cf85f98cc",
+            "message": "Updated Task Calendar",
+            "insertions": 30,
+            "deletions": 21
+          },
+          {
+            "hash": "82b6d0674215c3dc70518a1af69e852065115bf8",
+            "message": "Updated model manager to add ensureTaskisValid method",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "c898e0aebcca0d8f2bf4dcf7fe7857b721e025de",
+            "message": "Fixed bug where deleting task shows every task",
+            "insertions": 30,
+            "deletions": 30
+          },
+          {
+            "hash": "4537def09ae6627ade64f5bad995a1c3939698f6",
+            "message": "Fixed code style",
+            "insertions": 28,
+            "deletions": 17
+          },
+          {
+            "hash": "1990c9ba4395af21eb585121c0432ad3f7518fed",
+            "message": "Updated Calendar Window to allow taskcommands and date input, fixed bug in checking same task",
+            "insertions": 56,
+            "deletions": 30
+          },
+          {
+            "hash": "4679487a2ebf5b5ba5350027d90464609a646ba8",
+            "message": "Fixed bug in checking if same task exists",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1363e7c172b4119840d4b865bafa92db0e96ffd7",
+            "message": "Modified Task string builder",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "88c51883d23cb369fedd985fc30d324dfe91aa0f",
+            "message": "Updated and reorganized AddressBookParser to check for command conditions",
+            "insertions": 60,
+            "deletions": 48
+          },
+          {
+            "hash": "ce5008cefaef9517f9df52f3a969bbce19d455f7",
+            "message": "Fixed typos in Messages",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "9cc3249914e73c50d49154e24551b5bf141b1785",
+            "message": "Updated Task Calendar dimensions",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "11e510bebd3e5e32a3036788ac25539671dc9306",
+            "message": "Removed unused code",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "1d57b08d53db27fdbca06848e220f197c070ac67",
+            "message": "Fixed bug where Completed tag for task was not displaying with colors",
+            "insertions": 17,
+            "deletions": 1
+          },
+          {
+            "hash": "2c595bacbca0bd5308dca4df844852f4b210b9ba",
+            "message": "Fixed coding style",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "eeaa2a87ff7bf2f7be2ed5e471bf24c1b38a3070",
+            "message": "Modified Date and Time parsers",
+            "insertions": 63,
+            "deletions": 25
+          },
+          {
+            "hash": "bf88d2f047401c5ffb89d9f8720ac26c85a675ce",
+            "message": "Updated error  messages for date and time",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 623,
+        "deletions": 173,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "1cb45cb8c74e2f6d6b6f80c6d24bd0e013ac01ba",
+            "message": "Minor changes",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "839f26397984a6f4fdeae680279bc53ba74a005c",
+            "message": "Fixed bug where keying invalid command in task calendar window blocks back command in goto mode",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "1417aaf24d98477e19c5834cb14ddf9098e9eb5c",
+            "message": "Fixed bug where adding task shows all patients instead",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6bf0ec0e36777225ff8c89e9c8cc7fe519f07ac3",
+            "message": "Added new LinkedPerson class to be added as attribute for tasks",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "8020afbb066afd66b2ce4a08edb7e8ae03d5837c",
+            "message": "Added imports for LinkedPatient",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "07b6ca2112ffbceeea7e30d763410acad321aac6",
+            "message": "Added constructor and isValidLinkedPatient method to LinkedPatient class",
+            "insertions": 24,
+            "deletions": 0
+          },
+          {
+            "hash": "5ea9168cd32244b802f24b44b419ee1fa87c057d",
+            "message": "Added toString method for LinkedPatient",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "6c296dc1309a7c54e23f0ddecbe22f92a0178404",
+            "message": "Added getter methods for attributes of LinkedPatient",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "5a6de6c019023cee68531051df045b8c2bc5135c",
+            "message": "Added equals and hashcode methods for LinkedPatient",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "e5656803cd29aada966f4bf7bc87e77a6c878dec",
+            "message": "Removed unnecessary imports for LinkedPatient",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "9c6e62971f7fd8c4ae334f26ecf7398951d200bb",
+            "message": "Added comments for methods and constructor in LinkedPatient",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "632345e0c8469e9aba00d7a1682e80064d3541d6",
+            "message": "Updated hashCode for Tasks",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cd812e8eae8621f64dca14e0a17ac78fa17bff55",
+            "message": "Updated Task class to have LinkedPatient attribtue",
+            "insertions": 14,
+            "deletions": 4
+          },
+          {
+            "hash": "ae227ca74872934968fbc6981b3ca4e26ccd780f",
+            "message": "Updated Task methods and LinkedPatient toString method",
+            "insertions": 12,
+            "deletions": 3
+          },
+          {
+            "hash": "0b0abb3e6379ee99ee93db835827e973715dc299",
+            "message": "Updated sample methods",
+            "insertions": 14,
+            "deletions": 12
+          },
+          {
+            "hash": "a293826c43fb519f63d5d4d1c8ce8e8e6acab332",
+            "message": "Modified TaskAddParser to support adding LinkedPatient",
+            "insertions": 32,
+            "deletions": 3
+          },
+          {
+            "hash": "98a476fe6f658e130b53dff31414e60722a80046",
+            "message": "Removed unused code in ParserUtil",
+            "insertions": 4,
+            "deletions": 16
+          },
+          {
+            "hash": "9b42a4d4cd3e1748072f90f71b57b7234a8089dc",
+            "message": "Modified TaskAddCommand to support adding Linkedpatient",
+            "insertions": 14,
+            "deletions": 2
+          },
+          {
+            "hash": "343eaa36e6a1e49b1a635fba707348b2596f736f",
+            "message": "Updated TaskEditCommandParser to support new LinkedPatient index",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "53460a18d85b02ec79f85a0ed4d693c5bce8c6ff",
+            "message": "Updated TaskEditCommand and TaskEditCommandParser",
+            "insertions": 27,
+            "deletions": 2
+          },
+          {
+            "hash": "73f1e06ec8582c01f906a837b8ee2c4fdba22c70",
+            "message": "Added new integer check in StringUtil to allow zero",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "f96e944a6ca56e3b039253aa3f7a0223e6ec5879",
+            "message": "Updated TaskAddCommand and its parser to use new Parser",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "2887af01195c5366ca5e6a71ed15dc5550c9b913",
+            "message": "Updated JsonAdaptedtask and TaskEditCommand to work with new linked patient",
+            "insertions": 38,
+            "deletions": 10
+          },
+          {
+            "hash": "0eebb8fbff2a7533d4bcd44aeac2d7dfc19e14df",
+            "message": "Updated TaskAdd and TaskEdit commands",
+            "insertions": 16,
+            "deletions": 14
+          },
+          {
+            "hash": "f1f47abc00cad25b32400410a9064cef25c174d8",
+            "message": "Fixed bug with adding duplicate tasks",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "21de30a394f136eb7ea505a0a7c651b8d5ea7be9",
+            "message": "Fixed nullpointer exception when comparing LinkedPatient for Tasks",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "cb5758fc36554114f959f166748e1058925f8dfc",
+            "message": "Fixed coding style",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "1a04ac3148d89c78e8748bef1d8384e9398e4a93",
+            "message": "Updated logging message",
+            "insertions": 14,
+            "deletions": 3
+          },
+          {
+            "hash": "312eb8b3074970188d01894fbcfdacfe42ca14c2",
+            "message": "Fixed bugs",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "602541625d1c491af52c9e3a9d9dc0577e095188",
+            "message": "Added new TaskDoneCommand class",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "37243c78ec0fe89231373bc4b9d2263d07ee2bfa",
+            "message": "Modified Task by adding a new setPriorityCompleted method, changed priority variable from protected final to private",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "797a47421061bed644317472095f2f7352d82041",
+            "message": "Added code to TaskDoneCommand",
+            "insertions": 53,
+            "deletions": 1
+          },
+          {
+            "hash": "4906e9fb4c3582562d079b2cacfda8d6e44b0db8",
+            "message": "Added new TaskDoneCommand parser",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "2635523a9b70df570557220c80e70472715183e2",
+            "message": "Added code for TaskDoneCommandParser",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "f787152e58948b7587a8e6e4d8c8fd0dc0df16b5",
+            "message": "Modified AddressBookParser and Messages. taskdone command is now recognized and displays usage msssages",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "c7c72c094417e0cce76d698c8a0b7adfa427a0fd",
+            "message": "Fixed functionality for TaskDone",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "26a7d5e699c287742710e917048fb7e607a3c1b1",
+            "message": "Updated TaskDoneCommand to add record automatically using its title",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "50d8c5a6ac28fa9f5108c0cd11fccf59513a8017",
+            "message": "Updated Task stringbuilder, updated TaskDone message",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "42cf30e1fd27a62f765ecf390cffaec182b5991a",
+            "message": "Fixed bug where TaskEdit sets current linkedpatient to null if not specified",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "8d78690c6b4e4ba91a6e9003dd6cc514e9405b67",
+            "message": "Updated EditCommand to update tasks that are linking to the edited patient",
+            "insertions": 65,
+            "deletions": 5
+          },
+          {
+            "hash": "1d1c5efc060b2690ef67a56152194f861bb28438",
+            "message": "Moved LinkedPatient to task folder",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "87a3a4856fa47175f268d8aae56588abb63afa59",
+            "message": "Added setNullLinkedPatient method to Task",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "154b69a5a1e6f29188c4c5fbd0a143e732a84254",
+            "message": "Updated DeleteCommand to check for linked tasks and perform operations according to user specification",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "39af440aafae272ffa1ca8092d43848cbb19b851",
+            "message": "Fixed coding style",
+            "insertions": 34,
+            "deletions": 30
+          },
+          {
+            "hash": "8bb1f329504e280a3de00eaccbceffedfa183817",
+            "message": "Added ResultDisplay to Task Calendar pane",
+            "insertions": 15,
+            "deletions": 2
+          },
+          {
+            "hash": "09ba54a51a5424f167cf9943c3d37b403888d2bc",
+            "message": "Modified CalendarWindow to show text in resultdisplay, fixed message text",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "5d6840c3927c2ece0e8669cf358671a9109ac829",
+            "message": "Fixed CSS for Calendar Window\u0027s result display",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "1dae918ded2fd2b8d2e94eb9850fcd8d50500a02",
+            "message": "Updated alert box for delete command",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "kylerwsm": [
@@ -2884,6 +4770,382 @@
         "deletions": 0,
         "date": "2019-03-25",
         "commitResults": []
+      },
+      {
+        "insertions": 153,
+        "deletions": 95,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "0619ee0988beaf8c67caab332b3fc528f17e0e8e",
+            "message": "If dentist name is not specified, a text alert box prompts for it now",
+            "insertions": 23,
+            "deletions": 5
+          },
+          {
+            "hash": "98655f43c87c7676693fce32dbed479c54558aa3",
+            "message": "Alert box appearance now matches our dental book",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "79e69099e473a6767ab66d575b7f06b855e3986e",
+            "message": "Give logic reference to its instance",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f35024475f281d6d6f04dc9a98ca4b18e536eb2e",
+            "message": "Modified to store reference to the associated main window instance",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "3ed4c468ab105e116b36bf5eda363d3e8c9b7ddc",
+            "message": "toString method of Patient now also prints patient\u0027s sex",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "ea62ddd0f473c12401d703cec5aae9138e0e9ce1",
+            "message": "Updates to ParserUtil to parse patient sex",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "a766e544f7802b762cc7de51fefdd7c55c2cd434",
+            "message": "Refracted Sex class with minor modifications",
+            "insertions": 33,
+            "deletions": 70
+          },
+          {
+            "hash": "3a62034f25c2860293436b9224f67e23a7b2af43",
+            "message": "Updated Add command usage message to show new Sex parameter",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "b694359569a57190899eac9ea525d59f8d55e75e",
+            "message": "Edit command is updated to edit sex of patient",
+            "insertions": 14,
+            "deletions": 2
+          },
+          {
+            "hash": "ee38e9d3ad16235740df233170f9cfe06266751d",
+            "message": "Edit command usage message updated to display sex attribute",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "f502f0e0b189a5bd88dd207f43a8ed8391d76b28",
+            "message": "JsonAdaptedPerson now stores sex of patients",
+            "insertions": 15,
+            "deletions": 2
+          },
+          {
+            "hash": "c840d890de0a7637d61d62459cd7dfcd65befbad",
+            "message": "Sex class is now taken in as a compulsory field for add command parser",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "5c1b4fa1d6b4986831b3d3304dd476aaa885d244",
+            "message": "Patient class updated for sex attribute",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "548ce13037a20d6c8999f43f0311b6e04376b6e7",
+            "message": "Updated sample data to add sex attributes to tests",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "dd35ebeb24e8ade96988fb5c1e112ae688f61a46",
+            "message": "Person cards now display the sex of patients",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 114,
+        "deletions": 54,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "316b7c3aea837256ae9ecbecc3d720765b496d2d",
+            "message": "Modified PersonListPanelTest to indicate sex of sample patients",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "d87f20a09c906c0784d192cffdec07a2588db553",
+            "message": "JsonAdaptedPersonTest updated to add in patients\u0027 sex",
+            "insertions": 18,
+            "deletions": 16
+          },
+          {
+            "hash": "be28dddac3c7e4befae8b5a6018b11d6bd84b5e5",
+            "message": "PersonBuilder updated to add in patients\u0027 sex",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "c0242cb69378f22bec5e1584aab14ccecff21f0c",
+            "message": "Updated test related classes for new sex attribute",
+            "insertions": 29,
+            "deletions": 11
+          },
+          {
+            "hash": "ac1b1eb92bd7aae3387c97244f217b83d41c4063",
+            "message": "Added invalid sex input sample",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "daa215a3786c19d845ab9dd6321e1663350b90c2",
+            "message": "Modified existing tests, and added new tests for sex attribute",
+            "insertions": 40,
+            "deletions": 25
+          },
+          {
+            "hash": "4c72a6ab7b28b3a9a338c6de7a4d697a87d1badb",
+            "message": "Updated sample data for testing",
+            "insertions": 9,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 1070,
+        "deletions": 322,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "a1ef367ed3b7e205f6e13f98016dd41700d53176",
+            "message": "Modified existing test cases for sex attribute, and added new test cases as well",
+            "insertions": 77,
+            "deletions": 32
+          },
+          {
+            "hash": "528e191facb00126428d042d9438574849163a8b",
+            "message": "Added new message for invalid record index",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "5be2dbed49634fd1c9802f2e4bcc9b97fefc21d9",
+            "message": "Added new method to print record in an appealing format",
+            "insertions": 15,
+            "deletions": 2
+          },
+          {
+            "hash": "3908e165c3550902e9c42495cc8764340fab5f75",
+            "message": "New RecordDeleteCommand class to delete dental records of patients",
+            "insertions": 55,
+            "deletions": 0
+          },
+          {
+            "hash": "f00d4cee021a9d545c87543dc552397f9c3c8c2b",
+            "message": "Changes to Javadoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0d26668badaf5f89c819430852f748add68c30b3",
+            "message": "SampleDataUtil now uses a stub dentist name if it is not already specified",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "4e0603ed2c20a5fb4a18582effa485b7ffcdd4ca",
+            "message": "New methods to enable testing of records",
+            "insertions": 34,
+            "deletions": 1
+          },
+          {
+            "hash": "a31d20ab079515ff6f4c822cc5a0721aa36531c5",
+            "message": "New method to set a sample dentist name",
+            "insertions": 13,
+            "deletions": 5
+          },
+          {
+            "hash": "a95b0d244fe10aefaf585198f3bdb8ef1029cab7",
+            "message": "Minor edits",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "19224829dfe71a846ed5361e71e3750cf361281b",
+            "message": "New dentist test file",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "26d7377af11fe4e49407a8ee2658b7f72c73533e",
+            "message": "Updated for tests cases",
+            "insertions": 21,
+            "deletions": 3
+          },
+          {
+            "hash": "6ae105fbb7c44f70816bcbaa4727e80674591d88",
+            "message": "Skeleton code for RecordEditCommand",
+            "insertions": 268,
+            "deletions": 0
+          },
+          {
+            "hash": "14798332ec7f293dd916d80fea95f0a11bed1478",
+            "message": "Added new line at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4a954b734d023f2abb0b0d8e1e06aa0590eb0dfd",
+            "message": "New RecordEdit and RecordDelete commands added",
+            "insertions": 193,
+            "deletions": 200
+          },
+          {
+            "hash": "8dcfc8996cae7f3e5a5ad178ee03e2785806ecdd",
+            "message": "New TeethEdit command added to edit tooth of patients",
+            "insertions": 180,
+            "deletions": 1
+          },
+          {
+            "hash": "97c199ce583c21bb665bbcb3da3974b700ae47f8",
+            "message": "Commands are now restricted to modes",
+            "insertions": 100,
+            "deletions": 63
+          },
+          {
+            "hash": "081fb5afb97f80949d7cffa4677aa153eba82f29",
+            "message": "New command to edit tooth status",
+            "insertions": 92,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 108,
+        "deletions": 31,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "57264d20e9270ccd87e8542824b1daa4699592d3",
+            "message": "Updates the correct person to be selected after a teeth edit",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "33195356122fb74c3e3ec84aba1d938642922ca8",
+            "message": "Corrected the constructor with takes in a copyCount",
+            "insertions": 16,
+            "deletions": 11
+          },
+          {
+            "hash": "357f007ddedf6f320887130dc3b8b8e15bc838e4",
+            "message": "Fixed an additional problem of the constructor - it did not call the updateTag() method",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "06f2622f4eee555f5694f47ec1748bc6eb48a465",
+            "message": "Json patient constructor should not updateTags -\u003e not in GoTo mode",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "89aa86106e73345708cd1f21553522eec35716f3",
+            "message": "The correct DuplicateRecordException is now thrown by UniqueRecordList",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "685c1579d3d063579543a4cd6a8600e977e73b6c",
+            "message": "Removed redundant import statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "53abc4ca2df8a4f78a61f68ff16ba9b3fd15eae8",
+            "message": "UniqueRecordList now treats all records as unequal",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "9317963cf4ad95aed5b520eb78f20a65fe548736",
+            "message": "Duplicate records are now added, but users get notified of the duplicate added copies",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
+            "hash": "ccf46981cd35c547129269530014b7a67da53e6c",
+            "message": "Improved the contains() implementation in UniqueRecordList",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "dc7c642bddf093fc1296466b238a4ec3c014b520",
+            "message": "Fixed problem where records are always flagged as duplicates",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "67ec0377d7d5a24f494ec99fa2634df6afedb057",
+            "message": "Record commands now do not commit to addressbook",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "2d04aad426fa07f2d00eeff5a51cff7a4c466a29",
+            "message": "TeethEditCommand now does not commit to addressbook",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "02eb6b6d2067f871d76adacf0b1674e91ed4661e",
+            "message": "New message added to indicate commands that cannot run in patient list mode",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "2be49096052d5bcc3da3fca877f9dccedc7b8b67",
+            "message": "New RecordClearCommand that clears all dental records",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "15d827582d7c72b94c47f64edb3b61ea2c0ca7de",
+            "message": "Updates to accommodate new command, and new checks for commands that can only run is GoTo mode",
+            "insertions": 24,
+            "deletions": 1
+          },
+          {
+            "hash": "99a7b66837a773a4ae22003bb2524d7c008cb5eb",
+            "message": "Minor import statements adjustments",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
       }
     ],
     "wSemis": [
@@ -3536,6 +5798,48 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
         "commitResults": []
       }
     ],
@@ -4479,22 +6783,109 @@
             "deletions": 41
           }
         ]
+      },
+      {
+        "insertions": 225,
+        "deletions": 82,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "735927a269e5b9f47a0e5b115a542072c80ed33f",
+            "message": "Removed duplicate exceptioin throwing in IO commands. Added new underline drawing for PDF export.",
+            "insertions": 21,
+            "deletions": 36
+          },
+          {
+            "hash": "ce00fd32fe47386a029f546ad4faacf80c99920b",
+            "message": "Added empty padding to tooth.png. Refactored saveAsPdf() and associated methods. Added drawLine() and writeDateTime().",
+            "insertions": 182,
+            "deletions": 40
+          },
+          {
+            "hash": "7e64ca3339645e119fd9fc260f4405a5aa49dc50",
+            "message": "Updated writeDateTime() in InOutAddressBookStorage.java",
+            "insertions": 20,
+            "deletions": 2
+          },
+          {
+            "hash": "4d0ee4daefb2c748589b73db699508f8cbbb99fe",
+            "message": "Removed unused import in ExportCommand and SaveCommand.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "b9f6dc95916d9430381c9ff20627d94ae8335744",
+            "message": "Changed float tx values in writeTitle().",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 107,
+        "deletions": 92,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "cdd945b9a1c1990345f9cc73d83207a800dd7236",
+            "message": "Refactored PDF export and updated PDF export to handle extremely long lines.",
+            "insertions": 107,
+            "deletions": 92
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 372,
+        "deletions": 61,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "31d3124df519d8b397d4c06821df6edabdcdb4dc",
+            "message": "Renamed JsonAdaptedConstants to StorageConstants. Refactored teeth drawing in /ui/TeethPanel.java to DrawTeethUtil.java Created new PdfAdapted classes in light of new Patient fields. Added Teeth image exporting to saveAsPdf() in InOutAddressBookStorage.java.",
+            "insertions": 372,
+            "deletions": 61
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kthSim": 2369,
-    "cchj1995": 1569,
-    "kylerwsm": 2731,
-    "wSemis": 562,
-    "JiaHaoLim": 1181
+    "kthSim": 4802,
+    "cchj1995": 3374,
+    "kylerwsm": 3514,
+    "wSemis": 548,
+    "JiaHaoLim": 1692
   },
   "authorContributionVariance": {
-    "kthSim": 91497.625,
-    "cchj1995": 41252.12,
-    "kylerwsm": 39193.965,
-    "wSemis": 6426.9546,
-    "JiaHaoLim": 18119.406
+    "kthSim": 112309.02,
+    "cchj1995": 78918.86,
+    "kylerwsm": 66229.72,
+    "wSemis": 5592.187,
+    "JiaHaoLim": 20263.277
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",

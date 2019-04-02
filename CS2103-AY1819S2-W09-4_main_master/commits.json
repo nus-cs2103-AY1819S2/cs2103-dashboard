@@ -568,6 +568,135 @@
         "deletions": 0,
         "date": "2019-03-23",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 268,
+        "deletions": 242,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "030c600c57fa0ed89d8af594a8fab5e106a393fa",
+            "message": "update endconsultationcommand",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "ad9e263aea22442411221a2eb1c2ddd12ea98e45",
+            "message": "update statistics and records",
+            "insertions": 249,
+            "deletions": 237
+          },
+          {
+            "hash": "c575b24356fcbd7c2deba267a2ba45fa8dcd9691",
+            "message": "removed unused inmport statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "446c3854f155d24a4f85d1c6122f075daf517c19",
+            "message": "fix statisticscommandtest",
+            "insertions": 8,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 243,
+        "deletions": 202,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "c7e4d8cf33b4d7d225dc20c42ad17a1a1ab02955",
+            "message": "statistics are now stored to quickdocs.json",
+            "insertions": 239,
+            "deletions": 197
+          },
+          {
+            "hash": "6abaf8d4c00a9252fda7bf977b159644350de913",
+            "message": "update userguide",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "9053ed7ac22245aed6f58bae235766fa759d78dd",
+            "message": "userguide: change legend to notation",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 66,
+        "deletions": 30,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "beb2c5d123b67befd1a1538657df864484d6ffde",
+            "message": "added more restriction to statistics command, and exceptions to catch invalid arguments",
+            "insertions": 42,
+            "deletions": 15
+          },
+          {
+            "hash": "a258c9745e11e500146e715d97362c7d54abf60a",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "808b40f9be22911181c8ef43bae1f2b3c65bdf28",
+            "message": "fix checkstyle error",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "561cf37cbedcb434f304c4e31dd317d84b76a6c7",
+            "message": "fix StatisticsCommandTest",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "9d2fc07688a5b41c294aca0ad7e9bb31a645eed3",
+            "message": "fix typical*QuickDocks.json files",
+            "insertions": 18,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
       }
     ],
     "ongaaron96": [
@@ -821,6 +950,60 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
         "commitResults": []
       }
     ],
@@ -1538,6 +1721,318 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 676,
+        "deletions": 197,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "7c70e7b7f9953b72107325a974994bba9cdacbd0",
+            "message": "Added Delete Patient and JUnit tests",
+            "insertions": 141,
+            "deletions": 2
+          },
+          {
+            "hash": "3dc31bf030ffe3691fa8ee27507182ec11ca466b",
+            "message": "Added Junit Tests for DeletePatientCommand and parser",
+            "insertions": 114,
+            "deletions": 0
+          },
+          {
+            "hash": "ad1e76e640f9919ad060f0be5c17d489d0735506",
+            "message": "updated AddPatient features\u0027 command word, constants and tests",
+            "insertions": 44,
+            "deletions": 6
+          },
+          {
+            "hash": "d3c5b6ef39fac3e1d9c760fff6f61c73e1e18490",
+            "message": "Updated Edit patient command\u0027s command word, constant and tests",
+            "insertions": 208,
+            "deletions": 103
+          },
+          {
+            "hash": "cad9099952061949b6a51f59b5ac403fb1b26aba",
+            "message": "Updated ListCommand Command word, constants and tests",
+            "insertions": 112,
+            "deletions": 80
+          },
+          {
+            "hash": "f5b3d403dffee8d95efff32b7a2532d9de5fae19",
+            "message": "Handled exiting of QuickDocs by providing access of stage to rootlayoutcontroller",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "e8d69b154950541c529cf3ef108459f4fe66c8af",
+            "message": "Expanded input feedback size, added consultation session indicator in UI",
+            "insertions": 41,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 286,
+        "deletions": 79,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "e2a6065a445bc668f491a5018a8e652a19d1720d",
+            "message": "Fixed usage messages for add, edit and list patient commands",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "f328c5853a04ea2fc7e26ec54d83997432bad15d",
+            "message": "Updated consultation Command word, constants and tests",
+            "insertions": 83,
+            "deletions": 18
+          },
+          {
+            "hash": "1418f38ae3b8e420b71788b0d919e99de63480df",
+            "message": "Updated diagnosis Command word, constants and tests",
+            "insertions": 56,
+            "deletions": 9
+          },
+          {
+            "hash": "b1b32e037a0c9aa1773a036df024927d17eb0376",
+            "message": "Updated prescription Command word, constants and tests",
+            "insertions": 73,
+            "deletions": 42
+          },
+          {
+            "hash": "ee0ef4014436cedba05434731e901d264186ccdf",
+            "message": "Updated prescription alias and tests",
+            "insertions": 34,
+            "deletions": 5
+          },
+          {
+            "hash": "08934c0191f41bbd4bc0e4bdb868d6dcddcc3e8d",
+            "message": "Updated JUnit Tests for coverage",
+            "insertions": 35,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 67,
+        "deletions": 40,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "b365b501012f8a30bf02fc1c203c8b9c8e7e636e",
+            "message": "Added Icon for QuickDocs",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "ddd3134103ba69aaf3c759066123fc83ee7b841b",
+            "message": "Change Ui.png to reflect current version, clean up discrepancies in patient and consultation modules",
+            "insertions": 48,
+            "deletions": 32
+          },
+          {
+            "hash": "cf3877387201c59f71a9682e17195f5c5d9aa9d0",
+            "message": "Fixed header formatting for patient module features",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "46fb70168caa0b23124f202a83fe46d126b4a0fb",
+            "message": "checkstyle fix for listconsultationparser",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "89aa3ec0e760e8a0a499e76bbf722beea307d6ed",
+            "message": "Fixed coverage for listconsultationcommandparser",
+            "insertions": 14,
+            "deletions": 4
+          },
+          {
+            "hash": "8b6d08515408520a536c760300920e9060de3671",
+            "message": "Changed version number to 1.2.1 for release",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 188,
+        "deletions": 54,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "bf00e54aba5fd19ba1bf480b3694e034cb57f49b",
+            "message": "Update QuickDocs.java",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "86da98d06a112e40484459ee6921f580dcbe8522",
+            "message": "Update QuickDocs.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "19e77cb26f2827e34358e77d571a9fec3e031355",
+            "message": "Consistency update for team repo pull",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "474435be57691d7523136726bfe137a8978dcc89",
+            "message": "Edited Patient commands up to delete according to new UG guidelines",
+            "insertions": 173,
+            "deletions": 45
+          },
+          {
+            "hash": "cfe399e4b9801270d3b36a451f138a20450609a7",
+            "message": "Added delete guide in UG",
+            "insertions": 7,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 298,
+        "deletions": 163,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "c809a9097004c2514e932020dbadcf101fae0572",
+            "message": "Removed unused import for rootlayoutcontroller",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "ba25ec605e8742d812009d5c0ed435066ccc2e22",
+            "message": "Test putting image on image directory and check if it is properly linked",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d1caf90ecb1962f539e76e87367cbe5df70c181b",
+            "message": "Test image within folder",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4b532642e27cfb4241da2e66e9e36fadef2d60a2",
+            "message": "Test changing imagesDir to ug-diagrams and check if image show up in github",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "7b88c4be66a11d8b50c344fb78874d4cc9cdbb46",
+            "message": "Place all images in root image folder in an attempt to display them",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "f0d4840376fb3683d7df0540a021f02b5577092c",
+            "message": "Change Alias to be under format for UG",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "a24f529692afc70a3797a8312e46313ed29d7806",
+            "message": "Added linking in edit section, removed trailing whitespace",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "7ae11819faba8f24a078154664ab310fa50bed90",
+            "message": "Finished up consultation module\u0027s user guide sections, some DG edits",
+            "insertions": 122,
+            "deletions": 55
+          },
+          {
+            "hash": "a5e8045387cd9f47fe4027a0a53b734b99ce5aa1",
+            "message": "Added Thematic breaks for patient and consultation sections to enhance readability",
+            "insertions": 74,
+            "deletions": 19
+          },
+          {
+            "hash": "8336880f6819c7cd6f0ab46b580afe375b8a9e42",
+            "message": "Fixed some line breaks for patient and consultation sections",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "9cd0df4ed36624c17fbe7f3ffd5f784376732153",
+            "message": "Removed AddressBook sections in DG, added some manual tests for section F",
+            "insertions": 62,
+            "deletions": 49
+          },
+          {
+            "hash": "ab9505d4c806c871baa5c1b3c5a552ea734a2fa0",
+            "message": "Added blank line for DG EOF",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 192,
+        "deletions": 185,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "bb1da242df0c3302fa80a3a9775fe3b36b01fc1e",
+            "message": "Changed format of UG sections for patient and consultation modules",
+            "insertions": 138,
+            "deletions": 134
+          },
+          {
+            "hash": "5518fed65de17a8f735afc31c9bd2ff9eccf3f45",
+            "message": "Added spaces between images and text for some features",
+            "insertions": 26,
+            "deletions": 11
+          },
+          {
+            "hash": "716a65250818891b2beae49759f0dc237e60bb57",
+            "message": "Update UserGuide.adoc",
+            "insertions": 0,
+            "deletions": 6
+          },
+          {
+            "hash": "ee07291a8c48daf5465e88b3bd2b32791bd78ef3",
+            "message": "Update UserGuide.adoc",
+            "insertions": 5,
+            "deletions": 18
+          },
+          {
+            "hash": "4d96f2ea55513868860df791bd4b5e9741042a2f",
+            "message": "Updated README, AboutUs and fixed UserGuide for trailing whitespace",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "598884abbc6d773fabd4eac05f5ba32d8f8ffe6c",
+            "message": "Fixed inter-module formatting, standardized diagram captions",
+            "insertions": 15,
+            "deletions": 9
+          }
+        ]
       }
     ],
     "Xue-Chenyang": [
@@ -2045,16 +2540,54 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 71,
+        "deletions": 45,
         "date": "2019-03-20",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0ecbfa4f6f26efe4d6c6af4f336c47fa4f733d12",
+            "message": "Formatted Command words",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "3678dc9621c9441a16583996e663ddf259261a6f",
+            "message": "Changed implementation of addMedicine command and its parser; tests need update later",
+            "insertions": 64,
+            "deletions": 38
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 174,
+        "deletions": 72,
         "date": "2019-03-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9e37390e1e83c8c9231a6dccfa27c8a02cf897d7",
+            "message": "updated tests accordingly",
+            "insertions": 75,
+            "deletions": 36
+          },
+          {
+            "hash": "70496d291896a23bb1d1030b77049a5b57b07748",
+            "message": "checkstyle",
+            "insertions": 12,
+            "deletions": 9
+          },
+          {
+            "hash": "6f0d24581a24d166f36253b26507dbcc940ba62f",
+            "message": "new test case for AddMedicineCommandTest",
+            "insertions": 18,
+            "deletions": 1
+          },
+          {
+            "hash": "caf3ba86a066cdf3fe756fa0eab4372b574b4435",
+            "message": "added JsonMedicine",
+            "insertions": 69,
+            "deletions": 26
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2067,20 +2600,168 @@
         "deletions": 0,
         "date": "2019-03-23",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 33,
+        "deletions": 1,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "85703f0fb4c54a4cae373f50ec64b9f0f9b33dab",
+            "message": "intermediate commit",
+            "insertions": 33,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 91,
+        "deletions": 30,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "70cc6fd8fc7c7124be02570413de336835a9b41c",
+            "message": "added JsonAdaptedDirectory",
+            "insertions": 49,
+            "deletions": 8
+          },
+          {
+            "hash": "b7abcd44580d47dc60d770084e9c19d9069fd2b1",
+            "message": "enabled storage of medicine into json file; bug fixes",
+            "insertions": 38,
+            "deletions": 18
+          },
+          {
+            "hash": "2fa79637cd1478aa40c41121f7f98a67f963de85",
+            "message": "code checkstyle",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 170,
+        "deletions": 84,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "05be17fc64c7f126876215707e47842a53ffbf43",
+            "message": "Support throwing reminders when medicine amount runs low",
+            "insertions": 26,
+            "deletions": 6
+          },
+          {
+            "hash": "c70e70d57525d384a39e56ebc1d3507094e46b52",
+            "message": "Supporting all medicine reminders except for alarm command for directory",
+            "insertions": 76,
+            "deletions": 23
+          },
+          {
+            "hash": "71f67ec4f92c51b387c656a7bb3e1a97933443cf",
+            "message": "realtime update of medicine reminders",
+            "insertions": 68,
+            "deletions": 55
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 293,
+        "deletions": 111,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "962f52b6db793893940121b3b1ec3c9ec27fb7ba",
+            "message": "Fully supported read and write into Jsonfile for medicine module",
+            "insertions": 165,
+            "deletions": 45
+          },
+          {
+            "hash": "50188079286f8c12cf61d470b70f7400620f6d53",
+            "message": "minor fix",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "9320d63fb702a68ba2f902fe8a1fd1cd490e5289",
+            "message": "Updated tests",
+            "insertions": 22,
+            "deletions": 16
+          },
+          {
+            "hash": "19ec519f2fcffe6742a9c2bb4e631c4521498a54",
+            "message": "checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e3a97c28f62f7c4114ca3463ef2ebab90186f4b3",
+            "message": "Update UserGuide.adoc",
+            "insertions": 41,
+            "deletions": 30
+          },
+          {
+            "hash": "ed0bec29247463df790b6b5617dd8be88252e193",
+            "message": "convert error messages from private to public",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "a45d3a97b1432b41afcc2647f876ddbd12b2b642",
+            "message": "updated tests",
+            "insertions": 50,
+            "deletions": 8
+          },
+          {
+            "hash": "f2ca062d8b0591d7039536c101150b789869adff",
+            "message": "new line at EOF",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "bentwj": 1455,
+    "bentwj": 1488,
     "ongaaron96": 0,
-    "simjiazhi": 6392,
-    "Xue-Chenyang": 2549
+    "simjiazhi": 7376,
+    "Xue-Chenyang": 3096
   },
   "authorContributionVariance": {
-    "bentwj": 22886.652,
+    "bentwj": 26121.27,
     "ongaaron96": 0.0,
-    "simjiazhi": 207369.23,
-    "Xue-Chenyang": 86648.99
+    "simjiazhi": 184285.4,
+    "Xue-Chenyang": 74575.586
   },
   "authorDisplayNameMap": {
     "bentwj": "TAN...IAN",

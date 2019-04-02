@@ -363,16 +363,29 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 172,
+        "deletions": 27,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5bab9adc37f9e69619fc052dfe72147246fa94ed",
+            "message": "no message",
+            "insertions": 172,
+            "deletions": 27
+          }
+        ]
       },
       {
-        "insertions": 36,
-        "deletions": 0,
+        "insertions": 432,
+        "deletions": 122,
         "date": "2019-03-20",
         "commitResults": [
+          {
+            "hash": "07e4c04dd4790b9106c04eeaac0544794853ce7c",
+            "message": "Add serviceTypeList",
+            "insertions": 396,
+            "deletions": 122
+          },
           {
             "hash": "a98afb1257e3542ffe089dec057895653e3587f5",
             "message": "Update UserGuide about the findBookingContainsCustomer command",
@@ -403,6 +416,183 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 309,
+        "deletions": 146,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "0a807bca1749643ea9f6340541cd390ca3f53b10",
+            "message": "resolve merge conflict",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "d53a90509932bc756256f7dbe547b47a79300c5f",
+            "message": "add new panel displaying serviceTypes and roomTypes add new command filtering bookings according to their type fix bug in addBookingCommand -- now the input index can be one-based mute some test related to old browser panel (which has been changed to   the new panel) these tests need to be implemented in future commits",
+            "insertions": 270,
+            "deletions": 89
+          },
+          {
+            "hash": "d06e9aeef39227b39b556a9dfd234aa5b1ef62d0",
+            "message": "removed unused variables in roomTypeListPanel",
+            "insertions": 4,
+            "deletions": 6
+          },
+          {
+            "hash": "f05b776e324a89d00219ba2505a12fd545d80831",
+            "message": "add get methods for new panels in MainWindow remove the empty ServiceTypeAndROomTypePanelTest",
+            "insertions": 12,
+            "deletions": 21
+          },
+          {
+            "hash": "e50e0b316eedfc5b995f92a6d7d3599492f2a222",
+            "message": "remove the old browser panel tests",
+            "insertions": 0,
+            "deletions": 14
+          },
+          {
+            "hash": "2eeb30b9cbe0e95ed368e99b4429b380dfe3180d",
+            "message": "remove unused imports",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "7e0caa594efd27365c1054d064284fdd29176c91",
+            "message": "resize the width of the main window to 1080 to make panels look better",
+            "insertions": 21,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 15,
+        "deletions": 53,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "dc3458d0b2bbbc519ee4c23027a392d6da025646",
+            "message": "Fix merge conflicts",
+            "insertions": 15,
+            "deletions": 53
+          }
+        ]
+      },
+      {
+        "insertions": 2479,
+        "deletions": 2100,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "8cd989927f39d68f073b38bb397b9725d221b6dc",
+            "message": "Implement new FindBooking method which can   find bookings according to their payerID, timeRange and/or serviceType   list all bookings if no input fields",
+            "insertions": 178,
+            "deletions": 174
+          },
+          {
+            "hash": "5124221ff9212a3c051dc73fdebda06686b02400",
+            "message": "fix merge conflict",
+            "insertions": 0,
+            "deletions": 18
+          },
+          {
+            "hash": "4caf85729dba573153a71394ad840e3ebbbeaf29",
+            "message": "remove unused method",
+            "insertions": 0,
+            "deletions": 11
+          },
+          {
+            "hash": "34b4caa5b70d6e21015b32764c033f71272a8f1b",
+            "message": "update the example command in addReservation implement reservation list panel",
+            "insertions": 166,
+            "deletions": 30
+          },
+          {
+            "hash": "953fc62ce54d42b69e15adf68dffaa789a51c6d8",
+            "message": "add Reservation List panel and room type list panel",
+            "insertions": 309,
+            "deletions": 47
+          },
+          {
+            "hash": "782834048a0c7964975fe6d368b2dd22c0c9343d",
+            "message": "Update the Customer Card   Field not provided will be displayed as \"... not provided\" instead of   blank",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "9159133ec0615ce8bd3db98edeb3638eb3898e6e",
+            "message": "Improve style",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2bacfe54b575d0f2746b680c919fa7dfa390008c",
+            "message": "Improve style",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "79d2cc0f04308ca3817926c59bff6edc6819262b",
+            "message": "mute the deleteCommandSystemTest",
+            "insertions": 195,
+            "deletions": 195
+          },
+          {
+            "hash": "31eb1371473feed63f6a1f5baad70cfa01e54c5c",
+            "message": "Revert \"mute the deleteCommandSystemTest\"",
+            "insertions": 195,
+            "deletions": 195
+          },
+          {
+            "hash": "c4361251ebe8eb571b0f477817af6538d47d009a",
+            "message": "revert some changes in test",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "2ce963607c986e30eda3e8526e07e2397a712b00",
+            "message": "commented system test",
+            "insertions": 1415,
+            "deletions": 1415
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
         "commitResults": []
       }
     ],
@@ -1137,6 +1327,116 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 1777,
+        "deletions": 239,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "865f30e7926072b276e979820b591a7ff0662957",
+            "message": "Added reservation model",
+            "insertions": 402,
+            "deletions": 0
+          },
+          {
+            "hash": "dadc28839d1c8add7fd5302540b256c757171038",
+            "message": "Added commands and storage files",
+            "insertions": 1259,
+            "deletions": 90
+          },
+          {
+            "hash": "2ab7cb99225c66c16f1a841f91934cdca0a07eaa",
+            "message": "Edited main logic for reservation",
+            "insertions": 65,
+            "deletions": 4
+          },
+          {
+            "hash": "31e25afd79d9430bd218d2753f00764ae94751e1",
+            "message": "Added missing semicolon",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1a46e0b8e871f53fbb48b03d9e14b4075caf2d4a",
+            "message": "Now reservations should save",
+            "insertions": 12,
+            "deletions": 3
+          },
+          {
+            "hash": "4a897701dd6b515e543c8a65ee90b757f4e2a6ae",
+            "message": "Changed zero-based to one-based indexing",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d6d9945c54cbb740900ad6858f600b95546122dc",
+            "message": "Fixed checkstyle",
+            "insertions": 11,
+            "deletions": 13
+          },
+          {
+            "hash": "38a8b0f5799057889cccc98a7a42d4ea66c74c57",
+            "message": "Fixed tests",
+            "insertions": 25,
+            "deletions": 126
+          }
+        ]
+      },
+      {
+        "insertions": 175,
+        "deletions": 179,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "26581503d2674ff96d714183158dc861ace9aa78",
+            "message": "Formatting",
+            "insertions": 175,
+            "deletions": 179
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
         "commitResults": []
       }
     ],
@@ -1901,6 +2201,319 @@
             "deletions": 5
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 102,
+        "deletions": 90,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "37f0bdf5c139d09a1e89e2eeb5083347449e64f9",
+            "message": "Updated UG and DG to remove errors and inconsistencies.",
+            "insertions": 45,
+            "deletions": 35
+          },
+          {
+            "hash": "089b60fa6efa2618a8904e604f8aefc04fc61d5e",
+            "message": "Refactored ClearCustomerCommand to ClearHotelManagementSystemCommand. Corrected ClearBookingCommand according to UG.",
+            "insertions": 25,
+            "deletions": 25
+          },
+          {
+            "hash": "67be3dfbbb479229d6f52d6f473edacadde9482a",
+            "message": "Corrected errors in ClearHotelManagementCommandSystemTest.",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "65b119f330e632f3cdf2c12866335213a89f4cc7",
+            "message": "Corrected HotelManagementSystemSystemTest.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "11cd21f19e502267335d9822f467d2218df786a3",
+            "message": "Corrected errors to please checkStyle",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "6e84d280318620ffff9bb48c636e68f7344d9c68",
+            "message": "Corrected errors.",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "226a4cffb24455a71cc927b8a50d5d29b91a1788",
+            "message": "Address is Optional now.",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "78dafa8b3df9dd86b579af950ba550e2ae2bae9f",
+            "message": "Corrected errors for Codacy and checkStyle.",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 360,
+        "deletions": 195,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "3252cf8297b0afdc5b3215212cadc936e2e54ae2",
+            "message": "Implemented ClearReservationCommand. This command clears all reservations.",
+            "insertions": 56,
+            "deletions": 4
+          },
+          {
+            "hash": "e03d02de29b8e35d43292d0e296f18d96f4bdbf6",
+            "message": "Corrected errors to please Codacy and checkStyle.",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "3a11bd5cee5ecbf9acdc2a39c76ec95f7f539ae5",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "cfa1178e7a9852ee3a1c72d66d852c3035afcd32",
+            "message": "Corrected errors for codacy",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b264850c788cad4399c47384515037c059f595a7",
+            "message": "Updated User Guide.",
+            "insertions": 129,
+            "deletions": 3
+          },
+          {
+            "hash": "f176bc6fcbaee3025fc06fc18a52edd464184641",
+            "message": "Updated UG.",
+            "insertions": 163,
+            "deletions": 160
+          },
+          {
+            "hash": "11ae3df9cf86caa9627ade63d019690655ca3f86",
+            "message": "Formatted UG. The commands are now color coded so that its easier for the user to understand.",
+            "insertions": 5,
+            "deletions": 19
+          }
+        ]
+      },
+      {
+        "insertions": 157,
+        "deletions": 128,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "92822f49928500287905a192e9edab5f014fea20",
+            "message": "Updated UG.",
+            "insertions": 53,
+            "deletions": 53
+          },
+          {
+            "hash": "1a5eaa80f15b59b2f970053c9803f7fabfa3c140",
+            "message": "Updated tests for ClearReservationCommand.",
+            "insertions": 104,
+            "deletions": 75
+          }
+        ]
+      },
+      {
+        "insertions": 8,
+        "deletions": 8,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "48eda2140d4f4f07d58461804ba3445ca090574b",
+            "message": "Updated UI. Making UI more easier to understand.",
+            "insertions": 8,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 4,
+        "deletions": 4,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "62db68eee438ddb4b85b85ec6a70e95d9250ca7a",
+            "message": "Made UI better.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "cc85d090fd2159f9fb9e7de60e86514f5c38375f",
+            "message": "Corrected error.",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 928,
+        "deletions": 188,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "cd87415142cf041e2b9e62345f440964a7732b9b",
+            "message": "Updated UI. Bill model has gotten included. GenerateBillCommand generates bill for Booking.",
+            "insertions": 702,
+            "deletions": 161
+          },
+          {
+            "hash": "be75ad0978160c72c5ab1dbbdc41601db632a087",
+            "message": "Corrected errorrs.",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "001e527ecfd681b846dd76385b5f7002afdfffe5",
+            "message": "Corrected errors.",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "5d63191b0b70c6fef850402627b37d712f84ef8e",
+            "message": "Updated tests to incorporate Bill Model.",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "04e31feb7e11f76a386be1765a4b54c418bd99f1",
+            "message": "Implemented FindReservationCommand.",
+            "insertions": 200,
+            "deletions": 3
+          },
+          {
+            "hash": "3709731705bd3e344305e32f7ff6396d33cdee41",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "7c530fb386303e6cbeb3950c0a1062f80af6c9f8",
+            "message": "Corrected the command.",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 463,
+        "deletions": 339,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "3ffc54819401c5185d624a35dcb89a80166ed5ee",
+            "message": "Implemented GenerateBillForReservationCommand.",
+            "insertions": 396,
+            "deletions": 36
+          },
+          {
+            "hash": "3ef0f9c7c6495f5066792e8fe60d9f50762e9dd1",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "bb9c84dffd196634aa85d0031add7a14915bb933",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 3,
+            "deletions": 232
+          },
+          {
+            "hash": "a49c323757432ec85665399a532ebb397ff9b835",
+            "message": "Corrected errors.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "abe96ded50825ea028f0420f7f26958dbb094d40",
+            "message": "Corrected errors.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "fd3dabb376870fbaaf81308a2bd478042675d535",
+            "message": "Corrected errors.",
+            "insertions": 0,
+            "deletions": 25
+          },
+          {
+            "hash": "86d30044b810d11cdb556399b44b9306c1f1e1c5",
+            "message": "Corrected errors.",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "79acbbc3d283962dc459f5563539c8e8735fd6fe",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 1,
+            "deletions": 10
+          },
+          {
+            "hash": "8d08b6c7b73ac756bd2724ffc930fee34fdaeb4a",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "315c29806448abfc8c7ab9ec26453973f0588554",
+            "message": "Corrected errors.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "a4c24bbef640f5efb7f1567b63465ce5e172b768",
+            "message": "Error correction.",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "2be00a3d5e93f6e0e243fdf7bbb7e4fd2168badf",
+            "message": "Corrected errors.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "92344864321be69d540bb3b4f479fac4112e9dcf",
+            "message": "Corrected errors.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "4f114778ced67f28835012dde0639a341fbace0a",
+            "message": "Corrected small bugs. Corrected errors in GenerateBillForReservationCommand",
+            "insertions": 41,
+            "deletions": 22
+          },
+          {
+            "hash": "32c5e18c64f6ea41019056cb92b863a467fa1724",
+            "message": "Corrected errors.",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "nerrons": [
@@ -2348,20 +2961,123 @@
         "deletions": 0,
         "date": "2019-03-23",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 1919,
+        "deletions": 945,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "ca0f51851ffc4fac2bc6a733c09ff097ffd3d26d",
+            "message": "Fix current tests; Add AddBookingCommandTest and DeleteBookingCommandTest",
+            "insertions": 619,
+            "deletions": 38
+          },
+          {
+            "hash": "7839ea598eebc4c5b46526064183b52c1850f163",
+            "message": "Add EditBookingCommandTest",
+            "insertions": 356,
+            "deletions": 4
+          },
+          {
+            "hash": "fffdecbd30496966ac79707d6ac5d457975f5196",
+            "message": "Please checkstyle",
+            "insertions": 14,
+            "deletions": 12
+          },
+          {
+            "hash": "b7d6dab171491708953571ea42bce72be9265f64",
+            "message": "Touch DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4ad8813e54e4a705918b0c2e786c080b290a6b4d",
+            "message": "Change from CRLF to LF",
+            "insertions": 740,
+            "deletions": 740
+          },
+          {
+            "hash": "0bbf8accc9715e07d7236194587689b7f44c2a20",
+            "message": "Please codacy a bit",
+            "insertions": 31,
+            "deletions": 12
+          },
+          {
+            "hash": "0eab39afb3a60546b176ac94d0c165d2db12abaa",
+            "message": "More coverage for AddCustomer and AddBooking",
+            "insertions": 158,
+            "deletions": 130
+          },
+          {
+            "hash": "89b84cc479da23b0ea740a0bfb50159a6ec16fcc",
+            "message": "Remove println",
+            "insertions": 0,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 1433,
-    "sreycodes": 9343,
-    "Tejas2805": 1293,
-    "nerrons": 477
+    "ZhangCX10032": 3719,
+    "sreycodes": 10437,
+    "Tejas2805": 2549,
+    "nerrons": 1263
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 523472.06,
-    "sreycodes": 3.4150772E7,
-    "Tejas2805": 87843.49,
-    "nerrons": 118723.81
+    "ZhangCX10032": 811674.9,
+    "sreycodes": 2.8356546E7,
+    "Tejas2805": 104797.96,
+    "nerrons": 247354.45
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

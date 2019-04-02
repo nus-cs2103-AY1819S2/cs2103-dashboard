@@ -56,10 +56,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 43,
+        "deletions": 41,
         "date": "2019-02-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "62fed48d6d1eaee46bf9927b01f02c24e0a027de",
+            "message": "Add temporary storage",
+            "insertions": 17,
+            "deletions": 1
+          },
+          {
+            "hash": "4327e8d5897f23488c9ee98603041e7945e9e29d",
+            "message": "Update README.adoc",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "33f9d230464d2bc8b63b1d0a5cacd86a9bc500ba",
+            "message": "Update ContactUs and AboutUs.",
+            "insertions": 21,
+            "deletions": 32
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -140,16 +159,30 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 22,
+        "deletions": 22,
         "date": "2019-03-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f7944b7a4e5666535be52b20528334d6063683d4",
+            "message": "v1.1",
+            "insertions": 22,
+            "deletions": 22
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 4,
         "date": "2019-03-06",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "205f73738cf82f1bf405b7907225cf33347d1e1d",
+            "message": "Updating photos and UI",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -158,8 +191,8 @@
         "commitResults": []
       },
       {
-        "insertions": 3,
-        "deletions": 5,
+        "insertions": 7,
+        "deletions": 9,
         "date": "2019-03-08",
         "commitResults": [
           {
@@ -173,6 +206,12 @@
             "message": "Update README.adoc",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "267dbcdca3185452a8cae68d5d2f175321e75f91",
+            "message": "Minor changes to images",
+            "insertions": 4,
+            "deletions": 4
           }
         ]
       },
@@ -195,10 +234,59 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 190,
+        "deletions": 152,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4de93aedf16249225d329b7cfd043eee04d55392",
+            "message": "Add Review class to Model",
+            "insertions": 50,
+            "deletions": 2
+          },
+          {
+            "hash": "c8fec5988f21730f54972883253363321c321458",
+            "message": "Updating addReview to logic",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "a80bd93005a5b5f3808f033eb22babc62aff7fd8",
+            "message": "Updating addReview to Logic",
+            "insertions": 107,
+            "deletions": 26
+          },
+          {
+            "hash": "d25715105e474d04171735c62f7973154af8a050",
+            "message": "delete redundant class",
+            "insertions": 0,
+            "deletions": 110
+          },
+          {
+            "hash": "ea7ab96dfd16041a91984e13909856d428591fa9",
+            "message": "trying to pass style test",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "5866d002c5e4087653fc7b1d791ea56b7c2a58c7",
+            "message": "trying to pass travis",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "af7b9d3e09be627bc54630b8b5ebdf49d84d8dac",
+            "message": "trying to pass style test again",
+            "insertions": 18,
+            "deletions": 10
+          },
+          {
+            "hash": "7695eb4bd3ec724ce38d05df927d297f8115a91d",
+            "message": "trying desperately to pass travis",
+            "insertions": 8,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -225,10 +313,89 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 851,
+        "deletions": 303,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "feec36c26615975c61186d539d37ace63feb9508",
+            "message": "Implement AddReview command",
+            "insertions": 433,
+            "deletions": 79
+          },
+          {
+            "hash": "7c286d5028a072fa3f24278d805e6ac984f2af2d",
+            "message": "Trying to pass style check",
+            "insertions": 18,
+            "deletions": 11
+          },
+          {
+            "hash": "ce214c5160669b6e23a8bd4e8e128cbded2d3cf3",
+            "message": "trying to pass style check desperately",
+            "insertions": 23,
+            "deletions": 3
+          },
+          {
+            "hash": "24df149522a9046a0e58ceda9481befa8ebb8406",
+            "message": "Update DeveloperGuide and UserGuide",
+            "insertions": 47,
+            "deletions": 10
+          },
+          {
+            "hash": "9f8cea767416ec78af6325c91a47abaed31c261b",
+            "message": "Trying to pass style check very desperately",
+            "insertions": 18,
+            "deletions": 18
+          },
+          {
+            "hash": "a5eca0045aa2dcbc6d69a2bd350bd43237ca6818",
+            "message": "Trying to pass style check very desperately",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "4ecd5c1f8b4176ee578ceb818e33cc4bfd2c7c67",
+            "message": "import lexicalgraphic order",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "480c80cd50b213ea0bb425a12f54250829f79f26",
+            "message": "Add Review related tests",
+            "insertions": 122,
+            "deletions": 3
+          },
+          {
+            "hash": "598d94b5ae4ba41fab3a5206c892a882c662c424",
+            "message": "just try",
+            "insertions": 43,
+            "deletions": 23
+          },
+          {
+            "hash": "617e961bead564602d05b3908b725dba16d3d5e3",
+            "message": "tryyyyyyyyyyyyyyyyy",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "6a4942c901a8e814879a01220a9c5b2e05454eab",
+            "message": "still trying",
+            "insertions": 68,
+            "deletions": 68
+          },
+          {
+            "hash": "5ee3b70e8640dbe17aa62edc595520a72c39077f",
+            "message": "still trying harrrrrrrrrd",
+            "insertions": 0,
+            "deletions": 12
+          },
+          {
+            "hash": "e0587a360b1ccdd1689df5c95738bc106555284c",
+            "message": "....",
+            "insertions": 68,
+            "deletions": 68
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -273,16 +440,294 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 262,
+        "deletions": 106,
         "date": "2019-03-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7fa410b8c9fd3254abbd2531bd4530363874475a",
+            "message": "update tests",
+            "insertions": 96,
+            "deletions": 74
+          },
+          {
+            "hash": "4bc6543ab838dd2079f5b3abc0d9dceb5a167bad",
+            "message": "update addreviewcommand test",
+            "insertions": 33,
+            "deletions": 6
+          },
+          {
+            "hash": "7ea8c4d54268698f0bf1f25126eb56f7783c6695",
+            "message": "Update ListReview command",
+            "insertions": 32,
+            "deletions": 21
+          },
+          {
+            "hash": "72201531502c51233c69aee96784b9479a1e6cb2",
+            "message": "Minor update to UI",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "6f231b0a0c939d77f62828cc0c068f2f7a3bd23f",
+            "message": "Adjustments to UI",
+            "insertions": 93,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 984,
+        "deletions": 220,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "7cb99be984b7e8dfe7a226e807a8c8a6e9e7bd81",
+            "message": "Implement review UI",
+            "insertions": 589,
+            "deletions": 69
+          },
+          {
+            "hash": "15d5adb3d96786dd72fe022fd591077b8772b0d1",
+            "message": "addReview working",
+            "insertions": 119,
+            "deletions": 15
+          },
+          {
+            "hash": "f2013216f610d58147d7436f997208aa876eb407",
+            "message": "minor updates",
+            "insertions": 47,
+            "deletions": 111
+          },
+          {
+            "hash": "2e3ccf1a244aa09690cc7f523ecb6bdc44a49ea7",
+            "message": "Adjust the representation of date",
+            "insertions": 229,
+            "deletions": 25
+          }
+        ]
+      },
+      {
+        "insertions": 107,
+        "deletions": 92,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "fb53d3c9eeb4da3db70a15b772ebaa18e093aa48",
+            "message": "Complete support addReview and deleteReview",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d69aff8c8788c6594698685db2ba5947cdc558c6",
+            "message": "style check",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "c6068d0535a047bc3f9392f360a433e55c854977",
+            "message": "style check",
+            "insertions": 2,
+            "deletions": 9
+          },
+          {
+            "hash": "be94e39c28b543b2aa5b7574c0d36587b241b91c",
+            "message": "style check",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "34204f7dd947584cbecfd8be0ca966a8c89f3ef1",
+            "message": "style",
+            "insertions": 21,
+            "deletions": 13
+          },
+          {
+            "hash": "53b42d6f8a4e6e55667ef80bee2f6cb004cd6101",
+            "message": "style check",
+            "insertions": 43,
+            "deletions": 35
+          },
+          {
+            "hash": "eae8dee80c1109459e7bdbea2f28c8837c576441",
+            "message": "style check",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "97d6cc09abbb0ccb9e44d6442814db48226e47d4",
+            "message": "add null check for review constructor",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "476dd47155d1ee6b932201e6423ca5f4ea9bda31",
+            "message": "implement selectReview",
+            "insertions": 28,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 159,
+        "deletions": 151,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "9e03c29d0bc859fc229d3569e6aaeff337f9691c",
+            "message": "1. 选中书 Review会在右边出来 2. 选中Review会在右边出来 3. list all review 4. 删除书会自动删除Review 5. 不存在的书没办法加review 6. window size 7. reviewmessage constraint",
+            "insertions": 111,
+            "deletions": 36
+          },
+          {
+            "hash": "7cec427903bd91d2524dfaa6ee87f1386576a80a",
+            "message": "style check",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "cf170e08123e59a316335b0aa059341f4a954ed4",
+            "message": "style check",
+            "insertions": 10,
+            "deletions": 59
+          },
+          {
+            "hash": "5f3ebbd20b4c365b0a7b12cbf9db75b934821358",
+            "message": "style check",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "135dd30b41a9d44a9ce0d605e440be676db23ece",
+            "message": "new line at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4014e05b33fd04d3b153c07c617932af46afa718",
+            "message": "style check",
+            "insertions": 19,
+            "deletions": 30
+          },
+          {
+            "hash": "7b791daddc36d6bfdefa3626d298eac6cf4ea321",
+            "message": "new line at EOF",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "b23482911852d2692a48fc461407dd5c0be60c8b",
+            "message": "bug fix",
+            "insertions": 2,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 1,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "cc897f197437a58f25a3d4bcd8150abae624a790",
+            "message": "new line at EOF",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 1364,
+        "deletions": 30,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "f26b06ee874ca5117e860c95f15b84bb32b1d73b",
+            "message": "Model Tests: 1. ReviewTest 2. UniqueReviewListTest 3. ReviewBookNameContainsExactKeywordsPredicateTest",
+            "insertions": 320,
+            "deletions": 3
+          },
+          {
+            "hash": "379bce72db61d905cef5cf504b8284b6fdeaaf77",
+            "message": "Parser Tests: 4. AddReviewCommandParserTest 5. DeleteReviewCommandParserTest 6. ListReviewCommandParserTest",
+            "insertions": 55,
+            "deletions": 7
+          },
+          {
+            "hash": "acce21bd2b65b80e5406b528919ca2b02ea69636",
+            "message": "SelectReviewCommand, parser, and relevant tests",
+            "insertions": 112,
+            "deletions": 0
+          },
+          {
+            "hash": "89ad3b55a70630e06998d613255779894b4cab12",
+            "message": "Fixed config.json missing line feed at EOF problem",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "9ab773d588113d068b5995b5a08755b2174e6596",
+            "message": "Command Tests 8. AddReviewCommandTest 9. DeleteReviewCommandTest 10.ListReviewCommandTest 11.SelectReviewCommandTest 12.ListAllReviewsCommandTest",
+            "insertions": 669,
+            "deletions": 0
+          },
+          {
+            "hash": "64a75d5880991537fe1de3739f66caed5da95d37",
+            "message": "UI Tests 13. BookBrowserPanelTest 14. ReviewListPanelTest 15. ReviewCardTest",
+            "insertions": 203,
+            "deletions": 14
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 278,
+        "deletions": 433,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "ce1383a07023b1f9d2f574c7bcdb86b3c4dd50aa",
+            "message": "style check",
+            "insertions": 273,
+            "deletions": 204
+          },
+          {
+            "hash": "14255c36dac24a059a29a7c4d603544e553632fa",
+            "message": "style check",
+            "insertions": 0,
+            "deletions": 225
+          },
+          {
+            "hash": "a7f72f2cab3b2aa27a64ad93b7adffb537c9ee0c",
+            "message": "style check",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "3a9a84c10533c27031ff7887de369176e76cf424",
+            "message": "style check",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 195,
+        "deletions": 7,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "f67383f11307c584ea7bbb08ef2207f3952e1fe5",
+            "message": "EditBook compatibility; Update docs",
+            "insertions": 195,
+            "deletions": 7
+          }
+        ]
       }
     ],
     "Jiangqinhua": [
@@ -347,10 +792,59 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 156,
+        "deletions": 24,
         "date": "2019-02-20",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4f847d6cb85bc914fa8fa02439283d6030884eb5",
+            "message": "Add tag color",
+            "insertions": 74,
+            "deletions": 1
+          },
+          {
+            "hash": "6a603ee676f107c84d29534684a86b9157a28f00",
+            "message": "Add test to color tags",
+            "insertions": 61,
+            "deletions": 2
+          },
+          {
+            "hash": "3a34087b332f4964be2ed7ca3c21abf907ebb39c",
+            "message": "Update DarkTheme.css",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f68124a0b3c851c0b41670d7e6cbca3438453a44",
+            "message": "Update AboutUs",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7dc3eecb4b5d5c75f76f3481cceab8c1daa7b884",
+            "message": "Update ContactUs.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6eed842be60f5fef04a0bcf68c12c843304065c4",
+            "message": "Update ContactUs.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a0beea3b7be572bae709fe88e7fbf1344ba5fb58",
+            "message": "Update PersonCard.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1faed0e2984b163098c9d846580b7fe6ea61ea08",
+            "message": "Update GuiTestAssert.java",
+            "insertions": 15,
+            "deletions": 15
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -395,10 +889,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 27,
+        "deletions": 5,
         "date": "2019-02-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "dcfa7976d8567be9b4a21c2b96a50c0959ed7b53",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "3c793919c16e2c9e6cfb22e29272e99348d55991",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -413,10 +920,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3,
+        "deletions": 3,
         "date": "2019-03-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "65efc5d422eeef947b9e10a1691fa9c7f5e42f74",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "75e4716b482d42660d6b1e45516f9b73b372f3bc",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -467,16 +987,36 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 104,
+        "deletions": 104,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "41e43f5e6d1e4f6ac24806b0158c07767861b5af",
+            "message": "update undo and redo",
+            "insertions": 103,
+            "deletions": 103
+          },
+          {
+            "hash": "bead7524609e385c17937ab71e85e1b441fe58c1",
+            "message": "Update AddReviewCommand.java",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
+        "insertions": 4,
         "deletions": 0,
         "date": "2019-03-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d48196a876b157afbb6b550b879d34e8b41b6146",
+            "message": "fix bug for undo redo",
+            "insertions": 4,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -497,34 +1037,213 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 578,
+        "deletions": 225,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7c6cc3a07b6a058b18273c2d363570a680395283",
+            "message": "update UI class",
+            "insertions": 45,
+            "deletions": 1
+          },
+          {
+            "hash": "951db8700c32565636b1445796ed8a9adc605c56",
+            "message": "update GUI",
+            "insertions": 202,
+            "deletions": 15
+          },
+          {
+            "hash": "0f51aee3b79ea9dcedcfe3f244ac0583290ecf62",
+            "message": "sepreate book class with person class",
+            "insertions": 68,
+            "deletions": 25
+          },
+          {
+            "hash": "76b45c77e755d43a816460a529c33011964bed8e",
+            "message": "Update MainWindowBook.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ade616bf60964c8bea831afd249da8f35d075f0b",
+            "message": "Update BrowserBookPanel.java",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "66210db573f97d4912dcad22690115765738b703",
+            "message": "Update MainWindowBook.java",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "278fdb80b710c5c730dde87232f98fa6255a80a0",
+            "message": "update UI",
+            "insertions": 9,
+            "deletions": 8
+          },
+          {
+            "hash": "540979d89eab470b1972665210cfbd663db30a33",
+            "message": "try to fix style",
+            "insertions": 4,
+            "deletions": 8
+          },
+          {
+            "hash": "99f239824140ffd5c328f2012a652c39726b8de1",
+            "message": "Update BrowserBookPanel.java",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "226f3089e73003fc9973eb7be5756e39fd45d236",
+            "message": "fix bug",
+            "insertions": 10,
+            "deletions": 11
+          },
+          {
+            "hash": "2206d980c8792e5e5e1c4b05750abd114de20a85",
+            "message": "Update BrowserBookPanel.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2bf5e0d6a3a2c3308a80de3130b386dd9fe06478",
+            "message": "update UI",
+            "insertions": 217,
+            "deletions": 131
+          },
+          {
+            "hash": "90318453f0d631104ebaa7289c433b2d0b74856c",
+            "message": "update UI",
+            "insertions": 8,
+            "deletions": 9
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 89,
+        "deletions": 90,
         "date": "2019-03-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "816608a172f8689e9f87ddb75260b68b98264f9f",
+            "message": "fix space problem",
+            "insertions": 60,
+            "deletions": 60
+          },
+          {
+            "hash": "899af5858e354a1d910dad97d29a865f5decee69",
+            "message": "fix space issue",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "5a30a78c884a3dde78567aa416628aa72f093b05",
+            "message": "fix space issue",
+            "insertions": 17,
+            "deletions": 17
+          },
+          {
+            "hash": "96c8d5fe9911c56a261c20178d08b960226f125d",
+            "message": "fix space issue",
+            "insertions": 3,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2827,
+        "deletions": 1221,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9e00c6380277d8be0fdb943013246901aa3f8ddf",
+            "message": "Update UI test",
+            "insertions": 1611,
+            "deletions": 49
+          },
+          {
+            "hash": "972bf27eb663432c044dd30e84af86e6bcf9affd",
+            "message": "Update BookBrowserPanelHandle.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ab80891f02d0a0815250e044caab832ef450c329",
+            "message": "update UI",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "857477ddcd803d36624b895a940a07cb6c2fbba4",
+            "message": "change tab to space",
+            "insertions": 446,
+            "deletions": 446
+          },
+          {
+            "hash": "7fb7f667227f7f36c975582ec51bd05cf7acddcf",
+            "message": "fix space",
+            "insertions": 685,
+            "deletions": 641
+          },
+          {
+            "hash": "ccecf0a22d7400e01054aa961049f2f15e74a2ce",
+            "message": "change UI",
+            "insertions": 70,
+            "deletions": 70
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 159,
+        "deletions": 165,
         "date": "2019-03-20",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d6e439034c2dced67363edf8cb7b769c8df7d4c9",
+            "message": "fix bug",
+            "insertions": 94,
+            "deletions": 81
+          },
+          {
+            "hash": "4f76efe2e7b93aade408eef78d3f2161517cb552",
+            "message": "Update BookShelfSystemTest.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ac21b7b5f3d0e7512eeaa76429599a04cc3028cb",
+            "message": "fix bug",
+            "insertions": 47,
+            "deletions": 34
+          },
+          {
+            "hash": "1f71f633057e57e59849230b422f58607184b9df",
+            "message": "update UI and test",
+            "insertions": 10,
+            "deletions": 41
+          },
+          {
+            "hash": "639e83eb1c07381da63d099d811a163f76041e39",
+            "message": "fix sytle issues",
+            "insertions": 7,
+            "deletions": 8
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 5,
         "date": "2019-03-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ef2dac2d1279ee282a5ce1e2c12775830c226f0d",
+            "message": "fix bugs",
+            "insertions": 4,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -565,8 +1284,8 @@
         "commitResults": []
       },
       {
-        "insertions": 174,
-        "deletions": 46,
+        "insertions": 395,
+        "deletions": 49,
         "date": "2019-03-26",
         "commitResults": [
           {
@@ -574,8 +1293,179 @@
             "message": "add sort function",
             "insertions": 174,
             "deletions": 46
+          },
+          {
+            "hash": "7d262f37eeebd912ff68602974484cfd6185f420",
+            "message": "update test case for sort",
+            "insertions": 221,
+            "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 96,
+        "deletions": 33,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "a7390557f2c60a91d43af838ac393f8b42145b0b",
+            "message": "update UserGuide",
+            "insertions": 61,
+            "deletions": 27
+          },
+          {
+            "hash": "5a4a9d13f5646b66d453480eadbbd9b4f1d491cb",
+            "message": "Update UserGuide.adoc",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4c97c6cb648f4378f67cabe1cd8b8566dc2bfed6",
+            "message": "update reposense",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "26007cf7aca73e7b273a9f577891d7bd1c036bd2",
+            "message": "Update config.json",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "1a008f7d0bc1dcbfe16a288fc8d290b8d8d2ed48",
+            "message": "update config",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "9038267afb307dcced76bc5a3532449c378ec882",
+            "message": "Update SortBookCommand.java",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 771,
+        "deletions": 311,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "22614729dec84c0f93dcd7fc4f1c1127c443059f",
+            "message": "individual sort order",
+            "insertions": 290,
+            "deletions": 82
+          },
+          {
+            "hash": "7e25c1f28c190f64bd0d731b1f6ccf3726877d73",
+            "message": "Update UniqueBookList.java",
+            "insertions": 22,
+            "deletions": 52
+          },
+          {
+            "hash": "4ae28a86bf8e01db39456b56d069795db77782b8",
+            "message": "update sort function",
+            "insertions": 150,
+            "deletions": 50
+          },
+          {
+            "hash": "98c6c7051476204076e4b92df36b1b6864df59fe",
+            "message": "update sort function",
+            "insertions": 298,
+            "deletions": 119
+          },
+          {
+            "hash": "ea1843d3693230a6ff2d34313b3a097dd36878da",
+            "message": "fix style",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "ebc384d84deacbf4dae8b78c12128d54c9f95ed2",
+            "message": "Update UniqueBookList.java",
+            "insertions": 3,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 151,
+        "deletions": 139,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "cf2cd72c2ebe0b024f9ee73e159399a126d93eaa",
+            "message": "update sort",
+            "insertions": 105,
+            "deletions": 86
+          },
+          {
+            "hash": "b65985a83a597450307c109cf52165b4117601be",
+            "message": "Update config.json",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "45f001ba8afbf2e858c9ff50328fc1a84971aa15",
+            "message": "Update BookShelfParserTest.java",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "449d5682334fc1be3d5c25923f9cf4ec44c8a5a3",
+            "message": "bug fix",
+            "insertions": 23,
+            "deletions": 24
+          },
+          {
+            "hash": "74aea875bf3871973f92250b79f739438cc37f32",
+            "message": "Update BookShelfParserTest.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d6ad82487710e8b3ba81666858e379e6977ca7c0",
+            "message": "Update BookShelfParserTest.java",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "fd72b7fce1b40a340711dca48860a64b347deed8",
+            "message": "Update SortBookCommand.java",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "cb8850748ad3566843c7dabb76234c1cd44f92b7",
+            "message": "fix bugs",
+            "insertions": 16,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "EleenYang": [
@@ -1116,6 +2006,157 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 223,
+        "deletions": 55,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "0117af79aa27d48bb65528353e3f6ca68f008a5b",
+            "message": "update the storage part for reviews",
+            "insertions": 106,
+            "deletions": 2
+          },
+          {
+            "hash": "0de886d0b772bb5bbd1e32fac0385bcef70a534e",
+            "message": "modify storage part",
+            "insertions": 117,
+            "deletions": 53
+          }
+        ]
+      },
+      {
+        "insertions": 158,
+        "deletions": 18,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "fe9c9ac00e4442c3273b63723824125d11895f74",
+            "message": "update test files for storage",
+            "insertions": 158,
+            "deletions": 17
+          },
+          {
+            "hash": "72745193fcb0e1f7fad8052836d3f390f0657995",
+            "message": "fix codingstyle",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 28,
+        "deletions": 5,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "6e443a58a4cb02101dbe6568ffef2d8453246fbf",
+            "message": "update sample data",
+            "insertions": 28,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 27,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "c7a24b14b1a20994f77f9583c93a0b30b8f5ff63",
+            "message": "update data constraints",
+            "insertions": 48,
+            "deletions": 27
+          }
+        ]
+      },
+      {
+        "insertions": 482,
+        "deletions": 59,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "a420e0f69a96b44ddf1164ed83b44d213807c2c2",
+            "message": "update the summary feature",
+            "insertions": 366,
+            "deletions": 0
+          },
+          {
+            "hash": "71b99d1d965d45abcf000159f8d55561fe885d3d",
+            "message": "update tests for summary",
+            "insertions": 39,
+            "deletions": 5
+          },
+          {
+            "hash": "a50994e6d7f2269aab4d5de51f5c1babe32cd8a2",
+            "message": "update the user guide",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "eb37495e14ccb6f1c458889880366efd2032e70f",
+            "message": "update userguide",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "53f930602e825f090ca8c2091d6242b94bda4d88",
+            "message": "fix style",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8561bc5468cfd1a21b3d88856b1b67c50cdf3e6c",
+            "message": "fix style problems",
+            "insertions": 59,
+            "deletions": 48
+          }
+        ]
+      },
+      {
+        "insertions": 6,
+        "deletions": 6,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "d9e01d631c9eb9c7c659284803fe6b03f92ae1b0",
+            "message": "Update config.json",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "62fbe13ac7bf3eb6d300cf097199038bb85c75d5",
+            "message": "fix coding style",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 21,
+        "deletions": 8,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "fc0e3c44fc4e4c63c0521dcf1bd0e68695d181e7",
+            "message": "update summary command",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "296aece02b4b71332c3e9be0c30ac7cfeb4fa369",
+            "message": "update user doc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5a3de62c55a6d8fcaeb0af8f485a2a71ee6ea383",
+            "message": "update the developer guide (diagram)",
+            "insertions": 7,
+            "deletions": 7
+          }
+        ]
       }
     ],
     "0blivious": [
@@ -1809,24 +2850,275 @@
         "commitResults": []
       },
       {
+        "insertions": 16,
+        "deletions": 17,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "50dfdd70ce8b8cf64d5c332acd6d57fc570bcb32",
+            "message": "minor fix",
+            "insertions": 16,
+            "deletions": 17
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-27",
         "commitResults": []
+      },
+      {
+        "insertions": 418,
+        "deletions": 8182,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "c9f024e2e556d88004527834fb67f27fb74c36c6",
+            "message": "update system test to remove person",
+            "insertions": 77,
+            "deletions": 1395
+          },
+          {
+            "hash": "75916bb7e2974981c8f7fd9e4656e809b18cb62d",
+            "message": "minor fix for author",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "0b0318527a525ade7dfc9d684dccd023e1b62dc3",
+            "message": "remove person",
+            "insertions": 326,
+            "deletions": 6764
+          },
+          {
+            "hash": "d87d13a243c1d03975881d2056afdb3aebc4d235",
+            "message": "style fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "88183e3907754ecbf991cf81eff84ea45db00d47",
+            "message": "bug fix",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "986233ecb17522d051c669ace394aa62f945de52",
+            "message": "style fix",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "f7bd70772d2596d3074275c12fb1e9d3c8e0ea11",
+            "message": "style fix",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "f9e63cab8ef001fa7ee5726cf3a833e341d75f58",
+            "message": "style fix",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "4ec081f909b86b872da894eb6dd21b4c37a74a13",
+            "message": "style fix",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "23254a1047d4b6f373fa7d6e73980bc8565fc673",
+            "message": "bug fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "040b3b30281dea9e01b0ab89b616cb3b2f38fa7c",
+            "message": "no message",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "1e9230e22bbf01c725aaff7880c9774151ef5bfb",
+            "message": "style fix",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 95,
+        "deletions": 78,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "54b3f7a9a16ea0d351cab42b3c4bf82acc53338b",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4294547baf5517238df7a7e7ad0c4945512f45a6",
+            "message": "update to show review of a certain book when click",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "f85e09bc82cb90602b3e4566af611d30464f880c",
+            "message": "style fix",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "23e7a5a0df0617832a3dbf02b71dc06ef11bc825",
+            "message": "update systemtest to reflect selectbook",
+            "insertions": 78,
+            "deletions": 60
+          },
+          {
+            "hash": "48617c3f43bcc1e531ca68ce86714a6e5d90bdef",
+            "message": "EOF",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "e6cdb5a3971431c4aa44f4501790202b1cf0e154",
+            "message": "style fix",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "c3bb9c78025024496bacce434326fd917afe4fda",
+            "message": "style fix",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "e32891e2a79c85113b3f4420955dc8ca11f04bd0",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "336893296c95f3e173f2ad911a561a7e07396836",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6be42a826c312548402ed476d653850091e2303e",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9342bb961b5156ba96745de712770078d6c4f875",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 81,
+        "deletions": 69,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "11d924c2870c80fc24229873aa533d806eeb5920",
+            "message": "update UG",
+            "insertions": 71,
+            "deletions": 59
+          },
+          {
+            "hash": "c17785e1efa554028da752ed816921b0eab4f1ee",
+            "message": "style fix",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "ed86c55a94284b59aae1f84e144e976111d2c5c3",
+            "message": "style fix",
+            "insertions": 8,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 234,
+        "deletions": 374,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "77af150ca40f5b4b4f3a8b2e08ec18b8e57e9ee9",
+            "message": "update DG",
+            "insertions": 19,
+            "deletions": 315
+          },
+          {
+            "hash": "3cbab076ed63ed123b49b6a5a3182e7352ca4aaa",
+            "message": "PPP",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "53bb9de262f776dd470cc246588dfca82d4e5d70",
+            "message": "update PPP",
+            "insertions": 29,
+            "deletions": 45
+          },
+          {
+            "hash": "caa0f3dfae4ad49687ade5858a0f11bc21306fb0",
+            "message": "fix",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "190495d62cc14c6b9bf01cf168ff810f453ad05e",
+            "message": "test",
+            "insertions": 59,
+            "deletions": 2
+          },
+          {
+            "hash": "27122081dbb90e849cd46b04d3894abc7b8628d7",
+            "message": "test",
+            "insertions": 44,
+            "deletions": 1
+          },
+          {
+            "hash": "25fc34da50a7d4998c04e27591ac2d8253c375da",
+            "message": "upload UG and PPP",
+            "insertions": 70,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Miaaaaa97": 9,
-    "Jiangqinhua": 195,
-    "EleenYang": 2812,
-    "0blivious": 4581
+    "Miaaaaa97": 2873,
+    "Jiangqinhua": 1588,
+    "EleenYang": 3373,
+    "0blivious": 4613
   },
   "authorContributionVariance": {
-    "Miaaaaa97": 1.3906173,
-    "Jiangqinhua": 1083.7253,
-    "EleenYang": 95477.72,
-    "0blivious": 248651.64
+    "Miaaaaa97": 95518.58,
+    "Jiangqinhua": 337505.53,
+    "EleenYang": 87207.91,
+    "0blivious": 1556630.9
   },
   "authorDisplayNameMap": {
     "Miaaaaa97": "ZHA...EZE",

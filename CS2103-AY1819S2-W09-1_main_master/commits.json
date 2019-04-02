@@ -422,6 +422,74 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 209,
+        "deletions": 187,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "c040ec24f8a6c28f0d59f2d371b7185e702bff81",
+            "message": "Add ModuleSemester class",
+            "insertions": 189,
+            "deletions": 169
+          },
+          {
+            "hash": "863869c5ff24b4bd9f0d28a69e1f81574dac6195",
+            "message": "Fix for checkStyle",
+            "insertions": 19,
+            "deletions": 17
+          },
+          {
+            "hash": "c2109c94f8cd332fdcc4e36899c4b90bf3cc8655",
+            "message": "Fix for checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 509,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "7d2cfeabec9999ef4be328d7dec934a56fedf39f",
+            "message": "Add UniqueModuleSemesterList",
+            "insertions": 509,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "shimeilee": [
@@ -858,16 +926,170 @@
         "commitResults": []
       },
       {
+        "insertions": 194,
+        "deletions": 68,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "0216c9ebc7eae2c8804f572e8ea43bdad5f18c2b",
+            "message": "Improving Note class by modularising into more classes",
+            "insertions": 83,
+            "deletions": 38
+          },
+          {
+            "hash": "552746e307a6a00c00335babbf2f9aa18d977335",
+            "message": "Amended Note package to include exceptions",
+            "insertions": 111,
+            "deletions": 30
+          }
+        ]
+      },
+      {
+        "insertions": 719,
+        "deletions": 190,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "26cde5c909ebfcd7a1debab74e3c7d515d8895c4",
+            "message": "Updated Note package to import ModuleCode class instead. Amended UniqueNoteList class.",
+            "insertions": 100,
+            "deletions": 102
+          },
+          {
+            "hash": "94369d942eaec70a04fb5ca7bc7d14035a91b614",
+            "message": "Added NoteListCard.fxml",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "abd6dfdd1c3c88137f6b344c90e2b36f6c33c51c",
+            "message": "Refactored NoteNameContainsKeywordsPredicate class, removed Tags from Note class",
+            "insertions": 9,
+            "deletions": 14
+          },
+          {
+            "hash": "ae659f3988f03ed571ca74403201deac62ecd67e",
+            "message": "Added JsonAdaptedNote class",
+            "insertions": 89,
+            "deletions": 0
+          },
+          {
+            "hash": "6279a5ac25fd9c4efebdc6f4c6425b4ad679e6ef",
+            "message": "Added prefixes for Note class",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "4b2eeffc511c2648a147d455f876f4ef4ab2ad50",
+            "message": "Added AddNoteCommand and AddNoteCommandParser",
+            "insertions": 90,
+            "deletions": 34
+          },
+          {
+            "hash": "c22e2b583a43826d7db9cae6e4b8d4c117287e45",
+            "message": "Added AddNoteCommand",
+            "insertions": 36,
+            "deletions": 3
+          },
+          {
+            "hash": "64050b4eb3abdb3e422bfdab13d8b975fa9b0273",
+            "message": "Added AddNoteCommand",
+            "insertions": 273,
+            "deletions": 21
+          },
+          {
+            "hash": "692ccf10c15aca2fe6c6238016004cf236e09d94",
+            "message": "Implemented storage for Note",
+            "insertions": 16,
+            "deletions": 5
+          },
+          {
+            "hash": "bf885349befb34ed1d513de13c201f9cb75efbe5",
+            "message": "Fixed checkstyle errors",
+            "insertions": 4,
+            "deletions": 8
+          },
+          {
+            "hash": "89f911f9cab556c6a5d0ed2e4cc9de61ba97e591",
+            "message": "added tests",
+            "insertions": 59,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-25",
+        "date": "2019-03-27",
         "commitResults": []
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-28",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 97,
+        "deletions": 1,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "eac611d5b233a9880d8223aadbf317881a7da227",
+            "message": "Added deleteNoteCommand and deleteNoteCommandParser",
+            "insertions": 90,
+            "deletions": 0
+          },
+          {
+            "hash": "8e55f248d71c8c05657b5e7de17674a3c21b0b64",
+            "message": "Minor bug fix UserGuide. Changed Cap entry to Note.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cff51abfcaf3b3914602d3bd5098064081ba9adb",
+            "message": "Added Message for DeleteNote invalid index and Command for UltiStudent Parser",
+            "insertions": 6,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 76,
+        "deletions": 71,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "3bcfb54f0fbe08c2029a03f18360ac9578c1a9cf",
+            "message": "Removed data encryption portion for checkstyle",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "f1281d6186f9d0c4d9fceaa082c09f2efc6656ae",
+            "message": "Updated UserGuide with the latest commands and description for specific managers.",
+            "insertions": 76,
+            "deletions": 67
+          }
+        ]
       }
     ],
     "LimZhengJieBenjamin": [
@@ -1334,6 +1556,177 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 303,
+        "deletions": 27,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "361c84b05760d901a092376d3187b77e380acd66",
+            "message": "Edited error in Invalid homework entry message.",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "d35bd409eef50bfd6f7930d66f540871031fc88a",
+            "message": "Added EditHomeworkCommand class.",
+            "insertions": 189,
+            "deletions": 0
+          },
+          {
+            "hash": "892b44d50917e883fb86b61ce55f16ca1b2baa31",
+            "message": "Added EditHomeworkParser class.",
+            "insertions": 81,
+            "deletions": 0
+          },
+          {
+            "hash": "5d57d472341083ebd64ea7b98e0f425cad91f7db",
+            "message": "Updated switch case in UltiStudentParser parse in a EditHomeworkCommand.",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "f693f43e1e04e415f61ada3630725faa2d90a072",
+            "message": "Resolved conflicting code due to package refactoring from upstream.",
+            "insertions": 28,
+            "deletions": 27
+          }
+        ]
+      },
+      {
+        "insertions": 874,
+        "deletions": 61,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "2d2b8abd6f683406e3faefc210cac63199a68a84",
+            "message": "Corrected bugs in DeleteHomeworkCommand.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "62e2636192f269873e96eebdb9cece04882c8ea0",
+            "message": "Added new HomeworkNameContainsKeywordsPredicate class.",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "55605998662ca308a5dab2b4c003ac07aa0cb389",
+            "message": "Added new AddHomeworkCommandTest class used for the unit testing of the AddHomeworkCommand.",
+            "insertions": 398,
+            "deletions": 0
+          },
+          {
+            "hash": "3344f8d8590941cb01cb5996f90357420bc98fad",
+            "message": "Added showHomeworkAtIndex method in the CommandTestUtil class.",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "e4f2b29c1b4afca019b02af8c985773e6eb0a7af",
+            "message": "Added DeleteHomeworkCommandTest class which does testing on the DeleteHomeworkCommand.",
+            "insertions": 181,
+            "deletions": 0
+          },
+          {
+            "hash": "3dcad156ed723d9e0ef1fd02ccda6c0b1d297e96",
+            "message": "Added HomeworkBuilder class which creates a default list of Homework.",
+            "insertions": 64,
+            "deletions": 0
+          },
+          {
+            "hash": "ac4f46d6e44cfdbe612b34c4dca2e0ad10f70ee7",
+            "message": "Added TypicalHomework class which creates typical homework entries which are used for testing.",
+            "insertions": 73,
+            "deletions": 0
+          },
+          {
+            "hash": "49e655e1c0f00c5406e774930967a377ad30d0fc",
+            "message": "Refactored TypicalIndexes class to add homework index.",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "81bc348f21a7fd10bcd11d6af3e4aaffa166da30",
+            "message": "Edited DeleteHomeworkCommandTest.",
+            "insertions": 34,
+            "deletions": 30
+          },
+          {
+            "hash": "55b9831325a19d8902c279b92e2c2fedfa784f4c",
+            "message": "Made minor edits in DeveloperGuide and changed diagram.",
+            "insertions": 23,
+            "deletions": 28
+          },
+          {
+            "hash": "d4c0c48a7c8b5290d8c3b1f4370d7fe1ab0fe0a4",
+            "message": "Updated the ModelStub to fit changes for the CapManager.",
+            "insertions": 46,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 133,
+        "deletions": 1,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "d143668d4bca6c881bfb089ca9390e1c00f8b899",
+            "message": "Updated MESSAGE_CONSTRAINTS for the Date class.",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "dbbfb6cd77587dcad59070cecf04d3f60f98d8b8",
+            "message": "Added unit testing for the Date class.",
+            "insertions": 44,
+            "deletions": 0
+          },
+          {
+            "hash": "79ac4445d65c324a9f7ec36f1e180d1e84d8ada3",
+            "message": "Added unit testing for the HomeworkName class.",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "66135249e72ed828590c7f7374ee3e665e151230",
+            "message": "Added unit testing for the ModuleCode class.",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "1e6ad912ab005d5da735d152234f6a014387de0b",
+            "message": "Updated to remove checkstyle errors of an unused import.",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "NgWeiXin": [
@@ -1780,29 +2173,189 @@
       },
       {
         "insertions": 0,
-        "deletions": 0,
+        "deletions": 1,
         "date": "2019-03-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d9c2e6d0b51a29b31749f157145ed20f20800a0e",
+            "message": "Resolve merge conflict",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 4,
+        "deletions": 4,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "7bfd71ad45ba31b38f99d3aef47ead6ffbfc0113",
+            "message": "Fixed bugs in ModelManager and clean up Date class",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 3172,
+        "deletions": 3262,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "aa5bb9d2068234650af2c8b998528843df399571",
+            "message": "Fixed UI SubPanel",
+            "insertions": 310,
+            "deletions": 260
+          },
+          {
+            "hash": "960e099e67b4d3ea2a35ee3f5420718d4de68759",
+            "message": "Fixed NotesManager bugs",
+            "insertions": 13,
+            "deletions": 14
+          },
+          {
+            "hash": "30c1bea15b4763d70519e7c304d5789265196c9a",
+            "message": "Commented testcases that are redundant to UltiStudent",
+            "insertions": 1271,
+            "deletions": 1269
+          },
+          {
+            "hash": "d00561db3accd603f663d11030d43d93293f1c58",
+            "message": "Refracted seedu.address package to seedu.ultistudent",
+            "insertions": 1254,
+            "deletions": 1463
+          },
+          {
+            "hash": "ab17482a7bccaba331dbf5a66b0fdfbd3ab09c27",
+            "message": "UI changes and some visual bugs to be fixed",
+            "insertions": 167,
+            "deletions": 112
+          },
+          {
+            "hash": "17a6702b576e8490dfd85f4578547da222fb92cf",
+            "message": "Fixed checkstyle issues for CapManager View and Controller",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "b293c78266f1e685480706613ba8c198d735455d",
+            "message": "Fixed checkstyle issues",
+            "insertions": 153,
+            "deletions": 139
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 613,
+        "deletions": 393,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "0e42b0ee44125878b920287570a305b4aad5bc2d",
+            "message": "Added SelectNoteCommand",
+            "insertions": 47,
+            "deletions": 0
+          },
+          {
+            "hash": "e2676787732c37633a575177d7dbf5d4c7049ef1",
+            "message": "Added equality check for SelectNoteCommand",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "8faa7533491ba67a4c2dc04d0fda386c70627970",
+            "message": "Added SelectNoteCommandParser to support SelectNoteCommand",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "a7434de0a0cd60684a8f809e973080c1a5c7cfc6",
+            "message": "Added selectNoteCommand into parser",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "da2a364c39b759341388cfe026dfc9c3e00df4b6",
+            "message": "FXML for NotesManagerMainPanel",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "0e89623f20f25e564d3312eabf90e05fc19242d7",
+            "message": "Added view for CapManagerSubPanel and NotesManagerMainPanel",
+            "insertions": 325,
+            "deletions": 18
+          },
+          {
+            "hash": "2ebbf236a4ba0b9b2821588d600e4c7275aff2b5",
+            "message": "Added SaveNoteCommand and standardised add commands in UltiStudent",
+            "insertions": 68,
+            "deletions": 125
+          },
+          {
+            "hash": "b538f53c186e5f0c9ab5728a82da82db2a7f7209",
+            "message": "Fixed NotesManager bugs and edited AddCommand usage message.",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "91f6f26a9778437299bbf3fc377d2f55246c8fe1",
+            "message": "Commented out redundant testcases.",
+            "insertions": 107,
+            "deletions": 243
+          },
+          {
+            "hash": "7e22ca7157da70abb04cbd4b9e35a3e5b4773421",
+            "message": "Modified AddHomeworkCommandTest",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "andrewscw": 2093,
-    "shimeilee": 381,
-    "LimZhengJieBenjamin": 472,
-    "NgWeiXin": 1511
+    "andrewscw": 2430,
+    "shimeilee": 1131,
+    "LimZhengJieBenjamin": 1686,
+    "NgWeiXin": 4695
   },
   "authorContributionVariance": {
-    "andrewscw": 118759.07,
-    "shimeilee": 8009.1313,
-    "LimZhengJieBenjamin": 3575.485,
-    "NgWeiXin": 43571.02
+    "andrewscw": 108602.234,
+    "shimeilee": 22788.67,
+    "LimZhengJieBenjamin": 20670.473,
+    "NgWeiXin": 818457.94
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",

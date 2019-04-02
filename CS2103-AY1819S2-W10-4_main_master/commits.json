@@ -550,8 +550,8 @@
         ]
       },
       {
-        "insertions": 909,
-        "deletions": 693,
+        "insertions": 998,
+        "deletions": 799,
         "date": "2019-03-25",
         "commitResults": [
           {
@@ -601,6 +601,30 @@
             "message": "Add card count refresh for home directory",
             "insertions": 5,
             "deletions": 0
+          },
+          {
+            "hash": "18226259560435dbe7c644c9df700137e36a5e2c",
+            "message": "Refine logic for handling exceptions when reading data",
+            "insertions": 59,
+            "deletions": 31
+          },
+          {
+            "hash": "4eae9f7783cf3717b736303216c84495b8847d67",
+            "message": "Refactor storage methods and related tests",
+            "insertions": 14,
+            "deletions": 28
+          },
+          {
+            "hash": "a447c6ef155a0e3c52b1888466fb821569566072",
+            "message": "Address refactoring related TODOs",
+            "insertions": 9,
+            "deletions": 46
+          },
+          {
+            "hash": "4242280f4e84da0d3ba23ec0715d37abbc76c891",
+            "message": "Add folder thumbnail text for single card folders",
+            "insertions": 7,
+            "deletions": 1
           }
         ]
       },
@@ -609,6 +633,253 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 21,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "e179d5bcf7d34c0e0aea0987dad12d2cf4c4989b",
+            "message": "Remove Product Survey from Developer Guide",
+            "insertions": 0,
+            "deletions": 17
+          },
+          {
+            "hash": "f1cb2e39642cf3b49fb7de18d6e36a313126ce7a",
+            "message": "Remove redundant TODOs in tests",
+            "insertions": 0,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 244,
+        "deletions": 33,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "b4ceb4a7a0453ca24e8942e74680daa00860fd9e",
+            "message": "Fix issue with browserPanel not clearing",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "82f53948b1e215e6b657d378175d54e2fd24b8cc",
+            "message": "Add editfolder command",
+            "insertions": 224,
+            "deletions": 25
+          },
+          {
+            "hash": "823817bfb4b848c48af8c2d92213118ec1a7a4cc",
+            "message": "Refactor EditFolderCommandParser exception throwing",
+            "insertions": 9,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 417,
+        "deletions": 107,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "e5d00e37f18f2337a3dbf57ad5540834767a2b4b",
+            "message": "Update equality comparison in ModelManager",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "fd30c128d381d2baa68132cf87bc450e38281415",
+            "message": "Refactor setActiveCardFolderIndex() to enterFolder()",
+            "insertions": 65,
+            "deletions": 37
+          },
+          {
+            "hash": "0448a72c79e4e906833a24e44ed31635c0878216",
+            "message": "Add ChangeCommandTest",
+            "insertions": 70,
+            "deletions": 0
+          },
+          {
+            "hash": "15275e145bcf5880850146611ff7e9d2ec086528",
+            "message": "Update ChangeCommandTest to test for ChangeCommand equality",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "736bb60a0fbe1ca7e747c845e647951e9e828646",
+            "message": "Update User Guide, Developer Guide and add PPP",
+            "insertions": 244,
+            "deletions": 60
+          }
+        ]
+      },
+      {
+        "insertions": 142,
+        "deletions": 54,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "76ddb873d6fc0a5319262e3df903318066fb6608",
+            "message": "Fix checkstyle issues",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "8138b9eaa79ec6bb16cf40a0f0302784db67d559",
+            "message": "Refactor LogicManager",
+            "insertions": 19,
+            "deletions": 8
+          },
+          {
+            "hash": "08dc80e5ac5d7b275bb2491efe23c66ae4aa39d2",
+            "message": "Refactor StorageManager",
+            "insertions": 16,
+            "deletions": 6
+          },
+          {
+            "hash": "a41b2ebc73d2780b35054ea4b28e59aac3e11cc9",
+            "message": "Rename exitFoldersToHome() to exitFolderToHome()",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "8c5bfc1f45a2d155e513f441e2d9c03e5c94e097",
+            "message": "Add new diagrams for Developer Guide",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "f95ae156921d20124fd0f5d3e18c1b59a81266da",
+            "message": "Add missing javadoc",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "415d7a59da3597dfa850d80472400fd63188f5c6",
+            "message": "Add elaboration to logic section of folder implementation",
+            "insertions": 40,
+            "deletions": 5
+          },
+          {
+            "hash": "f1bd67ba60824372c84b66a6a692179d408da489",
+            "message": "Address problematic areas in docs",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "ccb713deda69be48d7ac52b7c107e4ef713875ed",
+            "message": "Add \u0027Navigating folders\u0027 to implementation section of Developer Guide",
+            "insertions": 28,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 95,
+        "deletions": 38,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "79eaa5d0c2ef272a1b1f653317b1b34cf23f7329",
+            "message": "Update implementation section of Developer Guide",
+            "insertions": 64,
+            "deletions": 8
+          },
+          {
+            "hash": "0feeb484d47f589e2860abcb84d89923fd2a5b3b",
+            "message": "Tidied up recent additions to Developer Guide",
+            "insertions": 25,
+            "deletions": 24
+          },
+          {
+            "hash": "07925ba9cfac672c89888fc4fee51605172c5783",
+            "message": "Refactor enterFolder() argument name",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "55efdb62f6e41a1cef76e10282bbd0ce108ef990",
+            "message": "Remove trailing whitespace",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 60,
+        "deletions": 328,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "2b0afcb55bfae76fdbc539c51b33e26be4753327",
+            "message": "Remove \u0027Getting started with programming\u0027 from appendix and add glossary",
+            "insertions": 28,
+            "deletions": 295
+          },
+          {
+            "hash": "850bce4f2ee212ff922ed3e3fc9bb436152c4efd",
+            "message": "Comment out comments",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "57a4342de8efc121bd7b8d9fb64c5a7c0b09b809",
+            "message": "Remove trailing whitespace",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "3982293d4b42f3d776c4b139952be53fe2afcb4f",
+            "message": "Comment out more comments",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "00edebd42f921552cfcbb15479c875039fd95159",
+            "message": "Comment out even MORE comments",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "12302beba94087974f91b948b835b9aed77c28c5",
+            "message": "Update sample data and fix bug with saving folders",
+            "insertions": 13,
+            "deletions": 19
+          },
+          {
+            "hash": "509aabf1d91fcd9d7f41eb6463d5f222a9aa4b2f",
+            "message": "Update name of jar file built to \u0027knowitall\u0027",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 120,
+        "deletions": 19,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "2d37f73593662ea4ff9ff2bea9a1ba81e4327996",
+            "message": "Change app starting state to be at home directory",
+            "insertions": 108,
+            "deletions": 14
+          },
+          {
+            "hash": "8e86df9ec71c509def31273aa2662c22de474f40",
+            "message": "Apply suggestions from code review",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "df7e0f68c646c37875b0c4b6a1314a8086c56cf5",
+            "message": "Fixed indentation error",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "yichong96": [
@@ -1105,10 +1376,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 152,
+        "deletions": 43,
         "date": "2019-03-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "88ebdf16b218664d01cd58dc9c1f1bae20e25299",
+            "message": " change parser implementation of export command",
+            "insertions": 55,
+            "deletions": 12
+          },
+          {
+            "hash": "0c1f9b90bf510057fe6bdfc2983199f479e53f1b",
+            "message": "reimplement export card folder for model",
+            "insertions": 9,
+            "deletions": 11
+          },
+          {
+            "hash": "b280cdd42dba51100c8e2098bf4e7d9c0e9262a1",
+            "message": "change return card folder value",
+            "insertions": 22,
+            "deletions": 1
+          },
+          {
+            "hash": "b1c2f85721283ce0c152be200a1c0bebb1192cb7",
+            "message": "change write to csv implementation",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "aee056ff62bbaf7760deb6252e7f8089086ad99a",
+            "message": "change parser exception handling method",
+            "insertions": 38,
+            "deletions": 17
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1129,15 +1431,424 @@
         "commitResults": []
       },
       {
+        "insertions": 116,
+        "deletions": 239,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "6f3c5d84a3f587ccb56154870de70a4293d0a1a0",
+            "message": "change parser command test",
+            "insertions": 23,
+            "deletions": 31
+          },
+          {
+            "hash": "f9c389fa2b379e9367702a4a90580a91eb0ac054",
+            "message": "delete old export implementation",
+            "insertions": 14,
+            "deletions": 115
+          },
+          {
+            "hash": "3ac1d52211bb6fec81b71b66d90ef3baf8e0ae05",
+            "message": "delete CSV implementation of export",
+            "insertions": 3,
+            "deletions": 32
+          },
+          {
+            "hash": "e0e018b1d23650fa1da0a4d80d83827891f74f7c",
+            "message": "delete CSV export old export command implementation",
+            "insertions": 3,
+            "deletions": 32
+          },
+          {
+            "hash": "7dd389522d7dfda69c1a54ba1460e4f5a2e31e0b",
+            "message": "add csvManager to import",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b76bdbd58b9baa5abfa653adc5b0808e31388437",
+            "message": "add logic for file import",
+            "insertions": 32,
+            "deletions": 3
+          },
+          {
+            "hash": "996e804d910f894f5b671b9810bb62cfe299dee9",
+            "message": "make import method throw CommandException",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "b3121ada8a20560e0a0be4967648708efe12bf14",
+            "message": "implement check for file headers",
+            "insertions": 29,
+            "deletions": 23
+          },
+          {
+            "hash": "e5be0802ad7b35b272097914935b824d615dda1b",
+            "message": "update file exists for import",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 260,
+        "deletions": 73,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "9a5c3d1cb506b4266553bbac7a9bab23795770e0",
+            "message": "add build card method from import",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
+            "hash": "0c1e2703316e25dccf05cef90b33487159e54f0f",
+            "message": "implement logic for import command",
+            "insertions": 15,
+            "deletions": 9
+          },
+          {
+            "hash": "85bcdb9593cbc2f9af5edd78eeadb0bd70f22c35",
+            "message": "check logic for import",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "4be63cb21a12cc77ecfce63933345e3c3f8958d3",
+            "message": "implement parser test for import command",
+            "insertions": 42,
+            "deletions": 10
+          },
+          {
+            "hash": "ce6c7b0991162e76f97d6e720e44ac64e6fa20ac",
+            "message": "refactor CsvFile.filename to CsvFile.csvFile",
+            "insertions": 13,
+            "deletions": 7
+          },
+          {
+            "hash": "e1a98e0522d561aa690c4280015e7a442198a537",
+            "message": "add equals method to import command",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "8504bc8f5ffda06d9c57a6357e04a9baf0829aee",
+            "message": "implement import command parser tests",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "9e3cbaa8d3996adcbbeef2a222a42f8ed260a304",
+            "message": "remove unnecessary import statements",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "500b982c3def8fb9b73ac5d47f0df7751b1f2420",
+            "message": "implement partial export command test",
+            "insertions": 51,
+            "deletions": 10
+          },
+          {
+            "hash": "deb65e5d727bb3e8c0f5a2b3e07e5eff49fb948d",
+            "message": "add export single card folder success and failure methods",
+            "insertions": 35,
+            "deletions": 12
+          },
+          {
+            "hash": "fbe2ceb889169ca494aa4f846a738c0139e51239",
+            "message": "implement base import command tester class",
+            "insertions": 36,
+            "deletions": 0
+          },
+          {
+            "hash": "8089bf891adb87578970de7e9b429bc14ba95bd2",
+            "message": "add import success message",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f7f65038257399783715ec4fd2aa2e399ccfb387",
+            "message": "add return command result for import command",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c62e412614461c9e36898d103d0638d62b01ec60",
+            "message": "add import typical cards success test",
+            "insertions": 18,
+            "deletions": 2
+          },
+          {
+            "hash": "c95aae3b753d8ea266f976ded0924638a015fb31",
+            "message": "add import non existent csv file",
+            "insertions": 14,
+            "deletions": 5
+          },
+          {
+            "hash": "daffdebb1b994ecf13f65ad285486a6dae072598",
+            "message": "add @after for deletion of temp file",
+            "insertions": 7,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 120,
+        "deletions": 25,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "9f018d0132c1306e2ef75580f46dd46fe6fe035b",
+            "message": "add sample folder csv test file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ade3c99bd011e2c040c62679a39702ed348a0c87",
+            "message": "add model method to change default csv path",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "58f5c7d4de71b557920ace965a20892068324ef5",
+            "message": "change implementation of default path in CsvManager",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "b49609200d01820a0f9e5920d49f91a562223433",
+            "message": "make model throw IOException in csvManager init",
+            "insertions": 9,
+            "deletions": 8
+          },
+          {
+            "hash": "2c7edbe3f2b8f3159e9d45349ebe1c8b352f500f",
+            "message": "variable to decide if folder name is test",
+            "insertions": 21,
+            "deletions": 3
+          },
+          {
+            "hash": "fa05b57d06be6a7ff229d117e328ebe95f561e24",
+            "message": "implement check export file correct test",
+            "insertions": 20,
+            "deletions": 6
+          },
+          {
+            "hash": "c897dca7bab6915c305f6f329a1fb47e5bef69b5",
+            "message": "add default file path const variable",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "ac566c9505ff0acef945b5780f4b4579a2c9d10e",
+            "message": "add new CsvManager not initliazed exception",
+            "insertions": 23,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 193,
+        "deletions": 72,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "c0b37c932f9f304d31367b1b1b5bae56431baf3b",
+            "message": "change implementation of IOException for csv manager",
+            "insertions": 30,
+            "deletions": 19
+          },
+          {
+            "hash": "7f29dd90952c2c34e7b55492f6a8c69accfff843",
+            "message": "implement method for export option",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "684a84b35c5fa21e4a9c524c756b42204f73ca34",
+            "message": "add parseOptions method for export",
+            "insertions": 17,
+            "deletions": 6
+          },
+          {
+            "hash": "615de9e4e2a05ebf2c524529c93660c8167de946",
+            "message": "add parse hints method for csv manager",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "ce3246cca47fc57bb4fe3af0fc508b75560ed07b",
+            "message": "refactor parsing of card attributes",
+            "insertions": 14,
+            "deletions": 8
+          },
+          {
+            "hash": "e52421fc0938710f3ed892acab49b5ff6bfc3a1c",
+            "message": "refactor code and add option header",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "0dd3fd5a3394d122828bcba4cc0c8264b95d4de1",
+            "message": "add method to build options for import",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "bd95e50c556e843e96fb28a329d6a30f0385e1bd",
+            "message": "add method to build hint for import",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "ac150409b2cf97fdf2143eafc0e8b1ce6f200a77",
+            "message": "integrate new build methods to headers",
+            "insertions": 9,
+            "deletions": 11
+          },
+          {
+            "hash": "c3fb14c7b9226be073098423b3a344c703019eb5",
+            "message": "add method to check same cards regardless of score when testing file import",
+            "insertions": 46,
+            "deletions": 3
+          },
+          {
+            "hash": "cf6ad1b371e14109ecefc9e74c6a6b1a0e119336",
+            "message": "fix test case failure for checking file outputs",
+            "insertions": 13,
+            "deletions": 10
+          },
+          {
+            "hash": "42905c7b2f48779718f457e3bb9d407830695e42",
+            "message": "refactor methods and variables",
+            "insertions": 24,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 291,
+        "deletions": 314,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "89218da250955decb763d20f6bdaaced543037a1",
+            "message": "port import command methods over to csvFileTest",
+            "insertions": 42,
+            "deletions": 9
+          },
+          {
+            "hash": "bac9f6b6d630ff612f2b49e5b0b38038e85ecb89",
+            "message": "refactor CsvFileTest to import command test",
+            "insertions": 90,
+            "deletions": 158
+          },
+          {
+            "hash": "a3f4d2928ebda7a4a0a79466cafaad15f0d83a61",
+            "message": "fix checkstlye errors",
+            "insertions": 119,
+            "deletions": 84
+          },
+          {
+            "hash": "8b861198e02dbbc70195037779894cc87ca769d3",
+            "message": "add invalid command inside folder for import and export",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "097f9d20a886ad5d766230ee33375e113c246fe8",
+            "message": "deleted unused class and methods",
+            "insertions": 0,
+            "deletions": 46
+          },
+          {
+            "hash": "245f8b1feb97a274a27be62fdc790db3932cc1c6",
+            "message": "add incorrect csv file header message",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "81e69ed016ad8bb610bd6fd88f9077a534b589c6",
+            "message": "change import command test assertion to use jUnit assertions",
+            "insertions": 14,
+            "deletions": 12
+          },
+          {
+            "hash": "c9fa374418785332f3f7416fc49d1b973b97c283",
+            "message": "add change to home dir for model in imp/exp test",
+            "insertions": 12,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 140,
+        "deletions": 35,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "a46f88378b63d586dbf977d4cae8912ac5566481",
+            "message": "add import/export use cases",
+            "insertions": 46,
+            "deletions": 11
+          },
+          {
+            "hash": "ff9b89754d4e4b72704fdd3fb4c0886ec46867da",
+            "message": "add blood.csv png file",
+            "insertions": 33,
+            "deletions": 6
+          },
+          {
+            "hash": "e20e8e8943070c01a1e754f9617045b2c040d288",
+            "message": "add csv file implementation",
+            "insertions": 14,
+            "deletions": 17
+          },
+          {
+            "hash": "dff815368cf08f517f7fcb1eedebe479bfe16d83",
+            "message": "add design considerations import/export",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "f113ca6343b40a75db90f6fdcb8b8238a08c9849",
+            "message": "add non functional requirement",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 10,
+        "deletions": 5,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "fe484da7a0bb398de078d04bec9d7feeb5260bda",
+            "message": "add csv file image in userguide",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "518ce6d11758b91ddb6bbc86faef235a962d5b61",
+            "message": "change import/export impcomments",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-25",
+        "date": "2019-04-01",
         "commitResults": []
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -1783,10 +2494,22 @@
         ]
       },
       {
-        "insertions": 161,
-        "deletions": 269,
+        "insertions": 516,
+        "deletions": 356,
         "date": "2019-03-26",
         "commitResults": [
+          {
+            "hash": "654107f920525934addf3144e26d4d3ad7e0c857",
+            "message": "add new boolean for command result",
+            "insertions": 24,
+            "deletions": 11
+          },
+          {
+            "hash": "1df86279e3aa36cbc0b2d4062fa30e8e1f4d4ffc",
+            "message": "add initial report command",
+            "insertions": 89,
+            "deletions": 0
+          },
           {
             "hash": "2773ee6e60d4fbc107ace33cb19de5b8fc9afaff",
             "message": "make one big refactor",
@@ -1810,6 +2533,352 @@
             "message": "delete answercommandreusltype",
             "insertions": 0,
             "deletions": 8
+          },
+          {
+            "hash": "7a5d134fee95f7e34ff4bc8e44bf00cdc79a9ef2",
+            "message": "Revert \"add new boolean for command result\"",
+            "insertions": 11,
+            "deletions": 24
+          },
+          {
+            "hash": "d1f25a3a506705c7d6991001d0d15ea6c2ca67c1",
+            "message": "add bool to detect in test session in model",
+            "insertions": 20,
+            "deletions": 6
+          },
+          {
+            "hash": "b56ae54a4dcff350242637879494256f3fa43312",
+            "message": "add support for END so that can end report too",
+            "insertions": 12,
+            "deletions": 3
+          },
+          {
+            "hash": "c42218b9019491d2dd3bb3100c921d4be77bbe89",
+            "message": "add new commandresult for entering exiting report",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "fbcbb8b2fda40b88e6eed0d240b2be2a08d88076",
+            "message": "change error messages",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "326d1d6c4d78309d2ee6ff7f2370a30bd69eb6d9",
+            "message": "refactor model checking if in report",
+            "insertions": 12,
+            "deletions": 5
+          },
+          {
+            "hash": "9e67e2fad3de456615fc5aa595f0e0c27fbfe468",
+            "message": "add basic graph function",
+            "insertions": 63,
+            "deletions": 5
+          },
+          {
+            "hash": "02fd5caa274578bac1bcde6bc278e08ec46d9225",
+            "message": "add new param to tell which cardfolder to report",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "959e6e721d71335cbf789c66cc72a59343818b7a",
+            "message": "fix bugs",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "be2a5c5a823a745bf182d5cfc5776345aea49ea8",
+            "message": "abstract some methods out",
+            "insertions": 26,
+            "deletions": 9
+          },
+          {
+            "hash": "a0f6953f44847158b61b36e3aac6a796894f156e",
+            "message": "add new label fields",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "75ebaa7f8bda6e10c59475ae4f5ed91eec243af5",
+            "message": "add model stubs",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "faa22081a8e152c08d17add439801f6543d88760",
+            "message": "fix renaming of warning messages",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "d429e2890d5aa98fc9518206e418c6009a2980a1",
+            "message": "add exception for using report command in report",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "96b0c09ed7c3e4ac39ce2d71fbff8ccdf4d1e098",
+            "message": "add report command unit test",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "353ab2be8784986fd8bd7d6dc963e8b076612e93",
+            "message": "rename test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "23500d211413cdd3ba6b392ce18003203717e05f",
+            "message": "change ug for report to only report without index",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "330e940a7096b00a0c095ccddabe08f0b05c599b",
+            "message": "add to ug expanded use of END command",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "dce1c457859752ce918ec6d318eb25c704068c57",
+            "message": "fix very serious error that could\u0027ve destroyed us",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 76,
+        "deletions": 8,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "d51800f20e282a6a76bcee8d5b960a34a4333c64",
+            "message": "rename",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e477eb8d473752a3bf6b56e43c2939fbfcbe8f15",
+            "message": "add missing break",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "44cd4b02b111743e84a1c8455f7a889733d07b15",
+            "message": "fix wrong size displayed",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "194b4dc5a3b09f1e6b4724628ef8077d68c8b29c",
+            "message": "add check for inside folder before report",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "15338b410bdbc4819342e49ab32d6d190ee8e879",
+            "message": "add line showing performance change",
+            "insertions": 66,
+            "deletions": 4
+          },
+          {
+            "hash": "9c51621ee9db2b62ff6758609f15b806174c4fc9",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 1434,
+        "deletions": 1390,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "90b658ce2c90a01c955d85a940c11c09a2157230",
+            "message": "move report to folder ops",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "d6a52f486b949d84187a64b69d9b82d8b746fc3d",
+            "message": "fix another almost disastrous bug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e26e513fec9447050664995be773ab38423f0beb",
+            "message": "add note for ending report",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "f5e5e6466c9b07f03440fec3d7fbb00430d8fbb2",
+            "message": "Revert move",
+            "insertions": 6,
+            "deletions": 10
+          },
+          {
+            "hash": "b67b29f23e0850b992e76514b2b2d05335dbdea3",
+            "message": "refactor package name",
+            "insertions": 1344,
+            "deletions": 1344
+          },
+          {
+            "hash": "7315a95fd184048f778e7588464a74dc6734c0bd",
+            "message": "rename main app to know it all",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d85d7b0d1bafa8280bb1d8cf0f083b9cb651f8d5",
+            "message": "change application logo to knowitall logo",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b1d555587c144ede418eaa937888e31ca02efb0a",
+            "message": "update readme with images and stuff",
+            "insertions": 36,
+            "deletions": 3
+          },
+          {
+            "hash": "dbeb5d3a8fc782c764e8937f5ed4c1543b5cfd67",
+            "message": "update readme",
+            "insertions": 32,
+            "deletions": 21
+          }
+        ]
+      },
+      {
+        "insertions": 101,
+        "deletions": 72,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "0e1197b78850549a20cdc9199b9ae7032c9607fc",
+            "message": "make report command its own section",
+            "insertions": 25,
+            "deletions": 2
+          },
+          {
+            "hash": "af664d67ad0f4f94fef55312a392bd0a8e1e8d5b",
+            "message": "remove mention of user performance",
+            "insertions": 23,
+            "deletions": 16
+          },
+          {
+            "hash": "9be899d8aa2e18d1bc15eed5d2e78d6658176151",
+            "message": "fix failed test due to rename of img",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "43172598aa1ada88370aba6d4911e11bddecbb92",
+            "message": "whitespace fix",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "2bfa43f979d2fb8f65df9761a1948ea54051df91",
+            "message": "add note tag",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "6782f4b7b630338d2b3154602e5000c8ebbfed39",
+            "message": "add rename to knowitall for dev guide as well",
+            "insertions": 48,
+            "deletions": 48
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 153,
+        "deletions": 173,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "2c62e057f16a94860d7272839361cc349f8d98cf",
+            "message": "add first of refactor",
+            "insertions": 27,
+            "deletions": 42
+          },
+          {
+            "hash": "f8ce3bb257305857d6c1dbf42b7623ce59c7840c",
+            "message": "refactor all state checks to use getState",
+            "insertions": 47,
+            "deletions": 30
+          },
+          {
+            "hash": "ba051eb0873eaf71700556eaede1586e5d834f49",
+            "message": "add new model method to stubs",
+            "insertions": 13,
+            "deletions": 18
+          },
+          {
+            "hash": "089bbacb21f846090c21c0ec0a78eb46c462a4e9",
+            "message": "refactor test exception messages",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "9a044541dee3150dcebcf39d3fc42fe8e13db832",
+            "message": "remove unneeded messages",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "eeca7d45266e9115e854512d037b5c105654aeca",
+            "message": "add exception for list",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "c0e96b5627cf4613b3ea8f518c4f23dd09ee1a10",
+            "message": "refactor documentation to show new cmd locations",
+            "insertions": 30,
+            "deletions": 21
+          },
+          {
+            "hash": "48822bea3befa07c623991770233252f2cd7a097",
+            "message": "refactor endcommand display text",
+            "insertions": 9,
+            "deletions": 21
+          },
+          {
+            "hash": "7f09403d03d3d7069e7af99d5b32f3bcd71f7004",
+            "message": "update search cmd doc to card operation",
+            "insertions": 8,
+            "deletions": 18
+          },
+          {
+            "hash": "c670099059ad09435382a8742081a6bcdf4420f4",
+            "message": "fix switchcase indentation",
+            "insertions": 8,
+            "deletions": 9
           }
         ]
       }
@@ -2687,16 +3756,580 @@
         "commitResults": []
       },
       {
+        "insertions": 72,
+        "deletions": 14,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "7609ddd2ca4968cae5252df2cbe807b467fdf7ae",
+            "message": "Shift selected card to not test session related in modelManager",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "903c5374ce5a368125215e0338510b10ba5f997d",
+            "message": "End command to implicitly exit folder to home",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "7e30b6c5554145b9ba6ebb395cb8ff8eaae1a2f6",
+            "message": "Update End Command test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3cbacd5cb1548e73c2a09c8211eae994c7322329",
+            "message": "Add next command skeleton code",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "b6d11852fc6d0007a31640038c17420a4857c133",
+            "message": "Update Command Parser",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "3cd4a51b9077ee030ab5c6318470b1b23820a22d",
+            "message": "Introduce currentTestedCardFolder and currentTestedCardIndex - to keep track of the state in test session",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "d3ff2646af515cc6759da820b9592134339b5f84",
+            "message": "Update testCardFolder and endTestSession methods - to use currentTestedCardFolder and currentTestedCardIndex",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "1841a29e487a1e976644ae4f9659106e75122195",
+            "message": "Test command now implicitly sorts the cards in the folder - tests are also updated to reflect this change",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "8f451cba93e9be798ea82288f6545d02e5a69359",
+            "message": "Add testNextCard method in modelManager to get the next card",
+            "insertions": 20,
+            "deletions": 1
+          },
+          {
+            "hash": "51682b4392a92afe3dce85c53e20900d81dba6eb",
+            "message": "Shift implicit commands to be called from within model methods - enter folder and sort cards for test command - exit folder for end command",
+            "insertions": 4,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 332,
+        "deletions": 259,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "789b1d88e022038e687d396ee14ac02eb14f2573",
+            "message": "Add Empty card folder exception - primarily to be used when test command is invalid on a empty card folder",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "c782b5967bf4d32f4e2e59e6f3d1ecf13e0bf9ed",
+            "message": "Add new Message invalid command on empty folder",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "e5d15d1626a6f63c32d3a09c7c3c715200e241ea",
+            "message": "Add check to test method to handle empty card folder",
+            "insertions": 15,
+            "deletions": 7
+          },
+          {
+            "hash": "72f3e271f38b33ff4d9d9f2adef07b2ed090eff9",
+            "message": "Implement next command execute method",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "e24236900946b459590eac81f59e8aace3240f0c",
+            "message": "Add a isStartTestSession variable to command result",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "678c5512282fd785eaafb041da5d3ced9c14da2a",
+            "message": "reset cardAlreadyAnswered value on next command call",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "6c86cdd661e1e70a972f0841d5ecd68df6c8594b",
+            "message": "Add UI method for next command",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "24ae9fc58d3761ea3ff0da68903b8671e982e4c5",
+            "message": "Update methods related to testSessionCard and isTestSession - to differentiate a test and next command - test command will have isStartTestSession set to true and a testSessionCard that is not null - next command will have isStartTestSession set to false and a testSessionCard that is not null",
+            "insertions": 20,
+            "deletions": 6
+          },
+          {
+            "hash": "2fb6f32ebcc0f843461f45057b06d37005db02e0",
+            "message": "test command will have isStartTestSession as true and testSessionCard that is not null",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "9fcb00ca226f7280012166f318245d862de7dee3",
+            "message": "next command will have isStartTestSession as false and a testSessionCard that is not null",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6a745384162f8ba1e159591f46e5cbb02399b3ea",
+            "message": "Update CommandResult in other commands and tests",
+            "insertions": 35,
+            "deletions": 27
+          },
+          {
+            "hash": "2ad8511cc58d801651d8aff1e79abdaff443ff15",
+            "message": "Remove TODO and comments",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "35aa6d98ad267a1d7030303a3601657c12088277",
+            "message": "Allow next command to be valid only after answering current question.",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "94ae2a9d1ea6edf1832ff0405aa76c4b5146fe78",
+            "message": "Refactor testSessionCard in CommandResult to startTestSession",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "c9b856793253499a5173dd33153e649c4f47a54a",
+            "message": "Add new Enum SHOW_NEXT_CARD for next command",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "f0295e65b16a082b440719bc0ac8c373c3dd30e8",
+            "message": "Link Next Command to change in UI",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "e5e729bb7d96562f58454e644fb8ff1e9214a81f",
+            "message": "Make test command invalid on an empty folder",
+            "insertions": 11,
+            "deletions": 18
+          },
+          {
+            "hash": "6346c56565efdd4ae21d3513e53cf01bd5f22fc8",
+            "message": "Update testCommand test after commandResult refactoring",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "ba2da6b13de7f4ef6c5d35da7d4b94be294ef4c2",
+            "message": "next command on a last card will behave like an end command",
+            "insertions": 18,
+            "deletions": 5
+          },
+          {
+            "hash": "f96061a06d9767030c44eca245e2e84cfbadcd98",
+            "message": "Add tests for nextCommand",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "d1b505e20ed7ff2a0dd4d01a9bb33ea9760f853a",
+            "message": "make test command valid only in home directory",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "41a04dcc557dfacaddfba158bd7b7c7314b30421",
+            "message": "Revert \"make test command valid only in home directory\"",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "3ef206df5f2f1a49cc95da996dfabfad356354ec",
+            "message": "fix checkstyle",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "065ddc930e15467e93bc332cb9f4e58a795d8a5f",
+            "message": "Update fig 3, 5, 6 in DG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "ef925017fd0dbca84b0456c81a0a20742c158a66",
+            "message": "Update test command and shift timer feature to v2.0 milestone :)",
+            "insertions": 30,
+            "deletions": 11
+          },
+          {
+            "hash": "f227c3607066c1c08686415d4adcf59dbe97b77a",
+            "message": "Fix typo in UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cbe5bd9e496926b9e8cd419d5d0f8d9f2931c948",
+            "message": "Add image for next command in UG",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "a964898764521ed8e22f6549809daa805e5d5e7b",
+            "message": "Remove entering and exiting folder codes from test and end implementation",
+            "insertions": 3,
+            "deletions": 6
+          },
+          {
+            "hash": "02beb4aea0e7c7374eb33636f66401e34c01845d",
+            "message": "Update tests to reflect this change in testCardFolder()",
+            "insertions": 24,
+            "deletions": 15
+          },
+          {
+            "hash": "eff9fcec4b77b9d2764f0f0801ca2e4892f8e0e7",
+            "message": "Remove index parsed by test command",
+            "insertions": 8,
+            "deletions": 99
+          },
+          {
+            "hash": "ec7dff25be68a75c548ea522d849b02891638bc2",
+            "message": "Add check that test is valid from only within a folder",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "3632123015cc3f061de51f37e7cd05ea4a075bcb",
+            "message": "Remove unnecessary lines",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "dce686be3c2a0616b9fe5d3ed4a610297fa99f26",
+            "message": "Add test to check for infolder before test command executes",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "d76234a88a1ad8f62fe3832333ff298a2c68d114",
+            "message": "Refactor messages so they are standardised",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "9242eda548da025c8046f6d04f783447933030eb",
+            "message": "FIx checkstyle",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "81ccdf13dbdf9b763e482a013a7dbab4ca88f0ff",
+            "message": "Fix more checktyle",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-25",
+        "date": "2019-03-27",
         "commitResults": []
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-28",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 66,
+        "deletions": 52,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "14950343cdfae8a9570fc56bf36d017fc5f4e951",
+            "message": "Shift report from folder operations to card operations",
+            "insertions": 7,
+            "deletions": 10
+          },
+          {
+            "hash": "30625bf03ced37a32fb8facf7ebb94639c26c1e9",
+            "message": "Tag reveal command to be coming in v 1.4 - for upcoming mock testing session",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5f632d2223c7ff4b1313490ca3dc62945ee1d1b5",
+            "message": "Add blank space after images",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "6797e1108c758ad73599ab3653e84d5e00283d3f",
+            "message": "Add blank space after images properly",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "f2e106dc40a2f956a2ccfa96cb424a05da213d6f",
+            "message": "Add blank space after nextCommand image",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "7cb886ec94f72d162208fd8f5df5640e1b372a45",
+            "message": "Update equality comparison in modelManager",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "a3e161b311fc77f571ddbdb580546b8f3b31a4b3",
+            "message": "Fix bug from modelManager equality",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "a03288649cb94d49aef7b9199c87c8027b2500b6",
+            "message": "Refactor test session variables to be more readable",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "31bcf21666cb995eefa987c116ac1a630da59808",
+            "message": "Fix bug due to extra ;",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4181b190198db6fffcb1c8165cdcba44f9caa4f0",
+            "message": "Update javadoc for test command",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6a7f13ae6c38c07e09b21cd73895ac5d97306723",
+            "message": "Update the variables used in test session in DG",
+            "insertions": 31,
+            "deletions": 21
+          }
+        ]
+      },
+      {
+        "insertions": 558,
+        "deletions": 311,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "143258f7db9708605d4e5f2c0eb791e8e716581b",
+            "message": "Refactor test session variables back to previous - prevent confusion with inFolder and isInFolder() method",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "c2ba69bc2e4a0fa7fc58fb000cebf96bf3f551a8",
+            "message": "Refactor test session boolean methods to follow standard - to the form of \u0027isInsideTestSession()\u0027 and \u0027isCardAlreadyAnswered()\u0027",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "2a417ab82f915a8a2dbb27d906b7905cd63920b9",
+            "message": "change insideTestSession to inTestSession",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "0b3698fdef8ffedd337ded3de918265c2b2497c2",
+            "message": "Update test command example usage in DG",
+            "insertions": 61,
+            "deletions": 37
+          },
+          {
+            "hash": "f7d002d5c4217bbe43162131c7e045061075d5ba",
+            "message": "Add test command sequence diagram",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "09cbdcd872cf5c3d75deed6b0180d2b2ee296b09",
+            "message": "Fix formatting for test command",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "09a8dae98a0f4b05c3f4b1d25086bf7f8b4b3ce6",
+            "message": "Update end command example in DG",
+            "insertions": 29,
+            "deletions": 18
+          },
+          {
+            "hash": "75ff44fc4cf5d4f6696ea1a3b64a467a826c1b03",
+            "message": "Add design considerations for DG - for overall implementation - for test/end command",
+            "insertions": 51,
+            "deletions": 6
+          },
+          {
+            "hash": "cbf6e66ec451efbb969010b4b422dadffd80eab7",
+            "message": "Add answer command current implementation and example in DG",
+            "insertions": 81,
+            "deletions": 4
+          },
+          {
+            "hash": "3bdf9165d53371c2c5f49f1fd90d9c010829ace2",
+            "message": "Add next command implementation",
+            "insertions": 91,
+            "deletions": 19
+          },
+          {
+            "hash": "3a0205530fc111c62afc3ef753cd22de1e6937a1",
+            "message": "Add design considerations for next command in DG",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "8bedd2e854147c05296325b100fa92b2f7be11ca",
+            "message": "Fix formatting and small edits",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "20c495008c8f6876294519c2ffa74aff7223d992",
+            "message": "Shift folders implementation details to before that of test session",
+            "insertions": 174,
+            "deletions": 173
+          }
+        ]
+      },
+      {
+        "insertions": 84,
+        "deletions": 8,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "95ca6081309267e95f644a00eba6c3d3b14c2a22",
+            "message": "Add PPP and its relevant tags in UG and DG",
+            "insertions": 79,
+            "deletions": 1
+          },
+          {
+            "hash": "b13b06e8faab074c7d4be6af929adace7b454062",
+            "message": "Remove extra space",
+            "insertions": 4,
+            "deletions": 6
+          },
+          {
+            "hash": "08f2be647bddde83a7620f13c23c45d21edb4479",
+            "message": "Add link to jar file in UG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 171,
+        "deletions": 157,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "7b9f5e67be6db489f44bfae7b8453b5c8568b8bc",
+            "message": "Shift search, import and export to card operations in UG - no longer global operations",
+            "insertions": 26,
+            "deletions": 26
+          },
+          {
+            "hash": "391ef96765a8307ce9b3db142efad9d310f894f7",
+            "message": "Shift import and export to folder operations in UG - they can be executed only in the home directory",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "87e1c0fd0187a99777495aea84d9f58454c78225",
+            "message": "Add note in test command that its invalid on empty folders in UG",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "01e2fd01c8bd3e8aa49784da23a86906d21b12b6",
+            "message": "Update AboutUs page roles",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "7b320132bc9705ba8927bba8ef33a75395518d48",
+            "message": "Remove extra error message",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "011ae5515521ca0a8f4805dd2204a31fc7b09584",
+            "message": "Add limit commands usage in UG",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "9ca023efef3b23e5ed0ad87eb1c4da6bec1d7abf",
+            "message": "Personalise PPP",
+            "insertions": 63,
+            "deletions": 43
+          },
+          {
+            "hash": "964033f846e345924d48f1dc936f494d60df3a8d",
+            "message": "Fix UG format in features heading",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "0198a7c33e4c340a508532ed460ab5638e6d245e",
+            "message": "Fix phrasing and typo in PPP",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "ff29cd17ac7930de039a48ca070964052c0a0a8e",
+            "message": "Modify \u0027About\u0027 to \u0027how to use this guide\u0027 and standardise info in UG - add legend of icons and format - standardise to the form of Command explanation, outcome image, format, things to note and lastly examples.",
+            "insertions": 34,
+            "deletions": 24
+          },
+          {
+            "hash": "ded4e48edb6eda0aa70dc6f1c02bac1ac9e9330d",
+            "message": "Remove repeat of search/import and export in UG",
+            "insertions": 0,
+            "deletions": 24
+          },
+          {
+            "hash": "324fc0b9b6430e3f469b1be3cee58b012248d6b8",
+            "message": "Make images in test operations in UG smaller - width of 600",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "87c538db126d8416e080a398a814cde75a0a6f00",
+            "message": "Fix small little typo",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "mmdlow": [
@@ -3411,26 +5044,439 @@
         "commitResults": []
       },
       {
+        "insertions": 393,
+        "deletions": 75,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "d0b8da0af65a6df02acb81422132629929b784e8",
+            "message": "Update validation regex for hints",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "86105fa4197c91f0215e0ec187fd19766beed8c0",
+            "message": "Fix JavaDoc errors",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "75912491845c26f384cea7e5405d1f9948328085",
+            "message": "Add Option class for MCQs",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "f8091d372a4771e46a1a1568c175f7557a9546f3",
+            "message": "Add CLI Prefix for Option",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "31d5db19a0e9efa4a2a9a902739f4cf8b80e4f50",
+            "message": "Update AddCommand message usage for MCQs",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "5b6b21df5375afe6f7cf2718f44d3f63fc5fd210",
+            "message": "Add parseOption methods in ParserUtil",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "0201b1e52fdc776e81d9ac33d85b272f3ae5e15a",
+            "message": "Implement fields and methods for options in Card",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "2bf582cef263af05e6693d7365afe8dd3541f549",
+            "message": "Create JsonAdaptedOption class",
+            "insertions": 47,
+            "deletions": 0
+          },
+          {
+            "hash": "d5276903684461cf249382929a030cd53ac1d1b2",
+            "message": "Refactor PREFIX_INVALID_OPTION to PREFIX_OPTION",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8f144bfd1819a599f5ea76107cbb52d71d43a719",
+            "message": "Add valid hints to CommandTestUtil",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "588db0304bdd268abb87e3458d34b114facd5a8b",
+            "message": "Change Card constructor to accept Options",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "be22e61e0e2f2820389a2bdb617d8ea4659749bd",
+            "message": "Update EditCommand and EditCardDescriptor to support Options",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "6e73f1e61bf12e2e7a9c464750b361e8c23de729",
+            "message": "Update CardBuilder to support Options",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "b6c50f86239481a8f882b7a88f13df56c6c8b4a1",
+            "message": "Update JsonAdaptedCard to support Options",
+            "insertions": 18,
+            "deletions": 3
+          },
+          {
+            "hash": "25fe9e869477ba441e3e386c467178194772cd6d",
+            "message": "Update tests and commands to support Options",
+            "insertions": 84,
+            "deletions": 33
+          },
+          {
+            "hash": "ef55b0bb899dfc1d121439dd5f40e599b1f85e80",
+            "message": "Fix bug where EditCommand cannot parse option prefix",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "aacd21d11118bafe069f3666f9899e1b04ff1231",
+            "message": "Change HintTest tests where test names contain \u0027tag\u0027",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3817a9e4bae144d7c641d9776ca7d3985a5497ae",
+            "message": "Change HintTest tests where variables contain \u0027tag\u0027",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "d22de1c1a940a8a68d209f648a421a81b8ba97a5",
+            "message": "Create OptionTest junit test",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "a457c587315d9cce2ec40405fd0a3a3bc577b10f",
+            "message": "Update EditCardDescriptorTest for options",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "9973bc81a87c7115143c3c57796bee9be56ceab8",
+            "message": "Update JsonAdaptedCardTest for options",
+            "insertions": 12,
+            "deletions": 2
+          },
+          {
+            "hash": "429f1ef19e55af91b94449aaaaeb7384b55f0bc6",
+            "message": "Update card ui in BrowserPanel to show options, if any",
+            "insertions": 22,
+            "deletions": 7
+          },
+          {
+            "hash": "8e8273916afabbc9997593141aaa3ed4f08e83b8",
+            "message": "Update userdoc for MCQ cards",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "3a5d0a72a3572de7bb77856664627acfd1d295ec",
+            "message": "Fix junit test bugs",
+            "insertions": 13,
+            "deletions": 3
+          },
+          {
+            "hash": "a6a3d8e9c77043f0b4c17cbe10730d72600a279b",
+            "message": "Add newline to end of Option",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-27",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 130,
+        "deletions": 35,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "6506ea61d0c656ea79c2b45b9699f64b948ba3ca",
+            "message": "Add options field to TestSession fxml",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "111526351de2a01797d4048d49373c2520ec6c45",
+            "message": "Enable randomized option display for MCQ card tests",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "608aad974d11747b377835150a1e562c2bda5ef1",
+            "message": "fix bug with text overlap",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2b59193174ccf4027431ec652006ba06915ec373",
+            "message": "Decrease size of option text for TestSession",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "daf51c2adb19e061bd2c2fbaab2731cf3f9861ac",
+            "message": "Implement CardType to represent MCQ and Single-answer Cards",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "e2168f7bed75287cd8aeafb9ac7c28faf3a3586e",
+            "message": "Implement method to get randomized list of options for MCQ cards",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "dfc1a619620d162abdf18d27358d6d8e71b67897",
+            "message": "Update TestSession to use Card methods for randomized mcq options",
+            "insertions": 2,
+            "deletions": 18
+          },
+          {
+            "hash": "c6fd7516691cb8fd2ef046e02ca2c8e3853c659f",
+            "message": "Implement list of complete options for mcq card testing",
+            "insertions": 26,
+            "deletions": 10
+          },
+          {
+            "hash": "8c3fc6cb99440df90159970876259c1e8b3a2250",
+            "message": "Add method to mark attempted answer for mcq cards",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "d539d48c740f1a21a650e5d69ec5b2b792873979",
+            "message": "Update Answer command to support answering MCQ tests via option number",
+            "insertions": 18,
+            "deletions": 2
+          },
+          {
+            "hash": "c7ef50b978ce0736359a998de57c8e269fe5f8fd",
+            "message": "Update Card isEquals to include options",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 81,
+        "deletions": 11,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "ed494240e20ee66350a1fab563485131803efa2a",
+            "message": "Update AddCommandTest model stub",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "f1cc6bd167e1d7b01b1bc4b117211b966e47b420",
+            "message": "Add message for illegal mcq options",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "a9d9dae1eaedeac13cc41fa4c33c9b40164eb9ae",
+            "message": "Restrict users from adding cards with same Answer and Option",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "abf5489a5638259ccbe92e183e80cbb4f79fed99",
+            "message": "Restrict users from editing cards with same Answer and Option",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "94eb5bf5689f6210b38882ba98666a0f84f72834",
+            "message": "Update AddCommandParserTest for options",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "4451dac46c436175aace41ca3034dd5a8da83e39",
+            "message": "Update EditCommandTest for options",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "44efabb96cb8176e36bdf2155d648cc0c3fe9d54",
+            "message": "Update UserGuide for MCQ testing",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "ebea47ca1ecc9e3dbdabe24d1e2e1a7506fa832b",
+            "message": "Fix bug where select command works outside folder",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "3333769349fc1b99582daae156d453915c0bdfdd",
+            "message": "Update UserGuide",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "74eb372d5e5a0fcaa5c73db42613f5250df305c7",
+            "message": "Update DeveloperGuide undo/redo implementation",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e050fbd43d82dfcb7a5b49daddba9b26ab0a93dc",
+            "message": "Update Card implementation for Developer Guide",
+            "insertions": 17,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 85,
+        "deletions": 14,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "edde2df60c7270f86a963b7a213af86d16456391",
+            "message": "Update glossary in Developer\u0027s guide",
+            "insertions": 14,
+            "deletions": 6
+          },
+          {
+            "hash": "f5871df65e8d712ed5769e03325761fb917ae551",
+            "message": "Update ModelClassBetterOopDiagram in Developer Guide",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "98f4df5a668589c004f5371e3dcebcb866e3b259",
+            "message": "Update ModelClassBetterOopDiagram",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a63ad1cb796bb447e929355569c70960cab08964",
+            "message": "Add tags to developer guide",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "20135e16e20cb5907998afa96db99e5161ba27ab",
+            "message": "Add personal portfolio page",
+            "insertions": 55,
+            "deletions": 1
+          },
+          {
+            "hash": "ffb37215965d785d90a23d0a3d6aeb6b6e1552d7",
+            "message": "Add tags to User Guide",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "eba2b8ee0aa958b6541b1483538fb1fc717123f8",
+            "message": "Update Portfolio page user guide contributions",
+            "insertions": 4,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 26,
+        "deletions": 10,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "606ba0ceba25a4004e51a8b37a490daeb8f96992",
+            "message": "Update user guide with details about hints in cards",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "c1dae0d27e171f786074faa5e87f44785a0167f3",
+            "message": "Update test session to display hints and change correct answer message",
+            "insertions": 14,
+            "deletions": 5
+          },
+          {
+            "hash": "6b25f39b5eecd52734b4b74bd41189b6a42ea7a3",
+            "message": "Update user guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "aef151f18490e5fce4a6bef4ac36c5c76e0e2cbd",
+            "message": "Update user guide for hint constraints",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "c2e06dfccf7062a35f6265e13b789c8781ef867d",
+            "message": "Fix developer guide error with cards and glossary tags",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "18715a544366b68a7bc5b2d1b8f2246f600a2189",
+            "message": "Update PPP intro",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "f0239d95dbae472739b7db05606ba9760a515e39",
+            "message": "Fix error with PPP Code contributed",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 4609,
-    "yichong96": 471,
-    "dlqs": 730,
-    "KerrynEer": 1210,
-    "mmdlow": 687
+    "afterdusk": 4991,
+    "yichong96": 904,
+    "dlqs": 2525,
+    "KerrynEer": 1592,
+    "mmdlow": 1174
   },
   "authorContributionVariance": {
-    "afterdusk": 1936033.1,
-    "yichong96": 3256.3777,
-    "dlqs": 7533.1294,
-    "KerrynEer": 16803.38,
-    "mmdlow": 30965.13
+    "afterdusk": 1689805.2,
+    "yichong96": 14535.21,
+    "dlqs": 163894.0,
+    "KerrynEer": 33249.66,
+    "mmdlow": 30158.27
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

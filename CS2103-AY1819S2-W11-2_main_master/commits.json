@@ -839,6 +839,305 @@
         "deletions": 0,
         "date": "2019-03-25",
         "commitResults": []
+      },
+      {
+        "insertions": 1108,
+        "deletions": 305,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "c78f858d73f4b4da2e746d6d6a22d731d68c204f",
+            "message": "tests: add DeleteStaffCommandTest",
+            "insertions": 201,
+            "deletions": 3
+          },
+          {
+            "hash": "df8c25102da5ae02886dd6915289fb8935fe6547",
+            "message": "tests: move AddStaffCommandParser into staff package",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "ddbdddf1c6a36cfef6960a8a159846b39779f9ba",
+            "message": "tests: add tests for DeleteStaffCommandParser",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "ce65361cec5992ced64f493d351d0bbb1fe93c8d",
+            "message": "tests: refactor person descriptors in CommandTestUtil",
+            "insertions": 293,
+            "deletions": 291
+          },
+          {
+            "hash": "e9c1d356fb90fe7974ef33fe77278ceb14bd3b9b",
+            "message": "tests/testutil: add EditStaffDescriptorBuilder",
+            "insertions": 71,
+            "deletions": 0
+          },
+          {
+            "hash": "e4861e4e96c402a60a94180d0e0085f151933217",
+            "message": "tests: add tests for EditStaffCommandParser",
+            "insertions": 178,
+            "deletions": 0
+          },
+          {
+            "hash": "e3b3897ffd463a4b96a8b5dde611c30408dfffde",
+            "message": "tests: add tests for EditStaffDescriptor",
+            "insertions": 64,
+            "deletions": 0
+          },
+          {
+            "hash": "bced64a1f387e998506a956a7cfe19b4f0c45068",
+            "message": "tests: add tests for EditStaffCommand",
+            "insertions": 251,
+            "deletions": 0
+          },
+          {
+            "hash": "c1404b4cbaca0049cd87c6fe6cf1e409cf5ffb4a",
+            "message": "tests: fix imports",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "227886164f3952d65320912d0dc52b04824a9947",
+            "message": "tests: fix imports",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "ca43399aeb8b1ff4b6f7c889c64d36e86f20fadb",
+            "message": "style: fix style issues",
+            "insertions": 9,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 486,
+        "deletions": 55,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "91e3e385d779f537e147e97c34175b490ec7194e",
+            "message": "tests: add BookingListPanelHandle",
+            "insertions": 159,
+            "deletions": 0
+          },
+          {
+            "hash": "d4544c6f9aa05757cdec91f148aff02475841837",
+            "message": "tests: add tests for booking list panel",
+            "insertions": 117,
+            "deletions": 2
+          },
+          {
+            "hash": "63818c37449618573f39e1c69c41605a478d78c9",
+            "message": "style: fix import order",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "0dc2e2032f7f11d336e86eb2af158d601d277fcf",
+            "message": "model/person: move Staff and Appointment classes to the staff package",
+            "insertions": 49,
+            "deletions": 42
+          },
+          {
+            "hash": "c62ac083dda64a2ef2970046c18d9e5d48e22899",
+            "message": "model/person/staff: add shift class",
+            "insertions": 49,
+            "deletions": 0
+          },
+          {
+            "hash": "68061071a6c2e30508ef9286befffdfdf45beecc",
+            "message": "tests: move StaffTest and AppointmentTest to the staff package",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "301e15a446f716bd7da80ad0f677ccf16c7e1992",
+            "message": "model/person/staff: add StaffRoster class",
+            "insertions": 63,
+            "deletions": 4
+          },
+          {
+            "hash": "938de60f8ca6d0542d7a8ba80ea307dd3b76b9e6",
+            "message": "model/person/staff: add staff roster to staff",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "cb366007602e1bbbf13adfb727893b89d1e44ae8",
+            "message": "model/person/staff: add equals method for shift",
+            "insertions": 28,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 281,
+        "deletions": 41,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "06a19a752164e86db6ecdcb2b966e10b8aec4242",
+            "message": "logic/commands: add addshift command",
+            "insertions": 103,
+            "deletions": 4
+          },
+          {
+            "hash": "595d34bacf40f70493dbaaaf82ea81492b37bd0d",
+            "message": "model/person/staff: make ShiftRoster immutable",
+            "insertions": 26,
+            "deletions": 12
+          },
+          {
+            "hash": "d8cbe2c307fed4bd2972bd07acbbd94ba64ef715",
+            "message": "logic/commands: complete createStaffWithShiftAdded method",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "1fdd9d740f33ff47bc74d2eb97b2da07484e5719",
+            "message": "logic/parser: add parser for addshift command",
+            "insertions": 89,
+            "deletions": 0
+          },
+          {
+            "hash": "667d593cb8ceae4e225a87664e540b9342954936",
+            "message": "model/person/staff: add message constraints for shift",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "870abdd2d50280646e1ee78ea8ab1ed0b3e0c1ff",
+            "message": "storage: add shifts to json storage",
+            "insertions": 25,
+            "deletions": 18
+          },
+          {
+            "hash": "3df5c4bf0c6e0181bb78394fbc073aff1f0c47d9",
+            "message": "ui: make shifts render on the gui",
+            "insertions": 25,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 307,
+        "deletions": 110,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "849a895f7cbbee7a0419b7a842fc6360303b6ac6",
+            "message": "model/person/staff: make shifts unrestricted to a single day",
+            "insertions": 74,
+            "deletions": 30
+          },
+          {
+            "hash": "4408008182b568a8ae4f7c36e597a777ce18ae2d",
+            "message": "tests: add shifts to staff tests",
+            "insertions": 124,
+            "deletions": 30
+          },
+          {
+            "hash": "31700d2d2f3179ff29f5c5e1b2c1c36a757dd371",
+            "message": "logic/parser: add checks for invalid shifts",
+            "insertions": 44,
+            "deletions": 7
+          },
+          {
+            "hash": "4ed4c78c565d0ce65def6c51d9ec7518c810c523",
+            "message": "style: fix style issues",
+            "insertions": 13,
+            "deletions": 10
+          },
+          {
+            "hash": "c0fd8a251315281906258224100687a5c9fad7fd",
+            "message": "style: fix style issues",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d659580f706bde3e99cc64d5368cca37c0bcdb52",
+            "message": "style: fix style issues",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "059c9c610b977b1f7d0437128a286ce7c7567171",
+            "message": "tests: fix staff tests for shifts",
+            "insertions": 45,
+            "deletions": 24
+          },
+          {
+            "hash": "e556aedcc331f7be0031550b235130a3014614b4",
+            "message": "style: remove unused imports",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 226,
+        "deletions": 21,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "b37e0affe3a3acc52de21f996ca41304a5d8a73f",
+            "message": "model/person/staff: fix typo in ShiftRoster",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ee8748005ca20dd2cebcd6bb5fd42590944223d6",
+            "message": "logic/commands: add DeleteShiftCommand",
+            "insertions": 96,
+            "deletions": 0
+          },
+          {
+            "hash": "3917cca30cfb74c1fe251e065d0acc9855a5f604",
+            "message": "logic/parser: add parser for deleteshift command",
+            "insertions": 74,
+            "deletions": 3
+          },
+          {
+            "hash": "23fefc6ae96e276135133f7ab64c216f022d72da",
+            "message": "logic/parser: handle parsing of deleteshift command",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "d870ff5a27ddf59904f8600fb5ab660520ac7964",
+            "message": "style: remove unused imports",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "a67a6c909814bd9b20864f4ebd4ea1cbc36e55e3",
+            "message": "docs: update user guide",
+            "insertions": 48,
+            "deletions": 14
+          }
+        ]
       }
     ],
     "lingyanhao": [
@@ -2171,6 +2470,150 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 174,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "cf2f64b50f4b5c4db509570a7f7986e8cc8c45b4",
+            "message": "Add some test for editbooking, not done yet",
+            "insertions": 174,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 143,
+        "deletions": 36,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "79bffb97b5cf3533b1b6129f93cfd6a2b15a135c",
+            "message": "Fix styleguide",
+            "insertions": 15,
+            "deletions": 7
+          },
+          {
+            "hash": "9df6a4798e1b6f1d2929d4dd78bdf907fc036d27",
+            "message": "fix styleguide",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "fc86eb555513d18b5a8afee40c6c524c24c9134f",
+            "message": "Add tests for EditBookingCommand",
+            "insertions": 123,
+            "deletions": 18
+          },
+          {
+            "hash": "de4da78b24cf46fd3bb5bcfd34052f36c3019e15",
+            "message": "Change import statements",
+            "insertions": 3,
+            "deletions": 6
+          },
+          {
+            "hash": "9f355b6827d71f04a6c61745ff4c5c5117485729",
+            "message": "Change import order",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 53,
+        "deletions": 11,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "a63eeaca68f07dbe4faa002c8e5680beadbf9d6f",
+            "message": "Accept HH:mm format for parser",
+            "insertions": 31,
+            "deletions": 5
+          },
+          {
+            "hash": "16f8fb18d23aa39a522e61839f6844b29fe2b35c",
+            "message": "Fix checkstyle",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "48200fc08d8f3abf4e890e662593264b74eb1b1e",
+            "message": "Add test for other time format",
+            "insertions": 10,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 98,
+        "deletions": 27,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "3b4b2a7779640cc4c01e8186aee3193df7e65c47",
+            "message": "Put up PPP",
+            "insertions": 93,
+            "deletions": 22
+          },
+          {
+            "hash": "bdc520375bf5ed3cbc06953aa783fc7db6f8ec43",
+            "message": "Trim whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b7796702f2619e6cc5c8947c5c25a2ba85c24ece",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "080f699ab303122d5b77de191c513745f8cfe2ef",
+            "message": "Change cancel to delete for consistency",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 7,
+        "deletions": 7,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "3aba951147033f35185a54dc383224d717128f55",
+            "message": "Update changes",
+            "insertions": 7,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 29,
+        "deletions": 18,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "d65fa0f3f017277a7dfced81232015875025a1d2",
+            "message": "Make changes to PPP + dev guide",
+            "insertions": 29,
+            "deletions": 18
+          }
+        ]
       }
     ],
     "hiyingnn": [
@@ -3050,6 +3493,154 @@
             "deletions": 12
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 893,
+        "deletions": 9,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "c1cb2e129a6c67eeb8b2eaa0e158e21572477113",
+            "message": "Edited Ingredient Constructor, requireNonNull name and unit.",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "db509c3e9eba82c6d80951de58b31d8e0cea33f7",
+            "message": "Implemented model of Recipe",
+            "insertions": 253,
+            "deletions": 0
+          },
+          {
+            "hash": "a6d2b28a54fb65ee9941fc20678342695f9a7aff",
+            "message": "Edited existing ModelManager and RestaurantBook to support Recipe",
+            "insertions": 128,
+            "deletions": 3
+          },
+          {
+            "hash": "585299ffcd412c4e5501ba6e0d938cd04192ff34",
+            "message": "Implemented AddRecipeCommandParser",
+            "insertions": 177,
+            "deletions": 4
+          },
+          {
+            "hash": "35d9051f1c3b9621e3b6ecaaeb182f9c8087feea",
+            "message": "Implemented AddRecipeCommand",
+            "insertions": 70,
+            "deletions": 0
+          },
+          {
+            "hash": "6b53bdf53ee8f1fd09b278c1670762a3f547456a",
+            "message": "Implemented JsonAdaptedRecipe to make data permanent.",
+            "insertions": 204,
+            "deletions": 0
+          },
+          {
+            "hash": "cee76a76e231ae55cdaaf10538c8cd48e69ffb22",
+            "message": "Edited tests to support Recipe.",
+            "insertions": 57,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 85,
+        "deletions": 54,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "5a03cd905c43b2db5c6a2f788aab24ea25ff77e3",
+            "message": "Edited RecipeIngredientSet implementation from Set to Map",
+            "insertions": 43,
+            "deletions": 21
+          },
+          {
+            "hash": "6a1be0402545b1a996b84fab951081473205954f",
+            "message": "Implemented edit ingredients will trigger change in recipe",
+            "insertions": 28,
+            "deletions": 13
+          },
+          {
+            "hash": "228245200a2fe0d227f750f55bae04ec39277aeb",
+            "message": "Changed implementation of RecipeIngredientset",
+            "insertions": 14,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 156,
+        "deletions": 353,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "9867ca9e8b591e2513897780791b9b882d911c48",
+            "message": "Updated UG to reflect system",
+            "insertions": 61,
+            "deletions": 72
+          },
+          {
+            "hash": "85c11c83d45cc41acc35c6ae0fb180a05a8070b1",
+            "message": "Updated DG",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "dadd29530a3b63569f175c56ebf37595271ae515",
+            "message": "Removed Programming tasks from DG",
+            "insertions": 0,
+            "deletions": 278
+          },
+          {
+            "hash": "eea2db7f33457f6bc3afe23a8a188a3aedfb3e9f",
+            "message": "Implement DeleteRecipe command",
+            "insertions": 92,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 68,
+        "deletions": 2,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "abf2c166466c639e8d097629d50e22af7b130672",
+            "message": "Added adoc for PPP",
+            "insertions": 67,
+            "deletions": 1
+          },
+          {
+            "hash": "c2517f761c97382cab08d52a698f18ff9b33099f",
+            "message": "Removed typo in UG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "limli": [
@@ -3892,20 +4483,167 @@
         "deletions": 0,
         "date": "2019-03-25",
         "commitResults": []
+      },
+      {
+        "insertions": 286,
+        "deletions": 71,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "fffb07ac1ce83318aacae26a6fab708fdca5b4fd",
+            "message": "implement view stats by time",
+            "insertions": 192,
+            "deletions": 68
+          },
+          {
+            "hash": "154650ccf54e9bace7a72662bdf4c5762a154d62",
+            "message": "add tests for stats time",
+            "insertions": 35,
+            "deletions": 2
+          },
+          {
+            "hash": "e1e9f4b668345c3574ae1348ef2de960b466a601",
+            "message": "add parser test for statstime",
+            "insertions": 36,
+            "deletions": 0
+          },
+          {
+            "hash": "3fe19fa02e6dd241dba933134925454fc6baad8e",
+            "message": "update user guide for stats commands",
+            "insertions": 23,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 1670,
+        "deletions": 109,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "04e6d19183e8d2d7cdff82947b67feec9b9d1ff0",
+            "message": "implement card ui for recipe with placeholder text",
+            "insertions": 195,
+            "deletions": 9
+          },
+          {
+            "hash": "be62886da7603c18fb236f1b76f8681dbe0718f3",
+            "message": "implement toString in ingredientSet which is called by the ui",
+            "insertions": 20,
+            "deletions": 11
+          },
+          {
+            "hash": "ea5d7e2dfa12419b6c345da202c8b066e2402d88",
+            "message": "fix checkstyle",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "9e47b9b702c46b60f01e4498b4decf566e83961c",
+            "message": "update user guide, dev guide, and ppp",
+            "insertions": 1448,
+            "deletions": 82
+          },
+          {
+            "hash": "5c35a9304110467674d77ce85847f7c9b1ae8463",
+            "message": "update about us adoc",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5792d200ed53e760d88f12ecabbd3b5ae623120a",
+            "message": "update ppp",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 43,
+        "deletions": 1280,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "c6f0a0c089b9d26116ba6c585c3f6ab497afbf4b",
+            "message": "delete html file",
+            "insertions": 0,
+            "deletions": 1246
+          },
+          {
+            "hash": "d696e2883e932bb56af29e7b60cd61b2dd7252e1",
+            "message": "update ppp",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "0cd3d733b00b3ef73433cbe7d6e7336b823d0fe0",
+            "message": "fix checkstyle",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "63f3fe777eabdbd576a16883b1ffe04b4882e66c",
+            "message": "fix checkstyle",
+            "insertions": 16,
+            "deletions": 17
+          },
+          {
+            "hash": "5ea29fb57bc4d666ce469838eb51706cec19a4aa",
+            "message": "fix checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c3f5e34d36f9614ddf1e00ab20f7169225fc9f3c",
+            "message": "fix typo in userguide, and fix message in addmember command",
+            "insertions": 6,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "zj-cs2103": 3041,
-    "lingyanhao": 3969,
-    "hiyingnn": 3772,
-    "limli": 3090
+    "zj-cs2103": 5201,
+    "lingyanhao": 4362,
+    "hiyingnn": 4586,
+    "limli": 3572
   },
   "authorContributionVariance": {
-    "zj-cs2103": 56984.8,
-    "lingyanhao": 104141.42,
-    "hiyingnn": 111375.59,
-    "limli": 248864.56
+    "zj-cs2103": 86206.3,
+    "lingyanhao": 91519.22,
+    "hiyingnn": 109318.32,
+    "limli": 287246.53
   },
   "authorDisplayNameMap": {
     "zj-cs2103": "WAN...IAN",

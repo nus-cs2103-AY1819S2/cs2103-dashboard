@@ -1013,7 +1013,7 @@
         ]
       },
       {
-        "insertions": 1,
+        "insertions": 4,
         "deletions": 1,
         "date": "2019-03-26",
         "commitResults": [
@@ -1022,8 +1022,81 @@
             "message": "Increase initmapresult.png size",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "94eaa31b527b0abeaf190ebb366912f02f14023a",
+            "message": "Fix spacing in UG under Map",
+            "insertions": 3,
+            "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 75,
+        "deletions": 8,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "9d382d1619b5db92fab815439418ad21358060c6",
+            "message": "Add tags to UG and DG. Create erjillsison Project Portfolio Page",
+            "insertions": 63,
+            "deletions": 1
+          },
+          {
+            "hash": "2c04e4a221d77a0570e398ede495ea290fda5f1a",
+            "message": "Add newline EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cdcebd37125a16ee3077a0272804c98c01115ff4",
+            "message": "Update AboutUs erjillsison portfolio link",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "79203c2db399c7cba2d6dfa7050aaf1eb833d3ae",
+            "message": "Update erjillsison.adoc Project Overview",
+            "insertions": 10,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "iwle": [
@@ -2329,8 +2402,8 @@
         ]
       },
       {
-        "insertions": 151,
-        "deletions": 132,
+        "insertions": 212,
+        "deletions": 144,
         "date": "2019-03-26",
         "commitResults": [
           {
@@ -2368,8 +2441,223 @@
             "message": "Update documentation for ListTagsCommand",
             "insertions": 5,
             "deletions": 7
+          },
+          {
+            "hash": "a1e0ea3d08f28e2cf08d2ab87b0baf0cb9ca3dd4",
+            "message": "Update DG with User Stories",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "ee63671bdece43d5e610ee6593f4fdfabfc33c4c",
+            "message": "Update DG for manual testing",
+            "insertions": 17,
+            "deletions": 11
+          },
+          {
+            "hash": "76dd8930f89ba5e9a46be8769546c76f8f4747da",
+            "message": "Update UG with Use Cases",
+            "insertions": 37,
+            "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 123,
+        "deletions": 56,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "ba1b9bb7c756f263b654a9030091259aecac1793",
+            "message": "Update ListCommand",
+            "insertions": 73,
+            "deletions": 24
+          },
+          {
+            "hash": "e67f74e19a67eda681e0d276fd070fc3b026a746",
+            "message": "Update test for ListCommandParser",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "e281214a80bfa41a520c4ecfc0ca52e76dd9179b",
+            "message": "Update UG for ListCommand",
+            "insertions": 25,
+            "deletions": 1
+          },
+          {
+            "hash": "9733d3543a134ab4ac3ba82bf8942d65db5cbd2d",
+            "message": "Remove unused imports in ListCommandParser, Fleet Remove unused imports in ListCommandParser, Fleet that are causing errors in checkstyle.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "1ce5d528babb288820adaccb6edcd82fc2d566e3",
+            "message": "Refactor ListCommand",
+            "insertions": 1,
+            "deletions": 9
+          },
+          {
+            "hash": "3f36fef2efb9d978a62201944a3fd7c2c6c073eb",
+            "message": "Refactor ListCommand",
+            "insertions": 14,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 59,
+        "deletions": 14,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "56bf189ab0fb67e1285d625e8f621e5cf6f1ed8e",
+            "message": "Refactor ListCommand",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "55dca61aabc421caf546ecd477cd7520d3904fe0",
+            "message": "Refactor PutShipCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fd718a921121980b50400aeb25a425ce2e567ee1",
+            "message": "Remove unused import in ListCommand",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "76dbb49fd3904457d28c0a4fc087e95e3ae81f9e",
+            "message": "Add logging to Model classes",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "007fde432ee897d8a3bc2a4b3bc09be5420156cd",
+            "message": "Update DG with sequence diagrams",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "dca045414a41ead14dc91421cdaf975bbaa85af9",
+            "message": "Update Battleship.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3a0dbdf844eee24916f88ea7e84a5d7bcc22a7c5",
+            "message": "Remove unused import in Battleship.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "18bf0a2470e6d787265aebba914fe8c98e4d3d64",
+            "message": "Add logging to Tag",
+            "insertions": 7,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 39,
+        "deletions": 1,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "033e82075a22e3bdfa3ef33bb46f8fa14c968ff3",
+            "message": "Update Fleet to check if all battleships destroyed",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "4f95aadf592cf1e79aaac2d2e95f79950429e019",
+            "message": "Add test for new method in Fleet",
+            "insertions": 24,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 30,
+        "deletions": 4,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "1c53e1d1660946e3a48afea926bf1ebe86c4f94d",
+            "message": "Update DG to explain head coordinates",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "a1ced0c45389e5e63681e2e0f96e97d7312932f4",
+            "message": "Update DG",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "e3ce53400ea140eb499e48149568a426672a96ba",
+            "message": "Update DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "38dff3e06fd7da106433c378ffde42f4f8964324",
+            "message": "Update DG",
+            "insertions": 12,
+            "deletions": 2
+          },
+          {
+            "hash": "9fc26c6fdd6707b08c1fd5e35e9cdbb41275a93b",
+            "message": "Update UG to explain head coordinate",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 51,
+        "deletions": 3,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "a6f65997604b7495f28cff5658d3d2128a26276c",
+            "message": "Update ListCommand",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "09aa4740617fa9d6e4b925928630785e3f148737",
+            "message": "Update DG",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "c16e43cb4d3edbb625142c31dbe8ea2930a4b09f",
+            "message": "Update ListCommand",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "b133d7222a3e5165d07d1dfb747eb61e5e3b68a3",
+            "message": "Update DG (minor)",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "lucydotc": [
@@ -2723,6 +3011,161 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 3,
+        "deletions": 3,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "dcef548f586d1488dac8ce5d9a227d5d256c23b8",
+            "message": "Fix typo in method name.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7590fd07c34540fb2436c4d490f75388210b3bde",
+            "message": "Update javadocs for player constructor with correct default fleet size",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 271,
+        "deletions": 20,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "3f9b95e0c15b38a9441dbefbfd796c4c89d4dc1f",
+            "message": "Update populateEnemyMap with ability to placeAircraftCarrier()",
+            "insertions": 141,
+            "deletions": 1
+          },
+          {
+            "hash": "966f75d933e8c469c85f17e5446aac023e827ea6",
+            "message": "Update populateEnemyMap with ability to placeMultipleDestroyerAndCruiser() on enemymap",
+            "insertions": 47,
+            "deletions": 3
+          },
+          {
+            "hash": "22bb54a2c22faa5ccfcdd89ab73831bf18404c45",
+            "message": "Fix overbearing checkstyle",
+            "insertions": 4,
+            "deletions": 9
+          },
+          {
+            "hash": "27276d6b4036a0a03ae70a15476f822b4c7a6ac1",
+            "message": "Update enemy constructor, Add prepEnemy() method.",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "a181ed440505d63dcfc8bd33e38625144f4f3d9f",
+            "message": "Add stub unit tests for Enemy in EnemyTest",
+            "insertions": 48,
+            "deletions": 0
+          },
+          {
+            "hash": "601b77dfa43ab4358af3fa680f70e1163d271af2",
+            "message": "Add parity check hasParity() for better random shooting",
+            "insertions": 23,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 94,
+        "deletions": 33,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "884e4b6d3bc2a4d163b9f795da6685ae234bb7da",
+            "message": "Change private method to public",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8ea8c9953e27578ae5c4fb8dbc2630dc776aa27d",
+            "message": "Improve enemy shooting algo",
+            "insertions": 93,
+            "deletions": 32
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 169,
+        "deletions": 147,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "3d6047abf4d9d34d212ac08a985f66aa4a566aaf",
+            "message": "Standardise enemy to use Index row and Index col for anything related to Coordinates",
+            "insertions": 94,
+            "deletions": 115
+          },
+          {
+            "hash": "137498573c35797556e109593ab9efc20df6b5da",
+            "message": "Add logging messages",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "a1169a53553540e80f68faceff272fa208f49d31",
+            "message": "Fix watchlist Add logging messages Fix typo",
+            "insertions": 37,
+            "deletions": 16
+          },
+          {
+            "hash": "a7871a38c97c089aa806e88a620e0e227db2c634",
+            "message": "Add status logging message",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "9a2c81fcdc3b241b8ece13d92f83edf2f5d1b32b",
+            "message": "Add more logging messages",
+            "insertions": 22,
+            "deletions": 14
+          },
+          {
+            "hash": "3795985d489ee92d5e3f7f4e1bfb6b7a31663e05",
+            "message": "Fix bug in markedOccupied",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 29,
+        "deletions": 18,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "598a2a22701b71455c071a92e46ed1b471c3de3b",
+            "message": "Fix bug in updateWatchlist()",
+            "insertions": 15,
+            "deletions": 11
+          },
+          {
+            "hash": "50d37e95581c9f52299353d324ecb70ed9a1ca78",
+            "message": "Add boundary checker Add logging messages",
+            "insertions": 14,
+            "deletions": 7
+          }
+        ]
       }
     ],
     "bos10": [
@@ -3303,6 +3746,122 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 20,
+        "deletions": 20,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "9d024cacfb71a5baa1df0a72ee65fb5725f0901e",
+            "message": "updated hit function, miss function",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c7495e5837cee924868eb07e8b92ccb7fffb20e9",
+            "message": "Update stats for enemyships destroyed",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "065a84075b6c0e27368f57d0d45fa9cb6e7f9019",
+            "message": "Update Accuracy in stats",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2e02c299d15c9cc64238eb2fd717c74be0648179",
+            "message": "Added placeholder tests for new commands",
+            "insertions": 13,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 96,
+        "deletions": 43,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "95841b34792ed749cd349ee3ccc485a14b32722f",
+            "message": "Added logging for Statistics.java",
+            "insertions": 16,
+            "deletions": 5
+          },
+          {
+            "hash": "eac134b6655ab4157ef1ad2eceaba00645aeaa77",
+            "message": "First edit to Stats Command on DG",
+            "insertions": 47,
+            "deletions": 7
+          },
+          {
+            "hash": "4edda627b50d289d9fba01a45fafa15691bdee83",
+            "message": "Updated UG for Stats Feature",
+            "insertions": 7,
+            "deletions": 12
+          },
+          {
+            "hash": "8a745c523cde7956ef02408e5be7de8ff43d7944",
+            "message": "Fixed checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6f2862b5eee5728440732ebc1e28fded429a0a2d",
+            "message": "Rectify no display of image",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "8681069f3cbd183bd585b6d395014459376c90e2",
+            "message": "Edited Manual Testing Portion of DG",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "3c554af62b15d17ef6bb69000ff267f550017ed5",
+            "message": "Added use case and Manual Testing",
+            "insertions": 5,
+            "deletions": 12
+          },
+          {
+            "hash": "1530568c84aec236ba5d9c69e8cfbfed4a146f26",
+            "message": "Minor edits",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -3950,22 +4509,139 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 215,
+        "deletions": 29,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "c099ea95d9179762f13cd9aff0ec4b62ea77509d",
+            "message": "Change .getEnemyPlayer() to return Enemy object instead of Player object",
+            "insertions": 25,
+            "deletions": 18
+          },
+          {
+            "hash": "62e0a2e8991ffc77f3cf060c8c366bb46ebf447e",
+            "message": "Changed takeComputerTurn() in BattleManager to not return null",
+            "insertions": 3,
+            "deletions": 6
+          },
+          {
+            "hash": "7c1a3a5d27ae6040267b09442ab3f642f9664a49",
+            "message": "Add BEGIN and ENDTURN commands",
+            "insertions": 77,
+            "deletions": 0
+          },
+          {
+            "hash": "ce7e92cd5ad00c354d4f68ddbbe9f271328cb2ae",
+            "message": "Add method to initialise a Player object with a size 10 map grid",
+            "insertions": 17,
+            "deletions": 4
+          },
+          {
+            "hash": "8e0b01c8b195947e9c05976c6bb4089a99a73db4",
+            "message": "Add partial tests for BeginCommand",
+            "insertions": 88,
+            "deletions": 1
+          },
+          {
+            "hash": "115f9d17ad7162824d9b3ded627e04a43171e26d",
+            "message": "Add new constructor in ModelManager",
+            "insertions": 5,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 165,
+        "deletions": 18,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "c5fa665310266eb093997921f2f6c8bc36256e53",
+            "message": "Fix enemy coordinate generation for aircraft carrier",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b88e6965e0127d6e5bbcc4562be2ef4e287e1bcd",
+            "message": "Add tests for Attack command",
+            "insertions": 114,
+            "deletions": 1
+          },
+          {
+            "hash": "a0e0613f8df496c506c3bc74a4b45448a12ec47d",
+            "message": "Add test for EndTurn command",
+            "insertions": 27,
+            "deletions": 4
+          },
+          {
+            "hash": "ddc7d5b382df616487c77650c9ba10a8678fafd7",
+            "message": "Improve tests for EndTurn command",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "591fa6defc9e99647881993301570dd68ed30651",
+            "message": "Update User Guide with Begin, Shoot, EndTurn commands",
+            "insertions": 16,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 51,
+        "deletions": 3,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "a6feaa334ee475e6ba664e1ebe0ebbd896014bc0",
+            "message": "Update text in Developer Guide: Battle section",
+            "insertions": 51,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1914,
-    "iwle": 2675,
-    "lucydotc": 246,
-    "bos10": 626,
-    "s-tr": 859
+    "erjillsison": 1984,
+    "iwle": 2909,
+    "lucydotc": 576,
+    "bos10": 678,
+    "s-tr": 1254
   },
   "authorContributionVariance": {
-    "erjillsison": 221665.33,
-    "iwle": 40458.42,
-    "lucydotc": 1246.6497,
-    "bos10": 15072.107,
-    "s-tr": 3716.125
+    "erjillsison": 194460.23,
+    "iwle": 36691.867,
+    "lucydotc": 4532.567,
+    "bos10": 13381.952,
+    "s-tr": 4583.0786
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

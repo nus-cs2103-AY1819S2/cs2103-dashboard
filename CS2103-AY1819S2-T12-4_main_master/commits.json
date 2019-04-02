@@ -461,8 +461,8 @@
         "commitResults": []
       },
       {
-        "insertions": 91,
-        "deletions": 101,
+        "insertions": 274,
+        "deletions": 120,
         "date": "2019-03-25",
         "commitResults": [
           {
@@ -488,6 +488,12 @@
             "message": "Revert \"(v1.3) Implement sorting \u0026 removing deadline\"",
             "insertions": 41,
             "deletions": 89
+          },
+          {
+            "hash": "3455207999d940ad936ad3c768d7981b42e2130b",
+            "message": "(v1.3) Filter command - added command to \u0027find\u0027 based on tags - added parser to check for tag prefix",
+            "insertions": 183,
+            "deletions": 19
           }
         ]
       },
@@ -496,6 +502,136 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 34,
+        "deletions": 24,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "a4ec888159b5b591eea189e4e806efecfafeb93e",
+            "message": "Fixing travis build fail",
+            "insertions": 19,
+            "deletions": 16
+          },
+          {
+            "hash": "6e99cbc842409637cdaac17f82f15dd85f2a6709",
+            "message": "Fixing travis build fail 2",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9dd6573e2d4832725f73b292e584db5b2f7130c7",
+            "message": "Fix travis build fail 3",
+            "insertions": 14,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 189,
+        "deletions": 51,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "6bd260ed5639c54528d078e6e40b73160f6503c0",
+            "message": "(v1.4) Merge Command - Added MergeCommand.java file - Made some refactoring and changes to mentioned file",
+            "insertions": 75,
+            "deletions": 0
+          },
+          {
+            "hash": "bef7d0203b24d49f79ce8272eff51d468a7f8815",
+            "message": "(v1.4) Merge Command - Create merge command functions and execution",
+            "insertions": 62,
+            "deletions": 18
+          },
+          {
+            "hash": "2711464228ac3c957e7f0b444d752da9cb0314b6",
+            "message": "(v1.4) Merge Command - Add mergeCommandParser and parsing function - Minor changes to AddressBookParser, DeleteCommandParser",
+            "insertions": 52,
+            "deletions": 33
+          }
+        ]
+      },
+      {
+        "insertions": 69,
+        "deletions": 52,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "07325445018218fd4572be19ab75da3757ea7bce",
+            "message": "(v1.4) Merge Command - Functioning merge command! - Final file is name based on hascode and put in same directory as first file.",
+            "insertions": 29,
+            "deletions": 16
+          },
+          {
+            "hash": "cc4a2ccd5cf15bf46de201d5b9e427ea958dcbe2",
+            "message": "(v1.4) Merge Command - Made some changes so can be deleted properly",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "fa09dcf040a11085808f912862f4ae355078dd05",
+            "message": "Fix testing fail",
+            "insertions": 3,
+            "deletions": 12
+          },
+          {
+            "hash": "8b73f78a177552238537090be8bc50171a23293f",
+            "message": "Fix testing fail",
+            "insertions": 35,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 78,
+        "deletions": 13,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "d66101829a15139cd0593751f4bc75966deaef7f",
+            "message": "(v1.3) DG update for merge command",
+            "insertions": 64,
+            "deletions": 7
+          },
+          {
+            "hash": "ae42fd8299a66af73afb10a7d3648253f0a59312",
+            "message": "DG update",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "650f1bf644162fd47b6d8fe5fbdbb0f391e4187d",
+            "message": "DG update - Text for help feature - Images added",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "56265b0b516cdbc28083b63cbc53b9a9898be927",
+            "message": "DG update",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "ptvrajsk": [
@@ -1205,6 +1341,229 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 68,
+        "deletions": 44,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "b4d7093a5a8138589918346717769672850b5860",
+            "message": "(v1.3) State Save (Userguide.adoc)",
+            "insertions": 19,
+            "deletions": 16
+          },
+          {
+            "hash": "e971145bb686a4eedb3cfedc7ed109e3f4a58d60",
+            "message": "(v1.3) Fixed DeleteCommand",
+            "insertions": 23,
+            "deletions": 10
+          },
+          {
+            "hash": "ff4d1a24bfa7aa6d98b1694b4c6e6f7b12ccbd7e",
+            "message": "Checkstyle Fixes",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "5a6ceaca42da256976808a96e6d3376c6c40318e",
+            "message": "State Save",
+            "insertions": 16,
+            "deletions": 9
+          },
+          {
+            "hash": "9904957eb4ba0e959d171f92180d50d20f14f849",
+            "message": "(v1.3) Rename addressbook.json to pdfplusplus.json",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "b0dbad868e3a5ec1447c95374b13a1c35ad558d7",
+            "message": "Checkstyle Fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "09d935837b629bff1626c17cb4754ce80cabc355",
+            "message": "Tagging V1.2.1",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 493,
+        "deletions": 278,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "8f218a4147ac629acd00d7f82a7b80f6b6ec4fe5",
+            "message": "(v1.3) Refactor AddressBook to PdfBook",
+            "insertions": 65,
+            "deletions": 65
+          },
+          {
+            "hash": "e6a830c8661a068af2d81ee4b1c2b7b9fc1af242",
+            "message": "(v1.3) AutoTest Updates",
+            "insertions": 397,
+            "deletions": 181
+          },
+          {
+            "hash": "00ebe0a0244cded230a527d6b407fcc707e46faf",
+            "message": "Checkstyle Fixes",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "c4abcd59c8144e8ecfe93a08e48937b0eeca773c",
+            "message": "Checkstyle Fixes",
+            "insertions": 25,
+            "deletions": 25
+          },
+          {
+            "hash": "b9c7863197abbf31c68a4848ebe21cf21d3e2a27",
+            "message": "Checkstyle Fixes",
+            "insertions": 6,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 423,
+        "deletions": 348,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "69a8a51f68a2acdc536a017d63d76ae63e4a1f85",
+            "message": "(v1.3) Deadline Morph.",
+            "insertions": 72,
+            "deletions": 63
+          },
+          {
+            "hash": "65aef1fcf04fe3634dc107519726b66324a05c04",
+            "message": "(v1.3) DeadlineTest save state.",
+            "insertions": 141,
+            "deletions": 56
+          },
+          {
+            "hash": "ab6928d5d0745207a2c061c4293970221f184953",
+            "message": "(v1.3) Completion of DeadlineTest \u0026\u0026 commons tests",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "914521a8897a66eeecfe9f1374f1be5828ae19c8",
+            "message": "Checkstyle Fixes",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "9aae611c723aba2f8f25365f1ae580c9c135e97e",
+            "message": "Checkstyle Fixes",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "52ee7c2beb10a01560a398a84d088cddd021a979",
+            "message": "(v1.3) Fix PDFBuilder and PDFBox Warnings.",
+            "insertions": 53,
+            "deletions": 41
+          },
+          {
+            "hash": "7d200cabcfc01a9c691098ed7152c93a3d561816",
+            "message": "Checkstyle Fixes",
+            "insertions": 4,
+            "deletions": 6
+          },
+          {
+            "hash": "804ca785953ee495d4a25dd011a8dbd2dd9a3ef2",
+            "message": "Updated SamplePdfs to be more realistic",
+            "insertions": 23,
+            "deletions": 20
+          },
+          {
+            "hash": "fca3a1c68ba2a92c4962e510b1694551f1c73619",
+            "message": "(v1.3) Completed PdfTest and revamped other models",
+            "insertions": 110,
+            "deletions": 148
+          }
+        ]
+      },
+      {
+        "insertions": 38,
+        "deletions": 58,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "a675d63e72ca229bbc41ec6233aec0c9285765f1",
+            "message": "(v1.3) Reworked Name Property Test",
+            "insertions": 38,
+            "deletions": 58
+          }
+        ]
+      },
+      {
+        "insertions": 20,
+        "deletions": 16,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "fe3684e54b404da0809f8a35512c01bd738e3dae",
+            "message": "(v1.3) NameContainsKeywordsPredicateTest",
+            "insertions": 20,
+            "deletions": 16
+          }
+        ]
+      },
+      {
+        "insertions": 1207,
+        "deletions": 1161,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "be9a6e7d3dc5bab1890a84abab5089cd7583767c",
+            "message": "State Save, File Hierarchy Change",
+            "insertions": 54,
+            "deletions": 47
+          },
+          {
+            "hash": "f0438d1d0c764583711ca8d8a38a556a491f68e2",
+            "message": "(v1.3) UG Update",
+            "insertions": 1147,
+            "deletions": 65
+          },
+          {
+            "hash": "19512d0a78c798cb26580aa587fbec78a084f053",
+            "message": "Checkstyle Fixes",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "33e9de124e1cdb4c76a5f27dffe4d5d1635e026f",
+            "message": "Delete UserGuide.html",
+            "insertions": 0,
+            "deletions": 1043
+          }
+        ]
+      },
+      {
+        "insertions": 34,
+        "deletions": 9,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "928da2828fddce79bf6a02b8fcff8fb8d3fe38a1",
+            "message": "(v1.3) CommandTestUtil Update",
+            "insertions": 16,
+            "deletions": 4
+          },
+          {
+            "hash": "8f76c406adbea21964d3d7d0c673423e26512cbf",
+            "message": "(v1.3) Temporary Deadline Bug Fix",
+            "insertions": 18,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "WeiTangLau": [
@@ -1711,8 +2070,8 @@
         ]
       },
       {
-        "insertions": 249,
-        "deletions": 202,
+        "insertions": 487,
+        "deletions": 355,
         "date": "2019-03-24",
         "commitResults": [
           {
@@ -1732,6 +2091,24 @@
             "message": "(v1.3) Travis",
             "insertions": 4,
             "deletions": 12
+          },
+          {
+            "hash": "05cf753ea659f205818a007fe5201256d8cba443",
+            "message": "(v1.3) Added more robust test for AddCommandParser",
+            "insertions": 64,
+            "deletions": 81
+          },
+          {
+            "hash": "ddb16c3ecef8c486967430ce9f39486968d780d8",
+            "message": "(v1.3) DeleteCommand and DeleteParserCommand",
+            "insertions": 167,
+            "deletions": 67
+          },
+          {
+            "hash": "808f3b117231de09cd214c68b0b9f12ef384f09b",
+            "message": "(v1.3) Travis",
+            "insertions": 7,
+            "deletions": 5
           }
         ]
       },
@@ -1742,10 +2119,358 @@
         "commitResults": []
       },
       {
+        "insertions": 30,
+        "deletions": 4,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "5a5bd700d99f823ceddd43d69d63007e6dca2f95",
+            "message": "(v1.3) Addinvalid prefixes check for AddCommand",
+            "insertions": 30,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 775,
+        "deletions": 606,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "a6a0f71f33bb88e55061540c448f0c544a4bec27",
+            "message": "(v1.3) Modify EditCommandTests",
+            "insertions": 246,
+            "deletions": 178
+          },
+          {
+            "hash": "a1e7d57c6ad3c5516e3108186dd850eb6a2008a3",
+            "message": "(v1.3) Modify EditCommandTest",
+            "insertions": 85,
+            "deletions": 97
+          },
+          {
+            "hash": "097682d064ebcfb07e866b8a2c16154cf6f8728d",
+            "message": "(v1.3) Travis check",
+            "insertions": 19,
+            "deletions": 11
+          },
+          {
+            "hash": "91db1e7f871b6f1bc7ccefa091990c8768637606",
+            "message": "(v1.3) Import statements order",
+            "insertions": 9,
+            "deletions": 8
+          },
+          {
+            "hash": "2d907a6a5c79674acf66197fe6d4ab2af22d0df2",
+            "message": "(v1.3) Travis test deletecommand",
+            "insertions": 6,
+            "deletions": 8
+          },
+          {
+            "hash": "f7fe7ee3568a7431601c9dc7ac283482997217e7",
+            "message": "(v1.3) Travis checks",
+            "insertions": 9,
+            "deletions": 10
+          },
+          {
+            "hash": "b6a80ee56bb52793e83f6dd498e6673ed85a5397",
+            "message": "(v1.3) Travis",
+            "insertions": 11,
+            "deletions": 11
+          },
+          {
+            "hash": "9b67f57bb591b80488dafdf9e0e8d146c1e32c8e",
+            "message": "(v1.3) Travis EditCommandTest",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "12a6b31eb6bdbd997d30261e29ba9dd35d071243",
+            "message": "(v1.3) Travis",
+            "insertions": 2,
+            "deletions": 12
+          },
+          {
+            "hash": "2aa29d2daf296667b7d71583fdae1d4364552e46",
+            "message": "(v1.3) Travis",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "460abe112c41806423feb99f04721d52ab5aa951",
+            "message": "(v1.3) Provided EditCommandParserTest testcases",
+            "insertions": 108,
+            "deletions": 208
+          },
+          {
+            "hash": "f46101c0f66884438f1eb128ca889a07381f6568",
+            "message": "(v1.3) DeadlineCommandTest",
+            "insertions": 102,
+            "deletions": 18
+          },
+          {
+            "hash": "4596cc3565db5c62823bf24d6bc3c74c6a20b568",
+            "message": "(v1.3) DeadlineCommandTest",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "e249bf54898d4d0ebb39bb1e81c319e12d86d931",
+            "message": "(v1.3) Travis test cases",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "9d14067bd051c23d27ec0d5d134d0d2eb9ef1818",
+            "message": "(v1.3) Travis test cases",
+            "insertions": 13,
+            "deletions": 12
+          },
+          {
+            "hash": "ebe8d71ba2e00d563762ab6298a515ab9987d35a",
+            "message": "(v1.3) Travis",
+            "insertions": 18,
+            "deletions": 14
+          },
+          {
+            "hash": "749f703d0e2ba2e24af0d9ac43b95adb192c8956",
+            "message": "(v1.3) Travis",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e56d6a63f376e922ee7a905aa2021999eb388779",
+            "message": "(v1.3) Developer Guide",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "3fd105542c6b86a3f6e607a131c08df5c3a48fc6",
+            "message": "(v1.3) DG",
+            "insertions": 93,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 132,
+        "deletions": 60,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "ae2ba0780737d6f773ad31c2c4e5bf169dc0b848",
+            "message": "(v1.3) Rectify PdfBuilder",
+            "insertions": 44,
+            "deletions": 25
+          },
+          {
+            "hash": "e3d56aa622b11d75d51d830e46a310948ecb64b7",
+            "message": "(v1.3) DeadlineCommandTest",
+            "insertions": 75,
+            "deletions": 15
+          },
+          {
+            "hash": "c07e62f3f160788d79fe34cb14207c657ce46966",
+            "message": "(v1.3) Travis check",
+            "insertions": 11,
+            "deletions": 10
+          },
+          {
+            "hash": "ada11159827269709f4ec18f0fd5f540d0916a39",
+            "message": "(v1.3) Travis",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "bd967dc9f1302e0f8f8c36904f0d88347b301020",
+            "message": "(v1.3) Remove Learning Outcome",
+            "insertions": 0,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 621,
+        "deletions": 148,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "9a9c9cc291c7bd81adb9a04681edc0c62b3f19d8",
+            "message": "(v1.3) EncryptCommand and EncryptCommandParser",
+            "insertions": 242,
+            "deletions": 32
+          },
+          {
+            "hash": "edbfc33d2dab468bac7bc457b18e4d75c4b34dd6",
+            "message": "(v1.3) EncryptCommand",
+            "insertions": 26,
+            "deletions": 10
+          },
+          {
+            "hash": "713661930610cafe4e2064817fbcfea4ac8f3ac2",
+            "message": "(v1.3) Travis",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "e2a9a260048cad82cec9d02a6886b3fccc7d4bbb",
+            "message": "(v1.3) Travis",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "c41d4bcba7419f9e6feb955ad72b7a788b79fbb8",
+            "message": "(v1.3) Travis for EncryptCommand",
+            "insertions": 18,
+            "deletions": 10
+          },
+          {
+            "hash": "577a8872dd6aa7004eed6d526084afb3da621cdb",
+            "message": "(v1.3) Travis adjustment",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "59d5a5bf8a571f765487f6cf6db4a2cb263fed1f",
+            "message": "(v1.3) Travis check",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "0eaf1abc99def8d2b6eb76251f6256ceae770d78",
+            "message": "(v1.3) Travis",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "d49d3100e8187bbb606397be29a9f3fc97fa7ad9",
+            "message": "(v1.3) Test files Travis",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "621b07724fff4c1034398ac0a5ddb1184bc34d1e",
+            "message": "(v1.3) DecryptCommand",
+            "insertions": 57,
+            "deletions": 11
+          },
+          {
+            "hash": "d7e8a5c4241e6a1d06c08a76d78286aa725f7714",
+            "message": "(v1.3) DecryptCommand and DecryptCommandParser",
+            "insertions": 185,
+            "deletions": 27
+          },
+          {
+            "hash": "dfb3fd53d21898b9eed8295199f213d9266bf096",
+            "message": "(v1.3) Satisfied the Travis check",
+            "insertions": 16,
+            "deletions": 13
+          },
+          {
+            "hash": "afcf9bffbd9075cbc594e7ff7aed7576b496f580",
+            "message": "(v1.3) Modify code to satisfy Travis",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ecd9ba01f3fc532953078b40f7c1fc5e6c50b1e1",
+            "message": "(v1.3) Add tests for DecryptCommand",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "7c01c24f343f3c0b78089ed0001cc58a29a30630",
+            "message": "(v1.3) Travis",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "5bcbe204c97503edb2c463491021d00148633199",
+            "message": "(v1.3) Checkstyle",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "6a0a32396f2235ecafa4f19537b6844d02d35c5f",
+            "message": "(v1.3) checkstyle for Encrypt command",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f334ee1ffb95ae767c4034cd135ccb4e7ad495c2",
+            "message": "(v1.3) Apache PdfBox warning",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "3b28f6230546b3823ca5ec2605d6a91c45f58b38",
+            "message": "(v1.3) Add Apache PDFBox acknowledgement in README",
+            "insertions": 22,
+            "deletions": 6
+          },
+          {
+            "hash": "3b31cd82ef6b805e41a3ea912edfb4df137a3873",
+            "message": "(v1.3) Minor adjustment",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-30",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 247,
+        "deletions": 30,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "a630b9266270a1d1c13adeb3a0fb2a7098e459ad",
+            "message": "(v1.3) EncryptCommandTest test cases",
+            "insertions": 164,
+            "deletions": 21
+          },
+          {
+            "hash": "699fa5ceec53eede5437fb7ae5e01b1b1e692008",
+            "message": "(v1.3) EncryptCommandTest Travis check",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "25d76d9a4169249330a97343911adb8b9fcb5503",
+            "message": "(v1.3) Documentation for Encryption in DG",
+            "insertions": 40,
+            "deletions": 4
+          },
+          {
+            "hash": "0976f66dbba110e2170e2cf8d6afa9a5e181841c",
+            "message": "(v1.3) DG Documentation for Encryption",
+            "insertions": 40,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 51,
+        "deletions": 3,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "153f144c9d28b4d169375b7fdcc1b8f39cd1fb41",
+            "message": "(v1.3) DG Documentation for encrypt and decrypt",
+            "insertions": 51,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "jetkan-yk": [
@@ -2174,20 +2899,99 @@
             "deletions": 17
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 194,
+        "deletions": 131,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "2c477d983120d74bfc93a4b5c88a53b8f511f1ad",
+            "message": "(v1.3) Implement Tag function",
+            "insertions": 137,
+            "deletions": 80
+          },
+          {
+            "hash": "8fc8c7ddcb8969d4bd6a2b2957406fbd4697b1d9",
+            "message": "Checkstyle fixes",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "66b80940f9b3956f85087ed8102c35dba4329389",
+            "message": "Checkstyle fixes",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "bce38a9a4236222c70f8509c529629c4dda10f10",
+            "message": "(v1.3) Update Tag function",
+            "insertions": 18,
+            "deletions": 15
+          },
+          {
+            "hash": "f8fabad1c01e83486be38c339e76a453fb626065",
+            "message": "(v1.3) Update Tag function",
+            "insertions": 21,
+            "deletions": 16
+          },
+          {
+            "hash": "d4da9d06094968ee0a4fd9f5aa12a795144aaab5",
+            "message": "Checkstyle fixes",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "lormee94": 592,
-    "ptvrajsk": 2001,
-    "WeiTangLau": 1488,
-    "jetkan-yk": 282
+    "lormee94": 975,
+    "ptvrajsk": 2633,
+    "WeiTangLau": 2794,
+    "jetkan-yk": 350
   },
   "authorContributionVariance": {
-    "lormee94": 10185.865,
-    "ptvrajsk": 65946.95,
-    "WeiTangLau": 83998.02,
-    "jetkan-yk": 9.6549504E7
+    "lormee94": 11864.101,
+    "ptvrajsk": 167374.06,
+    "WeiTangLau": 121058.086,
+    "jetkan-yk": 8.379852E7
   },
   "authorDisplayNameMap": {
     "lormee94": "JER...LOW",

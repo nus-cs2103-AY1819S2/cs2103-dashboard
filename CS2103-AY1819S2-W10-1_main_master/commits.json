@@ -773,10 +773,288 @@
         "commitResults": []
       },
       {
+        "insertions": 1636,
+        "deletions": 1067,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "c064926aae1f5a5c2a129ddbe39d94b485b380b4",
+            "message": "Add new HTML5 test file without remote resources",
+            "insertions": 426,
+            "deletions": 0
+          },
+          {
+            "hash": "e1529df20e0156b7647140fec12c13d520e21512",
+            "message": "Remove remote resources from Wikipedia test web page",
+            "insertions": 1172,
+            "deletions": 1050
+          },
+          {
+            "hash": "b56cd5558b913623e58727d021925f21187cb341",
+            "message": "Add new test entry and standardize naming in TypicalEntries",
+            "insertions": 13,
+            "deletions": 8
+          },
+          {
+            "hash": "455ad3ef470a1c16254c1e25a7a8539f3db5bce6",
+            "message": "Add new reader view test on test page in BrowserPanelTest",
+            "insertions": 13,
+            "deletions": 7
+          },
+          {
+            "hash": "c8a1418d97d8252b2d9629170f3f3b8bef875af8",
+            "message": "Fix checkstyle errors",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "3d4b3e47f5d4344a80e5f77f7818054de7e013d3",
+            "message": "Add newline at EOF in Wikipedia test page for Travis",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 97,
+        "deletions": 38,
+        "date": "2019-03-23",
+        "commitResults": [
+          {
+            "hash": "38851c971a3614cfcea760e46755bf7636e9569a",
+            "message": "Make ModelContext observable",
+            "insertions": 63,
+            "deletions": 27
+          },
+          {
+            "hash": "d133f304db4848c075d6245de2d5220bc9252f07",
+            "message": "Make StatusBarFooter update whenever ModelContextProperty changes",
+            "insertions": 20,
+            "deletions": 6
+          },
+          {
+            "hash": "1664dc1504f492d38fc35928f5bb44aefa1b40a3",
+            "message": "Add friendly name field to ModelContext",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "fd62aaa9fbb2a7580281a7ee3261b2d00fca51cd",
+            "message": "Rearrange StatusBarFooter elements to make more sense",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 258,
+        "deletions": 83,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "b7220eb23137fbf4c9ff26cd7896b53d1417e814",
+            "message": "Refactor StatusBarFooter",
+            "insertions": 18,
+            "deletions": 18
+          },
+          {
+            "hash": "36c60898168f7aa61c923a2a74b17e24b312c995",
+            "message": "Update StatusBarFooterTest and other affected tests",
+            "insertions": 33,
+            "deletions": 17
+          },
+          {
+            "hash": "7aec7b8baee27fe43b2b933c1d80008b6c012601",
+            "message": "Add reader view failure page, update error page",
+            "insertions": 19,
+            "deletions": 2
+          },
+          {
+            "hash": "1e19214d13672051c8d984ee2c2c9ba3d8cbe517",
+            "message": "Refine behaviour of BrowserPanel",
+            "insertions": 188,
+            "deletions": 46
+          }
+        ]
+      },
+      {
+        "insertions": 225,
+        "deletions": 31,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "3d025ef3030d7a6050ff26256390ef139a1ad571",
+            "message": "Fix bug where reader view loads at wrong time",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "d0f2c68829d1c974ded53c9e054a699c53e374b2",
+            "message": "Change ViewMode from enum to class comprising ViewType, ReaderViewStyle",
+            "insertions": 157,
+            "deletions": 15
+          },
+          {
+            "hash": "649fde372007f4b477f11ef3126fe5f264bfc6c6",
+            "message": "Update existing tests to work with new implementation",
+            "insertions": 14,
+            "deletions": 13
+          },
+          {
+            "hash": "3c776144ebdd8238e91d3933b4a06672975fd953",
+            "message": "Add new stylesheets for reader view",
+            "insertions": 48,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 483,
+        "deletions": 204,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "34bbccbc0e9b204a858e7151af3b0ae3ccbb87ce",
+            "message": "Move getWebEngine from BrowserPanel to BrowserPanelHandle",
+            "insertions": 12,
+            "deletions": 9
+          },
+          {
+            "hash": "c397358aec55754be320345dca23d5ddd2116a4f",
+            "message": "Add new view type and style constants in CommandTestUtil",
+            "insertions": 12,
+            "deletions": 5
+          },
+          {
+            "hash": "a5fade37e01c0f75a88bd42416f07dc6bcd1a08e",
+            "message": "Add more unit tests in ViewModeCommandParserTest",
+            "insertions": 60,
+            "deletions": 14
+          },
+          {
+            "hash": "0dc4eb3c2c3664bd60c269800eafcd4ac2005623",
+            "message": "Add unit test for reader view style in BrowserPanelTest",
+            "insertions": 24,
+            "deletions": 5
+          },
+          {
+            "hash": "5278cf645657333f0c5fd4c20196cfe780077d8d",
+            "message": "Migrate from Crux to Readability4J",
+            "insertions": 375,
+            "deletions": 171
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-22",
+        "date": "2019-03-27",
         "commitResults": []
+      },
+      {
+        "insertions": 376,
+        "deletions": 318,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "362e53f5f00b9534a1716393f0ca50b33337aaad",
+            "message": "Refactor - move reader view generation to ReaderViewUtil",
+            "insertions": 290,
+            "deletions": 230
+          },
+          {
+            "hash": "6c65f4f574aed4ba6c5f5ea7ecab34c65ac7cf1e",
+            "message": "Update tests related to Reader View",
+            "insertions": 19,
+            "deletions": 17
+          },
+          {
+            "hash": "a805db210d999cddad2cef91cc79a8e4d356ab36",
+            "message": "Fix checkstyle violations",
+            "insertions": 67,
+            "deletions": 71
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 75,
+        "deletions": 55,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "3b95be5e1eb1174660014f7469d92b578a6339b8",
+            "message": "Clean up code",
+            "insertions": 17,
+            "deletions": 24
+          },
+          {
+            "hash": "2341ddce59944d8743da2bcae79581447bba05af",
+            "message": "Fix CSS stylesheets",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "063d068c5fe14ee86ddae4979cfce018fdc6ddf8",
+            "message": "Fix import order",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "6cbd261952d8c1ddacfd5de64c02143317a8714f",
+            "message": "Refactor ReaderViewUtil",
+            "insertions": 20,
+            "deletions": 4
+          },
+          {
+            "hash": "437a4916cb3f7070ed0da10469dd5e0310e8450c",
+            "message": "Refactor BrowserPanelTest",
+            "insertions": 17,
+            "deletions": 9
+          },
+          {
+            "hash": "418aed38506dd044bef92fe21c5762166b30d68b",
+            "message": "Fix errors from merge conflict resolution",
+            "insertions": 15,
+            "deletions": 13
+          },
+          {
+            "hash": "3c58d589f77f764af2bd054c95a48a0beadb261b",
+            "message": "Add newline at EOF, remove trailing whitespace",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 7,
+        "deletions": 9,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "7ef2cc879d1aa989f3e4a75616586aa942fc03bc",
+            "message": "Fix time as float bug, remove unneeded import",
+            "insertions": 7,
+            "deletions": 9
+          }
+        ]
       }
     ],
     "qjqqyy": [
@@ -1249,6 +1527,72 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -1842,6 +2186,124 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 34,
+        "deletions": 10,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "9e87401c3cb350a9518e8cf80003c123c12f6ee5",
+            "message": "Add new package CSSParser that parses CSS",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "e55ab867507adcc41ebe6be0588af8b0d313614c",
+            "message": "Rename seedu.address.network.* to seedu.address.util.*",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "589ef8ee8cae07accb275f39e58ac8ebe70cca7b",
+            "message": "Add TemporaryStorageManager mock for ease of testing",
+            "insertions": 27,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 318,
+        "deletions": 7,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "e726c519902d0c7502e0089322bab4f23812d8ea",
+            "message": "Add document converter class that makes all links absolute",
+            "insertions": 177,
+            "deletions": 0
+          },
+          {
+            "hash": "db9cea8e6c905372bab89c9d821685faf708551f",
+            "message": "Make AddCommand convert links in articles to absolute form",
+            "insertions": 65,
+            "deletions": 1
+          },
+          {
+            "hash": "488741fd1f47ecd2e3920411b38e976728d5af49",
+            "message": "DG: Finish `Network` design section",
+            "insertions": 76,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 25,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "eda10e2b89085245b6c2133f023ec11490ea305e",
+            "message": "Update test.html",
+            "insertions": 25,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 26,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "3e8463fb6d7108052d1420118efdb21c11361567",
+            "message": "DG: Add a better introduction to `Network` design section",
+            "insertions": 26,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "epicfailname": [
@@ -2350,20 +2812,264 @@
         "deletions": 0,
         "date": "2019-03-22",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 66,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "b8917b2056e45957517bd2594fe9d74506930fd7",
+            "message": "Add tests for (un)archive command parser",
+            "insertions": 66,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 241,
+        "deletions": 190,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "c66ef4eacec8b451e604f4caccbf9d9e1e37701b",
+            "message": "Rename functions and variables in Storage",
+            "insertions": 55,
+            "deletions": 55
+          },
+          {
+            "hash": "f84fee1b3df932b44a482149bfd1df28c41934fe",
+            "message": "Rename functions in MainApp and Config",
+            "insertions": 20,
+            "deletions": 20
+          },
+          {
+            "hash": "8c71abd1e2cf759645fc608e2f7a01c2b9fa0e55",
+            "message": "Rename persons -\u003e entries",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "57dba499781646d130dd8112c8c9950530f95f4e",
+            "message": "Update UserPref default values",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "4fdc425bda8f9d143a106877cf356f750f3a718c",
+            "message": "Renames of Model and Logic class functions",
+            "insertions": 99,
+            "deletions": 98
+          },
+          {
+            "hash": "5b5e3da114a83411049d288b40d39dfc15176d6a",
+            "message": "Add stubs for future tests",
+            "insertions": 50,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 618,
+        "deletions": 186,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "dd41133fc3f6a9ecf2646fb4e5a42066cd84b516",
+            "message": "Comment out tests to pass checkstyle",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "5d5057dc03102db0765fb88af8368c693e21b911",
+            "message": "Rename context enum ARCHIVE -\u003e ARCHIVES",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "6077518fc620b24385152121caba6b55c4aa202d",
+            "message": "Add archives EntryBook for Storage and Model",
+            "insertions": 408,
+            "deletions": 111
+          },
+          {
+            "hash": "c903f9c760040306bf55e48ef2395dcd215b330e",
+            "message": "Fix StorageManager bugs",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "78eb6af949072d2222265410c6835cdd16ac363e",
+            "message": "Change order of StorageManager contructor params",
+            "insertions": 11,
+            "deletions": 11
+          },
+          {
+            "hash": "12898c67bf13e95e59ed94f98e6e850f22e90fc8",
+            "message": "Update ArchivesCommand to show archives EntryBook",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "87b44dae141e4b5b003be5fa7b26bc6ea8f9519b",
+            "message": "Update checks for duplicate entry",
+            "insertions": 28,
+            "deletions": 9
+          },
+          {
+            "hash": "07436676b4899a6835b0325d671b943032b68098",
+            "message": "Rename test functions and added check for archives",
+            "insertions": 27,
+            "deletions": 6
+          },
+          {
+            "hash": "904135ee623ed0790d10f7110534d8b8e85f9ca3",
+            "message": "Fix initialisation bug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "09c14185117e8f63183ed91891d399c8d31c5a4b",
+            "message": "Fix ArchivesCommand bug",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "5247e650eff3a1ef36b2901e3c5ddc054a840ecb",
+            "message": "Fix ListCommand bug",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "27468f46f9d1a9b14d02eb81c66efd4681ff707f",
+            "message": "Update tests to make ArchivesCommand work",
+            "insertions": 87,
+            "deletions": 22
+          },
+          {
+            "hash": "52cec28c38c606b15af66e83cb3913f121a05e61",
+            "message": "Uncomment ArchivesCommandTest body",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "233c4e53bbe42703650a6d62fa22aca04607a5fc",
+            "message": "Add archive and unarchive commands",
+            "insertions": 37,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 162,
+        "deletions": 67,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "3d3f92b586f1fc7f8d732dc6bf3bcf287ecb2936",
+            "message": "Move updating display list logic to Model",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "704bd7ad0e2c1a04557061e81052ee81c19ad009",
+            "message": "Fix bugs in tests",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "ada5e5e5a6049a46fed0543ccbd6f9277b06e74f",
+            "message": "Fix bugs after merge",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "43319c8159397ede6228886bb6346acb543b8ee7",
+            "message": "Fix checkstyle bugs",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "043a607bdeb7e3b77e828e11887deaff418558a7",
+            "message": "Undo rename of displayEntryBook() in Model",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "45e183243041fd78ab77239b51c0db6748646ca7",
+            "message": "Hook ModelManager#displayedEntryList to ModelManager#context",
+            "insertions": 45,
+            "deletions": 38
+          },
+          {
+            "hash": "a4202b8dc7fddb09740db276397858b3266a7145",
+            "message": "Make SelectCommand a common command among contexts",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "cfbb5e538fa0b4dfdf5755ac6f71e3ad33f38cee",
+            "message": "Implement delete command for archives context",
+            "insertions": 87,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 5476,
-    "qjqqyy": 752,
-    "thomastanck": 1310,
-    "epicfailname": 4272
+    "rlrh": 6941,
+    "qjqqyy": 696,
+    "thomastanck": 1640,
+    "epicfailname": 5017
   },
   "authorContributionVariance": {
-    "rlrh": 836774.75,
-    "qjqqyy": 14384.519,
-    "thomastanck": 45253.844,
-    "epicfailname": 901149.0
+    "rlrh": 785616.0,
+    "qjqqyy": 11565.781,
+    "thomastanck": 37775.293,
+    "epicfailname": 727122.25
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

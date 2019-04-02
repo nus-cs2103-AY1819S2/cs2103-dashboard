@@ -592,9 +592,101 @@
         "commitResults": []
       },
       {
+        "insertions": 367,
+        "deletions": 159,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "136433abdd1bb3361515609a4ca6e625f1a284b5",
+            "message": "Changes to BatchTable stylesheet",
+            "insertions": 16,
+            "deletions": 9
+          },
+          {
+            "hash": "64b4d5b8966c77564f0eea7a07eb380eac7560cf",
+            "message": "Fix bug in UpdateCommand",
+            "insertions": 16,
+            "deletions": 10
+          },
+          {
+            "hash": "dfda4a0001e035e889232164c1d4bd6a151dfdc0",
+            "message": "Change Update Command to allow quantity parameter to be excluded when updating exisitng batches",
+            "insertions": 133,
+            "deletions": 37
+          },
+          {
+            "hash": "cd6c2ba5aa818e479e1498c71435740259a53d38",
+            "message": "Update tests for update command to reflect changed syntax",
+            "insertions": 202,
+            "deletions": 103
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-25",
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 40,
+        "deletions": 25,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "464188fe3e0569dfb5e1790f3691ccb9259f96c6",
+            "message": "Add Components section to UserGuide",
+            "insertions": 26,
+            "deletions": 3
+          },
+          {
+            "hash": "c6aaf0472099e6bf87d7a759b80221839c4dadc4",
+            "message": "Rename BatchTable feature to InformationPanel feature in dev guide",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "5635b886968f537ea1215ad7820f13b3ae794ef2",
+            "message": "Fix CodeStyle",
+            "insertions": 2,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -861,6 +953,54 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -1297,6 +1437,153 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 155,
+        "deletions": 36,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "67f13f5e1bca6b14ca6c8537b8fd5b78407c09fb",
+            "message": "Improve UserGuide for label command",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "ea0c0bba73fb89096b3f3857075648996682897c",
+            "message": "Added JsonTest for Label command",
+            "insertions": 118,
+            "deletions": 7
+          },
+          {
+            "hash": "0e46528a757ae51b9890af6133d297770b26b632",
+            "message": "Fix Travis checkstyle",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c69cabf8d9141e0ff8d530ea88bb9a028892b369",
+            "message": "Coding style fix",
+            "insertions": 18,
+            "deletions": 17
+          },
+          {
+            "hash": "e81fdc79ee6ce2923dbf2b34e25e70a0af1e58ad",
+            "message": "Fixing still Coding style",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "bdea09b791d1a7b0028686bf37f173f7ee722d3d",
+            "message": "Test bug error",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "57fc3e8e6b34fa832eabbf6444276b9dc5c77654",
+            "message": "Trailing whitespaces",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "7731f9074ad691b95b7ad9f7aecb9d0d31620f3e",
+            "message": "Fix code bug",
+            "insertions": 4,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 237,
+        "deletions": 103,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "adeda4459187f5d135fe804f6f246853cb1c1653",
+            "message": "Added a helper wrapper class to complement the Label Command",
+            "insertions": 166,
+            "deletions": 103
+          },
+          {
+            "hash": "4dfa15e6e17695133ba91cacf0f4708f7ca26668",
+            "message": "Added parser test for LabelCommandParser",
+            "insertions": 71,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 85,
+        "deletions": 69,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "b62a5a92d3981fdebd4820bc662b495f9758f0b8",
+            "message": "Fixed bug that did causes crashes",
+            "insertions": 37,
+            "deletions": 52
+          },
+          {
+            "hash": "5d6fc67a5722ec0f031e3007ed84466ade9d1656",
+            "message": "Fix pathfile such that the proper file path API is used rather than \"./\"",
+            "insertions": 31,
+            "deletions": 6
+          },
+          {
+            "hash": "94b1ce80b31fd960f8eb252f9978353f7e4eb5fa",
+            "message": "Updated User guide",
+            "insertions": 11,
+            "deletions": 5
+          },
+          {
+            "hash": "86d22715d9d1408971ffb67d9b768fb837643b03",
+            "message": "Fixed coding style",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "11df0cfc0f4c5e0145ce49c02d80c58ea29a2e56",
+            "message": "Coding style again",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "9caab792d56e654860a2fe85740de624d62aa3f8",
+            "message": "testing",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -1786,16 +2073,83 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 165,
+        "deletions": 8,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "db808f62c3a22b9a6e783f61f15194fd1202d80a",
+            "message": "Improve CsvWrapper.java source code",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "e2c3b4b5eae753bb8bc3e0e5f2638a17e0ab3aff",
+            "message": "Include Apache Commons Library Dependency in build.gradle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "938ce24e440201636eed33918fb0f3dcadb7fbec",
+            "message": "Update CsvWrapper.java to include more detailed FileAlreadyExistsException Description",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "1186f2f25435bef817f0685436c0ced481d58238",
+            "message": "Update CsvWrapper.java to match coding standards",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "24b90182eb58bc7ffd157e15ba386bf24750bf89",
+            "message": "Add ExportCommandTest.java (Improve JUnit Test cases for export command)",
+            "insertions": 66,
+            "deletions": 0
+          },
+          {
+            "hash": "5aff5253363700994a13286261f88cd16e3adcf7",
+            "message": "Update README.adoc to include Apache Commons Library Dependencies",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e3960328d955f1e549c94119ec67a766cf1b5be5",
+            "message": "Improve CsvWrapper.java",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "6d4e560c8d6a17b863b3388674478dd34e0e2c29",
+            "message": "Remove TODO comment in ExportCommand.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2e4f9e49a8509321d64f9cb7e0dded871f105712",
+            "message": "Update CsvWrapper.java",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "220b69acd7f64b78b095b884de826658776feac1",
+            "message": "Update ExportCommandTest.java with additional JUnit test cases",
+            "insertions": 80,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 1,
-        "deletions": 1,
+        "insertions": 69,
+        "deletions": 55,
         "date": "2019-03-20",
         "commitResults": [
+          {
+            "hash": "6472220f6fd2ec897b7ab80adf4a9c13b63724bd",
+            "message": "Update ExportCommandTest.java execute_csvFileInformationMatchesData_success() method",
+            "insertions": 68,
+            "deletions": 54
+          },
           {
             "hash": "375709ba70298183c1e9ec954f4f28b7cc709721",
             "message": "Update MediTabs version number to match milestone",
@@ -1848,8 +2202,8 @@
         ]
       },
       {
-        "insertions": 6,
-        "deletions": 6,
+        "insertions": 7,
+        "deletions": 7,
         "date": "2019-03-22",
         "commitResults": [
           {
@@ -1863,6 +2217,12 @@
             "message": "Update UserGuide.adoc based on Peer reviews",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "b59bfbf0fa9a90786653cef8a9fa7ec054f0f04d",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
@@ -1959,9 +2319,237 @@
         ]
       },
       {
+        "insertions": 21,
+        "deletions": 18,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "c68d61b5fb004841a3ef184b3fa393ec42068ebc",
+            "message": "Update UserGuide.adoc",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "364d8744766a599abbbc013875b781660bc22690",
+            "message": "Update UserGuide.adoc to ensure consistency",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d966e6db17d10a16704f1e5071e288b083590f61",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 11,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 92,
+        "deletions": 13,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "2f31509e95915a284e0e5f44caaf077515cf5758",
+            "message": "Update CsvWrapper.java and ExportCommandTest.java",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "2f7ed175d2e2286fe76a41bb95e287c5ec0e15bd",
+            "message": "Improve CsvWrapper.java implementation and update ExportCommandTest.java",
+            "insertions": 66,
+            "deletions": 6
+          },
+          {
+            "hash": "aeb09db7b949d4f8b997d643af9508cc5368a5db",
+            "message": "Update UserGuide.adoc",
+            "insertions": 17,
+            "deletions": 3
+          },
+          {
+            "hash": "4c6ad2e1977a9c25ad3fbb0d5d8581cd5b083374",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 77,
+        "deletions": 4,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "ace4cd37189dfe9fc0a5de193636b2dcb1ccc20e",
+            "message": "Update CsvWrapper.java with improved documentation",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "a528cd1c5f9530d931173e68a26f7e64dfa9e86d",
+            "message": "Update CsvWrapper.java with better data organisation",
+            "insertions": 71,
+            "deletions": 4
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-25",
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 24,
+        "deletions": 4,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "fddcf17c87d779defb19f7a2235cd9f2b694bf24",
+            "message": "Update UserGuide.adoc",
+            "insertions": 24,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 38,
+        "deletions": 34,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "9f94e36a5232801904105f9625b810cd52fc051d",
+            "message": "Update FileNameTest.java with additional JUnit test cases",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "f0a58ba1868f5f0f40d03aa286f65bd3239bf424",
+            "message": "Update Medicine.java to remove unused toStringArray() method",
+            "insertions": 0,
+            "deletions": 31
+          },
+          {
+            "hash": "07bae952073266eb773d78c6d79f233a08ee01da",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8a9cce49b7d02d4cbed376fd10c7fcc109f54efb",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "258bd081b763cb4428cf576b3cde8ac82074f95f",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c6d4b4d08bcf882f5f83672d429261aff838e197",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "49dfbc7d8ac310738559e29a5c5ddadfc13b5f80",
+            "message": "Update UserGuide.adoc Setting up Section",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "e43edd9cb03711f8d0632326e1bad5e9ccf322ce",
+            "message": "Update UserGuide.adoc Setting up Section",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 137,
+        "deletions": 21,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "efd4cd7ecb11162f2e1d55306f8375ab6299a4d1",
+            "message": "Update UserGuide.adoc",
+            "insertions": 21,
+            "deletions": 1
+          },
+          {
+            "hash": "21935b36fb1e160c1b6e394f678b24995c4755a7",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "a4b204584f1d5a6b6d36f66a53f3152bf24f960f",
+            "message": "Update DeveloperGuide.adoc Validation of File Name section",
+            "insertions": 47,
+            "deletions": 2
+          },
+          {
+            "hash": "0913b285a5fadca054fc64ff3ab3b3f7dab059b0",
+            "message": "Update DeveloperGuide.adoc Exporting as CSV file format section header description",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "ca555d4faa555f7f91b8956c24f54953eca622a6",
+            "message": "Update UserGuide.adoc",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "17c15cf80861ec5297a4f6be8ad7c225d42dea3f",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "df46ca8f784f9de83946edcc99995f784cf1bddc",
+            "message": "Update DeveloperGuide.adoc Validation of File Name section",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "40f4016a4d3e5c07c5ac235597cfcb9e20a6a88f",
+            "message": "Update UserGuide.adoc and DeveloperGuide.adoc",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "4426016ab26a411197498b0ebd9167cbeedec9aa",
+            "message": "Update FileName.java and FileNameTest.java",
+            "insertions": 31,
+            "deletions": 4
+          },
+          {
+            "hash": "4d386fc13fb7174745004fc76391b54d2c7dce79",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5ac7cc15033233510ef36da73d07b43ce6432a53",
+            "message": "Update MediTabs version number to v1.3.0",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -2479,22 +3067,238 @@
             "deletions": 14
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 426,
+        "deletions": 118,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "72de1693cfc2dd0fb709c4840154efae5b180901",
+            "message": "implemented \u0027warning show\u0027 command",
+            "insertions": 241,
+            "deletions": 22
+          },
+          {
+            "hash": "b3d00cad9f374b1f4958f04f20bbbf421922fd86",
+            "message": "Implemented warning command",
+            "insertions": 121,
+            "deletions": 51
+          },
+          {
+            "hash": "74b2555c74423d754f455dc36f933a877a524edc",
+            "message": "Passed all tests (27 march)",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "0070921279aa92c71ddf9faa1261758cacb79726",
+            "message": "Updated UG to reflect new warning command format.",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "fe7dda47b41c6e4302705f1bb0106adc06562b9c",
+            "message": "Fixed style",
+            "insertions": 49,
+            "deletions": 33
+          },
+          {
+            "hash": "8c3e9b2a25b5675502f6fb39351dd36533b4add0",
+            "message": "Final style fix",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "4f25b25ff2ff77c60703c2eab2c360d9f463595a",
+            "message": "Rectified javadocs",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 52,
+        "deletions": 38,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "ab1698f1c79af1a2ea8140c24bff5f38ce700831",
+            "message": "changed css for main product view (darktheme)",
+            "insertions": 48,
+            "deletions": 34
+          },
+          {
+            "hash": "9373dab4ff74bcf293dd150c551dd6ed6c25d2fb",
+            "message": "fix style",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "175a6cc009d5f50c85550de9a1ee5387d48da6d3",
+            "message": "removed single white space before comment",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 654,
+        "deletions": 98,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "a3c37c5647ce7eb5a85fef6008931a6e3955ffb5",
+            "message": "test for low stock predicate",
+            "insertions": 150,
+            "deletions": 45
+          },
+          {
+            "hash": "c9367e17c0fbe8e4f0e440a81379281702fb02ba",
+            "message": "test for threshold",
+            "insertions": 52,
+            "deletions": 21
+          },
+          {
+            "hash": "ed5383611f2d72b9915337042208611a12591835",
+            "message": "updated test for ModelManager",
+            "insertions": 94,
+            "deletions": 24
+          },
+          {
+            "hash": "2a4f2779437a8cffb9848abda8f8c07378d1664f",
+            "message": "added test for WarningPanelPredicateAccessor",
+            "insertions": 161,
+            "deletions": 2
+          },
+          {
+            "hash": "e7580e6441a9c42b38165876f28cecf32f19a117",
+            "message": "added tests for expiry threshold predicates",
+            "insertions": 197,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 629,
+        "deletions": 198,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "75f78b4260d8a267d91e10c2ac8a75b48f8d1995",
+            "message": "save warning threshold set by user",
+            "insertions": 223,
+            "deletions": 66
+          },
+          {
+            "hash": "5645000dfe8f72246485a1fec8ec87a24d746b39",
+            "message": "added tests for saving user set warning threshold",
+            "insertions": 52,
+            "deletions": 1
+          },
+          {
+            "hash": "013190a981ee9378e9523f23fd71c1748dff1d41",
+            "message": "added tests for saving user set warning threshold",
+            "insertions": 85,
+            "deletions": 0
+          },
+          {
+            "hash": "85d5ec847a88a48ffd0adb82017a4f737f186553",
+            "message": "warning command parser test",
+            "insertions": 182,
+            "deletions": 46
+          },
+          {
+            "hash": "0312a15d23ca655b258ba505d8a2121173f79653",
+            "message": "fixed style",
+            "insertions": 20,
+            "deletions": 14
+          },
+          {
+            "hash": "dc9637ad83f7e27d958ca65724c22c8b01f8b3e0",
+            "message": "fixed import statements",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "6eb143af58ef73abcb7b90f9e8bdecbddc1d3964",
+            "message": "static import statements",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "8290b6122b8ae2f24a49a6b367939d5b3ae004cc",
+            "message": "tests checkstyle fixed",
+            "insertions": 43,
+            "deletions": 44
+          },
+          {
+            "hash": "df1de2c09be1406551558253a0f29a6d4faebe06",
+            "message": "Test import statements",
+            "insertions": 12,
+            "deletions": 13
+          },
+          {
+            "hash": "4aea1a525584007298285e2643e04d37c6283623",
+            "message": "import statements",
+            "insertions": 9,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 4,
+        "deletions": 3,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "d9af29789b9e6147c6d78ec77d3de03ce06a5a91",
+            "message": "update UG",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 58,
+        "deletions": 42,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "87a2cd9830690ed667d3f79609ca9b4145cbabe2",
+            "message": "restructured UG",
+            "insertions": 58,
+            "deletions": 42
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jtankw3": 6036,
+    "jtankw3": 6230,
     "kevvvinn": 0,
-    "melpulomas": 364,
-    "JonathanLeeWH": 768,
-    "flxffy": 777
+    "melpulomas": 634,
+    "JonathanLeeWH": 1206,
+    "flxffy": 2144
   },
   "authorContributionVariance": {
-    "jtankw3": 1424379.8,
+    "jtankw3": 1220288.4,
     "kevvvinn": 0.0,
-    "melpulomas": 2734.5598,
-    "JonathanLeeWH": 6607.49,
-    "flxffy": 9013.605
+    "melpulomas": 5200.9785,
+    "JonathanLeeWH": 6407.0303,
+    "flxffy": 33005.0
   },
   "authorDisplayNameMap": {
     "jtankw3": "TAN...SON",

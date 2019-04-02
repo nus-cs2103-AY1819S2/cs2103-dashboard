@@ -556,6 +556,141 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 635,
+        "deletions": 273,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "207b07c0fefa04d565a98a0707e73442a555fa11",
+            "message": "Create skeleton classes for project Task",
+            "insertions": 221,
+            "deletions": 0
+          },
+          {
+            "hash": "63e53ddf59d1b2d903a475a876fec918106240ab",
+            "message": "Create AddTaskToCommand class",
+            "insertions": 293,
+            "deletions": 221
+          },
+          {
+            "hash": "b6c56cb130988f352bcf8531780ec9e31a691828",
+            "message": "Teach app to accept \u0027addto task\u0027 command",
+            "insertions": 121,
+            "deletions": 52
+          }
+        ]
+      },
+      {
+        "insertions": 794,
+        "deletions": 265,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "002c27817f0c1bee5464ccf692d4aa1a15f8f20f",
+            "message": "Add basic tests for parsing \u0027AddToTaskCommand\u0027",
+            "insertions": 125,
+            "deletions": 35
+          },
+          {
+            "hash": "d60d1d9ef32a4b51955cff738385279c73f2d180",
+            "message": "Rename Task to ProjectTask",
+            "insertions": 105,
+            "deletions": 102
+          },
+          {
+            "hash": "7d807a71eadd5bc8a8391e07b02f046a7da17a81",
+            "message": "Add ProjectTaskTest.java",
+            "insertions": 90,
+            "deletions": 2
+          },
+          {
+            "hash": "51f2502950803890ad30029944bfd5c799f75ac1",
+            "message": "Update behaviour for TaskStatus",
+            "insertions": 112,
+            "deletions": 41
+          },
+          {
+            "hash": "d4eee585294a3b296f9e48f774602440f4bcd964",
+            "message": "Add UniqueProjectTaskList.java",
+            "insertions": 184,
+            "deletions": 26
+          },
+          {
+            "hash": "03e6a0d97881e8d289f72e2fcee87ac32faf3248",
+            "message": "Allow project tasks to be added into task list in milestone",
+            "insertions": 34,
+            "deletions": 23
+          },
+          {
+            "hash": "62e7184a1296afb82ca8917babbd0d64edd00cba",
+            "message": "Add functionality to save AddTasksToCommand results",
+            "insertions": 110,
+            "deletions": 15
+          },
+          {
+            "hash": "ba1c9fb5d15e75b54f7a3e64850464da983b3f1d",
+            "message": "Fix AddToCommand not storing to json properly",
+            "insertions": 31,
+            "deletions": 17
+          },
+          {
+            "hash": "522fa116ce0952b31b0bd9ee4466a0fa851ad41b",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "aff0105a7836fc3c38947ae5ed232079d0861079",
+            "message": "Fix typo in comment",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 69,
+        "deletions": 1,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "d2d64ee4b3e1f26c421955a3140de110b9218e72",
+            "message": "Fix typo in comment",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b27df6ad75fdb75b93e707092b07039582f953ea",
+            "message": "Update DG manual testing",
+            "insertions": 68,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "jeffgan96": [
@@ -1482,27 +1617,438 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1033,
+        "deletions": 277,
         "date": "2019-03-23",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0e29dcb583f3d982e56d9807505879454d92730b",
+            "message": "add userstory class add userstorypriority class add userstoryuser class add userstorybenefit class add userstoryfunction class",
+            "insertions": 223,
+            "deletions": 0
+          },
+          {
+            "hash": "d6ea49c9076726a6573860a1e4f7812a2eb92647",
+            "message": "add error messages for duplicate and invalid user stories add uniqueUserStoryList class",
+            "insertions": 196,
+            "deletions": 0
+          },
+          {
+            "hash": "a9861fb85a75b8041a71d00db111fb3fc4f960e2",
+            "message": "makes uniqueUserStoryList store the user stories in a sorted by desc priority level",
+            "insertions": 22,
+            "deletions": 1
+          },
+          {
+            "hash": "546459f8a57a90a43fc586eb6a7083c38cc9bbe1",
+            "message": "update project model to include user stories update project equals comparator and toString update user story toString method",
+            "insertions": 80,
+            "deletions": 45
+          },
+          {
+            "hash": "e063080f809fc9903fae56e7bb9d7715e20d6f30",
+            "message": "add storage for user stories as part of projects",
+            "insertions": 108,
+            "deletions": 12
+          },
+          {
+            "hash": "4a52c8ca05293a1627f9ad57b545b3412d4260fe",
+            "message": "temp commit to merge jothi\u0027s code which will result in a merge conflict",
+            "insertions": 100,
+            "deletions": 1
+          },
+          {
+            "hash": "7d70a8350bc740f1ca53e45503fcca84302e922c",
+            "message": "edit existing test cases to work with new userstory class",
+            "insertions": 118,
+            "deletions": 29
+          },
+          {
+            "hash": "2a6e4b3c3437c37816a6a5b14f6148a2c009cc33",
+            "message": "refactor priority to importance to prevent collision of prefix p/ with phone refactor benefit to reason for easier understanding",
+            "insertions": 186,
+            "deletions": 189
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 217,
+        "deletions": 17,
         "date": "2019-03-24",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d290c59d946ce2b89deceff03a3939047f990bd5",
+            "message": "add part of logic. some parts are discarded due to change in implementation of CLI",
+            "insertions": 151,
+            "deletions": 8
+          },
+          {
+            "hash": "560198669c92ce58d0c2f34997adefa668ee7cfa",
+            "message": "editted parser to account for user stories",
+            "insertions": 63,
+            "deletions": 9
+          },
+          {
+            "hash": "97ea7cdbb9405229a68157288ac70b5b353d44b1",
+            "message": "connect userstory with main details",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 379,
+        "deletions": 67,
         "date": "2019-03-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7e5d581eccd8cc67a603a6195c439be97ce1746e",
+            "message": "temp pause for UI to work on storage",
+            "insertions": 112,
+            "deletions": 0
+          },
+          {
+            "hash": "8ebca1e4109242d8eb671cacba13f3c5c88ca054",
+            "message": "minor edits",
+            "insertions": 16,
+            "deletions": 10
+          },
+          {
+            "hash": "8d7ad4950e1c1dd7b3ce43b784d1aa262548b9ca",
+            "message": "fixed bug in logic which prevent user from omitting reason and duplicate keywords",
+            "insertions": 42,
+            "deletions": 7
+          },
+          {
+            "hash": "e6800227bc2e4fd7483ff0ffcfa7399bd5cbd1ea",
+            "message": "minor edits to logic",
+            "insertions": 7,
+            "deletions": 19
+          },
+          {
+            "hash": "d4fbc213c013c3c08e65623d950cf1e968647526",
+            "message": "attempted fix for storage issue",
+            "insertions": 28,
+            "deletions": 5
+          },
+          {
+            "hash": "aef876b64b5a03e13cdf256671a49953ad114616",
+            "message": "bug fix",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "79b05df1ece58753818a6954950e954b1a506cf0",
+            "message": "attempt to fix bug",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "f4d4b84077d2f66e34224b50f34bafd819fa0ff0",
+            "message": "updated to allow removing of user stories",
+            "insertions": 131,
+            "deletions": 4
+          },
+          {
+            "hash": "7f386bd4af48c9b02fc7895e9796228b9497c0be",
+            "message": "fixed bug causing user stories to not show up",
+            "insertions": 16,
+            "deletions": 4
+          },
+          {
+            "hash": "27bf4346fe60d72eb31a0cea322891475eec08ec",
+            "message": "updated ui for user stories",
+            "insertions": 16,
+            "deletions": 10
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-26",
+        "commitResults": []
+      },
+      {
+        "insertions": 352,
+        "deletions": 504,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "018c455e18fbde04bb34177d8a47630a817f07bc",
+            "message": "minor updates for jar exec",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "262169f79317d160c17f468cf930c8ed33cd1f44",
+            "message": "Revert \"added some system tests for delete project\"",
+            "insertions": 88,
+            "deletions": 446
+          },
+          {
+            "hash": "ecda0037e5b18dd010972cd462ce5242dec2635e",
+            "message": "formatting fix",
+            "insertions": 29,
+            "deletions": 27
+          },
+          {
+            "hash": "8c8ad99c2124ea44d4c946027855ae976feec5f6",
+            "message": "formating fix",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "8b440cf936d034bff883a2daa3884847da8513b0",
+            "message": "removed alias parser test",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "720ed054e1fdeb656f77efae876775d739c58d46",
+            "message": "formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6a85a88aaf8dbb3c9ba4703f0920315a019a504e",
+            "message": "removed more alias tests",
+            "insertions": 0,
+            "deletions": 12
+          },
+          {
+            "hash": "913194e35c6764f89c030bd1662ad54aa95d34e1",
+            "message": "add logic tests for user story commands addto removefrom",
+            "insertions": 225,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 375,
+        "deletions": 35,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "b04cb626efca78d624efc39e72ee96479acea3f9",
+            "message": "add unit tests for parser",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "3d7c79093fd4e5e3f6c10d6bc769cb7f0ee0750f",
+            "message": "fixed bug",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "81142b96b727d6c59b9021ce20f459c063c87734",
+            "message": "added model junit tests",
+            "insertions": 82,
+            "deletions": 3
+          },
+          {
+            "hash": "722ffdaa1f8468e9b5bb24d2e8be63d71a62c772",
+            "message": "add systemtest for userstories",
+            "insertions": 179,
+            "deletions": 0
+          },
+          {
+            "hash": "7eac3e9a66386b7cf812cfe3081e059e48d97333",
+            "message": "formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "49d183ecaed41942386fa73cadb0f7cbe207a84c",
+            "message": "formatting",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "6dd973d3f8614a3d8ab3afdbb2adb8f77fee670c",
+            "message": "forgot a file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9838021ef7f492e4e22747266a1b9f77a10733cf",
+            "message": "Update AddUserStoryToCommandSystemTest.java",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "56c327ab740fb4e17aacffcb5f33594f88b7ad0f",
+            "message": "update ug and dg",
+            "insertions": 74,
+            "deletions": 16
+          },
+          {
+            "hash": "58618194e818348b823ebd2799aa5d8efd34af4a",
+            "message": "Update AddUserStoryToCommandSystemTest.java",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 826,
+        "deletions": 230,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "4026a003ac56b404f9fa8b58b9e7bb688c317a33",
+            "message": "fixed ui bug",
+            "insertions": 34,
+            "deletions": 3
+          },
+          {
+            "hash": "f1100386e36ef8d04d0f528fea0faefa7acdcff5",
+            "message": "fixed bug",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "31a1954a0050c62eeccb265ea2ada1a4c0cad8f2",
+            "message": "Update ParserUtil.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b73d73720cb76ead8c83fa9c747ff3dfc41f9b9d",
+            "message": "fix formatting",
+            "insertions": 15,
+            "deletions": 14
+          },
+          {
+            "hash": "6df6d0e9f616d7f28d1eb23d7c9637a70094b019",
+            "message": "change employee details to refer to github profile (prev used name)",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0126e67e5b925825203bbd7a7efc58b8599853ad",
+            "message": "update css",
+            "insertions": 769,
+            "deletions": 208
+          }
+        ]
+      },
+      {
+        "insertions": 422,
+        "deletions": 950,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "6b5327dd7e1d79b557d701493013e9680ef42ff7",
+            "message": "redesigned the theme",
+            "insertions": 422,
+            "deletions": 37
+          },
+          {
+            "hash": "b87eb5246108cf662d7aca3213b610bea28920e6",
+            "message": "removed old css file",
+            "insertions": 0,
+            "deletions": 913
+          }
+        ]
+      },
+      {
+        "insertions": 273,
+        "deletions": 46,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "50e1fdf6ddfa6a98dabe8a30b199d7d6918b1b99",
+            "message": "formatting",
+            "insertions": 3,
+            "deletions": 9
+          },
+          {
+            "hash": "58e711bb9f90c8b3a1efaa24ce92fdb898f6d595",
+            "message": "formatting",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "43fa6e385d93cc20387e48c6becd88da24e701b5",
+            "message": "fixed failing tests added some minor changes to css",
+            "insertions": 34,
+            "deletions": 27
+          },
+          {
+            "hash": "13cbb671e51f04155696d6b9cc88bad19e3d7d12",
+            "message": "formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0a776ae111078eb6300a347d6162dfaa8a6dc05a",
+            "message": "add project employees to details panel",
+            "insertions": 126,
+            "deletions": 1
+          },
+          {
+            "hash": "373b4c6ee1057f7272bc56b15ce49e073c83438e",
+            "message": "made user stories class only take in as argument the stories instead of project object",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "9f6ca6bc5e52af62b7c7fd62c11928659763a161",
+            "message": "[WIP] added employee projects",
+            "insertions": 100,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 319,
+        "deletions": 35,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "22437df9ef8a8f4c2b0a9a344db25f446c3a6601",
+            "message": "add list of projects in employee to UI",
+            "insertions": 18,
+            "deletions": 15
+          },
+          {
+            "hash": "d1bd00084b5086c9bf1c17cae0f4ae8b82bac7ef",
+            "message": "code cleanup",
+            "insertions": 22,
+            "deletions": 11
+          },
+          {
+            "hash": "40e51133454fd5c16d6db190441ff76aaa1b5d70",
+            "message": "encapsulate employee github",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "316ac255815da3452b70164f9d4753d0119c9ec2",
+            "message": "formatting fix",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "54f34336b4d658e1740deb57021e94a99ea9199b",
+            "message": "update dg",
+            "insertions": 272,
+            "deletions": 1
+          },
+          {
+            "hash": "74ec616debfcebf8f36a794ff459cf30d2907665",
+            "message": "fixed double selection of UI side tab panels",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -2361,10 +2907,41 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 454,
+        "deletions": 107,
         "date": "2019-03-24",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e7dd5e045d31029270390473bbd0a29b7448224b",
+            "message": "added some system tests for delete project",
+            "insertions": 301,
+            "deletions": 97
+          },
+          {
+            "hash": "6903fce9e70bf6d5530b8bb0f7dbd197148133b3",
+            "message": "fixed formatting",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c46beb38e47eda47237d5a70c5238abe09c59aa4",
+            "message": "fixed DeleteProjectCommand#execute",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "7380c39218175d84a73fe2eb452f55bef0c7ee99",
+            "message": "added RemoveEmployeeFromCommandSystemTest",
+            "insertions": 141,
+            "deletions": 0
+          },
+          {
+            "hash": "b41d673e25c44afe589d152d9dd1bff07e636d90",
+            "message": "I don\u0027t know why both ways work",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2373,9 +2950,186 @@
         "commitResults": []
       },
       {
+        "insertions": 14,
+        "deletions": 1,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "f816916db1158ed8f360f445aac4953a1a950a3a",
+            "message": "added something",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "755504ec8127922332edc372e07ccacc11c8c6ca",
+            "message": "fix typo",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 457,
+        "deletions": 197,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "13f44d885ee17ce5fb026817d9686c3b295a000b",
+            "message": "updated DG",
+            "insertions": 32,
+            "deletions": 6
+          },
+          {
+            "hash": "df70f530dbf6af6d318f5ed47900d16a661551fa",
+            "message": "added Employee#getCurrentProjects",
+            "insertions": 164,
+            "deletions": 57
+          },
+          {
+            "hash": "7c37b015560d567c21f99196e19a4ae5309dfa29",
+            "message": "fixed inconsistency",
+            "insertions": 19,
+            "deletions": 9
+          },
+          {
+            "hash": "e7ab8c7f87fbb3a8884b4a3ca258740845a8c566",
+            "message": "commented out tests in AddToCommandTest and AddToCommandSystemTest",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "d5cc0886560d68f28cceaa52c96de1c2011154c3",
+            "message": "commented out unused import",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9bd70a64f520099035d36a156efcf869828f6041",
+            "message": "fix a lot of mess",
+            "insertions": 51,
+            "deletions": 16
+          },
+          {
+            "hash": "6c76b1ec566c2aa1ea826b425ca379b15f5a79e3",
+            "message": "fix storage",
+            "insertions": 164,
+            "deletions": 97
+          },
+          {
+            "hash": "0607f9529c7db9bea2064de6d031ad425de35cb4",
+            "message": "LET ME PASS",
+            "insertions": 20,
+            "deletions": 7
+          },
+          {
+            "hash": "c9bc1e210ee92cb63cdeeab84277987f2906458b",
+            "message": "fix formatting",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 174,
+        "deletions": 49,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "d69111748e365908c3577156a7b51a6b2004103a",
+            "message": "changed conditions for employee#equal to cater to current model of testing",
+            "insertions": 1,
+            "deletions": 8
+          },
+          {
+            "hash": "d1c93ed4d5ac10f2cde737855d7e3becec65086b",
+            "message": "removed testing stuff",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "5df34ba5b65420aaf7abc5b7b53c112fa0015b6e",
+            "message": "Fixed typo",
+            "insertions": 25,
+            "deletions": 6
+          },
+          {
+            "hash": "c02292602189b9ef56a958e34fdbc84674e5c1bf",
+            "message": "updated DG",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "d1b0ea21359f69b5027bbd18e0eaa0aaf5cd2ed2",
+            "message": "updated DG",
+            "insertions": 22,
+            "deletions": 7
+          },
+          {
+            "hash": "6781ae3d62b500dc53a026b95b452db725518336",
+            "message": "Updated Dg",
+            "insertions": 18,
+            "deletions": 11
+          },
+          {
+            "hash": "0b1e9ab7b41fb416fe5678414fb7a451d1ded105",
+            "message": "Updated Dg",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "8e78d265744c70439f9ac781bd03b38ff3f61fd6",
+            "message": "updated DG",
+            "insertions": 71,
+            "deletions": 9
+          },
+          {
+            "hash": "9270c008eddfe55cbf6314bd8a850ced638f7ff5",
+            "message": "updated DG",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "2e1feb893852d26b12749203c9798f87cc71fb26",
+            "message": "updated DG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0aecca945b3c367de022ac63e100569c97088083",
+            "message": "Updated Dg",
+            "insertions": 15,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
         "commitResults": []
       }
     ],
@@ -3024,6 +3778,135 @@
             "message": "Remove printf",
             "insertions": 0,
             "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 511,
+        "deletions": 23,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "bea8389a4a023665fd6462a4d5210ed23d512084",
+            "message": "Add FindAllCommand",
+            "insertions": 76,
+            "deletions": 1
+          },
+          {
+            "hash": "72c16f7f91bb8a6ada842e89296aec9314baf179",
+            "message": "Update FindCommandParser",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "f6cf0bffedbc81239d5cf53803c8db4dd979b8e0",
+            "message": "Add test for Parser",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "a2ba698af1284481c5ed62e02c33c9bd7b1ee83a",
+            "message": "Add test for ProjectContainsKeyword Predicate",
+            "insertions": 96,
+            "deletions": 2
+          },
+          {
+            "hash": "8be3cbc4af7b5f0e76513c14b9e582170c78e492",
+            "message": "Add test for FindAllCommand",
+            "insertions": 88,
+            "deletions": 2
+          },
+          {
+            "hash": "21e399db729c9fbe9a8b33634e818df0bc278f18",
+            "message": "Add findallcommandsystemtest",
+            "insertions": 192,
+            "deletions": 6
+          },
+          {
+            "hash": "c4d13f7d3976f9128fc4b84a9651bffaf705e609",
+            "message": "Update diagrams in DG",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "18ecad6677f7e96425733d2474607bf60c2b2c5a",
+            "message": "Update UG",
+            "insertions": 39,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 37,
+        "deletions": 20,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "5e77bcbdf96160bac481aee36e3a74c32da96df1",
+            "message": "Update css for employee summary",
+            "insertions": 23,
+            "deletions": 12
+          },
+          {
+            "hash": "3848a018fcd2a3142705876a684aa694db8be563",
+            "message": "Update DG",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "67a31ee8a23354fc821ceb91cb74c2b0f6455936",
+            "message": "Minor Fix in UG",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "5c89feb38d28ddc5f9a9a34c08effea3c60310d3",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 61,
+        "deletions": 21,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "82271e273b24610ade25bf37252957f8b9ee987b",
+            "message": "Style EmployeeSummary panel",
+            "insertions": 60,
+            "deletions": 14
+          },
+          {
+            "hash": "aa112bd707127773878f4f07f099fa32440eefd7",
+            "message": "Set listview in employee summary to be non interactable",
+            "insertions": 1,
+            "deletions": 7
           }
         ]
       }
@@ -4028,26 +4911,597 @@
         "commitResults": []
       },
       {
+        "insertions": 167,
+        "deletions": 43,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "df148ffa13c951aa63d6726cd77a938873ca4728",
+            "message": "added background info ug",
+            "insertions": 59,
+            "deletions": 26
+          },
+          {
+            "hash": "53d3411f5b4171ef1b30373d586c9f5b2272d3a4",
+            "message": "reformatted and editted \"before we begin\"",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "913195d31ed9b75c7cca78ace85727761f3f2178",
+            "message": "added undo command",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "cb34e389073f840cefb93461c5f534a7412a4be0",
+            "message": "added redo and clear commands",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "940c14d82c69e2431c7634950ca8cc61ba92fa8f",
+            "message": "added bg in dg",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "ab900cdc172ad1ec992405fd8d65fe61215bfcfd",
+            "message": "updated dg with new sections",
+            "insertions": 25,
+            "deletions": 8
+          },
+          {
+            "hash": "4b74e93867a27539d2af6660759e8cd24a1e461f",
+            "message": "updated dg for v1.2.1",
+            "insertions": 7,
+            "deletions": 0
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-26",
+        "date": "2019-03-27",
         "commitResults": []
+      },
+      {
+        "insertions": 651,
+        "deletions": 635,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "34f739fff6695ea80183bf913fc99d51b0f55bca",
+            "message": "refactored address to githubaccount part 1",
+            "insertions": 163,
+            "deletions": 164
+          },
+          {
+            "hash": "aa9fe6618f7faa6fdc4a8f7579a27ce483cd6e45",
+            "message": "complete refactoring from a to g in model employee",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "573357b11033da34085365454d19bcd720ff96b8",
+            "message": "refactor tags to skill in model employee and skill",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c9655cea40a50652e7fb24d83e8495c698e080a5",
+            "message": "completed refactoring in model component",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "76bdb9f0245e9d1d0d5a2642a40ff8d59b2bc01f",
+            "message": "refactored complete storage component",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "c228a097724021e28b431279ef338b55c84a4bff",
+            "message": "complete refactoring in UI",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "984b3af8a2ebaeafe24a47c3d84001fb49274475",
+            "message": "refactor ab to pp in MainApp and address to github in mainapp",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "1f666e7d2d7f5c3132d7fc94443ecb03ff48c5c9",
+            "message": "refactored in commons",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a1174c9d88285772dc568211f955aded9b6b9a88",
+            "message": "refactor add to github in command logic",
+            "insertions": 25,
+            "deletions": 25
+          },
+          {
+            "hash": "90a1a64d65b0540a16e0c94278b111aeebbdc7af",
+            "message": "completed refactoring in logic portion",
+            "insertions": 9,
+            "deletions": 10
+          },
+          {
+            "hash": "07f98ac6d71e7f14181ea8ea989a018ba734ac78",
+            "message": "refactored add to github in test-data",
+            "insertions": 60,
+            "deletions": 60
+          },
+          {
+            "hash": "b3779f91f1d3ec8f4ef969636bfb2efafb1b2d15",
+            "message": "refactored in guitests",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "c0d04cae380cd341ed7d69a5ab38c19c97d535a8",
+            "message": "refactor ui unit tests",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6aa9e9fb7293cbb2bc3ece0c621e41dd038b0522",
+            "message": "refactored in typical employees and test util",
+            "insertions": 119,
+            "deletions": 119
+          },
+          {
+            "hash": "1fcfa9d4fcc0f33bf418d5545024d3dd45337be4",
+            "message": "refactored in storage tests",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "6d5ebecbaab82806f3aa7514410c5b63259bcf62",
+            "message": "refactor in model tests",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "90a12b5b1e8795e93e59a2bb21c15e3c617b4fa5",
+            "message": "parser logic tests",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "6a3a52585dc0a235c167e00db0eb65f1125f0cd4",
+            "message": "added github in command system tests logic",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "9da8921567ce1b1d93ff2a6845d3644af00268ab",
+            "message": "updated system tests",
+            "insertions": 29,
+            "deletions": 29
+          },
+          {
+            "hash": "ea061f61b25d4b81efac00f4543d408fc31ebca2",
+            "message": "fixed duplicacy issues in storage",
+            "insertions": 59,
+            "deletions": 59
+          },
+          {
+            "hash": "b30128653af26712da0e110e1d76efd53423873b",
+            "message": "fixed duplicacy in typical employees",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "b5c8754f22ad67f6c0b2249ae439da0d1f7d7559",
+            "message": "changed githubaccount to github for consistency",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "254de1ce2318183e542055d42f5fdfd93b60d73c",
+            "message": "updated edit command",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "22a624edf290bc3725aee0401634bb07dd7e6ef7",
+            "message": "updated jsonadaptedemployee in storage",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "107ecf18c73725a1948bb6c4dc66bf64fb2386c6",
+            "message": "fixed failing tests",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "4f4b62abc56b94514849f26a4a6474d61b15f9da",
+            "message": "updated userguide",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "72fe7308928721a0ff1d03092045ae6d4b99e4f9",
+            "message": "updated regex for github",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "b04633b7c2c906aad48ad63e50c27f634926360a",
+            "message": "updated logic and regression testing pass",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "6e4d1d850e8d6fecc1dec8e4c1f723ce41faf936",
+            "message": "updated regex and corrected failing tests",
+            "insertions": 18,
+            "deletions": 4
+          },
+          {
+            "hash": "b85f89e004089138153312e69776e84f4b96d130",
+            "message": "updated tests and regression testing complete",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 85,
+        "deletions": 72,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "00810d41470853a576b13d52aeb0d15b0efce7b1",
+            "message": "fixed formatting errors",
+            "insertions": 13,
+            "deletions": 11
+          },
+          {
+            "hash": "26a056d700758ec0d8545753831ccdeb4947b29d",
+            "message": "fixed formatting errors",
+            "insertions": 49,
+            "deletions": 45
+          },
+          {
+            "hash": "9b292536194de21b2518ea14706316a2dae4d07e",
+            "message": "corrected formatting errors",
+            "insertions": 6,
+            "deletions": 9
+          },
+          {
+            "hash": "e838c94263c1d925918df5e2b132ef7168db0acc",
+            "message": "corrected formatting errors",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "fff4f4595b568dddc3343de1db5412c2a13bbe04",
+            "message": "added flexi date class",
+            "insertions": 8,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 435,
+        "deletions": 383,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "232baad5e7e6097f0e74daef2b8a1b986a15c4e0",
+            "message": "added methods to flexible date class",
+            "insertions": 58,
+            "deletions": 2
+          },
+          {
+            "hash": "252cd6c882af72a3f8f76f9c25bb03a122b857ea",
+            "message": "added utility methods to flexible date",
+            "insertions": 34,
+            "deletions": 1
+          },
+          {
+            "hash": "c05e6411d2ebb1d73daad75511b3bb33a07f8276",
+            "message": "removed irrelevent sections in dg",
+            "insertions": 0,
+            "deletions": 278
+          },
+          {
+            "hash": "83f0b2a2b589036ca7a8f377bee64cdb18bd86ae",
+            "message": "edited intro, bg, before we begin",
+            "insertions": 29,
+            "deletions": 12
+          },
+          {
+            "hash": "133198dda94d779a542f2b3876642d7f01151fa9",
+            "message": "updated symbol formatting",
+            "insertions": 16,
+            "deletions": 13
+          },
+          {
+            "hash": "7351a64266f20271ec736570fcefa75698535d87",
+            "message": "created flexible date parser class",
+            "insertions": 24,
+            "deletions": 6
+          },
+          {
+            "hash": "201179083f9e7847e24b5be2ad682fdb9f71a437",
+            "message": "updated parse date method in parserutil",
+            "insertions": 55,
+            "deletions": 15
+          },
+          {
+            "hash": "fc1d49a3c0223ff6ce954546c7cfdbf1f07d7b6c",
+            "message": "updated static prefixes for flexi date",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "ad616eef425fd494fd17b6f641d2da66681f75fa",
+            "message": "updated logic for today, tomorrow, yesterday",
+            "insertions": 37,
+            "deletions": 12
+          },
+          {
+            "hash": "18c4c7723aea8aa39196582892987c07e77a709d",
+            "message": "updated parser tests for today, tomorrow, yesterday",
+            "insertions": 46,
+            "deletions": 4
+          },
+          {
+            "hash": "3a87af1255afbf9f5118e7339c82bb1e3ecb41d9",
+            "message": "created utility class for testing flexible date inputs",
+            "insertions": 18,
+            "deletions": 3
+          },
+          {
+            "hash": "8461e9e2066d345d7f1288e9a87a82b0a0238641",
+            "message": "fixed bug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "40149fe188e18c943d804ffaa2c6e81a2e74fe31",
+            "message": "changed regex to fix failing tests",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "393ec2fdc1072187f725e46f9698e45582407dd9",
+            "message": "fixed failing tests. regression test complete for basic flexi dates",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "c6e960e23c8a90442d5a1978dde7f8d5fb690549",
+            "message": "updated strings to prefixes",
+            "insertions": 11,
+            "deletions": 16
+          },
+          {
+            "hash": "24007d1ec1ea372e2ee62cafdae48cb468919f0d",
+            "message": "added methods to support this week day flexible date input",
+            "insertions": 80,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 556,
+        "deletions": 78,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "dfb066ece3fae44a2b89e2e5e7f574941b42e8c0",
+            "message": "fixed regex and updated tests for this week",
+            "insertions": 42,
+            "deletions": 4
+          },
+          {
+            "hash": "988d4fb716ee12e1b26ceddca27bd2bc685ea5a4",
+            "message": "created this month day flexi date input. regression testing complete",
+            "insertions": 57,
+            "deletions": 1
+          },
+          {
+            "hash": "bcb7c843bd0ddc01153e156b49e1137070581dae",
+            "message": "abstracted methods in flexible date parser",
+            "insertions": 29,
+            "deletions": 21
+          },
+          {
+            "hash": "1faffd2be18226121be08f8962fdda53ef832038",
+            "message": "implemented next week and month flexible date input",
+            "insertions": 92,
+            "deletions": 12
+          },
+          {
+            "hash": "358c122771c25ae78ae5a1df788ec05e195575b7",
+            "message": "updated tests for next week \u0026 month flexi dates. regression testing complete",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "efc23b1adebace8dd379fc352cc3002d1fd5874e",
+            "message": "included methods for last week and month flexi dates",
+            "insertions": 22,
+            "deletions": 3
+          },
+          {
+            "hash": "f81a24de766b6b91b26977a571230af0095d50d4",
+            "message": "updated parser tests for last week and month. Regression testing complete",
+            "insertions": 67,
+            "deletions": 1
+          },
+          {
+            "hash": "bf70b8834adfd82756f98e8d87e52af9d34239e2",
+            "message": "rearranged imports",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "6a89fdb692399a325c6849352fc3d0844cf09ee1",
+            "message": "updated exceptions at different parts of the parser",
+            "insertions": 28,
+            "deletions": 15
+          },
+          {
+            "hash": "3a256b30dd77f90b3817c09bd530545271ff6ca4",
+            "message": "updated model for calendar dates in a month",
+            "insertions": 123,
+            "deletions": 0
+          },
+          {
+            "hash": "72071e8b5d9a23374daaa044d0ff42f0f021ec05",
+            "message": "added methods to test valid day in month",
+            "insertions": 18,
+            "deletions": 7
+          },
+          {
+            "hash": "250f45d249b26f77420effd2a904fe487e390d8d",
+            "message": "run tests for valid calendar dates in model util",
+            "insertions": 42,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 652,
+        "deletions": 372,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "7e9c50a7e0a5136511cb9340520c0f9868e6478b",
+            "message": "checked validity of day in month for flexible date inputs",
+            "insertions": 68,
+            "deletions": 3
+          },
+          {
+            "hash": "49225ecb3aa438a511ba44b5956977dd7a26492f",
+            "message": "shifted flexible date from project model to util model",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "ce8c01ca5f411937fb60e815caa9dedbeab8bebb",
+            "message": "update flexible date parser tests",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "ae5b27cd83e828a10a34c404c51fd3e4e069d025",
+            "message": "added tests to add command parser",
+            "insertions": 42,
+            "deletions": 21
+          },
+          {
+            "hash": "b28d11cbf33fa6ea8ba3314ecf28112cfd2dd774",
+            "message": "fixed formatting errors",
+            "insertions": 94,
+            "deletions": 74
+          },
+          {
+            "hash": "87af8d6856b015cdfbfd73bbb28043508223c2b0",
+            "message": "included javadoc comments for flexible date methods",
+            "insertions": 82,
+            "deletions": 13
+          },
+          {
+            "hash": "611d2daa17ab7e2bc08566d96f37ca861b14293b",
+            "message": "corrected formatting errors",
+            "insertions": 19,
+            "deletions": 17
+          },
+          {
+            "hash": "fa7c8c6112b338520c69769f0309381d736dcf25",
+            "message": "fixed imports",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "9e85f2d5886fdbdde436781d3aa0f9ef2ea6072d",
+            "message": "fixed bugs",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "832f9cdcca8bb8c7dc5d554ab90b3ea5c8e5fdef",
+            "message": "fixed formatting",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "434b461adab02c535f470a7c501c70149e1a2955",
+            "message": "updated user stories in dg",
+            "insertions": 46,
+            "deletions": 5
+          },
+          {
+            "hash": "822fe4b0dac813857b66e881041f1d8fa568e033",
+            "message": "updated product scope + user stories in dg",
+            "insertions": 25,
+            "deletions": 5
+          },
+          {
+            "hash": "7e606504a5acbca8760a5f5559b42adf681c15c5",
+            "message": "updated and restructured use cases in dg",
+            "insertions": 84,
+            "deletions": 78
+          },
+          {
+            "hash": "edce90ec95c820474d32fdab2d8984e2bb8a9da3",
+            "message": "edited formatting of use cases numbering",
+            "insertions": 45,
+            "deletions": 52
+          },
+          {
+            "hash": "06a43281ec8d2bcb1b092267957de36591050af0",
+            "message": "updated use cases and manual command summary dg",
+            "insertions": 88,
+            "deletions": 79
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 1,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "4411efa7d24101e66f63569e08695c21a8340e98",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "ff305b8d716c3e38f4e0698463ceb0f2b94469cc",
+            "message": "updated codacy badge",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 2433,
-    "jeffgan96": 2982,
-    "dehui333": 2706,
-    "shunnizuka": 1260,
-    "jothipillay": 2601
+    "ditan96": 3230,
+    "jeffgan96": 5360,
+    "dehui333": 2923,
+    "shunnizuka": 1794,
+    "jothipillay": 4343
   },
   "authorContributionVariance": {
-    "ditan96": 251695.16,
-    "jeffgan96": 118047.414,
-    "dehui333": 79848.28,
-    "shunnizuka": 20102.074,
-    "jothipillay": 61238.418
+    "ditan96": 246464.89,
+    "jeffgan96": 177502.31,
+    "dehui333": 79969.45,
+    "shunnizuka": 22007.59,
+    "jothipillay": 107968.59
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

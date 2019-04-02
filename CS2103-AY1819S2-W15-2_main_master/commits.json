@@ -757,6 +757,140 @@
         "deletions": 0,
         "date": "2019-03-20",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 18,
+        "deletions": 15,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "299f1c7f63901c5cbc4f08eee36a1a6ef5526355",
+            "message": "Update limit for Amount class",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "4f82561884606a0ac685bd4e288228c7df9b2364",
+            "message": "Name: Add 100 character limit",
+            "insertions": 14,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 787,
+        "deletions": 59,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "a8cd9bfce29a9b77c27c42905ef74c53fe7786f0",
+            "message": "Add AddDebtCommandParserTest",
+            "insertions": 144,
+            "deletions": 3
+          },
+          {
+            "hash": "c34bc6e8f6f9a1bc4c53b1adcbb7a231654ea42e",
+            "message": "Add DeleteDebtCommandParserTest",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "f2ff8086f0eb1a2c711b68b55661960a6c002800",
+            "message": "Add EditDebtCommandParserTest",
+            "insertions": 201,
+            "deletions": 0
+          },
+          {
+            "hash": "89a255f5994b0b0083b921e28cb3dd72071c3d2f",
+            "message": "Update AddDebtCommandParserTest",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "87983f6fc028a7fcbb41b1500fbe00c3a5a34660",
+            "message": "Refactor expense parser tests into expenseparser package",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "7b8eec3065de651e9b2d69bcb52c61d0ae36fb0c",
+            "message": "Fix checkstyle errors",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "60f343c08b838c0d3f3833cead30b1c0175af607",
+            "message": "Add ListDebtCommandParserTest",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "2e3e16433a28df1dd8eb88e8b2465af83cafda9c",
+            "message": "Update EditDebtCommandTest to include testing undo/redo",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "cb927d8de4c38eaedd34af0eddbf99dd93fb2b1e",
+            "message": "Update DeleteDebtCommandTest to include tests on undo/redo",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "8f3ffb6c99fdc664a3eabefcf14f8170539a8dff",
+            "message": "Add EditDebtDescriptorTest",
+            "insertions": 64,
+            "deletions": 0
+          },
+          {
+            "hash": "ba0036f42549faaae06f8d2b3ee91531f1807006",
+            "message": "Add AddDebtCommandIntegrationTest",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "164bd9c5446cd6da1246edc72a554c2eeae815dd",
+            "message": "Update FinanceTrackerTest to test debts, budgets and recurrings",
+            "insertions": 118,
+            "deletions": 2
+          },
+          {
+            "hash": "9fc0cefcefacaa23653b74afbc5c0156e83fb54e",
+            "message": "Update ModelManagerTest to include tests for debts",
+            "insertions": 84,
+            "deletions": 0
+          },
+          {
+            "hash": "a418b1a5be4b0cc160dbd9dd164bf0f53818e79c",
+            "message": "Update VersionedFinanceTrackerTest to include debts when testing",
+            "insertions": 49,
+            "deletions": 34
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "jhocx": [
@@ -1137,6 +1271,116 @@
         "deletions": 0,
         "date": "2019-03-20",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 72,
+        "deletions": 20,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "0a31e5e6a766c0cbdade9b75562f91deb534d9af",
+            "message": "Change Frequency to take in only a single alphabet.",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "9abd813c7532035bacc8ccb6799774557f0661e4",
+            "message": "Refactor \"Occurence\" to \"Occurrence\" in ParserUtil.java",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "9aabc4725fdfe55b86bca16993d8fb2ff8d5595d",
+            "message": "Refactor \"Occurence\" to \"Occurrence\" in AddRecurringCommandParser.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a9d5ffac5cc835edb129b3dd774132dfeaf469a1",
+            "message": "Refactor \"Occurence\" to \"Occurrence\" in AddRecurringCommand.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "974f694f1bd178f2d4faa83fa36abeacb5b0de11",
+            "message": "Change EditRecurringCommandTest to pass all tests.",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "5c16727ed09ff514682efe0ef85c732c79bbff2f",
+            "message": "Add ListRecurringCommandTest.",
+            "insertions": 58,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 207,
+        "deletions": 35,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "3ad6d53fbf6df121bfcf4c6ed5a55404a20ee515",
+            "message": "Add ClearRecurringCommandTest.java",
+            "insertions": 38,
+            "deletions": 0
+          },
+          {
+            "hash": "984a79874c3be56b2b5025dd83236c1e8541c9c9",
+            "message": "Add EditRecurringCommandTest.java",
+            "insertions": 63,
+            "deletions": 1
+          },
+          {
+            "hash": "316c809eb3aa88499ee06a804438cbaf8dda5bae",
+            "message": "Add AddRecurringCommandIntegrationTest.java",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "d1085505398528695142e75fcc02a482bca005d7",
+            "message": "Add shortcuts to UserGuide",
+            "insertions": 52,
+            "deletions": 28
+          },
+          {
+            "hash": "483187a609eca7e001879f76dc444225feb79cd7",
+            "message": "Add Future Implementation of Automatic expense adding in DeveloperGuide.",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "0d07d478d8969abdb8e9f8b2aba4db090db0fd02",
+            "message": "Change to pass checkStyle.",
+            "insertions": 5,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "zht96830": [
@@ -1807,6 +2051,42 @@
         "deletions": 0,
         "date": "2019-03-20",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-24",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-25",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ],
     "jamessspanggg": [
@@ -2271,10 +2551,154 @@
         ]
       },
       {
+        "insertions": 58,
+        "deletions": 7,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "11ff641bb0449088e54191e73cae7e859b5b029c",
+            "message": "Add ListExpenseCommandParserTest",
+            "insertions": 58,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 733,
+        "deletions": 398,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "998171120b5ce1759fbfe301ad0f5923a811d884",
+            "message": "Remove unnecessary classes from AB4",
+            "insertions": 0,
+            "deletions": 365
+          },
+          {
+            "hash": "00bdd3be4561a9fd845c8f2b570c428023a8cdfb",
+            "message": "Add ViewTest, modify other tests",
+            "insertions": 69,
+            "deletions": 6
+          },
+          {
+            "hash": "3c202c288e52edd9eb2ddb57a7ada9990ef0b8a0",
+            "message": "Update import statements according to checkstyle error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bb3fd7e39ffd3feb0a7d4034760a6be09a6c1ad1",
+            "message": "Add Occurrence and Frequency tests",
+            "insertions": 50,
+            "deletions": 0
+          },
+          {
+            "hash": "f7928970236b2ab8d20db3762718264e7170f082",
+            "message": "Add all card and list panel tests",
+            "insertions": 613,
+            "deletions": 26
+          }
+        ]
+      },
+      {
+        "insertions": 1285,
+        "deletions": 139,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "05bdcb75523a45a433c041708a7b2bd374712519",
+            "message": "Add shortcut commands",
+            "insertions": 60,
+            "deletions": 16
+          },
+          {
+            "hash": "d951c118e93f7fa18a911da0d1ec91578ec6118e",
+            "message": "Fix indentation errors",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "4bb6c4140a5610d12422e20e628e6b0c1a3dbb48",
+            "message": "Add listing of debts command",
+            "insertions": 153,
+            "deletions": 0
+          },
+          {
+            "hash": "76b01f559995ff998f9b54f175f42ecd20c5a8ff",
+            "message": "Allow read and write to Json files for Budget, Recurring, Debt",
+            "insertions": 642,
+            "deletions": 88
+          },
+          {
+            "hash": "172a003817f612f31b9a258a193d53d050111de9",
+            "message": "Modify to display Budget, Recurring, Debt in Browser Panel",
+            "insertions": 417,
+            "deletions": 22
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-20",
+        "date": "2019-03-23",
         "commitResults": []
+      },
+      {
+        "insertions": 173,
+        "deletions": 4,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "d3a7d96b00435d511dad2c156ac7d3696f074975",
+            "message": "Add tests for ListDebt and ListRecurring, Update BrowserPanelTest",
+            "insertions": 173,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 162,
+        "deletions": 90,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "833033cc43a0f8350fbff5a543ce36a69f7ddb96",
+            "message": "Fix BudgetTest and EditBudgetCommandTest",
+            "insertions": 40,
+            "deletions": 26
+          },
+          {
+            "hash": "fbad89292d4f645b480a65e384ea3d1d6a35d88c",
+            "message": "Update Developer\u0027s guide",
+            "insertions": 18,
+            "deletions": 39
+          },
+          {
+            "hash": "4b29af50869c19eabc8104e69a71119c13a3b4a9",
+            "message": "Update listing of Budget, Expense, Recurring",
+            "insertions": 104,
+            "deletions": 25
+          }
+        ]
+      },
+      {
+        "insertions": 112,
+        "deletions": 101,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "bc65ed434a9b8ca2c4c4bb366b5736eb15d0ba9d",
+            "message": "Update Budget UI to display totalPercentageSpent and duration",
+            "insertions": 83,
+            "deletions": 75
+          },
+          {
+            "hash": "c3e05654c082ae4b56cd909b98e97e082ac18a82",
+            "message": "fix checkstyle error",
+            "insertions": 29,
+            "deletions": 26
+          }
+        ]
       }
     ],
     "lim-jiahui": [
@@ -2692,22 +3116,90 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-21",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-22",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-23",
+        "commitResults": []
+      },
+      {
+        "insertions": 1493,
+        "deletions": 200,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "e648393e966109da88469fa1fd277fb1b56d90fb",
+            "message": "Edit some budget test files",
+            "insertions": 1189,
+            "deletions": 145
+          },
+          {
+            "hash": "60b84b212eb0dfe59b04c17f70ce494fe9274909",
+            "message": "no message",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0030667214df019d357fd08f15961d64bdd403fd",
+            "message": "Add checks for start date and end date for addbudget command",
+            "insertions": 197,
+            "deletions": 43
+          },
+          {
+            "hash": "627589d9db0a400c9c498c5136fa4e52adabb36b",
+            "message": "Edit clearexpense command to only clear expenses Add clear commands for budget, debt, recurring",
+            "insertions": 105,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 158,
+        "deletions": 165,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "5692f5a9d1de037c6874c71a38f00949e7ce7aae",
+            "message": "Edit to pass checkstyle",
+            "insertions": 158,
+            "deletions": 165
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-26",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "gohyinhao": 4819,
-    "jhocx": 2253,
-    "zht96830": 1328,
-    "jamessspanggg": 2318,
-    "lim-jiahui": 3131
+    "gohyinhao": 5265,
+    "jhocx": 2481,
+    "zht96830": 1314,
+    "jamessspanggg": 4582,
+    "lim-jiahui": 4301
   },
   "authorContributionVariance": {
-    "gohyinhao": 681193.1,
-    "jhocx": 109567.695,
-    "zht96830": 109003.516,
-    "jamessspanggg": 75367.15,
-    "lim-jiahui": 88275.945
+    "gohyinhao": 606159.56,
+    "jhocx": 96175.7,
+    "zht96830": 95140.82,
+    "jamessspanggg": 123930.86,
+    "lim-jiahui": 133017.14
   },
   "authorDisplayNameMap": {
     "gohyinhao": "GOH...HAO",
