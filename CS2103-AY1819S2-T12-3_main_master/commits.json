@@ -678,16 +678,84 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 383,
+        "deletions": 224,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4f76e4a5d3e6d1429bc967161bdc12fdab3f6672",
+            "message": "Removed redundant method in Batch class",
+            "insertions": 5,
+            "deletions": 9
+          },
+          {
+            "hash": "245394b7ef3e486e6c57e7223e7fcd32bfe4932f",
+            "message": "Clean up code style of UpdateCommandParser",
+            "insertions": 14,
+            "deletions": 6
+          },
+          {
+            "hash": "2faaee9d478c831445bbb927be6a58dc2aad7821",
+            "message": "Add UpdateBatchDescriptorTest",
+            "insertions": 57,
+            "deletions": 0
+          },
+          {
+            "hash": "d652ba3820a65b1a1ce79add07c47a05d094ad9a",
+            "message": "Fix Quantity bug which caused leading zeros to be saved",
+            "insertions": 16,
+            "deletions": 17
+          },
+          {
+            "hash": "7e9080ec617edd50313d98b542c282e4b9f28f78",
+            "message": "Reorder Batch and Medicine variables for more logical flow.",
+            "insertions": 143,
+            "deletions": 155
+          },
+          {
+            "hash": "455acc203d1f752961fff7fb4e1a4de410a0b9f9",
+            "message": "Improve BatchTable codestyle",
+            "insertions": 13,
+            "deletions": 27
+          },
+          {
+            "hash": "01caca8f106e034d3a718c0304c0d7f122d270d9",
+            "message": "Improve BatchTest",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "2e9726d031327fda4bd53229480fd7c1fb806647",
+            "message": "Implement check that disallows updating batch with an expiry date that has passed",
+            "insertions": 13,
+            "deletions": 7
+          },
+          {
+            "hash": "f430006fb28f25a5c73a15df0eb35627582059ce",
+            "message": "Improve UpdateCommandTest to check for updating with expired batches",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "8c0503cb6a11ad9476e96233bf13d99b31fe98ed",
+            "message": "Improve InformationPanelTest to ensure loaded batchTable is correct",
+            "insertions": 74,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 362,
+        "deletions": 16,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "be9d10da81cdf92c8f67697414de8012e8cbe2ea",
+            "message": "Add SortCommand for InformationPanel",
+            "insertions": 362,
+            "deletions": 16
+          }
+        ]
       }
     ],
     "kevvvinn": [
@@ -3272,8 +3340,8 @@
         ]
       },
       {
-        "insertions": 58,
-        "deletions": 42,
+        "insertions": 85,
+        "deletions": 68,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3281,24 +3349,30 @@
             "message": "restructured UG",
             "insertions": 58,
             "deletions": 42
+          },
+          {
+            "hash": "95a03b03346bac46b2ffeffa45bdb82dedceb483",
+            "message": "UG",
+            "insertions": 27,
+            "deletions": 26
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jtankw3": 6230,
+    "jtankw3": 6728,
     "kevvvinn": 0,
-    "melpulomas": 634,
+    "melpulomas": 622,
     "JonathanLeeWH": 1206,
-    "flxffy": 2144
+    "flxffy": 2172
   },
   "authorContributionVariance": {
-    "jtankw3": 1220288.4,
+    "jtankw3": 1217867.1,
     "kevvvinn": 0.0,
     "melpulomas": 5200.9785,
     "JonathanLeeWH": 6407.0303,
-    "flxffy": 33005.0
+    "flxffy": 33104.867
   },
   "authorDisplayNameMap": {
     "jtankw3": "TAN...SON",

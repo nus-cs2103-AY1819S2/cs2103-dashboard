@@ -1030,10 +1030,47 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 828,
+        "deletions": 248,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f477e9ea88882cb7a183edb580828dc3a3aec5bf",
+            "message": "Initialize CardCommandSystemTest",
+            "insertions": 302,
+            "deletions": 27
+          },
+          {
+            "hash": "53e602d72cfb418ae1ee6f56d4414d87f906c793",
+            "message": "Fix checkstyle for AddCardCommandSystemTest",
+            "insertions": 22,
+            "deletions": 101
+          },
+          {
+            "hash": "c1ec2499d5eedba701b814832fe3d114fb29bd9e",
+            "message": "Add AddCardCommandSystemTest",
+            "insertions": 129,
+            "deletions": 22
+          },
+          {
+            "hash": "1fcee4bd1b7ed0bed892fe1d2df0cbe789e07e05",
+            "message": "Add DeleteCardCommandSystemTest",
+            "insertions": 217,
+            "deletions": 0
+          },
+          {
+            "hash": "a6da6cfa69cf7ed880125dd972da74fba04df711",
+            "message": "Fix checkstyle",
+            "insertions": 76,
+            "deletions": 76
+          },
+          {
+            "hash": "85ff8b1ad32fac30569b55c7965f2949fb542336",
+            "message": "Update UG for Card management",
+            "insertions": 82,
+            "deletions": 22
+          }
+        ]
       }
     ],
     "ckjohn000": [
@@ -2966,8 +3003,8 @@
         ]
       },
       {
-        "insertions": 13,
-        "deletions": 17,
+        "insertions": 765,
+        "deletions": 105,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -2993,22 +3030,118 @@
             "message": "fix indents",
             "insertions": 10,
             "deletions": 10
+          },
+          {
+            "hash": "be24540cfcb10aaac026d8f18f6d120a31f288c1",
+            "message": "Add tests for StudyView",
+            "insertions": 117,
+            "deletions": 5
+          },
+          {
+            "hash": "efa845a292b4858426132a48c8920cdad59220b3",
+            "message": "Format import statements",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "197b94ad56f4d3d2af9ae80676771b56b5537949",
+            "message": "Rename StudyPanelCommand to StudyPanelCommandResult",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "bde57f6063dc4ffd624abd6a830001d3881a1a50",
+            "message": "Write tests for studyDeckCommand",
+            "insertions": 161,
+            "deletions": 2
+          },
+          {
+            "hash": "ebc225cb314316c1bd4e13a64646c4f8685e6d22",
+            "message": "Remove unnecessary lines in Study Mode",
+            "insertions": 13,
+            "deletions": 12
+          },
+          {
+            "hash": "12d5a232d8e21850bdcc731fe3f00d363b7ec67f",
+            "message": "Add isAtStudyViewMethod",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "3beb94d1b5bafae3cb2904589560bda4eaf83ce5",
+            "message": "Write OpenDeckCommandTest",
+            "insertions": 157,
+            "deletions": 2
+          },
+          {
+            "hash": "ef6c04593f480c09c974cfe8c1d8b3dc1745cd3c",
+            "message": "Include empty deck in typical indices",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "8d6f46e4dc2cd15c5da42d135b19e1632cc4bd4f",
+            "message": "Remove unnecessary DoneCommand",
+            "insertions": 0,
+            "deletions": 32
+          },
+          {
+            "hash": "fc7eb9dd5f6ab5073c6f8ff36ffebdfe780d058d",
+            "message": "Reformat code",
+            "insertions": 10,
+            "deletions": 12
+          },
+          {
+            "hash": "e789f1dcb5d1f0d6efe0315ff5b23431234160ba",
+            "message": "Write BackCommandTest",
+            "insertions": 99,
+            "deletions": 1
+          },
+          {
+            "hash": "dd80fb3951c7e2de28b4230440e6f12469592ced",
+            "message": "Correct minor errors in Open- and Study- DeckCommandTest",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "10a8fabbde9b914871be2530e845f20192f10b6d",
+            "message": "Write ShowAnswerCommandTest",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "9f947ba3056790412c28787b6f5c298bcab86893",
+            "message": "Write GenerateQuestionCommandTest",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "c659041ab5ff6836c8a9c6320719df6017f09056",
+            "message": "Remove imports from HelpCommandTest",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "cdc3a0c2468d95835c725232d231c985f308942e",
+            "message": "Write DeckShufflerTest",
+            "insertions": 71,
+            "deletions": 0
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 4691,
-    "ckjohn000": 2877,
-    "xsot": 1577,
-    "sciffany": 2127
+    "ChangDarren": 5281,
+    "ckjohn000": 2830,
+    "xsot": 1565,
+    "sciffany": 2793
   },
   "authorContributionVariance": {
-    "ChangDarren": 549911.75,
+    "ChangDarren": 557490.75,
     "ckjohn000": 60419.098,
     "xsot": 48487.523,
-    "sciffany": 554421.7
+    "sciffany": 564273.7
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

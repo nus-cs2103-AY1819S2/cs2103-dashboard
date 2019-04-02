@@ -1554,16 +1554,54 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 98,
+        "deletions": 66,
         "date": "2019-03-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "bd3bf48f5237ad883c67a1db631925820412deec",
+            "message": "FeedCommand: refactor boundary operations to Util",
+            "insertions": 64,
+            "deletions": 46
+          },
+          {
+            "hash": "b135a97a1e719e5196c14cce08e629b75363564f",
+            "message": "Handle dupes while importing from feed.",
+            "insertions": 14,
+            "deletions": 4
+          },
+          {
+            "hash": "b3c272a79476d384b4556dc70fd13e2105f43247",
+            "message": "Feed: Strip HTML from description when importing",
+            "insertions": 20,
+            "deletions": 16
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 185,
+        "deletions": 5,
         "date": "2019-03-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a240f94cc428be1e1d4d0a524ca90b170f9e498b",
+            "message": "add search context, make feed command switch to it",
+            "insertions": 56,
+            "deletions": 5
+          },
+          {
+            "hash": "d55ac156751b5b05b6d0f6ee79dfabb7fc21953c",
+            "message": "Search context: support adding links by index",
+            "insertions": 84,
+            "deletions": 0
+          },
+          {
+            "hash": "3fbb4fe257d40471346037f9188f554422dd75fa",
+            "message": "Implement bing web search feature",
+            "insertions": 45,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1584,16 +1622,66 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 80,
+        "deletions": 47,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d12e0eabd7f4be978b2b4d5e34033ba02e6233a1",
+            "message": "TRAVIS!!!",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "d3a98bb198a8ab76b65e447949826af98de0be0c",
+            "message": "renames",
+            "insertions": 38,
+            "deletions": 38
+          },
+          {
+            "hash": "3c2e49725cb69e56cab85432cd5c2313beb0d164",
+            "message": "Model: make displayEntryBook private",
+            "insertions": 22,
+            "deletions": 7
+          },
+          {
+            "hash": "5df0b72bab757545627bd2eeb342aad638875ee0",
+            "message": "extract deprecated address field text as constant",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "80fd9eca5d0ce20361162591eeb98d948233b5eb",
+            "message": "reset the predicate in Model#onContextChange",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 158,
+        "deletions": 81,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a13be546348038327b52ba2d558ce16da1fc1e07",
+            "message": "Feeds: isolate the util test from the command test",
+            "insertions": 118,
+            "deletions": 68
+          },
+          {
+            "hash": "f557486ce992cecf7bcabbf17d68c74f970dba14",
+            "message": "ModelManager: update equals and tests",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "5c4ff3e8d44bd69e5f8383e92e46e20ee22feafe",
+            "message": "defend against rometools returning null",
+            "insertions": 27,
+            "deletions": 13
+          }
+        ]
       }
     ],
     "thomastanck": [
@@ -3061,13 +3149,13 @@
   },
   "authorFinalContributionMap": {
     "rlrh": 6941,
-    "qjqqyy": 696,
-    "thomastanck": 1640,
-    "epicfailname": 5017
+    "qjqqyy": 1065,
+    "thomastanck": 1623,
+    "epicfailname": 4986
   },
   "authorContributionVariance": {
     "rlrh": 785616.0,
-    "qjqqyy": 11565.781,
+    "qjqqyy": 13193.765,
     "thomastanck": 37775.293,
     "epicfailname": 727122.25
   },

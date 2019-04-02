@@ -8292,9 +8292,9 @@
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "\u003d\u003d\u003d Adding a person: `add`"
+        "content": "\u003d\u003d\u003d Listing all apparels : `list`"
       },
       {
         "lineNumber": 60,
@@ -8306,16 +8306,16 @@
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "Adds a person to the address book +"
+        "content": "Shows a list of all apparels in the address book. +"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]...`"
+        "content": "Format: `list`"
       },
       {
         "lineNumber": 63,
@@ -8327,30 +8327,30 @@
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "[TIP]"
+        "content": "\u003d\u003d\u003d Adding a piece of Apparel: `add`"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
-        "content": "A person can have any number of tags (including 0)"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "Add a piece of apparel to wardrobe +"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Examples:"
+        "content": "Format: `add n/NAME c/COLOUR t/CLOTHINGTYPE`"
       },
       {
         "lineNumber": 68,
@@ -8364,28 +8364,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* `add n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": "* `add n/Betsy Crowe t/friend e/betsycrowe@example.com a/Newgate Prison p/1234567 t/criminal`"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "* `add n/Zara Shirt c/Red t/Top"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "stanleymok"
         },
-        "content": "\u003d\u003d\u003d Listing all apparels : `list`"
+        "content": "* `add n/Desigual Tailored Pants c/Grey t/Bottom"
       },
       {
         "lineNumber": 73,
@@ -8399,42 +8399,42 @@
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Shows a list of all apparels in the address book. +"
+        "content": "\u003d\u003d\u003d Sort all apparels : `sort [option]`"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `list`"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": ""
+        "content": "Sort all apparels in the address book based on the option supplied. +"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "\u003d\u003d\u003d Sort all apparels : `sort [option]`"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": ""
+        "content": "Format: `sort` +"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Sort all apparels in the address book based on the option supplied. +"
+        "content": "By default, calling `sort` without option will sort the apparels by name in ascending order. +"
       },
       {
         "lineNumber": 80,
@@ -8448,14 +8448,14 @@
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Format: `sort` +"
+        "content": "Format: `sort options` +"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "By default, calling `sort` without option will sort the apparels by name in ascending order. +"
+        "content": "List all valid sorting options."
       },
       {
         "lineNumber": 83,
@@ -8469,49 +8469,49 @@
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Format: `sort options` +"
+        "content": "Format: `sort [option]` +"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "List all valid sorting options."
+        "content": "Sort all apparels according to the option supplied."
       },
       {
         "lineNumber": 86,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "Format: `sort [option]` +"
+        "content": "\u003d\u003d\u003d Editing a person : `edit`"
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "rafflesandrison"
-        },
-        "content": "Sort all apparels according to the option supplied."
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Editing a person : `edit`"
+        "content": "Edits an existing person in the address book. +"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "stanleymok"
+        },
+        "content": "Format: `edit INDEX [n/NAME] [c/COLOUR] [t/CLOTHINGTYPE]`"
       },
       {
         "lineNumber": 91,
@@ -8525,84 +8525,84 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Edits an existing person in the address book. +"
+        "content": "****"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `edit INDEX [n/NAME] [p/PHONE] [e/EMAIL] [a/ADDRESS] [t/TAG]...`"
+        "content": "* Edits the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* At least one of the optional fields must be provided."
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "* Existing values will be updated to the input values."
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
-        "content": "* Edits the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "****"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "* At least one of the optional fields must be provided."
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "* Existing values will be updated to the input values."
+        "content": "Examples:"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": "* When editing tags, the existing tags of the person will be removed i.e adding of tags is not cumulative."
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* You can remove all the person\u0027s tags by typing `t/` without specifying any tags after it."
+        "content": "* `edit 1 n/TSHIRT c/ORANGE` +"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "****"
+        "content": "Edits the name and colour of the 1st apparel to be `TSHIRT` and `Orange` respectively."
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "* `edit 2 n/Brown Belt t/Belt` +"
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Examples:"
+        "content": "Edits the name of the 2nd apparel to be `Brown Belt` and changes type to `Belt`."
       },
       {
         "lineNumber": 104,
@@ -8614,247 +8614,247 @@
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* `edit 1 p/91234567 e/johndoe@example.com` +"
+        "content": "\u003d\u003d\u003d Making available/washing a piece of apparel : `available` or `wash`"
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Edits the phone number and email address of the 1st person to be `91234567` and `johndoe@example.com` respectively."
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* `edit 2 n/Betsy Crower t/` +"
+        "content": "Makes an existing apparel in the address book available. +"
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Edits the name of the 2nd person to be `Betsy Crower` and clears all existing tags."
+        "content": "Format: `wash INDEX` or `available INDEX`"
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
         "content": ""
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "stanleymok"
         },
-        "content": "\u003d\u003d\u003d Locating apparels by name: `find`"
+        "content": "****"
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "* Makes available the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "stanleymok"
         },
-        "content": "Finds apparels whose names contain any of the given keywords. +"
+        "content": "* Apparel will be made available whether it was available or unavailable before the command."
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Format: `find KEYWORD [MORE_KEYWORDS]`"
+        "content": "****"
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
         "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "****"
+        "content": "Examples:"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": "* The search is case insensitive. e.g `hans` will match `Hans`"
+        "content": ""
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* The order of the keywords does not matter. e.g. `Hans Bo` will match `Bo Hans`"
+        "content": "* `wash 1` +"
       },
       {
         "lineNumber": 118,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* Only the name is searched."
+        "content": "Makes available the 1st apparel in the list."
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* Only full words will be matched e.g. `Han` will not match `Hans`"
+        "content": "* `available 2` +"
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* Persons matching at least one keyword will be returned (i.e. `OR` search). e.g. `Hans Bo` will return `Hans Gruber`, `Bo Yang`"
+        "content": "Makes available the 2nd apparel in the list."
       },
       {
         "lineNumber": 121,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Making unavailable/dirty a piece of apparel : `unavailable` or `dirty`"
       },
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "Makes an existing apparel in the address book available. +"
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* `find John` +"
+        "content": "Format: `dirty INDEX` or `unavailable INDEX`"
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "-"
-        },
-        "content": "Returns `john` and `John Doe`"
-      },
-      {
-        "lineNumber": 127,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* `find Betsy Tim John` +"
-      },
-      {
-        "lineNumber": 128,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Returns any person having names `Betsy`, `Tim`, or `John`"
-      },
-      {
-        "lineNumber": 129,
-        "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
         "content": ""
       },
       {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "stanleymok"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "stanleymok"
+        },
+        "content": "* Makes unavailable the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "stanleymok"
+        },
+        "content": "* Apparel will be made unavailable whether it was available or unavailable before the command."
+      },
+      {
         "lineNumber": 130,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "\u003d\u003d\u003d Deleting a person : `delete`"
+        "content": "****"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
         "content": ""
       },
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Deletes the specified person from the address book. +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "-"
-        },
-        "content": "Format: `delete INDEX`"
-      },
-      {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
         "content": ""
       },
       {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "stanleymok"
+        },
+        "content": "* `dirty 1` +"
+      },
+      {
         "lineNumber": 135,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "****"
+        "content": "Makes available the 1st apparel in the list."
       },
       {
         "lineNumber": 136,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* Deletes the person at the specified `INDEX`."
+        "content": "* `unavailable 2` +"
       },
       {
         "lineNumber": 137,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* The index refers to the index number shown in the displayed person list."
+        "content": "Makes available the 2nd apparel in the list."
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
+        "content": ""
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Locating apparels by name: `find`"
       },
       {
         "lineNumber": 140,
@@ -8866,72 +8866,72 @@
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "Examples:"
+        "content": "Finds apparels whose names contain any of the given keywords. +"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `find KEYWORD [MORE_KEYWORDS]`"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
-        "content": "* `list` +"
+        "content": ""
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "-"
         },
-        "content": "`delete 2` +"
+        "content": "****"
       },
       {
         "lineNumber": 145,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Deletes the 2nd person in the address book."
+        "content": "* The search is case insensitive. e.g `Zara` will match `zara`"
       },
       {
         "lineNumber": 146,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* `find Betsy` +"
+        "content": "* The order of the keywords does not matter. e.g. `Nice Shirt` will match `Shirt Nice`"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "-"
         },
-        "content": "`delete 1` +"
+        "content": "* Only the name is searched."
       },
       {
         "lineNumber": 148,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "Deletes the 1st person in the results of the `find` command."
+        "content": "* Only full words will be matched e.g. `Nice` will not match `Nices`"
       },
       {
         "lineNumber": 149,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "* Persons matching at least one keyword will be returned (i.e. `OR` search). e.g. `Tim Tam` will return `Tim`, `Higgy Tam`"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Selecting a person : `select`"
+        "content": "****"
       },
       {
         "lineNumber": 151,
@@ -8945,56 +8945,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Selects the person identified by the index number used in the displayed person list. +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `select INDEX`"
+        "content": ""
       },
       {
         "lineNumber": 154,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "* `find Zara` +"
       },
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "****"
+        "content": "Returns `zara` and `Zara`"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* Selects the person and loads the Google search page the person at the specified `INDEX`."
+        "content": "* `find Tim Tam Battle Plan` +"
       },
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* The index refers to the index number shown in the displayed person list."
+        "content": "Returns any person having names `Tim`, `Tam`,`Battle` or `Plan`."
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": "* The index *must be a positive integer* `1, 2, 3, ...`"
+        "content": ""
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Deleting a person : `delete`"
       },
       {
         "lineNumber": 160,
@@ -9008,56 +9008,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "Deletes the specified person from the address book. +"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `delete INDEX`"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
-        "content": "* `list` +"
+        "content": ""
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
-        "content": "`select 2` +"
+        "content": "****"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
-        "content": "Selects the 2nd person in the address book."
+        "content": "* Deletes the person at the specified `INDEX`."
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
-        "content": "* `find Betsy` +"
+        "content": "* The index refers to the index number shown in the displayed person list."
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
-        "content": "`select 1` +"
+        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
-        "content": "Selects the 1st person in the results of the `find` command."
+        "content": "****"
       },
       {
         "lineNumber": 169,
@@ -9071,7 +9071,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Listing entered commands : `history`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 171,
@@ -9085,252 +9085,252 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Lists all the commands that you have entered in reverse chronological order. +"
+        "content": "* `list` +"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `history`"
+        "content": "`delete 2` +"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Deletes the 2nd person in the address book."
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "* `find Betsy` +"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "`delete 1` +"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "-"
         },
-        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
+        "content": "Deletes the 1st person in the results of the `find` command."
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Selecting a person : `select`"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "-"
         },
-        "content": "// tag::undoredo[]"
+        "content": ""
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Undoing previous command : `undo`"
+        "content": "Selects the person identified by the index number used in the displayed person list. +"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `select INDEX`"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "-"
         },
-        "content": "Restores the address book to the state before the previous _undoable_ command was executed. +"
+        "content": ""
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `undo`"
+        "content": "****"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Selects the person and loads the Google search page the person at the specified `INDEX`."
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "* The index refers to the index number shown in the displayed person list."
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "* The index *must be a positive integer* `1, 2, 3, ...`"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "-"
         },
-        "content": "Undoable commands: those commands that modify the address book\u0027s content (`add`, `delete`, `edit` and `clear`)."
+        "content": "****"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `list` +"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "`select 2` +"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "-"
         },
-        "content": "`list` +"
+        "content": "Selects the 2nd person in the address book."
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "* `find Betsy` +"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`select 1` +"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "-"
         },
-        "content": "* `select 1` +"
+        "content": "Selects the 1st person in the results of the `find` command."
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "-"
         },
-        "content": "`list` +"
+        "content": ""
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` +"
+        "content": "\u003d\u003d\u003d Listing entered commands : `history`"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "-"
         },
-        "content": "The `undo` command fails as there are no undoable commands executed previously."
+        "content": ""
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Lists all the commands that you have entered in reverse chronological order. +"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "Format: `history`"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": ""
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Redoing the previously undone command : `redo`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 208,
@@ -9344,14 +9344,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Reverses the most recent `undo` command. +"
+        "content": "// tag::undoredo[]"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `redo`"
+        "content": "\u003d\u003d\u003d Undoing previous command : `undo`"
       },
       {
         "lineNumber": 211,
@@ -9365,63 +9365,63 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "Restores the address book to the state before the previous _undoable_ command was executed. +"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `undo`"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Undoable commands: those commands that modify the address book\u0027s content (`add`, `delete`, `edit` and `clear`)."
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` +"
+        "content": ""
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "-"
         },
-        "content": "The `redo` command fails as there are no `undo` commands executed previously."
+        "content": "Examples:"
       },
       {
         "lineNumber": 221,
@@ -9442,84 +9442,84 @@
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": "`list` +"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": ""
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": "* `select 1` +"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `clear` command) +"
+        "content": "`list` +"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "-"
         },
-        "content": "// end::undoredo[]"
+        "content": "`undo` +"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The `undo` command fails as there are no undoable commands executed previously."
       },
       {
         "lineNumber": 230,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "// tag::clear[]"
+        "content": ""
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Clearing all entries : `clear`"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`clear` +"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "-"
         },
-        "content": "Clears all entries from the address book. +"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `clear`"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 235,
@@ -9533,7 +9533,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
+        "content": "\u003d\u003d\u003d Redoing the previously undone command : `redo`"
       },
       {
         "lineNumber": 237,
@@ -9547,14 +9547,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Exits the program. +"
+        "content": "Reverses the most recent `undo` command. +"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `exit`"
+        "content": "Format: `redo`"
       },
       {
         "lineNumber": 240,
@@ -9568,7 +9568,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Saving the data"
+        "content": "Examples:"
       },
       {
         "lineNumber": 242,
@@ -9582,222 +9582,222 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Address book data are saved in the hard disk automatically after any command that changes the data. +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "-"
         },
-        "content": "There is no need to save manually."
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 246,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Add Clothes `[coming in v2.0]`"
+        "content": ""
       },
       {
         "lineNumber": 247,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 248,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "Add a piece of clothing given type i.e. shirt, colour, formality level."
+        "content": "`redo` +"
       },
       {
         "lineNumber": 249,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "The `redo` command fails as there are no `undo` commands executed previously."
       },
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Edit Clothes `[coming in v2.0]`"
+        "content": ""
       },
       {
         "lineNumber": 251,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "Edit the details, i.e. tag/name of the clothes."
+        "content": "`clear` +"
       },
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 254,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Add Favourite Combination Relation `[coming in v2.0]`"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 255,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "Add a matching relation between two pieces of clothing outside default combinations."
+        "content": "`redo` (reapplies the `clear` command) +"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "// end::undoredo[]"
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d List Favourite Combinations `[coming in v2.0]`"
+        "content": ""
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "// tag::clear[]"
       },
       {
         "lineNumber": 260,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "See all saved combinations."
+        "content": "\u003d\u003d\u003d Clearing all entries : `clear`"
       },
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d List top versatile clothing `[coming in v2.0]`"
+        "content": "Clears all entries from the address book. +"
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `clear`"
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "List clothings that match the most number of other clothings."
+        "content": ""
       },
       {
         "lineNumber": 265,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
       },
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "\u003d\u003d Add Colour Relation `[coming in v2.0]`"
-      },
-      {
-        "lineNumber": 267,
-        "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 267,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Exits the program. +"
+      },
+      {
         "lineNumber": 268,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "Add a matching colour combination outside predefined default combinations."
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 270,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "// tag::delete[]"
+        "content": "\u003d\u003d\u003d Saving the data"
       },
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "\u003d\u003d\u003d Delete Clothes `[coming in v2.0]`"
-      },
-      {
-        "lineNumber": 272,
-        "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 272,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Address book data are saved in the hard disk automatically after any command that changes the data. +"
+      },
+      {
         "lineNumber": 273,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
-        "content": "Delete a piece of clothing from the closet."
+        "content": "There is no need to save manually."
       },
       {
         "lineNumber": 274,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -9806,7 +9806,7 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "\u003d\u003d\u003d Listing all Clothes `[coming in v2.0]`"
+        "content": "\u003d\u003d\u003d Calculating use Statistics `[coming in v4.0]`"
       },
       {
         "lineNumber": 276,
@@ -9820,7 +9820,7 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Lists all the categorised clothes you have in your closet to your CLI."
+        "content": "Calculates the rate of wear of each clothes."
       },
       {
         "lineNumber": 278,
@@ -9832,100 +9832,100 @@
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Calculating use Statistics `[coming in v2.0]`"
+        "content": "\u003d\u003d\u003d Recommend Outfit"
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "Calculates the rate of wear of each clothes."
-      },
-      {
-        "lineNumber": 282,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 283,
-        "author": {
-          "gitId": "PhilipPhil"
-        },
-        "content": "\u003d\u003d\u003d Recommend Outfit"
-      },
-      {
-        "lineNumber": 284,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 285,
-        "author": {
           "gitId": "PhilipPhil"
         },
         "content": "Lists a recommended outfit based on what matches in your closet. The outfit must have a TOP,BOTTOM,SHOES. If a matching belt exists an outfit may be recommended with a BELT. +"
       },
       {
-        "lineNumber": 286,
+        "lineNumber": 282,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "Format: `recommendation`"
       },
       {
-        "lineNumber": 287,
+        "lineNumber": 283,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": ""
       },
       {
-        "lineNumber": 288,
+        "lineNumber": 284,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "\u003d\u003d\u003d Something Color Select"
       },
       {
-        "lineNumber": 289,
+        "lineNumber": 285,
         "author": {
           "gitId": "stanleymok"
         },
         "content": ""
       },
       {
-        "lineNumber": 290,
+        "lineNumber": 286,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "Returns random clothing of specified COLOR from address book. +"
       },
       {
-        "lineNumber": 291,
+        "lineNumber": 287,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "Format: `something COLOR`"
       },
       {
-        "lineNumber": 292,
+        "lineNumber": 288,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 289,
+        "author": {
+          "gitId": "PhilipPhil"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 290,
+        "author": {
+          "gitId": "PhilipPhil"
+        },
+        "content": "* Returns random clothing from specified `COLOR`."
+      },
+      {
+        "lineNumber": 291,
+        "author": {
+          "gitId": "PhilipPhil"
+        },
+        "content": "* The color refers to the color of clothing."
+      },
+      {
+        "lineNumber": 292,
+        "author": {
+          "gitId": "PhilipPhil"
+        },
+        "content": "* The color *must be a one of* RED, BLUE, GREEN, WHITE, BLACK, ..."
       },
       {
         "lineNumber": 293,
@@ -9939,126 +9939,126 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* Returns random clothing from specified `COLOR`."
+        "content": ""
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The color refers to the color of clothing."
+        "content": "Examples:"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The color *must be a one of* RED, BLUE, GREEN, WHITE, BLACK, ..."
+        "content": ""
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "****"
+        "content": "* `something RED` +"
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "Returns a RED item from the address book."
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* `something BLACK` +"
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* `something RED` +"
+        "content": "Returns a BLACK item from the address book."
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Returns a RED item from the address book."
+        "content": ""
       },
       {
         "lineNumber": 303,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Random Item Type Select"
       },
       {
         "lineNumber": 304,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* `something BLACK` +"
+        "content": ""
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Returns a BLACK item from the address book."
+        "content": "Returns random specified TYPE of clothing from address book. +"
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "Format: `random TYPE`"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Random Item Type Select"
+        "content": ""
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 309,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Returns random specified TYPE of clothing from address book. +"
+        "content": "* Returns random clothing from specified `TYPE`."
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Format: `random TYPE`"
+        "content": "* The type refers to the type of clothing."
       },
       {
         "lineNumber": 311,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* The type *must be a one of* TOP,BOTTOM,BELT,SHOES"
       },
       {
         "lineNumber": 312,
@@ -10072,395 +10072,255 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* Returns random clothing from specified `TYPE`."
+        "content": ""
       },
       {
         "lineNumber": 314,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The type refers to the type of clothing."
+        "content": "Examples:"
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The type *must be a one of* TOP,BOTTOM,BELT,SHOES"
+        "content": ""
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "****"
+        "content": "* `random TOP` +"
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "Returns a random TOP in the address book."
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* `random BOTTOM` +"
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* `random TOP` +"
+        "content": "Returns a random BOTTOM in the address book."
       },
       {
         "lineNumber": 321,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "Returns a random TOP in the address book."
+        "content": ""
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d FAQ"
       },
       {
         "lineNumber": 323,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "* `random BOTTOM` +"
+        "content": ""
       },
       {
         "lineNumber": 324,
-        "author": {
-          "gitId": "PhilipPhil"
-        },
-        "content": "Returns a random BOTTOM in the address book."
-      },
-      {
-        "lineNumber": 325,
-        "author": {
-          "gitId": "PhilipPhil"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 326,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "\u003d\u003d\u003d Redo `[coming in v2.0]`"
-      },
-      {
-        "lineNumber": 327,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 328,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "Redo previous command similar to up arrow key in vim."
-      },
-      {
-        "lineNumber": 329,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 330,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "\u003d\u003d\u003d Search Clothing `[coming in v2.0]`"
-      },
-      {
-        "lineNumber": 331,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 332,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "Search for clothing by keyword."
-      },
-      {
-        "lineNumber": 333,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 334,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "\u003d\u003d\u003d Undo `[coming in v2.0]`"
-      },
-      {
-        "lineNumber": 335,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 336,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "Undo previous command."
-      },
-      {
-        "lineNumber": 337,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 338,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "\u003d\u003d\u003d Exit App `[coming in v2.0]`"
-      },
-      {
-        "lineNumber": 339,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 340,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "Exit the app."
-      },
-      {
-        "lineNumber": 341,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 342,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d FAQ"
-      },
-      {
-        "lineNumber": 343,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 344,
         "author": {
           "gitId": "-"
         },
         "content": "*Q*: How do I transfer my data to another Computer? +"
       },
       {
-        "lineNumber": 345,
+        "lineNumber": 325,
         "author": {
           "gitId": "-"
         },
         "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Address Book folder."
       },
       {
-        "lineNumber": 346,
+        "lineNumber": 326,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 347,
+        "lineNumber": 327,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Command Summary"
       },
       {
-        "lineNumber": 348,
+        "lineNumber": 328,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 349,
+        "lineNumber": 329,
         "author": {
           "gitId": "-"
         },
         "content": "* *Add* `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]...` +"
       },
       {
-        "lineNumber": 350,
+        "lineNumber": 330,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `add n/James Ho p/22224444 e/jamesho@example.com a/123, Clementi Rd, 1234665 t/friend t/colleague`"
       },
       {
-        "lineNumber": 351,
+        "lineNumber": 331,
         "author": {
           "gitId": "-"
         },
         "content": "* *Clear* : `clear`"
       },
       {
-        "lineNumber": 352,
+        "lineNumber": 332,
         "author": {
           "gitId": "-"
         },
         "content": "* *Delete* : `delete INDEX` +"
       },
       {
-        "lineNumber": 353,
+        "lineNumber": 333,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `delete 3`"
       },
       {
-        "lineNumber": 354,
+        "lineNumber": 334,
         "author": {
           "gitId": "-"
         },
         "content": "* *Edit* : `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [t/TAG]...` +"
       },
       {
-        "lineNumber": 355,
+        "lineNumber": 335,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `edit 2 n/James Lee e/jameslee@example.com`"
       },
       {
-        "lineNumber": 356,
+        "lineNumber": 336,
         "author": {
           "gitId": "-"
         },
         "content": "* *Find* : `find KEYWORD [MORE_KEYWORDS]` +"
       },
       {
-        "lineNumber": 357,
+        "lineNumber": 337,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `find James Jake`"
       },
       {
-        "lineNumber": 358,
+        "lineNumber": 338,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "* *History* : `history`"
       },
       {
-        "lineNumber": 359,
+        "lineNumber": 339,
         "author": {
           "gitId": "-"
         },
         "content": "* *Help* : `help`"
       },
       {
-        "lineNumber": 360,
+        "lineNumber": 340,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "* *List* : `list`"
       },
       {
-        "lineNumber": 361,
+        "lineNumber": 341,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "* *Random* : `random TYPE` +"
       },
       {
-        "lineNumber": 362,
+        "lineNumber": 342,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "e.g. `type TOP`"
       },
       {
-        "lineNumber": 363,
+        "lineNumber": 343,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "* *Redo* : `redo`"
       },
       {
-        "lineNumber": 364,
+        "lineNumber": 344,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "* *Recommendation* : `recommendation`"
       },
       {
-        "lineNumber": 365,
+        "lineNumber": 345,
         "author": {
           "gitId": "-"
         },
         "content": "* *Select* : `select INDEX` +"
       },
       {
-        "lineNumber": 366,
+        "lineNumber": 346,
         "author": {
           "gitId": "-"
         },
         "content": "e.g.`select 2`"
       },
       {
-        "lineNumber": 367,
+        "lineNumber": 347,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "* *Something* : `something COLOR` +"
       },
       {
-        "lineNumber": 368,
+        "lineNumber": 348,
         "author": {
           "gitId": "PhilipPhil"
         },
         "content": "e.g. `color RED`"
       },
       {
-        "lineNumber": 369,
+        "lineNumber": 349,
         "author": {
           "gitId": "-"
         },
@@ -10468,10 +10328,10 @@
       }
     ],
     "authorContributionMap": {
-      "stanleymok": 63,
-      "rafflesandrison": 17,
+      "stanleymok": 64,
+      "rafflesandrison": 15,
       "PhilipPhil": 48,
-      "-": 241
+      "-": 222
     }
   },
   {
@@ -11234,7 +11094,7 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public static final Version VERSION \u003d new Version(1, 2, 0, true);"
+        "content": "    public static final Version VERSION \u003d new Version(1, 3, 0, true);"
       },
       {
         "lineNumber": 40,
@@ -65257,112 +65117,112 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "//import static org.junit.Assert.assertNotEquals;"
+        "content": "/**"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": " * Contains integration tests (interaction with the Model, UndoCommand and RedoCommand) and unit tests for EditCommand."
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "/**"
+        "content": " */"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": " * Contains integration tests (interaction with the Model, UndoCommand and RedoCommand) and unit tests for EditCommand."
+        "content": "public class UnavailableCommandTest {"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "public class UnavailableCommandTest {"
+        "content": "    private Model model \u003d new ModelManager(getTypicalAddressBook(), new UserPrefs());"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    private CommandHistory commandHistory \u003d new CommandHistory();"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    private Model model \u003d new ModelManager(getTypicalAddressBook(), new UserPrefs());"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    private CommandHistory commandHistory \u003d new CommandHistory();"
+        "content": "    @Test"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void execute_dirty_success() {"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        Apparel editedApparel \u003d new ApparelBuilder().buildUnavailable();"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void execute_dirty_success() {"
+        "content": "        editedApparel.use();"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel editedApparel \u003d new ApparelBuilder().buildUnavailable();"
+        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(editedApparel).build();"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        editedApparel.use();"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, descriptor);"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(editedApparel).build();"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, descriptor);"
+        "content": "        String expectedMessage \u003d String.format(UnavailableCommand.MESSAGE_EDIT_APPAREL_SUCCESS, editedApparel);"
       },
       {
         "lineNumber": 47,
@@ -65376,161 +65236,161 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        String expectedMessage \u003d String.format(UnavailableCommand.MESSAGE_EDIT_APPAREL_SUCCESS, editedApparel);"
+        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        expectedModel.setPerson(model.getFilteredApparelList().get(0), editedApparel);"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
+        "content": "        expectedModel.commitAddressBook();"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.setPerson(model.getFilteredApparelList().get(0), editedApparel);"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.commitAddressBook();"
+        "content": "        assertCommandSuccess(unavailableCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandSuccess(unavailableCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void execute_someFieldsSpecifiedUnfilteredList_success() {"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        Index indexLastPerson \u003d Index.fromOneBased(model.getFilteredApparelList().size());"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void execute_someFieldsSpecifiedUnfilteredList_success() {"
+        "content": "        Apparel lastApparel \u003d model.getFilteredApparelList().get(indexLastPerson.getZeroBased());"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Index indexLastPerson \u003d Index.fromOneBased(model.getFilteredApparelList().size());"
+        "content": ""
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel lastApparel \u003d model.getFilteredApparelList().get(indexLastPerson.getZeroBased());"
+        "content": "        ApparelBuilder personInList \u003d new ApparelBuilder(lastApparel);"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        Apparel editedApparel \u003d personInList.withName(VALID_NAME_B).withColor(VALID_COLOR_BLUE)"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        ApparelBuilder personInList \u003d new ApparelBuilder(lastApparel);"
+        "content": "                .build();"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel editedApparel \u003d personInList.withName(VALID_NAME_B).withColor(VALID_COLOR_BLUE)"
+        "content": "        editedApparel.use();"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                .build();"
+        "content": "        editedApparel.dirty();"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        editedApparel.use();"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        editedApparel.dirty();"
+        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B)"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "                .withColor(VALID_COLOR_BLUE).build();"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B)"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(indexLastPerson, descriptor);"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                .withColor(VALID_COLOR_BLUE).build();"
+        "content": ""
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(indexLastPerson, descriptor);"
+        "content": "        String expectedMessage \u003d String.format(UnavailableCommand.MESSAGE_EDIT_APPAREL_SUCCESS, editedApparel);"
       },
       {
         "lineNumber": 71,
@@ -65544,133 +65404,133 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        String expectedMessage \u003d String.format(UnavailableCommand.MESSAGE_EDIT_APPAREL_SUCCESS, editedApparel);"
+        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        expectedModel.setPerson(lastApparel, editedApparel);"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
+        "content": "        expectedModel.commitAddressBook();"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.setPerson(lastApparel, editedApparel);"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.commitAddressBook();"
+        "content": "        assertCommandSuccess(unavailableCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandSuccess(unavailableCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void execute_filteredList_success() {"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        showApparelAtIndex(model, INDEX_FIRST_APPAREL);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void execute_filteredList_success() {"
+        "content": ""
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        showApparelAtIndex(model, INDEX_FIRST_APPAREL);"
+        "content": "        Apparel apparelInFilteredList \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        Apparel editedApparel \u003d new ApparelBuilder(apparelInFilteredList).withName(VALID_NAME_B).build();"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel apparelInFilteredList \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
+        "content": "        editedApparel.use();"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel editedApparel \u003d new ApparelBuilder(apparelInFilteredList).withName(VALID_NAME_B).build();"
+        "content": "        editedApparel.dirty();"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        editedApparel.use();"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL,"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        editedApparel.dirty();"
+        "content": "                new UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B).build());"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL,"
+        "content": ""
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                new UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B).build());"
+        "content": "        String expectedMessage \u003d String.format(UnavailableCommand.MESSAGE_EDIT_APPAREL_SUCCESS, editedApparel);"
       },
       {
         "lineNumber": 91,
@@ -65684,1081 +65544,1067 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        String expectedMessage \u003d String.format(UnavailableCommand.MESSAGE_EDIT_APPAREL_SUCCESS, editedApparel);"
+        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        expectedModel.setPerson(model.getFilteredApparelList().get(0), editedApparel);"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
+        "content": "        expectedModel.commitAddressBook();"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.setPerson(model.getFilteredApparelList().get(0), editedApparel);"
+        "content": ""
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.commitAddressBook();"
+        "content": "        assertCommandSuccess(unavailableCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandSuccess(unavailableCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void execute_duplicatePersonUnfilteredList_failure() {"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        Apparel firstApparel \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void execute_duplicatePersonUnfilteredList_failure() {"
+        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(firstApparel).build();"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel firstApparel \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_SECOND_APPAREL, descriptor);"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(firstApparel).build();"
+        "content": ""
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_SECOND_APPAREL, descriptor);"
+        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory, EditCommand.MESSAGE_DUPLICATE_APPAREL);"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory, EditCommand.MESSAGE_DUPLICATE_APPAREL);"
+        "content": ""
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void execute_duplicatePersonFilteredList_failure() {"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        showApparelAtIndex(model, INDEX_FIRST_APPAREL);"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void execute_duplicatePersonFilteredList_failure() {"
+        "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        showApparelAtIndex(model, INDEX_FIRST_APPAREL);"
+        "content": "        // edit apparel in filtered list into a duplicate in address book"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        Apparel apparelInList \u003d model.getAddressBook().getApparelList().get(INDEX_SECOND_APPAREL.getZeroBased());"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // edit apparel in filtered list into a duplicate in address book"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL,"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel apparelInList \u003d model.getAddressBook().getApparelList().get(INDEX_SECOND_APPAREL.getZeroBased());"
+        "content": "                new UnavailableApparelDescriptorBuilder(apparelInList).build());"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL,"
+        "content": ""
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                new UnavailableApparelDescriptorBuilder(apparelInList).build());"
+        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory, EditCommand.MESSAGE_DUPLICATE_APPAREL);"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory, EditCommand.MESSAGE_DUPLICATE_APPAREL);"
+        "content": ""
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void execute_invalidPersonIndexUnfilteredList_failure() {"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredApparelList().size() + 1);"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void execute_invalidPersonIndexUnfilteredList_failure() {"
+        "content": "        UnavailablePersonDescriptor descriptor \u003d new"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredApparelList().size() + 1);"
+        "content": "                UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B).build();"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor descriptor \u003d new"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(outOfBoundIndex, descriptor);"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B).build();"
+        "content": ""
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(outOfBoundIndex, descriptor);"
+        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory,"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "                Messages.MESSAGE_INVALID_APPAREL_DISPLAYED_INDEX);"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory,"
+        "content": "    }"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                Messages.MESSAGE_INVALID_APPAREL_DISPLAYED_INDEX);"
+        "content": ""
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "     * Edit filtered list where index is larger than size of filtered list,"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    /**"
+        "content": "     * but smaller than size of address book"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     * Edit filtered list where index is larger than size of filtered list,"
+        "content": "     */"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     * but smaller than size of address book"
+        "content": "    @Test"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     */"
+        "content": "    public void execute_invalidPersonIndexFilteredList_failure() {"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        showApparelAtIndex(model, INDEX_FIRST_APPAREL);"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void execute_invalidPersonIndexFilteredList_failure() {"
+        "content": "        Index outOfBoundIndex \u003d INDEX_SECOND_APPAREL;"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        showApparelAtIndex(model, INDEX_FIRST_APPAREL);"
+        "content": "        // ensures that outOfBoundIndex is still in bounds of address book list"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Index outOfBoundIndex \u003d INDEX_SECOND_APPAREL;"
+        "content": "        assertTrue(outOfBoundIndex.getZeroBased() \u003c model.getAddressBook().getApparelList().size());"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // ensures that outOfBoundIndex is still in bounds of address book list"
+        "content": ""
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertTrue(outOfBoundIndex.getZeroBased() \u003c model.getAddressBook().getApparelList().size());"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(outOfBoundIndex,"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "                                new UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B).build());"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(outOfBoundIndex,"
+        "content": ""
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                                new UnavailableApparelDescriptorBuilder().withName(VALID_NAME_B).build());"
+        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory,"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "                                Messages.MESSAGE_INVALID_APPAREL_DISPLAYED_INDEX);"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory,"
+        "content": "    }"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                                Messages.MESSAGE_INVALID_APPAREL_DISPLAYED_INDEX);"
+        "content": ""
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void executeUndoRedo_validIndexUnfilteredList_success() throws Exception {"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        Apparel editedApparel \u003d new ApparelBuilder().build();"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void executeUndoRedo_validIndexUnfilteredList_success() throws Exception {"
+        "content": "        Apparel apparelToEdit \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel editedApparel \u003d new ApparelBuilder().build();"
+        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(editedApparel).build();"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel apparelToEdit \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, descriptor);"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(editedApparel).build();"
+        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, descriptor);"
+        "content": "        expectedModel.setPerson(apparelToEdit, editedApparel);"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
+        "content": "        expectedModel.commitAddressBook();"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.setPerson(apparelToEdit, editedApparel);"
+        "content": ""
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.commitAddressBook();"
+        "content": "        // edit -\u003e first apparel edited"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        unavailableCommand.execute(model, commandHistory);"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // edit -\u003e first apparel edited"
+        "content": ""
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        unavailableCommand.execute(model, commandHistory);"
+        "content": "        // undo -\u003e reverts addressbook back to previous state and filtered apparel list to show all persons"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        expectedModel.undoAddressBook();"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // undo -\u003e reverts addressbook back to previous state and filtered apparel list to show all persons"
+        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.undoAddressBook();"
+        "content": ""
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // redo -\u003e same first apparel edited again"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        expectedModel.redoAddressBook();"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // redo -\u003e same first apparel edited again"
+        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.redoAddressBook();"
+        "content": "    }"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void executeUndoRedo_invalidIndexUnfilteredList_failure() {"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredApparelList().size() + 1);"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void executeUndoRedo_invalidIndexUnfilteredList_failure() {"
+        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder()"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredApparelList().size() + 1);"
+        "content": "                .withName(VALID_NAME_B).build();"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder()"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(outOfBoundIndex, descriptor);"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                .withName(VALID_NAME_B).build();"
+        "content": ""
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(outOfBoundIndex, descriptor);"
+        "content": "        // execution failed -\u003e address book state not added into model"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory,"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // execution failed -\u003e address book state not added into model"
+        "content": "                Messages.MESSAGE_INVALID_APPAREL_DISPLAYED_INDEX);"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandFailure(unavailableCommand, model, commandHistory,"
+        "content": ""
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "                Messages.MESSAGE_INVALID_APPAREL_DISPLAYED_INDEX);"
+        "content": "        // single address book state in model -\u003e undoCommand and redoCommand fail"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        assertCommandFailure(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_FAILURE);"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // single address book state in model -\u003e undoCommand and redoCommand fail"
+        "content": "        assertCommandFailure(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_FAILURE);"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandFailure(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_FAILURE);"
+        "content": "    }"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandFailure(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_FAILURE);"
+        "content": ""
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "     * 1. Edits a {@code Apparel} from a filtered list."
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    /**"
+        "content": "     * 2. Undo the edit."
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     * 1. Edits a {@code Apparel} from a filtered list."
+        "content": "     * 3. The unfiltered list should be shown now. Verify that the index of the previously edited apparel in the"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     * 2. Undo the edit."
+        "content": "     * unfiltered list is different from the index at the filtered list."
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     * 3. The unfiltered list should be shown now. Verify that the index of the previously edited apparel in the"
+        "content": "     * 4. Redo the edit. This ensures {@code RedoCommand} edits the apparel object regardless of indexing."
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     * unfiltered list is different from the index at the filtered list."
+        "content": "     */"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     * 4. Redo the edit. This ensures {@code RedoCommand} edits the apparel object regardless of indexing."
+        "content": "    @Test"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "     */"
+        "content": "    public void executeUndoRedo_validIndexFilteredList_samePersonEdited() throws Exception {"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        Apparel editedApparel \u003d new ApparelBuilder().build();"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void executeUndoRedo_validIndexFilteredList_samePersonEdited() throws Exception {"
+        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(editedApparel).build();"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel editedApparel \u003d new ApparelBuilder().build();"
+        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, descriptor);"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor descriptor \u003d new UnavailableApparelDescriptorBuilder(editedApparel).build();"
+        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand unavailableCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, descriptor);"
+        "content": ""
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Model expectedModel \u003d new ModelManager(new AddressBook(model.getAddressBook()), new UserPrefs());"
+        "content": "        showApparelAtIndex(model, INDEX_SECOND_APPAREL);"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        Apparel apparelToEdit \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        showApparelAtIndex(model, INDEX_SECOND_APPAREL);"
+        "content": "        expectedModel.setPerson(apparelToEdit, editedApparel);"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        Apparel apparelToEdit \u003d model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased());"
+        "content": "        expectedModel.commitAddressBook();"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.setPerson(apparelToEdit, editedApparel);"
+        "content": ""
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.commitAddressBook();"
+        "content": "        // edit -\u003e edits second apparel in unfiltered apparel list / first apparel in filtered apparel list"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        unavailableCommand.execute(model, commandHistory);"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // edit -\u003e edits second apparel in unfiltered apparel list / first apparel in filtered apparel list"
+        "content": ""
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        unavailableCommand.execute(model, commandHistory);"
+        "content": "        // undo -\u003e reverts addressbook back to previous state and filtered apparel list to show all persons"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        expectedModel.undoAddressBook();"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // undo -\u003e reverts addressbook back to previous state and filtered apparel list to show all persons"
+        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.undoAddressBook();"
+        "content": ""
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        assertNotEquals(model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased()), apparelToEdit);"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        // redo -\u003e edits same second apparel in unfiltered apparel list"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertNotEquals(model.getFilteredApparelList().get(INDEX_FIRST_APPAREL.getZeroBased()), apparelToEdit);"
+        "content": "        expectedModel.redoAddressBook();"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // redo -\u003e edits same second apparel in unfiltered apparel list"
+        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        expectedModel.redoAddressBook();"
+        "content": "    }"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    }"
+        "content": "    @Test"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "    public void equals() {"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    @Test"
+        "content": "        final UnavailableCommand standardCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, DESC_CONNY);"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "    public void equals() {"
+        "content": ""
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        final UnavailableCommand standardCommand \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, DESC_CONNY);"
+        "content": "        // same values -\u003e returns true"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        UnavailablePersonDescriptor copyDescriptor \u003d new UnavailablePersonDescriptor(DESC_CONNY);"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // same values -\u003e returns true"
+        "content": "        UnavailableCommand commandWithSameValues \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, copyDescriptor);"
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailablePersonDescriptor copyDescriptor \u003d new UnavailablePersonDescriptor(DESC_CONNY);"
+        "content": "        assertTrue(standardCommand.equals(commandWithSameValues));"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        UnavailableCommand commandWithSameValues \u003d new UnavailableCommand(INDEX_FIRST_APPAREL, copyDescriptor);"
+        "content": ""
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertTrue(standardCommand.equals(commandWithSameValues));"
+        "content": "        // same object -\u003e returns true"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        assertTrue(standardCommand.equals(standardCommand));"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // same object -\u003e returns true"
+        "content": ""
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertTrue(standardCommand.equals(standardCommand));"
+        "content": "        // null -\u003e returns false"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        assertFalse(standardCommand.equals(null));"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // null -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertFalse(standardCommand.equals(null));"
+        "content": "        // different types -\u003e returns false"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        assertFalse(standardCommand.equals(new ClearCommand()));"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // different types -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertFalse(standardCommand.equals(new ClearCommand()));"
+        "content": "        // different index -\u003e returns false"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        assertFalse(standardCommand.equals(new UnavailableCommand(INDEX_SECOND_APPAREL, DESC_CONNY)));"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // different index -\u003e returns false"
+        "content": ""
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertFalse(standardCommand.equals(new UnavailableCommand(INDEX_SECOND_APPAREL, DESC_CONNY)));"
+        "content": "        // different descriptor -\u003e returns false"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "        assertFalse(standardCommand.equals(new UnavailableCommand(INDEX_FIRST_APPAREL, DESC_DENDI)));"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        // different descriptor -\u003e returns false"
+        "content": "    }"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "        assertFalse(standardCommand.equals(new UnavailableCommand(INDEX_FIRST_APPAREL, DESC_DENDI)));"
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "stanleymok"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 245,
-        "author": {
-          "gitId": "stanleymok"
-        },
         "content": ""
       },
       {
-        "lineNumber": 246,
+        "lineNumber": 244,
         "author": {
           "gitId": "stanleymok"
         },
@@ -66766,7 +66612,7 @@
       }
     ],
     "authorContributionMap": {
-      "stanleymok": 246
+      "stanleymok": 244
     }
   },
   {

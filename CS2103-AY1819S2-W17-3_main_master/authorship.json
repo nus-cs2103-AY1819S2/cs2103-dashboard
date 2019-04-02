@@ -5491,23 +5491,23 @@
       {
         "lineNumber": 402,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "This features allows the user to set a budget and allocate it to different categories. The budget will decrease when records are added."
+        "content": "This group of features allows the user to set a total budget and"
       },
       {
         "lineNumber": 403,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "allocate a portion of the total budget to different categories."
       },
       {
         "lineNumber": 404,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "This implementation is under `Logic`, `Model` and `UI` Component."
+        "content": "The current spending will increase when records are added."
       },
       {
         "lineNumber": 405,
@@ -5521,7 +5521,7 @@
         "author": {
           "gitId": "JeremyLoye"
         },
-        "content": "_Sequence Diagram will be done soon_"
+        "content": "This implementation is under `Logic`, `Model` and `UI` Component."
       },
       {
         "lineNumber": 407,
@@ -5533,476 +5533,476 @@
       {
         "lineNumber": 408,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d\u003d\u003d Implemented"
+        "content": "\u003d\u003d\u003d\u003d Setting a Budget"
       },
       {
         "lineNumber": 409,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* `Budget` Class has been created with `Amount` field to keep track of the budget of Financial Tracker."
+        "content": ""
       },
       {
         "lineNumber": 410,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* `Set` Command implemented with logic for adding a budget only if a budget does not exist."
+        "content": "// tag::categorybudget[]"
       },
       {
         "lineNumber": 411,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Dummy Commands for `allocate` and `increase` have been added."
+        "content": "\u003d\u003d\u003d\u003d Allocating a budget to category"
       },
       {
         "lineNumber": 412,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "This feature allows user to set a category budget after the total budget is set"
       },
       {
         "lineNumber": 413,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d\u003d\u003d To be implemented"
+        "content": ""
       },
       {
         "lineNumber": 414,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Reflecting total budget and current budget on `BrowserPanel` portion of UI."
+        "content": "Given below is a sequence diagram and step by step explanation of how Finance Tracker"
       },
       {
         "lineNumber": 415,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Implementing logic for `increase` command to allow for increasing the budget."
+        "content": "executes when a user sets a category budget."
       },
       {
         "lineNumber": 416,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Modify `spend` and `edit` Command to deduct from total budget to get current budget."
+        "content": ""
       },
       {
         "lineNumber": 417,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Implement `reset` command to reset current budget expenditure and total budget."
+        "content": ".Sequence diagram of user setting a category budget"
       },
       {
         "lineNumber": 418,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Implement logic for `allocate` command to be able to divide budget into categories."
+        "content": "image::AllocateSequenceDiagram.png[]"
       },
       {
         "lineNumber": 419,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Reflecting total budget and current budget for each category when selected in UI."
+        "content": ""
       },
       {
         "lineNumber": 420,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* Expand `undo` and `redo` command to be able to work on `set`, `allocate` and `increase` command."
+        "content": ". User enters command `allocate $/10 c/Food`. The command is received by `FinanceBookParser`"
       },
       {
         "lineNumber": 421,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": ". FinanceTrackerParser will then create a `AllocateCommandParser` Object"
       },
       {
         "lineNumber": 422,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d\u003d\u003d Design Consideration"
+        "content": "and calls `AllocateCommandParser#parse()` method"
       },
       {
         "lineNumber": 423,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "The logic for keeping track of budgets can be implemented in different ways for individual categories."
+        "content": ". `AllocateCommandParser#parse()` method calls `ArgumentTokenizer#tokenize()` method to tokenize"
       },
       {
         "lineNumber": 424,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "the user input String into arguments and prefixes in an `ArgumentMultimap` Object."
       },
       {
         "lineNumber": 425,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* *Solution 1*: Keep a list of expenditure for individual categories and budget allocations in one Budget class."
+        "content": ". `AllocateCommandParser#parse()` method then calls another method within the same class"
       },
       {
         "lineNumber": 426,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "** Pros: Easier to maintain one Budget object."
+        "content": "`AllocateCommandParser#arePrefixesPresent()` to check if there are any missing prefixes."
       },
       {
         "lineNumber": 427,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "** Cons: Iterating through the list could be slow if there are a lot of categories. Lists could be confusing to maintain."
+        "content": "If there are missing prefixes, `ParseException` will be thrown"
       },
       {
         "lineNumber": 428,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": ". If no exceptions are thrown from the step 4, a new AllocateCommand object is created"
       },
       {
         "lineNumber": 429,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "* *Solution 2*: Create Budget classes to keep track of expenditure and budget for individual categories."
+        "content": "with the given arguments."
       },
       {
         "lineNumber": 430,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "** Pros: More human readable to maintain Budget classes with names of categories."
+        "content": ". Control is returned to LogicManager which then calls `AllocateCommand#execute()` method."
       },
       {
         "lineNumber": 431,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "** Cons: Budget classes for individual categories need to be iterated through to get totals leading to slow UI updates each time values are changed."
+        "content": ". `AllocateCommand#execute()` calls `ModelManager#addCategoryBudget()` method and control"
       },
       {
         "lineNumber": 432,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "is transferred to `ModelManager` which is in the `Model` Component."
       },
       {
         "lineNumber": 433,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": "//end::budgetmanagement[]"
+        "content": ". `ModelManager#addCategoryBudget()` then calls `FinanceTracker#addCategoryBudget()` which then"
       },
       {
         "lineNumber": 434,
         "author": {
-          "gitId": "JeremyLoye"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "calls `TotalBudget#setNewCategoryBudget()`"
       },
       {
         "lineNumber": 435,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": ". `TotalBudget#setNewCategoryBudget()` takes into account if there are any previous budget"
       },
       {
         "lineNumber": 436,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "// tag::summary[]"
+        "content": "allocated to a category and if so, adds the expenses to the new budget assigned to the category"
       },
       {
         "lineNumber": 437,
         "author": {
-          "gitId": "geezlouisee"
-        },
-        "content": "\u003d\u003d\u003d Summary"
-      },
-      {
-        "lineNumber": 438,
-        "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
         "content": ""
       },
       {
+        "lineNumber": 438,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "\u003d\u003d\u003d\u003d\u003d Design consideration"
+      },
+      {
         "lineNumber": 439,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "The summary feature shows an overview of your previous expenditures. It displays statistics on how your spending habits are like in the different categories you have specified. It also displays the remaining budget amount for each category."
+        "content": "Aspect: allocating Category Budget"
       },
       {
         "lineNumber": 440,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
         "content": ""
       },
       {
         "lineNumber": 441,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d\u003d\u003d To be implemented"
+        "content": "* *Alternative 1 (current choice)*: Allocating Category Budget is done with only one command `allocate`"
       },
       {
         "lineNumber": 442,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "The summary feature intends to use a D3.js graph to display the data. This will help contribute to the aesthetics and user-friendliness of displaying the data in the financeTracker."
+        "content": "** Pros: User need to only make use of one command to control the budget of the category and will"
       },
       {
         "lineNumber": 443,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "not be confused with too many other commands"
       },
       {
         "lineNumber": 444,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "The summary command will retrieve the whole list of existing records, which will then be parsed by SummaryCommandParser. This will return the appropriate d3 graph to be shown."
+        "content": "** Cons: Requires the developer to ensure the application checks that if there is a current budget"
       },
       {
         "lineNumber": 445,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "allocated to the same category, it should be reflected accordingly."
       },
       {
         "lineNumber": 446,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "Given below is an example usage scenario and how the summary mechanism behaves at each step."
+        "content": ""
       },
       {
         "lineNumber": 447,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "* *Alternative 2*: Have two other commands `increaseCatBudget` and `decreaseCatBudget` to allow user"
       },
       {
         "lineNumber": 448,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "Step 1. The user launches the application for the first time. The financeTracker will be initialised with the existing records the user has input last time."
+        "content": "to control the budget of the category"
       },
       {
         "lineNumber": 449,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "** Pros: User is able to adjust the budget by increasing/decreasing the budget instead of having to use"
       },
       {
         "lineNumber": 450,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "Step 2. The user executes the summary command. Input is parsed and the records will be extracted."
+        "content": "one command to allocate a fixed amount to the budget"
       },
       {
         "lineNumber": 451,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "** Cons: User might be confused with too many commands and not intuitive."
       },
       {
         "lineNumber": 452,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "Jackimaru96"
         },
-        "content": "Step 3. The records are then converted to JSON, and data will be used to map the d3 graph."
+        "content": "// end::categorybudget[]"
       },
       {
         "lineNumber": 453,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
         "content": ""
       },
       {
         "lineNumber": 454,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
         "content": ""
       },
       {
         "lineNumber": 455,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": "_Sequence Diagram will be done soon_"
+        "content": "\u003d\u003d\u003d\u003d To be implemented"
       },
       {
         "lineNumber": 456,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": ""
+        "content": "* Reflecting total budget and current budget on `BrowserPanel` portion of UI."
       },
       {
         "lineNumber": 457,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": "\u003d\u003d\u003d\u003d Design Consideration"
+        "content": "* Implementing logic for `increase` command to allow for increasing the budget."
       },
       {
         "lineNumber": 458,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": "An aster plot graph will be used to display the information in the main window. Using such a graph will allow for sufficient space should users decide to add more categories in the future. Hovering over the different sectors in the aster plot graph will display the corresponding category. If possible, the colours used for the category in the aster plot graph should be the same colour palette used for the category labels."
+        "content": "* Modify `spend` and `edit` Command to deduct from total budget to get current budget."
       },
       {
         "lineNumber": 459,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": ""
+        "content": "* Implement `reset` command to reset current budget expenditure and total budget."
       },
       {
         "lineNumber": 460,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": ".Example of Aster Plot Graph"
+        "content": "* Reflecting total budget and current budget for each category when selected in UI."
       },
       {
         "lineNumber": 461,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": "image::asterPlot.png[width\u003d\"400\"]"
+        "content": "* Expand `undo` and `redo` command to be able to work on `set`, `allocate` and `increase` command."
       },
       {
         "lineNumber": 462,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
         "content": ""
       },
       {
         "lineNumber": 463,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": "Initially, we were considering using a pie chart instead. However, using an aster plot graph will be more effective in showing the user what is the remaining budget amount for each category."
+        "content": "\u003d\u003d\u003d\u003d Design Consideration"
       },
       {
         "lineNumber": 464,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
-        "content": "//end::summary[]"
+        "content": "The logic for keeping track of budgets can be implemented in different ways for individual categories."
       },
       {
         "lineNumber": 465,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "JeremyLoye"
         },
         "content": ""
       },
       {
         "lineNumber": 466,
         "author": {
-          "gitId": "-"
+          "gitId": "JeremyLoye"
         },
-        "content": ""
+        "content": "* *Solution 1*: Keep a list of expenditure for individual categories and budget allocations in one Budget class."
       },
       {
         "lineNumber": 467,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "JeremyLoye"
         },
-        "content": "// tag::security[]"
+        "content": "** Pros: Easier to maintain one Budget object."
       },
       {
         "lineNumber": 468,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "JeremyLoye"
         },
-        "content": "\u003d\u003d\u003d Security Features"
+        "content": "** Cons: Iterating through the list could be slow if there are a lot of categories. Lists could be confusing to maintain."
       },
       {
         "lineNumber": 469,
         "author": {
-          "gitId": "-"
+          "gitId": "JeremyLoye"
         },
         "content": ""
       },
       {
         "lineNumber": 470,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "JeremyLoye"
         },
-        "content": "The In-Credit-Ble will ensure security of user data through the implementation of user profile system."
+        "content": "* *Solution 2*: Create Budget classes to keep track of expenditure and budget for individual categories."
       },
       {
         "lineNumber": 471,
         "author": {
-          "gitId": "-"
+          "gitId": "JeremyLoye"
         },
-        "content": ""
+        "content": "** Pros: More human readable to maintain Budget classes with names of categories."
       },
       {
         "lineNumber": 472,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "JeremyLoye"
         },
-        "content": "The user profile system will allow for multiple users to use In-Credit-Ble on the same machine and keeps"
+        "content": "** Cons: Budget classes for individual categories need to be iterated through to get totals leading to slow UI updates each time values are changed."
       },
       {
         "lineNumber": 473,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "JeremyLoye"
         },
-        "content": "the data apart from each other. Users have the option of setting a password to protect their data from being"
+        "content": ""
       },
       {
         "lineNumber": 474,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "JeremyLoye"
         },
-        "content": "viewed or altered by other users."
+        "content": "//end::budgetmanagement[]"
       },
       {
         "lineNumber": 475,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "JeremyLoye"
         },
         "content": ""
       },
@@ -6011,336 +6011,336 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d\u003d\u003d To be implemented"
+        "content": ""
       },
       {
         "lineNumber": 477,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "* `password` and `user` class to be created under `Model`"
+        "content": "// tag::summary[]"
       },
       {
         "lineNumber": 478,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "* `register` command to allow new users to register under `username`"
+        "content": "\u003d\u003d\u003d Summary"
       },
       {
         "lineNumber": 479,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "* `setPassword` command to allow existing users to set a password for their profile. This command"
+        "content": ""
       },
       {
         "lineNumber": 480,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "can also be used to reset existing passwords"
+        "content": "The summary feature shows an overview of your previous expenditures. It displays statistics on how your spending habits are like in the different categories you have specified. It also displays the remaining budget amount for each category."
       },
       {
         "lineNumber": 481,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "* `login` command to allow users who registered to login to their profile"
+        "content": ""
       },
       {
         "lineNumber": 482,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d To be implemented"
       },
       {
         "lineNumber": 483,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "g"
+        "content": "The summary feature intends to use a D3.js graph to display the data. This will help contribute to the aesthetics and user-friendliness of displaying the data in the financeTracker."
       },
       {
         "lineNumber": 484,
         "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "Given below is an example usage scenario and how the login system will behave at each step"
-      },
-      {
-        "lineNumber": 485,
-        "author": {
-          "gitId": "-"
+          "gitId": "geezlouisee"
         },
         "content": ""
       },
       {
+        "lineNumber": 485,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": "The summary command will retrieve the whole list of existing records, which will then be parsed by SummaryCommandParser. This will return the appropriate d3 graph to be shown."
+      },
+      {
         "lineNumber": 486,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "*Step 1:*. The user launches the application for the first time. `MainApp` class will load all xml files within the data"
+        "content": ""
       },
       {
         "lineNumber": 487,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "folder according to the path in `UserPrefs`."
+        "content": "Given below is an example usage scenario and how the summary mechanism behaves at each step."
       },
       {
         "lineNumber": 488,
         "author": {
-          "gitId": "-"
+          "gitId": "geezlouisee"
         },
         "content": ""
       },
       {
         "lineNumber": 489,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "*Step 2a:* User can then register using `register` with a `username` parameter. If users registered before"
+        "content": "Step 1. The user launches the application for the first time. The financeTracker will be initialised with the existing records the user has input last time."
       },
       {
         "lineNumber": 490,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "they can skip this step and go to Step 2b instead."
+        "content": ""
       },
       {
         "lineNumber": 491,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": ""
+        "content": "Step 2. The user executes the summary command. Input is parsed and the records will be extracted."
       },
       {
         "lineNumber": 492,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "*Step 2b:* User can `login` using their `username` if they have registered before"
+        "content": ""
       },
       {
         "lineNumber": 493,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": ""
+        "content": "Step 3. The records are then converted to JSON, and data will be used to map the d3 graph."
       },
       {
         "lineNumber": 494,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "*Step 3:* Users can set password using the `setPassword` command if they do not have password."
+        "content": ""
       },
       {
         "lineNumber": 495,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "They can also change their password using this command."
+        "content": ""
       },
       {
         "lineNumber": 496,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": ""
+        "content": "_Sequence Diagram will be done soon_"
       },
       {
         "lineNumber": 497,
         "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "\u003d\u003d\u003d\u003d Design Consideration"
-      },
-      {
-        "lineNumber": 498,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "\u003d\u003d\u003d\u003d\u003d Loading different user data"
-      },
-      {
-        "lineNumber": 499,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "* *Alternative 1 (Proposed implementation)*: Loading user data is done during initialisation of In-Credit-Ble"
-      },
-      {
-        "lineNumber": 500,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "** Pros: Able to switch user profiles after In-Credit-Ble is loaded"
-      },
-      {
-        "lineNumber": 501,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "** Cons: External changes to files after intialisation not reflected may be overwritten"
-      },
-      {
-        "lineNumber": 502,
-        "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
         "content": ""
       },
       {
+        "lineNumber": 498,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": "\u003d\u003d\u003d\u003d Design Consideration"
+      },
+      {
+        "lineNumber": 499,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": "An aster plot graph will be used to display the information in the main window. Using such a graph will allow for sufficient space should users decide to add more categories in the future. Hovering over the different sectors in the aster plot graph will display the corresponding category. If possible, the colours used for the category in the aster plot graph should be the same colour palette used for the category labels."
+      },
+      {
+        "lineNumber": 500,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 501,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": ".Example of Aster Plot Graph"
+      },
+      {
+        "lineNumber": 502,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": "image::asterPlot.png[width\u003d\"400\"]"
+      },
+      {
         "lineNumber": 503,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "* *Alternative 2:* User profile data only loaded when user logs in"
+        "content": ""
       },
       {
         "lineNumber": 504,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "** Pros: Unnecessary data not kept in memory so memory space is not wasted"
+        "content": "Initially, we were considering using a pie chart instead. However, using an aster plot graph will be more effective in showing the user what is the remaining budget amount for each category."
       },
       {
         "lineNumber": 505,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "geezlouisee"
         },
-        "content": "** Cons: The `Logic` or `Model` component will have to depend on the `Storage` component as `login` command"
+        "content": "//end::summary[]"
       },
       {
         "lineNumber": 506,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "will require the `Storage` to load and return the user\u0027s data"
+        "content": ""
       },
       {
         "lineNumber": 507,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Logging"
       },
       {
         "lineNumber": 508,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "// end::security[]"
+        "content": ""
       },
       {
         "lineNumber": 509,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We are using `java.util.logging` package for logging. The `LogsCenter` class is used to manage the logging levels and logging destinations."
       },
       {
         "lineNumber": 510,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Logging"
+        "content": ""
       },
       {
         "lineNumber": 511,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* The logging level can be controlled using the `logLevel` setting in the configuration file (See \u003c\u003cImplementation-Configuration\u003e\u003e)"
       },
       {
         "lineNumber": 512,
         "author": {
           "gitId": "-"
         },
-        "content": "We are using `java.util.logging` package for logging. The `LogsCenter` class is used to manage the logging levels and logging destinations."
+        "content": "* The `Logger` for a class can be obtained using `LogsCenter.getLogger(Class)` which will log messages according to the specified logging level"
       },
       {
         "lineNumber": 513,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Currently log messages are output through: `Console` and to a `.log` file."
       },
       {
         "lineNumber": 514,
         "author": {
           "gitId": "-"
         },
-        "content": "* The logging level can be controlled using the `logLevel` setting in the configuration file (See \u003c\u003cImplementation-Configuration\u003e\u003e)"
+        "content": ""
       },
       {
         "lineNumber": 515,
         "author": {
           "gitId": "-"
         },
-        "content": "* The `Logger` for a class can be obtained using `LogsCenter.getLogger(Class)` which will log messages according to the specified logging level"
+        "content": "*Logging Levels*"
       },
       {
         "lineNumber": 516,
         "author": {
           "gitId": "-"
         },
-        "content": "* Currently log messages are output through: `Console` and to a `.log` file."
+        "content": ""
       },
       {
         "lineNumber": 517,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `SEVERE` : Critical problem detected which may possibly cause the termination of the application"
       },
       {
         "lineNumber": 518,
         "author": {
           "gitId": "-"
         },
-        "content": "*Logging Levels*"
-      },
-      {
-        "lineNumber": 519,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 520,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* `SEVERE` : Critical problem detected which may possibly cause the termination of the application"
-      },
-      {
-        "lineNumber": 521,
-        "author": {
-          "gitId": "-"
-        },
         "content": "* `WARNING` : Can continue, but with caution"
       },
       {
-        "lineNumber": 522,
+        "lineNumber": 519,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* `INFO` : Information showing noteworthy actions by the application"
       },
       {
-        "lineNumber": 523,
+        "lineNumber": 520,
         "author": {
           "gitId": "-"
         },
         "content": "* `FINE` : Details that is not usually noteworthy but may be useful in debugging e.g. print the actual list instead of just its size"
+      },
+      {
+        "lineNumber": 521,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 522,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[[Implementation-Configuration]]"
+      },
+      {
+        "lineNumber": 523,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Configuration"
       },
       {
         "lineNumber": 524,
@@ -6354,56 +6354,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[Implementation-Configuration]]"
+        "content": "Certain properties of the application can be controlled (e.g user prefs file location, logging level) through the configuration file (default: `config.json`)."
       },
       {
         "lineNumber": 526,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Configuration"
+        "content": ""
       },
       {
         "lineNumber": 527,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d Documentation"
       },
       {
         "lineNumber": 528,
         "author": {
           "gitId": "-"
         },
-        "content": "Certain properties of the application can be controlled (e.g user prefs file location, logging level) through the configuration file (default: `config.json`)."
+        "content": ""
       },
       {
         "lineNumber": 529,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We use asciidoc for writing documentation."
       },
       {
         "lineNumber": 530,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Documentation"
+        "content": ""
       },
       {
         "lineNumber": 531,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 532,
         "author": {
           "gitId": "-"
         },
-        "content": "We use asciidoc for writing documentation."
+        "content": "We chose asciidoc over Markdown because asciidoc, although a bit more complex than Markdown, provides more flexibility in formatting."
       },
       {
         "lineNumber": 533,
@@ -6417,28 +6417,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "\u003d\u003d\u003d Editing Documentation"
       },
       {
         "lineNumber": 535,
         "author": {
           "gitId": "-"
         },
-        "content": "We chose asciidoc over Markdown because asciidoc, although a bit more complex than Markdown, provides more flexibility in formatting."
+        "content": ""
       },
       {
         "lineNumber": 536,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "See \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to learn how to render `.adoc` files locally to preview the end result of your edits."
       },
       {
         "lineNumber": 537,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Editing Documentation"
+        "content": "Alternatively, you can download the AsciiDoc plugin for IntelliJ, which allows you to preview the changes you have made to your `.adoc` files in real-time."
       },
       {
         "lineNumber": 538,
@@ -6452,119 +6452,119 @@
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to learn how to render `.adoc` files locally to preview the end result of your edits."
+        "content": "\u003d\u003d\u003d Publishing Documentation"
       },
       {
         "lineNumber": 540,
         "author": {
           "gitId": "-"
         },
-        "content": "Alternatively, you can download the AsciiDoc plugin for IntelliJ, which allows you to preview the changes you have made to your `.adoc` files in real-time."
+        "content": ""
       },
       {
         "lineNumber": 541,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "See \u003c\u003cUsingTravis#deploying-github-pages, UsingTravis.adoc\u003e\u003e to learn how to deploy GitHub Pages using Travis."
       },
       {
         "lineNumber": 542,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Publishing Documentation"
+        "content": ""
       },
       {
         "lineNumber": 543,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Converting Documentation to PDF format"
       },
       {
         "lineNumber": 544,
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingTravis#deploying-github-pages, UsingTravis.adoc\u003e\u003e to learn how to deploy GitHub Pages using Travis."
+        "content": ""
       },
       {
         "lineNumber": 545,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We use https://www.google.com/chrome/browser/desktop/[Google Chrome] for converting documentation to PDF format, as Chrome\u0027s PDF engine preserves hyperlinks used in webpages."
       },
       {
         "lineNumber": 546,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Converting Documentation to PDF format"
+        "content": ""
       },
       {
         "lineNumber": 547,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Here are the steps to convert the project documentation files to PDF format."
       },
       {
         "lineNumber": 548,
         "author": {
           "gitId": "-"
         },
-        "content": "We use https://www.google.com/chrome/browser/desktop/[Google Chrome] for converting documentation to PDF format, as Chrome\u0027s PDF engine preserves hyperlinks used in webpages."
+        "content": ""
       },
       {
         "lineNumber": 549,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Follow the instructions in \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to convert the AsciiDoc files in the `docs/` directory to HTML format."
       },
       {
         "lineNumber": 550,
         "author": {
           "gitId": "-"
         },
-        "content": "Here are the steps to convert the project documentation files to PDF format."
+        "content": ".  Go to your generated HTML files in the `build/docs` folder, right click on them and select `Open with` -\u003e `Google Chrome`."
       },
       {
         "lineNumber": 551,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Within Chrome, click on the `Print` option in Chrome\u0027s menu."
       },
       {
         "lineNumber": 552,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Follow the instructions in \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to convert the AsciiDoc files in the `docs/` directory to HTML format."
+        "content": ".  Set the destination to `Save as PDF`, then click `Save` to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below."
       },
       {
         "lineNumber": 553,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Go to your generated HTML files in the `build/docs` folder, right click on them and select `Open with` -\u003e `Google Chrome`."
+        "content": ""
       },
       {
         "lineNumber": 554,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Within Chrome, click on the `Print` option in Chrome\u0027s menu."
+        "content": ".Saving documentation as PDF files in Chrome"
       },
       {
         "lineNumber": 555,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Set the destination to `Save as PDF`, then click `Save` to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below."
+        "content": "image::chrome_save_as_pdf.png[width\u003d\"300\"]"
       },
       {
         "lineNumber": 556,
@@ -6578,14 +6578,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".Saving documentation as PDF files in Chrome"
+        "content": "[[Docs-SiteWideDocSettings]]"
       },
       {
         "lineNumber": 558,
         "author": {
           "gitId": "-"
         },
-        "content": "image::chrome_save_as_pdf.png[width\u003d\"300\"]"
+        "content": "\u003d\u003d\u003d Site-wide Documentation Settings"
       },
       {
         "lineNumber": 559,
@@ -6599,28 +6599,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[Docs-SiteWideDocSettings]]"
+        "content": "The link:{repoURL}/build.gradle[`build.gradle`] file specifies some project-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how all documentation files within this project are rendered."
       },
       {
         "lineNumber": 561,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Site-wide Documentation Settings"
+        "content": ""
       },
       {
         "lineNumber": 562,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[TIP]"
       },
       {
         "lineNumber": 563,
         "author": {
           "gitId": "-"
         },
-        "content": "The link:{repoURL}/build.gradle[`build.gradle`] file specifies some project-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how all documentation files within this project are rendered."
+        "content": "Attributes left unset in the `build.gradle` file will use their *default value*, if any."
       },
       {
         "lineNumber": 564,
@@ -6634,168 +6634,168 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
       },
       {
         "lineNumber": 566,
         "author": {
           "gitId": "-"
         },
-        "content": "Attributes left unset in the `build.gradle` file will use their *default value*, if any."
+        "content": ".List of site-wide attributes"
       },
       {
         "lineNumber": 567,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 568,
         "author": {
           "gitId": "-"
         },
-        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
+        "content": "|Attribute name |Description |Default value"
       },
       {
         "lineNumber": 569,
         "author": {
           "gitId": "-"
         },
-        "content": ".List of site-wide attributes"
+        "content": ""
       },
       {
         "lineNumber": 570,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "|`site-name`"
       },
       {
         "lineNumber": 571,
         "author": {
           "gitId": "-"
         },
-        "content": "|Attribute name |Description |Default value"
+        "content": "|The name of the website."
       },
       {
         "lineNumber": 572,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "If set, the name will be displayed near the top of the page."
       },
       {
         "lineNumber": 573,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-name`"
+        "content": "|_not set_"
       },
       {
         "lineNumber": 574,
         "author": {
           "gitId": "-"
         },
-        "content": "|The name of the website."
+        "content": ""
       },
       {
         "lineNumber": 575,
         "author": {
           "gitId": "-"
         },
-        "content": "If set, the name will be displayed near the top of the page."
+        "content": "|`site-githuburl`"
       },
       {
         "lineNumber": 576,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": "|URL to the site\u0027s repository on https://github.com[GitHub]."
       },
       {
         "lineNumber": 577,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Setting this will add a \"View on GitHub\" link in the navigation bar."
       },
       {
         "lineNumber": 578,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-githuburl`"
+        "content": "|_not set_"
       },
       {
         "lineNumber": 579,
         "author": {
           "gitId": "-"
         },
-        "content": "|URL to the site\u0027s repository on https://github.com[GitHub]."
+        "content": ""
       },
       {
         "lineNumber": 580,
         "author": {
           "gitId": "-"
         },
-        "content": "Setting this will add a \"View on GitHub\" link in the navigation bar."
+        "content": "|`site-seedu`"
       },
       {
         "lineNumber": 581,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": "|Define this attribute if the project is an official SE-EDU project."
       },
       {
         "lineNumber": 582,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "This will render the SE-EDU navigation bar at the top of the page, and add some SE-EDU-specific navigation items."
       },
       {
         "lineNumber": 583,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-seedu`"
+        "content": "|_not set_"
       },
       {
         "lineNumber": 584,
         "author": {
           "gitId": "-"
         },
-        "content": "|Define this attribute if the project is an official SE-EDU project."
+        "content": ""
       },
       {
         "lineNumber": 585,
         "author": {
           "gitId": "-"
         },
-        "content": "This will render the SE-EDU navigation bar at the top of the page, and add some SE-EDU-specific navigation items."
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 586,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": ""
       },
       {
         "lineNumber": 587,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[[Docs-PerFileDocSettings]]"
       },
       {
         "lineNumber": 588,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d Per-file Documentation Settings"
       },
       {
         "lineNumber": 589,
@@ -6809,42 +6809,42 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[Docs-PerFileDocSettings]]"
+        "content": "Each `.adoc` file may also specify some file-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how the file is rendered."
       },
       {
         "lineNumber": 591,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Per-file Documentation Settings"
+        "content": ""
       },
       {
         "lineNumber": 592,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Asciidoctor\u0027s https://asciidoctor.org/docs/user-manual/#builtin-attributes[built-in attributes] may be specified and used as well."
       },
       {
         "lineNumber": 593,
         "author": {
           "gitId": "-"
         },
-        "content": "Each `.adoc` file may also specify some file-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how the file is rendered."
+        "content": ""
       },
       {
         "lineNumber": 594,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[TIP]"
       },
       {
         "lineNumber": 595,
         "author": {
           "gitId": "-"
         },
-        "content": "Asciidoctor\u0027s https://asciidoctor.org/docs/user-manual/#builtin-attributes[built-in attributes] may be specified and used as well."
+        "content": "Attributes left unset in `.adoc` files will use their *default value*, if any."
       },
       {
         "lineNumber": 596,
@@ -6858,84 +6858,84 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
       },
       {
         "lineNumber": 598,
         "author": {
           "gitId": "-"
         },
-        "content": "Attributes left unset in `.adoc` files will use their *default value*, if any."
+        "content": ".List of per-file attributes, excluding Asciidoctor\u0027s built-in attributes"
       },
       {
         "lineNumber": 599,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 600,
         "author": {
           "gitId": "-"
         },
-        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
+        "content": "|Attribute name |Description |Default value"
       },
       {
         "lineNumber": 601,
         "author": {
           "gitId": "-"
         },
-        "content": ".List of per-file attributes, excluding Asciidoctor\u0027s built-in attributes"
+        "content": ""
       },
       {
         "lineNumber": 602,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "|`site-section`"
       },
       {
         "lineNumber": 603,
         "author": {
           "gitId": "-"
         },
-        "content": "|Attribute name |Description |Default value"
+        "content": "|Site section that the document belongs to."
       },
       {
         "lineNumber": 604,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "This will cause the associated item in the navigation bar to be highlighted."
       },
       {
         "lineNumber": 605,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-section`"
+        "content": "One of: `UserGuide`, `DeveloperGuide`, ``LearningOutcomes``{asterisk}, `AboutUs`, `ContactUs`"
       },
       {
         "lineNumber": 606,
         "author": {
           "gitId": "-"
         },
-        "content": "|Site section that the document belongs to."
+        "content": ""
       },
       {
         "lineNumber": 607,
         "author": {
           "gitId": "-"
         },
-        "content": "This will cause the associated item in the navigation bar to be highlighted."
+        "content": "_{asterisk} Official SE-EDU projects only_"
       },
       {
         "lineNumber": 608,
         "author": {
           "gitId": "-"
         },
-        "content": "One of: `UserGuide`, `DeveloperGuide`, ``LearningOutcomes``{asterisk}, `AboutUs`, `ContactUs`"
+        "content": "|_not set_"
       },
       {
         "lineNumber": 609,
@@ -6949,70 +6949,70 @@
         "author": {
           "gitId": "-"
         },
-        "content": "_{asterisk} Official SE-EDU projects only_"
+        "content": "|`no-site-header`"
       },
       {
         "lineNumber": 611,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": "|Set this attribute to remove the site navigation bar."
       },
       {
         "lineNumber": 612,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|_not set_"
       },
       {
         "lineNumber": 613,
         "author": {
           "gitId": "-"
         },
-        "content": "|`no-site-header`"
+        "content": ""
       },
       {
         "lineNumber": 614,
         "author": {
           "gitId": "-"
         },
-        "content": "|Set this attribute to remove the site navigation bar."
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 615,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": ""
       },
       {
         "lineNumber": 616,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Site Template"
       },
       {
         "lineNumber": 617,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 618,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The files in link:{repoURL}/docs/stylesheets[`docs/stylesheets`] are the https://developer.mozilla.org/en-US/docs/Web/CSS[CSS stylesheets] of the site."
       },
       {
         "lineNumber": 619,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Site Template"
+        "content": "You can modify them to change some properties of the site\u0027s design."
       },
       {
         "lineNumber": 620,
@@ -7026,14 +7026,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "The files in link:{repoURL}/docs/stylesheets[`docs/stylesheets`] are the https://developer.mozilla.org/en-US/docs/Web/CSS[CSS stylesheets] of the site."
+        "content": "The files in link:{repoURL}/docs/templates[`docs/templates`] controls the rendering of `.adoc` files into HTML5."
       },
       {
         "lineNumber": 622,
         "author": {
           "gitId": "-"
         },
-        "content": "You can modify them to change some properties of the site\u0027s design."
+        "content": "These template files are written in a mixture of https://www.ruby-lang.org[Ruby] and http://slim-lang.com[Slim]."
       },
       {
         "lineNumber": 623,
@@ -7047,28 +7047,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "The files in link:{repoURL}/docs/templates[`docs/templates`] controls the rendering of `.adoc` files into HTML5."
+        "content": "[WARNING]"
       },
       {
         "lineNumber": 625,
         "author": {
           "gitId": "-"
         },
-        "content": "These template files are written in a mixture of https://www.ruby-lang.org[Ruby] and http://slim-lang.com[Slim]."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 626,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Modifying the template files in link:{repoURL}/docs/templates[`docs/templates`] requires some knowledge and experience with Ruby and Asciidoctor\u0027s API."
       },
       {
         "lineNumber": 627,
         "author": {
           "gitId": "-"
         },
-        "content": "[WARNING]"
+        "content": "You should only modify them if you need greater control over the site\u0027s layout than what stylesheets can provide."
       },
       {
         "lineNumber": 628,
@@ -7082,21 +7082,21 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Modifying the template files in link:{repoURL}/docs/templates[`docs/templates`] requires some knowledge and experience with Ruby and Asciidoctor\u0027s API."
+        "content": ""
       },
       {
         "lineNumber": 630,
         "author": {
           "gitId": "-"
         },
-        "content": "You should only modify them if you need greater control over the site\u0027s layout than what stylesheets can provide."
+        "content": "[[Testing]]"
       },
       {
         "lineNumber": 631,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d Testing"
       },
       {
         "lineNumber": 632,
@@ -7110,42 +7110,42 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[Testing]]"
+        "content": "\u003d\u003d\u003d Running Tests"
       },
       {
         "lineNumber": 634,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Testing"
+        "content": ""
       },
       {
         "lineNumber": 635,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "There are three ways to run tests."
       },
       {
         "lineNumber": 636,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Running Tests"
+        "content": ""
       },
       {
         "lineNumber": 637,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[TIP]"
       },
       {
         "lineNumber": 638,
         "author": {
           "gitId": "-"
         },
-        "content": "There are three ways to run tests."
+        "content": "The most reliable way to run tests is the 3rd one. The first two methods might fail some GUI tests due to platform/resolution-specific idiosyncrasies."
       },
       {
         "lineNumber": 639,
@@ -7159,28 +7159,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "*Method 1: Using IntelliJ JUnit test runner*"
       },
       {
         "lineNumber": 641,
         "author": {
           "gitId": "-"
         },
-        "content": "The most reliable way to run tests is the 3rd one. The first two methods might fail some GUI tests due to platform/resolution-specific idiosyncrasies."
+        "content": ""
       },
       {
         "lineNumber": 642,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* To run all tests, right-click on the `src/test/java` folder and choose `Run \u0027All Tests\u0027`"
       },
       {
         "lineNumber": 643,
         "author": {
           "gitId": "-"
         },
-        "content": "*Method 1: Using IntelliJ JUnit test runner*"
+        "content": "* To run a subset of tests, you can right-click on a test package, test class, or a test and choose `Run \u0027ABC\u0027`"
       },
       {
         "lineNumber": 644,
@@ -7194,42 +7194,42 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* To run all tests, right-click on the `src/test/java` folder and choose `Run \u0027All Tests\u0027`"
+        "content": "*Method 2: Using Gradle*"
       },
       {
         "lineNumber": 646,
         "author": {
           "gitId": "-"
         },
-        "content": "* To run a subset of tests, you can right-click on a test package, test class, or a test and choose `Run \u0027ABC\u0027`"
+        "content": ""
       },
       {
         "lineNumber": 647,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Open a console and run the command `gradlew clean allTests` (Mac/Linux: `./gradlew clean allTests`)"
       },
       {
         "lineNumber": 648,
         "author": {
           "gitId": "-"
         },
-        "content": "*Method 2: Using Gradle*"
+        "content": ""
       },
       {
         "lineNumber": 649,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 650,
         "author": {
           "gitId": "-"
         },
-        "content": "* Open a console and run the command `gradlew clean allTests` (Mac/Linux: `./gradlew clean allTests`)"
+        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e for more info on how to run tests using Gradle."
       },
       {
         "lineNumber": 651,
@@ -7243,168 +7243,168 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "*Method 3: Using Gradle (headless)*"
       },
       {
         "lineNumber": 653,
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e for more info on how to run tests using Gradle."
+        "content": ""
       },
       {
         "lineNumber": 654,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Thanks to the https://github.com/TestFX/TestFX[TestFX] library we use, our GUI tests can be run in the _headless_ mode. In the headless mode, GUI tests do not show up on the screen. That means the developer can do other things on the Computer while the tests are running."
       },
       {
         "lineNumber": 655,
         "author": {
           "gitId": "-"
         },
-        "content": "*Method 3: Using Gradle (headless)*"
+        "content": ""
       },
       {
         "lineNumber": 656,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "To run tests in headless mode, open a console and run the command `gradlew clean headless allTests` (Mac/Linux: `./gradlew clean headless allTests`)"
       },
       {
         "lineNumber": 657,
         "author": {
           "gitId": "-"
         },
-        "content": "Thanks to the https://github.com/TestFX/TestFX[TestFX] library we use, our GUI tests can be run in the _headless_ mode. In the headless mode, GUI tests do not show up on the screen. That means the developer can do other things on the Computer while the tests are running."
+        "content": ""
       },
       {
         "lineNumber": 658,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Types of tests"
       },
       {
         "lineNumber": 659,
         "author": {
           "gitId": "-"
         },
-        "content": "To run tests in headless mode, open a console and run the command `gradlew clean headless allTests` (Mac/Linux: `./gradlew clean headless allTests`)"
+        "content": ""
       },
       {
         "lineNumber": 660,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We have two types of tests:"
       },
       {
         "lineNumber": 661,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Types of tests"
+        "content": ""
       },
       {
         "lineNumber": 662,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  *GUI Tests* - These are tests involving the GUI. They include,"
       },
       {
         "lineNumber": 663,
         "author": {
           "gitId": "-"
         },
-        "content": "We have two types of tests:"
-      },
-      {
-        "lineNumber": 664,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 665,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ".  *GUI Tests* - These are tests involving the GUI. They include,"
-      },
-      {
-        "lineNumber": 666,
-        "author": {
-          "gitId": "-"
-        },
         "content": ".. _System Tests_ that test the entire App by simulating user actions on the GUI. These are in the `systemtests` package."
       },
       {
-        "lineNumber": 667,
+        "lineNumber": 664,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ".. _Unit tests_ that test the individual components. These are in `seedu.finance.ui` package."
       },
       {
-        "lineNumber": 668,
+        "lineNumber": 665,
         "author": {
           "gitId": "-"
         },
         "content": ".  *Non-GUI Tests* - These are tests not involving the GUI. They include,"
       },
       {
-        "lineNumber": 669,
+        "lineNumber": 666,
         "author": {
           "gitId": "-"
         },
         "content": "..  _Unit tests_ targeting the lowest level methods/classes. +"
       },
       {
-        "lineNumber": 670,
+        "lineNumber": 667,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "e.g. `seedu.finance.commons.StringUtilTest`"
       },
       {
-        "lineNumber": 671,
+        "lineNumber": 668,
         "author": {
           "gitId": "-"
         },
         "content": "..  _Integration tests_ that are checking the integration of multiple code units (those code units are assumed to be working). +"
       },
       {
-        "lineNumber": 672,
+        "lineNumber": 669,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "e.g. `seedu.finance.storage.StorageManagerTest`"
       },
       {
-        "lineNumber": 673,
+        "lineNumber": 670,
         "author": {
           "gitId": "-"
         },
         "content": "..  Hybrids of unit and integration tests. These test are checking multiple code units as well as how the are connected together. +"
       },
       {
-        "lineNumber": 674,
+        "lineNumber": 671,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "e.g. `seedu.finance.logic.LogicManagerTest`"
       },
       {
-        "lineNumber": 675,
+        "lineNumber": 672,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 673,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 674,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Troubleshooting Testing"
+      },
+      {
+        "lineNumber": 675,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "**Problem: `HelpWindowTest` fails with a `NullPointerException`.**"
       },
       {
         "lineNumber": 676,
@@ -7418,14 +7418,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Troubleshooting Testing"
+        "content": "* Reason: One of its dependencies, `HelpWindow.html` in `src/main/resources/docs` is missing."
       },
       {
         "lineNumber": 678,
         "author": {
           "gitId": "-"
         },
-        "content": "**Problem: `HelpWindowTest` fails with a `NullPointerException`.**"
+        "content": "* Solution: Execute Gradle task `processResources`."
       },
       {
         "lineNumber": 679,
@@ -7439,112 +7439,112 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* Reason: One of its dependencies, `HelpWindow.html` in `src/main/resources/docs` is missing."
+        "content": "\u003d\u003d Dev Ops"
       },
       {
         "lineNumber": 681,
         "author": {
           "gitId": "-"
         },
-        "content": "* Solution: Execute Gradle task `processResources`."
+        "content": ""
       },
       {
         "lineNumber": 682,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Build Automation"
       },
       {
         "lineNumber": 683,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Dev Ops"
+        "content": ""
       },
       {
         "lineNumber": 684,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e to learn how to use Gradle for build automation."
       },
       {
         "lineNumber": 685,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Build Automation"
+        "content": ""
       },
       {
         "lineNumber": 686,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Continuous Integration"
       },
       {
         "lineNumber": 687,
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e to learn how to use Gradle for build automation."
+        "content": ""
       },
       {
         "lineNumber": 688,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We use https://travis-ci.org/[Travis CI] and https://www.appveyor.com/[AppVeyor] to perform _Continuous Integration_ on our projects. See \u003c\u003cUsingTravis#, UsingTravis.adoc\u003e\u003e and \u003c\u003cUsingAppVeyor#, UsingAppVeyor.adoc\u003e\u003e for more details."
       },
       {
         "lineNumber": 689,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Continuous Integration"
+        "content": ""
       },
       {
         "lineNumber": 690,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Coverage Reporting"
       },
       {
         "lineNumber": 691,
         "author": {
           "gitId": "-"
         },
-        "content": "We use https://travis-ci.org/[Travis CI] and https://www.appveyor.com/[AppVeyor] to perform _Continuous Integration_ on our projects. See \u003c\u003cUsingTravis#, UsingTravis.adoc\u003e\u003e and \u003c\u003cUsingAppVeyor#, UsingAppVeyor.adoc\u003e\u003e for more details."
+        "content": ""
       },
       {
         "lineNumber": 692,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We use https://coveralls.io/[Coveralls] to track the code coverage of our projects. See \u003c\u003cUsingCoveralls#, UsingCoveralls.adoc\u003e\u003e for more details."
       },
       {
         "lineNumber": 693,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Coverage Reporting"
+        "content": ""
       },
       {
         "lineNumber": 694,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Documentation Previews"
       },
       {
         "lineNumber": 695,
         "author": {
           "gitId": "-"
         },
-        "content": "We use https://coveralls.io/[Coveralls] to track the code coverage of our projects. See \u003c\u003cUsingCoveralls#, UsingCoveralls.adoc\u003e\u003e for more details."
+        "content": "When a pull request has changes to asciidoc files, you can use https://www.netlify.com/[Netlify] to see a preview of how the HTML version of those asciidoc files will look like when the pull request is merged. See \u003c\u003cUsingNetlify#, UsingNetlify.adoc\u003e\u003e for more details."
       },
       {
         "lineNumber": 696,
@@ -7558,231 +7558,231 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Documentation Previews"
+        "content": "\u003d\u003d\u003d Making a Release"
       },
       {
         "lineNumber": 698,
         "author": {
           "gitId": "-"
         },
-        "content": "When a pull request has changes to asciidoc files, you can use https://www.netlify.com/[Netlify] to see a preview of how the HTML version of those asciidoc files will look like when the pull request is merged. See \u003c\u003cUsingNetlify#, UsingNetlify.adoc\u003e\u003e for more details."
+        "content": ""
       },
       {
         "lineNumber": 699,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Here are the steps to create a new release."
       },
       {
         "lineNumber": 700,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Making a Release"
+        "content": ""
       },
       {
         "lineNumber": 701,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Update the version number in link:{repoURL}/src/main/java/seedu/address/MainApp.java[`MainApp.java`]."
       },
       {
         "lineNumber": 702,
         "author": {
           "gitId": "-"
         },
-        "content": "Here are the steps to create a new release."
+        "content": ".  Generate a JAR file \u003c\u003cUsingGradle#creating-the-jar-file, using Gradle\u003e\u003e."
       },
       {
         "lineNumber": 703,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Tag the repo with the version number. e.g. `v0.1`"
       },
       {
         "lineNumber": 704,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Update the version number in link:{repoURL}/src/main/java/seedu/address/MainApp.java[`MainApp.java`]."
+        "content": ".  https://help.github.com/articles/creating-releases/[Create a new release using GitHub] and upload the JAR file you created."
       },
       {
         "lineNumber": 705,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Generate a JAR file \u003c\u003cUsingGradle#creating-the-jar-file, using Gradle\u003e\u003e."
+        "content": ""
       },
       {
         "lineNumber": 706,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Tag the repo with the version number. e.g. `v0.1`"
+        "content": "\u003d\u003d\u003d Managing Dependencies"
       },
       {
         "lineNumber": 707,
         "author": {
           "gitId": "-"
         },
-        "content": ".  https://help.github.com/articles/creating-releases/[Create a new release using GitHub] and upload the JAR file you created."
+        "content": ""
       },
       {
         "lineNumber": 708,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 709,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d Managing Dependencies"
-      },
-      {
-        "lineNumber": 710,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 711,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "A project often depends on third-party libraries. For example, _In-Credit-Ble_ depends on the https://github.com/FasterXML/jackson[Jackson library] for JSON parsing. Managing these _dependencies_ can be automated using Gradle. For example, Gradle can download the dependencies automatically, which is better than these alternatives:"
       },
       {
-        "lineNumber": 712,
+        "lineNumber": 709,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 713,
+        "lineNumber": 710,
         "author": {
           "gitId": "-"
         },
         "content": "[loweralpha]"
       },
       {
-        "lineNumber": 714,
+        "lineNumber": 711,
         "author": {
           "gitId": "-"
         },
         "content": ". Include those libraries in the repo (this bloats the repo size)"
       },
       {
-        "lineNumber": 715,
+        "lineNumber": 712,
         "author": {
           "gitId": "-"
         },
         "content": ". Require developers to download those libraries manually (this creates extra work for developers)"
       },
       {
-        "lineNumber": 716,
+        "lineNumber": 713,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 717,
+        "lineNumber": 714,
         "author": {
           "gitId": "-"
         },
         "content": "[[GetStartedProgramming]]"
       },
       {
-        "lineNumber": 718,
+        "lineNumber": 715,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 719,
+        "lineNumber": 716,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "// tag::appendixA[]"
       },
       {
-        "lineNumber": 720,
+        "lineNumber": 717,
         "author": {
           "gitId": "-"
         },
         "content": "[appendix]"
       },
       {
-        "lineNumber": 721,
+        "lineNumber": 718,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Product Scope"
       },
       {
-        "lineNumber": 722,
+        "lineNumber": 719,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 723,
+        "lineNumber": 720,
         "author": {
           "gitId": "-"
         },
         "content": "*Target user profile*:"
       },
       {
-        "lineNumber": 724,
+        "lineNumber": 721,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 725,
+        "lineNumber": 722,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "* has a need to manage a significant amount of expenses/finances"
       },
       {
-        "lineNumber": 726,
+        "lineNumber": 723,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* has a need to be more aware of his/her spending habits/patterns"
       },
       {
-        "lineNumber": 727,
+        "lineNumber": 724,
         "author": {
           "gitId": "-"
         },
         "content": "* can type fast"
       },
       {
-        "lineNumber": 728,
+        "lineNumber": 725,
         "author": {
           "gitId": "-"
         },
         "content": "* prefers typing over mouse input"
       },
       {
-        "lineNumber": 729,
+        "lineNumber": 726,
         "author": {
           "gitId": "-"
         },
         "content": "* is reasonably comfortable using CLI apps"
+      },
+      {
+        "lineNumber": 727,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 728,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": "*Value proposition*: Manage expenses faster than a typical mouse/GUI driven app"
+      },
+      {
+        "lineNumber": 729,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": "// end::appendixA[]"
       },
       {
         "lineNumber": 730,
@@ -7796,329 +7796,329 @@
         "author": {
           "gitId": "geezlouisee"
         },
-        "content": "*Value proposition*: Manage expenses faster than a typical mouse/GUI driven app"
+        "content": "// tag::appendixB[]"
       },
       {
         "lineNumber": 732,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "-"
         },
-        "content": "// end::appendixA[]"
+        "content": "[appendix]"
       },
       {
         "lineNumber": 733,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d User Stories"
       },
       {
         "lineNumber": 734,
         "author": {
-          "gitId": "geezlouisee"
+          "gitId": "-"
         },
-        "content": "// tag::appendixB[]"
+        "content": ""
       },
       {
         "lineNumber": 735,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": "Priorities: High (must have) - `* * \\*`, Medium (nice to have) - `* \\*`, Low (unlikely to have) - `*`"
       },
       {
         "lineNumber": 736,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d User Stories"
+        "content": ""
       },
       {
         "lineNumber": 737,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[width\u003d\"59%\",cols\u003d\"22%,\u003c23%,\u003c25%,\u003c30%\",options\u003d\"header\",]"
       },
       {
         "lineNumber": 738,
         "author": {
           "gitId": "-"
         },
-        "content": "Priorities: High (must have) - `* * \\*`, Medium (nice to have) - `* \\*`, Low (unlikely to have) - `*`"
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 739,
         "author": {
           "gitId": "-"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 740,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "[width\u003d\"59%\",cols\u003d\"22%,\u003c23%,\u003c25%,\u003c30%\",options\u003d\"header\",]"
-      },
-      {
-        "lineNumber": 741,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
-      },
-      {
-        "lineNumber": 742,
-        "author": {
-          "gitId": "-"
-        },
         "content": "|Priority |As a ... |I want to ... |So that I can..."
       },
       {
-        "lineNumber": 743,
+        "lineNumber": 740,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "|`* * *` |new user |see usage instructions |refer to it when I forget how to use the application"
       },
       {
-        "lineNumber": 744,
+        "lineNumber": 741,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 745,
+        "lineNumber": 742,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* * *` |user |have a record of my recent expenses (day, week, month, category) |be more aware of where I am spending my money"
       },
       {
-        "lineNumber": 746,
+        "lineNumber": 743,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 747,
+        "lineNumber": 744,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* * *` |user |add a new entry |"
       },
       {
-        "lineNumber": 748,
+        "lineNumber": 745,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 749,
+        "lineNumber": 746,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "|`* * *` |user |delete an entry |remove an entry that is no longer needed anymore"
       },
       {
-        "lineNumber": 750,
+        "lineNumber": 747,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 751,
+        "lineNumber": 748,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* * *` |user |categorise my expenses |be aware of what I am spending most of my money on"
       },
       {
-        "lineNumber": 752,
+        "lineNumber": 749,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 753,
+        "lineNumber": 750,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* * *` |user |be able to set a budget (a total for the month and for which category) |be more thrifty in terms of my expenditure"
       },
       {
-        "lineNumber": 754,
+        "lineNumber": 751,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 755,
+        "lineNumber": 752,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* *` |user |summarise my daily spending in a pictorial form |easily see how on track I am in adhering to my budget"
       },
       {
-        "lineNumber": 756,
+        "lineNumber": 753,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 757,
+        "lineNumber": 754,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* *` |user |locate a specific entry easily |recall how much I spent"
       },
       {
-        "lineNumber": 758,
+        "lineNumber": 755,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 759,
+        "lineNumber": 756,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* *` |user | save my data |refer to it when I use the app next time"
       },
       {
-        "lineNumber": 760,
+        "lineNumber": 757,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 761,
+        "lineNumber": 758,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* *` |user | sort my expenses in terms of amount | be aware of what costs the most"
       },
       {
-        "lineNumber": 762,
+        "lineNumber": 759,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 763,
+        "lineNumber": 760,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`* *` |user |set daily budgets |limit the amount I spend each day"
       },
       {
-        "lineNumber": 764,
+        "lineNumber": 761,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 765,
+        "lineNumber": 762,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`*` |user |analyse my spending habits/patterns |derive a savings plan and better plan my expenses"
       },
       {
-        "lineNumber": 766,
+        "lineNumber": 763,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 767,
+        "lineNumber": 764,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`*` |spendthrift user |receive tips to be a better saver |be more aware of different ways to keep within my budget"
       },
       {
-        "lineNumber": 768,
+        "lineNumber": 765,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 769,
+        "lineNumber": 766,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "|`*` |IT savvy user |categorise my expenses based on the different methods of payment |automatically track my cashless expenditures as well as credit card transactions"
       },
       {
-        "lineNumber": 770,
+        "lineNumber": 767,
         "author": {
           "gitId": "-"
         },
         "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 771,
+        "lineNumber": 768,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "// end::appendixB[]"
       },
       {
-        "lineNumber": 772,
+        "lineNumber": 769,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 773,
+        "lineNumber": 770,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "// tag::appendixC[]"
       },
       {
-        "lineNumber": 774,
+        "lineNumber": 771,
         "author": {
           "gitId": "-"
         },
         "content": "[appendix]"
       },
       {
-        "lineNumber": 775,
+        "lineNumber": 772,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Use Cases"
       },
       {
-        "lineNumber": 776,
+        "lineNumber": 773,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 777,
+        "lineNumber": 774,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "(For all use cases below, the *System* is `In-Credit-Ble` and the *User* is the `user`, unless specified otherwise)"
+      },
+      {
+        "lineNumber": 775,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 776,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 777,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "\u003d\u003d\u003d Use case: Setting a budget for the month"
       },
       {
         "lineNumber": 778,
@@ -8132,112 +8132,112 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 780,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Setting a budget for the month"
+        "content": ""
       },
       {
         "lineNumber": 781,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 782,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 783,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 784,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to set a budget for the current month"
       },
       {
-        "lineNumber": 785,
+        "lineNumber": 782,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ displays current budget amount for the month"
       },
       {
-        "lineNumber": 786,
+        "lineNumber": 783,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 787,
+        "lineNumber": 784,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 788,
+        "lineNumber": 785,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 789,
+        "lineNumber": 786,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 790,
+        "lineNumber": 787,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 791,
+        "lineNumber": 788,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "[none]"
       },
       {
-        "lineNumber": 792,
+        "lineNumber": 789,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* 2a. With addition of expense entries, _System_ updates the remaining amount in the current month\u0027s budget"
       },
       {
-        "lineNumber": 793,
+        "lineNumber": 790,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 794,
+        "lineNumber": 791,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends."
+      },
+      {
+        "lineNumber": 792,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 793,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 794,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "\u003d\u003d\u003d Use case: Allocate budget to a category"
       },
       {
         "lineNumber": 795,
@@ -8251,77 +8251,77 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 797,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Allocate budget to a category"
+        "content": ""
       },
       {
         "lineNumber": 798,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 799,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 800,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 801,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to list summary of budget based on category"
       },
       {
-        "lineNumber": 802,
+        "lineNumber": 799,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ shows a summary of budget based on category"
       },
       {
-        "lineNumber": 803,
+        "lineNumber": 800,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "3.  _User_ requests to allocate a certain amount to a category"
       },
       {
-        "lineNumber": 804,
+        "lineNumber": 801,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "4.  _System_ allocates the user input amount to the given category"
       },
       {
-        "lineNumber": 805,
+        "lineNumber": 802,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "+"
       },
       {
-        "lineNumber": 806,
+        "lineNumber": 803,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "Use case ends."
+      },
+      {
+        "lineNumber": 804,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 805,
+        "author": {
+          "gitId": "geezlouisee"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 806,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "\u003d\u003d\u003d Use case: Increasing budget for the month"
       },
       {
         "lineNumber": 807,
@@ -8335,77 +8335,77 @@
         "author": {
           "gitId": "geezlouisee"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 809,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Increasing budget for the month"
+        "content": ""
       },
       {
         "lineNumber": 810,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 811,
-        "author": {
-          "gitId": "geezlouisee"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 812,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 813,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to list entries"
       },
       {
-        "lineNumber": 814,
+        "lineNumber": 811,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ shows a list of expense entries"
       },
       {
-        "lineNumber": 815,
+        "lineNumber": 812,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "3.  _User_ requests to increase budget for the month (can be associated with a category)"
       },
       {
-        "lineNumber": 816,
+        "lineNumber": 813,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "4.  _System_ will increase the budget for the month (that is associated with category input)"
       },
       {
-        "lineNumber": 817,
+        "lineNumber": 814,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 818,
+        "lineNumber": 815,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends."
+      },
+      {
+        "lineNumber": 816,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 817,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 818,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "\u003d\u003d\u003d Use case: Add expense entry"
       },
       {
         "lineNumber": 819,
@@ -8419,98 +8419,98 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 821,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Add expense entry"
+        "content": ""
       },
       {
         "lineNumber": 822,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 823,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 824,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 825,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to list entries"
       },
       {
-        "lineNumber": 826,
+        "lineNumber": 823,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ shows a list of expense entries"
       },
       {
-        "lineNumber": 827,
+        "lineNumber": 824,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "3.  _User_ requests to add a specific expense entry in the list"
       },
       {
-        "lineNumber": 828,
+        "lineNumber": 825,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "4.  _System_ adds the expense entry"
       },
       {
-        "lineNumber": 829,
+        "lineNumber": 826,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 830,
+        "lineNumber": 827,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 831,
+        "lineNumber": 828,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 832,
+        "lineNumber": 829,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 833,
+        "lineNumber": 830,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 831,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "[none]"
+      },
+      {
+        "lineNumber": 832,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "* 3a. Some fields are missing."
+      },
+      {
+        "lineNumber": 833,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "+"
       },
       {
         "lineNumber": 834,
@@ -8524,7 +8524,7 @@
         "author": {
           "gitId": "kjiaxuan"
         },
-        "content": "* 3a. Some fields are missing."
+        "content": "** 3a1. _System_ shows an error message."
       },
       {
         "lineNumber": 836,
@@ -8538,28 +8538,28 @@
         "author": {
           "gitId": "kjiaxuan"
         },
-        "content": "[none]"
+        "content": "Use case resumes at step 2."
       },
       {
         "lineNumber": 838,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "** 3a1. _System_ shows an error message."
+        "content": ""
       },
       {
         "lineNumber": 839,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "Jackimaru96"
         },
-        "content": "+"
+        "content": "[discrete]"
       },
       {
         "lineNumber": 840,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "Jackimaru96"
         },
-        "content": "Use case resumes at step 2."
+        "content": "\u003d\u003d\u003d Use case: Editing an expense entry"
       },
       {
         "lineNumber": 841,
@@ -8573,133 +8573,133 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 843,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Editing an expense entry"
+        "content": ""
       },
       {
         "lineNumber": 844,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 845,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 846,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 847,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to list expense entries"
       },
       {
-        "lineNumber": 848,
+        "lineNumber": 845,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ shows a list of expense entries"
       },
       {
-        "lineNumber": 849,
+        "lineNumber": 846,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "3.  _User_ requests to edit a specific expense entry in the list"
       },
       {
-        "lineNumber": 850,
+        "lineNumber": 847,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "4.  _System_ updates the expense entry as well as the budget summary accordingly"
       },
       {
-        "lineNumber": 851,
+        "lineNumber": 848,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 852,
+        "lineNumber": 849,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 853,
+        "lineNumber": 850,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 854,
+        "lineNumber": 851,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 855,
+        "lineNumber": 852,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 856,
+        "lineNumber": 853,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "[none]"
       },
       {
-        "lineNumber": 857,
+        "lineNumber": 854,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "* 2a. The list is empty."
       },
       {
-        "lineNumber": 858,
+        "lineNumber": 855,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 859,
+        "lineNumber": 856,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends"
       },
       {
-        "lineNumber": 860,
+        "lineNumber": 857,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 858,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "[none]"
+      },
+      {
+        "lineNumber": 859,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "* 3a. The given index is invalid."
+      },
+      {
+        "lineNumber": 860,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "+"
       },
       {
         "lineNumber": 861,
@@ -8711,9 +8711,9 @@
       {
         "lineNumber": 862,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "kjiaxuan"
         },
-        "content": "* 3a. The given index is invalid."
+        "content": "** 3a1. _System_ shows an error message."
       },
       {
         "lineNumber": 863,
@@ -8727,28 +8727,28 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[none]"
+        "content": "Use case resumes at step 2."
       },
       {
         "lineNumber": 865,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "** 3a1. _System_ shows an error message."
+        "content": ""
       },
       {
         "lineNumber": 866,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "+"
+        "content": "[discrete]"
       },
       {
         "lineNumber": 867,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "Use case resumes at step 2."
+        "content": "\u003d\u003d\u003d Use case: Delete expense entry"
       },
       {
         "lineNumber": 868,
@@ -8762,140 +8762,140 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 870,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Delete expense entry"
+        "content": ""
       },
       {
         "lineNumber": 871,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 872,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 873,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 874,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to list expense entries"
       },
       {
-        "lineNumber": 875,
+        "lineNumber": 872,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ shows a list of expense entries"
       },
       {
-        "lineNumber": 876,
+        "lineNumber": 873,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "3.  _User_ requests to delete a specific expense entry in the list"
       },
       {
-        "lineNumber": 877,
+        "lineNumber": 874,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "4.  _System_ deletes the entry"
       },
       {
-        "lineNumber": 878,
+        "lineNumber": 875,
         "author": {
           "gitId": "-"
         },
         "content": "+"
       },
       {
-        "lineNumber": 879,
+        "lineNumber": 876,
         "author": {
           "gitId": "-"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 880,
+        "lineNumber": 877,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 881,
+        "lineNumber": 878,
         "author": {
           "gitId": "-"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 882,
+        "lineNumber": 879,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 883,
+        "lineNumber": 880,
         "author": {
           "gitId": "-"
         },
         "content": "[none]"
       },
       {
-        "lineNumber": 884,
+        "lineNumber": 881,
         "author": {
           "gitId": "-"
         },
         "content": "* 2a. The list is empty."
       },
       {
-        "lineNumber": 885,
+        "lineNumber": 882,
         "author": {
           "gitId": "-"
         },
         "content": "+"
       },
       {
-        "lineNumber": 886,
+        "lineNumber": 883,
         "author": {
           "gitId": "-"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 887,
+        "lineNumber": 884,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 888,
+        "lineNumber": 885,
         "author": {
           "gitId": "-"
         },
         "content": "* 3a. The given index is invalid."
+      },
+      {
+        "lineNumber": 886,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 887,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[none]"
+      },
+      {
+        "lineNumber": 888,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "** 3a1. _System_ shows an error message."
       },
       {
         "lineNumber": 889,
@@ -8909,28 +8909,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[none]"
+        "content": "Use case resumes at step 2."
       },
       {
         "lineNumber": 891,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "** 3a1. _System_ shows an error message."
+        "content": ""
       },
       {
         "lineNumber": 892,
         "author": {
-          "gitId": "-"
+          "gitId": "geezlouisee"
         },
-        "content": "+"
+        "content": "[discrete]"
       },
       {
         "lineNumber": 893,
         "author": {
-          "gitId": "-"
+          "gitId": "Jackimaru96"
         },
-        "content": "Use case resumes at step 2."
+        "content": "\u003d\u003d\u003d Use case: Listing history of entered commands"
       },
       {
         "lineNumber": 894,
@@ -8944,112 +8944,112 @@
         "author": {
           "gitId": "geezlouisee"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 896,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: Listing history of entered commands"
+        "content": ""
       },
       {
         "lineNumber": 897,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 898,
-        "author": {
-          "gitId": "geezlouisee"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 899,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 900,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to list history of entered commands"
       },
       {
-        "lineNumber": 901,
+        "lineNumber": 898,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ shows history of commands in reverse chronological order (latest command first)"
       },
       {
-        "lineNumber": 902,
+        "lineNumber": 899,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "+"
       },
       {
-        "lineNumber": 903,
+        "lineNumber": 900,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 904,
+        "lineNumber": 901,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 905,
+        "lineNumber": 902,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 906,
+        "lineNumber": 903,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 907,
+        "lineNumber": 904,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "[none]"
       },
       {
-        "lineNumber": 908,
+        "lineNumber": 905,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "* 1a. There was no entered commands"
       },
       {
-        "lineNumber": 909,
+        "lineNumber": 906,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "+"
       },
       {
-        "lineNumber": 910,
+        "lineNumber": 907,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "Use case ends."
+      },
+      {
+        "lineNumber": 908,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 909,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 910,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "\u003d\u003d\u003d Use case: User wants to undo previous command"
       },
       {
         "lineNumber": 911,
@@ -9063,112 +9063,112 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 913,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: User wants to undo previous command"
+        "content": ""
       },
       {
         "lineNumber": 914,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 915,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 916,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 917,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to undo previous command"
       },
       {
-        "lineNumber": 918,
+        "lineNumber": 915,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ undo previous command and updates budget accordingly"
       },
       {
-        "lineNumber": 919,
+        "lineNumber": 916,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 920,
+        "lineNumber": 917,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 921,
+        "lineNumber": 918,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 922,
+        "lineNumber": 919,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 923,
+        "lineNumber": 920,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 924,
+        "lineNumber": 921,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "[none]"
       },
       {
-        "lineNumber": 925,
+        "lineNumber": 922,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "* 1a. There was no previous command"
       },
       {
-        "lineNumber": 926,
+        "lineNumber": 923,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 927,
+        "lineNumber": 924,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "Use case ends with message to let _User_ know there is no previous command"
+      },
+      {
+        "lineNumber": 925,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 926,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 927,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "\u003d\u003d\u003d Use case: User wants to redo previous undone command"
       },
       {
         "lineNumber": 928,
@@ -9182,119 +9182,119 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 930,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: User wants to redo previous undone command"
+        "content": ""
       },
       {
         "lineNumber": 931,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 932,
-        "author": {
-          "gitId": "Jackimaru96"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 933,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 934,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1.  _User_ requests to redo previous undone command"
       },
       {
-        "lineNumber": 935,
+        "lineNumber": 932,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2.  _System_ redo previous undone command and updates budget accordingly"
       },
       {
-        "lineNumber": 936,
+        "lineNumber": 933,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 937,
+        "lineNumber": 934,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 938,
+        "lineNumber": 935,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 939,
+        "lineNumber": 936,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 940,
+        "lineNumber": 937,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 941,
+        "lineNumber": 938,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "[none]"
       },
       {
-        "lineNumber": 942,
+        "lineNumber": 939,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "* 1a. There was no previous undone command"
       },
       {
-        "lineNumber": 943,
+        "lineNumber": 940,
         "author": {
           "gitId": "Jackimaru96"
         },
         "content": "+"
       },
       {
-        "lineNumber": 944,
+        "lineNumber": 941,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "Use case ends with message to let _User_ know there is no previous undone command"
       },
       {
-        "lineNumber": 945,
+        "lineNumber": 942,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 943,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 944,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 945,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "\u003d\u003d\u003d Use case: User wants to clear all entries"
       },
       {
         "lineNumber": 946,
@@ -9308,126 +9308,126 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[discrete]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 948,
         "author": {
-          "gitId": "Jackimaru96"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Use case: User wants to clear all entries"
+        "content": ""
       },
       {
         "lineNumber": 949,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 950,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "*MSS*"
-      },
-      {
-        "lineNumber": 951,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 952,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "1. _User_ requests to clear all entries"
       },
       {
-        "lineNumber": 953,
+        "lineNumber": 950,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "2. _System_ clears all entries and updates the budget accordingly"
       },
       {
-        "lineNumber": 954,
+        "lineNumber": 951,
         "author": {
           "gitId": "-"
         },
         "content": "+"
       },
       {
-        "lineNumber": 955,
+        "lineNumber": 952,
         "author": {
           "gitId": "-"
         },
         "content": "Use case ends."
       },
       {
-        "lineNumber": 956,
+        "lineNumber": 953,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 957,
+        "lineNumber": 954,
         "author": {
           "gitId": "-"
         },
         "content": "*Extensions*"
       },
       {
-        "lineNumber": 958,
+        "lineNumber": 955,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 959,
+        "lineNumber": 956,
         "author": {
           "gitId": "-"
         },
         "content": "[none]"
       },
       {
-        "lineNumber": 960,
+        "lineNumber": 957,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* 1a. There are no entries in the _System_"
       },
       {
-        "lineNumber": 961,
+        "lineNumber": 958,
         "author": {
           "gitId": "-"
         },
         "content": "+"
       },
       {
-        "lineNumber": 962,
+        "lineNumber": 959,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "Use case ends with message to let _User_ know there are no entries in _System_"
       },
       {
-        "lineNumber": 963,
+        "lineNumber": 960,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 964,
+        "lineNumber": 961,
         "author": {
           "gitId": "geezlouisee"
         },
         "content": "// end::appendixC[]"
+      },
+      {
+        "lineNumber": 962,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 963,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[appendix]"
+      },
+      {
+        "lineNumber": 964,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Non Functional Requirements"
       },
       {
         "lineNumber": 965,
@@ -9441,63 +9441,63 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
-      },
-      {
-        "lineNumber": 967,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d Non Functional Requirements"
-      },
-      {
-        "lineNumber": 968,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 969,
-        "author": {
-          "gitId": "-"
-        },
         "content": ".  Should work on any \u003c\u003cmainstream-os,mainstream OS\u003e\u003e as long as it has Java `9` or higher installed."
       },
       {
-        "lineNumber": 970,
+        "lineNumber": 967,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ".  Should work on both 32-bit and 64-bit environments."
       },
       {
-        "lineNumber": 971,
+        "lineNumber": 968,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ".  Should be able to hold up to 1000 expenditure records without a noticeable sluggishness in performance for typical usage."
       },
       {
-        "lineNumber": 972,
+        "lineNumber": 969,
         "author": {
           "gitId": "-"
         },
         "content": ".  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse."
       },
       {
-        "lineNumber": 973,
+        "lineNumber": 970,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ".  The user interface should be intuitive and easy to use for people who are not IT-savvy."
       },
       {
-        "lineNumber": 974,
+        "lineNumber": 971,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ".  Responses by the system should be fast (~5 seconds)."
+      },
+      {
+        "lineNumber": 972,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 973,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[appendix]"
+      },
+      {
+        "lineNumber": 974,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Glossary"
       },
       {
         "lineNumber": 975,
@@ -9509,21 +9509,21 @@
       {
         "lineNumber": 976,
         "author": {
-          "gitId": "-"
+          "gitId": "kjiaxuan"
         },
-        "content": "[appendix]"
+        "content": "Amount::"
       },
       {
         "lineNumber": 977,
         "author": {
-          "gitId": "-"
+          "gitId": "kjiaxuan"
         },
-        "content": "\u003d\u003d Glossary"
+        "content": "The amount of money for expenditure and budget"
       },
       {
         "lineNumber": 978,
         "author": {
-          "gitId": "-"
+          "gitId": "kjiaxuan"
         },
         "content": ""
       },
@@ -9532,63 +9532,63 @@
         "author": {
           "gitId": "kjiaxuan"
         },
-        "content": "Amount::"
+        "content": "Entry::"
       },
       {
         "lineNumber": 980,
         "author": {
           "gitId": "kjiaxuan"
         },
-        "content": "The amount of money for expenditure and budget"
+        "content": "A listed item/activity tracked by the application.  It generally consists of the name, amount and date along with a"
       },
       {
         "lineNumber": 981,
         "author": {
           "gitId": "kjiaxuan"
         },
-        "content": ""
+        "content": "category tag (if specified)"
       },
       {
         "lineNumber": 982,
         "author": {
           "gitId": "kjiaxuan"
         },
-        "content": "Entry::"
-      },
-      {
-        "lineNumber": 983,
-        "author": {
-          "gitId": "kjiaxuan"
-        },
-        "content": "A listed item/activity tracked by the application.  It generally consists of the name, amount and date along with a"
-      },
-      {
-        "lineNumber": 984,
-        "author": {
-          "gitId": "kjiaxuan"
-        },
-        "content": "category tag (if specified)"
-      },
-      {
-        "lineNumber": 985,
-        "author": {
-          "gitId": "kjiaxuan"
-        },
         "content": ""
       },
       {
-        "lineNumber": 986,
+        "lineNumber": 983,
         "author": {
           "gitId": "-"
         },
         "content": "[[mainstream-os]] Mainstream OS::"
       },
       {
-        "lineNumber": 987,
+        "lineNumber": 984,
         "author": {
           "gitId": "-"
         },
         "content": "Windows, Linux, Unix, OS-X"
+      },
+      {
+        "lineNumber": 985,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 986,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "Records::"
+      },
+      {
+        "lineNumber": 987,
+        "author": {
+          "gitId": "kjiaxuan"
+        },
+        "content": "The list of all entries stored in the application"
       },
       {
         "lineNumber": 988,
@@ -9600,16 +9600,16 @@
       {
         "lineNumber": 989,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "Records::"
+        "content": "[appendix]"
       },
       {
         "lineNumber": 990,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "The list of all entries stored in the application"
+        "content": "\u003d\u003d Product Survey"
       },
       {
         "lineNumber": 991,
@@ -9621,401 +9621,401 @@
       {
         "lineNumber": 992,
         "author": {
-          "gitId": "-"
+          "gitId": "kjiaxuan"
         },
-        "content": "[appendix]"
+        "content": "*Monefy - Money Manager*"
       },
       {
         "lineNumber": 993,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Product Survey"
+        "content": ""
       },
       {
         "lineNumber": 994,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 995,
-        "author": {
-          "gitId": "kjiaxuan"
-        },
-        "content": "*Monefy - Money Manager*"
-      },
-      {
-        "lineNumber": 996,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 997,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "Author: Aimbity AS"
       },
       {
-        "lineNumber": 998,
+        "lineNumber": 995,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 999,
+        "lineNumber": 996,
         "author": {
           "gitId": "-"
         },
         "content": "Pros:"
       },
       {
-        "lineNumber": 1000,
+        "lineNumber": 997,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1001,
+        "lineNumber": 998,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Interface is easy to use"
       },
       {
-        "lineNumber": 1002,
+        "lineNumber": 999,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Able to track expenses and income over various periods of time"
       },
       {
-        "lineNumber": 1003,
+        "lineNumber": 1000,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Free"
       },
       {
-        "lineNumber": 1004,
+        "lineNumber": 1001,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1005,
+        "lineNumber": 1002,
         "author": {
           "gitId": "-"
         },
         "content": "Cons:"
       },
       {
-        "lineNumber": 1006,
+        "lineNumber": 1003,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1007,
+        "lineNumber": 1004,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Unable to synchronise and restore or backup data between devices"
       },
       {
-        "lineNumber": 1008,
+        "lineNumber": 1005,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Do not have an auto-income function"
       },
       {
-        "lineNumber": 1009,
+        "lineNumber": 1006,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Do not have an option for reminder"
       },
       {
-        "lineNumber": 1010,
+        "lineNumber": 1007,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Do not have a feature for recurrent spending"
       },
       {
-        "lineNumber": 1011,
+        "lineNumber": 1008,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ""
       },
       {
-        "lineNumber": 1012,
+        "lineNumber": 1009,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "*Money Lover: Expense Tracker \u0026 Budget Planner*"
       },
       {
-        "lineNumber": 1013,
+        "lineNumber": 1010,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ""
       },
       {
-        "lineNumber": 1014,
+        "lineNumber": 1011,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "Author: Finsify"
       },
       {
-        "lineNumber": 1015,
+        "lineNumber": 1012,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1016,
+        "lineNumber": 1013,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
         "content": "Pros:"
       },
       {
-        "lineNumber": 1017,
+        "lineNumber": 1014,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1018,
+        "lineNumber": 1015,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Allows setting of recurring payments"
       },
       {
-        "lineNumber": 1019,
+        "lineNumber": 1016,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Able to see what expenses add up to in the forthcoming months"
       },
       {
-        "lineNumber": 1020,
+        "lineNumber": 1017,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Able to sync across phone and computer"
       },
       {
-        "lineNumber": 1021,
+        "lineNumber": 1018,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Able to download to own excel worksheet"
       },
       {
-        "lineNumber": 1022,
+        "lineNumber": 1019,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1023,
+        "lineNumber": 1020,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
         "content": "Cons:"
       },
       {
-        "lineNumber": 1024,
+        "lineNumber": 1021,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1025,
+        "lineNumber": 1022,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Need to make a budget for every wallet"
       },
       {
-        "lineNumber": 1026,
+        "lineNumber": 1023,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Unable to choose multiple categories for a budget"
       },
       {
-        "lineNumber": 1027,
+        "lineNumber": 1024,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Unable to edit a transaction"
       },
       {
-        "lineNumber": 1028,
+        "lineNumber": 1025,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Budgets are based per account"
       },
       {
-        "lineNumber": 1029,
+        "lineNumber": 1026,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ""
       },
       {
-        "lineNumber": 1030,
+        "lineNumber": 1027,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "*Seedly - Personal Finance App*"
       },
       {
-        "lineNumber": 1031,
+        "lineNumber": 1028,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1032,
+        "lineNumber": 1029,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "Author: Seedly Pte Ltd"
       },
       {
-        "lineNumber": 1033,
+        "lineNumber": 1030,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1034,
+        "lineNumber": 1031,
         "author": {
           "gitId": "-"
         },
         "content": "Pros:"
       },
       {
-        "lineNumber": 1035,
+        "lineNumber": 1032,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1036,
+        "lineNumber": 1033,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Visually appealing"
       },
       {
-        "lineNumber": 1037,
+        "lineNumber": 1034,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Able to import transactions from ibanking accounts and allow manual inputs for cash transactions"
       },
       {
-        "lineNumber": 1038,
+        "lineNumber": 1035,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Pie charts give a visual illustration on expenditure"
       },
       {
-        "lineNumber": 1039,
+        "lineNumber": 1036,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Search function present"
       },
       {
-        "lineNumber": 1040,
+        "lineNumber": 1037,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1041,
+        "lineNumber": 1038,
         "author": {
           "gitId": "-"
         },
         "content": "Cons:"
       },
       {
-        "lineNumber": 1042,
+        "lineNumber": 1039,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1043,
+        "lineNumber": 1040,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Sync feature takes a long time"
       },
       {
-        "lineNumber": 1044,
+        "lineNumber": 1041,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Crash every now and then"
       },
       {
-        "lineNumber": 1045,
+        "lineNumber": 1042,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Categories are hard to identify in pie charts"
       },
       {
-        "lineNumber": 1046,
+        "lineNumber": 1043,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Not smart enough to recognise similar entries"
       },
       {
-        "lineNumber": 1047,
+        "lineNumber": 1044,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Summary presented is confusing"
       },
       {
-        "lineNumber": 1048,
+        "lineNumber": 1045,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "* Unable to add in sub-categories to further pinpoint area of spending"
+      },
+      {
+        "lineNumber": 1046,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 1047,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[appendix]"
+      },
+      {
+        "lineNumber": 1048,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Instructions for Manual Testing"
       },
       {
         "lineNumber": 1049,
@@ -10027,30 +10027,30 @@
       {
         "lineNumber": 1050,
         "author": {
-          "gitId": "-"
+          "gitId": "kjiaxuan"
         },
-        "content": "[appendix]"
+        "content": "Given below are instructions to test the application manually."
       },
       {
         "lineNumber": 1051,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Instructions for Manual Testing"
+        "content": ""
       },
       {
         "lineNumber": 1052,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 1053,
         "author": {
-          "gitId": "kjiaxuan"
+          "gitId": "-"
         },
-        "content": "Given below are instructions to test the application manually."
+        "content": "These instructions only provide a starting point for testers to work on; testers are expected to do more _exploratory_ testing."
       },
       {
         "lineNumber": 1054,
@@ -10064,112 +10064,112 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "\u003d\u003d\u003d Launch and Shutdown"
       },
       {
         "lineNumber": 1056,
         "author": {
           "gitId": "-"
         },
-        "content": "These instructions only provide a starting point for testers to work on; testers are expected to do more _exploratory_ testing."
+        "content": ""
       },
       {
         "lineNumber": 1057,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Initial launch"
       },
       {
         "lineNumber": 1058,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Launch and Shutdown"
+        "content": ""
       },
       {
         "lineNumber": 1059,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".. Download the jar file and copy into an empty folder"
       },
       {
         "lineNumber": 1060,
         "author": {
           "gitId": "-"
         },
-        "content": ". Initial launch"
+        "content": ".. Double-click the jar file +"
       },
       {
         "lineNumber": 1061,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum."
       },
       {
         "lineNumber": 1062,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Download the jar file and copy into an empty folder"
+        "content": ""
       },
       {
         "lineNumber": 1063,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Double-click the jar file +"
+        "content": ". Saving window preferences"
       },
       {
         "lineNumber": 1064,
         "author": {
           "gitId": "-"
         },
-        "content": "   Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum."
+        "content": ""
       },
       {
         "lineNumber": 1065,
         "author": {
           "gitId": "-"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 1066,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ". Saving window preferences"
-      },
-      {
-        "lineNumber": 1067,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1068,
-        "author": {
-          "gitId": "-"
-        },
         "content": ".. Resize the window to an optimum size. Move the window to a different location. Close the window."
       },
       {
-        "lineNumber": 1069,
+        "lineNumber": 1066,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ".. Re-launch the application by double-clicking the jar file. +"
       },
       {
-        "lineNumber": 1070,
+        "lineNumber": 1067,
         "author": {
           "gitId": "-"
         },
         "content": "   Expected: The most recent window size and location is retained."
+      },
+      {
+        "lineNumber": 1068,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 1069,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 1070,
+        "author": {
+          "gitId": "eugeneyl"
+        },
+        "content": "\u003d\u003d\u003d Deleting a record"
       },
       {
         "lineNumber": 1071,
@@ -10181,86 +10181,86 @@
       {
         "lineNumber": 1072,
         "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1073,
-        "author": {
-          "gitId": "eugeneyl"
-        },
-        "content": "\u003d\u003d\u003d Deleting a record"
-      },
-      {
-        "lineNumber": 1074,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1075,
-        "author": {
           "gitId": "eugeneyl"
         },
         "content": ". Deleting a record while all records are listed"
       },
       {
-        "lineNumber": 1076,
+        "lineNumber": 1073,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1077,
+        "lineNumber": 1074,
         "author": {
           "gitId": "eugeneyl"
         },
         "content": ".. Prerequisites: List all records using the `list` command. Multiple records in the list."
       },
       {
-        "lineNumber": 1078,
+        "lineNumber": 1075,
         "author": {
           "gitId": "-"
         },
         "content": ".. Test case: `delete 1` +"
       },
       {
-        "lineNumber": 1079,
+        "lineNumber": 1076,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": "   Expected: First record is deleted from the list. Details of the deleted record shown in the status message. Timestamp in the status bar is updated."
       },
       {
-        "lineNumber": 1080,
+        "lineNumber": 1077,
         "author": {
           "gitId": "-"
         },
         "content": ".. Test case: `delete 0` +"
       },
       {
-        "lineNumber": 1081,
+        "lineNumber": 1078,
         "author": {
           "gitId": "eugeneyl"
         },
         "content": "   Expected: No record is deleted. Error details shown in the status message. Status bar remains the same."
       },
       {
-        "lineNumber": 1082,
+        "lineNumber": 1079,
         "author": {
           "gitId": "kjiaxuan"
         },
         "content": ".. Other incorrect delete commands to try: `delete`, `delete x` (where x is larger than the list size), `delete three` +"
       },
       {
-        "lineNumber": 1083,
+        "lineNumber": 1080,
         "author": {
           "gitId": "-"
         },
         "content": "   Expected: Similar to previous."
+      },
+      {
+        "lineNumber": 1081,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 1082,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 1083,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Saving data"
       },
       {
         "lineNumber": 1084,
@@ -10274,52 +10274,31 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Dealing with missing/corrupted data files"
       },
       {
         "lineNumber": 1086,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Saving data"
+        "content": ""
       },
       {
         "lineNumber": 1087,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".. _{explain how to simulate a missing/corrupted file and the expected behavior}_"
       },
       {
         "lineNumber": 1088,
         "author": {
           "gitId": "-"
         },
-        "content": ". Dealing with missing/corrupted data files"
+        "content": ""
       },
       {
         "lineNumber": 1089,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1090,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ".. _{explain how to simulate a missing/corrupted file and the expected behavior}_"
-      },
-      {
-        "lineNumber": 1091,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1092,
         "author": {
           "gitId": "kjiaxuan"
         },
@@ -10327,12 +10306,12 @@
       }
     ],
     "authorContributionMap": {
-      "geezlouisee": 62,
-      "JeremyLoye": 36,
-      "Jackimaru96": 94,
-      "-": 634,
+      "geezlouisee": 59,
+      "JeremyLoye": 29,
+      "Jackimaru96": 105,
+      "-": 636,
       "eugeneyl": 47,
-      "kjiaxuan": 219
+      "kjiaxuan": 213
     }
   },
   {
@@ -15615,168 +15594,168 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "\u003d Jack Chen Yu Jie - Project Portfolio"
+        "content": ":profile-caption: :computer:"
       },
       {
         "lineNumber": 2,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ":site-section: AboutUs"
+        "content": "\u003d Jack Chen Yu Jie - Project Portfolio"
       },
       {
         "lineNumber": 3,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ":imagesDir: ../images"
+        "content": ":site-section: AboutUs"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ":stylesDir: ../stylesheets"
+        "content": ":imagesDir: ../images"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": ":stylesDir: ../stylesheets"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "[#img-ProfilePhoto]"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "image:: ../images/jackimaru96.png"
+        "content": "[PROFILE]"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d PROJECT: In-Credit-Ble (Finance Tracker)"
+        "content": "--"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "image::jackimaru96_pp.png[120,120,float\u003d\"left\",link\u003dhttps://github.com/Jackimaru96]"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "---"
+        "content": "--"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "This page aims to showcase my contributions to the project +"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d Overview"
+        "content": "*In-Credit-Ble* under module _CS2103T_. It consists of an overview of the project"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "and also summary of my contributions to the User Guide and Developer Guide for the"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "_In-Credit-Ble_ is a desktop Finance Tracker that is tailored to help users manage their finances"
+        "content": "features I developed for the project"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "and keep track of their budget in an easy and efficient manner. It is designed for those who"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "prefer to work with a Command Line Interface (CLI), especially for those who prefer to type over"
+        "content": "--"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "using their mouse."
+        "content": "image::github_icon.png[65,90,float\u003d\"left\",link\u003dhttps://github.com/]"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "image::java.png[70,90,float\u003d\"left\",link\u003dhttps://www.java.com/en/download/]"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "_In-Credit-Ble_ was developed by a team of five students from the National University of Singapore"
+        "content": "image::junit5-logo.png[66,90,float\u003d\"left\" link\u003dhttps://junit.org/junit5/]"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "as part of a Software Engineering module (CS2103T)."
+        "content": "image::json.png[67,90, float\u003d\"left\" link\u003dhttps://www.json.org/]"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": " We had to adapt to an existing codebase in Java and develop a functional product in a short"
+        "content": "image::travis.png[66,90,link\u003dhttps://travis-ci.org/]"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": " span of 13 weeks while learning new software engineering concepts. In this project portfolio,"
+        "content": "--"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": " I will be documenting my contributions to this project through the major and minor features implemented for _In-Credit-Ble_."
+        "content": ""
       },
       {
         "lineNumber": 25,
@@ -15790,7 +15769,7 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d Summary of Contributions"
+        "content": ""
       },
       {
         "lineNumber": 27,
@@ -15804,329 +15783,329 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "* *Major enhancement*: added `CategoryBudget`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** *_What it does_*: Allows user to set a budget for categories so as to keep track"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "of the expenses for each category (such as `Food`, `Travel`, `Clothes`)."
+        "content": "\u003d\u003d PROJECT: In-Credit-Ble (Finance Tracker)"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "It ensures that the sum of budget of each category does not exceed the total budget"
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "of the Finance Tracker."
+        "content": "---"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** *_Justification_*: This feature improves the product significantly and enhances user"
+        "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "ability to manage their expenses according to categories. For a finance tracker, it is important"
+        "content": "\u003d\u003d Overview"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "as this will allow the user to categorise their spending to know which area he/she should"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "start spending less and which category they are able to increase their spending."
+        "content": "_In-Credit-Ble_ is a desktop Finance Tracker that is tailored to help users manage their finances"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** Highlights of feature:"
+        "content": "and keep track of their budget in an easy and efficient manner. It is designed for those who"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "*** This enhancement can be triggered using the `allocate` command. Each of the category"
+        "content": "prefer to work with a Command Line Interface (CLI), especially for those who prefer to type over"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "budget is stored in the `TotalBudget` class which is implemented in the `Model` component."
+        "content": "using their mouse."
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "*** Each category budget will be displayed on the UI to show the user the current spending"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "for that category over the total budget allocated for it."
+        "content": "_In-Credit-Ble_ was developed by a team of five students from the National University of Singapore"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "as part of a Software Engineering module (CS2103T)."
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "* *Minor enhancement*: Changing theme of application"
+        "content": " We had to adapt to an existing codebase in Java and develop a functional product in a short"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** _What it does_: Allows user to change the colour theme of the application to pre-set themes"
+        "content": " span of 13 weeks while learning new software engineering concepts. In this project portfolio,"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "such as `Dark`, `Light`, `Blue`, `Pink`."
+        "content": " I will be documenting my contributions to this project through the major and minor features implemented for _In-Credit-Ble_."
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** _Justification_: This feature allows the user to have minor customisation of their In-Credit-Ble"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "Finance Tracker Application"
+        "content": "\u003d\u003d Summary of Contributions"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** Highlights of feature:"
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "*** This feature can be triggered using the `theme` command. Triggering this command will result in"
+        "content": "* *Major enhancement*: added `CategoryBudget`"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "the `UI` component changing its stylesheet to fit the pre-set themes indicated by the user."
+        "content": "** *_What it does_*: Allows user to set a budget for categories so as to keep track"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "of the expenses for each category (such as `Food`, `Travel`, `Clothes`)."
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "* *Code contributed*:"
+        "content": "It ensures that the sum of budget of each category does not exceed the total budget"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "link:https://tinyurl.com/Jackimaru96[Collated Code by RepoSense]"
+        "content": "of the Finance Tracker."
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "** *_Justification_*: This feature improves the product significantly and enhances user"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "* *Notable Contributions:*"
+        "content": "ability to manage their expenses according to categories. For a finance tracker, it is important"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** *_Project Management_*"
+        "content": "as this will allow the user to categorise their spending to know which area he/she should"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "*** *Manging Issue Tracker*"
+        "content": "start spending less and which category they are able to increase their spending."
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "**** Added the necessary issue type labels as specified by course requirement. +"
+        "content": "** Highlights of feature:"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "(e.g. `type.Story`, `type.Enhancement`, `status.onGoing`, `status.Completed`, `priorityHigh`)"
+        "content": "*** This enhancement can be triggered using the `allocate` command. Each of the category"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "**** Managed issue trackers: https://github.com/CS2103-AY1819S2-W17-3/main/issues/10[#10],"
+        "content": "budget is stored in the `TotalBudget` class which is implemented in the `Model` component."
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/11[#11],"
+        "content": "*** Each category budget will be displayed on the UI to show the user the current spending"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/12[#12],"
+        "content": "for that category over the total budget allocated for it."
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/13[#13],"
+        "content": ""
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/14[#14],"
+        "content": "* *Minor enhancement*: Changing theme of application"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/50[#50],"
+        "content": "** _What it does_: Allows user to change the colour theme of the application to pre-set themes"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/51[#51],"
+        "content": "such as `Dark`, `Light`, `Blue`, `Pink`."
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/52[#52],"
+        "content": "** _Justification_: This feature allows the user to have minor customisation of their In-Credit-Ble"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/53[#53],"
+        "content": "Finance Tracker Application"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/54[#54],"
+        "content": "** Highlights of feature:"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/55[#55],"
+        "content": "*** This feature can be triggered using the `theme` command. Triggering this command will result in"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/56[#56],"
+        "content": "the `UI` component changing its stylesheet to fit the pre-set themes indicated by the user."
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/82[#82],"
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/97[#97],"
+        "content": "* *Code contributed*:"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/108[#108]"
+        "content": "link:https://tinyurl.com/Jackimaru96[Collated Code by RepoSense]"
       },
       {
         "lineNumber": 75,
@@ -16140,210 +16119,210 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "** *_Community_*"
+        "content": "* *Notable Contributions:*"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "*** PRs Reviews:"
+        "content": "** *_Project Management_*"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/pull/111[#111],"
+        "content": "*** *Manging Issue Tracker*"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/pull/58[#58],"
+        "content": "**** Added the necessary issue type labels as specified by course requirement. +"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/pull/64[#64]"
+        "content": "(e.g. `type.Story`, `type.Enhancement`, `status.onGoing`, `status.Completed`, `priorityHigh`)"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "*** Forum Participation:"
+        "content": "**** Managed issue trackers: https://github.com/CS2103-AY1819S2-W17-3/main/issues/10[#10],"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/nus-cs2103-AY1819S2/forum/issues/41[41]"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/11[#11],"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/nus-cs2103-AY1819S2/forum/issues/54[54]"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/12[#12],"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "https://github.com/nus-cs2103-AY1819S2/forum/issues/59[59]"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/13[#13],"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/14[#14],"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d Contributions to the User Guide"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/50[#50],"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/51[#51],"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "|_Listed below are sections of my contribution to the User Guide, showcasing my ability in documenting"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/52[#52],"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": " a user guide for end-users of our product._"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/53[#53],"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/54[#54],"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/55[#55],"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "include::../UserGuide.adoc[tag\u003dquickstart]"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/56[#56],"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/82[#82],"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "include::../UserGuide.adoc[tag\u003dallocate]"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/97[#97],"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/issues/108[#108]"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "include::../UserGuide.adoc[tag\u003dtheme]"
+        "content": ""
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "** *_Community_*"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "\u003d\u003d Contributions to the Developer Guide"
+        "content": "*** PRs Reviews:"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/pull/111[#111],"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "|_Given below are sections I contributed to the Developer Guide, showcasing my ability to write technical documentation and the technical depth of my code contributions._"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/pull/58[#58],"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "https://github.com/CS2103-AY1819S2-W17-3/main/pull/64[#64]"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "*** Forum Participation:"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": "TO BE INCLUDED"
+        "content": "https://github.com/nus-cs2103-AY1819S2/forum/issues/41[41]"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "https://github.com/nus-cs2103-AY1819S2/forum/issues/54[54]"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "https://github.com/nus-cs2103-AY1819S2/forum/issues/59[59]"
       },
       {
         "lineNumber": 106,
@@ -16357,49 +16336,49 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "\u003d\u003d Contributions to the User Guide"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "|_The next section will include my contribution to the User Guide. It will showcase my ability"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "in documenting a reader-friendly User Guide that is aimed at the end-users of _In-Credit-Ble_."
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "It is important to be able to write a user-friendly guide that will allow the users to quickly grasp"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "how to use our application."
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 114,
@@ -16413,7 +16392,7 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "include::../UserGuide.adoc[tag\u003dquickstart]"
       },
       {
         "lineNumber": 116,
@@ -16427,7 +16406,7 @@
         "author": {
           "gitId": "Jackimaru96"
         },
-        "content": ""
+        "content": "include::../UserGuide.adoc[tag\u003dallocate]"
       },
       {
         "lineNumber": 118,
@@ -16435,10 +16414,192 @@
           "gitId": "Jackimaru96"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "include::../UserGuide.adoc[tag\u003dtheme]"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "\u003d\u003d Contributions to the Developer Guide"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "|\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "|_The following section will include the sections of my contribution to the Developer Guide."
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "It showcases my ability to write technical documentation and the technical depth of my code contributions."
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "This is important as in real-world software engineering projects, we are expected to work in team and being able to"
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "document Developer Guide well will allow colleagues or other developers to understand what we have coded better._"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "|\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": "include::../DeveloperGuide.adoc[tag\u003dcategorybudget]"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "Jackimaru96"
+        },
+        "content": ""
       }
     ],
     "authorContributionMap": {
-      "Jackimaru96": 118
+      "Jackimaru96": 144
     }
   },
   {

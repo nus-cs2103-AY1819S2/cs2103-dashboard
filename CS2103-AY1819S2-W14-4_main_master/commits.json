@@ -2779,8 +2779,8 @@
         ]
       },
       {
-        "insertions": 19,
-        "deletions": 176,
+        "insertions": 93,
+        "deletions": 287,
         "date": "2019-04-01",
         "commitResults": [
           {
@@ -2800,30 +2800,61 @@
             "message": "added select command to panelhandler hashmap, changePanel() now doesn\u0027t change panel when newPanel is null",
             "insertions": 14,
             "deletions": 10
+          },
+          {
+            "hash": "c4bf27892b773bd633b8297de917381194300882",
+            "message": "restructured rec classes",
+            "insertions": 74,
+            "deletions": 111
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 171,
+        "deletions": 331,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a8af1814bc8c2b86845d94fae5a3d194faa12f6c",
+            "message": "changes to Course, RecModulePredicate",
+            "insertions": 26,
+            "deletions": 11
+          },
+          {
+            "hash": "3a6e2075ee3cf90fd8d216fbbf7539d1fd1893ec",
+            "message": "small change to rec fxml",
+            "insertions": 0,
+            "deletions": 205
+          },
+          {
+            "hash": "2cea07ff8d608c7b3dcf55ddcaf148b0544d0c42",
+            "message": "fixed bug in getUnsatisfied() in Condition (for single regex in list) added IE and FAC in CourseReqType added getLevel() in ModuleInfoCode updated RecModuleComparator updated SampleCourseRequirement",
+            "insertions": 144,
+            "deletions": 114
+          },
+          {
+            "hash": "357396f18b37d55a29e2607012d706c2d09e20da",
+            "message": "newline added to course.json",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "Anand270294": 1987,
     "crumpledpaper": 189,
-    "monikernemo": 7213,
-    "alexchong711": 3602,
-    "lshwayne96": 1895
+    "monikernemo": 6902,
+    "alexchong711": 3606,
+    "lshwayne96": 2007
   },
   "authorContributionVariance": {
     "Anand270294": 25886.418,
     "crumpledpaper": 1478.5475,
     "monikernemo": 651982.44,
     "alexchong711": 182913.77,
-    "lshwayne96": 101743.664
+    "lshwayne96": 104327.88
   },
   "authorDisplayNameMap": {
     "Anand270294": "T A...MAR",
