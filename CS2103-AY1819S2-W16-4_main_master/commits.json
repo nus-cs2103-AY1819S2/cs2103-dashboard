@@ -440,6 +440,85 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 1671,
+        "deletions": 1098,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "e61129fa0371d8f12f64781f869822abf31a55f0",
+            "message": "- Developer Guide, User Guide and Readme Documents are Improved",
+            "insertions": 100,
+            "deletions": 15
+          },
+          {
+            "hash": "88e0a6c180c876892e19a8338f6146cad112616d",
+            "message": "no message",
+            "insertions": 31,
+            "deletions": 29
+          },
+          {
+            "hash": "1f25864bfb97ebd09f46bb93833b37e5f882d050",
+            "message": "no message",
+            "insertions": 8,
+            "deletions": 12
+          },
+          {
+            "hash": "77f7efe707b788824780de9394f66374bfa6bb75",
+            "message": "no message",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "bf59e513e627cbd17218fb58c0b88bec2a4329c2",
+            "message": "no message",
+            "insertions": 22,
+            "deletions": 24
+          },
+          {
+            "hash": "188860b9776b2c3f165f9d1ce96e0e0c55e5fda2",
+            "message": "no message",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "8aaaf54dc7ff65e949b1dc908e512351a0e273f7",
+            "message": "no message",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "8cd264735916c0f72b62be26e89beef55b7fcef0",
+            "message": "no message",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "a4abea925acb2eada4a1e829902a4e83b00157bf",
+            "message": "no message",
+            "insertions": 491,
+            "deletions": 48
+          },
+          {
+            "hash": "7b405e51c294c5e629d35b41e041bb204cd5a22b",
+            "message": "no message",
+            "insertions": 36,
+            "deletions": 5
+          },
+          {
+            "hash": "4deeb8474035a2fbacd3d155500729ce13439a5a",
+            "message": "- Some changes in tests are made",
+            "insertions": 955,
+            "deletions": 955
+          }
+        ]
       }
     ],
     "charnixon": [
@@ -780,6 +859,25 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 9,
+        "deletions": 6,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "1628969ac3fe202d61c4ce0a4aa785e3e9147069",
+            "message": "Updated profile",
+            "insertions": 9,
+            "deletions": 6
+          }
+        ]
       }
     ],
     "abwilli": [
@@ -1161,6 +1259,50 @@
             "message": "Last check errors",
             "insertions": 1,
             "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 169,
+        "deletions": 29,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "12b44669700af2aab815cc2901128221c62288d6",
+            "message": "Refactoring Tag definition, Skill and Position accept more than just alphanumeric characters, Endorse command created with format \"endorse (index) n/(employee name)\" -\u003e cannot endorse a candidate twice, editing a person replaces all current tags except endorsements",
+            "insertions": 169,
+            "deletions": 29
+          }
+        ]
+      },
+      {
+        "insertions": 88,
+        "deletions": 16,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "3316ec1a795305aea35b6b77792edec937b996ed",
+            "message": "Additional Sample Data for better filtering",
+            "insertions": 61,
+            "deletions": 11
+          },
+          {
+            "hash": "4123daabbedf552bd13c5ee5adad04db12dc4a90",
+            "message": "small tag bug",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "ada3ebbfdff8308bc6b27bb1723cd816989340a3",
+            "message": "User guide updates",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "54c14661ea11c70df8bc31c900de179ced254c56",
+            "message": "MainApp v1.3 updated",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
@@ -1646,10 +1788,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 153,
+        "deletions": 14,
         "date": "2019-03-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "124218b6bd7e3fc55a3cc90e01c1e4f262ae6e31",
+            "message": "Implementation of gpa and education sort methods as well as reverse sort method for all. Still todo: update developer guide and tests",
+            "insertions": 153,
+            "deletions": 14
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1674,20 +1823,130 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 64,
+        "deletions": 32,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "1e066a45eaee969978b8dc08cd42e5a08d68b71c",
+            "message": "Addition of education and gpa to typical persons. Removal of tags to allow system to pass until bug is fixed.",
+            "insertions": 64,
+            "deletions": 32
+          }
+        ]
+      },
+      {
+        "insertions": 502,
+        "deletions": 293,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "6c7488325b48de8d3e851cf2010b5f74348e1c07",
+            "message": "Implementation of sort name and sort surname commands",
+            "insertions": 58,
+            "deletions": 13
+          },
+          {
+            "hash": "c8c35da808974912bbc239dd3a898664a2abef87",
+            "message": "Bug fix - demand exact match for a sort word rather than just containing the word",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "5018e726cf7ac1f6c4ceb5277e44dfa85f04bffb",
+            "message": "Addition of sort name, surname, education, gpa (including reverse) success cases",
+            "insertions": 154,
+            "deletions": 12
+          },
+          {
+            "hash": "4433648ec866334159ca9244ea131c4896d50c48",
+            "message": "Updated user guide with new sort methods",
+            "insertions": 24,
+            "deletions": 10
+          },
+          {
+            "hash": "d7a7cf23830f6c2cc94310b1b9bb1bd77f6ccab5",
+            "message": "Completed sort command user guide for v1.3",
+            "insertions": 32,
+            "deletions": 29
+          },
+          {
+            "hash": "31297ce1846c31f8ae958fa0d9b4425742d829d3",
+            "message": "Developer Guide formatting",
+            "insertions": 29,
+            "deletions": 31
+          },
+          {
+            "hash": "962f0a7c48541ffd182da705bd1508f6da5790dc",
+            "message": "Style alteration in Developer guide",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "b7330d624b04cae21385d3e2a779fccc2c27f762",
+            "message": "Travis Style error corrections",
+            "insertions": 10,
+            "deletions": 7
+          },
+          {
+            "hash": "a4013a358ce2f62aad5715a1974eaebc6f896be9",
+            "message": "Travis style error correction",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "16113bb63c313b04b79789d8d37c128787472e75",
+            "message": "Change to sort command test for new typical person information",
+            "insertions": 18,
+            "deletions": 25
+          },
+          {
+            "hash": "2bbdb36bec18d1e294da8aff393d0c28ee5c3a23",
+            "message": "Travis Style check",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "08b3870b77db9f2e2608aeed5ff12405033b7544",
+            "message": "Yet another Travis...",
+            "insertions": 44,
+            "deletions": 57
+          },
+          {
+            "hash": "f807abfe46b77ea615ddb8a1e507a7db0eb9e111",
+            "message": "Hello again Travis",
+            "insertions": 71,
+            "deletions": 71
+          },
+          {
+            "hash": "5432463d1c6828f8581b412b7e9fdb443362f77f",
+            "message": "Developer guide for v1.3",
+            "insertions": 25,
+            "deletions": 10
+          },
+          {
+            "hash": "d975ae32dc6c39d2c939d8d740ee75e003ba70e3",
+            "message": "Developer guide style alteration",
+            "insertions": 18,
+            "deletions": 10
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "barisbatuhan": 1205,
-    "charnixon": 215,
-    "abwilli": 231,
-    "DMGreenhouse": 533
+    "barisbatuhan": 2777,
+    "charnixon": 211,
+    "abwilli": 399,
+    "DMGreenhouse": 944
   },
   "authorContributionVariance": {
-    "barisbatuhan": 398795.4,
-    "charnixon": 2102.2563,
-    "abwilli": 131765.53,
-    "DMGreenhouse": 13940.66
+    "barisbatuhan": 514493.84,
+    "charnixon": 2023.5717,
+    "abwilli": 127097.67,
+    "DMGreenhouse": 24837.096
   },
   "authorDisplayNameMap": {
     "barisbatuhan": "TOP...HAN",

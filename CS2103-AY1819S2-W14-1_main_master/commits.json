@@ -425,6 +425,112 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 93,
+        "deletions": 17,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "c4fd02b4b0263c0506b9c09e4418291b89776752",
+            "message": "Add CardSrsData test cases",
+            "insertions": 93,
+            "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 61,
+        "deletions": 42,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "00b041cfedd844053cde70eef7dc4c9519d152ea",
+            "message": "Update test case for User and CardSrs for 100% coverage",
+            "insertions": 50,
+            "deletions": 10
+          },
+          {
+            "hash": "ac6193f9a8793b087a9f8e0ab9dc14fb593618ca",
+            "message": "Update test classes to ensure it syncs with coding style",
+            "insertions": 11,
+            "deletions": 32
+          }
+        ]
+      },
+      {
+        "insertions": 257,
+        "deletions": 175,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "22521cda6eca5a0fe8ccdf317c0d6e0b7acae4bf",
+            "message": "Update code and remove unnecessary comments Delete classes not in use",
+            "insertions": 12,
+            "deletions": 42
+          },
+          {
+            "hash": "1384e6724c440970869acb1a7ffce0ef1e6330a1",
+            "message": "Update jeraldtsy PPP",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "452ba1a6c74a9529c20ed39d39b163500d60833e",
+            "message": "Update user guide",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "501507fb1bf12dc736b1d93f47453eea61f56c54",
+            "message": "Add CsvUserStorageTest",
+            "insertions": 119,
+            "deletions": 0
+          },
+          {
+            "hash": "6e770bd763ed9191c9889f6418ac4bbad5fbe4dd",
+            "message": "Delete CsvUserStorageTest.java",
+            "insertions": 0,
+            "deletions": 119
+          },
+          {
+            "hash": "048ddd69c6131f2cf535be98c9ba8f8c818c7ba0",
+            "message": "Add Csv UserStorageTest",
+            "insertions": 116,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 4,
+        "deletions": 3,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "1d6cfb3275b19dd663f9f637ce09f295429ec476",
+            "message": "Update CsvUserStorageTest to sync with codacy checks",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
       }
     ],
     "eugenefdw": [
@@ -1123,6 +1229,189 @@
         "deletions": 0,
         "date": "2019-03-26",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 375,
+        "deletions": 281,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "990d485aa43af80f90f679e1d5716559da6c1dab",
+            "message": "Add default data folder checking/creation",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "9a09f7393d35fe72a89838ef664dceac2d8856b2",
+            "message": "Fix empty file with UTF-8 BOM not treated as empty",
+            "insertions": 15,
+            "deletions": 5
+          },
+          {
+            "hash": "fd92873c4310f1a92fb3e095a0ca8d801c2f894f",
+            "message": "Refactor CsvUtil tests",
+            "insertions": 11,
+            "deletions": 9
+          },
+          {
+            "hash": "279b4f8bfdc1b2d0dd69b8f9552199fe5cc37769",
+            "message": "Add test for new BOM empty file handling",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "9d0ea2af1d85a09a35ca0600e3acb7b8fa443995",
+            "message": "Refactor all other references of Lessons to LessonList",
+            "insertions": 267,
+            "deletions": 214
+          },
+          {
+            "hash": "9838675322806d1484f092ec53c574994382fc05",
+            "message": "Fix checkstyle issues",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "61f74a5f19cc08dcfdd063f7e23b078ee1589e26",
+            "message": "Revert lesson save cleanup",
+            "insertions": 1,
+            "deletions": 44
+          },
+          {
+            "hash": "4f80f3d8759e5431e053b51c4774a63139bc2b0a",
+            "message": "Add lesson file delete to StorageManager",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "f9a98b0eef9240bc3ec93ed35c35485b85f7a961",
+            "message": "Add tests for deleteLesson in StorageManager",
+            "insertions": 39,
+            "deletions": 1
+          },
+          {
+            "hash": "92b17e5a344d1c5ea789d380087c97aca49f54fe",
+            "message": "Update tests to not use empty folder",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "7209e753a771c6451d42e27ba919ec8f1de407f9",
+            "message": "Update TypicalLessons renaming",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 339,
+        "deletions": 104,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "1dc1264f466ab8b07d260dedbe55b4201a609915",
+            "message": "Refactor Logic to use enum for storage related commands",
+            "insertions": 59,
+            "deletions": 9
+          },
+          {
+            "hash": "ec1abae035baaf92235f0cee56606dbf5a4b728a",
+            "message": "Add support for multiple storage update types in CommandResult",
+            "insertions": 63,
+            "deletions": 40
+          },
+          {
+            "hash": "3423d23340e38e22647acd543ebaa7f98b36ce5c",
+            "message": "Update variable name",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "cd0219bc74406f89b4fa8131b23baf70275421ef",
+            "message": "Update failure messages in LogicManager",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "563a5b674a736ce94a2f5d538834bccd143b1b6c",
+            "message": "Update saving error message to remove redundant calculation",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "f77ea73540c6583d510209b9fe52c80d77bbb80a",
+            "message": "Add reload lessons command",
+            "insertions": 72,
+            "deletions": 6
+          },
+          {
+            "hash": "3087ecd6031b90c53f98b7c534a1eaed40b7a6fb",
+            "message": "Add tests for new commands and logic refactor",
+            "insertions": 121,
+            "deletions": 6
+          },
+          {
+            "hash": "16e4a178b40117f6c5533dba32edaa014775f56f",
+            "message": "Remove empty constructor",
+            "insertions": 6,
+            "deletions": 8
+          },
+          {
+            "hash": "c911b6ba4bc81b3aab77377ea96f2844ca8d8806",
+            "message": "Disable IOException test",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "504257f23bd8b5aa9848e4232e1e05f8530282a6",
+            "message": "Update Storage component in DG",
+            "insertions": 3,
+            "deletions": 22
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 23,
+        "deletions": 7,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "459c3d26235472eef3d92588b47adf55e03a7568",
+            "message": "Add folder generation for user data",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "c4be1424b130e05516a551084f4c949a64091345",
+            "message": "Update PPP",
+            "insertions": 13,
+            "deletions": 7
+          }
+        ]
       }
     ],
     "halcyoneee": [
@@ -2023,6 +2312,270 @@
             "deletions": 77
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 70,
+        "deletions": 60,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "bee44b9be119985d4625dad8d18fc78ee2c1bdf9",
+            "message": "Refactor ManagementModel parameter, it should be passed at the start",
+            "insertions": 40,
+            "deletions": 41
+          },
+          {
+            "hash": "cf5487f20affd34dd73f07d541c64a35cc2d2ad1",
+            "message": "Fix save user logic after quiz end",
+            "insertions": 30,
+            "deletions": 19
+          }
+        ]
+      },
+      {
+        "insertions": 547,
+        "deletions": 351,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "3e04d4cb1ae067d5957908021c7992bd93121f8d",
+            "message": "Update testcase to use Session instead of hardcoded Quiz",
+            "insertions": 102,
+            "deletions": 101
+          },
+          {
+            "hash": "5fdfc145587d6c32a2c1afd3e9d6d583fd89cd42",
+            "message": "Update tests to use TypicalSession",
+            "insertions": 205,
+            "deletions": 194
+          },
+          {
+            "hash": "efd82d0cb1bbb32d3e540d35f0b58d44d1548366",
+            "message": "Refactor initWithSession to init as all QuizModel needs both quiz and session",
+            "insertions": 37,
+            "deletions": 55
+          },
+          {
+            "hash": "a0098747e54f53fdb0b9a770be2a5f39cda1aaa9",
+            "message": "Add new constructor to include header",
+            "insertions": 57,
+            "deletions": 1
+          },
+          {
+            "hash": "4dea614a284bd48e6e372f67642d7a4b86bb8329",
+            "message": "Integrate Person UI from AB4 to BrainTrain",
+            "insertions": 146,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 332,
+        "deletions": 98,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "8b5f6b4cbb960b34c3e33196f4234babb6882f7a",
+            "message": "Add \\quit QuizCommand such that user can force quit a session",
+            "insertions": 156,
+            "deletions": 3
+          },
+          {
+            "hash": "75afefbe881900fc15e4a31800def526c42af7e1",
+            "message": "Update CardSrsData and storage to include new isDifficult parameter",
+            "insertions": 47,
+            "deletions": 10
+          },
+          {
+            "hash": "2b8ce64bbbb0a750490c713618b4bf6973998135",
+            "message": "Update end to return isCardDifficult as well",
+            "insertions": 11,
+            "deletions": 10
+          },
+          {
+            "hash": "71681f6456982e4ba55d8f153b2fd4e327da362f",
+            "message": "Update commandWord regex to accept any character if it starts with \\",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "8c5ddbc6fcec565d0821bb8b8126d7d435456229",
+            "message": "Update QuizXXXCommand to use QuizCommand and formatting",
+            "insertions": 7,
+            "deletions": 25
+          },
+          {
+            "hash": "e180d92673f33bd7185516a7291d763e6527c6de",
+            "message": "Add more test to improve coverage to 100%",
+            "insertions": 56,
+            "deletions": 3
+          },
+          {
+            "hash": "3893b34c94ee14ddd7c27a9fcb787a2e24e4b4d6",
+            "message": "Update QuizModelManager to improve coverage to 100%",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "c6fe3b9bc524ac370e01406657e0c9de1860198e",
+            "message": "Fix codacy warning",
+            "insertions": 14,
+            "deletions": 18
+          },
+          {
+            "hash": "4647a28d76904feee0cf0c801288f962792ce861",
+            "message": "Fix inconsistency in naming MESSAGE_SUCCESS and session to quiz",
+            "insertions": 20,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 35,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "725f02d79fc109f286d2c77f15c6fd1d05373f51",
+            "message": "Add more tests for AppParameter to reach 100% coverage",
+            "insertions": 35,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 318,
+        "deletions": 298,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "f9dacfb2f171272d509230e7073265b4874ede6c",
+            "message": "Update DG header to sentence case",
+            "insertions": 21,
+            "deletions": 21
+          },
+          {
+            "hash": "bb7ac31741c59b758ad74ba7463f86117b724a36",
+            "message": "Update UGDG quiz feature in include new sequence diagram",
+            "insertions": 31,
+            "deletions": 22
+          },
+          {
+            "hash": "1b5f20495f5242bf0e20c89a363bd5bf44f70ff3",
+            "message": "Update PPP",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "276c145636ed6b1f5eccba6144965bb3383d7e6e",
+            "message": "Update DG class and sequence diagram",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "2c0ec1e643605410f06206213d5add9401c879ee",
+            "message": "Update DG QuizModel filepath",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "566b7af13c48ac84b5bc1858f386ae9845c0a830",
+            "message": "Integrate use of header instead of hardcoded header",
+            "insertions": 117,
+            "deletions": 48
+          },
+          {
+            "hash": "cbb7780e80026925b08f445107cf602b2c7055f0",
+            "message": "Update Quiz to accept difficult mode",
+            "insertions": 10,
+            "deletions": 7
+          },
+          {
+            "hash": "7714295ff6d43a649bcb606e5414ff8ed0ebeb4e",
+            "message": "Update test to use new constructor with header",
+            "insertions": 120,
+            "deletions": 190
+          },
+          {
+            "hash": "9cc8ae0ec550f7ff2ef963e7e7859063456f4517",
+            "message": "Add a test for MainPanel for new method",
+            "insertions": 14,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 337,
+        "deletions": 107,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "fca9a5cd96ab403f2c2c9a834a85b424deeeb305",
+            "message": "Add hint command",
+            "insertions": 188,
+            "deletions": 10
+          },
+          {
+            "hash": "9bca39481e61c815dddd88d6881421091fb46569",
+            "message": "Update DG QuizModel Class diag and quiz feature",
+            "insertions": 24,
+            "deletions": 13
+          },
+          {
+            "hash": "b9149bf2a49969123195057880301c6769a54de5",
+            "message": "Reorder UG quiz commands to alphabetic order",
+            "insertions": 33,
+            "deletions": 16
+          },
+          {
+            "hash": "2f5f29a0b7f12232d5307f9c709241bd67edd650",
+            "message": "Remove unused vairable",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "6e75a162b3c087cb4995ba4171f0daff496a327f",
+            "message": "Fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "69eb05a2fa47fae82b23f1ce33a5c14dc3df9e61",
+            "message": "Remove reference to Session get header methods, change to quiz.getxxxHeader",
+            "insertions": 0,
+            "deletions": 12
+          },
+          {
+            "hash": "0e71f3b292c23353ebae8907d68e01a57535d394",
+            "message": "Fix MESSAGE_USAGE and add MESSAGE_SUCCESS_ONE",
+            "insertions": 44,
+            "deletions": 16
+          },
+          {
+            "hash": "ba02657e517968e757d9d0967a72b4652140ec31",
+            "message": "Fix javadoc message to be clearer",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5dc4df5e444ddda8022a21880746b12cb54e67a9",
+            "message": "Fix PPP missing comma",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "796ff4e7118d2b05a5ba3959fc43a66a2357131b",
+            "message": "Rename variables for clarity",
+            "insertions": 45,
+            "deletions": 36
+          }
+        ]
       }
     ],
     "lallanachang": [
@@ -2499,6 +3052,99 @@
             "message": "Update method to update user data after quiz.",
             "insertions": 67,
             "deletions": 49
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-27",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-28",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-29",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-30",
+        "commitResults": []
+      },
+      {
+        "insertions": 184,
+        "deletions": 58,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "ab04e1d0dd9e838f3e5988ed32303203afd35a23",
+            "message": "Update session to fix bugs and add fields for difficult and hint commands.",
+            "insertions": 184,
+            "deletions": 58
+          }
+        ]
+      },
+      {
+        "insertions": 297,
+        "deletions": 95,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "eab8dfe8e206f8d0dcbbc7e891b100acd8627c6a",
+            "message": "Update tests",
+            "insertions": 60,
+            "deletions": 41
+          },
+          {
+            "hash": "e85e4c7bc6a60de6686b1c04397bd797acdc5ff1",
+            "message": "Fix bugs",
+            "insertions": 27,
+            "deletions": 24
+          },
+          {
+            "hash": "f72f1051a50d5f6ad197cd04976eb730d9a370c8",
+            "message": "Fix UG",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "bc2f18f2128ef02941eb82f389f4a1ca316a6fb0",
+            "message": "Update session for v1.3",
+            "insertions": 192,
+            "deletions": 28
+          },
+          {
+            "hash": "9592f3eda5658117d66e518c04b6e69655310f2f",
+            "message": "Update tests",
+            "insertions": 17,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 17,
+        "deletions": 50,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "93941c8eba2c35cfbacea354a229631ff99130de",
+            "message": "Fix conflict",
+            "insertions": 13,
+            "deletions": 46
+          },
+          {
+            "hash": "6c3e415b538e3e67cd4e6015bf41fed57e17887c",
+            "message": "Update",
+            "insertions": 4,
+            "deletions": 4
           }
         ]
       }
@@ -3904,22 +4550,418 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 171,
+        "deletions": 142,
+        "date": "2019-03-27",
+        "commitResults": [
+          {
+            "hash": "9ccd395f0f4ed785de39815792e7a74825c41d31",
+            "message": "Update build.gradle for v1.2.1 release",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "814a9000710ac697ed90fe51168c8b4a2f7e0034",
+            "message": "Bug fix: #112",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "052cb62e830cb27f059dd33ffc510ff4644ab2ec",
+            "message": "Update Integration Test to test for bug #112",
+            "insertions": 68,
+            "deletions": 110
+          },
+          {
+            "hash": "0001e38fee5cfa29f6737242620184b5eda4c373",
+            "message": "Bug fix: #110 and bug fix: #114",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "500cfa2300a5e8018ed697e1f079cfa35bfbaabf",
+            "message": "Update CloseLessonCommand",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "51db80785674d3691954117861aa20a5e941c000",
+            "message": "Update ListLessonsCommand",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "da234d26c984ccaa0bb7b3a19fbb52dcc46386e6",
+            "message": "Implements lesson-saving to hard disk",
+            "insertions": 88,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 1498,
+        "deletions": 352,
+        "date": "2019-03-28",
+        "commitResults": [
+          {
+            "hash": "34ffe5306610919206c2fab832631880afcbe3de",
+            "message": "Refactor ListLessonsCommand",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "06f40b18345c2c2b0d52b72d18a384101d1447a3",
+            "message": "Refactor documentation for OpenLessonCommand",
+            "insertions": 19,
+            "deletions": 10
+          },
+          {
+            "hash": "188f723c6315080d5211b0c8e201f8ab42c40fa3",
+            "message": "Refactor documentation for CloseLessonCommand",
+            "insertions": 12,
+            "deletions": 13
+          },
+          {
+            "hash": "39f1473c64769e6e1bdf9d3d4d7bbb8046e0cacd",
+            "message": "Refactor documentation for AddLessonCommand",
+            "insertions": 24,
+            "deletions": 15
+          },
+          {
+            "hash": "802231d4cda8d96f654d98fde4ac9a629aeaccad",
+            "message": "Refactor documentation for DeleteLessonCommand",
+            "insertions": 21,
+            "deletions": 12
+          },
+          {
+            "hash": "a7a3caae668fca8733225a0a33bee47bd7e79ce4",
+            "message": "Update CloseLessonCommand with missing equals()",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "3582b1edd9db5c77bf4d023c2af2c4583c4d1c5c",
+            "message": "Update ListLessonsCommand with missing equals()",
+            "insertions": 33,
+            "deletions": 8
+          },
+          {
+            "hash": "4e900f812b24bdf1800b01e6576e5aa35f4bc83f",
+            "message": "Update LessonList and tests",
+            "insertions": 105,
+            "deletions": 63
+          },
+          {
+            "hash": "683b2f135ea30b83c0925529ed45934f52b431d2",
+            "message": "Update testutil classes",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "aac8e4a397835f31df83b837245856dd249a03b1",
+            "message": "Refactor management commands",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "6245a1c8f4f7314ae178c45cc3e7e565855cc6b2",
+            "message": "Refactor ListLessonsCommandTest",
+            "insertions": 97,
+            "deletions": 0
+          },
+          {
+            "hash": "5784302edcf986f5e1875c878d417da08aab5690",
+            "message": "Refactor CloseLessonCommand",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "86a32a8bbd9f7d412abebc84086307864c4b699f",
+            "message": "Implement ListLessonCommand",
+            "insertions": 387,
+            "deletions": 108
+          },
+          {
+            "hash": "63512477fce1a366aeb6043dc10b8ae2f50cd54d",
+            "message": "Fix Codacy issue",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8662bc25f7ceafa202f933ed103b92a6b9f518bd",
+            "message": "Update ManagementModelManagerTest",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "399599e7a5c41270dd6c5baa936a42bb1ba4eacf",
+            "message": "Update Lesson, LessonList and ManagementModelManager",
+            "insertions": 117,
+            "deletions": 5
+          },
+          {
+            "hash": "0d5312ba450fd6f20d5ad8a79091e9a3d37e295b",
+            "message": "Fix imports",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "cfcaa512166b0555ef5b083cf177ebff6f4f70fe",
+            "message": "Implement AddLessonCommand",
+            "insertions": 322,
+            "deletions": 85
+          },
+          {
+            "hash": "3c6da7db87ac92f8dce8257f4ff403d14b40623a",
+            "message": "Implement deleteLessonCommand",
+            "insertions": 152,
+            "deletions": 8
+          },
+          {
+            "hash": "51e4b4081b16009bacfc3166fb6158fdf72a035d",
+            "message": "Fix code style",
+            "insertions": 17,
+            "deletions": 4
+          },
+          {
+            "hash": "27cccf2acd314eac35d9805ff3f0c5853ab43941",
+            "message": "Update LessonListTest",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "2fea595d42042e589817ed15170985400a85ef7e",
+            "message": "Add AddCardCommand and other tests",
+            "insertions": 132,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 388,
+        "deletions": 101,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "21e20031abf4857b81e7ca7dee230b3d04c98936",
+            "message": "Fix LessonListTest styling",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b7af9cbef073e92b0762f492e05e5aabc325b4ff",
+            "message": "Update ListCardCommand and ListLessonsCommand tests",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "060bc57ca6849dae34387a1708028979f6a2fc6d",
+            "message": "Update ListCardsCommand test for 100% coverage",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "ccddbb399c6d3e863b56dd017594c89fdf07d916",
+            "message": "Update DeleteLessonCommand test for 100% coverage",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "c5bddffd8a459b8e92ead3781fe2bd1021517a5d",
+            "message": "Update CloseLessonCommand test for 100% coverage",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "d3c88d9b5ef70397d46c0cfbd8510c2a97f8eb20",
+            "message": "Update AddLessonCommand test for 100% coverage",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "c8357eb7b5ad755d37d301a3bedd5590efb16547",
+            "message": "Fix bugs in command tests",
+            "insertions": 10,
+            "deletions": 12
+          },
+          {
+            "hash": "9d520b2bb1c232e967f55b85db09d2fba0766cac",
+            "message": "Add DeleteCardCommandTest",
+            "insertions": 137,
+            "deletions": 0
+          },
+          {
+            "hash": "44a60ddf8adc7b229ea83d9f259888cc952c2cbd",
+            "message": "Update LogicManagerTest",
+            "insertions": 29,
+            "deletions": 1
+          },
+          {
+            "hash": "df8c489b3e8a039b72ea27be0cd181610e63ba3e",
+            "message": "Fix imports",
+            "insertions": 68,
+            "deletions": 9
+          },
+          {
+            "hash": "2196f52a620b2fc2563ac62b796e856a6bef1b3f",
+            "message": "Update MainApp version to 1.3.0",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "93b5656ac27d16a46543f5e8609912e395df425c",
+            "message": "Refactor ListCardsCommandTest",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "08b34724b0b6b5ff6315ca02820ccbb12cca795e",
+            "message": "Refactor ListCardsCommandTest",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "681afa4fd63e9687d3065a484a387856cff93b45",
+            "message": "Add DeleteCardParserTest",
+            "insertions": 39,
+            "deletions": 12
+          },
+          {
+            "hash": "c45ac7eab063cace8faa4791635acad25f918265",
+            "message": "Update AddCardCommand usage text",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "0e9b982ba6a4da7332bbd7662cd82bbf41ed350d",
+            "message": "Update UserGuide.adoc",
+            "insertions": 51,
+            "deletions": 61
+          }
+        ]
+      },
+      {
+        "insertions": 323,
+        "deletions": 359,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "55dbc04d63d1a2059a7be83e15cd801393c5ebe2",
+            "message": "Update UserGuide.adoc",
+            "insertions": 67,
+            "deletions": 47
+          },
+          {
+            "hash": "af27e6f0d1a7bea9537eeca4be53d7e856fcf64e",
+            "message": "Add UI for Lesson List in Management Mode",
+            "insertions": 229,
+            "deletions": 168
+          },
+          {
+            "hash": "d78076680d1985552f8f9ff8ac2a7fc4d6c42cc3",
+            "message": "Refactor management commands for UI/hard-disk saving",
+            "insertions": 6,
+            "deletions": 90
+          },
+          {
+            "hash": "33ed30bfe270ea07d34aded8c2eb708b02d9e56e",
+            "message": "Hide UI for v1.3",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "97a4c734743f6fed2aa8d8656e9c0984e4a8281b",
+            "message": "Fix Codacy issues",
+            "insertions": 10,
+            "deletions": 46
+          },
+          {
+            "hash": "02dd5ffd40d960b6c53e69e1896135a82096f014",
+            "message": "Fix imports",
+            "insertions": 7,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 41,
+        "deletions": 48,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "468740d70bd6671239f311bed6c6082a7d04155b",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 41,
+            "deletions": 47
+          },
+          {
+            "hash": "ff6b4e2d233c212d7a3a37d6d26c1b446f4cc6a9",
+            "message": "Fix unused local variable in AppParametersTest",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 135,
+        "deletions": 108,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "6f3ec6df170ef94f0af5db7d8e75eb89dbd43654",
+            "message": "Update first draft of PPP",
+            "insertions": 67,
+            "deletions": 49
+          },
+          {
+            "hash": "d634ceb12ae4677cfcaa420b9f5a41320447fff7",
+            "message": "First draft of UserGuide",
+            "insertions": 62,
+            "deletions": 53
+          },
+          {
+            "hash": "e46f38fd99d8f54f620cc76470a317e531c72fe7",
+            "message": "First draft of DeveloperGuide",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "c1ceacd906000ba40caedff8c5d56122ef5ce321",
+            "message": "Fix refactoring failure",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "02a389490f6701d558c5ff96705b3305b7c8b0d8",
+            "message": "Fix style for DeveloperGuide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jeraldtsy": 430,
-    "eugenefdw": 1436,
-    "halcyoneee": 3470,
-    "lallanachang": 1089,
-    "DigiPie": 3868
+    "jeraldtsy": 590,
+    "eugenefdw": 1870,
+    "halcyoneee": 4101,
+    "lallanachang": 1401,
+    "DigiPie": 5453
   },
   "authorContributionVariance": {
-    "jeraldtsy": 6833.4062,
-    "eugenefdw": 4232393.5,
-    "halcyoneee": 592287.9,
-    "lallanachang": 26780.533,
-    "DigiPie": 334421.8
+    "jeraldtsy": 9159.158,
+    "eugenefdw": 3680094.5,
+    "halcyoneee": 525818.5,
+    "lallanachang": 26242.803,
+    "DigiPie": 344811.44
   },
   "authorDisplayNameMap": {
     "jeraldtsy": "TAN...ALD",

@@ -486,8 +486,8 @@
         "commitResults": []
       },
       {
-        "insertions": 1291,
-        "deletions": 208,
+        "insertions": 1730,
+        "deletions": 540,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -501,6 +501,18 @@
             "message": "Add Test file Fix checkstyle",
             "insertions": 448,
             "deletions": 0
+          },
+          {
+            "hash": "c6e2a3f26221f428eb7c8ebaa70d43ab5f64bbfb",
+            "message": "Add TestCases Update UserGuide",
+            "insertions": 405,
+            "deletions": 309
+          },
+          {
+            "hash": "9f92bc5821fd1df713a32c8e81a6d17ceb868db4",
+            "message": "Update UserGuide Fix CheckStyle",
+            "insertions": 34,
+            "deletions": 23
           }
         ]
       }
@@ -1705,8 +1717,8 @@
         ]
       },
       {
-        "insertions": 133,
-        "deletions": 1,
+        "insertions": 165,
+        "deletions": 86,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -1738,6 +1750,18 @@
             "message": "Updated to remove checkstyle errors of an unused import.",
             "insertions": 0,
             "deletions": 1
+          },
+          {
+            "hash": "12e2c3d73a340b846f27dd8af0fd534093daf635",
+            "message": "Updated the HomeworkManager section on the UserGuide.",
+            "insertions": 29,
+            "deletions": 82
+          },
+          {
+            "hash": "e16dad164d2413bec1edf2216e74d2603c821f5e",
+            "message": "Edited the homework manager section of the UserGuide.",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
@@ -2351,24 +2375,73 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 325,
+        "deletions": 1312,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "924cb280bc32eb7e8d7bda5c48a8bf85658b87c1",
+            "message": "Fixed UI for CapManager",
+            "insertions": 80,
+            "deletions": 44
+          },
+          {
+            "hash": "6293346d716eb2bc33e94b15d3a80659a772b208",
+            "message": "Modified DeleteCommand and removed redundant DeleteCommandParser",
+            "insertions": 8,
+            "deletions": 69
+          },
+          {
+            "hash": "b965cb9f6c77c8ea11c29ffbb89074fc63a48d9d",
+            "message": "Update ReadME",
+            "insertions": 11,
+            "deletions": 8
+          },
+          {
+            "hash": "8c065a62d8d77e7f1f544923975f6f3aa1fa13f3",
+            "message": "Removed redundant delete testcases",
+            "insertions": 7,
+            "deletions": 216
+          },
+          {
+            "hash": "0d8c66ebe8008a4391b4a65ed51dfa249803baf6",
+            "message": "Modified SelectNote to EditNote and EditCommand, removed redundant edit testcases",
+            "insertions": 213,
+            "deletions": 970
+          },
+          {
+            "hash": "c58679261978a1001c8cf66f43584988f5288988",
+            "message": "Modified SaveNote command word to standardise with other command word",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "04dcdf2e8c46f18af61bcdb0e39ffcdc4125af4c",
+            "message": "Fixed missing newline to EditCommand message_usage",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5ff96e2f2123a6e52ae8088863201e7b4ca8bcce",
+            "message": "Modified MESSAGE_USAGE to standardise with other commands\u0027 MESSAGE_USAGE",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "andrewscw": 3542,
-    "shimeilee": 1128,
-    "LimZhengJieBenjamin": 1684,
-    "NgWeiXin": 4671
+    "andrewscw": 3644,
+    "shimeilee": 1084,
+    "LimZhengJieBenjamin": 1685,
+    "NgWeiXin": 4752
   },
   "authorContributionVariance": {
-    "andrewscw": 144852.61,
+    "andrewscw": 196507.61,
     "shimeilee": 22788.67,
-    "LimZhengJieBenjamin": 20670.473,
-    "NgWeiXin": 818457.94
+    "LimZhengJieBenjamin": 21326.477,
+    "NgWeiXin": 856754.7
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",

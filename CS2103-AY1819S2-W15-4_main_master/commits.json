@@ -744,6 +744,73 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 202,
+        "deletions": 79,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "550f70ec02443021434afc62646c75103fedb4eb",
+            "message": "Added Block Duty Command",
+            "insertions": 72,
+            "deletions": 16
+          },
+          {
+            "hash": "632842879f39b8980300e50d40c6536007c73b60",
+            "message": "Allow storage of currentUser",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "dbf7c44f047d9523f8a77659fb4b6e9a6f938dc1",
+            "message": "Block date parsed",
+            "insertions": 50,
+            "deletions": 13
+          },
+          {
+            "hash": "cf71a75ef7ba304d12d1c40d67916e73f71a828a",
+            "message": "Block Date Command implement using findPerson",
+            "insertions": 8,
+            "deletions": 17
+          },
+          {
+            "hash": "b937ee904a07afaa33bf6682da348145f0088508",
+            "message": "Added BlockDateCommand Logic",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "a5b488b0908df249042c66ae9624a7918dfe2646",
+            "message": "Edited for compiler errors",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "d1b1de18329b3e4a1139c81dc7a447c20eb8fce1",
+            "message": "Edited for Compiler Errors",
+            "insertions": 14,
+            "deletions": 11
+          },
+          {
+            "hash": "19edbd909f43d5ff8d4e52c04b1220da93602314",
+            "message": "Edited Block Duty Command",
+            "insertions": 19,
+            "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "yjpan47": [
@@ -1111,10 +1178,17 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 43,
+        "deletions": 25,
         "date": "2019-03-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f8de985788927e7a2691ff851f57a632aa8f58db",
+            "message": "Some changes",
+            "insertions": 43,
+            "deletions": 25
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1139,6 +1213,69 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 456,
+        "deletions": 491,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "adae995de1b84573c19744ae2239883e49dcda84",
+            "message": "Major Updates to Duty Files (Duty, DutyMonth, DutySettings, DutyStorage) Included a DateUtil in Common",
+            "insertions": 456,
+            "deletions": 491
+          }
+        ]
+      },
+      {
+        "insertions": 262,
+        "deletions": 269,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "a0b84ac573129f760bc0aefbad0c556c66e4dba7",
+            "message": "Updated DutyCalendar",
+            "insertions": 28,
+            "deletions": 13
+          },
+          {
+            "hash": "309de0b3e62d1181ae73b38fc00847f713996632",
+            "message": "Added pointers to DutySettings and DutyStorage in DutyCalendar",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "8b1cab1cf0bdaf6a5a1706babf1e6934e1cc615a",
+            "message": "Changes to Duty Module",
+            "insertions": 219,
+            "deletions": 256
+          },
+          {
+            "hash": "b5cb3dc672a80b5c010ddb31363aef25cd2808ad",
+            "message": "Update Developer Guide",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 444,
+        "deletions": 349,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "ba39a893f2a7edb94fdf5a20c89207884f570404",
+            "message": "Added DutySettingsCommand, Updated ScheduleCommand, Included DutySettings as a UserPrefs",
+            "insertions": 419,
+            "deletions": 67
+          },
+          {
+            "hash": "56cdde76f87edc50f6141702473e188e03b6e785",
+            "message": "Fixed issues regarding swap command",
+            "insertions": 25,
+            "deletions": 282
+          }
+        ]
       }
     ],
     "dreampursuer95": [
@@ -1635,6 +1772,56 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 460,
+        "deletions": 25,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "2231c25cccd87f093f2b9e6162c39232ea3727c8",
+            "message": "CalenderUtil test added \u0026 other tests corrected",
+            "insertions": 444,
+            "deletions": 22
+          },
+          {
+            "hash": "d0052c77ec7cdfed4339caf4ba15eacbd87e8d33",
+            "message": "Stylecheck",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "3e4760d66d45369141039f576979fdfd1c58bb26",
+            "message": "Checkstyle",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "9d3cc6cba49a951d2564013969bf1684111f2844",
+            "message": "Year for DutyCalendar",
+            "insertions": 13,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 16,
+        "deletions": 14,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "800f86452bafea297da6fecbfc91a08f6db50be0",
+            "message": "fixed schedule() commit issues",
+            "insertions": 16,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "mechome": [
@@ -2093,15 +2280,83 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 13,
+        "deletions": 10,
         "date": "2019-03-30",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "118afcd34a72ce9b733cb98897e57607046ac2e8",
+            "message": "DutyMonth.java: Fix minor code issue",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "120ac348284225b839a97e3eb0e4f3ff9482d9ad",
+            "message": "LoginBox.java: Fix minor code issue",
+            "insertions": 8,
+            "deletions": 7
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-03-31",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 570,
+        "deletions": 117,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "2c1ebff725babf5e5069495397d3307b086fec7b",
+            "message": "add swap request functionality",
+            "insertions": 344,
+            "deletions": 14
+          },
+          {
+            "hash": "20fc6a7d73b0aa451f845f6c72b328b36446f70a",
+            "message": "logic/Logic.java: refactor address book to personnel database",
+            "insertions": 10,
+            "deletions": 12
+          },
+          {
+            "hash": "4b970a512b3643e31712a5dc69266adbf3bc6f23",
+            "message": "*.java: implement swap command",
+            "insertions": 32,
+            "deletions": 12
+          },
+          {
+            "hash": "9c4d4eb55391372d495b634baf3145669d60b675",
+            "message": "DutyCalendar.java: fix calendar indexing issues",
+            "insertions": 20,
+            "deletions": 12
+          },
+          {
+            "hash": "9fbf46f8858357d411257e1eb5f831423cebd3b2",
+            "message": "model and storage: add swap request management",
+            "insertions": 114,
+            "deletions": 35
+          },
+          {
+            "hash": "d34ed20a1ca14c2a80dcb4fca837de112e072035",
+            "message": "ui: display swap requests on browser panel",
+            "insertions": 50,
+            "deletions": 32
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
         "commitResults": []
       }
     ],
@@ -2567,8 +2822,8 @@
         ]
       },
       {
-        "insertions": 275,
-        "deletions": 69,
+        "insertions": 310,
+        "deletions": 93,
         "date": "2019-03-27",
         "commitResults": [
           {
@@ -2606,6 +2861,12 @@
             "message": "MainWindowCloseTest.java: Change constructor to resolve compile error",
             "insertions": 2,
             "deletions": 1
+          },
+          {
+            "hash": "0cf5746c7a7ab4e5bd9afcefc03ebd1c8adb3d8c",
+            "message": "Change Parsers to allow for different account types",
+            "insertions": 35,
+            "deletions": 24
           }
         ]
       },
@@ -2632,22 +2893,114 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 46,
+        "deletions": 5,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "ddb05baeb475d6d0d3d01c7e6d1c45565dbab80c",
+            "message": "DeleteCommandParser: Throws exception when General user tries delete command",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "e81ce2c94d9eb455945de64da66eb6464b523d36",
+            "message": "Change checkstyeMain errors",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "223c4f9fc2caa186edb117363b57eec150b788c4",
+            "message": "JsonAdaptedPerson.java: Allow storage to access password and UserType",
+            "insertions": 26,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 345,
+        "deletions": 138,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "7816d3b7fad77db353d3c046ea3c505e2cf0b9be",
+            "message": "Change EditCommand to act differently for general account",
+            "insertions": 131,
+            "deletions": 5
+          },
+          {
+            "hash": "3e34a72cfc559516641cc9f1f13c4b469023de49",
+            "message": "Person.java: change Person to force nric to be unique",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "3b5da51e6024dce46fe570aa8b02f7e58fd3ddaf",
+            "message": "commands/EditCommand.java: Change variable access",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6b2692ae444e92b3f0d2c085801725ba321c1ad1",
+            "message": "Allow EditCommand to change UserType",
+            "insertions": 43,
+            "deletions": 6
+          },
+          {
+            "hash": "8ac29926333e8c34b32d05df957129154d7393e0",
+            "message": "ParserUtil.java: Change regex for UserType",
+            "insertions": 8,
+            "deletions": 13
+          },
+          {
+            "hash": "9e2c3b7a8df800ee01d8af17d6be00270c30606f",
+            "message": "EditCommandParser: break parse method into smaller methods",
+            "insertions": 18,
+            "deletions": 10
+          },
+          {
+            "hash": "bda3bf121ffadbc701ab8cc6202f3a5ad1a3fbc7",
+            "message": "Fix Checkstlying issues",
+            "insertions": 23,
+            "deletions": 9
+          },
+          {
+            "hash": "8f5b36788493c1bda8d81cdd7d5452a8a5a4a309",
+            "message": "Edit tests so they compile",
+            "insertions": 59,
+            "deletions": 49
+          },
+          {
+            "hash": "52abae8d32a2e421b3ef016c13cbe0e973aed218",
+            "message": "Change tests so they compile",
+            "insertions": 62,
+            "deletions": 44
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Valatheking": 258,
-    "yjpan47": 422,
-    "dreampursuer95": 568,
-    "mechome": 2372,
-    "exactlyprecise": 847
+    "Valatheking": 345,
+    "yjpan47": 959,
+    "dreampursuer95": 930,
+    "mechome": 2812,
+    "exactlyprecise": 1177
   },
   "authorContributionVariance": {
-    "Valatheking": 12138.972,
-    "yjpan47": 7904.805,
-    "dreampursuer95": 24933.35,
-    "mechome": 434340.0,
-    "exactlyprecise": 6484.801
+    "Valatheking": 12675.769,
+    "yjpan47": 38255.64,
+    "dreampursuer95": 27205.314,
+    "mechome": 416030.94,
+    "exactlyprecise": 10643.413
   },
   "authorDisplayNameMap": {
     "Valatheking": "VAL...JAN",

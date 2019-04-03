@@ -508,16 +508,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 423,
+        "deletions": 16,
         "date": "2019-03-31",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "98423507a6bd3251bc57139eb2105f05003603c1",
+            "message": "Added d3 files and files for graphPanel",
+            "insertions": 420,
+            "deletions": 14
+          },
+          {
+            "hash": "f133355af23c17d1cde306cc00f9695ff57f5c63",
+            "message": "Resolved checkstyle errors",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 166,
-        "deletions": 157,
+        "insertions": 173,
+        "deletions": 162,
         "date": "2019-04-01",
         "commitResults": [
+          {
+            "hash": "aad4ea5ea60b7f3a355d47f22663f05ca1ca3915",
+            "message": "Edited page url",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "8e3984c475e7a5d1b49ecaa03f4e5ea75de56cb3",
+            "message": "Edited page url",
+            "insertions": 4,
+            "deletions": 2
+          },
           {
             "hash": "efbc2dcaa1c67bc91b57fc39ad174c12f876dce6",
             "message": "Edited User Guide",
@@ -539,8 +564,8 @@
         ]
       },
       {
-        "insertions": 14,
-        "deletions": 14,
+        "insertions": 40,
+        "deletions": 29,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -554,6 +579,12 @@
             "message": "Changed file name so it links to the AboutUs page",
             "insertions": 0,
             "deletions": 0
+          },
+          {
+            "hash": "a73535844af09dadde68a8482a3bbd057e42fde1",
+            "message": "Made updates to DG and PPP",
+            "insertions": 26,
+            "deletions": 15
           }
         ]
       }
@@ -1049,16 +1080,66 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 29,
+        "deletions": 12,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a6f97d38b5b066fbe2cd53416325e760c02c6629",
+            "message": "Added logic of setfile command to enable changing of files for data storage",
+            "insertions": 19,
+            "deletions": 11
+          },
+          {
+            "hash": "8b705a26e673a98c30be27304532a2e19636edc2",
+            "message": "Updated user guide commands set and setfile",
+            "insertions": 10,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 221,
+        "deletions": 71,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ac64b47c415747f9b24d7d2470706efabb254472",
+            "message": "Added Sequence Diagram for setCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "aba70272def546b55b78dca538b53751bf9acca8",
+            "message": "Updated developer guide for set budget",
+            "insertions": 122,
+            "deletions": 64
+          },
+          {
+            "hash": "5391cd21f3ed5bedcb4949f85ff7186abd816f65",
+            "message": "Fixed formatting in UserGuide.adoc",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "c68a5e892c751121e37c24b70e50210f54b034dd",
+            "message": "Fixed formmatting in UserGuide.adoc",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "4bec2d23fa627fd9a99b8ebc47ea8662c0647f4f",
+            "message": "Restored startUi.png in UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3163fab346a3d474b7ef5e1f72d9656dc983adc7",
+            "message": "Add first draft of JeremyLoye PPP",
+            "insertions": 87,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "Jackimaru96": [
@@ -1749,8 +1830,8 @@
         ]
       },
       {
-        "insertions": 87,
-        "deletions": 64,
+        "insertions": 98,
+        "deletions": 72,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -1776,6 +1857,18 @@
             "message": "PPP formatting",
             "insertions": 0,
             "deletions": 6
+          },
+          {
+            "hash": "29685d74800485f6ec465a47d07172fb6aa27801",
+            "message": "Updated Ui.png",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "222506a1ad9eb47d48faba6af79f7717a92a6b7a",
+            "message": "Updated PPP",
+            "insertions": 9,
+            "deletions": 7
           }
         ]
       }
@@ -2283,10 +2376,71 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 477,
+        "deletions": 129,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "24fc0543929a67cbe511448e23c81112f7cb7ac2",
+            "message": "Added CategoryContainsKeywordsPredicate test.",
+            "insertions": 137,
+            "deletions": 52
+          },
+          {
+            "hash": "5d985bd62ea2b7bf402ae56c2fca31a266ff2646",
+            "message": "Added search by date function and relevant tests",
+            "insertions": 137,
+            "deletions": 6
+          },
+          {
+            "hash": "553cb9e34f1020147b68219f401eee34a1cb4063",
+            "message": "Taught application to display total sum of searched records and updated test.",
+            "insertions": 16,
+            "deletions": 3
+          },
+          {
+            "hash": "92198e7392a422a6028ec4cfbd50528f48ba431b",
+            "message": "Checkstyle fix",
+            "insertions": 36,
+            "deletions": 33
+          },
+          {
+            "hash": "ae8e67057160aaac075bf4cb981e763960ea30ea",
+            "message": "Checkstyle fix",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "2dcfb516770ee66e013f38e28ed9eef54a25f77f",
+            "message": "Updated user guide to reflect changes in search function",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "0f875914c7541a1a3a660e9640768ed63567b18a",
+            "message": "Updated developer guide for search command.",
+            "insertions": 28,
+            "deletions": 17
+          },
+          {
+            "hash": "29c2d5a848039fe8ba950edc8209042c1338d10e",
+            "message": "Change version number in mainApp",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "86a3f53dde2a7f8d1553f66855ee79b77bd27b4a",
+            "message": "Created PPP for eugeneyl",
+            "insertions": 96,
+            "deletions": 1
+          },
+          {
+            "hash": "5612e6a19431f7fcf1af231b497924b757cc4b0e",
+            "message": "Updated eugeneyl PPP",
+            "insertions": 9,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "kjiaxuan": [
@@ -3068,8 +3222,8 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 23,
+        "insertions": 215,
+        "deletions": 105,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3077,24 +3231,84 @@
             "message": "Removed previous sort implementation text in dg",
             "insertions": 0,
             "deletions": 23
+          },
+          {
+            "hash": "e7257c1e64a9a2530420ffc8d70f88dccf2324bc",
+            "message": "Allowing duplicate records in spend command",
+            "insertions": 29,
+            "deletions": 25
+          },
+          {
+            "hash": "6ce01c7c07391d5f7d9d6eef2a4ee9b33f77c617",
+            "message": "Updated SpendCommandTest",
+            "insertions": 15,
+            "deletions": 13
+          },
+          {
+            "hash": "ced47f0c5e0f14c310b31e77d664cdecb3352a82",
+            "message": "Fix checkstyle error",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "e54b4e81ce49e84872bc6282e00c7e49d723fc43",
+            "message": "Fixed tests",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "5431f1f104dfbacd0fcd9e0f4d29d57175c72ad6",
+            "message": "Updated edit command to allow duplicate records",
+            "insertions": 18,
+            "deletions": 29
+          },
+          {
+            "hash": "ddcad6f9290703a491d4156d22ee48027dd77b6a",
+            "message": "Updated Implementation section: Sort Feature",
+            "insertions": 50,
+            "deletions": 1
+          },
+          {
+            "hash": "2a5811cef99ac791d395f8f3849e5f230ecc21cb",
+            "message": "DG: updated implementation section\u0027s reverse feature",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "653d480c1ab8743480bf6a73fb047ed36b314f04",
+            "message": "Added template for ppp",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "9b5ea12119cf35b572d950c06a836233791524e4",
+            "message": "ppp edits",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "ea0ab1858dc3384ebdd03a79d56e5494881271be",
+            "message": "newline",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "geezlouisee": 828,
-    "JeremyLoye": 1060,
-    "Jackimaru96": 3712,
-    "eugeneyl": 1578,
-    "kjiaxuan": 3213
+    "geezlouisee": 1247,
+    "JeremyLoye": 1247,
+    "Jackimaru96": 3662,
+    "eugeneyl": 1943,
+    "kjiaxuan": 3357
   },
   "authorContributionVariance": {
-    "geezlouisee": 23900.883,
-    "JeremyLoye": 73256.84,
-    "Jackimaru96": 106936.54,
-    "eugeneyl": 368417.2,
-    "kjiaxuan": 200435.97
+    "geezlouisee": 26855.027,
+    "JeremyLoye": 73992.3,
+    "Jackimaru96": 106969.68,
+    "eugeneyl": 372989.53,
+    "kjiaxuan": 200825.16
   },
   "authorDisplayNameMap": {
     "geezlouisee": "LOUISE LEE HUI LING",

@@ -594,6 +594,18 @@
         "deletions": 0,
         "date": "2019-04-01",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "sreycodes": [
@@ -1397,8 +1409,8 @@
         ]
       },
       {
-        "insertions": 175,
-        "deletions": 179,
+        "insertions": 226,
+        "deletions": 181,
         "date": "2019-03-27",
         "commitResults": [
           {
@@ -1406,14 +1418,33 @@
             "message": "Formatting",
             "insertions": 175,
             "deletions": 179
+          },
+          {
+            "hash": "1348a5b93adfe356d4121dba6582dee0b411eefa",
+            "message": "Added service type popularity stats method",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "eb2fc4cad24e22a7968b01f222d4a18c9e12bfe2",
+            "message": "Other statistic methods",
+            "insertions": 36,
+            "deletions": 2
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 9,
+        "deletions": 1,
         "date": "2019-03-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "428da401335c14ca954f676ffe0b9a891c9c8fe9",
+            "message": "Gives error msg",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1434,9 +1465,101 @@
         "commitResults": []
       },
       {
+        "insertions": 135,
+        "deletions": 13,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "a9678be1dbe237fa0321ad47bb177c6d33a9d62d",
+            "message": "Fix date parsing",
+            "insertions": 28,
+            "deletions": 10
+          },
+          {
+            "hash": "0b025f2c3213d3338ca80b7acafd02fac133278f",
+            "message": "Deletion of customer deletes his bookings and reservations also",
+            "insertions": 73,
+            "deletions": 1
+          },
+          {
+            "hash": "6c2a319c21fa922e5b7a1839d9726fb25a0d3573",
+            "message": "Fixed the deletion",
+            "insertions": 34,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 172,
+        "deletions": 150,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "bc39923da7936dac470e56ff3827a33f0ff97e74",
+            "message": "Fixed message for accompanying users",
+            "insertions": 13,
+            "deletions": 5
+          },
+          {
+            "hash": "68e969c381ce5819f679ab4da0d3773c7c6f88ff",
+            "message": "Added more errors for parsing time ranges",
+            "insertions": 17,
+            "deletions": 1
+          },
+          {
+            "hash": "2e9ed403f3e0771610da6971b3c2851d46801a56",
+            "message": "Formatted command messages",
+            "insertions": 20,
+            "deletions": 21
+          },
+          {
+            "hash": "e7cc739e93bd81422d42eba4eeee00db17e07250",
+            "message": "Added identification number checks and pretty printing customer",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "b10cbf28cbf303ffa4c6a6e14f8ac2d5c3d58a2b",
+            "message": "Removed codacy issues",
+            "insertions": 8,
+            "deletions": 23
+          },
+          {
+            "hash": "433c61ada4718893e3b70bc0ccff05717f6f6c76",
+            "message": "Payer index not allowed in other users\u0027 indices",
+            "insertions": 15,
+            "deletions": 6
+          },
+          {
+            "hash": "5749392b7a7e826046f39806329899219b1d4dd1",
+            "message": "Fix checkstyle",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "972be4da15a568c02056fc9e47cce13ff3737b72",
+            "message": "Changed booking and reservation bugfixes",
+            "insertions": 78,
+            "deletions": 69
+          },
+          {
+            "hash": "f904b99c5537157abdaef768181d5e71ae2a69de",
+            "message": "Formatted messages and made commands consistent in terms of errors",
+            "insertions": 3,
+            "deletions": 9
+          },
+          {
+            "hash": "72d782b2c7dca584723ad0332221f3a6abc51d70",
+            "message": "Optimized imports",
+            "insertions": 0,
+            "deletions": 5
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-01",
+        "date": "2019-04-03",
         "commitResults": []
       }
     ],
@@ -2514,6 +2637,110 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 1051,
+        "deletions": 315,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "7ea089b3fee7d2e2b932c49a9543a9ffccba754b",
+            "message": "Implementation of BillModel Complete.",
+            "insertions": 703,
+            "deletions": 74
+          },
+          {
+            "hash": "69cf209a93eec3203fbf83e57cdb5fa5cb44b335",
+            "message": "Correct errors",
+            "insertions": 11,
+            "deletions": 12
+          },
+          {
+            "hash": "fff7e0eeda52379810616f68f42d83fa123013fb",
+            "message": "Enhanced BillGeneration",
+            "insertions": 154,
+            "deletions": 127
+          },
+          {
+            "hash": "e396284201120a6099d91846ac78041ffcfbb9dc",
+            "message": "Corrected errors. Enhanced Id No.",
+            "insertions": 8,
+            "deletions": 11
+          },
+          {
+            "hash": "20135ecf20fbd2d82f14c019fe870f9b877f9ba3",
+            "message": "Enhanced Identification No. Corrected AddCustomerCommand accordingly.",
+            "insertions": 33,
+            "deletions": 24
+          },
+          {
+            "hash": "ea4525282a2dab9b13a177ee10e3f0f0367ebbb1",
+            "message": "BillModel Complete.",
+            "insertions": 113,
+            "deletions": 37
+          },
+          {
+            "hash": "b9ffecc3fe33ace2a3cb9bac80acf2e2fe47f5b6",
+            "message": "Corrected errors.",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "1be7299000b5b22279c6c6660e240266f607c318",
+            "message": "Corrected errors.",
+            "insertions": 21,
+            "deletions": 21
+          }
+        ]
+      },
+      {
+        "insertions": 964,
+        "deletions": 230,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "5148d51916898da217ee7cfd01a69ea809d1a6e3",
+            "message": "BillModel Complete",
+            "insertions": 862,
+            "deletions": 142
+          },
+          {
+            "hash": "6709c28d0c0674ab856bc035d79fd9b5e30cd25a",
+            "message": "Corrected errors.",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "889bcdae8543eb1fc8a1c5dd37ca7a5f8021d38d",
+            "message": "Corrected errors.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "edaae4084db6b8824547b07d9da56d15ba3ff16e",
+            "message": "Error correction.",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "981d9bbc61d0bed23d1f3c5247b1cbe372185869",
+            "message": "Created portfolio page",
+            "insertions": 77,
+            "deletions": 2
+          },
+          {
+            "hash": "7816427f50d8b5b8215e369fe2b48c1b7f84e1c3",
+            "message": "Corrected errors in FindReservationCommand.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "defb2c225a61eb056951947618b9eac76a97ed98",
+            "message": "Correct errors.",
+            "insertions": 1,
+            "deletions": 73
+          }
+        ]
       }
     ],
     "nerrons": [
@@ -3064,20 +3291,32 @@
         "deletions": 0,
         "date": "2019-04-01",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 3719,
-    "sreycodes": 10437,
-    "Tejas2805": 2549,
-    "nerrons": 1263
+    "ZhangCX10032": 3703,
+    "sreycodes": 10672,
+    "Tejas2805": 3268,
+    "nerrons": 1253
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 811674.9,
-    "sreycodes": 2.8356546E7,
-    "Tejas2805": 104797.96,
-    "nerrons": 247354.45
+    "ZhangCX10032": 783466.9,
+    "sreycodes": 2.731427E7,
+    "Tejas2805": 146790.12,
+    "nerrons": 238757.42
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

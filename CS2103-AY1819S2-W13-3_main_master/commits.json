@@ -440,10 +440,83 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 152,
+        "deletions": 59,
         "date": "2019-03-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "db3514be161f628a124a9d06e33ac9c98f0d07e1",
+            "message": "Update ListCommand.java to take in optional argument",
+            "insertions": 19,
+            "deletions": 3
+          },
+          {
+            "hash": "65528f4355b1714f95c0a6e85a4d4cd9b3367a58",
+            "message": "Add ListCommandParser.java to accept user input",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "a21419dc1fbbe5c06c50666c09422162c041f2ec",
+            "message": "Implement ListCommandParser logic",
+            "insertions": 19,
+            "deletions": 2
+          },
+          {
+            "hash": "a85be8f3f34c6c3721259fcbd7383716d9dec534",
+            "message": "Modify ListCommand.java logic to accept an optional argument",
+            "insertions": 40,
+            "deletions": 6
+          },
+          {
+            "hash": "8a586df9f278a746994de5e3c241bc479349c739",
+            "message": "Modified to add optional argument logic in ListCommandParser.java",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "f4d0eac7725d8d800eb47bf6fb803777da6519a2",
+            "message": "checkstyle fixes",
+            "insertions": 17,
+            "deletions": 13
+          },
+          {
+            "hash": "d573f38259ab3b97dc7b3b223f9f86c6308b9214",
+            "message": "more checkstyle fixes",
+            "insertions": 9,
+            "deletions": 10
+          },
+          {
+            "hash": "434dae233c54040e76d17ba9091767144fc4f327",
+            "message": "Updated User Guide and Developer Guide (with minor checkstyle fixes)",
+            "insertions": 14,
+            "deletions": 8
+          },
+          {
+            "hash": "38b1a9a077cf7e8f0a1d36cb1a445156c8009135",
+            "message": "edit ListCommand tests",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "c2647e0bcebed8128bf74008bebefd7397fe97a6",
+            "message": "checkstyle fixes",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "a2b42be806538c705bb529a8d9c3b3522f8626d3",
+            "message": "comment test cases relating to list command[temporary]",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "03c6aa4e0de79a93d775c229f8da50bf8c194552",
+            "message": "even more checkstyle fixes",
+            "insertions": 0,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -476,10 +549,151 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 996,
+        "deletions": 146,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ada7aa419d5a8f245792cc1a4b81a33f73fcbfb9",
+            "message": "Implement list n command logic",
+            "insertions": 996,
+            "deletions": 146
+          }
+        ]
+      },
+      {
+        "insertions": 564,
+        "deletions": 413,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "98f63e7bb8863c3c47628adf6b121cd491b0fe41",
+            "message": "Fixing ListCommandTest.java",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "88382518d77097b562d2d144f76d6fa8cb0f2081",
+            "message": "Clean up code and checkstyle fixes",
+            "insertions": 16,
+            "deletions": 36
+          },
+          {
+            "hash": "1fe5c9c0007687bb4a12b0e875fc97e199fa250c",
+            "message": "Update docs",
+            "insertions": 24,
+            "deletions": 22
+          },
+          {
+            "hash": "a79a1c8e4c825147f1e645efd0422a8791140dae",
+            "message": "Refactor TitleContainsKeywordsPredicate to SourceContainsKeywordsPredicate",
+            "insertions": 53,
+            "deletions": 51
+          },
+          {
+            "hash": "06b19f711a2935a42b41bff1dbd9227682c10a75",
+            "message": "update search command usage to accommodate complex search feature",
+            "insertions": 21,
+            "deletions": 6
+          },
+          {
+            "hash": "d544c1b1a0d6c852d89914fbefd76aaef82960d4",
+            "message": "refactor SourceContainsKeywordsPredicate to take in parameter of time ArgumentMultimap",
+            "insertions": 15,
+            "deletions": 7
+          },
+          {
+            "hash": "a988c3779d1b72283d1856e8bf9b680641088fd1",
+            "message": "modify SourceContainsKeywordsPredicate to split parameters into title, detail, type, source and tags",
+            "insertions": 54,
+            "deletions": 1
+          },
+          {
+            "hash": "ec24c5132f3a29d0c1b83f344c9524eb9625a650",
+            "message": "implement matchTitleKeywords in SourceContainsKeywordsPredicate.java",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "6a52435f7ac1d598c3a124f30ab9fac021bce4af",
+            "message": "implement matchTypeKeywords in SourceContainsKeywordsPredicate.java",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "59ae27510b48bfc06d85d3c915414f004e8c3c3d",
+            "message": "implement matchDetailKeywords in SourceContainsKeywordsPredicate.java",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "912be1ec211fe6edd9d759ee384afd9987360091",
+            "message": "implement matchTagKeywords in SourceContainsKeywordsPredicate.java",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "7c0ab62f242918b6da422d8a52d7d725a4398f5d",
+            "message": "modify matchTagKeywords in SourceContainsKeywordsPredicate.java to allow conjunction of multiple tags",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "b88cba41f10e8dd4b42fd6a8f7b21564026b0a56",
+            "message": "add javadoc comments to all methods in SourceContainsKeywordsPredicate",
+            "insertions": 36,
+            "deletions": 8
+          },
+          {
+            "hash": "514d2a5ba1bc0fab8f1c6126d73b73d507ac95a5",
+            "message": "update UG and DG; minor checkstyle fixes",
+            "insertions": 216,
+            "deletions": 237
+          },
+          {
+            "hash": "d8845a6e9bdd7d12808aa0c5f908d31c23fd2013",
+            "message": "add ruhanisuri.adoc PPP",
+            "insertions": 76,
+            "deletions": 2
+          },
+          {
+            "hash": "34f7168333658e93b4ea6b2a730cabdb3463f57f",
+            "message": "commenting out tests",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "053dc752c8144bad59adfb3875582f9b986f4939",
+            "message": "commenting out tests",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "c3faca95b91e8aba1825336b6ee009bbbdca453f",
+            "message": "edit PPP ruhanisuri.adoc",
+            "insertions": 3,
+            "deletions": 11
+          },
+          {
+            "hash": "e9ec995d33fc6e4247de1cdd49c6cad58981a687",
+            "message": "edit PPP ruhanisuri.adoc and minor checkstyle fixes",
+            "insertions": 13,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 17,
+        "deletions": 7,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "c0303652b27030b1296241650623de1a129eb0c9",
+            "message": "add @Ignore tags to failing system tests [temporary]",
+            "insertions": 17,
+            "deletions": 7
+          }
+        ]
       }
     ],
     "DoItTomorrow": [
@@ -892,6 +1106,158 @@
         "deletions": 0,
         "date": "2019-04-01",
         "commitResults": []
+      },
+      {
+        "insertions": 129,
+        "deletions": 14,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "f0556c5b379dedc55f247355d7524adfafa51c9b",
+            "message": "Updated Developer Guide entry for Biblio",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "15c9e0ebe38d5084517e34914a1d73e18ad834ee",
+            "message": "Updated Biblio command to accept format argument",
+            "insertions": 40,
+            "deletions": 7
+          },
+          {
+            "hash": "341abddea15b6192c5ed1150f9961602f32d0464",
+            "message": "Removed unnecessary initialization value in BiblioCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d24642a4c16b2d7ef5ee7c233ce650d18f0e0b2d",
+            "message": "Added tests for BiblioCommand",
+            "insertions": 62,
+            "deletions": 0
+          },
+          {
+            "hash": "7cced3e91758a56dfebe64df0548f2f86e4554a6",
+            "message": "Style edit in BiblioCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cf61638da153c2fd8c6a6ecb9a8393e15bdda667",
+            "message": "Minor styling change in BiblioCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "49258d8427f8896346fc962e4703d2809a6e4f3a",
+            "message": "Minor styling change in BiblioCommandTest.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d3188fae0461400255922fc07dee9b3ff064ab28",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "8c8171f9e713ab1bc2cf2727c66f2629f9d7d4d6",
+            "message": "Update BiblioCommandParser.java",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 55,
+        "deletions": 47,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "4c6f9c56f602ed33e82d2ab7a1a83b17d8ad862d",
+            "message": "Update BiblioCommandParser.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7c8d1d50dcff6235f26fce3b42e29315c33e046c",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "093b40c01145912e207287e5cb962c932d085212",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "e563f52951e04d514b5377d0d0d357c03c1cdad1",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "b5d1e7c0ede01515778d478026f04b2e6c38fb79",
+            "message": "Update BiblioCommand.java",
+            "insertions": 17,
+            "deletions": 11
+          },
+          {
+            "hash": "aaa4738eeb4ab00a3d99ac32e5190a6492c0c9a6",
+            "message": "Update BiblioCommand.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8a32cf108f49b9146c348df70d5d71d157644a18",
+            "message": "Update BiblioCommandParser.java",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "9d7951b5f5f466909ab406d277c084b6846f951a",
+            "message": "Update BiblioCommand.java",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "8f7fdf5004a83bc3b812ee8dcc75626871949145",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "6ec617bafe73f4ddbf7519cf6891b39bd5c8b909",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "ae04a2116204c6806571211e919247e4b3fbc665",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4662c27fd4dfaadcb9e0922b94bc479ba4fef8e4",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 12,
+            "deletions": 9
+          },
+          {
+            "hash": "83cce404639fcb1224416425c204c7214959f43e",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "1618bee6684cedeecb670cfe152f6d0d31fd3d13",
+            "message": "Update BiblioCommandTest.java",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "case141": [
@@ -1311,6 +1677,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
         "commitResults": []
       }
     ],
@@ -1789,6 +2167,49 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 322,
+        "deletions": 25,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "bcbe30d7785eb802ffea155577eb172230dbc2f6",
+            "message": "Minor logic change for the Custom Order Command",
+            "insertions": 198,
+            "deletions": 12
+          },
+          {
+            "hash": "d7b7494b5df161aeda6688e9f1fcb8720d5123a9",
+            "message": "Removed whitespaces",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "48e656edc73ab8e2987713f2682b6fdeecb3ca17",
+            "message": "Renamed methods to make Travis happy",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "4e7ee9184607c741a320bbdb6761a2626c244c42",
+            "message": "Added Custom Order to the developer guide",
+            "insertions": 111,
+            "deletions": 0
+          },
+          {
+            "hash": "64d80332ab8802e5086e64e838bee5ed386c12da",
+            "message": "Removed whitespaces",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
         "commitResults": []
       }
     ],
@@ -2571,8 +2992,8 @@
         ]
       },
       {
-        "insertions": 121,
-        "deletions": 12,
+        "insertions": 133,
+        "deletions": 13,
         "date": "2019-04-01",
         "commitResults": [
           {
@@ -2598,24 +3019,85 @@
             "message": "Implement regex validator for aliases",
             "insertions": 30,
             "deletions": 1
+          },
+          {
+            "hash": "8bca97fa505ad0bc5da3fb317ab8425ec66c7a67",
+            "message": "Update UserGuide.adoc",
+            "insertions": 12,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 331,
+        "deletions": 30,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "c06475b6154e3a7f5591b7806f545b2592b3c603",
+            "message": "Update user guide: fix formatting",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "2fb945ab8d023ea542dfc3c9dd200c47cb4df6be",
+            "message": "Update DeveloperGuide.adoc: command alias feature",
+            "insertions": 85,
+            "deletions": 15
+          },
+          {
+            "hash": "5657cd1ecc6799873ca984e05715dda8af918f99",
+            "message": "Update DeveloperGuide.adoc: fix wrong image",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "684b66fb732a87c518ed31d9c4a3949e1096c567",
+            "message": "Update DeveloperGuide.adoc: fix formatting issues",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "2b96a7a8827560d497589a0b663dd1adaf1dc9cd",
+            "message": "Fix checkstyle violations",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "5a7295b19e913b5d1829d60ebca8e76f477c08c9",
+            "message": "Create fterh.adoc",
+            "insertions": 78,
+            "deletions": 0
+          },
+          {
+            "hash": "d6bca00977fd11f53e47d5de204e4558e17e4502",
+            "message": "Update fterh.adoc",
+            "insertions": 158,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 386,
-    "DoItTomorrow": 90,
-    "case141": 345,
-    "DarrenDragonLee": 942,
-    "fterh": 2262
+    "suriruhani": 949,
+    "DoItTomorrow": 214,
+    "case141": 347,
+    "DarrenDragonLee": 1226,
+    "fterh": 2459
   },
   "authorContributionVariance": {
-    "suriruhani": 7870.3286,
-    "DoItTomorrow": 507.844,
-    "case141": 2963.4932,
-    "DarrenDragonLee": 21841.0,
-    "fterh": 145733.53
+    "suriruhani": 47284.41,
+    "DoItTomorrow": 1013.2581,
+    "case141": 2857.0642,
+    "DarrenDragonLee": 22725.203,
+    "fterh": 141576.72
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",

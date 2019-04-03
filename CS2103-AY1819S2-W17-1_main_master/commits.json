@@ -505,6 +505,62 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 98,
+        "deletions": 1,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "99b2635b1c47e5ffa38adf19ebd73302bfae1832",
+            "message": "Add Summary class",
+            "insertions": 98,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 528,
+        "deletions": 65,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "44137b375f8bc7f7ef907285d37dd43ecc0f3ff2",
+            "message": "Display RestaurantSummary in a panel in the GUI",
+            "insertions": 232,
+            "deletions": 6
+          },
+          {
+            "hash": "481f2dd5ec217427c14a3ca9f59ce61840692936",
+            "message": "Improve the appearance of RestaurantSummaryPanel, but need to fix bugs as its placeholder disappearing and the wraptext of the Labels in RestaurantSummaryPanel don\u0027t work",
+            "insertions": 119,
+            "deletions": 43
+          },
+          {
+            "hash": "1798e1cdb3e027daffb476a074bb5c62ee45592e",
+            "message": "Display the Restaurant\u0027s average rating on its RestaurantCard",
+            "insertions": 30,
+            "deletions": 11
+          },
+          {
+            "hash": "c721795e60c05b57a3fc4273bf50c906f8739f30",
+            "message": "Remove Summary package in Restaurant and make it a class in Restaurant package instead",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "ea57c52c6cd25c1346400ab3d7944e016e82dc51",
+            "message": "Update UiClassDiagram and ModelClassDiagram for V1.3, update developer guide and user guide, add PPP",
+            "insertions": 146,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "chanqingzhou": [
@@ -990,10 +1046,248 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 619,
+        "deletions": 186,
         "date": "2019-03-31",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "60bd207030fd39ae5af598262eb80021f2e25391",
+            "message": "added Postal to Restaurant",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "10125cbe5ba65695b99c68d347731af3a5162196",
+            "message": "updated commands to accept postal",
+            "insertions": 32,
+            "deletions": 9
+          },
+          {
+            "hash": "bebb7ea005d8f72b5c5aba6883e516af6376d131",
+            "message": "Updated Logic to work with postalData",
+            "insertions": 75,
+            "deletions": 8
+          },
+          {
+            "hash": "4c93290768e9c5d9d1146caa03c6400d41eaaadd",
+            "message": "Updated methods in postalData",
+            "insertions": 57,
+            "deletions": 10
+          },
+          {
+            "hash": "3e208804b904e30928d50ef4d5c4278935811f73",
+            "message": "updated sampel data",
+            "insertions": 40,
+            "deletions": 8
+          },
+          {
+            "hash": "9227e359e95e2d2d590d2b2180ab08c7a4f3e541",
+            "message": "updated test cases",
+            "insertions": 281,
+            "deletions": 65
+          },
+          {
+            "hash": "8a47fcdf5d8e486241c90dea094115417b0cfb9f",
+            "message": "updated styling errors",
+            "insertions": 66,
+            "deletions": 46
+          },
+          {
+            "hash": "70cfb86b5000d2df785602444ceabc38de67a386",
+            "message": "fixed test styling errors",
+            "insertions": 42,
+            "deletions": 34
+          },
+          {
+            "hash": "467477b379a82592e28320c1fbc62532db6256ee",
+            "message": "updated styling errors for test casese v2",
+            "insertions": 10,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 110,
+        "deletions": 120,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "54541bf6b2690ad8739bb67c8dde233b19ba0839",
+            "message": "rearranged userguide",
+            "insertions": 110,
+            "deletions": 120
+          }
+        ]
+      },
+      {
+        "insertions": 280,
+        "deletions": 186,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "67d3a820575545ad4b778ba7f9dab21cc6a16329",
+            "message": "testing tip icon",
+            "insertions": 20,
+            "deletions": 12
+          },
+          {
+            "hash": "7dc8d43ce41a50ad11a690a9ad33b0d36fe98c48",
+            "message": "test Userguide",
+            "insertions": 2,
+            "deletions": 8
+          },
+          {
+            "hash": "9539833fda52c8db2af4ed61f243e53c827eae15",
+            "message": "testing tip icon",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "d62ea18064d065af6f2a5954ea4f5161d2c63e72",
+            "message": "test Userguide v2",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "59dca7ea6cb0f78a4b78f917e5cf26f8afac92ad",
+            "message": "updated user guide",
+            "insertions": 15,
+            "deletions": 5
+          },
+          {
+            "hash": "c6a35cf7aa16116b08f70d99058eb4cb7b919e2b",
+            "message": "test Userguide v2",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0c49d8e29b675f29a980a99f6cf042db70fe3b14",
+            "message": "updated User Guide introduction",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "874655e6eac11b45ce0cb9d904c52fe178ca0605",
+            "message": "updated introduction again",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "d4ba12a4fba4149de440648aea0cf56920fda4de",
+            "message": "Updated userguide",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "114d9c456a7c6fbe484270ba4b334b6525127342",
+            "message": "updated images again",
+            "insertions": 13,
+            "deletions": 5
+          },
+          {
+            "hash": "811ebf26d9113c8c9ad6328154c4081fc02116e4",
+            "message": "added view image",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "1afad11d1dd6ff7e8fe291be71b45816085a4c96",
+            "message": "Updated documentations",
+            "insertions": 119,
+            "deletions": 67
+          },
+          {
+            "hash": "e6a6b4e60889b2cf8b329c443a79b69c8a6a975f",
+            "message": "Updated PPP?",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "492819a9e0f19712a3fcbb75dcc531d465997baf",
+            "message": "Updated styling",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "4c076d8bf519b46356a55ced24f8709902dfb7f1",
+            "message": "updated ppp",
+            "insertions": 39,
+            "deletions": 21
+          },
+          {
+            "hash": "5065104e77bde71a2da9cd94b91d55765aafd21b",
+            "message": "ppp updated",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a737c13569f3742d12acdf6de05feea8c1789a71",
+            "message": "ppp updated v2",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "9c54204223ea3ab6f1fce58b3f13287d53e1ddc9",
+            "message": "updated ppp profile name",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f39065b16d54a3348492c37080f4bbf7df3e292e",
+            "message": "ppp updated",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d9b95db981fe58cea3728fea831306aaab94de7c",
+            "message": "Update UserPrefs.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d366947032c51ba76a9a549873fae81ceae8c681",
+            "message": "updated test cases",
+            "insertions": 1,
+            "deletions": 9
+          },
+          {
+            "hash": "5a96308c6ff5f1c44495b732c9f1cdfb1fce98b4",
+            "message": "fixed styling errorsd",
+            "insertions": 9,
+            "deletions": 32
+          },
+          {
+            "hash": "cddffba761f40c7c57de3e09df2d21de378e7a2f",
+            "message": "fixed styling errorr in user guide",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 6,
+        "deletions": 4,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "fecfc91192e17ae7fedc5dd59d3c5cbacdc2100a",
+            "message": "updated profile to render",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "1cee108e376ae2a7a7a097d1563285eca0f482ed",
+            "message": "fixed styling error in user guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3403d4249605a2266f5410d28cb8f164981ad438",
+            "message": "Updated user guide removed \u003d\u003d\u003d\u003d",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "rbth7e5": [
@@ -1763,6 +2057,242 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 515,
+        "deletions": 321,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "4ce0454ada39221ad11c936096e711b2e5762365",
+            "message": "initialise price range class",
+            "insertions": 50,
+            "deletions": 0
+          },
+          {
+            "hash": "ab588ac5ba94b04cd45fe1b20d37c4e2fb4188d9",
+            "message": "implement Category to include price range and update respective parsers",
+            "insertions": 47,
+            "deletions": 28
+          },
+          {
+            "hash": "c9bca90fba3de5d49e719eee0c4ef30a3cf33998",
+            "message": "update jsonadaptedrestaurant, sampledatautil and setcategorycommand to support price range",
+            "insertions": 40,
+            "deletions": 11
+          },
+          {
+            "hash": "77650d281b30d0e4ceef7b7dc7ed9a51eb00e54c",
+            "message": "update ui to display price range, update color palette for categories",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
+            "hash": "3f9247ff3e0b60805413650b6aaa4f5d94721b2a",
+            "message": "initialise JsonAdaptedCategories class",
+            "insertions": 61,
+            "deletions": 0
+          },
+          {
+            "hash": "2129d639cba193f309f6c6237d51512f62430cea",
+            "message": "update JsonAdaptedRestaurant class to support JsonAdaptedCategories",
+            "insertions": 6,
+            "deletions": 56
+          },
+          {
+            "hash": "855a3fad068e9b91af70bcb64972440e8d63fc62",
+            "message": "refactor all responsibilities involving categories into Category class",
+            "insertions": 29,
+            "deletions": 23
+          },
+          {
+            "hash": "a63470263ecf141287aefa5135dc3a8467240e2d",
+            "message": "fix null pointer failures in tests",
+            "insertions": 22,
+            "deletions": 26
+          },
+          {
+            "hash": "44e919f4f47098d7991339b9d4131f1c439ce637",
+            "message": "fix style violations for src/main",
+            "insertions": 15,
+            "deletions": 20
+          },
+          {
+            "hash": "d865f296303919e349cba839a515e21a7796e766",
+            "message": "fix style violations in src/test",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "f8e31aed45ec859dc4fd736b699c27400c053ce0",
+            "message": "update setcategorycommandtest to support occasion and price range",
+            "insertions": 13,
+            "deletions": 4
+          },
+          {
+            "hash": "73f9e5d43832836131eed0b1ef2d114e37fbcd1e",
+            "message": "fix bug where occasion is still displayed when not present",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8ce55d9c603bbb980129dc89b36e49b2eefcd889",
+            "message": "hide without occupying space for categories if not present",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "dbb8dcc7844371aad184884ebff847f99150394f",
+            "message": "update add command examples to accurately reflect usage of tags",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "faeb4c9e65921573bf04f1e091a097ada533295e",
+            "message": "add new String Util to capitalise words",
+            "insertions": 23,
+            "deletions": 0
+          },
+          {
+            "hash": "9e8c758a71ab5f6926d42b916e6b02cd4742b6c3",
+            "message": "implement autocapitalisation when setting categories",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "02e5b2deefe091bfb496b6983cd9accce19bd15d",
+            "message": "update user doc to be more user friendly and add in references and examples for price range",
+            "insertions": 27,
+            "deletions": 20
+          },
+          {
+            "hash": "c98adc6a89819737e4b5159f40ddbe297efb608e",
+            "message": "update manual testing for set categories in developer guide",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "1e0a3229e3a2905c14f581c72d84aa1f3bf16a58",
+            "message": "fix style violations in src/main",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "1169a0d6a50d76e3292296608a9fc690b16f88d2",
+            "message": "refactor and update documentation to change category to categories",
+            "insertions": 91,
+            "deletions": 91
+          },
+          {
+            "hash": "4c9bd2d03545312292a4dea5704ad7a8611dfd9f",
+            "message": "refactor categoriesCommandParserTest to SetCategoriesCommandParserTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ad35f2d06cd8ae31057c0170cf4f2ba8a3ad2def",
+            "message": "update documentation to reflect code changes",
+            "insertions": 28,
+            "deletions": 28
+          },
+          {
+            "hash": "ba25b93779c51c37d45e7f81541c7973105f0bed",
+            "message": "fix style violations in test",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "98042871cb387e52b706a76f29a734cf7ca18027",
+            "message": "add user story for autocomplete",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "83fe1a21f5d24bc8927e28c2c852d03c4a7e325f",
+            "message": "add comment to setLabel method of Categories class",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 189,
+        "deletions": 61,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "1d13f06474227a690670ccabb1bcf6e751df2fad",
+            "message": "added project portfolio",
+            "insertions": 66,
+            "deletions": 0
+          },
+          {
+            "hash": "b5bebdacbe08b4d758170e23cd072aa11760ba1a",
+            "message": "update portfolio with contributions in developer guide",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "37db355d11e825cbbd56105048470036341ffbfa",
+            "message": "fix asciidoc style violations",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7df15adba6c817fd5288b2b7504f6c40c4e5a968",
+            "message": "update user guide title to The Food Diary",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "db8e6fd2fb623935694105a9c9349d068ec10daf",
+            "message": "add link from aboutus to portfolio",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "dec3b6af5de5cb99d2b9141b83b788b1eaa1b479",
+            "message": "update project portfolio with my role",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "947fb307bb247ed35f45b7e4998ef367d14a7d15",
+            "message": "update filter command message usage",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "f634c3760ec094ba012ff85768afc4dc13ff1840",
+            "message": "add assertions to categories",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "44ce45d40be49464fcf6ba0e1eae744baf6d81d4",
+            "message": "update dev guide wait diagrams",
+            "insertions": 95,
+            "deletions": 46
+          },
+          {
+            "hash": "b6a9dfc7e4f5fca9c0bcb916a0a1e686f95762cd",
+            "message": "update project portfolio with community contributions",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "7d1fae0d3004ed3d3a4ee6ddbefa77821538e9a0",
+            "message": "change rating location to beside restaurant name",
+            "insertions": 7,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "Wklee96": [
@@ -2492,21 +3022,242 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 4,
         "deletions": 0,
         "date": "2019-03-29",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d6c8e032d8bffb0b74633ff475530a834681ae9e",
+            "message": "allow users to add weblink without https://",
+            "insertions": 4,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
+        "insertions": 10,
         "deletions": 0,
         "date": "2019-03-30",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c9397fbaf8524d1b956b14973e68e8d3972c907f",
+            "message": "allow parsing of weblink into visitWeb",
+            "insertions": 10,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 148,
+        "deletions": 48,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "fd671857e741f3e2ae1ba82b7fa5c7bac37e2711",
+            "message": "allow visitwebcommand to take in weblink",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "290597a3e68bcd0a225379004ad85945a8a08fc0",
+            "message": "allow user to enter url also parameter of visitWeb",
+            "insertions": 15,
+            "deletions": 8
+          },
+          {
+            "hash": "677f777f4addecb0ba58b4e8760cd849a50f3d7c",
+            "message": "added flag in commandResult whether to show weblink on browser panel",
+            "insertions": 11,
+            "deletions": 3
+          },
+          {
+            "hash": "63608778284e8393c7b992eff0f51be9d7974eb9",
+            "message": "implemented allow users to visit any website",
+            "insertions": 33,
+            "deletions": 7
+          },
+          {
+            "hash": "8a70464d0744b3eae8a2f08fd2d8867d88269146",
+            "message": "fix checkstyle",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "dcb442c963b589c04c066db1e81de10da13bd962",
+            "message": "debugged adding of https to weblinks",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "56bf91f8048787974c169686636aeb99da33ad6d",
+            "message": "updated usage msg for visitWeb command",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "7747227a36b8914bc81f99aa0ad1261e0db7c828",
+            "message": "updated user guide",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "843fda9e6b30de5e88b3a769f47ed84f2084c5ed",
+            "message": "debugged",
+            "insertions": 3,
+            "deletions": 8
+          },
+          {
+            "hash": "6a79d747bc3684364f907e21b4fdcf5efea2d196",
+            "message": "show user the url they entered as part of invalid url msg",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "87acfd398739e545978a5537ffb6831c7bb280ec",
+            "message": "allow users to add web without needing https://",
+            "insertions": 16,
+            "deletions": 5
+          },
+          {
+            "hash": "a1f4a000ed5cffaf55e0a533511f620aa62b0886",
+            "message": "debugged visitWeb url",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "71c7fcebde8cf719a58393a14a6f488feaedf449",
+            "message": "organise prependHttps method",
+            "insertions": 17,
+            "deletions": 3
+          },
+          {
+            "hash": "d65ce91fd026cd64ebf37502d87ef1c65ea99c4e",
+            "message": "debugged visitWeb incorrect format",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "a9e4247771b9d93308bd1811347d581b14c3509c",
+            "message": "added www. to add example",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e678962f97a8afc02a8508bf2bcb8517044bbf79",
+            "message": "remove unncessary spaces",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 89,
+        "deletions": 22,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "d8941ee1cae23d83a6615deefd555942a10272bc",
+            "message": "prompt user to change weblink if url is not found",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "443d716e42b09803ba6b7564d3c85d6a2271fb2a",
+            "message": "added comments",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "3136102dde3477096294e73c9d9274248bd4c749",
+            "message": "invert isValidWeblinkUrl method",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "c0a02a5c8deae8b65fbd8ec84a7f6bc120dcfd9d",
+            "message": "added new NoInternetException class",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "c5d39305a59a07dbddffddc5f3cb8f652060e23c",
+            "message": "if no internet, print error message",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "080bbd39bd4b92eed1ac3151a412330a04d55f09",
+            "message": "refractor methods out to modularise code",
+            "insertions": 26,
+            "deletions": 6
+          },
+          {
+            "hash": "1438b2613cd76675a93a1a465315642608934d51",
+            "message": "fix checkstyle",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 130,
+        "deletions": 75,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "306e3d75f00d005349783c0289fc391adfeaf455",
+            "message": "edited UG of visitweb",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "03b818d0addde3aca05726a8d894d238f4184f9a",
+            "message": "added PPP adoc",
+            "insertions": 58,
+            "deletions": 0
+          },
+          {
+            "hash": "1dcbb90e4c21ec1662f6c759a69c45d6b23b0569",
+            "message": "updated use case",
+            "insertions": 40,
+            "deletions": 66
+          },
+          {
+            "hash": "4411d5bc9f4c37c653c6d287ea45b6ebe7d565c8",
+            "message": "updated visitWeb for DG",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "d14a806cd0a7074f3a7e5e674d89013179da08d5",
+            "message": "added link in AboutUs",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3cf7ea56b3bff98e018f677401208887d531231d",
+            "message": "added newline at end of file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8f7c3e20350500fdd7cce6bd5c2a61169eef5f0f",
+            "message": "added qingzhou portfolio in aboutUs",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "15407ba1ca9a61c405f7b6c8a7cf006d06ac9797",
+            "message": "removed line",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-03-31",
+        "date": "2019-04-03",
         "commitResults": []
       }
     ],
@@ -3058,22 +3809,83 @@
         "deletions": 0,
         "date": "2019-03-31",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-01",
+        "commitResults": []
+      },
+      {
+        "insertions": 104,
+        "deletions": 8,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "42674c65a2ac68ce6d8d3e7ae33a8deb9b677999",
+            "message": "fixed editReview commands bug of not being able to edit the first index",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "16dcebdc8192548cde9c3667c3ee643b56b50570",
+            "message": "created and added a flowchart explaining execution of editReview command into the User Guide. Included ppt file used to make flowchart and the .png file of the flowchart image.",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "5d1e277c93eff2ba2ffdafcac5c5bd5a0fe9944a",
+            "message": "user guide, ppp, devguide edits, added screenshots for ug",
+            "insertions": 94,
+            "deletions": 4
+          },
+          {
+            "hash": "3ad00fb9fd521a7531b1555b98dc1171a364ad49",
+            "message": "dev guide bug",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "c08a31ad2e0f2963a26fd62265c4f02cac8bbef1",
+            "message": "added portfolio button to skpai27",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "90936dc3f5816dbdeb8ace6d714820ca7d82c120",
+            "message": "added weixins pp button",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e1025e91dcc8a397cfcf33244e3e0a42591e1bc4",
+            "message": "ug fix",
+            "insertions": 3,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "weixin-koh": 1311,
-    "chanqingzhou": 641,
-    "rbth7e5": 4311,
-    "Wklee96": 653,
-    "skpai27": 911
+    "weixin-koh": 1810,
+    "chanqingzhou": 1435,
+    "rbth7e5": 4560,
+    "Wklee96": 916,
+    "skpai27": 991
   },
   "authorContributionVariance": {
-    "weixin-koh": 18304.186,
-    "chanqingzhou": 4660.815,
-    "rbth7e5": 510217.53,
-    "Wklee96": 4428.451,
-    "skpai27": 7147.869
+    "weixin-koh": 22899.582,
+    "chanqingzhou": 19747.729,
+    "rbth7e5": 490093.5,
+    "Wklee96": 5411.4336,
+    "skpai27": 6905.5903
   },
   "authorDisplayNameMap": {
     "weixin-koh": "KOH...XIN",

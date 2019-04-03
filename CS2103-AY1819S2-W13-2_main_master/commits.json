@@ -359,8 +359,8 @@
         ]
       },
       {
-        "insertions": 31,
-        "deletions": 47,
+        "insertions": 116,
+        "deletions": 75,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -374,6 +374,18 @@
             "message": "Resolve checkstyle and allTests issues",
             "insertions": 2,
             "deletions": 4
+          },
+          {
+            "hash": "4f7ddef0293e5376b179a2ecd23c771ca53e5355",
+            "message": "Update ppp",
+            "insertions": 84,
+            "deletions": 27
+          },
+          {
+            "hash": "0cf0e8907e076f6906572848ef4e99e633502071",
+            "message": "Resolve checkstyle",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
@@ -1590,8 +1602,8 @@
         ]
       },
       {
-        "insertions": 17,
-        "deletions": 7,
+        "insertions": 222,
+        "deletions": 86,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -1599,6 +1611,66 @@
             "message": "Update activity storage and documentation",
             "insertions": 17,
             "deletions": 7
+          },
+          {
+            "hash": "0572436a3151a1b751035950f013ff2b7696937d",
+            "message": "added ppp",
+            "insertions": 66,
+            "deletions": 0
+          },
+          {
+            "hash": "a8620178245d468b927f024fa0aadd0d0378d2a6",
+            "message": "fix merge issues",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "7123b6ea67f406f5da88d9cbcc42ef8870895243",
+            "message": "Fixed command parser for memberSort and memberFind.",
+            "insertions": 41,
+            "deletions": 6
+          },
+          {
+            "hash": "59d2808f317a417a23aa95afe8562b0b7b610090",
+            "message": "Changing parser implementation to catch incorrectly formated matric",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "be20edc9ebf33348ffd86b0967c5eb07dfe07163",
+            "message": "fix bug for editing new attributes",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "9bf44e44c5f555e4dfb92cd98f346b9426c6ca1c",
+            "message": "Editing memberEdit so there will be no duplicated matric number",
+            "insertions": 45,
+            "deletions": 34
+          },
+          {
+            "hash": "9dbe6641e6ad412b8ca1431160fbcf30f2bcce44",
+            "message": "Changed names to club manager.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "4cbc8525045fa33493b3a7617ed36f857f5e0ff7",
+            "message": "Photo display in gh-phages.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "3563200381bb05d206db6b8d1de46e5545b877c5",
+            "message": "Updated ppp for Yiqing",
+            "insertions": 38,
+            "deletions": 26
+          },
+          {
+            "hash": "7b30d1ff89d93960bfd0cbf0f931dc14fd92c50d",
+            "message": "Update ppp in AboutUs",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
@@ -1970,16 +2042,78 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1129,
+        "deletions": 270,
         "date": "2019-03-30",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ece777d3dcc57097e2efd15f2ca2d074f775973e",
+            "message": "Added containsIgnoreCase method to search partial words, enhancement to MemberFindCommand \"matricnum\" and \"name\" as search criteria, updated tests, additional predicates added",
+            "insertions": 147,
+            "deletions": 23
+          },
+          {
+            "hash": "cf753a23f6eeb1aeb9f7f7117448da21db9bb48f",
+            "message": "checkstyle revision",
+            "insertions": 36,
+            "deletions": 15
+          },
+          {
+            "hash": "83453761cda98688e07c650e5415b9cadfd2e908",
+            "message": "more checkstyle",
+            "insertions": 19,
+            "deletions": 16
+          },
+          {
+            "hash": "dea08a9af06ff12fe79f00bcd706eb88e200209e",
+            "message": "addressbookpasertest changes",
+            "insertions": 42,
+            "deletions": 45
+          },
+          {
+            "hash": "79025316b2d8c6a9fa8ea39251e4ada5edf64e55",
+            "message": "swtich statement indent",
+            "insertions": 39,
+            "deletions": 39
+          },
+          {
+            "hash": "7e781081990a5ee822c46eb3bfa4a53fed82d389",
+            "message": "revision",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "4f32bfcf58b5496627ab51653b1c075cab6d35fd",
+            "message": "updated relevant tests",
+            "insertions": 38,
+            "deletions": 33
+          },
+          {
+            "hash": "086683af2ebbb05ec90ad7018e2f4be9469407ee",
+            "message": "Updated tests",
+            "insertions": 806,
+            "deletions": 94
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 5,
+        "deletions": 4,
         "date": "2019-03-31",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "65b74d09a4abafdb75b3fb72faf92979e674985b",
+            "message": "checkstyle issues",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "6881a80bbb1fb3642e20bd04563f77b210fa3b59",
+            "message": "checktyle errors",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1988,10 +2122,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 71,
+        "deletions": 1,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "50d635e1deb7ceacd4f773cf00ab775cd750647c",
+            "message": "Started a PPP",
+            "insertions": 70,
+            "deletions": 0
+          },
+          {
+            "hash": "f60477c50bf8245142a13a4d2095e625b775f369",
+            "message": "changed aboutus page",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "joel0111": [
@@ -2799,7 +2946,7 @@
         "commitResults": []
       },
       {
-        "insertions": 63,
+        "insertions": 65,
         "deletions": 5,
         "date": "2019-04-02",
         "commitResults": [
@@ -2808,24 +2955,30 @@
             "message": "started a PPP and updated UserGuide",
             "insertions": 63,
             "deletions": 5
+          },
+          {
+            "hash": "eba38d50d6f557ae6ebf2eaa7f954438e699b1b6",
+            "message": "updated UserGuide",
+            "insertions": 2,
+            "deletions": 0
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "minernchan": 314,
-    "A0143487X-Kevin": 981,
-    "ivyyangyq": 2710,
-    "melkwx": 158,
-    "joel0111": 2193
+    "minernchan": 393,
+    "A0143487X-Kevin": 966,
+    "ivyyangyq": 2810,
+    "melkwx": 509,
+    "joel0111": 2161
   },
   "authorContributionVariance": {
-    "minernchan": 1729.8176,
+    "minernchan": 2273.1287,
     "A0143487X-Kevin": 17137.176,
-    "ivyyangyq": 17244.549,
-    "melkwx": 968.9352,
-    "joel0111": 37416.816
+    "ivyyangyq": 18234.762,
+    "melkwx": 37516.566,
+    "joel0111": 37415.312
   },
   "authorDisplayNameMap": {
     "minernchan": "CHA...ERN",

@@ -1117,10 +1117,47 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 28,
+        "deletions": 81,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3c9d22a8dd7ea47e742b3ab7396aced90f7aa51a",
+            "message": "Restructure UG",
+            "insertions": 19,
+            "deletions": 64
+          },
+          {
+            "hash": "ad516d42a7634c2926dc355a56a871d24b63e54c",
+            "message": "Rename title to Battleship",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ad7e2c35bede5e27ca1b167b7687923e8482c81b",
+            "message": "Update UserGuide.adoc",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2f6a37a5f1cb0418d5ede8edd4275c269e96f860",
+            "message": "Remove UG and DG tags in johndoe.adoc",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "343d972f7e78fd1e12796c4ba6dd2ee94744feeb",
+            "message": "Minor fixes",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "a9ff2bc78971242c3fabbe490c3380a1042044d8",
+            "message": "Rename README title to Battleship",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "iwle": [
@@ -2678,10 +2715,35 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 93,
+        "deletions": 11,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3e14b6b37dc22043efc4edeb7a307bc4584ffb15",
+            "message": "Add PPP for iwle",
+            "insertions": 58,
+            "deletions": 1
+          },
+          {
+            "hash": "d3e14244735edfe5fbc477e35540667233336d45",
+            "message": "Update UG intro and quick start",
+            "insertions": 29,
+            "deletions": 7
+          },
+          {
+            "hash": "1bcdac0f32d7fc9a261bd0aa0ba9b3f6c455ffd0",
+            "message": "Fix formatting errors in UG",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "eb1217cddf83c1d0e23af4dc0c0e8a424883a875",
+            "message": "Update version number in MainApp",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "lucydotc": [
@@ -3173,8 +3235,8 @@
         ]
       },
       {
-        "insertions": 29,
-        "deletions": 18,
+        "insertions": 179,
+        "deletions": 27,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3188,6 +3250,30 @@
             "message": "Add boundary checker Add logging messages",
             "insertions": 14,
             "deletions": 7
+          },
+          {
+            "hash": "24d996d2a55029371636bba404952c4bf37e8f9c",
+            "message": "Update Enemy AI Developer Guide",
+            "insertions": 41,
+            "deletions": 7
+          },
+          {
+            "hash": "a64d75bf65b96f596cf3c08d04ba581164a2eeca",
+            "message": "Add gif of enemy shooting",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "12e18784dd1fd5d237a5beaf5d9cefbd86789b29",
+            "message": "Update User Guide with Game Rules",
+            "insertions": 43,
+            "deletions": 2
+          },
+          {
+            "hash": "cd1599cbce02e79ba09ee20df2a547e0306fecda",
+            "message": "Add my PPP",
+            "insertions": 64,
+            "deletions": 0
           }
         ]
       }
@@ -3883,8 +3969,8 @@
         "commitResults": []
       },
       {
-        "insertions": 107,
-        "deletions": 104,
+        "insertions": 236,
+        "deletions": 151,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3898,6 +3984,30 @@
             "message": "Added more tests to stats to increase coverage",
             "insertions": 46,
             "deletions": 25
+          },
+          {
+            "hash": "54b7f8bfa4071045018d5523309cb4d52f6729c0",
+            "message": "Added PPP draft",
+            "insertions": 64,
+            "deletions": 3
+          },
+          {
+            "hash": "883cfb6c8971af951f7640b900d1ec1c04848a66",
+            "message": "Updated Command Summary in UG, Updated MSS DG",
+            "insertions": 25,
+            "deletions": 16
+          },
+          {
+            "hash": "8175237357543911b56c4dfebedea441a9f6ecfe",
+            "message": "Fixed indexoutofbound bug, Tweak UI, Readjust Code",
+            "insertions": 35,
+            "deletions": 23
+          },
+          {
+            "hash": "b53e6320624dfbcc075ca24124a01589811777b1",
+            "message": "Modified Model Diag, Rectified Test Bug",
+            "insertions": 5,
+            "deletions": 5
           }
         ]
       }
@@ -4646,7 +4756,7 @@
         ]
       },
       {
-        "insertions": 51,
+        "insertions": 97,
         "deletions": 3,
         "date": "2019-04-01",
         "commitResults": [
@@ -4655,30 +4765,55 @@
             "message": "Update text in Developer Guide: Battle section",
             "insertions": 51,
             "deletions": 3
+          },
+          {
+            "hash": "4a31ac7589bdc9e7c5490a9bc7ed15404cd3c3e1",
+            "message": "Improve tests for EndTurn command",
+            "insertions": 46,
+            "deletions": 0
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 91,
+        "deletions": 9,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f54a285641060e82e7041dd3e5df7a203124b9ef",
+            "message": "Made updates to Developer Guide and User Guide.",
+            "insertions": 23,
+            "deletions": 8
+          },
+          {
+            "hash": "afffd3570116345630c1973d3da17f381d041243",
+            "message": "Add PPP draft for Esther (Chong Shao Wei).",
+            "insertions": 62,
+            "deletions": 0
+          },
+          {
+            "hash": "49a74064c82bfdf52cca5ff82edf4cf750be79af",
+            "message": "Add diagram for Start command to DG",
+            "insertions": 6,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 2009,
-    "iwle": 2920,
-    "lucydotc": 576,
-    "bos10": 687,
-    "s-tr": 1256
+    "erjillsison": 2028,
+    "iwle": 2974,
+    "lucydotc": 717,
+    "bos10": 784,
+    "s-tr": 1375
   },
   "authorContributionVariance": {
-    "erjillsison": 194397.5,
-    "iwle": 36691.867,
-    "lucydotc": 4532.567,
-    "bos10": 13912.334,
-    "s-tr": 4583.0786
+    "erjillsison": 194031.69,
+    "iwle": 36406.016,
+    "lucydotc": 5158.1587,
+    "bos10": 15639.4,
+    "s-tr": 4696.72
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

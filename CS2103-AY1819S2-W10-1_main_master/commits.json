@@ -767,10 +767,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 61,
+        "deletions": 23,
         "date": "2019-03-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "956b12593aa70be604718b88b82e0efe577bb121",
+            "message": "Update User Guide introduction and glossary",
+            "insertions": 61,
+            "deletions": 23
+          }
+        ]
       },
       {
         "insertions": 1636,
@@ -1038,14 +1045,21 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 66,
+        "deletions": 9,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "458296358118e9068a6bff1369d72fdd1401afcc",
+            "message": "Add Google News search command",
+            "insertions": 66,
+            "deletions": 9
+          }
+        ]
       },
       {
-        "insertions": 7,
-        "deletions": 9,
+        "insertions": 555,
+        "deletions": 306,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -1053,6 +1067,48 @@
             "message": "Fix time as float bug, remove unneeded import",
             "insertions": 7,
             "deletions": 9
+          },
+          {
+            "hash": "988935090fb548197d3c69e33b6b2365b574e329",
+            "message": "Fix time as float bug, remove unneeded import",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "65b01194ffa330070d700760a04eb32ef8cbaf6c",
+            "message": "Refactor autofill code in AddCommand into EntryAutofill",
+            "insertions": 142,
+            "deletions": 80
+          },
+          {
+            "hash": "9a988e8a55c786e7dc440c769ca9f8bfb63167dc",
+            "message": "Change structure to have separate Features and Commands sections",
+            "insertions": 230,
+            "deletions": 168
+          },
+          {
+            "hash": "4b49c7125db7e3bd93c6de020aa2f313fe9504fd",
+            "message": "Fix checkstyle violations",
+            "insertions": 14,
+            "deletions": 8
+          },
+          {
+            "hash": "33b7da986f480392267b305187de13a969c21f9d",
+            "message": "Update and expand Autofill, Reader View sections",
+            "insertions": 76,
+            "deletions": 32
+          },
+          {
+            "hash": "954d1ff9d802dcd07606dec6a249a74d9cc92c61",
+            "message": "Add Google News command",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "c0b50111465c25fc693d0d9d2bee4dd7eeaf3d03",
+            "message": "Add rlrh PPP",
+            "insertions": 65,
+            "deletions": 0
           }
         ]
       }
@@ -1659,8 +1715,8 @@
         ]
       },
       {
-        "insertions": 158,
-        "deletions": 81,
+        "insertions": 1161,
+        "deletions": 356,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -1680,6 +1736,204 @@
             "message": "defend against rometools returning null",
             "insertions": 27,
             "deletions": 13
+          },
+          {
+            "hash": "7c7bc83c076f58164f549f51572e3080b623a039",
+            "message": "command sequence in quick start was outdated",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "a0b61ad8dacb15a5a13ba8fc9c2ed6f61e3a4073",
+            "message": "UG: touch up feed related stuff",
+            "insertions": 40,
+            "deletions": 49
+          },
+          {
+            "hash": "18d0176a4d17961dd870e6ffbf80251ce49e09e5",
+            "message": "Parser: recognise `feeds` command",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "ca56c4f16c5ad94412781312e0aef10ce779bffd",
+            "message": "UG: rename search -\u003e results (user facing)",
+            "insertions": 13,
+            "deletions": 11
+          },
+          {
+            "hash": "d5c91ab8bee5e4cf350317504eb04679af489c20",
+            "message": "add FEEDS context, complete FeedsCommand",
+            "insertions": 43,
+            "deletions": 2
+          },
+          {
+            "hash": "13a9639f36301dd40eca3896b3e0952b9a9698fe",
+            "message": "MainApp: refactor EntryBook initialization",
+            "insertions": 48,
+            "deletions": 27
+          },
+          {
+            "hash": "86ef9bcd9625bcb7026384b8f1cfa4d4e84fda0a",
+            "message": "fix travis!!!!!!!!!!",
+            "insertions": 22,
+            "deletions": 10
+          },
+          {
+            "hash": "f214aa2035e42811feccbfca5972196932843ed0",
+            "message": "StorageManager: add feedsEntryBookStorage",
+            "insertions": 64,
+            "deletions": 25
+          },
+          {
+            "hash": "745c6355f9021aa602b01f3d7a5d21d3ead7b3cc",
+            "message": "hook FeedEntryBookStorage into MainApp",
+            "insertions": 15,
+            "deletions": 8
+          },
+          {
+            "hash": "0c4cd4633eb5caa0e82ea49338943666ec7817ec",
+            "message": "Tests: add typical feedEntryBook entries",
+            "insertions": 44,
+            "deletions": 5
+          },
+          {
+            "hash": "50acc4ebb63593ee6a4d5875a507988e24319294",
+            "message": "ModelManager: kill some bugs in tests",
+            "insertions": 35,
+            "deletions": 14
+          },
+          {
+            "hash": "9b30dd9dda5feea60dc8b0e7f3890708f46bf006",
+            "message": "ModelManager constructor signature change",
+            "insertions": 19,
+            "deletions": 8
+          },
+          {
+            "hash": "9d93c80a9d041529ce3970ee73038707cce7596f",
+            "message": "add feed management API to Model",
+            "insertions": 70,
+            "deletions": 3
+          },
+          {
+            "hash": "e6a72bcc0dbee08690236511ecac645b63390f11",
+            "message": "make codacy slightly happier",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "e944f5241f2bc0a1507164f6362eec219612580d",
+            "message": "Feeds context: link it to FeedsParser",
+            "insertions": 40,
+            "deletions": 1
+          },
+          {
+            "hash": "05c12f1f61d0355ed05fcad3fd84f0b11b99ed72",
+            "message": "extract parsing entry from args into own method",
+            "insertions": 38,
+            "deletions": 39
+          },
+          {
+            "hash": "d519ede55d68e0551f67827ff08c2e683c821c8c",
+            "message": "SubCommand: add stub",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "341aa5df8b624c0ee404b927f010b3716677f4ba",
+            "message": "recognise subscribe/sub command",
+            "insertions": 35,
+            "deletions": 7
+          },
+          {
+            "hash": "3ad45855243db3fe0215323b9d787dad976812ad",
+            "message": "SubscribeCommand: register changes in model",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "139bfe866eb8d78e087a40b4a543d1e98bebcd26",
+            "message": "implement equals for sub command",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "07fd3d754d2da28c2d1a48961dd9b067a7fa770b",
+            "message": "implement unsub",
+            "insertions": 88,
+            "deletions": 0
+          },
+          {
+            "hash": "825d3b1a745bb003da166925aac9a6bf7556bfd7",
+            "message": "TRAVIS!!!!!",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "3c90367eb099507866ac8629bae524c2927e48f7",
+            "message": "guard feeds command with a context-swing test",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "15112f33808c529bb14ba6d43632ba6fd1d03dd4",
+            "message": "update from feeds and import feed when subbing",
+            "insertions": 136,
+            "deletions": 1
+          },
+          {
+            "hash": "cd02edf531cbb6ab17dd62bf7556ee0a7cff24cb",
+            "message": "whitespace",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "7399325c782942a0a4e47657cd88d7b1f832cab2",
+            "message": "tag Qi Ji\u0027s section of DG",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "66d40405e2de64a4059e8072f9af4eac231df1fe",
+            "message": "DG: touch up @qjqqyy section a bit more",
+            "insertions": 31,
+            "deletions": 31
+          },
+          {
+            "hash": "6e790c69eda8e797e995731c0fb252ad646de6b9",
+            "message": "UG: mark unimplemented feeds-related stuff as v2.0",
+            "insertions": 19,
+            "deletions": 15
+          },
+          {
+            "hash": "315f467509eca547d4d33fd2a3112da1ab4b8ea2",
+            "message": "add @qjqqyy ppp",
+            "insertions": 62,
+            "deletions": 0
+          },
+          {
+            "hash": "9879bba1dfe0173ed6f79f6252e7bacb7c240593",
+            "message": "qj-ppp: link in aboutus",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f4f317f2c2fb33768463f849ce7a33d225c447f9",
+            "message": "fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "144948ce58dacd69c68946987912c1cef0c21b30",
+            "message": "delete unimplemented",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "332c5cd2b500e1856cb4314b355cf0b6309e7061",
+            "message": "update new commands to work with changed model",
+            "insertions": 13,
+            "deletions": 2
           }
         ]
       }
@@ -2388,10 +2642,119 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 726,
+        "deletions": 680,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6a0edb013a400bdbf22ea40edbbb572101869cff",
+            "message": "Refactor article fetch to helper method, move article storage into model",
+            "insertions": 84,
+            "deletions": 63
+          },
+          {
+            "hash": "aaf904f9fad6cff482b1da488382602cacaad2c1",
+            "message": "Delete articles when they are removed from reading list",
+            "insertions": 55,
+            "deletions": 0
+          },
+          {
+            "hash": "fbc22123f31775efe988e64a1a7347cb21aadc29",
+            "message": "Remove offline link entirely, replace with lazy checking of offline link",
+            "insertions": 56,
+            "deletions": 92
+          },
+          {
+            "hash": "60944e38f8cbf056a5f55f723356daa76886b657",
+            "message": "Move getOfflineLink into storage, add test",
+            "insertions": 43,
+            "deletions": 8
+          },
+          {
+            "hash": "9b7f9961ac8f076ac230566c1b8eedd34d909988",
+            "message": "Make command format `item`/`parameter` wording consistent",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4275e529394ee1f094bd16eb33d9b4a767f32d32",
+            "message": "Rename all constants containing PERSON to ENTRY or ENTRIES",
+            "insertions": 72,
+            "deletions": 72
+          },
+          {
+            "hash": "9e1ac5f918578cfc205ba3510c6b76adf62ce666",
+            "message": "Rename person to entry/entries in variable names and method names",
+            "insertions": 190,
+            "deletions": 189
+          },
+          {
+            "hash": "0c2eaade7fa30664e9e143c88e0719a7fa68974e",
+            "message": "Rename addressBook to entryBook",
+            "insertions": 37,
+            "deletions": 37
+          },
+          {
+            "hash": "521c2a2a1e3d9c1f389e32ebbdc9b83433356750",
+            "message": "Rename AddressBook to EntryBook",
+            "insertions": 86,
+            "deletions": 86
+          },
+          {
+            "hash": "5f12d53c28c601e76925210cad1bfd2db7c44cf5",
+            "message": "Rename Phone -\u003e Description",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b188fc16c54d98ba90386c41785736554f9503f5",
+            "message": "Rename Name to Title",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "032ba92f7853b2e12daea3e0470c5c85c25cca84",
+            "message": "Split long line",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "10e4b30fc0b762c00793a640536f663cccad5a0e",
+            "message": "Clean up some comments which were not renamed",
+            "insertions": 16,
+            "deletions": 47
+          },
+          {
+            "hash": "5fc27638fedb3ded79417125deaa49ff14df79cf",
+            "message": "Clean up comments which had person, change to entry",
+            "insertions": 35,
+            "deletions": 35
+          },
+          {
+            "hash": "faefcc9dfc8788720225240fe290af1963a90798",
+            "message": "Bump version to v1.3.0",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "aacd59868057a734c7f121f54ff215e45cdf43c2",
+            "message": "Rename jar file to README.jar",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "409bf71d0529c9039ea95c495dffb44f35c3b9bd",
+            "message": "Rename Person -\u003e Entry, Name -\u003e Title",
+            "insertions": 29,
+            "deletions": 29
+          },
+          {
+            "hash": "bf2a3aa3827a6eb52a0da10e607fc6df8037d292",
+            "message": "Bump version\u0027s isEarlyAccess to false",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "epicfailname": [
@@ -2877,8 +3240,8 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 63,
+        "insertions": 47,
+        "deletions": 100,
         "date": "2019-03-20",
         "commitResults": [
           {
@@ -2886,14 +3249,51 @@
             "message": "Revert \"Update DG for context-swinging\"",
             "insertions": 0,
             "deletions": 63
+          },
+          {
+            "hash": "2fbcda204718886393493c833dac02e7217c06fe",
+            "message": "Fix typo",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2ebecd345d29ca928d5928f9afa0d81045f83144",
+            "message": "Add references to context-specific commands",
+            "insertions": 38,
+            "deletions": 25
+          },
+          {
+            "hash": "1d620d48e618ef738f2252770053a077a92f1ae7",
+            "message": "Minor rename",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d89c47b7acf01d80ba7344c7ef483e6933937c59",
+            "message": "Remove requirement for exact keyphrase match",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "54a5edb3e63eded819668835e755044c67382ae9",
+            "message": "Fix prefix error",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       },
       {
-        "insertions": 0,
+        "insertions": 15,
         "deletions": 0,
         "date": "2019-03-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "df96aabe915c8437b72953e1e14ca68bd8054c67",
+            "message": "Add Glossary",
+            "insertions": 15,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -3128,36 +3528,111 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 28,
+        "deletions": 104,
         "date": "2019-03-31",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "840c0a3b67ee1e83c4934a00f898a4aa06e0b906",
+            "message": "Remove undo/redo section, update context section",
+            "insertions": 25,
+            "deletions": 91
+          },
+          {
+            "hash": "c04c51b8ecbc0e5ed9ec3fc8eea9204fbed31e0b",
+            "message": "Update some headings; Planned -\u003e Current",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5772d4dc71bc9f9334a0a5041849622a57fc1979",
+            "message": "Delete irrelevant section 1.4.2",
+            "insertions": 1,
+            "deletions": 11
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3,
+        "deletions": 2,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f16607a64ef94f72ffe5a754e995a9f2cba7d4af",
+            "message": "Update Logic component of Design section",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 178,
+        "deletions": 225,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e6ee2a810b4f3db0379465a799022fe63d314b5f",
+            "message": "Add stub for PPP for Jonathan",
+            "insertions": 55,
+            "deletions": 1
+          },
+          {
+            "hash": "d14b0ed9d38c1100617a0e8724ccb7f41a41037a",
+            "message": "Add reference tag to DG",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "cf9a1dad72c955a438608776a6b256073a0cceab",
+            "message": "Update PPP",
+            "insertions": 23,
+            "deletions": 21
+          },
+          {
+            "hash": "f1720c2edd233c418d557af278a8441391e95a78",
+            "message": "Minor update to PPP",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "1576ccbdbcc2bdae739862a7ee8a439ec35080d6",
+            "message": "Remove link field in edit command",
+            "insertions": 25,
+            "deletions": 43
+          },
+          {
+            "hash": "e081e2db25a34db2ca12658ce65ee0082d318b7f",
+            "message": "Update tests to reflect updated edit command",
+            "insertions": 60,
+            "deletions": 148
+          },
+          {
+            "hash": "5eebbcbf8c703304cda8ee1c81e798f1ccee12a8",
+            "message": "Minor update to PPP",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "89a938b6178b1ad2e2344ee328f82985b84ad321",
+            "message": "Add tag for context switching commands",
+            "insertions": 4,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 6941,
-    "qjqqyy": 1065,
-    "thomastanck": 1623,
-    "epicfailname": 4986
+    "rlrh": 7364,
+    "qjqqyy": 1919,
+    "thomastanck": 2119,
+    "epicfailname": 4616
   },
   "authorContributionVariance": {
-    "rlrh": 785616.0,
-    "qjqqyy": 13193.765,
-    "thomastanck": 37775.293,
-    "epicfailname": 727122.25
+    "rlrh": 788034.0,
+    "qjqqyy": 53645.496,
+    "thomastanck": 71159.48,
+    "epicfailname": 724508.75
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

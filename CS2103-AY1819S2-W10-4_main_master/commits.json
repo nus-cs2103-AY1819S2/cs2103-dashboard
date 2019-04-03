@@ -1821,8 +1821,8 @@
         ]
       },
       {
-        "insertions": 10,
-        "deletions": 5,
+        "insertions": 52,
+        "deletions": 16,
         "date": "2019-03-31",
         "commitResults": [
           {
@@ -1836,20 +1836,166 @@
             "message": "change import/export impcomments",
             "insertions": 0,
             "deletions": 2
+          },
+          {
+            "hash": "338e0fea22669e6321f10e5d4ea41bc41dbb98ce",
+            "message": "add getFileNameWithoutExt in csvFile class",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "748ab10a5a9dc34bb9af27c777a83bb55c686444",
+            "message": "add method that checks if card folder exists in model",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
+            "hash": "8cdb5ca15ee46cee6b9fdbb4a9c5eb40bcc7ae93",
+            "message": "catch duplicate card folders",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "33f2881137dab1751d22d9b9d5d0e1043001da41",
+            "message": "fix spacing errors",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3b1d82664eff2dee26289a91dab016b0fa63fe62",
+            "message": "fix spacing errors and command formats",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "7ca1325c5101949b81a6adb6cae0d6f261232e5d",
+            "message": "handle empty file import exeption",
+            "insertions": 6,
+            "deletions": 1
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 16,
+        "deletions": 6,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fa814cddaa76590d5c562c88919f32f7206a0781",
+            "message": "change empty option/hint representation in csv",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "78dc408a79558b383be1ed4d9958058c20d0f341",
+            "message": "add method that parses quotation marks",
+            "insertions": 14,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 203,
+        "deletions": 75,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3f0f3559c47645cb9fbd04bff74ee13167e83348",
+            "message": "change word usages",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4234c89d67e82839fb534efe833f6dc6404ac9c2",
+            "message": "made slight modifications to DG",
+            "insertions": 32,
+            "deletions": 23
+          },
+          {
+            "hash": "c4c6e6aa47a6380d214c0a35f22835545685d0d3",
+            "message": "changed Global opertaions to Advanced Operations",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "422260d7988ff523c4580df761830fbe192146f6",
+            "message": "touch up preface to Advaned Operations section",
+            "insertions": 7,
+            "deletions": 11
+          },
+          {
+            "hash": "e6c08638435100f5c05e0dfdf987079ae23bad21",
+            "message": "add a important section under Advanced Operations",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "6e5b4d0677a2c19c6865f66e97304a0970b38e05",
+            "message": "add export command examples",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "029722a6935002ea9180b2059c4095da73820858",
+            "message": "change advanced operations header",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "6e6cf19b9e9aff04585c6a85f21f839ce6df95d6",
+            "message": "add import command preface",
+            "insertions": 14,
+            "deletions": 6
+          },
+          {
+            "hash": "c5a0705d91d42e5b4e85c7f942cb609ba6bb2f9d",
+            "message": "add csv file format and examples",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "156acbf7db0b27283bb7b5ea2a8b232df2d0491c",
+            "message": "add project portfolio page",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "6088d6c3d2c4d9fdf0c27f0aab776ac412fb8ed0",
+            "message": "updated PPP, dev guide and user guide",
+            "insertions": 77,
+            "deletions": 4
+          },
+          {
+            "hash": "5d818f20d8a32c163e894b1c3de0642d35f989ce",
+            "message": "change profile pic and added portfolio",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b586f6ffd7caa192ffe4dcfa2ab4cddaee48d04d",
+            "message": "delete unnecessary documentation for aboutus",
+            "insertions": 0,
+            "deletions": 7
+          },
+          {
+            "hash": "a677bf35288b1acf9cd48f1a916b65a21fa7477e",
+            "message": "fix checkstyle errors",
+            "insertions": 12,
+            "deletions": 7
+          },
+          {
+            "hash": "b5d0423a9b866cb8d989f18c2d8a84094a683d54",
+            "message": "updated Typical Cards csv file",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "12647f52bfbc9f6177550a11289c5ae33f246895",
+            "message": "update import test methods",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "dlqs": [
@@ -2816,8 +2962,8 @@
         "commitResults": []
       },
       {
-        "insertions": 153,
-        "deletions": 173,
+        "insertions": 294,
+        "deletions": 211,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -2879,6 +3025,102 @@
             "message": "fix switchcase indentation",
             "insertions": 8,
             "deletions": 9
+          },
+          {
+            "hash": "931be7e4a2f55db090b4a5c220bdb39c356e1466",
+            "message": "change report command to display top3 lowest qn",
+            "insertions": 14,
+            "deletions": 4
+          },
+          {
+            "hash": "1efcd39599ea4b1bd764b601dc53fc0624a522d5",
+            "message": "add use case for report",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "169ac7bdbac9f2dc4e6e3e67def6e37f9e157cb0",
+            "message": "update ug about questions displayed in report",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "aa777f33ee74459e9ddf2563e88ddc36292f9631",
+            "message": "add explaination for report",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "99a49275119b34b3100938af60ecc68e64b8e429",
+            "message": "add tags for sort",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "16ca388a9041da6fca5da84cf81d15cec86e37f4",
+            "message": "typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4bc69f1a45e430a64014a931416fe72cbc1aeb83",
+            "message": "add section about refactor",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "9a06d9ea7bf47b1c101706527fe83e8dcde099cd",
+            "message": "add tag to include part about refactor",
+            "insertions": 21,
+            "deletions": 15
+          },
+          {
+            "hash": "24d8effa271d73049e3c8d7d7f6d4ba0d4f61498",
+            "message": "udpate ppp",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "7d7a7b1be8f0a367b949172a9b67b56695586aa3",
+            "message": "add line breaks",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "bdcb10ac9984d9c2f48ff7841d7c69a621e66256",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "6c629147389225588176b10e4ea63062085c9a57",
+            "message": "remove extra space",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "061315b7f3df5c8d4ff317c76399cb04e994b1df",
+            "message": "update description in about us",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "84ef472597305f440e9d6d38237e713cee929ed2",
+            "message": "move sorting before report into model",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "98854c40193cca6fb24f69b00679aeb85b6f3609",
+            "message": "add more for score",
+            "insertions": 17,
+            "deletions": 4
+          },
+          {
+            "hash": "d3b781edd088e7aeb5f9c3cb30142fddddf2103a",
+            "message": "add screenshot to ppp",
+            "insertions": 12,
+            "deletions": 6
           }
         ]
       }
@@ -4247,8 +4489,8 @@
         ]
       },
       {
-        "insertions": 171,
-        "deletions": 157,
+        "insertions": 253,
+        "deletions": 226,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -4328,6 +4570,48 @@
             "message": "Fix small little typo",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "8df8a09e5e229cac6eee9fa23195c7a96dae8f30",
+            "message": "Fix status bar to update time in home directory and inside any folders - by adding a listener to the card folder the app enters",
+            "insertions": 17,
+            "deletions": 5
+          },
+          {
+            "hash": "586b67da4051de37026a64eedf1438a8f9416c8c",
+            "message": "-Remove old tests related to status bar footer",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "834f8b37acbc18c8c5bb70e115a454168e66440e",
+            "message": "Fix checkstyle for commenting out tests",
+            "insertions": 25,
+            "deletions": 25
+          },
+          {
+            "hash": "9bb38e72b2920623c3f8e1928150b57faa798a4c",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "28f22de37999b18ccc84617303e964384c58b2ff",
+            "message": "Fix checkstyle again :(",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "8bd6c8740db85a085c24ffbd0735f2b0082205a2",
+            "message": "Fix checkstyle :(((",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c5c3d386e0965e44522d93f66ec764a18b555815",
+            "message": "Fix checkstyle comments again",
+            "insertions": 17,
+            "deletions": 16
           }
         ]
       }
@@ -5414,8 +5698,8 @@
         ]
       },
       {
-        "insertions": 26,
-        "deletions": 10,
+        "insertions": 119,
+        "deletions": 37,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -5459,24 +5743,54 @@
             "message": "Fix error with PPP Code contributed",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "aeb7f5bd3807573a4601aa9cd8b6aaa0352c131b",
+            "message": "Update use cases for editing flash card",
+            "insertions": 48,
+            "deletions": 21
+          },
+          {
+            "hash": "9d9e732b73ec0fb5009de3048136c95ea639e1ee",
+            "message": "Update use cases for adding flash card",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "9cb5c769f493ab5315d9722925acb6d3d5953b93",
+            "message": "Update card implementation in developer guide",
+            "insertions": 11,
+            "deletions": 3
+          },
+          {
+            "hash": "2208f39162e68a31166f9ffb5f68c60e9d63fdbb",
+            "message": "Update PPP contributions",
+            "insertions": 19,
+            "deletions": 1
+          },
+          {
+            "hash": "ebcf8536d76c74e1dc4b07464192b64e760dfe1b",
+            "message": "Update PPP intro",
+            "insertions": 3,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 4991,
-    "yichong96": 904,
-    "dlqs": 2525,
-    "KerrynEer": 1592,
-    "mmdlow": 1174
+    "afterdusk": 4971,
+    "yichong96": 1135,
+    "dlqs": 2623,
+    "KerrynEer": 1589,
+    "mmdlow": 1249
   },
   "authorContributionVariance": {
     "afterdusk": 1689805.2,
-    "yichong96": 14535.21,
-    "dlqs": 163894.0,
-    "KerrynEer": 33249.66,
-    "mmdlow": 30158.27
+    "yichong96": 15288.85,
+    "dlqs": 166024.98,
+    "KerrynEer": 35066.18,
+    "mmdlow": 30225.34
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",
