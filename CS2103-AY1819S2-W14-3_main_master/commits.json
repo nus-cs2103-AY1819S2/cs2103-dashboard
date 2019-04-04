@@ -1158,6 +1158,61 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 35,
+        "deletions": 23,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "756105eba62b0edef45970205e768d290e815fdc",
+            "message": "Add getCellStatus method in MapGrid",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "3511825f5a02d8e026b807d970b5f82ebede7d29",
+            "message": "Change BattleManager to not use getCell",
+            "insertions": 15,
+            "deletions": 12
+          },
+          {
+            "hash": "6020844de9345ce009be76f4ab1b22623dee691c",
+            "message": "Update StatsCommandTest.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "78cddf58e77c7fca523441cf91a78447c891adac",
+            "message": "Update TODO and javadocs",
+            "insertions": 13,
+            "deletions": 3
+          },
+          {
+            "hash": "093b748bad9bcea54ea9affaf8db679840a43a53",
+            "message": "Update AttackResult.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3ebbb46f22215351603ea9227241b5127a436b96",
+            "message": "Update getCell() to private",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "afcddcd69e5c6059299715c9534c7bfd7989eadb",
+            "message": "Update getCell() methods",
+            "insertions": 0,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "iwle": [
@@ -2744,6 +2799,164 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 207,
+        "deletions": 81,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "d1e5c8ec804d619c25cc7bbc54e52bf2a8a3f7e7",
+            "message": "Add isAllDeployed() method",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "499c8cbf51c7c930c5e99b71ba8b5f7741f2eb85",
+            "message": "Refactor Fleet.java",
+            "insertions": 7,
+            "deletions": 15
+          },
+          {
+            "hash": "02160c54c0dd36a9bb1650c4654e7791c2b0a241",
+            "message": "Refactor Fleet.java",
+            "insertions": 38,
+            "deletions": 18
+          },
+          {
+            "hash": "e7465e4ca58d288ac3a28d26bdac0c0c89bbff96",
+            "message": "Add tests for isAllDeployed() in Fleet",
+            "insertions": 32,
+            "deletions": 12
+          },
+          {
+            "hash": "59dd31a833e5f3e971a950d49dc2d5aa09a098f4",
+            "message": "Rename variable names in Fleet and FleetTest",
+            "insertions": 34,
+            "deletions": 34
+          },
+          {
+            "hash": "41e30abaaf2b0a98b735978a09f6fb499ed61279",
+            "message": "Update PutShipCommand",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "11d3d98bee151e85594e6b0ba24004399fdcf692",
+            "message": "Add equals() method to Fleet Add an equals() method to Fleet for comparison.",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "1179459d88d7b81d8e7b50a70b1eea959be736c3",
+            "message": "Add trivial test cases to Fleet",
+            "insertions": 57,
+            "deletions": 0
+          },
+          {
+            "hash": "f7fb9d9fa47abc6ee6d6e9867964387e3e0a11b7",
+            "message": "Update ListCommand",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 37,
+        "deletions": 109,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "4a0fe3f6663375572cb5cc2a3cfe103933e8e641",
+            "message": "Remove getAddressBookFilePath() from Logic",
+            "insertions": 0,
+            "deletions": 10
+          },
+          {
+            "hash": "18a9e7c8f1619bd0fa9d5372af80fefb38ffd8e3",
+            "message": "Remove getFilteredPersonList() from Logic",
+            "insertions": 0,
+            "deletions": 14
+          },
+          {
+            "hash": "b2533fb82d223c3b756a272b4d5071d7dfca3d22",
+            "message": "Remove selectedPersonProperty() from Logic",
+            "insertions": 0,
+            "deletions": 13
+          },
+          {
+            "hash": "2ef6786a987dee3d34d2dfafff2273cad5550d8c",
+            "message": "Remove setSelectedPerson() from Logic",
+            "insertions": 0,
+            "deletions": 12
+          },
+          {
+            "hash": "3af65429707eafcb1c4f689d79a0e22cd776c956",
+            "message": "Remove getAddressBook() from Logic",
+            "insertions": 0,
+            "deletions": 12
+          },
+          {
+            "hash": "f8b0298d1937278309e671b43110d9ae28ba7792",
+            "message": "Remove unused imports in Logic.java",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "568d4aeb8495206703cfea8fed0306640bd34cee",
+            "message": "Remove unused imports in LogicManager.java",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "3cf47e6e4e3e48f63e2079cb6db70b9c4817234a",
+            "message": "Remove references to getCell() in PutShipCommand",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "30420fbef13ae08a2877d05476b5774a7f5b0a98",
+            "message": "Update PutShipCommandTest with mapGrid.putShip()",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "8e6ac0aaddd8f17afbd047ddcc6ad2e79f5a6b9a",
+            "message": "Update BoundaryValueChecker tests",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "fabf1fdb98a9e0a9342b68776a820f14a1f4c598",
+            "message": "Remove unused Cell import in PutShipCommand",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2590f285b0714718da877bec0be81f57519c81d3",
+            "message": "Add whitespace in PutShipCommandTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "95b0ad4af8c1a6f4ac946fb2dfd322d6bb193a8e",
+            "message": "Update BoundaryValueChecker",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "7fa1ed5d235c631b1d00b8c8dd80d59683d0e407",
+            "message": "Update BoundaryValueChecker",
+            "insertions": 10,
+            "deletions": 12
+          },
+          {
+            "hash": "23e4ebd7d3b1ab11b6e375255db2c88dfd056571",
+            "message": "Remove unused import in BoundaryValueChecker",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "lucydotc": [
@@ -3276,6 +3489,25 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 8,
+        "deletions": 1,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "af2a10515f5d7f1f77dd12bc781b6831b6992374",
+            "message": "Fix duplicate attacking in Enemy",
+            "insertions": 8,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ],
     "bos10": [
@@ -4010,6 +4242,18 @@
             "deletions": 5
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ],
     "s-tr": [
@@ -4798,22 +5042,77 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 12,
+        "deletions": 2301,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "303ea57838d711842f3d46ec66fad08b144be4a8",
+            "message": "Remove Add command",
+            "insertions": 2,
+            "deletions": 376
+          },
+          {
+            "hash": "213814d2d70bd6c32decb0a2dbfaf68be8fe121d",
+            "message": "Remove Redo and Undo commands",
+            "insertions": 4,
+            "deletions": 314
+          },
+          {
+            "hash": "ed3d73c44f367407e7796ecd6661944028ac56a0",
+            "message": "Remove Delete command",
+            "insertions": 1,
+            "deletions": 261
+          },
+          {
+            "hash": "8024aff59c45b0cab9394daa937dc8e1f51cdac4",
+            "message": "Remove Edit command",
+            "insertions": 2,
+            "deletions": 899
+          },
+          {
+            "hash": "a68b72fe27e2351c77894eb8948f12a17d0ce749",
+            "message": "Remove Select command",
+            "insertions": 0,
+            "deletions": 232
+          },
+          {
+            "hash": "893eb7f5cb9105d4f93ea24671c565c22b8a63fb",
+            "message": "Remove Find command",
+            "insertions": 3,
+            "deletions": 216
+          },
+          {
+            "hash": "69ec1b2f16d31de0a342ff42f9c649a3505b04fd",
+            "message": "Remove unused imports",
+            "insertions": 0,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 2028,
-    "iwle": 2974,
-    "lucydotc": 717,
-    "bos10": 784,
-    "s-tr": 1375
+    "erjillsison": 1820,
+    "iwle": 3095,
+    "lucydotc": 724,
+    "bos10": 779,
+    "s-tr": 1367
   },
   "authorContributionVariance": {
-    "erjillsison": 194031.69,
-    "iwle": 36406.016,
-    "lucydotc": 5158.1587,
-    "bos10": 15639.4,
-    "s-tr": 4696.72
+    "erjillsison": 187338.5,
+    "iwle": 35549.766,
+    "lucydotc": 4983.941,
+    "bos10": 15134.189,
+    "s-tr": 98544.914
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

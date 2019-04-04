@@ -429,6 +429,12 @@
             "deletions": 18
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "chung-ming": [
@@ -1025,10 +1031,84 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 13,
+        "deletions": 16,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2eaf75c8d2529be1ef9d893b680ea3e00a256f2f",
+            "message": "Fix bug causing empty charts to be displayed even though the list is empty",
+            "insertions": 13,
+            "deletions": 16
+          }
+        ]
+      },
+      {
+        "insertions": 1380,
+        "deletions": 615,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "7bf3b669b24aa6efbbd8a3a5525d704e68a3c4f1",
+            "message": "Update README.adoc",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "62f02962cf0d88fabcd44e245f433521a5079b59",
+            "message": "Refactor chart features in compliance with SE standards",
+            "insertions": 1266,
+            "deletions": 445
+          },
+          {
+            "hash": "296b64bc0f2dd53a308b3789688b23a20a5ac000",
+            "message": "Remove Google Maps API usage",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "fa62171eae0f426e636944ea2dc0a695f2b1ec92",
+            "message": "Update TravelBuddy version and remove Google Maps API",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "903ff40740c023b1854ab30ac92f9e78ba801996",
+            "message": "Fix bug where the chart display panel\u0027s height does not grow with the VBox.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3316902563ce61c5e17ccda8d27c3cff7294e31e",
+            "message": "Fix a bug where the mouse is unable to select on the scroll panel, and another bug where an empty chart is displayed even when the list of places is empty.",
+            "insertions": 70,
+            "deletions": 85
+          },
+          {
+            "hash": "943ae0eae5292a7162c8dd0e4cfea2f49a7ecf10",
+            "message": "Add exceptions for the charts",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "3b1530dd581096fe25803daf3bdf1c234c8f613b",
+            "message": "Tidy up code",
+            "insertions": 10,
+            "deletions": 69
+          },
+          {
+            "hash": "bc8b1fd200012cb745c69f0a43f758a6521add5c",
+            "message": "Modify organization name to be all uppercase",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "df8483d115a2f0ec3fb49654eb965b64d32b2247",
+            "message": "Reactivate AppVeyor CI",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "PremBagda": [
@@ -1506,6 +1586,12 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "nivenang": [
@@ -2096,20 +2182,39 @@
             "deletions": 36
           }
         ]
+      },
+      {
+        "insertions": 488,
+        "deletions": 23,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "1c34bca955b0ea1c75d44c4480f51e83cb36f889",
+            "message": "Add tests for Chart and ChartList to improve coverage, add body of ChartException",
+            "insertions": 479,
+            "deletions": 3
+          },
+          {
+            "hash": "5d4c4d72be56aa028d55a9eb9da462df0a65b5fe",
+            "message": "Remove unused method for ChartException",
+            "insertions": 9,
+            "deletions": 20
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "shaungohsc": 676,
-    "chung-ming": 4683,
-    "PremBagda": 2680,
-    "nivenang": 3771
+    "shaungohsc": 650,
+    "chung-ming": 5492,
+    "PremBagda": 2667,
+    "nivenang": 4239
   },
   "authorContributionVariance": {
-    "shaungohsc": 6329.794,
-    "chung-ming": 676864.94,
-    "PremBagda": 337552.38,
-    "nivenang": 72141.555
+    "shaungohsc": 6226.7676,
+    "chung-ming": 723451.6,
+    "PremBagda": 331495.34,
+    "nivenang": 73498.67
   },
   "authorDisplayNameMap": {
     "shaungohsc": "Goh Shau Cher Shaun",

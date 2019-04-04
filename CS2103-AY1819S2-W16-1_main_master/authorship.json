@@ -15395,46 +15395,95 @@
         "author": {
           "gitId": "daDangminh"
         },
-        "content": "\u003d\u003d Contributions to the Developer Guide"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "daDangminh"
         },
-        "content": ""
+        "content": "\u003d\u003d Contributions to the Developer Guide"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "daDangminh"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "daDangminh"
         },
-        "content": "|_Given below are sections I contributed to the Developer Guide. They showcase my ability to write technical documentation and the technical depth of my contributions to the project._"
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "daDangminh"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "|_Given below are sections I contributed to the Developer Guide. They showcase my ability to write technical documentation and the technical depth of my contributions to the project._"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "daDangminh"
         },
+        "content": "|\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "daDangminh"
+        },
         "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "\u003d\u003d PROJECT: PowerPointLabs"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "---"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "_{Optionally, you may include other projects in your portfolio.}_"
       }
     ],
     "authorContributionMap": {
-      "daDangminh": 50
+      "daDangminh": 57
     }
   },
   {
@@ -69500,411 +69549,544 @@
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "import seedu.address.model.person.Address;"
+        "content": "import seedu.address.model.event.DateTime;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "import seedu.address.model.person.Email;"
+        "content": "import seedu.address.model.event.Description;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "import seedu.address.model.person.Name;"
+        "content": "import seedu.address.model.event.Event;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "import seedu.address.model.person.Person;"
+        "content": "import seedu.address.model.event.Label;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "import seedu.address.model.person.Phone;"
+        "content": "import seedu.address.model.event.Venue;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "import seedu.address.model.person.Photo;"
+        "content": "import seedu.address.model.person.Address;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.model.tag.Tag;"
+        "content": "import seedu.address.model.person.Email;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import seedu.address.model.person.Name;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
-        "content": "/**"
+        "content": "import seedu.address.model.person.Person;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
-        "content": " * Contains utility methods for populating {@code AddressBook} with sample data."
+        "content": "import seedu.address.model.person.Phone;"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": " */"
+        "content": "import seedu.address.model.person.Photo;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
-        "content": "public class SampleDataUtil {"
+        "content": "import seedu.address.model.tag.Tag;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static Person[] getSamplePersons() {"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
-        "content": "        return new Person[]{"
+        "content": "/**"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
-        "content": "            new Person(new Name(\"Alex Yeoh\"), new Phone(\"87438807\"), new Email(\"alexyeoh@example.com\"),"
+        "content": " * Contains utility methods for populating {@code AddressBook} with sample data."
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "                    new Address(\"Blk 30 Geylang Street 29, #06-40\"),"
+        "content": " */"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
+        "content": "public class SampleDataUtil {"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "-"
         },
-        "content": "                    getTagSet(\"friends\")),"
+        "content": "    public static Person[] getSamplePersons() {"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "-"
         },
-        "content": "            new Person(new Name(\"Bernice Yu\"), new Phone(\"99272758\"), new Email(\"berniceyu@example.com\"),"
+        "content": "        return new Person[]{"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "                    new Address(\"Blk 30 Lorong 3 Serangoon Gardens, #07-18\"),"
+        "content": "            new Person(new Name(\"Alex Yeoh\"), new Phone(\"87438807\"), new Email(\"alexyeoh@example.com\"),"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
+        "content": "                    new Address(\"Blk 30 Geylang Street 29, #06-40\"),"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": "                    getTagSet(\"colleagues\", \"friends\")),"
+        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "            new Person(new Name(\"Charlotte Oliveiro\"), new Phone(\"93210283\"), new Email(\"charlotte@example.com\"),"
+        "content": "                    getTagSet(\"friends\")),"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "                    new Address(\"Blk 11 Ang Mo Kio Street 74, #11-04\"),"
+        "content": "            new Person(new Name(\"Bernice Yu\"), new Phone(\"99272758\"), new Email(\"berniceyu@example.com\"),"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
+        "content": "                    new Address(\"Blk 30 Lorong 3 Serangoon Gardens, #07-18\"),"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": "                    getTagSet(\"neighbours\")),"
+        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
-        "content": "            new Person(new Name(\"David Li\"), new Phone(\"91031282\"), new Email(\"lidavid@example.com\"),"
+        "content": "                    getTagSet(\"colleagues\", \"friends\")),"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "                    new Address(\"Blk 436 Serangoon Gardens Street 26, #16-43\"),"
+        "content": "            new Person(new Name(\"Charlotte Oliveiro\"), new Phone(\"93210283\"), new Email(\"charlotte@example.com\"),"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
+        "content": "                    new Address(\"Blk 11 Ang Mo Kio Street 74, #11-04\"),"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": "                    getTagSet(\"family\")),"
+        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": "            new Person(new Name(\"Irfan Ibrahim\"), new Phone(\"92492021\"), new Email(\"irfan@example.com\"),"
+        "content": "                    getTagSet(\"neighbours\")),"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "                    new Address(\"Blk 47 Tampines Street 20, #17-35\"),"
+        "content": "            new Person(new Name(\"David Li\"), new Phone(\"91031282\"), new Email(\"lidavid@example.com\"),"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
+        "content": "                    new Address(\"Blk 436 Serangoon Gardens Street 26, #16-43\"),"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": "                    getTagSet(\"classmates\")),"
+        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "            new Person(new Name(\"Roy Balakrishnan\"), new Phone(\"92624417\"), new Email(\"royb@example.com\"),"
+        "content": "                    getTagSet(\"family\")),"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "yinya998"
+          "gitId": "-"
         },
-        "content": "                    new Address(\"Blk 45 Aljunied Street 85, #11-31\"),"
+        "content": "            new Person(new Name(\"Irfan Ibrahim\"), new Phone(\"92492021\"), new Email(\"irfan@example.com\"),"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
+        "content": "                    new Address(\"Blk 47 Tampines Street 20, #17-35\"),"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": "                    getTagSet(\"colleagues\"))"
+        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "        };"
+        "content": "                    getTagSet(\"classmates\")),"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "            new Person(new Name(\"Roy Balakrishnan\"), new Phone(\"92624417\"), new Email(\"royb@example.com\"),"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": ""
+        "content": "                    new Address(\"Blk 45 Aljunied Street 85, #11-31\"),"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
-        "content": "    public static ReadOnlyAddressBook getSampleAddressBook() {"
+        "content": "                    new Photo(\"src/main/resources/images/userPhoto/DEFAULT_PHOTO.png\"),"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "        AddressBook sampleAb \u003d new AddressBook();"
+        "content": "                    getTagSet(\"colleagues\"))"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "        for (Person samplePerson : getSamplePersons()) {"
+        "content": "        };"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "            sampleAb.addPerson(samplePerson);"
+        "content": "    }"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "        return sampleAb;"
+        "content": "    public static Event[] getSampleEvent() {"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "    }"
+        "content": "        return new Event[]{"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": ""
+        "content": "            new Event(new seedu.address.model.event.Name(\"career talk\"), new Description(\"Google company info session\"),"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "    /**"
+        "content": "                    new Venue(\"com1 level2\"), new DateTime(\"2019-01-31 14:00:00\"),"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "     * Returns a tag set containing the list of strings given."
+        "content": "                    new DateTime(\"2019-01-31 14:00:00\"), new Label(\"important\")),"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "     */"
+        "content": "            new Event(new seedu.address.model.event.Name(\"CS2103 project meeting\"), new Description(\"quick meeting\"),"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "    public static Set\u003cTag\u003e getTagSet(String... strings) {"
+        "content": "                    new Venue(\"central library\"), new DateTime(\"2019-12-31 16:00:00\"),"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "-"
+          "gitId": "daDangminh"
         },
-        "content": "        return Arrays.stream(strings)"
+        "content": "                    new DateTime(\"2019-12-31 16:00:00\"), new Label(\"urgent\")),"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "                .map(Tag::new)"
+        "content": "        };"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "                .collect(Collectors.toSet());"
+        "content": "    }"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static ReadOnlyAddressBook getSampleAddressBook() {"
       },
       {
         "lineNumber": 67,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        AddressBook sampleAb \u003d new AddressBook();"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        for (Person samplePerson : getSamplePersons()) {"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            sampleAb.addPerson(samplePerson);"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "        for (Event sampleEvent: getSampleEvent()) {"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "            sampleAb.addEvent(sampleEvent);"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return sampleAb;"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns a tag set containing the list of strings given."
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static Set\u003cTag\u003e getTagSet(String... strings) {"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return Arrays.stream(strings)"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                .map(Tag::new)"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                .collect(Collectors.toSet());"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
@@ -69913,7 +70095,8 @@
     ],
     "authorContributionMap": {
       "yinya998": 13,
-      "-": 54
+      "daDangminh": 16,
+      "-": 57
     }
   },
   {

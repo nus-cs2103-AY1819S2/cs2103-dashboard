@@ -2419,16 +2419,102 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 343,
+        "deletions": 356,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "aa5102a47a35c1a4f1c347bbc1c73fdebf90466a",
+            "message": "Make ListViewState generic",
+            "insertions": 27,
+            "deletions": 3
+          },
+          {
+            "hash": "c3569a846a445be3987f66cdbf4f89fff3c9b76a",
+            "message": "Fix model equality",
+            "insertions": 26,
+            "deletions": 10
+          },
+          {
+            "hash": "e9c8d37e1c0667ea30a55dcc083e8bb4b628cb38",
+            "message": "Implement Model copy constructor",
+            "insertions": 43,
+            "deletions": 26
+          },
+          {
+            "hash": "43423c5010d6e92ba13ce03b4efe5676defd32bd",
+            "message": "Remove filteredItems",
+            "insertions": 73,
+            "deletions": 122
+          },
+          {
+            "hash": "721369077b7c58b08c37d24aba5c5c3e364d4c8b",
+            "message": "Overhaul UI updating",
+            "insertions": 157,
+            "deletions": 66
+          },
+          {
+            "hash": "9ba112477b49e58cbca0d845917cdf2e1b3a11be",
+            "message": "Remove selecteditem",
+            "insertions": 10,
+            "deletions": 97
+          },
+          {
+            "hash": "22107cadf50935d03db5e88f6b2f542d7bf94f5f",
+            "message": "Fix checkstyle",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "a4e58c47471121f091b003ea5065bde993e5e77a",
+            "message": "Fix broken test",
+            "insertions": 2,
+            "deletions": 24
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 101,
+        "deletions": 112,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e0763da4f571115e40f4337ec74b7bdc21c3448a",
+            "message": "Fix checkstyle",
+            "insertions": 7,
+            "deletions": 23
+          },
+          {
+            "hash": "e2093abf74bb877fc314ab5a82c0ee81a0d3ed78",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f0ed15f08be45d1c7868dc24ce56cf4ed3a3d406",
+            "message": "Hide tests using old API",
+            "insertions": 29,
+            "deletions": 49
+          },
+          {
+            "hash": "e58a2de001e59ca01936a70c15e8ee52639019a5",
+            "message": "Edit ppp",
+            "insertions": 15,
+            "deletions": 7
+          },
+          {
+            "hash": "e2e829acbc733bf580a66e23f5341cee956643f6",
+            "message": "Edit ppp",
+            "insertions": 49,
+            "deletions": 32
+          },
+          {
+            "hash": "e3aa5ec66566531ca07dca5fd07ad689e55e9423",
+            "message": "Move ppp to the correct destination",
+            "insertions": 0,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "sciffany": [
@@ -3343,8 +3429,8 @@
         ]
       },
       {
-        "insertions": 700,
-        "deletions": 89,
+        "insertions": 739,
+        "deletions": 119,
         "date": "2019-04-03",
         "commitResults": [
           {
@@ -3418,22 +3504,70 @@
             "message": "Save addressbook after study session",
             "insertions": 6,
             "deletions": 0
+          },
+          {
+            "hash": "63fe1af159bc3e14ed189441a9a8cb1d5d6e7f4c",
+            "message": "Fix check style tests, and Card Builder",
+            "insertions": 21,
+            "deletions": 12
+          },
+          {
+            "hash": "975469bec5889c591f0598b54be97d5a562b4a9e",
+            "message": "Fix indentation errors",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "2abaa63d6a4bbc19f3b950c2b4b8236338361c06",
+            "message": "Make non-changing functions static",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "7a849eec6b1782f127441e8543ea02ed90a4ff85",
+            "message": "Small change to redo build",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3ff3b2ddf4a9b6a5127415e23a0248f3b5a065e1",
+            "message": "Add Newline at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5babfcdbe7c09d9f255b440c4d3f5401b18f0661",
+            "message": "Fix warnings and get AppVeyor to say yes",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "a3dd0cb7a290ee7ce959dece6cfb2a5171fa202b",
+            "message": "Comment out problematic line",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b018331f44cc035dc4d50c6303a20bc01cd72f44",
+            "message": "Comment out another problematic line",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 5132,
-    "ckjohn000": 3517,
-    "xsot": 1544,
-    "sciffany": 3579
+    "ChangDarren": 5028,
+    "ckjohn000": 3473,
+    "xsot": 1863,
+    "sciffany": 3510
   },
   "authorContributionVariance": {
     "ChangDarren": 549441.2,
     "ckjohn000": 69270.164,
-    "xsot": 47743.676,
-    "sciffany": 564873.5
+    "xsot": 54277.07,
+    "sciffany": 566572.9
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

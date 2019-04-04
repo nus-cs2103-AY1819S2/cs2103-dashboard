@@ -40332,51 +40332,51 @@
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
         "content": "        requireNonNull(tagName);"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
         "content": "        checkArgument(isValidTagName(tagName), MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "        this.tagName \u003d tagName;"
+        "content": "        this.tagType \u003d type;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        this.tagType \u003d type;"
+        "content": "        if (type.equals(\"skill\")) {"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        if (type.equals(\"skill\")) {"
+        "content": "            //skill tag"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "            //skill tag"
+        "content": "            this.tagColor \u003d \"pink\";"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "            this.tagColor \u003d \"pink\";"
+        "content": "            this.tagName \u003d \"s:\" + tagName;"
       },
       {
         "lineNumber": 33,
@@ -40411,290 +40411,304 @@
         "author": {
           "gitId": "abwilli"
         },
-        "content": ""
+        "content": "            this.tagName \u003d \"p:\" + tagName;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        } else {"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "            //endorsement tag"
+        "content": "        } else {"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "            this.tagColor \u003d \"teal\";"
+        "content": "            //endorsement tag"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        }"
+        "content": "            this.tagColor \u003d \"teal\";"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "    }"
+        "content": "            this.tagName \u003d \"e:\" + tagName;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "abwilli"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "    public SkillsTag(String tagName) {"
+        "content": "    }"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "        requireNonNull(tagName);"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "        checkArgument(isValidTagName(tagName), MESSAGE_CONSTRAINTS);"
+        "content": "    public SkillsTag(String tagName) {"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.tagName \u003d tagName;"
+        "content": "        requireNonNull(tagName);"
       },
       {
         "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        checkArgument(isValidTagName(tagName), MESSAGE_CONSTRAINTS);"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.tagName \u003d tagName;"
+      },
+      {
+        "lineNumber": 50,
         "author": {
           "gitId": "abwilli"
         },
         "content": "        this.tagColor \u003d null;"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 51,
         "author": {
           "gitId": "abwilli"
         },
         "content": "        this.tagType \u003d null;"
       },
       {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 51,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns true if a given string is a valid tag name."
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static boolean isValidTagName(String test) {"
+        "content": "     * Returns true if a given string is a valid tag name."
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "        return test.matches(VALIDATION_REGEX);"
+        "content": "     */"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public static boolean isValidTagName(String test) {"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return test.matches(VALIDATION_REGEX);"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
+        "content": "    @Override"
       },
       {
         "lineNumber": 62,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return other \u003d\u003d this // short circuit if same object"
+      },
+      {
+        "lineNumber": 64,
         "author": {
           "gitId": "abwilli"
         },
         "content": "                || (other instanceof SkillsTag // instanceof handles nulls"
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 65,
         "author": {
           "gitId": "abwilli"
         },
         "content": "                \u0026\u0026 tagName.equals(((SkillsTag) other).tagName)); // state check"
       },
       {
-        "lineNumber": 64,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 65,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
-        "content": "    public int hashCode() {"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
-        "content": "        return tagName.hashCode();"
+        "content": "    @Override"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public int hashCode() {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return tagName.hashCode();"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Format state as text for viewing."
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
-        "content": "    public String toString() {"
+        "content": "     * Format state as text for viewing."
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": "        return \u0027[\u0027 + tagName + \u0027]\u0027;"
+        "content": "     */"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public String toString() {"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return \u0027[\u0027 + tagName + \u0027]\u0027;"
       },
       {
         "lineNumber": 78,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
@@ -40702,8 +40716,8 @@
       }
     ],
     "authorContributionMap": {
-      "abwilli": 28,
-      "-": 50
+      "abwilli": 33,
+      "-": 47
     }
   },
   {
@@ -42638,79 +42652,79 @@
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "        this.tagName \u003d tagName;"
+        "content": "        String parsed \u003d tagName.substring(2);"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        this.tagType \u003d \"pos\";"
+        "content": "        String prefix \u003d tagName.substring(0,1);"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "abwilli"
         },
-        "content": ""
+        "content": "        this.tagName \u003d parsed;"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "    }"
+        "content": "        if(prefix.equals(\"s\")){"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": ""
+        "content": "            this.tagType \u003d \"skill\";"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "    /**"
+        "content": "        }else if(prefix.equals(\"p\")){"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "     * Converts a given {@code SkillsTag} into this class for Jackson use."
+        "content": "            this.tagType \u003d \"pos\";"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "     */"
+        "content": "        }else{"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "    public JsonAdaptedTag(SkillsTag source) {"
+        "content": "            this.tagType \u003d \"endorse\";"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        this.tagName \u003d source.tagName;"
+        "content": "        }"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        this.tagType \u003d source.tagType;"
+        "content": ""
       },
       {
         "lineNumber": 34,
@@ -42731,122 +42745,185 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    @JsonValue"
+        "content": "    /**"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "    public String getTagName() {"
+        "content": "     * Converts a given {@code SkillsTag} into this class for Jackson use."
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": "        return tagName;"
+        "content": "     */"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "    }"
+        "content": "    public JsonAdaptedTag(SkillsTag source) {"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": ""
+        "content": "        this.tagName \u003d source.tagName;"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "abwilli"
         },
-        "content": "    /**"
+        "content": "        this.tagType \u003d source.tagType;"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "abwilli"
+          "gitId": "-"
         },
-        "content": "     * Converts this Jackson-friendly adapted tag object into the model\u0027s {@code SkillsTag} object."
+        "content": "    }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "     *"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @throws IllegalValueException if there were any data constraints violated in the adapted tag."
+        "content": "    @JsonValue"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    public String getTagName() {"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "abwilli"
+          "gitId": "-"
         },
-        "content": "    public SkillsTag toModelType() throws IllegalValueException {"
+        "content": "        return tagName;"
       },
       {
         "lineNumber": 47,
-        "author": {
-          "gitId": "abwilli"
-        },
-        "content": "        if (!SkillsTag.isValidTagName(tagName)) {"
-      },
-      {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "abwilli"
-        },
-        "content": "            throw new IllegalValueException(SkillsTag.MESSAGE_CONSTRAINTS);"
-      },
-      {
-        "lineNumber": 49,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "abwilli"
-        },
-        "content": "        return new SkillsTag(tagName, tagType);"
-      },
-      {
-        "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": "     * Converts this Jackson-friendly adapted tag object into the model\u0027s {@code SkillsTag} object."
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @throws IllegalValueException if there were any data constraints violated in the adapted tag."
+      },
+      {
         "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": "    public SkillsTag toModelType() throws IllegalValueException {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": "        if (!SkillsTag.isValidTagName(tagName)) {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": "            throw new IllegalValueException(SkillsTag.MESSAGE_CONSTRAINTS);"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": "        return new SkillsTag(tagName, tagType);"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
@@ -42854,8 +42931,8 @@
       }
     ],
     "authorContributionMap": {
-      "abwilli": 15,
-      "-": 38
+      "abwilli": 25,
+      "-": 37
     }
   },
   {
@@ -43300,7 +43377,7 @@
         "author": {
           "gitId": "abwilli"
         },
-        "content": "            Label tLabel \u003d new Label(tag.tagName);"
+        "content": "            Label tLabel \u003d new Label(tag.tagName.substring(2));"
       },
       {
         "lineNumber": 64,

@@ -451,6 +451,18 @@
         "deletions": 0,
         "date": "2019-04-02",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ],
     "crumpledpaper": [
@@ -816,6 +828,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
         "commitResults": []
       }
     ],
@@ -1520,8 +1544,8 @@
         ]
       },
       {
-        "insertions": 145,
-        "deletions": 75,
+        "insertions": 622,
+        "deletions": 668,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -1547,6 +1571,56 @@
             "message": "some more changes to documentation",
             "insertions": 33,
             "deletions": 20
+          },
+          {
+            "hash": "51faca447817331ceaf801e17dfc32fb2a7bc048",
+            "message": "Commiting some unfinished changes",
+            "insertions": 477,
+            "deletions": 593
+          }
+        ]
+      },
+      {
+        "insertions": 596,
+        "deletions": 662,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "03a5ef6e560c648f0293f07e94b7969789693bfe",
+            "message": "fixed some bugs for course requirements",
+            "insertions": 378,
+            "deletions": 440
+          },
+          {
+            "hash": "a6ced27c5a4162ba9163b7739a701bc14f3f193a",
+            "message": "Modified some tests, fixed some bugs in course requriement class",
+            "insertions": 164,
+            "deletions": 218
+          },
+          {
+            "hash": "f6a30242e2bde0fc0ae95d7ff71e9626f7be50ad",
+            "message": "Some structural changes to PrimitiveRequirement and Condition class. Now condition stores a Pattern, pattern, and an int, minToSatisfy (signifiying the minimum number of unique modules must match the pattern in order to satisfy the condition). Removed conditionName attribute from Condition class. PrimitiveRequirement stores a list of Conditions.",
+            "insertions": 54,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 666,
+        "deletions": 76,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "e34bd896a7f08c2aacb308e37b5116a1c77621e0",
+            "message": "Updated JsonUtil - added readJsonFileFromInputStream method Creates Json object from an string that contains the path of the file to be read as an input stream Updated ModuleInfo related storage and Course related storage components to accomodate reading from input stream",
+            "insertions": 665,
+            "deletions": 75
+          },
+          {
+            "hash": "9d0fd1185c7cf5def74a1e51544dee44bca30d4b",
+            "message": "added new line at EOF of course.json",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
@@ -2132,6 +2206,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-02",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
         "commitResults": []
       }
     ],
@@ -2869,22 +2955,34 @@
             "deletions": 30
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Anand270294": 1989,
+    "Anand270294": 1954,
     "crumpledpaper": 178,
-    "monikernemo": 6900,
+    "monikernemo": 7414,
     "alexchong711": 3600,
-    "lshwayne96": 2075
+    "lshwayne96": 2004
   },
   "authorContributionVariance": {
-    "Anand270294": 25886.418,
-    "crumpledpaper": 1478.5475,
-    "monikernemo": 650771.9,
-    "alexchong711": 182913.77,
-    "lshwayne96": 107279.18
+    "Anand270294": 25033.658,
+    "crumpledpaper": 1426.94,
+    "monikernemo": 651796.94,
+    "alexchong711": 176992.17,
+    "lshwayne96": 104375.0
   },
   "authorDisplayNameMap": {
     "Anand270294": "T A...MAR",

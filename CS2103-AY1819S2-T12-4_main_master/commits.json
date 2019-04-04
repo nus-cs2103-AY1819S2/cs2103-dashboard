@@ -650,6 +650,12 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "ptvrajsk": [
@@ -1612,6 +1618,55 @@
             "deletions": 69
           }
         ]
+      },
+      {
+        "insertions": 29,
+        "deletions": 39,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "841451b34149f99440eed269ef6f6d5872f1eaae",
+            "message": "(v1.3) Bug Fixes done to Filter and Tag",
+            "insertions": 6,
+            "deletions": 16
+          },
+          {
+            "hash": "2b60e79a0ed3d5d0993e2b30393283a68d0c9d21",
+            "message": "Rename edit to rename",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "c1929155fa3a3e78d138321431a6025bd3310a22",
+            "message": "Emergency Bug Fixes",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "802f002e96ef35b12648800212a9f57a8367f569",
+            "message": "Emergency Bug Fixes",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "b3378db87c85f66e8d19563a927466e56918a2ed",
+            "message": "Emergency Bug Fixes",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "686bdcf604aa29aae8d4a2a94ef4c6eeb0a9f040",
+            "message": "Emergency Bug Fixes",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "5aadc2f0559ab130b90081cb4bb38bb3bc77b841",
+            "message": "Emergency Bug Fixes",
+            "insertions": 7,
+            "deletions": 6
+          }
+        ]
       }
     ],
     "WeiTangLau": [
@@ -2549,6 +2604,73 @@
             "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 363,
+        "deletions": 96,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "8343c282ef8b7358827f4e25c96ed27aac537414",
+            "message": "(v1.3) Fix sample encrypted files",
+            "insertions": 21,
+            "deletions": 17
+          },
+          {
+            "hash": "5e6f5a975c2acd78ea2fb5a77077330c8b941975",
+            "message": "(v1.3) DecryptCommandTest",
+            "insertions": 200,
+            "deletions": 31
+          },
+          {
+            "hash": "7b9af1a56467cccfa140cae536be44b9d66a7995",
+            "message": "(v1.3) DecryptCommandParserTest",
+            "insertions": 113,
+            "deletions": 11
+          },
+          {
+            "hash": "6c4694b9cfb3defb78af361999b474a5d4fe0c5f",
+            "message": "Travis check",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "121ec3b39f38607680ce8fc6b5be1b9ad73efa96",
+            "message": "travis test",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "59e2e03e89fef3fcc4b608183ce1c5ac9996b7f6",
+            "message": "Travis check",
+            "insertions": 8,
+            "deletions": 11
+          },
+          {
+            "hash": "6a617b39fce3f27682708584a9335dcd6bb71a38",
+            "message": "(v1.3) Travis check",
+            "insertions": 8,
+            "deletions": 10
+          },
+          {
+            "hash": "b7c436db779d64bd8b12e2d9b7ffbde70fa68f6f",
+            "message": "(v1.3) Fix for checkstyle",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "bc1311fed405222ba7ef9ac38c15c82690a5b82f",
+            "message": "(v1.3) Trailing whitespace",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "bc618f23f81777c61cbebb3c3011669832528c71",
+            "message": "(v1.3) Trailing whitespace check",
+            "insertions": 2,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "jetkan-yk": [
@@ -3056,20 +3178,75 @@
         "deletions": 0,
         "date": "2019-04-02",
         "commitResults": []
+      },
+      {
+        "insertions": 168,
+        "deletions": 220,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "9ec9428a6ba5088fec7db8e427cce0ab73c8bb9f",
+            "message": "(v1.3) Rework Deadline",
+            "insertions": 102,
+            "deletions": 169
+          },
+          {
+            "hash": "853f40e40eaee73ce20879f5dd44bf28eaec4903",
+            "message": "(v1.3) Rework Deadline",
+            "insertions": 19,
+            "deletions": 12
+          },
+          {
+            "hash": "b21c171c0aff2ff312a66ecc0f251376fda67966",
+            "message": "Checkstyle fixes",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "5a5f20f8dff4058c25d0b9f85d4f9348443c34f4",
+            "message": "Fix typo: Pdf.getIsEncryted() -\u003e PdfgetIsEncrypted()",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "6d9917e8b354b3dc62430c4b18f0539e07410ed6",
+            "message": "(v1.3) Rework Deadline",
+            "insertions": 17,
+            "deletions": 12
+          },
+          {
+            "hash": "ab47180d4a5e0e98ae27be6374ba1cb258f23b74",
+            "message": "Checkstyle fixes",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "62246c4823853981882d5d6263de31f8587a34e3",
+            "message": "Checkstyle fixes",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "db8e4ddf9fd6e23a07dd1066eb4a879dee6d4651",
+            "message": "Checkstyle fixes",
+            "insertions": 13,
+            "deletions": 12
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "lormee94": 1001,
-    "ptvrajsk": 2863,
-    "WeiTangLau": 3156,
-    "jetkan-yk": 346
+    "lormee94": 988,
+    "ptvrajsk": 2741,
+    "WeiTangLau": 3409,
+    "jetkan-yk": 436
   },
   "authorContributionVariance": {
-    "lormee94": 12070.354,
-    "ptvrajsk": 168935.39,
-    "WeiTangLau": 127127.05,
-    "jetkan-yk": 8.379852E7
+    "lormee94": 11877.454,
+    "ptvrajsk": 166013.44,
+    "WeiTangLau": 126521.59,
+    "jetkan-yk": 8.2232784E7
   },
   "authorDisplayNameMap": {
     "lormee94": "JER...LOW",

@@ -687,8 +687,8 @@
         ]
       },
       {
-        "insertions": 43,
-        "deletions": 19,
+        "insertions": 86,
+        "deletions": 38,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -696,8 +696,20 @@
             "message": "Update UserGuide",
             "insertions": 43,
             "deletions": 19
+          },
+          {
+            "hash": "340d9313e5427fa13c017a7f3c016f068dce7915",
+            "message": "Revert \"Revert \"Update UserGuide\"\"",
+            "insertions": 43,
+            "deletions": 19
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "jeffgan96": [
@@ -2057,6 +2069,31 @@
         "deletions": 0,
         "date": "2019-04-02",
         "commitResults": []
+      },
+      {
+        "insertions": 108,
+        "deletions": 41,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "e533b50eac5972b01f210b4bade5e0a9e252ec10",
+            "message": "designed projectsummary redesigned employeesummary to fix layout bug",
+            "insertions": 82,
+            "deletions": 38
+          },
+          {
+            "hash": "ce7f7d853c1af0d896a6e1a7f22afe445c98ca1a",
+            "message": "formatting",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "244a1f39fa317e9be6b8611df230bf0d920db0e9",
+            "message": "fix for ui not updating after clear command",
+            "insertions": 26,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "dehui333": [
@@ -3000,10 +3037,82 @@
         "commitResults": []
       },
       {
-        "insertions": 457,
-        "deletions": 197,
+        "insertions": 937,
+        "deletions": 229,
         "date": "2019-03-31",
         "commitResults": [
+          {
+            "hash": "3ed83fec8369f80eb661cf5894a725c0fd9ae59b",
+            "message": "Created CompleteCommand.java",
+            "insertions": 130,
+            "deletions": 4
+          },
+          {
+            "hash": "a0099906fa3c79b0369bf452b4009272d32a43e5",
+            "message": "fixed inconsistencies",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "2ae2ff220ce740bccca8f3bb6498f283d47b4207",
+            "message": "Added CompleteCommandTest.java",
+            "insertions": 145,
+            "deletions": 0
+          },
+          {
+            "hash": "2b20389f7fc710e382857d1a043a2379e639d016",
+            "message": "Added CompleteCommandParser.java",
+            "insertions": 53,
+            "deletions": 1
+          },
+          {
+            "hash": "7bea1adc87275d32ffc38e9453fbf4f86a361f9d",
+            "message": "Added CompleteCommandParserTest.java",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "8cc9065c6df8c438fbee9032fe3d9ef52a07d73c",
+            "message": "Fixed formatting",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "2ae4e6a583ea413c6e3a4633b5350002dd34aee4",
+            "message": "Added StatsCommand.java",
+            "insertions": 92,
+            "deletions": 6
+          },
+          {
+            "hash": "58a71f66f8020d37daabf440393497f521a90e46",
+            "message": "Fixed inconsistencies",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "84bf64db34b4f2c3b484e703debbcfff4abc9c6c",
+            "message": "Removed unused imports",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "2a981e75dbe5d16db6da74109d2369ba23f2c382",
+            "message": "fixed formatting",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "cccc554e3b2c5598d2a8d484b2f8496fd775143e",
+            "message": "Fixed typo",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "e64130e4b1416214108419498e50e2f8520a7217",
+            "message": "updated UG",
+            "insertions": 7,
+            "deletions": 3
+          },
           {
             "hash": "13f44d885ee17ce5fb026817d9686c3b295a000b",
             "message": "updated DG",
@@ -3061,8 +3170,8 @@
         ]
       },
       {
-        "insertions": 174,
-        "deletions": 49,
+        "insertions": 362,
+        "deletions": 73,
         "date": "2019-04-01",
         "commitResults": [
           {
@@ -3082,6 +3191,12 @@
             "message": "Fixed typo",
             "insertions": 25,
             "deletions": 6
+          },
+          {
+            "hash": "d88f7937d72b62d7f2343c8b2bb715c49f2110bf",
+            "message": "Implemented Stats command",
+            "insertions": 4,
+            "deletions": 1
           },
           {
             "hash": "c02292602189b9ef56a958e34fdbc84674e5c1bf",
@@ -3108,6 +3223,12 @@
             "deletions": 0
           },
           {
+            "hash": "94efbc1cd151834914552e99e229997f64c2a2c3",
+            "message": "upgraded Stats",
+            "insertions": 64,
+            "deletions": 15
+          },
+          {
             "hash": "8e78d265744c70439f9ac781bd03b38ff3f61fd6",
             "message": "updated DG",
             "insertions": 71,
@@ -3126,18 +3247,176 @@
             "deletions": 2
           },
           {
+            "hash": "65413f72416c411e2b5e815750ea62d6a053d317",
+            "message": "Upgraded Stats",
+            "insertions": 30,
+            "deletions": 2
+          },
+          {
             "hash": "0aecca945b3c367de022ac63e100569c97088083",
             "message": "Updated Dg",
             "insertions": 15,
             "deletions": 0
+          },
+          {
+            "hash": "3afb0760f99ea1a6eec89137f58a03d860842a2f",
+            "message": "Upgraded Stats",
+            "insertions": 90,
+            "deletions": 6
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 799,
+        "deletions": 450,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "eb04fdb1fd908b93246b991a35642c8fd16ae68e",
+            "message": "Split stats command into individual and overall cases",
+            "insertions": 160,
+            "deletions": 41
+          },
+          {
+            "hash": "0ad847b4566f987a3aeb9a64efef9b43293c1576",
+            "message": "Created skeleton of Stats Commands",
+            "insertions": 50,
+            "deletions": 12
+          },
+          {
+            "hash": "8b5ff269b124f1d33775d5b25306a0fddaca789a",
+            "message": "Added IndividualStatsCommandTest",
+            "insertions": 110,
+            "deletions": 19
+          },
+          {
+            "hash": "b16af548ddb0635a60f9b077cf08c038f4ebd843",
+            "message": "Added Helper Class",
+            "insertions": 35,
+            "deletions": 18
+          },
+          {
+            "hash": "93c74eae182ef437c9fe16a995c7ed6159c7fc0c",
+            "message": "Added OverallStatsCommandTest",
+            "insertions": 24,
+            "deletions": 9
+          },
+          {
+            "hash": "f479546c654bd90a3f52efccf7192b804ec4bb2d",
+            "message": "Added Completion date field in project",
+            "insertions": 164,
+            "deletions": 121
+          },
+          {
+            "hash": "d87b203b4e61a4684d2285c11d3548424ccfaad7",
+            "message": "fix Json",
+            "insertions": 54,
+            "deletions": 30
+          },
+          {
+            "hash": "1385db84084b7a381462546e04dba4dffefab0a0",
+            "message": "fix formatting",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "3fa110a8d5e6b2a89710aef0a099141a2d19be13",
+            "message": "fix formatting",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "3a31c59dc80d51bd1bbe1ba0ba64496db5ef0a2b",
+            "message": "test",
+            "insertions": 96,
+            "deletions": 96
+          },
+          {
+            "hash": "60bdad7e7573cff3660d162836ec1c72cfba4242",
+            "message": "test",
+            "insertions": 96,
+            "deletions": 96
+          }
+        ]
+      },
+      {
+        "insertions": 125,
+        "deletions": 74,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "ef9b565cd90fd0cfb578d79982f3b7e9fbe065a6",
+            "message": "fix",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "8e4aa7a8159be52a06db5de1851a6cf88be358a1",
+            "message": "fixed CompleteCommandParser",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ace07f0ab783a7f44e748ec5ca934747b5285483",
+            "message": "updated UG",
+            "insertions": 20,
+            "deletions": 12
+          },
+          {
+            "hash": "22e5ef15c724411c034d69961ba57bad3234dc86",
+            "message": "Updated Model Interface",
+            "insertions": 23,
+            "deletions": 4
+          },
+          {
+            "hash": "cae49f3b99b599bf646e37a99608e30a3e69da46",
+            "message": "Updated Model Interface",
+            "insertions": 35,
+            "deletions": 2
+          },
+          {
+            "hash": "7273265e6844957f6a6a26571628b962d1a3efc7",
+            "message": "update DG",
+            "insertions": 22,
+            "deletions": 20
+          },
+          {
+            "hash": "4655eb8f356767020549ffe8280570a7b88cb266",
+            "message": "update DG",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "9f89401a4545f42eff1c6dbd11a4c299559199fd",
+            "message": "fixed formatting",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "1a5ebdc763e9fc90eb2c1ce0d6681a3de5606851",
+            "message": "Removed unused",
+            "insertions": 0,
+            "deletions": 17
+          },
+          {
+            "hash": "68df9ec10a2867e762bd9a605fb43210f8718b75",
+            "message": "Fixed inconsistency",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "862f6ea44e9ec2b4b0fd51af2733aee4fad2c682",
+            "message": "Fixed inconsistency",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5ea30365e75da7535fe1315fc9bd4d3f51774db8",
+            "message": "Fixed Inconsistency",
+            "insertions": 5,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "shunnizuka": [
@@ -3916,6 +4195,12 @@
             "deletions": 7
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ],
     "jothipillay": [
@@ -5493,22 +5778,28 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 3230,
-    "jeffgan96": 5356,
-    "dehui333": 2918,
-    "shunnizuka": 1792,
-    "jothipillay": 4335
+    "ditan96": 3249,
+    "jeffgan96": 5407,
+    "dehui333": 4040,
+    "shunnizuka": 1775,
+    "jothipillay": 4289
   },
   "authorContributionVariance": {
-    "ditan96": 246147.9,
-    "jeffgan96": 177502.31,
-    "dehui333": 79969.45,
-    "shunnizuka": 22007.59,
-    "jothipillay": 107968.59
+    "ditan96": 241843.27,
+    "jeffgan96": 174311.22,
+    "dehui333": 118429.72,
+    "shunnizuka": 21663.73,
+    "jothipillay": 106442.15
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

@@ -17024,7 +17024,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "** Highlights: This enhancement requires an indepth understanding of how each major components work and the methods available as it involves retrieving of data from the GUI and parsing the retrieved data. Despite using the Opencsv library, the implementation was still challenging as it required using methods from different components, parsing and organising the data so as that the exported file contains only the essential information for easier reference."
+        "content": "** Highlights: This enhancement requires an indepth understanding of how each major components work and the methods available as it involves retrieving of data from the GUI and parsing the retrieved data. Despite using the Opencsv library, the implementation was still challenging as it required using methods from different components, parsing and organising the data such that the exported file contains only the essential information for easier reference."
       },
       {
         "lineNumber": 39,
@@ -17045,7 +17045,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "* *Minor enhancement*: As there are currently no third party libraries available which validates file name such that it adheres to the file naming conventions of the major operating systems (OS), I have created a `FileName` class which implements this feature to complement the `export` feature and is also used by the \u0027label\u0027 feature. It requires an indepth knowledge on the different file naming conventions of the various OS and also numerous testing as I discovered that some file name conventions were not documented and not allowed to be used as file names."
+        "content": "* *Minor enhancement*: As there are currently no third party libraries available which validates file name such that it adheres to the file naming conventions of the major operating systems (OS), I have created a `FileName` class which implements this feature to complement the `export` feature and is also used by the `label` feature. It requires an indepth knowledge on the different file naming conventions of the various OS and also numerous testing as I discovered that some file name conventions were not documented and not allowed to be used as file names."
       },
       {
         "lineNumber": 42,
@@ -17115,7 +17115,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "*** Added Introduction section to both User Guide and Developer Guide: https://github.com/CS2103-AY1819S2-T12-3/main/pull/115[#115], https://github.com/CS2103-AY1819S2-T12-3/main/pull/140[#140]"
+        "content": "*** Added Introduction sections to both User Guide and Developer Guide: https://github.com/CS2103-AY1819S2-T12-3/main/pull/115[#115], https://github.com/CS2103-AY1819S2-T12-3/main/pull/140[#140]"
       },
       {
         "lineNumber": 52,
@@ -17143,7 +17143,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "*** Updated User Guide\u0027s Quick Start section and Developer Guide\u0027s Setting Up section to only allow Java version `9` and JDK `9` including providing references to the reason for the change: https://github.com/CS2103-AY1819S2-T12-3/main/pull/117[#117], https://github.com/CS2103-AY1819S2-T12-3/main/pull/123[#123]"
+        "content": "*** Updated User Guide\u0027s Quick Start section and Developer Guide\u0027s Setting Up section to only allow Java version `9` and JDK `9` including references to the reason for the change: https://github.com/CS2103-AY1819S2-T12-3/main/pull/117[#117], https://github.com/CS2103-AY1819S2-T12-3/main/pull/123[#123]"
       },
       {
         "lineNumber": 56,
@@ -21562,12 +21562,19 @@
       {
         "lineNumber": 14,
         "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    public static final String MESSAGE_INVALID_COMMAND_FORMAT_DETAILED \u003d \"Invalid command format! %1$s\\n%2$s\";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 16,
         "author": {
           "gitId": "-"
         },
@@ -21576,6 +21583,7 @@
     ],
     "authorContributionMap": {
       "jtankw3": 2,
+      "JonathanLeeWH": 1,
       "-": 11,
       "flxffy": 2
     }
@@ -24056,1102 +24064,1137 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        if (Files.isDirectory(DEFAULT_EXPORT_FOLDER_PATH) \u003d\u003d false) {"
+        "content": "        if (Files.isDirectory(DEFAULT_EXPORT_FOLDER_PATH) \u003d\u003d false \u0026\u0026 Files.exists(DEFAULT_EXPORT_FOLDER_PATH)) {"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            try {"
+        "content": "            throw new CommandException(FILE_OPS_ERROR_MESSAGE + \"an \\\"\" + DEFAULT_EXPORT_FOLDER_NAME + \"\\\" file without\""
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                Files.createDirectory(DEFAULT_EXPORT_FOLDER_PATH);"
+        "content": "                    + \" any file extension already exists and it is not a directory. \""
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            } catch (IOException ioe) {"
+        "content": "                    + \"Please remove it in order for the \\\"exported\\\" directory to be created.\");"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                throw new CommandException(FILE_OPS_ERROR_MESSAGE + ioe, ioe);"
+        "content": "        }"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "        if (Files.isDirectory(DEFAULT_EXPORT_FOLDER_PATH) \u003d\u003d false) {"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "            try {"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "                Files.createDirectory(DEFAULT_EXPORT_FOLDER_PATH);"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "            } catch (IOException ioe) {"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    /**"
+        "content": "                throw new CommandException(FILE_OPS_ERROR_MESSAGE + ioe, ioe);"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Returns whether the input medicine has been initialised."
+        "content": "            }"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Initalised, in this case, is defined as whether it has any batches or it was just added with currently"
+        "content": "        }"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * no batches linked to it."
+        "content": "    }"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param medicine The input medicine."
+        "content": ""
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @return Whether the input medicine has been initialised."
+        "content": "    /**"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     */"
+        "content": "     * Returns whether the input medicine has been initialised."
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    private boolean isMedicineInitialised(Medicine medicine) {"
+        "content": "     * Initalised, in this case, is defined as whether it has any batches or it was just added with currently"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        if (medicine.getBatches().size() \u003d\u003d 0) {"
+        "content": "     * no batches linked to it."
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            return false;"
+        "content": "     * @param medicine The input medicine."
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        } else {"
+        "content": "     * @return Whether the input medicine has been initialised."
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            return true;"
+        "content": "     */"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "    private boolean isMedicineInitialised(Medicine medicine) {"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        if (medicine.getBatches().size() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "            return false;"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    /**"
+        "content": "        } else {"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Returns a list batch of the input medicine that are expiring soon."
+        "content": "            return true;"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Note: It returns an empty list of the input medicine does not have any batches that is expiring soon."
+        "content": "        }"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param medicine The input medicine ."
+        "content": "    }"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @return Returns a list batch of the input medicine that are expiring soon."
+        "content": ""
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * It returns an empty list of the input medicine does not have any batches that is expiring soon."
+        "content": "    /**"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     */"
+        "content": "     * Returns a list batch of the input medicine that are expiring soon."
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    private List\u003cBatch\u003e getListOfBatchExpiringSoon(Medicine medicine) {"
+        "content": "     * Note: It returns an empty list of the input medicine does not have any batches that is expiring soon."
       },
       {
         "lineNumber": 168,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "JonathanLeeWH"
         },
-        "content": "        return medicine.getFilteredBatch(model.getWarningPanelPredicateAccessor().getBatchExpiryPredicate());"
+        "content": "     * @param medicine The input medicine ."
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "     * @return Returns a list batch of the input medicine that are expiring soon."
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "     * It returns an empty list of the input medicine does not have any batches that is expiring soon."
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Returns true if the input medicine is in the input list of lowQuantityMedicineList else returns false."
+        "content": "    private List\u003cBatch\u003e getListOfBatchExpiringSoon(Medicine medicine) {"
       },
       {
         "lineNumber": 173,
         "author": {
-          "gitId": "JonathanLeeWH"
+          "gitId": "flxffy"
         },
-        "content": "     * @param medicine The input medicine."
+        "content": "        return medicine.getFilteredBatch(model.getWarningPanelPredicateAccessor().getBatchExpiryPredicate());"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param lowQuantityMedicineList The list of medicines which are low in quantity/low in stock."
+        "content": "    }"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @return Returns true if the input medicine is in the input list of lowQuantityMedicineList else returns false."
+        "content": ""
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    private boolean isMedicineLowQuantity(Medicine medicine, List lowQuantityMedicineList) {"
+        "content": "     * Returns true if the input medicine is in the input list of lowQuantityMedicineList else returns false."
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        return lowQuantityMedicineList.contains(medicine);"
+        "content": "     * @param medicine The input medicine."
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "     * @param lowQuantityMedicineList The list of medicines which are low in quantity/low in stock."
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "     * @return Returns true if the input medicine is in the input list of lowQuantityMedicineList else returns false."
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Returns true if the input medicine batch is expired else returns false."
+        "content": "    private boolean isMedicineLowQuantity(Medicine medicine, List lowQuantityMedicineList) {"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Note: A medicine batch is considered expired if the current date is greater than or equal to the medicine"
+        "content": "        return lowQuantityMedicineList.contains(medicine);"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * batch expiry date."
+        "content": "    }"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param batch The input medicine batch."
+        "content": ""
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @return Returns true if the input medicine batch is expired else returns false."
+        "content": "    /**"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     */"
+        "content": "     * Returns true if the input medicine batch is expired else returns false."
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    private boolean isMedicineBatchExpired(Batch batch) {"
+        "content": "     * Note: A medicine batch is considered expired if the current date is greater than or equal to the medicine"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        Expiry currentMedicineBatchExpiry \u003d batch.getExpiry();"
+        "content": "     * batch expiry date."
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        Expiry currentDate;"
+        "content": "     * @param batch The input medicine batch."
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        SimpleDateFormat currentDataAndTimeFormat \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
+        "content": "     * @return Returns true if the input medicine batch is expired else returns false."
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        String currentDateString \u003d currentDataAndTimeFormat.format(new Date());"
+        "content": "     */"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        currentDate \u003d new Expiry(currentDateString);"
+        "content": "    private boolean isMedicineBatchExpired(Batch batch) {"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        if (currentDate.compareTo(currentMedicineBatchExpiry) \u003e\u003d 1) {"
+        "content": "        Expiry currentMedicineBatchExpiry \u003d batch.getExpiry();"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            return true;"
+        "content": "        Expiry currentDate;"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        } else {"
+        "content": "        SimpleDateFormat currentDataAndTimeFormat \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            return false;"
+        "content": "        String currentDateString \u003d currentDataAndTimeFormat.format(new Date());"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "        currentDate \u003d new Expiry(currentDateString);"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        if (currentDate.compareTo(currentMedicineBatchExpiry) \u003e\u003d 1) {"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "            return true;"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    /**"
+        "content": "        } else {"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Processes the input medicine data and returns a List of String Array"
+        "content": "            return false;"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * representation of the input medicine data for writing to csv file."
+        "content": "        }"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param medicine The input medicine."
+        "content": "    }"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param isMedicineLowQuantity The input medicine low quantity status: It is true, if it is low stock else"
+        "content": ""
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     *                              it is false."
+        "content": "    /**"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @return Returns a list of String Array containing the input medicine data for writing to csv file."
+        "content": "     * Processes the input medicine data and returns a List of String Array"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     */"
+        "content": "     * representation of the input medicine data for writing to csv file."
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    private List\u003cString[]\u003e processMedicineData(Medicine medicine, boolean isMedicineLowQuantity) {"
+        "content": "     * @param medicine The input medicine."
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        List\u003cString[]\u003e result \u003d new ArrayList\u003c\u003e();"
+        "content": "     * @param isMedicineLowQuantity The input medicine low quantity status: It is true, if it is low stock else"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        Collection\u003cBatch\u003e batches \u003d medicine.getBatches().values();"
+        "content": "     *                              it is false."
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        Iterator iterator \u003d batches.iterator();"
+        "content": "     * @return Returns a list of String Array containing the input medicine data for writing to csv file."
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        while (iterator.hasNext()) {"
+        "content": "     */"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            Batch currentBatch \u003d (Batch) iterator.next();"
+        "content": "    private List\u003cString[]\u003e processMedicineData(Medicine medicine, boolean isMedicineLowQuantity) {"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            String[] currentData \u003d buildStringArray(medicine, currentBatch, isMedicineLowQuantity);"
+        "content": "        List\u003cString[]\u003e result \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            result.add(currentData);"
+        "content": "        Collection\u003cBatch\u003e batches \u003d medicine.getBatches().values();"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "        Iterator iterator \u003d batches.iterator();"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        return result;"
+        "content": "        while (iterator.hasNext()) {"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "            Batch currentBatch \u003d (Batch) iterator.next();"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "            String[] currentData \u003d buildStringArray(medicine, currentBatch, isMedicineLowQuantity);"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    /**"
+        "content": "            result.add(currentData);"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Builds a String Array containing detailed information of the medicine"
+        "content": "        }"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * which will be written to the csv file."
+        "content": "        return result;"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param medicine The input medicine."
+        "content": "    }"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param batch The input batch of the input medicine."
+        "content": ""
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param isMedicineLowQuantity The input medicine low quantity status: It is true, if it is low stock else"
+        "content": "    /**"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     *                              it is false."
+        "content": "     * Builds a String Array containing detailed information of the medicine"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @return A String Array containing detailed information of the medicine."
+        "content": "     * which will be written to the csv file."
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     */"
+        "content": "     * @param medicine The input medicine."
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    private String[] buildStringArray(Medicine medicine, Batch batch, boolean isMedicineLowQuantity) {"
+        "content": "     * @param batch The input batch of the input medicine."
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        final StringBuilder builder \u003d new StringBuilder();"
+        "content": "     * @param isMedicineLowQuantity The input medicine low quantity status: It is true, if it is low stock else"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        String delimiter \u003d \"|\";"
+        "content": "     *                              it is false."
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        List\u003cBatch\u003e listOfBatchesExpiringSoon \u003d getListOfBatchExpiringSoon(medicine);"
+        "content": "     * @return A String Array containing detailed information of the medicine."
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        String[] result;"
+        "content": "     */"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        builder.append(medicine.getName())"
+        "content": "    private String[] buildStringArray(Medicine medicine, Batch batch, boolean isMedicineLowQuantity) {"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(delimiter)"
+        "content": "        final StringBuilder builder \u003d new StringBuilder();"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(batch.getBatchNumber())"
+        "content": "        String delimiter \u003d \"|\";"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(delimiter)"
+        "content": "        List\u003cBatch\u003e listOfBatchesExpiringSoon \u003d getListOfBatchExpiringSoon(medicine);"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(batch.getQuantity())"
+        "content": "        String[] result;"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(delimiter)"
+        "content": "        builder.append(medicine.getName())"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(batch.getExpiry())"
+        "content": "                .append(delimiter)"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(delimiter)"
+        "content": "                .append(batch.getBatchNumber())"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(medicine.getCompany())"
+        "content": "                .append(delimiter)"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                .append(delimiter);"
+        "content": "                .append(batch.getQuantity())"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        Iterator iterator \u003d medicine.getTags().iterator();"
+        "content": "                .append(delimiter)"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        while (iterator.hasNext()) {"
+        "content": "                .append(batch.getExpiry())"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            Tag current \u003d (Tag) iterator.next();"
+        "content": "                .append(delimiter)"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            String formattedCurrentTagString \u003d current.toStringUpperCase();"
+        "content": "                .append(medicine.getCompany())"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            builder.append(formattedCurrentTagString);"
+        "content": "                .append(delimiter);"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            if (iterator.hasNext()) {"
+        "content": "        Iterator iterator \u003d medicine.getTags().iterator();"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                builder.append(\u0027 \u0027);"
+        "content": "        while (iterator.hasNext()) {"
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "            Tag current \u003d (Tag) iterator.next();"
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "            String formattedCurrentTagString \u003d current.toStringUpperCase();"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        builder.append(delimiter);"
+        "content": "            builder.append(formattedCurrentTagString);"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        if (isMedicineLowQuantity) {"
+        "content": "            if (iterator.hasNext()) {"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            builder.append(DEFAULT_LOW_STOCK_NOTIFICATION);"
+        "content": "                builder.append(\u0027 \u0027);"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            if (listOfBatchesExpiringSoon.contains(batch)) {"
+        "content": "            }"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                builder.append(\u0027 \u0027);"
+        "content": "        }"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                if (isMedicineBatchExpired(batch)) {"
+        "content": "        builder.append(delimiter);"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    builder.append(DEFAULT_EXPIRED_NOTIFICATION);"
+        "content": "        if (isMedicineLowQuantity) {"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                } else {"
+        "content": "            builder.append(DEFAULT_LOW_STOCK_NOTIFICATION);"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    builder.append(DEFAULT_EXPIRING_SOON_NOTIFICATION);"
+        "content": "            if (listOfBatchesExpiringSoon.contains(batch)) {"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                }"
+        "content": "                builder.append(\u0027 \u0027);"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "                if (isMedicineBatchExpired(batch)) {"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        } else {"
+        "content": "                    builder.append(DEFAULT_EXPIRED_NOTIFICATION);"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            if (listOfBatchesExpiringSoon.contains(batch)) {"
+        "content": "                } else {"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                if (isMedicineBatchExpired(batch)) {"
+        "content": "                    builder.append(DEFAULT_EXPIRING_SOON_NOTIFICATION);"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    builder.append(DEFAULT_EXPIRED_NOTIFICATION);"
+        "content": "                }"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                } else {"
+        "content": "            }"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    builder.append(DEFAULT_EXPIRING_SOON_NOTIFICATION);"
+        "content": "        } else {"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                }"
+        "content": "            if (listOfBatchesExpiringSoon.contains(batch)) {"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "                if (isMedicineBatchExpired(batch)) {"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "                    builder.append(DEFAULT_EXPIRED_NOTIFICATION);"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        result \u003d builder.toString().split(\"\\\\|\");"
+        "content": "                } else {"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        return result;"
+        "content": "                    builder.append(DEFAULT_EXPIRING_SOON_NOTIFICATION);"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "                }"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    public static String[] getDefaultHeading() {"
+        "content": "        }"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        return defaultHeading;"
+        "content": "        result \u003d builder.toString().split(\"\\\\|\");"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        return result;"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    public static String getDefaultExpiringSoonNotification() {"
+        "content": ""
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        return DEFAULT_EXPIRING_SOON_NOTIFICATION;"
+        "content": "    public static String[] getDefaultHeading() {"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        return defaultHeading;"
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    public static String getDefaultLowStockNotification() {"
+        "content": ""
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        return DEFAULT_LOW_STOCK_NOTIFICATION;"
+        "content": "    public static String getDefaultExpiringSoonNotification() {"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        return DEFAULT_EXPIRING_SOON_NOTIFICATION;"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    public static String getDefaultExpiredNotification() {"
+        "content": ""
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        return DEFAULT_EXPIRED_NOTIFICATION;"
+        "content": "    public static String getDefaultLowStockNotification() {"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        return DEFAULT_LOW_STOCK_NOTIFICATION;"
       },
       {
         "lineNumber": 293,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 294,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 295,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    public static String getDefaultExpiredNotification() {"
+      },
+      {
+        "lineNumber": 296,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        return DEFAULT_EXPIRED_NOTIFICATION;"
+      },
+      {
+        "lineNumber": 297,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 298,
         "author": {
           "gitId": "JonathanLeeWH"
         },
@@ -25159,7 +25202,7 @@
       }
     ],
     "authorContributionMap": {
-      "JonathanLeeWH": 290,
+      "JonathanLeeWH": 295,
       "flxffy": 3
     }
   },
@@ -37581,7 +37624,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT_DETAILED;"
       },
       {
         "lineNumber": 4,
@@ -37735,24 +37778,31 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE), pe);"
+        "content": "                    String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, pe.getMessage(),"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "                            ExportCommand.MESSAGE_USAGE), pe);"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 28,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 29,
         "author": {
           "gitId": "JonathanLeeWH"
         },
@@ -37760,7 +37810,7 @@
       }
     ],
     "authorContributionMap": {
-      "JonathanLeeWH": 28
+      "JonathanLeeWH": 29
     }
   },
   {
@@ -63450,6 +63500,218 @@
     }
   },
   {
+    "path": "src/main/java/seedu/address/ui/ResultDisplay.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.address.ui;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import static java.util.Objects.requireNonNull;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.fxml.FXML;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.scene.control.TextArea;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.scene.layout.Region;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * A ui for the status bar that is displayed at the header of the application."
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class ResultDisplay extends UiPart\u003cRegion\u003e {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private static final String FXML \u003d \"ResultDisplay.fxml\";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @FXML"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private TextArea resultDisplay;"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public ResultDisplay() {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        super(FXML);"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public void setFeedbackToUser(String feedbackToUser) {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        requireNonNull(feedbackToUser);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        resultDisplay.setText(feedbackToUser);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        resultDisplay.setWrapText(true);"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "JonathanLeeWH": 1,
+      "-": 28
+    }
+  },
+  {
     "path": "src/main/java/seedu/address/ui/StatusBarFooter.java",
     "lines": [
       {
@@ -88639,773 +88901,1025 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        try (CSVReader reader \u003d new CSVReader(new FileReader(filePath))) {"
+        "content": "        compareActualAndExpectedData(filePath);"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            String[] expectedData;"
+        "content": "    }"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            String[] actualData;"
+        "content": ""
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            expectedData \u003d CsvWrapper.getDefaultHeading();"
+        "content": "    /**"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            if ((actualData \u003d reader.readNext()) \u003d\u003d null) {"
+        "content": "     * Compares actual and expected data for the exported Csv file."
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                // Clean up temporary csv file for test case which was created."
+        "content": "     * Note: This version did not take advantage of JUnit TemporaryFolder method"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                filePath.delete();"
+        "content": "     * and instead uses manual checking using File exists() method and File delete() method"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                Assert.fail(\"The actual csv file contains less data than the expected amount of data.\");"
+        "content": "     * as I am still finding the best way to implement it as unlike the usual usage of TemporaryFolder method"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "     * in this case, the method I am testing includes creating its own default export folder which users"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            assertArrayEquals(expectedData, actualData);"
+        "content": "     * will be using and it also creates its own csv file when the method which is being tested is executed"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            List\u003cMedicine\u003e currentGuiList \u003d model.getFilteredMedicineList();"
+        "content": "     * so I am trying to find the best way to take advantage of the Junit TemporaryFolder method"
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "JonathanLeeWH"
         },
-        "content": "            List\u003cMedicine\u003e lowQuantityMedicineList \u003d model.getLowStockMedicinesList();"
+        "content": "     * without accidentally deleting any of the existing data which the user might have exported"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            Iterator iterator \u003d currentGuiList.listIterator();"
+        "content": "     * before running tests which might be crucial data though in practice usually when running tests"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            while (iterator.hasNext()) {"
+        "content": "     * you should not have crucial data but this is an additional safety precaution I decide to implement"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                Medicine current \u003d (Medicine) iterator.next();"
+        "content": "     * in case the developers do have crucial export data which they might accidentally did not back up before testing"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                List\u003cBatch\u003e listOfBatchesExpiringSoon \u003d current.getFilteredBatch("
+        "content": "     * There are two alternatives I can think of to solve this issue:"
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "JonathanLeeWH"
         },
-        "content": "                        model.getWarningPanelPredicateAccessor().getBatchExpiryPredicate());"
+        "content": "     * 1) Update CsvWrapper.java to support either a test situation (depending on how it is implemented"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                if (current.getBatches().size() \u003d\u003d 0) {"
+        "content": "     * it still can simulate real world scenario without affecting testing the main functionality) basically"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    continue;"
+        "content": "     * if the test flag is enabled it will allow use of custom export directory and custom csv file"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                }"
+        "content": "     * 2) I could just update CsvWrapper.java to support allowing custom export directory but that is actually"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                // Iterate through the batches of the current medicine"
+        "content": "     * planned for v2.0 and beyond as that is nice to have and not top priority as of now so in order to minimise"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                Collection\u003cBatch\u003e batches \u003d current.getBatches().values();"
+        "content": "     * any potential regression bugs, option 1 would be a better choice if compared to this option as option 1 hides"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                Iterator batchIterator \u003d batches.iterator();"
+        "content": "     * the custom export directory option from users and only allow it to use by developers or to be more precise"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                while (batchIterator.hasNext()) {"
+        "content": "     * only use for testing purposes (abstraction and information hiding concepts)"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    if ((actualData \u003d reader.readNext()) \u003d\u003d null) {"
+        "content": "     * 3) Create the JUnit TemporaryFolder within the default exported directory"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        // Clean up temporary csv file for test case which was created."
+        "content": "     * and move the temporary created csv file to that folder within the default exported directory"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        filePath.delete();"
+        "content": "     * so that both will be deleted when each test case complete its execution (Might be possible"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        Assert.fail(\"The actual csv file contains less data than the expected amount of data.\");"
+        "content": "     * and still researching though it might be shift to Milestone v2.0 and beyond depending on availability of time"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    }"
+        "content": "     * as there might be higher priority tasks)"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    Batch currentBatch \u003d (Batch) batchIterator.next();"
+        "content": "     * The advantage of using JUnit TemporaryFolder is it allows cleaner code without having"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    final StringBuilder builder \u003d new StringBuilder();"
+        "content": "     * to manually delete the temporary file manually using File delete() method as it will be deleted"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    String delimiter \u003d \"|\";"
+        "content": "     * after each test method has executed"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    builder.append(current.getName())"
+        "content": "     * @param filePath The actual csv file to be compared with the expected data."
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(delimiter)"
+        "content": "     * @throws IOException If the reading of the data from the exported Csv file encounters an exception."
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(currentBatch.getBatchNumber())"
+        "content": "     */"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(delimiter)"
+        "content": "    private void compareActualAndExpectedData(File filePath) throws IOException {"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(currentBatch.getQuantity())"
+        "content": "        try (CSVReader reader \u003d new CSVReader(new FileReader(filePath))) {"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(delimiter)"
+        "content": "            String[] expectedData;"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(currentBatch.getExpiry())"
+        "content": "            String[] actualData;"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(delimiter)"
+        "content": "            expectedData \u003d CsvWrapper.getDefaultHeading();"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(current.getCompany())"
+        "content": "            if ((actualData \u003d reader.readNext()) \u003d\u003d null) {"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            .append(delimiter);"
+        "content": "                // Clean up temporary csv file for test case which was created."
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    Iterator buildIterator \u003d current.getTags().iterator();"
+        "content": "                filePath.delete();"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    while (buildIterator.hasNext()) {"
+        "content": "                Assert.fail(\"The actual csv file contains less data than the expected amount of data.\");"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        Tag currentTag \u003d (Tag) buildIterator.next();"
+        "content": "            }"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        String formattedCurrentTagString \u003d currentTag.toStringUpperCase();"
+        "content": "            assertArrayEquals(expectedData, actualData);"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        builder.append(formattedCurrentTagString);"
+        "content": "            List\u003cMedicine\u003e currentGuiList \u003d model.getFilteredMedicineList();"
       },
       {
         "lineNumber": 145,
         "author": {
-          "gitId": "JonathanLeeWH"
+          "gitId": "flxffy"
         },
-        "content": "                        if (buildIterator.hasNext()) {"
+        "content": "            List\u003cMedicine\u003e lowQuantityMedicineList \u003d model.getLowStockMedicinesList();"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            builder.append(\u0027 \u0027);"
+        "content": "            Iterator iterator \u003d currentGuiList.listIterator();"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        }"
+        "content": "            while (iterator.hasNext()) {"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    }"
+        "content": "                Medicine current \u003d (Medicine) iterator.next();"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    builder.append(delimiter);"
+        "content": "                List\u003cBatch\u003e listOfBatchesExpiringSoon \u003d current.getFilteredBatch("
       },
       {
         "lineNumber": 150,
         "author": {
-          "gitId": "JonathanLeeWH"
+          "gitId": "flxffy"
         },
-        "content": "                    if (lowQuantityMedicineList.contains(current)) {"
+        "content": "                        model.getWarningPanelPredicateAccessor().getBatchExpiryPredicate());"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        builder.append(CsvWrapper.getDefaultLowStockNotification());"
+        "content": "                if (current.getBatches().size() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        if (listOfBatchesExpiringSoon.contains(currentBatch)) {"
+        "content": "                    continue;"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            builder.append(\u0027 \u0027);"
+        "content": "                }"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            if (isMedicineBatchExpired(currentBatch)) {"
+        "content": "                // Iterate through the batches of the current medicine"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                                builder.append(CsvWrapper.getDefaultExpiredNotification());"
+        "content": "                Collection\u003cBatch\u003e batches \u003d current.getBatches().values();"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            } else {"
+        "content": "                Iterator batchIterator \u003d batches.iterator();"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                                builder.append(CsvWrapper.getDefaultExpiringSoonNotification());"
+        "content": "                while (batchIterator.hasNext()) {"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            }"
+        "content": "                    if ((actualData \u003d reader.readNext()) \u003d\u003d null) {"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        }"
+        "content": "                        // Clean up temporary csv file for test case which was created."
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    } else {"
+        "content": "                        filePath.delete();"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        if (listOfBatchesExpiringSoon.contains(currentBatch)) {"
+        "content": "                        Assert.fail(\"The actual csv file contains less data than the expected amount of data.\");"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            if (isMedicineBatchExpired(currentBatch)) {"
+        "content": "                    }"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                                builder.append(CsvWrapper.getDefaultExpiredNotification());"
+        "content": "                    Batch currentBatch \u003d (Batch) batchIterator.next();"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            } else {"
+        "content": "                    final StringBuilder builder \u003d new StringBuilder();"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                                builder.append(CsvWrapper.getDefaultExpiringSoonNotification());"
+        "content": "                    String delimiter \u003d \"|\";"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                            }"
+        "content": "                    builder.append(current.getName())"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                        }"
+        "content": "                            .append(delimiter)"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    }"
+        "content": "                            .append(currentBatch.getBatchNumber())"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    expectedData \u003d builder.toString().split(\"\\\\|\");"
+        "content": "                            .append(delimiter)"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                    assertArrayEquals(expectedData, actualData);"
+        "content": "                            .append(currentBatch.getQuantity())"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                }"
+        "content": "                            .append(delimiter)"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "                            .append(currentBatch.getExpiry())"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "                            .append(delimiter)"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            if (reader.readNext() !\u003d null) {"
+        "content": "                            .append(current.getCompany())"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                // Clean up temporary csv file for test case which was created."
+        "content": "                            .append(delimiter);"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                filePath.delete();"
+        "content": "                    Iterator buildIterator \u003d current.getTags().iterator();"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                Assert.fail(\"The actual csv file contains more data than the expected amount of data.\");"
+        "content": "                    while (buildIterator.hasNext()) {"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "                        Tag currentTag \u003d (Tag) buildIterator.next();"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        } catch (IOException ioe) {"
+        "content": "                        String formattedCurrentTagString \u003d currentTag.toStringUpperCase();"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            throw ioe;"
+        "content": "                        builder.append(formattedCurrentTagString);"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        } finally {"
+        "content": "                        if (buildIterator.hasNext()) {"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            // Clean up temporary csv file for test case which was created."
+        "content": "                            builder.append(\u0027 \u0027);"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            if (filePath.exists()) {"
+        "content": "                        }"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                filePath.delete();"
+        "content": "                    }"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            }"
+        "content": "                    builder.append(delimiter);"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "                    if (lowQuantityMedicineList.contains(current)) {"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "                        builder.append(CsvWrapper.getDefaultLowStockNotification());"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ""
+        "content": "                        if (listOfBatchesExpiringSoon.contains(currentBatch)) {"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    /**"
+        "content": "                            builder.append(\u0027 \u0027);"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Returns true if the input medicine batch is expired else returns false."
+        "content": "                            if (isMedicineBatchExpired(currentBatch)) {"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * Note: A medicine batch is considered expired if the current date is greater than or equal to the medicine"
+        "content": "                                builder.append(CsvWrapper.getDefaultExpiredNotification());"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * batch expiry date."
+        "content": "                            } else {"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @param batch The input medicine batch."
+        "content": "                                builder.append(CsvWrapper.getDefaultExpiringSoonNotification());"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     * @return Returns true if the input medicine batch is expired else returns false."
+        "content": "                            }"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "     */"
+        "content": "                        }"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    private boolean isMedicineBatchExpired(Batch batch) {"
+        "content": "                    } else {"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        Expiry currentMedicineBatchExpiry \u003d batch.getExpiry();"
+        "content": "                        if (listOfBatchesExpiringSoon.contains(currentBatch)) {"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        Expiry currentDate;"
+        "content": "                            if (isMedicineBatchExpired(currentBatch)) {"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        SimpleDateFormat currentDataAndTimeFormat \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
+        "content": "                                builder.append(CsvWrapper.getDefaultExpiredNotification());"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        String currentDateString \u003d currentDataAndTimeFormat.format(new Date());"
+        "content": "                            } else {"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        currentDate \u003d new Expiry(currentDateString);"
+        "content": "                                builder.append(CsvWrapper.getDefaultExpiringSoonNotification());"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        if (currentDate.compareTo(currentMedicineBatchExpiry) \u003e\u003d 1) {"
+        "content": "                            }"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            return true;"
+        "content": "                        }"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        } else {"
+        "content": "                    }"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "            return false;"
+        "content": "                    expectedData \u003d builder.toString().split(\"\\\\|\");"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        }"
+        "content": "                    assertArrayEquals(expectedData, actualData);"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "                }"
       },
       {
         "lineNumber": 208,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 209,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 210,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            if (reader.readNext() !\u003d null) {"
+      },
+      {
+        "lineNumber": 211,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                // Clean up temporary csv file for test case which was created."
+      },
+      {
+        "lineNumber": 212,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                filePath.delete();"
+      },
+      {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                Assert.fail(\"The actual csv file contains more data than the expected amount of data.\");"
+      },
+      {
+        "lineNumber": 214,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 215,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        } catch (IOException ioe) {"
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            throw ioe;"
+      },
+      {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        } finally {"
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            // Clean up temporary csv file for test case which was created."
+      },
+      {
+        "lineNumber": 219,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            if (filePath.exists()) {"
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                filePath.delete();"
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "     * Returns true if the input medicine batch is expired else returns false."
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "     * Note: A medicine batch is considered expired if the current date is greater than or equal to the medicine"
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "     * batch expiry date."
+      },
+      {
+        "lineNumber": 229,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "     * @param batch The input medicine batch."
+      },
+      {
+        "lineNumber": 230,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "     * @return Returns true if the input medicine batch is expired else returns false."
+      },
+      {
+        "lineNumber": 231,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 232,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    private boolean isMedicineBatchExpired(Batch batch) {"
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        Expiry currentMedicineBatchExpiry \u003d batch.getExpiry();"
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        Expiry currentDate;"
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        SimpleDateFormat currentDataAndTimeFormat \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        String currentDateString \u003d currentDataAndTimeFormat.format(new Date());"
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        currentDate \u003d new Expiry(currentDateString);"
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        if (currentDate.compareTo(currentMedicineBatchExpiry) \u003e\u003d 1) {"
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            return true;"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        } else {"
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 244,
         "author": {
           "gitId": "JonathanLeeWH"
         },
@@ -89413,7 +89927,7 @@
       }
     ],
     "authorContributionMap": {
-      "JonathanLeeWH": 206,
+      "JonathanLeeWH": 242,
       "flxffy": 2
     }
   },
@@ -99864,7 +100378,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT_DETAILED;"
       },
       {
         "lineNumber": 4,
@@ -100130,143 +100644,192 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));"
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, FileName.MESSAGE_CONSTRAINTS,"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        // invalid file name (underscore only)"
+        "content": "                        ExportCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        assertParseFailure(parser, \"_\","
+        "content": "        // invalid file name (underscore only)"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));"
+        "content": "        assertParseFailure(parser, \"_\","
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        // invalid file name (only not supported non-alphanumeric characters)"
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, FileName.MESSAGE_CONSTRAINTS,"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        assertParseFailure(parser, \"*\","
+        "content": "                        ExportCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));"
+        "content": "        // invalid file name (only not supported non-alphanumeric characters)"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        // invalid file name (contains not supported non-alphanumeric characters)"
+        "content": "        assertParseFailure(parser, \"*\","
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        assertParseFailure(parser, \"example*\","
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, FileName.MESSAGE_CONSTRAINTS,"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));"
+        "content": "                        ExportCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        // invalid file name (alphabets with a space only)"
+        "content": "        // invalid file name (contains not supported non-alphanumeric characters)"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        assertParseFailure(parser, \"example record\","
+        "content": "        assertParseFailure(parser, \"example*\","
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));"
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, FileName.MESSAGE_CONSTRAINTS,"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        // invalid file name (alphabets with a file format)"
+        "content": "                        ExportCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        assertParseFailure(parser, \"exampleRecord.csv\","
+        "content": "        // invalid file name (alphabets with a space only)"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));"
+        "content": "        assertParseFailure(parser, \"example record\","
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        // invalid file name (file format)"
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, FileName.MESSAGE_CONSTRAINTS,"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "        assertParseFailure(parser, \".csv\","
+        "content": "                        ExportCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));"
+        "content": "        // invalid file name (alphabets with a file format)"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "    }"
+        "content": "        assertParseFailure(parser, \"exampleRecord.csv\","
       },
       {
         "lineNumber": 61,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, FileName.MESSAGE_CONSTRAINTS,"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                        ExportCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        // invalid file name (file format)"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "        assertParseFailure(parser, \".csv\","
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT_DETAILED, FileName.MESSAGE_CONSTRAINTS,"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "                        ExportCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "JonathanLeeWH"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 68,
         "author": {
           "gitId": "JonathanLeeWH"
         },
@@ -100274,7 +100837,7 @@
       }
     ],
     "authorContributionMap": {
-      "JonathanLeeWH": 61
+      "JonathanLeeWH": 68
     }
   },
   {

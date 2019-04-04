@@ -590,10 +590,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 247,
+        "deletions": 132,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "59e662e76bc75cd46948711c98aa37bbb426d80c",
+            "message": "added switch tab command",
+            "insertions": 242,
+            "deletions": 114
+          },
+          {
+            "hash": "2966e672d05d92d1a8e13c4b96998651b2691ca6",
+            "message": "removed unused variable",
+            "insertions": 4,
+            "deletions": 15
+          },
+          {
+            "hash": "0e8ecc0810f7dfbdeb19ddfff840d8628a429cc9",
+            "message": "resolve merge conflict",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -602,10 +621,65 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 473,
+        "deletions": 292,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8d02faa9512f9208a6445c6a9d5c87d7e56c8a1d",
+            "message": "tab can be switched automatically according to the command executed",
+            "insertions": 153,
+            "deletions": 8
+          },
+          {
+            "hash": "fd7c977eccd260d60a81e4b32da1c946efd08152",
+            "message": "resolve merge conflict",
+            "insertions": 1,
+            "deletions": 70
+          },
+          {
+            "hash": "68e5a6c9926334cce9819682d6de9ab0ae64d4b5",
+            "message": "add scroll pane for bill panel",
+            "insertions": 64,
+            "deletions": 52
+          },
+          {
+            "hash": "16177fe9cd5ba674817e4d923cfcff29ac45fad5",
+            "message": "chang the scroll pane to text area modify the theme of text area",
+            "insertions": 20,
+            "deletions": 67
+          },
+          {
+            "hash": "72d7a4ed890d9d5d828e43129bf53af81ef41551",
+            "message": "implement bill panel",
+            "insertions": 125,
+            "deletions": 17
+          },
+          {
+            "hash": "6836747988b6ba842c71bf6bdd92f06898b72fd8",
+            "message": "add getBillPanel method",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "dec8b5b6cc2cafd551cd0dd36de2f4c78df10ffb",
+            "message": "resolve merge conflicts change the size of tabs for booking and reservation",
+            "insertions": 2,
+            "deletions": 35
+          },
+          {
+            "hash": "bb0aa04848a9ccd19e21a4de2f81aeed5c2f94d3",
+            "message": "reformat bill panel",
+            "insertions": 41,
+            "deletions": 40
+          },
+          {
+            "hash": "db32a93df331fc38a80f6c374d945529a95562bb",
+            "message": "get count and amount methods will return 0 if null object is found amount for booking, reservation and total are calculated real-time now",
+            "insertions": 63,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "sreycodes": [
@@ -1557,10 +1631,23 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 100,
+        "deletions": 87,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "83221d5ee759a615e9fa5e20c9175457533510ed",
+            "message": "Updating developer guide",
+            "insertions": 97,
+            "deletions": 84
+          },
+          {
+            "hash": "2672d949ffe42720d739f48be98864fe8ae52908",
+            "message": "Updated user guide and readme",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "Tejas2805": [
@@ -2694,8 +2781,8 @@
         ]
       },
       {
-        "insertions": 964,
-        "deletions": 230,
+        "insertions": 1088,
+        "deletions": 296,
         "date": "2019-04-03",
         "commitResults": [
           {
@@ -2739,6 +2826,18 @@
             "message": "Correct errors.",
             "insertions": 1,
             "deletions": 73
+          },
+          {
+            "hash": "35b482272f4596a4f494700684d519ebae158831",
+            "message": "Updated UG and DG. Made changes to FindReservation GenerateBillReservationCommand.",
+            "insertions": 116,
+            "deletions": 60
+          },
+          {
+            "hash": "9b41ffedb2327801fd72f013e3d747db113c12d1",
+            "message": "Errors corrected.",
+            "insertions": 8,
+            "deletions": 6
           }
         ]
       }
@@ -3299,24 +3398,31 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 5,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6b8dd9ff3ef599877f674e62ca0937877655220a",
+            "message": "Fix gradle",
+            "insertions": 4,
+            "deletions": 5
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 3703,
-    "sreycodes": 10672,
-    "Tejas2805": 3268,
-    "nerrons": 1253
+    "ZhangCX10032": 4112,
+    "sreycodes": 10718,
+    "Tejas2805": 3319,
+    "nerrons": 1241
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 783466.9,
-    "sreycodes": 2.731427E7,
-    "Tejas2805": 146790.12,
-    "nerrons": 238757.42
+    "ZhangCX10032": 786025.2,
+    "sreycodes": 2.7307148E7,
+    "Tejas2805": 154578.95,
+    "nerrons": 238712.28
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",
