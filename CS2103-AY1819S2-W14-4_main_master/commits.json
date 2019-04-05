@@ -459,10 +459,42 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 60,
+        "deletions": 26,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "dc223530a59477085c3f6748d1f6b43383e78493",
+            "message": "added clisytax to displaymod cmd",
+            "insertions": 43,
+            "deletions": 15
+          },
+          {
+            "hash": "efa838bc10fc08f2d43047a7082aa30a85e76d6b",
+            "message": "updated UG",
+            "insertions": 16,
+            "deletions": 10
+          },
+          {
+            "hash": "08ddf627685b07b92513cc5cfd45ae41c809971c",
+            "message": "spelleing edit",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "0e3570d58a32c767273feaa2ef879139927a2ac3",
+            "message": "made error correction",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "crumpledpaper": [
@@ -840,6 +872,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
         "commitResults": []
       }
     ],
@@ -1623,6 +1661,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ],
     "alexchong711": [
@@ -2215,10 +2259,66 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 195,
+        "deletions": 1434,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d38aa5e00810b1fa8b400df5bf30661d829c764b",
+            "message": "updated docs/DeveloperGuide.adoc",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "1f8bfa9966eb16c76880705f16ba7bf6a875a1f7",
+            "message": "cklimit results printable to browser panel",
+            "insertions": 172,
+            "deletions": 1430
+          },
+          {
+            "hash": "f3c38eeb9cfc66aa71c6aab84df21fd984193a81",
+            "message": "default workload populating",
+            "insertions": 12,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 82,
+        "deletions": 16,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "0b32645c440e584d1d63a66feb4d7ea7b01b0e25",
+            "message": "fixed default data for jar file",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "1aa988d22817d2bfb471bd23cb4f2e0bffdc0517",
+            "message": "fixed error messages for set limit command",
+            "insertions": 26,
+            "deletions": 12
+          },
+          {
+            "hash": "37eeb1b20c85cf560fd7b39a55780500dfac34a5",
+            "message": "some javadocs and clisyntax changes",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "bba02df77b2b0d3ed23827ba18138479cb11ee50",
+            "message": "fix cklimit to get a full filtered list",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "38b41b88f44da071765870e1d34b951d4b8c6b7b",
+            "message": "fixed clear command clearing the sem limits",
+            "insertions": 9,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "lshwayne96": [
@@ -2957,32 +3057,88 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 24,
+        "deletions": 358,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a95227f91e10dff9aef9baa43c777b0805d95cd9",
+            "message": "added directory for json files in src/main/resources",
+            "insertions": 3,
+            "deletions": 344
+          },
+          {
+            "hash": "9ae24ffe43704be6b4a385a13f13452df775c831",
+            "message": "updated UG and small changes to strings",
+            "insertions": 21,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 275,
+        "deletions": 220,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "f3a598f891ab8970e803731b6c6c22607679e45d",
+            "message": "added new modules to start of AllModules.json; changed paths to AllModules.json and course.json in Manager classes; changes to SampleCourseRequirement",
+            "insertions": 212,
+            "deletions": 106
+          },
+          {
+            "hash": "2205b3981bf49d4431855854a0494c90432fe3ab",
+            "message": "minor updates to UG, DG",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "4680b989fe63a4d1ee5df767de532b89634c072c",
+            "message": "start with empty gradtrak when user data not found",
+            "insertions": 3,
+            "deletions": 10
+          },
+          {
+            "hash": "f740da3dec6633c327496b7a27efe6a63af60835",
+            "message": "removed sampledatatest",
+            "insertions": 0,
+            "deletions": 45
+          },
+          {
+            "hash": "c7d3b84a1350e59ada1ee8127d98a667e07a4c28",
+            "message": "changed regex for GER and GEQ, small changes to strings",
+            "insertions": 55,
+            "deletions": 54
+          },
+          {
+            "hash": "f364ff50cd56fca50664b2d02a0363dcaf50bd4b",
+            "message": "newline",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-04",
+        "date": "2019-04-05",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Anand270294": 1954,
-    "crumpledpaper": 178,
-    "monikernemo": 7414,
-    "alexchong711": 3600,
-    "lshwayne96": 2004
+    "Anand270294": 1984,
+    "crumpledpaper": 188,
+    "monikernemo": 5521,
+    "alexchong711": 3733,
+    "lshwayne96": 2081
   },
   "authorContributionVariance": {
-    "Anand270294": 25033.658,
-    "crumpledpaper": 1426.94,
-    "monikernemo": 651796.94,
-    "alexchong711": 176992.17,
-    "lshwayne96": 104375.0
+    "Anand270294": 24594.746,
+    "crumpledpaper": 1402.4597,
+    "monikernemo": 644024.5,
+    "alexchong711": 212424.1,
+    "lshwayne96": 104607.09
   },
   "authorDisplayNameMap": {
     "Anand270294": "T A...MAR",

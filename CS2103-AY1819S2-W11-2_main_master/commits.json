@@ -1186,6 +1186,74 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 67,
+        "deletions": 54,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "4f5784ae032413a56cda68f057fa8b9271720136",
+            "message": "logic/parser: fix bug for shift parsers",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "8c1d610a89bc5af5f8361125db3ae35e6216771e",
+            "message": "logic/commands: fix formatting for messages",
+            "insertions": 17,
+            "deletions": 17
+          },
+          {
+            "hash": "f63bdf4adc2ba698515d1259c126a764ffdb7952",
+            "message": "logic/parser: disable undocumented commands",
+            "insertions": 36,
+            "deletions": 36
+          }
+        ]
+      },
+      {
+        "insertions": 63,
+        "deletions": 43,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "1b319a73a8a671b05c8ce489ca6487178f46df23",
+            "message": "style: remove unused imports",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "8c9d8d63aed3b05c6f3305df1ff07a9bbae12f42",
+            "message": "logic/parser: enable some commands",
+            "insertions": 16,
+            "deletions": 11
+          },
+          {
+            "hash": "1d20430cd66d0a8ecf60f4538d2c52614aad6969",
+            "message": "logic/parser: enable command aliases",
+            "insertions": 26,
+            "deletions": 26
+          },
+          {
+            "hash": "c8f2ab70c38c5f6f09ce5f63918604bfb583232b",
+            "message": "docs: update user guide",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "c551da804ab687f2a86b022865e1a6449644e195",
+            "message": "logic/commands: fix formatting in message",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "lingyanhao": [
@@ -2668,6 +2736,51 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 34,
+        "deletions": 2,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "8388ccbb875ff986f7831cb483c4b7c70b44444d",
+            "message": "Display better message when member is deleted",
+            "insertions": 29,
+            "deletions": 2
+          },
+          {
+            "hash": "9aa2b3dac64e7fc5758a20059540294d06db2d32",
+            "message": "Fix test",
+            "insertions": 5,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 13,
+        "deletions": 13,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "1e23e0e2ba5fbe618628d18883fc4fbb90710075",
+            "message": "Update user guide",
+            "insertions": 13,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 4,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "9f628e29ac0716e9a99ce45bc8deed995f58e799",
+            "message": "Fix bug in time parser",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "hiyingnn": [
@@ -3701,6 +3814,38 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 40,
+        "deletions": 18,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "3a0cdc41147d3ed00209e1589a4e0af2a90fd26d",
+            "message": "Fix edit recipe bug",
+            "insertions": 40,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "350d91fd0fc86bcd92860b7eaed83316790c22e4",
+            "message": "Made minor edits to UG",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "limli": [
@@ -4690,20 +4835,52 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "0be796f9824ef812573c5f68ac136ca51b0f8e57",
+            "message": "fix stats bug",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "a8fe73f8e2b485ee1f154c1bab8b03fe3c4eb406",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "zj-cs2103": 5332,
-    "lingyanhao": 4361,
-    "hiyingnn": 4584,
-    "limli": 3571
+    "zj-cs2103": 5377,
+    "lingyanhao": 4384,
+    "hiyingnn": 4564,
+    "limli": 3567
   },
   "authorContributionVariance": {
-    "zj-cs2103": 87172.234,
-    "lingyanhao": 91513.516,
-    "hiyingnn": 109307.766,
-    "limli": 287246.53
+    "zj-cs2103": 82922.05,
+    "lingyanhao": 88081.83,
+    "hiyingnn": 104421.17,
+    "limli": 273956.1
   },
   "authorDisplayNameMap": {
     "zj-cs2103": "WAN...IAN",

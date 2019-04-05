@@ -626,10 +626,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 13,
+        "deletions": 4,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "720a0b9d82af0ba89f624cae8029931161584f85",
+            "message": "fixed undo",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "aa55eea26eeb355674855039a3414003605225f3",
+            "message": "checkstyle",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "kayheen": [
@@ -1830,8 +1843,8 @@
         ]
       },
       {
-        "insertions": 117,
-        "deletions": 5,
+        "insertions": 463,
+        "deletions": 187,
         "date": "2019-04-04",
         "commitResults": [
           {
@@ -1839,6 +1852,30 @@
             "message": "Added sample import imgaes and files.",
             "insertions": 117,
             "deletions": 5
+          },
+          {
+            "hash": "f313e490e36add453232b9bc4ab9466c44e84751",
+            "message": "Add toString methods to all commands for parsing command history.",
+            "insertions": 170,
+            "deletions": 16
+          },
+          {
+            "hash": "8e75ac17d196f4a22c0790809933c945ee4eec21",
+            "message": "Create UI card for history pane. Refactor Command class.",
+            "insertions": 152,
+            "deletions": 148
+          },
+          {
+            "hash": "c3b74a11750368d301ce9ae153cd4196c11c81b0",
+            "message": "Fix optional check.",
+            "insertions": 20,
+            "deletions": 12
+          },
+          {
+            "hash": "7f7371cc6fccdde51242a18b6095d7d301a895a5",
+            "message": "Fix unused imports.",
+            "insertions": 4,
+            "deletions": 6
           }
         ]
       }
@@ -3041,16 +3078,16 @@
     ]
   },
   "authorFinalContributionMap": {
-    "itszp": 420,
-    "kayheen": 471,
-    "carrein": 1752,
-    "randytqw": 465,
-    "thamsimun": 854
+    "itszp": 428,
+    "kayheen": 472,
+    "carrein": 1894,
+    "randytqw": 464,
+    "thamsimun": 871
   },
   "authorContributionVariance": {
-    "itszp": 2890.9902,
+    "itszp": 2882.7175,
     "kayheen": 3230.9158,
-    "carrein": 29898.01,
+    "carrein": 35784.594,
     "randytqw": 5163.324,
     "thamsimun": 13202.767
   },

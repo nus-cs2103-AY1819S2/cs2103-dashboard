@@ -507,8 +507,8 @@
         ]
       },
       {
-        "insertions": 98,
-        "deletions": 1,
+        "insertions": 100,
+        "deletions": 20,
         "date": "2019-04-01",
         "commitResults": [
           {
@@ -516,6 +516,12 @@
             "message": "Add Summary class",
             "insertions": 98,
             "deletions": 1
+          },
+          {
+            "hash": "7e05dde117f2b8d8b98cf58543c01d46b88a3705",
+            "message": "Revert \"Fix bug of ReviewList not showing on the GUI when a Review is added/edited/deleted\"",
+            "insertions": 2,
+            "deletions": 19
           }
         ]
       },
@@ -561,6 +567,74 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 173,
+        "deletions": 212,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "958b3dae16fa1783b989d0a951e2fd0748527539",
+            "message": "Resolve RestaurantSummaryPanel\u0027s placeholder and failing wrap text bugs and restructure the RestaurantSummary UI component",
+            "insertions": 113,
+            "deletions": 190
+          },
+          {
+            "hash": "195887eea46b5fcabb33b327ef7151293b06966e",
+            "message": "Change the RestaurantSummaryPanel display and increase min height and width for the app",
+            "insertions": 29,
+            "deletions": 15
+          },
+          {
+            "hash": "f14e369dbdfd22e25ebd14cd56ccb1f8eb49cfc4",
+            "message": "Fix conflict between SetCategories command and Reviews",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "a3756fdb7cb51a20599afb958352d523c49ca9bd",
+            "message": "Fix bug of ReviewList not showing on the GUI when a Review is added/edited/deleted",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "08debbea75f5717e7977e6863d0fac337bab6eb0",
+            "message": "Fix CheckStyleMain error",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b46d0edb05d27941f21ffd3290fb79c3cbb2ded9",
+            "message": "Fix CSS attributes used",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "44e2237098743b320fc4abe6832ea6be8260b313",
+            "message": "Fix regex to allow leading 0s",
+            "insertions": 8,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 276,
+        "deletions": 129,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "1741514d97bd658725c3bb10ea242c6873196d6e",
+            "message": "Vet UserGuide and make minor modifications",
+            "insertions": 107,
+            "deletions": 91
+          },
+          {
+            "hash": "b59bcc571a0b1961a5c8573e888d27b97513c7e7",
+            "message": "Update Docs and include UML diagrams for select command, tweaks to RestaurantSummaryPanel",
+            "insertions": 169,
+            "deletions": 38
+          }
+        ]
       }
     ],
     "chanqingzhou": [
@@ -1288,6 +1362,18 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ],
     "rbth7e5": [
@@ -2293,6 +2379,31 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 3,
+        "deletions": 3,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "8c3009616ddcf3b2c3e9a97be19d1f92abd2de01",
+            "message": "update PPP to include implementation",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a9f900a7cd59d4e49d3100e9a227808c9b89a2ee",
+            "message": "fix typo in User Guide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ],
     "Wklee96": [
@@ -3255,10 +3366,133 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 101,
+        "deletions": 96,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "226d4708a0416ae936ac60a1816f93e63fad4ba6",
+            "message": " removed unused Exception constructor",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "b176fc46cbfa90eba47ffe75596727b6fe1c9542",
+            "message": "reorder attributes",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "597c9fb3039614670bc79d165186cc19f8ef92f8",
+            "message": "move methods from weblink to WebUtil to reduce dependency on Weblink class",
+            "insertions": 62,
+            "deletions": 46
+          },
+          {
+            "hash": "5e4a661a70a28cc5cfe6471a644081cab977d7a2",
+            "message": "change isWeblinkUrlValid method",
+            "insertions": 11,
+            "deletions": 20
+          },
+          {
+            "hash": "d34c98c48d5fe2dbcc55f6e8bdc2934b921efbbb",
+            "message": "remove redundant attribute",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "0be1d81d3a07e1baa28887e3dcbc9f6601babae5",
+            "message": "changed method calls to WebUtil",
+            "insertions": 14,
+            "deletions": 9
+          },
+          {
+            "hash": "d7737b64e63495ea333665e31aaa0e9c3e79b6aa",
+            "message": "handled no internet",
+            "insertions": 9,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 103,
+        "deletions": 53,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "dfb1c09eb2b29702a5f07acc06f8a3515c7db14e",
+            "message": "added javadocs",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "cbfba2fe8401e9b0d3366a1765a0db0cdc628665",
+            "message": "added a default weblink check",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "d5d52e7081f7f39bd3643aac3c8c7d9aded36122",
+            "message": "updated Add command Weblink validation",
+            "insertions": 31,
+            "deletions": 22
+          },
+          {
+            "hash": "001a462955e30c6a30627329dc0db796153a9635",
+            "message": "handle noInternet at visitWeb command",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "dede360aee481836a48f1db0276bda0c08adb6f6",
+            "message": "updated editCommand to handle noInternet",
+            "insertions": 21,
+            "deletions": 6
+          },
+          {
+            "hash": "d845264d46d1eed07f20d64f350ef58045b57bde",
+            "message": "updated command messages",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "0bb39bddf3b63cfb94f5e39aca2b0c7631f2810c",
+            "message": "updated EditCommandParser",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "6265c7cbdb4a5ddbfe782b794b14f2527a55fd00",
+            "message": "debugged command message",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "5b8b66685f90f6ecfc5f31666f31d66ccb829478",
+            "message": "refractor usage of NoWeblink string",
+            "insertions": 6,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 26,
+        "deletions": 11,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "40cccb6a4f664371ef6499513b2a1fdd63a28b1e",
+            "message": "if Weblink is not present, remove its value in restaurant card",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "442788de4f5ebe95555cf90d4593c78897d5ebb1",
+            "message": "updated docs",
+            "insertions": 20,
+            "deletions": 10
+          }
+        ]
       }
     ],
     "skpai27": [
@@ -3817,8 +4051,8 @@
         "commitResults": []
       },
       {
-        "insertions": 104,
-        "deletions": 8,
+        "insertions": 206,
+        "deletions": 10,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3862,6 +4096,12 @@
             "message": "ug fix",
             "insertions": 3,
             "deletions": 1
+          },
+          {
+            "hash": "7dba1ec09fb91cb257defd1831b4d69bb423b28c",
+            "message": "lll",
+            "insertions": 102,
+            "deletions": 2
           }
         ]
       },
@@ -3870,22 +4110,41 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 11,
+        "deletions": 107,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "ed743db2820c45e75ef877f63e9ae47675b08158",
+            "message": "added addReview sequence diagram to dg, edited ppp also",
+            "insertions": 11,
+            "deletions": 107
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "weixin-koh": 1810,
-    "chanqingzhou": 1435,
-    "rbth7e5": 4560,
-    "Wklee96": 916,
-    "skpai27": 991
+    "weixin-koh": 1951,
+    "chanqingzhou": 1407,
+    "rbth7e5": 4544,
+    "Wklee96": 984,
+    "skpai27": 988
   },
   "authorContributionVariance": {
-    "weixin-koh": 22899.582,
-    "chanqingzhou": 19747.729,
-    "rbth7e5": 490093.5,
-    "Wklee96": 5411.4336,
-    "skpai27": 6905.5903
+    "weixin-koh": 26120.47,
+    "chanqingzhou": 19114.87,
+    "rbth7e5": 473476.6,
+    "Wklee96": 5928.3926,
+    "skpai27": 7317.508
   },
   "authorDisplayNameMap": {
     "weixin-koh": "KOH...XIN",

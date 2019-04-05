@@ -1166,8 +1166,8 @@
         "commitResults": []
       },
       {
-        "insertions": 35,
-        "deletions": 23,
+        "insertions": 36,
+        "deletions": 24,
         "date": "2019-04-04",
         "commitResults": [
           {
@@ -1211,8 +1211,20 @@
             "message": "Update getCell() methods",
             "insertions": 0,
             "deletions": 5
+          },
+          {
+            "hash": "a330abf6e7e26a7716266527f374a33b7a55409f",
+            "message": "Rename title to Battleship",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ],
     "iwle": [
@@ -2957,6 +2969,19 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 12,
+        "deletions": 10,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "2c6d6c101a877f8d42f4312a587b082f3b4d53ce",
+            "message": "Update DG for Battleship feature",
+            "insertions": 12,
+            "deletions": 10
+          }
+        ]
       }
     ],
     "lucydotc": [
@@ -3504,10 +3529,78 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 33,
+        "deletions": 18,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5fb735c2a32e743f20291f76c0e2a8264d4da05a",
+            "message": "Fix bug for duplicate attacking in Enemy",
+            "insertions": 19,
+            "deletions": 3
+          },
+          {
+            "hash": "3a2b2744f5fc605eda8d11e3334824cb3a262b24",
+            "message": "Update game rules in User Guide",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "8acc2ae75f4f3e9b5b1723166bf398e7717c4411",
+            "message": "Update Intro, Quick Start in User Guide",
+            "insertions": 12,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 36,
+        "deletions": 6,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "e310ea2e781b3f6573ca573098cd8b0b2d9ff486",
+            "message": "Change reference instance",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1850cbbdacddbecd288d6c1c8f9196a101010d93",
+            "message": "Change status check in enemy shooting algo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1e7715457d95e5a65941ef3bdd3e9633b4848860",
+            "message": "Add logging msg",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "029f3889f96c2a32d08c5b692a054e685dd21da5",
+            "message": "Change status reference back to attacker",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "de591c455c430201568baae421ba9b1d8055bec1",
+            "message": "Improve shooting algo",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "d9abdd924db3d979b5d7acf70ed98da64f4dc329",
+            "message": "Fix grammatical error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "dac2659718dd39d1e979c997d0551d3c9738a232",
+            "message": "Update Game Rules to multiple shots per turn til miss.",
+            "insertions": 3,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "bos10": [
@@ -4253,6 +4346,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
         "commitResults": []
       }
     ],
@@ -5097,22 +5196,83 @@
         "deletions": 0,
         "date": "2019-04-04",
         "commitResults": []
+      },
+      {
+        "insertions": 431,
+        "deletions": 175,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "1ad351fefb1982b51bf36b8b18836c73e9db58d5",
+            "message": "Rework attacking logic:     1. Player can attack again after a successful hit     2. When player makes an unsuccessful hit, enemy takes its turn automatically instead of user ending their turn",
+            "insertions": 36,
+            "deletions": 107
+          },
+          {
+            "hash": "4fb06d9ee6e2327c9890a1417af58ebacc37c6d0",
+            "message": "Update AttackCommandTest to fit the new battle rules",
+            "insertions": 82,
+            "deletions": 22
+          },
+          {
+            "hash": "9e99903128cc691a5c051899e05bef8e97ad85c9",
+            "message": "Update Battle and AttackCommand to let enemy take another turn after hitting",
+            "insertions": 28,
+            "deletions": 14
+          },
+          {
+            "hash": "96f1daf3b33a3127f70480a4b837975c955cfac8",
+            "message": "Create tests for BattleManager",
+            "insertions": 123,
+            "deletions": 2
+          },
+          {
+            "hash": "9d5564ce4152d9f45a3e13d3b6240cb32453982c",
+            "message": "Fix whitespace in AttackCommandTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4ec62d6051fcffc2af0b0d5009bb44c9944e56d7",
+            "message": "Add logic to prevent commands from being executed in an incorrect state",
+            "insertions": 43,
+            "deletions": 5
+          },
+          {
+            "hash": "338edb2a9ddc11ddd42b9039e666921285f2d874",
+            "message": "Add tests for above logic",
+            "insertions": 73,
+            "deletions": 3
+          },
+          {
+            "hash": "41ef9f61b81f2d9806fbb7449f6a8921f0d09b5a",
+            "message": "Fix unused imports in ListTagsCommandTest",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "164d5beded892a7c3f83e93c672d491b2f684ed2",
+            "message": "Modified result string for attacks.",
+            "insertions": 45,
+            "deletions": 19
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "erjillsison": 1820,
-    "iwle": 3095,
-    "lucydotc": 724,
+    "iwle": 3087,
+    "lucydotc": 774,
     "bos10": 779,
-    "s-tr": 1367
+    "s-tr": 1630
   },
   "authorContributionVariance": {
-    "erjillsison": 187338.5,
-    "iwle": 35549.766,
-    "lucydotc": 4983.941,
-    "bos10": 15134.189,
-    "s-tr": 98544.914
+    "erjillsison": 184269.8,
+    "iwle": 35103.566,
+    "lucydotc": 4898.112,
+    "bos10": 14893.376,
+    "s-tr": 101672.76
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

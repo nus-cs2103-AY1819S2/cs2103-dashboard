@@ -612,6 +612,18 @@
             "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ],
     "JeremyLoye": [
@@ -1170,6 +1182,55 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 102,
+        "deletions": 31,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "48fe572e35f8e94c3585e817d9e61ec2434412ed",
+            "message": "Added BudgetTest and extra check methods in Budget",
+            "insertions": 69,
+            "deletions": 4
+          },
+          {
+            "hash": "6dbe321e2558c3626240805ba3b23165ca9b1a88",
+            "message": "Made budget take into account records added before it was set, streamlined logic for increasing and decreasing current budget",
+            "insertions": 3,
+            "deletions": 9
+          },
+          {
+            "hash": "83562199d50fbaa55c4003679adfab2fbbf87c31",
+            "message": "Made statusbar reflect change in data file when setfile is called",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "5a84367fe199089c2d5df5c27cc90eba0da3497d",
+            "message": "Fixed undo/redo commands to work for set and setfile command",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "de007c5d250fa7254bdec89120c81b6d5c427a8d",
+            "message": "Implemented undo/redo support for allocate function",
+            "insertions": 13,
+            "deletions": 6
+          },
+          {
+            "hash": "073e6172ceda3493abb207b7b507e7e162f5258e",
+            "message": "Checkstyle fixes",
+            "insertions": 9,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
         "commitResults": []
       }
     ],
@@ -1921,6 +1982,31 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 11,
+        "deletions": 2,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "b77d2549df6c17e0885f708b67ecbe75689c8dd2",
+            "message": "Updated startUI and userguide",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "ca335c30f0d9c35381c7b028b685021210194a07",
+            "message": "Quick Start + StartUI update",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "eugeneyl": [
@@ -2544,6 +2630,56 @@
             "message": "Bug fix",
             "insertions": 5,
             "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "10887553e88de9ab524eeae119df2b2d2ebd065e",
+            "message": "Minor change to output of search command.",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 80,
+        "deletions": 56,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "93a7dd084e4397b3090f3dedead48a0958b10da1",
+            "message": "Updated user guide.",
+            "insertions": 74,
+            "deletions": 49
+          },
+          {
+            "hash": "ed55ac60a6bbc867c5146f77cc27b9a201ef3a80",
+            "message": "Updated set file command to create new finance tracker when file is not found.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d1ed41004c6b1b4dccc6869561ba2a89ba9025ff",
+            "message": "Updated user guide to reflect changes to set file command.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3c2e845bc223390129a6254cf63f1c53b41aa7e5",
+            "message": "Checkstyle fix",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "9c3df7cba93617fe8f0d9b80da1f1c66aa3d79bc",
+            "message": "Update UserGuide.adoc",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       }
@@ -3328,7 +3464,7 @@
       },
       {
         "insertions": 215,
-        "deletions": 105,
+        "deletions": 115,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3360,6 +3496,12 @@
             "message": "Fixed tests",
             "insertions": 9,
             "deletions": 7
+          },
+          {
+            "hash": "e98a6c802f6bff923545d1ecebb0bd8d67b3fe9d",
+            "message": "Removed redundant comparator in RecordCategoryComparator",
+            "insertions": 0,
+            "deletions": 10
           },
           {
             "hash": "5431f1f104dfbacd0fcd9e0f4d29d57175c72ad6",
@@ -3400,26 +3542,100 @@
         ]
       },
       {
+        "insertions": 27,
+        "deletions": 18,
+        "date": "2019-04-03",
+        "commitResults": [
+          {
+            "hash": "8cb4a64fc752bd8ef0267c621d05dd2510a1c7bc",
+            "message": "Fixed category display",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f7e4201147c2796e01647dc43fb8bb23f9cba303",
+            "message": "Enhanced search command to be more flexible",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "20171dd4048794da64d60fa3eac0746222e7b32c",
+            "message": "Edited message usage in the two commands to correspond",
+            "insertions": 21,
+            "deletions": 15
+          },
+          {
+            "hash": "9f2d358271d08164222b86e7c0d74557fc853021",
+            "message": "minor edits",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 235,
+        "deletions": 125,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "cba53e6a03d5dca7a501bbc685710b57a83448b0",
+            "message": "Enhanced search command to deal with invalid keywords supplied in search -date keywords",
+            "insertions": 55,
+            "deletions": 29
+          },
+          {
+            "hash": "45b017116cbde3e399fa2d24ce9870fe46927095",
+            "message": "Checkstyle fix",
+            "insertions": 9,
+            "deletions": 30
+          },
+          {
+            "hash": "93310ae8f9412cf0162c2fd59e1e257ea2b2cffe",
+            "message": "Added a tip on rev command in sort command\u0027s message usage",
+            "insertions": 19,
+            "deletions": 10
+          },
+          {
+            "hash": "6f1afe07df26579e190b7b5c6278e13f3a83b961",
+            "message": "Allow reverse command to take a flag to specify order",
+            "insertions": 134,
+            "deletions": 46
+          },
+          {
+            "hash": "515d08d8a36037f61f2dfbb27f73ecf49cc73949",
+            "message": "Updated user guide",
+            "insertions": 17,
+            "deletions": 9
+          },
+          {
+            "hash": "8e4ef0997f610df58ce2991e98591274e185b5ea",
+            "message": "Minor formatting edits to UG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-03",
+        "date": "2019-04-05",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "geezlouisee": 1248,
-    "JeremyLoye": 1244,
-    "Jackimaru96": 3939,
-    "eugeneyl": 1982,
-    "kjiaxuan": 3349
+    "geezlouisee": 1234,
+    "JeremyLoye": 1309,
+    "Jackimaru96": 3927,
+    "eugeneyl": 2016,
+    "kjiaxuan": 3510
   },
   "authorContributionVariance": {
-    "geezlouisee": 26380.262,
-    "JeremyLoye": 72704.055,
-    "Jackimaru96": 105548.99,
-    "eugeneyl": 365987.44,
-    "kjiaxuan": 197400.34
+    "geezlouisee": 25529.908,
+    "JeremyLoye": 70223.57,
+    "Jackimaru96": 102153.66,
+    "eugeneyl": 352898.44,
+    "kjiaxuan": 191338.98
   },
   "authorDisplayNameMap": {
     "geezlouisee": "LOUISE LEE HUI LING",

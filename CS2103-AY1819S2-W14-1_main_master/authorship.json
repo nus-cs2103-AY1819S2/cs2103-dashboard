@@ -12824,562 +12824,562 @@
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "-"
+          "gitId": "halcyoneee"
         },
-        "content": ". You can **optionally** download a sample lesson here: link:https://github.com/CS2103-AY1819S2-W14-1/main/blob/master/src/test/data/country-capitals-asia.csv[`country-capitals-asia.csv`]."
+        "content": ". You can **optionally** download a sample lesson here: link:https://github.com/CS2103-AY1819S2-W14-1/main/blob/master/src/test/data/country-capitals-asia.csv[`country-capitals-asia.csv`]. +"
       },
       {
         "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Put the sample lesson into a `data` sub-folder within the `braintrain` folder (i.e. `braintrain/data/`)."
+      },
+      {
+        "lineNumber": 42,
         "author": {
           "gitId": "DigiPie"
         },
         "content": ". Double-click the file to run BrainTrain. The GUI will appear in a few seconds."
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
         "content": "+"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 44,
         "author": {
           "gitId": "DigiPie"
         },
         "content": ".BrainTrain\u0027s GUI on first run"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 45,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "[#img-firstlook]"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 46,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "image::UiFirstLook.png[width\u003d\"790\"]"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 47,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": ""
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 48,
         "author": {
           "gitId": "DigiPie"
         },
         "content": ". Type the command \u003c\u003chelp, `help`\u003e\u003e in the command box and press kbd:[Enter] to find out how to use BrainTrain commands."
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 50,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "To learn more about BrainTrain commands, carry on to [\u003c\u003cFeatures\u003e\u003e]."
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 52,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "{empty} +"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 54,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "// end::evan[]"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
         "content": "[[Features]]"
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Features"
       },
       {
-        "lineNumber": 56,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "*Command Format*"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "*Command Format*"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "* Words in `UPPER_CASE` are parameter values which you need to specify in order for the commands to work. For example,"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "for `deleteCard INDEX`, `INDEX` is a parameter you have to specify."
+        "content": "* Words in `UPPER_CASE` are parameter values which you need to specify in order for the commands to work. For example,"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* Parameters with trailing `...` can be specified multiple times. For example, for the `addLesson n/NAME q/QUESTION CORE a/ANSWER CORE [c/CORE]... [o/OPTIONAL]...` command, you can specify as many `CORE` values as you need to. On the other hand, you can only specify exactly 1 `QUESTION CORE` value."
+        "content": "for `deleteCard INDEX`, `INDEX` is a parameter you have to specify."
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* Parameters in `[ ]` brackets are optional. For example, for the `addCard c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...` command, you have to specify at least 2 `CORE` values, but you can optionally specify more than 2 `CORE` values or 0 or more `OPTIONAL` values."
+        "content": "* Parameters with trailing `...` can be specified multiple times. For example, for the `addLesson n/NAME q/QUESTION CORE a/ANSWER CORE [c/CORE]... [o/OPTIONAL]...` command, you can specify as many `CORE` values as you need to. On the other hand, you can only specify exactly 1 `QUESTION CORE` value."
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* Parameters can be entered in any order. For example, for `addCard c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...`, you can use the"
+        "content": "* Parameters in `[ ]` brackets are optional. For example, for the `addCard c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...` command, you have to specify at least 2 `CORE` values, but you can optionally specify more than 2 `CORE` values or 0 or more `OPTIONAL` values."
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "command as such `addCard o/Country Code c/Country c/Capital`."
+        "content": "* Parameters can be entered in any order. For example, for `addCard c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...`, you can use the"
       },
       {
         "lineNumber": 66,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "command as such `addCard o/Country Code c/Country c/Capital`."
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 68,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "{empty} +"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 70,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "\u003d\u003d\u003d Management mode"
       },
       {
-        "lineNumber": 70,
+        "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 71,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "[[help]]"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d Viewing help: `help`"
+        "content": "[[help]]"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Viewing help: `help`"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "Displays usage information on all commands. +"
+        "content": ""
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "-"
+          "gitId": "halcyoneee"
         },
-        "content": "Format: `help`"
+        "content": "Displays usage information on all commands. +"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `help`"
       },
       {
         "lineNumber": 77,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 78,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "[TIP]"
       },
       {
-        "lineNumber": 78,
+        "lineNumber": 79,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "Alternatively, press kbd:[F1] to display usage information on all commands."
       },
       {
-        "lineNumber": 79,
+        "lineNumber": 80,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 80,
+        "lineNumber": 81,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "[[start]]"
       },
       {
-        "lineNumber": 81,
+        "lineNumber": 82,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "\u003d\u003d\u003d\u003d Starting a quiz session: `start`"
       },
       {
-        "lineNumber": 82,
+        "lineNumber": 83,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 83,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Starts a new quiz session. +"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `start n/NAME [c/COUNT] m/MODE`"
+        "content": "Starts a new quiz session. +"
       },
       {
         "lineNumber": 85,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Format: `start n/NAME [c/COUNT] m/MODE`"
       },
       {
         "lineNumber": 86,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Usage rules:"
-      },
-      {
-        "lineNumber": 87,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 88,
-        "author": {
-          "gitId": "lallanachang"
-        },
-        "content": "* You can optionally specify the `COUNT` parameter. `COUNT` sets the number of cards to be tested in the quiz session. If no `COUNT` is specified, by default 1 card is tested."
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "lallanachang"
-        },
-        "content": "* The name field is used to choose lesson."
-      },
-      {
-        "lineNumber": 90,
-        "author": {
-          "gitId": "lallanachang"
-        },
-        "content": "* You must specify `MODE`. `MODE` sets the testing mode of the quiz session. The three available modes are `LEARN`, `PREVIEW`, `REVIEW` and `DIFFICULT`."
-      },
-      {
-        "lineNumber": 91,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": ". `LEARN`: Displays new cards with both question and answer shown, before testing begins and only question or answer are shown."
-      },
-      {
-        "lineNumber": 92,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": ". `PREVIEW`: Displays both question and answer of all flashcards. You will not be tested."
-      },
-      {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": ". `REVIEW`: Tests the words based on the spaced-repetition algorithm - flashcards with the earliest test date are tested first."
-      },
-      {
-        "lineNumber": 94,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": ". `DIFFICULT`: Displays cards you previously labelled as difficult with both question and answer shown. You will not be tested."
-      },
-      {
-        "lineNumber": 95,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": ""
       },
       {
-        "lineNumber": 96,
+        "lineNumber": 87,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "[NOTE]"
+        "content": "Usage rules:"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "lallanachang"
+        },
+        "content": "* You can optionally specify the `COUNT` parameter. `COUNT` sets the number of cards to be tested in the quiz session. If no `COUNT` is specified, by default 1 card is tested."
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "lallanachang"
+        },
+        "content": "* The name field is used to choose lesson."
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "lallanachang"
+        },
+        "content": "* You must specify `MODE`. `MODE` sets the testing mode of the quiz session. The three available modes are `LEARN`, `PREVIEW`, `REVIEW` and `DIFFICULT`."
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": ". `LEARN`: Displays new cards with both question and answer shown, before testing begins and only question or answer are shown."
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": ". `PREVIEW`: Displays both question and answer of all flashcards. You will not be tested."
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": ". `REVIEW`: Tests the words based on the spaced-repetition algorithm - flashcards with the earliest test date are tested first."
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": ". `DIFFICULT`: Displays cards you previously labelled as difficult with both question and answer shown. You will not be tested."
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": ""
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Flashcards are tested based on the link:https://en.wikipedia.org/wiki/Spaced_repetition[Space-Repetition technique]."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Flashcards are tested based on the link:https://en.wikipedia.org/wiki/Spaced_repetition[Space-Repetition technique]."
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 104,
         "author": {
           "gitId": "lallanachang"
         },
         "content": "* `start n/country-capitals m/LEARN` +"
       },
       {
-        "lineNumber": 104,
+        "lineNumber": 105,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "Starts a quiz in `LEARN` mode with the \u0027country-capitals\u0027 lesson."
       },
       {
-        "lineNumber": 105,
+        "lineNumber": 106,
         "author": {
           "gitId": "lallanachang"
         },
         "content": "* `start n/country-capitals-asia c/20 m/PREVIEW` +"
       },
       {
-        "lineNumber": 106,
+        "lineNumber": 107,
         "author": {
           "gitId": "DigiPie"
         },
         "content": "Starts a quiz containing 20 cards in `PREVIEW` mode with the \u0027country-capitals-asia\u0027 lesson."
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 108,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "// tag::evan[]"
-      },
-      {
         "lineNumber": 109,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "[[listLessons]]"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "\u003d\u003d\u003d\u003d Listing all lessons: `listLessons`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "After you start a quiz session with the `start` command, BrainTrain will switch to \u003c\u003cquizmode, `quiz"
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "Displays a numbered list of all lessons. +"
+        "content": "mode`\u003e\u003e and you will only be allowed to enter \u003c\u003cquizmode, `quiz mode`\u003e\u003e commands."
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "Format: `listLessons`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "// tag::evan[]"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d Adding a lesson: `addLesson`"
+        "content": "[[listLessons]]"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Adds a lesson. +"
+        "content": "\u003d\u003d\u003d\u003d Listing all lessons: `listLessons`"
       },
       {
         "lineNumber": 117,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Format: `addLesson n/NAME q/QUESTION CORE a/ANSWER CORE [c/CORE]... [o/OPTIONAL]...`"
-      },
-      {
-        "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "Displays a numbered list of all lessons. +"
+      },
+      {
         "lineNumber": 119,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Usage rules:"
+        "content": "Format: `listLessons`"
       },
       {
         "lineNumber": 120,
@@ -13393,91 +13393,91 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* You must specify `QUESTION CORE` and `ANSWER CORE`. `QUESTION CORE` and `ANSWER CORE` sets the `CORE` headers describing the question and answer `CORE` values of flashcards added to this lesson."
+        "content": "\u003d\u003d\u003d\u003d Adding a lesson: `addLesson`"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "** For example, a lesson for memorising the capitals of countries will have the `QUESTION CORE` set as \"Country\" and `ANSWER_CORE` set as \"Capital\"."
+        "content": "Adds a lesson. +"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* You can optionally specify 0 or more additional `CORE` headers (e.g. \"Language\"), which can be set as the `QUESTION CORE` and `ANSWER CORE` by using the command `editLesson`."
+        "content": "Format: `addLesson n/NAME q/QUESTION CORE a/ANSWER CORE [c/CORE]... [o/OPTIONAL]...`"
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "* You can only add flashcards which have `QUESTION CORE`, `ANSWER CORE` and `CORE` values which correspond to the lesson\u0027s `CORE` headers."
+        "content": ""
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* You can optionally specify 0 or more `OPTIONAL` values (e.g. \"Hint\")."
+        "content": "Usage rules:"
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "** Flash cards added to the lesson *need not* have corresponding `OPTIONAL` values."
+        "content": ""
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "** `OPTIONAL` values are displayed during quiz mode when you enter \u003c\u003chint, `\\hint`\u003e\u003e."
+        "content": "* You must specify `QUESTION CORE` and `ANSWER CORE`. `QUESTION CORE` and `ANSWER CORE` sets the `CORE` headers describing the question and answer `CORE` values of flashcards added to this lesson."
       },
       {
         "lineNumber": 128,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "** For example, a lesson for memorising the capitals of countries will have the `QUESTION CORE` set as \"Country\" and `ANSWER_CORE` set as \"Capital\"."
       },
       {
         "lineNumber": 129,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": "Examples:"
+        "content": "* You can optionally specify 0 or more additional `CORE` headers (e.g. \"Language\"), which can be set as the `QUESTION CORE` and `ANSWER CORE` by using the command `editLesson`."
       },
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "* You can only add flashcards which have `QUESTION CORE`, `ANSWER CORE` and `CORE` values which correspond to the lesson\u0027s `CORE` headers."
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* `addLesson n/Upper limb anatomy q/Statement a/TrueOrFalse`"
+        "content": "* You can optionally specify 0 or more `OPTIONAL` values (e.g. \"Hint\")."
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* `addLesson n/Capitals of the world q/Country a/Capital c/Language o/Hint`"
+        "content": "** Flash cards added to the lesson *need not* have corresponding `OPTIONAL` values."
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "** `OPTIONAL` values are displayed during quiz mode when you enter \u003c\u003chint, `\\hint`\u003e\u003e."
       },
       {
         "lineNumber": 134,
@@ -13489,9 +13489,9 @@
       {
         "lineNumber": 135,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Deleting a lesson: `deleteLesson`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 136,
@@ -13505,140 +13505,140 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Deletes a lesson by referencing its index in the numbered lesson list. +"
+        "content": "* `addLesson n/Upper limb anatomy q/Statement a/TrueOrFalse`"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `deleteLesson INDEX`"
+        "content": "* `addLesson n/Capitals of the world q/Country a/Capital c/Language o/Hint`"
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 140,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "Usage rules:"
+        "content": ""
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Deleting a lesson: `deleteLesson`"
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "* To view the list, enter the command \u003c\u003clistLessons, `listLessons`\u003e\u003e."
+        "content": ""
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* You must specify the `INDEX` of the lesson in the numbered lesson list."
+        "content": "Deletes a lesson by referencing its index in the numbered lesson list. +"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Format: `deleteLesson INDEX`"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Usage rules:"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "You have to open a lesson before you can use the following commands: \u003c\u003clistCards, `listCards`\u003e\u003e, \u003c\u003caddCard, `addCard`\u003e\u003e and \u003c\u003cdeleteCard, `deleteCard`\u003e\u003e commands."
+        "content": ""
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "* To view the list, enter the command \u003c\u003clistLessons, `listLessons`\u003e\u003e."
       },
       {
         "lineNumber": 149,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "* You must specify the `INDEX` of the lesson in the numbered lesson list."
       },
       {
         "lineNumber": 150,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 151,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* `deleteLesson 2` +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Deletes the second lesson in the numbered list displayed by `listLessons`."
+        "content": "You have to open a lesson before you can use the following commands: \u003c\u003clistCards, `listCards`\u003e\u003e, \u003c\u003caddCard, `addCard`\u003e\u003e and \u003c\u003cdeleteCard, `deleteCard`\u003e\u003e commands."
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "// end::evan[]"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "// Eugene please update this tag"
+        "content": ""
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "// tag::eugene[]"
+        "content": "Examples:"
       },
       {
         "lineNumber": 157,
@@ -13652,208 +13652,208 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d Reloading all lessons: `reloadLessons`"
+        "content": "* `deleteLesson 2` +"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Reloads all lessons from the hard disk including all newly added lesson `.csv` files which were directly moved into the data folder. +"
+        "content": "Deletes the second lesson in the numbered list displayed by `listLessons`."
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `reloadLessons`"
+        "content": "// end::evan[]"
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "// Eugene please update this tag"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "// end::eugene[]"
+        "content": "// tag::eugene[]"
       },
       {
         "lineNumber": 163,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "// tag::evan[]"
+        "content": ""
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "[[openLesson]]"
+        "content": "\u003d\u003d\u003d\u003d Reloading all lessons: `reloadLessons`"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d Opening a lesson: `openLesson`"
+        "content": "Reloads all lessons from the hard disk including all newly added lesson `.csv` files which were directly moved into the data folder. +"
       },
       {
         "lineNumber": 166,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Format: `reloadLessons`"
       },
       {
         "lineNumber": 167,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "Opens a lesson from the numbered lesson list so you can edit the lesson and its flash cards. +"
+        "content": ""
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `openLesson INDEX`"
+        "content": "// end::eugene[]"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "// tag::evan[]"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Usage rules:"
+        "content": "[[openLesson]]"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Opening a lesson: `openLesson`"
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "* To view the lesson list, enter the command \u003c\u003clistLessons, `listLessons`\u003e\u003e."
+        "content": ""
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* You must specify the `INDEX` of the lesson in the numbered lesson list."
+        "content": "Opens a lesson from the numbered lesson list so you can edit the lesson and its flash cards. +"
       },
       {
         "lineNumber": 174,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Format: `openLesson INDEX`"
       },
       {
         "lineNumber": 175,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Usage rules:"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* `openLesson 1` +"
+        "content": ""
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Opens the first lesson in the numbered list."
+        "content": "* To view the lesson list, enter the command \u003c\u003clistLessons, `listLessons`\u003e\u003e."
       },
       {
         "lineNumber": 179,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "* You must specify the `INDEX` of the lesson in the numbered lesson list."
       },
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Closing a lesson: `closeLesson`"
+        "content": ""
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 182,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Closes and saves changes made to the opened lesson. +"
-      },
-      {
-        "lineNumber": 183,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Format: `closeLesson`"
-      },
-      {
-        "lineNumber": 184,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 185,
+        "lineNumber": 183,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Usage rule: +"
+        "content": "* `openLesson 1` +"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "Opens the first lesson in the numbered list."
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "To open a lesson, enter the command \u003c\u003copenLesson, `openLessons`\u003e\u003e."
+        "content": "\u003d\u003d\u003d\u003d Closing a lesson: `closeLesson`"
       },
       {
         "lineNumber": 187,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -13862,75 +13862,75 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "[NOTE]"
+        "content": "Closes and saves changes made to the opened lesson. +"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Format: `closeLesson`"
       },
       {
         "lineNumber": 190,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "Changes made to the opened lesson through the commands: \u003c\u003caddCard, `addCard`\u003e\u003e and \u003c\u003cdeleteCard, `deleteCard`\u003e\u003e, are only saved when you close the lesson."
+        "content": ""
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Usage rule: +"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "To open a lesson, enter the command \u003c\u003copenLesson, `openLessons`\u003e\u003e."
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "[[listCards]]"
+        "content": ""
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d Listing all flashcards: `listCards`"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Displays a numbered list of all flashcards in the opened lesson.  +"
+        "content": "Changes made to the opened lesson through the commands: \u003c\u003caddCard, `addCard`\u003e\u003e and \u003c\u003cdeleteCard, `deleteCard`\u003e\u003e, are only saved when you close the lesson."
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `listCards`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
         "content": ""
       },
@@ -13939,19 +13939,19 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Usage rule: +"
+        "content": "[[listCards]]"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "To open a lesson, enter the command \u003c\u003copenLesson, `openLesson`\u003e\u003e."
+        "content": "\u003d\u003d\u003d\u003d Listing all flashcards: `listCards`"
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
         "content": ""
       },
@@ -13960,168 +13960,168 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "[[addCard]]"
+        "content": "Displays a numbered list of all flashcards in the opened lesson.  +"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d Adding a flashcard: `addCard`"
+        "content": "Format: `listCards`"
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "Adds a flashcard to the opened lesson. +"
+        "content": ""
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `addCard c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...`"
+        "content": "Usage rule: +"
       },
       {
         "lineNumber": 206,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "To open a lesson, enter the command \u003c\u003copenLesson, `openLesson`\u003e\u003e."
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Usage rules:"
+        "content": ""
       },
       {
         "lineNumber": 208,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "[[addCard]]"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* To open a lesson, enter the command \u003c\u003copenLesson, `openLesson`\u003e\u003e."
+        "content": "\u003d\u003d\u003d\u003d Adding a flashcard: `addCard`"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* You must specify at least 2 `CORE` values. This is because a flashcard needs at least 2 values to be testable."
+        "content": "Adds a flashcard to the opened lesson. +"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* You can optionally specify 0 or more additional `CORE` values."
+        "content": "Format: `addCard c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...`"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "* You can optionally specify 0 or more `OPTIONAL` values."
+        "content": ""
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Usage rules:"
       },
       {
         "lineNumber": 214,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "[[NOTE]]"
+        "content": ""
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "* To open a lesson, enter the command \u003c\u003copenLesson, `openLesson`\u003e\u003e."
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "You can only add flashcards to the opened lesson if the flashcards have `CORE` values which corresponds to the lesson\u0027s `CORE` headers."
+        "content": "* You must specify at least 2 `CORE` values. This is because a flashcard needs at least 2 values to be testable."
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "* You can optionally specify 0 or more additional `CORE` values."
       },
       {
         "lineNumber": 218,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "* You can optionally specify 0 or more `OPTIONAL` values."
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 220,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "[[NOTE]]"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* `addCard c/Stapes is the smallest bone in the body c/True`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* `addCard c/Australia c/Canberra c/English o/Starts with C`"
+        "content": "You can only add flashcards to the opened lesson if the flashcards have `CORE` values which corresponds to the lesson\u0027s `CORE` headers."
       },
       {
         "lineNumber": 223,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 224,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 224,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "[[deleteCard]]"
-      },
-      {
         "lineNumber": 225,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Deleting a flashcard: `deleteCard`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 226,
@@ -14135,19 +14135,19 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Deletes a flashcard by referencing its index in the numbered flashcard list. +"
+        "content": "* `addCard c/Stapes is the smallest bone in the body c/True`"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `deleteCard INDEX`"
+        "content": "* `addCard c/Australia c/Canberra c/English o/Starts with C`"
       },
       {
         "lineNumber": 229,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -14156,280 +14156,280 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Usage rules:"
+        "content": "[[deleteCard]]"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Deleting a flashcard: `deleteCard`"
       },
       {
         "lineNumber": 232,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "* To view the list, enter the command \u003c\u003clistCards, `listCards`\u003e\u003e."
+        "content": ""
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* Deletes the flashcard at the specified `INDEX` of the numbered flashcard list."
+        "content": "Deletes a flashcard by referencing its index in the numbered flashcard list. +"
       },
       {
         "lineNumber": 234,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Format: `deleteCard INDEX`"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Usage rules:"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* `deleteCard 2` +"
+        "content": ""
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Deletes the second flashcard."
+        "content": "* To view the list, enter the command \u003c\u003clistCards, `listCards`\u003e\u003e."
       },
       {
         "lineNumber": 239,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "* Deletes the flashcard at the specified `INDEX` of the numbered flashcard list."
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "-"
         },
-        "content": "// end::evan[]"
+        "content": ""
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 242,
         "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
-      },
-      {
-        "lineNumber": 243,
-        "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* `deleteCard 2` +"
+      },
+      {
         "lineNumber": 244,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": "Lists all the commands that you have entered in reverse chronological order. +"
+        "content": "Deletes the second flashcard."
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `history`"
+        "content": ""
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "// end::evan[]"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 248,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "-"
         },
-        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
+        "content": ""
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Lists all the commands that you have entered in reverse chronological order. +"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `history`"
       },
       {
         "lineNumber": 252,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "\u003d\u003d\u003d\u003d Quitting the program : `quit`"
-      },
-      {
-        "lineNumber": 253,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 254,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Quits the program. +"
-      },
-      {
-        "lineNumber": 255,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Format: `quit`"
-      },
-      {
-        "lineNumber": 256,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 257,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "{empty} +"
-      },
-      {
-        "lineNumber": 258,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 259,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "// tag::quiz[]"
-      },
-      {
-        "lineNumber": 260,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "\u003d\u003d\u003d Quiz mode"
-      },
-      {
-        "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 253,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[NOTE]"
+      },
+      {
+        "lineNumber": 254,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 255,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
+      },
+      {
+        "lineNumber": 256,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 257,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 258,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "\u003d\u003d\u003d\u003d Quitting the program : `quit`"
+      },
+      {
+        "lineNumber": 259,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 260,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "Quits the program. +"
+      },
+      {
+        "lineNumber": 261,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "Format: `quit`"
+      },
+      {
         "lineNumber": 262,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "When you \u003c\u003cstart, `start`\u003e\u003e a quiz session, you will enter quiz mode in which only the following set of quiz commands are allowed. Management commands are disabled in this mode."
+        "content": ""
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": ""
+        "content": "{empty} +"
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "\u003d\u003d\u003d\u003d Viewing help: `\\help`"
-      },
-      {
-        "lineNumber": 265,
-        "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
         "content": ""
       },
       {
+        "lineNumber": 265,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "// tag::quiz[]"
+      },
+      {
         "lineNumber": 266,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "Displays usage information on all quiz mode commands and acceptable inputs for answering cards. +"
+        "content": "[[quizmode]]"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `\\help`"
+        "content": "\u003d\u003d\u003d Quiz mode"
       },
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Viewing the quiz session\u0027s status: `\\status`"
+        "content": "When you \u003c\u003cstart, `start`\u003e\u003e a quiz, you will enter quiz mode. In this mode, you will only be allowed to enter the following set of quiz commands. Management commands are disabled in this mode."
       },
       {
         "lineNumber": 270,
@@ -14443,28 +14443,28 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Displays information on the current session\u0027s status such as lesson progress (i.e. number of flashcards left). +"
+        "content": "\u003d\u003d\u003d\u003d Viewing help: `\\help`"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `\\status`"
+        "content": ""
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Displays usage information on all quiz mode commands and acceptable inputs for answering cards. +"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d\u003d Answering a flashcard : `[*]`"
+        "content": "Format: `\\help`"
       },
       {
         "lineNumber": 275,
@@ -14478,392 +14478,392 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Any input without the escape character `\\` is treated as an answer to the current flashcard. +"
+        "content": "\u003d\u003d\u003d\u003d Viewing the quiz session\u0027s status: `\\status`"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Format: `[*]`"
+        "content": ""
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Displays information on the current session\u0027s status such as lesson progress (i.e. number of flashcards left). +"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* For each flashcard, total attempts and answer streak is tracked."
+        "content": "Format: `\\status`"
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "* Total attempts is the number of times you have attempted this flashcard, regardless of whether you were correct or wrong."
+        "content": ""
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* The answer streak is the number of times you have answered the flashcard correctly consecutively."
+        "content": "\u003d\u003d\u003d\u003d Answering a flashcard : `[*]`"
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
         "content": ""
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": "[NOTE]"
+        "content": "Any input without the escape character `\\` is treated as an answer to the current flashcard. +"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "The streak will be reduced to 0 after you answer a flashcard wrongly twice in a row. Hence, if you accidentally enter the wrong answer once, your streak for the question will not be affected, unless you answer wrongly again."
+        "content": "Format: `[*]`"
       },
       {
         "lineNumber": 285,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
         "content": ""
       },
       {
         "lineNumber": 286,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": "[TIP]"
+        "content": "* For each flashcard, total attempts and answer streak is tracked."
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "If you do not know the answer of a flashcard and want to view it, simply press kbd:[ENTER] twice."
+        "content": "* Total attempts is the number of times you have attempted this flashcard, regardless of whether you were correct or wrong."
       },
       {
         "lineNumber": 288,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "* The answer streak is the number of times you have answered the flashcard correctly consecutively."
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 291,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": "* The question is \"Japan\" and is asking for the capital of \"Japan\": +"
+        "content": "The streak will be reduced to 0 after you answer a flashcard wrongly twice in a row. Hence, if you accidentally enter the wrong answer once, your streak for the question will not be affected, unless you answer wrongly again."
       },
       {
         "lineNumber": 292,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "-"
         },
-        "content": "  `Tokyo` +"
+        "content": ""
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "  This is the correct answer, both the streak and total attempts increased by 1."
+        "content": "[TIP]"
       },
       {
         "lineNumber": 294,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "If you do not know the answer of a flashcard and want to view it, simply press kbd:[ENTER] twice."
       },
       {
         "lineNumber": 295,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "-"
         },
-        "content": "* The question is \"Tokyo\" and is asking for the country of \"Tokyo\": +"
+        "content": ""
       },
       {
         "lineNumber": 296,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "  `Japaan` +"
-      },
-      {
-        "lineNumber": 297,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "  `Japan` +"
-      },
-      {
-        "lineNumber": 298,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "  This is the correct answer, the streak increased by 1 while total attempts increased by 2."
-      },
-      {
-        "lineNumber": 299,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 300,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "* The question is \"Tokyo\" and is asking for the country of \"Tokyo\": +"
-      },
-      {
-        "lineNumber": 301,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "  `Japaan` +"
-      },
-      {
-        "lineNumber": 302,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "  `Jappan` +"
-      },
-      {
-        "lineNumber": 303,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "  This is the wrong answer, the streak is reduced to 0 while total attempts increased by 2."
-      },
-      {
-        "lineNumber": 304,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 305,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "\u003d\u003d\u003d\u003d Labelling the current flashcard as difficult: `\\difficult`"
-      },
-      {
-        "lineNumber": 306,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "Labels the current flashcard as difficult. +"
-      },
-      {
-        "lineNumber": 307,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "Format: `\\difficult`"
-      },
-      {
-        "lineNumber": 308,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 309,
         "author": {
           "gitId": "-"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 310,
+        "lineNumber": 297,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 311,
+        "lineNumber": 298,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "* The question is \"Japan\" and is asking for the capital of \"Japan\": +"
       },
       {
-        "lineNumber": 312,
+        "lineNumber": 299,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "  `\\difficult` +"
+        "content": "  `Tokyo` +"
+      },
+      {
+        "lineNumber": 300,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "  This is the correct answer, both the streak and total attempts increased by 1."
+      },
+      {
+        "lineNumber": 301,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 302,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "* The question is \"Tokyo\" and is asking for the country of \"Tokyo\": +"
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "  `Japaan` +"
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "  `Japan` +"
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "  This is the correct answer, the streak increased by 1 while total attempts increased by 2."
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 307,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "* The question is \"Tokyo\" and is asking for the country of \"Tokyo\": +"
+      },
+      {
+        "lineNumber": 308,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "  `Japaan` +"
+      },
+      {
+        "lineNumber": 309,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "  `Jappan` +"
+      },
+      {
+        "lineNumber": 310,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "  This is the wrong answer, the streak is reduced to 0 while total attempts increased by 2."
+      },
+      {
+        "lineNumber": 311,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 312,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "\u003d\u003d\u003d\u003d Labelling the current flashcard as difficult: `\\difficult`"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "  This will label flashcard of \"Japan\" as difficult."
+        "content": "Labels the current flashcard as difficult. +"
       },
       {
         "lineNumber": 314,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "Format: `\\difficult`"
+      },
+      {
+        "lineNumber": 315,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 315,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "* The question is \"Japan\" and is asking for the capital of \"Japan\": +"
-      },
-      {
         "lineNumber": 316,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "-"
         },
-        "content": "  `\\difficult` +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "-"
         },
-        "content": "  `\\difficult` +"
+        "content": ""
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "  This will label flashcard of \"Japan\" as not difficult."
+        "content": "* The question is \"Japan\" and is asking for the capital of \"Japan\": +"
       },
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "-"
+          "gitId": "halcyoneee"
         },
-        "content": ""
+        "content": "  `\\difficult` +"
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "[[hint]]"
+        "content": "  This will label flashcard of \"Japan\" as difficult."
       },
       {
         "lineNumber": 321,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "\u003d\u003d\u003d\u003d Viewing the current flashcard\u0027s hint(s): `\\hint`"
-      },
-      {
-        "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 322,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "* The question is \"Japan\" and is asking for the capital of \"Japan\": +"
+      },
+      {
         "lineNumber": 323,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "Reveals the hint(s) for the current flashcard (if any). +"
+        "content": "  `\\difficult` +"
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "Format: `\\hint`"
+        "content": "  `\\difficult` +"
       },
       {
         "lineNumber": 325,
         "author": {
-          "gitId": "-"
+          "gitId": "halcyoneee"
         },
-        "content": ""
+        "content": "  This will label flashcard of \"Japan\" as not difficult."
       },
       {
         "lineNumber": 326,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Quitting the quiz session: `\\quit`"
+        "content": ""
       },
       {
         "lineNumber": 327,
         "author": {
-          "gitId": "-"
+          "gitId": "halcyoneee"
         },
-        "content": ""
+        "content": "[[hint]]"
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "Quits the current quiz session and switches back to `management mode`. +"
+        "content": "\u003d\u003d\u003d\u003d Viewing the current flashcard\u0027s hint(s): `\\hint`"
       },
       {
         "lineNumber": 329,
-        "author": {
-          "gitId": "halcyoneee"
-        },
-        "content": "Format: `\\quit`"
-      },
-      {
-        "lineNumber": 330,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 330,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "Reveals the hint(s) for the current flashcard (if any). +"
+      },
+      {
         "lineNumber": 331,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "// end::quiz[]"
+        "content": "Format: `\\hint`"
       },
       {
         "lineNumber": 332,
@@ -14875,9 +14875,9 @@
       {
         "lineNumber": 333,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": "{empty} +"
+        "content": "\u003d\u003d\u003d\u003d Quitting the quiz session: `\\quit`"
       },
       {
         "lineNumber": 334,
@@ -14889,16 +14889,16 @@
       {
         "lineNumber": 335,
         "author": {
-          "gitId": "halcyoneee"
+          "gitId": "DigiPie"
         },
-        "content": "// TODO"
+        "content": "Quits the current quiz session and switches back to `management mode`. +"
       },
       {
         "lineNumber": 336,
         "author": {
           "gitId": "halcyoneee"
         },
-        "content": "\u003d\u003d Troubleshooting"
+        "content": "Format: `\\quit`"
       },
       {
         "lineNumber": 337,
@@ -14910,147 +14910,147 @@
       {
         "lineNumber": 338,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "halcyoneee"
         },
-        "content": "*Q*: Why are my card values shown as `?????`? +"
+        "content": "// end::quiz[]"
       },
       {
         "lineNumber": 339,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": "*A*: If your lesson contains non-ASCII characters such as:"
-      },
-      {
-        "lineNumber": 340,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 341,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": "* Characters with accents: `à`"
-      },
-      {
-        "lineNumber": 342,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": "* Non-English words : `こんにちは` `السلام عليكم` `你好`"
-      },
-      {
-        "lineNumber": 343,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 344,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "This can be fixed by opening the lesson file in your preferred spreadsheet application (e.g. Excel), and then saving it as `CSV UTF-8 (Comma delimited) (*.csv)`. +"
-      },
-      {
-        "lineNumber": 345,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 346,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "The default encoding setting is unable to process special characters. As a result, you will need to save it as a `UTF-8` encoded `.csv` file."
-      },
-      {
-        "lineNumber": 347,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 348,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "Note that the lesson files have to be saved as a `UTF-8` encoded `.csv` file before the first save. +"
-      },
-      {
-        "lineNumber": 349,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "If the file is saved without `UTF-8` encoding, the data may be saved as `?????`, and all non-ASCII characters will be discarded."
-      },
-      {
-        "lineNumber": 350,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 351,
-        "author": {
-          "gitId": "eugenefdw"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 352,
+        "lineNumber": 340,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "{empty} +"
       },
       {
-        "lineNumber": 353,
+        "lineNumber": 341,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 342,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "// TODO"
+      },
+      {
+        "lineNumber": 343,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "\u003d\u003d Troubleshooting"
+      },
+      {
+        "lineNumber": 344,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 345,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "*Q*: Why are my card values shown as `?????`? +"
+      },
+      {
+        "lineNumber": 346,
+        "author": {
+          "gitId": "eugenefdw"
+        },
+        "content": "*A*: If your lesson contains non-ASCII characters such as:"
+      },
+      {
+        "lineNumber": 347,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 348,
+        "author": {
+          "gitId": "eugenefdw"
+        },
+        "content": "* Characters with accents: `à`"
+      },
+      {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "eugenefdw"
+        },
+        "content": "* Non-English words : `こんにちは` `السلام عليكم` `你好`"
+      },
+      {
+        "lineNumber": 350,
+        "author": {
+          "gitId": "eugenefdw"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 351,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "This can be fixed by opening the lesson file in your preferred spreadsheet application (e.g. Excel), and then saving it as `CSV UTF-8 (Comma delimited) (*.csv)`. +"
+      },
+      {
+        "lineNumber": 352,
+        "author": {
+          "gitId": "eugenefdw"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 353,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "The default encoding setting is unable to process special characters. As a result, you will need to save it as a `UTF-8` encoded `.csv` file."
       },
       {
         "lineNumber": 354,
         "author": {
-          "gitId": "-"
+          "gitId": "eugenefdw"
         },
-        "content": "\u003d\u003d FAQ"
+        "content": ""
       },
       {
         "lineNumber": 355,
         "author": {
-          "gitId": "-"
+          "gitId": "DigiPie"
         },
-        "content": ""
+        "content": "Note that the lesson files have to be saved as a `UTF-8` encoded `.csv` file before the first save. +"
       },
       {
         "lineNumber": 356,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "*Q*: How do I transfer my data to another computer? +"
+        "content": "If the file is saved without `UTF-8` encoding, the data may be saved as `?????`, and all non-ASCII characters will be discarded."
       },
       {
         "lineNumber": 357,
         "author": {
-          "gitId": "DigiPie"
+          "gitId": "eugenefdw"
         },
-        "content": "*A*: Install the app in the other computer and transfer the lesson `.csv` files over to the `/data` directory."
+        "content": "****"
       },
       {
         "lineNumber": 358,
         "author": {
-          "gitId": "-"
+          "gitId": "eugenefdw"
         },
         "content": ""
       },
@@ -15073,7 +15073,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Command Summary"
+        "content": "\u003d\u003d FAQ"
       },
       {
         "lineNumber": 362,
@@ -15087,220 +15087,269 @@
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d Management mode"
+        "content": "*Q*: How do I transfer my data to another computer? +"
       },
       {
         "lineNumber": 364,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* *Viewing help*: `help`"
+        "content": "*A*: Install the app in the other computer and transfer the lesson `.csv` files over to the `/data` directory."
       },
       {
         "lineNumber": 365,
         "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Starting quiz session*: `start n/NAME [c/COUNT] m/MODE` +"
-      },
-      {
-        "lineNumber": 366,
-        "author": {
-          "gitId": "lallanachang"
-        },
-        "content": "e.g. `start n/country-capitals c/15 m/LEARN`"
-      },
-      {
-        "lineNumber": 367,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Listing all lessons*: `listLessons`"
-      },
-      {
-        "lineNumber": 368,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Adding a lesson*: `addLesson n/NAME q/QUESTION CORE a/ANSWER CORE [c/CORE]... [o/OPTIONAL]...` +"
-      },
-      {
-        "lineNumber": 369,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "e.g. `addLesson n/Capitals of the world q/Country a/Capital c/Language o/Hint`"
-      },
-      {
-        "lineNumber": 370,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Deleting a lesson*: `deleteLesson INDEX` +"
-      },
-      {
-        "lineNumber": 371,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "e.g. `deleteLesson 2`"
-      },
-      {
-        "lineNumber": 372,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Reloading all lessons*: `reloadLessons`"
-      },
-      {
-        "lineNumber": 373,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Opening a lesson*: `openLesson INDEX` +"
-      },
-      {
-        "lineNumber": 374,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "e.g. `openLesson 1`"
-      },
-      {
-        "lineNumber": 375,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Closing a lesson*: `closeLesson`"
-      },
-      {
-        "lineNumber": 376,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Listing all flashcards*: `listCards`"
-      },
-      {
-        "lineNumber": 377,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Adding a flashcard*: `c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...` +"
-      },
-      {
-        "lineNumber": 378,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "e.g. `addCard c/Australia c/Canberra c/English o/Starts with C`"
-      },
-      {
-        "lineNumber": 379,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Deleting a flashcard*: `deleteCard INDEX` +"
-      },
-      {
-        "lineNumber": 380,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "e.g. `deleteCard 2`"
-      },
-      {
-        "lineNumber": 381,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Listing entered commands*: `history`"
-      },
-      {
-        "lineNumber": 382,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Quiting the program*: `quit`"
-      },
-      {
-        "lineNumber": 383,
-        "author": {
-          "gitId": "halcyoneee"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 384,
+        "lineNumber": 366,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": "{empty} +"
       },
       {
-        "lineNumber": 385,
+        "lineNumber": 367,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 368,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Command Summary"
+      },
+      {
+        "lineNumber": 369,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 370,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "\u003d\u003d\u003d Management mode"
+      },
+      {
+        "lineNumber": 371,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Viewing help*: `help`"
+      },
+      {
+        "lineNumber": 372,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Starting quiz session*: `start n/NAME [c/COUNT] m/MODE` +"
+      },
+      {
+        "lineNumber": 373,
         "author": {
           "gitId": "lallanachang"
         },
-        "content": ""
+        "content": "e.g. `start n/country-capitals c/15 m/LEARN`"
+      },
+      {
+        "lineNumber": 374,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Listing all lessons*: `listLessons`"
+      },
+      {
+        "lineNumber": 375,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Adding a lesson*: `addLesson n/NAME q/QUESTION CORE a/ANSWER CORE [c/CORE]... [o/OPTIONAL]...` +"
+      },
+      {
+        "lineNumber": 376,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "e.g. `addLesson n/Capitals of the world q/Country a/Capital c/Language o/Hint`"
+      },
+      {
+        "lineNumber": 377,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Deleting a lesson*: `deleteLesson INDEX` +"
+      },
+      {
+        "lineNumber": 378,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "e.g. `deleteLesson 2`"
+      },
+      {
+        "lineNumber": 379,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Reloading all lessons*: `reloadLessons`"
+      },
+      {
+        "lineNumber": 380,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Opening a lesson*: `openLesson INDEX` +"
+      },
+      {
+        "lineNumber": 381,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "e.g. `openLesson 1`"
+      },
+      {
+        "lineNumber": 382,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Closing a lesson*: `closeLesson`"
+      },
+      {
+        "lineNumber": 383,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Listing all flashcards*: `listCards`"
+      },
+      {
+        "lineNumber": 384,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Adding a flashcard*: `c/CORE c/CORE [c/CORE]... [o/OPTIONAL]...` +"
+      },
+      {
+        "lineNumber": 385,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "e.g. `addCard c/Australia c/Canberra c/English o/Starts with C`"
       },
       {
         "lineNumber": 386,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "\u003d\u003d\u003d Quiz mode"
+        "content": "* *Deleting a flashcard*: `deleteCard INDEX` +"
       },
       {
         "lineNumber": 387,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* *Viewing help*: `\\help`"
+        "content": "e.g. `deleteCard 2`"
       },
       {
         "lineNumber": 388,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* *Viewing the quiz session\u0027s status*: `\\status`"
+        "content": "* *Listing entered commands*: `history`"
       },
       {
         "lineNumber": 389,
         "author": {
           "gitId": "DigiPie"
         },
-        "content": "* *Answering a flashcard*: `[*]`"
+        "content": "* *Quiting the program*: `quit`"
       },
       {
         "lineNumber": 390,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Labelling the current flashcard as difficult*: `\\difficult`"
-      },
-      {
-        "lineNumber": 391,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Viewing the current flashcard\u0027s hint(s)*: `\\hint`"
-      },
-      {
-        "lineNumber": 392,
-        "author": {
-          "gitId": "DigiPie"
-        },
-        "content": "* *Quitting the quiz session*: `\\quit`"
-      },
-      {
-        "lineNumber": 393,
         "author": {
           "gitId": "halcyoneee"
         },
         "content": ""
       },
       {
+        "lineNumber": 391,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": "{empty} +"
+      },
+      {
+        "lineNumber": 392,
+        "author": {
+          "gitId": "lallanachang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 393,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "\u003d\u003d\u003d Quiz mode"
+      },
+      {
         "lineNumber": 394,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Viewing help*: `\\help`"
+      },
+      {
+        "lineNumber": 395,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Viewing the quiz session\u0027s status*: `\\status`"
+      },
+      {
+        "lineNumber": 396,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Answering a flashcard*: `[*]`"
+      },
+      {
+        "lineNumber": 397,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Labelling the current flashcard as difficult*: `\\difficult`"
+      },
+      {
+        "lineNumber": 398,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Viewing the current flashcard\u0027s hint(s)*: `\\hint`"
+      },
+      {
+        "lineNumber": 399,
+        "author": {
+          "gitId": "DigiPie"
+        },
+        "content": "* *Quitting the quiz session*: `\\quit`"
+      },
+      {
+        "lineNumber": 400,
+        "author": {
+          "gitId": "halcyoneee"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 401,
         "author": {
           "gitId": "halcyoneee"
         },
@@ -15309,10 +15358,10 @@
     ],
     "authorContributionMap": {
       "eugenefdw": 9,
-      "halcyoneee": 57,
+      "halcyoneee": 60,
       "lallanachang": 7,
-      "DigiPie": 207,
-      "-": 114
+      "DigiPie": 204,
+      "-": 121
     }
   },
   {

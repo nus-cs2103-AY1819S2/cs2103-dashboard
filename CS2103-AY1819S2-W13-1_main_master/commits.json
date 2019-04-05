@@ -1314,6 +1314,31 @@
         "deletions": 0,
         "date": "2019-04-04",
         "commitResults": []
+      },
+      {
+        "insertions": 807,
+        "deletions": 218,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "d0c1cb15cd999ffc70489172e3d32194dd93ef3a",
+            "message": "changed age to year for doctor",
+            "insertions": 798,
+            "deletions": 209
+          },
+          {
+            "hash": "07df00098794aa218f826d2906b8d47188885184",
+            "message": "fixed checkstyle errors",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "54c0c5e2ac4d94f278049d7bb225f7919a30bc8e",
+            "message": "fixed file for checkstyle error",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "wayneswq": [
@@ -2036,6 +2061,12 @@
         "deletions": 0,
         "date": "2019-04-04",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ],
     "amuletxheart": [
@@ -2577,6 +2608,19 @@
         "deletions": 0,
         "date": "2019-04-04",
         "commitResults": []
+      },
+      {
+        "insertions": 28,
+        "deletions": 13,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "4872c9fb46bbd3f3416b1d9c06ea148694fab286",
+            "message": "updated UG",
+            "insertions": 28,
+            "deletions": 13
+          }
+        ]
       }
     ],
     "GongChangda": [
@@ -2999,9 +3043,34 @@
         "commitResults": []
       },
       {
+        "insertions": 92,
+        "deletions": 17,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "553a606c59d4f7e7a857f3cd9f487072c7ef9e95",
+            "message": "Add medicine class, modify add-presc command",
+            "insertions": 81,
+            "deletions": 9
+          },
+          {
+            "hash": "8e4490f349e64aa5466bdabe52dbcac6dd15983d",
+            "message": "Fix style errors",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "ed8890913470fec05d78571a8ab40dc7f60a3354",
+            "message": "Modify Junit test cases",
+            "insertions": 5,
+            "deletions": 4
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-04",
+        "date": "2019-04-05",
         "commitResults": []
       }
     ],
@@ -3882,8 +3951,8 @@
         ]
       },
       {
-        "insertions": 116,
-        "deletions": 12,
+        "insertions": 128,
+        "deletions": 22,
         "date": "2019-04-04",
         "commitResults": [
           {
@@ -3897,24 +3966,61 @@
             "message": "checkstyle",
             "insertions": 9,
             "deletions": 5
+          },
+          {
+            "hash": "1d22543c43b13446e811aa3808b3dc48fc46c24f",
+            "message": "change date LocalDate of java",
+            "insertions": 12,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 125,
+        "deletions": 32,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "cac628c87f6b760782459f30f3a6820d562b7ba2",
+            "message": "add list by patient id command",
+            "insertions": 97,
+            "deletions": 10
+          },
+          {
+            "hash": "1198ed1cddc53bdfafc4561cd9cc462e7f85b082",
+            "message": "checkstyle",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "0434aa6a0db19d7ec1a47b9a3c7032215786a4e0",
+            "message": "checkstyle of tests",
+            "insertions": 15,
+            "deletions": 11
+          },
+          {
+            "hash": "54803e996f5e1b3f5b7fd4ff3a7f78491f9f9d19",
+            "message": "change userguide",
+            "insertions": 4,
+            "deletions": 5
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "siyingpoof": 4718,
-    "wayneswq": 7275,
-    "amuletxheart": 1862,
-    "GongChangda": 506,
-    "Liuyy99": 1813
+    "siyingpoof": 5292,
+    "wayneswq": 7254,
+    "amuletxheart": 1900,
+    "GongChangda": 571,
+    "Liuyy99": 1915
   },
   "authorContributionVariance": {
-    "siyingpoof": 1500463.2,
-    "wayneswq": 1041672.06,
-    "amuletxheart": 24002.783,
-    "GongChangda": 2829.8872,
-    "Liuyy99": 44230.367
+    "siyingpoof": 1482723.2,
+    "wayneswq": 1023514.25,
+    "amuletxheart": 23567.922,
+    "GongChangda": 2947.2305,
+    "Liuyy99": 43570.5
   },
   "authorDisplayNameMap": {
     "siyingpoof": "ONG...ING",

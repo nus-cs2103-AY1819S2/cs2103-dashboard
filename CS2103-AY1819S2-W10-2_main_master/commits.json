@@ -706,10 +706,54 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 292,
+        "deletions": 61,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0b983e3beb90f8382c9321c4a8e350b7ddb1b348",
+            "message": "Add UniqueMilestoneList",
+            "insertions": 222,
+            "deletions": 61
+          },
+          {
+            "hash": "fd07d18254831751da5a179506a33c19d9cb46fc",
+            "message": "Add basic UI for milestones and tasks",
+            "insertions": 70,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 390,
+        "deletions": 70,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "aede85ab0e0141b226b1abdec2bea60b2aa9cac7",
+            "message": "Update UI for project tasks",
+            "insertions": 75,
+            "deletions": 54
+          },
+          {
+            "hash": "c8fa54720cce4bb6729c0238b877ef7eb60ca75e",
+            "message": "Update milestone date parsing",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "775ea067b6271bea8a70e76c32d8e24fbddff77f",
+            "message": "Add systemtest for AddTaskToCommand",
+            "insertions": 285,
+            "deletions": 13
+          },
+          {
+            "hash": "2550bd970f06f355ea9c0334081854e92997813a",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "jeffgan96": [
@@ -2094,6 +2138,12 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ],
     "dehui333": [
@@ -3417,6 +3467,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ],
     "shunnizuka": [
@@ -4086,16 +4142,35 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 248,
+        "deletions": 12,
         "date": "2019-03-30",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c193f97634790d9be8f6f119a5648cab4f5ee065",
+            "message": "Add relevant classes",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "a3980b772f97a880e13c773477c8bda76daca2b6",
+            "message": "Update EditProjectDefaultCommand",
+            "insertions": 223,
+            "deletions": 12
+          }
+        ]
       },
       {
-        "insertions": 511,
-        "deletions": 23,
+        "insertions": 690,
+        "deletions": 32,
         "date": "2019-03-31",
         "commitResults": [
+          {
+            "hash": "1f75aa02a75fabf934ea69fd48e1332198431bcc",
+            "message": "Implement EditProjectCommandParser",
+            "insertions": 179,
+            "deletions": 9
+          },
           {
             "hash": "bea8389a4a023665fd6462a4d5210ed23d512084",
             "message": "Add FindAllCommand",
@@ -4178,8 +4253,8 @@
         ]
       },
       {
-        "insertions": 61,
-        "deletions": 21,
+        "insertions": 802,
+        "deletions": 463,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -4189,18 +4264,182 @@
             "deletions": 14
           },
           {
+            "hash": "145c69ad93a717bb627bc1346b4d9677037225e4",
+            "message": "Update the EditProjectCommand Parser",
+            "insertions": 47,
+            "deletions": 79
+          },
+          {
+            "hash": "020265dc8b495dcf7cf583290e902718e4625155",
+            "message": "Add javadoc + update USAGE_MESSAGE",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "a818219ff0604fa02f3e402fab816ddac8a4d673",
+            "message": "Minor fixes",
+            "insertions": 19,
+            "deletions": 15
+          },
+          {
             "hash": "aa112bd707127773878f4f07f099fa32440eefd7",
             "message": "Set listview in employee summary to be non interactable",
             "insertions": 1,
             "deletions": 7
+          },
+          {
+            "hash": "60415fb83855ab7e3a5fb2b5480a11de7318519e",
+            "message": "refactor EditCommand to EditEmployeeCommand",
+            "insertions": 132,
+            "deletions": 132
+          },
+          {
+            "hash": "a074674063731af3ee302589a92d6f236d2ad307",
+            "message": "Update EditCommandParser to also parse EditProjectCommand",
+            "insertions": 114,
+            "deletions": 57
+          },
+          {
+            "hash": "0c3b8883131d18ade2aad949c24f22d558d2cf3d",
+            "message": "Update EditCommandParserTest to include the keyword",
+            "insertions": 66,
+            "deletions": 52
+          },
+          {
+            "hash": "631476df3528bb609a31d23f74a2f06121f85935",
+            "message": "Update EditEmployeeCommandSystemTest to include keyword",
+            "insertions": 48,
+            "deletions": 29
+          },
+          {
+            "hash": "b3a419e59f92cdcafae49ef910df65b5c0a95c38",
+            "message": "Fix failing test cases",
+            "insertions": 10,
+            "deletions": 8
+          },
+          {
+            "hash": "9dd0a768b0aefb0d414914a3888a6338de5cf8b8",
+            "message": "Fix formatting",
+            "insertions": 17,
+            "deletions": 12
+          },
+          {
+            "hash": "2bb09c646ddde06fa59e8a9577961397a9b9cad2",
+            "message": "Add tests + bug fixes",
+            "insertions": 278,
+            "deletions": 56
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 508,
+        "deletions": 125,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "71525452c209db215570b08f9887791698523098",
+            "message": "Add PPP",
+            "insertions": 63,
+            "deletions": 0
+          },
+          {
+            "hash": "0be0901c6da0e8b044cb06cfc125e1fb2e1a4391",
+            "message": "Add test for parser",
+            "insertions": 101,
+            "deletions": 19
+          },
+          {
+            "hash": "ff4c3dde41b765c0c15c51c2089b7193fd2b3198",
+            "message": "Add test for EditProjectInfoCommand",
+            "insertions": 280,
+            "deletions": 27
+          },
+          {
+            "hash": "7c9f8f159f24042ffd2a196958138e80f3a7adfb",
+            "message": "Bug Fix + remove unnecessary test",
+            "insertions": 44,
+            "deletions": 60
+          },
+          {
+            "hash": "0df40f79f5cf59454fc6f5efeaf07ed21bd8a201",
+            "message": "Edit Javadoc",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "05f6ccaa324923dcb86797630bed58c0b7eea613",
+            "message": "Fix Formatting",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "d33355e099a7edd23537b7ce5b0e1af7b65c3ee0",
+            "message": "Add javadoc",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "39532d75729d03958ee9aa6a2395554605484f5f",
+            "message": "remove unused variable",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 71,
+        "deletions": 50,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "9cc04b5840d192acfa32e7ec8288270a0000dc76",
+            "message": "Fix Merge errors",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "14062457babf79fe7957e716056c6fcbc6a80c37",
+            "message": "Fix Merge errors",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "ca6399af9f2fa97c81e16975395e71517845401e",
+            "message": "Fix Merge errors",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "d4f7485630246b5fa3290a5d46974b53c994c325",
+            "message": "Update UG on edit command",
+            "insertions": 29,
+            "deletions": 29
+          },
+          {
+            "hash": "8bbcf58c509cba7ab83691c528c545f2124f7f80",
+            "message": "Include the new UI",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "6387e0b90e15bd1e14a460017ee84a4aa5627bc1",
+            "message": "Remove the diagram for findCommand in UG",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "6c3f0eb9d4a3b5418a7dfa178dfa9175a624509e",
+            "message": "Fix formatting",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "993e3ef1e7af290e40b0e832a3fbc972fa5f6cee",
+            "message": "Fix formatting",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "jothipillay": [
@@ -5784,22 +6023,77 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 680,
+        "deletions": 648,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "2c7464b185d488a1bb04bd697a5bb8ed3d76e54a",
+            "message": "fix errors in userguide",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "df4d54fc0c84243e3dc67cf60ed9708afa8f0256",
+            "message": "updated project date to pocketproject date for more general use",
+            "insertions": 119,
+            "deletions": 115
+          },
+          {
+            "hash": "738c6450bcde384e7799c3b6ad2fe1b62b86e6f3",
+            "message": "condensed flexible date and project date into pocket project date",
+            "insertions": 359,
+            "deletions": 372
+          },
+          {
+            "hash": "f9e0faec8329ccc9063fc5b5a5ed8767b2c7ef92",
+            "message": "completed restructuring of pocketprojectdate. regression testing complete",
+            "insertions": 137,
+            "deletions": 96
+          },
+          {
+            "hash": "903b6e2319709e5e439674fa141226f136ec6905",
+            "message": "fixed reordering issues",
+            "insertions": 40,
+            "deletions": 36
+          },
+          {
+            "hash": "422a13bde30868ef72488682b5e31aee9a10cbf9",
+            "message": "corrected failing tests",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "f232a9a9fea85fe41e1df1e680fa5c304a1a9472",
+            "message": "corrected formatting errors",
+            "insertions": 21,
+            "deletions": 21
+          },
+          {
+            "hash": "18d97e45343507826f43e0773e741a345fa00562",
+            "message": "fixed bug in next and last month flexi date",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 3249,
-    "jeffgan96": 5407,
-    "dehui333": 4040,
-    "shunnizuka": 1775,
-    "jothipillay": 4289
+    "ditan96": 3782,
+    "jeffgan96": 5410,
+    "dehui333": 3904,
+    "shunnizuka": 3064,
+    "jothipillay": 4382
   },
   "authorContributionVariance": {
-    "ditan96": 241843.27,
-    "jeffgan96": 174311.22,
-    "dehui333": 118429.72,
-    "shunnizuka": 21663.73,
-    "jothipillay": 106442.15
+    "ditan96": 239039.14,
+    "jeffgan96": 172127.2,
+    "dehui333": 116648.305,
+    "shunnizuka": 56922.484,
+    "jothipillay": 129140.984
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

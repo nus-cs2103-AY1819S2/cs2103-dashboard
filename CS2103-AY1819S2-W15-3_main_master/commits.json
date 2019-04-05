@@ -608,10 +608,60 @@
         "commitResults": []
       },
       {
+        "insertions": 8,
+        "deletions": 1,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "1ca2b90230dc7586e8fa73895c766510bea1fc6b",
+            "message": "Make display job display the person list in the job",
+            "insertions": 8,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-02",
+        "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 186,
+        "deletions": 219,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "a59b0ca93c33274636627543c1e8fbb677387766",
+            "message": "Fix analytics UI",
+            "insertions": 51,
+            "deletions": 22
+          },
+          {
+            "hash": "b504093baa9c4493045bf1ed584119566f5bd7ca",
+            "message": "Edit for style",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "04e34e9c824c280c3d708d769cc43170e0cce123",
+            "message": "Revert \"Fix analytics UI\"",
+            "insertions": 23,
+            "deletions": 51
+          },
+          {
+            "hash": "f7dcef23932f3f72da5995a6e2cdaf2dadd82111",
+            "message": "Fix error",
+            "insertions": 57,
+            "deletions": 87
+          },
+          {
+            "hash": "6ce281ccf84fc9557aca59bcfcdc3721f6934fcf",
+            "message": "Fix analytics UI",
+            "insertions": 55,
+            "deletions": 58
+          }
+        ]
       }
     ],
     "COGnitiveAspian": [
@@ -926,6 +976,18 @@
         "deletions": 0,
         "date": "2019-04-02",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ],
     "DanielDSSim": [
@@ -1236,8 +1298,8 @@
         "commitResults": []
       },
       {
-        "insertions": 1229,
-        "deletions": 175,
+        "insertions": 1288,
+        "deletions": 196,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -1265,10 +1327,22 @@
             "deletions": 25
           },
           {
+            "hash": "9c388f1c6a36a6d6d2dbdff92f24082ad8c7f37a",
+            "message": "Fix style",
+            "insertions": 9,
+            "deletions": 13
+          },
+          {
             "hash": "f7eb1a4795a78f14a226b3f96c2b75dba7d68a97",
             "message": "Fix style",
             "insertions": 9,
             "deletions": 13
+          },
+          {
+            "hash": "a62c7e28a7bb034d31918d12d19e7226645b9a72",
+            "message": "Fix for CreateJob not detecting new Job",
+            "insertions": 19,
+            "deletions": 5
           },
           {
             "hash": "c0c626503081a4b839338a028ed7a6d614fc6ac7",
@@ -1277,16 +1351,34 @@
             "deletions": 5
           },
           {
+            "hash": "70894280c4d6d9230635a3e62e63ea50022df123",
+            "message": "Bug fixes",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
             "hash": "ddcfd44c830ab9695eabdf8b6e9ca5dc69cd099f",
             "message": "Bug fixes",
             "insertions": 10,
             "deletions": 0
           },
           {
+            "hash": "355dd0f642961103e44be7add8aa022bbd943af8",
+            "message": "Fix my stupidity",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
             "hash": "39029a6d44761c1fd53258a336dbe12fd8ee67d2",
             "message": "Fix my stupidity",
             "insertions": 17,
             "deletions": 2
+          },
+          {
+            "hash": "cd50df33810fdcf04a0f2719fb2f79c8a9ab5cad",
+            "message": "Fix Style",
+            "insertions": 4,
+            "deletions": 1
           },
           {
             "hash": "de1a74ae1b0c84fd44ec28c51b9dfd3956f5b5bd",
@@ -1353,6 +1445,43 @@
             "message": "fix style",
             "insertions": 1,
             "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 136,
+        "deletions": 69,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "0ef3f88f547d6805c31e502d6ed8d61724e92d71",
+            "message": "Updated variable and methods to enable dj to show first list by default and cj to dj automatically",
+            "insertions": 65,
+            "deletions": 47
+          },
+          {
+            "hash": "736db7b82e397d8a60edcae5f3d972c71187dfba",
+            "message": "Added Functionality to automatically add persons to Job at job creation",
+            "insertions": 20,
+            "deletions": 4
+          },
+          {
+            "hash": "9af5319ac26b4e2a9014ac444a59c25d5c5f5948",
+            "message": "Add active Job field and 4 filtered list to support Job viewing",
+            "insertions": 25,
+            "deletions": 13
+          },
+          {
+            "hash": "3cdbe62b726eed949661b7a7b541ccc39e7a7821",
+            "message": "Finally fixed my stupidity",
+            "insertions": 26,
+            "deletions": 5
           }
         ]
       }
@@ -2057,6 +2186,18 @@
             "deletions": 18
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ],
     "WeeSooJun": [
@@ -2929,22 +3070,34 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "chiuyuhua": 3345,
+    "chiuyuhua": 3344,
     "COGnitiveAspian": 0,
-    "DanielDSSim": 1107,
-    "CaesarTY": 2645,
-    "WeeSooJun": 1541
+    "DanielDSSim": 1177,
+    "CaesarTY": 2644,
+    "WeeSooJun": 1542
   },
   "authorContributionVariance": {
-    "chiuyuhua": 118471.2,
+    "chiuyuhua": 115976.8,
     "COGnitiveAspian": 0.0,
-    "DanielDSSim": 37179.0,
-    "CaesarTY": 51816.867,
-    "WeeSooJun": 19340.303
+    "DanielDSSim": 40582.457,
+    "CaesarTY": 50144.453,
+    "WeeSooJun": 18705.31
   },
   "authorDisplayNameMap": {
     "chiuyuhua": "CHI...HUA",

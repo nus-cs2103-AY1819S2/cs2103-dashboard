@@ -87673,9 +87673,9 @@
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "-"
+          "gitId": "bendymochi"
         },
-        "content": "    public String getEmail() {"
+        "content": "    public String getDate() {"
       },
       {
         "lineNumber": 74,
@@ -87799,9 +87799,9 @@
       {
         "lineNumber": 91,
         "author": {
-          "gitId": "e0191632"
+          "gitId": "bendymochi"
         },
-        "content": "                \u0026\u0026 getEmail().equals(equipment.getDate().value)"
+        "content": "                \u0026\u0026 getDate().equals(equipment.getDate().value)"
       },
       {
         "lineNumber": 92,
@@ -87840,9 +87840,9 @@
       }
     ],
     "authorContributionMap": {
-      "bendymochi": 9,
-      "-": 72,
-      "e0191632": 15
+      "bendymochi": 11,
+      "-": 71,
+      "e0191632": 14
     }
   },
   {
@@ -133715,9 +133715,9 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "e0191632"
+          "gitId": "bendymochi"
         },
-        "content": "    public void constructor_invalidEmail_throwsIllegalArgumentException() {"
+        "content": "    public void constructor_invalidDate_throwsIllegalArgumentException() {"
       },
       {
         "lineNumber": 19,
@@ -133917,8 +133917,8 @@
       }
     ],
     "authorContributionMap": {
-      "bendymochi": 11,
-      "e0191632": 35
+      "bendymochi": 12,
+      "e0191632": 34
     }
   },
   {
@@ -138234,9 +138234,9 @@
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "-"
+          "gitId": "bendymochi"
         },
-        "content": "    public void toModelType_nullEmail_throwsIllegalValueException() {"
+        "content": "    public void toModelType_nullDate_throwsIllegalValueException() {"
       },
       {
         "lineNumber": 89,
@@ -138597,8 +138597,8 @@
       }
     ],
     "authorContributionMap": {
-      "bendymochi": 13,
-      "-": 75,
+      "bendymochi": 14,
+      "-": 74,
       "e0191632": 51
     }
   },
@@ -155303,9 +155303,9 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "bendymochi"
         },
-        "content": "        assertEquals(expectedCard.getEmail(), actualCard.getEmail());"
+        "content": "        assertEquals(expectedCard.getDate(), actualCard.getDate());"
       },
       {
         "lineNumber": 28,
@@ -155478,9 +155478,9 @@
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "e0191632"
+          "gitId": "bendymochi"
         },
-        "content": "        assertEquals(expectedEquipment.getDate().value, actualCard.getEmail());"
+        "content": "        assertEquals(expectedEquipment.getDate().value, actualCard.getDate());"
       },
       {
         "lineNumber": 53,
@@ -155961,9 +155961,9 @@
     ],
     "authorContributionMap": {
       "LiuXuanIan": 34,
-      "bendymochi": 9,
-      "-": 50,
-      "e0191632": 27
+      "bendymochi": 11,
+      "-": 49,
+      "e0191632": 26
     }
   },
   {

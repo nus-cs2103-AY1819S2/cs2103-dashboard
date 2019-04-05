@@ -680,6 +680,50 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 75,
+        "deletions": 17,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "25519e6b01a9b7261b0bea6c7642c95b83613e03",
+            "message": "booking and reservation list will show all items if new item is added contains payer predicate will always return true if it is empty",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "8a18f3e3c65e346c13cf20630215c4b4cecbe986",
+            "message": "reservation list panel will be updated if the selected customer/roomType   are changed",
+            "insertions": 47,
+            "deletions": 8
+          },
+          {
+            "hash": "31a11a43b83154ad6d02715449e742256fd3c4a3",
+            "message": "tab won\u0027t be switched if the command is findCommand   (temporary change to avoid tab switching when clicking a customer)",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "761f4c52c0c6f376f44366ce6fd6bd3c9bcb33a0",
+            "message": "update the usage message of addCustomerCommand and findBookingCommand",
+            "insertions": 8,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 30,
+        "deletions": 40,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "316766c345f26d14d3d426c5fe6fe5a93470943c",
+            "message": "tab will be switched for find commands now bookingLisePanel and reservationListPanel will no longer listen to   selected customer now",
+            "insertions": 30,
+            "deletions": 40
+          }
+        ]
       }
     ],
     "sreycodes": [
@@ -1646,6 +1690,32 @@
             "message": "Updated user guide and readme",
             "insertions": 3,
             "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 104,
+        "deletions": 91,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "14cd2945615787c9856fb636d7e39d8fd5dfe896",
+            "message": "Adding PPP and making few changes",
+            "insertions": 104,
+            "deletions": 91
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "e5ee103190a7b49eb23ee4a8a08e4ab47ca62a9c",
+            "message": "Added newline at EOF",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
@@ -2840,6 +2910,56 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 100,
+        "deletions": 133,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "e2390401dc0fc82d767709d3e19f14f4e3947ba9",
+            "message": "Fixed bugs in SwitchTabCommand. Updated User Guide accordingly.",
+            "insertions": 67,
+            "deletions": 42
+          },
+          {
+            "hash": "d66b25125f69daaa0e4a0f939a3f4e4b7bfa72c4",
+            "message": "Corrected errors to please Codacy.",
+            "insertions": 6,
+            "deletions": 9
+          },
+          {
+            "hash": "2c2f9b9c9571e00992ae785eacfda3660a26f73a",
+            "message": "Corrected errors to please checkStyle.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5b2b9868d9f31be7ac2e7346a53b3e99ac2649d0",
+            "message": "Fixed small erros in GeneratinngBill Commands. Includes: Correcting error messages and message usages. Made the BillModel and BillManager more efficient and less wordy. Removed unnecessary imports and functions.",
+            "insertions": 26,
+            "deletions": 81
+          }
+        ]
+      },
+      {
+        "insertions": 91,
+        "deletions": 1,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "615d55aa41e60db0f41de3bf192aefa4460febed",
+            "message": "Updated DG.",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "1a6964481420e4395c241e2b59c3248601c82692",
+            "message": "Created PPP.",
+            "insertions": 80,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "nerrons": [
@@ -3409,20 +3529,32 @@
             "deletions": 5
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 4112,
-    "sreycodes": 10718,
-    "Tejas2805": 3319,
-    "nerrons": 1241
+    "ZhangCX10032": 4124,
+    "sreycodes": 10819,
+    "Tejas2805": 3396,
+    "nerrons": 1240
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 786025.2,
-    "sreycodes": 2.7307148E7,
-    "Tejas2805": 154578.95,
-    "nerrons": 238712.28
+    "ZhangCX10032": 758700.06,
+    "sreycodes": 2.6350004E7,
+    "Tejas2805": 149200.34,
+    "nerrons": 230692.05
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

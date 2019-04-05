@@ -435,6 +435,18 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ],
     "chung-ming": [
@@ -1109,6 +1121,56 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 961,
+        "deletions": 45,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "f0ae7eaeba295283e14c87118b1d02af78a66ce5",
+            "message": "Fix bug ReadMe url not working",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "1d82aa369d68054de77f78745ce74e5d560d50f3",
+            "message": "Implement JUnit Testing for Chart feature",
+            "insertions": 849,
+            "deletions": 38
+          },
+          {
+            "hash": "66097e6a38b34b449559caac8fcfabd3f053a8cd",
+            "message": "Fix failed tests by adding newline to EOF",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "066b9e2efbae343f4461fb7fb39bbbc427269638",
+            "message": "Implement JUnit Testing for Chart feature",
+            "insertions": 105,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 36,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "9194ad6cefa620adf3620ea2d9d441abd1596cbd",
+            "message": "Update Developer Guide",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "4ee3ebc1b3aabf9e9c81068a2777f6de9c0a54ca",
+            "message": "Documentation housekeeping",
+            "insertions": 26,
+            "deletions": 14
+          }
+        ]
       }
     ],
     "PremBagda": [
@@ -1592,6 +1654,31 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 65,
+        "deletions": 47,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "bc1d19919ff1350303b0eb4cb03c3b448594241c",
+            "message": "Fixed unnecessary spaces in UG",
+            "insertions": 20,
+            "deletions": 19
+          },
+          {
+            "hash": "6b37a78024099be451e3cd5d7a2d65557be8fa87",
+            "message": "Fix PlaceCard and ExpandedPlacePanel alignment issues",
+            "insertions": 45,
+            "deletions": 28
+          }
+        ]
       }
     ],
     "nivenang": [
@@ -2201,20 +2288,63 @@
             "deletions": 20
           }
         ]
+      },
+      {
+        "insertions": 342,
+        "deletions": 121,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "96ec236c19930489d0944ca3560db495bc308e9f",
+            "message": "Fix bug where calling select, generate, search, generate in order causes RightParentPanel to get stuck on null ExpandedPlacePanel",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "b64d38dbf6fa2dd9995d4ab7a5b601cdc29e651e",
+            "message": "Fix checkstyle errors",
+            "insertions": 0,
+            "deletions": 14
+          },
+          {
+            "hash": "16865ab4eb51dc3c32cea94cbdf280cd9d1f5314",
+            "message": "Add functionality to display search query upon successful search",
+            "insertions": 251,
+            "deletions": 36
+          },
+          {
+            "hash": "80eb9584bb36a4399dc2f769ebf54109cf1003b1",
+            "message": "Fix checkstyle errors",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "6e9375eb8ccfba5f9eec36874c874527a61fb34b",
+            "message": "Update UserGuide and graphics for SearchCommand",
+            "insertions": 81,
+            "deletions": 59
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "shaungohsc": 650,
-    "chung-ming": 5492,
-    "PremBagda": 2667,
-    "nivenang": 4239
+    "shaungohsc": 601,
+    "chung-ming": 6461,
+    "PremBagda": 2713,
+    "nivenang": 4474
   },
   "authorContributionVariance": {
-    "shaungohsc": 6226.7676,
-    "chung-ming": 723451.6,
-    "PremBagda": 331495.34,
-    "nivenang": 73498.67
+    "shaungohsc": 6030.2334,
+    "chung-ming": 708237.25,
+    "PremBagda": 319733.06,
+    "nivenang": 73100.81
   },
   "authorDisplayNameMap": {
     "shaungohsc": "Goh Shau Cher Shaun",

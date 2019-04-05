@@ -1123,6 +1123,25 @@
         "deletions": 0,
         "date": "2019-04-04",
         "commitResults": []
+      },
+      {
+        "insertions": 12,
+        "deletions": 3,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "be3f934f272b947c27b2b9bfb6c0ed8a0806efcc",
+            "message": "Update UserGuide.adoc",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "18786daba0e1753d8de70283e75c4be4e0b34055",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "qjqqyy": [
@@ -1956,9 +1975,22 @@
         "commitResults": []
       },
       {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "6c9fcda3b151da062e6cd0295dde47f7d283dc2d",
+            "message": "fix #128 by displaying error message",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-04",
+        "date": "2019-04-05",
         "commitResults": []
       }
     ],
@@ -2787,9 +2819,34 @@
         "commitResults": []
       },
       {
+        "insertions": 137,
+        "deletions": 16,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "c1abf274f4bb0ba61d781b24ece0025a9df3a190",
+            "message": "Bump version to v1.3.1ea",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "05321e0cb22c8188ff55db577b7e405d4fc22eee",
+            "message": "Rename RefreshCommand -\u003e RefreshFeedCommand",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "f5a55e41510c69c2d12af47a2ebec41764a173d5",
+            "message": "Implement RefreshEntryCommand",
+            "insertions": 121,
+            "deletions": 0
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-04",
+        "date": "2019-04-05",
         "commitResults": []
       }
     ],
@@ -3657,16 +3714,71 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 285,
+        "deletions": 56,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ced7a8a26210bd6ed00ef812d2342e8a5cb4ece0",
+            "message": "Add StringUtil method for finding phrase in sentence",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "8f081be56c60777d1123a735e839610518f11cf1",
+            "message": "Update Find command to search by entry fields",
+            "insertions": 245,
+            "deletions": 51
+          },
+          {
+            "hash": "e17962b6e3ad783d2ebd2987d6dd700dc1159769",
+            "message": "Update messages in FindCommand",
+            "insertions": 18,
+            "deletions": 5
+          }
+        ]
       },
       {
-        "insertions": 11,
-        "deletions": 12,
+        "insertions": 784,
+        "deletions": 161,
         "date": "2019-04-04",
         "commitResults": [
+          {
+            "hash": "4cc023c1284bcfc05ee4348ab6101d43b263bf7c",
+            "message": "Fix Entry...Predicate bug, not all fields checked",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "fe6b59c767392c8789113ed1d66c07d393bb7848",
+            "message": "Add and update test util classes",
+            "insertions": 115,
+            "deletions": 4
+          },
+          {
+            "hash": "cadcca8caa0fbf864149c1ff50b80fd3d881184e",
+            "message": "Update some tests to pass",
+            "insertions": 34,
+            "deletions": 36
+          },
+          {
+            "hash": "ecfa8720d5612af909de100eb39b970ff99f94a9",
+            "message": "Update EntryContainsSearchTermsPredicateTest",
+            "insertions": 323,
+            "deletions": 34
+          },
+          {
+            "hash": "75ee44f8a4b03efbb984aeeb528355568765545c",
+            "message": "Update FindCommandSystemTest",
+            "insertions": 162,
+            "deletions": 58
+          },
+          {
+            "hash": "b6746a83d930a12458beb3d8bf5e80478410bdbe",
+            "message": "Fix checkstyle bug",
+            "insertions": 1,
+            "deletions": 1
+          },
           {
             "hash": "da2c1902e054b9b495cf92e651bbf01e7b6784e6",
             "message": "Fix reference bugs in PPP",
@@ -3678,22 +3790,58 @@
             "message": "Update UG to reflect updated find command",
             "insertions": 3,
             "deletions": 3
+          },
+          {
+            "hash": "2ac1b83adab2fa3ac9523e6eb0c9a904f67cd8ae",
+            "message": "Add prefix for ALL",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c1793a4be53ccb22c526d314f407c9b085a91f33",
+            "message": "Add extra a/ field to search in all fields",
+            "insertions": 25,
+            "deletions": 4
+          },
+          {
+            "hash": "f2c8595a817d2edbadb12b785b67b8754ad04218",
+            "message": "Update test util functions and predicate test",
+            "insertions": 77,
+            "deletions": 1
+          },
+          {
+            "hash": "f1a4ac13f947883c597f3fb03186124908b720da",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "be7a7f5c798a0ea9ec4d83b175e21bd6570f56ad",
+            "message": "Update FindCommandSystemTest to test a/ find",
+            "insertions": 27,
+            "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 7359,
-    "qjqqyy": 1917,
-    "thomastanck": 2119,
-    "epicfailname": 4622
+    "rlrh": 7377,
+    "qjqqyy": 1903,
+    "thomastanck": 2219,
+    "epicfailname": 5567
   },
   "authorContributionVariance": {
-    "rlrh": 762554.8,
-    "qjqqyy": 51820.28,
-    "thomastanck": 68874.734,
-    "epicfailname": 700011.75
+    "rlrh": 750248.5,
+    "qjqqyy": 50944.164,
+    "thomastanck": 67681.48,
+    "epicfailname": 694663.0
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

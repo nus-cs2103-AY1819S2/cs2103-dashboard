@@ -16566,7 +16566,7 @@
       {
         "lineNumber": 85,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
         "content": ""
       },
@@ -16706,7 +16706,7 @@
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "lungsin"
+          "gitId": "-"
         },
         "content": "Examples:"
       },
@@ -16741,23 +16741,23 @@
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "lungsin"
+          "gitId": "sergiovieri"
         },
-        "content": "\u003d\u003d\u003d Editing a flashcard : `edit`"
+        "content": "\u003d\u003d\u003d Listing all flashcards : `list`"
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "-"
+          "gitId": "sergiovieri"
         },
         "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "Edits a flashcard already in the collection. +"
+        "content": "Shows a list of all flashcards in the card collection."
       },
       {
         "lineNumber": 113,
@@ -16769,9 +16769,9 @@
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "Format: ​`edit INDEX [f/FRONT_TEXT] [b/BACK_TEXT] [i/IMAGE_PATH] [t/TAG]...​`"
+        "content": "Format: `list`"
       },
       {
         "lineNumber": 115,
@@ -16783,450 +16783,450 @@
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "-"
+          "gitId": "lungsin"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Editing a flashcard : `edit`"
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* Edits the flashcard at the specified `INDEX`. The index refers to the index"
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "number shown in the list of all flashcards (1, 2, 3, ...)."
+        "content": "Edits a flashcard already in the collection. +"
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* You can leave `IMAGE_PATH` empty to remove the image associated with a"
+        "content": ""
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "flashcard. That is, to remove an image, specify `i/`."
+        "content": "Format: ​`edit INDEX [f/FRONT_TEXT] [b/BACK_TEXT] [i/IMAGE_PATH] [t/TAG]...​`"
       },
       {
         "lineNumber": 121,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* When specifying a `TAG`, _all existing tags_ will be removed. If you want to"
+        "content": ""
       },
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "add a new tag, you must restate all the previous tags and add the new one."
+        "content": "****"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "** Note that the tags will not be affected if you do not specify any `TAG`."
+        "content": "* Edits the flashcard at the specified `INDEX`. The index refers to the index"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "** Likewise, you can remove all the tags associated with a card by specifying"
+        "content": "number shown in the list of all flashcards (1, 2, 3, ...)."
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "`t/` with nothing afterwards."
+        "content": "* You can leave `IMAGE_PATH` empty to remove the image associated with a"
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": "****"
+        "content": "flashcard. That is, to remove an image, specify `i/`."
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "* When specifying a `TAG`, _all existing tags_ will be removed. If you want to"
       },
       {
         "lineNumber": 128,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": "Examples:"
+        "content": "add a new tag, you must restate all the previous tags and add the new one."
       },
       {
         "lineNumber": 129,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "** Note that the tags will not be affected if you do not specify any `TAG`."
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "* `edit 2 f/Halo` +"
+        "content": "** Likewise, you can remove all the tags associated with a card by specifying"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "The second flashcard will be edited and the front face will be updated to _Halo_."
+        "content": "`t/` with nothing afterwards."
       },
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* `edit 3 i/ t/` +"
+        "content": "****"
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "The third flashcard will have its image and all its tags removed, if it had any."
+        "content": ""
       },
       {
         "lineNumber": 134,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 135,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "\u003d\u003d\u003d Deleting a flashcard : `delete`"
-      },
-      {
-        "lineNumber": 136,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 137,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Deletes a flashcard already in the collection. +"
-      },
-      {
-        "lineNumber": 138,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 139,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Format: ​`delete INDEX`"
-      },
-      {
-        "lineNumber": 140,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 141,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 142,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* Deletes the flashcard at the specified `INDEX`. The index refers to the index"
-      },
-      {
-        "lineNumber": 143,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "number shown in the list of all flashcards (1, 2, 3, ...)."
-      },
-      {
-        "lineNumber": 144,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 145,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 146,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Example:"
-      },
-      {
-        "lineNumber": 147,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 148,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* `delete 2` +"
-      },
-      {
-        "lineNumber": 149,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "The second flashcard will be deleted."
-      },
-      {
-        "lineNumber": 150,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 151,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "\u003d\u003d\u003d Finding flashcards by keyword(s): `find`"
-      },
-      {
-        "lineNumber": 152,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 153,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Finds and lists all the flashcards whose front text, back text or collection tags"
-      },
-      {
-        "lineNumber": 154,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "contain _any_ of the given keywords. +"
-      },
-      {
-        "lineNumber": 155,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 156,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Format: ​`find [f/FRONT_FACE]... [b/BACK_FACE]... [t/TAG]...`"
-      },
-      {
-        "lineNumber": 157,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 158,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 159,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* You must specify at least _one_ keyword."
-      },
-      {
-        "lineNumber": 160,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* Multiple keywords can be specified for the front text, back text and tags by"
-      },
-      {
-        "lineNumber": 161,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "specifying multiple prefixes. For example, `find f/Kamusta f/Terima kasih` finds"
-      },
-      {
-        "lineNumber": 162,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "and lists _all_ the flashcards whose front face contains the word _Kamusta_ or _Terima_ or _kasih_. +"
-      },
-      {
-        "lineNumber": 163,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Keywords are not case sensitive: `f/Kamusta` will match `kamusta`, `kAmUsTa` or `KAMUSTA`."
-      },
-      {
-        "lineNumber": 164,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "** Multiple tags must specifically be specified with multiple prefixes. `t/Tagalog Japanese` is forbidden;"
-      },
-      {
-        "lineNumber": 165,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "use `t/Tagalog t/Japanese` instead."
-      },
-      {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 169,
+        "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `edit 2 f/Halo` +"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "The second flashcard will be edited and the front face will be updated to _Halo_."
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `edit 3 i/ t/` +"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "The third flashcard will have its image and all its tags removed, if it had any."
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "\u003d\u003d\u003d Deleting a flashcard : `delete`"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Deletes a flashcard already in the collection. +"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Format: ​`delete INDEX`"
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* Deletes the flashcard at the specified `INDEX`. The index refers to the index"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "number shown in the list of all flashcards (1, 2, 3, ...)."
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Example:"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `delete 2` +"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "The second flashcard will be deleted."
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "\u003d\u003d\u003d Finding flashcards by keyword(s): `find`"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Finds and lists all the flashcards whose front text, back text or collection tags"
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "contain _any_ of the given keywords. +"
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Format: ​`find [f/FRONT_FACE]... [b/BACK_FACE]... [t/TAG]...`"
+      },
+      {
+        "lineNumber": 163,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* You must specify at least _one_ keyword."
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* Multiple keywords can be specified for the front text, back text and tags by"
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "specifying multiple prefixes. For example, `find f/Kamusta f/Terima kasih` finds"
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "and lists _all_ the flashcards whose front face contains the word _Kamusta_ or _Terima_ or _kasih_. +"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Keywords are not case sensitive: `f/Kamusta` will match `kamusta`, `kAmUsTa` or `KAMUSTA`."
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "* `find t/Chinese t/Japanese` +"
+        "content": "** Multiple tags must specifically be specified with multiple prefixes. `t/Tagalog Japanese` is forbidden;"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "This will find and list all the flashcards that have the _Chinese_ or _Japanese_ tag."
+        "content": "use `t/Tagalog t/Japanese` instead."
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* `find f/Hello b/Hello` +"
+        "content": "****"
       },
       {
         "lineNumber": 173,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "This will find and list all the flashcards whose front or back text contains the word _Hello_."
+        "content": ""
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 175,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "[[ImportImage]]"
-      },
-      {
-        "lineNumber": 176,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "\u003d\u003d\u003d Importing an image : `image`"
-      },
-      {
-        "lineNumber": 177,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Adds an image into _Acquizition_\u0027s internal directory."
-      },
-      {
-        "lineNumber": 178,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `find t/Chinese t/Japanese` +"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "This will find and list all the flashcards that have the _Chinese_ or _Japanese_ tag."
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `find f/Hello b/Hello` +"
+      },
+      {
         "lineNumber": 179,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "Format: `image FILE_PATH`"
+        "content": "This will find and list all the flashcards whose front or back text contains the word _Hello_."
       },
       {
         "lineNumber": 180,
@@ -17238,44 +17238,44 @@
       {
         "lineNumber": 181,
         "author": {
-          "gitId": "-"
+          "gitId": "sergiovieri"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Selecting a flashcard : `select`"
       },
       {
         "lineNumber": 182,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* This imports an image into _Acquizition_\u0027s internal directory. The image imported must not"
+        "content": ""
       },
       {
         "lineNumber": 183,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "have the same name as an image already in the internal directory."
+        "content": "Selects the flashcard identified by the index number used in the displayed flashcard list."
       },
       {
         "lineNumber": 184,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* `FILE_PATH` must be an _absolute path_ to the image."
+        "content": ""
       },
       {
         "lineNumber": 185,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* This command will also report the path you must reference your image when adding or"
+        "content": "Format: `select INDEX`"
       },
       {
         "lineNumber": 186,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "editing your image through the `add` or `edit` commands."
+        "content": ""
       },
       {
         "lineNumber": 187,
@@ -17287,44 +17287,44 @@
       {
         "lineNumber": 188,
         "author": {
-          "gitId": "-"
+          "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "* Selects a flashcard and displays it on the flashcard view on the right pane."
       },
       {
         "lineNumber": 189,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "Example:"
+        "content": "* The success rate of the selected flashcard will be shown on the command result box."
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* The index refers to the index number shown in the displayed person list."
       },
       {
         "lineNumber": 191,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "* `image C:\\Users\\Robin\\Desktop\\girlfriend.png` +"
+        "content": "* The index must be a positive integer `1, 2, 3, …`"
       },
       {
         "lineNumber": 192,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "This will import the image `girlfriend.png` into _Acquizition_\u0027s internal directory, and give"
+        "content": "* Alternatively, you can select a card by clicking it on the flashcard list panel."
       },
       {
         "lineNumber": 193,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "you the path you must use to reference this image through the `add` or `edit` commands."
+        "content": "****"
       },
       {
         "lineNumber": 194,
@@ -17336,9 +17336,9 @@
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Showing aggregate statistics : `stats`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 196,
@@ -17350,163 +17350,163 @@
       {
         "lineNumber": 197,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "Shows aggregate statistics for all the flashcards with any of the given tags. +"
+        "content": "* `list` +"
       },
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "If no tag is specified, it shows aggregate statistics for all cards currently in the list."
+        "content": "`select 2` +"
       },
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "-"
+          "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "Selects the second flashcard in the list."
       },
       {
         "lineNumber": 200,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "Format: `stats [t/TAG]...`"
+        "content": "* `find t/chinese` +"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`select 1` +"
       },
       {
         "lineNumber": 202,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "****"
+        "content": "Selects the first flashcard in the filtered list with chinese tag."
       },
       {
         "lineNumber": 203,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* You can use `find` followed by `stats` to show aggregate statistics for all the cards found"
-      },
-      {
-        "lineNumber": 204,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "and listed by the find command."
-      },
-      {
-        "lineNumber": 205,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Listing entered commands : `history`"
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 206,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Lists all the commands that you have entered in reverse chronological order."
+      },
+      {
         "lineNumber": 207,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `history`"
       },
       {
         "lineNumber": 209,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* `stats t/Chinese t/Japanese` +"
+        "content": ""
       },
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "This will show aggregate statistics for all flashcards that have the _Chinese_ or _Japanese_ tag."
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 211,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* `find f/Kamusta` +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "`stats` +"
+        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
       },
       {
         "lineNumber": 213,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "This will find and list all flashcards with _Kamusta_ in their front face then show aggregate"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 214,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "statistics for all those flashcards."
+        "content": ""
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Undoing previous command : `undo`"
       },
       {
         "lineNumber": 216,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "\u003d\u003d\u003d Exporting flashcards to a text file : `share`"
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Creates a text file containing a collection of flashcards to be shared."
-      },
-      {
-        "lineNumber": 218,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Restores the card collection to the state before the previous undoable command was executed."
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
         "lineNumber": 219,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "Format: `share [f/FRONT_FACE]... [b/BACK_FACE]... [t/TAG]...`"
+        "content": "Format: `undo`"
       },
       {
         "lineNumber": 220,
@@ -17518,310 +17518,310 @@
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "****"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 222,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* This creates a text file containing all the flashcards who match any of the"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 223,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "front face, back face or tag keywords, in the same manner as `find`."
+        "content": "Undoable commands: those commands that modify the card collection\u0027s content (`add`, `delete`, `edit`, `clear`, `good`, `bad`, and `import`)."
       },
       {
         "lineNumber": 224,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* The text file created by the share command will be saved locally in the main application directory; you should share"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 225,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": " this text file with your friends."
+        "content": ""
       },
       {
         "lineNumber": 226,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* Once your friend has a copy of the text file, he can import the flashcards using the `import` command"
-      },
-      {
-        "lineNumber": 227,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* **Images will not be shared.**"
-      },
-      {
-        "lineNumber": 228,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 229,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 230,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Example:"
-      },
-      {
-        "lineNumber": 231,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 232,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* `share t/Chinese` +"
-      },
-      {
-        "lineNumber": 233,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "This will create a text file of all the flashcards that contain the _Chinese_ tag."
-      },
-      {
-        "lineNumber": 234,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 235,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "\u003d\u003d\u003d Importing flashcards from a text file : `import`"
-      },
-      {
-        "lineNumber": 236,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Adds flashcards to your collection from a text file."
-      },
-      {
-        "lineNumber": 237,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 238,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Format: `import [FILE_PATH]`"
-      },
-      {
-        "lineNumber": 239,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 240,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 241,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* This imports all the cards from a text file (produced by `share`) to your collection."
-      },
-      {
-        "lineNumber": 242,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "** This does not replace your card collection; it simply adds all the cards from the text file"
-      },
-      {
-        "lineNumber": 243,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "one-by-one."
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "** This command will also report the number of cards successfully imported."
-      },
-      {
-        "lineNumber": 245,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "* If no `FILE_PATH` is specified, you will be prompted to select it through the File Explorer."
-      },
-      {
-        "lineNumber": 246,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 247,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 248,
         "author": {
           "gitId": "-"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 249,
+        "lineNumber": 227,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* `delete 1` +"
+      },
+      {
+        "lineNumber": 229,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`list` +"
+      },
+      {
+        "lineNumber": 230,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`undo` +"
+      },
+      {
+        "lineNumber": 231,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Reverses the `delete 1` command."
+      },
+      {
+        "lineNumber": 232,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* `select 1` +"
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`list` +"
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`quiz` +"
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`exit` +"
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "The `undo` command fails as there are no undoable commands executed previously."
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* `delete 1` +"
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`clear` +"
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`undo` +"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`undo` +"
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Reverses the `clear` command, then reverses the `delete 1` command."
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Redoing the previously undone command : `redo`"
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Reverses the most recent `undo` command."
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Format: `redo`"
+      },
+      {
+        "lineNumber": 248,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 249,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Examples:"
+      },
+      {
         "lineNumber": 250,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* `import` +"
+        "content": ""
       },
       {
         "lineNumber": 251,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "This will prompt the File Explorer and you should select the text file containing the cards"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "you want to import."
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "* `import C:\\Users\\Luca\\Desktop\\cards.txt` +"
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 254,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "This will import the cards from `cards.txt` to your collection."
+        "content": ""
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Deleting all flashcards : `clear`"
+        "content": "`redo` +"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The `redo` command fails as there are no `undo` commands executed previously."
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "Deletes all flashcards."
+        "content": ""
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `clear`"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "Exits the program if you are not in quiz mode. +"
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
-        "content": "If you are in quiz mode, this exits quiz mode instead. See \u003c\u003cQuizExit\u003e\u003e for more details."
+        "content": "`redo` (reapplies the `clear` command) +"
       },
       {
         "lineNumber": 265,
@@ -17833,780 +17833,1676 @@
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": "Format: `exit`"
+        "content": "[[ImportImage]]"
       },
       {
         "lineNumber": 267,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Importing an image : `image`"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "[[FeaturesQuiz]]"
+        "content": "Adds an image into _Acquizition_\u0027s internal directory."
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "\u003d\u003d Features (Quiz)"
+        "content": ""
       },
       {
         "lineNumber": 270,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "Format: `image FILE_PATH`"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "\u003d\u003d\u003d Entering quiz mode : `quiz`"
+        "content": ""
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "image::Ui-quiz.png[width\u003d\"790\"]"
+        "content": "* This imports an image into _Acquizition_\u0027s internal directory. The image imported must not"
       },
       {
         "lineNumber": 274,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "have the same name as an image already in the internal directory."
       },
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "Enters quiz mode. +"
+        "content": "* `FILE_PATH` must be an _absolute path_ to the image."
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "A card will be shown to you one by one randomly with distribution based on accuracy of each flashcard. +"
+        "content": "* This command will also report the path you must reference your image when adding or"
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "You can then self-verify whether you accurately recall the back side of the flashcard."
+        "content": "editing your image through the `add` or `edit` commands."
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "Format: `quiz`"
-      },
-      {
-        "lineNumber": 280,
-        "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
         "content": ""
       },
       {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Example:"
+      },
+      {
         "lineNumber": 281,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* Enters quiz mode with the cards on the filtered flashcard list panel."
+        "content": "* `image C:\\Users\\Robin\\Desktop\\girlfriend.png` +"
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* This will start a quiz session. The flashcard list panel on the left will change to a quiz panel."
+        "content": "This will import the image `girlfriend.png` into _Acquizition_\u0027s internal directory, and give"
       },
       {
         "lineNumber": 284,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* The quiz panel contains the number of cards remaining on the quiz, as well as the number of good and bad feedback received."
+        "content": "you the path you must use to reference this image through the `add` or `edit` commands."
       },
       {
         "lineNumber": 285,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* The card view panel on the right will display the quizzed cards one by one, with the back face of the flashcard hidden."
+        "content": ""
       },
       {
         "lineNumber": 286,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Showing aggregate statistics : `stats`"
       },
       {
         "lineNumber": 287,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
         "content": ""
       },
       {
         "lineNumber": 288,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "\u003d\u003d\u003d Showing back face of flashcard : `show`"
+        "content": "Shows aggregate statistics for all the flashcards with any of the given tags. +"
       },
       {
         "lineNumber": 289,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "If no tag is specified, it shows aggregate statistics for all cards currently in the list."
       },
       {
         "lineNumber": 290,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "Shows the back face of the flashcard being quizzed."
+        "content": ""
       },
       {
         "lineNumber": 291,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "Format: `stats [t/TAG]...`"
       },
       {
         "lineNumber": 292,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "Format: `show`"
+        "content": ""
       },
       {
         "lineNumber": 293,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 294,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "****"
+        "content": "* You can use `find` followed by `stats` to show aggregate statistics for all the cards found"
       },
       {
         "lineNumber": 295,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* If the back face of the flashcard is already shown, this command will do nothing."
+        "content": "and listed by the find command."
       },
       {
         "lineNumber": 296,
         "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* Note that you can only use this command inside quiz mode."
-      },
-      {
-        "lineNumber": 297,
-        "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
         "content": "****"
       },
       {
-        "lineNumber": 298,
+        "lineNumber": 297,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 298,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Examples:"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "\u003d\u003d\u003d Giving feedback : `good` or `bad`"
+        "content": ""
       },
       {
         "lineNumber": 300,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "* `stats t/Chinese t/Japanese` +"
       },
       {
         "lineNumber": 301,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "Gives user feedback on quiz mode."
+        "content": "This will show aggregate statistics for all flashcards that have the _Chinese_ or _Japanese_ tag."
       },
       {
         "lineNumber": 302,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "* `find f/Kamusta` +"
       },
       {
         "lineNumber": 303,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "Format: `good` or `bad`"
+        "content": "`stats` +"
       },
       {
         "lineNumber": 304,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "This will find and list all flashcards with _Kamusta_ in their front face then show aggregate"
       },
       {
         "lineNumber": 305,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": "****"
+        "content": "statistics for all those flashcards."
       },
       {
         "lineNumber": 306,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* In order to give feedback of how well you do in the quiz mode, you can type in either `good` or `bad` for each card in the quiz."
+        "content": ""
       },
       {
         "lineNumber": 307,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* After you type `good` or `bad`, Acquizition will record the feedback on the card shown, as well as incrementing the number of good and bad feedback."
+        "content": "\u003d\u003d\u003d Exporting flashcards to a text file : `share`"
       },
       {
         "lineNumber": 308,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* Acquizition will then proceed to show the next flashcard to be quizzed. If there are no cards left, it will exit quiz mode."
+        "content": "Creates a text file containing a collection of flashcards to be shared."
       },
       {
         "lineNumber": 309,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* This command is usually, but not necessarily, used after the `show` command. That is, after you look at the back face of the flashcard, you can dictate how well you recall the back face of the flashcard."
+        "content": ""
       },
       {
         "lineNumber": 310,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "* Note that you can only use this command inside quiz mode."
+        "content": "Format: `share [f/FRONT_FACE]... [b/BACK_FACE]... [t/TAG]...`"
       },
       {
         "lineNumber": 311,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 312,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 313,
         "author": {
-          "gitId": "-"
+          "gitId": "robincyu"
         },
-        "content": "Examples:"
+        "content": "* This creates a text file containing all the flashcards who match any of the"
       },
       {
         "lineNumber": 314,
         "author": {
+          "gitId": "robincyu"
+        },
+        "content": "front face, back face or tag keywords, in the same manner as `find`."
+      },
+      {
+        "lineNumber": 315,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* The text file created by the share command will be saved locally in the main application directory; you should share"
+      },
+      {
+        "lineNumber": 316,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": " this text file with your friends."
+      },
+      {
+        "lineNumber": 317,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* Once your friend has a copy of the text file, he can import the flashcards using the `import` command"
+      },
+      {
+        "lineNumber": 318,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* **Images will not be shared.**"
+      },
+      {
+        "lineNumber": 319,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 320,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 321,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Example:"
+      },
+      {
+        "lineNumber": 322,
+        "author": {
+          "gitId": "lungsin"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 323,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `share t/Chinese` +"
+      },
+      {
+        "lineNumber": 324,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "This will create a text file of all the flashcards that contain the _Chinese_ tag."
+      },
+      {
+        "lineNumber": 325,
+        "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 315,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* `quiz` +"
-      },
-      {
-        "lineNumber": 316,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`good` +"
-      },
-      {
-        "lineNumber": 317,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "This will increment the number of good feedback of the card shown, thus, the success rate of this card will increase. +"
-      },
-      {
-        "lineNumber": 318,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "Then, the next card in the quiz queue will be shown."
-      },
-      {
-        "lineNumber": 319,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* `quiz` +"
-      },
-      {
-        "lineNumber": 320,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`show` +"
-      },
-      {
-        "lineNumber": 321,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`bad` +"
-      },
-      {
-        "lineNumber": 322,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "This will increment the number of bad feedback of the card shown, thus, the success rate of this card will decrease. +"
-      },
-      {
-        "lineNumber": 323,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "Then, the next card in the quiz queue will be shown."
-      },
-      {
-        "lineNumber": 324,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* `quiz` +"
-      },
-      {
-        "lineNumber": 325,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`good` +"
-      },
-      {
         "lineNumber": 326,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "`...` +"
+        "content": "\u003d\u003d\u003d Importing flashcards from a text file : `import`"
       },
       {
         "lineNumber": 327,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "`good` +"
+        "content": "Adds flashcards to your collection from a text file."
       },
       {
         "lineNumber": 328,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "Suppose this is the last card to show inside quiz mode. Acquizition will record the statistics of the quiz mode and exit the quiz mode."
+        "content": ""
       },
       {
         "lineNumber": 329,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "Format: `import [FILE_PATH]`"
       },
       {
         "lineNumber": 330,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Smart command"
+        "content": ""
       },
       {
         "lineNumber": 331,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 332,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "It can be troublesome to always have to type `show` and `good`. +"
+        "content": "* This imports all the cards from a text file (produced by `share`) to your collection."
       },
       {
         "lineNumber": 333,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "You can use a _smart command_ that cleverly chooses the appropriate command to run."
+        "content": "** This does not replace your card collection; it simply adds all the cards from the text file"
       },
       {
         "lineNumber": 334,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "one-by-one."
       },
       {
         "lineNumber": 335,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "Format: `\u003center\u003e`"
+        "content": "** This command will also report the number of cards successfully imported."
       },
       {
         "lineNumber": 336,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": ""
+        "content": "* If no `FILE_PATH` is specified, you will be prompted to select it through the File Explorer."
       },
       {
         "lineNumber": 337,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "-"
         },
         "content": "****"
       },
       {
         "lineNumber": 338,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "-"
         },
-        "content": "* To initiate a smart command, you just need to press enter."
+        "content": ""
       },
       {
         "lineNumber": 339,
         "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* If you are in quiz mode, and the back face of the quizzed card is not yet shown, smart command will execute a `show` command."
-      },
-      {
-        "lineNumber": 340,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* If you are in quiz mode, and the back face of the quizzed card has been shown, smart command will execute a `good` command."
-      },
-      {
-        "lineNumber": 341,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* This dramatically reduces your time to navigate through the quiz!"
-      },
-      {
-        "lineNumber": 342,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 343,
-        "author": {
           "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 344,
-        "author": {
-          "gitId": "sergiovieri"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 345,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 346,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* `quiz` +"
-      },
-      {
-        "lineNumber": 347,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`\u003center\u003e` +"
-      },
-      {
-        "lineNumber": 348,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`\u003center\u003e` +"
-      },
-      {
-        "lineNumber": 349,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "This will first show the back face of the card, then will mark the card as good."
-      },
-      {
-        "lineNumber": 350,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* `quiz` +"
-      },
-      {
-        "lineNumber": 351,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`\u003center\u003e` +"
-      },
-      {
-        "lineNumber": 352,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`bad` +"
-      },
-      {
-        "lineNumber": 353,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "This will show the back face of the card, then will mark the card as bad."
-      },
-      {
-        "lineNumber": 354,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "* `quiz` +"
-      },
-      {
-        "lineNumber": 355,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`\u003center\u003e` +"
-      },
-      {
-        "lineNumber": 356,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`...` +"
-      },
-      {
-        "lineNumber": 357,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "`\u003center\u003e` +"
-      },
-      {
-        "lineNumber": 358,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": "This will go through all the cards in the quiz mode and mark them all as good."
-      },
-      {
-        "lineNumber": 359,
-        "author": {
-          "gitId": "sergiovieri"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 360,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "[[QuizExit]]"
-      },
-      {
-        "lineNumber": 361,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "\u003d\u003d\u003d Exiting quiz mode : `exit`"
-      },
-      {
-        "lineNumber": 362,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "Exits quiz mode prematurely if you are in quiz mode. +"
-      },
-      {
-        "lineNumber": 363,
+        "lineNumber": 340,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 364,
+        "lineNumber": 341,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `import` +"
+      },
+      {
+        "lineNumber": 342,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "This will prompt the File Explorer and you should select the text file containing the cards"
+      },
+      {
+        "lineNumber": 343,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "you want to import."
+      },
+      {
+        "lineNumber": 344,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "* `import C:\\Users\\Luca\\Desktop\\cards.txt` +"
+      },
+      {
+        "lineNumber": 345,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "This will import the cards from `cards.txt` to your collection."
+      },
+      {
+        "lineNumber": 346,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 347,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "\u003d\u003d\u003d Deleting all flashcards : `clear`"
+      },
+      {
+        "lineNumber": 348,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Deletes all flashcards."
+      },
+      {
+        "lineNumber": 350,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 351,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Format: `clear`"
+      },
+      {
+        "lineNumber": 352,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 353,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
+      },
+      {
+        "lineNumber": 354,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Exits the program if you are not in quiz mode. +"
+      },
+      {
+        "lineNumber": 355,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "If you are in quiz mode, this exits quiz mode instead. See \u003c\u003cQuizExit\u003e\u003e for more details."
+      },
+      {
+        "lineNumber": 356,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 357,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `exit`"
       },
       {
-        "lineNumber": 365,
+        "lineNumber": 358,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 359,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "// tag::quiz[]"
+      },
+      {
+        "lineNumber": 360,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "[[FeaturesQuiz]]"
+      },
+      {
+        "lineNumber": 361,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "\u003d\u003d Features (Quiz)"
+      },
+      {
+        "lineNumber": 362,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 363,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "\u003d\u003d\u003d Entering quiz mode : `quiz`"
+      },
+      {
+        "lineNumber": 364,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 365,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "image::Ui-quiz.png[width\u003d\"790\"]"
+      },
+      {
         "lineNumber": 366,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 367,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Enters quiz mode. +"
+      },
+      {
+        "lineNumber": 368,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "A card will be shown to you one by one randomly with distribution based on accuracy of each flashcard. +"
+      },
+      {
+        "lineNumber": 369,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "You can then self-verify whether you accurately recall the back side of the flashcard."
+      },
+      {
+        "lineNumber": 370,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 371,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Format: `quiz`"
+      },
+      {
+        "lineNumber": 372,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 373,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 374,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* Enters quiz mode with the cards on the filtered flashcard list panel."
+      },
+      {
+        "lineNumber": 375,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* This will start a quiz session. The flashcard list panel on the left will change to a quiz panel."
+      },
+      {
+        "lineNumber": 376,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* The quiz panel contains the number of cards remaining on the quiz, as well as the number of good and bad feedback received."
+      },
+      {
+        "lineNumber": 377,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* The card view panel on the right will display the quizzed cards one by one, with the back face of the flashcard hidden."
+      },
+      {
+        "lineNumber": 378,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 379,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 380,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "\u003d\u003d\u003d Showing back face of flashcard : `show`"
+      },
+      {
+        "lineNumber": 381,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 382,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Shows the back face of the flashcard being quizzed."
+      },
+      {
+        "lineNumber": 383,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 384,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Format: `show`"
+      },
+      {
+        "lineNumber": 385,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 386,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 387,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* If the back face of the flashcard is already shown, this command will do nothing."
+      },
+      {
+        "lineNumber": 388,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* Note that you can only use this command inside quiz mode."
+      },
+      {
+        "lineNumber": 389,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 390,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 391,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "\u003d\u003d\u003d Giving feedback : `good` or `bad`"
+      },
+      {
+        "lineNumber": 392,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 393,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Gives user feedback on quiz mode."
+      },
+      {
+        "lineNumber": 394,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 395,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Format: `good` or `bad`"
+      },
+      {
+        "lineNumber": 396,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 397,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 398,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* In order to give feedback of how well you do in the quiz mode, you can type in either `good` or `bad` for each card in the quiz."
+      },
+      {
+        "lineNumber": 399,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* After you type `good` or `bad`, Acquizition will record the feedback on the card shown, as well as incrementing the number of good and bad feedback."
+      },
+      {
+        "lineNumber": 400,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* Acquizition will then proceed to show the next flashcard to be quizzed. If there are no cards left, it will exit quiz mode."
+      },
+      {
+        "lineNumber": 401,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* This command is usually, but not necessarily, used after the `show` command. That is, after you look at the back face of the flashcard, you can dictate how well you recall the back face of the flashcard."
+      },
+      {
+        "lineNumber": 402,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* Note that you can only use this command inside quiz mode."
+      },
+      {
+        "lineNumber": 403,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 404,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 405,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Examples:"
+      },
+      {
+        "lineNumber": 406,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 407,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* `quiz` +"
+      },
+      {
+        "lineNumber": 408,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`good` +"
+      },
+      {
+        "lineNumber": 409,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "This will increment the number of good feedback of the card shown, thus, the success rate of this card will increase. +"
+      },
+      {
+        "lineNumber": 410,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Then, the next card in the quiz queue will be shown."
+      },
+      {
+        "lineNumber": 411,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* `quiz` +"
+      },
+      {
+        "lineNumber": 412,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`show` +"
+      },
+      {
+        "lineNumber": 413,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`bad` +"
+      },
+      {
+        "lineNumber": 414,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "This will increment the number of bad feedback of the card shown, thus, the success rate of this card will decrease. +"
+      },
+      {
+        "lineNumber": 415,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Then, the next card in the quiz queue will be shown."
+      },
+      {
+        "lineNumber": 416,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* `quiz` +"
+      },
+      {
+        "lineNumber": 417,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`good` +"
+      },
+      {
+        "lineNumber": 418,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`...` +"
+      },
+      {
+        "lineNumber": 419,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`good` +"
+      },
+      {
+        "lineNumber": 420,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Suppose this is the last card to show inside quiz mode. Acquizition will record the statistics of the quiz mode and exit the quiz mode."
+      },
+      {
+        "lineNumber": 421,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 422,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "\u003d\u003d\u003d Smart command : kbd:[Enter]"
+      },
+      {
+        "lineNumber": 423,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 424,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "It can be troublesome to always have to type `show` and `good`. +"
+      },
+      {
+        "lineNumber": 425,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "You can use a _smart command_ that cleverly chooses the appropriate command to run."
+      },
+      {
+        "lineNumber": 426,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 427,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Format: kbd:[Enter]"
+      },
+      {
+        "lineNumber": 428,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 429,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 430,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* To initiate a smart command, you just need to press enter."
+      },
+      {
+        "lineNumber": 431,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* If you are in quiz mode, and the back face of the quizzed card is not yet shown, smart command will execute a `show` command."
+      },
+      {
+        "lineNumber": 432,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* If you are in quiz mode, and the back face of the quizzed card has been shown, smart command will execute a `good` command."
+      },
+      {
+        "lineNumber": 433,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* This dramatically reduces your time to navigate through the quiz!"
+      },
+      {
+        "lineNumber": 434,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 435,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 436,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "Examples:"
+      },
+      {
+        "lineNumber": 437,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 438,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* `quiz` +"
+      },
+      {
+        "lineNumber": 439,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "kbd:[Enter] +"
+      },
+      {
+        "lineNumber": 440,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "kbd:[Enter] +"
+      },
+      {
+        "lineNumber": 441,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "This will first show the back face of the card, then will mark the card as good."
+      },
+      {
+        "lineNumber": 442,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* `quiz` +"
+      },
+      {
+        "lineNumber": 443,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "kbd:[Enter] +"
+      },
+      {
+        "lineNumber": 444,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`bad` +"
+      },
+      {
+        "lineNumber": 445,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "This will show the back face of the card, then will mark the card as bad."
+      },
+      {
+        "lineNumber": 446,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* `quiz` +"
+      },
+      {
+        "lineNumber": 447,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "kbd:[Enter] +"
+      },
+      {
+        "lineNumber": 448,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "`...` +"
+      },
+      {
+        "lineNumber": 449,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "kbd:[Enter] +"
+      },
+      {
+        "lineNumber": 450,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "This will go through all the cards in the quiz mode and mark them all as good."
+      },
+      {
+        "lineNumber": 451,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 452,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "[[QuizExit]]"
+      },
+      {
+        "lineNumber": 453,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "\u003d\u003d\u003d Exiting quiz mode : `exit`"
+      },
+      {
+        "lineNumber": 454,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "Exits quiz mode prematurely if you are in quiz mode. +"
+      },
+      {
+        "lineNumber": 455,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 456,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Format: `exit`"
+      },
+      {
+        "lineNumber": 457,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "// end::quiz[]"
+      },
+      {
+        "lineNumber": 458,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 459,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d FAQ"
       },
       {
-        "lineNumber": 367,
+        "lineNumber": 460,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 368,
+        "lineNumber": 461,
         "author": {
           "gitId": "robincyu"
         },
         "content": "*Q*: How do I save my data? +"
       },
       {
-        "lineNumber": 369,
+        "lineNumber": 462,
         "author": {
           "gitId": "robincyu"
         },
         "content": "*A*: Your data is saved automatically after each command; there is no need to"
       },
       {
-        "lineNumber": 370,
+        "lineNumber": 463,
         "author": {
           "gitId": "robincyu"
         },
         "content": "explicitly save."
       },
       {
-        "lineNumber": 371,
+        "lineNumber": 464,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 372,
+        "lineNumber": 465,
         "author": {
           "gitId": "robincyu"
         },
         "content": "*Q*: How do I transfer my data to another computer? +"
       },
       {
-        "lineNumber": 373,
+        "lineNumber": 466,
         "author": {
           "gitId": "lungsin"
         },
         "content": "*A*: Install the app in the other computer and overwrite the empty data file"
       },
       {
-        "lineNumber": 374,
+        "lineNumber": 467,
         "author": {
           "gitId": "lungsin"
         },
         "content": "it creates with the file that contains the data of your previous Aqquizition"
       },
       {
-        "lineNumber": 375,
+        "lineNumber": 468,
         "author": {
           "gitId": "lungsin"
         },
         "content": "folder."
+      },
+      {
+        "lineNumber": 469,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 470,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "// tag::command-summary[]"
+      },
+      {
+        "lineNumber": 471,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Command Summary"
+      },
+      {
+        "lineNumber": 472,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 473,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "\u003d\u003d\u003d Card collection"
+      },
+      {
+        "lineNumber": 474,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Help* : `help`"
+      },
+      {
+        "lineNumber": 475,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Add* `add f/[FRONT_TEXT] b/[BACK_TEXT] [i/IMAGE_PATH] [t/TAG]...` +"
+      },
+      {
+        "lineNumber": 476,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "e.g. `add f/さようなら b/Goodbye i/images/goodbye.jpg t/Japanese t/Greetings`"
+      },
+      {
+        "lineNumber": 477,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *List* : `list`"
+      },
+      {
+        "lineNumber": 478,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *Clear* : `clear`"
+      },
+      {
+        "lineNumber": 479,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *Delete* : `delete INDEX` +"
+      },
+      {
+        "lineNumber": 480,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "e.g. `delete 3`"
+      },
+      {
+        "lineNumber": 481,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Edit* : `edit INDEX [f/FRONT_TEXT] [b/BACK_TEXT] [i/IMAGE_PATH] [t/TAG]...` +"
+      },
+      {
+        "lineNumber": 482,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "e.g. `edit 2 f/Halo`, `edit 3 i/ t/`"
+      },
+      {
+        "lineNumber": 483,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Find* : `find [f/FRONT_FACE]... [b/BACK_FACE]... [t/TAG]...` +"
+      },
+      {
+        "lineNumber": 484,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "e.g. `find t/Chinese t/Japanese`"
+      },
+      {
+        "lineNumber": 485,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *Select* : `select INDEX` +"
+      },
+      {
+        "lineNumber": 486,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "e.g.`select 2`"
+      },
+      {
+        "lineNumber": 487,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *History* : `history`"
+      },
+      {
+        "lineNumber": 488,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *Undo* : `undo`"
+      },
+      {
+        "lineNumber": 489,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* *Redo* : `redo`"
+      },
+      {
+        "lineNumber": 490,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Image* : `image FILE_PATH`"
+      },
+      {
+        "lineNumber": 491,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Stats* : `stats [t/TAG]...`"
+      },
+      {
+        "lineNumber": 492,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Share* : `share [f/FRONT_FACE]... [b/BACK_FACE]... [t/TAG]...`"
+      },
+      {
+        "lineNumber": 493,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Import* : `import [FILE_PATH]`"
+      },
+      {
+        "lineNumber": 494,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Exit* : `exit`"
+      },
+      {
+        "lineNumber": 495,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 496,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "\u003d\u003d\u003d Quiz mode"
+      },
+      {
+        "lineNumber": 497,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Quiz* : `quiz`"
+      },
+      {
+        "lineNumber": 498,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Good feedback* : `good`"
+      },
+      {
+        "lineNumber": 499,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Bad feedback* : `bad`"
+      },
+      {
+        "lineNumber": 500,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Show* : `show`"
+      },
+      {
+        "lineNumber": 501,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Smart command* : kbd:[Enter]"
+      },
+      {
+        "lineNumber": 502,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "* *Exit quiz mode* : `exit`"
+      },
+      {
+        "lineNumber": 503,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "// end::command-summary[]"
       }
     ],
     "authorContributionMap": {
       "lungsin": 17,
       "lucatriglia": 4,
-      "robincyu": 159,
-      "sergiovieri": 74,
-      "-": 121
+      "robincyu": 179,
+      "sergiovieri": 126,
+      "-": 177
     }
   },
   {
@@ -22088,9 +22984,9 @@
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "    public static final String IMAGE_DIRECTORY \u003d \"images/\";"
+        "content": "    public static final String IMAGE_DIRECTORY \u003d \"images\";"
       },
       {
         "lineNumber": 15,
@@ -22444,7 +23340,8 @@
       }
     ],
     "authorContributionMap": {
-      "robincyu": 2,
+      "robincyu": 1,
+      "sergiovieri": 1,
       "-": 62
     }
   },
@@ -33845,79 +34742,79 @@
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "import java.nio.file.Path;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": "import java.nio.file.Paths;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "/**"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "robincyu"
         },
-        "content": " * Imports an image into the working directory."
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "robincyu"
         },
-        "content": " */"
+        "content": "/**"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "public class ImageCommand extends Command {"
+        "content": " * Imports an image into the working directory."
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": " */"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public static final String COMMAND_WORD \u003d \"image\";"
+        "content": "public class ImageCommand extends Command {"
       },
       {
         "lineNumber": 24,
@@ -33931,91 +34828,91 @@
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Imports an image into the working directory. \""
+        "content": "    public static final String COMMAND_WORD \u003d \"image\";"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        + \"Parameters: \""
+        "content": ""
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        + \"FILEPATH \\n\""
+        "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Imports an image into the working directory. \""
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        + \"Example: \" + COMMAND_WORD + \" \""
+        "content": "        + \"Parameters: \""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        + \"C:\\\\Users\\\\Alice\\\\Desktop\\\\lasagna.png\";"
+        "content": "        + \"FILEPATH \\n\""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": "        + \"Example: \" + COMMAND_WORD + \" \""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public static final String MESSAGE_SUCCESS \u003d \"Image %s successfully imported into: %s.\";"
+        "content": "        + \"C:\\\\Users\\\\Alice\\\\Desktop\\\\lasagna.png\";"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public static final String MESSAGE_INVALID_FILE \u003d \"Image %s not found!\";"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public static final String MESSAGE_DUPLICATE_NAME \u003d \"Image with filename %s already exists in working directory.\";"
+        "content": "    public static final String MESSAGE_SUCCESS \u003d \"Image %s successfully imported into: %s.\";"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public static final String MESSAGE_IMPORT_FAIL \u003d \"Failed to import the image. Please check your permissions.\""
+        "content": "    public static final String MESSAGE_INVALID_FILE \u003d \"Image %s not found!\";"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        + \"settings.\";"
+        "content": "    public static final String MESSAGE_DUPLICATE_NAME \u003d \"Image with filename %s already exists in working directory.\";"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": "    public static final String MESSAGE_IMPORT_FAIL \u003d \"Failed to import the image. Please check your permissions.\""
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    private final File toImport;"
+        "content": "        + \"settings.\";"
       },
       {
         "lineNumber": 38,
@@ -34029,283 +34926,318 @@
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    /**"
+        "content": "    private final File toImport;"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "     * Creates an ImageCommand to import the specified image from {@code File}"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public ImageCommand(File file) {"
+        "content": "     * Creates an ImageCommand to import the specified image from {@code File}"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        requireNonNull(file);"
+        "content": "     */"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        toImport \u003d file;"
+        "content": "    public ImageCommand(File file) {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    }"
+        "content": "        requireNonNull(file);"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": "        toImport \u003d file;"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    public CommandResult execute(Model model, CommandHistory history) throws CommandException {"
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        requireNonNull(model);"
+        "content": "    @Override"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": "    public CommandResult execute(Model model, CommandHistory history) throws CommandException {"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        String fileName \u003d toImport.getName();"
+        "content": "        requireNonNull(model);"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        File workingDirectoryFile \u003d new File(IMAGE_DIRECTORY.concat(fileName));"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": "        String fileName \u003d toImport.getName();"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "        if (workingDirectoryFile.exists()) {"
+        "content": "        Path imageDirectory \u003d Paths.get(IMAGE_DIRECTORY);"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "            throw new CommandException(MESSAGE_DUPLICATE_NAME);"
+        "content": "        File workingDirectoryFile \u003d imageDirectory.resolve(fileName).toFile();"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "robincyu"
         },
-        "content": ""
+        "content": "        if (workingDirectoryFile.exists()) {"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        //make a copy of the image"
+        "content": "            throw new CommandException(MESSAGE_DUPLICATE_NAME);"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        try {"
+        "content": "        }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            InputStream inputStream \u003d new FileInputStream(toImport);"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "            OutputStream outputStream \u003d new FileOutputStream(workingDirectoryFile);"
+        "content": "        imageDirectory.toFile().mkdirs();"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "            byte[] buffer \u003d new byte[1024];"
+        "content": ""
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            int length;"
+        "content": "        //make a copy of the image"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            while ((length \u003d inputStream.read(buffer)) \u003e 0) {"
+        "content": "        try {"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "                outputStream.write(buffer, 0, length);"
+        "content": "            InputStream inputStream \u003d new FileInputStream(toImport);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            }"
+        "content": "            OutputStream outputStream \u003d new FileOutputStream(workingDirectoryFile);"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            outputStream.flush();"
+        "content": "            byte[] buffer \u003d new byte[1024];"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            inputStream.close();"
+        "content": "            int length;"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            outputStream.close();"
+        "content": "            while ((length \u003d inputStream.read(buffer)) \u003e 0) {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        } catch (FileNotFoundException e) {"
+        "content": "                outputStream.write(buffer, 0, length);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            //ImageCommandParser should have already made this check;"
+        "content": "            }"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            //so this should not be possible. But use redundancy for defensive coding"
+        "content": "            outputStream.flush();"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            throw new CommandException(String.format(MESSAGE_INVALID_FILE, toImport));"
+        "content": "            inputStream.close();"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        } catch (IOException | NullPointerException e) {"
+        "content": "            outputStream.close();"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            throw new CommandException(MESSAGE_IMPORT_FAIL);"
+        "content": "        } catch (FileNotFoundException e) {"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        }"
+        "content": "            //ImageCommandParser should have already made this check;"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        return new CommandResult(String.format(MESSAGE_SUCCESS, toImport, workingDirectoryFile));"
+        "content": "            //so this should not be possible. But use redundancy for defensive coding"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    }"
+        "content": "            throw new CommandException(String.format(MESSAGE_INVALID_FILE, toImport));"
       },
       {
         "lineNumber": 79,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "        } catch (IOException | NullPointerException e) {"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "            throw new CommandException(MESSAGE_IMPORT_FAIL);"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "        return new CommandResult(String.format(MESSAGE_SUCCESS, toImport, workingDirectoryFile));"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "robincyu"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 84,
         "author": {
           "gitId": "robincyu"
         },
@@ -34313,7 +35245,8 @@
       }
     ],
     "authorContributionMap": {
-      "robincyu": 79
+      "robincyu": 78,
+      "sergiovieri": 6
     }
   },
   {
@@ -44732,105 +45665,105 @@
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "import java.util.logging.Logger;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "import java.util.logging.Logger;"
+        "content": "import javax.swing.JFileChooser;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "import javax.swing.UIManager;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "import javax.swing.JFileChooser;"
+        "content": "import javax.swing.filechooser.FileSystemView;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "import javax.swing.UIManager;"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "import javax.swing.filechooser.FileSystemView;"
+        "content": "import seedu.address.commons.core.LogsCenter;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "import seedu.address.logic.commands.ShareCommand;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "import seedu.address.commons.core.LogsCenter;"
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "import seedu.address.logic.commands.ShareCommand;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": "/**"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": " * Parses input arguments and creates a new ShareCommand object"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "/**"
+        "content": " */"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": " * Parses input arguments and creates a new ShareCommand object"
+        "content": "public class ShareCommandParser implements Parser\u003cShareCommand\u003e {"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "public class ShareCommandParser implements Parser\u003cShareCommand\u003e {"
+        "content": "    private final Logger logger \u003d LogsCenter.getLogger(getClass());"
       },
       {
         "lineNumber": 22,
@@ -44844,290 +45777,276 @@
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "    private final Logger logger \u003d LogsCenter.getLogger(getClass());"
+        "content": "    /**"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "     * Parses the given {@code String} of arguments in the context of the ShareCommand"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "    /**"
+        "content": "     * and returns an ShareCommand object for execution."
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "     * Parses the given {@code String} of arguments in the context of the ShareCommand"
+        "content": "     *"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "     * and returns an ShareCommand object for execution."
+        "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "     *"
+        "content": "     */"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "     * @throws ParseException if the user input does not conform the expected format"
+        "content": "    public ShareCommand parse(String args) throws ParseException {"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "     */"
+        "content": "        String trimmedArgs \u003d args.trim();"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "    public ShareCommand parse(String args) throws ParseException {"
+        "content": "        String path;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        String trimmedArgs \u003d args.trim();"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        String path;"
+        "content": "        if (trimmedArgs.isEmpty()) {"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "            path \u003d getPathToSaveFile();"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        if (trimmedArgs.isEmpty()) {"
+        "content": "        } else {"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "            path \u003d getPathToSaveFile();"
+        "content": "            path \u003d trimmedArgs;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        } else {"
+        "content": "        }"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "            path \u003d trimmedArgs;"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        }"
+        "content": "        File directory \u003d new File(path);"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "        if (!directory.exists() || !directory.isDirectory()) {"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        File directory \u003d new File(path);"
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_PATH, ShareCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        if (!directory.exists() || !directory.isDirectory()) {"
+        "content": "        }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_PATH, ShareCommand.MESSAGE_USAGE));"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        }"
+        "content": "        return new ShareCommand(path);"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        return new ShareCommand(path);"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "    }"
+        "content": "    public String getPathToSaveFile() throws ParseException {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "        try {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "    public String getPathToSaveFile() throws ParseException {"
+        "content": "            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        try {"
+        "content": "        } catch (Exception e) {"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());"
+        "content": "            logger.warning(\"unable to retrieve native system look and feel for File Explorer\");"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        } catch (Exception e) {"
+        "content": "            throw new ParseException(MESSAGE_SYSTEM_ERROR);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "            logger.warning(\"unable to retrieve native system look and feel for File Explorer\");"
+        "content": "        }"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "            throw new ParseException(MESSAGE_SYSTEM_ERROR);"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        }"
+        "content": "        JFileChooser jfc \u003d new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
+        "content": "        jfc.setDialogTitle(\"Choose a directory to save your file: \");"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        JFileChooser jfc \u003d new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());"
+        "content": "        jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        jfc.setDialogTitle(\"Choose a directory to save your file: \");"
+        "content": "        jfc.showSaveDialog(null);"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);"
+        "content": ""
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": "        jfc.showSaveDialog(null);"
+        "content": "        return jfc.getSelectedFile().toString();"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "lucatriglia"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 62,
-        "author": {
-          "gitId": "lucatriglia"
-        },
-        "content": "        return jfc.getSelectedFile().toString();"
-      },
-      {
-        "lineNumber": 63,
-        "author": {
-          "gitId": "lucatriglia"
-        },
         "content": "    }"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 62,
         "author": {
           "gitId": "lucatriglia"
         },
@@ -45135,7 +46054,7 @@
       }
     ],
     "authorContributionMap": {
-      "lucatriglia": 64
+      "lucatriglia": 62
     }
   },
   {
@@ -61338,565 +62257,572 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "import java.util.Objects;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "import java.util.Objects;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "import javafx.fxml.FXML;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "import javafx.fxml.FXML;"
-      },
-      {
-        "lineNumber": 8,
-        "author": {
-          "gitId": "sergiovieri"
-        },
         "content": "import javafx.scene.control.Label;"
       },
       {
-        "lineNumber": 9,
+        "lineNumber": 8,
         "author": {
           "gitId": "robincyu"
         },
         "content": "import javafx.scene.image.Image;"
       },
       {
-        "lineNumber": 10,
+        "lineNumber": 9,
         "author": {
           "gitId": "robincyu"
         },
         "content": "import javafx.scene.image.ImageView;"
       },
       {
-        "lineNumber": 11,
+        "lineNumber": 10,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "import javafx.scene.layout.Region;"
       },
       {
-        "lineNumber": 12,
+        "lineNumber": 11,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "import javafx.scene.layout.StackPane;"
       },
       {
-        "lineNumber": 13,
+        "lineNumber": 12,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "import seedu.address.model.flashcard.Flashcard;"
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 13,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": ""
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 14,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 15,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": " * A UI component that displays information of a {@code Flashcard} as a card view."
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 16,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": " */"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 17,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "public class FlashcardCardView extends UiPart\u003cRegion\u003e {"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 18,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": ""
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "    private static final String FXML \u003d \"FlashcardCardView.fxml\";"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 20,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": ""
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 21,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "    public final Flashcard flashcard;"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "    @FXML"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    @FXML"
+        "content": "    private StackPane cardPane;"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    private StackPane cardPane;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    @FXML"
+        "content": "    private Label frontFace;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    private Label frontFace;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    @FXML"
+        "content": "    private Label backFace;"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "    private Label backFace;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "    @FXML"
+        "content": "    private ImageView flashcardImage;"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "    private ImageView flashcardImage;"
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    /**"
+        "content": "     * Constructs a {@code FlashCardView} with the given mode."
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "     * Constructs a {@code FlashCardView} with the given mode."
+        "content": "     *"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "     *"
+        "content": "     * @param flashcard the flashcard to show"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "     * @param flashcard the flashcard to show"
+        "content": "     * @param mode      -1 for front only, 1 for back only, and 0 for showing both"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "     * @param mode      -1 for front only, 1 for back only, and 0 for showing both"
+        "content": "     */"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "     */"
+        "content": "    public FlashcardCardView(Flashcard flashcard, int mode) {"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    public FlashcardCardView(Flashcard flashcard, int mode) {"
+        "content": "        super(FXML);"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        super(FXML);"
+        "content": "        frontFace.setWrapText(true);"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        this.flashcard \u003d flashcard;"
+        "content": "        backFace.setWrapText(true);"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        frontFace.setText(flashcard.getFrontFace().text);"
+        "content": "        this.flashcard \u003d flashcard;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        if (mode !\u003d -1) {"
+        "content": "        frontFace.setText(flashcard.getFrontFace().text);"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "            backFace.setText(flashcard.getBackFace().text);"
+        "content": "        if (mode !\u003d -1) {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        } else {"
+        "content": "            backFace.setText(flashcard.getBackFace().text);"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "            backFace.setText(\"\");"
+        "content": "        } else {"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        }"
+        "content": "            backFace.setText(\"\");"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "        if (flashcard.getImagePath().hasImagePath()) {"
+        "content": "        }"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            File file \u003d new File(flashcard.getImagePath().getImagePath());"
+        "content": "        if (flashcard.getImagePath().hasImagePath()) {"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            Image image \u003d new Image(file.toURI().toString());"
+        "content": "            File file \u003d new File(flashcard.getImagePath().getImagePath());"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            flashcardImage.setImage(image);"
+        "content": "            Image image \u003d new Image(file.toURI().toString());"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            flashcardImage.setFitHeight(192);"
+        "content": "            flashcardImage.setImage(image);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            flashcardImage.setPreserveRatio(true);"
+        "content": "            flashcardImage.setFitHeight(192);"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        }"
+        "content": "            flashcardImage.setPreserveRatio(true);"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    public boolean equals(Object o) {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        if (this \u003d\u003d o) {"
+        "content": "    public boolean equals(Object o) {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "            return true;"
+        "content": "        if (this \u003d\u003d o) {"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        }"
+        "content": "            return true;"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        if (!(o instanceof FlashcardCardView)) {"
+        "content": "        }"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "            return false;"
+        "content": "        if (!(o instanceof FlashcardCardView)) {"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        }"
+        "content": "            return false;"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        FlashcardCardView that \u003d (FlashcardCardView) o;"
+        "content": "        }"
       },
       {
         "lineNumber": 66,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "        FlashcardCardView that \u003d (FlashcardCardView) o;"
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "robincyu"
         },
         "content": "        if (flashcardImage.getImage() \u003d\u003d null \u0026\u0026 that.flashcardImage.getImage() \u003d\u003d null) {"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 68,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "            return frontFace.getText().equals(that.frontFace.getText())"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 69,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "                \u0026\u0026 backFace.getText().equals(that.backFace.getText());"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 70,
         "author": {
           "gitId": "robincyu"
         },
         "content": "        } else if (flashcardImage.getImage() !\u003d null \u0026\u0026 that.flashcardImage \u003d\u003d null) {"
       },
       {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "robincyu"
-        },
-        "content": "            return false;"
-      },
-      {
         "lineNumber": 71,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        } else if (flashcardImage \u003d\u003d null \u0026\u0026 that.flashcardImage.getImage() !\u003d null) {"
+        "content": "            return false;"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            return false;"
+        "content": "        } else if (flashcardImage \u003d\u003d null \u0026\u0026 that.flashcardImage.getImage() !\u003d null) {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        } else {"
+        "content": "            return false;"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "            return frontFace.getText().equals(that.frontFace.getText())"
+        "content": "        } else {"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "                \u0026\u0026 backFace.getText().equals(that.backFace.getText())"
+        "content": "            return frontFace.getText().equals(that.frontFace.getText())"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "                \u0026\u0026 flashcardImage.getImage().equals(that.flashcardImage.getImage());"
+        "content": "                \u0026\u0026 backFace.getText().equals(that.backFace.getText())"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "robincyu"
         },
-        "content": "        }"
+        "content": "                \u0026\u0026 flashcardImage.getImage().equals(that.flashcardImage.getImage());"
       },
       {
         "lineNumber": 78,
         "author": {
-          "gitId": "sergiovieri"
+          "gitId": "robincyu"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    public int hashCode() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 82,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "    public int hashCode() {"
+      },
+      {
+        "lineNumber": 83,
         "author": {
           "gitId": "robincyu"
         },
         "content": "        return Objects.hash(frontFace, backFace, flashcardImage);"
       },
       {
-        "lineNumber": 83,
+        "lineNumber": 84,
         "author": {
           "gitId": "sergiovieri"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 84,
+        "lineNumber": 85,
         "author": {
           "gitId": "sergiovieri"
         },
@@ -61904,8 +62830,8 @@
       }
     ],
     "authorContributionMap": {
-      "robincyu": 24,
-      "sergiovieri": 60
+      "robincyu": 23,
+      "sergiovieri": 62
     }
   },
   {
@@ -71146,9 +72072,9 @@
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "robincyu"
+          "gitId": "sergiovieri"
         },
-        "content": "\u003cStackPane xmlns:fx\u003d\"http://javafx.com/fxml/1\" id\u003d\"cardPane\" fx:id\u003d\"cardPane\" xmlns\u003d\"http://javafx.com/javafx\"\u003e"
+        "content": "\u003cStackPane xmlns:fx\u003d\"http://javafx.com/fxml/1\" id\u003d\"cardPane\" fx:id\u003d\"cardPane\" xmlns\u003d\"http://javafx.com/javafx/11.0.1\"\u003e"
       },
       {
         "lineNumber": 12,
@@ -71309,31 +72235,52 @@
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    \u003c/AnchorPane\u003e"
+        "content": "        \u003cpadding\u003e"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    \u003cpadding\u003e"
+        "content": "            \u003cInsets bottom\u003d\"20.0\" left\u003d\"20.0\" right\u003d\"20.0\" top\u003d\"20.0\"/\u003e"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "        \u003cInsets bottom\u003d\"20.0\" left\u003d\"20.0\" right\u003d\"20.0\" top\u003d\"20.0\"/\u003e"
+        "content": "        \u003c/padding\u003e"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "sergiovieri"
         },
-        "content": "    \u003c/padding\u003e"
+        "content": "    \u003c/AnchorPane\u003e"
       },
       {
         "lineNumber": 38,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "    \u003cpadding\u003e"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "        \u003cInsets bottom\u003d\"20.0\" left\u003d\"20.0\" right\u003d\"20.0\" top\u003d\"20.0\"/\u003e"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "sergiovieri"
+        },
+        "content": "    \u003c/padding\u003e"
+      },
+      {
+        "lineNumber": 41,
         "author": {
           "gitId": "sergiovieri"
         },
@@ -71341,8 +72288,8 @@
       }
     ],
     "authorContributionMap": {
-      "robincyu": 8,
-      "sergiovieri": 30
+      "robincyu": 7,
+      "sergiovieri": 34
     }
   },
   {
