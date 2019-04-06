@@ -10746,9 +10746,9 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "jwl1997"
         },
-        "content": ".  Download the latest `addressbook.jar` link:{repoURL}/releases[here]."
+        "content": ".  Download the latest `UniLA v1.4.jar` link:{repoURL}/releases[here]."
       },
       {
         "lineNumber": 29,
@@ -10872,9 +10872,9 @@
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "jwl1997"
         },
-        "content": "\u003d\u003d Features"
+        "content": "\u003d\u003d Contact List Features"
       },
       {
         "lineNumber": 47,
@@ -11369,7 +11369,7 @@
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "-"
+          "gitId": "yinya998"
         },
         "content": ""
       },
@@ -12622,310 +12622,310 @@
       {
         "lineNumber": 296,
         "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "\u003d\u003d\u003d Redirecting to email services : `email`"
-      },
-      {
-        "lineNumber": 297,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 298,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "Redirect user to external email service on browser to email a specific email address"
-      },
-      {
-        "lineNumber": 299,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 300,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "Format: `email INDEX` `[coming in v2.0]`"
-      },
-      {
-        "lineNumber": 301,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 302,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "\u003d\u003d\u003d Sorting the name in contact list alphabetically : `sort`"
-      },
-      {
-        "lineNumber": 303,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 304,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "Sort the name in contact list in alphabetical order"
-      },
-      {
-        "lineNumber": 305,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 306,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "Format: `sort`"
-      },
-      {
-        "lineNumber": 307,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 308,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "// end::upgradefindcommand-yinya998[]"
-      },
-      {
-        "lineNumber": 309,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 310,
-        "author": {
           "gitId": "yinya998"
         },
         "content": "// tag::photocommand-yinya998[]"
       },
       {
-        "lineNumber": 311,
+        "lineNumber": 297,
         "author": {
           "gitId": "yinya998"
         },
         "content": "\u003d\u003d\u003d Adding photo to a person : `photo`"
       },
       {
-        "lineNumber": 312,
+        "lineNumber": 298,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 313,
+        "lineNumber": 299,
         "author": {
           "gitId": "yinya998"
         },
         "content": "Adds photo to a person in the contact list (identified by the index number used in the last listing). +"
       },
       {
-        "lineNumber": 314,
+        "lineNumber": 300,
         "author": {
           "gitId": "yinya998"
         },
         "content": "Format1: `photo INDEX IMAGE_PATH`+"
       },
       {
-        "lineNumber": 315,
+        "lineNumber": 301,
         "author": {
           "gitId": "yinya998"
         },
         "content": ""
       },
       {
-        "lineNumber": 316,
+        "lineNumber": 302,
         "author": {
           "gitId": "yinya998"
         },
         "content": "Clear photo to a person in the contact list by sub-command `clear`. Photo of the person will be set to the default photo."
       },
       {
-        "lineNumber": 317,
+        "lineNumber": 303,
         "author": {
           "gitId": "yinya998"
         },
         "content": "Format1: `photo INDEX clear`+"
       },
       {
-        "lineNumber": 318,
+        "lineNumber": 304,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 319,
+        "lineNumber": 305,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "****"
       },
       {
-        "lineNumber": 320,
+        "lineNumber": 306,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* The index refers to the index number shown in the most recent listing."
       },
       {
-        "lineNumber": 321,
+        "lineNumber": 307,
         "author": {
           "gitId": "yinya998"
         },
         "content": "* The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
-        "lineNumber": 322,
+        "lineNumber": 308,
         "author": {
           "gitId": "yinya998"
         },
         "content": "* The given path must be a valid image path."
       },
       {
-        "lineNumber": 323,
+        "lineNumber": 309,
         "author": {
           "gitId": "yinya998"
         },
         "content": "* The path should be absolute path."
       },
       {
-        "lineNumber": 324,
+        "lineNumber": 310,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "****"
       },
       {
-        "lineNumber": 325,
+        "lineNumber": 311,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 326,
+        "lineNumber": 312,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 327,
+        "lineNumber": 313,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 328,
+        "lineNumber": 314,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* `list` +"
       },
       {
-        "lineNumber": 329,
+        "lineNumber": 315,
         "author": {
           "gitId": "yinya998"
         },
         "content": "`photo 3 /users/alice/desktop/photo.png` (in mac) +"
       },
       {
-        "lineNumber": 330,
+        "lineNumber": 316,
         "author": {
           "gitId": "yinya998"
         },
         "content": "`photo 3 C:\\Users\\william\\Desktop\\photo.jpg` (in windows) +"
       },
       {
-        "lineNumber": 331,
+        "lineNumber": 317,
         "author": {
           "gitId": "yinya998"
         },
         "content": "Adds photo to the 3rd person in the address book. +"
       },
       {
-        "lineNumber": 332,
+        "lineNumber": 318,
         "author": {
           "gitId": "yinya998"
         },
         "content": "`photo 3 clear` (in mac) +"
       },
       {
-        "lineNumber": 333,
+        "lineNumber": 319,
         "author": {
           "gitId": "yinya998"
         },
         "content": "Clear photo to the 3rd person in the address book. Photo is set to the default photo."
       },
       {
-        "lineNumber": 334,
+        "lineNumber": 320,
         "author": {
           "gitId": "yinya998"
         },
         "content": ""
       },
       {
-        "lineNumber": 335,
+        "lineNumber": 321,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 336,
+        "lineNumber": 322,
         "author": {
           "gitId": "yinya998"
         },
         "content": "// end::photocommand-yinya998[]"
       },
       {
-        "lineNumber": 337,
+        "lineNumber": 323,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 338,
+        "lineNumber": 324,
         "author": {
           "gitId": "daDangminh"
         },
         "content": "// tag::importexport[]"
       },
       {
-        "lineNumber": 339,
+        "lineNumber": 325,
         "author": {
           "gitId": "daDangminh"
         },
         "content": "\u003d\u003d\u003d Importing data from .json file : `import`"
+      },
+      {
+        "lineNumber": 326,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 327,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "Imports the data from an external .json file to the address book. The file may contains data about Contacts, or Events.  +"
+      },
+      {
+        "lineNumber": 328,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "Format: `import FILEPATH`"
+      },
+      {
+        "lineNumber": 329,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 330,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 331,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "* Imports data from the location specified by `FILEPATH`."
+      },
+      {
+        "lineNumber": 332,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "* `FILEPATH` must end with an extension of `.json`."
+      },
+      {
+        "lineNumber": 333,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "* The file name in `FILEPATH` should be valid."
+      },
+      {
+        "lineNumber": 334,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "* The path specified by FILTPATH is a subdirectory of main directory"
+      },
+      {
+        "lineNumber": 335,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "* Repeated data that already exists in address book will not be imported."
+      },
+      {
+        "lineNumber": 336,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "* Data in the .json file must be in the identifiable format."
+      },
+      {
+        "lineNumber": 337,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 338,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 339,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "Examples:"
       },
       {
         "lineNumber": 340,
@@ -12939,91 +12939,91 @@
         "author": {
           "gitId": "daDangminh"
         },
-        "content": "Imports the data from an external .json file to the address book. The file may contains data about Contacts, or Events.  +"
+        "content": "`import data/contacts.json`"
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Format: `import FILEPATH`"
+        "content": ""
       },
       {
         "lineNumber": 343,
         "author": {
-          "gitId": "jwl1997"
+          "gitId": "daDangminh"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Exporting data to .json file by tag : `export`"
       },
       {
         "lineNumber": 344,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 345,
         "author": {
-          "gitId": "jwl1997"
+          "gitId": "daDangminh"
         },
-        "content": "* Imports data from the location specified by `FILEPATH`."
+        "content": "Exports the data to an external .json file from the address book. The file will contain all the data in the application including Contacts and Events. +"
       },
       {
         "lineNumber": 346,
         "author": {
           "gitId": "daDangminh"
         },
-        "content": "* `FILEPATH` must end with an extension of `.json`."
+        "content": "Format: `export n/FILENAME p/FILEPATH [t/TAG]`"
       },
       {
         "lineNumber": 347,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* The file name in `FILEPATH` should be valid."
+        "content": ""
       },
       {
         "lineNumber": 348,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "* The path specified by FILTPATH is a subdirectory of addressbook-level4 directory"
-      },
-      {
-        "lineNumber": 349,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "* Repeated data that already exists in address book will not be imported."
-      },
-      {
-        "lineNumber": 350,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "* Data in the .json file must be in the identifiable format."
-      },
-      {
-        "lineNumber": 351,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "****"
       },
       {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "* Exports data to a file whose name is specified by FILENAME and location is specified by `FILEPATH`."
+      },
+      {
+        "lineNumber": 350,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "* Contacts whose tags include \u0027TAG\u0027 will be exported."
+      },
+      {
+        "lineNumber": 351,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "* If `TAG` is omitted. all contacts will be exported."
+      },
+      {
         "lineNumber": 352,
         "author": {
-          "gitId": "jwl1997"
+          "gitId": "daDangminh"
         },
-        "content": ""
+        "content": "* `FILEPATH` should be valid."
       },
       {
         "lineNumber": 353,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Examples:"
+        "content": "****"
       },
       {
         "lineNumber": 354,
@@ -13035,9 +13035,9 @@
       {
         "lineNumber": 355,
         "author": {
-          "gitId": "daDangminh"
+          "gitId": "jwl1997"
         },
-        "content": "`import data/contacts.json`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 356,
@@ -13051,28 +13051,28 @@
         "author": {
           "gitId": "daDangminh"
         },
-        "content": "\u003d\u003d\u003d Exporting data to .json file by tag : `export`"
+        "content": "`export n/mycontacts p/data t/friends`"
       },
       {
         "lineNumber": 358,
+        "author": {
+          "gitId": "daDangminh"
+        },
+        "content": "// end::importexport[]"
+      },
+      {
+        "lineNumber": 359,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 359,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "Exports the data to an external .json file from the address book. The file will contain all the data in the application including Contacts and Events. +"
-      },
-      {
         "lineNumber": 360,
         "author": {
-          "gitId": "daDangminh"
+          "gitId": "jwl1997"
         },
-        "content": "Format: `export n/FILENAME p/FILEPATH [t/TAG]`"
+        "content": "\u003d\u003d Event List Features"
       },
       {
         "lineNumber": 361,
@@ -13084,149 +13084,149 @@
       {
         "lineNumber": 362,
         "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 363,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "* Exports data to a file whose name is specified by FILENAME and location is specified by `FILEPATH`."
-      },
-      {
-        "lineNumber": 364,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "* Contacts whose tags include \u0027TAG\u0027 will be exported."
-      },
-      {
-        "lineNumber": 365,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "* If `TAG` is omitted. all contacts will be exported."
-      },
-      {
-        "lineNumber": 366,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "* `FILEPATH` should be valid."
-      },
-      {
-        "lineNumber": 367,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 368,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 369,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 370,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 371,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "`export n/mycontacts p/data t/friends`"
-      },
-      {
-        "lineNumber": 372,
-        "author": {
-          "gitId": "daDangminh"
-        },
-        "content": "// end::importexport[]"
-      },
-      {
-        "lineNumber": 373,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 374,
-        "author": {
           "gitId": "JillWangJill"
         },
         "content": "\u003d\u003d\u003d Auto remind users about upcoming event (No command)"
       },
       {
-        "lineNumber": 375,
+        "lineNumber": 363,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": ""
       },
       {
-        "lineNumber": 376,
+        "lineNumber": 364,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": "Reminds users by automatically sending a pop message inside APP before 2 minutes of events beginning time"
       },
       {
-        "lineNumber": 377,
+        "lineNumber": 365,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": "The reminder will disappear after showing up for three minutes"
       },
       {
-        "lineNumber": 378,
+        "lineNumber": 366,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": "One reminder will be automatically added when user use `addE` command"
       },
       {
-        "lineNumber": 379,
+        "lineNumber": 367,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": ""
       },
       {
-        "lineNumber": 380,
+        "lineNumber": 368,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "\u003d\u003d\u003d  Add reminder to certain event : `remind[coming in v1.4]`"
       },
       {
-        "lineNumber": 381,
+        "lineNumber": 369,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": "Format: `remind EVENT_LIST_INDEX t/INTERVAL u/UNIT`"
       },
       {
-        "lineNumber": 382,
+        "lineNumber": 370,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": "the event with EVENT_LIST_INDEX will be reminded before INTERVAL UNIT earlier than event beginning time"
+      },
+      {
+        "lineNumber": 371,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 372,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 373,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "* In UniLA,remind function is already set up by default. Every event will be reminded 2 hours before event."
+      },
+      {
+        "lineNumber": 374,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "* `EVENT_LIST_INDEX` refers to index number shown in the displayed Event List"
+      },
+      {
+        "lineNumber": 375,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "* `EVENT_LIST_INDEX` must be a positive integer 1,2,3,4,..."
+      },
+      {
+        "lineNumber": 376,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "* `INTERVAL` refers to how long would user prefer to have the remind before the event beginning."
+      },
+      {
+        "lineNumber": 377,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "* `INTERVAL` and `REMINDTIME_AFTER` must be a positive number 1,2,...,15,16,...,60,..."
+      },
+      {
+        "lineNumber": 378,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "* `UNIT` refers to the `INTERVAL` unit."
+      },
+      {
+        "lineNumber": 379,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "* `UNIT` needs to be MIN, DAY, MONTH, YEAR."
+      },
+      {
+        "lineNumber": 380,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 381,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 382,
+        "author": {
+          "gitId": "JillWangJill"
+        },
+        "content": "Examples:"
       },
       {
         "lineNumber": 383,
@@ -13240,196 +13240,196 @@
         "author": {
           "gitId": "JillWangJill"
         },
-        "content": "****"
-      },
-      {
-        "lineNumber": 385,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "* In UniLA,remind function is already set up by default. Every event will be reminded 2 hours before event."
-      },
-      {
-        "lineNumber": 386,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "* `EVENT_LIST_INDEX` refers to index number shown in the displayed Event List"
-      },
-      {
-        "lineNumber": 387,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "* `EVENT_LIST_INDEX` must be a positive integer 1,2,3,4,..."
-      },
-      {
-        "lineNumber": 388,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "* `INTERVAL` refers to how long would user prefer to have the remind before the event beginning."
-      },
-      {
-        "lineNumber": 389,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "* `INTERVAL` and `REMINDTIME_AFTER` must be a positive number 1,2,...,15,16,...,60,..."
-      },
-      {
-        "lineNumber": 390,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "* `UNIT` refers to the `INTERVAL` unit."
-      },
-      {
-        "lineNumber": 391,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "* `UNIT` needs to be MIN, DAY, MONTH, YEAR."
-      },
-      {
-        "lineNumber": 392,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 393,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 394,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 395,
-        "author": {
-          "gitId": "JillWangJill"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 396,
-        "author": {
-          "gitId": "JillWangJill"
-        },
         "content": "* `remind t/3 u/MIN`"
       },
       {
-        "lineNumber": 397,
+        "lineNumber": 385,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 398,
+        "lineNumber": 386,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "// tag::eventcomponet-jwl1997[]"
       },
       {
-        "lineNumber": 399,
+        "lineNumber": 387,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 400,
+        "lineNumber": 388,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "\u003d\u003d\u003d Connecting a person to an event : `connect`"
       },
       {
-        "lineNumber": 401,
+        "lineNumber": 389,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 402,
+        "lineNumber": 390,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Connects one contact from Contact List to Event List by contact index and event index +"
       },
       {
-        "lineNumber": 403,
+        "lineNumber": 391,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Format: `connect ci/CONTACT_LIST_INDEX ei/EVENT_LIST_INDEX`"
       },
       {
-        "lineNumber": 404,
+        "lineNumber": 392,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 405,
+        "lineNumber": 393,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "****"
       },
       {
-        "lineNumber": 406,
+        "lineNumber": 394,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* `CONTACT_LIST_INDEX` refers to the index number shown in the displayed Contact List."
       },
       {
-        "lineNumber": 407,
+        "lineNumber": 395,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* `EVENT_LIST_INDEX` refers to the index number shown in the displayed Event List."
       },
       {
-        "lineNumber": 408,
+        "lineNumber": 396,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* Two index must be a positive integer 1,2,3,4,..."
       },
       {
-        "lineNumber": 409,
+        "lineNumber": 397,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "****"
       },
       {
-        "lineNumber": 410,
+        "lineNumber": 398,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 411,
+        "lineNumber": 399,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Examples:"
+      },
+      {
+        "lineNumber": 400,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 401,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "* `list` +"
+      },
+      {
+        "lineNumber": 402,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "Find the participant index from Contact List. +"
+      },
+      {
+        "lineNumber": 403,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "`listE` +"
+      },
+      {
+        "lineNumber": 404,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "Find the event index from Event List. +"
+      },
+      {
+        "lineNumber": 405,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "`connect ci/1 ei/2` +"
+      },
+      {
+        "lineNumber": 406,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "Add the 1st person from Contact List into the 2nd event in the Event List."
+      },
+      {
+        "lineNumber": 407,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 408,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "\u003d\u003d\u003d Disconnecting a person with an event : `disconnect`"
+      },
+      {
+        "lineNumber": 409,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 410,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "Disconnects one contact from Contact List to Event List by contact index and event index +"
+      },
+      {
+        "lineNumber": 411,
+        "author": {
+          "gitId": "jwl1997"
+        },
+        "content": "Format: `disconnect ci/CONTACT_LIST_INDEX ei/EVENT_LIST_INDEX`"
       },
       {
         "lineNumber": 412,
@@ -13443,133 +13443,133 @@
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* `list` +"
+        "content": "****"
       },
       {
         "lineNumber": 414,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Find the participant index from Contact List. +"
+        "content": "* `CONTACT_LIST_INDEX` refers to the index number shown in the displayed Contact List."
       },
       {
         "lineNumber": 415,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "`listE` +"
+        "content": "* `EVENT_LIST_INDEX` refers to the index number shown in the displayed Event List."
       },
       {
         "lineNumber": 416,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Find the event index from Event List. +"
+        "content": "* Two index must be a positive integer 1,2,3,4,..."
       },
       {
         "lineNumber": 417,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "`connect ci/1 ei/2` +"
+        "content": "****"
       },
       {
         "lineNumber": 418,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Add the 1st person from Contact List into the 2nd event in the Event List."
+        "content": ""
       },
       {
         "lineNumber": 419,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 420,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "\u003d\u003d\u003d Disconnecting a person with an event : `disconnect`"
+        "content": ""
       },
       {
         "lineNumber": 421,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "* `list` +"
       },
       {
         "lineNumber": 422,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Disconnects one contact from Contact List to Event List by contact index and event index +"
+        "content": "Find the participant index from Contact List. +"
       },
       {
         "lineNumber": 423,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Format: `disconnect ci/CONTACT_LIST_INDEX ei/EVENT_LIST_INDEX`"
+        "content": "`listE` +"
       },
       {
         "lineNumber": 424,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Find the event index from Event List. +"
       },
       {
         "lineNumber": 425,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "****"
+        "content": "`disconnect ci/1 ei/2` +"
       },
       {
         "lineNumber": 426,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* `CONTACT_LIST_INDEX` refers to the index number shown in the displayed Contact List."
+        "content": "Disconnect the 1st person from Contact List with 2nd event in the Event List."
       },
       {
         "lineNumber": 427,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* `EVENT_LIST_INDEX` refers to the index number shown in the displayed Event List."
+        "content": ""
       },
       {
         "lineNumber": 428,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* Two index must be a positive integer 1,2,3,4,..."
+        "content": "\u003d\u003d\u003d Adding an event: `addE`"
       },
       {
         "lineNumber": 429,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 430,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Adds an event to event list+"
       },
       {
         "lineNumber": 431,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Examples:"
+        "content": "Format: `addE n/NAME d/DESCRIPTION v/VENUE s/STARTING_TIME e/ENDING_TIME l/LABEL`"
       },
       {
         "lineNumber": 432,
@@ -13583,154 +13583,154 @@
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* `list` +"
+        "content": ""
       },
       {
         "lineNumber": 434,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Find the participant index from Contact List. +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 435,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "`listE` +"
+        "content": ""
       },
       {
         "lineNumber": 436,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Find the event index from Event List. +"
+        "content": "* `addE n/career talk d/Google company info session v/com1 level2 s/2019-01-31 14:00:00 e/2019-01-31 14:00:00 l/important`"
       },
       {
         "lineNumber": 437,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "`disconnect ci/1 ei/2` +"
+        "content": "* `addE n/CS2103 project meeting d/quick meeting v/central library s/2019-12-31 16:00:00 e/2019-12-31 16:00:00 l/urgent`"
       },
       {
         "lineNumber": 438,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Disconnect the 1st person from Contact List with 2nd event in the Event List."
+        "content": ""
       },
       {
         "lineNumber": 439,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Deleting an event : `deleteE`"
       },
       {
         "lineNumber": 440,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "\u003d\u003d\u003d Adding an event: `addE`"
+        "content": ""
       },
       {
         "lineNumber": 441,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Deletes the specified event from the event list. +"
       },
       {
         "lineNumber": 442,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Adds an event to event list+"
+        "content": "Format: `deleteE INDEX`"
       },
       {
         "lineNumber": 443,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Format: `addE n/NAME d/DESCRIPTION v/VENUE s/STARTING_TIME e/ENDING_TIME l/LABEL`"
+        "content": ""
       },
       {
         "lineNumber": 444,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 445,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "* Deletes the event at the specified `INDEX`."
       },
       {
         "lineNumber": 446,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Examples:"
+        "content": "* The index refers to the index number shown in the displayed event list."
       },
       {
         "lineNumber": 447,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 448,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* `addE n/career talk d/Google company info session v/com1 level2 s/2019-01-31 14:00:00 e/2019-01-31 14:00:00 l/important`"
+        "content": "****"
       },
       {
         "lineNumber": 449,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* `addE n/CS2103 project meeting d/quick meeting v/central library s/2019-12-31 16:00:00 e/2019-12-31 16:00:00 l/urgent`"
+        "content": ""
       },
       {
         "lineNumber": 450,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 451,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "\u003d\u003d\u003d Deleting an event : `deleteE`"
+        "content": ""
       },
       {
         "lineNumber": 452,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "* `listE` +"
       },
       {
         "lineNumber": 453,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Deletes the specified event from the event list. +"
+        "content": "`deleteE 2` +"
       },
       {
         "lineNumber": 454,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Format: `deleteE INDEX`"
+        "content": "Deletes the 2nd event in the event list."
       },
       {
         "lineNumber": 455,
@@ -13744,322 +13744,322 @@
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Listing all events : `listE`"
       },
       {
         "lineNumber": 457,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* Deletes the event at the specified `INDEX`."
+        "content": ""
       },
       {
         "lineNumber": 458,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* The index refers to the index number shown in the displayed event list."
+        "content": "Shows a list of all events in the event list. +"
       },
       {
         "lineNumber": 459,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "Format: `listE`"
       },
       {
         "lineNumber": 460,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 461,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Editing an event : `editE`"
       },
       {
         "lineNumber": 462,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 463,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Edits an existing event in the address book. +"
       },
       {
         "lineNumber": 464,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* `listE` +"
+        "content": "Format: `editE INDEX [n/NAME] [d/DESCRIPTION] [v/VENUE] [s/STARTING_TIME] [e/ENDING_TIME] [l/LABEL]`"
       },
       {
         "lineNumber": 465,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "`deleteE 2` +"
+        "content": ""
       },
       {
         "lineNumber": 466,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Deletes the 2nd event in the event list."
+        "content": "****"
       },
       {
         "lineNumber": 467,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "* Edits the event at the specified `INDEX`. The index refers to the index number shown in the displayed event list. The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 468,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "\u003d\u003d\u003d Listing all events : `listE`"
+        "content": "* At least one of the optional fields must be provided."
       },
       {
         "lineNumber": 469,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "* Existing values will be updated to the input values."
       },
       {
         "lineNumber": 470,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Shows a list of all events in the event list. +"
+        "content": "****"
       },
       {
         "lineNumber": 471,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Format: `listE`"
+        "content": ""
       },
       {
         "lineNumber": 472,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 473,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "\u003d\u003d\u003d Editing an event : `editE`"
+        "content": ""
       },
       {
         "lineNumber": 474,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "* `editE 1 d/short meeting l/top priority` +"
       },
       {
         "lineNumber": 475,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Edits an existing event in the address book. +"
+        "content": "Edits the description and label of the 1st event to be `short meeting` and `top priority` respectively."
       },
       {
         "lineNumber": 476,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "Format: `editE INDEX [n/NAME] [d/DESCRIPTION] [v/VENUE] [s/STARTING_TIME] [e/ENDING_TIME] [l/LABEL]`"
+        "content": "* `editE 2 v/com2 level4` +"
       },
       {
         "lineNumber": 477,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": ""
+        "content": "Edits the venue of the 2nd event to be `com2 level4`."
       },
       {
         "lineNumber": 478,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 479,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* Edits the event at the specified `INDEX`. The index refers to the index number shown in the displayed event list. The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "// end::eventcomponet-jwl1997[]"
       },
       {
         "lineNumber": 480,
         "author": {
           "gitId": "jwl1997"
         },
-        "content": "* At least one of the optional fields must be provided."
+        "content": ""
       },
       {
         "lineNumber": 481,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "* Existing values will be updated to the input values."
-      },
-      {
-        "lineNumber": 482,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 483,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 484,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 485,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 486,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "* `editE 1 d/short meeting l/top priority` +"
-      },
-      {
-        "lineNumber": 487,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "Edits the description and label of the 1st event to be `short meeting` and `top priority` respectively."
-      },
-      {
-        "lineNumber": 488,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "* `editE 2 v/com2 level4` +"
-      },
-      {
-        "lineNumber": 489,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "Edits the venue of the 2nd event to be `com2 level4`."
-      },
-      {
-        "lineNumber": 490,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 491,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": "// end::eventcomponet-jwl1997[]"
-      },
-      {
-        "lineNumber": 492,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 493,
         "author": {
           "gitId": "yinya998"
         },
         "content": "// tag::findEcommand-yinya998[]"
       },
       {
-        "lineNumber": 494,
+        "lineNumber": 482,
         "author": {
           "gitId": "yinya998"
         },
         "content": "\u003d\u003d\u003d Locating events by any field: `findE`"
       },
       {
-        "lineNumber": 495,
+        "lineNumber": 483,
         "author": {
           "gitId": "yinya998"
         },
         "content": ""
       },
       {
-        "lineNumber": 496,
+        "lineNumber": 484,
         "author": {
           "gitId": "yinya998"
         },
         "content": "There are three search pattern for `findE` command."
       },
       {
-        "lineNumber": 497,
+        "lineNumber": 485,
         "author": {
           "gitId": "yinya998"
         },
         "content": ""
       },
       {
-        "lineNumber": 498,
+        "lineNumber": 486,
         "author": {
           "gitId": "yinya998"
         },
         "content": "* * 1. Finds events whose fields contain any of the given keywords. +"
       },
       {
-        "lineNumber": 499,
+        "lineNumber": 487,
         "author": {
           "gitId": "yinya998"
         },
         "content": "User can search with or without prefix."
       },
       {
-        "lineNumber": 500,
+        "lineNumber": 488,
         "author": {
           "gitId": "yinya998"
         },
         "content": "When search without prefix, any events whose fields contain any keywords will be returned."
       },
       {
-        "lineNumber": 501,
+        "lineNumber": 489,
         "author": {
           "gitId": "yinya998"
         },
         "content": "When search with prefix, event which contains all keywords in the corresponding fields will be returned."
+      },
+      {
+        "lineNumber": 490,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 491,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 492,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "Format1: `findE KEYWORD [MORE_KEYWORDS]` +"
+      },
+      {
+        "lineNumber": 493,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "Format2: `findE [n/NAME] [d/DESCRIPTION] [v/VENUE] [s/STARTING_TIME] [e/ENDING_TIME] [l/LABEL]`"
+      },
+      {
+        "lineNumber": 494,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 495,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 496,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "* The search is case insensitive. e.g `talk` will match `Talk`"
+      },
+      {
+        "lineNumber": 497,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "* The order of the keywords does not matter. e.g. `cs meeting` will match `meeting cs`"
+      },
+      {
+        "lineNumber": 498,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "* Only full words will be matched e.g. `talk` will not match `talks`"
+      },
+      {
+        "lineNumber": 499,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "* If there is no prefix, all fields will be searched"
+      },
+      {
+        "lineNumber": 500,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "* Events matching at least one keyword will be returned (i.e. `OR` search). e.g. `talk` will return `google talk`, `career talk`"
+      },
+      {
+        "lineNumber": 501,
+        "author": {
+          "gitId": "yinya998"
+        },
+        "content": "****"
       },
       {
         "lineNumber": 502,
@@ -14073,77 +14073,77 @@
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 504,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Format1: `findE KEYWORD [MORE_KEYWORDS]` +"
+        "content": ""
       },
       {
         "lineNumber": 505,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Format2: `findE [n/NAME] [d/DESCRIPTION] [v/VENUE] [s/STARTING_TIME] [e/ENDING_TIME] [l/LABEL]`"
+        "content": "* `findE meeting` +"
       },
       {
         "lineNumber": 506,
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "Returns any events having fields contain keywords `meeting`"
       },
       {
         "lineNumber": 507,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "****"
+        "content": "* `findE pgp library` +"
       },
       {
         "lineNumber": 508,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* The search is case insensitive. e.g `talk` will match `Talk`"
+        "content": "Returns any events having fields contain keywords `pgp` or `library`"
       },
       {
         "lineNumber": 509,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* The order of the keywords does not matter. e.g. `cs meeting` will match `meeting cs`"
+        "content": "* `findE l/important` +"
       },
       {
         "lineNumber": 510,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* Only full words will be matched e.g. `talk` will not match `talks`"
+        "content": "Returns any event having label contains keyword `important`"
       },
       {
         "lineNumber": 511,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* If there is no prefix, all fields will be searched"
+        "content": "* `findE n/talk d/group` +"
       },
       {
         "lineNumber": 512,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* Events matching at least one keyword will be returned (i.e. `OR` search). e.g. `talk` will return `google talk`, `career talk`"
+        "content": "Returns the event whose name contains keyword `talk` AND whose description contains keyword `group`"
       },
       {
         "lineNumber": 513,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 514,
@@ -14157,98 +14157,98 @@
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Examples:"
+        "content": "There are two sub command of `findE` command which is `findE time/` and `findE duration/`:"
       },
       {
         "lineNumber": 516,
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "* * 2. `findE time/` finds events whose start date before, equal or after the searching date. Alternatively user can user yst, today, tmr to search for events in yesterday, today and tomorrow"
       },
       {
         "lineNumber": 517,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* `findE meeting` +"
+        "content": ""
       },
       {
         "lineNumber": 518,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Returns any events having fields contain keywords `meeting`"
+        "content": "Format3: `findE time/operatorDATE`"
       },
       {
         "lineNumber": 519,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* `findE pgp library` +"
+        "content": "Format4: `findE time/alias(ytd, today or tmr)`"
       },
       {
         "lineNumber": 520,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Returns any events having fields contain keywords `pgp` or `library`"
+        "content": ""
       },
       {
         "lineNumber": 521,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* `findE l/important` +"
+        "content": "****"
       },
       {
         "lineNumber": 522,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Returns any event having label contains keyword `important`"
+        "content": "* operator should be of type ‘\u003c‘, ‘\u003d‘ or ‘\u003e’"
       },
       {
         "lineNumber": 523,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* `findE n/talk d/group` +"
+        "content": "* DATE should be a valid date"
       },
       {
         "lineNumber": 524,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Returns the event whose name contains keyword `talk` AND whose description contains keyword `group`"
+        "content": "* DATE should in format “YYYY-MM-DD”"
       },
       {
         "lineNumber": 525,
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "* operator and DATE should have no white space in between"
       },
       {
         "lineNumber": 526,
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 527,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "There are two sub command of `findE` command which is `findE time/` and `findE duration/`:"
+        "content": ""
       },
       {
         "lineNumber": 528,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* * 2. `findE time/` finds events whose start date before, equal or after the searching date. Alternatively user can user yst, today, tmr to search for events in yesterday, today and tomorrow"
+        "content": "Examples:"
       },
       {
         "lineNumber": 529,
@@ -14262,63 +14262,63 @@
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Format3: `findE time/operatorDATE`"
+        "content": "* `findE time/tmr` +"
       },
       {
         "lineNumber": 531,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Format4: `findE time/alias(ytd, today or tmr)`"
+        "content": "Returns all the events start in tomorrow"
       },
       {
         "lineNumber": 532,
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "* `findE time/\u003c2019-04-30` +"
       },
       {
         "lineNumber": 533,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "****"
+        "content": "Returns all the events before 2019,4,30"
       },
       {
         "lineNumber": 534,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* operator should be of type ‘\u003c‘, ‘\u003d‘ or ‘\u003e’"
+        "content": "* `findE time/\u003d2019–04-01` +"
       },
       {
         "lineNumber": 535,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* DATE should be a valid date"
+        "content": "Returns all the events happens on 2019,4,1"
       },
       {
         "lineNumber": 536,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* DATE should in format “YYYY-MM-DD”"
+        "content": ""
       },
       {
         "lineNumber": 537,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* operator and DATE should have no white space in between"
+        "content": ""
       },
       {
         "lineNumber": 538,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "****"
+        "content": "* * 3. `findE duration/` finds events whose duration is smaller, equal to or larger than the searching period"
       },
       {
         "lineNumber": 539,
@@ -14332,7 +14332,7 @@
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Examples:"
+        "content": "Format4: `findE duration/operatorHOURS`"
       },
       {
         "lineNumber": 541,
@@ -14346,42 +14346,42 @@
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* `findE time/tmr` +"
+        "content": "****"
       },
       {
         "lineNumber": 543,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Returns all the events start in tomorrow"
+        "content": "* operator should be of type ‘\u003c‘, ‘\u003d‘ or ‘\u003e’"
       },
       {
         "lineNumber": 544,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* `findE time/\u003c2019-04-30` +"
+        "content": "* HOURS is an integer represents the hours of the duration"
       },
       {
         "lineNumber": 545,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Returns all the events before 2019,4,30"
+        "content": "* HOURS should be an positive integer within range [1,24]"
       },
       {
         "lineNumber": 546,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* `findE time/\u003d2019–04-01` +"
+        "content": "* operator and HOURS should have no white space in between"
       },
       {
         "lineNumber": 547,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Returns all the events happens on 2019,4,1"
+        "content": "****"
       },
       {
         "lineNumber": 548,
@@ -14395,313 +14395,313 @@
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 550,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* * 3. `findE duration/` finds events whose duration is smaller, equal to or larger than the searching period"
+        "content": ""
       },
       {
         "lineNumber": 551,
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "* `findE duration/\u003c2` +"
       },
       {
         "lineNumber": 552,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "Format4: `findE duration/operatorHOURS`"
+        "content": "Returns all the events which is shorter than 2 hours"
       },
       {
         "lineNumber": 553,
         "author": {
           "gitId": "yinya998"
         },
-        "content": ""
+        "content": "* `findE uration/\u003e4` +"
       },
       {
         "lineNumber": 554,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "****"
+        "content": "Returns all the events which is longer than 4 hours"
       },
       {
         "lineNumber": 555,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* operator should be of type ‘\u003c‘, ‘\u003d‘ or ‘\u003e’"
+        "content": ""
       },
       {
         "lineNumber": 556,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* HOURS is an integer represents the hours of the duration"
+        "content": "// end::findEcommand-yinya998[]"
       },
       {
         "lineNumber": 557,
         "author": {
           "gitId": "yinya998"
         },
-        "content": "* HOURS should be an positive integer within range [1,24]"
+        "content": ""
       },
       {
         "lineNumber": 558,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "* operator and HOURS should have no white space in between"
-      },
-      {
-        "lineNumber": 559,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 560,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 561,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 562,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 563,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "* `findE duration/\u003c2` +"
-      },
-      {
-        "lineNumber": 564,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "Returns all the events which is shorter than 2 hours"
-      },
-      {
-        "lineNumber": 565,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "* `findE uration/\u003e4` +"
-      },
-      {
-        "lineNumber": 566,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "Returns all the events which is longer than 4 hours"
-      },
-      {
-        "lineNumber": 567,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 568,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": "// end::findEcommand-yinya998[]"
-      },
-      {
-        "lineNumber": 569,
-        "author": {
-          "gitId": "yinya998"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 570,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "\u003d\u003d\u003d Showing all the participants : `displayP`"
       },
       {
-        "lineNumber": 571,
+        "lineNumber": 559,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 572,
+        "lineNumber": 560,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Show all participants in specific event"
       },
       {
-        "lineNumber": 573,
+        "lineNumber": 561,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Format: `displayP INDEX`"
       },
       {
-        "lineNumber": 574,
+        "lineNumber": 562,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 575,
+        "lineNumber": 563,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "****"
       },
       {
-        "lineNumber": 576,
+        "lineNumber": 564,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* Index must be positive integers 1,2,3…."
       },
       {
-        "lineNumber": 577,
+        "lineNumber": 565,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "****"
       },
       {
-        "lineNumber": 578,
+        "lineNumber": 566,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 579,
+        "lineNumber": 567,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 580,
+        "lineNumber": 568,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 581,
+        "lineNumber": 569,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* `listE` +"
       },
       {
-        "lineNumber": 582,
+        "lineNumber": 570,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "List all events in index order, find the event index. +"
       },
       {
-        "lineNumber": 583,
+        "lineNumber": 571,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "`displayP 23` +"
       },
       {
-        "lineNumber": 584,
+        "lineNumber": 572,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "Return all participants names in 23rd event."
       },
       {
-        "lineNumber": 585,
+        "lineNumber": 573,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 586,
+        "lineNumber": 574,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": "// tag::meet[]"
       },
       {
-        "lineNumber": 587,
+        "lineNumber": 575,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": ""
       },
       {
-        "lineNumber": 588,
+        "lineNumber": 576,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": "\u003d\u003d\u003d Planning a meeting : `meet`"
       },
       {
-        "lineNumber": 589,
+        "lineNumber": 577,
         "author": {
           "gitId": "jwl1997"
         },
         "content": ""
       },
       {
-        "lineNumber": 590,
+        "lineNumber": 578,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": "Creates a meeting event among certain people. Currently, an event will be created at the earliest 2h timeslot starting from the time the command is run. Default meeting names, venues and labels are provided at this stage."
       },
       {
-        "lineNumber": 591,
+        "lineNumber": 579,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": "Not more than one meet event created by this tool can exist in the application as of v1.3, due to restrictions in event naming and so forth. Subsequent versions would allow for"
       },
       {
-        "lineNumber": 592,
+        "lineNumber": 580,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": "Format: `meet INDEX`"
       },
       {
-        "lineNumber": 593,
+        "lineNumber": 581,
         "author": {
           "gitId": "yonggqiii"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 582,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 583,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "* INDEX *must be positive integers* 1,2,3..."
+      },
+      {
+        "lineNumber": 584,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "* INDEX may take on multiple indices."
+      },
+      {
+        "lineNumber": 585,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 586,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 587,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "Examples:"
+      },
+      {
+        "lineNumber": 588,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 589,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "* `list` +"
+      },
+      {
+        "lineNumber": 590,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "List all contacts in index order, find the contact index. +"
+      },
+      {
+        "lineNumber": 591,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "`meet 1 5 8` +"
+      },
+      {
+        "lineNumber": 592,
+        "author": {
+          "gitId": "yonggqiii"
+        },
+        "content": "Create a suitable meeting timeslot and venue among the first, fifth and eighth person."
+      },
+      {
+        "lineNumber": 593,
+        "author": {
+          "gitId": "jwl1997"
         },
         "content": ""
       },
@@ -14710,423 +14710,339 @@
         "author": {
           "gitId": "yonggqiii"
         },
-        "content": "****"
+        "content": "// end::meet[]"
       },
       {
         "lineNumber": 595,
         "author": {
-          "gitId": "yonggqiii"
+          "gitId": "jwl1997"
         },
-        "content": "* INDEX *must be positive integers* 1,2,3..."
+        "content": ""
       },
       {
         "lineNumber": 596,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "* INDEX may take on multiple indices."
-      },
-      {
-        "lineNumber": 597,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 598,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 599,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 600,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 601,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "* `list` +"
-      },
-      {
-        "lineNumber": 602,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "List all contacts in index order, find the contact index. +"
-      },
-      {
-        "lineNumber": 603,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "`meet 1 5 8` +"
-      },
-      {
-        "lineNumber": 604,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "Create a suitable meeting timeslot and venue among the first, fifth and eighth person."
-      },
-      {
-        "lineNumber": 605,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 606,
-        "author": {
-          "gitId": "yonggqiii"
-        },
-        "content": "// end::meet[]"
-      },
-      {
-        "lineNumber": 607,
-        "author": {
-          "gitId": "jwl1997"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 608,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d FAQ"
       },
       {
-        "lineNumber": 609,
+        "lineNumber": 597,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 610,
+        "lineNumber": 598,
         "author": {
           "gitId": "-"
         },
         "content": "*Q*: How do I transfer my data to another Computer? +"
       },
       {
-        "lineNumber": 611,
+        "lineNumber": 599,
         "author": {
           "gitId": "-"
         },
         "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Address Book folder."
       },
       {
-        "lineNumber": 612,
+        "lineNumber": 600,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 613,
+        "lineNumber": 601,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d Command Summary"
       },
       {
-        "lineNumber": 614,
+        "lineNumber": 602,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 615,
+        "lineNumber": 603,
         "author": {
           "gitId": "-"
         },
         "content": "* *Add* `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]...` +"
       },
       {
-        "lineNumber": 616,
+        "lineNumber": 604,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `add n/James Ho p/22224444 e/jamesho@example.com a/123, Clementi Rd, 1234665 t/friend t/colleague`"
       },
       {
-        "lineNumber": 617,
+        "lineNumber": 605,
         "author": {
           "gitId": "-"
         },
         "content": "* *Clear* : `clear`"
       },
       {
-        "lineNumber": 618,
+        "lineNumber": 606,
         "author": {
           "gitId": "-"
         },
         "content": "* *Delete* : `delete INDEX` +"
       },
       {
-        "lineNumber": 619,
+        "lineNumber": 607,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `delete 3`"
       },
       {
-        "lineNumber": 620,
+        "lineNumber": 608,
         "author": {
           "gitId": "-"
         },
         "content": "* *Edit* : `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [t/TAG]...` +"
       },
       {
-        "lineNumber": 621,
+        "lineNumber": 609,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `edit 2 n/James Lee e/jameslee@example.com`"
       },
       {
-        "lineNumber": 622,
+        "lineNumber": 610,
         "author": {
           "gitId": "-"
         },
         "content": "* *Find* : `find KEYWORD [MORE_KEYWORDS]` +"
       },
       {
-        "lineNumber": 623,
+        "lineNumber": 611,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `find James Jake`"
       },
       {
-        "lineNumber": 624,
+        "lineNumber": 612,
         "author": {
           "gitId": "-"
         },
         "content": "* *List* : `list`"
       },
       {
-        "lineNumber": 625,
+        "lineNumber": 613,
         "author": {
           "gitId": "-"
         },
         "content": "* *Help* : `help`"
       },
       {
-        "lineNumber": 626,
+        "lineNumber": 614,
         "author": {
           "gitId": "-"
         },
         "content": "* *Select* : `select INDEX` +"
       },
       {
-        "lineNumber": 627,
+        "lineNumber": 615,
         "author": {
           "gitId": "-"
         },
         "content": "e.g.`select 2`"
       },
       {
-        "lineNumber": 628,
+        "lineNumber": 616,
         "author": {
           "gitId": "-"
         },
         "content": "* *History* : `history`"
       },
       {
-        "lineNumber": 629,
+        "lineNumber": 617,
         "author": {
           "gitId": "-"
         },
         "content": "* *Undo* : `undo`"
       },
       {
-        "lineNumber": 630,
+        "lineNumber": 618,
         "author": {
           "gitId": "-"
         },
         "content": "* *Redo* : `redo`"
       },
       {
-        "lineNumber": 631,
+        "lineNumber": 619,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": "* *Remind* : `remind`"
       },
       {
-        "lineNumber": 632,
+        "lineNumber": 620,
         "author": {
           "gitId": "JillWangJill"
         },
         "content": "* *Repeat* : `repeat`"
       },
       {
-        "lineNumber": 633,
+        "lineNumber": 621,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "// tag::commandsummary-jwl1997[]"
       },
       {
-        "lineNumber": 634,
+        "lineNumber": 622,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* *AddE* `addE n/NAME d/DESCRIPTION v/VENUE s/STARTING_TIME e/ENDING_TIME l/LABEL` +"
       },
       {
-        "lineNumber": 635,
+        "lineNumber": 623,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "e.g. `addE n/career talk d/Google company info session v/com1 level2 s/2019-01-31 14:00:00 e/2019-01-31 14:00:00 l/important`"
       },
       {
-        "lineNumber": 636,
+        "lineNumber": 624,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* *DeleteE* : `delete INDEX` +"
       },
       {
-        "lineNumber": 637,
+        "lineNumber": 625,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "e.g. `deleteE 3`"
       },
       {
-        "lineNumber": 638,
+        "lineNumber": 626,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* *EditE* : `editE INDEX [n/NAME] [d/DESCRIPTION] [v/VENUE] [s/STARTING_TIME] [e/ENDING_TIME] [l/LABEL]` +"
       },
       {
-        "lineNumber": 639,
+        "lineNumber": 627,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "e.g. `editE 1 d/short meeting l/top priority`"
       },
       {
-        "lineNumber": 640,
+        "lineNumber": 628,
         "author": {
           "gitId": "yinya998"
         },
         "content": "* *FindE* : `findE KEYWORD [MORE_KEYWORDS]` +"
       },
       {
-        "lineNumber": 641,
+        "lineNumber": 629,
         "author": {
           "gitId": "yinya998"
         },
         "content": "or \u0027findE [n/NAME] [d/DESCRIPTION] [v/VENUE] [s/STARTING_TIME] [e/ENDING_TIME] [l/LABEL] +"
       },
       {
-        "lineNumber": 642,
+        "lineNumber": 630,
         "author": {
           "gitId": "yinya998"
         },
         "content": "or `findE time/operatorDATE` +"
       },
       {
-        "lineNumber": 643,
+        "lineNumber": 631,
         "author": {
           "gitId": "yinya998"
         },
         "content": "or `findE time/alias(ytd, today or tmr)` +"
       },
       {
-        "lineNumber": 644,
+        "lineNumber": 632,
         "author": {
           "gitId": "yinya998"
         },
         "content": "or `findE duration/operatorHOURS` +"
       },
       {
-        "lineNumber": 645,
+        "lineNumber": 633,
         "author": {
           "gitId": "yinya998"
         },
         "content": "e.g. `findE talk` +"
       },
       {
-        "lineNumber": 646,
+        "lineNumber": 634,
         "author": {
           "gitId": "yinya998"
         },
         "content": "e.g. `findE s/2019-04-07 10:00:00` +"
       },
       {
-        "lineNumber": 647,
+        "lineNumber": 635,
         "author": {
           "gitId": "yinya998"
         },
         "content": "e.g. `findE time/\u003c2019-04-09` +"
       },
       {
-        "lineNumber": 648,
+        "lineNumber": 636,
         "author": {
           "gitId": "yinya998"
         },
         "content": "e.g. `findE duration/\u003c3`"
       },
       {
-        "lineNumber": 649,
+        "lineNumber": 637,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* *ListE* : `listE`"
       },
       {
-        "lineNumber": 650,
+        "lineNumber": 638,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* *Connect* : `connect ci/CONTACT_LIST_INDEX ei/EVENT_LIST_INDEX`"
       },
       {
-        "lineNumber": 651,
+        "lineNumber": 639,
         "author": {
           "gitId": "jwl1997"
         },
         "content": "* *Disconnect* : `disconnect ci/CONTACT_LIST_INDEX ei/EVENT_LIST_INDEX`"
       },
       {
-        "lineNumber": 652,
+        "lineNumber": 640,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": "/ end::commandsummary-jwl1997[]"
       },
       {
-        "lineNumber": 653,
+        "lineNumber": 641,
         "author": {
           "gitId": "yonggqiii"
         },
         "content": "* *Meet* : `meet INDEX [MORE INDICES]`"
       },
       {
-        "lineNumber": 654,
+        "lineNumber": 642,
         "author": {
           "gitId": "yonggqiii"
         },
@@ -15135,11 +15051,11 @@
     ],
     "authorContributionMap": {
       "JillWangJill": 24,
-      "yinya998": 162,
-      "daDangminh": 16,
-      "jwl1997": 173,
+      "yinya998": 160,
+      "daDangminh": 15,
+      "jwl1997": 167,
       "yonggqiii": 34,
-      "-": 245
+      "-": 242
     }
   },
   {

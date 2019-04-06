@@ -15169,9 +15169,9 @@
       {
         "lineNumber": 166,
         "author": {
-          "gitId": "tehwenyi"
+          "gitId": "rahulb99"
         },
-        "content": "* `search n/MCDONALDS` +"
+        "content": "* `fE n/MCDONALDS` +"
       },
       {
         "lineNumber": 167,
@@ -15183,9 +15183,9 @@
       {
         "lineNumber": 168,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "rahulb99"
         },
-        "content": "* `search t/FOOD` +"
+        "content": "* `fE t/FOOD` +"
       },
       {
         "lineNumber": 169,
@@ -15199,7 +15199,7 @@
         "author": {
           "gitId": "rahulb99"
         },
-        "content": "* `search d/2019/01/02` +"
+        "content": "* `fE d/2019/01/02` +"
       },
       {
         "lineNumber": 171,
@@ -15213,7 +15213,7 @@
         "author": {
           "gitId": "rahulb99"
         },
-        "content": "* `search d/2019/01/02:2020/12/05` +"
+        "content": "* `fE d/2019/01/02:2020/12/05` +"
       },
       {
         "lineNumber": 173,
@@ -15227,7 +15227,7 @@
         "author": {
           "gitId": "rahulb99"
         },
-        "content": "* `search $/250` +"
+        "content": "* `fE $/250` +"
       },
       {
         "lineNumber": 175,
@@ -15241,7 +15241,7 @@
         "author": {
           "gitId": "rahulb99"
         },
-        "content": "* `search $/250:500` +"
+        "content": "* `fE $/250:500` +"
       },
       {
         "lineNumber": 177,
@@ -15360,7 +15360,7 @@
         "author": {
           "gitId": "rahulb99"
         },
-        "content": "* `sort n/` +"
+        "content": "* `sE n/` +"
       },
       {
         "lineNumber": 194,
@@ -15374,7 +15374,7 @@
         "author": {
           "gitId": "rahulb99"
         },
-        "content": "* `sort d/` +"
+        "content": "* `sE d/` +"
       },
       {
         "lineNumber": 196,
@@ -15388,7 +15388,7 @@
         "author": {
           "gitId": "rahulb99"
         },
-        "content": "* `sort $/` +"
+        "content": "* `sE $/` +"
       },
       {
         "lineNumber": 198,
@@ -17157,11 +17157,11 @@
     ],
     "authorContributionMap": {
       "yunjun199321": 38,
-      "kev-inc": 119,
+      "kev-inc": 118,
       "pdnm": 14,
-      "tehwenyi": 123,
+      "tehwenyi": 122,
       "-": 126,
-      "rahulb99": 29
+      "rahulb99": 31
     }
   },
   {
@@ -58629,7 +58629,7 @@
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        return String.format(\"%s - $%2s\", name, amount);"
+        "content": "        return String.format(\"%s - %2s\", name, amount);"
       },
       {
         "lineNumber": 30,
@@ -66171,306 +66171,404 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "    private final String name;"
+        "content": "    private final Boolean isNull;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "    private final String cost;"
+        "content": "    private final String name;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "    private final String cost;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "     * Constructs a {@code JsonAdaptedGoal} with the given goal details."
+        "content": "    /**"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "     */"
+        "content": "     * Constructs a {@code JsonAdaptedGoal} with the given goal details."
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "    @JsonCreator"
+        "content": "     */"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "    public JsonAdaptedGoal(@JsonProperty(\"name\") String name, @JsonProperty(\"cost\") String cost) {"
+        "content": "    @JsonCreator"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "        this.name \u003d name;"
+        "content": "    public JsonAdaptedGoal("
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "        this.cost \u003d cost;"
+        "content": "            @JsonProperty(\"isNull\") Boolean isNull,"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "    }"
+        "content": "            @JsonProperty(\"name\") String name,"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": ""
+        "content": "            @JsonProperty(\"cost\") String cost) {"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "    /**"
+        "content": "        this.isNull \u003d isNull;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "     * Converts a given {@code Goal} into this class for Jackson use."
+        "content": "        this.name \u003d name;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "     */"
+        "content": "        this.cost \u003d cost;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "    public JsonAdaptedGoal(Goal source) {"
+        "content": "    }"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "        System.out.println(source);"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        name \u003d source.getName().toString();"
+        "content": "    /**"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        cost \u003d String.valueOf(source.getAmount().getAmount());"
+        "content": "     * Converts a given {@code Goal} into this class for Jackson use."
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "    }"
+        "content": "     */"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "    public JsonAdaptedGoal(Goal source) {"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "    /**"
+        "content": "        if (source \u003d\u003d null) {"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "     * Converts this Jackson-friendly adapted goal object into the model\u0027s {@code Goal} object."
+        "content": "            isNull \u003d true;"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "     *"
+        "content": "            name \u003d null;"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "     * @return"
+        "content": "            cost \u003d null;"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "     * @throws IllegalValueException"
+        "content": "        } else {"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "     */"
+        "content": "            isNull \u003d false;"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "    public Goal toModelType() throws IllegalValueException {"
+        "content": "            name \u003d source.getName().toString();"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        if (name \u003d\u003d null) {"
+        "content": "            cost \u003d String.valueOf(source.getAmount().getAmount());"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "            throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, Name.class.getSimpleName()));"
+        "content": "        }"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "        }"
+        "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        final Name modelName \u003d new Name(name);"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        if (cost \u003d\u003d null) {"
+        "content": "     * Converts this Jackson-friendly adapted goal object into the model\u0027s {@code Goal} object."
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "            throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, Cost.class.getSimpleName()));"
+        "content": "     *"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        }"
+        "content": "     * @return"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        if (!Cost.isValidCost(cost)) {"
+        "content": "     * @throws IllegalValueException"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "            throw new IllegalValueException(Cost.MESSAGE_CONSTRAINTS);"
+        "content": "     */"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "        }"
+        "content": "    public Goal toModelType() throws IllegalValueException {"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "        final Cost modelCost \u003d new Cost(cost);"
+        "content": "        if (isNull) {"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "        return new Goal(modelName, modelCost);"
+        "content": "            return null;"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "pdnm"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "        if (name \u003d\u003d null) {"
       },
       {
         "lineNumber": 61,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "            throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, Name.class.getSimpleName()));"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        final Name modelName \u003d new Name(name);"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        if (cost \u003d\u003d null) {"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "            throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, Cost.class.getSimpleName()));"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        if (!Cost.isValidCost(cost)) {"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "            throw new IllegalValueException(Cost.MESSAGE_CONSTRAINTS);"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        final Cost modelCost \u003d new Cost(cost);"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        return new Goal(modelName, modelCost);"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 75,
         "author": {
           "gitId": "kev-inc"
         },
@@ -66478,8 +66576,8 @@
       }
     ],
     "authorContributionMap": {
-      "kev-inc": 60,
-      "-": 1
+      "kev-inc": 59,
+      "pdnm": 16
     }
   },
   {
@@ -71626,710 +71724,696 @@
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import java.text.DecimalFormat;"
+        "content": "import java.text.SimpleDateFormat;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import java.text.SimpleDateFormat;"
+        "content": "import java.util.logging.Logger;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import java.util.logging.Logger;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "import javafx.fxml.FXML;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import javafx.fxml.FXML;"
+        "content": "import javafx.scene.control.Label;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import javafx.scene.control.Label;"
+        "content": "import javafx.scene.layout.FlowPane;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import javafx.scene.layout.FlowPane;"
+        "content": "import javafx.scene.layout.HBox;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import javafx.scene.layout.HBox;"
+        "content": "import javafx.scene.layout.Region;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "import javafx.scene.layout.Region;"
-      },
-      {
-        "lineNumber": 12,
-        "author": {
-          "gitId": "pdnm"
-        },
         "content": "import seedu.address.commons.core.LogsCenter;"
       },
       {
-        "lineNumber": 13,
+        "lineNumber": 12,
         "author": {
           "gitId": "kev-inc"
         },
         "content": "import seedu.address.model.epiggy.Allowance;"
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 13,
         "author": {
           "gitId": "pdnm"
         },
         "content": "import seedu.address.model.epiggy.Expense;"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 14,
         "author": {
           "gitId": "pdnm"
         },
         "content": ""
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 15,
         "author": {
           "gitId": "pdnm"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 16,
         "author": {
           "gitId": "pdnm"
         },
         "content": " * An UI component that displays information of a {@code Person}."
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 17,
         "author": {
           "gitId": "pdnm"
         },
         "content": " */"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 18,
         "author": {
           "gitId": "pdnm"
         },
         "content": "public class ExpenseCard extends UiPart\u003cRegion\u003e {"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
           "gitId": "pdnm"
         },
         "content": ""
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 20,
         "author": {
           "gitId": "pdnm"
         },
         "content": "    private static final Logger logger \u003d LogsCenter.getLogger(ExpenseCard.class);"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 21,
         "author": {
           "gitId": "pdnm"
         },
         "content": ""
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
           "gitId": "pdnm"
         },
         "content": "    private static final String FXML \u003d \"ExpenseListCard.fxml\";"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
           "gitId": "pdnm"
         },
         "content": "    private static final String[] TAG_COLOR_STYLES \u003d"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
           "gitId": "rahulb99"
         },
         "content": "        { \"turquoise\", \"orange\", \"yellow\", \"green\", \"black\", \"blue\", \"pink\", \"grey\" };"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
           "gitId": "pdnm"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "pdnm"
+        },
+        "content": "    /**"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    /**"
+        "content": "     * Note: Certain keywords such as \"location\" and \"resources\" are reserved keywords in JavaFX."
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "     * Note: Certain keywords such as \"location\" and \"resources\" are reserved keywords in JavaFX."
+        "content": "     * As a consequence, UI elements\u0027 variable names cannot be set to such keywords"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "     * As a consequence, UI elements\u0027 variable names cannot be set to such keywords"
+        "content": "     * or an exception will be thrown by JavaFX during runtime."
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "     * or an exception will be thrown by JavaFX during runtime."
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "pdnm"
-        },
         "content": "     *"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
           "gitId": "tehwenyi"
         },
         "content": "     * @see \u003ca href\u003d\"https://github.com/se-edu/addressbook-level4/issues/336\"\u003eThe issue on EPiggy level 4\u003c/a\u003e"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "pdnm"
         },
         "content": "     */"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "pdnm"
+        },
+        "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "    public final Expense expense;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    public final Expense expense;"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "    @FXML"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    @FXML"
+        "content": "    private HBox cardPane;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private HBox cardPane;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    @FXML"
+        "content": "    private Label id;"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private Label id;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    @FXML"
+        "content": "    private Label name;"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private Label name;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    @FXML"
+        "content": "    private Label cost;"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private Label cost;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    @FXML"
+        "content": "    private Label date;"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private Label date;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    @FXML"
+        "content": "    private FlowPane tags;"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private FlowPane tags;"
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "    public ExpenseCard(Expense expense, int displayedIndex) {"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    public ExpenseCard(Expense expense, int displayedIndex) {"
+        "content": "        super(FXML);"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        super(FXML);"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "        this.expense \u003d expense;"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        this.expense \u003d expense;"
+        "content": "        id.setText(displayedIndex + \". \");"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        id.setText(displayedIndex + \". \");"
-      },
-      {
-        "lineNumber": 55,
-        "author": {
-          "gitId": "pdnm"
-        },
         "content": "        name.setText(expense.getItem().getName().name);"
       },
       {
-        "lineNumber": 56,
-        "author": {
-          "gitId": "pdnm"
-        },
-        "content": "        DecimalFormat df \u003d new DecimalFormat(\"#.##\");"
-      },
-      {
-        "lineNumber": 57,
+        "lineNumber": 55,
         "author": {
           "gitId": "kev-inc"
         },
         "content": "        if (expense instanceof Allowance) {"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 56,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "            cost.setText(\"Amount: \" + df.format(expense.getItem().getCost().getAmount()));"
+        "content": "            cost.setText(\"Amount: \" + expense.getItem().getCost().toString());"
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 57,
         "author": {
           "gitId": "kev-inc"
         },
         "content": "        } else {"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 58,
         "author": {
-          "gitId": "pdnm"
+          "gitId": "kev-inc"
         },
-        "content": "            cost.setText(\"Cost: \" + df.format(expense.getItem().getCost().getAmount()));"
+        "content": "            cost.setText(\"Cost: \" + expense.getItem().getCost().toString());"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 59,
         "author": {
           "gitId": "kev-inc"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 60,
         "author": {
           "gitId": "rahulb99"
         },
         "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"EEE, MMM d, \u0027\u0027yy\");"
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 61,
         "author": {
           "gitId": "rahulb99"
         },
         "content": "        date.setText(String.format(\"Added on: %s \\n\", formatter.format(expense.getDate())));"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 62,
         "author": {
           "gitId": "pdnm"
         },
         "content": "        initialiseTags(expense);"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 63,
         "author": {
           "gitId": "pdnm"
         },
         "content": "    }"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "pdnm"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "pdnm"
+        },
+        "content": "    /**"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "     * Returns the color style for {@code tagName}\u0027s label."
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "     * Returns the color style for {@code tagName}\u0027s label."
+        "content": "    private String getTagColorStyleFor(String tagName) {"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "     */"
+        "content": "        // generate a random color from the hash code of the tag so the color remain consistent"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private String getTagColorStyleFor(String tagName) {"
+        "content": "        // between different runs of the program while still making it random enough between tags."
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        // generate a random color from the hash code of the tag so the color remain consistent"
+        "content": "        return TAG_COLOR_STYLES[Math.abs(tagName.hashCode()) % TAG_COLOR_STYLES.length];"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        // between different runs of the program while still making it random enough between tags."
+        "content": "    }"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        return TAG_COLOR_STYLES[Math.abs(tagName.hashCode()) % TAG_COLOR_STYLES.length];"
+        "content": ""
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "     * Creates the tag labels for {@code person}."
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "     * Creates the tag labels for {@code person}."
+        "content": "    private void initialiseTags(Expense expense) {"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "     */"
+        "content": "        expense.getItem().getTags().forEach(tag -\u003e {"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    private void initialiseTags(Expense expense) {"
+        "content": "            Label tagLabel \u003d new Label(tag.tagName);"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        expense.getItem().getTags().forEach(tag -\u003e {"
+        "content": "            tagLabel.getStyleClass().add(getTagColorStyleFor(tag.tagName));"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "            Label tagLabel \u003d new Label(tag.tagName);"
+        "content": "            tags.getChildren().add(tagLabel);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "            tagLabel.getStyleClass().add(getTagColorStyleFor(tag.tagName));"
+        "content": "        });"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "            tags.getChildren().add(tagLabel);"
+        "content": "    }"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        });"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    @Override"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "        if (other \u003d\u003d this) {"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        // short circuit if same object"
+        "content": "            return true;"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        if (other \u003d\u003d this) {"
+        "content": "        }"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "            return true;"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        }"
+        "content": "        // instanceof handles nulls"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "        if (!(other instanceof ExpenseCard)) {"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        // instanceof handles nulls"
+        "content": "            return false;"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        if (!(other instanceof ExpenseCard)) {"
+        "content": "        }"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "            return false;"
+        "content": ""
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        }"
+        "content": "        // state check"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "pdnm"
         },
-        "content": ""
+        "content": "        ExpenseCard card \u003d (ExpenseCard) other;"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        // state check"
+        "content": "        return id.getText().equals(card.id.getText())"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        ExpenseCard card \u003d (ExpenseCard) other;"
+        "content": "                \u0026\u0026 expense.equals(card.expense);"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "pdnm"
         },
-        "content": "        return id.getText().equals(card.id.getText())"
-      },
-      {
-        "lineNumber": 102,
-        "author": {
-          "gitId": "pdnm"
-        },
-        "content": "                \u0026\u0026 expense.equals(card.expense);"
-      },
-      {
-        "lineNumber": 103,
-        "author": {
-          "gitId": "pdnm"
-        },
         "content": "    }"
       },
       {
-        "lineNumber": 104,
+        "lineNumber": 102,
         "author": {
           "gitId": "pdnm"
         },
@@ -72337,8 +72421,8 @@
       }
     ],
     "authorContributionMap": {
-      "kev-inc": 5,
-      "pdnm": 95,
+      "kev-inc": 6,
+      "pdnm": 92,
       "tehwenyi": 1,
       "rahulb99": 3
     }
@@ -74248,9 +74332,9 @@
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "            resultDisplay.setFeedbackToUser(e.getMessage());"
+        "content": "            resultDisplay.setFeedbackToUser(e.getMessage(), \"report t/daily\");"
       },
       {
         "lineNumber": 199,
@@ -74339,9 +74423,9 @@
       {
         "lineNumber": 211,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "            resultDisplay.setFeedbackToUser(e.getMessage());"
+        "content": "            resultDisplay.setFeedbackToUser(e.getMessage(), \"report t/monthly\");"
       },
       {
         "lineNumber": 212,
@@ -74430,9 +74514,9 @@
       {
         "lineNumber": 224,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "            resultDisplay.setFeedbackToUser(e.getMessage());"
+        "content": "            resultDisplay.setFeedbackToUser(e.getMessage(), \"report t/yearly\");"
       },
       {
         "lineNumber": 225,
@@ -74521,9 +74605,9 @@
       {
         "lineNumber": 237,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "            resultDisplay.setFeedbackToUser(e.getMessage());"
+        "content": "            resultDisplay.setFeedbackToUser(e.getMessage(), \"report t/percentage\");"
       },
       {
         "lineNumber": 238,
@@ -74640,9 +74724,9 @@
       {
         "lineNumber": 254,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "            resultDisplay.setFeedbackToUser(commandResult.getFeedbackToUser());"
+        "content": "            resultDisplay.setFeedbackToUser(commandResult.getFeedbackToUser(), commandText);"
       },
       {
         "lineNumber": 255,
@@ -74731,9 +74815,9 @@
       {
         "lineNumber": 267,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "            resultDisplay.setFeedbackToUser(e.getMessage());"
+        "content": "            resultDisplay.setFeedbackToUser(e.getMessage(), commandText);"
       },
       {
         "lineNumber": 268,
@@ -74765,11 +74849,11 @@
       }
     ],
     "authorContributionMap": {
-      "yunjun199321": 57,
-      "kev-inc": 5,
+      "yunjun199321": 53,
+      "kev-inc": 11,
       "pdnm": 7,
       "tehwenyi": 6,
-      "-": 196
+      "-": 194
     }
   },
   {
@@ -78866,6 +78950,260 @@
       "yunjun199321": 360,
       "pdnm": 1,
       "tehwenyi": 3
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/ui/ResultDisplay.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.address.ui;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import static java.util.Objects.requireNonNull;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.fxml.FXML;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.scene.control.TextArea;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.scene.layout.Region;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * A ui for the status bar that is displayed at the header of the application."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class ResultDisplay extends UiPart\u003cRegion\u003e {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private static final String FXML \u003d \"ResultDisplay.fxml\";"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "    private String messages \u003d \"\";"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @FXML"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private TextArea resultDisplay;"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public ResultDisplay() {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        super(FXML);"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        resultDisplay.setText(\"Welcome to ePiggy! \""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                + \"Enter a command to get started, or enter \u0027help\u0027 to view all the available commands!\");"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "    public void setFeedbackToUser(String feedbackToUser, String commandEntered) {"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        requireNonNull(feedbackToUser);"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        messages \u003d \"ePiggy: \" + feedbackToUser + \"\\n\\n\" + \"You: \" + commandEntered + \"\\n\\n\" + messages;"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        resultDisplay.setText(messages);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "kev-inc": 9,
+      "-": 26
     }
   },
   {
@@ -83782,56 +84120,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.control.Menu?\u003e"
+        "content": "\u003c?import javafx.scene.Scene?\u003e"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.control.MenuBar?\u003e"
+        "content": "\u003c?import javafx.scene.control.Menu?\u003e"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.control.MenuItem?\u003e"
+        "content": "\u003c?import javafx.scene.control.MenuBar?\u003e"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.control.SplitPane?\u003e"
+        "content": "\u003c?import javafx.scene.control.MenuItem?\u003e"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.image.Image?\u003e"
+        "content": "\u003c?import javafx.scene.control.SplitPane?\u003e"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.layout.StackPane?\u003e"
+        "content": "\u003c?import javafx.scene.image.Image?\u003e"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.layout.VBox?\u003e"
+        "content": "\u003c?import javafx.scene.layout.StackPane?\u003e"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "-"
         },
-        "content": "\u003c?import javafx.scene.Scene?\u003e"
+        "content": "\u003c?import javafx.scene.layout.VBox?\u003e"
       },
       {
         "lineNumber": 13,
@@ -83845,14 +84183,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003cfx:root type\u003d\"javafx.stage.Stage\" xmlns\u003d\"http://javafx.com/javafx/8\" xmlns:fx\u003d\"http://javafx.com/fxml/1\""
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "         title\u003d\"ePiggy\" minWidth\u003d\"750\" minHeight\u003d\"600\" onCloseRequest\u003d\"#handleExit\"\u003e"
+        "content": "\u003cfx:root minHeight\u003d\"600\" minWidth\u003d\"750\" onCloseRequest\u003d\"#handleExit\" title\u003d\"ePiggy\" type\u003d\"javafx.stage.Stage\" xmlns\u003d\"http://javafx.com/javafx/11.0.1\" xmlns:fx\u003d\"http://javafx.com/fxml/1\"\u003e"
       },
       {
         "lineNumber": 16,
@@ -83866,7 +84204,7 @@
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        \u003cImage url\u003d\"@/images/address_book_32.png\"/\u003e"
+        "content": "        \u003cImage url\u003d\"@/images/address_book_32.png\" /\u003e"
       },
       {
         "lineNumber": 18,
@@ -83901,14 +84239,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "                \u003cURL value\u003d\"@DarkTheme.css\"/\u003e"
+        "content": "                \u003cURL value\u003d\"@DarkTheme.css\" /\u003e"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u003cURL value\u003d\"@Extensions.css\"/\u003e"
+        "content": "                \u003cURL value\u003d\"@Extensions.css\" /\u003e"
       },
       {
         "lineNumber": 24,
@@ -83950,7 +84288,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "                        \u003cMenuItem mnemonicParsing\u003d\"false\" onAction\u003d\"#handleExit\" text\u003d\"Exit\"/\u003e"
+        "content": "                        \u003cMenuItem mnemonicParsing\u003d\"false\" onAction\u003d\"#handleExit\" text\u003d\"Exit\" /\u003e"
       },
       {
         "lineNumber": 30,
@@ -83969,397 +84307,404 @@
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "                        \u003cMenuItem fx:id\u003d\"helpMenuItem\" mnemonicParsing\u003d\"false\""
+        "content": "                        \u003cMenuItem fx:id\u003d\"helpMenuItem\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleHelp\" text\u003d\"User Manual\" /\u003e"
       },
       {
         "lineNumber": 33,
-        "author": {
-          "gitId": "rahulb99"
-        },
-        "content": "                                  onAction\u003d\"#handleHelp\" text\u003d\"User Manual\"/\u003e"
-      },
-      {
-        "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
         "content": "                    \u003c/Menu\u003e"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "                    \u003cMenu mnemonicParsing\u003d\"false\" text\u003d\"Report\"\u003e"
       },
       {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                        \u003cMenuItem fx:id\u003d\"summaryMenuItem_daily\" mnemonicParsing\u003d\"false\" onAction\u003d\"#handleDailyReport\" text\u003d\"Completed Report\" /\u003e"
+      },
+      {
         "lineNumber": 36,
-        "author": {
-          "gitId": "yunjun199321"
-        },
-        "content": "                        \u003cMenuItem fx:id\u003d\"summaryMenuItem_daily\" mnemonicParsing\u003d\"false\""
-      },
-      {
-        "lineNumber": 37,
-        "author": {
-          "gitId": "yunjun199321"
-        },
-        "content": "                                  onAction\u003d\"#handleDailyReport\""
-      },
-      {
-        "lineNumber": 38,
-        "author": {
-          "gitId": "yunjun199321"
-        },
-        "content": "                                  text\u003d\"Completed Report\"/\u003e"
-      },
-      {
-        "lineNumber": 39,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "                    \u003c/Menu\u003e"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
         "content": "                \u003c/MenuBar\u003e"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                \u003cSplitPane id\u003d\"splitPane\" fx:id\u003d\"splitPane\" dividerPositions\u003d\"0.4, 0.5, 0.5, 0.5\" VBox.vgrow\u003d\"ALWAYS\"\u003e"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "               \u003cVBox fx:id\u003d\"messages\" minWidth\u003d\"340.0\" prefWidth\u003d\"340.0\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                  \u003cchildren\u003e"
+      },
+      {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                \u003cStackPane VBox.vgrow\u003d\"NEVER\" fx:id\u003d\"commandBoxPlaceholder\" styleClass\u003d\"pane-with-border\"\u003e"
+        "content": "                         \u003cStackPane fx:id\u003d\"commandBoxPlaceholder\" styleClass\u003d\"pane-with-border\" VBox.vgrow\u003d\"NEVER\"\u003e"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u003cpadding\u003e"
+        "content": "                             \u003cpadding\u003e"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                        \u003cInsets top\u003d\"5\" right\u003d\"10\" bottom\u003d\"5\" left\u003d\"10\"/\u003e"
+        "content": "                                 \u003cInsets bottom\u003d\"5\" left\u003d\"10\" right\u003d\"10\" top\u003d\"5\" /\u003e"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u003c/padding\u003e"
+        "content": "                             \u003c/padding\u003e"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u003c/StackPane\u003e"
+        "content": "                         \u003c/StackPane\u003e"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "                         \u003cStackPane fx:id\u003d\"resultDisplayPlaceholder\" styleClass\u003d\"pane-with-border\" VBox.vgrow\u003d\"ALWAYS\"\u003e"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u003cStackPane VBox.vgrow\u003d\"NEVER\" fx:id\u003d\"resultDisplayPlaceholder\" styleClass\u003d\"pane-with-border\""
+        "content": "                             \u003cpadding\u003e"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                           minHeight\u003d\"100\" prefHeight\u003d\"100\" maxHeight\u003d\"100\"\u003e"
+        "content": "                                 \u003cInsets bottom\u003d\"5\" left\u003d\"10\" right\u003d\"10\" top\u003d\"5\" /\u003e"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u003cpadding\u003e"
+        "content": "                             \u003c/padding\u003e"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "                        \u003cInsets top\u003d\"5\" right\u003d\"10\" bottom\u003d\"5\" left\u003d\"10\"/\u003e"
+        "content": "                         \u003c/StackPane\u003e"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                    \u003c/padding\u003e"
+        "content": "                  \u003c/children\u003e"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                \u003c/StackPane\u003e"
+        "content": "                  \u003cpadding\u003e"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "                     \u003cInsets top\u003d\"10.0\" /\u003e"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                \u003cSplitPane id\u003d\"splitPane\" fx:id\u003d\"splitPane\" dividerPositions\u003d\"0.4\" VBox.vgrow\u003d\"ALWAYS\"\u003e"
+        "content": "                  \u003c/padding\u003e"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "                    \u003cVBox fx:id\u003d\"expenseList\" minWidth\u003d\"340\" prefWidth\u003d\"340\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
+        "content": "               \u003c/VBox\u003e"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                        \u003cpadding\u003e"
+        "content": "                    \u003cVBox fx:id\u003d\"expenseList\" minWidth\u003d\"340\" prefWidth\u003d\"340\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "                            \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\"/\u003e"
+        "content": "                        \u003cpadding\u003e"
       },
       {
         "lineNumber": 59,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                            \u003cInsets bottom\u003d\"10\" left\u003d\"10\" right\u003d\"10\" top\u003d\"10\" /\u003e"
+      },
+      {
+        "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
         "content": "                        \u003c/padding\u003e"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 61,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "                        \u003cStackPane fx:id\u003d\"expenseListPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\"/\u003e"
-      },
-      {
-        "lineNumber": 61,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                    \u003c/VBox\u003e"
+        "content": "                        \u003cStackPane fx:id\u003d\"expenseListPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\" /\u003e"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "                    \u003c/VBox\u003e"
       },
       {
         "lineNumber": 63,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 64,
         "author": {
           "gitId": "kev-inc"
         },
         "content": "                    \u003cVBox fx:id\u003d\"savings\" minWidth\u003d\"340\" prefWidth\u003d\"340\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 65,
         "author": {
           "gitId": "pdnm"
         },
         "content": "                        \u003cpadding\u003e"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 66,
         "author": {
-          "gitId": "pdnm"
+          "gitId": "kev-inc"
         },
-        "content": "                            \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\"/\u003e"
+        "content": "                            \u003cInsets bottom\u003d\"10\" left\u003d\"10\" right\u003d\"10\" top\u003d\"10\" /\u003e"
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 67,
         "author": {
           "gitId": "pdnm"
         },
         "content": "                        \u003c/padding\u003e"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 68,
         "author": {
           "gitId": "kev-inc"
         },
-        "content": "                        \u003cStackPane fx:id\u003d\"savingsPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\"/\u003e"
+        "content": "                        \u003cStackPane fx:id\u003d\"savingsPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\" /\u003e"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 69,
         "author": {
           "gitId": "pdnm"
         },
         "content": "                    \u003c/VBox\u003e"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "tehwenyi"
-        },
-        "content": "                    \u003cVBox fx:id\u003d\"budgetList\" minWidth\u003d\"340\" prefWidth\u003d\"340\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "tehwenyi"
         },
-        "content": "                        \u003cpadding\u003e"
+        "content": "                    \u003cVBox fx:id\u003d\"budgetList\" minWidth\u003d\"340\" prefWidth\u003d\"340\" SplitPane.resizableWithParent\u003d\"false\"\u003e"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "tehwenyi"
         },
-        "content": "                            \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\"/\u003e"
+        "content": "                        \u003cpadding\u003e"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "tehwenyi"
+          "gitId": "kev-inc"
         },
-        "content": "                        \u003c/padding\u003e"
+        "content": "                            \u003cInsets bottom\u003d\"10\" left\u003d\"10\" right\u003d\"10\" top\u003d\"10\" /\u003e"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "tehwenyi"
         },
-        "content": "                        \u003cStackPane fx:id\u003d\"budgetPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\"/\u003e"
+        "content": "                        \u003c/padding\u003e"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "tehwenyi"
         },
-        "content": "                    \u003c/VBox\u003e"
+        "content": "                        \u003cStackPane fx:id\u003d\"budgetPanelPlaceholder\" VBox.vgrow\u003d\"ALWAYS\" /\u003e"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "-"
+          "gitId": "tehwenyi"
         },
-        "content": ""
+        "content": "                    \u003c/VBox\u003e"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u003cStackPane fx:id\u003d\"browserPlaceholder\" prefWidth\u003d\"340\"\u003e"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
-        "content": "                        \u003cpadding\u003e"
+        "content": "                    \u003cStackPane fx:id\u003d\"browserPlaceholder\" prefWidth\u003d\"340\"\u003e"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "-"
         },
-        "content": "                            \u003cInsets top\u003d\"10\" right\u003d\"10\" bottom\u003d\"10\" left\u003d\"10\"/\u003e"
+        "content": "                        \u003cpadding\u003e"
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "                        \u003c/padding\u003e"
+        "content": "                            \u003cInsets bottom\u003d\"10\" left\u003d\"10\" right\u003d\"10\" top\u003d\"10\" /\u003e"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u003c/StackPane\u003e"
+        "content": "                        \u003c/padding\u003e"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u003c/SplitPane\u003e"
+        "content": "                    \u003c/StackPane\u003e"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "                \u003c/SplitPane\u003e"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u003cStackPane fx:id\u003d\"statusbarPlaceholder\" VBox.vgrow\u003d\"NEVER\"/\u003e"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003c/VBox\u003e"
+        "content": "                \u003cStackPane fx:id\u003d\"statusbarPlaceholder\" VBox.vgrow\u003d\"NEVER\" /\u003e"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003c/Scene\u003e"
+        "content": "            \u003c/VBox\u003e"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "    \u003c/scene\u003e"
+        "content": "        \u003c/Scene\u003e"
       },
       {
         "lineNumber": 88,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \u003c/scene\u003e"
+      },
+      {
+        "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
@@ -84367,12 +84712,77 @@
       }
     ],
     "authorContributionMap": {
-      "yunjun199321": 10,
-      "kev-inc": 4,
-      "pdnm": 4,
-      "tehwenyi": 6,
-      "-": 62,
-      "rahulb99": 2
+      "yunjun199321": 4,
+      "kev-inc": 23,
+      "pdnm": 3,
+      "tehwenyi": 5,
+      "-": 53,
+      "rahulb99": 1
+    }
+  },
+  {
+    "path": "src/main/resources/view/ResultDisplay.fxml",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c?import javafx.scene.control.TextArea?\u003e"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c?import javafx.scene.layout.StackPane?\u003e"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "\u003cStackPane fx:id\u003d\"placeHolder\" styleClass\u003d\"pane-with-border\" xmlns\u003d\"http://javafx.com/javafx/11.0.1\" xmlns:fx\u003d\"http://javafx.com/fxml/1\"\u003e"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "  \u003cTextArea fx:id\u003d\"resultDisplay\" editable\u003d\"false\" styleClass\u003d\"result-display\" wrapText\u003d\"true\" /\u003e"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c/StackPane\u003e"
+      }
+    ],
+    "authorContributionMap": {
+      "kev-inc": 2,
+      "-": 6
     }
   },
   {
@@ -135170,6 +135580,288 @@
     }
   },
   {
+    "path": "src/test/java/seedu/address/ui/ResultDisplayTest.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.address.ui;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import static org.junit.Assert.assertEquals;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import org.junit.Before;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import org.junit.Test;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import guitests.guihandles.ResultDisplayHandle;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class ResultDisplayTest extends GuiUnitTest {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private ResultDisplay resultDisplay;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private ResultDisplayHandle resultDisplayHandle;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Before"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public void setUp() {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        resultDisplay \u003d new ResultDisplay();"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        uiPartRule.setUiPart(resultDisplay);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        resultDisplayHandle \u003d new ResultDisplayHandle(getChildNode(resultDisplay.getRoot(),"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                ResultDisplayHandle.RESULT_DISPLAY_ID));"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public void display() {"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // default result text"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        guiRobot.pauseForHuman();"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        assertEquals(\"Welcome to ePiggy! \""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                + \"Enter a command to get started, or enter \u0027help\u0027 to view all the available commands!\","
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                resultDisplayHandle.getText());"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // new result received"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        guiRobot.interact(() -\u003e resultDisplay.setFeedbackToUser(\"Dummy feedback to user\","
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                \"Dummy command from user\"));"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        guiRobot.pauseForHuman();"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        assertEquals(\"ePiggy: Dummy feedback to user\\n\\n\""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                + \"You: Dummy command from user\\n\\n\", resultDisplayHandle.getText());"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "kev-inc": 7,
+      "-": 32
+    }
+  },
+  {
     "path": "src/test/java/seedu/address/ui/StatusBarFooterTest.java",
     "lines": [
       {
@@ -141468,103 +142160,117 @@
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "-"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(\"\", getResultDisplay().getText());"
+        "content": "        assertEquals(\"Welcome to ePiggy! \""
       },
       {
         "lineNumber": 269,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                + \"Enter a command to get started, or enter \u0027help\u0027 to view all the available commands!\","
+      },
+      {
+        "lineNumber": 270,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                getResultDisplay().getText());"
+      },
+      {
+        "lineNumber": 271,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "        //        assertListMatching(getPersonListPanel(), getModel().getFilteredPersonList());"
       },
       {
-        "lineNumber": 270,
+        "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
         "content": "        assertEquals(BrowserPanel.DEFAULT_PAGE, getBrowserPanel().getLoadedUrl());"
       },
       {
-        "lineNumber": 271,
+        "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
         "content": "        assertEquals(Paths.get(\".\").resolve(testApp.getStorageSaveLocation()).toString(),"
       },
       {
-        "lineNumber": 272,
+        "lineNumber": 274,
         "author": {
           "gitId": "-"
         },
         "content": "                getStatusBarFooter().getSaveLocation());"
       },
       {
-        "lineNumber": 273,
+        "lineNumber": 275,
         "author": {
           "gitId": "-"
         },
         "content": "        assertEquals(SYNC_STATUS_INITIAL, getStatusBarFooter().getSyncStatus());"
       },
       {
-        "lineNumber": 274,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 275,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 276,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns a defensive copy of the current model."
+        "content": ""
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected Model getModel() {"
+        "content": "     * Returns a defensive copy of the current model."
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "-"
         },
-        "content": "        return testApp.getModel();"
+        "content": "     */"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    protected Model getModel() {"
       },
       {
         "lineNumber": 282,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return testApp.getModel();"
+      },
+      {
+        "lineNumber": 283,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 284,
         "author": {
           "gitId": "-"
         },
@@ -141573,8 +142279,9 @@
     ],
     "authorContributionMap": {
       "yunjun199321": 26,
+      "kev-inc": 3,
       "tehwenyi": 9,
-      "-": 247
+      "-": 246
     }
   },
   {
@@ -147897,58 +148604,58 @@
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "kev-inc"
+          "gitId": "yunjun199321"
         },
-        "content": "import org.junit.Ignore;"
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "import org.junit.Test;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "import guitests.GuiRobot;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "import guitests.GuiRobot;"
+        "content": "import guitests.guihandles.epiggy.ReportWindowHandle;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "import guitests.guihandles.epiggy.ReportWindowHandle;"
+        "content": "import seedu.address.logic.commands.epiggy.ReportCommand;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "import seedu.address.logic.commands.epiggy.ReportCommand;"
+        "content": "import seedu.address.logic.parser.CliSyntax;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "tehwenyi"
         },
-        "content": "import seedu.address.logic.parser.CliSyntax;"
+        "content": "import systemtests.EPiggySystemTest;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "tehwenyi"
+          "gitId": "yunjun199321"
         },
-        "content": "import systemtests.EPiggySystemTest;"
+        "content": ""
       },
       {
         "lineNumber": 16,
@@ -147960,380 +148667,380 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "yunjun199321"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 18,
-        "author": {
           "gitId": "tehwenyi"
         },
         "content": "public class ReportCommandSystemTest extends EPiggySystemTest {"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 18,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String ERROR_MESSAGE \u003d \"ATTENTION!!!! : On some computers, this test may fail when run on \""
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "            + \"non-headless mode as FxRobot#clickOn(Node, MouseButton...) clicks on the wrong location. We suspect \""
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 20,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "            + \"that this is a bug with TestFX library that we are using. If this test fails, you have to run your \""
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 21,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "            + \"tests on headless mode. See UsingGradle.adoc on how to do so.\";"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final GuiRobot guiRobot \u003d new GuiRobot();"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_DATE_WORD \u003d \"invalid\";"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_DATE_LARGE_DAY \u003d \"99/03/2019\";"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_DATE_LARGE_MONTH \u003d \"21/99/2019\";"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_DATE_LARGE_YEAR \u003d \"21/03/999999999999999\";"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_DATE_NEGATIVE_DAY \u003d \"-21/99/2019\";"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 28,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_DATE_NEGATIVE_MONTH \u003d \"21/-03/2019\";"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 29,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    //private static final String INVALID_DATE_NEGATIVE_YEAR \u003d \"21/03/-2019\";"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 30,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": ""
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_MONTH_LARGE_MONTH \u003d \"99/2019\";"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_MONTH_LARGE_YEAR \u003d \"99/999999999999999999\";"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_MONTH_NEGATIVE_MONTH \u003d \"-99/2019\";"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    //private static final String INVALID_MONTH_NEGATIVE_YEAR \u003d \"03/-2019\";"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 35,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": ""
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 36,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    private static final String INVALID_YEAR_LARGE_YEAR \u003d \"999999999999\";"
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 37,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    //private static final String INVALID_YEAR_NEGATIVE_YEAR \u003d \"-2019\";"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 38,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": ""
       },
       {
-        "lineNumber": 40,
-        "author": {
-          "gitId": "kev-inc"
-        },
-        "content": "    @Ignore"
-      },
-      {
-        "lineNumber": 41,
+        "lineNumber": 39,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    @Test"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 40,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": "    public void openReportWindow() {"
       },
       {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        String messageHistory \u003d \"\";"
+      },
+      {
         "lineNumber": 43,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        //use menu button"
+        "content": "        String command \u003d \"\";"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        getMainMenu().openReportWindowUsingMenu();"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertReportWindowOpen(); // close window if report window open"
+        "content": "        //use menu button"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        getMainMenu().openReportWindowUsingMenu();"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        //use command box"
+        "content": "        assertReportWindowOpen(); // close window if report window open"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD);"
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertReportWindowOpen();"
+        "content": "        //use command box"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        executeCommand(ReportCommand.COMMAND_WORD);"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        // open report window and give it focus"
+        "content": "        assertReportWindowOpen();"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD);"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        getMainWindowHandle().focus();"
+        "content": "        // open report window and give it focus"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        executeCommand(ReportCommand.COMMAND_WORD);"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        // check report window for specified day"
+        "content": "        getMainWindowHandle().focus();"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + \"21/03/2019\");"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertReportWindowOpen();"
+        "content": "        // check report window for specified day"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(\"\", getCommandBox().getInput());"
+        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + \"21/03/2019\");"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertCommandBoxShowsDefaultStyle();"
+        "content": "        assertReportWindowOpen();"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(ReportCommand.MESSAGE_SUCCESS, getResultDisplay().getText());"
+        "content": "        assertEquals(\"\", getCommandBox().getInput());"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        assertCommandBoxShowsDefaultStyle();"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for specified month"
+        "content": "        messageHistory \u003d \"ePiggy: \" + ReportCommand.MESSAGE_SUCCESS + \"\\n\\n\""
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + \"03/2019\");"
+        "content": "                + \"You: \" + ReportCommand.COMMAND_WORD + \"\\n\\n\";"
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertReportWindowOpen();"
+        "content": "        messageHistory \u003d \"ePiggy: \" + ReportCommand.MESSAGE_SUCCESS + \"\\n\\n\""
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(\"\", getCommandBox().getInput());"
+        "content": "                + \"You: \" + ReportCommand.COMMAND_WORD + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsDefaultStyle();"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(ReportCommand.MESSAGE_SUCCESS, getResultDisplay().getText());"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        // check report window for specified month"
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for specified year"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + \"03/2019\";"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + \"2019\");"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 71,
@@ -148359,142 +149066,142 @@
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(ReportCommand.MESSAGE_SUCCESS, getResultDisplay().getText());"
+        "content": "        messageHistory \u003d \"ePiggy: \" + ReportCommand.MESSAGE_SUCCESS + \"\\n\\n\""
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_WORD);"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        // check report window for specified year"
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + \"2019\";"
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        assertReportWindowOpen();"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_LARGE_DAY);"
+        "content": "        assertEquals(\"\", getCommandBox().getInput());"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        assertCommandBoxShowsDefaultStyle();"
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        messageHistory \u003d \"ePiggy: \" + ReportCommand.MESSAGE_SUCCESS + \"\\n\\n\""
       },
       {
         "lineNumber": 85,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 86,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_LARGE_MONTH);"
+        "content": ""
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_WORD;"
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 91,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_LARGE_YEAR);"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 94,
@@ -148520,93 +149227,93 @@
       {
         "lineNumber": 97,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_NEGATIVE_DAY);"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_LARGE_DAY;"
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_NEGATIVE_MONTH);"
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": ""
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_LARGE_MONTH;"
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        /*"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_NEGATIVE_YEAR);"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 110,
@@ -148620,105 +149327,105 @@
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        */"
+        "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_LARGE_YEAR;"
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_LARGE_MONTH);"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_LARGE_YEAR);"
+        "content": ""
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 121,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_NEGATIVE_DAY;"
       },
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_NEGATIVE_MONTH);"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 126,
@@ -148739,203 +149446,203 @@
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        /*"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 129,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_NEGATIVE_MONTH;"
       },
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_NEGATIVE_YEAR);"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        */"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        // check report window for invalid date format"
+        "content": ""
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_YEAR_LARGE_YEAR);"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        /*"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_DATE_NEGATIVE_YEAR);"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        /*"
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "        */"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_YEAR_NEGATIVE_YEAR);"
+        "content": ""
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 144,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_LARGE_MONTH;"
       },
       {
         "lineNumber": 145,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        */"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 146,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": ""
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 147,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid date format"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 148,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_LARGE_MONTH);"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        assertCommandBoxShowsErrorStyle();"
+        "content": ""
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 152,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        // check report window for invalid command"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_LARGE_YEAR;"
       },
       {
         "lineNumber": 153,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" invalid\");"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 154,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        String s1 \u003d \"Invalid command format! \\n\" + ReportCommand.MESSAGE_USAGE;"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        String s2 \u003d getResultDisplay().getText();"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertEquals(s1, s2);"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 157,
@@ -148949,56 +149656,56 @@
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "    /**"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_NEGATIVE_MONTH;"
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "     * Asserts that the report window is open, and closes it after checking."
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "     */"
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
       },
       {
         "lineNumber": 163,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "    private void assertReportWindowOpen() {"
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
       },
       {
         "lineNumber": 164,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertTrue(ERROR_MESSAGE, ReportWindowHandle.isWindowPresent());"
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        guiRobot.pauseForHuman();"
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 166,
@@ -149012,80 +149719,409 @@
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        new ReportWindowHandle(guiRobot.getStage(ReportWindowHandle.REPORT_WINDOW_TITLE)).close();"
+        "content": "        /*"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "        getMainWindowHandle().focus();"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "    }"
+        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_NEGATIVE_YEAR);"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": ""
+        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "    /**"
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "     * Asserts that the report window isn\u0027t open."
+        "content": "        */"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "yunjun199321"
         },
-        "content": "    private void assertReportWindowNotOpen() {"
+        "content": "        // check report window for invalid date format"
       },
       {
         "lineNumber": 175,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "        assertFalse(ERROR_MESSAGE, ReportWindowHandle.isWindowPresent());"
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_YEAR_LARGE_YEAR;"
       },
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "yunjun199321"
+          "gitId": "kev-inc"
         },
-        "content": "    }"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 177,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertCommandBoxShowsErrorStyle();"
+      },
+      {
+        "lineNumber": 181,
         "author": {
           "gitId": "yunjun199321"
         },
         "content": ""
       },
       {
-        "lineNumber": 178,
+        "lineNumber": 182,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        /*"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        // check report window for invalid date format"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        executeCommand(ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_YEAR_NEGATIVE_YEAR);"
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertEquals(FORMAT_ERROR_MESSAGE, getResultDisplay().getText());"
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertCommandBoxShowsErrorStyle();"
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        */"
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        // check report window for invalid date format"
+      },
+      {
+        "lineNumber": 190,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" \" + CliSyntax.PREFIX_DATE + INVALID_MONTH_LARGE_MONTH;"
+      },
+      {
+        "lineNumber": 191,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        executeCommand(command);"
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        messageHistory \u003d \"ePiggy: \" + FORMAT_ERROR_MESSAGE + \"\\n\\n\""
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        assertEquals(messageHistory, getResultDisplay().getText());"
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertCommandBoxShowsErrorStyle();"
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        // check report window for invalid command"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        command \u003d ReportCommand.COMMAND_WORD + \" invalid\";"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        executeCommand(command);"
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "        String s1 \u003d \"ePiggy: Invalid command format! \\n\" + ReportCommand.MESSAGE_USAGE + \"\\n\\n\""
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "kev-inc"
+        },
+        "content": "                + \"You: \" + command + \"\\n\\n\" + messageHistory;"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        String s2 \u003d getResultDisplay().getText();"
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertEquals(s1, s2);"
+      },
+      {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertCommandBoxShowsErrorStyle();"
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 206,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 207,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 208,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "     * Asserts that the report window is open, and closes it after checking."
+      },
+      {
+        "lineNumber": 209,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 210,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "    private void assertReportWindowOpen() {"
+      },
+      {
+        "lineNumber": 211,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertTrue(ERROR_MESSAGE, ReportWindowHandle.isWindowPresent());"
+      },
+      {
+        "lineNumber": 212,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        guiRobot.pauseForHuman();"
+      },
+      {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 214,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        new ReportWindowHandle(guiRobot.getStage(ReportWindowHandle.REPORT_WINDOW_TITLE)).close();"
+      },
+      {
+        "lineNumber": 215,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        getMainWindowHandle().focus();"
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 219,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "     * Asserts that the report window isn\u0027t open."
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "    private void assertReportWindowNotOpen() {"
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "        assertFalse(ERROR_MESSAGE, ReportWindowHandle.isWindowPresent());"
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "yunjun199321"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 225,
         "author": {
           "gitId": "yunjun199321"
         },
@@ -149093,8 +150129,8 @@
       }
     ],
     "authorContributionMap": {
-      "yunjun199321": 174,
-      "kev-inc": 2,
+      "yunjun199321": 145,
+      "kev-inc": 78,
       "tehwenyi": 2
     }
   }

@@ -2284,8 +2284,8 @@
         ]
       },
       {
-        "insertions": 82,
-        "deletions": 16,
+        "insertions": 124,
+        "deletions": 36,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -2317,6 +2317,24 @@
             "message": "fixed clear command clearing the sem limits",
             "insertions": 9,
             "deletions": 0
+          },
+          {
+            "hash": "3f715cbc21506079e72746fbc5355f3906fc4d19",
+            "message": "added validation for grades on add and edit. fixed limit check",
+            "insertions": 37,
+            "deletions": 17
+          },
+          {
+            "hash": "65cadf7af6c1eb2899a0cfe503ba029033deeece",
+            "message": "fixed adding default sem limits",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "cad1398296b1a7565649429ba21a5788a50a9e2a",
+            "message": "fixed cklimit gui panel and help for cursem",
+            "insertions": 3,
+            "deletions": 1
           }
         ]
       }
@@ -3129,15 +3147,15 @@
   "authorFinalContributionMap": {
     "Anand270294": 1984,
     "crumpledpaper": 188,
-    "monikernemo": 5521,
-    "alexchong711": 3733,
-    "lshwayne96": 2081
+    "monikernemo": 5520,
+    "alexchong711": 3760,
+    "lshwayne96": 2078
   },
   "authorContributionVariance": {
     "Anand270294": 24594.746,
     "crumpledpaper": 1402.4597,
     "monikernemo": 644024.5,
-    "alexchong711": 212424.1,
+    "alexchong711": 212313.34,
     "lshwayne96": 104607.09
   },
   "authorDisplayNameMap": {

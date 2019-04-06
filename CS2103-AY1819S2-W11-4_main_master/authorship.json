@@ -9708,7 +9708,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "BookSquirrel is for those who *want to keep a record of books they\u0027ve read*. More importantly, BookSquirrel is *optimized for those who prefer to work with a Command Line Interface* (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, BookSquirrel can get your contact management tasks done faster than traditional GUI apps. Interested? Jump to the \u003c\u003cQuick Start\u003e\u003e to get started. Enjoy!"
+        "content": "BookSquirrel is for those who *want to keep a record of books they\u0027ve read*. More importantly, BookSquirrel is *optimized for those who prefer to work with a Command Line Interface* (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, BookSquirrel can get your book management tasks done faster than traditional GUI apps. Interested? Jump to the \u003c\u003cQuick Start\u003e\u003e to get started. Enjoy!"
       },
       {
         "lineNumber": 23,
@@ -9953,7 +9953,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* Rating should be integer from 0 to 10 inclusive."
+        "content": "* Rating should be integer from 0 to 10 inclusive and the input should be 1 or 2 digit number."
       },
       {
         "lineNumber": 58,
@@ -10133,7 +10133,7 @@
       {
         "lineNumber": 83,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
@@ -10184,7 +10184,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* Edits the book at the specified INDEX. The index refers to the index number shown in the displayed book list. The index must be a positive integer 1, 2, 3, …​"
+        "content": "* Edit the book at the specified INDEX. The index refers to the index number shown in the displayed book list. The index must be a positive integer 1, 2, 3, …​"
       },
       {
         "lineNumber": 91,
@@ -10268,7 +10268,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* `edit 1 n/Alice in Wonderland a/some author t/some tag` +"
+        "content": "* `editBook 1 n/Alice in Wonderland a/some author t/some tag` +"
       },
       {
         "lineNumber": 103,
@@ -10282,7 +10282,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* `edit 2 t/` +"
+        "content": "* `editBook 2 t/` +"
       },
       {
         "lineNumber": 105,
@@ -10779,14 +10779,14 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "* `sortBook st/rating st/author st/name o1/des o3/asc`"
       },
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "Jiangqinhua"
         },
-        "content": "// tag::reviews[]"
+        "content": "sort bookList by rating in descending order and since the o2 order is not specify, if same rating it will consider author as asc order."
       },
       {
         "lineNumber": 177,
@@ -10798,91 +10798,91 @@
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "Jiangqinhua"
         },
-        "content": "\u003d\u003d\u003d Review Commands"
+        "content": ""
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "// tag::reviews[]"
       },
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "Jiangqinhua"
         },
-        "content": "\u003d\u003d\u003d\u003d Adding a book review: `addReview`"
+        "content": ""
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Review Commands"
       },
       {
         "lineNumber": 182,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "-"
         },
-        "content": "Adds a book review to a certain book in the book list +"
+        "content": ""
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Adding a book review: `addReview`"
       },
       {
         "lineNumber": 184,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "-"
         },
-        "content": "Format: `addReview n/BOOKNAME rt/REVIEW TITLE r/REVIEW MESSAGE`"
+        "content": ""
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "Adds a book review to a certain book in the book list +"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "Format: `addReview n/BOOKNAME rt/REVIEW TITLE r/REVIEW MESSAGE`"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* `addReview n/Alice in Wonderland rt/An interesting child book r/While Lewis Carroll purists will scoff at the aging of his curious young protagonist, most movie audiences will enjoy this colorful world.`"
+        "content": ""
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* `addReview n/Structure and Interpretation of Computer Programs rt/Computing Bible r/A very difficult book:(`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 190,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
         "content": ""
       },
@@ -10891,70 +10891,70 @@
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "****"
+        "content": "* `addReview n/Alice in Wonderland rt/An interesting child book r/While Lewis Carroll purists will scoff at the aging of his curious young protagonist, most movie audiences will enjoy this colorful world.`"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* The book having specified `BOOKNAME` must already exist in the Book Shelf."
+        "content": "* `addReview n/Structure and Interpretation of Computer Programs rt/Computing Bible r/A very difficult book:(`"
       },
       {
         "lineNumber": 193,
-        "author": {
-          "gitId": "Miaaaaa97"
-        },
-        "content": "* `BOOKNAME` and `REVIEW TITLE` should not contain more than 50 characters."
-      },
-      {
-        "lineNumber": 194,
-        "author": {
-          "gitId": "Miaaaaa97"
-        },
-        "content": "* `REVIEW MESSAGE` should not contain more than 400 characters."
-      },
-      {
-        "lineNumber": 195,
-        "author": {
-          "gitId": "Miaaaaa97"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "Miaaaaa97"
+        },
+        "content": "* The book having specified `BOOKNAME` must already exist in the Book Shelf."
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "Miaaaaa97"
+        },
+        "content": "* `BOOKNAME` and `REVIEW TITLE` should not contain more than 50 characters."
+      },
+      {
         "lineNumber": 197,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Miaaaaa97"
         },
-        "content": "\u003d\u003d\u003d\u003d Deleting a book review: `deleteReview`"
+        "content": "* `REVIEW MESSAGE` should not contain more than 400 characters."
       },
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "Deletes the review of the specified index number from the review list. +"
+        "content": ""
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "Format: `deleteReview INDEX`"
+        "content": "\u003d\u003d\u003d\u003d Deleting a book review: `deleteReview`"
       },
       {
         "lineNumber": 201,
@@ -10968,126 +10968,126 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "Example:"
+        "content": "Deletes the review of the specified index number from the review list. +"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "Format: `deleteReview INDEX`"
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "* `deleteReview 1`"
+        "content": ""
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "Example:"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* Deletes the review of the specified `INDEX`."
+        "content": "* `deleteReview 1`"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* The index refers to the index number shown in the displayed review list."
+        "content": ""
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* The index must be a positive integer 1, 2, 3, …​"
+        "content": "****"
       },
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "****"
+        "content": "* Deletes the review of the specified `INDEX`."
       },
       {
         "lineNumber": 211,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "* The index refers to the index number shown in the displayed review list."
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "\u003d\u003d\u003d\u003d Listing all book reviews: `listAllReviews`"
+        "content": "* The index must be a positive integer 1, 2, 3, …​"
       },
       {
         "lineNumber": 213,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "0blivious"
         },
-        "content": "Lists all the reviews in the Book Shelf. +"
+        "content": "****"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "Format: `listAllReviews`"
+        "content": ""
       },
       {
         "lineNumber": 215,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Listing all book reviews: `listAllReviews`"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "\u003d\u003d\u003d\u003d Listing book reviews of a certain book : `listReview`"
+        "content": "Lists all the reviews in the Book Shelf. +"
       },
       {
         "lineNumber": 217,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "Format: `listAllReviews`"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Lists the reviews of the book identified by the index number used in the displayed book list. +"
+        "content": ""
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Format: `listReview INDEX`"
+        "content": "\u003d\u003d\u003d\u003d Listing book reviews of a certain book : `listReview`"
       },
       {
         "lineNumber": 220,
@@ -11101,84 +11101,84 @@
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Example:"
+        "content": "Lists the reviews of the book identified by the index number used in the displayed book list. +"
       },
       {
         "lineNumber": 222,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "Format: `listReview INDEX`"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* `listReview 1`"
+        "content": ""
       },
       {
         "lineNumber": 224,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "Example:"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* Lists the review of the book at the specified `INDEX`."
+        "content": "* `listReview 1`"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* The index refers to the index number shown in the displayed book list."
+        "content": ""
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* The index must be a positive integer 1, 2, 3, …​"
+        "content": "****"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "****"
+        "content": "* Lists the review of the book at the specified `INDEX`."
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "* The index refers to the index number shown in the displayed book list."
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "\u003d\u003d\u003d\u003d Selecting an review: `selectReview`"
+        "content": "* The index must be a positive integer 1, 2, 3, …​"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Selects a review."
+        "content": "****"
       },
       {
         "lineNumber": 233,
@@ -11192,140 +11192,140 @@
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Format: `selectReview INDEX`"
+        "content": "\u003d\u003d\u003d\u003d Selecting an review: `selectReview`"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "Selects a review."
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Example:"
+        "content": ""
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "Format: `selectReview INDEX`"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* `selectReview 1`"
+        "content": ""
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "****"
+        "content": "Example:"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* Selects the review of the specified `INDEX`."
+        "content": ""
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* The complete review will be displayed at the rightmost panel."
+        "content": "* `selectReview 1`"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* The index refers to the index number shown in the displayed review list."
+        "content": "****"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* The index must be a positive integer 1, 2, 3, …​"
+        "content": "* Selects the review of the specified `INDEX`."
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "****"
+        "content": "* The complete review will be displayed at the rightmost panel."
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "* The index refers to the index number shown in the displayed review list."
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "// end::reviews[]"
+        "content": "* The index must be a positive integer 1, 2, 3, …​"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "\u003d\u003d\u003d System Commands"
+        "content": ""
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "// end::reviews[]"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "\u003d\u003d\u003d\u003d Viewing help : `help`"
+        "content": ""
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d System Commands"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Offer a guide of all possible commands. +"
+        "content": ""
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "Format: `help`"
+        "content": "\u003d\u003d\u003d\u003d Viewing help : `help`"
       },
       {
         "lineNumber": 254,
@@ -11337,30 +11337,30 @@
       {
         "lineNumber": 255,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "0blivious"
         },
-        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
+        "content": "Offer a guide of all possible commands. +"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": ""
+        "content": "Format: `help`"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Lists all the commands that you have entered in reverse chronological order. +"
+        "content": ""
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Format: `history`"
+        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
       },
       {
         "lineNumber": 259,
@@ -11374,49 +11374,49 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "Lists all the commands that you have entered in reverse chronological order. +"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Format: `history`"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "-"
         },
-        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
+        "content": ""
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "-"
         },
-        "content": "// tag::undoredo[]"
+        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
       },
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Undoing previous command : `undo`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 267,
@@ -11428,16 +11428,16 @@
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "-"
         },
-        "content": "Restores the records to the state before the previous _undoable_ command was executed. +"
+        "content": "// tag::undoredo[]"
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Format: `undo`"
+        "content": "\u003d\u003d\u003d\u003d Undoing previous command : `undo`"
       },
       {
         "lineNumber": 270,
@@ -11449,93 +11449,93 @@
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "-"
+          "gitId": "EleenYang"
         },
-        "content": "[NOTE]"
+        "content": "Restores the records to the state before the previous _undoable_ command was executed. +"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "Format: `undo`"
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "Undoable commands: those commands that modify the records content (`addBook`, `addReview`, `deleteBook`, `deleteReview`, `editBook`, `sortBook` and `clear`)."
+        "content": ""
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "Examples:"
+        "content": "Undoable commands: those commands that modify the records content (`addBook`, `addReview`, `deleteBook`, `deleteReview`, `editBook`, `sortBook` and `clear`)."
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 278,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "* `listBook n/Alice` +"
-      },
-      {
-        "lineNumber": 279,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "`deleteBook 1` +"
-      },
-      {
-        "lineNumber": 280,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "`undo` (reverses the `deleteBook 1` command) +"
-      },
-      {
-        "lineNumber": 281,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 279,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Examples:"
+      },
+      {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 281,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "* `listBook n/Alice` +"
+      },
+      {
         "lineNumber": 282,
         "author": {
-          "gitId": "Jiangqinhua"
+          "gitId": "0blivious"
         },
-        "content": "* `sortBook st/rating` +"
+        "content": "`deleteBook 1` +"
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "Jiangqinhua"
+          "gitId": "0blivious"
         },
-        "content": "`undo` (reverses the `sortBook st/rating` command) +"
+        "content": "`undo` (reverses the `deleteBook 1` command) +"
       },
       {
         "lineNumber": 284,
@@ -11547,93 +11547,93 @@
       {
         "lineNumber": 285,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Jiangqinhua"
         },
-        "content": "* `listBook a/James` +"
+        "content": "* `sortBook st/rating` +"
       },
       {
         "lineNumber": 286,
         "author": {
-          "gitId": "-"
+          "gitId": "Jiangqinhua"
         },
-        "content": "`undo` +"
+        "content": "`undo` (reverses the `sortBook st/rating` command) +"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "-"
         },
-        "content": "The `undo` command fails as there are no undoable commands executed previously."
+        "content": ""
       },
       {
         "lineNumber": 288,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "* `listBook a/James` +"
       },
       {
         "lineNumber": 289,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "* `deleteBook 1` +"
+        "content": "`undo` +"
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": "The `undo` command fails as there are no undoable commands executed previously."
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": ""
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "`undo` (reverses the `deleteBook 1` command) +"
+        "content": "* `deleteBook 1` +"
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`clear` +"
       },
       {
         "lineNumber": 294,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Redoing the previously undone command : `redo`"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 295,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "`undo` (reverses the `deleteBook 1` command) +"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "-"
         },
-        "content": "Reverses the most recent `undo` command. +"
+        "content": ""
       },
       {
         "lineNumber": 297,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Format: `redo`"
+        "content": "\u003d\u003d\u003d\u003d Redoing the previously undone command : `redo`"
       },
       {
         "lineNumber": 298,
@@ -11647,117 +11647,117 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "Reverses the most recent `undo` command. +"
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `redo`"
       },
       {
         "lineNumber": 301,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "* `deleteBook 1` +"
+        "content": ""
       },
       {
         "lineNumber": 302,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "`undo` (reverses the `deleteBook 1` command) +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 303,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "`redo` (reapplies the `deleteBook 1` command) +"
+        "content": ""
       },
       {
         "lineNumber": 304,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "* `deleteBook 1` +"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* `deleteBook 1` +"
+        "content": "`undo` (reverses the `deleteBook 1` command) +"
       },
       {
         "lineNumber": 306,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "`redo` +"
+        "content": "`redo` (reapplies the `deleteBook 1` command) +"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "-"
         },
-        "content": "The `redo` command fails as there are no `undo` commands executed previously."
+        "content": ""
       },
       {
         "lineNumber": 308,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "* `deleteBook 1` +"
       },
       {
         "lineNumber": 309,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "-"
         },
-        "content": "// tag::summary[]"
+        "content": "`redo` +"
       },
       {
         "lineNumber": 310,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "The `redo` command fails as there are no `undo` commands executed previously."
       },
       {
         "lineNumber": 311,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Providing statistics of all the books read : `summary`"
+        "content": ""
       },
       {
         "lineNumber": 312,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": ""
+        "content": "// tag::summary[]"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "Generate a summary of all the books read so far. +"
+        "content": ""
       },
       {
         "lineNumber": 314,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "0blivious"
         },
-        "content": "Format: `summary`"
+        "content": "\u003d\u003d\u003d\u003d Providing statistics of all the books read : `summary`"
       },
       {
         "lineNumber": 315,
         "author": {
-          "gitId": "-"
+          "gitId": "EleenYang"
         },
         "content": ""
       },
@@ -11766,77 +11766,77 @@
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "****"
+        "content": "Generate a summary of all the books read so far. +"
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "* The summary will list out how many books you\u0027ve read."
+        "content": "Format: `summary`"
       },
       {
         "lineNumber": 318,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "* The summary will also list out authors appear more than once in your book shelf."
-      },
-      {
-        "lineNumber": 319,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "* The summary will also list out books of the highest score."
-      },
-      {
-        "lineNumber": 320,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "* The summary will also list out tags appear more than once in your book shelf."
-      },
-      {
-        "lineNumber": 321,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 322,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 323,
-        "author": {
-          "gitId": "EleenYang"
-        },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 324,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 319,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 320,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "* The summary will list out how many books you\u0027ve read."
+      },
+      {
+        "lineNumber": 321,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "* The summary will also list out authors appear more than once in your book shelf."
+      },
+      {
+        "lineNumber": 322,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "* The summary will also list out books of the highest score."
+      },
+      {
+        "lineNumber": 323,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "* The summary will also list out tags appear more than once in your book shelf."
+      },
+      {
+        "lineNumber": 324,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "****"
+      },
+      {
         "lineNumber": 325,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "* `summary`"
+        "content": ""
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "An example of a summary `You\u0027ve read 9 books. You prefered books by Erika Leonard, as you\u0027ve read: Fifty Shades of Grey, Fifty Shades Darker. These book receive a rating of 10 from you: To Kill a Mocking Bird. You preferred books that you labeled as fantasy(including The Hunger Games, Life of Pi).`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 327,
@@ -11850,42 +11850,42 @@
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "// end::summary[]"
+        "content": "* `summary`"
       },
       {
         "lineNumber": 329,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": ""
+        "content": "An example of a summary `You\u0027ve read 9 books. You prefered books by Erika Leonard, as you\u0027ve read: Fifty Shades of Grey, Fifty Shades Darker. These book receive a rating of 10 from you: To Kill a Mocking Bird. You preferred books that you labeled as fantasy(including The Hunger Games, Life of Pi).`"
       },
       {
         "lineNumber": 330,
         "author": {
-          "gitId": "Miaaaaa97"
-        },
-        "content": "\u003d\u003d\u003d\u003d Clearing all entries : `clear`"
-      },
-      {
-        "lineNumber": 331,
-        "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 331,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "// end::summary[]"
+      },
+      {
         "lineNumber": 332,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "EleenYang"
         },
-        "content": "Clears all entries from the book shelf. +"
+        "content": ""
       },
       {
         "lineNumber": 333,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Format: `clear`"
+        "content": "\u003d\u003d\u003d\u003d Clearing all entries : `clear`"
       },
       {
         "lineNumber": 334,
@@ -11897,30 +11897,30 @@
       {
         "lineNumber": 335,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "0blivious"
         },
-        "content": "\u003d\u003d\u003d\u003d Exiting the program : `exit`"
+        "content": "Clears all entries from the book shelf. +"
       },
       {
         "lineNumber": 336,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `clear`"
       },
       {
         "lineNumber": 337,
         "author": {
           "gitId": "-"
         },
-        "content": "Exits the program. +"
+        "content": ""
       },
       {
         "lineNumber": 338,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Format: `exit`"
+        "content": "\u003d\u003d\u003d\u003d Exiting the program : `exit`"
       },
       {
         "lineNumber": 339,
@@ -11932,30 +11932,30 @@
       {
         "lineNumber": 340,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Saving the data"
+        "content": "Exits the program. +"
       },
       {
         "lineNumber": 341,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 342,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "-"
         },
-        "content": "Book review data are saved in the hard disk automatically after any command that changes the data. +"
+        "content": ""
       },
       {
         "lineNumber": 343,
         "author": {
-          "gitId": "-"
+          "gitId": "Miaaaaa97"
         },
-        "content": "There is no need to save manually."
+        "content": "\u003d\u003d\u003d\u003d Saving the data"
       },
       {
         "lineNumber": 344,
@@ -11967,30 +11967,30 @@
       {
         "lineNumber": 345,
         "author": {
-          "gitId": "-"
+          "gitId": "EleenYang"
         },
-        "content": "\u003d\u003d FAQ"
+        "content": "Book review data are saved in the hard disk automatically after any command that changes the data. +"
       },
       {
         "lineNumber": 346,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "There is no need to save manually."
       },
       {
         "lineNumber": 347,
         "author": {
           "gitId": "-"
         },
-        "content": "*Q*: How do I transfer my data to another Computer? +"
+        "content": ""
       },
       {
         "lineNumber": 348,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "-"
         },
-        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Book Squirrel folder."
+        "content": "\u003d\u003d FAQ"
       },
       {
         "lineNumber": 349,
@@ -12004,234 +12004,255 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Command Summary"
+        "content": "*Q*: How do I transfer my data to another Computer? +"
       },
       {
         "lineNumber": 351,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Book Squirrel folder."
+      },
+      {
+        "lineNumber": 352,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 352,
-        "author": {
-          "gitId": "Miaaaaa97"
-        },
-        "content": "\u003d\u003d\u003d Book Commands"
-      },
-      {
         "lineNumber": 353,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "-"
         },
-        "content": "* *AddBook* `addBook n/BOOKNAME a/author m/RATING(0-10) [t/TAG]…` +"
+        "content": "\u003d\u003d Command Summary"
       },
       {
         "lineNumber": 354,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "e.g. `addBook n/Alice in Wonderland a/Lewis Carroll m/5 t/fantasy t/textbook`"
+        "content": ""
       },
       {
         "lineNumber": 355,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "* *EditBook* : `edit INDEX [n/BOOKNAME] [a/AUTHOR] [m/RATING]...` +"
+        "content": "\u003d\u003d\u003d Book Commands"
       },
       {
         "lineNumber": 356,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "EleenYang"
         },
-        "content": "e.g. `edit 1 n/Alice in Wonderland a/some author`"
+        "content": "* *AddBook* `addBook n/BOOKNAME a/author m/RATING(0-10) [t/TAG]…` +"
       },
       {
         "lineNumber": 357,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "0blivious"
         },
-        "content": "* *DeleteBook* : `deleteBook INDEX` +"
+        "content": "e.g. `addBook n/Alice in Wonderland a/Lewis Carroll m/5 t/fantasy t/textbook`"
       },
       {
         "lineNumber": 358,
         "author": {
-          "gitId": "Miaaaaa97"
+          "gitId": "0blivious"
         },
-        "content": "e.g. `deleteBook 4`"
+        "content": "* *EditBook* : `editBook INDEX [n/BOOKNAME] [a/AUTHOR] [m/RATING]...` +"
       },
       {
         "lineNumber": 359,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* *ListBook* : `listBook [n/NAME] [t/TAG] [m/RATING] [a/Author]` +"
+        "content": "e.g. `editBook 1 n/Alice in Wonderland a/some author`"
       },
       {
         "lineNumber": 360,
+        "author": {
+          "gitId": "Miaaaaa97"
+        },
+        "content": "* *DeleteBook* : `deleteBook INDEX` +"
+      },
+      {
+        "lineNumber": 361,
+        "author": {
+          "gitId": "Miaaaaa97"
+        },
+        "content": "e.g. `deleteBook 4`"
+      },
+      {
+        "lineNumber": 362,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "* *ListBook* : `listBook [n/NAME] [t/TAG] [m/RATING] [a/Author]` +"
+      },
+      {
+        "lineNumber": 363,
         "author": {
           "gitId": "0blivious"
         },
         "content": "e.g. `listBook t/textbook m/5`"
       },
       {
-        "lineNumber": 361,
+        "lineNumber": 364,
         "author": {
           "gitId": "Jiangqinhua"
         },
         "content": "* *sortBook* : `sortBook st/TYPE o/ORDER` +"
       },
       {
-        "lineNumber": 362,
+        "lineNumber": 365,
         "author": {
           "gitId": "Jiangqinhua"
         },
         "content": "e.g. `sortBook st/AUTHOR o/ASC`"
       },
       {
-        "lineNumber": 363,
+        "lineNumber": 366,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": ""
       },
       {
-        "lineNumber": 364,
+        "lineNumber": 367,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "\u003d\u003d\u003d Review Commands"
       },
       {
-        "lineNumber": 365,
+        "lineNumber": 368,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "* *AddReview* `addReview n/BOOKNAME r/review` +"
       },
       {
-        "lineNumber": 366,
+        "lineNumber": 369,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "e.g. `addReview n/Alice in Wonderland r/While Lewis Carroll purists will scoff at the aging of his curious young protagonist, most movie audiences will enjoy this colorful world.`"
       },
       {
-        "lineNumber": 367,
+        "lineNumber": 370,
         "author": {
           "gitId": "0blivious"
         },
         "content": "* *DeleteReview* : `deleteReview INDEX` +"
       },
       {
-        "lineNumber": 368,
+        "lineNumber": 371,
         "author": {
           "gitId": "0blivious"
         },
         "content": "eg. `deleteReview 1`"
       },
       {
-        "lineNumber": 369,
+        "lineNumber": 372,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "* *ListAllReviews* : `listAllReviews` +"
       },
       {
-        "lineNumber": 370,
+        "lineNumber": 373,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "e.g. `listAllReviews`"
       },
       {
-        "lineNumber": 371,
+        "lineNumber": 374,
         "author": {
           "gitId": "0blivious"
         },
         "content": "* *ListReview* : `listReview INDEX` +"
       },
       {
-        "lineNumber": 372,
+        "lineNumber": 375,
         "author": {
           "gitId": "0blivious"
         },
         "content": "e.g. `listReview 1`"
       },
       {
-        "lineNumber": 373,
+        "lineNumber": 376,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "* *SelectReview* : `selectReview INDEX` +"
       },
       {
-        "lineNumber": 374,
+        "lineNumber": 377,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "e.g. `selectReview 1`"
       },
       {
-        "lineNumber": 375,
+        "lineNumber": 378,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": ""
       },
       {
-        "lineNumber": 376,
+        "lineNumber": 379,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "\u003d\u003d\u003d System Commands"
       },
       {
-        "lineNumber": 377,
+        "lineNumber": 380,
         "author": {
           "gitId": "-"
         },
         "content": "* *Help* : `help`"
       },
       {
-        "lineNumber": 378,
+        "lineNumber": 381,
         "author": {
           "gitId": "-"
         },
         "content": "* *History* : `history`"
       },
       {
-        "lineNumber": 379,
+        "lineNumber": 382,
         "author": {
           "gitId": "-"
         },
         "content": "* *Undo* : `undo`"
       },
       {
-        "lineNumber": 380,
+        "lineNumber": 383,
         "author": {
           "gitId": "-"
         },
         "content": "* *Redo* : `redo`"
       },
       {
-        "lineNumber": 381,
+        "lineNumber": 384,
         "author": {
           "gitId": "EleenYang"
         },
         "content": "* *Summary* : `summary`"
       },
       {
-        "lineNumber": 382,
+        "lineNumber": 385,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "* *Clear* : `clear`"
       },
       {
-        "lineNumber": 383,
+        "lineNumber": 386,
         "author": {
           "gitId": "EleenYang"
         },
@@ -12239,11 +12260,11 @@
       }
     ],
     "authorContributionMap": {
-      "Miaaaaa97": 83,
-      "Jiangqinhua": 22,
+      "Miaaaaa97": 79,
+      "Jiangqinhua": 25,
       "EleenYang": 40,
-      "-": 148,
-      "0blivious": 90
+      "-": 147,
+      "0blivious": 95
     }
   },
   {
@@ -32088,7 +32109,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        return new Rating(trimmedRating);"
+        "content": "        return new Rating(trimmedRating.replaceFirst(\"^0+(?!$)\", \"\"));"
       },
       {
         "lineNumber": 108,
@@ -33072,7 +33093,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            subOrder.put(sortTypeSet.get(FIRST), argMultimap.getValue(PREFIX_FRISTORDER).get());"
+        "content": "            subOrder.put(sortTypeSet.get(FIRST).toLowerCase(), argMultimap.getValue(PREFIX_FRISTORDER).get());"
       },
       {
         "lineNumber": 83,
@@ -33114,7 +33135,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            subOrder.put(sortTypeSet.get(SECOND), argMultimap.getValue(PREFIX_SECONDORDER).get());"
+        "content": "            subOrder.put(sortTypeSet.get(SECOND).toLowerCase(), argMultimap.getValue(PREFIX_SECONDORDER).get());"
       },
       {
         "lineNumber": 89,
@@ -33156,7 +33177,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            subOrder.put(sortTypeSet.get(THIRD), argMultimap.getValue(PREFIX_THIRDORDER).get());"
+        "content": "            subOrder.put(sortTypeSet.get(THIRD).toLowerCase(), argMultimap.getValue(PREFIX_THIRDORDER).get());"
       },
       {
         "lineNumber": 95,
@@ -33233,136 +33254,122 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        List\u003cString\u003e checkDuplicates \u003d new ArrayList\u003c\u003e();"
+        "content": "        for (String type : sortTypes) {"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        for (String type : sortTypes) {"
+        "content": "            if ((!type.equalsIgnoreCase(AUTHOR)"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            if ((!type.equalsIgnoreCase(AUTHOR)"
+        "content": "                \u0026\u0026 !type.equalsIgnoreCase(BOOKNAME)"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "                \u0026\u0026 !type.equalsIgnoreCase(BOOKNAME)"
+        "content": "                \u0026\u0026 !type.equalsIgnoreCase(RATING))"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "                \u0026\u0026 !type.equalsIgnoreCase(RATING))"
+        "content": "                || sortTypeSet.contains(type)) {"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "                || checkDuplicates.contains(type)) {"
+        "content": "                return false;"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "                return false;"
+        "content": "            }"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            }"
+        "content": "            sortTypeSet.add(type.toLowerCase());"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            checkDuplicates.add(type);"
+        "content": "        }"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        }"
+        "content": "        return true;"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        sortTypeSet \u003d sortTypes;"
+        "content": "    }"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        return true;"
+        "content": ""
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "    }"
+        "content": "    private static boolean isValidSortOrder(String order) {"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": ""
+        "content": "        return order \u003d\u003d null"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "    private static boolean isValidSortOrder(String order) {"
+        "content": "            || order.equalsIgnoreCase(ASCENDING)"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        return order \u003d\u003d null"
+        "content": "            || order.equalsIgnoreCase(DESCENDING);"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            || order.equalsIgnoreCase(ASCENDING)"
-      },
-      {
-        "lineNumber": 122,
-        "author": {
-          "gitId": "Jiangqinhua"
-        },
-        "content": "            || order.equalsIgnoreCase(DESCENDING);"
-      },
-      {
-        "lineNumber": 123,
-        "author": {
-          "gitId": "Jiangqinhua"
-        },
         "content": "    }"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 122,
         "author": {
           "gitId": "Jiangqinhua"
         },
@@ -33370,7 +33377,7 @@
       }
     ],
     "authorContributionMap": {
-      "Jiangqinhua": 124
+      "Jiangqinhua": 122
     }
   },
   {
@@ -45068,7 +45075,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public static final String VALIDATION_REGEX \u003d \"[0-9]|10\";"
+        "content": "    public static final String VALIDATION_REGEX \u003d \"(0?[0-9])|10\";"
       },
       {
         "lineNumber": 16,
@@ -47440,7 +47447,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            String firstType \u003d iterator.next().toLowerCase();"
+        "content": "            String firstType \u003d iterator.next();"
       },
       {
         "lineNumber": 120,
@@ -47454,7 +47461,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            if (firstType.equals(SortBookCommandParser.AUTHOR)) {"
+        "content": "            if (firstType.equalsIgnoreCase(SortBookCommandParser.AUTHOR)) {"
       },
       {
         "lineNumber": 122,
@@ -47524,7 +47531,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "            } else if (firstType.equals(SortBookCommandParser.BOOKNAME)) {"
+        "content": "            } else if (firstType.equalsIgnoreCase(SortBookCommandParser.BOOKNAME)) {"
       },
       {
         "lineNumber": 132,
@@ -47846,7 +47853,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        if (order.equals(SortBookCommandParser.ASCENDING)) {"
+        "content": "        if (order.equalsIgnoreCase(SortBookCommandParser.ASCENDING)) {"
       },
       {
         "lineNumber": 178,
@@ -48063,14 +48070,14 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        String secondType \u003d iterator.next().toLowerCase();"
+        "content": "        String secondType \u003d iterator.next();"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        if (secondType.equals(sortType)) {"
+        "content": "        if (secondType.equalsIgnoreCase(sortType)) {"
       },
       {
         "lineNumber": 210,
@@ -48364,7 +48371,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        return b1.getAuthor().fullName.compareTo(b2.getAuthor().fullName);"
+        "content": "        return b1.getAuthor().fullName.compareToIgnoreCase(b2.getAuthor().fullName);"
       },
       {
         "lineNumber": 252,
@@ -48399,7 +48406,7 @@
         "author": {
           "gitId": "Jiangqinhua"
         },
-        "content": "        return b1.getBookName().fullName.compareTo(b2.getBookName().fullName);"
+        "content": "        return b1.getBookName().fullName.compareToIgnoreCase(b2.getBookName().fullName);"
       },
       {
         "lineNumber": 257,
@@ -50114,14 +50121,14 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            + \"alphanumeric and contains less than 20 characters\";"
+        "content": "            + \" alphanumeric and contains less than 20 characters\";"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    public static final String VALIDATION_REGEX \u003d \"\\\\p{Alnum}+\";"
+        "content": "    public static final String VALIDATION_REGEX \u003d \"[\\\\p{Alnum}][\\\\p{Alnum} ]*\";"
       },
       {
         "lineNumber": 15,
@@ -50420,8 +50427,8 @@
     ],
     "authorContributionMap": {
       "EleenYang": 2,
-      "-": 52,
-      "0blivious": 2
+      "-": 51,
+      "0blivious": 3
     }
   },
   {

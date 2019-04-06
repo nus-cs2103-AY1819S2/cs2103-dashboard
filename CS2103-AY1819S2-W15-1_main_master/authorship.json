@@ -3192,42 +3192,42 @@
       {
         "lineNumber": 316,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
         "content": "// tag::save[]"
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d UI Autocomplete feature"
+        "content": "\u003d\u003d\u003d Recommendation Clothes feature"
       },
       {
         "lineNumber": 318,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
-        "content": "Show matching commands and missing parameters."
+        "content": "Recommend clothing item based on color matching as well as type of clothing."
       },
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
         "content": "\u003d\u003d\u003d\u003d Current Implementation"
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
-        "content": "_{More to be added by 3 Apr}_"
+        "content": "_{Recommendation}_"
       },
       {
         "lineNumber": 321,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
         "content": "// end::save[]"
       },
@@ -3241,121 +3241,121 @@
       {
         "lineNumber": 323,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Logging"
+        "content": "// tag::save[]"
       },
       {
         "lineNumber": 324,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Random Select feature"
       },
       {
         "lineNumber": 325,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "We are using `java.util.logging` package for logging. The `LogsCenter` class is used to manage the logging levels and logging destinations."
+        "content": "Random TYPE, and Something Color method. They return random items of selected color and type."
       },
       {
         "lineNumber": 326,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Current Implementation"
       },
       {
         "lineNumber": 327,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "* The logging level can be controlled using the `logLevel` setting in the configuration file (See \u003c\u003cImplementation-Configuration\u003e\u003e)"
+        "content": "_{random TYPE, something COLOR}_"
       },
       {
         "lineNumber": 328,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "* The `Logger` for a class can be obtained using `LogsCenter.getLogger(Class)` which will log messages according to the specified logging level"
+        "content": "// end::save[]"
       },
       {
         "lineNumber": 329,
         "author": {
           "gitId": "-"
         },
-        "content": "* Currently log messages are output through: `Console` and to a `.log` file."
+        "content": ""
       },
       {
         "lineNumber": 330,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "// tag::save[]"
       },
       {
         "lineNumber": 331,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "*Logging Levels*"
+        "content": "\u003d\u003d\u003d UI Autocomplete feature"
       },
       {
         "lineNumber": 332,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "Show matching commands and missing parameters."
       },
       {
         "lineNumber": 333,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* `SEVERE` : Critical problem detected which may possibly cause the termination of the application"
+        "content": "\u003d\u003d\u003d\u003d Current Implementation"
       },
       {
         "lineNumber": 334,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* `WARNING` : Can continue, but with caution"
+        "content": "_{More to be added by 3 Apr}_"
       },
       {
         "lineNumber": 335,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": "* `INFO` : Information showing the noteworthy actions by the App"
+        "content": "// end::save[]"
       },
       {
         "lineNumber": 336,
         "author": {
           "gitId": "-"
         },
-        "content": "* `FINE` : Details that is not usually noteworthy but may be useful in debugging e.g. print the actual list instead of just its size"
+        "content": ""
       },
       {
         "lineNumber": 337,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Logging"
       },
       {
         "lineNumber": 338,
         "author": {
           "gitId": "-"
         },
-        "content": "[[Implementation-Configuration]]"
+        "content": ""
       },
       {
         "lineNumber": 339,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Configuration"
+        "content": "We are using `java.util.logging` package for logging. The `LogsCenter` class is used to manage the logging levels and logging destinations."
       },
       {
         "lineNumber": 340,
@@ -3369,21 +3369,21 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Certain properties of the application can be controlled (e.g user prefs file location, logging level) through the configuration file (default: `config.json`)."
+        "content": "* The logging level can be controlled using the `logLevel` setting in the configuration file (See \u003c\u003cImplementation-Configuration\u003e\u003e)"
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* The `Logger` for a class can be obtained using `LogsCenter.getLogger(Class)` which will log messages according to the specified logging level"
       },
       {
         "lineNumber": 343,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Documentation"
+        "content": "* Currently log messages are output through: `Console` and to a `.log` file."
       },
       {
         "lineNumber": 344,
@@ -3397,7 +3397,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "We use asciidoc for writing documentation."
+        "content": "*Logging Levels*"
       },
       {
         "lineNumber": 346,
@@ -3411,28 +3411,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "* `SEVERE` : Critical problem detected which may possibly cause the termination of the application"
       },
       {
         "lineNumber": 348,
         "author": {
           "gitId": "-"
         },
-        "content": "We chose asciidoc over Markdown because asciidoc, although a bit more complex than Markdown, provides more flexibility in formatting."
+        "content": "* `WARNING` : Can continue, but with caution"
       },
       {
         "lineNumber": 349,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `INFO` : Information showing the noteworthy actions by the App"
       },
       {
         "lineNumber": 350,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Editing Documentation"
+        "content": "* `FINE` : Details that is not usually noteworthy but may be useful in debugging e.g. print the actual list instead of just its size"
       },
       {
         "lineNumber": 351,
@@ -3446,14 +3446,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to learn how to render `.adoc` files locally to preview the end result of your edits."
+        "content": "[[Implementation-Configuration]]"
       },
       {
         "lineNumber": 353,
         "author": {
           "gitId": "-"
         },
-        "content": "Alternatively, you can download the AsciiDoc plugin for IntelliJ, which allows you to preview the changes you have made to your `.adoc` files in real-time."
+        "content": "\u003d\u003d\u003d Configuration"
       },
       {
         "lineNumber": 354,
@@ -3467,7 +3467,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Publishing Documentation"
+        "content": "Certain properties of the application can be controlled (e.g user prefs file location, logging level) through the configuration file (default: `config.json`)."
       },
       {
         "lineNumber": 356,
@@ -3481,7 +3481,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingTravis#deploying-github-pages, UsingTravis.adoc\u003e\u003e to learn how to deploy GitHub Pages using Travis."
+        "content": "\u003d\u003d Documentation"
       },
       {
         "lineNumber": 358,
@@ -3495,7 +3495,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Converting Documentation to PDF format"
+        "content": "We use asciidoc for writing documentation."
       },
       {
         "lineNumber": 360,
@@ -3509,77 +3509,77 @@
         "author": {
           "gitId": "-"
         },
-        "content": "We use https://www.google.com/chrome/browser/desktop/[Google Chrome] for converting documentation to PDF format, as Chrome\u0027s PDF engine preserves hyperlinks used in webpages."
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 362,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We chose asciidoc over Markdown because asciidoc, although a bit more complex than Markdown, provides more flexibility in formatting."
       },
       {
         "lineNumber": 363,
         "author": {
           "gitId": "-"
         },
-        "content": "Here are the steps to convert the project documentation files to PDF format."
+        "content": ""
       },
       {
         "lineNumber": 364,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Editing Documentation"
       },
       {
         "lineNumber": 365,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Follow the instructions in \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to convert the AsciiDoc files in the `docs/` directory to HTML format."
+        "content": ""
       },
       {
         "lineNumber": 366,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Go to your generated HTML files in the `build/docs` folder, right click on them and select `Open with` -\u003e `Google Chrome`."
+        "content": "See \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to learn how to render `.adoc` files locally to preview the end result of your edits."
       },
       {
         "lineNumber": 367,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Within Chrome, click on the `Print` option in Chrome\u0027s menu."
+        "content": "Alternatively, you can download the AsciiDoc plugin for IntelliJ, which allows you to preview the changes you have made to your `.adoc` files in real-time."
       },
       {
         "lineNumber": 368,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Set the destination to `Save as PDF`, then click `Save` to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below."
+        "content": ""
       },
       {
         "lineNumber": 369,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Publishing Documentation"
       },
       {
         "lineNumber": 370,
         "author": {
           "gitId": "-"
         },
-        "content": ".Saving documentation as PDF files in Chrome"
+        "content": ""
       },
       {
         "lineNumber": 371,
         "author": {
           "gitId": "-"
         },
-        "content": "image::chrome_save_as_pdf.png[width\u003d\"300\"]"
+        "content": "See \u003c\u003cUsingTravis#deploying-github-pages, UsingTravis.adoc\u003e\u003e to learn how to deploy GitHub Pages using Travis."
       },
       {
         "lineNumber": 372,
@@ -3593,252 +3593,252 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[Docs-SiteWideDocSettings]]"
+        "content": "\u003d\u003d\u003d Converting Documentation to PDF format"
       },
       {
         "lineNumber": 374,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Site-wide Documentation Settings"
+        "content": ""
       },
       {
         "lineNumber": 375,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We use https://www.google.com/chrome/browser/desktop/[Google Chrome] for converting documentation to PDF format, as Chrome\u0027s PDF engine preserves hyperlinks used in webpages."
       },
       {
         "lineNumber": 376,
         "author": {
           "gitId": "-"
         },
-        "content": "The link:{repoURL}/build.gradle[`build.gradle`] file specifies some project-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how all documentation files within this project are rendered."
+        "content": ""
       },
       {
         "lineNumber": 377,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Here are the steps to convert the project documentation files to PDF format."
       },
       {
         "lineNumber": 378,
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": ""
       },
       {
         "lineNumber": 379,
         "author": {
           "gitId": "-"
         },
-        "content": "Attributes left unset in the `build.gradle` file will use their *default value*, if any."
+        "content": ".  Follow the instructions in \u003c\u003cUsingGradle#rendering-asciidoc-files, UsingGradle.adoc\u003e\u003e to convert the AsciiDoc files in the `docs/` directory to HTML format."
       },
       {
         "lineNumber": 380,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Go to your generated HTML files in the `build/docs` folder, right click on them and select `Open with` -\u003e `Google Chrome`."
       },
       {
         "lineNumber": 381,
         "author": {
           "gitId": "-"
         },
-        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
+        "content": ".  Within Chrome, click on the `Print` option in Chrome\u0027s menu."
       },
       {
         "lineNumber": 382,
         "author": {
           "gitId": "-"
         },
-        "content": ".List of site-wide attributes"
+        "content": ".  Set the destination to `Save as PDF`, then click `Save` to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below."
       },
       {
         "lineNumber": 383,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 384,
         "author": {
           "gitId": "-"
         },
-        "content": "|Attribute name |Description |Default value"
+        "content": ".Saving documentation as PDF files in Chrome"
       },
       {
         "lineNumber": 385,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "image::chrome_save_as_pdf.png[width\u003d\"300\"]"
       },
       {
         "lineNumber": 386,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-name`"
+        "content": ""
       },
       {
         "lineNumber": 387,
         "author": {
           "gitId": "-"
         },
-        "content": "|The name of the website."
+        "content": "[[Docs-SiteWideDocSettings]]"
       },
       {
         "lineNumber": 388,
         "author": {
           "gitId": "-"
         },
-        "content": "If set, the name will be displayed near the top of the page."
+        "content": "\u003d\u003d\u003d Site-wide Documentation Settings"
       },
       {
         "lineNumber": 389,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": ""
       },
       {
         "lineNumber": 390,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The link:{repoURL}/build.gradle[`build.gradle`] file specifies some project-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how all documentation files within this project are rendered."
       },
       {
         "lineNumber": 391,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-githuburl`"
+        "content": ""
       },
       {
         "lineNumber": 392,
         "author": {
           "gitId": "-"
         },
-        "content": "|URL to the site\u0027s repository on https://github.com[GitHub]."
+        "content": "[TIP]"
       },
       {
         "lineNumber": 393,
         "author": {
           "gitId": "-"
         },
-        "content": "Setting this will add a \"View on GitHub\" link in the navigation bar."
+        "content": "Attributes left unset in the `build.gradle` file will use their *default value*, if any."
       },
       {
         "lineNumber": 394,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": ""
       },
       {
         "lineNumber": 395,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
       },
       {
         "lineNumber": 396,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-seedu`"
+        "content": ".List of site-wide attributes"
       },
       {
         "lineNumber": 397,
         "author": {
           "gitId": "-"
         },
-        "content": "|Define this attribute if the project is an official SE-EDU project."
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 398,
         "author": {
           "gitId": "-"
         },
-        "content": "This will render the SE-EDU navigation bar at the top of the page, and add some SE-EDU-specific navigation items."
+        "content": "|Attribute name |Description |Default value"
       },
       {
         "lineNumber": 399,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": ""
       },
       {
         "lineNumber": 400,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|`site-name`"
       },
       {
         "lineNumber": 401,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "|The name of the website."
       },
       {
         "lineNumber": 402,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "If set, the name will be displayed near the top of the page."
       },
       {
         "lineNumber": 403,
         "author": {
           "gitId": "-"
         },
-        "content": "[[Docs-PerFileDocSettings]]"
+        "content": "|_not set_"
       },
       {
         "lineNumber": 404,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Per-file Documentation Settings"
+        "content": ""
       },
       {
         "lineNumber": 405,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|`site-githuburl`"
       },
       {
         "lineNumber": 406,
         "author": {
           "gitId": "-"
         },
-        "content": "Each `.adoc` file may also specify some file-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how the file is rendered."
+        "content": "|URL to the site\u0027s repository on https://github.com[GitHub]."
       },
       {
         "lineNumber": 407,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Setting this will add a \"View on GitHub\" link in the navigation bar."
       },
       {
         "lineNumber": 408,
         "author": {
           "gitId": "-"
         },
-        "content": "Asciidoctor\u0027s https://asciidoctor.org/docs/user-manual/#builtin-attributes[built-in attributes] may be specified and used as well."
+        "content": "|_not set_"
       },
       {
         "lineNumber": 409,
@@ -3852,35 +3852,35 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "|`site-seedu`"
       },
       {
         "lineNumber": 411,
         "author": {
           "gitId": "-"
         },
-        "content": "Attributes left unset in `.adoc` files will use their *default value*, if any."
+        "content": "|Define this attribute if the project is an official SE-EDU project."
       },
       {
         "lineNumber": 412,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "This will render the SE-EDU navigation bar at the top of the page, and add some SE-EDU-specific navigation items."
       },
       {
         "lineNumber": 413,
         "author": {
           "gitId": "-"
         },
-        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
+        "content": "|_not set_"
       },
       {
         "lineNumber": 414,
         "author": {
           "gitId": "-"
         },
-        "content": ".List of per-file attributes, excluding Asciidoctor\u0027s built-in attributes"
+        "content": ""
       },
       {
         "lineNumber": 415,
@@ -3894,105 +3894,105 @@
         "author": {
           "gitId": "-"
         },
-        "content": "|Attribute name |Description |Default value"
+        "content": ""
       },
       {
         "lineNumber": 417,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[[Docs-PerFileDocSettings]]"
       },
       {
         "lineNumber": 418,
         "author": {
           "gitId": "-"
         },
-        "content": "|`site-section`"
+        "content": "\u003d\u003d\u003d Per-file Documentation Settings"
       },
       {
         "lineNumber": 419,
         "author": {
           "gitId": "-"
         },
-        "content": "|Site section that the document belongs to."
+        "content": ""
       },
       {
         "lineNumber": 420,
         "author": {
           "gitId": "-"
         },
-        "content": "This will cause the associated item in the navigation bar to be highlighted."
+        "content": "Each `.adoc` file may also specify some file-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how the file is rendered."
       },
       {
         "lineNumber": 421,
         "author": {
           "gitId": "-"
         },
-        "content": "One of: `UserGuide`, `DeveloperGuide`, ``LearningOutcomes``{asterisk}, `AboutUs`, `ContactUs`"
+        "content": ""
       },
       {
         "lineNumber": 422,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Asciidoctor\u0027s https://asciidoctor.org/docs/user-manual/#builtin-attributes[built-in attributes] may be specified and used as well."
       },
       {
         "lineNumber": 423,
         "author": {
           "gitId": "-"
         },
-        "content": "_{asterisk} Official SE-EDU projects only_"
+        "content": ""
       },
       {
         "lineNumber": 424,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": "[TIP]"
       },
       {
         "lineNumber": 425,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Attributes left unset in `.adoc` files will use their *default value*, if any."
       },
       {
         "lineNumber": 426,
         "author": {
           "gitId": "-"
         },
-        "content": "|`no-site-header`"
+        "content": ""
       },
       {
         "lineNumber": 427,
         "author": {
           "gitId": "-"
         },
-        "content": "|Set this attribute to remove the site navigation bar."
+        "content": "[cols\u003d\"1,2a,1\", options\u003d\"header\"]"
       },
       {
         "lineNumber": 428,
         "author": {
           "gitId": "-"
         },
-        "content": "|_not set_"
+        "content": ".List of per-file attributes, excluding Asciidoctor\u0027s built-in attributes"
       },
       {
         "lineNumber": 429,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 430,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d"
+        "content": "|Attribute name |Description |Default value"
       },
       {
         "lineNumber": 431,
@@ -4006,28 +4006,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Site Template"
+        "content": "|`site-section`"
       },
       {
         "lineNumber": 433,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|Site section that the document belongs to."
       },
       {
         "lineNumber": 434,
         "author": {
           "gitId": "-"
         },
-        "content": "The files in link:{repoURL}/docs/stylesheets[`docs/stylesheets`] are the https://developer.mozilla.org/en-US/docs/Web/CSS[CSS stylesheets] of the site."
+        "content": "This will cause the associated item in the navigation bar to be highlighted."
       },
       {
         "lineNumber": 435,
         "author": {
           "gitId": "-"
         },
-        "content": "You can modify them to change some properties of the site\u0027s design."
+        "content": "One of: `UserGuide`, `DeveloperGuide`, ``LearningOutcomes``{asterisk}, `AboutUs`, `ContactUs`"
       },
       {
         "lineNumber": 436,
@@ -4041,14 +4041,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "The files in link:{repoURL}/docs/templates[`docs/templates`] controls the rendering of `.adoc` files into HTML5."
+        "content": "_{asterisk} Official SE-EDU projects only_"
       },
       {
         "lineNumber": 438,
         "author": {
           "gitId": "-"
         },
-        "content": "These template files are written in a mixture of https://www.ruby-lang.org[Ruby] and http://slim-lang.com[Slim]."
+        "content": "|_not set_"
       },
       {
         "lineNumber": 439,
@@ -4062,91 +4062,91 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[WARNING]"
+        "content": "|`no-site-header`"
       },
       {
         "lineNumber": 441,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "|Set this attribute to remove the site navigation bar."
       },
       {
         "lineNumber": 442,
         "author": {
           "gitId": "-"
         },
-        "content": "Modifying the template files in link:{repoURL}/docs/templates[`docs/templates`] requires some knowledge and experience with Ruby and Asciidoctor\u0027s API."
+        "content": "|_not set_"
       },
       {
         "lineNumber": 443,
         "author": {
           "gitId": "-"
         },
-        "content": "You should only modify them if you need greater control over the site\u0027s layout than what stylesheets can provide."
+        "content": ""
       },
       {
         "lineNumber": 444,
         "author": {
           "gitId": "-"
         },
-        "content": "The SE-EDU team does not provide support for modified template files."
+        "content": "|\u003d\u003d\u003d"
       },
       {
         "lineNumber": 445,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 446,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Site Template"
       },
       {
         "lineNumber": 447,
         "author": {
           "gitId": "-"
         },
-        "content": "[[Testing]]"
+        "content": ""
       },
       {
         "lineNumber": 448,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Testing"
+        "content": "The files in link:{repoURL}/docs/stylesheets[`docs/stylesheets`] are the https://developer.mozilla.org/en-US/docs/Web/CSS[CSS stylesheets] of the site."
       },
       {
         "lineNumber": 449,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "You can modify them to change some properties of the site\u0027s design."
       },
       {
         "lineNumber": 450,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Running Tests"
+        "content": ""
       },
       {
         "lineNumber": 451,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The files in link:{repoURL}/docs/templates[`docs/templates`] controls the rendering of `.adoc` files into HTML5."
       },
       {
         "lineNumber": 452,
         "author": {
           "gitId": "-"
         },
-        "content": "There are three ways to run tests."
+        "content": "These template files are written in a mixture of https://www.ruby-lang.org[Ruby] and http://slim-lang.com[Slim]."
       },
       {
         "lineNumber": 453,
@@ -4160,63 +4160,63 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "[WARNING]"
       },
       {
         "lineNumber": 455,
         "author": {
           "gitId": "-"
         },
-        "content": "The most reliable way to run tests is the 3rd one. The first two methods might fail some GUI tests due to platform/resolution-specific idiosyncrasies."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 456,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Modifying the template files in link:{repoURL}/docs/templates[`docs/templates`] requires some knowledge and experience with Ruby and Asciidoctor\u0027s API."
       },
       {
         "lineNumber": 457,
         "author": {
           "gitId": "-"
         },
-        "content": "*Method 1: Using IntelliJ JUnit test runner*"
+        "content": "You should only modify them if you need greater control over the site\u0027s layout than what stylesheets can provide."
       },
       {
         "lineNumber": 458,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The SE-EDU team does not provide support for modified template files."
       },
       {
         "lineNumber": 459,
         "author": {
           "gitId": "-"
         },
-        "content": "* To run all tests, right-click on the `src/test/java` folder and choose `Run \u0027All Tests\u0027`"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 460,
         "author": {
           "gitId": "-"
         },
-        "content": "* To run a subset of tests, you can right-click on a test package, test class, or a test and choose `Run \u0027ABC\u0027`"
+        "content": ""
       },
       {
         "lineNumber": 461,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[[Testing]]"
       },
       {
         "lineNumber": 462,
         "author": {
           "gitId": "-"
         },
-        "content": "*Method 2: Using Gradle*"
+        "content": "\u003d\u003d Testing"
       },
       {
         "lineNumber": 463,
@@ -4230,7 +4230,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* Open a console and run the command `gradlew clean allTests` (Mac/Linux: `./gradlew clean allTests`)"
+        "content": "\u003d\u003d\u003d Running Tests"
       },
       {
         "lineNumber": 465,
@@ -4244,28 +4244,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "There are three ways to run tests."
       },
       {
         "lineNumber": 467,
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e for more info on how to run tests using Gradle."
+        "content": ""
       },
       {
         "lineNumber": 468,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[TIP]"
       },
       {
         "lineNumber": 469,
         "author": {
           "gitId": "-"
         },
-        "content": "*Method 3: Using Gradle (headless)*"
+        "content": "The most reliable way to run tests is the 3rd one. The first two methods might fail some GUI tests due to platform/resolution-specific idiosyncrasies."
       },
       {
         "lineNumber": 470,
@@ -4279,7 +4279,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Thanks to the https://github.com/TestFX/TestFX[TestFX] library we use, our GUI tests can be run in the _headless_ mode. In the headless mode, GUI tests do not show up on the screen. That means the developer can do other things on the Computer while the tests are running."
+        "content": "*Method 1: Using IntelliJ JUnit test runner*"
       },
       {
         "lineNumber": 472,
@@ -4293,119 +4293,119 @@
         "author": {
           "gitId": "-"
         },
-        "content": "To run tests in headless mode, open a console and run the command `gradlew clean headless allTests` (Mac/Linux: `./gradlew clean headless allTests`)"
+        "content": "* To run all tests, right-click on the `src/test/java` folder and choose `Run \u0027All Tests\u0027`"
       },
       {
         "lineNumber": 474,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* To run a subset of tests, you can right-click on a test package, test class, or a test and choose `Run \u0027ABC\u0027`"
       },
       {
         "lineNumber": 475,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Types of tests"
+        "content": ""
       },
       {
         "lineNumber": 476,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "*Method 2: Using Gradle*"
       },
       {
         "lineNumber": 477,
         "author": {
           "gitId": "-"
         },
-        "content": "We have two types of tests:"
+        "content": ""
       },
       {
         "lineNumber": 478,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Open a console and run the command `gradlew clean allTests` (Mac/Linux: `./gradlew clean allTests`)"
       },
       {
         "lineNumber": 479,
         "author": {
           "gitId": "-"
         },
-        "content": ".  *GUI Tests* - These are tests involving the GUI. They include,"
+        "content": ""
       },
       {
         "lineNumber": 480,
         "author": {
           "gitId": "-"
         },
-        "content": ".. _System Tests_ that test the entire App by simulating user actions on the GUI. These are in the `systemtests` package."
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 481,
         "author": {
           "gitId": "-"
         },
-        "content": ".. _Unit tests_ that test the individual components. These are in `seedu.address.ui` package."
+        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e for more info on how to run tests using Gradle."
       },
       {
         "lineNumber": 482,
         "author": {
           "gitId": "-"
         },
-        "content": ".  *Non-GUI Tests* - These are tests not involving the GUI. They include,"
+        "content": ""
       },
       {
         "lineNumber": 483,
         "author": {
           "gitId": "-"
         },
-        "content": "..  _Unit tests_ targeting the lowest level methods/classes. +"
+        "content": "*Method 3: Using Gradle (headless)*"
       },
       {
         "lineNumber": 484,
         "author": {
           "gitId": "-"
         },
-        "content": "e.g. `seedu.address.commons.StringUtilTest`"
+        "content": ""
       },
       {
         "lineNumber": 485,
         "author": {
           "gitId": "-"
         },
-        "content": "..  _Integration tests_ that are checking the integration of multiple code units (those code units are assumed to be working). +"
+        "content": "Thanks to the https://github.com/TestFX/TestFX[TestFX] library we use, our GUI tests can be run in the _headless_ mode. In the headless mode, GUI tests do not show up on the screen. That means the developer can do other things on the Computer while the tests are running."
       },
       {
         "lineNumber": 486,
         "author": {
           "gitId": "-"
         },
-        "content": "e.g. `seedu.address.storage.StorageManagerTest`"
+        "content": ""
       },
       {
         "lineNumber": 487,
         "author": {
           "gitId": "-"
         },
-        "content": "..  Hybrids of unit and integration tests. These test are checking multiple code units as well as how the are connected together. +"
+        "content": "To run tests in headless mode, open a console and run the command `gradlew clean headless allTests` (Mac/Linux: `./gradlew clean headless allTests`)"
       },
       {
         "lineNumber": 488,
         "author": {
           "gitId": "-"
         },
-        "content": "e.g. `seedu.address.logic.LogicManagerTest`"
+        "content": ""
       },
       {
         "lineNumber": 489,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Types of tests"
       },
       {
         "lineNumber": 490,
@@ -4419,91 +4419,91 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Troubleshooting Testing"
+        "content": "We have two types of tests:"
       },
       {
         "lineNumber": 492,
         "author": {
           "gitId": "-"
         },
-        "content": "**Problem: `HelpWindowTest` fails with a `NullPointerException`.**"
+        "content": ""
       },
       {
         "lineNumber": 493,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  *GUI Tests* - These are tests involving the GUI. They include,"
       },
       {
         "lineNumber": 494,
         "author": {
           "gitId": "-"
         },
-        "content": "* Reason: One of its dependencies, `HelpWindow.html` in `src/main/resources/docs` is missing."
+        "content": ".. _System Tests_ that test the entire App by simulating user actions on the GUI. These are in the `systemtests` package."
       },
       {
         "lineNumber": 495,
         "author": {
           "gitId": "-"
         },
-        "content": "* Solution: Execute Gradle task `processResources`."
+        "content": ".. _Unit tests_ that test the individual components. These are in `seedu.address.ui` package."
       },
       {
         "lineNumber": 496,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  *Non-GUI Tests* - These are tests not involving the GUI. They include,"
       },
       {
         "lineNumber": 497,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Dev Ops"
+        "content": "..  _Unit tests_ targeting the lowest level methods/classes. +"
       },
       {
         "lineNumber": 498,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "e.g. `seedu.address.commons.StringUtilTest`"
       },
       {
         "lineNumber": 499,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Build Automation"
+        "content": "..  _Integration tests_ that are checking the integration of multiple code units (those code units are assumed to be working). +"
       },
       {
         "lineNumber": 500,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "e.g. `seedu.address.storage.StorageManagerTest`"
       },
       {
         "lineNumber": 501,
         "author": {
           "gitId": "-"
         },
-        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e to learn how to use Gradle for build automation."
+        "content": "..  Hybrids of unit and integration tests. These test are checking multiple code units as well as how the are connected together. +"
       },
       {
         "lineNumber": 502,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "e.g. `seedu.address.logic.LogicManagerTest`"
       },
       {
         "lineNumber": 503,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Continuous Integration"
+        "content": ""
       },
       {
         "lineNumber": 504,
@@ -4517,35 +4517,35 @@
         "author": {
           "gitId": "-"
         },
-        "content": "We use https://travis-ci.org/[Travis CI] and https://www.appveyor.com/[AppVeyor] to perform _Continuous Integration_ on our projects. See \u003c\u003cUsingTravis#, UsingTravis.adoc\u003e\u003e and \u003c\u003cUsingAppVeyor#, UsingAppVeyor.adoc\u003e\u003e for more details."
+        "content": "\u003d\u003d\u003d Troubleshooting Testing"
       },
       {
         "lineNumber": 506,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Problem: `HelpWindowTest` fails with a `NullPointerException`.**"
       },
       {
         "lineNumber": 507,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Coverage Reporting"
+        "content": ""
       },
       {
         "lineNumber": 508,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Reason: One of its dependencies, `HelpWindow.html` in `src/main/resources/docs` is missing."
       },
       {
         "lineNumber": 509,
         "author": {
           "gitId": "-"
         },
-        "content": "We use https://coveralls.io/[Coveralls] to track the code coverage of our projects. See \u003c\u003cUsingCoveralls#, UsingCoveralls.adoc\u003e\u003e for more details."
+        "content": "* Solution: Execute Gradle task `processResources`."
       },
       {
         "lineNumber": 510,
@@ -4559,77 +4559,77 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Documentation Previews"
+        "content": "\u003d\u003d Dev Ops"
       },
       {
         "lineNumber": 512,
         "author": {
           "gitId": "-"
         },
-        "content": "When a pull request has changes to asciidoc files, you can use https://www.netlify.com/[Netlify] to see a preview of how the HTML version of those asciidoc files will look like when the pull request is merged. See \u003c\u003cUsingNetlify#, UsingNetlify.adoc\u003e\u003e for more details."
+        "content": ""
       },
       {
         "lineNumber": 513,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Build Automation"
       },
       {
         "lineNumber": 514,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Making a Release"
+        "content": ""
       },
       {
         "lineNumber": 515,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "See \u003c\u003cUsingGradle#, UsingGradle.adoc\u003e\u003e to learn how to use Gradle for build automation."
       },
       {
         "lineNumber": 516,
         "author": {
           "gitId": "-"
         },
-        "content": "Here are the steps to create a new release."
+        "content": ""
       },
       {
         "lineNumber": 517,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Continuous Integration"
       },
       {
         "lineNumber": 518,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Update the version number in link:{repoURL}/src/main/java/seedu/address/MainApp.java[`MainApp.java`]."
+        "content": ""
       },
       {
         "lineNumber": 519,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Generate a JAR file \u003c\u003cUsingGradle#creating-the-jar-file, using Gradle\u003e\u003e."
+        "content": "We use https://travis-ci.org/[Travis CI] and https://www.appveyor.com/[AppVeyor] to perform _Continuous Integration_ on our projects. See \u003c\u003cUsingTravis#, UsingTravis.adoc\u003e\u003e and \u003c\u003cUsingAppVeyor#, UsingAppVeyor.adoc\u003e\u003e for more details."
       },
       {
         "lineNumber": 520,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Tag the repo with the version number. e.g. `v0.1`"
+        "content": ""
       },
       {
         "lineNumber": 521,
         "author": {
           "gitId": "-"
         },
-        "content": ".  https://help.github.com/articles/creating-releases/[Create a new release using GitHub] and upload the JAR file you created."
+        "content": "\u003d\u003d\u003d Coverage Reporting"
       },
       {
         "lineNumber": 522,
@@ -4643,7 +4643,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Managing Dependencies"
+        "content": "We use https://coveralls.io/[Coveralls] to track the code coverage of our projects. See \u003c\u003cUsingCoveralls#, UsingCoveralls.adoc\u003e\u003e for more details."
       },
       {
         "lineNumber": 524,
@@ -4657,77 +4657,77 @@
         "author": {
           "gitId": "-"
         },
-        "content": "A project often depends on third-party libraries. For example, Address Book depends on the https://github.com/FasterXML/jackson[Jackson library] for JSON parsing. Managing these _dependencies_ can be automated using Gradle. For example, Gradle can download the dependencies automatically, which is better than these alternatives:"
+        "content": "\u003d\u003d\u003d Documentation Previews"
       },
       {
         "lineNumber": 526,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "When a pull request has changes to asciidoc files, you can use https://www.netlify.com/[Netlify] to see a preview of how the HTML version of those asciidoc files will look like when the pull request is merged. See \u003c\u003cUsingNetlify#, UsingNetlify.adoc\u003e\u003e for more details."
       },
       {
         "lineNumber": 527,
         "author": {
           "gitId": "-"
         },
-        "content": "[loweralpha]"
+        "content": ""
       },
       {
         "lineNumber": 528,
         "author": {
           "gitId": "-"
         },
-        "content": ". Include those libraries in the repo (this bloats the repo size)"
+        "content": "\u003d\u003d\u003d Making a Release"
       },
       {
         "lineNumber": 529,
         "author": {
           "gitId": "-"
         },
-        "content": ". Require developers to download those libraries manually (this creates extra work for developers)"
+        "content": ""
       },
       {
         "lineNumber": 530,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Here are the steps to create a new release."
       },
       {
         "lineNumber": 531,
         "author": {
           "gitId": "-"
         },
-        "content": "[[GetStartedProgramming]]"
+        "content": ""
       },
       {
         "lineNumber": 532,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": ".  Update the version number in link:{repoURL}/src/main/java/seedu/address/MainApp.java[`MainApp.java`]."
       },
       {
         "lineNumber": 533,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Suggested Programming Tasks to Get Started"
+        "content": ".  Generate a JAR file \u003c\u003cUsingGradle#creating-the-jar-file, using Gradle\u003e\u003e."
       },
       {
         "lineNumber": 534,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Tag the repo with the version number. e.g. `v0.1`"
       },
       {
         "lineNumber": 535,
         "author": {
           "gitId": "-"
         },
-        "content": "Suggested path for new programmers:"
+        "content": ".  https://help.github.com/articles/creating-releases/[Create a new release using GitHub] and upload the JAR file you created."
       },
       {
         "lineNumber": 536,
@@ -4741,7 +4741,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "1. First, add small local-impact (i.e. the impact of the change does not go beyond the component) enhancements to one component at a time. Some suggestions are given in \u003c\u003cGetStartedProgramming-EachComponent\u003e\u003e."
+        "content": "\u003d\u003d\u003d Managing Dependencies"
       },
       {
         "lineNumber": 538,
@@ -4755,7 +4755,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "2. Next, add a feature that touches multiple components to learn how to implement an end-to-end feature across all components. \u003c\u003cGetStartedProgramming-RemarkCommand\u003e\u003e explains how to go about adding such a feature."
+        "content": "A project often depends on third-party libraries. For example, Address Book depends on the https://github.com/FasterXML/jackson[Jackson library] for JSON parsing. Managing these _dependencies_ can be automated using Gradle. For example, Gradle can download the dependencies automatically, which is better than these alternatives:"
       },
       {
         "lineNumber": 540,
@@ -4769,49 +4769,49 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[GetStartedProgramming-EachComponent]]"
+        "content": "[loweralpha]"
       },
       {
         "lineNumber": 542,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Improving each component"
+        "content": ". Include those libraries in the repo (this bloats the repo size)"
       },
       {
         "lineNumber": 543,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Require developers to download those libraries manually (this creates extra work for developers)"
       },
       {
         "lineNumber": 544,
         "author": {
           "gitId": "-"
         },
-        "content": "Each individual exercise in this section is component-based (i.e. you would not need to modify the other components to get it to work)."
+        "content": ""
       },
       {
         "lineNumber": 545,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[[GetStartedProgramming]]"
       },
       {
         "lineNumber": 546,
         "author": {
           "gitId": "-"
         },
-        "content": "[discrete]"
+        "content": "[appendix]"
       },
       {
         "lineNumber": 547,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d `Logic` component"
+        "content": "\u003d\u003d Suggested Programming Tasks to Get Started"
       },
       {
         "lineNumber": 548,
@@ -4825,7 +4825,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "*Scenario:* You are in charge of `logic`. During dog-fooding, your team realize that it is troublesome for the user to type the whole command in order to execute a command. Your team devise some strategies to help cut down the amount of typing necessary, and one of the suggestions was to implement aliases for the command words. Your job is to implement such aliases."
+        "content": "Suggested path for new programmers:"
       },
       {
         "lineNumber": 550,
@@ -4839,259 +4839,259 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "1. First, add small local-impact (i.e. the impact of the change does not go beyond the component) enhancements to one component at a time. Some suggestions are given in \u003c\u003cGetStartedProgramming-EachComponent\u003e\u003e."
       },
       {
         "lineNumber": 552,
         "author": {
           "gitId": "-"
         },
-        "content": "Do take a look at \u003c\u003cDesign-Logic\u003e\u003e before attempting to modify the `Logic` component."
+        "content": ""
       },
       {
         "lineNumber": 553,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "2. Next, add a feature that touches multiple components to learn how to implement an end-to-end feature across all components. \u003c\u003cGetStartedProgramming-RemarkCommand\u003e\u003e explains how to go about adding such a feature."
       },
       {
         "lineNumber": 554,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": ". Add a shorthand equivalent alias for each of the individual commands. For example, besides typing `clear`, the user can also type `c` to remove all apparels in the list."
+        "content": ""
       },
       {
         "lineNumber": 555,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "[[GetStartedProgramming-EachComponent]]"
       },
       {
         "lineNumber": 556,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Improving each component"
       },
       {
         "lineNumber": 557,
         "author": {
           "gitId": "-"
         },
-        "content": "* Hints"
+        "content": ""
       },
       {
         "lineNumber": 558,
         "author": {
           "gitId": "-"
         },
-        "content": "** Just like we store each individual command word constant `COMMAND_WORD` inside `*Command.java` (e.g.  link:{repoURL}/src/main/java/seedu/address/logic/commands/FindCommand.java[`FindCommand#COMMAND_WORD`], link:{repoURL}/src/main/java/seedu/address/logic/commands/DeleteCommand.java[`DeleteCommand#COMMAND_WORD`]), you need a new constant for aliases as well (e.g. `FindCommand#COMMAND_ALIAS`)."
+        "content": "Each individual exercise in this section is component-based (i.e. you would not need to modify the other components to get it to work)."
       },
       {
         "lineNumber": 559,
         "author": {
           "gitId": "-"
         },
-        "content": "** link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser`] is responsible for analyzing command words."
+        "content": ""
       },
       {
         "lineNumber": 560,
         "author": {
           "gitId": "-"
         },
-        "content": "* Solution"
+        "content": "[discrete]"
       },
       {
         "lineNumber": 561,
         "author": {
           "gitId": "-"
         },
-        "content": "** Modify the switch statement in link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser#parseCommand(String)`] such that both the proper command word and alias can be used to execute the same intended command."
+        "content": "\u003d\u003d\u003d\u003d `Logic` component"
       },
       {
         "lineNumber": 562,
         "author": {
           "gitId": "-"
         },
-        "content": "** Add new tests for each of the aliases that you have added."
+        "content": ""
       },
       {
         "lineNumber": 563,
         "author": {
           "gitId": "-"
         },
-        "content": "** Update the user guide to document the new aliases."
+        "content": "*Scenario:* You are in charge of `logic`. During dog-fooding, your team realize that it is troublesome for the user to type the whole command in order to execute a command. Your team devise some strategies to help cut down the amount of typing necessary, and one of the suggestions was to implement aliases for the command words. Your job is to implement such aliases."
       },
       {
         "lineNumber": 564,
         "author": {
           "gitId": "-"
         },
-        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/785[PR] for the full solution."
+        "content": ""
       },
       {
         "lineNumber": 565,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "[TIP]"
       },
       {
         "lineNumber": 566,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Do take a look at \u003c\u003cDesign-Logic\u003e\u003e before attempting to modify the `Logic` component."
       },
       {
         "lineNumber": 567,
         "author": {
           "gitId": "-"
         },
-        "content": "[discrete]"
+        "content": ""
       },
       {
         "lineNumber": 568,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "\u003d\u003d\u003d\u003d `Model` component"
+        "content": ". Add a shorthand equivalent alias for each of the individual commands. For example, besides typing `clear`, the user can also type `c` to remove all apparels in the list."
       },
       {
         "lineNumber": 569,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "+"
       },
       {
         "lineNumber": 570,
         "author": {
           "gitId": "-"
         },
-        "content": "*Scenario:* You are in charge of `model`. One day, the `logic`-in-charge approaches you for help. He wants to implement a command such that the user is able to remove a particular tag from everyone in the address book, but the model API does not support such a functionality at the moment. Your job is to implement an API method, so that your teammate can use your API to implement his command."
+        "content": "****"
       },
       {
         "lineNumber": 571,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Hints"
       },
       {
         "lineNumber": 572,
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "** Just like we store each individual command word constant `COMMAND_WORD` inside `*Command.java` (e.g.  link:{repoURL}/src/main/java/seedu/address/logic/commands/FindCommand.java[`FindCommand#COMMAND_WORD`], link:{repoURL}/src/main/java/seedu/address/logic/commands/DeleteCommand.java[`DeleteCommand#COMMAND_WORD`]), you need a new constant for aliases as well (e.g. `FindCommand#COMMAND_ALIAS`)."
       },
       {
         "lineNumber": 573,
         "author": {
           "gitId": "-"
         },
-        "content": "Do take a look at \u003c\u003cDesign-Model\u003e\u003e before attempting to modify the `Model` component."
+        "content": "** link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser`] is responsible for analyzing command words."
       },
       {
         "lineNumber": 574,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Solution"
       },
       {
         "lineNumber": 575,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add a `removeTag(Tag)` method. The specified tag will be removed from everyone in the address book."
+        "content": "** Modify the switch statement in link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser#parseCommand(String)`] such that both the proper command word and alias can be used to execute the same intended command."
       },
       {
         "lineNumber": 576,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "** Add new tests for each of the aliases that you have added."
       },
       {
         "lineNumber": 577,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "** Update the user guide to document the new aliases."
       },
       {
         "lineNumber": 578,
         "author": {
           "gitId": "-"
         },
-        "content": "* Hints"
+        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/785[PR] for the full solution."
       },
       {
         "lineNumber": 579,
         "author": {
           "gitId": "-"
         },
-        "content": "** The link:{repoURL}/src/main/java/seedu/address/model/Model.java[`Model`] and the link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`] API need to be updated."
+        "content": "****"
       },
       {
         "lineNumber": 580,
         "author": {
           "gitId": "-"
         },
-        "content": "** Think about how you can use SLAP to design the method. Where should we place the main logic of deleting tags?"
+        "content": ""
       },
       {
         "lineNumber": 581,
         "author": {
           "gitId": "-"
         },
-        "content": "**  Find out which of the existing API methods in  link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`] and link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`] classes can be used to implement the tag removal logic. link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`] allows you to update a person, and link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`] allows you to update the tags."
+        "content": "[discrete]"
       },
       {
         "lineNumber": 582,
         "author": {
           "gitId": "-"
         },
-        "content": "* Solution"
+        "content": "\u003d\u003d\u003d\u003d `Model` component"
       },
       {
         "lineNumber": 583,
         "author": {
           "gitId": "-"
         },
-        "content": "** Implement a `removeTag(Tag)` method in link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`]. Loop through each person, and remove the `tag` from each person."
+        "content": ""
       },
       {
         "lineNumber": 584,
         "author": {
           "gitId": "-"
         },
-        "content": "** Add a new API method `deleteTag(Tag)` in link:{repoURL}/src/main/java/seedu/address/model/ModelManager.java[`ModelManager`]. Your link:{repoURL}/src/main/java/seedu/address/model/ModelManager.java[`ModelManager`] should call `AddressBook#removeTag(Tag)`."
+        "content": "*Scenario:* You are in charge of `model`. One day, the `logic`-in-charge approaches you for help. He wants to implement a command such that the user is able to remove a particular tag from everyone in the address book, but the model API does not support such a functionality at the moment. Your job is to implement an API method, so that your teammate can use your API to implement his command."
       },
       {
         "lineNumber": 585,
         "author": {
           "gitId": "-"
         },
-        "content": "** Add new tests for each of the new public methods that you have added."
+        "content": ""
       },
       {
         "lineNumber": 586,
         "author": {
           "gitId": "-"
         },
-        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/790[PR] for the full solution."
+        "content": "[TIP]"
       },
       {
         "lineNumber": 587,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "Do take a look at \u003c\u003cDesign-Model\u003e\u003e before attempting to modify the `Model` component."
       },
       {
         "lineNumber": 588,
@@ -5105,819 +5105,819 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[discrete]"
+        "content": ". Add a `removeTag(Tag)` method. The specified tag will be removed from everyone in the address book."
       },
       {
         "lineNumber": 590,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d `Ui` component"
+        "content": "+"
       },
       {
         "lineNumber": 591,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 592,
         "author": {
           "gitId": "-"
         },
-        "content": "*Scenario:* You are in charge of `ui`. During a beta testing session, your team is observing how the users use your address book application. You realize that one of the users occasionally tries to delete non-existent tags from a contact, because the tags all look the same visually, and the user got confused. Another user made a typing mistake in his command, but did not realize he had done so because the error message wasn\u0027t prominent enough. A third user keeps scrolling down the list, because he keeps forgetting the index of the last person in the list. Your job is to implement improvements to the UI to solve all these problems."
+        "content": "* Hints"
       },
       {
         "lineNumber": 593,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "** The link:{repoURL}/src/main/java/seedu/address/model/Model.java[`Model`] and the link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`] API need to be updated."
       },
       {
         "lineNumber": 594,
         "author": {
           "gitId": "-"
         },
-        "content": "[TIP]"
+        "content": "** Think about how you can use SLAP to design the method. Where should we place the main logic of deleting tags?"
       },
       {
         "lineNumber": 595,
         "author": {
           "gitId": "-"
         },
-        "content": "Do take a look at \u003c\u003cDesign-Ui\u003e\u003e before attempting to modify the `UI` component."
+        "content": "**  Find out which of the existing API methods in  link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`] and link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`] classes can be used to implement the tag removal logic. link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`] allows you to update a person, and link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`] allows you to update the tags."
       },
       {
         "lineNumber": 596,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Solution"
       },
       {
         "lineNumber": 597,
         "author": {
           "gitId": "-"
         },
-        "content": ". Use different colors for different tags inside person cards. For example, `friends` tags can be all in brown, and `colleagues` tags can be all in yellow."
+        "content": "** Implement a `removeTag(Tag)` method in link:{repoURL}/src/main/java/seedu/address/model/AddressBook.java[`AddressBook`]. Loop through each person, and remove the `tag` from each person."
       },
       {
         "lineNumber": 598,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "** Add a new API method `deleteTag(Tag)` in link:{repoURL}/src/main/java/seedu/address/model/ModelManager.java[`ModelManager`]. Your link:{repoURL}/src/main/java/seedu/address/model/ModelManager.java[`ModelManager`] should call `AddressBook#removeTag(Tag)`."
       },
       {
         "lineNumber": 599,
         "author": {
           "gitId": "-"
         },
-        "content": "**Before**"
+        "content": "** Add new tests for each of the new public methods that you have added."
       },
       {
         "lineNumber": 600,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/790[PR] for the full solution."
       },
       {
         "lineNumber": 601,
         "author": {
           "gitId": "-"
         },
-        "content": "image::getting-started-ui-tag-before.png[width\u003d\"300\"]"
+        "content": "****"
       },
       {
         "lineNumber": 602,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": ""
       },
       {
         "lineNumber": 603,
         "author": {
           "gitId": "-"
         },
-        "content": "**After**"
+        "content": "[discrete]"
       },
       {
         "lineNumber": 604,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "\u003d\u003d\u003d\u003d `Ui` component"
       },
       {
         "lineNumber": 605,
         "author": {
           "gitId": "-"
         },
-        "content": "image::getting-started-ui-tag-after.png[width\u003d\"300\"]"
+        "content": ""
       },
       {
         "lineNumber": 606,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "*Scenario:* You are in charge of `ui`. During a beta testing session, your team is observing how the users use your address book application. You realize that one of the users occasionally tries to delete non-existent tags from a contact, because the tags all look the same visually, and the user got confused. Another user made a typing mistake in his command, but did not realize he had done so because the error message wasn\u0027t prominent enough. A third user keeps scrolling down the list, because he keeps forgetting the index of the last person in the list. Your job is to implement improvements to the UI to solve all these problems."
       },
       {
         "lineNumber": 607,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 608,
         "author": {
           "gitId": "-"
         },
-        "content": "* Hints"
+        "content": "[TIP]"
       },
       {
         "lineNumber": 609,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "** The tag labels are created inside link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[the `PersonCard` constructor] (`new Label(tag.tagName)`). https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Label.html[JavaFX\u0027s `Label` class] allows you to modify the style of each Label, such as changing its colorValue."
+        "content": "Do take a look at \u003c\u003cDesign-Ui\u003e\u003e before attempting to modify the `UI` component."
       },
       {
         "lineNumber": 610,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "** Use the .css attribute `-fx-background-colorValue` to add a colorValue."
+        "content": ""
       },
       {
         "lineNumber": 611,
         "author": {
           "gitId": "-"
         },
-        "content": "** You may wish to modify link:{repoURL}/src/main/resources/view/DarkTheme.css[`DarkTheme.css`] to include some pre-defined colors using css, especially if you have experience with web-based css."
+        "content": ". Use different colors for different tags inside person cards. For example, `friends` tags can be all in brown, and `colleagues` tags can be all in yellow."
       },
       {
         "lineNumber": 612,
         "author": {
           "gitId": "-"
         },
-        "content": "* Solution"
+        "content": "+"
       },
       {
         "lineNumber": 613,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "** You can modify the existing test methods for `PersonCard` \u0027s to include testing the tag\u0027s colorValue as well."
+        "content": "**Before**"
       },
       {
         "lineNumber": 614,
         "author": {
           "gitId": "-"
         },
-        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/798[PR] for the full solution."
+        "content": "+"
       },
       {
         "lineNumber": 615,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "*** The PR uses the hash code of the tag names to generate a colorValue. This is deliberately designed to ensure consistent colors each time the application runs. You may wish to expand on this design to include additional features, such as allowing users to set their own tag colors, and directly saving the colors to storage, so that tags retain their colors even if the hash code algorithm changes."
+        "content": "image::getting-started-ui-tag-before.png[width\u003d\"300\"]"
       },
       {
         "lineNumber": 616,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "+"
       },
       {
         "lineNumber": 617,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**After**"
       },
       {
         "lineNumber": 618,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/commons/events/ui/NewResultAvailableEvent.java[`NewResultAvailableEvent`] such that link:{repoURL}/src/main/java/seedu/address/ui/ResultDisplay.java[`ResultDisplay`] can show a different style on error (currently it shows the same regardless of errors)."
+        "content": "+"
       },
       {
         "lineNumber": 619,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "image::getting-started-ui-tag-after.png[width\u003d\"300\"]"
       },
       {
         "lineNumber": 620,
         "author": {
           "gitId": "-"
         },
-        "content": "**Before**"
+        "content": "+"
       },
       {
         "lineNumber": 621,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "****"
       },
       {
         "lineNumber": 622,
         "author": {
           "gitId": "-"
         },
-        "content": "image::getting-started-ui-result-before.png[width\u003d\"200\"]"
+        "content": "* Hints"
       },
       {
         "lineNumber": 623,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "+"
+        "content": "** The tag labels are created inside link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[the `PersonCard` constructor] (`new Label(tag.tagName)`). https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Label.html[JavaFX\u0027s `Label` class] allows you to modify the style of each Label, such as changing its colorValue."
       },
       {
         "lineNumber": 624,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "**After**"
+        "content": "** Use the .css attribute `-fx-background-colorValue` to add a colorValue."
       },
       {
         "lineNumber": 625,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "** You may wish to modify link:{repoURL}/src/main/resources/view/DarkTheme.css[`DarkTheme.css`] to include some pre-defined colors using css, especially if you have experience with web-based css."
       },
       {
         "lineNumber": 626,
         "author": {
           "gitId": "-"
         },
-        "content": "image::getting-started-ui-result-after.png[width\u003d\"200\"]"
+        "content": "* Solution"
       },
       {
         "lineNumber": 627,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "+"
+        "content": "** You can modify the existing test methods for `PersonCard` \u0027s to include testing the tag\u0027s colorValue as well."
       },
       {
         "lineNumber": 628,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/798[PR] for the full solution."
       },
       {
         "lineNumber": 629,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "* Hints"
+        "content": "*** The PR uses the hash code of the tag names to generate a colorValue. This is deliberately designed to ensure consistent colors each time the application runs. You may wish to expand on this design to include additional features, such as allowing users to set their own tag colors, and directly saving the colors to storage, so that tags retain their colors even if the hash code algorithm changes."
       },
       {
         "lineNumber": 630,
         "author": {
           "gitId": "-"
         },
-        "content": "** link:{repoURL}/src/main/java/seedu/address/commons/events/ui/NewResultAvailableEvent.java[`NewResultAvailableEvent`] is raised by link:{repoURL}/src/main/java/seedu/address/ui/CommandBox.java[`CommandBox`] which also knows whether the result is a success or failure, and is caught by link:{repoURL}/src/main/java/seedu/address/ui/ResultDisplay.java[`ResultDisplay`] which is where we want to change the style to."
+        "content": "****"
       },
       {
         "lineNumber": 631,
         "author": {
           "gitId": "-"
         },
-        "content": "** Refer to link:{repoURL}/src/main/java/seedu/address/ui/CommandBox.java[`CommandBox`] for an example on how to display an error."
+        "content": ""
       },
       {
         "lineNumber": 632,
         "author": {
           "gitId": "-"
         },
-        "content": "* Solution"
+        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/commons/events/ui/NewResultAvailableEvent.java[`NewResultAvailableEvent`] such that link:{repoURL}/src/main/java/seedu/address/ui/ResultDisplay.java[`ResultDisplay`] can show a different style on error (currently it shows the same regardless of errors)."
       },
       {
         "lineNumber": 633,
         "author": {
           "gitId": "-"
         },
-        "content": "** Modify link:{repoURL}/src/main/java/seedu/address/commons/events/ui/NewResultAvailableEvent.java[`NewResultAvailableEvent`] \u0027s constructor so that users of the event can indicate whether an error has occurred."
+        "content": "+"
       },
       {
         "lineNumber": 634,
         "author": {
           "gitId": "-"
         },
-        "content": "** Modify link:{repoURL}/src/main/java/seedu/address/ui/ResultDisplay.java[`ResultDisplay#handleNewResultAvailableEvent(NewResultAvailableEvent)`] to react to this event appropriately."
+        "content": "**Before**"
       },
       {
         "lineNumber": 635,
         "author": {
           "gitId": "-"
         },
-        "content": "** You can write two different kinds of tests to ensure that the functionality works:"
+        "content": "+"
       },
       {
         "lineNumber": 636,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "*** The unit tests for `ResultDisplay` can be modified to include verification of the colorValue."
+        "content": "image::getting-started-ui-result-before.png[width\u003d\"200\"]"
       },
       {
         "lineNumber": 637,
         "author": {
           "gitId": "-"
         },
-        "content": "*** The system tests link:{repoURL}/src/test/java/systemtests/AddressBookSystemTest.java[`AddressBookSystemTest#assertCommandBoxShowsDefaultStyle() and AddressBookSystemTest#assertCommandBoxShowsErrorStyle()`] to include verification for `ResultDisplay` as well."
+        "content": "+"
       },
       {
         "lineNumber": 638,
         "author": {
           "gitId": "-"
         },
-        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/799[PR] for the full solution."
+        "content": "**After**"
       },
       {
         "lineNumber": 639,
         "author": {
           "gitId": "-"
         },
-        "content": "*** Do read the commits one at a time if you feel overwhelmed."
+        "content": "+"
       },
       {
         "lineNumber": 640,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "image::getting-started-ui-result-after.png[width\u003d\"200\"]"
       },
       {
         "lineNumber": 641,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "+"
       },
       {
         "lineNumber": 642,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify the link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter`] to show the total number of people in the address book."
+        "content": "****"
       },
       {
         "lineNumber": 643,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "* Hints"
       },
       {
         "lineNumber": 644,
         "author": {
           "gitId": "-"
         },
-        "content": "**Before**"
+        "content": "** link:{repoURL}/src/main/java/seedu/address/commons/events/ui/NewResultAvailableEvent.java[`NewResultAvailableEvent`] is raised by link:{repoURL}/src/main/java/seedu/address/ui/CommandBox.java[`CommandBox`] which also knows whether the result is a success or failure, and is caught by link:{repoURL}/src/main/java/seedu/address/ui/ResultDisplay.java[`ResultDisplay`] which is where we want to change the style to."
       },
       {
         "lineNumber": 645,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "** Refer to link:{repoURL}/src/main/java/seedu/address/ui/CommandBox.java[`CommandBox`] for an example on how to display an error."
       },
       {
         "lineNumber": 646,
         "author": {
           "gitId": "-"
         },
-        "content": "image::getting-started-ui-status-before.png[width\u003d\"500\"]"
+        "content": "* Solution"
       },
       {
         "lineNumber": 647,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "** Modify link:{repoURL}/src/main/java/seedu/address/commons/events/ui/NewResultAvailableEvent.java[`NewResultAvailableEvent`] \u0027s constructor so that users of the event can indicate whether an error has occurred."
       },
       {
         "lineNumber": 648,
         "author": {
           "gitId": "-"
         },
-        "content": "**After**"
+        "content": "** Modify link:{repoURL}/src/main/java/seedu/address/ui/ResultDisplay.java[`ResultDisplay#handleNewResultAvailableEvent(NewResultAvailableEvent)`] to react to this event appropriately."
       },
       {
         "lineNumber": 649,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "** You can write two different kinds of tests to ensure that the functionality works:"
       },
       {
         "lineNumber": 650,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "image::getting-started-ui-status-after.png[width\u003d\"500\"]"
+        "content": "*** The unit tests for `ResultDisplay` can be modified to include verification of the colorValue."
       },
       {
         "lineNumber": 651,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "*** The system tests link:{repoURL}/src/test/java/systemtests/AddressBookSystemTest.java[`AddressBookSystemTest#assertCommandBoxShowsDefaultStyle() and AddressBookSystemTest#assertCommandBoxShowsErrorStyle()`] to include verification for `ResultDisplay` as well."
       },
       {
         "lineNumber": 652,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/799[PR] for the full solution."
       },
       {
         "lineNumber": 653,
         "author": {
           "gitId": "-"
         },
-        "content": "* Hints"
+        "content": "*** Do read the commits one at a time if you feel overwhelmed."
       },
       {
         "lineNumber": 654,
         "author": {
           "gitId": "-"
         },
-        "content": "** link:{repoURL}/src/main/resources/view/StatusBarFooter.fxml[`StatusBarFooter.fxml`] will need a new `StatusBar`. Be sure to set the `GridPane.columnIndex` properly for each `StatusBar` to avoid misalignment!"
+        "content": "****"
       },
       {
         "lineNumber": 655,
         "author": {
           "gitId": "-"
         },
-        "content": "** link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter`] needs to initialize the status bar on application start, and to update it accordingly whenever the address book is updated."
+        "content": ""
       },
       {
         "lineNumber": 656,
         "author": {
           "gitId": "-"
         },
-        "content": "* Solution"
+        "content": ". Modify the link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter`] to show the total number of people in the address book."
       },
       {
         "lineNumber": 657,
-        "author": {
-          "gitId": "rafflesandrison"
-        },
-        "content": "** Modify the constructor of link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter`] to take in the number of apparels when the application just started."
-      },
-      {
-        "lineNumber": 658,
-        "author": {
-          "gitId": "rafflesandrison"
-        },
-        "content": "** Use link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter#handleAddressBookChangedEvent(AddressBookChangedEvent)`] to update the number of apparels whenever there are new changes to the addressbook."
-      },
-      {
-        "lineNumber": 659,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "** For tests, modify link:{repoURL}/src/test/java/guitests/guihandles/StatusBarFooterHandle.java[`StatusBarFooterHandle`] by adding a state-saving functionality for the total number of people status, just like what we did for save location and sync status."
-      },
-      {
-        "lineNumber": 660,
-        "author": {
-          "gitId": "rafflesandrison"
-        },
-        "content": "** For system tests, modify link:{repoURL}/src/test/java/systemtests/AddressBookSystemTest.java[`AddressBookSystemTest`] to also verify the new total number of apparels status bar."
-      },
-      {
-        "lineNumber": 661,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/803[PR] for the full solution."
-      },
-      {
-        "lineNumber": 662,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 663,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 664,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "[discrete]"
-      },
-      {
-        "lineNumber": 665,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d\u003d `Storage` component"
-      },
-      {
-        "lineNumber": 666,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 667,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "*Scenario:* You are in charge of `storage`. For your next project milestone, your team plans to implement a new feature of saving the address book to the cloud. However, the current implementation of the application constantly saves the address book after the execution of each command, which is not ideal if the user is working on limited internet connection. Your team decided that the application should instead save the changes to a temporary local backup file first, and only upload to the cloud after the user closes the application. Your job is to implement a backup API for the address book storage."
-      },
-      {
-        "lineNumber": 668,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 669,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "[TIP]"
-      },
-      {
-        "lineNumber": 670,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Do take a look at \u003c\u003cDesign-Storage\u003e\u003e before attempting to modify the `Storage` component."
-      },
-      {
-        "lineNumber": 671,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 672,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ". Add a new method `backupAddressBook(ReadOnlyAddressBook)`, so that the address book can be saved in a fixed temporary location."
-      },
-      {
-        "lineNumber": 673,
         "author": {
           "gitId": "-"
         },
         "content": "+"
       },
       {
-        "lineNumber": 674,
+        "lineNumber": 658,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "**Before**"
+      },
+      {
+        "lineNumber": 659,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 660,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "image::getting-started-ui-status-before.png[width\u003d\"500\"]"
+      },
+      {
+        "lineNumber": 661,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 662,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "**After**"
+      },
+      {
+        "lineNumber": 663,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 664,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "image::getting-started-ui-status-after.png[width\u003d\"500\"]"
+      },
+      {
+        "lineNumber": 665,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 666,
         "author": {
           "gitId": "-"
         },
         "content": "****"
       },
       {
-        "lineNumber": 675,
+        "lineNumber": 667,
         "author": {
           "gitId": "-"
         },
-        "content": "* Hint"
+        "content": "* Hints"
       },
       {
-        "lineNumber": 676,
+        "lineNumber": 668,
         "author": {
           "gitId": "-"
         },
-        "content": "** Add the API method in link:{repoURL}/src/main/java/seedu/address/storage/AddressBookStorage.java[`AddressBookStorage`] interface."
+        "content": "** link:{repoURL}/src/main/resources/view/StatusBarFooter.fxml[`StatusBarFooter.fxml`] will need a new `StatusBar`. Be sure to set the `GridPane.columnIndex` properly for each `StatusBar` to avoid misalignment!"
       },
       {
-        "lineNumber": 677,
+        "lineNumber": 669,
         "author": {
           "gitId": "-"
         },
-        "content": "** Implement the logic in link:{repoURL}/src/main/java/seedu/address/storage/StorageManager.java[`StorageManager`] and link:{repoURL}/src/main/java/seedu/address/storage/JsonAddressBookStorage.java[`JsonAddressBookStorage`] class."
+        "content": "** link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter`] needs to initialize the status bar on application start, and to update it accordingly whenever the address book is updated."
       },
       {
-        "lineNumber": 678,
+        "lineNumber": 670,
         "author": {
           "gitId": "-"
         },
         "content": "* Solution"
       },
       {
-        "lineNumber": 679,
+        "lineNumber": 671,
+        "author": {
+          "gitId": "rafflesandrison"
+        },
+        "content": "** Modify the constructor of link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter`] to take in the number of apparels when the application just started."
+      },
+      {
+        "lineNumber": 672,
+        "author": {
+          "gitId": "rafflesandrison"
+        },
+        "content": "** Use link:{repoURL}/src/main/java/seedu/address/ui/StatusBarFooter.java[`StatusBarFooter#handleAddressBookChangedEvent(AddressBookChangedEvent)`] to update the number of apparels whenever there are new changes to the addressbook."
+      },
+      {
+        "lineNumber": 673,
         "author": {
           "gitId": "-"
         },
-        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/594[PR] for the full solution."
+        "content": "** For tests, modify link:{repoURL}/src/test/java/guitests/guihandles/StatusBarFooterHandle.java[`StatusBarFooterHandle`] by adding a state-saving functionality for the total number of people status, just like what we did for save location and sync status."
       },
       {
-        "lineNumber": 680,
+        "lineNumber": 674,
+        "author": {
+          "gitId": "rafflesandrison"
+        },
+        "content": "** For system tests, modify link:{repoURL}/src/test/java/systemtests/AddressBookSystemTest.java[`AddressBookSystemTest`] to also verify the new total number of apparels status bar."
+      },
+      {
+        "lineNumber": 675,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/803[PR] for the full solution."
+      },
+      {
+        "lineNumber": 676,
         "author": {
           "gitId": "-"
         },
         "content": "****"
       },
       {
-        "lineNumber": 681,
+        "lineNumber": 677,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 678,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[discrete]"
+      },
+      {
+        "lineNumber": 679,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d\u003d `Storage` component"
+      },
+      {
+        "lineNumber": 680,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 681,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "*Scenario:* You are in charge of `storage`. For your next project milestone, your team plans to implement a new feature of saving the address book to the cloud. However, the current implementation of the application constantly saves the address book after the execution of each command, which is not ideal if the user is working on limited internet connection. Your team decided that the application should instead save the changes to a temporary local backup file first, and only upload to the cloud after the user closes the application. Your job is to implement a backup API for the address book storage."
       },
       {
         "lineNumber": 682,
         "author": {
           "gitId": "-"
         },
-        "content": "[[GetStartedProgramming-RemarkCommand]]"
+        "content": ""
       },
       {
         "lineNumber": 683,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Creating a new command: `remark`"
+        "content": "[TIP]"
       },
       {
         "lineNumber": 684,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Do take a look at \u003c\u003cDesign-Storage\u003e\u003e before attempting to modify the `Storage` component."
       },
       {
         "lineNumber": 685,
         "author": {
           "gitId": "-"
         },
-        "content": "By creating this command, you will get a chance to learn how to implement a feature end-to-end, touching all major components of the app."
+        "content": ""
       },
       {
         "lineNumber": 686,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Add a new method `backupAddressBook(ReadOnlyAddressBook)`, so that the address book can be saved in a fixed temporary location."
       },
       {
         "lineNumber": 687,
         "author": {
           "gitId": "-"
         },
-        "content": "*Scenario:* You are a software maintainer for `addressbook`, as the former developer team has moved on to new projects. The current users of your application have a list of new feature requests that they hope the software will eventually have. The most popular request is to allow adding additional comments/notes about a particular contact, by providing a flexible `remark` field for each contact, rather than relying on tags alone. After designing the specification for the `remark` command, you are convinced that this feature is worth implementing. Your job is to implement the `remark` command."
+        "content": "+"
       },
       {
         "lineNumber": 688,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 689,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Description"
+        "content": "* Hint"
       },
       {
         "lineNumber": 690,
         "author": {
           "gitId": "-"
         },
-        "content": "Edits the remark for a person specified in the `INDEX`. +"
+        "content": "** Add the API method in link:{repoURL}/src/main/java/seedu/address/storage/AddressBookStorage.java[`AddressBookStorage`] interface."
       },
       {
         "lineNumber": 691,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `remark INDEX r/[REMARK]`"
+        "content": "** Implement the logic in link:{repoURL}/src/main/java/seedu/address/storage/StorageManager.java[`StorageManager`] and link:{repoURL}/src/main/java/seedu/address/storage/JsonAddressBookStorage.java[`JsonAddressBookStorage`] class."
       },
       {
         "lineNumber": 692,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Solution"
       },
       {
         "lineNumber": 693,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "** See this https://github.com/se-edu/addressbook-level4/pull/594[PR] for the full solution."
       },
       {
         "lineNumber": 694,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 695,
         "author": {
           "gitId": "-"
         },
-        "content": "* `remark 1 r/Likes to drink coffee.` +"
+        "content": ""
       },
       {
         "lineNumber": 696,
         "author": {
           "gitId": "-"
         },
-        "content": "Edits the remark for the first person to `Likes to drink coffee.`"
+        "content": "[[GetStartedProgramming-RemarkCommand]]"
       },
       {
         "lineNumber": 697,
         "author": {
           "gitId": "-"
         },
-        "content": "* `remark 1 r/` +"
+        "content": "\u003d\u003d\u003d Creating a new command: `remark`"
       },
       {
         "lineNumber": 698,
         "author": {
           "gitId": "-"
         },
-        "content": "Removes the remark for the first person."
+        "content": ""
       },
       {
         "lineNumber": 699,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "By creating this command, you will get a chance to learn how to implement a feature end-to-end, touching all major components of the app."
       },
       {
         "lineNumber": 700,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Step-by-step Instructions"
+        "content": ""
       },
       {
         "lineNumber": 701,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "*Scenario:* You are a software maintainer for `addressbook`, as the former developer team has moved on to new projects. The current users of your application have a list of new feature requests that they hope the software will eventually have. The most popular request is to allow adding additional comments/notes about a particular contact, by providing a flexible `remark` field for each contact, rather than relying on tags alone. After designing the specification for the `remark` command, you are convinced that this feature is worth implementing. Your job is to implement the `remark` command."
       },
       {
         "lineNumber": 702,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 1] Logic: Teach the app to accept \u0027remark\u0027 which does nothing"
+        "content": ""
       },
       {
         "lineNumber": 703,
         "author": {
           "gitId": "-"
         },
-        "content": "Let\u0027s start by teaching the application how to parse a `remark` command. We will add the logic of `remark` later."
+        "content": "\u003d\u003d\u003d\u003d Description"
       },
       {
         "lineNumber": 704,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Edits the remark for a person specified in the `INDEX`. +"
       },
       {
         "lineNumber": 705,
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": "Format: `remark INDEX r/[REMARK]`"
       },
       {
         "lineNumber": 706,
@@ -5931,112 +5931,112 @@
         "author": {
           "gitId": "-"
         },
-        "content": ". Add a `RemarkCommand` that extends link:{repoURL}/src/main/java/seedu/address/logic/commands/Command.java[`Command`]. Upon execution, it should just throw an `Exception`."
+        "content": "Examples:"
       },
       {
         "lineNumber": 708,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser`] to accept a `RemarkCommand`."
+        "content": ""
       },
       {
         "lineNumber": 709,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `remark 1 r/Likes to drink coffee.` +"
       },
       {
         "lineNumber": 710,
         "author": {
           "gitId": "-"
         },
-        "content": "**Tests:**"
+        "content": "Edits the remark for the first person to `Likes to drink coffee.`"
       },
       {
         "lineNumber": 711,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `remark 1 r/` +"
       },
       {
         "lineNumber": 712,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add `RemarkCommandTest` that tests that `execute()` throws an Exception."
+        "content": "Removes the remark for the first person."
       },
       {
         "lineNumber": 713,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add new test method to link:{repoURL}/src/test/java/seedu/address/logic/parser/AddressBookParserTest.java[`AddressBookParserTest`], which tests that typing \"remark\" returns an instance of `RemarkCommand`."
+        "content": ""
       },
       {
         "lineNumber": 714,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Step-by-step Instructions"
       },
       {
         "lineNumber": 715,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 2] Logic: Teach the app to accept \u0027remark\u0027 arguments"
+        "content": ""
       },
       {
         "lineNumber": 716,
         "author": {
           "gitId": "-"
         },
-        "content": "Let\u0027s teach the application to parse arguments that our `remark` command will accept. E.g. `1 r/Likes to drink coffee.`"
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 1] Logic: Teach the app to accept \u0027remark\u0027 which does nothing"
       },
       {
         "lineNumber": 717,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Let\u0027s start by teaching the application how to parse a `remark` command. We will add the logic of `remark` later."
       },
       {
         "lineNumber": 718,
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": ""
       },
       {
         "lineNumber": 719,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Main:**"
       },
       {
         "lineNumber": 720,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify `RemarkCommand` to take in an `Index` and `String` and print those two parameters as the error message."
+        "content": ""
       },
       {
         "lineNumber": 721,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add `RemarkCommandParser` that knows how to parse two arguments, one index and one with prefix \u0027r/\u0027."
+        "content": ". Add a `RemarkCommand` that extends link:{repoURL}/src/main/java/seedu/address/logic/commands/Command.java[`Command`]. Upon execution, it should just throw an `Exception`."
       },
       {
         "lineNumber": 722,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser`] to use the newly implemented `RemarkCommandParser`."
+        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser`] to accept a `RemarkCommand`."
       },
       {
         "lineNumber": 723,
@@ -6064,49 +6064,49 @@
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify `RemarkCommandTest` to test the `RemarkCommand#equals()` method."
+        "content": ". Add `RemarkCommandTest` that tests that `execute()` throws an Exception."
       },
       {
         "lineNumber": 727,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add `RemarkCommandParserTest` that tests different boundary values"
+        "content": ". Add new test method to link:{repoURL}/src/test/java/seedu/address/logic/parser/AddressBookParserTest.java[`AddressBookParserTest`], which tests that typing \"remark\" returns an instance of `RemarkCommand`."
       },
       {
         "lineNumber": 728,
         "author": {
           "gitId": "-"
         },
-        "content": "for `RemarkCommandParser`."
+        "content": ""
       },
       {
         "lineNumber": 729,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/test/java/seedu/address/logic/parser/AddressBookParserTest.java[`AddressBookParserTest`] to test that the correct command is generated according to the user input."
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 2] Logic: Teach the app to accept \u0027remark\u0027 arguments"
       },
       {
         "lineNumber": 730,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Let\u0027s teach the application to parse arguments that our `remark` command will accept. E.g. `1 r/Likes to drink coffee.`"
       },
       {
         "lineNumber": 731,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 3] Ui: Add a placeholder for remark in `PersonCard`"
+        "content": ""
       },
       {
         "lineNumber": 732,
         "author": {
           "gitId": "-"
         },
-        "content": "Let\u0027s add a placeholder on all our link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`] s to display a remark for each person later."
+        "content": "**Main:**"
       },
       {
         "lineNumber": 733,
@@ -6120,91 +6120,91 @@
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": ". Modify `RemarkCommand` to take in an `Index` and `String` and print those two parameters as the error message."
       },
       {
         "lineNumber": 735,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Add `RemarkCommandParser` that knows how to parse two arguments, one index and one with prefix \u0027r/\u0027."
       },
       {
         "lineNumber": 736,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add a `Label` with any random text inside link:{repoURL}/src/main/resources/view/PersonListCard.fxml[`PersonListCard.fxml`]."
+        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/logic/parser/AddressBookParser.java[`AddressBookParser`] to use the newly implemented `RemarkCommandParser`."
       },
       {
         "lineNumber": 737,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add FXML annotation in link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`] to tie the variable to the actual label."
+        "content": ""
       },
       {
         "lineNumber": 738,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Tests:**"
       },
       {
         "lineNumber": 739,
         "author": {
           "gitId": "-"
         },
-        "content": "**Tests:**"
+        "content": ""
       },
       {
         "lineNumber": 740,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Modify `RemarkCommandTest` to test the `RemarkCommand#equals()` method."
       },
       {
         "lineNumber": 741,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/test/java/guitests/guihandles/PersonCardHandle.java[`PersonCardHandle`] so that future tests can read the contents of the remark label."
+        "content": ". Add `RemarkCommandParserTest` that tests different boundary values"
       },
       {
         "lineNumber": 742,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "for `RemarkCommandParser`."
       },
       {
         "lineNumber": 743,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 4] Model: Add `Remark` class"
+        "content": ". Modify link:{repoURL}/src/test/java/seedu/address/logic/parser/AddressBookParserTest.java[`AddressBookParserTest`] to test that the correct command is generated according to the user input."
       },
       {
         "lineNumber": 744,
         "author": {
           "gitId": "-"
         },
-        "content": "We have to properly encapsulate the remark in our link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`] class. Instead of just using a `String`, let\u0027s follow the conventional class structure that the codebase already uses by adding a `Remark` class."
+        "content": ""
       },
       {
         "lineNumber": 745,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 3] Ui: Add a placeholder for remark in `PersonCard`"
       },
       {
         "lineNumber": 746,
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": "Let\u0027s add a placeholder on all our link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`] s to display a remark for each person later."
       },
       {
         "lineNumber": 747,
@@ -6218,28 +6218,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": ". Add `Remark` to model component (you can copy from link:{repoURL}/src/main/java/seedu/address/model/person/Address.java[`Address`], remove the regex and change the names accordingly)."
+        "content": "**Main:**"
       },
       {
         "lineNumber": 749,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify `RemarkCommand` to now take in a `Remark` instead of a `String`."
+        "content": ""
       },
       {
         "lineNumber": 750,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Add a `Label` with any random text inside link:{repoURL}/src/main/resources/view/PersonListCard.fxml[`PersonListCard.fxml`]."
       },
       {
         "lineNumber": 751,
         "author": {
           "gitId": "-"
         },
-        "content": "**Tests:**"
+        "content": ". Add FXML annotation in link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`] to tie the variable to the actual label."
       },
       {
         "lineNumber": 752,
@@ -6253,7 +6253,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": ". Add test for `Remark`, to test the `Remark#equals()` method."
+        "content": "**Tests:**"
       },
       {
         "lineNumber": 754,
@@ -6267,28 +6267,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 5] Model: Modify `Person` to support a `Remark` field"
+        "content": ". Modify link:{repoURL}/src/test/java/guitests/guihandles/PersonCardHandle.java[`PersonCardHandle`] so that future tests can read the contents of the remark label."
       },
       {
         "lineNumber": 756,
         "author": {
           "gitId": "-"
         },
-        "content": "Now we have the `Remark` class, we need to actually use it inside link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`]."
+        "content": ""
       },
       {
         "lineNumber": 757,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 4] Model: Add `Remark` class"
       },
       {
         "lineNumber": 758,
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": "We have to properly encapsulate the remark in our link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`] class. Instead of just using a `String`, let\u0027s follow the conventional class structure that the codebase already uses by adding a `Remark` class."
       },
       {
         "lineNumber": 759,
@@ -6302,42 +6302,42 @@
         "author": {
           "gitId": "-"
         },
-        "content": ". Add `getRemark()` in link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`]."
+        "content": "**Main:**"
       },
       {
         "lineNumber": 761,
         "author": {
           "gitId": "-"
         },
-        "content": ". You may assume that the user will not be able to use the `add` and `edit` commands to modify the remarks field (i.e. the person will be created without a remark)."
+        "content": ""
       },
       {
         "lineNumber": 762,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/model/util/SampleDataUtil.java/[`SampleDataUtil`] to add remarks for the sample data (delete your `data/addressbook.json` so that the application will load the sample data when you launch it.)"
+        "content": ". Add `Remark` to model component (you can copy from link:{repoURL}/src/main/java/seedu/address/model/person/Address.java[`Address`], remove the regex and change the names accordingly)."
       },
       {
         "lineNumber": 763,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Modify `RemarkCommand` to now take in a `Remark` instead of a `String`."
       },
       {
         "lineNumber": 764,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 6] Storage: Add `Remark` field to `JsonAdaptedPerson` class"
+        "content": ""
       },
       {
         "lineNumber": 765,
         "author": {
           "gitId": "-"
         },
-        "content": "We now have `Remark` s for `Person` s, but they will be gone when we exit the application. Let\u0027s modify link:{repoURL}/src/main/java/seedu/address/storage/JsonAdaptedPerson.java[`JsonAdaptedPerson`] to include a `Remark` field so that it will be saved."
+        "content": "**Tests:**"
       },
       {
         "lineNumber": 766,
@@ -6351,7 +6351,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": ". Add test for `Remark`, to test the `Remark#equals()` method."
       },
       {
         "lineNumber": 768,
@@ -6365,56 +6365,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": ". Add a new JSON field for `Remark`."
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 5] Model: Modify `Person` to support a `Remark` field"
       },
       {
         "lineNumber": 770,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Now we have the `Remark` class, we need to actually use it inside link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`]."
       },
       {
         "lineNumber": 771,
         "author": {
           "gitId": "-"
         },
-        "content": "**Tests:**"
+        "content": ""
       },
       {
         "lineNumber": 772,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Main:**"
       },
       {
         "lineNumber": 773,
         "author": {
           "gitId": "-"
         },
-        "content": ". Fix `invalidAndValidPersonAddressBook.json`, `typicalPersonsAddressBook.json`, `validAddressBook.json` etc., such that the JSON tests will not fail due to a missing `remark` field."
+        "content": ""
       },
       {
         "lineNumber": 774,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Add `getRemark()` in link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`]."
       },
       {
         "lineNumber": 775,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 6b] Test: Add withRemark() for `PersonBuilder`"
+        "content": ". You may assume that the user will not be able to use the `add` and `edit` commands to modify the remarks field (i.e. the person will be created without a remark)."
       },
       {
         "lineNumber": 776,
         "author": {
           "gitId": "-"
         },
-        "content": "Since `Person` can now have a `Remark`, we should add a helper method to link:{repoURL}/src/test/java/seedu/address/testutil/PersonBuilder.java[`PersonBuilder`], so that users are able to create remarks when building a link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`]."
+        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/model/util/SampleDataUtil.java/[`SampleDataUtil`] to add remarks for the sample data (delete your `data/addressbook.json` so that the application will load the sample data when you launch it.)"
       },
       {
         "lineNumber": 777,
@@ -6428,28 +6428,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "**Tests:**"
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 6] Storage: Add `Remark` field to `JsonAdaptedPerson` class"
       },
       {
         "lineNumber": 779,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "We now have `Remark` s for `Person` s, but they will be gone when we exit the application. Let\u0027s modify link:{repoURL}/src/main/java/seedu/address/storage/JsonAdaptedPerson.java[`JsonAdaptedPerson`] to include a `Remark` field so that it will be saved."
       },
       {
         "lineNumber": 780,
         "author": {
           "gitId": "-"
         },
-        "content": ". Add a new method `withRemark()` for link:{repoURL}/src/test/java/seedu/address/testutil/PersonBuilder.java[`PersonBuilder`]. This method will create a new `Remark` for the person that it is currently building."
+        "content": ""
       },
       {
         "lineNumber": 781,
         "author": {
           "gitId": "-"
         },
-        "content": ". Try and use the method on any sample `Person` in link:{repoURL}/src/test/java/seedu/address/testutil/TypicalPersons.java[`TypicalPersons`]."
+        "content": "**Main:**"
       },
       {
         "lineNumber": 782,
@@ -6463,56 +6463,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 7] Ui: Connect `Remark` field to `PersonCard`"
+        "content": ". Add a new JSON field for `Remark`."
       },
       {
         "lineNumber": 784,
         "author": {
           "gitId": "-"
         },
-        "content": "Our remark label in link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`] is still a placeholder. Let\u0027s bring it to life by binding it with the actual `remark` field."
+        "content": ""
       },
       {
         "lineNumber": 785,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Tests:**"
       },
       {
         "lineNumber": 786,
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": ""
       },
       {
         "lineNumber": 787,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Fix `invalidAndValidPersonAddressBook.json`, `typicalPersonsAddressBook.json`, `validAddressBook.json` etc., such that the JSON tests will not fail due to a missing `remark` field."
       },
       {
         "lineNumber": 788,
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`]\u0027s constructor to bind the `Remark` field to the `Person` \u0027s remark."
+        "content": ""
       },
       {
         "lineNumber": 789,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 6b] Test: Add withRemark() for `PersonBuilder`"
       },
       {
         "lineNumber": 790,
         "author": {
           "gitId": "-"
         },
-        "content": "**Tests:**"
+        "content": "Since `Person` can now have a `Remark`, we should add a helper method to link:{repoURL}/src/test/java/seedu/address/testutil/PersonBuilder.java[`PersonBuilder`], so that users are able to create remarks when building a link:{repoURL}/src/main/java/seedu/address/model/person/Person.java[`Person`]."
       },
       {
         "lineNumber": 791,
@@ -6526,7 +6526,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": ". Modify link:{repoURL}/src/test/java/seedu/address/ui/testutil/GuiTestAssert.java[`GuiTestAssert#assertCardDisplaysPerson(...)`] so that it will compare the now-functioning remark label."
+        "content": "**Tests:**"
       },
       {
         "lineNumber": 793,
@@ -6540,14 +6540,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d\u003d [Step 8] Logic: Implement `RemarkCommand#execute()` logic"
+        "content": ". Add a new method `withRemark()` for link:{repoURL}/src/test/java/seedu/address/testutil/PersonBuilder.java[`PersonBuilder`]. This method will create a new `Remark` for the person that it is currently building."
       },
       {
         "lineNumber": 795,
         "author": {
           "gitId": "-"
         },
-        "content": "We now have everything set up... but we still can\u0027t modify the remarks. Let\u0027s finish it up by adding in actual logic for our `remark` command."
+        "content": ". Try and use the method on any sample `Person` in link:{repoURL}/src/test/java/seedu/address/testutil/TypicalPersons.java[`TypicalPersons`]."
       },
       {
         "lineNumber": 796,
@@ -6561,161 +6561,161 @@
         "author": {
           "gitId": "-"
         },
-        "content": "**Main:**"
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 7] Ui: Connect `Remark` field to `PersonCard`"
       },
       {
         "lineNumber": 798,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Our remark label in link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`] is still a placeholder. Let\u0027s bring it to life by binding it with the actual `remark` field."
       },
       {
         "lineNumber": 799,
         "author": {
           "gitId": "-"
         },
-        "content": ". Replace the logic in `RemarkCommand#execute()` (that currently just throws an `Exception`), with the actual logic to modify the remarks of a person."
+        "content": ""
       },
       {
         "lineNumber": 800,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Main:**"
       },
       {
         "lineNumber": 801,
         "author": {
           "gitId": "-"
         },
-        "content": "**Tests:**"
+        "content": ""
       },
       {
         "lineNumber": 802,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Modify link:{repoURL}/src/main/java/seedu/address/ui/PersonCard.java[`PersonCard`]\u0027s constructor to bind the `Remark` field to the `Person` \u0027s remark."
       },
       {
         "lineNumber": 803,
         "author": {
           "gitId": "-"
         },
-        "content": ". Update `RemarkCommandTest` to test that the `execute()` logic works."
+        "content": ""
       },
       {
         "lineNumber": 804,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Tests:**"
       },
       {
         "lineNumber": 805,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Full Solution"
+        "content": ""
       },
       {
         "lineNumber": 806,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Modify link:{repoURL}/src/test/java/seedu/address/ui/testutil/GuiTestAssert.java[`GuiTestAssert#assertCardDisplaysPerson(...)`] so that it will compare the now-functioning remark label."
       },
       {
         "lineNumber": 807,
         "author": {
           "gitId": "-"
         },
-        "content": "See this https://github.com/se-edu/addressbook-level4/pull/599[PR] for the step-by-step solution."
+        "content": ""
       },
       {
         "lineNumber": 808,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d\u003d [Step 8] Logic: Implement `RemarkCommand#execute()` logic"
       },
       {
         "lineNumber": 809,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": "We now have everything set up... but we still can\u0027t modify the remarks. Let\u0027s finish it up by adding in actual logic for our `remark` command."
       },
       {
         "lineNumber": 810,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Product Scope"
+        "content": ""
       },
       {
         "lineNumber": 811,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "**Main:**"
       },
       {
         "lineNumber": 812,
         "author": {
           "gitId": "-"
         },
-        "content": "*Target user profile*:"
+        "content": ""
       },
       {
         "lineNumber": 813,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Replace the logic in `RemarkCommand#execute()` (that currently just throws an `Exception`), with the actual logic to modify the remarks of a person."
       },
       {
         "lineNumber": 814,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "* wishes for a clothing and accessories matching app"
+        "content": ""
       },
       {
         "lineNumber": 815,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "* wishes for an app to store their wardrobe and recommends clothes"
+        "content": "**Tests:**"
       },
       {
         "lineNumber": 816,
         "author": {
           "gitId": "-"
         },
-        "content": "* prefer desktop apps over other types"
+        "content": ""
       },
       {
         "lineNumber": 817,
         "author": {
           "gitId": "-"
         },
-        "content": "* can type fast"
+        "content": ". Update `RemarkCommandTest` to test that the `execute()` logic works."
       },
       {
         "lineNumber": 818,
         "author": {
           "gitId": "-"
         },
-        "content": "* prefers typing over mouse input"
+        "content": ""
       },
       {
         "lineNumber": 819,
         "author": {
           "gitId": "-"
         },
-        "content": "* is reasonably comfortable using CLI apps"
+        "content": "\u003d\u003d\u003d\u003d Full Solution"
       },
       {
         "lineNumber": 820,
@@ -6727,44 +6727,44 @@
       {
         "lineNumber": 821,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "*Value proposition*:"
+        "content": "See this https://github.com/se-edu/addressbook-level4/pull/599[PR] for the step-by-step solution."
       },
       {
         "lineNumber": 822,
-        "author": {
-          "gitId": "ReinSheer"
-        },
-        "content": "* match clothing and accessories instantly"
-      },
-      {
-        "lineNumber": 823,
-        "author": {
-          "gitId": "ReinSheer"
-        },
-        "content": "* ability to know which clothes/accessories are underutilised/overutilised"
-      },
-      {
-        "lineNumber": 824,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 825,
+        "lineNumber": 823,
         "author": {
           "gitId": "-"
         },
         "content": "[appendix]"
       },
       {
+        "lineNumber": 824,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Product Scope"
+      },
+      {
+        "lineNumber": 825,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
         "lineNumber": 826,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d User Stories"
+        "content": "*Target user profile*:"
       },
       {
         "lineNumber": 827,
@@ -6776,44 +6776,44 @@
       {
         "lineNumber": 828,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Priorities: High (must have) - `* * \\*`, Medium (nice to have) - `* \\*`, Low (unlikely to have) - `*`"
+        "content": "* wishes for a clothing and accessories matching app"
       },
       {
         "lineNumber": 829,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "* wishes for an app to store their wardrobe and recommends clothes"
       },
       {
         "lineNumber": 830,
         "author": {
           "gitId": "-"
         },
-        "content": "[width\u003d\"59%\",cols\u003d\"22%,\u003c23%,\u003c25%,\u003c30%\",options\u003d\"header\",]"
+        "content": "* prefer desktop apps over other types"
       },
       {
         "lineNumber": 831,
         "author": {
           "gitId": "-"
         },
-        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": "* can type fast"
       },
       {
         "lineNumber": 832,
         "author": {
           "gitId": "-"
         },
-        "content": "|Priority |As a ... |I want to ... |So that I can..."
+        "content": "* prefers typing over mouse input"
       },
       {
         "lineNumber": 833,
         "author": {
           "gitId": "-"
         },
-        "content": "|`* * *` |new user |see usage instructions |refer to instructions when I forget how to use the App"
+        "content": "* is reasonably comfortable using CLI apps"
       },
       {
         "lineNumber": 834,
@@ -6827,21 +6827,21 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`* * *` |user |see all items in closet |see all the clothings that i have"
+        "content": "*Value proposition*:"
       },
       {
         "lineNumber": 836,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "* match clothing and accessories instantly"
       },
       {
         "lineNumber": 837,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`* * *` |user |add an item |add new item to closet"
+        "content": "* ability to know which clothes/accessories are underutilised/overutilised"
       },
       {
         "lineNumber": 838,
@@ -6853,70 +6853,70 @@
       {
         "lineNumber": 839,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "|`* * *` |user |remove item |remove item from closet"
+        "content": "[appendix]"
       },
       {
         "lineNumber": 840,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d User Stories"
       },
       {
         "lineNumber": 841,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "|`* * *` |user |get outfit recommendations |look good"
+        "content": ""
       },
       {
         "lineNumber": 842,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Priorities: High (must have) - `* * \\*`, Medium (nice to have) - `* \\*`, Low (unlikely to have) - `*`"
       },
       {
         "lineNumber": 843,
-        "author": {
-          "gitId": "ReinSheer"
-        },
-        "content": "|`*` |user |sort by how much they like an item |locate a clothing item easily"
-      },
-      {
-        "lineNumber": 844,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 844,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[width\u003d\"59%\",cols\u003d\"22%,\u003c23%,\u003c25%,\u003c30%\",options\u003d\"header\",]"
+      },
+      {
         "lineNumber": 845,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "|`* * *` |user |add matching relation between clothings (including accessories) |define matching colorValue combinations that are outside of the default combinations"
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 846,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "|Priority |As a ... |I want to ... |So that I can..."
       },
       {
         "lineNumber": 847,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "|`* *` |user |see clothings being categorised in their respective category (e.g. shirt, pants, shoe, etc) |locate the clothing item easily"
+        "content": "|`* * *` |new user |see usage instructions |refer to instructions when I forget how to use the App"
       },
       {
         "lineNumber": 848,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -6925,12 +6925,12 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`* *` |power user |know the suitable clothing based on occasions |wear the right clothing based on occasions"
+        "content": "|`* * *` |user |see all items in closet |see all the clothings that i have"
       },
       {
         "lineNumber": 850,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -6939,12 +6939,12 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`*` |power user |know the colors that are not suitable for certain clothings |avoid wearing colors that don’t match"
+        "content": "|`* * *` |user |add an item |add new item to closet"
       },
       {
         "lineNumber": 852,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -6953,12 +6953,12 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`*` |forgetful user |add tags to each clothing |identify clothing by tags"
+        "content": "|`* * *` |user |remove item |remove item from closet"
       },
       {
         "lineNumber": 854,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -6967,12 +6967,12 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`* * *` |user |edit item details |edit item details"
+        "content": "|`* * *` |user |get outfit recommendations |look good"
       },
       {
         "lineNumber": 856,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -6981,21 +6981,21 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`* * *` |user |exit the app |exit the app"
+        "content": "|`*` |user |sort by how much they like an item |locate a clothing item easily"
       },
       {
         "lineNumber": 858,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 859,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "rafflesandrison"
         },
-        "content": "|`* * *` |efiicient user |save favorite clothing combination |easily find my go-to attire"
+        "content": "|`* * *` |user |add matching relation between clothings (including accessories) |define matching colorValue combinations that are outside of the default combinations"
       },
       {
         "lineNumber": 860,
@@ -7009,7 +7009,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`*` |user |Redo previous command |avoid the hassle of retyping commonly used command"
+        "content": "|`* *` |user |see clothings being categorised in their respective category (e.g. shirt, pants, shoe, etc) |locate the clothing item easily"
       },
       {
         "lineNumber": 862,
@@ -7023,7 +7023,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`*` |user |undo previous changes |undo recently committed mistake"
+        "content": "|`* *` |power user |know the suitable clothing based on occasions |wear the right clothing based on occasions"
       },
       {
         "lineNumber": 864,
@@ -7037,7 +7037,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`*` |efficient user |search by keyword |easily locate clothing"
+        "content": "|`*` |power user |know the colors that are not suitable for certain clothings |avoid wearing colors that don’t match"
       },
       {
         "lineNumber": 866,
@@ -7051,7 +7051,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`*` |user |see all saved combinations |easy choice"
+        "content": "|`*` |forgetful user |add tags to each clothing |identify clothing by tags"
       },
       {
         "lineNumber": 868,
@@ -7065,7 +7065,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|`*` |user |top n most versatile clothing |"
+        "content": "|`* * *` |user |edit item details |edit item details"
       },
       {
         "lineNumber": 870,
@@ -7079,82 +7079,82 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": "|`* * *` |user |exit the app |exit the app"
       },
       {
         "lineNumber": 872,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": ""
       },
       {
         "lineNumber": 873,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "[appendix]"
+        "content": "|`* * *` |efiicient user |save favorite clothing combination |easily find my go-to attire"
       },
       {
         "lineNumber": 874,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "\u003d\u003d Use Cases"
+        "content": ""
       },
       {
         "lineNumber": 875,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "|`*` |user |Redo previous command |avoid the hassle of retyping commonly used command"
       },
       {
         "lineNumber": 876,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "(For all use cases below, the *System* is the `Fashion Match Application` and the *Actor* is the `user`, unless specified otherwise)"
+        "content": ""
       },
       {
         "lineNumber": 877,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "|`*` |user |undo previous changes |undo recently committed mistake"
       },
       {
         "lineNumber": 878,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "[discrete]"
+        "content": ""
       },
       {
         "lineNumber": 879,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "\u003d\u003d\u003d Use case: Adding an entry"
+        "content": "|`*` |efficient user |search by keyword |easily locate clothing"
       },
       {
         "lineNumber": 880,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": ""
       },
       {
         "lineNumber": 881,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "*MSS*"
+        "content": "|`*` |user |see all saved combinations |easy choice"
       },
       {
         "lineNumber": 882,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": ""
       },
@@ -7163,42 +7163,42 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "1.  User asks application to add a new entry"
+        "content": "|`*` |user |top n most versatile clothing |"
       },
       {
         "lineNumber": 884,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "2.  Application creates a new entry, displays confirmation to user"
+        "content": ""
       },
       {
         "lineNumber": 885,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "3.  User enters additional information for new entry"
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 886,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "4.  Application updates entry, displays infomation to user"
+        "content": ""
       },
       {
         "lineNumber": 887,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "[appendix]"
       },
       {
         "lineNumber": 888,
         "author": {
           "gitId": "-"
         },
-        "content": "Use case ends."
+        "content": "\u003d\u003d Use Cases"
       },
       {
         "lineNumber": 889,
@@ -7210,9 +7210,9 @@
       {
         "lineNumber": 890,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "*Extensions*"
+        "content": "(For all use cases below, the *System* is the `Fashion Match Application` and the *Actor* is the `user`, unless specified otherwise)"
       },
       {
         "lineNumber": 891,
@@ -7226,203 +7226,203 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[none]"
+        "content": "[discrete]"
       },
       {
         "lineNumber": 893,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "* 1a. Entry with same apparel name already exists in Application."
+        "content": "\u003d\u003d\u003d Use case: Adding an entry"
       },
       {
         "lineNumber": 894,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": ""
       },
       {
         "lineNumber": 895,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "[none]"
+        "content": "*MSS*"
       },
       {
         "lineNumber": 896,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "** 1a1. Application informs user, requests for confirmation"
+        "content": ""
       },
       {
         "lineNumber": 897,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "** 1a2. User confirms request"
+        "content": "1.  User asks application to add a new entry"
       },
       {
         "lineNumber": 898,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "+"
+        "content": "2.  Application creates a new entry, displays confirmation to user"
       },
       {
         "lineNumber": 899,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "Use case resumes at step 2."
+        "content": "3.  User enters additional information for new entry"
       },
       {
         "lineNumber": 900,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "4.  Application updates entry, displays infomation to user"
       },
       {
         "lineNumber": 901,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "* 2a. The given information is invalid."
+        "content": "+"
       },
       {
         "lineNumber": 902,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": "Use case ends."
       },
       {
         "lineNumber": 903,
         "author": {
           "gitId": "-"
         },
-        "content": "[none]"
+        "content": ""
       },
       {
         "lineNumber": 904,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "** 2a1. Application shows an error message."
+        "content": "*Extensions*"
       },
       {
         "lineNumber": 905,
         "author": {
           "gitId": "-"
         },
-        "content": "+"
+        "content": ""
       },
       {
         "lineNumber": 906,
         "author": {
           "gitId": "-"
         },
-        "content": "Use case resumes at step 2."
+        "content": "[none]"
       },
       {
         "lineNumber": 907,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "* 1a. Entry with same apparel name already exists in Application."
       },
       {
         "lineNumber": 908,
         "author": {
           "gitId": "-"
         },
-        "content": "_{More to be added}_"
+        "content": "+"
       },
       {
         "lineNumber": 909,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "[none]"
       },
       {
         "lineNumber": 910,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "[appendix]"
+        "content": "** 1a1. Application informs user, requests for confirmation"
       },
       {
         "lineNumber": 911,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "\u003d\u003d Non Functional Requirements"
+        "content": "** 1a2. User confirms request"
       },
       {
         "lineNumber": 912,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "+"
+      },
+      {
+        "lineNumber": 913,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "Use case resumes at step 2."
+      },
+      {
+        "lineNumber": 914,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 913,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ".  Should work on any \u003c\u003cmainstream-os,mainstream OS\u003e\u003e as long as it has Java `9` or higher installed."
-      },
-      {
-        "lineNumber": 914,
-        "author": {
-          "gitId": "rafflesandrison"
-        },
-        "content": ".  Should be able to hold up to 1000 apparels without a noticeable sluggishness in performance for typical usage."
-      },
-      {
         "lineNumber": 915,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ".  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse."
+        "content": "* 2a. The given information is invalid."
       },
       {
         "lineNumber": 916,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "+"
       },
       {
         "lineNumber": 917,
         "author": {
           "gitId": "-"
         },
-        "content": "_{More to be added}_"
+        "content": "[none]"
       },
       {
         "lineNumber": 918,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "** 2a1. Application shows an error message."
       },
       {
         "lineNumber": 919,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": "+"
       },
       {
         "lineNumber": 920,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Glossary"
+        "content": "Use case resumes at step 2."
       },
       {
         "lineNumber": 921,
@@ -7436,56 +7436,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[mainstream-os]] Mainstream OS::"
+        "content": "_{More to be added}_"
       },
       {
         "lineNumber": 923,
         "author": {
           "gitId": "-"
         },
-        "content": "Windows, Linux, Unix, OS-X"
+        "content": ""
       },
       {
         "lineNumber": 924,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[appendix]"
       },
       {
         "lineNumber": 925,
         "author": {
           "gitId": "-"
         },
-        "content": "[[private-contact-detail]] Private contact detail::"
+        "content": "\u003d\u003d Non Functional Requirements"
       },
       {
         "lineNumber": 926,
         "author": {
           "gitId": "-"
         },
-        "content": "A contact detail that is not meant to be shared with others"
+        "content": ""
       },
       {
         "lineNumber": 927,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Should work on any \u003c\u003cmainstream-os,mainstream OS\u003e\u003e as long as it has Java `9` or higher installed."
       },
       {
         "lineNumber": 928,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "[appendix]"
+        "content": ".  Should be able to hold up to 1000 apparels without a noticeable sluggishness in performance for typical usage."
       },
       {
         "lineNumber": 929,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Product Survey"
+        "content": ".  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse."
       },
       {
         "lineNumber": 930,
@@ -7499,7 +7499,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "*Product Name*"
+        "content": "_{More to be added}_"
       },
       {
         "lineNumber": 932,
@@ -7513,56 +7513,56 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Author: ..."
+        "content": "[appendix]"
       },
       {
         "lineNumber": 934,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d Glossary"
       },
       {
         "lineNumber": 935,
         "author": {
           "gitId": "-"
         },
-        "content": "Pros:"
+        "content": ""
       },
       {
         "lineNumber": 936,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[[mainstream-os]] Mainstream OS::"
       },
       {
         "lineNumber": 937,
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": "Windows, Linux, Unix, OS-X"
       },
       {
         "lineNumber": 938,
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": ""
       },
       {
         "lineNumber": 939,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "[[private-contact-detail]] Private contact detail::"
       },
       {
         "lineNumber": 940,
         "author": {
           "gitId": "-"
         },
-        "content": "Cons:"
+        "content": "A contact detail that is not meant to be shared with others"
       },
       {
         "lineNumber": 941,
@@ -7576,14 +7576,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": "[appendix]"
       },
       {
         "lineNumber": 943,
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": "\u003d\u003d Product Survey"
       },
       {
         "lineNumber": 944,
@@ -7597,147 +7597,147 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": "*Product Name*"
       },
       {
         "lineNumber": 946,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Instructions for Manual Testing"
+        "content": ""
       },
       {
         "lineNumber": 947,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Author: ..."
       },
       {
         "lineNumber": 948,
         "author": {
           "gitId": "-"
         },
-        "content": "Given below are instructions to test the app manually."
+        "content": ""
       },
       {
         "lineNumber": 949,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Pros:"
       },
       {
         "lineNumber": 950,
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": ""
       },
       {
         "lineNumber": 951,
         "author": {
           "gitId": "-"
         },
-        "content": "These instructions only provide a starting point for testers to work on; testers are expected to do more _exploratory_ testing."
+        "content": "* ..."
       },
       {
         "lineNumber": 952,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* ..."
       },
       {
         "lineNumber": 953,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Launch and Shutdown"
+        "content": ""
       },
       {
         "lineNumber": 954,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Cons:"
       },
       {
         "lineNumber": 955,
         "author": {
           "gitId": "-"
         },
-        "content": ". Initial launch"
+        "content": ""
       },
       {
         "lineNumber": 956,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* ..."
       },
       {
         "lineNumber": 957,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Download the jar file and copy into an empty folder"
+        "content": "* ..."
       },
       {
         "lineNumber": 958,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Double-click the jar file +"
+        "content": ""
       },
       {
         "lineNumber": 959,
         "author": {
           "gitId": "-"
         },
-        "content": "   Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum."
+        "content": "[appendix]"
       },
       {
         "lineNumber": 960,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d Instructions for Manual Testing"
       },
       {
         "lineNumber": 961,
         "author": {
           "gitId": "-"
         },
-        "content": ". Saving window preferences"
+        "content": ""
       },
       {
         "lineNumber": 962,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Given below are instructions to test the app manually."
       },
       {
         "lineNumber": 963,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Resize the window to an optimum size. Move the window to a different location. Close the window."
+        "content": ""
       },
       {
         "lineNumber": 964,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Re-launch the app by double-clicking the jar file. +"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 965,
         "author": {
           "gitId": "-"
         },
-        "content": "   Expected: The most recent window size and location is retained."
+        "content": "These instructions only provide a starting point for testers to work on; testers are expected to do more _exploratory_ testing."
       },
       {
         "lineNumber": 966,
@@ -7751,7 +7751,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "_{ more test cases ... }_"
+        "content": "\u003d\u003d\u003d Launch and Shutdown"
       },
       {
         "lineNumber": 968,
@@ -7765,7 +7765,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Deleting a person"
+        "content": ". Initial launch"
       },
       {
         "lineNumber": 970,
@@ -7777,65 +7777,65 @@
       {
         "lineNumber": 971,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": ". Deleting a person while all apparels are listed"
+        "content": ".. Download the jar file and copy into an empty folder"
       },
       {
         "lineNumber": 972,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".. Double-click the jar file +"
       },
       {
         "lineNumber": 973,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": ".. Prerequisites: List all apparels using the `list` command. Multiple apparels in the list."
+        "content": "   Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum."
       },
       {
         "lineNumber": 974,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Test case: `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 975,
         "author": {
           "gitId": "-"
         },
-        "content": "   Expected: First contact is deleted from the list. Details of the deleted contact shown in the status message. Timestamp in the status bar is updated."
+        "content": ". Saving window preferences"
       },
       {
         "lineNumber": 976,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Test case: `delete 0` +"
+        "content": ""
       },
       {
         "lineNumber": 977,
         "author": {
           "gitId": "-"
         },
-        "content": "   Expected: No person is deleted. Error details shown in the status message. Status bar remains the same."
+        "content": ".. Resize the window to an optimum size. Move the window to a different location. Close the window."
       },
       {
         "lineNumber": 978,
         "author": {
           "gitId": "-"
         },
-        "content": ".. Other incorrect delete commands to try: `delete`, `delete x` (where x is larger than the list size) _{give more}_ +"
+        "content": ".. Re-launch the app by double-clicking the jar file. +"
       },
       {
         "lineNumber": 979,
         "author": {
           "gitId": "-"
         },
-        "content": "   Expected: Similar to previous."
+        "content": "   Expected: The most recent window size and location is retained."
       },
       {
         "lineNumber": 980,
@@ -7863,7 +7863,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Saving data"
+        "content": "\u003d\u003d\u003d Deleting a person"
       },
       {
         "lineNumber": 984,
@@ -7875,9 +7875,9 @@
       {
         "lineNumber": 985,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": ". Dealing with missing/corrupted data files"
+        "content": ". Deleting a person while all apparels are listed"
       },
       {
         "lineNumber": 986,
@@ -7889,19 +7889,117 @@
       {
         "lineNumber": 987,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": ".. _{explain how to simulate a missing/corrupted file and the expected behavior}_"
+        "content": ".. Prerequisites: List all apparels using the `list` command. Multiple apparels in the list."
       },
       {
         "lineNumber": 988,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".. Test case: `delete 1` +"
       },
       {
         "lineNumber": 989,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   Expected: First contact is deleted from the list. Details of the deleted contact shown in the status message. Timestamp in the status bar is updated."
+      },
+      {
+        "lineNumber": 990,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ".. Test case: `delete 0` +"
+      },
+      {
+        "lineNumber": 991,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   Expected: No person is deleted. Error details shown in the status message. Status bar remains the same."
+      },
+      {
+        "lineNumber": 992,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ".. Other incorrect delete commands to try: `delete`, `delete x` (where x is larger than the list size) _{give more}_ +"
+      },
+      {
+        "lineNumber": 993,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   Expected: Similar to previous."
+      },
+      {
+        "lineNumber": 994,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 995,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "_{ more test cases ... }_"
+      },
+      {
+        "lineNumber": 996,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 997,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Saving data"
+      },
+      {
+        "lineNumber": 998,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 999,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ". Dealing with missing/corrupted data files"
+      },
+      {
+        "lineNumber": 1000,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 1001,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ".. _{explain how to simulate a missing/corrupted file and the expected behavior}_"
+      },
+      {
+        "lineNumber": 1002,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 1003,
         "author": {
           "gitId": "-"
         },
@@ -7911,8 +8009,9 @@
     "authorContributionMap": {
       "stanleymok": 18,
       "rafflesandrison": 13,
+      "PhilipPhil": 12,
       "ReinSheer": 110,
-      "-": 848
+      "-": 850
     }
   },
   {
@@ -9797,112 +9896,112 @@
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
+        "content": "\u003d\u003d\u003d Recommend Outfit"
       },
       {
         "lineNumber": 270,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
         "content": ""
       },
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "Exits the program. +"
+        "content": "Lists a recommended outfit based on what matches in your closet. The outfit must have a TOP,BOTTOM,SHOES. If a matching belt exists an outfit may be recommended with a BELT. +"
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "Format: `exit`"
+        "content": "Format: `recommendation`"
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
         "content": ""
       },
       {
         "lineNumber": 274,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Saving the data"
+        "content": "\u003d\u003d\u003d Something Color Select"
       },
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
         "content": ""
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "Address book data are saved in the hard disk automatically after any command that changes the data. +"
+        "content": "Returns random clothing of specified COLOR from address book. +"
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": "There is no need to save manually."
+        "content": "Format: `something COLOR`"
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
         "content": ""
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Calculating use Statistics `[coming in v4.0]`"
+        "content": "****"
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* Returns random clothing from specified `COLOR`."
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
-        "content": "Calculates the rate of wear of each clothes."
+        "content": "* The color refers to the color of clothing."
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "-"
+          "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* The color *must be a one of* RED, BLUE, GREEN, WHITE, BLACK, ..."
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Recommend Outfit"
+        "content": "****"
       },
       {
         "lineNumber": 284,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
         "content": ""
       },
@@ -9911,33 +10010,33 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Lists a recommended outfit based on what matches in your closet. The outfit must have a TOP,BOTTOM,SHOES. If a matching belt exists an outfit may be recommended with a BELT. +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Format: `recommendation`"
+        "content": ""
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* `something RED` +"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Something Color Select"
+        "content": "Returns a RED item from the address book."
       },
       {
         "lineNumber": 289,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "PhilipPhil"
         },
         "content": ""
       },
@@ -9946,14 +10045,14 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Returns random clothing of specified COLOR from address book. +"
+        "content": "* `something BLACK` +"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Format: `something COLOR`"
+        "content": "Returns a BLACK item from the address book."
       },
       {
         "lineNumber": 292,
@@ -9967,70 +10066,70 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Random Item Type Select"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* Returns random clothing from specified `COLOR`."
+        "content": ""
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The color refers to the color of clothing."
+        "content": "Returns random specified TYPE of clothing from address book. +"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The color *must be a one of* RED, BLUE, GREEN, WHITE, BLACK, ..."
+        "content": "Format: `random TYPE`"
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Examples:"
+        "content": "* Returns random clothing from specified `TYPE`."
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* The type refers to the type of clothing."
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* `something RED` +"
+        "content": "* The type *must be a one of* TOP,BOTTOM,BELT,SHOES"
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Returns a RED item from the address book."
+        "content": "****"
       },
       {
         "lineNumber": 303,
@@ -10044,28 +10143,28 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* `something BLACK` +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Returns a BLACK item from the address book."
+        "content": ""
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": ""
+        "content": "* `random TOP` +"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "\u003d\u003d\u003d Random Item Type Select"
+        "content": "Returns a random TOP in the address book."
       },
       {
         "lineNumber": 308,
@@ -10079,14 +10178,14 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Returns random specified TYPE of clothing from address book. +"
+        "content": "* `random BOTTOM` +"
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "Format: `random TYPE`"
+        "content": "Returns a random BOTTOM in the address book."
       },
       {
         "lineNumber": 311,
@@ -10100,91 +10199,91 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Calculating use Statistics `[coming in v4.0]`"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* Returns random clothing from specified `TYPE`."
+        "content": ""
       },
       {
         "lineNumber": 314,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The type refers to the type of clothing."
+        "content": "Calculates the rate of wear of each clothes."
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "* The type *must be a one of* TOP,BOTTOM,BELT,SHOES"
+        "content": ""
       },
       {
         "lineNumber": 316,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "****"
+        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 318,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "Exits the program. +"
       },
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "* `random TOP` +"
+        "content": ""
       },
       {
         "lineNumber": 321,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "Returns a random TOP in the address book."
+        "content": "\u003d\u003d\u003d Saving the data"
       },
       {
         "lineNumber": 322,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 323,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "* `random BOTTOM` +"
+        "content": "Address book data are saved in the hard disk automatically after any command that changes the data. +"
       },
       {
         "lineNumber": 324,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "-"
         },
-        "content": "Returns a random BOTTOM in the address book."
+        "content": "There is no need to save manually."
       },
       {
         "lineNumber": 325,
@@ -10391,10 +10490,10 @@
       }
     ],
     "authorContributionMap": {
-      "stanleymok": 67,
+      "stanleymok": 62,
       "rafflesandrison": 16,
-      "PhilipPhil": 48,
-      "-": 222
+      "PhilipPhil": 55,
+      "-": 220
     }
   },
   {
@@ -10769,7 +10868,7 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "include::../UserGuide.adoc[tag\u003ddelete]"
+        "content": "include::../UserGuide.adoc"
       },
       {
         "lineNumber": 54,
@@ -10825,7 +10924,7 @@
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "include::../DeveloperGuide.adoc[tag\u003ddelete]"
+        "content": "include::../DeveloperGuide.adoc"
       },
       {
         "lineNumber": 62,
@@ -11246,9 +11345,9 @@
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "stanleymok"
         },
-        "content": "include::../UserGuide.adoc[tag\u003ddelete]"
+        "content": "include::../UserGuide.adoc"
       },
       {
         "lineNumber": 53,
@@ -11302,13 +11401,14 @@
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "stanleymok"
         },
-        "content": "include::../DeveloperGuide.adoc[tag\u003ddelete]"
+        "content": "include::../DeveloperGuide.adoc"
       }
     ],
     "authorContributionMap": {
-      "PhilipPhil": 60
+      "stanleymok": 2,
+      "PhilipPhil": 58
     }
   },
   {

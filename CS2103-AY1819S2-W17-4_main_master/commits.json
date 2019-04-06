@@ -694,6 +694,12 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "kev-inc": [
@@ -1462,10 +1468,48 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 127,
+        "deletions": 122,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "765141fdd0f831f3ff1a100b087cbab27ecdb285",
+            "message": "shifted main window items",
+            "insertions": 113,
+            "deletions": 43
+          },
+          {
+            "hash": "f717a1058feb00c7d23ae8089d6190f103c90ea5",
+            "message": "changed ui to chatbot style",
+            "insertions": 13,
+            "deletions": 76
+          },
+          {
+            "hash": "9d8d7f70c56d58a2a380a84f0fe7f0c6d4b5b61f",
+            "message": "fixed trailing whitespace",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "e3e368c4817c8ef0b8d6d8f6569a178bda118aec",
+            "message": "fix compiletest error",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 88,
+        "deletions": 33,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "fc2cd77b52349df0373e3edd1432ca0f7c0afcaa",
+            "message": "updated system tests",
+            "insertions": 88,
+            "deletions": 33
+          }
+        ]
       }
     ],
     "pdnm": [
@@ -1908,8 +1952,8 @@
         "commitResults": []
       },
       {
-        "insertions": 17,
-        "deletions": 18,
+        "insertions": 35,
+        "deletions": 24,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -1917,8 +1961,20 @@
             "message": "Fix undo/redo",
             "insertions": 17,
             "deletions": 18
+          },
+          {
+            "hash": "84d737010f2e9bf6c5b79181e99d36b41c15e216",
+            "message": "Fix JsonAdaptedGoal",
+            "insertions": 18,
+            "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "tehwenyi": [
@@ -3733,6 +3789,12 @@
             "deletions": 40
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "rahulb99": [
@@ -4657,8 +4719,8 @@
         "commitResults": []
       },
       {
-        "insertions": 10,
-        "deletions": 3,
+        "insertions": 19,
+        "deletions": 12,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -4666,24 +4728,36 @@
             "message": "Update UserGuide.adoc",
             "insertions": 10,
             "deletions": 3
+          },
+          {
+            "hash": "a87583b2155873f0232c3866e9376646070a0c0b",
+            "message": "Update UserGuide.adoc",
+            "insertions": 9,
+            "deletions": 9
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 1437,
-    "kev-inc": 2554,
-    "pdnm": 1140,
-    "tehwenyi": 4580,
-    "rahulb99": 2215
+    "yunjun199321": 1398,
+    "kev-inc": 2675,
+    "pdnm": 1152,
+    "tehwenyi": 4578,
+    "rahulb99": 2216
   },
   "authorContributionVariance": {
-    "yunjun199321": 11559.87,
-    "kev-inc": 78845.78,
-    "pdnm": 30102.533,
-    "tehwenyi": 274897.94,
-    "rahulb99": 49847.535
+    "yunjun199321": 11407.025,
+    "kev-inc": 77885.586,
+    "pdnm": 29601.084,
+    "tehwenyi": 270779.88,
+    "rahulb99": 49062.03
   },
   "authorDisplayNameMap": {
     "yunjun199321": "WU ...JUN",

@@ -19391,19 +19391,26 @@
       {
         "lineNumber": 14,
         "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "    public static final String MESSAGE_GRADES_OUT_OF_ORDER \u003d \"Grades are out of order\";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
           "gitId": "lshwayne96"
         },
         "content": "    public static final String MESSAGE_MODULETAKEN_LISTED_OVERVIEW \u003d \"%1$d modules in GradTrak listed\";"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 16,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
@@ -19413,7 +19420,7 @@
     "authorContributionMap": {
       "-": 10,
       "lshwayne96": 3,
-      "alexchong711": 3
+      "alexchong711": 4
     }
   },
   {
@@ -23853,418 +23860,495 @@
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
+          "gitId": "alexchong711"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": "import seedu.address.commons.core.Messages;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "-"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.model.Model;"
+      },
+      {
+        "lineNumber": 15,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "import seedu.address.model.moduletaken.ModuleTaken;"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 16,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 18,
         "author": {
           "gitId": "monikernemo"
         },
         "content": " * Adds a moduleTaken to the GradTrak."
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
         "content": " */"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
         "content": "public class AddCommand extends Command {"
       },
       {
-        "lineNumber": 20,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String COMMAND_WORD \u003d \"add\";"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public static final String COMMAND_WORD \u003d \"add\";"
       },
       {
         "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Adds a moduleTaken to the address book. \""
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 25,
         "author": {
           "gitId": "-"
         },
         "content": "            + \"Parameters: \""
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 26,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "            + PREFIX_MODULE_INFO_CODE + \"ModuleInfoCode \""
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 27,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_SEMESTER + \"SEMESTER \""
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 28,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_EXPECTED_MIN_GRADE + \"EXPECTED MIN GRADE \""
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 29,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_EXPECTED_MAX_GRADE + \"EXPECTED MAX GRADE \""
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
         "content": "            + \"[\" + PREFIX_TAG + \"TAG]...\\n\""
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
         "content": "            + \"Example: \" + COMMAND_WORD + \" \""
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 32,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "            + PREFIX_MODULE_INFO_CODE + \"CS2103T \""
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 33,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_SEMESTER + \"Y3S1 \""
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 34,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_EXPECTED_MIN_GRADE + \"D \""
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 35,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_EXPECTED_MAX_GRADE + \"A \""
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 36,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_TAG + \"Software \""
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 37,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            + PREFIX_TAG + \"OOP\";"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 38,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "    public static final String MESSAGE_SUCCESS \u003d \"New moduleTaken added: %1$s\";"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "    public static final String MESSAGE_DUPLICATE_PERSON \u003d \"This moduleTaken already exists in the address book\";"
+        "content": "    public static final String MESSAGE_SUCCESS \u003d \"New moduleTaken added: %1$s\";"
       },
       {
         "lineNumber": 40,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "    public static final String MESSAGE_DUPLICATE_PERSON \u003d \"This moduleTaken already exists in the address book\";"
+      },
+      {
+        "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 42,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    private final ModuleTaken toAdd;"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 45,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * Creates an AddCommand to add the specified {@code ModuleTaken}"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 47,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public AddCommand(ModuleTaken moduleTaken) {"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 48,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        requireNonNull(moduleTaken);"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 49,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        toAdd \u003d moduleTaken;"
       },
       {
-        "lineNumber": 49,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "    public CommandResult execute(Model model, CommandHistory history) throws CommandException {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "        requireNonNull(model);"
+        "content": "    public CommandResult execute(Model model, CommandHistory history) throws CommandException {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        requireNonNull(model);"
       },
       {
         "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        if (model.hasModuleTaken(toAdd)) {"
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
         "content": "            throw new CommandException(MESSAGE_DUPLICATE_PERSON);"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 60,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        if (toAdd.getExpectedMinGrade().getGradePoint()"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                \u003e toAdd.getExpectedMaxGrade().getGradePoint()) {"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            throw new CommandException(Messages.MESSAGE_GRADES_OUT_OF_ORDER);"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        if (!toAdd.getExpectedMinGrade().equals(toAdd.getExpectedMaxGrade())"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                \u0026\u0026 toAdd.getSemester().getIndex() \u003c model.getCurrentSemester().getIndex()) {"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            throw new CommandException(Messages.MESSAGE_GRADES_NOT_FINALIZED_BEFORE_SEMESTER);"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 70,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        model.addModuleTaken(toAdd);"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 71,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        model.commitGradTrak();"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
         "content": "        return new CommandResult(String.format(MESSAGE_SUCCESS, toAdd));"
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
         "content": "    public boolean equals(Object other) {"
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
         "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
         "content": "                || (other instanceof AddCommand // instanceof handles nulls"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 79,
         "author": {
           "gitId": "-"
         },
         "content": "                \u0026\u0026 toAdd.equals(((AddCommand) other).toAdd));"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 70,
+        "lineNumber": 81,
         "author": {
           "gitId": "-"
         },
@@ -24274,7 +24358,7 @@
     "authorContributionMap": {
       "-": 42,
       "monikernemo": 18,
-      "alexchong711": 10
+      "alexchong711": 21
     }
   },
   {
@@ -27129,1538 +27213,1608 @@
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "        if (!moduleTakenToEdit.isSameModuleTaken(editedModuleTaken) \u0026\u0026 model.hasModuleTaken(editedModuleTaken)) {"
+        "content": "        if (editedModuleTaken.getExpectedMinGrade().getGradePoint()"
       },
       {
         "lineNumber": 94,
         "author": {
-          "gitId": "-"
+          "gitId": "alexchong711"
         },
-        "content": "            throw new CommandException(MESSAGE_DUPLICATE_PERSON);"
+        "content": "                \u003e editedModuleTaken.getExpectedMaxGrade().getGradePoint()) {"
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "-"
+          "gitId": "alexchong711"
         },
-        "content": "        }"
+        "content": "            throw new CommandException(Messages.MESSAGE_GRADES_OUT_OF_ORDER);"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "-"
+          "gitId": "alexchong711"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 97,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "        model.setModuleTaken(moduleTakenToEdit, editedModuleTaken);"
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "        model.updateFilteredModulesTakenList(PREDICATE_SHOW_ALL_PERSONS);"
+        "content": "        if ((editPersonDescriptor.getExpectedMinGrade() !\u003d null || editPersonDescriptor.getExpectedMaxGrade() !\u003d null)"
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "        model.commitGradTrak();"
+        "content": "                \u0026\u0026 editedModuleTaken.getSemester().getIndex() \u003c model.getCurrentSemester().getIndex()) {"
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "        return new CommandResult(String.format(MESSAGE_EDIT_PERSON_SUCCESS, editedModuleTaken));"
+        "content": "            throw new CommandException(Messages.MESSAGE_GRADES_NOT_FINALIZED_BEFORE_SEMESTER);"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "-"
+          "gitId": "alexchong711"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "-"
+          "gitId": "alexchong711"
         },
         "content": ""
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "-"
+          "gitId": "monikernemo"
         },
-        "content": "    /**"
+        "content": "        if (!moduleTakenToEdit.isSameModuleTaken(editedModuleTaken) \u0026\u0026 model.hasModuleTaken(editedModuleTaken)) {"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "-"
         },
-        "content": "     * Creates and returns a {@code ModuleTaken} with the details of {@code moduleTakenToEdit}"
+        "content": "            throw new CommandException(MESSAGE_DUPLICATE_PERSON);"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "     * edited with {@code editPersonDescriptor}."
+        "content": "        }"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "    private static ModuleTaken createEditedPerson(ModuleTaken moduleTakenToEdit,"
+        "content": "        model.setModuleTaken(moduleTakenToEdit, editedModuleTaken);"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "                                                  EditPersonDescriptor editPersonDescriptor) {"
+        "content": "        model.updateFilteredModulesTakenList(PREDICATE_SHOW_ALL_PERSONS);"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "        assert moduleTakenToEdit !\u003d null;"
+        "content": "        model.commitGradTrak();"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "-"
+          "gitId": "monikernemo"
         },
-        "content": ""
+        "content": "        return new CommandResult(String.format(MESSAGE_EDIT_PERSON_SUCCESS, editedModuleTaken));"
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "lshwayne96"
+          "gitId": "-"
         },
-        "content": "        ModuleInfoCode updatedName \u003d editPersonDescriptor.getModuleInfoCode()"
+        "content": "    }"
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "lshwayne96"
+          "gitId": "-"
         },
-        "content": "                .orElse(moduleTakenToEdit.getModuleInfoCode());"
+        "content": ""
       },
       {
         "lineNumber": 113,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "        Semester updatedSemester \u003d editPersonDescriptor.getSemester().orElse(moduleTakenToEdit.getSemester());"
-      },
-      {
-        "lineNumber": 114,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "        Grade updatedExpectedMinGrade \u003d editPersonDescriptor"
-      },
-      {
-        "lineNumber": 115,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "                .getExpectedMinGrade().orElse(moduleTakenToEdit.getExpectedMinGrade());"
-      },
-      {
-        "lineNumber": 116,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        Grade updatedExpectedMaxGrade \u003d editPersonDescriptor"
-      },
-      {
-        "lineNumber": 117,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "                .getExpectedMaxGrade().orElse(moduleTakenToEdit.getExpectedMaxGrade());"
-      },
-      {
-        "lineNumber": 118,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        Hour updatedLectureHour \u003d editPersonDescriptor"
-      },
-      {
-        "lineNumber": 119,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "                .getLectureHour().orElse(moduleTakenToEdit.getLectureHour());"
-      },
-      {
-        "lineNumber": 120,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        Hour updatedTutorialHour \u003d editPersonDescriptor"
-      },
-      {
-        "lineNumber": 121,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "                .getTutorialHour().orElse(moduleTakenToEdit.getTutorialHour());"
-      },
-      {
-        "lineNumber": 122,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        Hour updatedLabHour \u003d editPersonDescriptor"
-      },
-      {
-        "lineNumber": 123,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "                .getLabHour().orElse(moduleTakenToEdit.getLabHour());"
-      },
-      {
-        "lineNumber": 124,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        Hour updatedProjectHour \u003d editPersonDescriptor"
-      },
-      {
-        "lineNumber": 125,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "                .getProjectHour().orElse(moduleTakenToEdit.getProjectHour());"
-      },
-      {
-        "lineNumber": 126,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        Hour updatedPreparationHour \u003d editPersonDescriptor"
-      },
-      {
-        "lineNumber": 127,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "                .getPreparationHour().orElse(moduleTakenToEdit.getPreparationHour());"
-      },
-      {
-        "lineNumber": 128,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        Workload updatedWorkload \u003d new Workload(updatedLectureHour, updatedTutorialHour, updatedLabHour,"
-      },
-      {
-        "lineNumber": 129,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "                updatedProjectHour, updatedPreparationHour);"
-      },
-      {
-        "lineNumber": 130,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "        Set\u003cTag\u003e updatedTags \u003d editPersonDescriptor.getTags().orElse(moduleTakenToEdit.getTags());"
-      },
-      {
-        "lineNumber": 131,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 132,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "        return new ModuleTaken(updatedName, updatedSemester, updatedExpectedMinGrade, updatedExpectedMaxGrade,"
-      },
-      {
-        "lineNumber": 133,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "                updatedWorkload, updatedTags);"
-      },
-      {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 135,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 136,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 137,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    public boolean equals(Object other) {"
-      },
-      {
-        "lineNumber": 138,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        // short circuit if same object"
-      },
-      {
-        "lineNumber": 139,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        if (other \u003d\u003d this) {"
-      },
-      {
-        "lineNumber": 140,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            return true;"
-      },
-      {
-        "lineNumber": 141,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 142,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 143,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        // instanceof handles nulls"
-      },
-      {
-        "lineNumber": 144,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        if (!(other instanceof EditCommand)) {"
-      },
-      {
-        "lineNumber": 145,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            return false;"
-      },
-      {
-        "lineNumber": 146,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 147,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 148,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        // state check"
-      },
-      {
-        "lineNumber": 149,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        EditCommand e \u003d (EditCommand) other;"
-      },
-      {
-        "lineNumber": 150,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        return index.equals(e.index)"
-      },
-      {
-        "lineNumber": 151,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                \u0026\u0026 editPersonDescriptor.equals(e.editPersonDescriptor);"
-      },
-      {
-        "lineNumber": 152,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 153,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 154,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 155,
+        "lineNumber": 114,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "     * Stores the details to edit the moduleTaken with. Each non-empty field value will replace the"
+        "content": "     * Creates and returns a {@code ModuleTaken} with the details of {@code moduleTakenToEdit}"
       },
       {
-        "lineNumber": 156,
+        "lineNumber": 115,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "-"
         },
-        "content": "     * corresponding field value of the moduleTaken."
+        "content": "     * edited with {@code editPersonDescriptor}."
       },
       {
-        "lineNumber": 157,
+        "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 158,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    public static class EditPersonDescriptor {"
-      },
-      {
-        "lineNumber": 159,
+        "lineNumber": 117,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "        private ModuleInfoCode moduleInfoCode;"
+        "content": "    private static ModuleTaken createEditedPerson(ModuleTaken moduleTakenToEdit,"
       },
       {
-        "lineNumber": 160,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Semester semester;"
-      },
-      {
-        "lineNumber": 161,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Grade expectedMinGrade;"
-      },
-      {
-        "lineNumber": 162,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Grade expectedMaxGrade;"
-      },
-      {
-        "lineNumber": 163,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Hour lectureHour;"
-      },
-      {
-        "lineNumber": 164,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Hour tutorialHour;"
-      },
-      {
-        "lineNumber": 165,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Hour labHour;"
-      },
-      {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Hour projectHour;"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        private Hour preparationHour;"
-      },
-      {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        private Set\u003cTag\u003e tags;"
-      },
-      {
-        "lineNumber": 169,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 170,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        public EditPersonDescriptor() {}"
-      },
-      {
-        "lineNumber": 171,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 172,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        /**"
-      },
-      {
-        "lineNumber": 173,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * Copy constructor."
-      },
-      {
-        "lineNumber": 174,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * A defensive copy of {@code tags} is used internally."
-      },
-      {
-        "lineNumber": 175,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         */"
-      },
-      {
-        "lineNumber": 176,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        public EditPersonDescriptor(EditPersonDescriptor toCopy) {"
-      },
-      {
-        "lineNumber": 177,
+        "lineNumber": 118,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            setModuleInfoCode(toCopy.moduleInfoCode);"
+        "content": "                                                  EditPersonDescriptor editPersonDescriptor) {"
       },
       {
-        "lineNumber": 178,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setSemester(toCopy.semester);"
-      },
-      {
-        "lineNumber": 179,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setExpectedMinGrade(toCopy.expectedMinGrade);"
-      },
-      {
-        "lineNumber": 180,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setExpectedMaxGrade(toCopy.expectedMaxGrade);"
-      },
-      {
-        "lineNumber": 181,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setLectureHour(toCopy.lectureHour);"
-      },
-      {
-        "lineNumber": 182,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setTutorialHour(toCopy.tutorialHour);"
-      },
-      {
-        "lineNumber": 183,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setLabHour(toCopy.labHour);"
-      },
-      {
-        "lineNumber": 184,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setProjectHour(toCopy.projectHour);"
-      },
-      {
-        "lineNumber": 185,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            setPreparationHour(toCopy.preparationHour);"
-      },
-      {
-        "lineNumber": 186,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            setTags(toCopy.tags);"
-      },
-      {
-        "lineNumber": 187,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 188,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 189,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        /**"
-      },
-      {
-        "lineNumber": 190,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * Returns true if at least one field is edited."
-      },
-      {
-        "lineNumber": 191,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         */"
-      },
-      {
-        "lineNumber": 192,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        public boolean isAnyFieldEdited() {"
-      },
-      {
-        "lineNumber": 193,
+        "lineNumber": 119,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            return CollectionUtil.isAnyNonNull(moduleInfoCode, semester, expectedMinGrade, expectedMaxGrade, tags);"
+        "content": "        assert moduleTakenToEdit !\u003d null;"
       },
       {
-        "lineNumber": 194,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 195,
+        "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 196,
+        "lineNumber": 121,
+        "author": {
+          "gitId": "lshwayne96"
+        },
+        "content": "        ModuleInfoCode updatedName \u003d editPersonDescriptor.getModuleInfoCode()"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "lshwayne96"
+        },
+        "content": "                .orElse(moduleTakenToEdit.getModuleInfoCode());"
+      },
+      {
+        "lineNumber": 123,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "        public void setModuleInfoCode(ModuleInfoCode moduleInfoCode) {"
+        "content": "        Semester updatedSemester \u003d editPersonDescriptor.getSemester().orElse(moduleTakenToEdit.getSemester());"
       },
       {
-        "lineNumber": 197,
+        "lineNumber": 124,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            this.moduleInfoCode \u003d moduleInfoCode;"
+        "content": "        Grade updatedExpectedMinGrade \u003d editPersonDescriptor"
       },
       {
-        "lineNumber": 198,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 199,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 200,
+        "lineNumber": 125,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "        public Optional\u003cModuleInfoCode\u003e getModuleInfoCode() {"
+        "content": "                .getExpectedMinGrade().orElse(moduleTakenToEdit.getExpectedMinGrade());"
       },
       {
-        "lineNumber": 201,
+        "lineNumber": 126,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        Grade updatedExpectedMaxGrade \u003d editPersonDescriptor"
+      },
+      {
+        "lineNumber": 127,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            return Optional.ofNullable(moduleInfoCode);"
+        "content": "                .getExpectedMaxGrade().orElse(moduleTakenToEdit.getExpectedMaxGrade());"
       },
       {
-        "lineNumber": 202,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 203,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 204,
+        "lineNumber": 128,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        public void setSemester(Semester semester) {"
+        "content": "        Hour updatedLectureHour \u003d editPersonDescriptor"
       },
       {
-        "lineNumber": 205,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.semester \u003d semester;"
-      },
-      {
-        "lineNumber": 206,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 207,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 208,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cSemester\u003e getSemester() {"
-      },
-      {
-        "lineNumber": 209,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(semester);"
-      },
-      {
-        "lineNumber": 210,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 211,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 212,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public void setExpectedMinGrade(Grade expectedMinGrade) {"
-      },
-      {
-        "lineNumber": 213,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.expectedMinGrade \u003d expectedMinGrade;"
-      },
-      {
-        "lineNumber": 214,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 215,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 216,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cGrade\u003e getExpectedMinGrade() {"
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(expectedMinGrade);"
-      },
-      {
-        "lineNumber": 218,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 219,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 220,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public void setExpectedMaxGrade(Grade expectedMaxGrade) {"
-      },
-      {
-        "lineNumber": 221,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.expectedMaxGrade \u003d expectedMaxGrade;"
-      },
-      {
-        "lineNumber": 222,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 223,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 224,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cGrade\u003e getExpectedMaxGrade() {"
-      },
-      {
-        "lineNumber": 225,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(expectedMaxGrade);"
-      },
-      {
-        "lineNumber": 226,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 227,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 228,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public void setLectureHour(Hour lectureHour) {"
-      },
-      {
-        "lineNumber": 229,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.lectureHour \u003d lectureHour;"
-      },
-      {
-        "lineNumber": 230,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 231,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 232,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cHour\u003e getLectureHour() {"
-      },
-      {
-        "lineNumber": 233,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(lectureHour);"
-      },
-      {
-        "lineNumber": 234,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 235,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 236,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public void setTutorialHour(Hour tutorialHour) {"
-      },
-      {
-        "lineNumber": 237,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.tutorialHour \u003d tutorialHour;"
-      },
-      {
-        "lineNumber": 238,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 239,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 240,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cHour\u003e getTutorialHour() {"
-      },
-      {
-        "lineNumber": 241,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(tutorialHour);"
-      },
-      {
-        "lineNumber": 242,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 243,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public void setLabHour(Hour labHour) {"
-      },
-      {
-        "lineNumber": 245,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.labHour \u003d labHour;"
-      },
-      {
-        "lineNumber": 246,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 247,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 248,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cHour\u003e getLabHour() {"
-      },
-      {
-        "lineNumber": 249,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(labHour);"
-      },
-      {
-        "lineNumber": 250,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 251,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 252,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public void setProjectHour(Hour projectHour) {"
-      },
-      {
-        "lineNumber": 253,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.projectHour \u003d projectHour;"
-      },
-      {
-        "lineNumber": 254,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 255,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 256,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cHour\u003e getProjectHour() {"
-      },
-      {
-        "lineNumber": 257,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(projectHour);"
-      },
-      {
-        "lineNumber": 258,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 259,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 260,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public void setPreparationHour(Hour preparationHour) {"
-      },
-      {
-        "lineNumber": 261,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            this.preparationHour \u003d preparationHour;"
-      },
-      {
-        "lineNumber": 262,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 263,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 264,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        public Optional\u003cHour\u003e getPreparationHour() {"
-      },
-      {
-        "lineNumber": 265,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "            return Optional.ofNullable(preparationHour);"
-      },
-      {
-        "lineNumber": 266,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 267,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 268,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        /**"
-      },
-      {
-        "lineNumber": 269,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * Sets {@code tags} to this object\u0027s {@code tags}."
-      },
-      {
-        "lineNumber": 270,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * A defensive copy of {@code tags} is used internally."
-      },
-      {
-        "lineNumber": 271,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         */"
-      },
-      {
-        "lineNumber": 272,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        public void setTags(Set\u003cTag\u003e tags) {"
-      },
-      {
-        "lineNumber": 273,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            this.tags \u003d (tags !\u003d null) ? new HashSet\u003c\u003e(tags) : null;"
-      },
-      {
-        "lineNumber": 274,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 275,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 276,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        /**"
-      },
-      {
-        "lineNumber": 277,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * Returns an unmodifiable tag set, which throws {@code UnsupportedOperationException}"
-      },
-      {
-        "lineNumber": 278,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * if modification is attempted."
-      },
-      {
-        "lineNumber": 279,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         * Returns {@code Optional#empty()} if {@code tags} is null."
-      },
-      {
-        "lineNumber": 280,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "         */"
-      },
-      {
-        "lineNumber": 281,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        public Optional\u003cSet\u003cTag\u003e\u003e getTags() {"
-      },
-      {
-        "lineNumber": 282,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            return (tags !\u003d null) ? Optional.of(Collections.unmodifiableSet(tags)) : Optional.empty();"
-      },
-      {
-        "lineNumber": 283,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 284,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 285,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        @Override"
-      },
-      {
-        "lineNumber": 286,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        public boolean equals(Object other) {"
-      },
-      {
-        "lineNumber": 287,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            // short circuit if same object"
-      },
-      {
-        "lineNumber": 288,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            if (other \u003d\u003d this) {"
-      },
-      {
-        "lineNumber": 289,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                return true;"
-      },
-      {
-        "lineNumber": 290,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 291,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 292,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            // instanceof handles nulls"
-      },
-      {
-        "lineNumber": 293,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            if (!(other instanceof EditPersonDescriptor)) {"
-      },
-      {
-        "lineNumber": 294,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                return false;"
-      },
-      {
-        "lineNumber": 295,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 296,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 297,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            // state check"
-      },
-      {
-        "lineNumber": 298,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            EditPersonDescriptor e \u003d (EditPersonDescriptor) other;"
-      },
-      {
-        "lineNumber": 299,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 300,
+        "lineNumber": 129,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            return getModuleInfoCode().equals(e.getModuleInfoCode())"
+        "content": "                .getLectureHour().orElse(moduleTakenToEdit.getLectureHour());"
       },
       {
-        "lineNumber": 301,
+        "lineNumber": 130,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getSemester().equals(e.getSemester())"
+        "content": "        Hour updatedTutorialHour \u003d editPersonDescriptor"
       },
       {
-        "lineNumber": 302,
+        "lineNumber": 131,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getExpectedMinGrade().equals(e.getExpectedMinGrade())"
+        "content": "                .getTutorialHour().orElse(moduleTakenToEdit.getTutorialHour());"
       },
       {
-        "lineNumber": 303,
+        "lineNumber": 132,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getExpectedMaxGrade().equals(e.getExpectedMaxGrade())"
+        "content": "        Hour updatedLabHour \u003d editPersonDescriptor"
       },
       {
-        "lineNumber": 304,
+        "lineNumber": 133,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getLectureHour().equals(e.getLectureHour())"
+        "content": "                .getLabHour().orElse(moduleTakenToEdit.getLabHour());"
       },
       {
-        "lineNumber": 305,
+        "lineNumber": 134,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getTutorialHour().equals(e.getTutorialHour())"
+        "content": "        Hour updatedProjectHour \u003d editPersonDescriptor"
       },
       {
-        "lineNumber": 306,
+        "lineNumber": 135,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getLabHour().equals(e.getLabHour())"
+        "content": "                .getProjectHour().orElse(moduleTakenToEdit.getProjectHour());"
       },
       {
-        "lineNumber": 307,
+        "lineNumber": 136,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getProjectHour().equals(e.getProjectHour())"
+        "content": "        Hour updatedPreparationHour \u003d editPersonDescriptor"
       },
       {
-        "lineNumber": 308,
+        "lineNumber": 137,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "                    \u0026\u0026 getPreparationHour().equals(e.getPreparationHour())"
+        "content": "                .getPreparationHour().orElse(moduleTakenToEdit.getPreparationHour());"
       },
       {
-        "lineNumber": 309,
+        "lineNumber": 138,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        Workload updatedWorkload \u003d new Workload(updatedLectureHour, updatedTutorialHour, updatedLabHour,"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                updatedProjectHour, updatedPreparationHour);"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "        Set\u003cTag\u003e updatedTags \u003d editPersonDescriptor.getTags().orElse(moduleTakenToEdit.getTags());"
+      },
+      {
+        "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
-        "content": "                    \u0026\u0026 getTags().equals(e.getTags());"
+        "content": ""
       },
       {
-        "lineNumber": 310,
+        "lineNumber": 142,
         "author": {
-          "gitId": "-"
+          "gitId": "monikernemo"
         },
-        "content": "        }"
+        "content": "        return new ModuleTaken(updatedName, updatedSemester, updatedExpectedMinGrade, updatedExpectedMaxGrade,"
       },
       {
-        "lineNumber": 311,
+        "lineNumber": 143,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                updatedWorkload, updatedTags);"
+      },
+      {
+        "lineNumber": 144,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // short circuit if same object"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (other \u003d\u003d this) {"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return true;"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!(other instanceof EditCommand)) {"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // state check"
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        EditCommand e \u003d (EditCommand) other;"
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return index.equals(e.index)"
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 editPersonDescriptor.equals(e.editPersonDescriptor);"
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 163,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "     * Stores the details to edit the moduleTaken with. Each non-empty field value will replace the"
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "     * corresponding field value of the moduleTaken."
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static class EditPersonDescriptor {"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "        private ModuleInfoCode moduleInfoCode;"
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Semester semester;"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Grade expectedMinGrade;"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Grade expectedMaxGrade;"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Hour lectureHour;"
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Hour tutorialHour;"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Hour labHour;"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Hour projectHour;"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        private Hour preparationHour;"
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        private Set\u003cTag\u003e tags;"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public EditPersonDescriptor() {}"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * Copy constructor."
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * A defensive copy of {@code tags} is used internally."
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public EditPersonDescriptor(EditPersonDescriptor toCopy) {"
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "            setModuleInfoCode(toCopy.moduleInfoCode);"
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setSemester(toCopy.semester);"
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setExpectedMinGrade(toCopy.expectedMinGrade);"
+      },
+      {
+        "lineNumber": 190,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setExpectedMaxGrade(toCopy.expectedMaxGrade);"
+      },
+      {
+        "lineNumber": 191,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setLectureHour(toCopy.lectureHour);"
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setTutorialHour(toCopy.tutorialHour);"
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setLabHour(toCopy.labHour);"
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setProjectHour(toCopy.projectHour);"
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            setPreparationHour(toCopy.preparationHour);"
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            setTags(toCopy.tags);"
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * Returns true if at least one field is edited."
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public boolean isAnyFieldEdited() {"
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "            return CollectionUtil.isAnyNonNull(moduleInfoCode, semester, expectedMinGrade, expectedMaxGrade, tags);"
+      },
+      {
+        "lineNumber": 204,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 205,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 206,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "        public void setModuleInfoCode(ModuleInfoCode moduleInfoCode) {"
+      },
+      {
+        "lineNumber": 207,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "            this.moduleInfoCode \u003d moduleInfoCode;"
+      },
+      {
+        "lineNumber": 208,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 209,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 210,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "        public Optional\u003cModuleInfoCode\u003e getModuleInfoCode() {"
+      },
+      {
+        "lineNumber": 211,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "            return Optional.ofNullable(moduleInfoCode);"
+      },
+      {
+        "lineNumber": 212,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 214,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setSemester(Semester semester) {"
+      },
+      {
+        "lineNumber": 215,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.semester \u003d semester;"
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 217,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cSemester\u003e getSemester() {"
+      },
+      {
+        "lineNumber": 219,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(semester);"
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setExpectedMinGrade(Grade expectedMinGrade) {"
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.expectedMinGrade \u003d expectedMinGrade;"
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cGrade\u003e getExpectedMinGrade() {"
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(expectedMinGrade);"
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 229,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 230,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setExpectedMaxGrade(Grade expectedMaxGrade) {"
+      },
+      {
+        "lineNumber": 231,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.expectedMaxGrade \u003d expectedMaxGrade;"
+      },
+      {
+        "lineNumber": 232,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cGrade\u003e getExpectedMaxGrade() {"
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(expectedMaxGrade);"
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setLectureHour(Hour lectureHour) {"
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.lectureHour \u003d lectureHour;"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cHour\u003e getLectureHour() {"
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(lectureHour);"
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setTutorialHour(Hour tutorialHour) {"
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.tutorialHour \u003d tutorialHour;"
+      },
+      {
+        "lineNumber": 248,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 249,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 250,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cHour\u003e getTutorialHour() {"
+      },
+      {
+        "lineNumber": 251,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(tutorialHour);"
+      },
+      {
+        "lineNumber": 252,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 253,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 254,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setLabHour(Hour labHour) {"
+      },
+      {
+        "lineNumber": 255,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.labHour \u003d labHour;"
+      },
+      {
+        "lineNumber": 256,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 257,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 258,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cHour\u003e getLabHour() {"
+      },
+      {
+        "lineNumber": 259,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(labHour);"
+      },
+      {
+        "lineNumber": 260,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 261,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 262,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setProjectHour(Hour projectHour) {"
+      },
+      {
+        "lineNumber": 263,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.projectHour \u003d projectHour;"
+      },
+      {
+        "lineNumber": 264,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 265,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 266,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cHour\u003e getProjectHour() {"
+      },
+      {
+        "lineNumber": 267,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(projectHour);"
+      },
+      {
+        "lineNumber": 268,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 269,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 270,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public void setPreparationHour(Hour preparationHour) {"
+      },
+      {
+        "lineNumber": 271,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            this.preparationHour \u003d preparationHour;"
+      },
+      {
+        "lineNumber": 272,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 273,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 274,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        public Optional\u003cHour\u003e getPreparationHour() {"
+      },
+      {
+        "lineNumber": 275,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "            return Optional.ofNullable(preparationHour);"
+      },
+      {
+        "lineNumber": 276,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 277,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 278,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 279,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * Sets {@code tags} to this object\u0027s {@code tags}."
+      },
+      {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * A defensive copy of {@code tags} is used internally."
+      },
+      {
+        "lineNumber": 281,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 282,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public void setTags(Set\u003cTag\u003e tags) {"
+      },
+      {
+        "lineNumber": 283,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            this.tags \u003d (tags !\u003d null) ? new HashSet\u003c\u003e(tags) : null;"
+      },
+      {
+        "lineNumber": 284,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 285,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 286,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 287,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * Returns an unmodifiable tag set, which throws {@code UnsupportedOperationException}"
+      },
+      {
+        "lineNumber": 288,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * if modification is attempted."
+      },
+      {
+        "lineNumber": 289,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * Returns {@code Optional#empty()} if {@code tags} is null."
+      },
+      {
+        "lineNumber": 290,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 291,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public Optional\u003cSet\u003cTag\u003e\u003e getTags() {"
+      },
+      {
+        "lineNumber": 292,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return (tags !\u003d null) ? Optional.of(Collections.unmodifiableSet(tags)) : Optional.empty();"
+      },
+      {
+        "lineNumber": 293,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 294,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 295,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        @Override"
+      },
+      {
+        "lineNumber": 296,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 297,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            // short circuit if same object"
+      },
+      {
+        "lineNumber": 298,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            if (other \u003d\u003d this) {"
+      },
+      {
+        "lineNumber": 299,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                return true;"
+      },
+      {
+        "lineNumber": 300,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 301,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 302,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            if (!(other instanceof EditPersonDescriptor)) {"
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                return false;"
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 307,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            // state check"
+      },
+      {
+        "lineNumber": 308,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            EditPersonDescriptor e \u003d (EditPersonDescriptor) other;"
+      },
+      {
+        "lineNumber": 309,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 310,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "            return getModuleInfoCode().equals(e.getModuleInfoCode())"
+      },
+      {
+        "lineNumber": 311,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getSemester().equals(e.getSemester())"
+      },
+      {
         "lineNumber": 312,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getExpectedMinGrade().equals(e.getExpectedMinGrade())"
+      },
+      {
+        "lineNumber": 313,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getExpectedMaxGrade().equals(e.getExpectedMaxGrade())"
+      },
+      {
+        "lineNumber": 314,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getLectureHour().equals(e.getLectureHour())"
+      },
+      {
+        "lineNumber": 315,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getTutorialHour().equals(e.getTutorialHour())"
+      },
+      {
+        "lineNumber": 316,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getLabHour().equals(e.getLabHour())"
+      },
+      {
+        "lineNumber": 317,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getProjectHour().equals(e.getProjectHour())"
+      },
+      {
+        "lineNumber": 318,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "                    \u0026\u0026 getPreparationHour().equals(e.getPreparationHour())"
+      },
+      {
+        "lineNumber": 319,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                    \u0026\u0026 getTags().equals(e.getTags());"
+      },
+      {
+        "lineNumber": 320,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 321,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
@@ -28670,7 +28824,7 @@
     "authorContributionMap": {
       "-": 175,
       "monikernemo": 44,
-      "alexchong711": 90,
+      "alexchong711": 100,
       "lshwayne96": 3
     }
   },
@@ -31244,7 +31398,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            + \"Example: \" + COMMAND_WORD + \" Y3S3 \";"
+        "content": "            + \"Example: \" + COMMAND_WORD + \" Y3S2 \";"
       },
       {
         "lineNumber": 25,
@@ -41132,7 +41286,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            addSemesterLimit(new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            addSemesterLimit(new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 47,
@@ -41221,1265 +41375,1244 @@
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "lshwayne96"
+          "gitId": "-"
         },
-        "content": "        if (toBeCopied instanceof GradTrak) {"
+        "content": "    }"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "lshwayne96"
+          "gitId": "-"
         },
-        "content": "            currentSemester \u003d ((GradTrak) toBeCopied).getCurrentSemester();"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "lshwayne96"
         },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 62,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 63,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 64,
-        "author": {
-          "gitId": "lshwayne96"
-        },
         "content": "    public Semester getCurrentSemester() {"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 62,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        return currentSemester;"
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 63,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 64,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": ""
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
         "content": "    //// list overwrite operations"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 70,
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 71,
+        "lineNumber": 68,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * Replaces the contents of the moduleTaken list with {@code ModuleTaken}."
       },
       {
-        "lineNumber": 72,
+        "lineNumber": 69,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * {@code ModuleTaken} must not contain duplicate modulesTaken."
       },
       {
-        "lineNumber": 73,
+        "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 74,
+        "lineNumber": 71,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "    public void setModulesTaken(List\u003cModuleTaken\u003e modulesTaken) {"
       },
       {
-        "lineNumber": 75,
+        "lineNumber": 72,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        this.modulesTaken.setPersons(modulesTaken);"
       },
       {
-        "lineNumber": 76,
+        "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
         "content": "        indicateModified();"
       },
       {
-        "lineNumber": 77,
+        "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 78,
+        "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 79,
+        "lineNumber": 76,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 80,
+        "lineNumber": 77,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "     * Replaces the contents of the Semester Limit list with {@code semLimits}."
       },
       {
-        "lineNumber": 81,
+        "lineNumber": 78,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 82,
+        "lineNumber": 79,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    public void setSemesterLimits(List\u003cSemLimit\u003e semLimits) {"
       },
       {
-        "lineNumber": 83,
+        "lineNumber": 80,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "        this.semesterLimitList.setSemesterLimits(semLimits);"
       },
       {
-        "lineNumber": 84,
+        "lineNumber": 81,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "        indicateModified();"
       },
       {
-        "lineNumber": 85,
+        "lineNumber": 82,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 86,
+        "lineNumber": 83,
         "author": {
           "gitId": "alexchong711"
         },
         "content": ""
       },
       {
-        "lineNumber": 87,
+        "lineNumber": 84,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 88,
+        "lineNumber": 85,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * Resets the existing data of this {@code GradTrak} with {@code newData}."
       },
       {
-        "lineNumber": 89,
+        "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 87,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public void resetData(ReadOnlyGradTrak newData) {"
       },
       {
-        "lineNumber": 91,
+        "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
         "content": "        requireNonNull(newData);"
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 93,
+        "lineNumber": 90,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        setModulesTaken(newData.getModulesTakenList());"
       },
       {
-        "lineNumber": 94,
+        "lineNumber": 91,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "        setSemesterLimits(newData.getSemesterLimitList());"
       },
       {
-        "lineNumber": 95,
+        "lineNumber": 92,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "        setCurrentSemester(newData.getCurrentSemester());"
       },
       {
-        "lineNumber": 96,
+        "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 97,
+        "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 98,
+        "lineNumber": 95,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    //// moduleTaken-level operations"
       },
       {
-        "lineNumber": 99,
+        "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 100,
+        "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 101,
+        "lineNumber": 98,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "     * Returns true if a {@code ModuleTaken} in GradTrak has the same identity as the given {@code ModuleTaken}."
       },
       {
-        "lineNumber": 102,
+        "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 103,
+        "lineNumber": 100,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public boolean hasModuleTaken(ModuleTaken moduleTaken) {"
       },
       {
-        "lineNumber": 104,
+        "lineNumber": 101,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        requireNonNull(moduleTaken);"
       },
       {
-        "lineNumber": 105,
+        "lineNumber": 102,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        return modulesTaken.contains(moduleTaken);"
       },
       {
-        "lineNumber": 106,
+        "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 108,
+        "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 106,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * Adds a moduleTaken to GradTrak."
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 107,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * The moduleTaken must not already exist in the GradTrak."
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 109,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public void addModuleTaken(ModuleTaken p) {"
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 110,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        modulesTaken.add(p);"
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
         "content": "        indicateModified();"
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 115,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * Replaces the given moduleTaken {@code target} in the list with {@code editedModuleTaken}."
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
         "content": "     * {@code target} must exist in the address book."
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 117,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * The moduleTaken identity of {@code editedModuleTaken} must not be the same as another"
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 118,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * existing moduleTaken in the address book."
       },
       {
-        "lineNumber": 122,
+        "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 123,
+        "lineNumber": 120,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public void setModuleTaken(ModuleTaken target, ModuleTaken editedModuleTaken) {"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 121,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        requireNonNull(editedModuleTaken);"
       },
       {
-        "lineNumber": 125,
+        "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 126,
+        "lineNumber": 123,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        modulesTaken.setPerson(target, editedModuleTaken);"
       },
       {
-        "lineNumber": 127,
+        "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
         "content": "        indicateModified();"
       },
       {
-        "lineNumber": 128,
+        "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 129,
+        "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 130,
+        "lineNumber": 127,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 131,
+        "lineNumber": 128,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "     * Adds  all the semester limits in the list to the SemesterLimitList."
       },
       {
-        "lineNumber": 132,
+        "lineNumber": 129,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 133,
+        "lineNumber": 130,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    public void addSemesterLimitList(ObservableList\u003cSemLimit\u003e s) {"
       },
       {
-        "lineNumber": 134,
+        "lineNumber": 131,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "        for (int i \u003d 0; i \u003c s.size(); i++) {"
       },
       {
-        "lineNumber": 135,
+        "lineNumber": 132,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "            this.semesterLimitList.add(s.get(i));"
       },
       {
-        "lineNumber": 136,
+        "lineNumber": 133,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "        }"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        indicateModified();"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": ""
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        indicateModified();"
+        "content": "    /**"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    }"
+        "content": "     * Adds a moduleTaken to the address book."
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": ""
+        "content": "     * The moduleTaken must not already exist in the address book."
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "     * Adds a moduleTaken to the address book."
+        "content": "    public void addSemesterLimit(SemLimit s) {"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "     * The moduleTaken must not already exist in the address book."
+        "content": "        semesterLimitList.add(s);"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "     */"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    public void addSemesterLimit(SemLimit s) {"
+        "content": "    }"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        semesterLimitList.add(s);"
+        "content": ""
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        indicateModified();"
+        "content": "    /**"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    }"
+        "content": "     * Replaces the given index of semester limit with {@code editedSemesterLimit}."
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    /**"
+        "content": "    public void setSemesterLimit(int index, SemLimit editedSemesterLimit) {"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "     * Replaces the given index of semester limit with {@code editedSemesterLimit}."
+        "content": "        requireNonNull(editedSemesterLimit);"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    public void setSemesterLimit(int index, SemLimit editedSemesterLimit) {"
+        "content": "        semesterLimitList.setSemesterLimit(index, editedSemesterLimit);"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        requireNonNull(editedSemesterLimit);"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        semesterLimitList.setSemesterLimit(index, editedSemesterLimit);"
+        "content": ""
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        indicateModified();"
+        "content": "    /**"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    }"
+        "content": "     * Replaces the given index of semester limit with {@code editedSemesterLimit}."
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    /**"
+        "content": "    public void setCurrentSemester(Semester semester) {"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "     * Replaces the given index of semester limit with {@code editedSemesterLimit}."
+        "content": "        requireNonNull(semester);"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    public void setCurrentSemester(Semester semester) {"
+        "content": "        this.currentSemester \u003d semester;"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        requireNonNull(semester);"
+        "content": "        indicateModified();"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        this.currentSemester \u003d semester;"
-      },
-      {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "        indicateModified();"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "alexchong711"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "alexchong711"
-        },
         "content": ""
       },
       {
-        "lineNumber": 169,
+        "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 170,
+        "lineNumber": 167,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "     * Removes {@code key} from this {@code GradTrak}."
       },
       {
-        "lineNumber": 171,
+        "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
         "content": "     * {@code key} must exist in the address book."
       },
       {
-        "lineNumber": 172,
+        "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 173,
+        "lineNumber": 170,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public void removeModuleTaken(ModuleTaken key) {"
       },
       {
-        "lineNumber": 174,
+        "lineNumber": 171,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        modulesTaken.remove(key);"
       },
       {
-        "lineNumber": 175,
+        "lineNumber": 172,
         "author": {
           "gitId": "-"
         },
         "content": "        indicateModified();"
       },
       {
-        "lineNumber": 176,
+        "lineNumber": 173,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 177,
+        "lineNumber": 174,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": ""
       },
       {
-        "lineNumber": 178,
+        "lineNumber": 175,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 179,
+        "lineNumber": 176,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "     * Returns a {@code List} of {@code ModuleInfoCode} representing non-failed {@code ModuleTaken}."
       },
       {
-        "lineNumber": 180,
+        "lineNumber": 177,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "     * @return a {@code List} of {@code ModuleInfoCode} representing non-failed {@code ModuleTaken}."
       },
       {
-        "lineNumber": 181,
+        "lineNumber": 178,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 182,
+        "lineNumber": 179,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "    public List\u003cModuleInfoCode\u003e getNonFailedCodeList() {"
       },
       {
-        "lineNumber": 183,
+        "lineNumber": 180,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        List\u003cModuleInfoCode\u003e codeList \u003d new ArrayList\u003c\u003e();"
       },
       {
-        "lineNumber": 184,
+        "lineNumber": 181,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        for (ModuleTaken moduleTaken : getModulesTakenList()) {"
       },
       {
-        "lineNumber": 185,
+        "lineNumber": 182,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "            if (!moduleTaken.isFailed(currentSemester)) {"
       },
       {
-        "lineNumber": 186,
+        "lineNumber": 183,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "                codeList.add(moduleTaken.getModuleInfoCode());"
       },
       {
-        "lineNumber": 187,
+        "lineNumber": 184,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "            }"
       },
       {
-        "lineNumber": 188,
+        "lineNumber": 185,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 189,
+        "lineNumber": 186,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": ""
       },
       {
-        "lineNumber": 190,
+        "lineNumber": 187,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        return codeList;"
       },
       {
-        "lineNumber": 191,
+        "lineNumber": 188,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 192,
+        "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 193,
+        "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 194,
+        "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
         "content": "    public void addListener(InvalidationListener listener) {"
       },
       {
-        "lineNumber": 195,
+        "lineNumber": 192,
         "author": {
           "gitId": "-"
         },
         "content": "        invalidationListenerManager.addListener(listener);"
       },
       {
-        "lineNumber": 196,
+        "lineNumber": 193,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 197,
+        "lineNumber": 194,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 198,
+        "lineNumber": 195,
         "author": {
           "gitId": "-"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 199,
+        "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
         "content": "    public void removeListener(InvalidationListener listener) {"
       },
       {
-        "lineNumber": 200,
+        "lineNumber": 197,
         "author": {
           "gitId": "-"
         },
         "content": "        invalidationListenerManager.removeListener(listener);"
       },
       {
-        "lineNumber": 201,
+        "lineNumber": 198,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 202,
+        "lineNumber": 199,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 203,
+        "lineNumber": 200,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 204,
+        "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
         "content": "     * Notifies listeners that the address book has been modified."
       },
       {
-        "lineNumber": 205,
+        "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 206,
+        "lineNumber": 203,
         "author": {
           "gitId": "-"
         },
         "content": "    protected void indicateModified() {"
       },
       {
-        "lineNumber": 207,
+        "lineNumber": 204,
         "author": {
           "gitId": "-"
         },
         "content": "        invalidationListenerManager.callListeners(this);"
       },
       {
-        "lineNumber": 208,
+        "lineNumber": 205,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 209,
+        "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 210,
+        "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
         "content": "    //// util methods"
       },
       {
-        "lineNumber": 211,
+        "lineNumber": 208,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 212,
+        "lineNumber": 209,
         "author": {
           "gitId": "-"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 213,
+        "lineNumber": 210,
         "author": {
           "gitId": "-"
         },
         "content": "    public String toString() {"
       },
       {
-        "lineNumber": 214,
+        "lineNumber": 211,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        return modulesTaken.asUnmodifiableObservableList().size() + \" modulesTaken\";"
       },
       {
-        "lineNumber": 215,
+        "lineNumber": 212,
         "author": {
           "gitId": "-"
         },
         "content": "        // TODO: refine later"
       },
       {
-        "lineNumber": 216,
+        "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 217,
+        "lineNumber": 214,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 218,
+        "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 219,
+        "lineNumber": 216,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    public ObservableList\u003cModuleTaken\u003e getModulesTakenList() {"
       },
       {
-        "lineNumber": 220,
+        "lineNumber": 217,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        return modulesTaken.asUnmodifiableObservableList();"
       },
       {
-        "lineNumber": 221,
+        "lineNumber": 218,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 222,
+        "lineNumber": 219,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 223,
+        "lineNumber": 220,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 224,
+        "lineNumber": 221,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    public ObservableList\u003cSemLimit\u003e getSemesterLimitList() {"
       },
       {
-        "lineNumber": 225,
+        "lineNumber": 222,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "        return semesterLimitList.asUnmodifiableObservableList();"
       },
       {
-        "lineNumber": 226,
+        "lineNumber": 223,
         "author": {
           "gitId": "alexchong711"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 227,
+        "lineNumber": 224,
         "author": {
           "gitId": "alexchong711"
         },
         "content": ""
       },
       {
-        "lineNumber": 228,
+        "lineNumber": 225,
         "author": {
           "gitId": "-"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 229,
+        "lineNumber": 226,
         "author": {
           "gitId": "-"
         },
         "content": "    public boolean equals(Object other) {"
       },
       {
-        "lineNumber": 230,
+        "lineNumber": 227,
         "author": {
           "gitId": "-"
         },
         "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
-        "lineNumber": 231,
+        "lineNumber": 228,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "                || (other instanceof GradTrak // instanceof handles nulls"
       },
       {
-        "lineNumber": 232,
+        "lineNumber": 229,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "                \u0026\u0026 modulesTaken.equals(((GradTrak) other).modulesTaken));"
       },
       {
-        "lineNumber": 233,
+        "lineNumber": 230,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 234,
+        "lineNumber": 231,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 235,
+        "lineNumber": 232,
         "author": {
           "gitId": "-"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 236,
+        "lineNumber": 233,
         "author": {
           "gitId": "-"
         },
         "content": "    public int hashCode() {"
       },
       {
-        "lineNumber": 237,
+        "lineNumber": 234,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        return modulesTaken.hashCode();"
       },
       {
-        "lineNumber": 238,
+        "lineNumber": 235,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 239,
+        "lineNumber": 236,
         "author": {
           "gitId": "-"
         },
@@ -42489,7 +42622,7 @@
     "authorContributionMap": {
       "-": 105,
       "monikernemo": 35,
-      "lshwayne96": 31,
+      "lshwayne96": 28,
       "alexchong711": 68
     }
   },
@@ -42592,7 +42725,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "    private static final int WORKLOAD_TABLE_ROW_COUNT \u003d 5;"
+        "content": "    private static final int WORKLOAD_TABLE_ROW_COUNT \u003d 10;"
       },
       {
         "lineNumber": 15,
@@ -76945,7 +77078,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 48,
@@ -76966,7 +77099,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 51,
@@ -76987,7 +77120,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 54,
@@ -77008,7 +77141,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 57,
@@ -77029,7 +77162,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 60,
@@ -77050,7 +77183,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 63,
@@ -77071,7 +77204,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 66,
@@ -77092,7 +77225,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 69,
@@ -77113,7 +77246,7 @@
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"0.0\"),"
+        "content": "            new SemLimit(new CapAverage(2.0), new CapAverage(5.0), new Hour(\"5.0\"), new Hour(\"9.0\"),"
       },
       {
         "lineNumber": 72,
@@ -82201,110 +82334,117 @@
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "        for (JsonAdaptedModuleTaken jsonAdaptedModuleTaken : modulesTaken) {"
+        "content": "        gradTrak.setCurrentSemester(Semester.getSemesterByZeroIndex(currentSemesterIndex));"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            ModuleTaken moduleTaken \u003d jsonAdaptedModuleTaken.toModelType();"
+        "content": "        for (JsonAdaptedModuleTaken jsonAdaptedModuleTaken : modulesTaken) {"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            if (gradTrak.hasModuleTaken(moduleTaken)) {"
+        "content": "            ModuleTaken moduleTaken \u003d jsonAdaptedModuleTaken.toModelType();"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "                throw new IllegalValueException(MESSAGE_DUPLICATE_MODULES_TAKEN);"
+        "content": "            if (gradTrak.hasModuleTaken(moduleTaken)) {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            }"
+        "content": "                throw new IllegalValueException(MESSAGE_DUPLICATE_MODULES_TAKEN);"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "            gradTrak.addModuleTaken(moduleTaken);"
+        "content": "            }"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "        }"
+        "content": "            gradTrak.addModuleTaken(moduleTaken);"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "alexchong711"
+          "gitId": "monikernemo"
         },
-        "content": "        for (JsonAdaptedSemesterLimits jsonAdaptedSemesterLimits : semesterLimitList) {"
+        "content": "        }"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            SemLimit semLimit \u003d jsonAdaptedSemesterLimits.toModelType();"
+        "content": "        List\u003cSemLimit\u003e semList \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "            gradTrak.addSemesterLimit(semLimit);"
+        "content": "        for (JsonAdaptedSemesterLimits jsonAdaptedSemesterLimits : semesterLimitList) {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        }"
+        "content": "            semList.add(jsonAdaptedSemesterLimits.toModelType());"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "alexchong711"
         },
-        "content": "        gradTrak.setCurrentSemester(Semester.getSemesterByZeroIndex(currentSemesterIndex));"
+        "content": "        }"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "        return gradTrak;"
+        "content": "        gradTrak.setSemesterLimits(semList);"
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "    }"
+        "content": "        return new GradTrak(gradTrak);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 79,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 80,
         "author": {
           "gitId": "monikernemo"
         },
@@ -82312,8 +82452,8 @@
       }
     ],
     "authorContributionMap": {
-      "monikernemo": 61,
-      "alexchong711": 18
+      "monikernemo": 60,
+      "alexchong711": 20
     }
   },
   {
@@ -94810,229 +94950,243 @@
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "monikernemo"
+          "gitId": "alexchong711"
         },
-        "content": "import seedu.address.logic.commands.DisplaymodCommand;"
+        "content": "import seedu.address.logic.commands.CheckLimitCommand;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "import seedu.address.logic.commands.DisplayreqCommand;"
+        "content": "import seedu.address.logic.commands.DisplaymodCommand;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "lshwayne96"
+          "gitId": "monikernemo"
         },
-        "content": "import seedu.address.logic.commands.RecCommand;"
+        "content": "import seedu.address.logic.commands.DisplayreqCommand;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "lshwayne96"
         },
-        "content": "import seedu.address.logic.commands.SelectCommand;"
+        "content": "import seedu.address.logic.commands.RecCommand;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "Anand270294"
+          "gitId": "lshwayne96"
         },
-        "content": ""
+        "content": "import seedu.address.logic.commands.SelectCommand;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Anand270294"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "Anand270294"
         },
-        "content": " * Handles which panels to display when the command changes"
+        "content": "/**"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Anand270294"
         },
-        "content": " */"
+        "content": " * Handles which panels to display when the command changes"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Anand270294"
         },
-        "content": "public class PanelHandler {"
+        "content": " */"
       },
       {
         "lineNumber": 18,
+        "author": {
+          "gitId": "Anand270294"
+        },
+        "content": "public class PanelHandler {"
+      },
+      {
+        "lineNumber": 19,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": ""
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 20,
         "author": {
           "gitId": "Anand270294"
         },
         "content": "    private HashMap\u003cString, Node\u003e panels \u003d new HashMap\u003c\u003e();"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 21,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "    private Logic logic;"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 22,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 22,
-        "author": {
-          "gitId": "Anand270294"
-        },
-        "content": "    public PanelHandler(Logic logic) {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Anand270294"
         },
-        "content": "        super();"
+        "content": "    public PanelHandler(Logic logic) {"
       },
       {
         "lineNumber": 24,
+        "author": {
+          "gitId": "Anand270294"
+        },
+        "content": "        super();"
+      },
+      {
+        "lineNumber": 25,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        this.logic \u003d logic;"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 26,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 26,
-        "author": {
-          "gitId": "monikernemo"
-        },
-        "content": "        panels.put(DisplaymodCommand.COMMAND_WORD, new DisplayModuleInfoList(logic.getDisplayList(),"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "monikernemo"
         },
-        "content": "                logic.selectedModuleInfoProperty(),"
+        "content": "        panels.put(DisplaymodCommand.COMMAND_WORD, new DisplayModuleInfoList(logic.getDisplayList(),"
       },
       {
         "lineNumber": 28,
+        "author": {
+          "gitId": "monikernemo"
+        },
+        "content": "                logic.selectedModuleInfoProperty(),"
+      },
+      {
+        "lineNumber": 29,
         "author": {
           "gitId": "Anand270294"
         },
         "content": "                logic::setSelectedModuleInfo).getRoot());"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 30,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        panels.put(DisplayreqCommand.COMMAND_WORD,"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 31,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "                new DisplayRequirementStatusList(logic.getRequirementStatusList()).getRoot());"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 32,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        panels.put(RecCommand.COMMAND_WORD, new DisplayRecModuleList(logic.getRecModuleListSorted()).getRoot());"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 33,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        panels.put(SelectCommand.COMMAND_WORD, new BrowserPanel(logic.selectedPersonProperty()).getRoot());"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 34,
+        "author": {
+          "gitId": "alexchong711"
+        },
+        "content": "        panels.put(CheckLimitCommand.COMMAND_WORD, new BrowserPanel(logic.selectedPersonProperty()).getRoot());"
+      },
+      {
+        "lineNumber": 35,
         "author": {
           "gitId": "Anand270294"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 36,
         "author": {
           "gitId": "Anand270294"
         },
         "content": ""
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 37,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "    public Optional\u003cNode\u003e getCommandPanel(String command) {"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 38,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        if (command.equals(DisplayreqCommand.COMMAND_WORD)) {"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 39,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "            return Optional.of(new DisplayRequirementStatusList(logic.getRequirementStatusList()).getRoot());"
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 40,
         "author": {
           "gitId": "monikernemo"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 41,
         "author": {
           "gitId": "lshwayne96"
         },
         "content": "        return Optional.ofNullable(panels.get(command));"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 42,
         "author": {
           "gitId": "Anand270294"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 43,
         "author": {
           "gitId": "Anand270294"
         },
@@ -95042,7 +95196,8 @@
     "authorContributionMap": {
       "Anand270294": 20,
       "monikernemo": 10,
-      "lshwayne96": 11
+      "lshwayne96": 11,
+      "alexchong711": 2
     }
   },
   {
@@ -117676,9 +117831,9 @@
       {
         "lineNumber": 164,
         "author": {
-          "gitId": "-"
+          "gitId": "alexchong711"
         },
-        "content": "            throw new AssertionError(\"This method should not be called.\");"
+        "content": "            return Semester.Y1S1;"
       },
       {
         "lineNumber": 165,
@@ -119020,9 +119175,9 @@
     ],
     "authorContributionMap": {
       "Anand270294": 19,
-      "-": 213,
+      "-": 212,
       "monikernemo": 98,
-      "alexchong711": 18,
+      "alexchong711": 19,
       "lshwayne96": 7
     }
   },

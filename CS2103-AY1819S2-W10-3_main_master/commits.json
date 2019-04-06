@@ -741,6 +741,61 @@
         "deletions": 0,
         "date": "2019-04-04",
         "commitResults": []
+      },
+      {
+        "insertions": 186,
+        "deletions": 46,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "31680f18dc8ac5199efb2e5bf866e46792a684d3",
+            "message": "Modify WorkList ui.",
+            "insertions": 83,
+            "deletions": 18
+          },
+          {
+            "hash": "1bc43a49548adca84cab48023c625026b40673b7",
+            "message": "Modify WorkList ui.",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "a24ce72558b2d4fe53b1f29e0b5be6c2e65ccc7f",
+            "message": "Modify WorkList ui.",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "a851045d7bda458f70dd4cb11654ab93f43ad0d5",
+            "message": "Modify WorkList ui.",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "0f680c5402ac406063a67e36d3be7e703cff18ad",
+            "message": "Modify WorkList ui.",
+            "insertions": 86,
+            "deletions": 1
+          },
+          {
+            "hash": "0669c9a533696abc7c9705b683016231670b7a1f",
+            "message": "Modify WorkList ui.",
+            "insertions": 0,
+            "deletions": 20
+          },
+          {
+            "hash": "441e8d2136543ba4790d97c717379c44a453f836",
+            "message": "Modify WorkList ui.",
+            "insertions": 7,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "dukesun99": [
@@ -1318,6 +1373,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
         "commitResults": []
       }
     ],
@@ -1924,6 +1991,18 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "e0191632": [
@@ -2884,8 +2963,8 @@
         ]
       },
       {
-        "insertions": 170,
-        "deletions": 162,
+        "insertions": 250,
+        "deletions": 274,
         "date": "2019-04-03",
         "commitResults": [
           {
@@ -2959,28 +3038,103 @@
             "message": "Add outline for  equipment and client feature in DG",
             "insertions": 23,
             "deletions": 0
+          },
+          {
+            "hash": "a5551b4cd94e6de4e6986b18a3924ca07ac53b38",
+            "message": "add client panel",
+            "insertions": 56,
+            "deletions": 73
+          },
+          {
+            "hash": "db98dc06a6d3706341e1bd1ffbaa582720945a0d",
+            "message": "change dimension of client panel and worklist panel",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c2f7dde3e665a871d6369bb71d4baae67c578fbc",
+            "message": "Selection of client won\u0027t select the equipment together",
+            "insertions": 22,
+            "deletions": 37
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 341,
+        "deletions": 75,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "167eae2cf717a21c95aaa51b1d0d8c5db0019206",
+            "message": "fix list-c, will only update client panel when list-c",
+            "insertions": 68,
+            "deletions": 21
+          },
+          {
+            "hash": "9d917d8b3d7bfed22e79ea9bc90856a1e02d2678",
+            "message": "adding and equipment will reflect distinct client\u0027s name on client panel",
+            "insertions": 125,
+            "deletions": 31
+          },
+          {
+            "hash": "bc86abc4a7405b6db418928daf29e83e19b29152",
+            "message": "fix checkstyle fix error in client panel",
+            "insertions": 126,
+            "deletions": 23
+          },
+          {
+            "hash": "a86503b0244548e57241abd6ed24f2575725433a",
+            "message": "add add-e, delete-e in equipment panel sync with client panel",
+            "insertions": 22,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 602,
+        "deletions": 40,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "7d2f729bf89a22da5898368d60057e4c0144bcbe",
+            "message": "Add Client Details Panel Add labels to the 3 different panels Add add-c command Add testing for add-c command fix checkstyle",
+            "insertions": 602,
+            "deletions": 40
+          }
+        ]
+      },
+      {
+        "insertions": 73,
+        "deletions": 58,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "b4effd55cbf3cf872ecd67149095eae649eb115f",
+            "message": "Update Rachel PPP Update userguide",
+            "insertions": 68,
+            "deletions": 53
+          },
+          {
+            "hash": "f9eb292b836d65e73a72f3b9db40941a9fead79b",
+            "message": "Update PPP and userguide",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "LiuXuanIan": 2217,
-    "dukesun99": 372,
-    "bendymochi": 1698,
-    "e0191632": 4719
+    "LiuXuanIan": 2407,
+    "dukesun99": 370,
+    "bendymochi": 1697,
+    "e0191632": 5537
   },
   "authorContributionVariance": {
-    "LiuXuanIan": 42968.426,
-    "dukesun99": 6895.8438,
-    "bendymochi": 47545.656,
-    "e0191632": 516763.97
+    "LiuXuanIan": 41997.16,
+    "dukesun99": 6665.893,
+    "bendymochi": 45995.508,
+    "e0191632": 501512.84
   },
   "authorDisplayNameMap": {
     "LiuXuanIan": "LIU...UAN",

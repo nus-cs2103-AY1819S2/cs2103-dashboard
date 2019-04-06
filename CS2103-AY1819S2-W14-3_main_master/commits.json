@@ -1221,10 +1221,17 @@
         ]
       },
       {
-        "insertions": 0,
+        "insertions": 7,
         "deletions": 0,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0fa990a940df62044759def51663b33c8b47eb6f",
+            "message": "Add resetTargetHistory() in Player to be called in init command",
+            "insertions": 7,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "iwle": [
@@ -3554,8 +3561,8 @@
         ]
       },
       {
-        "insertions": 36,
-        "deletions": 6,
+        "insertions": 59,
+        "deletions": 69,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -3598,6 +3605,60 @@
             "hash": "dac2659718dd39d1e979c997d0551d3c9738a232",
             "message": "Update Game Rules to multiple shots per turn til miss.",
             "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "402cef86b84c49f41266acd735f505b12eb85ff7",
+            "message": "Change result display box heigth",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "df9a7cf171a86097cd614b5882bf2ec3ad546815",
+            "message": "Change result display box heigth",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "949b36402022fba8aead3685dcfd6ffed1019f1a",
+            "message": "Add hot fix for bug when enemy runs out of parity cells to shoot",
+            "insertions": 16,
+            "deletions": 4
+          },
+          {
+            "hash": "a607c76e898a02ee4b471ae96bf1c938caa87435",
+            "message": "Remove depreciated select command from UG",
+            "insertions": 0,
+            "deletions": 19
+          },
+          {
+            "hash": "8e5b9fa6890178a918430cfcb63050d1aa7bc1d5",
+            "message": "Remove depreciated find command from UG",
+            "insertions": 0,
+            "deletions": 21
+          },
+          {
+            "hash": "b59a2ca5d9e4f2b16524c16be53d14bc34ca3b58",
+            "message": "Remove depreciated end turn command from UG",
+            "insertions": 0,
+            "deletions": 10
+          },
+          {
+            "hash": "cb480a80c56099d550eb87847240b7b0026b0073",
+            "message": "Update command summary table",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "6ec9a4872d54ddb88005b19dac0c98b92c0968bb",
+            "message": "Remove unnecessary FAQ.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f166741568481080f16afc30594b7bf2b001b6e3",
+            "message": "Fix phrasing issue.",
+            "insertions": 1,
             "deletions": 1
           }
         ]
@@ -5261,16 +5322,16 @@
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1820,
-    "iwle": 3087,
-    "lucydotc": 774,
-    "bos10": 779,
-    "s-tr": 1630
+    "erjillsison": 1818,
+    "iwle": 3075,
+    "lucydotc": 790,
+    "bos10": 775,
+    "s-tr": 1615
   },
   "authorContributionVariance": {
-    "erjillsison": 184269.8,
+    "erjillsison": 184235.9,
     "iwle": 35103.566,
-    "lucydotc": 4898.112,
+    "lucydotc": 5079.6084,
     "bos10": 14893.376,
     "s-tr": 101672.76
   },

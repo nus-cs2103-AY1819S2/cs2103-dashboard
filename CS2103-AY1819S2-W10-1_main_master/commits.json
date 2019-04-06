@@ -1119,10 +1119,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 31,
+        "deletions": 17,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c373d5f9b0a054afe9da15e76747baaa7a920c2d",
+            "message": "Update Rayner PPP",
+            "insertions": 31,
+            "deletions": 17
+          }
+        ]
       },
       {
         "insertions": 12,
@@ -1142,6 +1149,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "qjqqyy": [
@@ -1991,6 +2004,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
         "commitResults": []
       }
     ],
@@ -2848,6 +2867,31 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 378,
+        "deletions": 403,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "e66e50f2bdb1df339903f738dcf7dbde19882bc0",
+            "message": "Refactor type of urls from String to URL",
+            "insertions": 360,
+            "deletions": 401
+          },
+          {
+            "hash": "712aa453c5c9467c9bce1aa6760bd58231a01eb9",
+            "message": "Add malformed URL test to FeedCommandParserTest",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "ecb876bfb8f8e4afc63afd4a53b01d47e0ca544b",
+            "message": "Add test for feeds which link to invalid websites",
+            "insertions": 12,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "epicfailname": [
@@ -3824,24 +3868,37 @@
         ]
       },
       {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "8b9b4bae78e1eb3be3e7c5b0a31973c96bcafa5e",
+            "message": "Remove trailing whitespace",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-05",
+        "date": "2019-04-06",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 7377,
-    "qjqqyy": 1903,
-    "thomastanck": 2219,
-    "epicfailname": 5567
+    "rlrh": 7346,
+    "qjqqyy": 1838,
+    "thomastanck": 2465,
+    "epicfailname": 5384
   },
   "authorContributionVariance": {
-    "rlrh": 750248.5,
-    "qjqqyy": 50944.164,
-    "thomastanck": 67681.48,
-    "epicfailname": 694663.0
+    "rlrh": 738010.6,
+    "qjqqyy": 50105.684,
+    "thomastanck": 74689.19,
+    "epicfailname": 683555.7
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

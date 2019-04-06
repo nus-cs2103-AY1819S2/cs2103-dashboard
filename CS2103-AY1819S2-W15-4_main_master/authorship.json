@@ -7733,93 +7733,93 @@
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ".  {To be added}"
+        "content": ".  Log in into the system as an admin or a general user. NRIC corresponds to the username. Both the NRIC and the password are case-sensitive."
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
         "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ".  Type the command in the command box and press kbd:[Enter] to execute it. +"
+        "content": "* For admin account: NRIC is Admin, password is Admin"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": "e.g. typing *`help`* and pressing kbd:[Enter] will open the help window."
+        "content": "* For general account: NRIC is the user\u0027s NRIC, password is NRIC by default which can be changed."
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Some example commands you can try:"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Type the command in the command box and press kbd:[Enter] to execute it. +"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": "* *`list`* : lists all contacts"
+        "content": "e.g. typing *`help`* and pressing kbd:[Enter] will open the help window."
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": "* **`add`**`n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01` : adds a contact named `John Doe` to the Address Book."
+        "content": ".  Some example commands you can try:"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
-        "content": "* **`delete`**`3` : deletes the 3rd contact shown in the current list"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
-        "content": "* *`exit`* : exits the app"
+        "content": "* *`list`* : lists all contacts"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "* **`add`**`n/John Doe nr/S9012345N p/98765432 c/Echo s/2 r/CFC t/injured`  : adds a personnel named `John Doe` to the Personnel Database."
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Refer to \u003c\u003cFeatures\u003e\u003e for details of each command."
+        "content": "* **`delete`**`3` : deletes the 3rd contact shown in the current list"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": ".  Some commands can only be accessed by Admin type accounts and some by General type accounts."
+        "content": "* *`exit`* : exits the app"
       },
       {
         "lineNumber": 39,
@@ -7833,14 +7833,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[[Features]]"
+        "content": ".  Refer to \u003c\u003cFeatures\u003e\u003e for details of each command."
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": "\u003d\u003d User Features"
+        "content": ".  Some commands can only be accessed by Admin type accounts and some by General type accounts."
       },
       {
         "lineNumber": 42,
@@ -7852,37 +7852,37 @@
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "// tag::login[]"
+        "content": "[[Features]]"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Log in"
+        "content": "\u003d\u003d User Features"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* For Practical Exam: You may use an administrator account with Username: Admin, and Password: Admin"
+        "content": "// tag::login[]"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* For Practical Exam: In personnel list, the password of the users will be listed for your convenience."
+        "content": "\u003d\u003d\u003d Log in"
       },
       {
         "lineNumber": 48,
@@ -7896,105 +7896,105 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "Logs user into account +"
+        "content": "* For Practical Exam: You may use an administrator account with Username: Admin, and Password: Admin"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "NRIC and passwords are case-sensitive. +"
+        "content": "* For Practical Exam: In personnel list, the password of the users will be listed for your convenience."
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "Enter in NRIC and password into the top and bottom text areas respectively, press enter. +"
+        "content": "****"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "****"
+        "content": "Logs user into account +"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* Can only be done in the login box at the start of the program."
+        "content": "NRIC and passwords are case-sensitive. +"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* By default, if your password has not been changed by you or an Admin, the password is your NRIC."
+        "content": "Enter in NRIC and password into the top and bottom text areas respectively, press enter. +"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* Contact an administrator if you have trouble logging in."
+        "content": "****"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* If you need to change your account, exit the program, then log back into a different account."
+        "content": "* Can only be done in the login box at the start of the program."
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* There are 2 types of accounts: General type accounts, and Admin (or Administrator) type accounts."
+        "content": "* By default, if your password has not been changed by you or an Admin, the password is your NRIC."
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* Admin accounts have access to more commands, or more functionalities for some kind of commands."
+        "content": "* Contact an administrator if you have trouble logging in."
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "****"
+        "content": "* If you need to change your account, exit the program, then log back into a different account."
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "// end::login[]"
+        "content": "* There are 2 types of accounts: General type accounts, and Admin (or Administrator) type accounts."
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "* Admin accounts have access to more commands, or more functionalities for some kind of commands."
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "****"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": "*Command Format*"
+        "content": "// end::login[]"
       },
       {
         "lineNumber": 64,
@@ -8006,93 +8006,93 @@
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "mechome"
+          "gitId": "-"
         },
-        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `login nr/NRIC`, `NRIC` is a parameter which can be used as `add n/S01234567Z`."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": "* Items in square brackets are optional e.g `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`."
+        "content": "*Command Format*"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
-        "content": "* Items with `…`​ after them can be used multiple times including zero times e.g. `[t/TAG]...` can be used as `{nbsp}` (i.e. 0 times), `t/friend`, `t/friend t/family` etc."
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "-"
+          "gitId": "mechome"
         },
-        "content": "* Parameters can be in any order e.g. if the command specifies `n/NAME p/PHONE_NUMBER`, `p/PHONE_NUMBER n/NAME` is also acceptable."
+        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `login nr/NRIC`, `NRIC` is a parameter which can be used as `add n/S01234567Z`."
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "* An Admin and a User may have different formats for the same command"
+        "content": "* Items in square brackets are optional e.g `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`."
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "* Items with `…`​ after them can be used multiple times including zero times e.g. `[t/TAG]...` can be used as `{nbsp}` (i.e. 0 times), `t/friend`, `t/friend t/family` etc."
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* Parameters can be in any order e.g. if the command specifies `n/NAME p/PHONE_NUMBER`, `p/PHONE_NUMBER n/NAME` is also acceptable."
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "\u003d\u003d\u003d Features for all users"
+        "content": "* An Admin and a User may have different formats for the same command"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Viewing help : `help`"
+        "content": ""
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Features for all users"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "Lists out a list of commands \u0026 instructions +"
+        "content": ""
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": "Format: `help`"
+        "content": "\u003d\u003d\u003d\u003d Viewing help : `help`"
       },
       {
         "lineNumber": 78,
@@ -8106,336 +8106,336 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Lists out a list of commands \u0026 instructions +"
       },
       {
         "lineNumber": 80,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Format: `help`"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 83,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d\u003d List all the users: `list`"
       },
       {
-        "lineNumber": 81,
+        "lineNumber": 84,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Lists out all users with their details. +"
       },
       {
-        "lineNumber": 82,
+        "lineNumber": 85,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Format: `list`"
       },
       {
-        "lineNumber": 83,
+        "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 84,
+        "lineNumber": 87,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "dreampursuer95"
         },
-        "content": "\u003d\u003d\u003d\u003d View duties assigned to user : `view` `Not implemented yet`"
+        "content": "\u003d\u003d\u003d\u003d View duties assigned to user : `view`"
       },
       {
-        "lineNumber": 85,
+        "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
         "content": "The user can see their details about their own duties assigned to them and their upcoming duties ranked by recency. +"
       },
       {
-        "lineNumber": 86,
+        "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `view`"
       },
       {
-        "lineNumber": 87,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 88,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "\u003d\u003d\u003d\u003d View duties assigned to other users : `view` `Not implemented yet`"
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "The user can see their details about their own duties assigned to other users. +"
-      },
-      {
         "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `view NAME`"
+        "content": ""
       },
       {
         "lineNumber": 91,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d View duties assigned to other users : `view`"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "Example:"
+        "content": "The user can see their details about their own duties assigned to other users. +"
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "Format: `view NRIC`"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "* `view Cassell`"
+        "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Example:"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d View roster : `roster` `Not implemented yet`"
+        "content": ""
       },
       {
         "lineNumber": 97,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": "The user can see the full duty rosters for particular months. +"
+        "content": "* `view S9012345L`"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `roster MONTH`"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d View roster : `roster` `Not implemented yet`"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": "Example:"
+        "content": "The user can see the full duty rosters for particular months. +"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `roster MONTH`"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": "* `roster February`"
+        "content": ""
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Example:"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Block dates : `block`"
+        "content": ""
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "The user can block dates and set which dates they are unavailable to duties for upcoming months. A user can block up to 15 days per month. +"
+        "content": "* `roster February`"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `block MONTH DAY DAY DAY ...`"
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Block dates : `block`"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "Example:"
+        "content": "The user can block dates and set which dates they are unavailable to duties for upcoming months. A user can block up to 15 days per month. +"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `block MONTH DAY DAY DAY ...`"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": "* `block March 3 6 15 21 30`"
+        "content": ""
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Example:"
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d View blocked dates : `block`"
+        "content": ""
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
-        "content": "The user can view the dates they have blocked for a particular month. +"
+        "content": "* `block March 3 6 15 21 30`"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `block MONTH`"
+        "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d View blocked dates : `block`"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": "Example:"
+        "content": "The user can view the dates they have blocked for a particular month. +"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `block MONTH`"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
-        "content": "* `block March`"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Example:"
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Find who is assigned duty today : `who`"
+        "content": ""
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": "The user can find out which person is assigned duty today. +"
+        "content": "* `block March`"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `who`"
+        "content": ""
       },
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Make a swap request with another user : `swap`"
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Find who is assigned duty on a given day : `who`"
+        "content": "The user can request for a duty swap with another user. This will be subject to the agreement of the other user and approval of the admin (i.e. commander). +"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
-        "content": "The user can find out which person is assigned duty on a given day. +"
+        "content": "The other user and admin will be notified upon login and they will be prompted to accept or decline the request. +"
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": "Format: `who DATE`"
+        "content": "Format: `swap ad/CURRENTDUTYDATE rd/DESIREDDUTYDATE"
       },
       {
         "lineNumber": 127,
@@ -8461,9 +8461,9 @@
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": "* `who 14022019`"
+        "content": "* `swap ad/14022019 rd/21022019 t/Please help a bro out!`"
       },
       {
         "lineNumber": 131,
@@ -8477,28 +8477,28 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "\u003d\u003d\u003d\u003d Make a swap request with another user : `swap`"
+        "content": "\u003d\u003d\u003d\u003d Locating persons by name: `find`"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "-"
         },
-        "content": "The user can request for a duty swap with another user. This will be subject to the agreement of the other user and approval of the admin (i.e. commander). +"
+        "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "-"
         },
-        "content": "The other user and admin will be notified upon login and they will be prompted to accept or decline the request. +"
+        "content": "Finds persons whose names contain any of the given keywords. +"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `swap d/CURRENTDUTYDATE d/DESIREDDUTYDATE [t/MESSAGE]"
+        "content": "Format: `find KEYWORD [MORE_KEYWORDS]`"
       },
       {
         "lineNumber": 136,
@@ -8512,112 +8512,112 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Example:"
+        "content": "****"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* The search is case insensitive. e.g `hans` will match `Hans`"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "-"
         },
-        "content": "* `swap d/14022019 d/21022019 t/Please help a bro out!`"
+        "content": "* The order of the keywords does not matter. e.g. `Hans Bo` will match `Bo Hans`"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "-"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 141,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "\u003d\u003d\u003d\u003d Locating persons by name: `find`"
-      },
-      {
-        "lineNumber": 142,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 143,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Finds persons whose names contain any of the given keywords. +"
-      },
-      {
-        "lineNumber": 144,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Format: `find KEYWORD [MORE_KEYWORDS]`"
-      },
-      {
-        "lineNumber": 145,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 146,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "****"
-      },
-      {
-        "lineNumber": 147,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* The search is case insensitive. e.g `hans` will match `Hans`"
-      },
-      {
-        "lineNumber": 148,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* The order of the keywords does not matter. e.g. `Hans Bo` will match `Bo Hans`"
-      },
-      {
-        "lineNumber": 149,
-        "author": {
-          "gitId": "-"
-        },
         "content": "* Only the name is searched."
       },
       {
-        "lineNumber": 150,
+        "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
         "content": "* Only full words will be matched e.g. `Han` will not match `Hans`"
       },
       {
-        "lineNumber": 151,
+        "lineNumber": 142,
         "author": {
           "gitId": "-"
         },
         "content": "* Persons matching at least one keyword will be returned (i.e. `OR` search). e.g. `Hans Bo` will return `Hans Gruber`, `Bo Yang`"
       },
       {
-        "lineNumber": 152,
+        "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
         "content": "****"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Examples:"
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* `find John` +"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Returns `john` and `John Doe`"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* `find Betsy Tim John` +"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Returns any person having names `Betsy`, `Tim`, or `John`"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
       },
       {
         "lineNumber": 153,
@@ -8631,196 +8631,196 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "Lists all the commands that you have entered in reverse chronological order. +"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `history`"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "-"
         },
-        "content": "* `find John` +"
+        "content": ""
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "-"
         },
-        "content": "Returns `john` and `John Doe`"
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": "* `find Betsy Tim John` +"
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": "Returns any person having names `Betsy`, `Tim`, or `John`"
+        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Listing entered commands : `history`"
+        "content": ""
       },
       {
         "lineNumber": 162,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 163,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Lists all the commands that you have entered in reverse chronological order. +"
-      },
-      {
-        "lineNumber": 164,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Format: `history`"
-      },
-      {
-        "lineNumber": 165,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "[NOTE]"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d\u003d"
-      },
-      {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Pressing the kbd:[\u0026uarr;] and kbd:[\u0026darr;] arrows will display the previous and next input respectively in the command box."
-      },
-      {
-        "lineNumber": 169,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d\u003d"
-      },
-      {
-        "lineNumber": 170,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 171,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d\u003d Undoing previous command : `undo`"
       },
       {
-        "lineNumber": 172,
+        "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 173,
+        "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
         "content": "Restores the address book to the state before the previous _undoable_ command was executed. +"
       },
       {
-        "lineNumber": 174,
+        "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `undo`"
       },
       {
-        "lineNumber": 175,
+        "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 176,
+        "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
         "content": "[NOTE]"
       },
       {
-        "lineNumber": 177,
+        "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 178,
+        "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
         "content": "Undoable commands: those commands that modify the address book\u0027s content (`add`, `delete`, `edit` and `clear`)."
       },
       {
-        "lineNumber": 179,
+        "lineNumber": 170,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 180,
+        "lineNumber": 171,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 181,
+        "lineNumber": 172,
         "author": {
           "gitId": "-"
         },
         "content": "Examples:"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* `delete 1` +"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`list` +"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`undo` (reverses the `delete 1` command) +"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* `select 1` +"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`list` +"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`undo` +"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "The `undo` command fails as there are no undoable commands executed previously."
       },
       {
         "lineNumber": 182,
@@ -8841,98 +8841,98 @@
         "author": {
           "gitId": "-"
         },
-        "content": "`list` +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "-"
         },
-        "content": "* `select 1` +"
+        "content": ""
       },
       {
         "lineNumber": 188,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": "`list` +"
+        "content": "\u003d\u003d\u003d\u003d Redoing the previously undone command : `redo`"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` +"
+        "content": ""
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": "The `undo` command fails as there are no undoable commands executed previously."
+        "content": "Reverses the most recent `undo` command. +"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `redo`"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": ""
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": ""
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 197,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d Redoing the previously undone command : `redo`"
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 198,
@@ -8946,210 +8946,210 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Reverses the most recent `undo` command. +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `redo`"
+        "content": "`redo` +"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "The `redo` command fails as there are no `undo` commands executed previously."
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "`redo` (reapplies the `clear` command) +"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` +"
+        "content": ""
       },
       {
         "lineNumber": 210,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "The `redo` command fails as there are no `undo` commands executed previously."
-      },
-      {
-        "lineNumber": 211,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 212,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* `delete 1` +"
-      },
-      {
-        "lineNumber": 213,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "`clear` +"
-      },
-      {
-        "lineNumber": 214,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "`undo` (reverses the `clear` command) +"
-      },
-      {
-        "lineNumber": 215,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "`undo` (reverses the `delete 1` command) +"
-      },
-      {
-        "lineNumber": 216,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "`redo` (reapplies the `delete 1` command) +"
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "`redo` (reapplies the `clear` command) +"
-      },
-      {
-        "lineNumber": 218,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 219,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d\u003d Exit : `exit`"
       },
       {
-        "lineNumber": 220,
+        "lineNumber": 211,
         "author": {
           "gitId": "-"
         },
         "content": "Exits the program. User will be logged out automatically. +"
       },
       {
-        "lineNumber": 221,
+        "lineNumber": 212,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `exit`"
       },
       {
-        "lineNumber": 222,
+        "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 223,
+        "lineNumber": 214,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d General Features"
       },
       {
-        "lineNumber": 224,
+        "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 225,
+        "lineNumber": 216,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "// tag::editGeneral[]"
       },
       {
-        "lineNumber": 226,
+        "lineNumber": 217,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d\u003d Edit own details : `edit`"
       },
       {
-        "lineNumber": 227,
+        "lineNumber": 218,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Edits user\u0027s own details. Can edit one or more fields. +"
       },
       {
-        "lineNumber": 228,
+        "lineNumber": 219,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Format: `edit INDEX [c/COMPANY] [s/SECTION] [r/RANK] [n/NAME] [p/PHONE] [t/TAG] [pw/PASSWORD]`"
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* At least one of the optional fields must be provided."
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* Existing values will be updated to the input values."
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* When editing tags, the existing tags of the person will be removed i.e adding of tags is not cumulative."
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* You can remove all the person\u0027s tags by typing `t/` without specifying any tags after it."
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "Examples:"
       },
       {
         "lineNumber": 229,
@@ -9163,203 +9163,203 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "****"
+        "content": "* `edit p/84523546 r/CPL +"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* At least one of the optional fields must be provided."
+        "content": "Edits the phone number and rank of the user to be `84523546` and `CPL` respectively."
       },
       {
         "lineNumber": 232,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "dreampursuer95"
         },
-        "content": "* Existing values will be updated to the input values."
+        "content": "* `edit c/Hotel t/ pw/pass` +"
       },
       {
         "lineNumber": 233,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "dreampursuer95"
         },
-        "content": "* When editing tags, the existing tags of the person will be removed i.e adding of tags is not cumulative."
+        "content": "Edits the company of the user to be `Hotel`, clears all existing tags, and changes password to \u0027pass\u0027."
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* You can remove all the person\u0027s tags by typing `t/` without specifying any tags after it."
+        "content": "// end::editGeneral[]"
       },
       {
         "lineNumber": 235,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Admin Features"
       },
       {
         "lineNumber": 237,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "// tag::add[]"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* `edit p/84523546 r/CPL +"
-      },
-      {
-        "lineNumber": 240,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "Edits the phone number and rank of the user to be `84523546` and `CPL` respectively."
-      },
-      {
-        "lineNumber": 241,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "* `edit 1 c/Hotel Crower t/ pw/pass` +"
-      },
-      {
-        "lineNumber": 242,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "Edits the company of the user to be `Hotel`, clears all existing tags, and changes passworrd to \u0027pass\u0027."
-      },
-      {
-        "lineNumber": 243,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "// end::editGeneral[]"
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 245,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "\u003d\u003d\u003d Admin Features"
-      },
-      {
-        "lineNumber": 246,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 247,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "// tag::add[]"
-      },
-      {
-        "lineNumber": 248,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
         "content": "\u003d\u003d\u003d\u003d Adding a user : `add`"
       },
       {
-        "lineNumber": 249,
+        "lineNumber": 240,
         "author": {
           "gitId": "mechome"
         },
         "content": "Add a user to the system with the corresponding NRIC, password, company, section, rank, name and contact number. +"
       },
       {
-        "lineNumber": 250,
+        "lineNumber": 241,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Format: `add nr/NRIC c/COMPANY s/SECTION r/RANK n/NAME p/PHONE [t/TAG]`"
       },
       {
-        "lineNumber": 251,
+        "lineNumber": 242,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 252,
+        "lineNumber": 243,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "****"
       },
       {
-        "lineNumber": 253,
+        "lineNumber": 244,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* By default, the user will be a General type account, and the password will be the NRIC."
       },
       {
-        "lineNumber": 254,
+        "lineNumber": 245,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* Password and account type can be changed using the `edit` command."
       },
       {
-        "lineNumber": 255,
+        "lineNumber": 246,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "****"
       },
       {
-        "lineNumber": 256,
+        "lineNumber": 247,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": ""
       },
       {
-        "lineNumber": 257,
+        "lineNumber": 248,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "// end::add[]"
       },
       {
-        "lineNumber": 258,
+        "lineNumber": 249,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d\u003d Deleting a person : `delete`"
+      },
+      {
+        "lineNumber": 250,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 251,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "Deletes the specified person from the duty planner. +"
+      },
+      {
+        "lineNumber": 252,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "Format: `delete INDEX`"
+      },
+      {
+        "lineNumber": 253,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 254,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 255,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* Deletes the person at the specified `INDEX`."
+      },
+      {
+        "lineNumber": 256,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* The index refers to the index number shown in the displayed person list."
+      },
+      {
+        "lineNumber": 257,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
+      },
+      {
+        "lineNumber": 258,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "****"
       },
       {
         "lineNumber": 259,
@@ -9373,56 +9373,56 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "Deletes the specified person from the duty planner. +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "Format: `delete INDEX`"
+        "content": ""
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "* `list` +"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "****"
+        "content": "`delete 2` +"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* Deletes the person at the specified `INDEX`."
+        "content": "Deletes the 2nd person in the duty planner personnel list."
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* The index refers to the index number shown in the displayed person list."
+        "content": "* `find Betsy` +"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "`delete 1` +"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "****"
+        "content": "Deletes the 1st person in the results of the `find` command."
       },
       {
         "lineNumber": 268,
@@ -9436,7 +9436,7 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "Examples:"
+        "content": "\u003d\u003d\u003d\u003d Clearing all entries : `clear`"
       },
       {
         "lineNumber": 270,
@@ -9450,112 +9450,112 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* `list` +"
-      },
-      {
-        "lineNumber": 272,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "`delete 2` +"
-      },
-      {
-        "lineNumber": 273,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "Deletes the 2nd person in the duty planner personnel list."
-      },
-      {
-        "lineNumber": 274,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "* `find Betsy` +"
-      },
-      {
-        "lineNumber": 275,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "`delete 1` +"
-      },
-      {
-        "lineNumber": 276,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "Deletes the 1st person in the results of the `find` command."
-      },
-      {
-        "lineNumber": 277,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 278,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "\u003d\u003d\u003d\u003d Clearing all entries : `clear`"
-      },
-      {
-        "lineNumber": 279,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 280,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
         "content": "Clears all entries from the duty planner. +"
       },
       {
-        "lineNumber": 281,
+        "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `clear`"
       },
       {
-        "lineNumber": 282,
+        "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 283,
+        "lineNumber": 274,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "// tag::editAdmin[]"
       },
       {
-        "lineNumber": 284,
+        "lineNumber": 275,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d\u003d Edit any user’s details : `edit`"
       },
       {
-        "lineNumber": 285,
+        "lineNumber": 276,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Edits an existing user’s details in the personnel list."
       },
       {
-        "lineNumber": 286,
+        "lineNumber": 277,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Format: `edit INDEX [nr/NRIC] [c/COMPANY] [s/SECTION] [r/RANK] [n/NAME] [p/PHONE] [t/TAG] [pw/PASSWORD] [u/A or G]`"
+      },
+      {
+        "lineNumber": 278,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 279,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "****"
+      },
+      {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* Edits the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
+      },
+      {
+        "lineNumber": 281,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* At least one of the optional fields must be provided."
+      },
+      {
+        "lineNumber": 282,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* Existing values will be updated to the input values."
+      },
+      {
+        "lineNumber": 283,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* When editing tags, the existing tags of the person will be removed i.e adding of tags is not cumulative."
+      },
+      {
+        "lineNumber": 284,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* You can remove all the person\u0027s tags by typing `t/` without specifying any tags after it."
+      },
+      {
+        "lineNumber": 285,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "* For account type field specified by `u/`, A corresponds to an Admin account, G corresponds to a general account."
+      },
+      {
+        "lineNumber": 286,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "****"
       },
       {
         "lineNumber": 287,
@@ -9569,168 +9569,168 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "****"
+        "content": "Examples:"
       },
       {
         "lineNumber": 289,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "* Edits the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
+        "content": ""
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* At least one of the optional fields must be provided."
+        "content": "* `edit 2 p/84523546 r/CPL u/A` +"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* Existing values will be updated to the input values."
+        "content": "Edits the phone number and rank of the 2nd person to be `84523546` and `CPL` respectively, and grants the person\u0027s account administrator privileges."
       },
       {
         "lineNumber": 292,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "dreampursuer95"
         },
-        "content": "* When editing tags, the existing tags of the person will be removed i.e adding of tags is not cumulative."
+        "content": "* `edit 1 c/Hotel t/ pw/pass` +"
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* You can remove all the person\u0027s tags by typing `t/` without specifying any tags after it."
+        "content": "Edits the company of the 1st person to be `Hotel`, clears all existing tags, and changes passworrd to \u0027pass\u0027."
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "* For account type field specified by `u/`, A corresponds to an Admin account, G corresponds to a general account."
+        "content": "// end::editAdmin[]"
       },
       {
         "lineNumber": 295,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 296,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 297,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 298,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 299,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "* `edit 2 p/84523546 r/CPL u/A` +"
-      },
-      {
-        "lineNumber": 300,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "Edits the phone number and rank of the 2nd person to be `84523546` and `CPL` respectively, and grants the person\u0027s account administrator privileges."
-      },
-      {
-        "lineNumber": 301,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "* `edit 1 c/Hotel Crower t/ pw/pass` +"
-      },
-      {
-        "lineNumber": 302,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "Edits the company of the 1st person to be `Hotel`, clears all existing tags, and changes passworrd to \u0027pass\u0027."
-      },
-      {
-        "lineNumber": 303,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "// end::editAdmin[]"
-      },
-      {
-        "lineNumber": 304,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 305,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d\u003d Scheduling duties : `schedule`"
       },
       {
-        "lineNumber": 306,
+        "lineNumber": 297,
         "author": {
           "gitId": "yjpan47"
         },
         "content": "This command invokes the scheduling algorithm for the upcoming month. It generates a viable duty schedule roster where each duty slot for the upcoming month will be filled by the people currently in the database. ++"
       },
       {
-        "lineNumber": 307,
+        "lineNumber": 298,
         "author": {
           "gitId": "yjpan47"
         },
         "content": ""
       },
       {
-        "lineNumber": 308,
+        "lineNumber": 299,
         "author": {
           "gitId": "yjpan47"
         },
         "content": ".In order to ensure fair scheduling system,"
       },
       {
-        "lineNumber": 309,
+        "lineNumber": 300,
         "author": {
           "gitId": "yjpan47"
         },
         "content": ". We introduce a point system to each individual such that a servivemen can earn points by doing duties. The points awarded to servicemen are cumulative, thus the points awarded are carried over to the next month. +"
       },
       {
-        "lineNumber": 310,
+        "lineNumber": 301,
         "author": {
           "gitId": "yjpan47"
         },
         "content": ". Each duty is worth a certain number of points and a person gains that amount of points by doing that duty. For example, if all Sunday duties are worth 4 points, a servicemen who is assigned a Sunday duty will by awarded 4 points. +"
       },
       {
-        "lineNumber": 311,
+        "lineNumber": 302,
         "author": {
           "gitId": "yjpan47"
         },
         "content": ". Before the scheduling command is called, each person has the opportunity to indicate the days in which they are unavailable to do duty. (See 3.9 block command)  +"
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "The algorithm is optimized such that persons with low points will be allocated to duties with high points. It automatically attempts to balance out the points of each person by the end of the month. +"
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 307,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "The duty schedule generated by the schedule command is not deterministic, calling schedule command multiple times generates different duty allocation. +"
+      },
+      {
+        "lineNumber": 308,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 309,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "Calling the schedule command merely generates a viable shedule, but does not finalize the schedule (i.e. points awarded to each person is yet to be added). Schedule generated is also not deterministic, calling schedule command multiple times generates different duty allocation. Thus, the admin can call schedule command continuously until a satisfactory schedule is produced. To finalize the schedule, use the confirm command. (See 4.8 confirm schedule) +"
+      },
+      {
+        "lineNumber": 310,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 311,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "Format: `schedule`"
       },
       {
         "lineNumber": 312,
@@ -9742,219 +9742,219 @@
       {
         "lineNumber": 313,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "exactlyprecise"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Confirm a Schedule : `confirm`"
       },
       {
         "lineNumber": 314,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "The algorithm is optimized such that persons with low points will be allocated to duties with high points. It automatically attempts to balance out the points of each person by the end of the month. +"
+        "content": "Confirm and finalize the last generated duty schedule (from the schedule command) for the upcoming month. +"
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "Subsequent attempts to call schedule command will not result in any new duty allocation produced. +"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "The duty schedule generated by the schedule command is not deterministic, calling schedule command multiple times generates different duty allocation. +"
+        "content": "Format: `confirm`"
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 318,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "-"
         },
-        "content": "Calling the schedule command merely generates a viable shedule, but does not finalize the schedule (i.e. points awarded to each person is yet to be added). Schedule generated is also not deterministic, calling schedule command multiple times generates different duty allocation. Thus, the admin can call schedule command continuously until a satisfactory schedule is produced. To finalize the schedule, use the confirm command. (See 4.8 confirm schedule) +"
+        "content": "\u003d\u003d\u003d Saving the data"
       },
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "dreampursuer95"
         },
-        "content": "Format: `schedule`"
+        "content": "Duty roster personnel list and the duties allocated are saved in the hard disk automatically after any command that changes the data. +"
       },
       {
         "lineNumber": 321,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 322,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "\u003d\u003d\u003d\u003d Confirm a Schedule : `confirm`"
-      },
-      {
-        "lineNumber": 323,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "Confirm and finalize the last generated duty schedule (from the schedule command) for the upcoming month. +"
-      },
-      {
-        "lineNumber": 324,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "Subsequent attempts to call schedule command will not result in any new duty allocation produced. +"
-      },
-      {
-        "lineNumber": 325,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "Format: `confirm`"
-      },
-      {
-        "lineNumber": 326,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 327,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d Saving the data"
-      },
-      {
-        "lineNumber": 328,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 329,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Duty roster data are saved in the hard disk automatically after any command that changes the data. +"
-      },
-      {
-        "lineNumber": 330,
         "author": {
           "gitId": "-"
         },
         "content": "There is no need to save manually."
       },
       {
-        "lineNumber": 331,
+        "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 332,
+        "lineNumber": 323,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d FAQ"
       },
       {
-        "lineNumber": 333,
+        "lineNumber": 324,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 334,
+        "lineNumber": 325,
         "author": {
           "gitId": "-"
         },
         "content": "*Q*: What if I want to swap my duty with another person? +"
       },
       {
-        "lineNumber": 335,
+        "lineNumber": 326,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "*A*: Use \"swap\" command to request a swap. If you receive no updates about it, contact your administrator."
       },
       {
-        "lineNumber": 336,
+        "lineNumber": 327,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 337,
+        "lineNumber": 328,
         "author": {
           "gitId": "mechome"
         },
         "content": "*Q*: What is the main feature of this app? +"
       },
       {
-        "lineNumber": 338,
+        "lineNumber": 329,
         "author": {
-          "gitId": "mechome"
+          "gitId": "dreampursuer95"
         },
-        "content": "*A*: The main feature is the automated scheduling algorithm, which significantly minimizes the amount of work that +"
+        "content": "*A*: The main feature is the automated scheduling algorithm, which significantly minimizes the amount of work that the admin has to do."
       },
       {
-        "lineNumber": 339,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "the admin has to do."
-      },
-      {
-        "lineNumber": 340,
+        "lineNumber": 330,
         "author": {
           "gitId": "mechome"
         },
         "content": ""
       },
       {
-        "lineNumber": 341,
+        "lineNumber": 331,
         "author": {
           "gitId": "mechome"
         },
         "content": "*Q*: What is my username and password? +"
       },
       {
-        "lineNumber": 342,
+        "lineNumber": 332,
         "author": {
           "gitId": "mechome"
         },
         "content": "*A*: Your username is by default your NRIC, used so prevalently in the SAF. +"
       },
       {
-        "lineNumber": 343,
+        "lineNumber": 333,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "Your password is also your NRIC by default, unless you or your administrator changed it. you can use the \u0027edit\u0027 command to edit your password later on. +"
+      },
+      {
+        "lineNumber": 334,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 335,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "*Q*: What if I forgot my password? +"
+      },
+      {
+        "lineNumber": 336,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "*A*: Contact your administrator for help."
+      },
+      {
+        "lineNumber": 337,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 338,
+        "author": {
+          "gitId": "mechome"
+        },
+        "content": "*Q*: What should I do if I need help with the app? +"
+      },
+      {
+        "lineNumber": 339,
+        "author": {
+          "gitId": "dreampursuer95"
+        },
+        "content": "*A*: You can enter \u0027help\u0027 in the command line, or press Help \u003e Help, or simply press F1. This will open up the User Guide in a new window."
+      },
+      {
+        "lineNumber": 340,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 341,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Command Summary"
+      },
+      {
+        "lineNumber": 342,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 343,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "\u003d\u003d\u003d All Users"
       },
       {
         "lineNumber": 344,
@@ -9966,215 +9966,152 @@
       {
         "lineNumber": 345,
         "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "*Q*: What if I forgot my password? +"
-      },
-      {
-        "lineNumber": 346,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "*A*: Contact your administrator for help."
-      },
-      {
-        "lineNumber": 347,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 348,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "*Q*: What should I do if I need help with the app? +"
-      },
-      {
-        "lineNumber": 349,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "*A*: You can enter \u0027help\u0027 in the command line, or press Help \u003e Help, or simply press F1. +"
-      },
-      {
-        "lineNumber": 350,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "This will open up the User Guide in a new window."
-      },
-      {
-        "lineNumber": 351,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 352,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d Command Summary"
-      },
-      {
-        "lineNumber": 353,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 354,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "\u003d\u003d\u003d All Users"
-      },
-      {
-        "lineNumber": 355,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 356,
-        "author": {
           "gitId": "-"
         },
         "content": "* *Viewing help* : `help` +"
       },
       {
-        "lineNumber": 357,
+        "lineNumber": 346,
+        "author": {
+          "gitId": "dreampursuer95"
+        },
+        "content": "* *Viewing own duties* : `view` +"
+      },
+      {
+        "lineNumber": 347,
+        "author": {
+          "gitId": "dreampursuer95"
+        },
+        "content": "* *Viewing other\u0027s duties* : `view NRIC` +"
+      },
+      {
+        "lineNumber": 348,
         "author": {
           "gitId": "-"
         },
         "content": "* *Blocking dates* : `block d/date d/date d/date …` +"
       },
       {
-        "lineNumber": 358,
+        "lineNumber": 349,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Make swap request* : `swap` +"
       },
       {
-        "lineNumber": 359,
+        "lineNumber": 350,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *List all the users* : `list` +"
       },
       {
-        "lineNumber": 360,
+        "lineNumber": 351,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Locate person by name* : `find` +"
       },
       {
-        "lineNumber": 361,
+        "lineNumber": 352,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *List entered commands* : `history` +"
       },
       {
-        "lineNumber": 362,
+        "lineNumber": 353,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Undo command* : `undo` +"
       },
       {
-        "lineNumber": 363,
+        "lineNumber": 354,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Redo command* : `redo` +"
       },
       {
-        "lineNumber": 364,
+        "lineNumber": 355,
         "author": {
           "gitId": "-"
         },
         "content": "* *Exit* : `exit` +"
       },
       {
-        "lineNumber": 365,
+        "lineNumber": 356,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": ""
       },
       {
-        "lineNumber": 366,
+        "lineNumber": 357,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d General accounts"
       },
       {
-        "lineNumber": 367,
+        "lineNumber": 358,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Edit own info* : `edit [c/COMPANY] [s/SECTION] [r/RANK] [n/NAME] [p/PHONE] [t/TAG] [pw/PASSWORD]` +"
       },
       {
-        "lineNumber": 368,
+        "lineNumber": 359,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": ""
       },
       {
-        "lineNumber": 369,
+        "lineNumber": 360,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "\u003d\u003d\u003d Admin accounts"
       },
       {
-        "lineNumber": 370,
+        "lineNumber": 361,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Add a user* : `add nr/NRIC c/COMPANY s/SECTION r/RANK n/NAME p/PHONE [t/TAG]` +"
       },
       {
-        "lineNumber": 371,
+        "lineNumber": 362,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Edit any user* : `edit INDEX [nr/NRIC] [c/COMPANY] [s/SECTION] [r/RANK] [n/NAME] [p/PHONE] [t/TAG] [pw/PASSWORD] [u/A or G]` +"
       },
       {
-        "lineNumber": 372,
+        "lineNumber": 363,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Delete a user* : `delete INDEX` +"
       },
       {
-        "lineNumber": 373,
+        "lineNumber": 364,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Scheduling duties* : `schedule` +"
       },
       {
-        "lineNumber": 374,
+        "lineNumber": 365,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "* *Confirm schedule* : `confirm` +"
       },
       {
-        "lineNumber": 375,
+        "lineNumber": 366,
         "author": {
           "gitId": "exactlyprecise"
         },
@@ -10183,9 +10120,10 @@
     ],
     "authorContributionMap": {
       "yjpan47": 20,
-      "-": 210,
-      "mechome": 11,
-      "exactlyprecise": 134
+      "dreampursuer95": 19,
+      "-": 194,
+      "mechome": 7,
+      "exactlyprecise": 126
     }
   },
   {

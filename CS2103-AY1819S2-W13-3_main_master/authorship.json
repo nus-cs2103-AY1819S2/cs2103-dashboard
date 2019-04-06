@@ -15399,7 +15399,7 @@
       {
         "lineNumber": 171,
         "author": {
-          "gitId": "-"
+          "gitId": "suriruhani"
         },
         "content": "****"
       },
@@ -15462,7 +15462,7 @@
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "DarrenDragonLee"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -15483,14 +15483,14 @@
       {
         "lineNumber": 183,
         "author": {
-          "gitId": "DarrenDragonLee"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 184,
         "author": {
-          "gitId": "DarrenDragonLee"
+          "gitId": "-"
         },
         "content": "****"
       },
@@ -15721,30 +15721,30 @@
       {
         "lineNumber": 217,
         "author": {
-          "gitId": "case141"
+          "gitId": "fterh"
         },
-        "content": "\u003d\u003d\u003d Listing history of searches made : `searchhistory`"
+        "content": "\u003d\u003d\u003d Command aliases : `alias`"
       },
       {
         "lineNumber": 218,
         "author": {
-          "gitId": "case141"
+          "gitId": "fterh"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Creating an alias: `alias`"
       },
       {
         "lineNumber": 219,
         "author": {
-          "gitId": "case141"
+          "gitId": "fterh"
         },
-        "content": "Lists the results of all searches made using the `search` command recently. +"
+        "content": "Allows the user to create aliases create aliases for commands. +"
       },
       {
         "lineNumber": 220,
         "author": {
-          "gitId": "case141"
+          "gitId": "fterh"
         },
-        "content": "Format: `searchhistory`"
+        "content": "Format: `alias COMMAND ALIAS`"
       },
       {
         "lineNumber": 221,
@@ -15758,33 +15758,33 @@
         "author": {
           "gitId": "fterh"
         },
-        "content": "\u003d\u003d\u003d Command aliases : `alias`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "fterh"
         },
-        "content": "\u003d\u003d\u003d\u003d Creating an alias: `alias`"
+        "content": ""
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "fterh"
         },
-        "content": "Allows the user to create aliases create aliases for commands. +"
+        "content": "* `alias count c` (`c` is now a valid pseudo-command that works exactly like `count`)"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "fterh"
         },
-        "content": "Format: `alias COMMAND ALIAS`"
+        "content": "* `alias invalid i` (`i` is now an invalid pseudo-command that works exactly like `invalid`)"
       },
       {
         "lineNumber": 226,
         "author": {
-          "gitId": "case141"
+          "gitId": "fterh"
         },
         "content": ""
       },
@@ -15793,33 +15793,33 @@
         "author": {
           "gitId": "fterh"
         },
-        "content": "Examples:"
+        "content": "The user is responsible for ensuring that he is creating aliases for valid commands."
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "fterh"
         },
-        "content": ""
+        "content": "The successful creation of an alias does not provide any guarantee of the validity of the associated command."
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias count c` (`c` is now a valid pseudo-command that works exactly like `count`)"
+        "content": ""
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias invalid i` (`i` is now an invalid pseudo-command that works exactly like `invalid`)"
+        "content": "If the user attempts to add an alias that has already been added, the old one will be overwritten. For example:"
       },
       {
         "lineNumber": 231,
         "author": {
-          "gitId": "fterh"
+          "gitId": "case141"
         },
         "content": ""
       },
@@ -15828,14 +15828,14 @@
         "author": {
           "gitId": "fterh"
         },
-        "content": "The user is responsible for ensuring that he is creating aliases for valid commands."
+        "content": "* `alias count c`"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "fterh"
         },
-        "content": "The successful creation of an alias does not provide any guarantee of the validity of the associated command."
+        "content": "* `alias invalid c`"
       },
       {
         "lineNumber": 234,
@@ -15849,12 +15849,12 @@
         "author": {
           "gitId": "fterh"
         },
-        "content": "If the user attempts to add an alias that has already been added, the old one will be overwritten. For example:"
+        "content": "`c` is now an alias for the invalid command `invalid`."
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "case141"
+          "gitId": "fterh"
         },
         "content": ""
       },
@@ -15863,264 +15863,264 @@
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias count c`"
+        "content": "The command may not be another alias. The alias may not be a command."
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias invalid c`"
+        "content": ""
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "fterh"
         },
-        "content": ""
+        "content": "* `alias count ct` (`ct` is now an alias for `count`)"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "fterh"
         },
-        "content": "`c` is now an alias for the invalid command `invalid`."
+        "content": "* `alias ct c` (this is invalid because `ct` is another alias)"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "fterh"
         },
-        "content": ""
+        "content": "* `alias count list` (this is invalid because `list` is a command)"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "fterh"
         },
-        "content": "The command may not be another alias. The alias may not be a command."
+        "content": ""
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "fterh"
         },
-        "content": ""
+        "content": "The alias must be syntatically valid. A valid syntax may only contain alphabets."
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias count ct` (`ct` is now an alias for `count`)"
+        "content": ""
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias ct c` (this is invalid because `ct` is another alias)"
+        "content": "* `alias list l` (valid)"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias count list` (this is invalid because `list` is a command)"
+        "content": "* `alias count ct` (valid)"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "fterh"
         },
-        "content": ""
+        "content": "* `alias clear $` (invalid)"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "fterh"
         },
-        "content": "The alias must be syntatically valid. A valid syntax may only contain alphabets."
+        "content": ""
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "fterh"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d Removing an alias: `alias-rm`"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias list l` (valid)"
+        "content": "Allows the user to remove previously-defined aliases. +"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "fterh"
         },
-        "content": "* `alias count ct` (valid)"
-      },
-      {
-        "lineNumber": 252,
-        "author": {
-          "gitId": "fterh"
-        },
-        "content": "* `alias clear $` (invalid)"
-      },
-      {
-        "lineNumber": 253,
-        "author": {
-          "gitId": "fterh"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 254,
-        "author": {
-          "gitId": "fterh"
-        },
-        "content": "\u003d\u003d\u003d\u003d Removing an alias: `alias-rm`"
-      },
-      {
-        "lineNumber": 255,
-        "author": {
-          "gitId": "fterh"
-        },
-        "content": "Allows the user to remove previously-defined aliases. +"
-      },
-      {
-        "lineNumber": 256,
-        "author": {
-          "gitId": "fterh"
-        },
         "content": "Format: `alias-rm ALIAS`"
       },
       {
-        "lineNumber": 257,
+        "lineNumber": 252,
         "author": {
           "gitId": "case141"
         },
         "content": ""
       },
       {
-        "lineNumber": 258,
+        "lineNumber": 253,
         "author": {
           "gitId": "case141"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 259,
+        "lineNumber": 254,
         "author": {
           "gitId": "fterh"
         },
         "content": ""
       },
       {
-        "lineNumber": 260,
+        "lineNumber": 255,
         "author": {
           "gitId": "fterh"
         },
         "content": "* `alias count c` (`c` is now an alias for `count`)"
       },
       {
-        "lineNumber": 261,
+        "lineNumber": 256,
         "author": {
           "gitId": "fterh"
         },
         "content": "* `alias-rm c` (`c` is no longer an alias for `count`)"
       },
       {
-        "lineNumber": 262,
+        "lineNumber": 257,
         "author": {
           "gitId": "fterh"
         },
         "content": ""
       },
       {
-        "lineNumber": 263,
+        "lineNumber": 258,
         "author": {
           "gitId": "fterh"
         },
         "content": "If the user attempts to remove a non-existent alias, nothing happens."
       },
       {
-        "lineNumber": 264,
+        "lineNumber": 259,
         "author": {
           "gitId": "fterh"
         },
         "content": "`alias-rm` only guarantees that after it is performed, the alias argument does not exist."
       },
       {
-        "lineNumber": 265,
+        "lineNumber": 260,
         "author": {
           "gitId": "fterh"
         },
         "content": ""
       },
       {
-        "lineNumber": 266,
+        "lineNumber": 261,
         "author": {
           "gitId": "fterh"
         },
         "content": "\u003d\u003d\u003d\u003d Listing all aliases: `alias-ls`"
       },
       {
-        "lineNumber": 267,
+        "lineNumber": 262,
         "author": {
           "gitId": "fterh"
         },
         "content": "Lists all defined aliases and their associated commands. +"
       },
       {
-        "lineNumber": 268,
+        "lineNumber": 263,
         "author": {
           "gitId": "fterh"
         },
         "content": "Format: `alias-ls`"
       },
       {
-        "lineNumber": 269,
+        "lineNumber": 264,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 270,
+        "lineNumber": 265,
         "author": {
           "gitId": "fterh"
         },
         "content": "\u003d\u003d\u003d\u003d Alias persistence"
       },
       {
-        "lineNumber": 271,
+        "lineNumber": 266,
         "author": {
           "gitId": "fterh"
         },
         "content": "Aliases are persistent across usage sessions."
       },
       {
-        "lineNumber": 272,
+        "lineNumber": 267,
         "author": {
           "gitId": "fterh"
         },
         "content": "When an alias is created or removed, this is recorded to disk."
       },
       {
-        "lineNumber": 273,
+        "lineNumber": 268,
         "author": {
           "gitId": "fterh"
         },
         "content": "No action is required on the user\u0027s part."
       },
       {
-        "lineNumber": 274,
+        "lineNumber": 269,
         "author": {
           "gitId": "fterh"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 270,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d Counting total number of sources: `count`"
+      },
+      {
+        "lineNumber": 271,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 272,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Counts and returns the total number of source entries retrieved. +"
+      },
+      {
+        "lineNumber": 273,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Format: `count`"
+      },
+      {
+        "lineNumber": 274,
+        "author": {
+          "gitId": "-"
         },
         "content": ""
       },
@@ -16129,7 +16129,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Counting total number of sources: `count`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 276,
@@ -16143,98 +16143,98 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Counts and returns the total number of source entries retrieved. +"
+        "content": "* `count` +"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `count`"
+        "content": "Result: `Total number of source(s): 6` +"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Counts the total number of sources retrieved from the database."
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "// tag::undoredo[]"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "-"
         },
-        "content": "* `count` +"
+        "content": "\u003d\u003d\u003d Undoing previous command : `undo`"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "-"
         },
-        "content": "Result: `Total number of source(s): 6` +"
+        "content": ""
       },
       {
         "lineNumber": 284,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Counts the total number of sources retrieved from the database."
-      },
-      {
-        "lineNumber": 285,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 286,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "// tag::undoredo[]"
-      },
-      {
-        "lineNumber": 287,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d Undoing previous command : `undo`"
-      },
-      {
-        "lineNumber": 288,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 289,
         "author": {
           "gitId": "case141"
         },
         "content": "Allows the user to reverse the last performed undoable action. +"
       },
       {
-        "lineNumber": 290,
+        "lineNumber": 285,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `undo`"
+      },
+      {
+        "lineNumber": 286,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 287,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "[NOTE]"
+      },
+      {
+        "lineNumber": 288,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 289,
+        "author": {
+          "gitId": "case141"
+        },
+        "content": "Undoable commands: those commands that modify the source\u0027s content (`add`, `delete`, `edit` and `clear`)."
+      },
+      {
+        "lineNumber": 290,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 291,
@@ -16248,70 +16248,70 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "Examples:"
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "case141"
         },
-        "content": "Undoable commands: those commands that modify the source\u0027s content (`add`, `delete`, `edit` and `clear`)."
+        "content": "* `delete Algorithms` +"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "`list` +"
       },
       {
         "lineNumber": 296,
         "author": {
-          "gitId": "-"
+          "gitId": "case141"
         },
-        "content": ""
+        "content": "`undo` (reverses the `delete Algorithms` command) +"
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `select 1` +"
       },
       {
         "lineNumber": 299,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "* `delete Algorithms` +"
-      },
-      {
-        "lineNumber": 300,
         "author": {
           "gitId": "-"
         },
         "content": "`list` +"
       },
       {
+        "lineNumber": 300,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`undo` +"
+      },
+      {
         "lineNumber": 301,
         "author": {
-          "gitId": "case141"
+          "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete Algorithms` command) +"
+        "content": "The `undo` command fails as there are no undoable commands executed previously."
       },
       {
         "lineNumber": 302,
@@ -16325,28 +16325,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* `select 1` +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 304,
         "author": {
           "gitId": "-"
         },
-        "content": "`list` +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` +"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "-"
         },
-        "content": "The `undo` command fails as there are no undoable commands executed previously."
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 307,
@@ -16360,28 +16360,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "\u003d\u003d\u003d Redoing the previously undone command : `redo`"
       },
       {
         "lineNumber": 309,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": ""
       },
       {
         "lineNumber": 310,
         "author": {
-          "gitId": "-"
+          "gitId": "case141"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": "Allows user to redo the last performed action. +"
       },
       {
         "lineNumber": 311,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "Format: `redo`"
       },
       {
         "lineNumber": 312,
@@ -16395,7 +16395,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Redoing the previously undone command : `redo`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 314,
@@ -16407,147 +16407,147 @@
       {
         "lineNumber": 315,
         "author": {
-          "gitId": "case141"
+          "gitId": "-"
         },
-        "content": "Allows user to redo the last performed action. +"
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `redo`"
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "`redo` +"
       },
       {
         "lineNumber": 321,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "The `redo` command fails as there are no `undo` commands executed previously."
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": ""
       },
       {
         "lineNumber": 323,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* `delete 1` +"
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "`clear` +"
       },
       {
         "lineNumber": 325,
         "author": {
           "gitId": "-"
         },
-        "content": "`redo` +"
+        "content": "`undo` (reverses the `clear` command) +"
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "-"
         },
-        "content": "The `redo` command fails as there are no `undo` commands executed previously."
+        "content": "`undo` (reverses the `delete 1` command) +"
       },
       {
         "lineNumber": 327,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`redo` (reapplies the `delete 1` command) +"
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "-"
         },
-        "content": "* `delete 1` +"
+        "content": "`redo` (reapplies the `clear` command) +"
       },
       {
         "lineNumber": 329,
         "author": {
           "gitId": "-"
         },
-        "content": "`clear` +"
+        "content": "// end::undoredo[]"
       },
       {
         "lineNumber": 330,
         "author": {
           "gitId": "-"
         },
-        "content": "`undo` (reverses the `clear` command) +"
+        "content": ""
       },
       {
         "lineNumber": 331,
         "author": {
-          "gitId": "-"
+          "gitId": "fterh"
         },
-        "content": "`undo` (reverses the `delete 1` command) +"
+        "content": "\u003d\u003d\u003d Enabling panic mode : `panic`"
       },
       {
         "lineNumber": 332,
         "author": {
-          "gitId": "-"
+          "gitId": "fterh"
         },
-        "content": "`redo` (reapplies the `delete 1` command) +"
+        "content": ""
       },
       {
         "lineNumber": 333,
         "author": {
-          "gitId": "-"
+          "gitId": "fterh"
         },
-        "content": "`redo` (reapplies the `clear` command) +"
+        "content": "Allows user to temporarily hide data. +"
       },
       {
         "lineNumber": 334,
         "author": {
-          "gitId": "-"
+          "gitId": "fterh"
         },
-        "content": "// end::undoredo[]"
+        "content": "Format: `panic`"
       },
       {
         "lineNumber": 335,
         "author": {
-          "gitId": "-"
+          "gitId": "fterh"
         },
         "content": ""
       },
@@ -16556,7 +16556,7 @@
         "author": {
           "gitId": "fterh"
         },
-        "content": "\u003d\u003d\u003d Enabling panic mode : `panic`"
+        "content": "\u003d\u003d\u003d Enabling panic mode : `unpanic`"
       },
       {
         "lineNumber": 337,
@@ -16570,14 +16570,14 @@
         "author": {
           "gitId": "fterh"
         },
-        "content": "Allows user to temporarily hide data. +"
+        "content": "Restores user data. +"
       },
       {
         "lineNumber": 339,
         "author": {
           "gitId": "fterh"
         },
-        "content": "Format: `panic`"
+        "content": "Format: `unpanic`"
       },
       {
         "lineNumber": 340,
@@ -16589,35 +16589,35 @@
       {
         "lineNumber": 341,
         "author": {
-          "gitId": "fterh"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Enabling panic mode : `unpanic`"
+        "content": "\u003d\u003d\u003d Clearing all entries : `clear`"
       },
       {
         "lineNumber": 342,
         "author": {
-          "gitId": "fterh"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 343,
         "author": {
-          "gitId": "fterh"
+          "gitId": "-"
         },
-        "content": "Restores user data. +"
+        "content": "Clears all entries from the address book. +"
       },
       {
         "lineNumber": 344,
         "author": {
-          "gitId": "fterh"
+          "gitId": "-"
         },
-        "content": "Format: `unpanic`"
+        "content": "Format: `clear`"
       },
       {
         "lineNumber": 345,
         "author": {
-          "gitId": "fterh"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -16626,7 +16626,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Clearing all entries : `clear`"
+        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
       },
       {
         "lineNumber": 347,
@@ -16640,14 +16640,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Clears all entries from the address book. +"
+        "content": "Exits the program. +"
       },
       {
         "lineNumber": 349,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `clear`"
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 350,
@@ -16659,58 +16659,58 @@
       {
         "lineNumber": 351,
         "author": {
-          "gitId": "-"
+          "gitId": "case141"
         },
-        "content": "\u003d\u003d\u003d Exiting the program : `exit`"
+        "content": "\u003d\u003d\u003d Autocorrect (\u0027Did you mean\u0027) : \u003cno command\u003e"
       },
       {
         "lineNumber": 352,
         "author": {
-          "gitId": "-"
+          "gitId": "case141"
         },
         "content": ""
       },
       {
         "lineNumber": 353,
         "author": {
-          "gitId": "-"
+          "gitId": "case141"
         },
-        "content": "Exits the program. +"
+        "content": "Suggests commands to the users when they get the spelling wrong. +"
       },
       {
         "lineNumber": 354,
         "author": {
-          "gitId": "-"
+          "gitId": "case141"
         },
-        "content": "Format: `exit`"
+        "content": ""
       },
       {
         "lineNumber": 355,
         "author": {
-          "gitId": "-"
+          "gitId": "case141"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 356,
         "author": {
           "gitId": "case141"
         },
-        "content": "\u003d\u003d\u003d Autocorrect (\u0027Did you mean\u0027) : \u003cno command\u003e"
+        "content": ""
       },
       {
         "lineNumber": 357,
         "author": {
           "gitId": "case141"
         },
-        "content": ""
+        "content": "* `delete Algorith` +"
       },
       {
         "lineNumber": 358,
         "author": {
           "gitId": "case141"
         },
-        "content": "Suggests commands to the users when they get the spelling wrong. +"
+        "content": "`Did you mean: Algorithms`"
       },
       {
         "lineNumber": 359,
@@ -16722,93 +16722,93 @@
       {
         "lineNumber": 360,
         "author": {
-          "gitId": "case141"
+          "gitId": "-"
         },
-        "content": "Examples:"
+        "content": "\u003d\u003d\u003d Saving the data"
       },
       {
         "lineNumber": 361,
         "author": {
-          "gitId": "case141"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 362,
         "author": {
-          "gitId": "case141"
-        },
-        "content": "* `delete Algorith` +"
-      },
-      {
-        "lineNumber": 363,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "`Did you mean: Algorithms`"
-      },
-      {
-        "lineNumber": 364,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 365,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d Saving the data"
-      },
-      {
-        "lineNumber": 366,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 367,
-        "author": {
           "gitId": "-"
         },
         "content": "Address book data are saved in the hard disk automatically after any command that changes the data. +"
       },
       {
-        "lineNumber": 368,
+        "lineNumber": 363,
         "author": {
           "gitId": "DarrenDragonLee"
         },
         "content": ""
       },
       {
-        "lineNumber": 369,
+        "lineNumber": 364,
         "author": {
           "gitId": "-"
         },
         "content": "There is no need to save manually."
       },
       {
-        "lineNumber": 370,
+        "lineNumber": 365,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 371,
+        "lineNumber": 366,
         "author": {
           "gitId": "-"
         },
         "content": "// tag::dataencryption[]"
       },
       {
-        "lineNumber": 372,
+        "lineNumber": 367,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d Encrypting data files `[coming in v2.0]`"
+      },
+      {
+        "lineNumber": 368,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 369,
+        "author": {
+          "gitId": "DarrenDragonLee"
+        },
+        "content": "Research materials can be very sensitive and private especially for high profile researchers. The Infinity Machine hopes to be able to help researchers by encrypting their data for only authorised viewers to access."
+      },
+      {
+        "lineNumber": 370,
+        "author": {
+          "gitId": "DarrenDragonLee"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 371,
+        "author": {
+          "gitId": "DarrenDragonLee"
+        },
+        "content": "Will allow users to generate simple encryption keys which will help keep their research materials secure."
+      },
+      {
+        "lineNumber": 372,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// end::dataencryption[]"
       },
       {
         "lineNumber": 373,
@@ -16820,30 +16820,30 @@
       {
         "lineNumber": 374,
         "author": {
-          "gitId": "DarrenDragonLee"
+          "gitId": "-"
         },
-        "content": "Research materials can be very sensitive and private especially for high profile researchers. The Infinity Machine hopes to be able to help researchers by encrypting their data for only authorised viewers to access."
+        "content": "\u003d\u003d FAQ"
       },
       {
         "lineNumber": 375,
         "author": {
-          "gitId": "DarrenDragonLee"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 376,
         "author": {
-          "gitId": "DarrenDragonLee"
+          "gitId": "-"
         },
-        "content": "Will allow users to generate simple encryption keys which will help keep their research materials secure."
+        "content": "*Q*: How do I transfer my data to another Computer? +"
       },
       {
         "lineNumber": 377,
         "author": {
-          "gitId": "-"
+          "gitId": "DarrenDragonLee"
         },
-        "content": "// end::dataencryption[]"
+        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Infinity Machine folder."
       },
       {
         "lineNumber": 378,
@@ -16857,7 +16857,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d FAQ"
+        "content": "\u003d\u003d Command Summary"
       },
       {
         "lineNumber": 380,
@@ -16869,187 +16869,152 @@
       {
         "lineNumber": 381,
         "author": {
-          "gitId": "-"
+          "gitId": "DarrenDragonLee"
         },
-        "content": "*Q*: How do I transfer my data to another Computer? +"
+        "content": "* *Add* `add i/TITLE y/TYPE d/DETAILS [t/TAG]...` +"
       },
       {
         "lineNumber": 382,
         "author": {
           "gitId": "DarrenDragonLee"
         },
-        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Infinity Machine folder."
+        "content": "e.g. `add i/Artificial Intelligence IEEE y/Journal Article d/Landmark paper on perils of artificial intelligence t/Science Journal t/AI`"
       },
       {
         "lineNumber": 383,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "* *Clear* : `clear`"
       },
       {
         "lineNumber": 384,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Command Summary"
+        "content": "* *Delete* : `delete INDEX` +"
       },
       {
         "lineNumber": 385,
         "author": {
           "gitId": "-"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 386,
-        "author": {
-          "gitId": "DarrenDragonLee"
-        },
-        "content": "* *Add* `add i/TITLE y/TYPE d/DETAILS [t/TAG]...` +"
-      },
-      {
-        "lineNumber": 387,
-        "author": {
-          "gitId": "DarrenDragonLee"
-        },
-        "content": "e.g. `add i/Artificial Intelligence IEEE y/Journal Article d/Landmark paper on perils of artificial intelligence t/Science Journal t/AI`"
-      },
-      {
-        "lineNumber": 388,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* *Clear* : `clear`"
-      },
-      {
-        "lineNumber": 389,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* *Delete* : `delete INDEX` +"
-      },
-      {
-        "lineNumber": 390,
-        "author": {
-          "gitId": "-"
-        },
         "content": "e.g. `delete 3`"
       },
       {
-        "lineNumber": 391,
+        "lineNumber": 386,
         "author": {
           "gitId": "-"
         },
         "content": "* *Restore* : `restore INDEX` +"
       },
       {
-        "lineNumber": 392,
+        "lineNumber": 387,
         "author": {
           "gitId": "-"
         },
         "content": "e.g. `restore 3`"
       },
       {
-        "lineNumber": 393,
+        "lineNumber": 388,
         "author": {
           "gitId": "DarrenDragonLee"
         },
         "content": "* *Edit* : `edit INDEX i/TITLE y/TYPE d/DETAILS [t/TAG]...` +"
       },
       {
-        "lineNumber": 394,
+        "lineNumber": 389,
         "author": {
           "gitId": "DarrenDragonLee"
         },
         "content": "e.g. `edit 2 i/Photosynthesis Wikipedia t/Photosynthesis t/Biology`"
       },
       {
-        "lineNumber": 395,
+        "lineNumber": 390,
         "author": {
           "gitId": "case141"
         },
         "content": "* *Search* : `search [KEYWORD] [KEYWORD]...` +"
       },
       {
-        "lineNumber": 396,
+        "lineNumber": 391,
         "author": {
           "gitId": "case141"
         },
         "content": "e.g. `search algorithm journal`"
       },
       {
-        "lineNumber": 397,
+        "lineNumber": 392,
         "author": {
           "gitId": "-"
         },
         "content": "* *List* : `list`"
       },
       {
-        "lineNumber": 398,
+        "lineNumber": 393,
         "author": {
           "gitId": "-"
         },
         "content": "* *Help* : `help`"
       },
       {
-        "lineNumber": 399,
+        "lineNumber": 394,
         "author": {
           "gitId": "case141"
         },
         "content": "* *Biblio* : `biblio`"
       },
       {
-        "lineNumber": 400,
+        "lineNumber": 395,
         "author": {
           "gitId": "-"
         },
         "content": "* *History* : `history`"
       },
       {
-        "lineNumber": 401,
+        "lineNumber": 396,
         "author": {
           "gitId": "case141"
         },
         "content": "* *Search History* : `searchhistory`"
       },
       {
-        "lineNumber": 402,
+        "lineNumber": 397,
         "author": {
           "gitId": "case141"
         },
         "content": "* *Define Command* : `definecommand c/COMMAND a/ALIAS` +"
       },
       {
-        "lineNumber": 403,
+        "lineNumber": 398,
         "author": {
           "gitId": "case141"
         },
         "content": "e.g. `definecommand c/edit a/e`"
       },
       {
-        "lineNumber": 404,
+        "lineNumber": 399,
         "author": {
           "gitId": "-"
         },
         "content": "* *Undo* : `undo`"
       },
       {
-        "lineNumber": 405,
+        "lineNumber": 400,
         "author": {
           "gitId": "-"
         },
         "content": "* *Redo* : `redo`"
       },
       {
-        "lineNumber": 406,
+        "lineNumber": 401,
         "author": {
           "gitId": "fterh"
         },
         "content": "* *Panic* : `panic`"
       },
       {
-        "lineNumber": 407,
+        "lineNumber": 402,
         "author": {
           "gitId": "fterh"
         },
@@ -17057,11 +17022,11 @@
       }
     ],
     "authorContributionMap": {
-      "suriruhani": 26,
+      "suriruhani": 27,
       "DoItTomorrow": 6,
-      "case141": 59,
-      "-": 206,
-      "DarrenDragonLee": 50,
+      "case141": 54,
+      "-": 208,
+      "DarrenDragonLee": 47,
       "fterh": 60
     }
   },
