@@ -880,6 +880,30 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "yichong96": [
@@ -1996,6 +2020,30 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "dlqs": [
@@ -2962,8 +3010,8 @@
         "commitResults": []
       },
       {
-        "insertions": 294,
-        "deletions": 211,
+        "insertions": 349,
+        "deletions": 294,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3121,6 +3169,73 @@
             "message": "add screenshot to ppp",
             "insertions": 12,
             "deletions": 6
+          },
+          {
+            "hash": "dab8efc77c1a4f8059fefd1a302802fed02bb551",
+            "message": "refactor back to global ops",
+            "insertions": 53,
+            "deletions": 81
+          },
+          {
+            "hash": "bb53b5ebdb98df6b4e29d79032ba6cd93facb9aa",
+            "message": "fix image",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 55,
+        "deletions": 37,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "89a3c17fa9597f49037932b3215ea41370d00446",
+            "message": "resize report display",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "a0867967906961440d647457e1d1e7920364e903",
+            "message": "add scrollpane",
+            "insertions": 46,
+            "deletions": 30
+          },
+          {
+            "hash": "0d7caaf4349206aa830f3e0de2765f6fbb30a20d",
+            "message": "add title for question section",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9b1874ac608a8536c2cfd7dddb48d8e63cdeb761",
+            "message": "add elipses for questions that are too long",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "176a2d53c8cabbdb7222afb5947cbbea58ecc3b6",
+            "message": "remove unused imports",
+            "insertions": 0,
+            "deletions": 2
           }
         ]
       }
@@ -4614,6 +4729,109 @@
             "deletions": 16
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 147,
+        "deletions": 277,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "f3434b0410d9b48d7c0ca730141d80593dd7b26f",
+            "message": "Define Strings to indicate the user\u0027s current status - to be displayed in Status Bar Footer",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "f13aa7e1ecad3248e56c46108cb74efc1ea841a8",
+            "message": "Add methods to update Status Bar",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "366b8c3d006ce304d791c286d694a15112f666d1",
+            "message": "Call methods to update status bar from MainWindow",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "2d2728cd246ddc235541d4588232f1592dc8c7a0",
+            "message": "Remove Sync Status from status bar - now only left with saveLocation which is to be refactored to current state of user in the app.",
+            "insertions": 0,
+            "deletions": 45
+          },
+          {
+            "hash": "d80e7666d88fd53b45bdec678b463f4f5a4020f0",
+            "message": "Update status bar footer system tests",
+            "insertions": 12,
+            "deletions": 45
+          },
+          {
+            "hash": "07672ce7604f5e9a547ea35c93cd94c59976a64d",
+            "message": "Update status bar asserts checks in Card Folder System Tests",
+            "insertions": 27,
+            "deletions": 21
+          },
+          {
+            "hash": "7cea585791e339a742d0ef7c01788bf1fd377b67",
+            "message": "Update status bar in folder checks in the existing commands",
+            "insertions": 13,
+            "deletions": 16
+          },
+          {
+            "hash": "821f235a3d274c5133fb7db3dbcb29c74883ec23",
+            "message": "Remove unnecessary codes in the updated StatusBarFooter - listeners - clocks - paths",
+            "insertions": 18,
+            "deletions": 64
+          },
+          {
+            "hash": "1e45f9c81f7bf6ae56c16ccbc6d534bb400f99f3",
+            "message": "Refactor saveLocation to currentStatus in status bar",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "98c6f0a72cf204992f76de027f8afe6a63c0292b",
+            "message": "Remove Clock Rule since status bar doesn\u0027t use it",
+            "insertions": 0,
+            "deletions": 64
+          },
+          {
+            "hash": "5320576678552637328123373a70e07c6fbd4764",
+            "message": "change colours of UI - test session - browser panel - card/folder selected",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "fb981ffd91fc3bae1228e2ce2cc8f24d23635c9d",
+            "message": "Add javadoc comment for report",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "4008d89af744093f232ae8aa0466c02a871a87ab",
+            "message": "Test other statuses in status bar test",
+            "insertions": 8,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "mmdlow": [
@@ -5775,22 +5993,46 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 4971,
-    "yichong96": 1135,
-    "dlqs": 2623,
-    "KerrynEer": 1589,
-    "mmdlow": 1249
+    "afterdusk": 4972,
+    "yichong96": 1068,
+    "dlqs": 2688,
+    "KerrynEer": 1692,
+    "mmdlow": 1242
   },
   "authorContributionVariance": {
-    "afterdusk": 1689805.2,
-    "yichong96": 15288.85,
-    "dlqs": 166024.98,
-    "KerrynEer": 35066.18,
-    "mmdlow": 30225.34
+    "afterdusk": 1575113.0,
+    "yichong96": 14470.757,
+    "dlqs": 157077.11,
+    "KerrynEer": 34981.848,
+    "mmdlow": 28519.113
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

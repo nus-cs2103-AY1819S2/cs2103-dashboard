@@ -521,6 +521,37 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 105,
+        "deletions": 20,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "4a6d34325a9ef3cc60e3c8fb8dfae0ce45dc2367",
+            "message": "Add PPP Debug ModuleGrade isValid method Debug Cap Calculation Error Debug Storage",
+            "insertions": 105,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "shimeilee": [
@@ -1176,6 +1207,30 @@
             "deletions": 181
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "LimZhengJieBenjamin": [
@@ -1831,6 +1886,146 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 774,
+        "deletions": 119,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "cda84689954aebf7cc1806fc22a922ee3d1449ec",
+            "message": "Created UniqueModuleCodeList class.",
+            "insertions": 141,
+            "deletions": 0
+          },
+          {
+            "hash": "c047a505114609997361ce600cb54649571bef97",
+            "message": "Created JsonAdaptedModuleCode class",
+            "insertions": 50,
+            "deletions": 0
+          },
+          {
+            "hash": "738619ccb7b1eb9c570b2fe66ad194bf341a9b09",
+            "message": "Created DuplicateModuleCodeException.",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "43aa6b0878863047a7b6edea3809ec04e7235204",
+            "message": "Created ModuleCodeNotFoundException.",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "b5ca246fa71c5250ebacfb31276c740a4788c9c4",
+            "message": "Updated AddHomeworkCommand, DeleteHomeworkCommand and EditHomeworkCommand to update the UniqueModuleCodeList.",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "b66e4cd103cd3dc8aad9ac40d13345f754b05632",
+            "message": "Updated AddressBook to include a ModuleCode list.",
+            "insertions": 59,
+            "deletions": 0
+          },
+          {
+            "hash": "30fa4c98a1b1a66c91b22370210d4e87696bad10",
+            "message": "Updated Model to include a filteredModuleCodeList",
+            "insertions": 59,
+            "deletions": 0
+          },
+          {
+            "hash": "e3ee763c6f29d8f5f8f38e9e5267ba0d968b5638",
+            "message": "Updated ReadOnlyAddressBook",
+            "insertions": 97,
+            "deletions": 3
+          },
+          {
+            "hash": "26553b5d8326d47644c1492ec83ce6b0282c822f",
+            "message": "Updated ReadOnlyAddressBook.",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "b698077989c3d8ef2dacc2165230f39484b299b2",
+            "message": "Edited comments for ModuleSemesterNotFoundException",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "07a7561d5a68c6c19d2344d94a2343e277d558b5",
+            "message": "Updated JsonSerializableAddressBook.",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
+            "hash": "833283bc1fdb35db0a6624ed02be2a8d74cd0890",
+            "message": "Updated test cases to account for new UniqueModuleCodeList.",
+            "insertions": 149,
+            "deletions": 35
+          },
+          {
+            "hash": "403f8991267ebb0b0ff47fd0d2b6a46ec099df34",
+            "message": "Edited checkstyle errors.",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "2817076a13102451f65458418ae0fdc1a33ded21",
+            "message": "Commented out issues in TCs.",
+            "insertions": 76,
+            "deletions": 74
+          },
+          {
+            "hash": "1dc7f3b6a8b39959cd237498a2e5aede86b9746e",
+            "message": "Edited AddNoteCommandTest",
+            "insertions": 48,
+            "deletions": 0
+          },
+          {
+            "hash": "e8c50ff208b0fa487d7ea0ad40883766a6cb3504",
+            "message": "Fixed bugs in EditHomeworkCommand",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "8921419d9f43d0ce4785cf4e60e1d7e44426d7b2",
+            "message": "corrected CheckStyle errors.",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 24,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "50a5abf474caf491d0a79cf797d3a1da8a40fa7c",
+            "message": "Updated Logic interface",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "3ed080efa8d5464e4f20bbbc26f9a1fd8f436fd3",
+            "message": "Updated LogicManager",
+            "insertions": 11,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "NgWeiXin": [
@@ -2501,20 +2696,111 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 655,
+        "deletions": 101,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "0e2b0380e3cb9bfb86dbad92faab43b78d50a8f6",
+            "message": "Modified app version and jar name",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f240ba3b10be51d786ec1f6d047dcd3584193ae0",
+            "message": "Fixed date bugs based on issue tracker and formatting of Date",
+            "insertions": 19,
+            "deletions": 5
+          },
+          {
+            "hash": "0521b17b15eb3d273e9ea60ae3f28bcb36c69b06",
+            "message": "Added edit note test cases",
+            "insertions": 158,
+            "deletions": 0
+          },
+          {
+            "hash": "45fb46b380e5e0a5b0a27b29c326a115e41acd90",
+            "message": "Fixed UI bugs and added subpanel support for Homework Manager",
+            "insertions": 32,
+            "deletions": 20
+          },
+          {
+            "hash": "c1106394e9f9e60b8d87aa50f3dd63e1537f94be",
+            "message": "Added subpanel support for Homework Manager",
+            "insertions": 174,
+            "deletions": 0
+          },
+          {
+            "hash": "7b99ac4260835ed678844f50c67b576e2215da2a",
+            "message": "Fixed bugs for edit and save note test files and added AddHomework Parser test",
+            "insertions": 157,
+            "deletions": 4
+          },
+          {
+            "hash": "6563b4ca87f80df515db14a0f20e3d5b695710ba",
+            "message": "Corrected Javadocs for UI and modified parseDate method",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "18870d0790fbba92ce60cfda8f57540e3883645a",
+            "message": "Updated PPP and UserGuide",
+            "insertions": 95,
+            "deletions": 49
+          },
+          {
+            "hash": "806f73e4e531e50a118107aee44f3e0f8073f8f9",
+            "message": "Fixed UI bugs",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "5f7e1a0b828ee76ce33a5f594d7df1786ed3873d",
+            "message": "Updated dates in testcases",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "e3fbaef200d8cce0ef4d8e6b9943bcf2ff5d2c08",
+            "message": "Removed redundant comments",
+            "insertions": 0,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "andrewscw": 3645,
-    "shimeilee": 8652,
-    "LimZhengJieBenjamin": 1685,
-    "NgWeiXin": 4750
+    "andrewscw": 3723,
+    "shimeilee": 8642,
+    "LimZhengJieBenjamin": 2384,
+    "NgWeiXin": 5340
   },
   "authorContributionVariance": {
-    "andrewscw": 193216.36,
-    "shimeilee": 1174287.4,
-    "LimZhengJieBenjamin": 20966.467,
-    "NgWeiXin": 841535.0
+    "andrewscw": 180739.42,
+    "shimeilee": 1094697.6,
+    "LimZhengJieBenjamin": 31976.125,
+    "NgWeiXin": 790069.9
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",

@@ -1076,6 +1076,24 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "bava98": [
@@ -1980,6 +1998,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-03",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
         "commitResults": []
       }
     ],
@@ -2992,6 +3028,97 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 721,
+        "deletions": 193,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "32a1f24f058c3cc339d40b768d54aadbc5b8e7fa",
+            "message": "Add new OrderItemStatus class",
+            "insertions": 136,
+            "deletions": 0
+          },
+          {
+            "hash": "321f6e5cfb2ee9d6637babb15653c6f72637a762",
+            "message": "Update files to be compatible with the new OrderItemStatus",
+            "insertions": 145,
+            "deletions": 93
+          },
+          {
+            "hash": "34451856d996a991281881a9ad9ded54c390008c",
+            "message": "Fix tests",
+            "insertions": 18,
+            "deletions": 15
+          },
+          {
+            "hash": "825ffc98b978bf56ff772e14ca0ac7206009aaa8",
+            "message": "Remove updateMode as it is redundant",
+            "insertions": 3,
+            "deletions": 63
+          },
+          {
+            "hash": "23adae75145334d13f196263c7e1aaaac0c69556",
+            "message": "Add serve command",
+            "insertions": 137,
+            "deletions": 1
+          },
+          {
+            "hash": "2ffdeb2374fdf8000ea0f8c034a720c39990ae30",
+            "message": "Add tests for serve command",
+            "insertions": 263,
+            "deletions": 5
+          },
+          {
+            "hash": "fd67ffd4dadcb76c0ac34958c1fa10c6039cb90c",
+            "message": "Update UI to show serving status + test",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "738311d22d1b343a68b35f1fa81e1f05f35e2840",
+            "message": "Change background colour when item is fully served",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "6186ea2e535e42615d5a2dbdf3030e0ef4fe7a00",
+            "message": "Change RM order item display to only show unserved items",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "ffe96ef57b2d589fef58718e1ada531acd8a2ea0",
+            "message": "Fix checkstyle",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "9d4bf3059c63a9831fb62b969e5126b983d8929b",
+            "message": "Fix more checkstyle",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "bc74962e54c2154d20515f0f0ec0c004c1d861a0",
+            "message": "Fix error with tests",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "Qing-Yuan": [
@@ -4426,20 +4553,38 @@
         "deletions": 0,
         "date": "2019-04-03",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Beesaycheese": 6301,
-    "bava98": 3685,
-    "whyjayxp": 7044,
-    "Qing-Yuan": 9492
+    "Beesaycheese": 6282,
+    "bava98": 3658,
+    "whyjayxp": 7610,
+    "Qing-Yuan": 9482
   },
   "authorContributionVariance": {
-    "Beesaycheese": 199301.75,
-    "bava98": 164881.16,
-    "whyjayxp": 269756.25,
-    "Qing-Yuan": 1879060.2
+    "Beesaycheese": 191203.67,
+    "bava98": 157712.97,
+    "whyjayxp": 265253.9,
+    "Qing-Yuan": 1787222.6
   },
   "authorDisplayNameMap": {
     "Beesaycheese": "LEO...ICE",

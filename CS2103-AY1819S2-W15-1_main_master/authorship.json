@@ -8020,9 +8020,9 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": "\u003d Fashion Match - User Guide"
+        "content": "﻿\u003d Fashion Match - User Guide"
       },
       {
         "lineNumber": 2,
@@ -8265,30 +8265,30 @@
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* *`list`* : lists all contacts"
+        "content": "* *`list`* : lists all apparels"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* **`add`**`n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01` : adds a contact named `John Doe` to the Address Book."
+        "content": "* **`add`**`n/Cool Tshirt c/Green t/Top` : adds an apparel named `Cool Tshirt` to Fashion Match."
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* **`delete`**`3` : deletes the 3rd contact shown in the current list"
+        "content": "* **`delete`**`3` : deletes the 3rd apparel shown in the current list"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* *`exit`* : exits the app"
+        "content": "* *`exit`* : exits Fashion Match"
       },
       {
         "lineNumber": 40,
@@ -8356,394 +8356,394 @@
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`."
+        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/Formal Shirt`."
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* Items in square brackets are optional e.g `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`."
+        "content": "* Items in square brackets are optional e.g `n/NAME [c/COLOR]` can be used as `n/Formal Shirt c/White` or as `n/Formal Shirt`."
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* Items with `…`​ after them can be used multiple times including zero times e.g. `[t/TAG]...` can be used as `{nbsp}` (i.e. 0 times), `t/friend`, `t/friend t/family` etc."
+        "content": "* Parameters can be in any order e.g. if the command specifies `n/NAME c/COLOR`, `c/COLOR n/NAME` is also acceptable."
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "* Parameters can be in any order e.g. if the command specifies `n/NAME p/PHONE_NUMBER`, `p/PHONE_NUMBER n/NAME` is also acceptable."
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Viewing help : `help`"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Viewing help : `help`"
+        "content": ""
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `help`"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `help`"
-      },
-      {
-        "lineNumber": 58,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 58,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "\u003d\u003d\u003d Listing all apparels : `list`"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 60,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "ReinSheer"
         },
-        "content": "Shows a list of all apparels in the address book. +"
+        "content": "Shows a list of all apparels in FM. +"
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
         "content": "Format: `list`"
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 63,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "\u003d\u003d\u003d Adding a piece of Apparel: `add`"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 65,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "Add a piece of apparel to wardrobe +"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 66,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "Format: `add n/NAME c/COLOUR t/CLOTHINGTYPE`"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Examples:"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 71,
+        "lineNumber": 70,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "* `add n/Zara Shirt c/Red t/Top"
       },
       {
-        "lineNumber": 72,
+        "lineNumber": 71,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "* `add n/Desigual Tailored Pants c/Grey t/Bottom"
       },
       {
-        "lineNumber": 73,
+        "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 74,
+        "lineNumber": 73,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "// tag::sort[]"
       },
       {
-        "lineNumber": 75,
+        "lineNumber": 74,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "\u003d\u003d\u003d Sort all apparels : `sort [option]`"
       },
       {
-        "lineNumber": 76,
+        "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "Sort all apparels in the FM based on the option supplied. +"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Sort all apparels in the address book based on the option supplied. +"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": ""
+        "content": "Format: `sort` +"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Format: `sort` +"
+        "content": "By default, calling `sort` without option will sort the apparels by name in ascending order. +"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "By default, calling `sort` without option will sort the apparels by name in ascending order. +"
+        "content": ""
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": ""
+        "content": "Format: `sort options` +"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Format: `sort options` +"
+        "content": "List all valid sorting options."
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "List all valid sorting options."
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": ""
+        "content": "Format: `sort [option]` +"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "rafflesandrison"
         },
-        "content": "Format: `sort [option]` +"
+        "content": "Sort all apparels according to the option supplied."
       },
       {
         "lineNumber": 86,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "Sort all apparels according to the option supplied."
+        "content": ""
       },
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Editing an apparel : `edit`"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d Editing a person : `edit`"
+        "content": ""
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "Edits an existing apparel in FM. +"
       },
       {
         "lineNumber": 90,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Edits an existing person in the address book. +"
-      },
-      {
-        "lineNumber": 91,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "Format: `edit INDEX [n/NAME] [c/COLOUR] [t/CLOTHINGTYPE]`"
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 93,
+        "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
         "content": "****"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "* Edits the apparel at the specified `INDEX`. The index refers to the index number shown in the displayed apparel list. The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "* Edits the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "* At least one of the optional fields must be provided."
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": "* At least one of the optional fields must be provided."
+        "content": "* Existing values will be updated to the input values."
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
-        "content": "* Existing values will be updated to the input values."
+        "content": "****"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": "Examples:"
-      },
-      {
-        "lineNumber": 100,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 101,
+        "lineNumber": 100,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "* `edit 1 n/TSHIRT c/ORANGE` +"
       },
       {
-        "lineNumber": 102,
+        "lineNumber": 101,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "Edits the name and colour of the 1st apparel to be `TSHIRT` and `Orange` respectively."
       },
       {
-        "lineNumber": 103,
+        "lineNumber": 102,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "* `edit 2 n/Brown Belt t/Belt` +"
       },
       {
-        "lineNumber": 104,
+        "lineNumber": 103,
         "author": {
           "gitId": "stanleymok"
         },
         "content": "Edits the name of the 2nd apparel to be `Brown Belt` and changes type to `Belt`."
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
       },
       {
         "lineNumber": 105,
@@ -8755,198 +8755,198 @@
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "-"
+          "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "// tag::available[]"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "// tag::available[]"
+        "content": "\u003d\u003d\u003d Making available/washing a piece of apparel : `available` or `wash`"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "\u003d\u003d\u003d Making available/washing a piece of apparel : `available` or `wash`"
+        "content": ""
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "Makes an existing apparel in FM available. +"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Makes an existing apparel in the address book available. +"
+        "content": "Format: `wash INDEX` or `available INDEX`"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Format: `wash INDEX` or `available INDEX`"
+        "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": "****"
+        "content": "* Makes available the apparel at the specified `INDEX`. The index refers to the index number shown in the displayed apparel list. The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "* Makes available the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "* Apparel will be made available whether it was available or unavailable before the command."
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "* Apparel will be made available whether it was available or unavailable before the command."
+        "content": "****"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "****"
+        "content": ""
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "Examples:"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "* `wash 1` +"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "* `wash 1` +"
+        "content": "Makes available the 1st apparel in the list."
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Makes available the 1st apparel in the list."
+        "content": "* `available 2` +"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "* `available 2` +"
+        "content": "Makes available the 2nd apparel in the list."
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Makes available the 2nd apparel in the list."
+        "content": ""
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "// tag::unavailable[]"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "// tag::unavailable[]"
+        "content": "\u003d\u003d\u003d Making unavailable/dirty a piece of apparel : `unavailable` or `dirty`"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "\u003d\u003d\u003d Making unavailable/dirty a piece of apparel : `unavailable` or `dirty`"
+        "content": ""
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "Makes an existing apparel in FM unavailable. +"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Makes an existing apparel in the address book available. +"
+        "content": "Format: `dirty INDEX` or `unavailable INDEX`"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "Format: `dirty INDEX` or `unavailable INDEX`"
+        "content": ""
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": "****"
+        "content": "* Makes unavailable the apparel at the specified `INDEX`. The index refers to the index number shown in the displayed apparel list. The index *must be a positive integer* 1, 2, 3, ..."
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "stanleymok"
         },
-        "content": "* Makes unavailable the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index *must be a positive integer* 1, 2, 3, ..."
+        "content": "* Apparel will be made unavailable whether it was available or unavailable before the command."
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": "* Apparel will be made unavailable whether it was available or unavailable before the command."
+        "content": "* Increases the \u0027Times worn\u0027 counter by 1."
       },
       {
         "lineNumber": 134,
@@ -9084,9 +9084,9 @@
       {
         "lineNumber": 153,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": "* Persons matching at least one keyword will be returned (i.e. `OR` search). e.g. `Tim Tam` will return `Tim`, `Higgy Tam`"
+        "content": "* Apparels matching at least one keyword will be returned (i.e. `OR` search). e.g. `Zara Uniqlo` will return `Zara Belt`, `Uniqlo shoes`"
       },
       {
         "lineNumber": 154,
@@ -9133,16 +9133,16 @@
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": "* `find Tim Tam Battle Plan` +"
+        "content": "* `find Zara Uniqlo Shirt` +"
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "stanleymok"
+          "gitId": "ReinSheer"
         },
-        "content": "Returns any person having names `Tim`, `Tam`,`Battle` or `Plan`."
+        "content": "Returns any apparel having names `Zara`, `Uniqlo` or `Shirt`."
       },
       {
         "lineNumber": 162,
@@ -9154,9 +9154,9 @@
       {
         "lineNumber": 163,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "\u003d\u003d\u003d Deleting a person : `delete`"
+        "content": "\u003d\u003d\u003d Deleting an apparel : `delete`"
       },
       {
         "lineNumber": 164,
@@ -9168,9 +9168,9 @@
       {
         "lineNumber": 165,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Deletes the specified person from the address book. +"
+        "content": "Deletes the specified apparel from FM. +"
       },
       {
         "lineNumber": 166,
@@ -9196,16 +9196,16 @@
       {
         "lineNumber": 169,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* Deletes the person at the specified `INDEX`."
+        "content": "* Deletes the apparel at the specified `INDEX`."
       },
       {
         "lineNumber": 170,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* The index refers to the index number shown in the displayed person list."
+        "content": "* The index refers to the index number shown in the displayed apparel list."
       },
       {
         "lineNumber": 171,
@@ -9259,16 +9259,16 @@
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Deletes the 2nd person in the address book."
+        "content": "Deletes the 2nd apparel in FM."
       },
       {
         "lineNumber": 179,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* `find Betsy` +"
+        "content": "* `find Uniqlo` +"
       },
       {
         "lineNumber": 180,
@@ -9280,9 +9280,9 @@
       {
         "lineNumber": 181,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Deletes the 1st person in the results of the `find` command."
+        "content": "Deletes the 1st apparel in the results of the `find` command."
       },
       {
         "lineNumber": 182,
@@ -9294,9 +9294,9 @@
       {
         "lineNumber": 183,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "\u003d\u003d\u003d Selecting a person : `select`"
+        "content": "\u003d\u003d\u003d Selecting a apparel : `select`"
       },
       {
         "lineNumber": 184,
@@ -9308,9 +9308,9 @@
       {
         "lineNumber": 185,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Selects the person identified by the index number used in the displayed person list. +"
+        "content": "Selects the apparel identified by the index number used in the displayed apparel list. +"
       },
       {
         "lineNumber": 186,
@@ -9336,16 +9336,16 @@
       {
         "lineNumber": 189,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* Selects the person and loads the Google search page the person at the specified `INDEX`."
+        "content": "* Selects the apparel and loads a picture of the apparel at the specified `INDEX`."
       },
       {
         "lineNumber": 190,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* The index refers to the index number shown in the displayed person list."
+        "content": "* The index refers to the index number shown in the displayed apparel list."
       },
       {
         "lineNumber": 191,
@@ -9399,16 +9399,16 @@
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Selects the 2nd person in the address book."
+        "content": "Selects the 2nd apparel in FM."
       },
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* `find Betsy` +"
+        "content": "* `find Uniqlo` +"
       },
       {
         "lineNumber": 200,
@@ -9420,9 +9420,9 @@
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Selects the 1st person in the results of the `find` command."
+        "content": "Selects the 1st apparel in the results of the `find` command."
       },
       {
         "lineNumber": 202,
@@ -9525,9 +9525,9 @@
       {
         "lineNumber": 216,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Restores the address book to the state before the previous _undoable_ command was executed. +"
+        "content": "Restores FM to the state before the previous _undoable_ command was executed. +"
       },
       {
         "lineNumber": 217,
@@ -9560,9 +9560,9 @@
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Undoable commands: those commands that modify the address book\u0027s content (`add`, `delete`, `edit` and `clear`)."
+        "content": "Undoable commands: those commands that modify the FM\u0027s content (`add`, `delete`, `edit` and `clear`)."
       },
       {
         "lineNumber": 222,
@@ -9875,9 +9875,9 @@
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Clears all entries from the address book. +"
+        "content": "Clears all entries from FM. +"
       },
       {
         "lineNumber": 267,
@@ -9903,16 +9903,16 @@
       {
         "lineNumber": 270,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "stanleymok"
         },
         "content": ""
       },
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Lists a recommended outfit based on what matches in your closet. The outfit must have a TOP,BOTTOM,SHOES. If a matching belt exists an outfit may be recommended with a BELT. +"
+        "content": "Lists a recommended outfit based on what matches in your closet. The outfit must have a `TOP`, `BOTTOM`, `SHOES`. If a matching belt exists, an outfit may be recommended with a BELT. +"
       },
       {
         "lineNumber": 272,
@@ -9938,16 +9938,16 @@
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "stanleymok"
         },
         "content": ""
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Returns random clothing of specified COLOR from address book. +"
+        "content": "Returns random apparel of specified COLOR FM. +"
       },
       {
         "lineNumber": 277,
@@ -9973,16 +9973,16 @@
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "* Returns random clothing from specified `COLOR`."
+        "content": "* Returns random apparel from specified `COLOR`."
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "* The color refers to the color of clothing."
+        "content": "* The color refers to the color of apparel."
       },
       {
         "lineNumber": 282,
@@ -10029,9 +10029,9 @@
       {
         "lineNumber": 288,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Returns a RED item from the address book."
+        "content": "Returns a RED apparel from FM."
       },
       {
         "lineNumber": 289,
@@ -10050,9 +10050,9 @@
       {
         "lineNumber": 291,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Returns a BLACK item from the address book."
+        "content": "Returns a BLACK apparel from FM."
       },
       {
         "lineNumber": 292,
@@ -10078,9 +10078,9 @@
       {
         "lineNumber": 295,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Returns random specified TYPE of clothing from address book. +"
+        "content": "Returns random specified TYPE of apparel from FM. +"
       },
       {
         "lineNumber": 296,
@@ -10106,23 +10106,23 @@
       {
         "lineNumber": 299,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "* Returns random clothing from specified `TYPE`."
+        "content": "* Returns random apparel from specified `TYPE`."
       },
       {
         "lineNumber": 300,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "* The type refers to the type of clothing."
+        "content": "* The type refers to the type of apparel."
       },
       {
         "lineNumber": 301,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "* The type *must be a one of* TOP,BOTTOM,BELT,SHOES"
+        "content": "* The type *must be a one of* `TOP`, `BOTTOM`, `BELT`, `SHOES`"
       },
       {
         "lineNumber": 302,
@@ -10162,9 +10162,9 @@
       {
         "lineNumber": 307,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Returns a random TOP in the address book."
+        "content": "Returns a random TOP in FM."
       },
       {
         "lineNumber": 308,
@@ -10183,9 +10183,9 @@
       {
         "lineNumber": 310,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Returns a random BOTTOM in the address book."
+        "content": "Returns a random BOTTOM in FM."
       },
       {
         "lineNumber": 311,
@@ -10211,9 +10211,9 @@
       {
         "lineNumber": 314,
         "author": {
-          "gitId": "PhilipPhil"
+          "gitId": "ReinSheer"
         },
-        "content": "Calculates the rate of wear of each clothes."
+        "content": "Calculates the rate of wear of each apparel."
       },
       {
         "lineNumber": 315,
@@ -10274,9 +10274,9 @@
       {
         "lineNumber": 323,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "Address book data are saved in the hard disk automatically after any command that changes the data. +"
+        "content": "FM data are saved in the hard disk automatically after any command that changes the data. +"
       },
       {
         "lineNumber": 324,
@@ -10316,9 +10316,9 @@
       {
         "lineNumber": 329,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Address Book folder."
+        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous FM folder."
       },
       {
         "lineNumber": 330,
@@ -10344,16 +10344,16 @@
       {
         "lineNumber": 333,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* *Add* `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]...` +"
+        "content": "* *Add* `add n/NAME c/COLOR t/CLOTHINGTYPE` +"
       },
       {
         "lineNumber": 334,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "e.g. `add n/James Ho p/22224444 e/jamesho@example.com a/123, Clementi Rd, 1234665 t/friend t/colleague`"
+        "content": "e.g. `add n/Bright Tshirt c/Yellow t/Top`"
       },
       {
         "lineNumber": 335,
@@ -10379,16 +10379,16 @@
       {
         "lineNumber": 338,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "* *Edit* : `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [t/TAG]...` +"
+        "content": "* *Edit* : `edit INDEX [n/NAME] [c/COLOR] [t/CLOTHINGTYPE]` +"
       },
       {
         "lineNumber": 339,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "e.g. `edit 2 n/James Lee e/jameslee@example.com`"
+        "content": "e.g. `edit 2 n/Formal Belt c/Brown`"
       },
       {
         "lineNumber": 340,
@@ -10400,9 +10400,9 @@
       {
         "lineNumber": 341,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "e.g. `find James Jake`"
+        "content": "e.g. `find Formal`"
       },
       {
         "lineNumber": 342,
@@ -10437,7 +10437,7 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "e.g. `type TOP`"
+        "content": "e.g. `random TOP`"
       },
       {
         "lineNumber": 347,
@@ -10479,7 +10479,7 @@
         "author": {
           "gitId": "PhilipPhil"
         },
-        "content": "e.g. `color RED`"
+        "content": "e.g. `something RED`"
       },
       {
         "lineNumber": 353,
@@ -10490,10 +10490,11 @@
       }
     ],
     "authorContributionMap": {
-      "stanleymok": 62,
-      "rafflesandrison": 16,
-      "PhilipPhil": 55,
-      "-": 220
+      "stanleymok": 56,
+      "rafflesandrison": 14,
+      "PhilipPhil": 40,
+      "ReinSheer": 58,
+      "-": 185
     }
   },
   {

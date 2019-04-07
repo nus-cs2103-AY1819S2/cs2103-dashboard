@@ -861,6 +861,12 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "yjpan47": [
@@ -1421,6 +1427,19 @@
             "message": "Updated ViewCommand and Renamed command word for ConfirmScheduleCommand",
             "insertions": 9,
             "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 7,
+        "deletions": 2,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "a5bc96a77a1e7938b94398474730f96441591c7d",
+            "message": "Temporary fix for the schedule bug",
+            "insertions": 7,
+            "deletions": 2
           }
         ]
       }
@@ -2007,6 +2026,12 @@
             "deletions": 28
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
       }
     ],
     "mechome": [
@@ -2554,6 +2579,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
         "commitResults": []
       }
     ],
@@ -3293,22 +3324,65 @@
             "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 69,
+        "deletions": 70,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "8f010bdb1e4025810a53ccecb1f43e52e2bf74a3",
+            "message": "ui/CalendarView/java: change view of calendar",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "b15dbeb85ccb0ca90eef844a45d64194ab1bf83c",
+            "message": "Change AddCommandTest to compile",
+            "insertions": 40,
+            "deletions": 1
+          },
+          {
+            "hash": "0727104f68c14d7d8eb6cadba1f9ee6ea171869a",
+            "message": "Remove Username and Usertype storage in modelmanager",
+            "insertions": 21,
+            "deletions": 64
+          },
+          {
+            "hash": "5c14f5463f68131f5f2514cefe5d07564dbe55f1",
+            "message": "Change checkstyling issues",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "cc208fc54efdda0fec1446805131579a4b2d8760",
+            "message": "docs/UserGuide.adoc: Edit UserGuide to include case of closing loginwindow",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "1dafc0098ba27897c51d7d485a56a7a46e96cd99",
+            "message": "Change tests to allow them to compile",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Valatheking": 481,
-    "yjpan47": 937,
-    "dreampursuer95": 1118,
-    "mechome": 2776,
-    "exactlyprecise": 1373
+    "Valatheking": 480,
+    "yjpan47": 939,
+    "dreampursuer95": 1120,
+    "mechome": 2712,
+    "exactlyprecise": 1436
   },
   "authorContributionVariance": {
-    "Valatheking": 14207.002,
-    "yjpan47": 41568.715,
-    "dreampursuer95": 31110.02,
-    "mechome": 401614.62,
-    "exactlyprecise": 15263.336
+    "Valatheking": 13981.639,
+    "yjpan47": 40874.906,
+    "dreampursuer95": 30615.39,
+    "mechome": 394773.66,
+    "exactlyprecise": 15118.853
   },
   "authorDisplayNameMap": {
     "Valatheking": "VAL...JAN",

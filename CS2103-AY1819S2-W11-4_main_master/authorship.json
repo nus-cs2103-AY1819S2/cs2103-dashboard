@@ -9895,114 +9895,114 @@
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`."
+        "content": "* The total length of user input should not exceed 500 characters (space included)."
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "0blivious"
         },
-        "content": "* Items in square brackets are optional e.g `n/NAME [t/TAG]` can be used as `n/Alice in Wonderland t/fantasy` or as `n/Alice in Wonderland`."
+        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `addBook n/NAME`, `NAME` is a parameter which can be used as `addBook n/Book`."
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* Items with `…`​ after them can be used multiple times including zero times e.g. `[t/TAG]...` can be used as `{nbsp}` (i.e. 0 times), `t/fantasy`, `t/fantasy t/textbook` etc."
+        "content": "* Words in `UPPER_CASE` without brackets are the parameters that should only be supplied once e.g. in `addBook n/NAME`, `NAME` is a parameter which should only appear once in user input, `addBook n/John Doe n/Alice` is not allowed."
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "0blivious"
         },
-        "content": "* Parameters can be in any order e.g. if the command specifies `n/NAME a/AUTHOR`, `a/AUTHOR n/NAME` is also acceptable."
+        "content": "* Items in square brackets are optional (can be supplied once or not at all) e.g `n/NAME [a/AUTHOR]` can be used as `n/Alice in Wonderland a/Jack` or as `n/Alice in Wonderland`."
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "0blivious"
         },
-        "content": "* While book names, review title and review content can contain any kinds of characters, tag and author names should only contain alpha-numeric characters."
+        "content": "* Items with `…`​ after them can be used multiple times including zero times e.g. `[t/TAG]...` can be used as `{nbsp}` (i.e. 0 times), `t/fantasy`, `t/fantasy t/textbook` etc."
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "* Book name and author name should not exceed 50 characters (space included)."
+        "content": "* Parameters can be in any order e.g. if the command specifies `n/NAME a/AUTHOR`, `a/AUTHOR n/NAME` is also acceptable."
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "* Review title should not exceed 70 characters (space included)."
+        "content": "* While book names, review title and review content can contain any kinds of characters, tag and author names should only contain alpha-numeric characters."
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "* Review content should not exceed 350 characters (space included)."
+        "content": "* Book name and author name should not exceed 50 characters (space included)."
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "EleenYang"
         },
-        "content": "* Rating should be integer from 0 to 10 inclusive and the input should be 1 or 2 digit number."
+        "content": "* Review title should not exceed 70 characters (space included)."
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "EleenYang"
         },
-        "content": "* Tags should not exceed 20 characters (space included)."
+        "content": "* Review content should not exceed 350 characters (space included)."
       },
       {
         "lineNumber": 59,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "* Rating should be integer from 0 to 10 inclusive and the input should be 1 or 2 digit number."
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "EleenYang"
+        },
+        "content": "* Tags should not exceed 20 characters (space included)."
+      },
+      {
+        "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 63,
         "author": {
           "gitId": "0blivious"
         },
         "content": "// tag::book[]"
       },
       {
-        "lineNumber": 62,
-        "author": {
-          "gitId": "Miaaaaa97"
-        },
-        "content": "\u003d\u003d\u003d Book Commands"
-      },
-      {
-        "lineNumber": 63,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 64,
         "author": {
           "gitId": "Miaaaaa97"
         },
-        "content": "\u003d\u003d\u003d\u003d Adding a book: `addBook`"
+        "content": "\u003d\u003d\u003d Book Commands"
       },
       {
         "lineNumber": 65,
@@ -10014,30 +10014,30 @@
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "Miaaaaa97"
         },
-        "content": "Adds a book to the book shelf +"
+        "content": "\u003d\u003d\u003d\u003d Adding a book: `addBook`"
       },
       {
         "lineNumber": 67,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "Format: `addBook n/BOOKNAME a/author m/RATING(0-10) [t/TAG]…​`"
-      },
-      {
-        "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "Adds a book to the book shelf +"
+      },
+      {
         "lineNumber": 69,
         "author": {
-          "gitId": "EleenYang"
+          "gitId": "0blivious"
         },
-        "content": "Examples:"
+        "content": "Format: `addBook n/BOOKNAME a/author m/RATING(0-10) [t/TAG]…​`"
       },
       {
         "lineNumber": 70,
@@ -10049,163 +10049,163 @@
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "EleenYang"
         },
-        "content": "* `addBook n/Alice in Wonderland a/Lewis Carroll m/5 t/fantasy t/fairy tale` +"
+        "content": "Examples:"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "Adds a book named Alice in Wonderland to the record. The book is written by Lewis Carroll, rated 5 stars, and labeled with tags ‘fantasy’ and ‘fairy tale’."
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* `addBook n/Structure and Interpretation of Computer Programs a/Hal Abelson Jerry Sussman m/4 t/textbook` +"
+        "content": "* `addBook n/Alice in Wonderland a/Lewis Carroll m/5 t/fantasy t/fairy tale` +"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "Adds a book named Structure and Interpretation of Computer Programs to the record. The book is written by Hal Abelson Jerry Sussman, rated 4 stars, and labeled with tag ‘textbook’."
+        "content": "Adds a book named Alice in Wonderland to the record. The book is written by Lewis Carroll, rated 5 stars, and labeled with tags ‘fantasy’ and ‘fairy tale’."
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "* `addBook n/Structure and Interpretation of Computer Programs a/Hal Abelson Jerry Sussman m/4 t/textbook` +"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "****"
+        "content": "Adds a book named Structure and Interpretation of Computer Programs to the record. The book is written by Hal Abelson Jerry Sussman, rated 4 stars, and labeled with tag ‘textbook’."
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "* The book name is case sensitive"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* Two books with same book name are considered same book"
+        "content": "****"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* Trying to add a book which is already present in the book shelf will result in duplicate book error, and the addBook command will fail"
+        "content": "* The book name is case sensitive"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* If multiple valid parameters are supplied to the same field (E.g. addBook n/A n/B), the latter one will be took as the input"
+        "content": "* Two books with same book name are considered same book"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "* Take a look at \u003c\u003cCommand-Format\u003e\u003e to see the valid format for each parameter"
+        "content": "* Trying to add a book which is already present in the book shelf will result in duplicate book error, and the addBook command will fail"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "****"
+        "content": "* Take a look at \u003c\u003cCommand-Format\u003e\u003e to see the valid format for each parameter"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "****"
       },
       {
         "lineNumber": 84,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 85,
         "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "\u003d\u003d\u003d\u003d Editing book entry : `editBook`"
       },
       {
-        "lineNumber": 85,
+        "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 86,
+        "lineNumber": 87,
         "author": {
           "gitId": "EleenYang"
         },
         "content": "Edits an existing book entry (eg. edit the mark, author or tag). +"
       },
       {
-        "lineNumber": 87,
+        "lineNumber": 88,
         "author": {
           "gitId": "0blivious"
         },
         "content": "Format: `editBook INDEX [n/BOOKNAME] [a/AUTHOR] [m/RATING] [t/TAG]...`"
       },
       {
-        "lineNumber": 88,
+        "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 89,
+        "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
         "content": "****"
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 91,
         "author": {
           "gitId": "0blivious"
         },
         "content": "* Edit the book at the specified INDEX. The index refers to the index number shown in the displayed book list. The index must be a positive integer 1, 2, 3, …​"
       },
       {
-        "lineNumber": 91,
+        "lineNumber": 92,
         "author": {
           "gitId": "0blivious"
         },
         "content": "* Edit a book with new name same as the name of other book which is already existing in book shelf is not allowed"
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
         "content": "* At least one of the optional fields must be provided."
-      },
-      {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "* If multiple valid parameters are supplied to the same field (E.g. addBook n/A n/B), the latter one will be took as the input"
       },
       {
         "lineNumber": 94,
@@ -12262,9 +12262,9 @@
     "authorContributionMap": {
       "Miaaaaa97": 79,
       "Jiangqinhua": 25,
-      "EleenYang": 40,
-      "-": 147,
-      "0blivious": 95
+      "EleenYang": 39,
+      "-": 146,
+      "0blivious": 97
     }
   },
   {
@@ -18194,61 +18194,33 @@
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    public static final String MESSAGE_INVALID_PERSON_DISPLAYED_INDEX \u003d \"The person index provided is invalid\";"
-      },
-      {
-        "lineNumber": 11,
-        "author": {
           "gitId": "Miaaaaa97"
         },
         "content": "    public static final String MESSAGE_INVALID_REVIEW_DISPLAYED_INDEX \u003d \"The review index provided is invalid\";"
       },
       {
-        "lineNumber": 12,
+        "lineNumber": 11,
         "author": {
           "gitId": "0blivious"
         },
         "content": "    public static final String MESSAGE_INVALID_BOOK_DISPLAYED_INDEX \u003d \"The book index provided is invalid\";"
       },
       {
-        "lineNumber": 13,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "    public static final String MESSAGE_INVALID_BOOK \u003d \"The book name provided is invalid\";"
-      },
-      {
-        "lineNumber": 14,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    public static final String MESSAGE_PERSONS_LISTED_OVERVIEW \u003d \"%1$d persons listed!\";"
-      },
-      {
-        "lineNumber": 15,
+        "lineNumber": 12,
         "author": {
           "gitId": "EleenYang"
         },
         "content": "    public static final String MESSAGE_BOOKS_LISTED_OVERVIEW \u003d \"%1$d books listed!\";"
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 13,
         "author": {
           "gitId": "Jiangqinhua"
         },
         "content": "    public static final String MESSAGE_BOOK_LIST_EMPTY \u003d \"The book Shelf is empty\";"
       },
       {
-        "lineNumber": 17,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 18,
+        "lineNumber": 14,
         "author": {
           "gitId": "-"
         },
@@ -18259,8 +18231,8 @@
       "Miaaaaa97": 1,
       "Jiangqinhua": 1,
       "EleenYang": 1,
-      "-": 13,
-      "0blivious": 2
+      "-": 10,
+      "0blivious": 1
     }
   },
   {
@@ -28403,159 +28375,215 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "                || !argMultimap.getPreamble().isEmpty()) {"
+        "content": "                || !argMultimap.getPreamble().isEmpty()"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, AddBookCommand.MESSAGE_USAGE));"
+        "content": "                || !arePrefixesUnique(argMultimap, PREFIX_NAME, PREFIX_AUTHOR, PREFIX_RATING)) {"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, AddBookCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "0blivious"
+          "gitId": "-"
         },
-        "content": "        BookName name \u003d ParserUtil.parseBookName(argMultimap.getValue(PREFIX_NAME).get());"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Author author \u003d ParserUtil.parseAuthor(argMultimap.getValue(PREFIX_AUTHOR).get());"
+        "content": "        BookName name \u003d ParserUtil.parseBookName(argMultimap.getValue(PREFIX_NAME).get());"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Rating rating \u003d ParserUtil.parseRating(argMultimap.getValue(PREFIX_RATING).get());"
+        "content": "        Author author \u003d ParserUtil.parseAuthor(argMultimap.getValue(PREFIX_AUTHOR).get());"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        Set\u003cTag\u003e tagList \u003d ParserUtil.parseTags(argMultimap.getAllValues(PREFIX_TAG));"
+        "content": "        Rating rating \u003d ParserUtil.parseRating(argMultimap.getValue(PREFIX_RATING).get());"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        Set\u003cTag\u003e tagList \u003d ParserUtil.parseTags(argMultimap.getAllValues(PREFIX_TAG));"
       },
       {
         "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        Book book \u003d new Book(name, author, rating, tagList);"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 47,
         "author": {
           "gitId": "0blivious"
         },
         "content": "        return new AddBookCommand(book);"
       },
       {
-        "lineNumber": 47,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns true if none of the prefixes contains empty {@code Optional} values in the given"
+        "content": "    /**"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "     * {@code ArgumentMultimap}."
+        "content": "     * Returns true if none of the prefixes contains empty {@code Optional} values in the given"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * {@code ArgumentMultimap}."
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
+        "content": "     */"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
+        "content": "    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e argumentMultimap.getValue(prefix).isPresent());"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * Returns true if none of the prefixes appear more than once in the given"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * {@code ArgumentMultimap}."
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    private static boolean arePrefixesUnique(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e (argumentMultimap.getNumberOfPrefix(prefix) \u003d\u003d 1));"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
@@ -28563,8 +28591,8 @@
       }
     ],
     "authorContributionMap": {
-      "-": 37,
-      "0blivious": 20
+      "-": 36,
+      "0blivious": 29
     }
   },
   {
@@ -28972,6 +29000,491 @@
     ],
     "authorContributionMap": {
       "Miaaaaa97": 57
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/logic/parser/ArgumentMultimap.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.address.logic.parser;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.HashMap;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Map;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Optional;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * Stores mapping of prefixes to their respective arguments."
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * Each key may be associated with multiple argument values."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * Values for a given key are stored in a list, and the insertion ordering is maintained."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * Keys are unique, but the list of argument values may contain duplicate argument values, i.e. the same argument value"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * can be inserted multiple times for the same prefix."
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class ArgumentMultimap {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /** Prefixes mapped to their respective arguments**/"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private final Map\u003cPrefix, List\u003cString\u003e\u003e argMultimap \u003d new HashMap\u003c\u003e();"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Associates the specified argument value with {@code prefix} key in this map."
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * If the map previously contained a mapping for the key, the new value is appended to the list of existing values."
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @param prefix   Prefix key with which the specified argument value is to be associated"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @param argValue Argument value to be associated with the specified prefix key"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public void put(Prefix prefix, String argValue) {"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        List\u003cString\u003e argValues \u003d getAllValues(prefix);"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        argValues.add(argValue);"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        argMultimap.put(prefix, argValues);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns the last value of {@code prefix}."
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public Optional\u003cString\u003e getValue(Prefix prefix) {"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        List\u003cString\u003e values \u003d getAllValues(prefix);"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return values.isEmpty() ? Optional.empty() : Optional.of(values.get(values.size() - 1));"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * Returns the number of prefix present {@code prefix}."
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    public int getNumberOfPrefix(Prefix prefix) {"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        List\u003cString\u003e values \u003d getAllValues(prefix);"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return values.size();"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns all values of {@code prefix}."
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * If the prefix does not exist or has no values, this will return an empty list."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Modifying the returned list will not affect the underlying data structure of the ArgumentMultimap."
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public List\u003cString\u003e getAllValues(Prefix prefix) {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!argMultimap.containsKey(prefix)) {"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return new ArrayList\u003c\u003e(argMultimap.get(prefix));"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns the preamble (text before the first valid prefix). Trims any leading/trailing spaces."
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public String getPreamble() {"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return getValue(new Prefix(\"\")).orElse(\"\");"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 60,
+      "0blivious": 8
     }
   },
   {
@@ -30337,28 +30850,28 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "package seedu.address.logic.parser;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import static java.util.Objects.requireNonNull;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
       },
@@ -30372,7 +30885,7 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
       },
@@ -30386,266 +30899,266 @@
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import java.util.Collection;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import java.util.Collections;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import java.util.Optional;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "import java.util.Set;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "import java.util.stream.Stream;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "import seedu.address.commons.core.index.Index;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.logic.commands.EditBookCommand;"
+        "content": "import seedu.address.commons.core.index.Index;"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": "import seedu.address.logic.commands.EditBookCommand;"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "import seedu.address.model.tag.Tag;"
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "import seedu.address.model.tag.Tag;"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "0blivious"
         },
-        "content": " * Parses input arguments and creates a new EditBookCommand object"
+        "content": "/**"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": " */"
+        "content": " * Parses input arguments and creates a new EditBookCommand object"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "public class EditBookCommandParser implements Parser\u003cEditBookCommand\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "public class EditBookCommandParser implements Parser\u003cEditBookCommand\u003e {"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Parses the given {@code String} of arguments in the context of the EditBookCommand"
+        "content": "    /**"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * and returns an EditBookCommand object for execution."
+        "content": "     * Parses the given {@code String} of arguments in the context of the EditBookCommand"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     * @throws ParseException if the user input does not conform the expected format"
+        "content": "     * and returns an EditBookCommand object for execution."
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public EditBookCommand parse(String args) throws ParseException {"
+        "content": "     */"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        requireNonNull(args);"
+        "content": "    public EditBookCommand parse(String args) throws ParseException {"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        ArgumentMultimap argMultimap \u003d"
+        "content": "        requireNonNull(args);"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                ArgumentTokenizer.tokenize(args, PREFIX_NAME, PREFIX_AUTHOR, PREFIX_RATING, PREFIX_TAG);"
+        "content": "        ArgumentMultimap argMultimap \u003d"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        Index index;"
+        "content": "                ArgumentTokenizer.tokenize(args, PREFIX_NAME, PREFIX_AUTHOR, PREFIX_RATING, PREFIX_TAG);"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        Index index;"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        try {"
+        "content": ""
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "            index \u003d ParserUtil.parseIndex(argMultimap.getPreamble());"
+        "content": "        try {"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        } catch (ParseException pe) {"
+        "content": "            index \u003d ParserUtil.parseIndex(argMultimap.getPreamble());"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE), pe);"
+        "content": "        } catch (ParseException pe) {"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE), pe);"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookCommand.EditBookDescriptor editBookDescriptor \u003d new EditBookCommand.EditBookDescriptor();"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        if (argMultimap.getValue(PREFIX_NAME).isPresent()) {"
+        "content": "        if (!arePrefixesUnique(argMultimap, PREFIX_NAME, PREFIX_AUTHOR, PREFIX_RATING)) {"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            editBookDescriptor.setName(ParserUtil.parseBookName(argMultimap.getValue(PREFIX_NAME).get()));"
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "        }"
       },
@@ -30654,215 +31167,312 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (argMultimap.getValue(PREFIX_AUTHOR).isPresent()) {"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            editBookDescriptor.setAuthor(ParserUtil.parseAuthor(argMultimap.getValue(PREFIX_AUTHOR).get()));"
+        "content": "        EditBookCommand.EditBookDescriptor editBookDescriptor \u003d new EditBookCommand.EditBookDescriptor();"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "        if (argMultimap.getValue(PREFIX_NAME).isPresent()) {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (argMultimap.getValue(PREFIX_RATING).isPresent()) {"
+        "content": "            editBookDescriptor.setName(ParserUtil.parseBookName(argMultimap.getValue(PREFIX_NAME).get()));"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            editBookDescriptor.setRating(ParserUtil.parseRating(argMultimap.getValue(PREFIX_RATING).get()));"
+        "content": "        }"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": "        if (argMultimap.getValue(PREFIX_AUTHOR).isPresent()) {"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        parseTagsForEdit(argMultimap.getAllValues(PREFIX_TAG)).ifPresent(editBookDescriptor::setTags);"
+        "content": "            editBookDescriptor.setAuthor(ParserUtil.parseAuthor(argMultimap.getValue(PREFIX_AUTHOR).get()));"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (!editBookDescriptor.isAnyFieldEdited()) {"
+        "content": "        if (argMultimap.getValue(PREFIX_RATING).isPresent()) {"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            throw new ParseException(EditBookCommand.MESSAGE_NOT_EDITED);"
+        "content": "            editBookDescriptor.setRating(ParserUtil.parseRating(argMultimap.getValue(PREFIX_RATING).get()));"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "        }"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        parseTagsForEdit(argMultimap.getAllValues(PREFIX_TAG)).ifPresent(editBookDescriptor::setTags);"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        return new EditBookCommand(index, editBookDescriptor);"
+        "content": ""
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        if (!editBookDescriptor.isAnyFieldEdited()) {"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": ""
+        "content": "            throw new ParseException(EditBookCommand.MESSAGE_NOT_EDITED);"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 62,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     * Parses {@code Collection\u003cString\u003e tags} into a {@code Set\u003cTag\u003e} if {@code tags} is non-empty."
-      },
-      {
-        "lineNumber": 63,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     * If {@code tags} contain only one element which is an empty string, it will be parsed into a"
-      },
-      {
-        "lineNumber": 64,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     * {@code Set\u003cTag\u003e} containing zero tags."
-      },
-      {
-        "lineNumber": 65,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 66,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    private Optional\u003cSet\u003cTag\u003e\u003e parseTagsForEdit(Collection\u003cString\u003e tags) throws ParseException {"
-      },
-      {
-        "lineNumber": 67,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        assert tags !\u003d null;"
-      },
-      {
-        "lineNumber": 68,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 69,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        if (tags.isEmpty()) {"
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            return Optional.empty();"
-      },
-      {
-        "lineNumber": 71,
-        "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 72,
+        "lineNumber": 62,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        Collection\u003cString\u003e tagSet \u003d tags.size() \u003d\u003d 1 \u0026\u0026 tags.contains(\"\") ? Collections.emptySet() : tags;"
+        "content": ""
       },
       {
-        "lineNumber": 73,
+        "lineNumber": 63,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
-        "content": "        return Optional.of(ParserUtil.parseTags(tagSet));"
+        "content": "        return new EditBookCommand(index, editBookDescriptor);"
       },
       {
-        "lineNumber": 74,
+        "lineNumber": 64,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
         },
         "content": "    }"
       },
       {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * Parses {@code Collection\u003cString\u003e tags} into a {@code Set\u003cTag\u003e} if {@code tags} is non-empty."
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * If {@code tags} contain only one element which is an empty string, it will be parsed into a"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * {@code Set\u003cTag\u003e} containing zero tags."
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    private Optional\u003cSet\u003cTag\u003e\u003e parseTagsForEdit(Collection\u003cString\u003e tags) throws ParseException {"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        assert tags !\u003d null;"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        if (tags.isEmpty()) {"
+      },
+      {
         "lineNumber": 75,
         "author": {
-          "gitId": "-"
+          "gitId": "0blivious"
+        },
+        "content": "            return Optional.empty();"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        Collection\u003cString\u003e tagSet \u003d tags.size() \u003d\u003d 1 \u0026\u0026 tags.contains(\"\") ? Collections.emptySet() : tags;"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return Optional.of(ParserUtil.parseTags(tagSet));"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * Returns true if none of the prefixes appear more than once in the given"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     * {@code ArgumentMultimap}."
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    private static boolean arePrefixesUnique(ArgumentMultimap argumentMultimap, Prefix... prefixes) {"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        return Stream.of(prefixes).allMatch(prefix -\u003e ((argumentMultimap.getNumberOfPrefix(prefix) \u003d\u003d 1)"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "                || (argumentMultimap.getNumberOfPrefix(prefix) \u003d\u003d 0)));"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "0blivious"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "-": 55,
-      "0blivious": 20
+      "0blivious": 89
     }
   },
   {
@@ -56149,6 +56759,1149 @@
     ],
     "authorContributionMap": {
       "EleenYang": 71
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/ui/CommandBox.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.address.ui;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "import java.util.function.UnaryOperator;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "import java.util.regex.Pattern;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.collections.ObservableList;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.fxml.FXML;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.scene.control.TextField;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "import javafx.scene.control.TextFormatter;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.scene.input.KeyEvent;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.scene.layout.Region;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.logic.commands.CommandResult;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * The UI component that is responsible for receiving user command inputs."
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class CommandBox extends UiPart\u003cRegion\u003e {"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static final String ERROR_STYLE_CLASS \u003d \"error\";"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private static final String FXML \u003d \"CommandBox.fxml\";"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private final CommandExecutor commandExecutor;"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private final List\u003cString\u003e history;"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private ListElementPointer historySnapshot;"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @FXML"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private TextField commandTextField;"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public CommandBox(CommandExecutor commandExecutor, List\u003cString\u003e history) {"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        super(FXML);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.commandExecutor \u003d commandExecutor;"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.history \u003d history;"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // calls #setStyleToDefault() whenever there is a change to the text of the command box."
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        commandTextField.textProperty().addListener((unused1, unused2, unused3) -\u003e setStyleToDefault());"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        Pattern pattern \u003d Pattern.compile(\".{0,500}\");"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        TextFormatter formatter \u003d new TextFormatter((UnaryOperator\u003cTextFormatter.Change\u003e) change -\u003e {"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "            return pattern.matcher(change.getControlNewText()).matches() ? change : null;"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        });"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        commandTextField.setTextFormatter(formatter);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        historySnapshot \u003d new ListElementPointer(history);"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Handles the key press event, {@code keyEvent}."
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @FXML"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void handleKeyPress(KeyEvent keyEvent) {"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        switch (keyEvent.getCode()) {"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        case UP:"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            // As up and down buttons will alter the position of the caret,"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            // consuming it causes the caret\u0027s position to remain unchanged"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            keyEvent.consume();"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            navigateToPreviousInput();"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            break;"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        case DOWN:"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            keyEvent.consume();"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            navigateToNextInput();"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            break;"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        default:"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            // let JavaFx handle the keypress"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Updates the text field with the previous input in {@code historySnapshot},"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * if there exists a previous input in {@code historySnapshot}"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void navigateToPreviousInput() {"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assert historySnapshot !\u003d null;"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!historySnapshot.hasPrevious()) {"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return;"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        replaceText(historySnapshot.previous());"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Updates the text field with the next input in {@code historySnapshot},"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * if there exists a next input in {@code historySnapshot}"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void navigateToNextInput() {"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assert historySnapshot !\u003d null;"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!historySnapshot.hasNext()) {"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return;"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        replaceText(historySnapshot.next());"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets {@code CommandBox}\u0027s text field with {@code text} and"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * positions the caret to the end of the {@code text}."
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void replaceText(String text) {"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        commandTextField.setText(text);"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        commandTextField.positionCaret(commandTextField.getText().length());"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Handles the Enter button pressed event."
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @FXML"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void handleCommandEntered() {"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            commandExecutor.execute(commandTextField.getText());"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            initHistory();"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            historySnapshot.next();"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            commandTextField.setText(\"\");"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        } catch (CommandException | ParseException e) {"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            initHistory();"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            setStyleToIndicateCommandFailure();"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Initializes the history snapshot."
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void initHistory() {"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        historySnapshot \u003d new ListElementPointer(history);"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // add an empty string to represent the most-recent end of historySnapshot, to be shown to"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // the user if she tries to navigate past the most-recent end of the historySnapshot."
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        historySnapshot.add(\"\");"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets the command box style to use the default style."
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void setStyleToDefault() {"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        commandTextField.getStyleClass().remove(ERROR_STYLE_CLASS);"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets the command box style to indicate a failed command."
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private void setStyleToIndicateCommandFailure() {"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        ObservableList\u003cString\u003e styleClass \u003d commandTextField.getStyleClass();"
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (styleClass.contains(ERROR_STYLE_CLASS)) {"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return;"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        styleClass.add(ERROR_STYLE_CLASS);"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Represents a function that can execute commands."
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @FunctionalInterface"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public interface CommandExecutor {"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * Executes the command and returns the result."
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         *"
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         * @see seedu.address.logic.Logic#execute(String)"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        CommandResult execute(String commandText) throws CommandException, ParseException;"
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 153,
+      "0blivious": 9
     }
   },
   {
@@ -87515,371 +89268,371 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // multiple book names - last name accepted"
+        "content": "        // multiple tags - all accepted"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, NAME_DESC_ALICE + NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
+        "content": "        Book expectedBookMultipleTags \u003d new BookBuilder(CS).withTags(VALID_TAG_TEXTBOOK, VALID_TAG_INTERESTING)"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_TEXTBOOK, new AddBookCommand(expectedBook));"
+        "content": "                .build();"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseSuccess(parser, NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // multiple author - last author accepted"
+        "content": "                + TAG_DESC_TEXTBOOK + TAG_DESC_INTERESTING, new AddBookCommand(expectedBookMultipleTags));"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, NAME_DESC_CS + AUTHOR_DESC_ALICE + AUTHOR_DESC_CS + RATING_DESC_CS"
+        "content": "    }"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_TEXTBOOK, new AddBookCommand(expectedBook));"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // multiple ratings - last rating accepted"
+        "content": "    public void parse_optionalFieldsMissing_success() {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_ALICE + RATING_DESC_CS"
+        "content": "        // zero tags"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_TEXTBOOK, new AddBookCommand(expectedBook));"
+        "content": "        Book expectedBook \u003d new BookBuilder(ALI).withTags().build();"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseSuccess(parser, NAME_DESC_ALICE + AUTHOR_DESC_ALICE + RATING_DESC_ALICE,"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // multiple tags - all accepted"
+        "content": "                new AddBookCommand(expectedBook));"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Book expectedBookMultipleTags \u003d new BookBuilder(CS).withTags(VALID_TAG_TEXTBOOK, VALID_TAG_INTERESTING)"
+        "content": "    }"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                .build();"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
+        "content": "    @Test"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_TEXTBOOK + TAG_DESC_INTERESTING, new AddBookCommand(expectedBookMultipleTags));"
+        "content": "    public void parse_multipleFieldsPresent_failure() {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        Book expectedBook \u003d new BookBuilder(CS).withTags(VALID_TAG_TEXTBOOK).build();"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        String expectedMessage \u003d String.format(MESSAGE_INVALID_COMMAND_FORMAT, AddBookCommand.MESSAGE_USAGE);"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_optionalFieldsMissing_success() {"
+        "content": "        // multiple book names"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // zero tags"
+        "content": "        assertParseFailure(parser, NAME_DESC_ALICE + NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Book expectedBook \u003d new BookBuilder(ALI).withTags().build();"
+        "content": "                + TAG_DESC_TEXTBOOK, expectedMessage);"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, NAME_DESC_ALICE + AUTHOR_DESC_ALICE + RATING_DESC_ALICE,"
+        "content": ""
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                new AddBookCommand(expectedBook));"
+        "content": "        // multiple author"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_ALICE + AUTHOR_DESC_CS + RATING_DESC_CS"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                + TAG_DESC_TEXTBOOK, expectedMessage);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_compulsoryFieldMissing_failure() {"
+        "content": "        // multiple ratings"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        String expectedMessage \u003d String.format(MESSAGE_INVALID_COMMAND_FORMAT, AddBookCommand.MESSAGE_USAGE);"
+        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_ALICE + RATING_DESC_CS"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                + TAG_DESC_TEXTBOOK, expectedMessage);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // missing name prefix"
+        "content": "    }"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, VALID_BOOKNAME_CS + AUTHOR_DESC_CS + RATING_DESC_CS,"
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                expectedMessage);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    public void parse_compulsoryFieldMissing_failure() {"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // missing author prefix"
+        "content": "        String expectedMessage \u003d String.format(MESSAGE_INVALID_COMMAND_FORMAT, AddBookCommand.MESSAGE_USAGE);"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, NAME_DESC_CS + VALID_AUTHOR_CS + RATING_DESC_CS,"
+        "content": ""
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                expectedMessage);"
+        "content": "        // missing name prefix"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, VALID_BOOKNAME_CS + AUTHOR_DESC_CS + RATING_DESC_CS,"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // missing rating prefix"
+        "content": "                expectedMessage);"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_CS + VALID_RATING_CS,"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                expectedMessage);"
+        "content": "        // missing author prefix"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, NAME_DESC_CS + VALID_AUTHOR_CS + RATING_DESC_CS,"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // all prefixes missing"
+        "content": "                expectedMessage);"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, VALID_BOOKNAME_CS + VALID_AUTHOR_CS + VALID_RATING_CS,"
+        "content": ""
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                expectedMessage);"
+        "content": "        // missing rating prefix"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_CS + VALID_RATING_CS,"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                expectedMessage);"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_invalidValue_failure() {"
+        "content": "        // all prefixes missing"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // invalid name"
+        "content": "        assertParseFailure(parser, VALID_BOOKNAME_CS + VALID_AUTHOR_CS + VALID_RATING_CS,"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, INVALID_BOOKNAME_DESC + AUTHOR_DESC_CS + RATING_DESC_CS"
+        "content": "                expectedMessage);"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK, BookName.MESSAGE_CONSTRAINTS);"
+        "content": "    }"
       },
       {
         "lineNumber": 104,
@@ -87893,150 +89646,192 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // invalid author"
+        "content": "    @Test"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, NAME_DESC_CS + INVALID_AUTHOR_DESC + RATING_DESC_CS"
+        "content": "    public void parse_invalidValue_failure() {"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK, Author.MESSAGE_CONSTRAINTS);"
+        "content": "        // invalid name"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, INVALID_BOOKNAME_DESC + AUTHOR_DESC_CS + RATING_DESC_CS"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // invalid rating"
+        "content": "                + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK, BookName.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_CS + INVALID_RATING_DESC"
+        "content": ""
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_INTERESTING + TAG_DESC_TEXTBOOK, Rating.MESSAGE_CONSTRAINTS);"
+        "content": "        // invalid author"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, NAME_DESC_CS + INVALID_AUTHOR_DESC + RATING_DESC_CS"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // invalid tag"
+        "content": "                + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK, Author.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
+        "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + INVALID_TAG_DESC + VALID_TAG_FANTASY, Tag.MESSAGE_CONSTRAINTS);"
+        "content": "        // invalid rating"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_CS + INVALID_RATING_DESC"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // two invalid values, only first invalid value reported"
+        "content": "                + TAG_DESC_INTERESTING + TAG_DESC_TEXTBOOK, Rating.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, INVALID_BOOKNAME_DESC + AUTHOR_DESC_CS + RATING_DESC_CS,"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                BookName.MESSAGE_CONSTRAINTS);"
+        "content": "        // invalid tag"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // non-empty preamble"
+        "content": "                + INVALID_TAG_DESC + VALID_TAG_FANTASY, Tag.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, PREAMBLE_NON_EMPTY + NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
+        "content": ""
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                        + TAG_DESC_INTERESTING + TAG_DESC_TEXTBOOK,"
+        "content": "        // two invalid values, only first invalid value reported"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, AddBookCommand.MESSAGE_USAGE));"
+        "content": "        assertParseFailure(parser, INVALID_BOOKNAME_DESC + AUTHOR_DESC_CS + RATING_DESC_CS,"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "                BookName.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 126,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        // non-empty preamble"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "        assertParseFailure(parser, PREAMBLE_NON_EMPTY + NAME_DESC_CS + AUTHOR_DESC_CS + RATING_DESC_CS"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "                        + TAG_DESC_INTERESTING + TAG_DESC_TEXTBOOK,"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "                String.format(MESSAGE_INVALID_COMMAND_FORMAT, AddBookCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "0blivious"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 132,
         "author": {
           "gitId": "0blivious"
         },
@@ -88044,7 +89839,7 @@
       }
     ],
     "authorContributionMap": {
-      "0blivious": 126
+      "0blivious": 132
     }
   },
   {
@@ -90191,1242 +91986,1172 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_RATING_CS;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_TAG_FANTASY;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_TAG_FANTASY;"
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_TAG_TEXTBOOK;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.logic.commands.CommandTestUtil.VALID_TAG_TEXTBOOK;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;"
+        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;"
+        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.logic.parser.CommandParserTestUtil.assertParseSuccess;"
+        "content": "import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_BOOK;"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_BOOK;"
+        "content": "import static seedu.address.testutil.TypicalIndexes.INDEX_SECOND_BOOK;"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.testutil.TypicalIndexes.INDEX_SECOND_BOOK;"
+        "content": "import static seedu.address.testutil.TypicalIndexes.INDEX_THIRD_BOOK;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import static seedu.address.testutil.TypicalIndexes.INDEX_THIRD_BOOK;"
+        "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import org.junit.Test;"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "import seedu.address.commons.core.index.Index;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.commons.core.index.Index;"
+        "content": "import seedu.address.logic.commands.EditBookCommand;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.logic.commands.EditBookCommand;"
+        "content": "import seedu.address.logic.commands.EditBookCommand.EditBookDescriptor;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.logic.commands.EditBookCommand.EditBookDescriptor;"
+        "content": "import seedu.address.model.book.Author;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.model.book.Author;"
+        "content": "import seedu.address.model.book.BookName;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.model.book.BookName;"
+        "content": "import seedu.address.model.book.Rating;"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.model.book.Rating;"
+        "content": "import seedu.address.model.tag.Tag;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.model.tag.Tag;"
+        "content": "import seedu.address.testutil.EditBookDescriptorBuilder;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "import seedu.address.testutil.EditBookDescriptorBuilder;"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "public class EditBookCommandParserTest {"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "public class EditBookCommandParserTest {"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    private static final String TAG_EMPTY \u003d \" \" + PREFIX_TAG;"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private static final String TAG_EMPTY \u003d \" \" + PREFIX_TAG;"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    private static final String MESSAGE_INVALID_FORMAT \u003d"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private static final String MESSAGE_INVALID_FORMAT \u003d"
+        "content": "            String.format(MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE);"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            String.format(MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE);"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    private EditBookCommandParser parser \u003d new EditBookCommandParser();"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private EditBookCommandParser parser \u003d new EditBookCommandParser();"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": "    public void parse_missingParts_failure() {"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_missingParts_failure() {"
+        "content": "        // no index specified"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // no index specified"
+        "content": "        assertParseFailure(parser, VALID_BOOKNAME_ALICE, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, VALID_BOOKNAME_ALICE, MESSAGE_INVALID_FORMAT);"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // no field specified"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // no field specified"
+        "content": "        assertParseFailure(parser, \"1\", EditBookCommand.MESSAGE_NOT_EDITED);"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\", EditBookCommand.MESSAGE_NOT_EDITED);"
+        "content": ""
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // no index and no field specified"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // no index and no field specified"
+        "content": "        assertParseFailure(parser, \"\", MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"\", MESSAGE_INVALID_FORMAT);"
+        "content": "    }"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": "    public void parse_invalidPreamble_failure() {"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_invalidPreamble_failure() {"
+        "content": "        // negative index"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // negative index"
+        "content": "        assertParseFailure(parser, \"-5\" + NAME_DESC_ALICE, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"-5\" + NAME_DESC_ALICE, MESSAGE_INVALID_FORMAT);"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // zero index"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // zero index"
+        "content": "        assertParseFailure(parser, \"0\" + NAME_DESC_ALICE, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"0\" + NAME_DESC_ALICE, MESSAGE_INVALID_FORMAT);"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // invalid arguments being parsed as preamble"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // invalid arguments being parsed as preamble"
+        "content": "        assertParseFailure(parser, \"1 some random string\", MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1 some random string\", MESSAGE_INVALID_FORMAT);"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // invalid prefix being parsed as preamble"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // invalid prefix being parsed as preamble"
+        "content": "        assertParseFailure(parser, \"1 i/ string\", MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1 i/ string\", MESSAGE_INVALID_FORMAT);"
+        "content": "    }"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": "    public void parse_invalidValue_failure() {"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_invalidValue_failure() {"
+        "content": "        assertParseFailure(parser, \"1\" + INVALID_NAME_DESC, BookName.MESSAGE_CONSTRAINTS); // invalid name"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + INVALID_NAME_DESC, BookName.MESSAGE_CONSTRAINTS); // invalid name"
+        "content": "        assertParseFailure(parser, \"1\" + INVALID_AUTHOR_DESC, Author.MESSAGE_CONSTRAINTS); // invalid author"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + INVALID_AUTHOR_DESC, Author.MESSAGE_CONSTRAINTS); // invalid author"
+        "content": "        assertParseFailure(parser, \"1\" + INVALID_RATING_DESC, Rating.MESSAGE_CONSTRAINTS); // invalid rating"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + INVALID_RATING_DESC, Rating.MESSAGE_CONSTRAINTS); // invalid rating"
+        "content": "        assertParseFailure(parser, \"1\" + INVALID_TAG_DESC, Tag.MESSAGE_CONSTRAINTS); // invalid tag"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + INVALID_TAG_DESC, Tag.MESSAGE_CONSTRAINTS); // invalid tag"
+        "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // invalid author followed by valid rating"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // invalid author followed by valid rating"
+        "content": "        assertParseFailure(parser, \"1\" + INVALID_AUTHOR_DESC + RATING_DESC_ALICE, Author.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + INVALID_AUTHOR_DESC + RATING_DESC_ALICE, Author.MESSAGE_CONSTRAINTS);"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // valid author followed by invalid author. The test case for invalid author followed by valid author"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // valid author followed by invalid author. The test case for invalid author followed by valid author"
+        "content": "        // is tested at {@code parse_invalidValueFollowedByValidValue_success()}"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // is tested at {@code parse_invalidValueFollowedByValidValue_success()}"
+        "content": "        assertParseFailure(parser, \"1\" + AUTHOR_DESC_CS + INVALID_AUTHOR_DESC, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + AUTHOR_DESC_CS + INVALID_AUTHOR_DESC, Author.MESSAGE_CONSTRAINTS);"
+        "content": ""
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // while parsing {@code PREFIX_TAG} alone will reset the tags of the {@code Book} being edited,"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // while parsing {@code PREFIX_TAG} alone will reset the tags of the {@code Book} being edited,"
+        "content": "        // parsing it together with a valid tag results in error"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // parsing it together with a valid tag results in error"
+        "content": "        assertParseFailure(parser, \"1\" + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK + TAG_EMPTY, Tag.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK + TAG_EMPTY, Tag.MESSAGE_CONSTRAINTS);"
+        "content": "        assertParseFailure(parser, \"1\" + TAG_DESC_FANTASY + TAG_EMPTY + TAG_DESC_TEXTBOOK, Tag.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + TAG_DESC_FANTASY + TAG_EMPTY + TAG_DESC_TEXTBOOK, Tag.MESSAGE_CONSTRAINTS);"
+        "content": "        assertParseFailure(parser, \"1\" + TAG_EMPTY + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK, Tag.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + TAG_EMPTY + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK, Tag.MESSAGE_CONSTRAINTS);"
+        "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // multiple invalid values, but only the first invalid value is captured"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // multiple invalid values, but only the first invalid value is captured"
+        "content": "        assertParseFailure(parser, \"1\" + INVALID_NAME_DESC + INVALID_RATING_DESC + VALID_AUTHOR_ALICE,"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseFailure(parser, \"1\" + INVALID_NAME_DESC + INVALID_RATING_DESC + VALID_AUTHOR_ALICE,"
+        "content": "                BookName.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                BookName.MESSAGE_CONSTRAINTS);"
+        "content": "    }"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": "    public void parse_allFieldsSpecified_success() {"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_allFieldsSpecified_success() {"
+        "content": "        Index targetIndex \u003d INDEX_SECOND_BOOK;"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Index targetIndex \u003d INDEX_SECOND_BOOK;"
+        "content": "        String userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_CS + TAG_DESC_TEXTBOOK"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        String userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_CS + TAG_DESC_TEXTBOOK"
+        "content": "                + RATING_DESC_ALICE + NAME_DESC_ALICE + TAG_DESC_FANTASY;"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + RATING_DESC_ALICE + NAME_DESC_ALICE + TAG_DESC_FANTASY;"
+        "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withBookName(VALID_BOOKNAME_ALICE)"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withBookName(VALID_BOOKNAME_ALICE)"
+        "content": "                .withAuthor(VALID_AUTHOR_CS).withRating(VALID_RATING_ALICE)"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                .withAuthor(VALID_AUTHOR_CS).withRating(VALID_RATING_ALICE)"
+        "content": "                .withTags(VALID_TAG_TEXTBOOK, VALID_TAG_FANTASY).build();"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                .withTags(VALID_TAG_TEXTBOOK, VALID_TAG_FANTASY).build();"
+        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": ""
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": "    }"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": "    public void parse_someFieldsSpecified_success() {"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_someFieldsSpecified_success() {"
+        "content": "        Index targetIndex \u003d INDEX_FIRST_BOOK;"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Index targetIndex \u003d INDEX_FIRST_BOOK;"
+        "content": "        String userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_CS + RATING_DESC_ALICE;"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        String userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_CS + RATING_DESC_ALICE;"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withAuthor(VALID_AUTHOR_CS)"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withAuthor(VALID_AUTHOR_CS)"
+        "content": "                .withRating(VALID_RATING_ALICE).build();"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                .withRating(VALID_RATING_ALICE).build();"
+        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": ""
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": "    }"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": "    public void parse_oneFieldSpecified_success() {"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_oneFieldSpecified_success() {"
+        "content": "        // name"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // name"
+        "content": "        Index targetIndex \u003d INDEX_THIRD_BOOK;"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Index targetIndex \u003d INDEX_THIRD_BOOK;"
+        "content": "        String userInput \u003d targetIndex.getOneBased() + NAME_DESC_ALICE;"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        String userInput \u003d targetIndex.getOneBased() + NAME_DESC_ALICE;"
+        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withBookName(VALID_BOOKNAME_ALICE).build();"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withBookName(VALID_BOOKNAME_ALICE).build();"
+        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": ""
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // author"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // author"
+        "content": "        userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_ALICE;"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_ALICE;"
+        "content": "        descriptor \u003d new EditBookDescriptorBuilder().withAuthor(VALID_AUTHOR_ALICE).build();"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        descriptor \u003d new EditBookDescriptorBuilder().withAuthor(VALID_AUTHOR_ALICE).build();"
+        "content": "        expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": ""
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // rating"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // rating"
+        "content": "        userInput \u003d targetIndex.getOneBased() + RATING_DESC_ALICE;"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        userInput \u003d targetIndex.getOneBased() + RATING_DESC_ALICE;"
+        "content": "        descriptor \u003d new EditBookDescriptorBuilder().withRating(VALID_RATING_ALICE).build();"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        descriptor \u003d new EditBookDescriptorBuilder().withRating(VALID_RATING_ALICE).build();"
+        "content": "        expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": ""
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        // tags"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // tags"
+        "content": "        userInput \u003d targetIndex.getOneBased() + TAG_DESC_FANTASY;"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        userInput \u003d targetIndex.getOneBased() + TAG_DESC_FANTASY;"
+        "content": "        descriptor \u003d new EditBookDescriptorBuilder().withTags(VALID_TAG_FANTASY).build();"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        descriptor \u003d new EditBookDescriptorBuilder().withTags(VALID_TAG_FANTASY).build();"
+        "content": "        expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": "    }"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": "    public void parse_multipleRepeatedFields_failure() {"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_multipleRepeatedFields_acceptsLast() {"
+        "content": "        Index targetIndex \u003d INDEX_FIRST_BOOK;"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Index targetIndex \u003d INDEX_FIRST_BOOK;"
+        "content": "        String userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_ALICE + RATING_DESC_ALICE"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        String userInput \u003d targetIndex.getOneBased() + AUTHOR_DESC_ALICE + RATING_DESC_ALICE"
+        "content": "                + TAG_DESC_FANTASY + AUTHOR_DESC_ALICE + RATING_DESC_ALICE + TAG_DESC_FANTASY"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_FANTASY + AUTHOR_DESC_ALICE + RATING_DESC_ALICE + TAG_DESC_FANTASY"
+        "content": "                + AUTHOR_DESC_CS + RATING_DESC_CS + TAG_DESC_TEXTBOOK;"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + AUTHOR_DESC_CS + RATING_DESC_CS + TAG_DESC_TEXTBOOK;"
+        "content": ""
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, userInput, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withAuthor(VALID_AUTHOR_CS)"
+        "content": "    }"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                .withRating(VALID_RATING_CS).withTags(VALID_TAG_FANTASY, VALID_TAG_TEXTBOOK)"
+        "content": ""
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                .build();"
+        "content": "    @Test"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": "    public void parse_invalidValueFollowedByValidValue_failure() {"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        Index targetIndex \u003d INDEX_FIRST_BOOK;"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": "        // no other valid values specified"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        String userInput \u003d targetIndex.getOneBased() + INVALID_AUTHOR_DESC + AUTHOR_DESC_CS;"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertParseFailure(parser, userInput, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    public void parse_invalidValueFollowedByValidValue_success() {"
+        "content": "        // other valid values specified"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Index targetIndex \u003d INDEX_FIRST_BOOK;"
+        "content": "        userInput \u003d targetIndex.getOneBased() + RATING_DESC_CS + INVALID_AUTHOR_DESC + AUTHOR_DESC_CS;"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // no other valid values specified"
+        "content": "        assertParseFailure(parser, userInput, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        String userInput \u003d targetIndex.getOneBased() + INVALID_AUTHOR_DESC + AUTHOR_DESC_CS;"
+        "content": "    }"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withAuthor(VALID_AUTHOR_CS).build();"
+        "content": ""
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": "    public void parse_resetTags_success() {"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        Index targetIndex \u003d INDEX_THIRD_BOOK;"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // other valid values specified"
+        "content": "        String userInput \u003d targetIndex.getOneBased() + TAG_EMPTY;"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        userInput \u003d targetIndex.getOneBased() + RATING_DESC_CS + INVALID_AUTHOR_DESC + AUTHOR_DESC_CS;"
+        "content": ""
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        descriptor \u003d new EditBookDescriptorBuilder().withAuthor(VALID_AUTHOR_CS).withRating(VALID_RATING_CS).build();"
+        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withTags().build();"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
+        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
+        "content": ""
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 186,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "    @Test"
-      },
-      {
-        "lineNumber": 187,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "    public void parse_resetTags_success() {"
-      },
-      {
-        "lineNumber": 188,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        Index targetIndex \u003d INDEX_THIRD_BOOK;"
-      },
-      {
-        "lineNumber": 189,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        String userInput \u003d targetIndex.getOneBased() + TAG_EMPTY;"
-      },
-      {
-        "lineNumber": 190,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 191,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        EditBookDescriptor descriptor \u003d new EditBookDescriptorBuilder().withTags().build();"
-      },
-      {
-        "lineNumber": 192,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        EditBookCommand expectedCommand \u003d new EditBookCommand(targetIndex, descriptor);"
-      },
-      {
-        "lineNumber": 193,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 194,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        assertParseSuccess(parser, userInput, expectedCommand);"
-      },
-      {
-        "lineNumber": 195,
-        "author": {
-          "gitId": "0blivious"
-        },
         "content": "    }"
       },
       {
-        "lineNumber": 196,
+        "lineNumber": 186,
         "author": {
           "gitId": "0blivious"
         },
@@ -91434,7 +93159,7 @@
       }
     ],
     "authorContributionMap": {
-      "0blivious": 196
+      "0blivious": 186
     }
   },
   {
@@ -129034,7 +130759,7 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* --------------------- Performing edit operation while a book card is selected -------------------------- */"
+        "content": "        /* --------------------------------- Performing invalid edit operation -------------------------------------- */"
       },
       {
         "lineNumber": 120,
@@ -129048,1186 +130773,1074 @@
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: selects first card in the book list, edit a book -\u003e edited, card selection remains unchanged but"
+        "content": "        /* Case: invalid index (0) -\u003e rejected */"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "         * browser url changes"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" 0\" + NAME_DESC_CS,"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "         */"
+        "content": "                String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /*"
+        "content": ""
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        showAllBooks();"
+        "content": "        /* Case: invalid index (-1) -\u003e rejected */"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        index \u003d INDEX_FIRST_BOOK;"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" -1\" + NAME_DESC_CS,"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        selectBook(index);"
+        "content": "                String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
+        "content": ""
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        + NAME_DESC_TWILIGHT + AUTHOR_DESC_TWILIGHT + RATING_DESC_TWILIGHT + \" t/\";"
+        "content": "        /* Case: invalid index (size + 1) -\u003e rejected */"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // this can be misleading: card selection actually remains unchanged but the"
+        "content": "        invalidIndex \u003d getModel().getFilteredBookList().size() + 1;"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        // browser\u0027s url is updated to reflect the new book\u0027s name"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \" + invalidIndex + NAME_DESC_CS,"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandSuccess(command, index, TWILIGHT, index);"
+        "content": "                Messages.MESSAGE_INVALID_BOOK_DISPLAYED_INDEX);"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        */"
+        "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        /* Case: missing index -\u003e rejected */"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* --------------------------------- Performing invalid edit operation -------------------------------------- */"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + NAME_DESC_CS,"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: invalid index (0) -\u003e rejected */"
+        "content": ""
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" 0\" + NAME_DESC_CS,"
+        "content": "        /* Case: missing all fields -\u003e rejected */"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE));"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \" + INDEX_FIRST_BOOK.getOneBased(),"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                EditBookCommand.MESSAGE_NOT_EDITED);"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: invalid index (-1) -\u003e rejected */"
+        "content": ""
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" -1\" + NAME_DESC_CS,"
+        "content": "        /* Case: invalid name -\u003e rejected */"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE));"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \""
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                        + INDEX_FIRST_BOOK.getOneBased() + INVALID_BOOKNAME_DESC,"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: invalid index (size + 1) -\u003e rejected */"
+        "content": "                BookName.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        invalidIndex \u003d getModel().getFilteredBookList().size() + 1;"
+        "content": ""
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \" + invalidIndex + NAME_DESC_CS,"
+        "content": "        /* Case: invalid author -\u003e rejected */"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                Messages.MESSAGE_INVALID_BOOK_DISPLAYED_INDEX);"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \""
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                        + INDEX_FIRST_BOOK.getOneBased() + INVALID_AUTHOR_DESC,"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: missing index -\u003e rejected */"
+        "content": "                Author.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + NAME_DESC_CS,"
+        "content": ""
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, EditBookCommand.MESSAGE_USAGE));"
+        "content": "        /* Case: invalid rating -\u003e rejected */"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: missing all fields -\u003e rejected */"
+        "content": "                        + \" \" + INDEX_FIRST_BOOK.getOneBased() + INVALID_RATING_DESC,"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \" + INDEX_FIRST_BOOK.getOneBased(),"
+        "content": "                Rating.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                EditBookCommand.MESSAGE_NOT_EDITED);"
+        "content": ""
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        /* Case: invalid tag -\u003e rejected */"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: invalid name -\u003e rejected */"
+        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \""
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \""
+        "content": "                        + INDEX_FIRST_BOOK.getOneBased() + INVALID_TAG_DESC,"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                        + INDEX_FIRST_BOOK.getOneBased() + INVALID_BOOKNAME_DESC,"
+        "content": "                Tag.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                BookName.MESSAGE_CONSTRAINTS);"
+        "content": ""
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        /* Case: edit a book with new values same as another book\u0027s values -\u003e rejected */"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: invalid author -\u003e rejected */"
+        "content": "        executeCommand(BookUtil.getAddBookCommand(SECRETLIFE));"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \""
+        "content": "        assertTrue(getModel().getBookShelf().getBookList().contains(SECRETLIFE));"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                        + INDEX_FIRST_BOOK.getOneBased() + INVALID_AUTHOR_DESC,"
+        "content": "        index \u003d INDEX_FIRST_BOOK;"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                Author.MESSAGE_CONSTRAINTS);"
+        "content": "        assertFalse(getModel().getFilteredBookList().get(index.getZeroBased()).equals(CS));"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: invalid rating -\u003e rejected */"
+        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_LIFE + RATING_DESC_LIFE;"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD"
+        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                        + \" \" + INDEX_FIRST_BOOK.getOneBased() + INVALID_RATING_DESC,"
+        "content": ""
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                Rating.MESSAGE_CONSTRAINTS);"
+        "content": "        /* Case: edit a book with new values same as another book\u0027s values but with different tags -\u003e rejected */"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: invalid tag -\u003e rejected */"
+        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_LIFE + RATING_DESC_LIFE"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(EditBookCommand.COMMAND_WORD + \" \""
+        "content": "                + TAG_DESC_TEXTBOOK;"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                        + INDEX_FIRST_BOOK.getOneBased() + INVALID_TAG_DESC,"
+        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                Tag.MESSAGE_CONSTRAINTS);"
+        "content": ""
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        /* Case: edit a book with new values same as another book\u0027s values but with different author -\u003e rejected */"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: edit a book with new values same as another book\u0027s values -\u003e rejected */"
+        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        executeCommand(BookUtil.getAddBookCommand(SECRETLIFE));"
+        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_ALICE + RATING_DESC_LIFE"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertTrue(getModel().getBookShelf().getBookList().contains(SECRETLIFE));"
+        "content": "                + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK;"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        index \u003d INDEX_FIRST_BOOK;"
+        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertFalse(getModel().getFilteredBookList().get(index.getZeroBased()).equals(CS));"
+        "content": ""
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
+        "content": "        /* Case: edit a book with new values same as another book\u0027s values but with different rating -\u003e rejected */"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_LIFE + RATING_DESC_LIFE;"
+        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
+        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_LIFE + RATING_DESC_ALICE"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                + TAG_DESC_FANTASY"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: edit a book with new values same as another book\u0027s values but with different tags -\u003e rejected */"
+        "content": "                + TAG_DESC_TEXTBOOK;"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
+        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_LIFE + RATING_DESC_LIFE"
+        "content": "    }"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_TEXTBOOK;"
+        "content": ""
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
+        "content": "    /**"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "     * Performs the same verification as {@code assertCommandSuccess(String, Index, Book, Index)} except that"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: edit a book with new values same as another book\u0027s values but with different author -\u003e rejected */"
+        "content": "     * the browser url and selected card remain unchanged."
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
+        "content": "     * @param toEdit the index of the current model\u0027s filtered list"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_ALICE + RATING_DESC_LIFE"
+        "content": "     * @see EditBookCommandSystemTest#assertCommandSuccess(String, Index, Book, Index)"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_FANTASY + TAG_DESC_TEXTBOOK;"
+        "content": "     */"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
+        "content": "    private void assertCommandSuccess(String command, Index toEdit, Book editedBook) {"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(command, toEdit, editedBook, null);"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        /* Case: edit a book with new values same as another book\u0027s values but with different rating -\u003e rejected */"
+        "content": "    }"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        command \u003d EditBookCommand.COMMAND_WORD + \" \" + index.getOneBased()"
+        "content": ""
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + NAME_DESC_LIFE + AUTHOR_DESC_LIFE + RATING_DESC_ALICE"
+        "content": "    /**"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_FANTASY"
+        "content": "     * Performs the same verification as {@code assertCommandSuccess(String, Model, String, Index)} and in addition,\u003cbr\u003e"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                + TAG_DESC_TEXTBOOK;"
+        "content": "     * 1. Asserts that result display box displays the success message of executing {@code EditBookCommand}.\u003cbr\u003e"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandFailure(command, EditBookCommand.MESSAGE_DUPLICATE_BOOK);"
+        "content": "     * 2. Asserts that the model related components are updated to reflect the book at index {@code toEdit} being"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "     * updated to values specified {@code editedBook}.\u003cbr\u003e"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "     * @param toEdit the index of the current model\u0027s filtered list."
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": "     * @see EditBookCommandSystemTest#assertCommandSuccess(String, Model, String, Index)"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Performs the same verification as {@code assertCommandSuccess(String, Index, Book, Index)} except that"
+        "content": "     */"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * the browser url and selected card remain unchanged."
+        "content": "    private void assertCommandSuccess(String command, Index toEdit,"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * @param toEdit the index of the current model\u0027s filtered list"
+        "content": "            Book editedBook, Index expectedSelectedBookCardIndex) {"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * @see EditBookCommandSystemTest#assertCommandSuccess(String, Index, Book, Index)"
+        "content": "        Model expectedModel \u003d getModel();"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "        expectedModel.setBook(expectedModel.getFilteredBookList().get(toEdit.getZeroBased()), editedBook);"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private void assertCommandSuccess(String command, Index toEdit, Book editedBook) {"
+        "content": "        expectedModel.updateFilteredBookList(PREDICATE_SHOW_ALL_BOOKS);"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandSuccess(command, toEdit, editedBook, null);"
+        "content": ""
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        assertCommandSuccess(command, expectedModel,"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "                String.format(EditBookCommand.MESSAGE_EDIT_BOOK_SUCCESS, editedBook), expectedSelectedBookCardIndex);"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Performs the same verification as {@code assertCommandSuccess(String, Model, String, Index)} and in addition,\u003cbr\u003e"
+        "content": ""
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 1. Asserts that result display box displays the success message of executing {@code EditBookCommand}.\u003cbr\u003e"
+        "content": "    /**"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 2. Asserts that the model related components are updated to reflect the book at index {@code toEdit} being"
+        "content": "     * Performs the same verification as {@code assertCommandSuccess(String, Model, String, Index)} except that the"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * updated to values specified {@code editedBook}.\u003cbr\u003e"
+        "content": "     * browser url and selected card remain unchanged."
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * @param toEdit the index of the current model\u0027s filtered list."
+        "content": "     * @see EditBookCommandSystemTest#assertCommandSuccess(String, Model, String, Index)"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * @see EditBookCommandSystemTest#assertCommandSuccess(String, Model, String, Index)"
+        "content": "     */"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "    private void assertCommandSuccess(String command, Model expectedModel, String expectedResultMessage) {"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private void assertCommandSuccess(String command, Index toEdit,"
+        "content": "        assertCommandSuccess(command, expectedModel, expectedResultMessage, null);"
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            Book editedBook, Index expectedSelectedBookCardIndex) {"
+        "content": "    }"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        Model expectedModel \u003d getModel();"
+        "content": ""
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        expectedModel.setBook(expectedModel.getFilteredBookList().get(toEdit.getZeroBased()), editedBook);"
+        "content": "    /**"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        expectedModel.updateFilteredBookList(PREDICATE_SHOW_ALL_BOOKS);"
+        "content": "     * Executes {@code command} and in addition,\u003cbr\u003e"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "     * 1. Asserts that the command box displays an empty string.\u003cbr\u003e"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandSuccess(command, expectedModel,"
+        "content": "     * 2. Asserts that the result display box displays {@code expectedResultMessage}.\u003cbr\u003e"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "                String.format(EditBookCommand.MESSAGE_EDIT_BOOK_SUCCESS, editedBook), expectedSelectedBookCardIndex);"
+        "content": "     * 3. Asserts that the browser url and selected card update accordingly depending on the card at"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "     * {@code expectedSelectedBookCardIndex}.\u003cbr\u003e"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "     * 4. Asserts that the status bar\u0027s sync status changes.\u003cbr\u003e"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": "     * 5. Asserts that the command box has the default style class.\u003cbr\u003e"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Performs the same verification as {@code assertCommandSuccess(String, Model, String, Index)} except that the"
+        "content": "     * Verifications 1 and 2 are performed by"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * browser url and selected card remain unchanged."
+        "content": "     * {@code BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)}.\u003cbr\u003e"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * @see EditBookCommandSystemTest#assertCommandSuccess(String, Model, String, Index)"
+        "content": "     * @see BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * @see BookShelfSystemTest#assertSelectedBookCardChanged(Index)"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private void assertCommandSuccess(String command, Model expectedModel, String expectedResultMessage) {"
+        "content": "     */"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandSuccess(command, expectedModel, expectedResultMessage, null);"
+        "content": "    private void assertCommandSuccess(String command, Model expectedModel, String expectedResultMessage,"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "            Index expectedSelectedBookCardIndex) {"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": "        expectedModel.updateFilteredBookList(PREDICATE_SHOW_ALL_BOOKS);"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Executes {@code command} and in addition,\u003cbr\u003e"
+        "content": "        assertApplicationDisplaysExpected(\"\", expectedResultMessage, expectedModel);"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 1. Asserts that the command box displays an empty string.\u003cbr\u003e"
+        "content": "        assertCommandBoxShowsDefaultStyle();"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 2. Asserts that the result display box displays {@code expectedResultMessage}.\u003cbr\u003e"
+        "content": "        if (expectedSelectedBookCardIndex !\u003d null) {"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 3. Asserts that the browser url and selected card update accordingly depending on the card at"
+        "content": "            assertSelectedBookCardChanged(expectedSelectedBookCardIndex);"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * {@code expectedSelectedBookCardIndex}.\u003cbr\u003e"
+        "content": "        } else {"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 4. Asserts that the status bar\u0027s sync status changes.\u003cbr\u003e"
+        "content": "            assertSelectedBookCardUnchanged();"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 5. Asserts that the command box has the default style class.\u003cbr\u003e"
+        "content": "        }"
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Verifications 1 and 2 are performed by"
+        "content": "        assertStatusBarUnchangedExceptSyncStatus();"
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * {@code BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)}.\u003cbr\u003e"
+        "content": "    }"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * @see BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)"
+        "content": ""
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * @see BookShelfSystemTest#assertSelectedBookCardChanged(Index)"
+        "content": "    /**"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     */"
+        "content": "     * Executes {@code command} and in addition,\u003cbr\u003e"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    private void assertCommandSuccess(String command, Model expectedModel, String expectedResultMessage,"
+        "content": "     * 1. Asserts that the command box displays {@code command}.\u003cbr\u003e"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            Index expectedSelectedBookCardIndex) {"
+        "content": "     * 2. Asserts that result display box displays {@code expectedResultMessage}.\u003cbr\u003e"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        executeCommand(command);"
+        "content": "     * 3. Asserts that the browser url, selected card and status bar remain unchanged.\u003cbr\u003e"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        expectedModel.updateFilteredBookList(PREDICATE_SHOW_ALL_BOOKS);"
+        "content": "     * 4. Asserts that the command box has the error style.\u003cbr\u003e"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertApplicationDisplaysExpected(\"\", expectedResultMessage, expectedModel);"
+        "content": "     * Verifications 1 and 2 are performed by"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertCommandBoxShowsDefaultStyle();"
+        "content": "     * {@code BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)}.\u003cbr\u003e"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        if (expectedSelectedBookCardIndex !\u003d null) {"
+        "content": "     * @see BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            assertSelectedBookCardChanged(expectedSelectedBookCardIndex);"
+        "content": "     */"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        } else {"
+        "content": "    private void assertCommandFailure(String command, String expectedResultMessage) {"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "            assertSelectedBookCardUnchanged();"
+        "content": "        Model expectedModel \u003d getModel();"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "        assertStatusBarUnchangedExceptSyncStatus();"
+        "content": "        executeCommand(command);"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    }"
+        "content": "        assertApplicationDisplaysExpected(command, expectedResultMessage, expectedModel);"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "0blivious"
         },
-        "content": ""
+        "content": "        assertSelectedBookCardUnchanged();"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "    /**"
+        "content": "        assertCommandBoxShowsErrorStyle();"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * Executes {@code command} and in addition,\u003cbr\u003e"
+        "content": "        assertStatusBarUnchanged();"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "0blivious"
         },
-        "content": "     * 1. Asserts that the command box displays {@code command}.\u003cbr\u003e"
-      },
-      {
-        "lineNumber": 274,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "     * 2. Asserts that result display box displays {@code expectedResultMessage}.\u003cbr\u003e"
-      },
-      {
-        "lineNumber": 275,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "     * 3. Asserts that the browser url, selected card and status bar remain unchanged.\u003cbr\u003e"
-      },
-      {
-        "lineNumber": 276,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "     * 4. Asserts that the command box has the error style.\u003cbr\u003e"
-      },
-      {
-        "lineNumber": 277,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "     * Verifications 1 and 2 are performed by"
-      },
-      {
-        "lineNumber": 278,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "     * {@code BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)}.\u003cbr\u003e"
-      },
-      {
-        "lineNumber": 279,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "     * @see BookShelfSystemTest#assertApplicationDisplaysExpected(String, String, Model)"
-      },
-      {
-        "lineNumber": 280,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 281,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "    private void assertCommandFailure(String command, String expectedResultMessage) {"
-      },
-      {
-        "lineNumber": 282,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        Model expectedModel \u003d getModel();"
-      },
-      {
-        "lineNumber": 283,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 284,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        executeCommand(command);"
-      },
-      {
-        "lineNumber": 285,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        assertApplicationDisplaysExpected(command, expectedResultMessage, expectedModel);"
-      },
-      {
-        "lineNumber": 286,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        assertSelectedBookCardUnchanged();"
-      },
-      {
-        "lineNumber": 287,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        assertCommandBoxShowsErrorStyle();"
-      },
-      {
-        "lineNumber": 288,
-        "author": {
-          "gitId": "0blivious"
-        },
-        "content": "        assertStatusBarUnchanged();"
-      },
-      {
-        "lineNumber": 289,
-        "author": {
-          "gitId": "0blivious"
-        },
         "content": "    }"
       },
       {
-        "lineNumber": 290,
+        "lineNumber": 274,
         "author": {
           "gitId": "0blivious"
         },
@@ -130235,7 +131848,7 @@
       }
     ],
     "authorContributionMap": {
-      "0blivious": 290
+      "0blivious": 274
     }
   },
   {

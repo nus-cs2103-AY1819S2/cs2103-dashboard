@@ -1232,6 +1232,18 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "iwle": [
@@ -2989,6 +3001,61 @@
             "deletions": 10
           }
         ]
+      },
+      {
+        "insertions": 33,
+        "deletions": 24,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "e5728551752c889c6b48b92a7dda1565dd6796ac",
+            "message": "Refactor magic values of Battleship types",
+            "insertions": 16,
+            "deletions": 3
+          },
+          {
+            "hash": "036abd0aecc946b2b3268910e9849eb2dfdd5a86",
+            "message": "Update regex for alphabet index in Coordinates",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ff46f4d3ae811fc5b4f14fc4671b288f602ee036",
+            "message": "Update BoundaryValueChecker and test cases",
+            "insertions": 7,
+            "deletions": 15
+          },
+          {
+            "hash": "09ad53ea1aa93a107c77e1ad5ffb2d3649517f61",
+            "message": "Update PutShipCommand",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "adc51a30aa988880a8be09ce939555cb456811b3",
+            "message": "Update Coordinates MESSAGE_CONSTRAINTS",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bfcec9e83d5eee58f865b364b439cc1a351a61c6",
+            "message": "Fix error message for Battleship name",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "3752d24bb98faa02d6a144330fc1ce29c42fc333",
+            "message": "Update PutShipCommand",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "lucydotc": [
@@ -3662,6 +3729,18 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "bos10": [
@@ -4413,6 +4492,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -5204,8 +5295,8 @@
         ]
       },
       {
-        "insertions": 12,
-        "deletions": 2301,
+        "insertions": 13,
+        "deletions": 2537,
         "date": "2019-04-03",
         "commitResults": [
           {
@@ -5249,14 +5340,99 @@
             "message": "Remove unused imports",
             "insertions": 0,
             "deletions": 3
+          },
+          {
+            "hash": "e969c1436663ea4f158468a9da974344d55d05be",
+            "message": "Remove PersonCard",
+            "insertions": 1,
+            "deletions": 236
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 46,
+        "deletions": 1508,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d14992cd45ca7f260332422257d31b139c71ecae",
+            "message": "Removing references to Person: Remove Tags from Cell",
+            "insertions": 29,
+            "deletions": 259
+          },
+          {
+            "hash": "7537021d35e3690d76a26c4179de4482f9a22e4f",
+            "message": "Removing references to Person: Remove hasPerson from MapGrid",
+            "insertions": 0,
+            "deletions": 154
+          },
+          {
+            "hash": "94e01553f552fd9f1982c8966cb419f8a8c1e5f3",
+            "message": "Removing references to Person: Remove deletePerson from MapGrid",
+            "insertions": 0,
+            "deletions": 49
+          },
+          {
+            "hash": "efc1f4b320adfba2c79733d11b778608dbbedffc",
+            "message": "Removing references to Person: Remove setPerson from MapGrid",
+            "insertions": 0,
+            "deletions": 35
+          },
+          {
+            "hash": "0c4fb5d3ad253d298621268ed84e357b73025568",
+            "message": "Removing unused commands: Remove ClearCommand",
+            "insertions": 1,
+            "deletions": 74
+          },
+          {
+            "hash": "98bdf5020622a10aa8ad41fc18125cdbe898e11a",
+            "message": "Removing references to AddressBook: Remove VersionedMapGrid",
+            "insertions": 11,
+            "deletions": 532
+          },
+          {
+            "hash": "8b5b92d68cf91e999cd9fe96d6288789bb406f5f",
+            "message": "Removing references to Person: Remove addPerson from Model but not MapGrid",
+            "insertions": 1,
+            "deletions": 73
+          },
+          {
+            "hash": "50229e262bd020772893a1e965d0e7562a5d69c1",
+            "message": "Removing references to Person: Remove get/setSelectedPerson(), selectedPersonProperty() from Model",
+            "insertions": 0,
+            "deletions": 44
+          },
+          {
+            "hash": "ebb32b94009314506eae74a2f31d06c7e81c82b0",
+            "message": "Removing references to Person: Remove get/updateFilteredPersonList() from Model",
+            "insertions": 0,
+            "deletions": 75
+          },
+          {
+            "hash": "4d2adfa2505d51f4a12d4d76f086847b632d6dd4",
+            "message": "Removing references to Person: Remove unneeded private methods/variables from ModelManager",
+            "insertions": 0,
+            "deletions": 50
+          },
+          {
+            "hash": "f0f6f50fd100e95020c9bb39aa0cc24eb4ec7bf7",
+            "message": "Removing references to Person: Remove Name predicate",
+            "insertions": 0,
+            "deletions": 119
+          },
+          {
+            "hash": "c72e15aa98884d1e9ea7c9a7ccfe5c714dda8ebe",
+            "message": "Removing references to AddressBook: Remove setAddressBook from Model",
+            "insertions": 2,
+            "deletions": 15
+          },
+          {
+            "hash": "446c1dd40b08f6e86ff0bfbbd9fa952aed22a245",
+            "message": "Removing references to AddressBook: Remove getAddressBook from Model",
+            "insertions": 2,
+            "deletions": 29
+          }
+        ]
       },
       {
         "insertions": 431,
@@ -5318,22 +5494,66 @@
             "deletions": 19
           }
         ]
+      },
+      {
+        "insertions": 16,
+        "deletions": 485,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "b95bdd3bc69bbca43b2578e7c730cc933cc8adea",
+            "message": "Removing references to AddressBook: remove Phone, Email, Address parsers",
+            "insertions": 2,
+            "deletions": 128
+          },
+          {
+            "hash": "8d01a897ef826bf51dde6664ae7d95dfbdc39020",
+            "message": "Removing references to Person: remove getEmptyMapGrid() from TypicalPersons (part of refactoring it out)",
+            "insertions": 14,
+            "deletions": 96
+          },
+          {
+            "hash": "016ff53705b41d23c893313adc14afbbec96b5fb",
+            "message": "Removing references to AddressBook: Remove BrowserPanel",
+            "insertions": 0,
+            "deletions": 231
+          },
+          {
+            "hash": "8b679e13feabcb2850a833bd58d00e64c7b38902",
+            "message": "Removing references to AddressBook: Remove unused data from CommandTestUtil",
+            "insertions": 0,
+            "deletions": 30
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 8,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "123b820fc9ced214ef500e8c7969e182edab2d72",
+            "message": "Fix unused imports",
+            "insertions": 1,
+            "deletions": 8
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1818,
-    "iwle": 3075,
+    "erjillsison": 1354,
+    "iwle": 2988,
     "lucydotc": 790,
-    "bos10": 775,
-    "s-tr": 1615
+    "bos10": 772,
+    "s-tr": 1619
   },
   "authorContributionVariance": {
-    "erjillsison": 184235.9,
-    "iwle": 35103.566,
-    "lucydotc": 5079.6084,
-    "bos10": 14893.376,
-    "s-tr": 101672.76
+    "erjillsison": 178400.02,
+    "iwle": 34221.973,
+    "lucydotc": 4927.439,
+    "bos10": 14433.618,
+    "s-tr": 156688.52
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

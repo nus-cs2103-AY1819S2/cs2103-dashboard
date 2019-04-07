@@ -1155,6 +1155,12 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "qjqqyy": [
@@ -2011,6 +2017,37 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 16,
+        "deletions": 22,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "74469792f54024ade08207825b8e77fa3f958dab",
+            "message": "touch up optional usage and typos",
+            "insertions": 8,
+            "deletions": 16
+          },
+          {
+            "hash": "3f276cbffab597425fdb9ff84da7065035af8bd4",
+            "message": "travissssss",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "85100f25673e5738e4ccf7247f71bdfc62d2be97",
+            "message": "AddCommandTest: refine ModelStubWithEntry",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "cd5bb25f14b7ce1ddd38af1715e8afc1d94bd83e",
+            "message": "AddCommand: remove unused logger",
+            "insertions": 0,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "thomastanck": [
@@ -2869,8 +2906,8 @@
         "commitResults": []
       },
       {
-        "insertions": 378,
-        "deletions": 403,
+        "insertions": 448,
+        "deletions": 427,
         "date": "2019-04-06",
         "commitResults": [
           {
@@ -2890,6 +2927,109 @@
             "message": "Add test for feeds which link to invalid websites",
             "insertions": 12,
             "deletions": 0
+          },
+          {
+            "hash": "9eed52b089465cc2067030d0384c709f9446e1c9",
+            "message": "Fix bug where autofill puts bad things into Description, causing error",
+            "insertions": 25,
+            "deletions": 4
+          },
+          {
+            "hash": "94b5e42d86cd1764227bd30778f3ccfcb9126c7a",
+            "message": "Improve error message when user enters wrong command",
+            "insertions": 25,
+            "deletions": 8
+          },
+          {
+            "hash": "5dd940a1a948079c34acd0ab2b26543d48bc5c72",
+            "message": "Fix tests to match the new error message",
+            "insertions": 20,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 241,
+        "deletions": 37,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "2ef7ca2201742004f96984338ba390d88ef7badc",
+            "message": "Add async versions to Network",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "13d345a195950096943070e9e2c927e981917873",
+            "message": "Download articles (async) on entry selection",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "1a3116052ec9b0dc11389803eda3ac0d9a954181",
+            "message": "Make async Network fallback to sync if protocol is not http or https",
+            "insertions": 15,
+            "deletions": 6
+          },
+          {
+            "hash": "ce71db846c263bab4a8e0f0b35bd49f79210cdd4",
+            "message": "Touch up async Network javadoc",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "1e71b85b86f1b23e119e1940da5fb16c74fc76e8",
+            "message": "Add some tests for async Network",
+            "insertions": 69,
+            "deletions": 13
+          },
+          {
+            "hash": "49b85c414c849ff119d5a9974605fe9cd86400ac",
+            "message": "Add tests to check that selection refreshes undownloaded entries",
+            "insertions": 51,
+            "deletions": 1
+          },
+          {
+            "hash": "f81da65db360708f97d997e2982b7c67cf7d5b4f",
+            "message": "Autofill: Add missing utfSafeOf wrap on titleCandidate",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bb82d49dfabf82a4841de1b0e94be7295d62599f",
+            "message": "Make sure async tests can fail",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "273eb03b218369746c9f1ea80aa49e76246e223f",
+            "message": "Change select tests so that the typicalentries stays untouched",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "d326542054a2d9c19d8b62c0ee2ee1a5c8931c77",
+            "message": "Add regression test for #135 #136 #154, aka `bing 33`",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "50aa816b17d2b33227650b6e6e8cec01e9f58f23",
+            "message": "Add newline to end of badrss.xml",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "abef4a8ba70a5c8412da67b6062bb97276e6d312",
+            "message": "Use latest async-http-client version",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9af23f4c8a5486964940e94eec7a36591e946e93",
+            "message": "Increase request timeout for async Network requests",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       }
@@ -3881,24 +4021,49 @@
         ]
       },
       {
+        "insertions": 74,
+        "deletions": 486,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "c8cdbaeba6d425852d5b8847c271fef0f185097e",
+            "message": "Remove \"Address\" field",
+            "insertions": 11,
+            "deletions": 176
+          },
+          {
+            "hash": "c72d119b73ed70b9fb021ba19b35ebe39fc3cbed",
+            "message": "Remove \"Address\" field from test files",
+            "insertions": 63,
+            "deletions": 309
+          },
+          {
+            "hash": "3b7f40f678fdd4cf09f1ba166a4b20c024b63e92",
+            "message": "Fix the bug as in PR title",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-06",
+        "date": "2019-04-07",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 7346,
-    "qjqqyy": 1838,
-    "thomastanck": 2465,
-    "epicfailname": 5384
+    "rlrh": 7338,
+    "qjqqyy": 1831,
+    "thomastanck": 2691,
+    "epicfailname": 5234
   },
   "authorContributionVariance": {
-    "rlrh": 738010.6,
-    "qjqqyy": 50105.684,
-    "thomastanck": 74689.19,
-    "epicfailname": 683555.7
+    "rlrh": 726619.25,
+    "qjqqyy": 49237.043,
+    "thomastanck": 76232.17,
+    "epicfailname": 673002.2
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

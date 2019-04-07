@@ -678,27 +678,133 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 271,
+        "deletions": 47,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "031f67e3e492c5a8ecc16b229857ca7229b90682",
+            "message": "Shows detail in the report of the day",
+            "insertions": 40,
+            "deletions": 8
+          },
+          {
+            "hash": "ffcbae40a5c130567493a278289306ba2ef1f30c",
+            "message": "Shows total amount of expense and allowance on month report",
+            "insertions": 36,
+            "deletions": 4
+          },
+          {
+            "hash": "83ae727f10f905eaa9039812ebe771792bec2131",
+            "message": "show the day of min, max spent",
+            "insertions": 39,
+            "deletions": 10
+          },
+          {
+            "hash": "d0a570669a0adb21a0a742d072c7b240f7d07606",
+            "message": "year report done",
+            "insertions": 81,
+            "deletions": 10
+          },
+          {
+            "hash": "1bdf4a94ad49777ad1ed1acaea1345225c718299",
+            "message": "Updates Completed report",
+            "insertions": 75,
+            "deletions": 15
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2,
+        "deletions": 2,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b647bbb8f2d8cf5275661cde5b0b266e34e096a9",
+            "message": "commit before fix the ui test bug",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 862,
+        "deletions": 7,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "625557d1cad694587338c875e66e3e8db74721b9",
+            "message": "reportCommandTest has bug",
+            "insertions": 306,
+            "deletions": 1
+          },
+          {
+            "hash": "6efbd6fbaf22ca523268e09d56697b347843b599",
+            "message": "creates ReportCommandTest class",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "16577bb5b3fb0e1378b0dc5fb8d8230251f885b3",
+            "message": "creates some new java classes",
+            "insertions": 471,
+            "deletions": 0
+          },
+          {
+            "hash": "4e546b9869af4c3b3d3fc1013536c354001e8bb1",
+            "message": "add new typicalReports class",
+            "insertions": 84,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 687,
+        "deletions": 499,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "ea142e68e43b2f2e8f7ec181008af6ac649e8bdf",
+            "message": "Writing TypicalReports class",
+            "insertions": 68,
+            "deletions": 343
+          },
+          {
+            "hash": "8cb923ff73b91af9e771ab99fa69a321e44a5f12",
+            "message": "Creates system test classes with empty or default value",
+            "insertions": 374,
+            "deletions": 34
+          },
+          {
+            "hash": "c8e1dd38db0c9c3f8e8ec434b28492010c6d131d",
+            "message": "modified two charts",
+            "insertions": 43,
+            "deletions": 13
+          },
+          {
+            "hash": "0b83ab3942985f7e154299eeecd4891970522c00",
+            "message": "solve conflict",
+            "insertions": 113,
+            "deletions": 41
+          },
+          {
+            "hash": "14663993f2edb493839ebb2f9061f65f4e1423d0",
+            "message": "fix check style",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "82461630c71db7b40c2d598d5c2d56015517997d",
+            "message": "increases report test coverage to 100%",
+            "insertions": 82,
+            "deletions": 59
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-06",
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -1468,8 +1574,8 @@
         ]
       },
       {
-        "insertions": 127,
-        "deletions": 122,
+        "insertions": 141,
+        "deletions": 201,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -1485,7 +1591,19 @@
             "deletions": 76
           },
           {
+            "hash": "5037181c61108df3d3e3257fb1ae2383096f9a40",
+            "message": "changed ui to chatbot style",
+            "insertions": 13,
+            "deletions": 76
+          },
+          {
             "hash": "9d8d7f70c56d58a2a380a84f0fe7f0c6d4b5b61f",
+            "message": "fixed trailing whitespace",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "9ee05d117c55d9404751d1808267bdd5c194735a",
             "message": "fixed trailing whitespace",
             "insertions": 0,
             "deletions": 2
@@ -1495,12 +1613,18 @@
             "message": "fix compiletest error",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "771c0d138fecf513021b36c8a8ed84b9d064dada",
+            "message": "fix compiletest error",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
       {
-        "insertions": 88,
-        "deletions": 33,
+        "insertions": 1880,
+        "deletions": 469,
         "date": "2019-04-06",
         "commitResults": [
           {
@@ -1508,6 +1632,85 @@
             "message": "updated system tests",
             "insertions": 88,
             "deletions": 33
+          },
+          {
+            "hash": "73f83d96e2a02bad1a6b0da35edce5039f350dcd",
+            "message": "updated system tests",
+            "insertions": 88,
+            "deletions": 33
+          },
+          {
+            "hash": "31bbbb49393884d39385c936668e8684765acc9c",
+            "message": "limit cost to max 6 digits, name limited to less than 50 char, deleted savings class, fix invalid date",
+            "insertions": 142,
+            "deletions": 266
+          },
+          {
+            "hash": "758174a8732ce5bb33389587e2efb246e0cae29e",
+            "message": "checkstyle fixes",
+            "insertions": 18,
+            "deletions": 13
+          },
+          {
+            "hash": "454b10b5a59158c2aa46d5ae6b6376fe43f4da36",
+            "message": "implemented storage for budget",
+            "insertions": 135,
+            "deletions": 12
+          },
+          {
+            "hash": "2a363d204cd1f9e8c20f379d171b9aba0ef20c1d",
+            "message": "added editallowance and deleteallowance commands",
+            "insertions": 291,
+            "deletions": 20
+          },
+          {
+            "hash": "09f54ac89015bea742ea0496f16a8fcc7cdc2541",
+            "message": "added tests for addexpense and addallowance",
+            "insertions": 669,
+            "deletions": 0
+          },
+          {
+            "hash": "ddd03a3f1d5665e6cd89b910a36f122ba4dc0a81",
+            "message": "added tests for deleteexpense and deleteallowance",
+            "insertions": 170,
+            "deletions": 6
+          },
+          {
+            "hash": "6103643e0170ce4ed8f074ce10eac8504aa5924e",
+            "message": "added test for jsonadaptedgoal",
+            "insertions": 127,
+            "deletions": 0
+          },
+          {
+            "hash": "cb1799f8a5b1faf2b02e3a25c8d82163ce9bb6e3",
+            "message": "checkstyle fixes",
+            "insertions": 106,
+            "deletions": 65
+          },
+          {
+            "hash": "d1847296c8e5ff26ecde77c41580269fa1994783",
+            "message": "updated userguide",
+            "insertions": 46,
+            "deletions": 21
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 15,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "cc62fc29f5574247707c67010e02a67e192d5510",
+            "message": "retrying gradle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "08a0b6dabc56d64ada030bd310db4f8e02a3a090",
+            "message": "fixed multiple equals method for Cost.java",
+            "insertions": 0,
+            "deletions": 14
           }
         ]
       }
@@ -1974,6 +2177,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -3791,9 +4000,94 @@
         ]
       },
       {
+        "insertions": 535,
+        "deletions": 249,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "9e03c0b2e04420ac29429d01280a4bc255fc2e5b",
+            "message": "Add equals method in Cost",
+            "insertions": 155,
+            "deletions": 0
+          },
+          {
+            "hash": "593fb2e37a59841ce97670366437917590db9939",
+            "message": "Edit equals method in Budget",
+            "insertions": 25,
+            "deletions": 3
+          },
+          {
+            "hash": "aad1e22554c93f77875f339492d3a944673b1769",
+            "message": "Add new tests for the equals methods of BudgetTest and AddBudgetCommandTest",
+            "insertions": 11,
+            "deletions": 3
+          },
+          {
+            "hash": "b649b1ec5dcfe8a5d2b6703505ca909dcd0b3c98",
+            "message": "Add new Test Utils",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "ef09b6129418a6d81f5069bcd8af2de0f56edcfd",
+            "message": "Fix bug of date deprecation in BudgetBuilder",
+            "insertions": 15,
+            "deletions": 3
+          },
+          {
+            "hash": "adb5502c23e196ec6d59d6ff55812906d2b6101c",
+            "message": "Create new test: AddBudgetCommandParserTest",
+            "insertions": 93,
+            "deletions": 121
+          },
+          {
+            "hash": "607ed4979391b567a4e9401f5754ed35496ec310",
+            "message": "Add message constraint for Date in Messages class",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "adb0311063d6feb4123f4fe780ee20ee3b0eb336",
+            "message": "New complete test: AddBudgetCommandParserTest 100% coverage",
+            "insertions": 51,
+            "deletions": 65
+          },
+          {
+            "hash": "62d08b996edf5177ac2ba4dfec65da6a2b0c6111",
+            "message": "Fix bug in AddBudgetCommandTest",
+            "insertions": 25,
+            "deletions": 25
+          },
+          {
+            "hash": "127581dc0ebd34bd88701a03e2cd44be7a38d6f1",
+            "message": "Add new EditBudgetCommandParserTest, coverage 100% but still need to update 2 tests",
+            "insertions": 140,
+            "deletions": 1
+          },
+          {
+            "hash": "0e8b0ebe7a60a4a9f13fe243f0ebfbeac44cab7d",
+            "message": "Change default window size to height 700 and width 1000 compared to initial height 600 width 750",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "bc84d896df8735d1e0223a251a269795942242a8",
+            "message": "checkstyle changes",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "e8d489f7381c57041c013810d5d4f347405a170e",
+            "message": "update user guide to remove recommend command",
+            "insertions": 0,
+            "deletions": 21
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-06",
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -4719,8 +5013,8 @@
         "commitResults": []
       },
       {
-        "insertions": 19,
-        "deletions": 12,
+        "insertions": 33,
+        "deletions": 20,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -4728,6 +5022,18 @@
             "message": "Update UserGuide.adoc",
             "insertions": 10,
             "deletions": 3
+          },
+          {
+            "hash": "da3ec477a1c76f7d4ea30640a9ecd930e49301d9",
+            "message": "added totalspendings in expenselist",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "fe73cf7837e47a9c6c8fdb05963aca1148b94a6f",
+            "message": "added totalspendings in expenselist",
+            "insertions": 7,
+            "deletions": 4
           },
           {
             "hash": "a87583b2155873f0232c3866e9376646070a0c0b",
@@ -4742,22 +5048,28 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 1398,
-    "kev-inc": 2675,
-    "pdnm": 1152,
-    "tehwenyi": 4578,
-    "rahulb99": 2216
+    "yunjun199321": 2614,
+    "kev-inc": 3994,
+    "pdnm": 1110,
+    "tehwenyi": 4852,
+    "rahulb99": 2231
   },
   "authorContributionVariance": {
-    "yunjun199321": 11407.025,
-    "kev-inc": 77885.586,
-    "pdnm": 29601.084,
-    "tehwenyi": 270779.88,
-    "rahulb99": 49062.03
+    "yunjun199321": 44770.42,
+    "kev-inc": 165983.81,
+    "pdnm": 29112.61,
+    "tehwenyi": 271736.88,
+    "rahulb99": 48306.74
   },
   "authorDisplayNameMap": {
     "yunjun199321": "WU ...JUN",
