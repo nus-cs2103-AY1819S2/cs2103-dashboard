@@ -618,8 +618,8 @@
         ]
       },
       {
-        "insertions": 276,
-        "deletions": 129,
+        "insertions": 290,
+        "deletions": 145,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -633,8 +633,50 @@
             "message": "Update Docs and include UML diagrams for select command, tweaks to RestaurantSummaryPanel",
             "insertions": 169,
             "deletions": 38
+          },
+          {
+            "hash": "711b1b565697bc18efe3e3d2c0e30d6581f0105b",
+            "message": "Tweaks to SelectActivityDiagram and weixin-koh.adoc",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "944106426936ede5a5e6237717cc0daec39a57d3",
+            "message": "Solve unscrollable ReviewListPanel bug",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "5ab7f9954fbcc9c11826d3e0d0bb4e06b261581f",
+            "message": "Fix bug that causes failed test in ReviewListPanelTest",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "234300ded2fc8bf90a5152f1364a9615462c7134",
+            "message": "Update outdated diagrams in DG to customize to The Food Diary and fix UG error",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "chanqingzhou": [
@@ -1373,6 +1415,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -2404,6 +2464,147 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 227,
+        "deletions": 21,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "81fca8db696adcaf1a50d091ee81fe701eb2c4ce",
+            "message": "fix typo in setCategories user guide",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0a0e094a9202292f86db4dc797691c87471bb535",
+            "message": "add suggestions to each category",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "0deb5b785b11202b487cf45b175672dffac7295b",
+            "message": "implement getCategoriesSuggestions method",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "ad67696a910577b3d77dcb60001482ce0d3dcd31",
+            "message": "initialise autocomplete feature without matching support",
+            "insertions": 100,
+            "deletions": 4
+          },
+          {
+            "hash": "662ffec0e9c151b6ce7bd6956a2eebcbc2751faf",
+            "message": "fix style violations",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "93d08bd8e995eda842333912ff767591601f3079",
+            "message": "add more suggestions for each category",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "56910ea2510f80091dcde59f5c1176280d6daeed",
+            "message": "hide autocomplete context menu when back spacing",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "74045134c74feb4b327fbfc5279d6221adb90d7d",
+            "message": "add break to switch statement",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "04c5fdefd1b4e4aa6f39665296c580bf78c0c9fe",
+            "message": "implement filtering on autocomplete context menu",
+            "insertions": 50,
+            "deletions": 6
+          },
+          {
+            "hash": "c7b0307ddfc1b889ccf51f4110b30a233ea08ed3",
+            "message": "add defensive coding stuff",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "85634a62e8f033db67ca9ae92c4b1f337d0a583a",
+            "message": "fix spaces triggering autocomplete",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "8d509a1bb805adaeb3710021230932952cdd3b66",
+            "message": "update docs",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 33,
+        "deletions": 1,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "8bd2bdcc6df21a98786f38e3002a210a9f3b1033",
+            "message": "update developer guide with autocomplete",
+            "insertions": 33,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 164,
+        "deletions": 115,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "f9862cedc503d1043e3dc835cfa5e3c33ea6c801",
+            "message": "update user guide with pictures and autocomplete usage",
+            "insertions": 81,
+            "deletions": 21
+          },
+          {
+            "hash": "6a822223854836df248d4b44d978b8d083975a82",
+            "message": "update size of diagrams",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f9410b8fc737fb3f485559c13ce0457a7db32e48",
+            "message": "add prefaces to sections",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "7c25daa668cb4dca4b6f9e667c206d80f1a01388",
+            "message": "fix user guide bugs",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "993a4ab57ce9f051aeedcfeba66ed63a3892c3b7",
+            "message": "fix developer guide errors",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "806f4074b0eb6697040969dd38cda16cdb90961f",
+            "message": "update PPP to follow rubrics",
+            "insertions": 40,
+            "deletions": 21
+          },
+          {
+            "hash": "6329f8bdae5935d1605d3c4d29492243c0f05fa9",
+            "message": "update images to smaller versions",
+            "insertions": 20,
+            "deletions": 61
+          }
+        ]
       }
     ],
     "Wklee96": [
@@ -3493,6 +3694,31 @@
             "deletions": 10
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 3,
+        "deletions": 2,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "1c28fcfef2f1807740821c2daad7eb2928247cec",
+            "message": "allow edit of only openinghours field",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "skpai27": [
@@ -4129,22 +4355,40 @@
             "deletions": 107
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "weixin-koh": 1951,
+    "weixin-koh": 1944,
     "chanqingzhou": 1407,
-    "rbth7e5": 4544,
-    "Wklee96": 984,
-    "skpai27": 988
+    "rbth7e5": 4851,
+    "Wklee96": 991,
+    "skpai27": 986
   },
   "authorContributionVariance": {
-    "weixin-koh": 26120.47,
-    "chanqingzhou": 19114.87,
-    "rbth7e5": 473476.6,
-    "Wklee96": 5928.3926,
-    "skpai27": 7317.508
+    "weixin-koh": 25369.674,
+    "chanqingzhou": 18236.963,
+    "rbth7e5": 449602.4,
+    "Wklee96": 5688.814,
+    "skpai27": 6988.1035
   },
   "authorDisplayNameMap": {
     "weixin-koh": "KOH...XIN",

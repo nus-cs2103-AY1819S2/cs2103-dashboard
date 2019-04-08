@@ -724,6 +724,24 @@
             "deletions": 40
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "sreycodes": [
@@ -1716,6 +1734,86 @@
             "message": "Added newline at EOF",
             "insertions": 1,
             "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 1821,
+        "deletions": 929,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "072b71f6d9b974ea25f36e03ed2c23fe60da40d8",
+            "message": "ServiceType and RoomType is now customizable",
+            "insertions": 880,
+            "deletions": 792
+          },
+          {
+            "hash": "7c29a8a118ad2b117a57dee607e70808ec90d059",
+            "message": "Can add service types and room types",
+            "insertions": 273,
+            "deletions": 28
+          },
+          {
+            "hash": "926267c9e5183911e36aaba14749d27239d154a1",
+            "message": "Can edit types",
+            "insertions": 535,
+            "deletions": 26
+          },
+          {
+            "hash": "7d8e150e44645936e62ad84fb598351bdc04a5e9",
+            "message": "Fixed bug regarding booking and reservation",
+            "insertions": 65,
+            "deletions": 18
+          },
+          {
+            "hash": "0450d415abb7f08637eb6da5030ddcdfea7d85a3",
+            "message": "Fixed declaration order",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "17b80e5ab88122b2d5fc8aa58c244d38046e5a57",
+            "message": "Fixed room type errors",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "d0dc4f8f73eaed49438fd606e7edd6e12db83931",
+            "message": "Fixed error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "49ead077f077c8973aeb618f1e3f22ccd349eba3",
+            "message": "Fixed more checkstyle stuff",
+            "insertions": 49,
+            "deletions": 47
+          }
+        ]
+      },
+      {
+        "insertions": 237,
+        "deletions": 222,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "051ce272af9740a48cc9ae753582e5fcb27644b8",
+            "message": "Fixed tests",
+            "insertions": 237,
+            "deletions": 8
+          },
+          {
+            "hash": "94bb4a70d0f13eeabf3474de34bfcabd5a1d96a4",
+            "message": "Removed unneccesary file",
+            "insertions": 0,
+            "deletions": 214
           }
         ]
       }
@@ -2966,6 +3064,85 @@
             "deletions": 11
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 1389,
+        "deletions": 692,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "c86eed918785976a03d1bb5b863be300b3737397",
+            "message": "Add tests for Reservation.",
+            "insertions": 689,
+            "deletions": 73
+          },
+          {
+            "hash": "72c78cf957b2885ce524df78936ebd4e00234182",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "8b03457576d2fed047203b0f967e4d7cb6bd2f2c",
+            "message": "Added EditReservationDescriptionBuilder.",
+            "insertions": 110,
+            "deletions": 1
+          },
+          {
+            "hash": "2de55fab48899e0066394e3375699cf4b94f8b97",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "6adeb2fcd9390b8b207e2e94cb3e944bb4f4bda5",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 13,
+            "deletions": 15
+          },
+          {
+            "hash": "4d486ca89de474f5704cf71dba7c7bec3c7d5435",
+            "message": "Trying to fix coveralls.",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "c76700b0cba2281fda0dcf5bbcd6b5b1ad8c5105",
+            "message": "Correct to please checkStyle.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "698957dab9d5d7c2956196359b823963baeabe75",
+            "message": "Correct tests.",
+            "insertions": 376,
+            "deletions": 484
+          },
+          {
+            "hash": "305778dc84b2fea42203358a7b274435fe78f0b1",
+            "message": "Correct errors for checkStyle.",
+            "insertions": 99,
+            "deletions": 99
+          },
+          {
+            "hash": "74f9ab1b62aef0902c8fa525f81c9b3fb5d8fb44",
+            "message": "Added tests for clearCommands",
+            "insertions": 85,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "nerrons": [
@@ -3547,20 +3724,38 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 4124,
-    "sreycodes": 10818,
-    "Tejas2805": 3398,
-    "nerrons": 1240
+    "ZhangCX10032": 3782,
+    "sreycodes": 12158,
+    "Tejas2805": 4224,
+    "nerrons": 1170
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 758700.06,
-    "sreycodes": 2.6350004E7,
-    "Tejas2805": 149120.23,
-    "nerrons": 230692.05
+    "ZhangCX10032": 722854.94,
+    "sreycodes": 2.5061902E7,
+    "Tejas2805": 202976.6,
+    "nerrons": 219617.9
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

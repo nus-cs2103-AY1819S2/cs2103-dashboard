@@ -769,10 +769,47 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 69,
+        "deletions": 44,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0865146535b1c8edc6a9d8914f1b56476d7142a7",
+            "message": "update SourceContainsKeywordPredicate.java checker methods",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "4b8598bf529e76c785f5a52554f38a0205af0e40",
+            "message": "refactor listKeyword names",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "c44874d6454d6395bd29e70ce5d579460514c7e6",
+            "message": "update javadoc to include new description",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "f2ad8afa739dd507eb214fd503c339e2bc17c694",
+            "message": "update UG",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "f93af628a79cc88e1cd0afcb066673ce6da19c1e",
+            "message": "update DG",
+            "insertions": 21,
+            "deletions": 16
+          },
+          {
+            "hash": "8c045367bc7d97e61b3f682a53b54693cf9a2b56",
+            "message": "update PPP",
+            "insertions": 22,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "DoItTomorrow": [
@@ -3290,16 +3327,54 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 520,
+        "deletions": 47,
         "date": "2019-04-06",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d653e380985ff43876494382db55fced366c6c7c",
+            "message": "Massive update for complete implementation of the pin function",
+            "insertions": 463,
+            "deletions": 29
+          },
+          {
+            "hash": "77213cd8b81d3b3d157aac2f4bb50883d2c24de0",
+            "message": "Removed whitespaces",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "11b2433736d861e0466ac2d3558b7985d2649ba9",
+            "message": "Changes to make Travis happy",
+            "insertions": 52,
+            "deletions": 13
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 31,
+        "deletions": 52,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "087fb6505cdf7b2caf6f20ec732f80918da972ef",
+            "message": "Minor Refactoring",
+            "insertions": 26,
+            "deletions": 46
+          },
+          {
+            "hash": "0f5ddec81839beca5fc79bd8845ef2279749d53e",
+            "message": "Minor Edits again",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "f7b5e49f1d246173b717e93bdda2418366878a69",
+            "message": "Yet even more minor changes",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "fterh": [
@@ -4204,8 +4279,8 @@
         ]
       },
       {
-        "insertions": 320,
-        "deletions": 179,
+        "insertions": 344,
+        "deletions": 182,
         "date": "2019-04-06",
         "commitResults": [
           {
@@ -4261,30 +4336,49 @@
             "message": "Refactor to achieve SLAP",
             "insertions": 15,
             "deletions": 7
+          },
+          {
+            "hash": "7c4a2401e3177eb7db2721aa43e1de90b5d8eb11",
+            "message": "Update user guide with panic/unpanic documentation",
+            "insertions": 24,
+            "deletions": 3
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 31,
+        "deletions": 1,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b92f8ca877913fcb75a273730b1232afd01d299c",
+            "message": "Update developer guide with panic/unpanic documentation",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "2b57ab37664f6d42218faa5b924c4edc84f66a9a",
+            "message": "Fix trailing whitespace violation",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 1184,
-    "DoItTomorrow": 214,
-    "case141": 4670,
-    "DarrenDragonLee": 1205,
-    "fterh": 2620
+    "suriruhani": 1210,
+    "DoItTomorrow": 213,
+    "case141": 4661,
+    "DarrenDragonLee": 1690,
+    "fterh": 2671
   },
   "authorContributionVariance": {
-    "suriruhani": 45454.8,
+    "suriruhani": 45407.016,
     "DoItTomorrow": 946.9825,
     "case141": 4.7537649E9,
-    "DarrenDragonLee": 21311.518,
-    "fterh": 134676.66
+    "DarrenDragonLee": 25825.357,
+    "fterh": 134911.11
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",

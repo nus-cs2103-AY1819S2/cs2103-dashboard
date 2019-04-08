@@ -2038,6 +2038,55 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 24,
+        "deletions": 23,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "163e951461c8af83e335333cf9749d51c3a74c11",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8b4a7e2d5aa794c67825d6980701594772760461",
+            "message": "Updated sort command details",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "fbf3c0c5317eba8aa7fca4a63cf3acbc62932137",
+            "message": "Updated patientadd command, Resolves #152",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "4ead15711770f66181a9b6c5f594296d498d0aca",
+            "message": "Updates patientedit documentation, resolves #150",
+            "insertions": 13,
+            "deletions": 17
+          },
+          {
+            "hash": "e052bac5069295fa0b1fad19c39be3f4ae77f83e",
+            "message": "Removes dentist command in UG, resolves #149, resolves #148",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "ad74de9aa5a521437b67112e7310592fdde24a28",
+            "message": "Resolves #169",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "cchj1995": [
@@ -4138,6 +4187,18 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "kylerwsm": [
@@ -5896,6 +5957,18 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "wSemis": [
@@ -6765,10 +6838,16 @@
         "commitResults": []
       },
       {
-        "insertions": 24,
-        "deletions": 8,
+        "insertions": 25,
+        "deletions": 10,
         "date": "2019-04-05",
         "commitResults": [
+          {
+            "hash": "2a0ca941f8fed333fa557f50baddb3ef82cad446",
+            "message": "Bug fix for description",
+            "insertions": 1,
+            "deletions": 2
+          },
           {
             "hash": "478e7f40773abbfafaebf7c023780d83a148da3a",
             "message": "Log dentist.txt not found instead of printstacktrace",
@@ -6794,6 +6873,18 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "JiaHaoLim": [
@@ -8175,8 +8266,8 @@
         ]
       },
       {
-        "insertions": 158,
-        "deletions": 109,
+        "insertions": 186,
+        "deletions": 224,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -8238,24 +8329,48 @@
             "message": "Updated tooth.png reading in InOutAddressBookStorage.java to work with .jar compression.",
             "insertions": 9,
             "deletions": 2
+          },
+          {
+            "hash": "8cc90a8a9318bfe81ad411af3aa29ae98d47a7a5",
+            "message": "Removed duplicate entries in user guide",
+            "insertions": 27,
+            "deletions": 114
+          },
+          {
+            "hash": "3e2d8659ec1920dff394574cf51fc36d850a0cec",
+            "message": "Removed duplicate entries in user guide",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kthSim": 5106,
-    "cchj1995": 4117,
+    "kthSim": 5031,
+    "cchj1995": 4119,
     "kylerwsm": 3176,
-    "wSemis": 1048,
-    "JiaHaoLim": 2727
+    "wSemis": 1049,
+    "JiaHaoLim": 2705
   },
   "authorContributionVariance": {
-    "kthSim": 108695.33,
-    "cchj1995": 89953.35,
-    "kylerwsm": 62793.555,
-    "wSemis": 776278.2,
-    "JiaHaoLim": 76321.51
+    "kthSim": 105595.016,
+    "cchj1995": 87436.94,
+    "kylerwsm": 61186.223,
+    "wSemis": 749773.0,
+    "JiaHaoLim": 75244.35
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",

@@ -810,6 +810,92 @@
         "deletions": 0,
         "date": "2019-04-04",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 243,
+        "deletions": 16,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "84a662328614e979916778ee3ecfb57f13383485",
+            "message": "Add SortCommandParserTest and fix SortCommandParser bugs",
+            "insertions": 92,
+            "deletions": 1
+          },
+          {
+            "hash": "ae94ee60e1b32833c040b91e21a92d488f72443b",
+            "message": "Add SortCommandTest and fix SortCommand bugs",
+            "insertions": 62,
+            "deletions": 3
+          },
+          {
+            "hash": "51784a6f24c7196ecd0ba837cacc9b3461fd5784",
+            "message": "Add description for behavior if there is more than one valid input in user guide",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "79959a75320941731ddace59a4e0458c089b8265",
+            "message": "Fix typo in Find command in user guide",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "865399898bb2a33091d689ebf2526a1098c71c85",
+            "message": "Add InformationPanelSettingsTest",
+            "insertions": 86,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 96,
+        "deletions": 95,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "be951f9b24479324b8e849b29f237e980143624e",
+            "message": "Include sorting test in InformationPanelTest",
+            "insertions": 33,
+            "deletions": 6
+          },
+          {
+            "hash": "d169f1179f223d7b830f81f320ca0d2d00c5d965",
+            "message": "Fixed expiry validation so that leap year is accounted for",
+            "insertions": 18,
+            "deletions": 7
+          },
+          {
+            "hash": "8c5d6fa5396d142e1530b23f2b872e01224f0058",
+            "message": "Fix update command bug that caused information panel to not change",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "79fb080d326e7ffe04cbbca072ac579d76642ec8",
+            "message": "Improve updateCommandTest to test for selectedMedicine",
+            "insertions": 42,
+            "deletions": 80
+          },
+          {
+            "hash": "3b5b4b1598cd8da065e8c5f75e46f1e77a3c13d9",
+            "message": "Remove trailing whitespace",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "404b08b7d9db10d2b8de7ccedd2101f20ec781f0",
+            "message": "Remove trailing white space from userguide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "kevvvinn": [
@@ -1135,6 +1221,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -1743,6 +1847,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-04",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -2822,6 +2944,24 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "flxffy": [
@@ -3580,26 +3720,107 @@
         "commitResults": []
       },
       {
+        "insertions": 26,
+        "deletions": 10,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "266412ca8207e5b4feedfdeb9301b28fd9d0995c",
+            "message": "fixed warning command parser test",
+            "insertions": 26,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 33,
+        "deletions": 9,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "e33355c39eee0042b5f1b4e2f1b00668b5b9da66",
+            "message": "date input validation",
+            "insertions": 30,
+            "deletions": 7
+          },
+          {
+            "hash": "06236f5619f629675770940d088198c9090f51ca",
+            "message": "fixed window size",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-04",
+        "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 168,
+        "deletions": 116,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "9411b00f3940168830c4fae5e1a2fb67747d1833",
+            "message": "Updated UG for clarity",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "5e5cdaaac3d4ac091a77be4848abfdd47c910c71",
+            "message": "set minimum resolution",
+            "insertions": 12,
+            "deletions": 7
+          },
+          {
+            "hash": "536c396d05a2ab2ff7ba1c9e9e6b6c2cd46fd526",
+            "message": "sorted all lists alphabetically + fixed most tests",
+            "insertions": 85,
+            "deletions": 55
+          },
+          {
+            "hash": "87edc3a5ef58ee0a3dc9c74cde6fbc6f8adb1a5d",
+            "message": "existing tests partially passing",
+            "insertions": 46,
+            "deletions": 27
+          },
+          {
+            "hash": "a3599137272316e3b240f5911505d8ca8ba3b46d",
+            "message": "fixed style",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "f420c0623febd32c45150646e371e8609bd01123",
+            "message": "fixed style",
+            "insertions": 13,
+            "deletions": 15
+          },
+          {
+            "hash": "b951727c16e6bfcfd9c33247c66dd5329b631f22",
+            "message": "fixed style",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jtankw3": 6846,
+    "jtankw3": 7046,
     "kevvvinn": 0,
-    "melpulomas": 667,
+    "melpulomas": 666,
     "JonathanLeeWH": 1388,
-    "flxffy": 2238
+    "flxffy": 2392
   },
   "authorContributionVariance": {
-    "jtankw3": 1178021.8,
+    "jtankw3": 1118173.6,
     "kevvvinn": 0.0,
-    "melpulomas": 5033.396,
-    "JonathanLeeWH": 101099.35,
-    "flxffy": 32954.168
+    "melpulomas": 4803.594,
+    "JonathanLeeWH": 96191.06,
+    "flxffy": 32013.104
   },
   "authorDisplayNameMap": {
     "jtankw3": "TAN...SON",

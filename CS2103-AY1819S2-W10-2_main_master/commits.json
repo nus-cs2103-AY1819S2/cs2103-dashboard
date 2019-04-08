@@ -760,6 +760,25 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "22c34c1a4a9ee50b660a2b19685af68df5e3bff5",
+            "message": "Add missing parameter in complete project",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "jeffgan96": [
@@ -2146,16 +2165,109 @@
         ]
       },
       {
-        "insertions": 0,
+        "insertions": 42,
         "deletions": 0,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d1a28673fcc75c58ee5efb6ee30e7ca53422866e",
+            "message": "editted dg for user story",
+            "insertions": 42,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 7,
+        "deletions": 5,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "4e44c1eb74de34cf064dd9b7f261956bdaffcfd2",
+            "message": "test",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "29ae6db9534c6d02bc8beb0cec8784e444b80f77",
+            "message": "updating ug dg",
+            "insertions": 3,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-05",
+        "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 78,
+        "deletions": 74,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "d860f6a6be1fd2b1ea190cb0c92b2c82cdac0411",
+            "message": "fix resultdisplay bug",
+            "insertions": 11,
+            "deletions": 3
+          },
+          {
+            "hash": "d9a94fa9033f14ff03f6b26c6b887368472515b0",
+            "message": "fixed description not showing fixed startdate not showing added new css for description",
+            "insertions": 32,
+            "deletions": 15
+          },
+          {
+            "hash": "85ee1c0a05010be002d02df40d6868e690b9cb75",
+            "message": "temp fix for gihub bug",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "5cfde72559b4aa93cbe99099179ed771ff42f59d",
+            "message": "fix add command not displaying correct text",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "fd41bda657e4d3d6b175baaec062086e47b8fbcd",
+            "message": "fix add employee example incorrect",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bb18c5b6272b5e660d318454aa99f641959f3e77",
+            "message": "fix incorrect example in userguide",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d4a92b2a75c1627e432234ed2ee06c16405fd145",
+            "message": "remove all alias in ug",
+            "insertions": 0,
+            "deletions": 24
+          },
+          {
+            "hash": "9c0b7755e44e201f30c03c97797e0e030cd663ec",
+            "message": "fix users dont know how to click on the respective tab bug",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a41036a8724d3491921e31f64f5033dab7cd3b48",
+            "message": "fix inconsistency in ug for PROJ_NAME",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "ae97f286d5af4a49324fb83f9053dad2a01bd5fb",
+            "message": "formatting fix",
+            "insertions": 0,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "dehui333": [
@@ -3487,9 +3599,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 198,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "1da9f815de9fafaa03fdbc25cbc7ab6c16e65b7c",
+            "message": "Added CompleteCommandSystemTest",
+            "insertions": 198,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 34,
+        "deletions": 139,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "4bb0964d6ebf2abd9b4bf24b2fe0aa62775aa3f8",
+            "message": "Fix bug",
+            "insertions": 33,
+            "deletions": 138
+          },
+          {
+            "hash": "23ad0b3002720a05be34ad545d477939696b8271",
+            "message": "fix UG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -4463,6 +4607,91 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 437,
+        "deletions": 34,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "b35349282579f665a33774b0b3afbf65737ea51a",
+            "message": "Implement predicate for findDeadlineCommand",
+            "insertions": 48,
+            "deletions": 2
+          },
+          {
+            "hash": "1ab597d71eb429a4f9ab12d863f595d4141d0259",
+            "message": "Implement FindDeadlineCommand",
+            "insertions": 30,
+            "deletions": 4
+          },
+          {
+            "hash": "51a3b836c2702cc471c6981a4f710956f3d03929",
+            "message": "Update Parser + fix bug",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "08111d9a2215f4af4a726fca61c1bcb6aed56289",
+            "message": "Add test for predicate",
+            "insertions": 62,
+            "deletions": 0
+          },
+          {
+            "hash": "6092b1e490e32a192d2517bbdb075adfe6e94d43",
+            "message": "Add test for findDeadlineCommand",
+            "insertions": 71,
+            "deletions": 2
+          },
+          {
+            "hash": "d91a80fb2f437b0344ea4321edf063f332df089b",
+            "message": "Add systemtest",
+            "insertions": 165,
+            "deletions": 0
+          },
+          {
+            "hash": "415824351a631120612defad2149ab609866b588",
+            "message": "Add test for parser",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "b40410a6e563849818d2626fdf941253748629a2",
+            "message": "Update message usage",
+            "insertions": 6,
+            "deletions": 9
+          },
+          {
+            "hash": "258eef28b08bbbf04cc56e97986fcf2f4658ad69",
+            "message": "Update UG",
+            "insertions": 23,
+            "deletions": 4
+          },
+          {
+            "hash": "72e0eb51213905ba54324a69bb9bfef17d827727",
+            "message": "Fix Formatting",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d660982f454c67498f4719581de6a35db5ed8365",
+            "message": "Fix Formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b72a6925e48bc665a10aa30a0298b0786d0e553d",
+            "message": "Fix Formatting",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -6145,22 +6374,168 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 458,
+        "deletions": 243,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "e20b07c024072bd4f70bcdd51bbaaa32e72f3d2b",
+            "message": "added to check that start date must be before end date",
+            "insertions": 23,
+            "deletions": 6
+          },
+          {
+            "hash": "fbb6541c585fcfef4ea5794f882b7895c63ae034",
+            "message": "added tested for model calendar date",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "936c9f17f84d086ed3b579d816e0d984feb4decc",
+            "message": "implemented test cases for model pocket project date and fixed bugs",
+            "insertions": 146,
+            "deletions": 14
+          },
+          {
+            "hash": "2b3e5f4d2a2dc1e26a0224e1dd130ead2640a97b",
+            "message": "added tests to ensure start date must be before deadline",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "ed4186a969328325cd88b5e62f13324f4f8c65c3",
+            "message": "updated tests for project equality in model test",
+            "insertions": 17,
+            "deletions": 11
+          },
+          {
+            "hash": "30faa31feafabc260ef66a21a6bd2ccc3461d875",
+            "message": "added project system tests",
+            "insertions": 92,
+            "deletions": 5
+          },
+          {
+            "hash": "cdb5a89bd27f6ccb0684127a7bdf0c640a19068d",
+            "message": "regression testing complete",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "df80ff8d9212e879f3fb21065e182205507aaa46",
+            "message": "correct formatting errors",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "195b4d1b2937000524ea9d285c6262fdb6619cf7",
+            "message": "corrected formatting errors",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "36d345e046b8f51a95c9c4f1c11612f7904db958",
+            "message": "updated pocketprojectparsertest",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "44f3ad9327ff40e8d395736438762d706661cf55",
+            "message": "restrucuted milestone class and addto command parser",
+            "insertions": 52,
+            "deletions": 91
+          },
+          {
+            "hash": "fe51ea9d671e41e851e2fe4fa992026934d23951",
+            "message": "changed employee checking logic to model",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "63adc7d79825dec3bd31b6b937c93486dca00ed7",
+            "message": "updated storage",
+            "insertions": 45,
+            "deletions": 101
+          }
+        ]
+      },
+      {
+        "insertions": 168,
+        "deletions": 67,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "b70f848ca4d6d32796215ff7fc7db7806ae81eb9",
+            "message": "fixed failing tests and bugs",
+            "insertions": 51,
+            "deletions": 34
+          },
+          {
+            "hash": "196ac817f0255d0a47b9e067b74af0016aea83b7",
+            "message": "updated description class and tests",
+            "insertions": 47,
+            "deletions": 2
+          },
+          {
+            "hash": "47a94fd533a3a54bc6782f10d771d4d29c02a6ed",
+            "message": "updated tests for milestone",
+            "insertions": 37,
+            "deletions": 5
+          },
+          {
+            "hash": "f3a677c7f75067dfa647d957af3b1cb9d3219b0b",
+            "message": "fixed formatting",
+            "insertions": 3,
+            "deletions": 9
+          },
+          {
+            "hash": "eb9e595ab383303545ccb2ff5b016d73ec9ff480",
+            "message": "remove unused imports",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "bc49cce92c3aecc8c2f3639a60dda8e41c3475a4",
+            "message": "corrected formatting",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "634ac070de82ee218aa96209e51e4c9e2607acd9",
+            "message": "added default description to project and fixed failing tests",
+            "insertions": 8,
+            "deletions": 2
+          },
+          {
+            "hash": "bf2cbd23811b7d781ed8c691e3a508775882ac92",
+            "message": "fixed storage issues with description",
+            "insertions": 16,
+            "deletions": 3
+          },
+          {
+            "hash": "9a6711bba86705ad1a8cadb8379c9cb6df3eb598",
+            "message": "fixed formatting",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 3769,
-    "jeffgan96": 5403,
-    "dehui333": 3852,
-    "shunnizuka": 3055,
-    "jothipillay": 4555
+    "ditan96": 3737,
+    "jeffgan96": 5391,
+    "dehui333": 3917,
+    "shunnizuka": 3446,
+    "jothipillay": 5000
   },
   "authorContributionVariance": {
-    "ditan96": 235237.55,
-    "jeffgan96": 169985.36,
-    "dehui333": 114916.95,
-    "shunnizuka": 56080.453,
-    "jothipillay": 127125.336
+    "ditan96": 227967.45,
+    "jeffgan96": 164641.69,
+    "dehui333": 110945.734,
+    "shunnizuka": 56661.45,
+    "jothipillay": 127242.734
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

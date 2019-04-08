@@ -1244,6 +1244,12 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "iwle": [
@@ -3056,6 +3062,12 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "lucydotc": [
@@ -3740,6 +3752,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -4504,6 +4522,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -5527,8 +5551,8 @@
         ]
       },
       {
-        "insertions": 1,
-        "deletions": 8,
+        "insertions": 12,
+        "deletions": 97,
         "date": "2019-04-07",
         "commitResults": [
           {
@@ -5536,24 +5560,49 @@
             "message": "Fix unused imports",
             "insertions": 1,
             "deletions": 8
+          },
+          {
+            "hash": "fcc93ee8fc3938df5992c94e94047e46357c0f33",
+            "message": "Refactor PutShipCommandTest to have its init code in a setup method",
+            "insertions": 11,
+            "deletions": 89
+          }
+        ]
+      },
+      {
+        "insertions": 52,
+        "deletions": 10,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "0276f2c66678f4d12a377e1bf233dfc9eb1a96ae",
+            "message": "Refactor InitialiseMapCommandTest",
+            "insertions": 13,
+            "deletions": 7
+          },
+          {
+            "hash": "65b2bf27fb7d5b87d6c76face4216fd7da5636f2",
+            "message": "Refactor BeginCommandTest and AttackCommandTest",
+            "insertions": 39,
+            "deletions": 3
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1354,
-    "iwle": 2988,
+    "erjillsison": 1338,
+    "iwle": 2909,
     "lucydotc": 790,
     "bos10": 772,
-    "s-tr": 1619
+    "s-tr": 1678
   },
   "authorContributionVariance": {
-    "erjillsison": 178400.02,
-    "iwle": 34221.973,
-    "lucydotc": 4927.439,
-    "bos10": 14433.618,
-    "s-tr": 156688.52
+    "erjillsison": 175617.02,
+    "iwle": 33886.383,
+    "lucydotc": 4854.628,
+    "bos10": 14214.03,
+    "s-tr": 153824.11
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

@@ -904,6 +904,12 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "yichong96": [
@@ -2043,6 +2049,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -3238,6 +3250,12 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "KerrynEer": [
@@ -4832,6 +4850,91 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 175,
+        "deletions": 57,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "acc3b683760c2b6b149d3395718cb5ac8d5f500b",
+            "message": "Remove old codes from test command",
+            "insertions": 0,
+            "deletions": 11
+          },
+          {
+            "hash": "cf228ae53caaec5a14edace6c8e4733ef18a6097",
+            "message": "Add reveal command invalid message - invalid when no question is displayed",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "9142b28cf16507091a9c46a35f9a88376ebcb563",
+            "message": "Add reveal command implementation",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "6373c2de03fc8af8be1c0e1b1dc744dc446fe962",
+            "message": "Shift creating new scored card to modelManager - since reveal command use that as well",
+            "insertions": 29,
+            "deletions": 20
+          },
+          {
+            "hash": "86b69919581231263a54b6ceecac6158e49cb1ed",
+            "message": "Parse reveal command correctly",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "80649f2e3e038df32df7da45d60560b305119725",
+            "message": "Revert \"Remove old codes from test command\"",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "6b644a8b2335071fb95e64453de72c270dd685c3",
+            "message": "Remove message usage in test command - message usage is not needed anymore since it doesnt take in any parameters",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "001d30c1dbacb00015131b03405e7ed9da634d70",
+            "message": "Refactor reveal command message",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7ba64b8c3a2e686cad81640b0b600cd74b05aa2b",
+            "message": "Update Answer command tests to use model create scored card method",
+            "insertions": 4,
+            "deletions": 8
+          },
+          {
+            "hash": "735b9654961f85f7ad778b4d7f17bd416e251dbe",
+            "message": "Add junit and integration tests for reveal command",
+            "insertions": 62,
+            "deletions": 0
+          },
+          {
+            "hash": "e64ecae3513e23c9728062367c868b4d3adc541d",
+            "message": "update test parser test and add reveal parser test",
+            "insertions": 9,
+            "deletions": 8
+          },
+          {
+            "hash": "b402a94ff2d9b0b94fe6889e7434e38e5c52c5ef",
+            "message": "Add next command parser test",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "f9d2fc7b3bb2e72b646419b74a16cb346b827af5",
+            "message": "Remove unused imports",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "mmdlow": [
@@ -6017,22 +6120,28 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 4972,
+    "afterdusk": 4971,
     "yichong96": 1068,
-    "dlqs": 2688,
-    "KerrynEer": 1692,
-    "mmdlow": 1242
+    "dlqs": 2669,
+    "KerrynEer": 1834,
+    "mmdlow": 1238
   },
   "authorContributionVariance": {
-    "afterdusk": 1575113.0,
-    "yichong96": 14470.757,
-    "dlqs": 157077.11,
-    "KerrynEer": 34981.848,
-    "mmdlow": 28519.113
+    "afterdusk": 1548828.5,
+    "yichong96": 14278.269,
+    "dlqs": 154508.16,
+    "KerrynEer": 34700.383,
+    "mmdlow": 28120.195
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

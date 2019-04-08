@@ -1370,6 +1370,18 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "wayneswq": [
@@ -2104,6 +2116,32 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 15,
+        "deletions": 1,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "2e26d7a2f65323bb8d188aadedd3781b65177be9",
+            "message": "add ui for pid and did",
+            "insertions": 15,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 152,
+        "deletions": 1,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "8b2f727a9512c2caf2baa2df18ad903700692efa",
+            "message": "added search-pid search-did command",
+            "insertions": 152,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "amuletxheart": [
@@ -2664,6 +2702,50 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 519,
+        "deletions": 172,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "5419e0f3c8af40f0d87575217598897a95b3b9cc",
+            "message": "ensured new appointments must be made in the future",
+            "insertions": 241,
+            "deletions": 46
+          },
+          {
+            "hash": "6d5f0184eb733602e027912333e3dcb93873d2c1",
+            "message": "changed build.gradle attributes to docX",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2d03837493b59a066c65b96df68dee43f685c4d9",
+            "message": "Added PersonIdCounter to generate unique ID for new patient/doctor",
+            "insertions": 177,
+            "deletions": 118
+          },
+          {
+            "hash": "2564ee99bcf5e03427b473f77e2f97223b54ff3e",
+            "message": "Ensured patientId and doctorId are in the record",
+            "insertions": 99,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 502,
+        "deletions": 105,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "d94a4a1e270707e836068eb91b21b8b92d2a0c2e",
+            "message": "add-appt user input fully validated",
+            "insertions": 502,
+            "deletions": 105
+          }
+        ]
       }
     ],
     "GongChangda": [
@@ -3120,6 +3202,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -4102,22 +4196,95 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 263,
+        "deletions": 159,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "95c610d611fbe0b5a2ac3623ec076bb2ef63f964",
+            "message": "remove write up from medhistcard",
+            "insertions": 4,
+            "deletions": 6
+          },
+          {
+            "hash": "2c64f6dd69c78a56add4944440190abcc30005b9",
+            "message": "select medical history command + can switch between patient browser and medHist browser",
+            "insertions": 119,
+            "deletions": 26
+          },
+          {
+            "hash": "4cd0d24adc03fef3785378c09375719abaac684a",
+            "message": "checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "9afc1aa54eb9f9ce67023e6047174a4c3198bf6e",
+            "message": "fix test",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "06a2e817225a37c42a9339d2f4ac877bd0586797",
+            "message": "checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "f919fcb5ebabe32a72b3e916cca6020c7ce851a9",
+            "message": "change id in med hist to int",
+            "insertions": 63,
+            "deletions": 45
+          },
+          {
+            "hash": "7aa082f3c7ef1d60c0cafa64abd0b65e8282066b",
+            "message": "unable delete med hist",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "b0825fb4ec09ae0552084ae2234c44272aea7e22",
+            "message": "date validation",
+            "insertions": 49,
+            "deletions": 59
+          },
+          {
+            "hash": "82af804e27c93eea9d9aebde40f17c2246b3785c",
+            "message": "checkstyle",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "50d0a5a26baac369401ce288398128b13bb43512",
+            "message": "testcases",
+            "insertions": 6,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "siyingpoof": 6306,
-    "wayneswq": 7199,
-    "amuletxheart": 1894,
-    "GongChangda": 578,
-    "Liuyy99": 2116
+    "siyingpoof": 6298,
+    "wayneswq": 7456,
+    "amuletxheart": 2650,
+    "GongChangda": 576,
+    "Liuyy99": 2134
   },
   "authorContributionVariance": {
-    "siyingpoof": 1473116.4,
-    "wayneswq": 1005977.7,
-    "amuletxheart": 23191.236,
-    "GongChangda": 2897.8118,
-    "Liuyy99": 45690.87
+    "siyingpoof": 1425830.4,
+    "wayneswq": 971908.44,
+    "amuletxheart": 34426.69,
+    "GongChangda": 2803.7634,
+    "Liuyy99": 46152.043
   },
   "authorDisplayNameMap": {
     "siyingpoof": "ONG...ING",

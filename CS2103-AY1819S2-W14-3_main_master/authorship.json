@@ -65498,7 +65498,7 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    public void prepareModel() {"
+        "content": "    public void setUp() {"
       },
       {
         "lineNumber": 38,
@@ -65582,7 +65582,7 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        /**"
+        "content": "        /*"
       },
       {
         "lineNumber": 50,
@@ -65715,196 +65715,196 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        Battleship ship \u003d new DestroyerBattleship(Collections.emptySet());"
+        "content": "        /*"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        int initialLife \u003d ship.getLife();"
+        "content": "         * Expected behaviour: \u003cbr\u003e"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        enemy.getMapGrid().putShip(ship, TypicalIndexes.COORDINATES_A1, new Orientation(\"v\"));"
+        "content": "         * \u003cul\u003e"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "         *     \u003cli\u003eThe attack hits the ship and decreases its life.\u003c/li\u003e"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        int initialMissCount \u003d model.getPlayerStats().getMissCount();"
+        "content": "         *     \u003cli\u003eThe enemy is not called to attack.\u003c/li\u003e"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        int initialHitCount \u003d model.getPlayerStats().getHitCount();"
+        "content": "         *     \u003cli\u003eStatistics are updated.\u003c/li\u003e"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "         * \u003c/ul\u003e"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        AttackCommand cmd \u003d new AttackCommand(TypicalIndexes.COORDINATES_A1);"
+        "content": "         */"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
+        "content": "        Battleship ship \u003d new DestroyerBattleship(Collections.emptySet());"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        int initialLife \u003d ship.getLife();"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert hit"
+        "content": "        enemy.getMapGrid().putShip(ship, TypicalIndexes.COORDINATES_A1, new Orientation(\"v\"));"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(res.getFeedbackToUser().contains(\"hit\"));"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(ship.getLife() \u003c initialLife);"
+        "content": "        int initialMissCount \u003d model.getPlayerStats().getMissCount();"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert updates stats"
+        "content": "        int initialHitCount \u003d model.getPlayerStats().getHitCount();"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(model.getPlayerStats().getMissCount() \u003d\u003d initialMissCount);"
+        "content": ""
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(model.getPlayerStats().getHitCount() \u003e initialHitCount);"
+        "content": "        AttackCommand cmd \u003d new AttackCommand(TypicalIndexes.COORDINATES_A1);"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(player.getTargetHistory().contains(TypicalIndexes.COORDINATES_A1));"
+        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert the enemy is not called to attack"
+        "content": ""
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertFalse(enemy.isEnemyShootAtCalled());"
+        "content": "        // assert hit"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    }"
+        "content": "        assertTrue(res.getFeedbackToUser().contains(\"hit\"));"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        assertTrue(ship.getLife() \u003c initialLife);"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    @Test"
+        "content": "        // assert updates stats"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    public void execute_missAttack_missesAndUpdatesStats() throws CommandException {"
+        "content": "        assertTrue(model.getPlayerStats().getMissCount() \u003d\u003d initialMissCount);"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        int initialMissCount \u003d model.getPlayerStats().getMissCount();"
+        "content": "        assertTrue(model.getPlayerStats().getHitCount() \u003e initialHitCount);"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        int initialHitCount \u003d model.getPlayerStats().getHitCount();"
+        "content": "        assertTrue(player.getTargetHistory().contains(TypicalIndexes.COORDINATES_A1));"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        // assert the enemy is not called to attack"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        AttackCommand cmd \u003d new AttackCommand(TypicalIndexes.COORDINATES_LAST_CELL);"
+        "content": "        assertFalse(enemy.isEnemyShootAtCalled());"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
+        "content": "    }"
       },
       {
         "lineNumber": 96,
@@ -65918,98 +65918,98 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert miss"
+        "content": "    @Test"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(res.getFeedbackToUser().contains(\"miss\"));"
+        "content": "    public void execute_missAttack_missesAndUpdatesStats() throws CommandException {"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert updates stats"
+        "content": "        /*"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(model.getPlayerStats().getMissCount() \u003e initialMissCount);"
+        "content": "         * Expected behaviour: \u003cbr\u003e"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(model.getPlayerStats().getHitCount() \u003d\u003d initialHitCount);"
+        "content": "         * \u003cul\u003e"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(player.getTargetHistory().contains(TypicalIndexes.COORDINATES_LAST_CELL));"
+        "content": "         *     \u003cli\u003eThe attack misses.\u003c/li\u003e"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert that enemy is called"
+        "content": "         *     \u003cli\u003eThe enemy is called to attack.\u003c/li\u003e"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(enemy.isEnemyShootAtCalled());"
+        "content": "         * \u003c/ul\u003e"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    }"
+        "content": "         */"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        int initialMissCount \u003d model.getPlayerStats().getMissCount();"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    @Test"
+        "content": "        int initialHitCount \u003d model.getPlayerStats().getHitCount();"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    public void execute_attackDestroysShip_destroysAndUpdatesStats() throws CommandException {"
+        "content": ""
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        Battleship ship \u003d new DestroyerBattleship(Collections.emptySet());"
+        "content": "        AttackCommand cmd \u003d new AttackCommand(TypicalIndexes.COORDINATES_LAST_CELL);"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        enemy.getMapGrid().putShip(ship, TypicalIndexes.COORDINATES_A1, new Orientation(\"v\"));"
+        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
       },
       {
         "lineNumber": 111,
@@ -66023,154 +66023,154 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        int initialDestroyedCount \u003d model.getPlayerStats().getEnemyShipsDestroyed();"
+        "content": "        // assert miss"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        assertTrue(res.getFeedbackToUser().contains(\"miss\"));"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // attack all the cells of the ship except one"
+        "content": "        // assert updates stats"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        int shipLength \u003d ship.getLength();"
+        "content": "        assertTrue(model.getPlayerStats().getMissCount() \u003e initialMissCount);"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        for (int i \u003d 1; i \u003c shipLength; i++) {"
+        "content": "        assertTrue(model.getPlayerStats().getHitCount() \u003d\u003d initialHitCount);"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "            new AttackCommand(new Coordinates(i, 0)).execute(model, new CommandHistory());"
+        "content": "        assertTrue(player.getTargetHistory().contains(TypicalIndexes.COORDINATES_LAST_CELL));"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        }"
+        "content": "        // assert that enemy is called"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        assertTrue(enemy.isEnemyShootAtCalled());"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        AttackCommand cmd \u003d new AttackCommand(TypicalIndexes.COORDINATES_A1);"
+        "content": "    }"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
+        "content": ""
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert destroy"
+        "content": "    public void execute_attackDestroysShip_destroysAndUpdatesStats() throws CommandException {"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(res.getFeedbackToUser().contains(\"destroy\"));"
+        "content": "        /*"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(ship.isDestroyed());"
+        "content": "         * Expected behaviour: \u003cbr\u003e"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        // assert updates stats"
+        "content": "         * \u003cul\u003e"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(model.getPlayerStats().enemyShipsDestroyed() \u003e initialDestroyedCount);"
+        "content": "         *     \u003cli\u003eThe attack hits the ship and decreases its life to 0.\u003c/li\u003e"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(player.getTargetHistory().contains(TypicalIndexes.COORDINATES_A1));"
+        "content": "         *     \u003cli\u003eThe enemy is not called to attack.\u003c/li\u003e"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    }"
+        "content": "         *     \u003cli\u003eStatistics are updated.\u003c/li\u003e"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "         * \u003c/ul\u003e"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    @Test"
+        "content": "         */"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    public void execute_outOfBounds_fail() throws CommandException {"
+        "content": "        Battleship ship \u003d new DestroyerBattleship(Collections.emptySet());"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        Coordinates invalid \u003d TypicalIndexes.INVALID_COORDINATE;"
+        "content": "        enemy.getMapGrid().putShip(ship, TypicalIndexes.COORDINATES_A1, new Orientation(\"v\"));"
       },
       {
         "lineNumber": 134,
@@ -66184,56 +66184,56 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        AttackCommand cmd \u003d new AttackCommand(invalid);"
+        "content": "        int initialDestroyedCount \u003d model.getPlayerStats().getEnemyShipsDestroyed();"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
+        "content": ""
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        assertTrue(res.getFeedbackToUser().contains(\"fail\"));"
+        "content": "        // attack all the cells of the ship except one"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    }"
+        "content": "        int shipLength \u003d ship.getLength();"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        for (int i \u003d 1; i \u003c shipLength; i++) {"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    @Test"
+        "content": "            new AttackCommand(new Coordinates(i, 0)).execute(model, new CommandHistory());"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    public void execute_invalidState_throwAssertionError() throws CommandException {"
+        "content": "        }"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        thrown.expect(AssertionError.class);"
+        "content": ""
       },
       {
         "lineNumber": 143,
@@ -66247,24 +66247,276 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        model.setBattleState(BattleState.PLAYER_PUT_SHIP);"
+        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        cmd.execute(model, new CommandHistory());"
+        "content": ""
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    }"
+        "content": "        // assert destroy"
       },
       {
         "lineNumber": 147,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        assertTrue(res.getFeedbackToUser().contains(\"destroy\"));"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        assertTrue(ship.isDestroyed());"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        // assert updates stats"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        assertTrue(model.getPlayerStats().enemyShipsDestroyed() \u003e initialDestroyedCount);"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        assertTrue(player.getTargetHistory().contains(TypicalIndexes.COORDINATES_A1));"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    public void execute_outOfBounds_fail() throws CommandException {"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        /*"
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         * Expected behaviour: \u003cbr\u003e"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         * \u003cul\u003e"
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         *     \u003cli\u003eThe attack fails to hit anything..\u003c/li\u003e"
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         *     \u003cli\u003eThe enemy may or may not be called to attack.\u003c/li\u003e"
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         * \u003c/ul\u003e"
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 163,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        Coordinates invalid \u003d TypicalIndexes.INVALID_COORDINATE;"
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        AttackCommand cmd \u003d new AttackCommand(invalid);"
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        CommandResult res \u003d cmd.execute(model, new CommandHistory());"
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        assertTrue(res.getFeedbackToUser().contains(\"fail\"));"
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    public void execute_invalidState_throwAssertionError() throws CommandException {"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        /*"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         * Expected behaviour: \u003cbr\u003e"
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         * \u003cul\u003e"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         *     \u003cli\u003eThe command fails immediately with an AssertionError.\u003c/li\u003e"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         * \u003c/ul\u003e"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        thrown.expect(AssertionError.class);"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        AttackCommand cmd \u003d new AttackCommand(TypicalIndexes.COORDINATES_A1);"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        model.setBattleState(BattleState.PLAYER_PUT_SHIP);"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "        cmd.execute(model, new CommandHistory());"
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 183,
         "author": {
           "gitId": "s-tr"
         },
@@ -66272,7 +66524,7 @@
       }
     ],
     "authorContributionMap": {
-      "s-tr": 147
+      "s-tr": 183
     }
   },
   {
@@ -66486,7 +66738,7 @@
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    public void prepareModel() {"
+        "content": "    public void setUp() {"
       },
       {
         "lineNumber": 31,
@@ -67392,219 +67644,219 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "import org.junit.Rule;"
+        "content": "import org.junit.Before;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.Rule;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "import org.junit.rules.ExpectedException;"
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "import org.junit.rules.ExpectedException;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.logic.battle.state.BattleState;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "import seedu.address.model.ModelManager;"
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "public class InitialiseMapCommandTest {"
+        "content": "import seedu.address.model.ModelManager;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    @Rule"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    public ExpectedException thrown \u003d ExpectedException.none();"
+        "content": "public class InitialiseMapCommandTest {"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "    @Rule"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    @Test"
+        "content": "    public ExpectedException thrown \u003d ExpectedException.none();"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    public void execute_initialisemap_success() throws Exception {"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "        Model model \u003d new ModelManager();"
+        "content": "    private Model model;"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "        CommandHistory history \u003d new CommandHistory();"
+        "content": "    private CommandHistory history;"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "        int validSize \u003d InitialiseMapCommand.MINIMUM_MAP_SIZE;"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": ""
+        "content": "    @Before"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "        InitialiseMapCommand initialiseMapCommand \u003d new InitialiseMapCommand(validSize);"
+        "content": "    public void setUp() {"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "        CommandResult commandResult \u003d initialiseMapCommand.execute(model, history);"
+        "content": "        model \u003d new ModelManager();"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": ""
+        "content": "        history \u003d new CommandHistory();"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "        assertEquals(String.format(InitialiseMapCommand.MESSAGE_SUCCESS, validSize), commandResult.getFeedbackToUser());"
+        "content": "        model.setBattleState(BattleState.PRE_BATTLE);"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "        assertEquals(validSize, model.getMapSize());"
+        "content": "    }"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    @Test"
+        "content": "    public void execute_initialisemap_success() throws Exception {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    public void execute_initialisemapWithSizeMoreThanMax_throwsCommandException() throws Exception {"
+        "content": "        int validSize \u003d InitialiseMapCommand.MINIMUM_MAP_SIZE;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        Model model \u003d new ModelManager();"
+        "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        CommandHistory history \u003d new CommandHistory();"
+        "content": "        InitialiseMapCommand initialiseMapCommand \u003d new InitialiseMapCommand(validSize);"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        int invalidSize \u003d InitialiseMapCommand.MAXIMUM_MAP_SIZE + 1;"
+        "content": "        CommandResult commandResult \u003d initialiseMapCommand.execute(model, history);"
       },
       {
         "lineNumber": 36,
@@ -67618,112 +67870,112 @@
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        InitialiseMapCommand initialiseMapCommand \u003d new InitialiseMapCommand(invalidSize);"
+        "content": "        assertEquals(String.format(InitialiseMapCommand.MESSAGE_SUCCESS, validSize), commandResult.getFeedbackToUser());"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "        assertEquals(validSize, model.getMapSize());"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        thrown.expect(CommandException.class);"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        thrown.expectMessage(String.format(InitialiseMapCommand.MESSAGE_INVALID_MAP_SIZE,"
+        "content": "    @Test"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "s-tr"
         },
-        "content": "                InitialiseMapCommand.MINIMUM_MAP_SIZE, InitialiseMapCommand.MAXIMUM_MAP_SIZE));"
+        "content": "    public void execute_initialiseMapWithSizeMoreThanMax_throwsCommandException() throws Exception {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        initialiseMapCommand.execute(model, history);"
+        "content": "        int invalidSize \u003d InitialiseMapCommand.MAXIMUM_MAP_SIZE + 1;"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "        InitialiseMapCommand initialiseMapCommand \u003d new InitialiseMapCommand(invalidSize);"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    public void execute_initialisemapWithSizeLessThanMin_throwsCommandException() throws Exception {"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        Model model \u003d new ModelManager();"
+        "content": "        thrown.expect(CommandException.class);"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        CommandHistory history \u003d new CommandHistory();"
+        "content": "        thrown.expectMessage(String.format(InitialiseMapCommand.MESSAGE_INVALID_MAP_SIZE,"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        int invalidSize \u003d InitialiseMapCommand.MINIMUM_MAP_SIZE - 1;"
+        "content": "                InitialiseMapCommand.MINIMUM_MAP_SIZE, InitialiseMapCommand.MAXIMUM_MAP_SIZE));"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": ""
+        "content": "        initialiseMapCommand.execute(model, history);"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        InitialiseMapCommand initialiseMapCommand \u003d new InitialiseMapCommand(invalidSize);"
+        "content": "    }"
       },
       {
         "lineNumber": 53,
@@ -67737,38 +67989,80 @@
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        thrown.expect(CommandException.class);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        thrown.expectMessage(String.format(InitialiseMapCommand.MESSAGE_INVALID_MAP_SIZE,"
+        "content": "    public void execute_initialisemapWithSizeLessThanMin_throwsCommandException() throws Exception {"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "                InitialiseMapCommand.MINIMUM_MAP_SIZE, InitialiseMapCommand.MAXIMUM_MAP_SIZE));"
+        "content": "        int invalidSize \u003d InitialiseMapCommand.MINIMUM_MAP_SIZE - 1;"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "        initialiseMapCommand.execute(model, history);"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "erjillsison"
         },
-        "content": "    }"
+        "content": "        InitialiseMapCommand initialiseMapCommand \u003d new InitialiseMapCommand(invalidSize);"
       },
       {
         "lineNumber": 59,
+        "author": {
+          "gitId": "erjillsison"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "erjillsison"
+        },
+        "content": "        thrown.expect(CommandException.class);"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "erjillsison"
+        },
+        "content": "        thrown.expectMessage(String.format(InitialiseMapCommand.MESSAGE_INVALID_MAP_SIZE,"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "erjillsison"
+        },
+        "content": "                InitialiseMapCommand.MINIMUM_MAP_SIZE, InitialiseMapCommand.MAXIMUM_MAP_SIZE));"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "erjillsison"
+        },
+        "content": "        initialiseMapCommand.execute(model, history);"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "erjillsison"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 65,
         "author": {
           "gitId": "erjillsison"
         },
@@ -67776,7 +68070,8 @@
       }
     ],
     "authorContributionMap": {
-      "erjillsison": 59
+      "erjillsison": 52,
+      "s-tr": 13
     }
   },
   {
@@ -68545,273 +68840,273 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "import static seedu.address.testutil.TypicalIndexes.MAP_SIZE_TEN;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "import java.util.HashSet;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "iwle"
         },
-        "content": "import java.util.HashSet;"
+        "content": "import java.util.Set;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "iwle"
         },
-        "content": "import java.util.Set;"
-      },
-      {
-        "lineNumber": 19,
-        "author": {
-          "gitId": "iwle"
-        },
         "content": ""
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
           "gitId": "s-tr"
         },
         "content": "import org.junit.Before;"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 20,
         "author": {
           "gitId": "s-tr"
         },
         "content": "import org.junit.Rule;"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 21,
         "author": {
           "gitId": "iwle"
         },
         "content": "import org.junit.Test;"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
           "gitId": "s-tr"
         },
         "content": "import org.junit.rules.ExpectedException;"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.commons.core.Messages;"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.logic.CommandHistory;"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
           "gitId": "s-tr"
         },
         "content": "import seedu.address.logic.battle.state.BattleState;"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.logic.commands.exceptions.CommandException;"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 28,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.Model;"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 29,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.ModelManager;"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 30,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.battleship.AircraftCarrierBattleship;"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.battleship.Battleship;"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.battleship.DestroyerBattleship;"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.battleship.Orientation;"
       },
       {
-        "lineNumber": 35,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "import seedu.address.model.cell.Cell;"
-      },
-      {
-        "lineNumber": 36,
+        "lineNumber": 34,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.cell.Coordinates;"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 35,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.cell.Status;"
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 36,
         "author": {
           "gitId": "iwle"
         },
         "content": "import seedu.address.model.tag.Tag;"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 37,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "import seedu.address.testutil.SizeTenMapGrid;"
+      },
+      {
+        "lineNumber": 38,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
           "gitId": "iwle"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
           "gitId": "s-tr"
         },
         "content": " * Contains integration tests (interaction with the Model)."
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 41,
         "author": {
           "gitId": "iwle"
         },
         "content": " */"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 42,
         "author": {
           "gitId": "iwle"
         },
         "content": "public class PutShipCommandTest {"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 43,
         "author": {
           "gitId": "s-tr"
         },
         "content": "    @Rule"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 44,
         "author": {
           "gitId": "s-tr"
         },
         "content": "    public ExpectedException thrown \u003d ExpectedException.none();"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 45,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 46,
         "author": {
           "gitId": "s-tr"
         },
         "content": "    private Model model \u003d new ModelManager();"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 47,
         "author": {
           "gitId": "iwle"
         },
         "content": "    private CommandHistory commandHistory \u003d new CommandHistory();"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 48,
         "author": {
           "gitId": "iwle"
         },
         "content": "    private final Set\u003cTag\u003e emptySet \u003d new HashSet\u003c\u003e();"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 49,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 50,
         "author": {
           "gitId": "s-tr"
         },
         "content": "    @Before"
       },
       {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": "    public void setUp() {"
+      },
+      {
         "lineNumber": 52,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "    public void setState() {"
+        "content": "        model.setBattleState(BattleState.PLAYER_PUT_SHIP);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "s-tr"
         },
-        "content": "        model.setBattleState(BattleState.PLAYER_PUT_SHIP);"
+        "content": "        SizeTenMapGrid.initialisePlayerSizeTen(model.getHumanPlayer());"
       },
       {
         "lineNumber": 54,
@@ -68846,63 +69141,63 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
+        "content": "        Battleship battleship \u003d new DestroyerBattleship(emptySet);"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
+        "content": "        Orientation orientation \u003d new Orientation(VALID_HORIZONTAL_ORIENTATION);"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
+        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_A1, orientation);"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "iwle"
+          "gitId": "s-tr"
         },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        }"
+        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "                PutShipCommand.MESSAGE_BATTLESHIP_PRESENT);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Battleship battleship \u003d new DestroyerBattleship(emptySet);"
+        "content": "    }"
       },
       {
         "lineNumber": 67,
@@ -68914,42 +69209,42 @@
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "iwle"
         },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Orientation orientation \u003d new Orientation(VALID_HORIZONTAL_ORIENTATION);"
+        "content": "    public void execute_putBattleshipVertical_failure() {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "        Battleship battleship \u003d new Battleship();"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_A1, orientation);"
+        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
+        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_B1, orientation);"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "iwle"
+          "gitId": "s-tr"
         },
         "content": ""
       },
@@ -68958,91 +69253,91 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                PutShipCommand.MESSAGE_BATTLESHIP_PRESENT);"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    }"
+        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "                PutShipCommand.MESSAGE_BATTLESHIP_PRESENT_BODY_VERTICAL);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    public void execute_putBattleshipVertical_failure() {"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
+        "content": "    @Test"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
+        "content": "    public void execute_putBattleshipHorizontal_failure() {"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
+        "content": "        Battleship battleship \u003d new Battleship();"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
+        "content": "        Orientation orientation \u003d new Orientation(VALID_HORIZONTAL_ORIENTATION);"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            }"
+        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_A2, orientation);"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        }"
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
       },
       {
         "lineNumber": 87,
@@ -69056,147 +69351,147 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Battleship battleship \u003d new Battleship();"
+        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "                PutShipCommand.MESSAGE_BATTLESHIP_PRESENT_BODY_HORIZONTAL);"
       },
       {
         "lineNumber": 90,
-        "author": {
-          "gitId": "erjillsison"
-        },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
-      },
-      {
-        "lineNumber": 91,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
-      },
-      {
-        "lineNumber": 92,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_B1, orientation);"
-      },
-      {
-        "lineNumber": 94,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
-      },
-      {
-        "lineNumber": 95,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 96,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
-      },
-      {
-        "lineNumber": 97,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                PutShipCommand.MESSAGE_BATTLESHIP_PRESENT_BODY_VERTICAL);"
-      },
-      {
-        "lineNumber": 98,
         "author": {
           "gitId": "iwle"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 99,
+        "lineNumber": 91,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 100,
+        "lineNumber": 92,
         "author": {
           "gitId": "iwle"
         },
         "content": "    @Test"
       },
       {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "    public void execute_battleshipTooHorizontal_failure() {"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        Battleship battleship \u003d new Battleship();"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        Orientation orientation \u003d new Orientation(VALID_HORIZONTAL_ORIENTATION);"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A10, battleship, orientation);"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "                Messages.MESSAGE_BODY_LENGTH_TOO_LONG);"
+      },
+      {
         "lineNumber": 101,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    public void execute_putBattleshipHorizontal_failure() {"
+        "content": "    }"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
+        "content": ""
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
+        "content": "    @Test"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
+        "content": "    public void execute_battleshipTooVertical_failure() {"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
+        "content": "        Battleship battleship \u003d new Battleship();"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
+        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "iwle"
+          "gitId": "s-tr"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        }"
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_J1, battleship, orientation);"
       },
       {
         "lineNumber": 109,
@@ -69210,189 +69505,189 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Battleship battleship \u003d new Battleship();"
+        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "                Messages.MESSAGE_BODY_LENGTH_TOO_LONG);"
       },
       {
         "lineNumber": 112,
-        "author": {
-          "gitId": "erjillsison"
-        },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
-      },
-      {
-        "lineNumber": 113,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Orientation orientation \u003d new Orientation(VALID_HORIZONTAL_ORIENTATION);"
-      },
-      {
-        "lineNumber": 114,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 115,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_A2, orientation);"
-      },
-      {
-        "lineNumber": 116,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
-      },
-      {
-        "lineNumber": 117,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 118,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
-      },
-      {
-        "lineNumber": 119,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                PutShipCommand.MESSAGE_BATTLESHIP_PRESENT_BODY_HORIZONTAL);"
-      },
-      {
-        "lineNumber": 120,
         "author": {
           "gitId": "iwle"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 113,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 122,
+        "lineNumber": 114,
         "author": {
           "gitId": "iwle"
         },
         "content": "    @Test"
       },
       {
-        "lineNumber": 123,
+        "lineNumber": 115,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    public void execute_battleshipTooHorizontal_failure() {"
+        "content": "    public void execute_testPutHorizontal_success() {"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 116,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
+        "content": "        Battleship battleship \u003d new AircraftCarrierBattleship(emptySet);"
       },
       {
-        "lineNumber": 125,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
-      },
-      {
-        "lineNumber": 126,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
-      },
-      {
-        "lineNumber": 127,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
-      },
-      {
-        "lineNumber": 128,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
-      },
-      {
-        "lineNumber": 129,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 130,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 131,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 132,
-        "author": {
-          "gitId": "erjillsison"
-        },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
-      },
-      {
-        "lineNumber": 133,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Battleship battleship \u003d new Battleship();"
-      },
-      {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 135,
+        "lineNumber": 117,
         "author": {
           "gitId": "iwle"
         },
         "content": "        Orientation orientation \u003d new Orientation(VALID_HORIZONTAL_ORIENTATION);"
       },
       {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "s-tr"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "            putShipCommand.execute(model, commandHistory);"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "            // Test length of battleship"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "            for (int i \u003d 0; i \u003c battleship.getLength(); i++) {"
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "                Coordinates cellCoords \u003d new Coordinates("
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "                        COORDINATES_A1.getRowIndex().getZeroBased(),"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "                        COORDINATES_A1.getColIndex().getZeroBased() + i);"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "                Status status \u003d model.getHumanMapGrid().getCellStatus(cellCoords);"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "                assertTrue(status \u003d\u003d Status.SHIP);"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        } catch (CommandException ce) {"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "            throw new AssertionError(\"Test should not fail.\");"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "iwle"
+        },
+        "content": "        }"
+      },
+      {
         "lineNumber": 136,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A10, battleship, orientation);"
+        "content": "    }"
       },
       {
         "lineNumber": 137,
@@ -69406,252 +69701,252 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
+        "content": "    @Test"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                Messages.MESSAGE_BODY_LENGTH_TOO_LONG);"
+        "content": "    public void execute_testPutVertical_success() {"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    }"
+        "content": "        Battleship battleship \u003d new AircraftCarrierBattleship(emptySet);"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "iwle"
+          "gitId": "s-tr"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    public void execute_battleshipTooVertical_failure() {"
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
+        "content": ""
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
+        "content": "        try {"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
+        "content": "            putShipCommand.execute(model, commandHistory);"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
+        "content": ""
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
+        "content": "            // Test length of battleship"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            }"
+        "content": "            for (int i \u003d 0; i \u003c battleship.getLength(); i++) {"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        }"
+        "content": "                Coordinates cellCoords \u003d new Coordinates("
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "                        COORDINATES_A1.getRowIndex().getZeroBased() + i,"
       },
       {
         "lineNumber": 152,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "iwle"
         },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
+        "content": "                        COORDINATES_A1.getColIndex().getZeroBased());"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Battleship battleship \u003d new Battleship();"
+        "content": "                Status status \u003d model.getHumanMapGrid().getCellStatus(cellCoords);"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "                assertTrue(status \u003d\u003d Status.SHIP);"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
+        "content": "            }"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_J1, battleship, orientation);"
+        "content": "        } catch (CommandException ce) {"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "            throw new AssertionError(\"Test should not fail.\");"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
+        "content": "        }"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                Messages.MESSAGE_BODY_LENGTH_TOO_LONG);"
+        "content": "    }"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    @Test"
+        "content": "    public void execute_notEnoughBattleships_failure() {"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "iwle"
         },
-        "content": "    public void execute_testPutHorizontal_success() {"
+        "content": "        Battleship battleship \u003d new AircraftCarrierBattleship(emptySet);"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
+        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
+        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_A2, orientation);"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
+        "content": "        model.deployBattleship(battleship, COORDINATES_A2, orientation);"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
+        "content": ""
       },
       {
         "lineNumber": 168,
         "author": {
-          "gitId": "iwle"
+          "gitId": "s-tr"
         },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
+        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
       },
       {
         "lineNumber": 169,
         "author": {
-          "gitId": "iwle"
+          "gitId": "s-tr"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        }"
+        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "                \"Not enough aircraft carriers.\");"
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "erjillsison"
+          "gitId": "iwle"
         },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
+        "content": ""
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Battleship battleship \u003d new AircraftCarrierBattleship(emptySet);"
+        "content": "    }"
       },
       {
         "lineNumber": 174,
@@ -69665,84 +69960,84 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "        Orientation orientation \u003d new Orientation(VALID_HORIZONTAL_ORIENTATION);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
+        "content": "    public void equals() {"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "        final PutShipCommand standardCommand \u003d new PutShipCommand(COORDINATES_A1,"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        try {"
+        "content": "                new Battleship(), new Orientation(VALID_HORIZONTAL_ORIENTATION));"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            putShipCommand.execute(model, commandHistory);"
+        "content": ""
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "iwle"
         },
-        "content": ""
+        "content": "        // same values -\u003e returns true"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            // Test length of battleship"
+        "content": "        PutShipCommand commandWithSameValues \u003d new PutShipCommand("
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            for (int i \u003d 0; i \u003c battleship.getLength(); i++) {"
+        "content": "                new Coordinates(\"a1\"), new Battleship(), new Orientation(VALID_HORIZONTAL_ORIENTATION));"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                Coordinates cellCoords \u003d new Coordinates("
+        "content": "        assertTrue(standardCommand.equals(commandWithSameValues));"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                        COORDINATES_A1.getRowIndex().getZeroBased(),"
+        "content": ""
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                        COORDINATES_A1.getColIndex().getZeroBased() + i);"
+        "content": "        // same object -\u003e returns true"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "iwle"
         },
-        "content": "                Status status \u003d model.getHumanMapGrid().getCellStatus(cellCoords);"
+        "content": "        assertTrue(standardCommand.equals(standardCommand));"
       },
       {
         "lineNumber": 187,
@@ -69756,689 +70051,143 @@
         "author": {
           "gitId": "iwle"
         },
-        "content": "                assertTrue(status \u003d\u003d Status.SHIP);"
+        "content": "        // null -\u003e returns false"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            }"
+        "content": "        assertFalse(standardCommand.equals(null));"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "iwle"
         },
-        "content": "        } catch (CommandException ce) {"
+        "content": ""
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "iwle"
         },
-        "content": "            throw new AssertionError(\"Test should not fail.\");"
-      },
-      {
-        "lineNumber": 192,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 193,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 194,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 195,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    @Test"
-      },
-      {
-        "lineNumber": 196,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    public void execute_testPutVertical_success() {"
-      },
-      {
-        "lineNumber": 197,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
-      },
-      {
-        "lineNumber": 198,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
-      },
-      {
-        "lineNumber": 199,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
-      },
-      {
-        "lineNumber": 200,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
-      },
-      {
-        "lineNumber": 201,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
-      },
-      {
-        "lineNumber": 202,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 203,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 204,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 205,
-        "author": {
-          "gitId": "erjillsison"
-        },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
-      },
-      {
-        "lineNumber": 206,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Battleship battleship \u003d new AircraftCarrierBattleship(emptySet);"
-      },
-      {
-        "lineNumber": 207,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 208,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
-      },
-      {
-        "lineNumber": 209,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
-      },
-      {
-        "lineNumber": 210,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 211,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        try {"
-      },
-      {
-        "lineNumber": 212,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            putShipCommand.execute(model, commandHistory);"
-      },
-      {
-        "lineNumber": 213,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 214,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            // Test length of battleship"
-      },
-      {
-        "lineNumber": 215,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            for (int i \u003d 0; i \u003c battleship.getLength(); i++) {"
-      },
-      {
-        "lineNumber": 216,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                Coordinates cellCoords \u003d new Coordinates("
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                        COORDINATES_A1.getRowIndex().getZeroBased() + i,"
-      },
-      {
-        "lineNumber": 218,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                        COORDINATES_A1.getColIndex().getZeroBased());"
-      },
-      {
-        "lineNumber": 219,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                Status status \u003d model.getHumanMapGrid().getCellStatus(cellCoords);"
-      },
-      {
-        "lineNumber": 220,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                assertTrue(status \u003d\u003d Status.SHIP);"
-      },
-      {
-        "lineNumber": 221,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 222,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        } catch (CommandException ce) {"
-      },
-      {
-        "lineNumber": 223,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            throw new AssertionError(\"Test should not fail.\");"
-      },
-      {
-        "lineNumber": 224,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 225,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 226,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 227,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    @Test"
-      },
-      {
-        "lineNumber": 228,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    public void execute_notEnoughBattleships_failure() {"
-      },
-      {
-        "lineNumber": 229,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 230,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        int mapSize \u003d MAP_SIZE_TEN;"
-      },
-      {
-        "lineNumber": 231,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Cell[][] cellGrid \u003d new Cell[mapSize][mapSize];"
-      },
-      {
-        "lineNumber": 232,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        for (int i \u003d 0; i \u003c mapSize; i++) {"
-      },
-      {
-        "lineNumber": 233,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            for (int j \u003d 0; j \u003c mapSize; j++) {"
-      },
-      {
-        "lineNumber": 234,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                cellGrid[i][j] \u003d new Cell();"
-      },
-      {
-        "lineNumber": 235,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 236,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 237,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 238,
-        "author": {
-          "gitId": "erjillsison"
-        },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
-      },
-      {
-        "lineNumber": 239,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Battleship battleship \u003d new AircraftCarrierBattleship(emptySet);"
-      },
-      {
-        "lineNumber": 240,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        Orientation orientation \u003d new Orientation(VALID_VERTICAL_ORIENTATION);"
-      },
-      {
-        "lineNumber": 241,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 242,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        PutShipCommand putShipCommand \u003d new PutShipCommand(COORDINATES_A1, battleship, orientation);"
-      },
-      {
-        "lineNumber": 243,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "erjillsison"
-        },
-        "content": "        model.getHumanMapGrid().initialise(cellGrid);"
-      },
-      {
-        "lineNumber": 245,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        model.getHumanMapGrid().putShip(battleship, COORDINATES_A2, orientation);"
-      },
-      {
-        "lineNumber": 246,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        model.deployBattleship(battleship, COORDINATES_A2, orientation);"
-      },
-      {
-        "lineNumber": 247,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 248,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        assertCommandFailure(putShipCommand, model, commandHistory,"
-      },
-      {
-        "lineNumber": 249,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                \"Not enough aircraft carriers.\");"
-      },
-      {
-        "lineNumber": 250,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 251,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 252,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 253,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    @Test"
-      },
-      {
-        "lineNumber": 254,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "    public void equals() {"
-      },
-      {
-        "lineNumber": 255,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        final PutShipCommand standardCommand \u003d new PutShipCommand(COORDINATES_A1,"
-      },
-      {
-        "lineNumber": 256,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                new Battleship(), new Orientation(VALID_HORIZONTAL_ORIENTATION));"
-      },
-      {
-        "lineNumber": 257,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 258,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        // same values -\u003e returns true"
-      },
-      {
-        "lineNumber": 259,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        PutShipCommand commandWithSameValues \u003d new PutShipCommand("
-      },
-      {
-        "lineNumber": 260,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "                new Coordinates(\"a1\"), new Battleship(), new Orientation(VALID_HORIZONTAL_ORIENTATION));"
-      },
-      {
-        "lineNumber": 261,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        assertTrue(standardCommand.equals(commandWithSameValues));"
-      },
-      {
-        "lineNumber": 262,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 263,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        // same object -\u003e returns true"
-      },
-      {
-        "lineNumber": 264,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        assertTrue(standardCommand.equals(standardCommand));"
-      },
-      {
-        "lineNumber": 265,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 266,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        // null -\u003e returns false"
-      },
-      {
-        "lineNumber": 267,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": "        assertFalse(standardCommand.equals(null));"
-      },
-      {
-        "lineNumber": 268,
-        "author": {
-          "gitId": "iwle"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 269,
-        "author": {
-          "gitId": "iwle"
-        },
         "content": "        // different types -\u003e returns false"
       },
       {
-        "lineNumber": 270,
+        "lineNumber": 192,
         "author": {
           "gitId": "s-tr"
         },
         "content": "        assertFalse(standardCommand.equals(new BeginCommand()));"
       },
       {
-        "lineNumber": 271,
+        "lineNumber": 193,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 272,
+        "lineNumber": 194,
         "author": {
           "gitId": "iwle"
         },
         "content": "        // different coordinates -\u003e returns false"
       },
       {
-        "lineNumber": 273,
+        "lineNumber": 195,
         "author": {
           "gitId": "iwle"
         },
         "content": "        assertFalse(standardCommand.equals(new PutShipCommand("
       },
       {
-        "lineNumber": 274,
+        "lineNumber": 196,
         "author": {
           "gitId": "iwle"
         },
         "content": "                COORDINATES_LAST_CELL, new Battleship(), new Orientation(VALID_HORIZONTAL_ORIENTATION))));"
       },
       {
-        "lineNumber": 275,
+        "lineNumber": 197,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 276,
+        "lineNumber": 198,
         "author": {
           "gitId": "iwle"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 277,
+        "lineNumber": 199,
         "author": {
           "gitId": "iwle"
         },
         "content": ""
       },
       {
-        "lineNumber": 278,
+        "lineNumber": 200,
         "author": {
           "gitId": "s-tr"
         },
         "content": "    @Test"
       },
       {
-        "lineNumber": 279,
+        "lineNumber": 201,
         "author": {
           "gitId": "s-tr"
         },
         "content": "    public void execute_invalidState_throwAssertionError() throws CommandException {"
       },
       {
-        "lineNumber": 280,
+        "lineNumber": 202,
         "author": {
           "gitId": "s-tr"
         },
         "content": "        thrown.expect(AssertionError.class);"
       },
       {
-        "lineNumber": 281,
+        "lineNumber": 203,
         "author": {
           "gitId": "s-tr"
         },
         "content": "        PutShipCommand cmd \u003d new PutShipCommand("
       },
       {
-        "lineNumber": 282,
+        "lineNumber": 204,
         "author": {
           "gitId": "s-tr"
         },
         "content": "            COORDINATES_LAST_CELL, new Battleship(), new Orientation(VALID_HORIZONTAL_ORIENTATION));"
       },
       {
-        "lineNumber": 283,
+        "lineNumber": 205,
         "author": {
           "gitId": "s-tr"
         },
         "content": "        model.setBattleState(BattleState.PLAYER_ATTACK);"
       },
       {
-        "lineNumber": 284,
+        "lineNumber": 206,
         "author": {
           "gitId": "s-tr"
         },
         "content": "        cmd.execute(model, new CommandHistory());"
       },
       {
-        "lineNumber": 285,
+        "lineNumber": 207,
         "author": {
           "gitId": "s-tr"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 286,
+        "lineNumber": 208,
         "author": {
           "gitId": "iwle"
         },
@@ -70446,9 +70195,8 @@
       }
     ],
     "authorContributionMap": {
-      "erjillsison": 9,
-      "iwle": 255,
-      "s-tr": 22
+      "iwle": 176,
+      "s-tr": 32
     }
   },
   {

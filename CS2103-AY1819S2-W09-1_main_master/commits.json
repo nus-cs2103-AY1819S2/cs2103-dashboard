@@ -2009,8 +2009,8 @@
         ]
       },
       {
-        "insertions": 24,
-        "deletions": 0,
+        "insertions": 26,
+        "deletions": 1,
         "date": "2019-04-07",
         "commitResults": [
           {
@@ -2024,6 +2024,12 @@
             "message": "Updated LogicManager",
             "insertions": 11,
             "deletions": 0
+          },
+          {
+            "hash": "cc23e4507a7b759df0605829b12ec5c08cdc652b",
+            "message": "Fixed bugs in storage.",
+            "insertions": 2,
+            "deletions": 1
           }
         ]
       }
@@ -2783,24 +2789,37 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 18,
+        "deletions": 4,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "87e034381c0d671d02f309fbf5dd04721539ee95",
+            "message": "Added setSelectedModuleCode to logic and initialise homeworkManagerSubPanel",
+            "insertions": 10,
+            "deletions": 1
+          },
+          {
+            "hash": "8db6c8036485c6084869f722f7e789faa0d7c296",
+            "message": "fixed UI bugs",
+            "insertions": 8,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "andrewscw": 3723,
     "shimeilee": 8642,
-    "LimZhengJieBenjamin": 2384,
-    "NgWeiXin": 5340
+    "LimZhengJieBenjamin": 2385,
+    "NgWeiXin": 5354
   },
   "authorContributionVariance": {
     "andrewscw": 180739.42,
     "shimeilee": 1094697.6,
-    "LimZhengJieBenjamin": 31976.125,
-    "NgWeiXin": 790069.9
+    "LimZhengJieBenjamin": 31972.516,
+    "NgWeiXin": 789909.0
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",

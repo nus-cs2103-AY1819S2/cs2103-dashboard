@@ -19898,56 +19898,56 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EMAIL;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EMAIL;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EMAIL_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EMAIL_REVERSE;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_NAME;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_NAME_REVERSE;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PHONE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_PHONE;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PHONE_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_PHONE_REVERSE;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_SKILL;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_SKILL;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_SKILL_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_SKILL_REVERSE;"
       },
       {
         "lineNumber": 13,
@@ -20073,14 +20073,14 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            + COMMAND_WORD + \" or  \" + PREFIX_PHONE + \"91234567\" + PREFIX_PHONE_REVERSE + \" \" + PREFIX_SKILL"
+        "content": "            + COMMAND_WORD + \" or  \" + PREFIX_FILTER_PHONE + \"91234567\" + PREFIX_FILTER_PHONE_REVERSE + \" \" + PREFIX_FILTER_SKILL"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            + \"C++, MS-Excel\" + PREFIX_SKILL_REVERSE"
+        "content": "            + \"C++, MS-Excel\" + PREFIX_FILTER_SKILL_REVERSE"
       },
       {
         "lineNumber": 32,
@@ -20094,14 +20094,14 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            + COMMAND_WORD + \" and \" + PREFIX_NAME + \"Alex\" + PREFIX_NAME_REVERSE + \" \" + PREFIX_EMAIL"
+        "content": "            + COMMAND_WORD + \" and \" + PREFIX_FILTER_NAME + \"Alex\" + PREFIX_FILTER_NAME_REVERSE + \" \" + PREFIX_FILTER_EMAIL"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            + \"johndoe@example.com\" + PREFIX_EMAIL_REVERSE"
+        "content": "            + \"johndoe@example.com\" + PREFIX_FILTER_EMAIL_REVERSE"
       },
       {
         "lineNumber": 35,
@@ -21874,16 +21874,16 @@
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::educationToString))."
+        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::educationToString))"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                        collect(Collectors.toList());;"
+        "content": "                        .collect(Collectors.toList());;"
       },
       {
         "lineNumber": 21,
@@ -21929,7 +21929,8 @@
       }
     ],
     "authorContributionMap": {
-      "DMGreenhouse": 26
+      "barisbatuhan": 2,
+      "DMGreenhouse": 24
     }
   },
   {
@@ -22064,16 +22065,16 @@
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::gpaToString))."
+        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::gpaToString))"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                        collect(Collectors.toList());"
+        "content": "                        .collect(Collectors.toList());"
       },
       {
         "lineNumber": 21,
@@ -22119,7 +22120,8 @@
       }
     ],
     "authorContributionMap": {
-      "DMGreenhouse": 26
+      "barisbatuhan": 2,
+      "DMGreenhouse": 24
     }
   },
   {
@@ -22254,16 +22256,16 @@
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::namesToString))."
+        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::namesToString))"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                        collect(Collectors.toList());"
+        "content": "                        .collect(Collectors.toList());"
       },
       {
         "lineNumber": 21,
@@ -22309,8 +22311,8 @@
       }
     ],
     "authorContributionMap": {
-      "barisbatuhan": 5,
-      "DMGreenhouse": 21
+      "barisbatuhan": 7,
+      "DMGreenhouse": 19
     }
   },
   {
@@ -22489,7 +22491,7 @@
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "        String prefix \u003d type.substring(0,1);"
+        "content": "        String prefix \u003d type.substring(0, 1);"
       },
       {
         "lineNumber": 26,
@@ -22980,16 +22982,16 @@
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::surnamesToString))."
+        "content": "                lastShownList.stream().sorted(Comparator.comparing(Person::surnamesToString))"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                        collect(Collectors.toList());"
+        "content": "                        .collect(Collectors.toList());"
       },
       {
         "lineNumber": 21,
@@ -23035,8 +23037,8 @@
       }
     ],
     "authorContributionMap": {
-      "barisbatuhan": 4,
-      "DMGreenhouse": 22
+      "barisbatuhan": 6,
+      "DMGreenhouse": 20
     }
   },
   {
@@ -23061,54 +23063,54 @@
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import seedu.address.model.person.Person;"
+        "content": "import java.util.ArrayList;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": ""
+        "content": "import java.util.Collections;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import java.util.ArrayList;"
+        "content": "import java.util.Comparator;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import java.util.Collections;"
+        "content": "import java.util.List;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import java.util.Comparator;"
+        "content": "import java.util.stream.Collectors;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import java.util.List;"
+        "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "import java.util.stream.Collectors;"
+        "content": "import seedu.address.model.person.Person;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
         "content": ""
       },
@@ -23173,7 +23175,7 @@
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "        String prefix \u003d type.substring(0,1);"
+        "content": "        String prefix \u003d type.substring(0, 1);"
       },
       {
         "lineNumber": 20,
@@ -23199,16 +23201,16 @@
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                    lastShownList.stream().sorted(Comparator.comparing(Person::getSkillsNumber))."
+        "content": "                    lastShownList.stream().sorted(Comparator.comparing(Person::getSkillsNumber))"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                            collect(Collectors.toList());"
+        "content": "                            .collect(Collectors.toList());"
       },
       {
         "lineNumber": 25,
@@ -23227,16 +23229,16 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                    lastShownList.stream().sorted(Comparator.comparing(Person::getPositionsNumber))."
+        "content": "                    lastShownList.stream().sorted(Comparator.comparing(Person::getPositionsNumber))"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                            collect(Collectors.toList());"
+        "content": "                            .collect(Collectors.toList());"
       },
       {
         "lineNumber": 29,
@@ -23255,16 +23257,16 @@
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                    lastShownList.stream().sorted(Comparator.comparing(Person::getEndorsementsNumber))."
+        "content": "                    lastShownList.stream().sorted(Comparator.comparing(Person::getEndorsementsNumber))"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "                            collect(Collectors.toList());"
+        "content": "                            .collect(Collectors.toList());"
       },
       {
         "lineNumber": 33,
@@ -23331,7 +23333,8 @@
       }
     ],
     "authorContributionMap": {
-      "DMGreenhouse": 41
+      "barisbatuhan": 8,
+      "DMGreenhouse": 33
     }
   },
   {
@@ -23396,397 +23399,390 @@
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "//Do the skill method here (for add all person attributes?)"
+        "content": "import seedu.address.model.person.Person;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import seedu.address.model.person.Person;"
+        "content": "import seedu.address.model.tag.SkillsTag;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import seedu.address.model.tag.SkillsTag;"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 13,
-        "author": {
-          "gitId": "barisbatuhan"
-        },
         "content": "//SHOULD ANY OF THESE BE IN THE MODEL/PERSON/[] CLASS?"
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 13,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "//TODO: rewrite all those using comparator, to just take in whatever it is to be sorted (skillstag, education etc.)"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 14,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "//Maybe remove the toString method in Person class"
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 15,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 16,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": " * One of the sorting helper commands"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 17,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": " */"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 18,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "public class SortUtil {"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 19,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    /**"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    /**"
+        "content": "     * Separates the tags"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * Separates the tags"
-      },
-      {
-        "lineNumber": 23,
-        "author": {
-          "gitId": "barisbatuhan"
-        },
         "content": "     */"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static LinkedHashSet\u003cSkillsTag\u003e toTags(List\u003cSkillsTag\u003e tags) {"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": "        // Needs a LinkedHashSet to maintain the order"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        final LinkedHashSet\u003cSkillsTag\u003e tagSet \u003d new LinkedHashSet\u003c\u003e();"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        if (tags.isEmpty()) {"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "            return tagSet;"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 28,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 29,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        for (SkillsTag tagName : tags) {"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 30,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "            tagSet.add(tagName);"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        return tagSet;"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    /**"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    /**"
+        "content": "     * sorts the skills tags"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * sorts the skills tags"
-      },
-      {
-        "lineNumber": 38,
-        "author": {
-          "gitId": "barisbatuhan"
-        },
         "content": "     */"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 38,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static List\u003cSkillsTag\u003e sortSkillTags(List\u003cSkillsTag\u003e skills) {"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        //Sorting tags in alphabetical order"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        List\u003cSkillsTag\u003e sortedList \u003d"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 41,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": "                skills.stream().sorted(Comparator.comparing(SkillsTag::toString)).collect(Collectors.toList());"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 42,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        return sortedList;"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "DMGreenhouse"
+        },
+        "content": "    }"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    /**"
+        "content": "     * sorts the persons by their tags"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * sorts the persons by their tags"
-      },
-      {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "barisbatuhan"
-        },
         "content": "     */"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 48,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static List\u003cPerson\u003e sortPersonsByTags(List\u003cPerson\u003e persons) {"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 49,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        //Sort persons by tags"
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 50,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        List\u003cPerson\u003e sortedList \u003d"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 51,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": "                persons.stream().sorted(Comparator.comparing(Person::tagsToString)).collect(Collectors.toList());"
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 52,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        return sortedList;"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 53,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 54,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": ""
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 55,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 56,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     * reverses a List of Person"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 57,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 58,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static List\u003cPerson\u003e reversePersonList(List\u003cPerson\u003e persons) {"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 59,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        //Included for abstraction"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 60,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        List\u003cPerson\u003e tempList \u003d persons;"
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 61,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        Collections.reverse(tempList);"
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 62,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        return tempList;"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 63,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 64,
         "author": {
           "gitId": "DMGreenhouse"
         },
@@ -23795,7 +23791,7 @@
     ],
     "authorContributionMap": {
       "barisbatuhan": 22,
-      "DMGreenhouse": 43
+      "DMGreenhouse": 42
     }
   },
   {
@@ -25156,51 +25152,51 @@
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "barisbatuhan"
+          "gitId": "-"
         },
-        "content": "    public static final Prefix PREFIX_NAME_REVERSE \u003d new Prefix(\"/n\");"
+        "content": "    public static final Prefix PREFIX_PHONE \u003d new Prefix(\"p/\");"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final Prefix PREFIX_PHONE \u003d new Prefix(\"p/\");"
-      },
-      {
-        "lineNumber": 12,
-        "author": {
-          "gitId": "barisbatuhan"
-        },
-        "content": "    public static final Prefix PREFIX_PHONE_REVERSE \u003d new Prefix(\"/p\");"
-      },
-      {
-        "lineNumber": 13,
-        "author": {
-          "gitId": "-"
-        },
         "content": "    public static final Prefix PREFIX_EMAIL \u003d new Prefix(\"e/\");"
       },
       {
-        "lineNumber": 14,
-        "author": {
-          "gitId": "barisbatuhan"
-        },
-        "content": "    public static final Prefix PREFIX_EMAIL_REVERSE \u003d new Prefix(\"/e\");"
-      },
-      {
-        "lineNumber": 15,
+        "lineNumber": 12,
         "author": {
           "gitId": "-"
         },
         "content": "    public static final Prefix PREFIX_ADDRESS \u003d new Prefix(\"a/\");"
       },
       {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": "    public static final Prefix PREFIX_SKILL \u003d new Prefix(\"skill/\");"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "abwilli"
+        },
+        "content": "    public static final Prefix PREFIX_POS \u003d new Prefix(\"position/\");"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "charnixon"
+        },
+        "content": "    public static final Prefix PREFIX_GPA \u003d new Prefix(\"g/\");"
+      },
+      {
         "lineNumber": 16,
         "author": {
-          "gitId": "barisbatuhan"
+          "gitId": "charnixon"
         },
-        "content": "    public static final Prefix PREFIX_ADDRESS_REVERSE \u003d new Prefix(\"/a\");"
+        "content": "    public static final Prefix PREFIX_EDUCATION \u003d new Prefix(\"d/\");"
       },
       {
         "lineNumber": 17,
@@ -25212,215 +25208,292 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "abwilli"
+          "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_SKILL \u003d new Prefix(\"skill/\");"
+        "content": "    /* Prefix for Filtering definitions */"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_SKILL_REVERSE \u003d new Prefix(\"/skill\");"
+        "content": "    public static final Prefix PREFIX_FILTER_NAME \u003d new Prefix(\"n\u003c\");"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "abwilli"
+          "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_POS \u003d new Prefix(\"position/\");"
+        "content": "    public static final Prefix PREFIX_FILTER_NAME_REVERSE \u003d new Prefix(\"\u003en\");"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_POS_REVERSE \u003d new Prefix(\"/position\");"
+        "content": "    public static final Prefix PREFIX_FILTER_PHONE \u003d new Prefix(\"p\u003c\");"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "charnixon"
+          "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_GPA \u003d new Prefix(\"g/\");"
+        "content": "    public static final Prefix PREFIX_FILTER_PHONE_REVERSE \u003d new Prefix(\"\u003ep\");"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_GPA_REVERSE \u003d new Prefix(\"/g\");"
+        "content": "    public static final Prefix PREFIX_FILTER_EMAIL \u003d new Prefix(\"e\u003c\");"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "charnixon"
+          "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_EDUCATION \u003d new Prefix(\"d/\");"
+        "content": "    public static final Prefix PREFIX_FILTER_EMAIL_REVERSE \u003d new Prefix(\"\u003ee\");"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final Prefix PREFIX_EDUCATION_REVERSE \u003d new Prefix(\"/d\");"
+        "content": "    public static final Prefix PREFIX_FILTER_ADDRESS \u003d new Prefix(\"a\u003c\");"
       },
       {
         "lineNumber": 26,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_ADDRESS_REVERSE \u003d new Prefix(\"\u003ea\");"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_SKILL \u003d new Prefix(\"skill\u003c\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_SKILL_REVERSE \u003d new Prefix(\"\u003eskill\");"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_POS \u003d new Prefix(\"position\u003c\");"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_POS_REVERSE \u003d new Prefix(\"\u003eposition\");"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_GPA \u003d new Prefix(\"g\u003c\");"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_GPA_REVERSE \u003d new Prefix(\"\u003eg\");"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_EDUCATION \u003d new Prefix(\"d\u003c\");"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    public static final Prefix PREFIX_FILTER_EDUCATION_REVERSE \u003d new Prefix(\"\u003ed\");"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 38,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    /* Sort-Word definitions*/"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 39,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_EDUCATION \u003d new SortWord(\"education\");"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 40,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_ENDORSEMENTS \u003d new SortWord(\"endorsements\");"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 41,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_ENDORSEMENT_NUMBER \u003d new SortWord(\"endorsement number\");"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 42,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_GPA \u003d new SortWord(\"gpa\");"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 43,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_NAME \u003d new SortWord(\"name\");"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 44,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_POSITION_NUMBER \u003d new SortWord(\"position number\");"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 45,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_POSITIONS \u003d new SortWord(\"positions\");"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 46,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_EDUCATION \u003d new SortWord(\"reverse education\");"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 47,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_ENDORSEMENTS \u003d new SortWord(\"reverse endorsements\");"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 48,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_ENDORSEMENT_NUMBER \u003d new SortWord(\"reverse endorsement number\");"
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 49,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_GPA \u003d new SortWord(\"reverse gpa\");"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 50,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_NAME \u003d new SortWord(\"reverse name\");"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 51,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_POSITION_NUMBER \u003d new SortWord(\"reverse position number\");"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 52,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_POSITIONS \u003d new SortWord(\"reverse positions\");"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 53,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_SKILL_NUMBER \u003d new SortWord(\"reverse skill number\");"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 54,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_SKILLS \u003d new SortWord(\"reverse skills\");"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 55,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_REVERSE_SURNAME \u003d new SortWord(\"reverse surname\");"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 56,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_SKILL_NUMBER \u003d new SortWord(\"skill number\");"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 57,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_SKILLS \u003d new SortWord(\"skills\");"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 58,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public static final SortWord SORTWORD_SURNAME \u003d new SortWord(\"surname\");"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
@@ -25428,10 +25501,10 @@
       }
     ],
     "authorContributionMap": {
-      "barisbatuhan": 6,
+      "barisbatuhan": 19,
       "abwilli": 2,
       "charnixon": 2,
-      "-": 17,
+      "-": 15,
       "DMGreenhouse": 21
     }
   },
@@ -26505,112 +26578,112 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_ADDRESS;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_ADDRESS;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_ADDRESS_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_ADDRESS_REVERSE;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EDUCATION;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EDUCATION;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EDUCATION_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EDUCATION_REVERSE;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EMAIL;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EMAIL;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EMAIL_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EMAIL_REVERSE;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_GPA;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_GPA;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_GPA_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_GPA_REVERSE;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_NAME;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_NAME_REVERSE;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PHONE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_PHONE;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_PHONE_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_PHONE_REVERSE;"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_POS;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_POS;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_POS_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_POS_REVERSE;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_SKILL;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_SKILL;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_SKILL_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_SKILL_REVERSE;"
       },
       {
         "lineNumber": 21,
@@ -26666,133 +26739,133 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import seedu.address.model.person.Email;"
+        "content": "import seedu.address.model.person.Gpa;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import seedu.address.model.person.Gpa;"
+        "content": "import seedu.address.model.person.Name;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import seedu.address.model.person.Name;"
+        "content": "import seedu.address.model.tag.SkillsTag;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import seedu.address.model.person.Phone;"
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import seedu.address.model.tag.SkillsTag;"
+        "content": "/**"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": " * Parses the information in filter command"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "/**"
+        "content": " */"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": " * Parses the information in filter command"
+        "content": "public class FilterCommandParser implements Parser\u003cFilterCommand\u003e {"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "public class FilterCommandParser implements Parser\u003cFilterCommand\u003e {"
+        "content": "    private final int totalNumberOfInfo \u003d 8;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "    private boolean inputParameterInCorrectForm \u003d true;"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    private final int totalNumberOfInfo \u003d 8;"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    private boolean inputParameterInCorrectForm \u003d true;"
+        "content": "    /**"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "     * Since there are multiple options in filtering: and, or , clear"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    /**"
+        "content": "     * Decides which type of the filtering process will be executed from above"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * Since there are multiple options in filtering: and, or , clear"
+        "content": "     */"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * Decides which type of the filtering process will be executed from above"
+        "content": "    private String filterTypeDivider(String args, AtomicInteger typeOfProcess) {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    private String filterTypeDivider(String args, AtomicInteger typeOfProcess) {"
+        "content": "        typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 47,
@@ -26806,1092 +26879,1092 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        typeOfProcess.set(-1);"
+        "content": "        if (args.length() \u003e 3 \u0026\u0026 args.substring(0, 3).equals(\"or \")) {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            typeOfProcess.set(1);"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.length() \u003e 3 \u0026\u0026 args.substring(0, 3).equals(\"or \")) {"
+        "content": "            args \u003d args.substring(3);"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            typeOfProcess.set(1);"
+        "content": "        } else if (args.length() \u003e 4 \u0026\u0026 args.substring(0, 4).equals(\"and \")) {"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            args \u003d args.substring(3);"
+        "content": "            typeOfProcess.set(2);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else if (args.length() \u003e 4 \u0026\u0026 args.substring(0, 4).equals(\"and \")) {"
+        "content": "            args \u003d args.substring(4);"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            typeOfProcess.set(2);"
+        "content": "        } else if (args.length() \u003e 4 \u0026\u0026 args.substring(0, 5).equals(\"clear\")) {"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            args \u003d args.substring(4);"
+        "content": "            typeOfProcess.set(0);"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else if (args.length() \u003e 4 \u0026\u0026 args.substring(0, 5).equals(\"clear\")) {"
+        "content": "        }"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            typeOfProcess.set(0);"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "        return args;"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        return args;"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "     * Checks if the input for phone is correct or not"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    /** Divides every filter criteria into Strings. The information order in the"
+        "content": "     */"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  returned array is as follows:"
+        "content": "    private boolean phoneInputControl(String arg) {"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  1- Name"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  2- Phone"
+        "content": "        arg \u003d arg.trim();"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  3- Email"
+        "content": "        if (arg.length() \u003c 1) {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  4- Address"
+        "content": "            return false;"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  5- Skills"
+        "content": "        }"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  6- Positions"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  7- Gpa"
+        "content": "        for (int i \u003d 0; i \u003c arg.length(); i++) {"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  8- Education"
+        "content": "            if (arg.charAt(i) \u003c \u00270\u0027 || arg.charAt(i) \u003e \u00279\u0027) {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *  !!! If some of the above ones are not given, then their value will be null"
+        "content": "                return false;"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     *"
+        "content": "            }"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * Since there can be multiple filtering criterion at once, this function detects which criteron exist and"
+        "content": "        }"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * Places evey criteria text into a String array"
+        "content": ""
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     */"
+        "content": "        return true;"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    private String[] divideFilterCriterion(String args, AtomicInteger typeOfProcess) {"
+        "content": "    }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        String[] criterion \u003d new String[totalNumberOfInfo];"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        int totalNumOfCriterion \u003d 0;"
+        "content": "    /** Divides every filter criteria into Strings. The information order in the"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "     *  returned array is as follows:"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_NAME.toString()) \u0026\u0026 args.contains(PREFIX_NAME_REVERSE.toString())"
+        "content": "     *  1- Name"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_NAME.toString()) \u003c args.indexOf(PREFIX_NAME_REVERSE.toString())) {"
+        "content": "     *  2- Phone"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[0] \u003d \"available\";"
+        "content": "     *  3- Email"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "     *  4- Address"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "     *  5- Skills"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[0] \u003d null;"
+        "content": "     *  6- Positions"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "     *  7- Gpa"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "     *  8- Education"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_PHONE.toString()) \u0026\u0026 args.contains(PREFIX_PHONE_REVERSE.toString())"
+        "content": "     *  !!! If some of the above ones are not given, then their value will be null"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_PHONE.toString()) \u003c args.indexOf(PREFIX_PHONE_REVERSE.toString())) {"
+        "content": "     *"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[1] \u003d \"available\";"
+        "content": "     * Since there can be multiple filtering criterion at once, this function detects which criteron exist and"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "     * Places evey criteria text into a String array"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "     */"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[1] \u003d null;"
+        "content": "    private String[] divideFilterCriterion(String args, AtomicInteger typeOfProcess) {"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "        String[] criterion \u003d new String[totalNumberOfInfo];"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        int totalNumOfCriterion \u003d 0;"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_EMAIL.toString()) \u0026\u0026 args.contains(PREFIX_EMAIL_REVERSE.toString())"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_EMAIL.toString()) \u003c args.indexOf(PREFIX_EMAIL_REVERSE.toString())) {"
+        "content": "        if (args.contains(PREFIX_FILTER_NAME.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_NAME_REVERSE.toString())"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[2] \u003d \"available\";"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_NAME.toString()) \u003c args.indexOf(PREFIX_FILTER_NAME_REVERSE.toString())) {"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "            criterion[0] \u003d \"available\";"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[2] \u003d null;"
+        "content": "        } else {"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            criterion[0] \u003d null;"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_ADDRESS.toString()) \u0026\u0026 args.contains(PREFIX_ADDRESS_REVERSE.toString())"
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_ADDRESS.toString()) \u003c args.indexOf(PREFIX_ADDRESS_REVERSE.toString())) {"
+        "content": "        if (args.contains(PREFIX_FILTER_PHONE.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_PHONE_REVERSE.toString())"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[3] \u003d \"available\";"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_PHONE.toString()) \u003c args.indexOf(PREFIX_FILTER_PHONE_REVERSE.toString())) {"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "            criterion[1] \u003d \"available\";"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[3] \u003d null;"
+        "content": "        } else {"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            criterion[1] \u003d null;"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_SKILL.toString()) \u0026\u0026 args.contains(PREFIX_SKILL_REVERSE.toString())"
+        "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_SKILL.toString()) \u003c args.indexOf(PREFIX_SKILL_REVERSE.toString())) {"
+        "content": "        if (args.contains(PREFIX_FILTER_EMAIL.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_EMAIL_REVERSE.toString())"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[4] \u003d \"available\";"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_EMAIL.toString()) \u003c args.indexOf(PREFIX_FILTER_EMAIL_REVERSE.toString())) {"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "            criterion[2] \u003d \"available\";"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[4] \u003d null;"
+        "content": "        } else {"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            criterion[2] \u003d null;"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_POS.toString()) \u0026\u0026 args.contains(PREFIX_POS_REVERSE.toString())"
+        "content": ""
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_POS.toString()) \u003c args.indexOf(PREFIX_POS_REVERSE.toString())) {"
+        "content": "        if (args.contains(PREFIX_FILTER_ADDRESS.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_ADDRESS_REVERSE.toString())"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[5] \u003d \"available\";"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_ADDRESS.toString()) \u003c args.indexOf(PREFIX_FILTER_ADDRESS_REVERSE.toString())) {"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "            criterion[3] \u003d \"available\";"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[5] \u003d null;"
+        "content": "        } else {"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            criterion[3] \u003d null;"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_GPA.toString()) \u0026\u0026 args.contains(PREFIX_GPA_REVERSE.toString())"
+        "content": ""
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_GPA.toString()) \u003c args.indexOf(PREFIX_GPA_REVERSE.toString())) {"
+        "content": "        if (args.contains(PREFIX_FILTER_SKILL.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_SKILL_REVERSE.toString())"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[6] \u003d \"available\";"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_SKILL.toString()) \u003c args.indexOf(PREFIX_FILTER_SKILL_REVERSE.toString())) {"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "            criterion[4] \u003d \"available\";"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[6] \u003d null;"
+        "content": "        } else {"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            criterion[4] \u003d null;"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (args.contains(PREFIX_EDUCATION.toString()) \u0026\u0026 args.contains(PREFIX_EDUCATION_REVERSE.toString())"
+        "content": ""
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                \u0026\u0026 args.indexOf(PREFIX_EDUCATION.toString()) \u003c args.indexOf(PREFIX_EDUCATION_REVERSE.toString())) {"
+        "content": "        if (args.contains(PREFIX_FILTER_POS.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_POS_REVERSE.toString())"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[7] \u003d \"available\";"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_POS.toString()) \u003c args.indexOf(PREFIX_FILTER_POS_REVERSE.toString())) {"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            totalNumOfCriterion++;"
+        "content": "            criterion[5] \u003d \"available\";"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion[7] \u003d null;"
+        "content": "        } else {"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            criterion[5] \u003d null;"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (totalNumOfCriterion \u003d\u003d 0) {"
+        "content": ""
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            typeOfProcess.set(-1);"
+        "content": "        if (args.contains(PREFIX_FILTER_GPA.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_GPA_REVERSE.toString())"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_GPA.toString()) \u003c args.indexOf(PREFIX_FILTER_GPA_REVERSE.toString())) {"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            criterion[6] \u003d \"available\";"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[0] !\u003d null) {"
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[0] \u003d infoBetweenPrefixes(args, PREFIX_NAME.toString(), PREFIX_NAME_REVERSE.toString(),"
+        "content": "        } else {"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess, false);"
+        "content": "            criterion[6] \u003d null;"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                if (!Name.isValidName(criterion[0])) {"
+        "content": "        }"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    inputParameterInCorrectForm \u003d false;"
+        "content": ""
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    typeOfProcess.set(-1);"
+        "content": "        if (args.contains(PREFIX_FILTER_EDUCATION.toString()) \u0026\u0026 args.contains(PREFIX_FILTER_EDUCATION_REVERSE.toString())"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                }"
+        "content": "                \u0026\u0026 args.indexOf(PREFIX_FILTER_EDUCATION.toString()) \u003c args.indexOf(PREFIX_FILTER_EDUCATION_REVERSE.toString())) {"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "            criterion[7] \u003d \"available\";"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            totalNumOfCriterion++;"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[1] !\u003d null) {"
+        "content": "        } else {"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[1] \u003d infoBetweenPrefixes(args, PREFIX_PHONE.toString(), PREFIX_PHONE_REVERSE.toString(),"
+        "content": "            criterion[7] \u003d null;"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess, false);"
+        "content": "        }"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                if (!Phone.isValidPhone(criterion[1])) {"
+        "content": ""
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    inputParameterInCorrectForm \u003d false;"
+        "content": "        if (totalNumOfCriterion \u003d\u003d 0) {"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    typeOfProcess.set(-1);"
+        "content": "            typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                }"
+        "content": "        } else {"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            if (criterion[0] !\u003d null) {"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[2] !\u003d null) {"
+        "content": "                criterion[0] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_NAME.toString(), PREFIX_FILTER_NAME_REVERSE.toString(),"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[2] \u003d infoBetweenPrefixes(args, PREFIX_EMAIL.toString(), PREFIX_EMAIL_REVERSE.toString(),"
+        "content": "                        typeOfProcess, false);"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess, false);"
+        "content": "                if (!Name.isValidName(criterion[0])) {"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                if (!Email.isValidEmail(criterion[2])) {"
+        "content": "                    inputParameterInCorrectForm \u003d false;"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    inputParameterInCorrectForm \u003d false;"
+        "content": "                    typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    typeOfProcess.set(-1);"
+        "content": "                }"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                }"
+        "content": "            }"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            if (criterion[1] !\u003d null) {"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[3] !\u003d null) {"
+        "content": "                criterion[1] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_PHONE.toString(), PREFIX_FILTER_PHONE_REVERSE.toString(),"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[3] \u003d infoBetweenPrefixes(args, PREFIX_ADDRESS.toString(), PREFIX_ADDRESS_REVERSE.toString(),"
+        "content": "                        typeOfProcess, false);"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess, false);"
+        "content": "                if (!phoneInputControl(criterion[1])) {"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                if (!Address.isValidAddress(criterion[3])) {"
+        "content": "                    inputParameterInCorrectForm \u003d false;"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    inputParameterInCorrectForm \u003d false;"
+        "content": "                    typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    typeOfProcess.set(-1);"
+        "content": "                }"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                }"
+        "content": "            }"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            if (criterion[2] !\u003d null) {"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[4] !\u003d null) {"
+        "content": "                criterion[2] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_EMAIL.toString(), PREFIX_FILTER_EMAIL_REVERSE.toString(),"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[4] \u003d infoBetweenPrefixes(args, PREFIX_SKILL.toString(), PREFIX_SKILL_REVERSE.toString(),"
+        "content": "                        typeOfProcess, false);"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess, false);"
+        "content": "            }"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                for (String tag : criterion[4].split(\",\")) {"
+        "content": ""
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    tag.trim();"
+        "content": "            if (criterion[3] !\u003d null) {"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    if (!SkillsTag.isValidTagName(tag)) {"
+        "content": "                criterion[3] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_ADDRESS.toString(), PREFIX_FILTER_ADDRESS_REVERSE.toString(),"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        inputParameterInCorrectForm \u003d false;"
+        "content": "                        typeOfProcess, false);"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess.set(-1);"
+        "content": "                if (!Address.isValidAddress(criterion[3])) {"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    }"
+        "content": "                    inputParameterInCorrectForm \u003d false;"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                }"
+        "content": "                    typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "                }"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[5] !\u003d null) {"
+        "content": ""
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[5] \u003d infoBetweenPrefixes(args, PREFIX_POS.toString(), PREFIX_POS_REVERSE.toString(),"
+        "content": "            if (criterion[4] !\u003d null) {"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess, false);"
+        "content": "                criterion[4] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_SKILL.toString(), PREFIX_FILTER_SKILL_REVERSE.toString(),"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                for (String tag : criterion[5].split(\",\")) {"
+        "content": "                        typeOfProcess, false);"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    tag \u003d tag.trim();"
+        "content": "                for (String tag : criterion[4].split(\",\")) {"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    System.out.println(tag);"
+        "content": "                    tag.trim();"
       },
       {
         "lineNumber": 204,
@@ -27947,294 +28020,294 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[6] !\u003d null) {"
+        "content": "            if (criterion[5] !\u003d null) {"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[6] \u003d infoBetweenPrefixes(args, PREFIX_GPA.toString(), PREFIX_GPA_REVERSE.toString(),"
+        "content": "                criterion[5] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_POS.toString(), PREFIX_FILTER_POS_REVERSE.toString(),"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        typeOfProcess, true);"
+        "content": "                        typeOfProcess, false);"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                if (!Gpa.isValidGpa(criterion[6])) {"
+        "content": "                for (String tag : criterion[5].split(\",\")) {"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    inputParameterInCorrectForm \u003d false;"
+        "content": "                    tag \u003d tag.trim();"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    typeOfProcess.set(-1);"
+        "content": "                    System.out.println(tag);"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                }"
+        "content": "                    if (!SkillsTag.isValidTagName(tag)) {"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "                        inputParameterInCorrectForm \u003d false;"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (criterion[7] !\u003d null) {"
+        "content": "                        typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                criterion[7] \u003d infoBetweenPrefixes(args, PREFIX_EDUCATION.toString(),"
+        "content": "                    }"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                        PREFIX_EDUCATION_REVERSE.toString(), typeOfProcess, false);"
+        "content": "                }"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                if (!Education.isValidEducation(criterion[7])) {"
+        "content": "            }"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    inputParameterInCorrectForm \u003d false;"
+        "content": ""
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                    typeOfProcess.set(-1);"
+        "content": "            if (criterion[6] !\u003d null) {"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                }"
+        "content": "                criterion[6] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_GPA.toString(), PREFIX_FILTER_GPA_REVERSE.toString(),"
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "                        typeOfProcess, true);"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "                if (!Gpa.isValidGpa(criterion[6])) {"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "                    inputParameterInCorrectForm \u003d false;"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        return criterion;"
+        "content": "                    typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    }"
+        "content": "                }"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    /**"
+        "content": "            if (criterion[7] !\u003d null) {"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     * Since filter form is like prefix/text/prefix, this function returns the text between given prefixes."
+        "content": "                criterion[7] \u003d infoBetweenPrefixes(args, PREFIX_FILTER_EDUCATION.toString(),"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "     */"
+        "content": "                        PREFIX_FILTER_EDUCATION_REVERSE.toString(), typeOfProcess, false);"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    private String infoBetweenPrefixes(String args, String prefixBegin, String prefixEnd,"
+        "content": "                if (!Education.isValidEducation(criterion[7])) {"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                                       AtomicInteger typeOfProcess, boolean isInputGpa) {"
+        "content": "                    inputParameterInCorrectForm \u003d false;"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "                    typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        int beginLoc \u003d args.indexOf(prefixBegin) + prefixBegin.length();"
+        "content": "                }"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        int endLoc \u003d args.indexOf(prefixEnd);"
+        "content": "            }"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (beginLoc \u003e\u003d endLoc) {"
+        "content": ""
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            typeOfProcess.set(-1);"
+        "content": "        return criterion;"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            return null;"
+        "content": "    }"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        for (int i \u003d beginLoc; i \u003c endLoc; i++) {"
+        "content": "     * Since filter form is like prefix/text/prefix, this function returns the text between given prefixes."
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (args.charAt(i) \u003d\u003d \u0027 \u0027) {"
+        "content": "     */"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                beginLoc++;"
+        "content": "    private String infoBetweenPrefixes(String args, String prefixBegin, String prefixEnd,"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            } else {"
+        "content": "                                       AtomicInteger typeOfProcess, boolean isInputGpa) {"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                break;"
+        "content": ""
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "        int beginLoc \u003d args.indexOf(prefixBegin) + prefixBegin.length();"
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "        int endLoc \u003d args.indexOf(prefixEnd);"
       },
       {
         "lineNumber": 253,
@@ -28248,224 +28321,224 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        for (int j \u003d endLoc - 1; j \u003e beginLoc; j--) {"
+        "content": "        if (beginLoc \u003e\u003d endLoc) {"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (args.charAt(j) \u003d\u003d \u0027 \u0027) {"
+        "content": "            typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                endLoc--;"
+        "content": "            return null;"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            } else {"
+        "content": "        }"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                break;"
+        "content": ""
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "        for (int i \u003d beginLoc; i \u003c endLoc; i++) {"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            if (args.charAt(i) \u003d\u003d \u0027 \u0027) {"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "                beginLoc++;"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        // checks if the Gpa value can be parsed into a float"
+        "content": "            } else {"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (isInputGpa) {"
+        "content": "                break;"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            try {"
+        "content": "            }"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                Float.parseFloat(args.substring(beginLoc, endLoc));"
+        "content": "        }"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            } catch (NumberFormatException e) {"
+        "content": ""
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                typeOfProcess.set(-1);"
+        "content": "        for (int j \u003d endLoc - 1; j \u003e beginLoc; j--) {"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                return args.substring(beginLoc, endLoc);"
+        "content": "            if (args.charAt(j) \u003d\u003d \u0027 \u0027) {"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "                endLoc--;"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "            } else {"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        return args.substring(beginLoc, endLoc).toLowerCase();"
+        "content": "                break;"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    }"
+        "content": "            }"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public FilterCommand parse(String args) throws ParseException {"
+        "content": "        // checks if the Gpa value can be parsed into a float"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "        if (isInputGpa) {"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        args \u003d args.trim().replaceAll(\" +\", \" \");"
+        "content": "            try {"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        AtomicInteger typeOfProcess \u003d new AtomicInteger(-1);"
+        "content": "                Float.parseFloat(args.substring(beginLoc, endLoc));"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        args \u003d filterTypeDivider(args, typeOfProcess);"
+        "content": "            } catch (NumberFormatException e) {"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "                typeOfProcess.set(-1);"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        String[] criterion \u003d {\" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \"};"
+        "content": "                return args.substring(beginLoc, endLoc);"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (typeOfProcess.get() !\u003d 0) {"
+        "content": "        }"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            criterion \u003d divideFilterCriterion(args, typeOfProcess);"
+        "content": "        return args.substring(beginLoc, endLoc).toLowerCase();"
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        }"
+        "content": "    }"
       },
       {
         "lineNumber": 286,
@@ -28479,77 +28552,77 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        if (typeOfProcess.get() \u003d\u003d -1) {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            if (!inputParameterInCorrectForm) {"
+        "content": "    public FilterCommand parse(String args) throws ParseException {"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                throw new ParseException(\"The filtering parameters entered is not correct accepted form!\");"
+        "content": ""
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            }"
+        "content": "        args \u003d args.trim().replaceAll(\" +\", \" \");"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, FilterCommand.MESSAGE_USAGE));"
+        "content": "        AtomicInteger typeOfProcess \u003d new AtomicInteger(-1);"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else if (typeOfProcess.get() \u003d\u003d 1) {"
+        "content": "        args \u003d filterTypeDivider(args, typeOfProcess);"
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            return new FilterCommand(args, criterion, 1);"
+        "content": ""
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else if (typeOfProcess.get() \u003d\u003d 2) {"
+        "content": "        String[] criterion \u003d {\" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \"};"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            return new FilterCommand(args, criterion, 2);"
+        "content": ""
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        } else {"
+        "content": "        if (typeOfProcess.get() !\u003d 0) {"
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "            return new FilterCommand(args, criterion, 0);"
+        "content": "            criterion \u003d divideFilterCriterion(args, typeOfProcess);"
       },
       {
         "lineNumber": 298,
@@ -28563,10 +28636,101 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 300,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "        if (typeOfProcess.get() \u003d\u003d -1) {"
+      },
+      {
+        "lineNumber": 301,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "            if (!inputParameterInCorrectForm) {"
+      },
+      {
+        "lineNumber": 302,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "                throw new ParseException(\"The filtering parameters entered is not correct accepted form!\");"
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, FilterCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "        } else if (typeOfProcess.get() \u003d\u003d 1) {"
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "            return new FilterCommand(args, criterion, 1);"
+      },
+      {
+        "lineNumber": 307,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "        } else if (typeOfProcess.get() \u003d\u003d 2) {"
+      },
+      {
+        "lineNumber": 308,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "            return new FilterCommand(args, criterion, 2);"
+      },
+      {
+        "lineNumber": 309,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "        } else {"
+      },
+      {
+        "lineNumber": 310,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "            return new FilterCommand(args, criterion, 0);"
+      },
+      {
+        "lineNumber": 311,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 312,
+        "author": {
+          "gitId": "barisbatuhan"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 313,
         "author": {
           "gitId": "barisbatuhan"
         },
@@ -28574,7 +28738,7 @@
       }
     ],
     "authorContributionMap": {
-      "barisbatuhan": 300
+      "barisbatuhan": 313
     }
   },
   {
@@ -29836,14 +30000,14 @@
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_POSITION_NUMBER;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_POSITIONS;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_POSITIONS;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_POSITION_NUMBER;"
       },
       {
         "lineNumber": 12,
@@ -29885,28 +30049,28 @@
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_POSITION_NUMBER;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_POSITIONS;"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_POSITIONS;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_POSITION_NUMBER;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_SKILL_NUMBER;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_SKILLS;"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_SKILLS;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_REVERSE_SKILL_NUMBER;"
       },
       {
         "lineNumber": 21,
@@ -29918,16 +30082,16 @@
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_SKILL_NUMBER;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_SKILLS;"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_SKILLS;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.SORTWORD_SKILL_NUMBER;"
       },
       {
         "lineNumber": 24,
@@ -29981,271 +30145,257 @@
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "barisbatuhan"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "barisbatuhan"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 33,
-        "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 32,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": " * Parses input arguments and creates a new DeleteCommand object"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 33,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": " */"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 34,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "public class SortCommandParser implements Parser\u003cSortCommand\u003e {"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 35,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": ""
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 36,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 37,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     * Parses the given {@code String} of arguments in the context of the SortCommand"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 38,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     * and returns an SortCommand object for execution."
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 39,
         "author": {
           "gitId": "barisbatuhan"
         },
         "content": "     *"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 40,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 41,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 42,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    public SortCommand parse(String args) throws ParseException {"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 43,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        String word \u003d args.substring(1);"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 44,
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "        String[] possibleSortWords \u003d {SORTWORD_EDUCATION.toString(),  SORTWORD_REVERSE_EDUCATION.toString(),"
+        "content": "        String[] possibleSortWords \u003d {SORTWORD_EDUCATION.toString(), SORTWORD_REVERSE_EDUCATION.toString(),"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 45,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_ENDORSEMENTS.toString(), SORTWORD_REVERSE_ENDORSEMENTS.toString(),"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 46,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_ENDORSEMENT_NUMBER.toString(), SORTWORD_REVERSE_ENDORSEMENT_NUMBER.toString(),"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 47,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_GPA.toString(), SORTWORD_REVERSE_GPA.toString(),"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 48,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_NAME.toString(), SORTWORD_REVERSE_NAME.toString(),"
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 49,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_POSITION_NUMBER.toString(), SORTWORD_REVERSE_POSITION_NUMBER.toString(),"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 50,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_POSITIONS.toString(), SORTWORD_REVERSE_POSITIONS.toString(),"
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 51,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_SKILL_NUMBER.toString(), SORTWORD_REVERSE_SKILL_NUMBER.toString(),"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 52,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_SKILLS.toString(), SORTWORD_REVERSE_SKILLS.toString(),"
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 53,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "                SORTWORD_SURNAME.toString(), SORTWORD_REVERSE_SURNAME.toString()};"
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 54,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        if (!areSortWordsPresent(word, possibleSortWords)) {"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 55,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortCommand.MESSAGE_USAGE));"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 56,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 57,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": ""
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 58,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        return new SortCommand(ParserUtil.parseSortWord(args));"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 59,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 60,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": ""
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 61,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 62,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     * Returns true if args is a sortWord."
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 63,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 64,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    private static boolean areSortWordsPresent(String inputWord, String[] sortWords) {"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 65,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "        return Arrays.stream(sortWords).parallel().anyMatch(inputWord::equals);"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 66,
         "author": {
           "gitId": "DMGreenhouse"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 67,
         "author": {
           "gitId": "DMGreenhouse"
         },
@@ -30253,8 +30403,8 @@
       }
     ],
     "authorContributionMap": {
-      "barisbatuhan": 9,
-      "DMGreenhouse": 60
+      "barisbatuhan": 11,
+      "DMGreenhouse": 56
     }
   },
   {
@@ -39934,7 +40084,7 @@
         "author": {
           "gitId": "DMGreenhouse"
         },
-        "content": "import seedu.address.model.tag.SkillsTag;"
+        "content": "import java.util.Set;"
       },
       {
         "lineNumber": 4,
@@ -39946,14 +40096,14 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
-        "content": "import java.util.Set;"
+        "content": "import seedu.address.model.tag.SkillsTag;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "DMGreenhouse"
+          "gitId": "barisbatuhan"
         },
         "content": ""
       },
@@ -40106,7 +40256,8 @@
       }
     ],
     "authorContributionMap": {
-      "DMGreenhouse": 27
+      "barisbatuhan": 2,
+      "DMGreenhouse": 25
     }
   },
   {
@@ -43741,7 +43892,7 @@
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        String prefix \u003d tagName.substring(0,1);"
+        "content": "        String prefix \u003d tagName.substring(0, 1);"
       },
       {
         "lineNumber": 25,
@@ -43755,7 +43906,7 @@
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        if(prefix.equals(\"s\")){"
+        "content": "        if (prefix.equals(\"s\")) {"
       },
       {
         "lineNumber": 27,
@@ -43769,7 +43920,7 @@
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        }else if(prefix.equals(\"p\")){"
+        "content": "        } else if (prefix.equals(\"p\")) {"
       },
       {
         "lineNumber": 29,
@@ -43783,7 +43934,7 @@
         "author": {
           "gitId": "abwilli"
         },
-        "content": "        }else{"
+        "content": "        } else {"
       },
       {
         "lineNumber": 31,
@@ -43802,208 +43953,201 @@
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "abwilli"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "-"
-        },
         "content": "    /**"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 36,
         "author": {
           "gitId": "abwilli"
         },
         "content": "     * Converts a given {@code SkillsTag} into this class for Jackson use."
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 38,
         "author": {
           "gitId": "abwilli"
         },
         "content": "    public JsonAdaptedTag(SkillsTag source) {"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
           "gitId": "abwilli"
         },
         "content": "        this.tagName \u003d source.tagName;"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
           "gitId": "abwilli"
         },
         "content": "        this.tagType \u003d source.tagType;"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    @JsonValue"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "    @JsonValue"
+        "content": "    public String getTagName() {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "    public String getTagName() {"
+        "content": "        return tagName;"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "        return tagName;"
+        "content": "    }"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 49,
-        "author": {
-          "gitId": "-"
-        },
         "content": "    /**"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 49,
         "author": {
           "gitId": "abwilli"
         },
         "content": "     * Converts this Jackson-friendly adapted tag object into the model\u0027s {@code SkillsTag} object."
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
         "content": "     *"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
         "content": "     * @throws IllegalValueException if there were any data constraints violated in the adapted tag."
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 53,
         "author": {
           "gitId": "abwilli"
         },
         "content": "    public SkillsTag toModelType() throws IllegalValueException {"
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 54,
         "author": {
           "gitId": "abwilli"
         },
         "content": "        if (!SkillsTag.isValidTagName(tagName)) {"
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 55,
         "author": {
           "gitId": "abwilli"
         },
         "content": "            throw new IllegalValueException(SkillsTag.MESSAGE_CONSTRAINTS);"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 57,
         "author": {
           "gitId": "abwilli"
         },
         "content": ""
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 58,
         "author": {
           "gitId": "abwilli"
         },
         "content": "        return new SkillsTag(tagName, tagType);"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
@@ -44011,7 +44155,7 @@
       }
     ],
     "authorContributionMap": {
-      "abwilli": 25,
+      "abwilli": 24,
       "-": 37
     }
   },
@@ -60067,42 +60211,42 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_ADDRESS;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_ADDRESS;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EDUCATION;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EDUCATION;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_EMAIL_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_EMAIL_REVERSE;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_GPA_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_GPA_REVERSE;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_NAME;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME_REVERSE;"
+        "content": "import static seedu.address.logic.parser.CliSyntax.PREFIX_FILTER_NAME_REVERSE;"
       },
       {
         "lineNumber": 14,
@@ -60193,42 +60337,42 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final String NON_EXISTING_PREFIX \u003d \"h/\";"
+        "content": "    public static final String NON_EXISTING_PREFIX \u003d \"h\u003c\";"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final String NON_EXISTING_PREFIX_REVERSE \u003d \"/h\";"
+        "content": "    public static final String NON_EXISTING_PREFIX_FILTER_REVERSE \u003d \"\u003eh\";"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final String VALID_NAME1 \u003d PREFIX_NAME + VALID_NAME_AMY + PREFIX_NAME_REVERSE;"
+        "content": "    public static final String VALID_NAME1 \u003d PREFIX_FILTER_NAME + VALID_NAME_AMY + PREFIX_FILTER_NAME_REVERSE;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final String MISSING_BEGIN_PREFIX_EMAIL \u003d VALID_EMAIL_AMY + PREFIX_EMAIL_REVERSE;"
+        "content": "    public static final String MISSING_BEGIN_PREFIX_FILTER_EMAIL \u003d VALID_EMAIL_AMY + PREFIX_FILTER_EMAIL_REVERSE;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final String MISSING_END_PREFIX_ADDRESS \u003d PREFIX_ADDRESS + VALID_ADDRESS_AMY;"
+        "content": "    public static final String MISSING_END_PREFIX_FILTER_ADDRESS \u003d PREFIX_FILTER_ADDRESS + VALID_ADDRESS_AMY;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "    public static final String MISSING_END_PREFIX_EDUCATION \u003d PREFIX_EDUCATION + VALID_GPA_AMY;"
+        "content": "    public static final String MISSING_END_PREFIX_FILTER_EDUCATION \u003d PREFIX_FILTER_EDUCATION + VALID_GPA_AMY;"
       },
       {
         "lineNumber": 32,
@@ -60396,7 +60540,7 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        assertParseFailure(parser, AND_TYPE + MISSING_END_PREFIX_ADDRESS, MESSAGE_INVALID_FORMAT);"
+        "content": "        assertParseFailure(parser, AND_TYPE + MISSING_END_PREFIX_FILTER_ADDRESS, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 56,
@@ -60417,7 +60561,7 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        assertParseFailure(parser, OR_TYPE + MISSING_BEGIN_PREFIX_EMAIL, MESSAGE_INVALID_FORMAT);"
+        "content": "        assertParseFailure(parser, OR_TYPE + MISSING_BEGIN_PREFIX_FILTER_EMAIL, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 59,
@@ -60438,7 +60582,7 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "        assertParseFailure(parser, AND_TYPE + MISSING_END_PREFIX_EDUCATION + PREFIX_GPA_REVERSE,"
+        "content": "        assertParseFailure(parser, AND_TYPE + MISSING_END_PREFIX_FILTER_EDUCATION + PREFIX_FILTER_GPA_REVERSE,"
       },
       {
         "lineNumber": 62,
@@ -60473,7 +60617,7 @@
         "author": {
           "gitId": "barisbatuhan"
         },
-        "content": "                + NON_EXISTING_PREFIX_REVERSE, MESSAGE_INVALID_FORMAT);"
+        "content": "                + NON_EXISTING_PREFIX_FILTER_REVERSE, MESSAGE_INVALID_FORMAT);"
       },
       {
         "lineNumber": 67,
