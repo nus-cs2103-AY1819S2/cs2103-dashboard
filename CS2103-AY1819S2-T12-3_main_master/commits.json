@@ -896,6 +896,103 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 580,
+        "deletions": 221,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "1e7f0001c691b7586f76fcf754cb811e635f770d",
+            "message": "Fix small bug in sorted medicine list",
+            "insertions": 38,
+            "deletions": 46
+          },
+          {
+            "hash": "73292704f2c6890ea29eb857b1b0f23451802ff0",
+            "message": "Fix codestyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7451f90241b4fb3f9c79326c4fdc6fd20e3d3273",
+            "message": "Improve FindCommand and FindCommandParser to look at other fields",
+            "insertions": 196,
+            "deletions": 17
+          },
+          {
+            "hash": "71898a66ed067e19cf21e343b2cc2dc957192005",
+            "message": "Add Predicate package and change import statements",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "2d977711f7198b94f172bb53f3881ce9cd71f602",
+            "message": "Small improvement to ExpiryTest and InformationPanelTest",
+            "insertions": 35,
+            "deletions": 3
+          },
+          {
+            "hash": "255709edf88682ed8918fafb5deb4ce5ff3c0370",
+            "message": "Fix codestyle",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "94c45d2ac97f3baa79e36906fa2970994caed32b",
+            "message": "Fix codestyle",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "970ec60e278339b9c0ba5d39c08c9786b4c90d0a",
+            "message": "Improve FindCommandParserTest",
+            "insertions": 33,
+            "deletions": 3
+          },
+          {
+            "hash": "a6ff03ba72b4148092cee2ee6a764b7f2dcfaf7c",
+            "message": "Update FindCommandTest to test for new functionality",
+            "insertions": 100,
+            "deletions": 27
+          },
+          {
+            "hash": "be386aeab1cbb59fb221acd19006774a1015c152",
+            "message": "Update FindCommandSystemTest for new functionality in FindCommand",
+            "insertions": 54,
+            "deletions": 42
+          },
+          {
+            "hash": "6fd9867889c9668802526044db58274c747d8121",
+            "message": "Update FindCommand in UserGuide",
+            "insertions": 25,
+            "deletions": 13
+          },
+          {
+            "hash": "58ee3c66e0ec687b93b8747b5044cea3f0579442",
+            "message": "Add InformationPanelSettings to UserPref",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "93cd57116636843963305c2dc79a238999f51544",
+            "message": "Clean up codestyle for BatchTable and InformationPanel",
+            "insertions": 39,
+            "deletions": 36
+          },
+          {
+            "hash": "2b9dd69221a466718de2819f36d1939cc57b34bc",
+            "message": "Improve InformationPanel section of developers guide",
+            "insertions": 17,
+            "deletions": 16
+          },
+          {
+            "hash": "e25cea201d0af9c5898c2abc75593245cbbbfd21",
+            "message": "Fix codestyle",
+            "insertions": 9,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "kevvvinn": [
@@ -1239,6 +1336,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -1866,6 +1969,49 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 109,
+        "deletions": 71,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "b778b9c4c6677599bb8a8ce4bea2a4b3a04c527b",
+            "message": "Updated Developer Guide",
+            "insertions": 51,
+            "deletions": 38
+          },
+          {
+            "hash": "7e052e89d9d2fb2f5910025a3a74b43184bd43eb",
+            "message": "Updated user guide",
+            "insertions": 29,
+            "deletions": 9
+          },
+          {
+            "hash": "e4bee499bcd47d5ae0dbd8490c89f1d2230058e1",
+            "message": "Updated Adoc",
+            "insertions": 23,
+            "deletions": 18
+          },
+          {
+            "hash": "bde18f0fe6864aa436d5b0dea886fb73df34c21a",
+            "message": "Added box to the output medicine label",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "f80c0d65193d4bf81531902eed350812a58bc582",
+            "message": "Fix import statement that cause checkstyle error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "46888976f9bbdbb8d86378f8d787cff370a19f4c",
+            "message": "Fixed conflict error",
+            "insertions": 0,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "JonathanLeeWH": [
@@ -2946,10 +3092,71 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 31,
+        "deletions": 28,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "76616fe2c49010255ef655fe0793a3978a243980",
+            "message": "Update jonathanleewh.adoc",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b6fd58b26a7d9ea0a5bdf6d1fd7412ae2d5d3f4e",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "034f988da2017cd7f1217e7b2508a2f6ccec2e99",
+            "message": "Update jonathanleewh.adoc",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "4354e6023be25eebdc60736f9212cb7a4a43a704",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "449d7778dff4a52853b715d6b4afa5822b102f2e",
+            "message": "Update UserGuide.adoc",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c0785db02b5d39bedc378d443cd6862d6338d9e7",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5beecff65d194b9a5ed9609a8095bdd849265ad9",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "00296a299d90a2cb46556a2f99edb81d371c1c1d",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d5c68d0d557a26d4cd29b3f3d20cc469d1ac975b",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 15,
+            "deletions": 13
+          },
+          {
+            "hash": "2996d7de591abc7525cba0862be318993f2a83b1",
+            "message": "Update UserGuide.adoc and DeveloperGuide.adoc",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2961,6 +3168,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -3805,22 +4018,28 @@
             "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jtankw3": 7046,
+    "jtankw3": 7463,
     "kevvvinn": 0,
-    "melpulomas": 666,
-    "JonathanLeeWH": 1388,
-    "flxffy": 2392
+    "melpulomas": 721,
+    "JonathanLeeWH": 1392,
+    "flxffy": 2364
   },
   "authorContributionVariance": {
-    "jtankw3": 1118173.6,
+    "jtankw3": 1102890.6,
     "kevvvinn": 0.0,
-    "melpulomas": 4803.594,
-    "JonathanLeeWH": 96191.06,
-    "flxffy": 32013.104
+    "melpulomas": 5127.118,
+    "JonathanLeeWH": 94545.12,
+    "flxffy": 31570.12
   },
   "authorDisplayNameMap": {
     "jtankw3": "TAN...SON",

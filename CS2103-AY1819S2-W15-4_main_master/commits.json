@@ -873,6 +873,12 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "yjpan47": [
@@ -1454,6 +1460,19 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 27,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "afcab5351aaac3d0302e823953c1b724b347e3cb",
+            "message": "Added equals() and hashcode() to DutySettings",
+            "insertions": 27,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "dreampursuer95": [
@@ -2050,6 +2069,31 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 157,
+        "deletions": 47,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "7d8915134cb004fc8846270cf5944a7ed42112a3",
+            "message": "Fixed schedule command",
+            "insertions": 107,
+            "deletions": 47
+          },
+          {
+            "hash": "f2e1ec83aa744d6b6b0b10eb5b5e332f20d20ba1",
+            "message": "Added unconfirm command for debugging purpose",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "992a6150289c14ced48da88a618658843f6707e4",
+            "message": "AddCommandTest fix",
+            "insertions": 10,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "mechome": [
@@ -2651,6 +2695,31 @@
             "message": "show requests on browser panel",
             "insertions": 73,
             "deletions": 21
+          }
+        ]
+      },
+      {
+        "insertions": 184,
+        "deletions": 56,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "490125c45fc0851ba2c775dca8d452a3bdad5d35",
+            "message": "Edit PPP and UserGuide",
+            "insertions": 14,
+            "deletions": 31
+          },
+          {
+            "hash": "a05e4bd70e4b19513503fb14f43a35f267ac9bde",
+            "message": "SwapCommand.java: edit to only allow swaps within next month",
+            "insertions": 22,
+            "deletions": 25
+          },
+          {
+            "hash": "0b42666fec5f3dbf1a746cced5c1ced974237a14",
+            "message": "add AcceptSwapCommand",
+            "insertions": 148,
+            "deletions": 0
           }
         ]
       }
@@ -3440,22 +3509,89 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 328,
+        "deletions": 85,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "ce0a81dead02ebee2179aef4844fc1d9e587bd80",
+            "message": "DeveloperGuide.adoc: change team name",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c7152fac06e6f039d21b9dde4a371d4937a41148",
+            "message": "Change Edit command tests",
+            "insertions": 121,
+            "deletions": 36
+          },
+          {
+            "hash": "1dc3d529227753199f450378f3e2333ce4f67916",
+            "message": "Change EditCommandSystemTest to include invalid password and usertype",
+            "insertions": 16,
+            "deletions": 6
+          },
+          {
+            "hash": "0916c54c0f2834a72a2771bd3e2de8f7ac993b87",
+            "message": "Change checksytling of DG and UG",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "5f197585d969ae0d8e0811c8e266d8b366ee7c50",
+            "message": "EditPersonDescriptor.java: Position literals first in String comparisons",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "18131b92a3495952f5c2fd3d128d6ab740737a49",
+            "message": "Change AddCommandSystemTest to add more test cases regarding fields of NRIC and Rank",
+            "insertions": 55,
+            "deletions": 16
+          },
+          {
+            "hash": "cefe97a7020e809473c20219b904bcb60ecf77ef",
+            "message": "Add extra tests",
+            "insertions": 53,
+            "deletions": 0
+          },
+          {
+            "hash": "0416dff8f3f2c46abc63737715677928b7f7c070",
+            "message": "Change tests to pass and add test cases",
+            "insertions": 41,
+            "deletions": 14
+          },
+          {
+            "hash": "e091c2598a6498b443b2b3345c9dc5cf108b4252",
+            "message": "Edit checkstyling to pass code review",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c1b5b85d4559431635d79a735a1c0315136ad69c",
+            "message": "Change CommandParserTestUtil to have more UserTypes",
+            "insertions": 31,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Valatheking": 476,
-    "yjpan47": 939,
-    "dreampursuer95": 1115,
-    "mechome": 2897,
-    "exactlyprecise": 1374
+    "Valatheking": 464,
+    "yjpan47": 929,
+    "dreampursuer95": 1260,
+    "mechome": 3040,
+    "exactlyprecise": 1662
   },
   "authorContributionVariance": {
-    "Valatheking": 13763.217,
-    "yjpan47": 40221.19,
-    "dreampursuer95": 30136.016,
-    "mechome": 388713.4,
-    "exactlyprecise": 14905.883
+    "Valatheking": 13551.417,
+    "yjpan47": 39545.703,
+    "dreampursuer95": 29983.283,
+    "mechome": 382185.1,
+    "exactlyprecise": 16831.383
   },
   "authorDisplayNameMap": {
     "Valatheking": "VAL...JAN",

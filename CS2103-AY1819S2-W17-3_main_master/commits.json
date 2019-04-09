@@ -589,10 +589,16 @@
         ]
       },
       {
-        "insertions": 8,
-        "deletions": 7,
+        "insertions": 40,
+        "deletions": 10,
         "date": "2019-04-03",
         "commitResults": [
+          {
+            "hash": "3d60388a9a0baa8249142ecb8aeb3d0914a9a542",
+            "message": "Edited MainWindow and CommandResult",
+            "insertions": 32,
+            "deletions": 3
+          },
           {
             "hash": "934a4502f90ad9f08c40fb310372bc36362e988a",
             "message": "Edited README.adoc to link to Coveralls",
@@ -614,15 +620,163 @@
         ]
       },
       {
+        "insertions": 652,
+        "deletions": 139,
+        "date": "2019-04-04",
+        "commitResults": [
+          {
+            "hash": "1568769f9cba8ad0ca0e7fb6f54e07958de602e8",
+            "message": "Edited SummaryCommand and SummaryCommandParser",
+            "insertions": 254,
+            "deletions": 17
+          },
+          {
+            "hash": "c664f62926f52d206a6ef22214bb952fafc76220",
+            "message": "Edited Model and ModelManager",
+            "insertions": 111,
+            "deletions": 8
+          },
+          {
+            "hash": "699282b6ab1f9ee326603916914866181a30905a",
+            "message": "Updated Tests",
+            "insertions": 50,
+            "deletions": 3
+          },
+          {
+            "hash": "6639ee70255eb3edce0fa7118d97e6a5b2d21d10",
+            "message": "Edited UI stuffs, Resolved NullPointerException",
+            "insertions": 237,
+            "deletions": 111
+          }
+        ]
+      },
+      {
+        "insertions": 195,
+        "deletions": 10,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "5850821b8d72381bc5dd45cb7d093692a0c864d3",
+            "message": "Edited FinanceTrackerParser",
+            "insertions": 11,
+            "deletions": 10
+          },
+          {
+            "hash": "a6672c57c75e087e7158f579462afe297a06e550",
+            "message": "Edited MainWindow and MainWindowHandle",
+            "insertions": 92,
+            "deletions": 0
+          },
+          {
+            "hash": "8380ac8236b88c1cfb6bf43f558d79bf29ea5aae",
+            "message": "Edited MainWindow and MainWindowHandle",
+            "insertions": 92,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 297,
+        "deletions": 97,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "a255c648b1ccbc429aea8257400afa1844e85bfe",
+            "message": "resolved checkStyleMain errors",
+            "insertions": 13,
+            "deletions": 23
+          },
+          {
+            "hash": "415112baa79b4c969e0b8c99a387899b31ab2dca",
+            "message": "resolved Date issue",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "c947ac0eea08954f732bcdcd2b79e8a948be4a29",
+            "message": "resolved compilation error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "10dc390bdcff1d68047cce3afb5c81674c2c638a",
+            "message": "resolved checkStyleMain errors",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "3de1f35364215fdd542db0332705f9e82fc8c751",
+            "message": "resolved checkstyleTest errors",
+            "insertions": 15,
+            "deletions": 5
+          },
+          {
+            "hash": "8ef16490f6f8cce7f01b18ce39195111f069479d",
+            "message": "resolved summaryCommandTest, still have some unresolved",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "6165f02e1faea223135d1ce5241c6296288adb0d",
+            "message": "resolved the 2 failing tests",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "598495351afad04b7984c197cc715f410f868897",
+            "message": "Attempt to have switch between browser and summary panel",
+            "insertions": 255,
+            "deletions": 62
+          }
+        ]
+      },
+      {
+        "insertions": 149,
+        "deletions": 115,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "7a5e0ec020422bb5993d0a914871810c3f4a9df2",
+            "message": "Resolved checkstyleMain errors",
+            "insertions": 71,
+            "deletions": 38
+          },
+          {
+            "hash": "3a18ca3cbd809ffddd3d1a7909117ddb9b441e20",
+            "message": "Resolved checkstyleMain and checkstyleTest errors",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "13b67148b973db67b0a443dac452b008ad4fee76",
+            "message": "Resolved failed tests in SummaryCommandParserTest",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "be39129124fa844e4b0975ab0afd801187a95a3c",
+            "message": "Resolved swapping of browserpanel and summarypanel, updated UG",
+            "insertions": 63,
+            "deletions": 60
+          },
+          {
+            "hash": "25fc507c224ac23e74508a78704d4d2364c12332",
+            "message": "Removed unused imports",
+            "insertions": 1,
+            "deletions": 4
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-04",
+        "date": "2019-04-08",
         "commitResults": []
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-05",
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -1231,6 +1385,30 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -1990,8 +2168,8 @@
         "commitResults": []
       },
       {
-        "insertions": 11,
-        "deletions": 2,
+        "insertions": 53,
+        "deletions": 23,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -2005,6 +2183,104 @@
             "message": "Quick Start + StartUI update",
             "insertions": 3,
             "deletions": 0
+          },
+          {
+            "hash": "1895ba09e67a1d8f154c41e1be0f9be86e22a265",
+            "message": "Updated DG and PPP",
+            "insertions": 41,
+            "deletions": 20
+          },
+          {
+            "hash": "d41394a36f809e99c47867ebdfa35f27d5638205",
+            "message": "Edited `theme` command section in UG`",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 312,
+        "deletions": 157,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "ee403ac6788a0b5cc606bab029a556a9605f5d8e",
+            "message": "Changed UI to look better",
+            "insertions": 28,
+            "deletions": 19
+          },
+          {
+            "hash": "b77ee2d7510fb320e1d2fd1a3fe4f67dc79d1b9d",
+            "message": "Added one more UI photo in README.adoc",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "fde85f4e4ce674d489ab23a0ecb8d1d1f9f3d80f",
+            "message": "README",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "56fe9fc77b763cb98776fcec17269fd663c26db9",
+            "message": "Ui.png",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c93a224a3e65c5c4958da570c54f835fe59bf697",
+            "message": "Updated Ui + README",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b317a576fbf21e50a471edca01cd32e168902c06",
+            "message": "README",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ad09964428c8ab5cddaa67762cd2d6b74c5bb32f",
+            "message": "Updated AllocateCommand \u0026 CategoryBudget",
+            "insertions": 273,
+            "deletions": 121
+          },
+          {
+            "hash": "250cc375e1ff435c62d56027a45a1d5cc81bdd9f",
+            "message": "Checkstyle edits",
+            "insertions": 3,
+            "deletions": 12
+          },
+          {
+            "hash": "6d8d8068f44a5b73fdd9581e092f134f59667f15",
+            "message": "Make summary work again",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 6,
+        "deletions": 6,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "7b8b9678682af0e3d0fbff6adb84cd19a6f5035c",
+            "message": "Make `spend` update summary table",
+            "insertions": 6,
+            "deletions": 6
           }
         ]
       }
@@ -2682,6 +2958,30 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "kjiaxuan": [
@@ -3616,26 +3916,167 @@
         ]
       },
       {
+        "insertions": 231,
+        "deletions": 246,
+        "date": "2019-04-05",
+        "commitResults": [
+          {
+            "hash": "061bb3c8206e37fcff322f0fd510643817ebd39d",
+            "message": "Undid comments for clearcommandsystemtest",
+            "insertions": 138,
+            "deletions": 150
+          },
+          {
+            "hash": "b1f67458a217e98e78f4e9c2a703f649e0f5c8ca",
+            "message": "Allowed ClearCommandSystemTest to run a little",
+            "insertions": 6,
+            "deletions": 18
+          },
+          {
+            "hash": "f873906c8c1ab51c806b06ac750845f6309b6f22",
+            "message": "Updated, colour of tags not working yet",
+            "insertions": 31,
+            "deletions": 21
+          },
+          {
+            "hash": "e7e5adbc2ed2038fbb26d52279ce8cb777a540bc",
+            "message": "Updated css files, colours still not working",
+            "insertions": 56,
+            "deletions": 57
+          }
+        ]
+      },
+      {
+        "insertions": 470,
+        "deletions": 471,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "aaa10b0f6bea7b4e7db1a96c243afef409e882a4",
+            "message": "ClearCommandSystemTest passed",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f19eff8f226da9b5de4aebd9849d11019c558520",
+            "message": "Tags are coloured again",
+            "insertions": 56,
+            "deletions": 56
+          },
+          {
+            "hash": "157b8f7d72cf6b72d4c561fa93615f127f07cb63",
+            "message": "Update colours",
+            "insertions": 60,
+            "deletions": 56
+          },
+          {
+            "hash": "e2b5782d28e26eec2ff38cfb6ed5720cbc9bf99b",
+            "message": "ClearCommandSystemTest pass with tags colour tested",
+            "insertions": 24,
+            "deletions": 21
+          },
+          {
+            "hash": "8d5ab505c26b0f25fcbc0cb5460338cb994ba026",
+            "message": "Checkstyle fixes",
+            "insertions": 4,
+            "deletions": 8
+          },
+          {
+            "hash": "9076816e816bf8c7b03eca3bde44752e5ffe6e80",
+            "message": "updated deletecommandsystemtest",
+            "insertions": 60,
+            "deletions": 57
+          },
+          {
+            "hash": "a54cf39ce881dfc2c4e66cd60d16b378814a4df8",
+            "message": "updated EditCommandSystemTest",
+            "insertions": 110,
+            "deletions": 107
+          },
+          {
+            "hash": "f64a9af240bb7b4d6e8360df0111aa0c87c61f35",
+            "message": "Updated HelpCommandSystemTest",
+            "insertions": 11,
+            "deletions": 13
+          },
+          {
+            "hash": "6a3625fa416c0e404b05cb2c6268380faaf6a399",
+            "message": "Updated SamplDataTest.java",
+            "insertions": 10,
+            "deletions": 13
+          },
+          {
+            "hash": "587996b48422de69d904f060e86a2fc9ae0f1eda",
+            "message": "Updated SearchCommandSystemTest",
+            "insertions": 80,
+            "deletions": 90
+          },
+          {
+            "hash": "be68f3c0e926b5165d33df8ed958df06a5e1ed2d",
+            "message": "Updated selectcommandsystemtest",
+            "insertions": 53,
+            "deletions": 48
+          }
+        ]
+      },
+      {
+        "insertions": 192,
+        "deletions": 122,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "3c2b060456a575f53b49221d7c05cf6d19dbef4f",
+            "message": "Updated spendcommandsystemtest",
+            "insertions": 140,
+            "deletions": 101
+          },
+          {
+            "hash": "1336ae6b403fc906736b0a248be6622e99f55268",
+            "message": "Added alias tests",
+            "insertions": 37,
+            "deletions": 0
+          },
+          {
+            "hash": "dfbfb781f3bfd6da8d694445ed9c5ef6a610ab2e",
+            "message": "Checkstyle fixes",
+            "insertions": 13,
+            "deletions": 19
+          },
+          {
+            "hash": "fa4d5eb684c92be2d0060225ac97ae5a23ae21b9",
+            "message": "Bug fix",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-05",
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "geezlouisee": 1234,
-    "JeremyLoye": 1309,
-    "Jackimaru96": 3927,
-    "eugeneyl": 2016,
-    "kjiaxuan": 3510
+    "geezlouisee": 2037,
+    "JeremyLoye": 1290,
+    "Jackimaru96": 3715,
+    "eugeneyl": 1960,
+    "kjiaxuan": 4103
   },
   "authorContributionVariance": {
-    "geezlouisee": 25529.908,
-    "JeremyLoye": 70223.57,
-    "Jackimaru96": 102153.66,
-    "eugeneyl": 352898.44,
-    "kjiaxuan": 191338.98
+    "geezlouisee": 35462.434,
+    "JeremyLoye": 65814.17,
+    "Jackimaru96": 97828.49,
+    "eugeneyl": 329741.72,
+    "kjiaxuan": 191610.89
   },
   "authorDisplayNameMap": {
     "geezlouisee": "LOUISE LEE HUI LING",

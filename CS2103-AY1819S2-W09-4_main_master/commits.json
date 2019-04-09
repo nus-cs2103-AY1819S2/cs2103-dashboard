@@ -759,6 +759,18 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ],
     "ongaaron96": [
@@ -1090,6 +1102,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-05",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
         "commitResults": []
       }
     ],
@@ -2174,6 +2198,104 @@
         "deletions": 0,
         "date": "2019-04-05",
         "commitResults": []
+      },
+      {
+        "insertions": 312,
+        "deletions": 42,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "74c2dd99748658b12fd3cb189792fa7a5c529121",
+            "message": "Added help command to display user guide",
+            "insertions": 25,
+            "deletions": 5
+          },
+          {
+            "hash": "e42816491bbbdf9e249a342227d4616843d0f05f",
+            "message": "display no longer editable, birth year checks, regex check for addresses, comments for patientmanager",
+            "insertions": 98,
+            "deletions": 18
+          },
+          {
+            "hash": "f6791237d56e23df0a6bd8086e07877503a5a632",
+            "message": "Fixed JUnit test wrt new Address Regex and patient search",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "c5a2ba829735e9a19e571741fb0794e517e5e914",
+            "message": "Added AbortConsultationCommand",
+            "insertions": 129,
+            "deletions": 2
+          },
+          {
+            "hash": "df2a80aa5f47040ede25535044e66276c00ddd41",
+            "message": "Fix checkstyle errors",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "f13d1d43539f828e5870b2db5624d48a5f12fa33",
+            "message": "Updated test for DOB and patientmanager to improve coverage",
+            "insertions": 37,
+            "deletions": 6
+          },
+          {
+            "hash": "794069633aaeb7085cedf41df322046497a2d87c",
+            "message": "Fixed error with dob check for feburary, non leap year dates",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "962a82e9297e904d6aa2b5214f14410a97a394f9",
+            "message": "Updated DOB to handle leap years and non leap years day more accurately",
+            "insertions": 6,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 128,
+        "deletions": 56,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "cb7e1995983470bec8966eb84ac6d5fd36cda3cd",
+            "message": "Added comments for patient module features",
+            "insertions": 36,
+            "deletions": 25
+          },
+          {
+            "hash": "7a8e7d2a3e84aaf6ae069ec73ad59cb0b9bad37b",
+            "message": "Edited comments for consultation features",
+            "insertions": 34,
+            "deletions": 20
+          },
+          {
+            "hash": "76775188f3fbc81611da734f70e8224131fe8a6d",
+            "message": "Fixed ongoing session label\u0027s positioning, added separator for each command entered",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "873f915cd2ebe9d3b4f3b2033497435e03968fa5",
+            "message": "Added symptom header when viewing diagnosis",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "44d74e42786ffa3aaa90ce7b8acde37f315902b2",
+            "message": "Edited usage messages for some commands",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "cb337c58f36d4798e1fca5daacd3c42eead7d38a",
+            "message": "Edited userguide for prerequisite requirements of some commands, added abort consult section",
+            "insertions": 39,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "Xue-Chenyang": [
@@ -3008,20 +3130,32 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "bentwj": 1530,
+    "bentwj": 1526,
     "ongaaron96": 0,
-    "simjiazhi": 7177,
-    "Xue-Chenyang": 3262
+    "simjiazhi": 7519,
+    "Xue-Chenyang": 3268
   },
   "authorContributionVariance": {
-    "bentwj": 24924.316,
+    "bentwj": 24205.332,
     "ongaaron96": 0.0,
-    "simjiazhi": 173918.3,
-    "Xue-Chenyang": 727440.8
+    "simjiazhi": 168169.69,
+    "Xue-Chenyang": 703887.44
   },
   "authorDisplayNameMap": {
     "bentwj": "TAN...IAN",

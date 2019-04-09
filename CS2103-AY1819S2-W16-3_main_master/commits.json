@@ -539,6 +539,19 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 15,
+        "deletions": 13,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "f356b832bc065b22911431250e499e39e889c483",
+            "message": "Fixed Issues",
+            "insertions": 15,
+            "deletions": 13
+          }
+        ]
       }
     ],
     "ZhangJiayu0303": [
@@ -985,6 +998,12 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "FanDongzhe": [
@@ -1413,6 +1432,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -2032,8 +2057,8 @@
         "commitResults": []
       },
       {
-        "insertions": 49,
-        "deletions": 8,
+        "insertions": 200,
+        "deletions": 4336,
         "date": "2019-04-08",
         "commitResults": [
           {
@@ -2077,22 +2102,112 @@
             "message": "Updated JAR file name",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "d5228aa0d378b542a9970a4abe7cacb5c3ac615d",
+            "message": "Fixed checkstyle, testing compile errors",
+            "insertions": 62,
+            "deletions": 7
+          },
+          {
+            "hash": "cf40bdb1ba5fc33410d327b0f17b69bd08434141",
+            "message": "Deleted UG/DG html exports",
+            "insertions": 0,
+            "deletions": 4274
+          },
+          {
+            "hash": "bda3982f638e93aae877f825221fd7f3f763d805",
+            "message": "Updated statusBarFooter to include company",
+            "insertions": 12,
+            "deletions": 7
+          },
+          {
+            "hash": "a7db961f9bde20948977962b4a1ee233cf16acdb",
+            "message": "Fixed checkstyle",
+            "insertions": 23,
+            "deletions": 11
+          },
+          {
+            "hash": "f3983baee84db2d3671211f72d2b8d2ac8c651e0",
+            "message": "Updated statusBarFooterTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a853c8e21f3b35710c5748ed4c76f659e130cd7d",
+            "message": "Added javadoc for checkStyle",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "a7663b58c62a07a9b75a278e241ad6e18f0ff537",
+            "message": "Fixed browserPanelTest",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "b4bd8d1c41dd24bdb8f7107868172301fa04c9f4",
+            "message": "Updated test data for jsonserializableaddressbook",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "ff8e8cf610defabc30a2f418fee20c8d7e58c6ff",
+            "message": "Updated logicManagerTest to include new attributes",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "1b0e4f4dee0b93acf6ad36916067cd65a83804e5",
+            "message": "Updated tests",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "7bfab608e9ac0febeb3a247a8c18ddac22f40fff",
+            "message": "Fixed test checkstyle",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "840c69dbf49c7e98906cafc041745a9d06026dc9",
+            "message": "Updated tests",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "f130261a28465c8373d5ae235b37d23e24b23b0a",
+            "message": "Removed unused imports",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "6dbb942e44f19317f7d77708f4faeb3f87e09dd3",
+            "message": "Can add different people w same everything except 1 attribute",
+            "insertions": 4,
+            "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "roanurquhart": 1942,
-    "ZhangJiayu0303": 1026,
+    "roanurquhart": 1943,
+    "ZhangJiayu0303": 1020,
     "FanDongzhe": 67,
-    "jkhiani": 4950
+    "jkhiani": 794
   },
   "authorContributionVariance": {
-    "roanurquhart": 21756.846,
-    "ZhangJiayu0303": 31621.809,
-    "FanDongzhe": 277.61215,
-    "jkhiani": 594018.7
+    "roanurquhart": 21391.855,
+    "ZhangJiayu0303": 31104.953,
+    "FanDongzhe": 272.9885,
+    "jkhiani": 909192.6
   },
   "authorDisplayNameMap": {
     "roanurquhart": "URQ...RAY",

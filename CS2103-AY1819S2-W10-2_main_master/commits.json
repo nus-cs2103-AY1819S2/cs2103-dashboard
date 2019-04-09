@@ -779,6 +779,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "jeffgan96": [
@@ -2134,16 +2140,47 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 168,
+        "deletions": 41,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9da8d2f53c147cc8630e10f232b3bac468dcc2e9",
+            "message": "changed userstory methods to return string added status into user stories",
+            "insertions": 163,
+            "deletions": 40
+          },
+          {
+            "hash": "4605f7f11b57e59244dda8d7bbf8d118d74cdde1",
+            "message": "midway editting (shouldved stashed but im lazy)",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "960d98971815038ed52d0801c39ba43371785ce1",
+            "message": "oops",
+            "insertions": 4,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 108,
-        "deletions": 41,
+        "insertions": 170,
+        "deletions": 65,
         "date": "2019-04-03",
         "commitResults": [
+          {
+            "hash": "7a84bcc7138c1de7c243fd35a9aad312f41054de",
+            "message": "added css to status",
+            "insertions": 45,
+            "deletions": 7
+          },
+          {
+            "hash": "75cdad38b82d128afec0d8be349608ec58f828f1",
+            "message": "minor css edits",
+            "insertions": 17,
+            "deletions": 17
+          },
           {
             "hash": "e533b50eac5972b01f210b4bade5e0a9e252ec10",
             "message": "designed projectsummary redesigned employeesummary to fix layout bug",
@@ -2178,7 +2215,7 @@
         ]
       },
       {
-        "insertions": 7,
+        "insertions": 163,
         "deletions": 5,
         "date": "2019-04-05",
         "commitResults": [
@@ -2193,20 +2230,81 @@
             "message": "updating ug dg",
             "insertions": 3,
             "deletions": 4
+          },
+          {
+            "hash": "4eeaa70eaf9b271bb8fd45725d38849f5398ced2",
+            "message": "editting halfway",
+            "insertions": 156,
+            "deletions": 0
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 96,
+        "deletions": 37,
         "date": "2019-04-06",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2f98fbb5ec276e16d0eb845a4fdfc31eb7eb5ba5",
+            "message": "UI fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "82f9505403b626b227c2afa9ccce430c0b3fb779",
+            "message": "added storage for status",
+            "insertions": 13,
+            "deletions": 2
+          },
+          {
+            "hash": "7e95ac666d4db3dba417131b4e849cd33061559e",
+            "message": "added util for status commands",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "d140ed9c72d83879e8f1cec933b1b37a417a306e",
+            "message": "added parser and command for status",
+            "insertions": 56,
+            "deletions": 30
+          },
+          {
+            "hash": "9260f8a307a3cdcb75605ba7f6ccebaba271a57d",
+            "message": "update exisiting user story test to fit statuses",
+            "insertions": 8,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 78,
-        "deletions": 74,
+        "insertions": 265,
+        "deletions": 76,
         "date": "2019-04-07",
         "commitResults": [
+          {
+            "hash": "09a4225f40bd098d64402d87defec1ca7a54795b",
+            "message": "update model to fit status",
+            "insertions": 39,
+            "deletions": 1
+          },
+          {
+            "hash": "349321bd3c473b521edf6c2b83c394be76cfa3cc",
+            "message": "fix bug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e8341c40e9bce39e675b8d118e4478583c242b20",
+            "message": "editted stub",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "5410c51431e64b92affcf63f5a8dcfbaea77f406",
+            "message": "add command test and parser test",
+            "insertions": 136,
+            "deletions": 0
+          },
           {
             "hash": "d860f6a6be1fd2b1ea190cb0c92b2c82cdac0411",
             "message": "fix resultdisplay bug",
@@ -2266,6 +2364,49 @@
             "message": "formatting fix",
             "insertions": 0,
             "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 281,
+        "deletions": 16,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "dcaa0d5029bc65ac4836520b139cd546159ee952",
+            "message": "ui fix",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "adf3b383bfc0adf58549ad0419d050ce902c2d68",
+            "message": "update model to allow setting of user story",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "c1c776fa493fd2ca7eac3a75449318354e8c0db2",
+            "message": "add editprojectuserstory command",
+            "insertions": 204,
+            "deletions": 3
+          },
+          {
+            "hash": "ad8cc3610eb3fe152ba425a0ba28b136ee29b49f",
+            "message": "edit parser to allow user stories",
+            "insertions": 48,
+            "deletions": 4
+          },
+          {
+            "hash": "fac2833a1a24f74f238345f02bf4255fbbcb657c",
+            "message": "formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0f24090ec0879c223ff1e1509960d799a6e4d5b3",
+            "message": "formatting",
+            "insertions": 6,
+            "deletions": 6
           }
         ]
       }
@@ -3635,6 +3776,12 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "shunnizuka": [
@@ -4692,6 +4839,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -6520,22 +6673,35 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "f4df1aad55d340c9f0400ed8a74d99d8da48b520",
+            "message": "corrected message usage for UpdateCommand.java",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 3737,
-    "jeffgan96": 5391,
-    "dehui333": 3917,
-    "shunnizuka": 3446,
-    "jothipillay": 5000
+    "ditan96": 3739,
+    "jeffgan96": 6245,
+    "dehui333": 3928,
+    "shunnizuka": 3441,
+    "jothipillay": 4999
   },
   "authorContributionVariance": {
-    "ditan96": 227967.45,
-    "jeffgan96": 164641.69,
-    "dehui333": 110945.734,
-    "shunnizuka": 56661.45,
-    "jothipillay": 127242.734
+    "ditan96": 224501.05,
+    "jeffgan96": 159359.23,
+    "dehui333": 109396.31,
+    "shunnizuka": 55877.62,
+    "jothipillay": 125692.38
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

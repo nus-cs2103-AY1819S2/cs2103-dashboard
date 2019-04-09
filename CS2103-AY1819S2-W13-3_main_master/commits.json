@@ -769,8 +769,8 @@
         ]
       },
       {
-        "insertions": 69,
-        "deletions": 44,
+        "insertions": 375,
+        "deletions": 139,
         "date": "2019-04-07",
         "commitResults": [
           {
@@ -808,6 +808,91 @@
             "message": "update PPP",
             "insertions": 22,
             "deletions": 4
+          },
+          {
+            "hash": "b83b76fc126bc710a037a9662c6a680b601f00d8",
+            "message": "fixed SearchCommandTest and added zero keywords tests",
+            "insertions": 120,
+            "deletions": 52
+          },
+          {
+            "hash": "fde98392590e9cd857ee67e0853898aad5293211",
+            "message": "update SourceContainsKeywordsPredicate to allow multiple title, type, detail fields",
+            "insertions": 65,
+            "deletions": 27
+          },
+          {
+            "hash": "402e4cb8600a714dcb109709841641087a214e53",
+            "message": "add multiple keywords tests and minor edit to search logic",
+            "insertions": 121,
+            "deletions": 16
+          }
+        ]
+      },
+      {
+        "insertions": 265,
+        "deletions": 114,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "d629e03a630bb46fb6ba0921ec4593a4337312d6",
+            "message": "fix emptyArg parser test",
+            "insertions": 42,
+            "deletions": 4
+          },
+          {
+            "hash": "92aa026da3a5037396ec56fd25fcff01ac93b285",
+            "message": "implement parser tests with other combination of args [TEMP @IGNORE]",
+            "insertions": 63,
+            "deletions": 18
+          },
+          {
+            "hash": "fe8758d6f20acef76700be8a3553e9977e142608",
+            "message": "fix SourceManagerParserTest for search [TEMP @IGNORE]",
+            "insertions": 13,
+            "deletions": 18
+          },
+          {
+            "hash": "cfb487c327428494112ec6e4d56e01386b747276",
+            "message": "update tests\u0027 argMultimap formation",
+            "insertions": 20,
+            "deletions": 18
+          },
+          {
+            "hash": "7fd132d475e1e81517278deda46e8d5ccb329cfc",
+            "message": "fix all tests and remove @IGNORE",
+            "insertions": 14,
+            "deletions": 5
+          },
+          {
+            "hash": "745fa3efa3c3b84408a8b06d24223b59a4341ebd",
+            "message": "implement .equals() method in ArgumentMultimap and fix all tests (minor checkstyle fixes too)",
+            "insertions": 31,
+            "deletions": 14
+          },
+          {
+            "hash": "89dceb77e2b32cd08a556236ae93e8d9940ea4e4",
+            "message": "override hashcode methods for search command related classes and simplify equals method implementation of ArgumentMultimap",
+            "insertions": 16,
+            "deletions": 14
+          },
+          {
+            "hash": "d4ce7e93c950d2b57db839d5dc63a3614efbe743",
+            "message": "update UG",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "891ff1b2a66dd2e9cb0135b86884eba990def964",
+            "message": "update DG",
+            "insertions": 26,
+            "deletions": 7
+          },
+          {
+            "hash": "4e0fc5b2a57de5eb3cc915509d1adb9095907a33",
+            "message": "update PPP",
+            "insertions": 34,
+            "deletions": 14
           }
         ]
       }
@@ -1394,9 +1479,22 @@
         "commitResults": []
       },
       {
+        "insertions": 5,
+        "deletions": 3,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "83c193615947a1ee755a97bed0eb5708e000dfbc",
+            "message": "Update UserGuide.adoc",
+            "insertions": 5,
+            "deletions": 3
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-07",
+        "date": "2019-04-08",
         "commitResults": []
       }
     ],
@@ -2792,6 +2890,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
       }
     ],
     "DarrenDragonLee": [
@@ -3373,6 +3477,37 @@
             "message": "Yet even more minor changes",
             "insertions": 2,
             "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 217,
+        "deletions": 11,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "fb8cb26755df0898ab7ad181302b0e08450f5e43",
+            "message": "Minor Update to handle Hashcode issue",
+            "insertions": 208,
+            "deletions": 3
+          },
+          {
+            "hash": "6c07528f5520db7c5373f7511a0ff4e7ac7fae0f",
+            "message": "Removed ONE whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "70aadbe1195564749d3109ea809eb3960b9ebafc",
+            "message": "Added a few white spaces",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "c81955778ceaa6f42f6ac38027afb27f9d05ce15",
+            "message": "Added another space",
+            "insertions": 1,
+            "deletions": 0
           }
         ]
       }
@@ -4363,22 +4498,113 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 168,
+        "deletions": 115,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "4152b322097d07fa694792a758cccbe754b63104",
+            "message": "Support dependency injection (AliasStorage)",
+            "insertions": 51,
+            "deletions": 28
+          },
+          {
+            "hash": "b93f82d5c237ccd91f76dc1683b88795548021cb",
+            "message": "Update tests",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ffcbb3b03c19540e1820aacb4f2bda7b2e6fad72",
+            "message": "Remove unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "30fcc41d8d13d4a4e62358d53ae33314e110f27a",
+            "message": "Add logging statements",
+            "insertions": 20,
+            "deletions": 1
+          },
+          {
+            "hash": "23363a7f14ce6e23c07f36831511ea48541cd9a2",
+            "message": "Update test suite",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "d15d6887d96cc89f36aec68a702aff9cc1676ad5",
+            "message": "Refactor disallowedCommands into within CommandValidator interface",
+            "insertions": 30,
+            "deletions": 27
+          },
+          {
+            "hash": "f117843a71753f5ba50e87a2f5ab88bb13a002c1",
+            "message": "Fix checkstyle violations",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "9e5ce7e6a9a8399fe1fbdbdb3a391a8be7521e85",
+            "message": "Update unregisterAlias() specification and method",
+            "insertions": 17,
+            "deletions": 4
+          },
+          {
+            "hash": "b30c15a7584b84414aa5fc194fb1d6e800355217",
+            "message": "Fix bug: exceptions handled with DummyCommand instead of ParseException",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "36d163f7d836d32e4176f7df5af8cfc32db20a30",
+            "message": "Update tests",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "d9f6872098ceb0b2c86150c2dbed3807ea314a37",
+            "message": "Fix checkstyle: add javadoc",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "5ee37fafe48f1737cc9863d77f09d92da1576d8b",
+            "message": "Update tests",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "bb539d05d1eabc38ee5ef19ee5a05b902cc18b75",
+            "message": "Throw exception when aliasing invalid command",
+            "insertions": 9,
+            "deletions": 5
+          },
+          {
+            "hash": "ea31ace95d3f72acfaae493d5402d0eb06858579",
+            "message": "Clean up test cases",
+            "insertions": 14,
+            "deletions": 28
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 1210,
-    "DoItTomorrow": 213,
-    "case141": 4661,
-    "DarrenDragonLee": 1690,
-    "fterh": 2671
+    "suriruhani": 1594,
+    "DoItTomorrow": 216,
+    "case141": 4654,
+    "DarrenDragonLee": 1891,
+    "fterh": 2724
   },
   "authorContributionVariance": {
-    "suriruhani": 45407.016,
-    "DoItTomorrow": 946.9825,
-    "case141": 4.7537649E9,
-    "DarrenDragonLee": 25825.357,
-    "fterh": 134911.11
+    "suriruhani": 49498.508,
+    "DoItTomorrow": 930.65515,
+    "case141": 4.6739825E9,
+    "DarrenDragonLee": 25856.127,
+    "fterh": 132979.22
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",

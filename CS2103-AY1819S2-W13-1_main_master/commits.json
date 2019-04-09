@@ -1382,6 +1382,12 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "wayneswq": [
@@ -2131,14 +2137,105 @@
         ]
       },
       {
-        "insertions": 152,
-        "deletions": 1,
+        "insertions": 2320,
+        "deletions": 1742,
         "date": "2019-04-08",
         "commitResults": [
           {
             "hash": "8b2f727a9512c2caf2baa2df18ad903700692efa",
             "message": "added search-pid search-did command",
             "insertions": 152,
+            "deletions": 1
+          },
+          {
+            "hash": "4482f4d02c5dae0116ff78fcc67b378cec52ff93",
+            "message": "correct typo",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3b9c81d50acebfe955db4336416e74001d267193",
+            "message": "add search-advanced",
+            "insertions": 179,
+            "deletions": 2
+          },
+          {
+            "hash": "c72d6e9465b1f7a92462d8e3090e37b489bfe27d",
+            "message": "fix checkstyle",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "a04efaf761410d06725f70199b4ae70a5ce35dd5",
+            "message": "fix regex for gender and tag",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "3013242c6c50d73e99b3d2dad26f3a8a661d2894",
+            "message": "add search-patient-apptstatus",
+            "insertions": 407,
+            "deletions": 161
+          },
+          {
+            "hash": "1740565c57ef2da0543b70b1c5a337df753f6a1f",
+            "message": "update ui and commented out system tests",
+            "insertions": 1570,
+            "deletions": 1570
+          }
+        ]
+      },
+      {
+        "insertions": 1827,
+        "deletions": 1678,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "5e6b1de8763cd7a647d20e5051369d841ee7e1c3",
+            "message": "fix system test",
+            "insertions": 1528,
+            "deletions": 1457
+          },
+          {
+            "hash": "27079212ce858bd4c18464121be5cc3f016774e4",
+            "message": "fix checkstyle",
+            "insertions": 91,
+            "deletions": 104
+          },
+          {
+            "hash": "0757c09cfae02bad00c6a35ac16bc49a2598c0c0",
+            "message": "fix checkstyle2",
+            "insertions": 67,
+            "deletions": 67
+          },
+          {
+            "hash": "e8434d21f0bb3a2b74c466edda18f20fb1a946d3",
+            "message": "fix checkstyle3",
+            "insertions": 20,
+            "deletions": 13
+          },
+          {
+            "hash": "27b0b149e52af701f3756af3315b271442cee72f",
+            "message": "fix checkstyle4",
+            "insertions": 49,
+            "deletions": 18
+          },
+          {
+            "hash": "0e8f3d0cb10abcaa5f4875132ff9e3b6ae8f17f8",
+            "message": "fix checkstyle5",
+            "insertions": 13,
+            "deletions": 12
+          },
+          {
+            "hash": "70166660250dad0ae34d5aaa5bfbbc769381427e",
+            "message": "update UG for patient",
+            "insertions": 26,
+            "deletions": 6
+          },
+          {
+            "hash": "21b95cfb97bf4960ede080401d3da0af4c3b48cc",
+            "message": "update UG to include all new patient commands",
+            "insertions": 33,
             "deletions": 1
           }
         ]
@@ -2735,8 +2832,8 @@
         ]
       },
       {
-        "insertions": 502,
-        "deletions": 105,
+        "insertions": 687,
+        "deletions": 179,
         "date": "2019-04-08",
         "commitResults": [
           {
@@ -2744,8 +2841,32 @@
             "message": "add-appt user input fully validated",
             "insertions": 502,
             "deletions": 105
+          },
+          {
+            "hash": "d369363ffab998220d3d8f6b2765629cbb0dd114",
+            "message": "added validation for date not in calendar",
+            "insertions": 13,
+            "deletions": 7
+          },
+          {
+            "hash": "9d2470fcedb3142adc04c279c7debac1ca0139ba",
+            "message": "added PersonId to have better type safety",
+            "insertions": 140,
+            "deletions": 58
+          },
+          {
+            "hash": "18a383e32c9204f763ecfe4c65769f2a964c71e1",
+            "message": "updated test cases to support PersonId",
+            "insertions": 32,
+            "deletions": 9
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "GongChangda": [
@@ -3214,6 +3335,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -4265,26 +4392,136 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 561,
+        "deletions": 195,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b1924e89940b2fca740a8ba3b39ed4e3fc505714",
+            "message": "find patient/doctor by id",
+            "insertions": 59,
+            "deletions": 12
+          },
+          {
+            "hash": "b8f64a4804552fb997ba2aafe9409ddad685ba92",
+            "message": "allow edition of only write up of medical history",
+            "insertions": 218,
+            "deletions": 14
+          },
+          {
+            "hash": "3833683219cfada69b746cb8868830f3d67db406",
+            "message": "fix checkstyle",
+            "insertions": 7,
+            "deletions": 10
+          },
+          {
+            "hash": "7a7e69496dc029d149ca0ff1eaba7f649841625b",
+            "message": "change date to ValidDate",
+            "insertions": 54,
+            "deletions": 12
+          },
+          {
+            "hash": "fd3645c4d78b55a3a4f1a1e95f13ef470c0272ef",
+            "message": "change all id to PersonId",
+            "insertions": 89,
+            "deletions": 77
+          },
+          {
+            "hash": "09500f855c86e6c72334f66e68dd1de4a33644ef",
+            "message": "test and checkstyles",
+            "insertions": 13,
+            "deletions": 16
+          },
+          {
+            "hash": "f27d9b17983edc59a858a755ed6cb3a142963892",
+            "message": "checkstyle",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "2a82e1c059a31699bd9de81623f03c6e76c196bd",
+            "message": "Change findPatient/DoctorById to model part",
+            "insertions": 85,
+            "deletions": 35
+          },
+          {
+            "hash": "5e1a85d41d0c5a575918d9f2af760f5defffe756",
+            "message": "tests and checkstyle",
+            "insertions": 27,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 284,
+        "deletions": 112,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "992638e171d0a546ff5a20b9fb420dd413cc7807",
+            "message": "Handle deleted patient and doctor in  medical history",
+            "insertions": 78,
+            "deletions": 8
+          },
+          {
+            "hash": "68c77ae241590e88f0b961461dd3d0e04f1cd6bc",
+            "message": "Validation of input of listmedhist",
+            "insertions": 76,
+            "deletions": 52
+          },
+          {
+            "hash": "ab38e08736b272d3e07532ead06ce92199a49a45",
+            "message": "update userguide",
+            "insertions": 26,
+            "deletions": 14
+          },
+          {
+            "hash": "ecf5ab137585bb1600168f9f0613707916e971c6",
+            "message": "update UG",
+            "insertions": 67,
+            "deletions": 16
+          },
+          {
+            "hash": "afa812299acc5515939861ae9522537762da4246",
+            "message": "fix minor bugs",
+            "insertions": 9,
+            "deletions": 8
+          },
+          {
+            "hash": "01eacdb2db91f57c203d0fb717d740eb4e822056",
+            "message": "update medhist browser",
+            "insertions": 23,
+            "deletions": 7
+          },
+          {
+            "hash": "6bfcb26dc9937c17f22cc2614d95b6375205b00b",
+            "message": "fix checkstyle",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "36ecbb36d6fb8aa548835f5fa7e501088bd2d378",
+            "message": "update config.json",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "siyingpoof": 6298,
-    "wayneswq": 7456,
-    "amuletxheart": 2650,
-    "GongChangda": 576,
-    "Liuyy99": 2134
+    "siyingpoof": 6235,
+    "wayneswq": 8320,
+    "amuletxheart": 2691,
+    "GongChangda": 568,
+    "Liuyy99": 2688
   },
   "authorContributionVariance": {
-    "siyingpoof": 1425830.4,
-    "wayneswq": 971908.44,
-    "amuletxheart": 34426.69,
-    "GongChangda": 2803.7634,
-    "Liuyy99": 46152.043
+    "siyingpoof": 1403301.5,
+    "wayneswq": 1378927.9,
+    "amuletxheart": 39767.83,
+    "GongChangda": 2758.9836,
+    "Liuyy99": 53925.094
   },
   "authorDisplayNameMap": {
     "siyingpoof": "ONG...ING",

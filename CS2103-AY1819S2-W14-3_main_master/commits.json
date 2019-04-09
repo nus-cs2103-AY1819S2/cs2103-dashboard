@@ -3009,8 +3009,8 @@
         ]
       },
       {
-        "insertions": 33,
-        "deletions": 24,
+        "insertions": 34,
+        "deletions": 66,
         "date": "2019-04-06",
         "commitResults": [
           {
@@ -3050,6 +3050,24 @@
             "deletions": 1
           },
           {
+            "hash": "5949108d885560af4d932a246616473cd10bcfe7",
+            "message": "Remove Find from UG",
+            "insertions": 0,
+            "deletions": 22
+          },
+          {
+            "hash": "d2d11d3303fb0ca55c8333249c15611073542f2b",
+            "message": "Remove Select from UG",
+            "insertions": 0,
+            "deletions": 19
+          },
+          {
+            "hash": "0680c2594712c3aa8cac1e098fff36c2d54ca786",
+            "message": "Fix releases link in UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
             "hash": "3752d24bb98faa02d6a144330fc1ce29c42fc333",
             "message": "Update PutShipCommand",
             "insertions": 1,
@@ -3064,10 +3082,35 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 19,
+        "deletions": 12,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "17e620cc66d7079f1ab9aea875c6e3f6b2af762f",
+            "message": "Update error messages in PutShipCommand",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "65e4de8b075ee4b16820927d3678fcbcb099ce63",
+            "message": "Update Coordinates",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "1d67d785e852e59583a5d4f874f286240c10bb1c",
+            "message": "Update exception handling in PutShipCommand",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "a3c05050db9375183cab882dbdf6b952a5790546",
+            "message": "Update PutShipCommand with meaningful output",
+            "insertions": 5,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "lucydotc": [
@@ -5591,15 +5634,15 @@
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1338,
-    "iwle": 2909,
-    "lucydotc": 790,
+    "erjillsison": 1336,
+    "iwle": 2917,
+    "lucydotc": 788,
     "bos10": 772,
     "s-tr": 1678
   },
   "authorContributionVariance": {
     "erjillsison": 175617.02,
-    "iwle": 33886.383,
+    "iwle": 33710.418,
     "lucydotc": 4854.628,
     "bos10": 14214.03,
     "s-tr": 153824.11
