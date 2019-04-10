@@ -1095,6 +1095,80 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 71,
+        "deletions": 31,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "e0aa2cf3219ecf849ee45d0d0b0be44c3fc7c6fd",
+            "message": "Add ClearCardCommand",
+            "insertions": 71,
+            "deletions": 31
+          }
+        ]
+      },
+      {
+        "insertions": 464,
+        "deletions": 660,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "10305062f1eb523619008302f4f63df8968e8bcd",
+            "message": "Added ClearCardCommandTest",
+            "insertions": 47,
+            "deletions": 0
+          },
+          {
+            "hash": "b0bea79be27a20112526b8570c286a6d4c556d35",
+            "message": "Fix FindCardSystemTest",
+            "insertions": 205,
+            "deletions": 151
+          },
+          {
+            "hash": "1f20d30f907c279d577cfc3b3f2683d51597c25d",
+            "message": "Fix FindCardSystemTest",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d3929f8f4e4caa02834ee2760801ee4dc4430224",
+            "message": "SelectCardCommand Changed",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "7bd99a8693ea4ba6b554c27d848829a3fd354e9b",
+            "message": "Update SelectCardCommand to show card details",
+            "insertions": 38,
+            "deletions": 352
+          },
+          {
+            "hash": "641ec5e0278b9803d12ba8fd04b3cf2c7db6d023",
+            "message": "Update Cards UG",
+            "insertions": 31,
+            "deletions": 17
+          },
+          {
+            "hash": "0fc86adf3d75303d4f8ad89be05bcb9193aeb439",
+            "message": "Update Cards UG",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "501c605d38e2020e69416a49175f131445216b14",
+            "message": "Fix checkstyle",
+            "insertions": 127,
+            "deletions": 132
+          }
+        ]
       }
     ],
     "ckjohn000": [
@@ -1854,6 +1928,217 @@
             "message": "comment out failed test",
             "insertions": 8,
             "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 806,
+        "deletions": 313,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "b7aa626fb9e9359b1dd33803a76324c1da2a6723",
+            "message": "add importdeck command",
+            "insertions": 60,
+            "deletions": 0
+          },
+          {
+            "hash": "430b42042434c845b1be1c619e11cccdcaff9334",
+            "message": "add deckimport exception",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "50e79bdb95caa2d314508746d3529cbd69dec4f5",
+            "message": "add import in model",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "5fc31ea37196c0b619236d79b494ef89c522d8fa",
+            "message": "add more messages",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "654bb351e3997531b831fd8f0e96a4b31169344c",
+            "message": "add porter api",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "9a7f73f481457350f7c888cd4be0a3e3faa60f60",
+            "message": "add savedata to jsonutil",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "2b9d04c895a79cd2820ca964dd39a4ddf2891adb",
+            "message": "add getdata to jsonutil",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "1cf2da891ae6436ee930077d84351e15c6fd29c3",
+            "message": "add portmanager",
+            "insertions": 118,
+            "deletions": 2
+          },
+          {
+            "hash": "7a3fe9c2784334e1db5302075cee36747f0010ce",
+            "message": "add jsonexportabledeck",
+            "insertions": 100,
+            "deletions": 0
+          },
+          {
+            "hash": "800b6b9b3dd89e7ae28238ad0c62153b2b01c81e",
+            "message": "add export in model",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "47e1e463a2fb1c837534e98bddb736a2887735a2",
+            "message": "add export to model api",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "cfc0d7ae7f28010876f1fc03ed04d080f7895825",
+            "message": "add import deck command parser",
+            "insertions": 25,
+            "deletions": 1
+          },
+          {
+            "hash": "fa213272dba501d14c492ff30b5190be0382afbf",
+            "message": "add import deck command",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "429f52d59d823fe39fd07a2c0b9f9b82118b1529",
+            "message": "add export deck command parser",
+            "insertions": 27,
+            "deletions": 1
+          },
+          {
+            "hash": "73847fe1585d7817a44eab247c2a43d83c340f7e",
+            "message": "add export deck command",
+            "insertions": 59,
+            "deletions": 1
+          },
+          {
+            "hash": "1edb4b3540a0bdb130352ef948ee8d9cc31738e7",
+            "message": "add import export to parser",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "9bce3ad3583ef81485cba7708ae68d60fa0e1d01",
+            "message": "add portmanager in topdeck",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f441c2f70ff83fb3e21d5fc589bfd4fd7f1bd255",
+            "message": "allow importdeck to be optional",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "b61b61e4463a070ea36e8de039e7f62aefb7d8f5",
+            "message": "change porterapi",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "49933093b06b8c170cac48da3d50be9dce0e09ef",
+            "message": "change exception thrown",
+            "insertions": 8,
+            "deletions": 20
+          },
+          {
+            "hash": "f90a61f0a279bdd1700599a5a00a6152cad036ff",
+            "message": "add sample import deck",
+            "insertions": 64,
+            "deletions": 0
+          },
+          {
+            "hash": "5e06a3789bc361fbbc94a2a8ecb4f0ee914513d3",
+            "message": "change file name and directory",
+            "insertions": 0,
+            "deletions": 247
+          },
+          {
+            "hash": "10c50b97c0042c09cdc8e56d36bb3435acfa46f3",
+            "message": "add sample export deck",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "e0ae9818fb54e97bbc7aa92f04792f92f21ece1f",
+            "message": "update userguide",
+            "insertions": 57,
+            "deletions": 15
+          },
+          {
+            "hash": "0c52ce1abbf5669afb342498c0837a7f1f73599c",
+            "message": "comment select in decksview",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "48161f35871f2e67687feb8ab099259d640bda22",
+            "message": "update userguide",
+            "insertions": 16,
+            "deletions": 2
+          },
+          {
+            "hash": "97fbc82b08bc3997ef7c7e9522d8fe6ec3f72da0",
+            "message": "update ug and ppp",
+            "insertions": 54,
+            "deletions": 0
+          },
+          {
+            "hash": "d6a19501c23e8ead4f591c51ef8553e0caaaaa09",
+            "message": "edit ug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "815a477f405aa0ff31f0ebd372296111c4fa4a4b",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e932d382ef03a47945786ff65a113562ec0f240f",
+            "message": "update modelstub",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "05f5533af5e44a3570201e1ac8a1d7d667bee970",
+            "message": "add eof to json files",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b95853679f8293730272bba2c6716448daf5680d",
+            "message": "minor ug changes",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
@@ -2661,6 +2946,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-06",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -3719,20 +4022,38 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 4811,
-    "ckjohn000": 4326,
-    "xsot": 1835,
-    "sciffany": 3102
+    "ChangDarren": 5057,
+    "ckjohn000": 4887,
+    "xsot": 1813,
+    "sciffany": 2579
   },
   "authorContributionVariance": {
-    "ChangDarren": 526516.56,
-    "ckjohn000": 102074.12,
-    "xsot": 51999.81,
-    "sciffany": 537712.1
+    "ChangDarren": 513075.2,
+    "ckjohn000": 113366.22,
+    "xsot": 49893.3,
+    "sciffany": 511642.3
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

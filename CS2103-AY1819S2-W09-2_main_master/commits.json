@@ -1387,8 +1387,8 @@
         ]
       },
       {
-        "insertions": 107,
-        "deletions": 41,
+        "insertions": 240,
+        "deletions": 143,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -1408,6 +1408,48 @@
             "message": "Updated clear and edit request command tests",
             "insertions": 12,
             "deletions": 10
+          },
+          {
+            "hash": "3e5d83182c10a7cd69e8ad22a19114d17b4abe3d",
+            "message": "Updated dev guide diagrams",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "e8ef290c671815550eda82250f028511c5c00db5",
+            "message": "Updated user guide",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "46cba5af5c3f2d3aba062f3224219813be8192e7",
+            "message": "Updated documentation",
+            "insertions": 93,
+            "deletions": 38
+          },
+          {
+            "hash": "d6b2ea98b1f3c289a37cf6e27027b70d2a3595f2",
+            "message": "updated healthworker book",
+            "insertions": 0,
+            "deletions": 6
+          },
+          {
+            "hash": "c98e6b7597d57731ac3e9438c32faaa917e8e80e",
+            "message": "Changed file names",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "410f759e4aea4b552e29bdca2d1471552777f0d2",
+            "message": "Updated images and resized images",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "8b081047c468344ad8f311db3cd43e5c841d1987",
+            "message": "Updated UG",
+            "insertions": 16,
+            "deletions": 34
           }
         ]
       }
@@ -2353,10 +2395,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 15,
+        "deletions": 16,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d350de06b63791210242fd47c0638b69eeb0e8b2",
+            "message": "BugFix: Unable to undo a complete command",
+            "insertions": 9,
+            "deletions": 10
+          },
+          {
+            "hash": "c07c6b16e2c64e0bfb7c9d08257bea84ecfa2039",
+            "message": "Fix bug in undo unable to undo completeRequest",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "8d91dbb52db2409147405bd56d52fc453f24aa57",
+            "message": "Fix bug with CompleteRequestCommand test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8c78329d1660538d33a25222f09f5a546ac5e589",
+            "message": "Fix new line at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8659ddb09763cdaeaf3ddb34eb8799ed62df3e9c",
+            "message": "Fix new line at EOF",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "Lookuz": [
@@ -4981,26 +5054,45 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 158,
+        "deletions": 97,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "92955c25d7f0f98b7d1a867ef1173451357bc53c",
+            "message": "Modified the command usage message for clarity.",
+            "insertions": 39,
+            "deletions": 25
+          },
+          {
+            "hash": "db20bb8183f38bbf3ab976f2329daf2fc88ec433",
+            "message": "Renamed AddressBookSystemTest to HealthHubSystemTest, and implemented SampleDataTest.",
+            "insertions": 118,
+            "deletions": 71
+          },
+          {
+            "hash": "89c4ad8fe97fc49d7ea579f4b6303e2159ca9f87",
+            "message": "Fix checkstyle.",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "brohandev": 22,
-    "daviddl9": 7164,
-    "jing1324": 3863,
-    "Lookuz": 6090,
-    "huichun66": 2766
+    "daviddl9": 7220,
+    "jing1324": 3795,
+    "Lookuz": 6066,
+    "huichun66": 2857
   },
   "authorContributionVariance": {
     "brohandev": 16.103416,
-    "daviddl9": 144918.17,
-    "jing1324": 893263.8,
+    "daviddl9": 145420.69,
+    "jing1324": 892966.56,
     "Lookuz": 378305.9,
-    "huichun66": 73666.49
+    "huichun66": 73523.22
   },
   "authorDisplayNameMap": {
     "brohandev": "ROH...DEV",

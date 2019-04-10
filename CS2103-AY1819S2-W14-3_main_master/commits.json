@@ -1166,7 +1166,7 @@
         "commitResults": []
       },
       {
-        "insertions": 36,
+        "insertions": 44,
         "deletions": 24,
         "date": "2019-04-04",
         "commitResults": [
@@ -1217,6 +1217,12 @@
             "message": "Rename title to Battleship",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "8e8b5f8dfd7871c645c5864cfe1032b92840a562",
+            "message": "Add tags for use case and test for map",
+            "insertions": 8,
+            "deletions": 0
           }
         ]
       },
@@ -1246,9 +1252,263 @@
         "commitResults": []
       },
       {
+        "insertions": 164,
+        "deletions": 1026,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "d5f88eea76c75e59b8865cb25819d088ef284195",
+            "message": "Remove references to AB4 in Cell",
+            "insertions": 3,
+            "deletions": 71
+          },
+          {
+            "hash": "025fd6ef47a83d74c11dcab8c09a8c6cadec5f13",
+            "message": "Remove Name, Phone, Email in JsonAdaptedPerson",
+            "insertions": 1,
+            "deletions": 11
+          },
+          {
+            "hash": "5aa75cc86e88bee8cc651f60368b92ddda033297",
+            "message": "Delete UniqueCellListTest.java",
+            "insertions": 0,
+            "deletions": 178
+          },
+          {
+            "hash": "61c9eaa450a5b41b62ccdaefbef047ed9790491b",
+            "message": "Remove AB4 in MapGrid",
+            "insertions": 3,
+            "deletions": 86
+          },
+          {
+            "hash": "c0abf90e2e416095ee498e8efd918253b73a890a",
+            "message": "Remove storage in MainApp",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "5265ad4b33bf923c7d703e26ca5601ec10ca82c2",
+            "message": "Delete Row.java",
+            "insertions": 0,
+            "deletions": 126
+          },
+          {
+            "hash": "235fae028d8c8fd3b5e8304c792c9a19db97226a",
+            "message": "Remove InvalidationListenerManager in MapGrid",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "206106cfd796c2f40e81fa3da16ae9cb4a07fc46",
+            "message": "Update MapGrid in ModelManager",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a72fc1e2c267712ee09cac140f1770ec05566ac9",
+            "message": "Delete SampleDataUtil.java",
+            "insertions": 0,
+            "deletions": 54
+          },
+          {
+            "hash": "0d4b2fa012b793a1930ed7c5f76eb9204ed3e7a7",
+            "message": "Update JsonAddressBookStorage.java",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "7b9c8aa5678b21f81fe88c31d2721380de614e50",
+            "message": "Update JsonSerializableAddressBook.java",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3f1a440e5cac9bc051071ba6f0f34974c86c41be",
+            "message": "Update equals of Cell",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "6dd77e2a666a3e974f0ae06d3a7221507270ec0b",
+            "message": "Update MapGrid constructor and equals method",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "2b16070ca4a4b3114cf64f1b770cce5792024f37",
+            "message": "Remove unused imports",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "7fa0f37359c175a6b6040e0e472d34b0ac8abdc4",
+            "message": "Delete PersonCardHandle.java",
+            "insertions": 0,
+            "deletions": 82
+          },
+          {
+            "hash": "010b958c382e6b5eb9c3ccfda3468d77c033645c",
+            "message": "Delete PersonListPanelHandle.java",
+            "insertions": 0,
+            "deletions": 66
+          },
+          {
+            "hash": "816778e42256bf78d6e141e35d30c9826d00bd5e",
+            "message": "Update CellTest.java",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "fe654d2b9053ab9b4f45841261df22a43bff1a91",
+            "message": "Update MapGridTest.java",
+            "insertions": 7,
+            "deletions": 44
+          },
+          {
+            "hash": "222d6b7f8c00a864e29a4863d228ec897e31cb74",
+            "message": "Update JsonAdaptedCellTest.java",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "bddda2986f91dd81111d53f029282165f9d0866d",
+            "message": "Update JsonMapGridStorageTest.java",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "31f4ab9db3dfa810014fa2247aa80aa881504610",
+            "message": "Update JsonSerializableMapGridTest.java",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "2bc20383e551650639367e3d087837d5fb000341",
+            "message": "Update StorageManagerTest.java",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "116aa327f8eb6c3e092dbc32a1e694d21cde7286",
+            "message": "Update TestApp.java",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "6374c6fdc42b2c3e0a1c8e5d3b250a9219741f6e",
+            "message": "Update PersonBuilder.java",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "d17a1ad4048f9fa8fd13b7abe1beba30a9739087",
+            "message": "Update SizeTenMapGrid.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e4a472d714903bc7f7eaac68e87dc1d3313fb27a",
+            "message": "Delete TypicalPersons.java",
+            "insertions": 0,
+            "deletions": 42
+          },
+          {
+            "hash": "d348a20036875cdc3a491106753b87ee0e82f532",
+            "message": "Delete GuiTestAssert.java",
+            "insertions": 0,
+            "deletions": 71
+          },
+          {
+            "hash": "1de6dbf468cf5839227f2bbec2024e6b10787cea",
+            "message": "Update CellTest.java",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "4a344889a830c5255c1de9e960fc7bbfba7ed666",
+            "message": "Update CellTest.java",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "752098d63483c916cedee444247edb5f90025802",
+            "message": "Update Cell constructor javadocs",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2d26fd4bd09b5da48cc937f4471037d0e9392a25",
+            "message": "Refactor MapGrid",
+            "insertions": 22,
+            "deletions": 39
+          },
+          {
+            "hash": "f1161b484530b6d1dc243a8d3cc8ae84b7c94c6e",
+            "message": "Update MapGridTest.java",
+            "insertions": 28,
+            "deletions": 1
+          },
+          {
+            "hash": "fdf93d8ccd5e953b4acec95ecda7d11efcabc13f",
+            "message": "Fix spacing in MapGridTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8be7f52b336bfc0b74cb0ec4373d43b1650baff3",
+            "message": "Delete BattleshipNotPresentException.java",
+            "insertions": 0,
+            "deletions": 11
+          },
+          {
+            "hash": "925164f59cc51041fb2ef0708e9df68e7f88e0fd",
+            "message": "Delete DuplicatePersonException.java",
+            "insertions": 0,
+            "deletions": 11
+          },
+          {
+            "hash": "5ae1ea90a1f8739075f12ebd0d2b27a61bc90801",
+            "message": "Delete PersonNotFoundException.java",
+            "insertions": 0,
+            "deletions": 6
+          },
+          {
+            "hash": "329fede5fad4d493e279ae08fe74e9faa1aacf07",
+            "message": "Delete PersonBuilder.java",
+            "insertions": 0,
+            "deletions": 76
+          }
+        ]
+      },
+      {
+        "insertions": 18,
+        "deletions": 3,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "6e444c38d270a89cad4f6e57d8c505fba0dd45f5",
+            "message": "Update logging in MainApp",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c8d18e8123eb519f937d7c0f55d43c2abb8b2ea5",
+            "message": "Add logging to InitialiseMapCommand",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "610202f3d0f110b9390b5d6ee39ec41886c0d54f",
+            "message": "Update Map in UG",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-08",
+        "date": "2019-04-10",
         "commitResults": []
       }
     ],
@@ -3111,6 +3371,18 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "lucydotc": [
@@ -3801,6 +4073,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
         "commitResults": []
       }
     ],
@@ -4544,16 +4828,54 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 21,
+        "deletions": 8,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "db6fef9ccf846d43f959597b023563a931c10524",
+            "message": "Annotate Areas to use for implementation",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "fc8be63f760e22e49c008acf920dfee84270f8ea",
+            "message": "Preparing for new implementation",
+            "insertions": 14,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 496,
+        "deletions": 52,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "74f090dbb6da1ad5d076caec2846eb8f69f88e97",
+            "message": "Implemented ENTIRE stub \u0027save\u0027 command to save statistics data into storage",
+            "insertions": 348,
+            "deletions": 6
+          },
+          {
+            "hash": "3214004913767cf080f49093525f82680296dd1d",
+            "message": "Implemented Reading of JSON statistics file",
+            "insertions": 119,
+            "deletions": 40
+          },
+          {
+            "hash": "b903b91ba75df86bedea430ffa06c67aac2a1260",
+            "message": "Implementated Comparison between PREVIOUS game accuracy and CURRENT game accuracy",
+            "insertions": 14,
+            "deletions": 5
+          },
+          {
+            "hash": "26528b1d2de1f87674fafe39d95ee06de6a11703",
+            "message": "Display feedback on CommandBox after each \u0027save\u0027 command",
+            "insertions": 15,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -4572,6 +4894,92 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 124,
+        "deletions": 294,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "afd639be170a81f4eba75e0c6212a6ad32b994b0",
+            "message": "Clean up code, Adhere to checkstyle",
+            "insertions": 72,
+            "deletions": 145
+          },
+          {
+            "hash": "d4a6bd508cc56d764869e22503b33ba48d3c6586",
+            "message": "Added test placeholders, remove irrelevant code",
+            "insertions": 41,
+            "deletions": 12
+          },
+          {
+            "hash": "336f7d88c65c00c6a8f4558bc88dd6f1c7e8fea0",
+            "message": "edited files conflicting",
+            "insertions": 11,
+            "deletions": 103
+          },
+          {
+            "hash": "a76512e99e613d6389a501220ffacfc8bfc4add7",
+            "message": "Rectified checkstyle",
+            "insertions": 0,
+            "deletions": 34
+          }
+        ]
+      },
+      {
+        "insertions": 88,
+        "deletions": 346,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "9a68a93877e9dbe4be093c6055f79dc44a462f39",
+            "message": "Removed conflicting",
+            "insertions": 0,
+            "deletions": 212
+          },
+          {
+            "hash": "2019f22f1c2c0d1baa0b90ce83b0461d9cd50b6d",
+            "message": "Commented out problematic tests",
+            "insertions": 16,
+            "deletions": 17
+          },
+          {
+            "hash": "40f565d68ac03306a293e61cf5480647efb5156b",
+            "message": " checkstyle",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "7236cf694d528112f86f3eb85b65ace5ef8ed199",
+            "message": "Written more tests",
+            "insertions": 23,
+            "deletions": 2
+          },
+          {
+            "hash": "af18be1444121c68b3aa0298bbe3c8fe339bcea7",
+            "message": "checkstyle",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "b36b29f1632471d7f4a658974af9349f0a658401",
+            "message": "Commented out tests for now",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "3e4ee453470ff04eaf99ee45ecbe188fa3629237",
+            "message": "Remove Addressbook storage shit",
+            "insertions": 11,
+            "deletions": 61
+          },
+          {
+            "hash": "4ca0c4846799c3121a776c60a5a357e197e87407",
+            "message": "Added in renew stats. Remove unused import.",
+            "insertions": 24,
+            "deletions": 31
+          }
+        ]
       }
     ],
     "s-tr": [
@@ -5630,22 +6038,120 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 100,
+        "deletions": 36,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "728dc59dc7ebc5eccc11ab4070e37a67d4cd0cfd",
+            "message": "Added attack result for one player winning",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "39a3c01700d379fe9bdee7daf376832ede2c8bd5",
+            "message": "Refactor AttackResult to include tests for command success, destroy ship, win game",
+            "insertions": 46,
+            "deletions": 30
+          },
+          {
+            "hash": "d2f0f0b60c73fd561ce68242d0d0026a38c8c2a5",
+            "message": "Add ability for player to win the game",
+            "insertions": 26,
+            "deletions": 6
+          },
+          {
+            "hash": "fb50ca16ac019deead29f624967f1464511c6cf3",
+            "message": "Make Enemy deploy ship using Fleet::deployOneBattleship",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 478,
+        "deletions": 259,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "e04a934c9301d1935d6eb6c92a547326f6021cf1",
+            "message": "Add ability for enemy to win the game",
+            "insertions": 29,
+            "deletions": 7
+          },
+          {
+            "hash": "d1b8a3e8c77885ce21ed73fe163b763b8153df12",
+            "message": "Add more tests for BattleManager",
+            "insertions": 179,
+            "deletions": 45
+          },
+          {
+            "hash": "c29fbd712548964808f12fb967691d4e72fca774",
+            "message": "Add more meaningful error message for invalid square",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "284fba1517c012526d75118fc6be7058d53516e9",
+            "message": "Update tests in AttackCommandParserTest",
+            "insertions": 16,
+            "deletions": 10
+          },
+          {
+            "hash": "1ce675bae441cb11bf17a705f20dce470b7310e3",
+            "message": "Remove unused \u0027stage\u0027 attribute from BattleState",
+            "insertions": 8,
+            "deletions": 52
+          },
+          {
+            "hash": "12dd54bac46c63f8a46d74bf136121986d33542c",
+            "message": "Remove unused getters from AttackResult",
+            "insertions": 0,
+            "deletions": 21
+          },
+          {
+            "hash": "a56bd14a512d69cb0d833ca622eebe448c701cf8",
+            "message": "Add equals() test for AttackCommand",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "73a897930b5778b5e9402ac4d2fbe2187998a8b1",
+            "message": "Refactor setup methods out to SizeTenMapGrid",
+            "insertions": 71,
+            "deletions": 60
+          },
+          {
+            "hash": "44f07f4724d7a81209939aff1f0d3359e057a2ac",
+            "message": "Improve tests for AttackCommand",
+            "insertions": 150,
+            "deletions": 61
+          },
+          {
+            "hash": "97443b20bbf13be183a2497e2f2100c39fa0ed2c",
+            "message": "Fix unused imports",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1336,
-    "iwle": 2917,
-    "lucydotc": 788,
-    "bos10": 772,
-    "s-tr": 1678
+    "erjillsison": 1208,
+    "iwle": 2919,
+    "lucydotc": 784,
+    "bos10": 1240,
+    "s-tr": 1926
   },
   "authorContributionVariance": {
-    "erjillsison": 175617.02,
-    "iwle": 33710.418,
-    "lucydotc": 4854.628,
-    "bos10": 14214.03,
-    "s-tr": 153824.11
+    "erjillsison": 188439.4,
+    "iwle": 33064.027,
+    "lucydotc": 4715.1113,
+    "bos10": 22416.441,
+    "s-tr": 154766.11
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

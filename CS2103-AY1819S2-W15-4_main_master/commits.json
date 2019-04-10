@@ -879,6 +879,18 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "yjpan47": [
@@ -1473,6 +1485,18 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "dreampursuer95": [
@@ -2094,6 +2118,31 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 150,
+        "deletions": 375,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "6bcb48e5d904603b30eafd4cf0aeb7896e1e7ce6",
+            "message": "Edited addCommand, deleteCommand, editCommand so that the changes in Person are reflected in duties",
+            "insertions": 66,
+            "deletions": 3
+          },
+          {
+            "hash": "3861915d73eaed3eac26057b73ca4dd3c50bc393",
+            "message": "AddCommandTest fix",
+            "insertions": 84,
+            "deletions": 372
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "mechome": [
@@ -2722,6 +2771,61 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 143,
+        "deletions": 240,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "714aedf99b23ced90660e0130dda0bf15e69794c",
+            "message": "Edit tests regarding WebView and BrowserPanel",
+            "insertions": 57,
+            "deletions": 154
+          },
+          {
+            "hash": "ef5994196ea65c4eb6e6e84f0cb28772d37d7f15",
+            "message": "Edit test bugs",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "f3b5f5c03fcbca82c8db9f231bc78ddec30adc46",
+            "message": "UserGuide.adoc: edit block command",
+            "insertions": 7,
+            "deletions": 11
+          },
+          {
+            "hash": "7e52c553028fda9fe85f61a4610e6a60181e825f",
+            "message": "Edit BlockDateCommand tests",
+            "insertions": 40,
+            "deletions": 34
+          },
+          {
+            "hash": "d208fe37706b5f263c415bdb7cf6a49be556ad86",
+            "message": "UserGuide.adoc: Fix some typos",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "89768e3f4c029e03fabdd10eaea0e1866fb12182",
+            "message": "mechome.adoc: Updated PPP",
+            "insertions": 7,
+            "deletions": 12
+          },
+          {
+            "hash": "fe06f96fc8bec5cd21a73558914aed14b0850f99",
+            "message": "LogicManagerTest.java: edit test",
+            "insertions": 21,
+            "deletions": 21
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "exactlyprecise": [
@@ -3576,22 +3680,108 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 890,
+        "deletions": 216,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "818f83b04c40ccd4ddcd2aa213cc72b43b12a161",
+            "message": "Change edit command parser tests to include accounts",
+            "insertions": 332,
+            "deletions": 4
+          },
+          {
+            "hash": "6db59914d37a2d99486941b91f7be850027f14e1",
+            "message": "Change checkstyling errors",
+            "insertions": 41,
+            "deletions": 48
+          },
+          {
+            "hash": "93abe2c811fb424a5e5eecf380d28f912c4a1ec4",
+            "message": "Add loggers to LoginBox and CalendarView",
+            "insertions": 18,
+            "deletions": 2
+          },
+          {
+            "hash": "0226d53500fd573d6b270e665ef0f3bce63a8384",
+            "message": "Change info to warning for nullpointerexception",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c46af88f62b5a7a5c67823f7c3d4a2df43417b5e",
+            "message": "Fix parsertest",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "19914c3ded678201398ab0c314c4bd274385cb46",
+            "message": "Remove execute from Command abstract class",
+            "insertions": 94,
+            "deletions": 82
+          },
+          {
+            "hash": "03223688f1d170121c06ee6758a865b8d87dc35c",
+            "message": "Change test cases to include general commands",
+            "insertions": 46,
+            "deletions": 0
+          },
+          {
+            "hash": "2b72972e7b9173767bf1719e37a69cfecdddc87b",
+            "message": "Change test cases to include executeGeneral()",
+            "insertions": 324,
+            "deletions": 37
+          },
+          {
+            "hash": "9cfbde2f0342697c174e29accf0e4fa74996846b",
+            "message": "Change checkstyling due to code review",
+            "insertions": 33,
+            "deletions": 40
+          }
+        ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 32,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "8330e495eded36835a74a462f0a586ea93808d90",
+            "message": "Change password to include hashing",
+            "insertions": 26,
+            "deletions": 10
+          },
+          {
+            "hash": "7d4834f8e8f7b5bd93e51a421ebad12528fba39c",
+            "message": "Fix logicManagerTest",
+            "insertions": 21,
+            "deletions": 21
+          },
+          {
+            "hash": "66079a65d219fbaf106a23fa0e9558453478f6a8",
+            "message": "Change method name to fit codacy",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Valatheking": 464,
-    "yjpan47": 929,
-    "dreampursuer95": 1260,
-    "mechome": 3040,
-    "exactlyprecise": 1662
+    "Valatheking": 456,
+    "yjpan47": 909,
+    "dreampursuer95": 1031,
+    "mechome": 3084,
+    "exactlyprecise": 2423
   },
   "authorContributionVariance": {
-    "Valatheking": 13551.417,
-    "yjpan47": 39545.703,
-    "dreampursuer95": 29983.283,
-    "mechome": 382185.1,
-    "exactlyprecise": 16831.383
+    "Valatheking": 13146.531,
+    "yjpan47": 38339.75,
+    "dreampursuer95": 32609.9,
+    "mechome": 370751.56,
+    "exactlyprecise": 34186.547
   },
   "authorDisplayNameMap": {
     "Valatheking": "VAL...JAN",

@@ -916,6 +916,12 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "yichong96": [
@@ -2040,16 +2046,36 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 7,
+        "deletions": 7,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "19af1da58d15c677b826ae120a03283ec63040aa",
+            "message": "update code to reflect change in columns",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "fdf0e998265248e363a98a5e22b1423c43bf4faf",
+            "message": "update DG and UG, and test file to reflect changes",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 24,
+        "deletions": 14,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f19fd08466784cc4d531ab4d0007bcea481c73b2",
+            "message": "allow for commas within card fields and fix import export file format",
+            "insertions": 24,
+            "deletions": 14
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2058,16 +2084,121 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 228,
+        "deletions": 56,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b1dd418c0207c81de01346702ae99d2dd1d5d64b",
+            "message": "fix import command show error output for file",
+            "insertions": 15,
+            "deletions": 3
+          },
+          {
+            "hash": "1571ea0aa76d3b2639863b474b94dad4d8c4fd31",
+            "message": "handle card fields empty exception",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "6e54949daba02e270ec9423e5e3263e54761ac9c",
+            "message": "add new import test to check dup card folder",
+            "insertions": 33,
+            "deletions": 20
+          },
+          {
+            "hash": "1c62a53afc2086ce6aef195f4f2290c0f10851c4",
+            "message": "add handling of incorrect csv file headers exception",
+            "insertions": 24,
+            "deletions": 13
+          },
+          {
+            "hash": "552d83dcd7c513dfd092231a96bb618e8f5e1953",
+            "message": "add sample blood folders csv test",
+            "insertions": 93,
+            "deletions": 0
+          },
+          {
+            "hash": "64b0496e35f37d174d50bffcf6f7f0d53705fb66",
+            "message": "add blood.csv test case for import",
+            "insertions": 27,
+            "deletions": 10
+          },
+          {
+            "hash": "e21e5dc5f72429fa494b1a8dfad201a65b698769",
+            "message": "fix file comparison without carriage return",
+            "insertions": 27,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 121,
+        "deletions": 94,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e93456818e2a83fe2aae4e070b05d2614e5f11a1",
+            "message": "fix checkstyle issues",
+            "insertions": 66,
+            "deletions": 51
+          },
+          {
+            "hash": "bbcbb711b5c9864c6cc391b3530c9d17f6ad038e",
+            "message": "refactor Csv test file pathsand test cases",
+            "insertions": 42,
+            "deletions": 35
+          },
+          {
+            "hash": "0c07dc0d1564877451a41b578b1aae0cfa38ace8",
+            "message": "fix checkstyle errors",
+            "insertions": 2,
+            "deletions": 8
+          },
+          {
+            "hash": "6f86eab9e63be6d0468c9622e42838b459fc759c",
+            "message": "add csv utils class",
+            "insertions": 11,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 22,
+        "deletions": 16,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "11f74cc17e541c972f18686e0bd96d0f118e2a1a",
+            "message": "delete export folder",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "236ad1b776515f8e7ceb37de809ec063e6dd7918",
+            "message": "update user guide to reflect new changes",
+            "insertions": 14,
+            "deletions": 8
+          },
+          {
+            "hash": "967b9a9cf9096bb6af1d54a47b8ac6b2641b41e7",
+            "message": "update developer guide seq diagarm for import/export",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "c5e2fbcce72c68f600b9d2fae7c993cf5b504245",
+            "message": "fix checkstyle error",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d6456fee2383cd377d56fa2ce4f21a56a19098f8",
+            "message": "change incorrect answer to incorrect option for flashcard",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "dlqs": [
@@ -3273,6 +3404,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -4996,6 +5133,12 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "mmdlow": [
@@ -5867,10 +6010,17 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 11,
+        "deletions": 4,
         "date": "2019-03-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4c5c3e69d88db1e003c354e47779ff93928e4e48",
+            "message": "Update BrowserPanel layout",
+            "insertions": 11,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -6177,10 +6327,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 1,
         "date": "2019-04-06",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "45128411de701cafbc1560db417ba9b7a6861c83",
+            "message": "Correct error with user guide edit command format",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -6193,22 +6350,65 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 74,
+        "deletions": 29,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "db8d1d9aa20b4133ac53b4b57a5641f7c599d7d1",
+            "message": "Adjust card display colors",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "06975544df134c326e1c76957c562a677d191599",
+            "message": "Update BrowserPanel UI",
+            "insertions": 39,
+            "deletions": 5
+          },
+          {
+            "hash": "802fe9177a9485fe8532cbd7ff0713fe2ba8c8fd",
+            "message": "Edit UserGuide to describe clearing hints through edit command",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "353727e7a307b4e7c33f478d487f69111c97d7bd",
+            "message": "Change Hint constraints to accept any character",
+            "insertions": 7,
+            "deletions": 14
+          },
+          {
+            "hash": "a827a1f382108c1e1839eaf296b4750746baebf3",
+            "message": "Add v2.0 features to user guide",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "d529216f5ccb8adaf63a76eaadc9eb1c09f71d33",
+            "message": "Update user guide to describe card field constraints",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 4963,
-    "yichong96": 1068,
-    "dlqs": 2669,
-    "KerrynEer": 1835,
-    "mmdlow": 1238
+    "afterdusk": 4958,
+    "yichong96": 1302,
+    "dlqs": 2658,
+    "KerrynEer": 1830,
+    "mmdlow": 1298
   },
   "authorContributionVariance": {
-    "afterdusk": 1523399.9,
-    "yichong96": 14090.336,
-    "dlqs": 152021.56,
-    "KerrynEer": 34667.934,
-    "mmdlow": 27731.629
+    "afterdusk": 1498793.1,
+    "yichong96": 14879.012,
+    "dlqs": 149613.23,
+    "KerrynEer": 34241.312,
+    "mmdlow": 27236.36
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

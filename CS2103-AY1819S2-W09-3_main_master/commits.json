@@ -1090,10 +1090,229 @@
         "commitResults": []
       },
       {
+        "insertions": 370,
+        "deletions": 127,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "dfa476d49448f9987f66fc9ea08b047fa2d240d3",
+            "message": "Change the RestOrRantLogo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9016aa2768bb17f9614c092b40fae9e08f244c73",
+            "message": "Edit message constraints for day month and year. Also limit year to four digit integer from 2000 to current year.",
+            "insertions": 18,
+            "deletions": 19
+          },
+          {
+            "hash": "d2b334411cda9939409a0f1c5a7e92cc705cf64d",
+            "message": "Fix bugs and fine tune the message usage for revenueCommand.",
+            "insertions": 20,
+            "deletions": 15
+          },
+          {
+            "hash": "4df17fbca86898a35d6f0c1b4e8962f777fdfe7d",
+            "message": "Update revenueCommandParserTest",
+            "insertions": 26,
+            "deletions": 3
+          },
+          {
+            "hash": "742f4acc90ac22362784d1e48fb220a67f07a6f1",
+            "message": "Update DateTest",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "4024971d67749f03dd9dfd1a60e82e683c755c5b",
+            "message": "Add new methods for daily, month and yearly in logic and model (This will affect the model stubs in the tests)",
+            "insertions": 97,
+            "deletions": 0
+          },
+          {
+            "hash": "c581fa6330d4fda351a9315c600366557efb4cf3",
+            "message": "Change Bill Mode status bar to show TableMode instead (BillMode will be an internal back-end mode)",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "e82055f3892f1dad45697a041424c91dbb9c4508",
+            "message": "Create daily, monthly and yearly commands",
+            "insertions": 167,
+            "deletions": 1
+          },
+          {
+            "hash": "4a5a0eb44bf4923b9644e6dd59fd4deffc46ef78",
+            "message": "Add new check in billCommand such that it can only be called when all orders are served",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "819eca256c3d7dea7fbc3163cf4899d65e55ca0f",
+            "message": "Change the switch case statements to an array",
+            "insertions": 18,
+            "deletions": 82
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-06",
+        "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 1449,
+        "deletions": 1186,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "1a3d34bfe2f157a205d9bac196dd50058c0715fc",
+            "message": "Create a Revenue superclass and refactor dailyRevenueList to RevenueList",
+            "insertions": 301,
+            "deletions": 151
+          },
+          {
+            "hash": "ed124ad4bd125a51a90f226655d5a35aae9fafd0",
+            "message": "Adjust Daily, Monthly and Yearly revenue to subclasses that inherits revenue.",
+            "insertions": 18,
+            "deletions": 163
+          },
+          {
+            "hash": "219134f588c153b97f3e96567d8f7f8606c256c3",
+            "message": "Update logic and model managers and interface due to the refactoring",
+            "insertions": 95,
+            "deletions": 97
+          },
+          {
+            "hash": "f6d1753094b07c51187c2bbc3bbc661ebe07b577",
+            "message": "Refactor and adjust JsonAdaptedDailyRevenue to JsonAdpatedRevenue. Some of the contents are changed as well.",
+            "insertions": 17,
+            "deletions": 17
+          },
+          {
+            "hash": "cf9174fd7bfbe4e2704a5d800277b4f87bc95c1d",
+            "message": "Update the ui and implementation of daily, monthly and yearly.",
+            "insertions": 126,
+            "deletions": 46
+          },
+          {
+            "hash": "9a42f31b9e486a90276a9e4838a8d8a98f8409a1",
+            "message": "Update BillCommand, RevenueCommand and its parser to accomodate the refactoring of dailyRevenue to revenue",
+            "insertions": 54,
+            "deletions": 53
+          },
+          {
+            "hash": "276654575b8de2d448c4e109920aca5618e9e64b",
+            "message": "Make more adjustments to other files in model and storage due to the refactoring",
+            "insertions": 46,
+            "deletions": 47
+          },
+          {
+            "hash": "954439f921dc7db4449ea7fdd91db9f56afee9d2",
+            "message": "Make adjustments to the json files as the recorded text for totalDailyRevenue has changed to totalRevenue",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "9ab80114cbef980f63a5dc397a4532f7f91d7828",
+            "message": "Create guiHandles for Daily, yearly, monthly cards and the statisticsflow panel",
+            "insertions": 226,
+            "deletions": 0
+          },
+          {
+            "hash": "2211dd5cd0af92a0c5eb396f322c501c77663018",
+            "message": "Due to changes in model, I had to make adjustments to the model stubs",
+            "insertions": 50,
+            "deletions": 47
+          },
+          {
+            "hash": "80e1fd50f9745da8a1476c6a9bad014e791fff14",
+            "message": "Refactor test cases for DailyRevenue to Revenue",
+            "insertions": 263,
+            "deletions": 263
+          },
+          {
+            "hash": "0a4bfde78bdfbc58f49d4b45c55bd7b751909df5",
+            "message": "StatisticsBuilder builds Revenue",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "cc0d1751d0057c208f353ff3bf204cb72f20f1f7",
+            "message": "Make changes to these tests files due to the refactoring of dailyRevenue to revenue",
+            "insertions": 176,
+            "deletions": 216
+          },
+          {
+            "hash": "cb20ab43387c7909cf877a24115b5213068e568d",
+            "message": "Comment out the test for billCommand as it does not work after inserting a check that all orders are served.",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "58a7c78b5058bf93eaf171e945000b103844e77e",
+            "message": "Fix Checkstyle",
+            "insertions": 29,
+            "deletions": 32
+          },
+          {
+            "hash": "fc205385a8881fabfc1ecc77e9ceabd61012b179",
+            "message": "Fix checkstyle",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "eaea6fc9ff92b088fdce7dc55e289c469b45a1ba",
+            "message": "Fix checkstyle",
+            "insertions": 6,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 75,
+        "deletions": 217,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "c2fb89971d7b08fc39939863f7c35d9f42c0055e",
+            "message": "Remove uneccesary messages.",
+            "insertions": 3,
+            "deletions": 27
+          },
+          {
+            "hash": "69883357f798f2f700e316c741466f96d54538f5",
+            "message": "Remove coupling by placing isDaily, isMonthly and isYearly boolean in commandResult instead",
+            "insertions": 60,
+            "deletions": 188
+          },
+          {
+            "hash": "7470fe7c11a7f7ac5f6c0e911c16bf5b7069a6f3",
+            "message": "Fix bug in JsonAdaptedRevenue.java",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "4fa329c8e505e18c758e50608dcf2af681dd6c01",
+            "message": "Fix the bug for popularmenuitemlist",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2d4a9a35a113b5063e19d7cf463bd85833effea7",
+            "message": "Fix another bug",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "60e9be6095fae455cc1af8ff9a3ad4ec606ebbe3",
+            "message": "Add a message",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "bava98": [
@@ -2017,6 +2236,55 @@
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 161,
+        "deletions": 16,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "0c5b0207574b35c8953f30306c9af3aca4ddd28e",
+            "message": "Sort menu items by quantity ordered",
+            "insertions": 36,
+            "deletions": 6
+          },
+          {
+            "hash": "762a3ad7a903c917ef7a4db2f86542acbf4a48f6",
+            "message": "Implement clearMenu command",
+            "insertions": 57,
+            "deletions": 0
+          },
+          {
+            "hash": "77e0a125d7a9b9510fbf31d828b1fe99001fea5f",
+            "message": "Change error message to standardize",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "466ff9e090892325a9102cc3c8869760e094d292",
+            "message": "Fix checkstyle issues",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "1d5208b9ad07a8b9e727ee26c29cfa7ce915dad5",
+            "message": "Fix checkstyle issues",
+            "insertions": 57,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "whyjayxp": [
@@ -3119,6 +3387,24 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "Qing-Yuan": [
@@ -4512,8 +4798,8 @@
         ]
       },
       {
-        "insertions": 30,
-        "deletions": 28,
+        "insertions": 145,
+        "deletions": 43,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -4545,6 +4831,18 @@
             "message": "Edit Pax",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "cf36d435f872c654cbfb6577ea1b731d4fa931a9",
+            "message": "Create PPP",
+            "insertions": 107,
+            "deletions": 0
+          },
+          {
+            "hash": "984147b37035414b89c9bd6c421755d53ecdbcaa",
+            "message": "Update PPP",
+            "insertions": 8,
+            "deletions": 15
           }
         ]
       },
@@ -4561,30 +4859,184 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 1,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "972ea62a67cd5706d20d295db5c6fad88fb056e1",
+            "message": "Fixed editPax bug",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-06",
         "commitResults": []
+      },
+      {
+        "insertions": 84,
+        "deletions": 47,
+        "date": "2019-04-07",
+        "commitResults": [
+          {
+            "hash": "cbe19d090583e64dbb321579a58011e978e85cfe",
+            "message": "Refactor tablestatus to have getters",
+            "insertions": 52,
+            "deletions": 40
+          },
+          {
+            "hash": "f810346bb4788278fb1bcd5f39a24203759f6172",
+            "message": "Update table border color",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "9580bcad3aaac6d3a18decc860f5e8745cfded87",
+            "message": "Update EditSeatsCommand to have consistent behaviour with EditPaxCommand",
+            "insertions": 13,
+            "deletions": 3
+          },
+          {
+            "hash": "276f33a38196c585f0fbf212bd7b42a844b800dc",
+            "message": "Update addTable to not allow more than 9 digits",
+            "insertions": 10,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 177,
+        "deletions": 28,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "3516dbb870d7be7918084a04540ed4febae0244a",
+            "message": "Update TableCard UI colors",
+            "insertions": 2,
+            "deletions": 10
+          },
+          {
+            "hash": "095590990d2a9e1420e9a54efa2c95ad987fcb1e",
+            "message": "Add EditSeatsCommandTest",
+            "insertions": 100,
+            "deletions": 4
+          },
+          {
+            "hash": "307d247b1e35f421bad7b8c1970874f26525894c",
+            "message": "Add EditSeatsCommandParserTest",
+            "insertions": 65,
+            "deletions": 6
+          },
+          {
+            "hash": "48a1dd74a5e60fc13a4b580415a5e271320fea38",
+            "message": "Fix error messages to be more appropriate",
+            "insertions": 10,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 698,
+        "deletions": 1132,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "ce7bfa09ded99b4e44ed00ebe755e93eb0e57dff",
+            "message": "Fix all table feature tests",
+            "insertions": 142,
+            "deletions": 16
+          },
+          {
+            "hash": "bf56c6a8cfd84758bb847945213eb3725588bcff",
+            "message": "Add SpaceForCommand",
+            "insertions": 102,
+            "deletions": 4
+          },
+          {
+            "hash": "d7924acef58f0e5400c8199999c264e043a09642",
+            "message": "Update RestOrRantParserTest",
+            "insertions": 80,
+            "deletions": 99
+          },
+          {
+            "hash": "0c49ce205e4eb255c7fc59109e8019f65fecda3c",
+            "message": "Add all tests for SpaceForCommand",
+            "insertions": 227,
+            "deletions": 876
+          },
+          {
+            "hash": "ba577b0bfe4974b9dead2ef39fbe9cf930c635e5",
+            "message": "Update HelpCommandSystemTest",
+            "insertions": 100,
+            "deletions": 105
+          },
+          {
+            "hash": "4d31c0cf5be6b6e032b4cedaf893da71f9b59634",
+            "message": "Set limit to number of tables in RestOrRant",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "cde451af3d69ac814c42f6ff06ff4d21026c069f",
+            "message": "Improve spaceFor command performance",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "fe46e5aed5d0ebc12181fb7f72d53784c4e7e894",
+            "message": "Fix checkstyle errors",
+            "insertions": 13,
+            "deletions": 5
+          },
+          {
+            "hash": "ad107de69c6603ca4703bd9de5573bd2dddaebf1",
+            "message": "Fix more checkstyle errors",
+            "insertions": 11,
+            "deletions": 15
+          },
+          {
+            "hash": "945d618570551adaf3b902e7c8a475cd01e36863",
+            "message": "Fix Travis checkstyles",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "819eeef506e0195c82133afa84cb8a408c328544",
+            "message": "Remove trailing white space",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "936960a6f967084f7842fe0ec431f0bde656e0b5",
+            "message": "Resolve comment",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "e65961c229b2571a76a135f5c7452caf0b111c86",
+            "message": "Fix checkstyle errors",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Beesaycheese": 6282,
-    "bava98": 3658,
-    "whyjayxp": 7610,
-    "Qing-Yuan": 9482
+    "Beesaycheese": 6909,
+    "bava98": 3787,
+    "whyjayxp": 7521,
+    "Qing-Yuan": 9073
   },
   "authorContributionVariance": {
-    "Beesaycheese": 191203.67,
-    "bava98": 157712.97,
-    "whyjayxp": 265253.9,
-    "Qing-Yuan": 1787222.6
+    "Beesaycheese": 280111.25,
+    "bava98": 150658.62,
+    "whyjayxp": 256010.73,
+    "Qing-Yuan": 1731464.6
   },
   "authorDisplayNameMap": {
     "Beesaycheese": "LEO...ICE",

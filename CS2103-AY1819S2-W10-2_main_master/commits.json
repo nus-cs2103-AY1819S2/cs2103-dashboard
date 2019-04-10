@@ -785,6 +785,12 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "jeffgan96": [
@@ -2409,6 +2415,12 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "dehui333": [
@@ -3782,6 +3794,12 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "shunnizuka": [
@@ -4845,6 +4863,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -6686,22 +6710,83 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 231,
+        "deletions": 70,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "e68912621eed4f50a75b220828b58ece00401bbb",
+            "message": "added methods in model to check if given milestone date is a valid date that falls within start and end date of a project",
+            "insertions": 65,
+            "deletions": 25
+          },
+          {
+            "hash": "5572d51ce769ed19dd81e97724865836ba7cae28",
+            "message": "implemented tests for earlier than and later than dates",
+            "insertions": 38,
+            "deletions": 0
+          },
+          {
+            "hash": "1528c5291a8ae049b0766d4455ee5313db0e7375",
+            "message": "implemented tests for valid milestone date",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "11c0a259e94bd8c2efe07bbf3b3999ea5303c621",
+            "message": "added tests for duplicate milestone and date not in range",
+            "insertions": 37,
+            "deletions": 2
+          },
+          {
+            "hash": "785bbe47b6773b7d0b00bd1560a5d1cbcdc92195",
+            "message": "added tests and error messages",
+            "insertions": 37,
+            "deletions": 11
+          },
+          {
+            "hash": "a2c67e2dbe1b6426851bfc806c556323dc58dfe5",
+            "message": "fixed failing tests",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "f112a60b8b4aa22b4eeb02954465f6939127fede",
+            "message": "moved error messages to Messages class",
+            "insertions": 14,
+            "deletions": 13
+          },
+          {
+            "hash": "2424019074b493ddb2add1a7c37ebb861331baff",
+            "message": "corrected formatting",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "1f55dd1dbdf01b9154acc3d48bd6d9728e29f5aa",
+            "message": "fixed formatting",
+            "insertions": 10,
+            "deletions": 10
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "ditan96": 3739,
-    "jeffgan96": 6245,
-    "dehui333": 3928,
-    "shunnizuka": 3441,
-    "jothipillay": 4999
+    "jeffgan96": 6243,
+    "dehui333": 3927,
+    "shunnizuka": 3436,
+    "jothipillay": 5167
   },
   "authorContributionVariance": {
-    "ditan96": 224501.05,
-    "jeffgan96": 159359.23,
-    "dehui333": 109396.31,
-    "shunnizuka": 55877.62,
-    "jothipillay": 125692.38
+    "ditan96": 221136.67,
+    "jeffgan96": 157626.0,
+    "dehui333": 107887.29,
+    "shunnizuka": 55113.945,
+    "jothipillay": 123754.44
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

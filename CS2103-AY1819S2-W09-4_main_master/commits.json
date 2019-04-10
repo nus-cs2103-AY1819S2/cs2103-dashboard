@@ -771,6 +771,61 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 246,
+        "deletions": 37,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "db3e15fb4562e5fafce5f0418b432dc14a199b8a",
+            "message": "update userguide for statistics command",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "9a25ed9019bb923032dff39b8b6966b7b52587ef",
+            "message": "changed Statistics command syntax from MMYY to MMYYYY, updated and added more test cases",
+            "insertions": 29,
+            "deletions": 13
+          },
+          {
+            "hash": "674bb0cece98a3557ff89ca1f798269249cbe67a",
+            "message": "update StatisticsCommand comments",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "13c2137aacdedf11f36a9d4d84c6ab4b408915df",
+            "message": "update MonthStatistics",
+            "insertions": 191,
+            "deletions": 0
+          },
+          {
+            "hash": "ca685c96cf46e1b80cb45276d9014ba0e5d77de8",
+            "message": "eof error",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "994fe7611e8960b451a1911aaa345901a9af3f5c",
+            "message": "removed unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "87ff31aecd969c12934e799040994e9e8607b5fa",
+            "message": "fixed import statements",
+            "insertions": 12,
+            "deletions": 12
+          }
+        ]
       }
     ],
     "ongaaron96": [
@@ -1114,6 +1169,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-07",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -2296,6 +2363,55 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 321,
+        "deletions": 72,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "a7b26b23d9a131250926af2478a7e20a9a550684",
+            "message": "Update [W09-4][Xue Chenyang]Portfolio.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a7c7e46d54013d244b3ae4d4285e5eb911ae4e69",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5b3e759e3206e4c0e0eca74d2831e6d531d082c3",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7deefd32f4d1e82c9c1cc628aef6cc5f5cb109ea",
+            "message": "Update build.gradle",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "a6bfb9de4b66ac4ad5971d908c6baa3367f54237",
+            "message": "Documentation edits for UG, DG and PPP",
+            "insertions": 315,
+            "deletions": 65
+          },
+          {
+            "hash": "a66137f6d4186bbc7a6512c55ce2c239bd1c17b7",
+            "message": "import fix",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "Xue-Chenyang": [
@@ -3107,16 +3223,41 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 23,
+        "deletions": 48,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ef3c0c3828868602d0aa38c1fbd9890bc3da7e56",
+            "message": "deleted AB4 userpref",
+            "insertions": 21,
+            "deletions": 48
+          },
+          {
+            "hash": "c20b79d646fd4b65dda8922fa9c8e441edf13fe7",
+            "message": "no message",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 2,
-        "deletions": 2,
+        "insertions": 31,
+        "deletions": 11,
         "date": "2019-04-05",
         "commitResults": [
+          {
+            "hash": "3841af68b2ea2b5fc39caef8e35e75687e1734e3",
+            "message": "Ignored casing in MedicineManager module",
+            "insertions": 27,
+            "deletions": 9
+          },
+          {
+            "hash": "31d1f81c1770228a2593f750d6e4728851286e79",
+            "message": "minor fix on storage",
+            "insertions": 2,
+            "deletions": 0
+          },
           {
             "hash": "003a3215bb91f9d1e10d9567e089b9959737fc0f",
             "message": "fixed typo",
@@ -3142,20 +3283,118 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 246,
+        "deletions": 79,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "abf2cda425198021b22f1feffb8108504688654f",
+            "message": "supported page up/ page down for auto completion of path in commands\u0027 arguments",
+            "insertions": 246,
+            "deletions": 79
+          }
+        ]
+      },
+      {
+        "insertions": 2138,
+        "deletions": 2021,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "136753251ac7fcc2d4214533914069ea08f27b90",
+            "message": "refactored addressbook to quickdocs for package name",
+            "insertions": 1801,
+            "deletions": 1865
+          },
+          {
+            "hash": "794461bacf08f683a437e787ad2f8633cd0c7387",
+            "message": "updated DG",
+            "insertions": 37,
+            "deletions": 3
+          },
+          {
+            "hash": "1dafb07186fb52359e719d737972162bbc7199c1",
+            "message": "DG",
+            "insertions": 18,
+            "deletions": 1
+          },
+          {
+            "hash": "2691a27523e3643d22fa43903da6b3b28bf14c14",
+            "message": "updated DG; optimized design consideration",
+            "insertions": 61,
+            "deletions": 5
+          },
+          {
+            "hash": "e4f97b908690096fb80981baebca30a2f9bcad87",
+            "message": "refactored some error messages",
+            "insertions": 57,
+            "deletions": 26
+          },
+          {
+            "hash": "a1760c9a8bbe8ef410c0d28b9d3223c6d6a3f76e",
+            "message": "fixed import order",
+            "insertions": 52,
+            "deletions": 52
+          },
+          {
+            "hash": "5ac7d9a26f44c4b47d9fd405c758c998d6b1769b",
+            "message": "some more import",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "60304302d3cb06fd815f22bb94e1a79b2cadcea7",
+            "message": "checkstyle",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "6fe9a8fad1c539e1303a91436c4a34fedfb707fb",
+            "message": "bug fix",
+            "insertions": 18,
+            "deletions": 8
+          },
+          {
+            "hash": "937ef45c6301d2f6251c0338a2852ac4474b9618",
+            "message": "more import order fix",
+            "insertions": 47,
+            "deletions": 46
+          },
+          {
+            "hash": "765e02dd6424badd1ca6d4a861b635c277b9bd78",
+            "message": "more checkstyle",
+            "insertions": 17,
+            "deletions": 6
+          },
+          {
+            "hash": "3ed0ca908844c061ce0ffb07f26d563b53862b35",
+            "message": "some more dg",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "97d1bfedaef71a6f67ed99b8f4a1a1ad6d5b7ec2",
+            "message": "some more dg",
+            "insertions": 11,
+            "deletions": 4
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "bentwj": 1526,
+    "bentwj": 1647,
     "ongaaron96": 0,
-    "simjiazhi": 7519,
-    "Xue-Chenyang": 3268
+    "simjiazhi": 7521,
+    "Xue-Chenyang": 5335
   },
   "authorContributionVariance": {
-    "bentwj": 24205.332,
+    "bentwj": 24253.176,
     "ongaaron96": 0.0,
-    "simjiazhi": 168169.69,
-    "Xue-Chenyang": 703887.44
+    "simjiazhi": 163790.92,
+    "Xue-Chenyang": 935803.06
   },
   "authorDisplayNameMap": {
     "bentwj": "TAN...IAN",

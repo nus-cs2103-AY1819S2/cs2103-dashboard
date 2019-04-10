@@ -709,10 +709,90 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 1,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "93cd19db90c9f361637b210fba4cad4e61d40554",
+            "message": "update Userguide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 678,
+        "deletions": 281,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "bd301884ba8abf33d89d1ac042cb9033799de2cd",
+            "message": "deleteR, listR command. Reminder update",
+            "insertions": 452,
+            "deletions": 93
+          },
+          {
+            "hash": "87282a5f0c479503478f416229f7b68e7b66c974",
+            "message": "travis",
+            "insertions": 40,
+            "deletions": 56
+          },
+          {
+            "hash": "27c3576be7b0bfe09597def2578262bd6ad88f8b",
+            "message": "travis",
+            "insertions": 20,
+            "deletions": 10
+          },
+          {
+            "hash": "e58e70cbe05faea9bd1c53fd6e0fd9f9cd7c9322",
+            "message": "travis",
+            "insertions": 0,
+            "deletions": 10
+          },
+          {
+            "hash": "09abdc7317fa56b85c955d50cdb44b9592ab14ee",
+            "message": "travis",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "2cac3048edd3b92913fdd3f7b9eca4a6baca8f58",
+            "message": "gg",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "02006fc879423985b13080ad2be15aa917d7625b",
+            "message": "travis",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "62c0a7f12529a93aa1b984e7a2ca20a5a35b4efb",
+            "message": "Update testingName.json",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f25a94c635f2b9b422d9663e5365422cb57a11f2",
+            "message": "listFR command, deal with swtich",
+            "insertions": 82,
+            "deletions": 88
+          },
+          {
+            "hash": "cad74f2555331dd8f541bc6a5ca90304949b0ca4",
+            "message": "travis",
+            "insertions": 47,
+            "deletions": 16
+          },
+          {
+            "hash": "9d3f7a41e6de599a3a99c91dd0e58227e0c51b9c",
+            "message": "travis",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "yinya998": [
@@ -2024,9 +2104,88 @@
         "commitResults": []
       },
       {
+        "insertions": 257,
+        "deletions": 140,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "eaa8315c3716c9fbba098c6c67f5b69a44f95e5c",
+            "message": "fix bugs reported in dry run: 1. white space in photo path causing it to be invalid 2. find n/ no prefix should give error message 3. typo yesterday yst changed to ytd 4. findE time/\u003d operator forgot to add now add in.",
+            "insertions": 129,
+            "deletions": 87
+          },
+          {
+            "hash": "a9615ed2e15277a492331f4bbad28b1d4032cba7",
+            "message": "travis",
+            "insertions": 13,
+            "deletions": 9
+          },
+          {
+            "hash": "dc0f2155ff005e52491f32a6855a05e27da652e7",
+            "message": "control image size below 20MB",
+            "insertions": 9,
+            "deletions": 1
+          },
+          {
+            "hash": "9c6af0e711e6cab2896d2cffb36d3f9f771a624a",
+            "message": "travis",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "187bb419fd595397da28a5ece34ec28d343ac265",
+            "message": "travis",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "04e53cd989e7210ea1303140aa365b09645810b9",
+            "message": "update developer guide",
+            "insertions": 93,
+            "deletions": 36
+          },
+          {
+            "hash": "5cbd128af1efd8bacfaca4c19eeef32bb87b914a",
+            "message": "typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "55c94cda5329a62187b37c0097ed78b127fd5f36",
+            "message": "typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d7f83c447bc71ab4b245601f16511f7f5217bcf2",
+            "message": "travis",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "3b03a9aceeb604d455f6b16595d53c5a492d13c7",
+            "message": "fix photo command in jar",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "7732e6e3d91a772739a043408e7f2487200f6270",
+            "message": "format",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "41bb7712bcfecea6aa20f357803e718a45077984",
+            "message": "typo",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-09",
+        "date": "2019-04-10",
         "commitResults": []
       }
     ],
@@ -2904,6 +3063,12 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "yonggqiii": [
@@ -3659,8 +3824,8 @@
         ]
       },
       {
-        "insertions": 60,
-        "deletions": 30,
+        "insertions": 529,
+        "deletions": 114,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -3674,8 +3839,32 @@
             "message": "Checkstyle",
             "insertions": 8,
             "deletions": 1
+          },
+          {
+            "hash": "77772c3492e5f81f29b935b347dba233272efa34",
+            "message": "Users can now block certain timings to meet.",
+            "insertions": 412,
+            "deletions": 40
+          },
+          {
+            "hash": "f76c17eb2e11f002972032a131743573d8186fc4",
+            "message": "Checkstyle",
+            "insertions": 56,
+            "deletions": 43
+          },
+          {
+            "hash": "e6d02a1d85b927184cbfe8f668faa2ce974daac9",
+            "message": "Added space after coma lmao",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "jwl1997": [
@@ -4389,8 +4578,8 @@
         ]
       },
       {
-        "insertions": 508,
-        "deletions": 14,
+        "insertions": 624,
+        "deletions": 34,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -4434,24 +4623,67 @@
             "message": "bug fix",
             "insertions": 0,
             "deletions": 1
+          },
+          {
+            "hash": "d5cf69d779e933b4c382cfcdac19cffa58be8f3f",
+            "message": "integration test",
+            "insertions": 56,
+            "deletions": 20
+          },
+          {
+            "hash": "741a895d9c63f7424ebd781743cb16d4f4171daa",
+            "message": "listE test cases",
+            "insertions": 60,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 685,
+        "deletions": 41,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "1cd7c5c0483f8edaf63328b78182842fb7b3a9ab",
+            "message": "test cases",
+            "insertions": 657,
+            "deletions": 21
+          },
+          {
+            "hash": "956b2bb002b0f447fba1547632aced1705aee31f",
+            "message": "bug fix",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "d80044a3ad8115881b5e2f25a374e501576c5b6c",
+            "message": "bug fix",
+            "insertions": 18,
+            "deletions": 13
+          },
+          {
+            "hash": "fb466c93af7029779cd7158cf7fedd135b84d4b5",
+            "message": "bug fix",
+            "insertions": 10,
+            "deletions": 6
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "JillWangJill": 2334,
-    "yinya998": 2488,
-    "daDangminh": 805,
-    "yonggqiii": 1240,
-    "jwl1997": 2978
+    "JillWangJill": 2742,
+    "yinya998": 2601,
+    "daDangminh": 803,
+    "yonggqiii": 1623,
+    "jwl1997": 3720
   },
   "authorContributionVariance": {
-    "JillWangJill": 46815.562,
-    "yinya998": 1523237.5,
-    "daDangminh": 6463.484,
-    "yonggqiii": 12212.47,
-    "jwl1997": 9396545.0
+    "JillWangJill": 59092.82,
+    "yinya998": 1497930.4,
+    "daDangminh": 6370.861,
+    "yonggqiii": 18066.613,
+    "jwl1997": 9239834.0
   },
   "authorDisplayNameMap": {
     "JillWangJill": "WAN...RUI",

@@ -904,6 +904,31 @@
             "deletions": 130
           }
         ]
+      },
+      {
+        "insertions": 37,
+        "deletions": 65,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "150813426a113a920576168bab606493888b143d",
+            "message": "removes 1 to 12 short cut in autocomplete function",
+            "insertions": 0,
+            "deletions": 41
+          },
+          {
+            "hash": "fd0f26c0997fb4322454a3c0b254a89fe41c342e",
+            "message": "updates UG and DG",
+            "insertions": 37,
+            "deletions": 24
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "kev-inc": [
@@ -1423,6 +1448,25 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 90,
+        "deletions": 48,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "1a771a831f1a9ee356ddb67f8a2f81dc9ddb94ce",
+            "message": "added autocomplete for my commands, and setgoalcommandparsertest",
+            "insertions": 90,
+            "deletions": 48
+          }
+        ]
       }
     ],
     "pdnm": [
@@ -1836,6 +1880,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
         "commitResults": []
       }
     ],
@@ -3851,6 +3907,37 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 16,
+        "deletions": 9,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "6e496a3045eda794beb62acb40a7c8d0fd0e1a6f",
+            "message": "fix checkstyle in CommandTestUtil",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "209ee339b78e58884443337cb3f312327bc3c759",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6cd23e05125351e2fafbdd2ba7845fc06b634916",
+            "message": "fix checkstyle",
+            "insertions": 5,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "rahulb99": [
@@ -4648,32 +4735,119 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1118,
+        "deletions": 6254,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "22fca4d0736c39ea6a4a156401fe371c78676d2e",
+            "message": "Part 1: removed old code, modifying guitests and systemtests, more commits to follow",
+            "insertions": 1118,
+            "deletions": 6254
+          }
+        ]
+      },
+      {
+        "insertions": 511,
+        "deletions": 624,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "5dbe2db6f7701c4947981a6626793e40ecf36858",
+            "message": "fixed checkstyle",
+            "insertions": 186,
+            "deletions": 176
+          },
+          {
+            "hash": "102efae1a643dbfeaf292b14bc3bf3eb60c16c6a",
+            "message": "fixed checkstyle",
+            "insertions": 17,
+            "deletions": 17
+          },
+          {
+            "hash": "01c1fdd924c77796c18768857bcdc7d5664ea480",
+            "message": "fixed checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "841f51fcde1d33c1c1f2d5a46e3f596e98b9e780",
+            "message": "fixed checkstyle in test/",
+            "insertions": 12,
+            "deletions": 16
+          },
+          {
+            "hash": "72197b41759caa2b055bdc7c8625ef5b5dd12449",
+            "message": "resolved conflicts 2",
+            "insertions": 244,
+            "deletions": 355
+          },
+          {
+            "hash": "8b474af2be31c4956510014c2cd36a109b9c3558",
+            "message": "fixed checkstyle 3 and improved search feature",
+            "insertions": 50,
+            "deletions": 58
+          }
+        ]
+      },
+      {
+        "insertions": 224,
+        "deletions": 142,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "3762e6bb03cef1b702c45c52530587cf3d3b6e52",
+            "message": "fixed checkstyle 4",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b59cbe5c8eb36aa897ac062914b81b3657f53ab3",
+            "message": "refactoring",
+            "insertions": 179,
+            "deletions": 123
+          },
+          {
+            "hash": "b6d030a85181f9beb40c0ef76ec14defd188dcd2",
+            "message": "date format in findexpense is dd/MM/yyyy",
+            "insertions": 22,
+            "deletions": 6
+          },
+          {
+            "hash": "0244405d35b83da81a123d7bacf8a925882148c4",
+            "message": "date format in findexpense is dd/MM/yyyy",
+            "insertions": 1,
+            "deletions": 6
+          },
+          {
+            "hash": "1f49e669aea3f2a31eb2011f41be4ad299e9a8a0",
+            "message": "final",
+            "insertions": 20,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-08",
+        "date": "2019-04-10",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 3120,
-    "kev-inc": 272,
-    "pdnm": 515,
-    "tehwenyi": 5724,
-    "rahulb99": 2117
+    "yunjun199321": 2923,
+    "kev-inc": 355,
+    "pdnm": 459,
+    "tehwenyi": 5036,
+    "rahulb99": 3603
   },
   "authorContributionVariance": {
-    "yunjun199321": 50467.973,
-    "kev-inc": 3904.3772,
-    "pdnm": 3836.5784,
-    "tehwenyi": 284109.62,
-    "rahulb99": 47474.508
+    "yunjun199321": 48992.64,
+    "kev-inc": 4011.5542,
+    "pdnm": 3713.121,
+    "tehwenyi": 276253.28,
+    "rahulb99": 931006.4
   },
   "authorDisplayNameMap": {
     "yunjun199321": "WU ...JUN",

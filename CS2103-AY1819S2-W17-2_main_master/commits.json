@@ -2093,6 +2093,12 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "cchj1995": [
@@ -4231,6 +4237,12 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "kylerwsm": [
@@ -6007,6 +6019,43 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 512,
+        "deletions": 4,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "452a7dc92a91fe90a9dc964fd01adb4edffb17c5",
+            "message": "Updates to the equals method",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "42d3386b8f3670ae44e6127918b2b84474c02c4a",
+            "message": "Improved the equals method",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "710fabff0672f979c9c7c1ab23d7daf6419baf40",
+            "message": "New RecordBuilder",
+            "insertions": 80,
+            "deletions": 0
+          },
+          {
+            "hash": "a4474b076fd9a234ccfb21f006953e4a52489081",
+            "message": "Test cases for RecordAddCommand",
+            "insertions": 373,
+            "deletions": 0
+          },
+          {
+            "hash": "f89f7933b6fd5bd26f60fe8556c3e4623dedaba6",
+            "message": "Test cases for RecordClearCommand",
+            "insertions": 49,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "wSemis": [
@@ -6928,6 +6977,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -8310,8 +8365,8 @@
         ]
       },
       {
-        "insertions": 186,
-        "deletions": 224,
+        "insertions": 203,
+        "deletions": 229,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -8375,6 +8430,12 @@
             "deletions": 2
           },
           {
+            "hash": "f62426c253f55f6c4f80f42b51365973235dae1d",
+            "message": "Added null checking to MainApp.class.getClassLoader().getResourceAsStream() for DrawTeethUtil.java and InOutAddressBookStorage.java",
+            "insertions": 17,
+            "deletions": 1
+          },
+          {
             "hash": "8cc90a8a9318bfe81ad411af3aa29ae98d47a7a5",
             "message": "Removed duplicate entries in user guide",
             "insertions": 27,
@@ -8385,6 +8446,12 @@
             "message": "Removed duplicate entries in user guide",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "aef4c893574c07dd3812792e1beffe5d4ae79c52",
+            "message": "Removed System.out.println() lines.",
+            "insertions": 0,
+            "deletions": 4
           }
         ]
       },
@@ -8405,22 +8472,143 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 477,
+        "deletions": 135,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "02177856cbb9e72e1f5d8bc868ef649df7628cec",
+            "message": "Changed \"OurTeeth\" to \"TeethHub\" again due to changes unaccounted for. Removed preferences.json from gitignore so that the default file will always be saved as TeethHub.json",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "dd86dc55f08ca2c1536beef409710185a0f3f2ca",
+            "message": "Renamed \"GoTo mode\" to \"Records mode\" in Messages.java so that it makes more sense to users. Bugfix: Swapped the error message thrown in isGoTo() and notGoTo() as they were throwing opposite exception messages.",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "46bfcdf2ff59ff5165e820feac615546b0e421df",
+            "message": "Added AddCommand to show suggestions for user when \"add\" is entered.",
+            "insertions": 27,
+            "deletions": 36
+          },
+          {
+            "hash": "2fb0cd08ccd76f5243de3ebfb161d772b3cc896e",
+            "message": "Added EditCommand to show suggestions for user when \"edit\" is entered. Added missing @Override tag to execute() in AddCommand",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "7072f0743e0256bc511c6e8c8215a37fb1d96d52",
+            "message": "Added DeleteCommand to show suggestions for user when \"delete\" is entered. Fixed case EditCommand returning new AddCommand() instead of new EditCommand()",
+            "insertions": 28,
+            "deletions": 1
+          },
+          {
+            "hash": "da9f18b1b26a76c3694aae71f374fd52e940d97e",
+            "message": "Added teethedit suggestion to EditCommand",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "77d15d9d3ca5f2126cabbeee203ee8da252d2b11",
+            "message": "Added ClearCommand to show suggestions for user when \"clear\" is entered.",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "77ac38b3180541026cac98b5ee2973d86209bdda",
+            "message": "Added CopyCommand to show suggestions for user when \"copy\" is entered.",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "79642fda148b682b9a6478e80b96b0ee0150eb2b",
+            "message": "Added FindCommand to show suggestions for user when \"find\" is entered. Updated messages in Messages.java to be more user friendly.",
+            "insertions": 36,
+            "deletions": 11
+          },
+          {
+            "hash": "5241ce652cc071e860d65619982a386c6695d9ee",
+            "message": "Added ListCommand to show suggestions for user when \"list\" is entered. Added quotation marks to all suggestion commands messages to indicate different command strings.",
+            "insertions": 45,
+            "deletions": 19
+          },
+          {
+            "hash": "2a565ab5dab3407e73c9d36699ee98074d39f945",
+            "message": "Added SelectCommand to show suggestions for user when \"select\" is entered. Added periods to strings without periods in Messages.java",
+            "insertions": 35,
+            "deletions": 12
+          },
+          {
+            "hash": "1ed2e09f31716181dbcbbd9a0b82bcfc826f8e1c",
+            "message": "Fixed \"No relevant find command\" to \"No relevant select command\" in SelectCommand\u0027s GOTO_USAGE.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c2484fac77e216c64239c6e26e08f230a032abde",
+            "message": "Added Javadoc to suggestion commands.",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "cfcba36c5852154ff8aa5680b154bd3e80410a76",
+            "message": "Changed variables and methods that can be private to private. Changed variables and methods that can be package-private to package-private.",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "a58f1d3af7f19df7e4caf1059669fa1271507112",
+            "message": "Added RecordSelectCommand. Updated SelectCommand to include RecordSelectCommand.",
+            "insertions": 141,
+            "deletions": 3
+          },
+          {
+            "hash": "50d453889cdaf11eea60cbc83acf609c082f5818",
+            "message": "Added newline after End Of File in preferences.json for Travis.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "36792b033a7d0776580f25c7e87137f606d82b79",
+            "message": "Fixed Variable access definition order in TaskEditCommand and TeethEditCommand.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "60420ac80982819179c25f6fc75752a7ae2ea452",
+            "message": "Revert \"Fixed Variable access definition order in TaskEditCommand and TeethEditCommand.\"",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "53eb596739b5c10c79a2476934783125dbbdad73",
+            "message": "Revert \"Changed variables and methods that can be private to private.\"",
+            "insertions": 19,
+            "deletions": 19
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kthSim": 5031,
-    "cchj1995": 4128,
-    "kylerwsm": 3176,
-    "wSemis": 1049,
-    "JiaHaoLim": 2705
+    "kthSim": 5028,
+    "cchj1995": 4114,
+    "kylerwsm": 3665,
+    "wSemis": 1044,
+    "JiaHaoLim": 2974
   },
   "authorContributionVariance": {
-    "kthSim": 104217.3,
-    "cchj1995": 86082.35,
-    "kylerwsm": 60408.984,
-    "wSemis": 737192.94,
-    "JiaHaoLim": 74186.63
+    "kthSim": 102871.47,
+    "cchj1995": 84909.11,
+    "kylerwsm": 61921.832,
+    "wSemis": 725027.75,
+    "JiaHaoLim": 77234.5
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",

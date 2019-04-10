@@ -455,22 +455,80 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 151,
+        "deletions": 132,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5a7b510b920d59006f131172a43a13223b393113",
+            "message": "Add a initImg method that loads a placeholder image into ExpandedPlacePanel",
+            "insertions": 151,
+            "deletions": 132
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 403,
+        "deletions": 215,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "88122db87c4fb5ea53d69fbf37e764d0acb0aba2",
+            "message": "Add Photo class, change Place class to include Photo, updated the ExpandedPlacePanel to allow for scrolling",
+            "insertions": 234,
+            "deletions": 135
+          },
+          {
+            "hash": "d31b09af7338d48917630be264c61047fddcf8c0",
+            "message": "Add Photo data field, Change all relevant seedu.travel classes",
+            "insertions": 98,
+            "deletions": 54
+          },
+          {
+            "hash": "fcc32d4372105da466cb2db41580635ffd36fd65",
+            "message": "[Broken] Incomplete fixes to AddCommandParser, Photo and JsonAdaptedPlace and JsonAdaptedPlaceTest",
+            "insertions": 14,
+            "deletions": 7
+          },
+          {
+            "hash": "d2c3782c95f505d0d5d54526fde18ad50b5cc6f1",
+            "message": "[Broken] Change JsonAdaptedPlaceTest and Add PhotoTest",
+            "insertions": 57,
+            "deletions": 19
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 105,
+        "deletions": 74,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2592028fb564a92bcf04ba0fb08ad84e61b37801",
+            "message": "[Broken] Fix EditCommand and EditComamndParser, photos now display",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c6ab2fce0080194108d231bdd58e730fdd2c7caa",
+            "message": "Made UI changes to ExpandedPlacePanel, Changed default image",
+            "insertions": 103,
+            "deletions": 72
+          }
+        ]
+      },
+      {
+        "insertions": 121,
+        "deletions": 51,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "ddbe30a159dfe49f44d771a1055a2899cef1175a",
+            "message": "Fix tests and style, fixes for default photo handling",
+            "insertions": 121,
+            "deletions": 51
+          }
+        ]
       }
     ],
     "chung-ming": [
@@ -1287,6 +1345,31 @@
             "deletions": 12
           }
         ]
+      },
+      {
+        "insertions": 328,
+        "deletions": 127,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "9a4db82bebad764bb551ebcf1fbed3a83a7b3e59",
+            "message": "Update DG and PPP",
+            "insertions": 306,
+            "deletions": 105
+          },
+          {
+            "hash": "d3fa56bb17072277883a1399f5476f953ec45897",
+            "message": "Fix trailing whitespaces in DG",
+            "insertions": 21,
+            "deletions": 21
+          },
+          {
+            "hash": "f81a025be1ae065d2d04857ff267b0f328296d58",
+            "message": "Fix trailing whitespaces in DG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "PremBagda": [
@@ -1803,10 +1886,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 1,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "985363e0d4d44200fd296ab31794e9f7d9d8acff",
+            "message": "Fix bug for Issue #159",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1815,9 +1905,40 @@
         "commitResults": []
       },
       {
+        "insertions": 378,
+        "deletions": 26,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "24d08e184976a60d3f88c86a584a601db3c4f533",
+            "message": "Fix all pe-dry bugs",
+            "insertions": 364,
+            "deletions": 11
+          },
+          {
+            "hash": "adcb514b1a0c7748e5764d2e8c3f1e85a945e2ac",
+            "message": "Fix trailing whitespace issue",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b144816333a3643bc1159f254c17f768f8f47c01",
+            "message": "Fix DG Trailing Spaces Error.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "a6b050b2e42a7bd81430bd6cc67903eb3a80a988",
+            "message": "Fix #1 Load Sample Date issue",
+            "insertions": 11,
+            "deletions": 11
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-09",
+        "date": "2019-04-10",
         "commitResults": []
       }
     ],
@@ -2522,20 +2643,26 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "shaungohsc": 571,
-    "chung-ming": 7574,
-    "PremBagda": 2665,
-    "nivenang": 4618
+    "shaungohsc": 981,
+    "chung-ming": 7707,
+    "PremBagda": 2963,
+    "nivenang": 4624
   },
   "authorContributionVariance": {
-    "shaungohsc": 5671.47,
-    "chung-ming": 701083.3,
-    "PremBagda": 299039.34,
-    "nivenang": 69116.01
+    "shaungohsc": 12803.39,
+    "chung-ming": 689989.06,
+    "PremBagda": 295392.62,
+    "nivenang": 68270.97
   },
   "authorDisplayNameMap": {
     "shaungohsc": "Goh Shau Cher Shaun",

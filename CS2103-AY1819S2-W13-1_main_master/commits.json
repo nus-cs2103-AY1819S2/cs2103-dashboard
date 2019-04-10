@@ -1384,10 +1384,96 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1013,
+        "deletions": 305,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1c5770a321f997feb8d28091884b455788b562f6",
+            "message": "included display of doctors\u0027 info in the browser panel",
+            "insertions": 308,
+            "deletions": 7
+          },
+          {
+            "hash": "7c7f53b989a8195599d789ac70133ebe24587572",
+            "message": "fixed files for checkstyle",
+            "insertions": 60,
+            "deletions": 73
+          },
+          {
+            "hash": "2036114488176aeb6f2b36ce328c833fbbd0d5a7",
+            "message": "added match-doctor command",
+            "insertions": 366,
+            "deletions": 56
+          },
+          {
+            "hash": "af2f065a6c3fb7bdf0de1da83bd9f15d09c900f5",
+            "message": "updated UG and edited EditDoctorCommand",
+            "insertions": 47,
+            "deletions": 31
+          },
+          {
+            "hash": "fccdea0b18a5e58bd3afa77045644a7d67eaf7e2",
+            "message": "improved UI",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "6a88e96d474689fb2f06f96db5a0926a08fcce05",
+            "message": "fixed name alphanumeric issue",
+            "insertions": 48,
+            "deletions": 33
+          },
+          {
+            "hash": "8a0cdca4991a8157a105d9f24ca865a4b91c8bb5",
+            "message": "fixed test cases checks for Name",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "6ffd30a447e50f64c4d8dfe95fb71c07b5f258dc",
+            "message": "updated UG and fixed files",
+            "insertions": 85,
+            "deletions": 11
+          },
+          {
+            "hash": "4c6c7733959dc1730188f638bd3ffaf3c980ea6c",
+            "message": "refactor and fix files",
+            "insertions": 20,
+            "deletions": 14
+          },
+          {
+            "hash": "95cb4b7aa7ea0d2702dc2262dd8baa69f4027c1b",
+            "message": "changed line separator for Gongchangda.adoc",
+            "insertions": 74,
+            "deletions": 74
+          }
+        ]
+      },
+      {
+        "insertions": 460,
+        "deletions": 525,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "1057bb8ac3f54965c746485af3a63911ca0d23a9",
+            "message": "fix adoc issues",
+            "insertions": 229,
+            "deletions": 294
+          },
+          {
+            "hash": "d1e0e6b5fb9948b5c02650a280779ff02fc1f1a1",
+            "message": "fixed ppp",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "1a71d81806ef0c58eab7a075678884b69234daea",
+            "message": "fix adoc files",
+            "insertions": 224,
+            "deletions": 224
+          }
+        ]
       }
     ],
     "wayneswq": [
@@ -2186,8 +2272,8 @@
         ]
       },
       {
-        "insertions": 1827,
-        "deletions": 1678,
+        "insertions": 1934,
+        "deletions": 1755,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -2237,6 +2323,85 @@
             "message": "update UG to include all new patient commands",
             "insertions": 33,
             "deletions": 1
+          },
+          {
+            "hash": "c49bc53f977f38769fefe401518467fd6d1debad",
+            "message": "update UG",
+            "insertions": 36,
+            "deletions": 26
+          },
+          {
+            "hash": "3010fd896273857dc3162ce38ac41f9eaf2a7fb8",
+            "message": "fix bugs regarding search-pid/did and search-advanced",
+            "insertions": 55,
+            "deletions": 36
+          },
+          {
+            "hash": "5ccb636b5308b4f0a23d23a9d61df82c84de318f",
+            "message": "update sample data",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "53990a69b626e2709d2dd4c6b9b4621caf45965c",
+            "message": "fix checkstyle",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 169,
+        "deletions": 109,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "45b3d2a66035eba013825cd75fab83fd7a8ea548",
+            "message": "update sample data",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "04567246eb995258d5f538dc0ec1d5b20a1e0457",
+            "message": "update command instructions",
+            "insertions": 15,
+            "deletions": 17
+          },
+          {
+            "hash": "9ada97687e855cddfa1a9c6e048a1a029ed28c92",
+            "message": "implemented changed appt status display for patient",
+            "insertions": 16,
+            "deletions": 3
+          },
+          {
+            "hash": "f60fc6c8f175b60a049342fd225697821065d07a",
+            "message": "fix checkstyle",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "be654ef8b0fd8c6db918ef487b2d417ed0ba238c",
+            "message": "update UG and commands for patient",
+            "insertions": 53,
+            "deletions": 52
+          },
+          {
+            "hash": "b0db3f4da01e848c3256a59097aab3a26531c7a9",
+            "message": "complete storage for patient appt status and updated test cases",
+            "insertions": 76,
+            "deletions": 34
+          },
+          {
+            "hash": "9903e333a97820aaa94675c49c11d4151d1d7098",
+            "message": "fix checkstyle2",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b3fdf4669e28827cec4a4f18ac8549e84c6c6a92",
+            "message": "fix minor bug in mark-appt",
+            "insertions": 2,
+            "deletions": 0
           }
         ]
       }
@@ -2832,8 +2997,8 @@
         ]
       },
       {
-        "insertions": 687,
-        "deletions": 179,
+        "insertions": 711,
+        "deletions": 180,
         "date": "2019-04-08",
         "commitResults": [
           {
@@ -2859,14 +3024,64 @@
             "message": "updated test cases to support PersonId",
             "insertions": 32,
             "deletions": 9
+          },
+          {
+            "hash": "9886b40a13ffa7acb34f0d5b60f22b6e007d6ca2",
+            "message": "added validation for office hours",
+            "insertions": 24,
+            "deletions": 1
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 553,
+        "deletions": 81,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "82afef8148452adfe299810e2dd9b3f055c92408",
+            "message": "added appointmentStatus to storage",
+            "insertions": 38,
+            "deletions": 17
+          },
+          {
+            "hash": "eac16cc87bcb3262d970960e5a7d14c4014c047e",
+            "message": "mark-appt command completed",
+            "insertions": 346,
+            "deletions": 29
+          },
+          {
+            "hash": "bc87f1f23e83fdacf08f340234a2632acb3cfeb9",
+            "message": "fixed test cases",
+            "insertions": 16,
+            "deletions": 5
+          },
+          {
+            "hash": "3124b61438e4c272c405079eb17e214be5a8ac7b",
+            "message": "fixed bug with mark-appt",
+            "insertions": 7,
+            "deletions": 11
+          },
+          {
+            "hash": "da9374539e0f232a854e4ec22f71cfc978a917e4",
+            "message": "edited PPP",
+            "insertions": 146,
+            "deletions": 19
+          }
+        ]
+      },
+      {
+        "insertions": 12,
+        "deletions": 15,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "3964d203375e1f79f3794d8cb4446286dc2ea5e3",
+            "message": "fixed test cases",
+            "insertions": 12,
+            "deletions": 15
+          }
+        ]
       }
     ],
     "GongChangda": [
@@ -3314,10 +3529,17 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 550,
+        "deletions": 17,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0f353fbc9d03dd592e29b21acd826e3e52f2ef3b",
+            "message": "finish add-presc command and list-presc command",
+            "insertions": 550,
+            "deletions": 17
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -3338,10 +3560,78 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3,
+        "deletions": 4,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9310956ee4fcc59f86237fd64c6d72d1ce7f8b6d",
+            "message": "modify PrescriptionListCard.fxml",
+            "insertions": 3,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 630,
+        "deletions": 219,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "9901a9e510595394fdb4d3f683ef3ed03e50a562",
+            "message": "Add edit-presc command",
+            "insertions": 481,
+            "deletions": 91
+          },
+          {
+            "hash": "9565be6be13c3763fd338d4dc9dea6092f3562ea",
+            "message": "Fix style issues",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "9eba908a1adfa5777ba9280c514160f2bb00d7b4",
+            "message": "Fix style issures",
+            "insertions": 121,
+            "deletions": 109
+          },
+          {
+            "hash": "e45489a56a5878bbf63aabb4efd5c414b6fca44c",
+            "message": "Fix style errors",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "9c6064610257f58231a2b79d73c69303f51507b9",
+            "message": "Style changes",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "bb11704f3995f7f0550f30e602d32fae6a083f64",
+            "message": "Fix style issues in PrescriptionListPanel",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c15b2e3382e212c7ef242b1da5d27d8d1f14638a",
+            "message": "Fix indentation issues",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "14c234f3c20dc9e573903f5ea82ae48c2dd59d0a",
+            "message": "Add methods declaration in model stubs",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "074ddd9a1192a643bf280c1f66a60ea598914aaa",
+            "message": "Fix problems in PrescriptionTest.java",
+            "insertions": 6,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "Liuyy99": [
@@ -4453,8 +4743,8 @@
         ]
       },
       {
-        "insertions": 284,
-        "deletions": 112,
+        "insertions": 435,
+        "deletions": 231,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -4504,24 +4794,72 @@
             "message": "update config.json",
             "insertions": 1,
             "deletions": 0
+          },
+          {
+            "hash": "bd92e97dc75a67a41a32e2f9b5a7cbede5e338d2",
+            "message": "update UG",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "bd7d1fbcc1a5e24724aad26e5d5eb29c63a68fed",
+            "message": "add PPP",
+            "insertions": 100,
+            "deletions": 0
+          },
+          {
+            "hash": "804aa55d5070af504c86a9bae57137c00750d68c",
+            "message": "add PPP",
+            "insertions": 16,
+            "deletions": 28
+          },
+          {
+            "hash": "2895ff949680bdc6f89e734a9e96bebeb6013c21",
+            "message": "edit PPP",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "ea2e36a7541128ffa88bd0dd84d25567b89ccea4",
+            "message": "update PPP",
+            "insertions": 8,
+            "deletions": 19
+          },
+          {
+            "hash": "7d433ed173d2f60bd04253b5dd3498f1022f5e7c",
+            "message": "unable undo/redo in Parser and change UG",
+            "insertions": 14,
+            "deletions": 61
+          },
+          {
+            "hash": "9c8b56df76b8e32047b4aaff8e2469ec528ee46f",
+            "message": "recover undo/redo ...",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "siyingpoof": 6235,
-    "wayneswq": 8320,
-    "amuletxheart": 2691,
-    "GongChangda": 568,
-    "Liuyy99": 2688
+    "siyingpoof": 6912,
+    "wayneswq": 8481,
+    "amuletxheart": 3102,
+    "GongChangda": 1466,
+    "Liuyy99": 2755
   },
   "authorContributionVariance": {
-    "siyingpoof": 1403301.5,
-    "wayneswq": 1378927.9,
-    "amuletxheart": 39767.83,
-    "GongChangda": 2758.9836,
-    "Liuyy99": 53925.094
+    "siyingpoof": 1401852.6,
+    "wayneswq": 1376068.2,
+    "amuletxheart": 44860.293,
+    "GongChangda": 18937.27,
+    "Liuyy99": 57007.508
   },
   "authorDisplayNameMap": {
     "siyingpoof": "ONG...ING",

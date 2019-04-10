@@ -458,10 +458,30 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3,
+        "deletions": 3,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8c6fcd6f65b8c70f8b22c3927b4870b236cfaf0a",
+            "message": "Fix activityEdit command usage",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 17,
+        "deletions": 20,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "5aefc09ccdc9ad9f593776291ff1d98db1fc30c8",
+            "message": "Fix bugs in activity add and delete member",
+            "insertions": 17,
+            "deletions": 20
+          }
+        ]
       }
     ],
     "A0143487X-Kevin": [
@@ -1043,6 +1063,31 @@
             "message": "Update Portfolio and UG",
             "insertions": 78,
             "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 99,
+        "deletions": 38,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "620fe02b1cce9dd1129bb9806c359ec75dacdd89",
+            "message": "Added command alias feature",
+            "insertions": 80,
+            "deletions": 19
+          },
+          {
+            "hash": "081ed17df49656d04f8262f77288385f96ffb65b",
+            "message": "Change indentation of case statement",
+            "insertions": 18,
+            "deletions": 18
+          },
+          {
+            "hash": "cfa9a0daf26ee7e62b364375333821074e6fd0da",
+            "message": "Change indentation",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
@@ -1910,8 +1955,8 @@
         ]
       },
       {
-        "insertions": 24,
-        "deletions": 26,
+        "insertions": 86,
+        "deletions": 36,
         "date": "2019-04-08",
         "commitResults": [
           {
@@ -1949,6 +1994,37 @@
             "message": "Edited to have deeper table of content",
             "insertions": 1,
             "deletions": 0
+          },
+          {
+            "hash": "03885a59e91d8c497b9ca8e617867b7bd51a2ce1",
+            "message": "Update Developer Guide and PPP",
+            "insertions": 57,
+            "deletions": 6
+          },
+          {
+            "hash": "0231298478748c6484c3875f13ddcbc684157869",
+            "message": "Fixed datetime input",
+            "insertions": 5,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 14,
+        "deletions": 4,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "9c2959c9f6b6e46a4709f557663e86601419f0f3",
+            "message": "Removed obsolete field",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5e900c16356650983bd2bf3b3ed436198120ff2a",
+            "message": "Small fix to catch nonpositive input to ActivityFilter",
+            "insertions": 13,
+            "deletions": 3
           }
         ]
       }
@@ -2465,6 +2541,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
         "commitResults": []
       }
     ],
@@ -3511,22 +3593,28 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "minernchan": 780,
-    "A0143487X-Kevin": 1734,
-    "ivyyangyq": 3277,
-    "melkwx": 535,
-    "joel0111": 2882
+    "minernchan": 777,
+    "A0143487X-Kevin": 1812,
+    "ivyyangyq": 3336,
+    "melkwx": 539,
+    "joel0111": 2865
   },
   "authorContributionVariance": {
-    "minernchan": 5162.8623,
-    "A0143487X-Kevin": 29882.645,
-    "ivyyangyq": 18976.904,
-    "melkwx": 33761.2,
-    "joel0111": 40748.176
+    "minernchan": 5078.2437,
+    "A0143487X-Kevin": 29498.309,
+    "ivyyangyq": 18733.727,
+    "melkwx": 33206.895,
+    "joel0111": 40249.41
   },
   "authorDisplayNameMap": {
     "minernchan": "CHA...ERN",

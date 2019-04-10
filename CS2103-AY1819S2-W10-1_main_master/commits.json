@@ -1161,6 +1161,18 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "qjqqyy": [
@@ -2019,8 +2031,8 @@
         "commitResults": []
       },
       {
-        "insertions": 16,
-        "deletions": 22,
+        "insertions": 84,
+        "deletions": 79,
         "date": "2019-04-07",
         "commitResults": [
           {
@@ -2046,6 +2058,67 @@
             "message": "AddCommand: remove unused logger",
             "insertions": 0,
             "deletions": 4
+          },
+          {
+            "hash": "ef440768a5bc16c8f8623bc551bca7e973d9bfab",
+            "message": "FeedUtil: split fromFeedUrl into 2 methods",
+            "insertions": 19,
+            "deletions": 6
+          },
+          {
+            "hash": "a0d56d3d661593f4d202ee6edab379b514f1b3fa",
+            "message": "rename confusing variable",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "2ccd8e5ba6ffb638c67e62de0901cf0b4b5d4207",
+            "message": "Autofill: update API to make more sense",
+            "insertions": 31,
+            "deletions": 37
+          },
+          {
+            "hash": "44c498c4fdf624ccb536d13bd5b9fe152e7e87b1",
+            "message": "SubscribeCommand: use Autofill",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "44231846441a0b7afe16334ff6a8c60b6a22c18c",
+            "message": "give up deduplicating some code",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b2b926829b21d06350453a7c942c41f63812c414",
+            "message": "Autofill: inline effictively final method",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "316bdf6b121d826ed990a41645a778456e709438",
+            "message": "SubscribeCommand: try extracting info from URL too",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 18,
+        "deletions": 1,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "e02f7937989b018ca15aff77d9ac9fc54f2c73b0",
+            "message": "Subscribe: make autofill more sensible for feeds",
+            "insertions": 18,
+            "deletions": 1
           }
         ]
       }
@@ -3032,6 +3105,18 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "epicfailname": [
@@ -4050,20 +4135,32 @@
         "deletions": 0,
         "date": "2019-04-07",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-08",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 7338,
-    "qjqqyy": 1831,
-    "thomastanck": 2691,
+    "rlrh": 7302,
+    "qjqqyy": 1902,
+    "thomastanck": 2684,
     "epicfailname": 5234
   },
   "authorContributionVariance": {
-    "rlrh": 726619.25,
-    "qjqqyy": 49237.043,
-    "thomastanck": 76232.17,
-    "epicfailname": 673002.2
+    "rlrh": 704842.75,
+    "qjqqyy": 47827.406,
+    "thomastanck": 74069.06,
+    "epicfailname": 652686.75
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

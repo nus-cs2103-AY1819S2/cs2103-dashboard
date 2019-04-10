@@ -677,6 +677,12 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "chanqingzhou": [
@@ -1430,10 +1436,48 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 77,
+        "deletions": 67,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "61c6adb7b4c4be12ad04450aeba536b9d69a6cc9",
+            "message": "Place Comparator into a separate package",
+            "insertions": 76,
+            "deletions": 67
+          },
+          {
+            "hash": "2e29356a22588101a04ea39221e55c790cbbd6e9",
+            "message": "included coverage",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 68,
+        "deletions": 44,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "d888abc0178e446cb5525d3fdf32f74fd56c8dbe",
+            "message": "removed name in status bar",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "655ef04038ac4acb694d3e52f061a4fad76b0fb4",
+            "message": "updated documentation fixed bugs",
+            "insertions": 55,
+            "deletions": 20
+          },
+          {
+            "hash": "6d7ecb4a382e6574ff5e9afb3eb0a9a279fc81d3",
+            "message": "updated styling:",
+            "insertions": 11,
+            "deletions": 18
+          }
+        ]
       }
     ],
     "rbth7e5": [
@@ -2605,6 +2649,12 @@
             "deletions": 61
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
       }
     ],
     "Wklee96": [
@@ -3677,8 +3727,8 @@
         ]
       },
       {
-        "insertions": 26,
-        "deletions": 11,
+        "insertions": 52,
+        "deletions": 30,
         "date": "2019-04-05",
         "commitResults": [
           {
@@ -3692,18 +3742,61 @@
             "message": "updated docs",
             "insertions": 20,
             "deletions": 10
+          },
+          {
+            "hash": "ed3dac5178fb109cd5769dfd5a9a94acb10ec1fb",
+            "message": "prevent default opening hours showing on UI",
+            "insertions": 17,
+            "deletions": 5
+          },
+          {
+            "hash": "ec27bb6f81e082a73ca7e5578b724e7199b26864",
+            "message": "added square bracket around weblink and opening hours as they are optional",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "fd423a78c8163d582efed6e97e4793ce13732d86",
+            "message": "modify visitweb command to call trigger browser window",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "c0bcc7e33a3785877cd85aa317fbf1ed47bc03b9",
+            "message": "remove browser panel",
+            "insertions": 0,
+            "deletions": 9
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 66,
+        "deletions": 49,
         "date": "2019-04-06",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "201065a10b643501892d872b45fbe03326b5d0ef",
+            "message": "show weblink on separate browser",
+            "insertions": 59,
+            "deletions": 37
+          },
+          {
+            "hash": "f814f68a11243ae2250cc6e4833fbc840b866f8e",
+            "message": "handle NoInternetException",
+            "insertions": 5,
+            "deletions": 11
+          },
+          {
+            "hash": "d8e3c038713a83a9ba9cd92208962423e03ba026",
+            "message": "added logger for loadpage",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 3,
-        "deletions": 2,
+        "insertions": 23,
+        "deletions": 8,
         "date": "2019-04-07",
         "commitResults": [
           {
@@ -3711,14 +3804,112 @@
             "message": "allow edit of only openinghours field",
             "insertions": 3,
             "deletions": 2
+          },
+          {
+            "hash": "353890406736b90291ff4cd7f488d480780334ba",
+            "message": "added javadocs on browser panel",
+            "insertions": 17,
+            "deletions": 3
+          },
+          {
+            "hash": "4c0f711f1cc23e0fea029e4149e55af30e3940ff",
+            "message": "edited variable order",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 65,
+        "deletions": 53,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b14d66110a41bc6751a183872029e793ef56cc6c",
+            "message": "fixed checkstyle",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "c1f3bd727d940d9e4dd63f68ad5323c2d12a5760",
+            "message": "corrected check for weblink",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f9bbd08052353b4c51ad46804ac4e75e952dfaeb",
+            "message": "removed browser panel functions as it is changed to a popup window",
+            "insertions": 3,
+            "deletions": 7
+          },
+          {
+            "hash": "1dabe65ad0be6a98e0390499c9f66a762406fc87",
+            "message": "made test to display browser with kfc website",
+            "insertions": 23,
+            "deletions": 27
+          },
+          {
+            "hash": "d3c7d56cb57588d506b6b35630e1bd900c2f6fcc",
+            "message": "made test to display browser with kfc website",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7690b1416f3df055210f17153e405e65d361268f",
+            "message": "removed unused static var",
+            "insertions": 0,
+            "deletions": 6
+          },
+          {
+            "hash": "655f2c661746c8eff5fed24b6b41771d7b7df265",
+            "message": "updated docs",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "19b813be59f6cca4716d0c9dd403b36028e78aaf",
+            "message": "updated developer guide",
+            "insertions": 25,
+            "deletions": 3
+          },
+          {
+            "hash": "f51d80c6cc0ed8ebf7ee717d146eb2e3465cb04e",
+            "message": "updated UserGuide",
+            "insertions": 6,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 8,
+        "deletions": 13,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "196cb171292e98e6accea787e5704bed69528335",
+            "message": "lowered event timeout time",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "527fa262256e87787c3c6986af4a05e672872839",
+            "message": "updated regex",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "b4c483e463b7d1b7fd4468d660df4202c3de365e",
+            "message": "removed file prefix as it is not used",
+            "insertions": 0,
+            "deletions": 6
+          },
+          {
+            "hash": "a9f168941609ce850fa0848dffedc630f858c76b",
+            "message": "removed duplicated check",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "skpai27": [
@@ -4363,32 +4554,125 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 234,
+        "deletions": 15,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2c57a22420111041ab134a074c3b3bb7f9e04453",
+            "message": "fixed some minor comment errors in AddReviewCommand",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "419cf8a3441366d0eaaebdc5716eee55936ca86f",
+            "message": "created and implemented AddDefaultReviewCommand class, also AddDefaultReviewUtil which stores the constant strings for the default review entries",
+            "insertions": 81,
+            "deletions": 1
+          },
+          {
+            "hash": "fa594fa22e811e721f7fec36a6f426475fbfe2ac",
+            "message": "implementation of the AddDefaultReviewUtil class",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "9b2d958889ae1254ebe5e3e08b9a8023c909b41c",
+            "message": "implemented AddDefaultReviewCommandParser class",
+            "insertions": 34,
+            "deletions": 1
+          },
+          {
+            "hash": "a3df8a588ae815ff7b298e9275d8b793b44502a2",
+            "message": "Added the addDefaultReview into FoodDiaryParser, also implemented checks for the command parser",
+            "insertions": 14,
+            "deletions": 3
+          },
+          {
+            "hash": "971f06df1570e4ea804964c129bf8ef567e234e0",
+            "message": "added a check to ensure that defaultReview index provided is between 1 and 5 inclusive.",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "76bf7b9b4f6b08097ed03573d880aec4ed57d7a6",
+            "message": "Added unit tests for AddDefaultReviewCommandParser",
+            "insertions": 63,
+            "deletions": 2
+          },
+          {
+            "hash": "810b758b643769c32cbc072e1a6f2e2f2b192c49",
+            "message": "modified FoodDiaryParserTest to account for AddDefaultReviewCommand",
+            "insertions": 7,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 113,
+        "deletions": 36,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fd1eb6ffabb21ff7ba1ef035560134e68e4d19d7",
+            "message": "modularised AddDefaultReviewCommandParser",
+            "insertions": 46,
+            "deletions": 7
+          },
+          {
+            "hash": "b9a358f60adedafc6c80201cdd059ca90e261916",
+            "message": "modified AddDefaultReviewCommand, its constructor now takes in the review itself rather than just the index.",
+            "insertions": 11,
+            "deletions": 23
+          },
+          {
+            "hash": "e20c0703773b7b35ca73929c9d39c2d6dfff2a41",
+            "message": "implemented unit test for AddDefaultReviewCommand",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "71cb52bc2baaf6d54fd8e9474743d956c389eca7",
+            "message": "modified AddDefaultReviewParserTest to take into account new Review constructor, modified the command\u0027s .equals to not take into account the timestamp when comparing commands",
+            "insertions": 13,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 8,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "ece57a2a95b92a40924da8cbde56ca2f16ee249e",
+            "message": "checkstyle fixes",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "3d6ae2177480d0ea2a7a8085fae8326fbadf766e",
+            "message": "Added the default review commands to the userguide, as well as a edit default review command (coming in v2.0)",
+            "insertions": 46,
+            "deletions": 5
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "weixin-koh": 1944,
-    "chanqingzhou": 1407,
-    "rbth7e5": 4851,
-    "Wklee96": 991,
-    "skpai27": 986
+    "weixin-koh": 1943,
+    "chanqingzhou": 1437,
+    "rbth7e5": 4834,
+    "Wklee96": 1106,
+    "skpai27": 1325
   },
   "authorContributionVariance": {
-    "weixin-koh": 25369.674,
-    "chanqingzhou": 18236.963,
-    "rbth7e5": 449602.4,
-    "Wklee96": 5688.814,
-    "skpai27": 6988.1035
+    "weixin-koh": 25012.22,
+    "chanqingzhou": 18122.469,
+    "rbth7e5": 442533.03,
+    "Wklee96": 5761.706,
+    "skpai27": 7851.884
   },
   "authorDisplayNameMap": {
     "weixin-koh": "KOH...XIN",

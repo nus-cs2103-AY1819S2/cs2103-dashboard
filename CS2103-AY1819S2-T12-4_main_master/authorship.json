@@ -24449,271 +24449,285 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "ptvrajsk"
         },
-        "content": "        userInputHistory.add(userInput);"
+        "content": "        if (!userInput.contains(\"encrypt\") \u0026\u0026 !userInput.contains(\"decrypt\")) {"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "            userInputHistory.add(userInput);"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns an unmodifiable view of {@code userInputHistory}."
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": "    public ObservableList\u003cString\u003e getHistory() {"
+        "content": "     * Returns an unmodifiable view of {@code userInputHistory}."
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
-        "content": "        return unmodifiableUserInputHistory;"
+        "content": "     */"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public ObservableList\u003cString\u003e getHistory() {"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return unmodifiableUserInputHistory;"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "lormee94"
+          "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "lormee94"
+          "gitId": "-"
         },
-        "content": "     * Returns the last command entered {@code userInputHistory}."
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "lormee94"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "lormee94"
         },
-        "content": "    public String getLastCommand() {"
+        "content": "     * Returns the last command entered {@code userInputHistory}."
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "lormee94"
         },
-        "content": "        return unmodifiableUserInputHistory.get(unmodifiableUserInputHistory.size());"
+        "content": "     */"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "lormee94"
         },
-        "content": "    }"
+        "content": "    public String getLastCommand() {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "lormee94"
         },
-        "content": ""
+        "content": "        return unmodifiableUserInputHistory.get(unmodifiableUserInputHistory.size());"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "-"
+          "gitId": "lormee94"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "-"
+          "gitId": "lormee94"
         },
-        "content": "    public boolean equals(Object obj) {"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "        // short circuit if same object"
+        "content": "    @Override"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (obj \u003d\u003d this) {"
+        "content": "    public boolean equals(Object obj) {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "            return true;"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "        if (obj \u003d\u003d this) {"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            return true;"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "        // instanceof handles nulls"
+        "content": "        }"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (!(obj instanceof CommandHistory)) {"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "            return false;"
+        "content": "        // instanceof handles nulls"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "        if (!(obj instanceof CommandHistory)) {"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            return false;"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "        // state check"
+        "content": "        }"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "        CommandHistory other \u003d (CommandHistory) obj;"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "        return userInputHistory.equals(other.userInputHistory);"
+        "content": "        // state check"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        CommandHistory other \u003d (CommandHistory) obj;"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return userInputHistory.equals(other.userInputHistory);"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "    public int hashCode() {"
+        "content": ""
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "        return userInputHistory.hashCode();"
+        "content": "    @Override"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public int hashCode() {"
       },
       {
         "lineNumber": 65,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return userInputHistory.hashCode();"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
@@ -24722,7 +24736,8 @@
     ],
     "authorContributionMap": {
       "lormee94": 7,
-      "-": 58
+      "ptvrajsk": 1,
+      "-": 59
     }
   },
   {
