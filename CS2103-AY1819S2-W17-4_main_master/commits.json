@@ -1889,10 +1889,35 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 25,
+        "deletions": 4,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "22a5b401ad2ea44ae3c6b452068e934070e6426c",
+            "message": "Fix undo/redo budget",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
+            "hash": "866c52692b928b1eec493adeddcb53d97f590177",
+            "message": "Autofocus on new/changed expense",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "4c51301727f759b0ab100828def81f54d7d713a8",
+            "message": "Autofocus on new/changed allowance",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "97b8b6bc674619b15b5524dc8ecbff447281dc0d",
+            "message": "Fix edit expense tags",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "tehwenyi": [
@@ -3915,8 +3940,8 @@
         "commitResults": []
       },
       {
-        "insertions": 16,
-        "deletions": 9,
+        "insertions": 277,
+        "deletions": 273,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -3936,6 +3961,102 @@
             "message": "fix checkstyle",
             "insertions": 5,
             "deletions": 3
+          },
+          {
+            "hash": "86d7529062be24d56a720eb890e8ea275552b5e8",
+            "message": "Change clearCommand to clearExpenseCommand",
+            "insertions": 38,
+            "deletions": 38
+          },
+          {
+            "hash": "1144dbf853afeae4095c6ff31ba88675b6cfdea9",
+            "message": "change result display to include break between commands",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "76651ae942f7cb0c150a46535c6c6975f3916fdb",
+            "message": "change messageHistory for system tests",
+            "insertions": 26,
+            "deletions": 24
+          },
+          {
+            "hash": "20cd26b7a1d4fc377db2b4725b6ddd3fb5fa0858",
+            "message": "fix undo/redo for budget (copied from minh\u0027s code)",
+            "insertions": 48,
+            "deletions": 32
+          },
+          {
+            "hash": "3818a2153bbceb2879d5df68455118442235b0ae",
+            "message": "Fix budget updating bug",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "e7188809f6d426c1c896f1c01034f81c80854f83",
+            "message": "Change clearExpense back to clear",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4ce63eca9a06c95eebb508198c2ae76f0c69cc43",
+            "message": "Remove irrelevant addressbook commands from epiggyparser",
+            "insertions": 0,
+            "deletions": 28
+          },
+          {
+            "hash": "cdea2a57d513e933dbc06328d2cdc8e01ff0ca8a",
+            "message": "Checkstyle changes",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "0601f195d8c7a54d36100fd955224f10e0893fcf",
+            "message": "checkstyle - remove unused imports",
+            "insertions": 0,
+            "deletions": 7
+          },
+          {
+            "hash": "6dbb71724b4bb44725550d9507547ac9e95296ca",
+            "message": "Fix parser tests",
+            "insertions": 107,
+            "deletions": 77
+          },
+          {
+            "hash": "86d769bcdc5307ea43e6b30dcedcf538d61a6502",
+            "message": "checkstyle fix",
+            "insertions": 4,
+            "deletions": 10
+          },
+          {
+            "hash": "a39bda77b8383105193787e6949f47f26f93c15e",
+            "message": "Edit clear message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "93eefab057b59517d6a262df583552d3717082fb",
+            "message": "Remove select command from helpcommandsystemtest",
+            "insertions": 10,
+            "deletions": 12
+          },
+          {
+            "hash": "ba320592aeeae42795e4c872d8370fdf91cd009a",
+            "message": "checkstyle fix",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "009e4559ffee41ddd6286a694329eb4810e0f6c9",
+            "message": "add todo in epiggyparsertest",
+            "insertions": 7,
+            "deletions": 16
+          },
+          {
+            "hash": "60a55d81b60a29396e7a34068d65e85e6902918f",
+            "message": "change toString $ in cost to just a number",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       }
@@ -4836,17 +4957,17 @@
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 2923,
+    "yunjun199321": 2902,
     "kev-inc": 355,
-    "pdnm": 459,
-    "tehwenyi": 5036,
-    "rahulb99": 3603
+    "pdnm": 471,
+    "tehwenyi": 5237,
+    "rahulb99": 2027
   },
   "authorContributionVariance": {
     "yunjun199321": 48992.64,
     "kev-inc": 4011.5542,
-    "pdnm": 3713.121,
-    "tehwenyi": 276253.28,
+    "pdnm": 3715.9504,
+    "tehwenyi": 277209.28,
     "rahulb99": 931006.4
   },
   "authorDisplayNameMap": {

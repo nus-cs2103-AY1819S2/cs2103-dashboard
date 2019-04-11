@@ -907,6 +907,12 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "DoItTomorrow": [
@@ -1479,10 +1485,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 209,
+        "deletions": 42,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7a3fd6d8dc78ec0a860fca95b59aae61f3a5b09a",
+            "message": "Expanded Source fields Changed Source to no require Author as a compulsory field. Tags can now have a type in addition to their name.",
+            "insertions": 103,
+            "deletions": 9
+          },
+          {
+            "hash": "c8e9605a04e882e29a3ff45b8eeaeccd560fc77d",
+            "message": "Updated BiblioField implemenation BiblioField is now implemented as a seperated object from Tags",
+            "insertions": 106,
+            "deletions": 33
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1491,10 +1510,22 @@
         "commitResults": []
       },
       {
-        "insertions": 5,
-        "deletions": 3,
+        "insertions": 141,
+        "deletions": 159,
         "date": "2019-04-07",
         "commitResults": [
+          {
+            "hash": "36254664a066b698e8a9dd312de665b9c0281125",
+            "message": "Delete Source.java",
+            "insertions": 0,
+            "deletions": 156
+          },
+          {
+            "hash": "17c3f00e6d0b012a5c158a580173e521998c15ec",
+            "message": "Changed Source.java to resolve merge conflict",
+            "insertions": 136,
+            "deletions": 0
+          },
           {
             "hash": "83c193615947a1ee755a97bed0eb5708e000dfbc",
             "message": "Update UserGuide.adoc",
@@ -1504,10 +1535,41 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 53,
+        "deletions": 20,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0077fbd6aaa829078e975d5a9cb84fff20488804",
+            "message": "Modified Source.java to accept BiblioFields without breaking existing code",
+            "insertions": 25,
+            "deletions": 3
+          },
+          {
+            "hash": "1c872378502046c6fe455122d21fbf004feaaffa",
+            "message": "Updates source to include compulsory Author field Minor textual edits",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "e27ed99b2b6685742bbd2bd233f4b99594d31710",
+            "message": "Adds blank line at end of BiblioField.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "70f911562eecb5a2f6e4936594433a6efef3ba57",
+            "message": "Checkstype edits for BiblioField and Source",
+            "insertions": 11,
+            "deletions": 11
+          },
+          {
+            "hash": "e1efe54d39b7fba46253e520e9a1732f1cb0f862",
+            "message": "Checkstyle change for BiblioField.java",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1516,10 +1578,54 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 116,
+        "deletions": 129,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3efbdb29bb0144b364cdb70dea1aa1f6a9a60d6e",
+            "message": "Updated BiblioFields implementation All biblio fields are now stored in a single BiblioFields object. There can now only be one copy of each biblio field. e.g. A source can no longer have two URLs are the same time.",
+            "insertions": 84,
+            "deletions": 101
+          },
+          {
+            "hash": "746f1932451a70116b180f70e49129ed2643950c",
+            "message": "Checkstyle edits to BiblioFields.java",
+            "insertions": 31,
+            "deletions": 24
+          },
+          {
+            "hash": "0ebccc5b09def59bfef8346e3d2b6653d9eceb03",
+            "message": "Undid changes to hash function in Source.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "de6ac3c74753eb177a132bc07ffd38bf87387896",
+            "message": "Removed edits to toString in Source.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b67540dff371ef223babdebea5b486b1972c943d",
+            "message": "Removed edits to toString in Source.java",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 4,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "f04b21f7e83c8fcd478649e4f2ce4575238bd6a0",
+            "message": "Reverted changes to equals() in Source.java",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "case141": [
@@ -2932,6 +3038,12 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "DarrenDragonLee": [
@@ -3590,6 +3702,12 @@
             "deletions": 13
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "fterh": [
@@ -4706,22 +4824,28 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
     "suriruhani": 1566,
-    "DoItTomorrow": 216,
-    "case141": 4640,
+    "DoItTomorrow": 515,
+    "case141": 4530,
     "DarrenDragonLee": 2281,
-    "fterh": 2761
+    "fterh": 2734
   },
   "authorContributionVariance": {
-    "suriruhani": 48064.13,
-    "DoItTomorrow": 901.6955,
-    "case141": 4.5221837E9,
-    "DarrenDragonLee": 28114.057,
-    "fterh": 128888.58
+    "suriruhani": 47376.996,
+    "DoItTomorrow": 4048.7705,
+    "case141": 4.449921E9,
+    "DarrenDragonLee": 27732.797,
+    "fterh": 127055.63
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",

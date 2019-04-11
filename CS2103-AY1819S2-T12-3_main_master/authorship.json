@@ -2786,7 +2786,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "Welcome to the _MediTabs Developer Guide_. You can find step by step instructions on how to set up MediTabs project on your computer and modify the project to suit your needs. You can also find out more about the development process of MediTabs such as its design and implementation. Interested? You can jump to \u003c\u003cSetting Up\u003e\u003e to get started. Enjoy!"
+        "content": "Welcome to the _MediTabs Developer Guide_. You can find step by step instructions on how to set up MediTabs project on your computer and modify the project to suit your needs. You can also find out more about the development process of MediTabs such as its design and implementation. Interested? You can jump to \u003c\u003cSetting up\u003e\u003e to get started. Enjoy!"
       },
       {
         "lineNumber": 24,
@@ -2828,7 +2828,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "MediTabs supports Windows, Linux and MacOS operating systems."
+        "content": "MediTabs supports Windows, Linux and macOS operating systems."
       },
       {
         "lineNumber": 30,
@@ -4935,7 +4935,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "Given below is a sequence diagram overview of how these 3 key operations behaves when the user executes the `export` command in order to export the current medicine inventory data shown in the GUI to CSV file format:"
+        "content": "Given below is a sequence diagram overview of how these 3 key operations behave when the user executes the `export` command in order to export the current medicine inventory data shown in the GUI to CSV file format:"
       },
       {
         "lineNumber": 331,
@@ -5201,7 +5201,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "* **Alternative 2:** Individual commands can add an additional `export` parameter to support exporting as CSV file."
+        "content": "* **Alternative 2:** Individual commands can add an additional `export` parameter to support exporting as CSV file format."
       },
       {
         "lineNumber": 369,
@@ -5271,7 +5271,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "** Pros: Does not require iterating through the list and convert it to a String Array as we can use the library\u0027s `StatefulBeanToCsvBuilder` operation to build the structure from the list by passing the list as a parameter to the operation. Furthermore, the formatting process can be automated using the operation. It is also more efficient in terms of performance according to the library\u0027s documentation if ordering of the data exported is not a concern to the developer."
+        "content": "** Pros: Does not require iterating through the list and convert it to a String Array as we can use the library\u0027s `StatefulBeanToCsvBuilder` operation to build the structure from the list by passing the list as a parameter to the operation. Furthermore, the formatting process can be automated using the operation. It is also more efficient in terms of performance according to the library\u0027s documentation if the ordering of the data exported is not a concern to the developer."
       },
       {
         "lineNumber": 379,
@@ -6993,7 +6993,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "* There are currently no third party libraries available for validating file name to ensure that the file name is platform independent. In other words, there are no public methods to validate the file name specified by the user to ensure that it is supported on Windows, Linux and MacOS operating systems."
+        "content": "* There are currently no third party libraries available for validating file name to ensure that the file name is platform independent. In other words, there are no public methods to validate the file name specified by the user to ensure that it is supported on Windows, Linux and macOS operating systems."
       },
       {
         "lineNumber": 625,
@@ -7007,7 +7007,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "There are certain naming conventions which have to be followed on Windows operating system which are not necessary on Linux and MacOS operating systems. You can read more about the naming conventions for Windows link:https://docs.microsoft.com/en-us/windows/desktop/FileIO/naming-a-file#naming-conventions[here]. You can also refer to link:https://en.wikipedia.org/wiki/Filename#Comparison_of_filename_limitations[this] Wikipedia article for a detailed comparison between different naming conventions for different operating systems."
+        "content": "There are certain naming conventions which have to be followed on Windows operating system which are not necessary on Linux and macOS operating systems. You can read more about the naming conventions for Windows link:https://docs.microsoft.com/en-us/windows/desktop/FileIO/naming-a-file#naming-conventions[here]. You can also refer to link:https://en.wikipedia.org/wiki/Filename#Comparison_of_filename_limitations[this] Wikipedia article for a detailed comparison between different naming conventions for different operating systems."
       },
       {
         "lineNumber": 627,
@@ -7021,7 +7021,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "* Ensure that files created with file names specified by the user can be used on Windows, Linux and MacOS operating systems. This is to avoid potential bugs involving file names as MediTabs supports Windows, Linux and MacOS operating systems hence, the user might switch between these operating systems when using MediTabs."
+        "content": "* Ensure that files created with file names specified by the user can be used on Windows, Linux and macOS operating systems. This is to avoid potential bugs involving file names as MediTabs supports Windows, Linux and macOS operating systems hence, the user might switch between these operating systems when using MediTabs."
       },
       {
         "lineNumber": 629,
@@ -9791,7 +9791,7 @@
       {
         "lineNumber": 1024,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -9819,7 +9819,7 @@
       {
         "lineNumber": 1028,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -9847,7 +9847,7 @@
       {
         "lineNumber": 1032,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -9868,7 +9868,7 @@
       {
         "lineNumber": 1035,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -9945,9 +9945,9 @@
       {
         "lineNumber": 1046,
         "author": {
-          "gitId": "-"
+          "gitId": "JonathanLeeWH"
         },
-        "content": "Windows, Linux, Unix, OS-X"
+        "content": "Windows, Linux, Unix, macOS"
       },
       {
         "lineNumber": 1047,
@@ -9973,7 +9973,7 @@
       {
         "lineNumber": 1050,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -9994,7 +9994,7 @@
       {
         "lineNumber": 1053,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -10017,7 +10017,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Product Survey"
+        "content": "\u003d\u003d Instructions for Manual Testing"
       },
       {
         "lineNumber": 1057,
@@ -10031,7 +10031,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "*Product Name*"
+        "content": "Given below are instructions to test the app manually."
       },
       {
         "lineNumber": 1059,
@@ -10045,42 +10045,42 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Author: ..."
+        "content": "[NOTE]"
       },
       {
         "lineNumber": 1061,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "These instructions only provide a starting point for testers to work on; testers are expected to do more _exploratory_ testing."
       },
       {
         "lineNumber": 1062,
         "author": {
           "gitId": "-"
         },
-        "content": "Pros:"
+        "content": ""
       },
       {
         "lineNumber": 1063,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d Launch and Shutdown"
       },
       {
         "lineNumber": 1064,
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": ""
       },
       {
         "lineNumber": 1065,
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": ". Initial launch"
       },
       {
         "lineNumber": 1066,
@@ -10094,63 +10094,63 @@
         "author": {
           "gitId": "-"
         },
-        "content": "Cons:"
+        "content": ".. Download the jar file and copy into an empty folder"
       },
       {
         "lineNumber": 1068,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".. Double-click the jar file +"
       },
       {
         "lineNumber": 1069,
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": "Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum."
       },
       {
         "lineNumber": 1070,
         "author": {
           "gitId": "-"
         },
-        "content": "* ..."
+        "content": ""
       },
       {
         "lineNumber": 1071,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ". Saving window preferences"
       },
       {
         "lineNumber": 1072,
         "author": {
           "gitId": "-"
         },
-        "content": "[appendix]"
+        "content": ""
       },
       {
         "lineNumber": 1073,
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d Instructions for Manual Testing"
+        "content": ".. Resize the window to an optimum size. Move the window to a different location. Close the window."
       },
       {
         "lineNumber": 1074,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".. Re-launch the app by double-clicking the jar file. +"
       },
       {
         "lineNumber": 1075,
         "author": {
           "gitId": "-"
         },
-        "content": "Given below are instructions to test the app manually."
+        "content": "Expected: The most recent window size and location is retained."
       },
       {
         "lineNumber": 1076,
@@ -10164,276 +10164,157 @@
         "author": {
           "gitId": "-"
         },
-        "content": "[NOTE]"
+        "content": "_{ more test cases ... }_"
       },
       {
         "lineNumber": 1078,
         "author": {
           "gitId": "-"
         },
-        "content": "These instructions only provide a starting point for testers to work on; testers are expected to do more _exploratory_ testing."
+        "content": ""
       },
       {
         "lineNumber": 1079,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1080,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "\u003d\u003d\u003d Launch and Shutdown"
-      },
-      {
-        "lineNumber": 1081,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1082,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ". Initial launch"
-      },
-      {
-        "lineNumber": 1083,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1084,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ".. Download the jar file and copy into an empty folder"
-      },
-      {
-        "lineNumber": 1085,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ".. Double-click the jar file +"
-      },
-      {
-        "lineNumber": 1086,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum."
-      },
-      {
-        "lineNumber": 1087,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1088,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ". Saving window preferences"
-      },
-      {
-        "lineNumber": 1089,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1090,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ".. Resize the window to an optimum size. Move the window to a different location. Close the window."
-      },
-      {
-        "lineNumber": 1091,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ".. Re-launch the app by double-clicking the jar file. +"
-      },
-      {
-        "lineNumber": 1092,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Expected: The most recent window size and location is retained."
-      },
-      {
-        "lineNumber": 1093,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1094,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "_{ more test cases ... }_"
-      },
-      {
-        "lineNumber": 1095,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 1096,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "\u003d\u003d\u003d Deleting a medicine"
       },
       {
-        "lineNumber": 1097,
+        "lineNumber": 1080,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1098,
+        "lineNumber": 1081,
         "author": {
           "gitId": "jtankw3"
         },
         "content": ". Deleting a medicine while all medicines are listed"
       },
       {
-        "lineNumber": 1099,
+        "lineNumber": 1082,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1100,
+        "lineNumber": 1083,
         "author": {
           "gitId": "jtankw3"
         },
         "content": ".. Prerequisites: List all medicines using the `list` command. Multiple medicines in the list."
       },
       {
-        "lineNumber": 1101,
+        "lineNumber": 1084,
         "author": {
           "gitId": "-"
         },
         "content": ".. Test case: `delete 1` +"
       },
       {
-        "lineNumber": 1102,
+        "lineNumber": 1085,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "Expected: First entry is deleted from the list. Details of the deleted entry shown in the status message. Timestamp in the status bar is updated."
       },
       {
-        "lineNumber": 1103,
+        "lineNumber": 1086,
         "author": {
           "gitId": "-"
         },
         "content": ".. Test case: `delete 0` +"
       },
       {
-        "lineNumber": 1104,
+        "lineNumber": 1087,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "Expected: No medicine is deleted. Error details shown in the status message. Status bar remains the same."
       },
       {
-        "lineNumber": 1105,
+        "lineNumber": 1088,
         "author": {
           "gitId": "-"
         },
         "content": ".. Other incorrect delete commands to try: `delete`, `delete x` (where x is larger than the list size) _{give more}_ +"
       },
       {
-        "lineNumber": 1106,
+        "lineNumber": 1089,
         "author": {
           "gitId": "-"
         },
         "content": "Expected: Similar to previous."
       },
       {
-        "lineNumber": 1107,
+        "lineNumber": 1090,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1108,
+        "lineNumber": 1091,
         "author": {
           "gitId": "-"
         },
         "content": "_{ more test cases ... }_"
       },
       {
-        "lineNumber": 1109,
+        "lineNumber": 1092,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1110,
+        "lineNumber": 1093,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d Saving data"
       },
       {
-        "lineNumber": 1111,
+        "lineNumber": 1094,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1112,
+        "lineNumber": 1095,
         "author": {
           "gitId": "-"
         },
         "content": ". Dealing with missing/corrupted data files"
       },
       {
-        "lineNumber": 1113,
+        "lineNumber": 1096,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1114,
+        "lineNumber": 1097,
         "author": {
           "gitId": "-"
         },
         "content": ".. _{explain how to simulate a missing/corrupted file and the expected behavior}_"
       },
       {
-        "lineNumber": 1115,
+        "lineNumber": 1098,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 1116,
+        "lineNumber": 1099,
         "author": {
           "gitId": "-"
         },
@@ -10443,9 +10324,9 @@
     "authorContributionMap": {
       "jtankw3": 117,
       "melpulomas": 72,
-      "JonathanLeeWH": 190,
-      "-": 607,
-      "flxffy": 130
+      "JonathanLeeWH": 191,
+      "-": 595,
+      "flxffy": 124
     }
   },
   {
@@ -10645,7 +10526,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "MediTabs supports Windows, Linux and MacOS operating systems."
+        "content": "MediTabs supports Windows, Linux and macOS operating systems."
       },
       {
         "lineNumber": 29,
@@ -11338,7 +11219,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "You can export the current medicine inventory data shown in the GUI as Comma-separated values (CSV) file format which is supported by many commonly used spreadsheet applications such as Microsoft Excel (Windows), LibreOffice (Linux) or Numbers (MacOS)."
+        "content": "You can export the current medicine inventory data shown in the GUI as Comma-separated values (CSV) file format which is supported by many commonly used spreadsheet applications such as Microsoft Excel (Windows), LibreOffice (Linux) or Numbers (macOS)."
       },
       {
         "lineNumber": 128,
@@ -11665,9 +11546,9 @@
       {
         "lineNumber": 174,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "JonathanLeeWH"
         },
-        "content": "* Singapore\u0027s Health Science Authority (HSA) - To integrate the Singapore HSA\u0027s medical database with MediTabs which allows easy retrieval of important information such as when a medicine is requested to be recalled by the HSA."
+        "content": "* Singapore\u0027s Health Science Authority (HSA) - To integrate the Singapore HSA\u0027s medical database with MediTabs which allows easy retrieval of important information such as when medicine is requested to be recalled by the HSA."
       },
       {
         "lineNumber": 175,
@@ -13459,7 +13340,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": ".Sample of exported CSV file"
+        "content": ".Sample of the exported CSV file"
       },
       {
         "lineNumber": 431,
@@ -14894,7 +14775,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "MediTabs uses the following file naming convention when file name field is used e.g. The `export` command\u0027s optional `[FILE_NAME]` field. The file naming convention is to ensure consistency and to avoid potential bugs involving file names with different operating systems such as Windows, Linux and MacOS +"
+        "content": "MediTabs uses the following file naming convention when file name field is used e.g. The `export` command\u0027s optional `[FILE_NAME]` field. The file naming convention is to ensure consistency and to avoid potential bugs involving file names with different operating systems such as Windows, Linux and macOS +"
       },
       {
         "lineNumber": 636,
@@ -15096,9 +14977,9 @@
     "authorContributionMap": {
       "jtankw3": 232,
       "melpulomas": 47,
-      "JonathanLeeWH": 115,
+      "JonathanLeeWH": 116,
       "-": 179,
-      "flxffy": 90
+      "flxffy": 89
     }
   },
   {
@@ -17185,7 +17066,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "Welcome to my Project Portfolio which provides you with an overview of my technical skills in the writing of documentations, coding and other contributions to my team project, *MediTabs*, for a Software Engineering module in the National University of Singapore (NUS)."
+        "content": "Welcome to my Project Portfolio which provides you with an overview of my technical skills in the writing of documentation, coding and other contributions to my team project, *MediTabs*, for a Software Engineering module in the National University of Singapore (NUS)."
       },
       {
         "lineNumber": 8,
@@ -17227,7 +17108,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "I am the team lead and is in charge of designing and implementing the `export` feature."
+        "content": "I am the team leader and in charge of designing and implementing the `export` feature."
       },
       {
         "lineNumber": 14,
@@ -17437,7 +17318,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "* *Minor enhancement*: As there are currently no third party libraries available which validates file name such that it adheres to the file naming conventions of the major operating systems (OS), I have created a `FileName` class which implements this feature to complement the `export` feature and is also used by the `label` feature. It requires an indepth knowledge on the different file naming conventions of the various OS and also numerous testing as I discovered that some file name conventions were not documented and not allowed to be used as file names."
+        "content": "* *Minor enhancement*: As there are currently no third party libraries available which validate file name such that it adheres to the file naming conventions of the major operating systems (OS), Windows, Linux and macOS, I have created a `FileName` class which implements this feature to complement the `export` feature and is also used by the `label` feature. It requires an indepth knowledge of the different file naming conventions used in the various OS and also numerous testing as I discovered that some file name conventions were not documented and not allowed to be used as file names."
       },
       {
         "lineNumber": 44,
@@ -17486,14 +17367,14 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "*** Set up team project GitHub repository including setting up issue tracker, permissions, project page, milestones and labels."
+        "content": "*** Set up team project GitHub repository including setting up the issue tracker, permissions, project page, milestones and labels."
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "*** Managed releases `v1.1` - `v1.4` (7 releases) on GitHub"
+        "content": "*** Managed releases `v1.1` - `v1.4` (9 releases) on GitHub"
       },
       {
         "lineNumber": 52,
@@ -17528,7 +17409,7 @@
         "author": {
           "gitId": "JonathanLeeWH"
         },
-        "content": "*** Update stylesheet to PDF printing friendly format: https://github.com/CS2103-AY1819S2-T12-3/main/pull/150[#150]"
+        "content": "*** Update stylesheet to PDF printer friendly format: https://github.com/CS2103-AY1819S2-T12-3/main/pull/150[#150]"
       },
       {
         "lineNumber": 57,
@@ -54425,7 +54306,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "public class Quantity {"
+        "content": "public class Quantity implements Comparable\u003cQuantity\u003e {"
       },
       {
         "lineNumber": 11,
@@ -54803,14 +54684,14 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public int hashCode() {"
+        "content": "    public int compareTo(Quantity other) {"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        return this.toString().hashCode();"
+        "content": "        return Integer.compare(getNumericValue(), other.getNumericValue());"
       },
       {
         "lineNumber": 66,
@@ -54824,11 +54705,46 @@
         "author": {
           "gitId": "jtankw3"
         },
+        "content": ""
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "    public int hashCode() {"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "        return this.toString().hashCode();"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "jtankw3"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "jtankw3": 62,
+      "jtankw3": 67,
       "flxffy": 5
     }
   },
@@ -73959,325 +73875,360 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "      } ]"
+        "content": "      },"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "  }, {"
+        "content": "       {"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"name\" : \"Lipitor\","
+        "content": "        \"batchNumber\" : \"GKP1682\","
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"totalQuantity\" : \"82\","
+        "content": "        \"expiry\" : \"31/07/2019\","
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"nextExpiry\" : \"25/01/2020\","
+        "content": "        \"quantity\" : \"5\""
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"company\" : \"Johnson \u0026 Johnson\","
+        "content": "      } ]"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "    \"tagged\" : [ ],"
+        "content": "  }, {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "    \"batches\" : [ {"
+        "content": "    \"name\" : \"Lipitor\","
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "      \"batchNumber\" : \"NDC 0777-3105-02\","
+        "content": "    \"totalQuantity\" : \"82\","
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "      \"expiry\" : \"25/01/2020\","
+        "content": "    \"nextExpiry\" : \"25/01/2020\","
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "      \"quantity\" : \"82\""
+        "content": "    \"company\" : \"Johnson \u0026 Johnson\","
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "    } ]"
+        "content": "    \"tagged\" : [ ],"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "flxffy"
         },
-        "content": "  }, {"
+        "content": "    \"batches\" : [ {"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "    \"name\" : \"Lisinopril\","
+        "content": "      \"batchNumber\" : \"NDC 0777-3105-02\","
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "    \"totalQuantity\" : \"94\","
+        "content": "      \"expiry\" : \"25/01/2020\","
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "    \"nextExpiry\" : \"06/07/2019\","
+        "content": "      \"quantity\" : \"82\""
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "    \"company\" : \"Takeda Pharmaceutical Co.\","
+        "content": "    } ]"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "-"
         },
-        "content": "    \"tagged\" : [ ],"
+        "content": "  }, {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    \"batches\" : [ {"
+        "content": "    \"name\" : \"Lisinopril\","
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "      \"batchNumber\" : \"307002\","
+        "content": "    \"totalQuantity\" : \"94\","
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "      \"expiry\" : \"06/07/2019\","
+        "content": "    \"nextExpiry\" : \"06/07/2019\","
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "      \"quantity\" : \"94\""
+        "content": "    \"company\" : \"Takeda Pharmaceutical Co.\","
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    } ]"
+        "content": "    \"tagged\" : [ ],"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "  }, {"
+        "content": "    \"batches\" : [ {"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"name\" : \"Paracetamol\","
+        "content": "      \"batchNumber\" : \"307002\","
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"totalQuantity\" : \"312\","
+        "content": "      \"expiry\" : \"06/07/2019\","
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"nextExpiry\" : \"31/12/2019\","
+        "content": "      \"quantity\" : \"94\""
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "    \"company\" : \"GlaxoSmithKline\","
+        "content": "    } ]"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "    \"tagged\" : [ \"fever\" ],"
+        "content": "  }, {"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "    \"batches\" : [ {"
+        "content": "    \"name\" : \"Paracetamol\","
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "      \"batchNumber\" : \"0042121\","
+        "content": "    \"totalQuantity\" : \"312\","
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "      \"expiry\" : \"31/12/2019\","
+        "content": "    \"nextExpiry\" : \"31/12/2019\","
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "      \"quantity\" : \"312\""
+        "content": "    \"company\" : \"GlaxoSmithKline\","
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "flxffy"
         },
-        "content": "    } ]"
+        "content": "    \"tagged\" : [ \"fever\" ],"
       },
       {
         "lineNumber": 70,
+        "author": {
+          "gitId": "flxffy"
+        },
+        "content": "    \"batches\" : [ {"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "flxffy"
+        },
+        "content": "      \"batchNumber\" : \"0042121\","
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "flxffy"
+        },
+        "content": "      \"expiry\" : \"31/12/2019\","
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "flxffy"
+        },
+        "content": "      \"quantity\" : \"312\""
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "flxffy"
+        },
+        "content": "    } ]"
+      },
+      {
+        "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
         "content": "  }, {"
       },
       {
-        "lineNumber": 71,
+        "lineNumber": 76,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    \"name\" : \"Prednisone\","
       },
       {
-        "lineNumber": 72,
+        "lineNumber": 77,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    \"totalQuantity\" : \"427\","
       },
       {
-        "lineNumber": 73,
+        "lineNumber": 78,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    \"nextExpiry\" : \"19/11/2019\","
       },
       {
-        "lineNumber": 74,
+        "lineNumber": 79,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    \"company\" : \"Gilead Sciences\","
       },
       {
-        "lineNumber": 75,
+        "lineNumber": 80,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    \"tagged\" : [ ],"
       },
       {
-        "lineNumber": 76,
+        "lineNumber": 81,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    \"batches\" : [ {"
       },
       {
-        "lineNumber": 77,
+        "lineNumber": 82,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "      \"batchNumber\" : \"A030F21\","
       },
       {
-        "lineNumber": 78,
+        "lineNumber": 83,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "      \"expiry\" : \"19/11/2019\","
       },
       {
-        "lineNumber": 79,
+        "lineNumber": 84,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "      \"quantity\" : \"427\""
       },
       {
-        "lineNumber": 80,
+        "lineNumber": 85,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    } ]"
       },
       {
-        "lineNumber": 81,
+        "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
         "content": "  } ]"
       },
       {
-        "lineNumber": 82,
+        "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
@@ -74285,7 +74236,7 @@
       }
     ],
     "authorContributionMap": {
-      "jtankw3": 47,
+      "jtankw3": 52,
       "-": 7,
       "flxffy": 28
     }
@@ -97457,1204 +97408,1204 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "import seedu.address.model.medicine.Medicine;"
+        "content": "import seedu.address.model.medicine.Expiry;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "import seedu.address.model.medicine.Quantity;"
+        "content": "import seedu.address.model.medicine.Medicine;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "import seedu.address.testutil.BatchBuilder;"
+        "content": "import seedu.address.model.medicine.Quantity;"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "import seedu.address.testutil.MedicineBuilder;"
+        "content": "import seedu.address.testutil.BatchBuilder;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "import seedu.address.testutil.UpdateBatchDescriptorBuilder;"
+        "content": "import seedu.address.testutil.MedicineBuilder;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "import seedu.address.testutil.UpdateBatchDescriptorBuilder;"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": " * Contains integration tests (interaction with the Model, UndoCommand and RedoCommand) and unit tests for"
+        "content": "/**"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": " * UpdateCommand."
+        "content": " * Contains integration tests (interaction with the Model, UndoCommand and RedoCommand) and unit tests for"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": " */"
+        "content": " * UpdateCommand."
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "public class UpdateCommandTest {"
+        "content": " */"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    private Model model \u003d new ModelManager(getTypicalInventory(), new UserPrefs());"
+        "content": "public class UpdateCommandTest {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    private CommandHistory commandHistory \u003d new CommandHistory();"
+        "content": "    private Model model \u003d new ModelManager(getTypicalInventory(), new UserPrefs());"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    private Batch defaultBatch \u003d new BatchBuilder().build();"
+        "content": "    private CommandHistory commandHistory \u003d new CommandHistory();"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    private Batch defaultBatch \u003d new BatchBuilder().build();"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_addNewBatchUnfilteredList_success() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
+        "content": "    public void execute_addNewBatchUnfilteredList_success() {"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, defaultBatch);"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, defaultBatch);"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": ""
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY).withAddedBatch(defaultBatch)"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withExpiry(BatchBuilder.DEFAULT_EXPIRY).build();"
+        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY).withAddedBatch(defaultBatch)"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withExpiry(BatchBuilder.DEFAULT_EXPIRY).build();"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_addNewBatchUnfilteredListNoExpiry_failure() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
+        "content": "    public void execute_addNewBatchUnfilteredListNoExpiry_failure() {"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "        assertFalse(medicineToUpdate.getBatches().containsKey(defaultBatch.getBatchNumber()));"
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertFalse(medicineToUpdate.getBatches().containsKey(defaultBatch.getBatchNumber()));"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).withNoExpiry().build();"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).withNoExpiry().build();"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_NEW_BATCH_MISSING_PARAMETER;"
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_NEW_BATCH_MISSING_PARAMETER;"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_addNewBatchUnfilteredListNoQuantity_failure() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
+        "content": "    public void execute_addNewBatchUnfilteredListNoQuantity_failure() {"
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "        assertFalse(medicineToUpdate.getBatches().containsKey(defaultBatch.getBatchNumber()));"
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertFalse(medicineToUpdate.getBatches().containsKey(defaultBatch.getBatchNumber()));"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).withNoQuantity().build();"
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).withNoQuantity().build();"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_NEW_BATCH_MISSING_PARAMETER;"
+        "content": ""
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_NEW_BATCH_MISSING_PARAMETER;"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
+        "content": ""
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_addNewBatchUnfilteredListZeroQuantity_failure() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 93,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "    public void execute_addNewBatchUnfilteredListZeroQuantity_failure() {"
+      },
+      {
+        "lineNumber": 94,
         "author": {
           "gitId": "flxffy"
         },
         "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
       },
       {
-        "lineNumber": 94,
+        "lineNumber": 95,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        Batch newBatch \u003d new BatchBuilder().withQuantity(\"0\").build();"
       },
       {
-        "lineNumber": 95,
+        "lineNumber": 96,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        assertFalse(medicineToUpdate.getBatches().containsKey(newBatch.getBatchNumber()));"
       },
       {
-        "lineNumber": 96,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 97,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(newBatch).build();"
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(newBatch).build();"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_NEW_BATCH_ZERO_QUANTITY;"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_NEW_BATCH_ZERO_QUANTITY;"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
+        "content": ""
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_updateExistingBatchUnfilteredListNoExpiry_success() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 107,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "    public void execute_updateExistingBatchUnfilteredListNoExpiry_success() {"
+      },
+      {
+        "lineNumber": 108,
         "author": {
           "gitId": "flxffy"
         },
         "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_SECOND_MEDICINE.getZeroBased());"
       },
       {
-        "lineNumber": 108,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 109,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // Get an existing batch from lastMedicine"
+        "content": ""
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Iterator\u003cBatch\u003e iter \u003d medicineToUpdate.getBatches().values().iterator();"
+        "content": "        // Get an existing batch from lastMedicine"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(iter.hasNext());"
+        "content": "        Iterator\u003cBatch\u003e iter \u003d medicineToUpdate.getBatches().values().iterator();"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch batchToUpdate \u003d iter.next();"
+        "content": "        assertTrue(iter.hasNext());"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Batch batchToUpdate \u003d iter.next();"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch updatedBatch \u003d new BatchBuilder(batchToUpdate).withQuantity(VALID_QUANTITY_AMOXICILLIN).build();"
+        "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(updatedBatch).withNoExpiry().build();"
+        "content": "        Batch updatedBatch \u003d new BatchBuilder(batchToUpdate).withQuantity(VALID_QUANTITY_AMOXICILLIN).build();"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(updatedBatch).withNoExpiry().build();"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        int changeInQuantity \u003d updatedBatch.getQuantity().getNumericValue() - batchToUpdate.getQuantity()"
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .getNumericValue();"
+        "content": "        int changeInQuantity \u003d updatedBatch.getQuantity().getNumericValue() - batchToUpdate.getQuantity()"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .getNumericValue();"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": ""
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedQuantity(Integer.toString(changeInQuantity))"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedBatch(updatedBatch).build();"
+        "content": "                .withAddedQuantity(Integer.toString(changeInQuantity))"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withAddedBatch(updatedBatch).build();"
       },
       {
         "lineNumber": 124,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 125,
         "author": {
           "gitId": "flxffy"
         },
         "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_SECOND_MEDICINE, newBatchDetails);"
       },
       {
-        "lineNumber": 125,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 126,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, updatedBatch);"
+        "content": ""
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, updatedBatch);"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": ""
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_updateExistingBatchUnfilteredListNoQuantity_success() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 135,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
+        "content": "    public void execute_updateExistingBatchUnfilteredListNoQuantity_success() {"
       },
       {
         "lineNumber": 136,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
+        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // Get an existing batch from medicineToUpdate"
+        "content": ""
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Iterator\u003cBatch\u003e iter \u003d medicineToUpdate.getBatches().values().iterator();"
+        "content": "        // Get an existing batch from medicineToUpdate"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(iter.hasNext());"
+        "content": "        Iterator\u003cBatch\u003e iter \u003d medicineToUpdate.getBatches().values().iterator();"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch batchToUpdate \u003d iter.next();"
+        "content": "        assertTrue(iter.hasNext());"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Batch batchToUpdate \u003d iter.next();"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch updatedBatch \u003d new BatchBuilder(batchToUpdate).withExpiry(defaultBatch.getExpiry().toString()).build();"
+        "content": ""
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Batch updatedBatch \u003d new BatchBuilder(batchToUpdate).withExpiry(defaultBatch.getExpiry().toString()).build();"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": ""
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withExpiry(defaultBatch.getExpiry().toString())"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedBatch(updatedBatch).build();"
+        "content": "                .withExpiry(defaultBatch.getExpiry().toString())"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withAddedBatch(updatedBatch).build();"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(updatedBatch).withNoQuantity()"
+        "content": ""
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .build();"
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(updatedBatch).withNoQuantity()"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .build();"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
+        "content": ""
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, updatedBatch);"
+        "content": ""
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, updatedBatch);"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": ""
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_removeBatchUnfilteredListNoOtherBatch_success() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
+        "content": "    public void execute_removeBatchUnfilteredListNoOtherBatch_success() {"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
+        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Map\u003cBatchNumber, Batch\u003e batches \u003d new HashMap\u003c\u003e(medicineToUpdate.getBatches());"
+        "content": ""
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Map\u003cBatchNumber, Batch\u003e batches \u003d new HashMap\u003c\u003e(medicineToUpdate.getBatches());"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // Get an existing batch from medicineToUpdate"
+        "content": ""
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Iterator\u003cBatch\u003e iter \u003d batches.values().iterator();"
+        "content": "        // Get an existing batch from medicineToUpdate"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(iter.hasNext());"
+        "content": "        Iterator\u003cBatch\u003e iter \u003d batches.values().iterator();"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch batchToRemove \u003d iter.next();"
+        "content": "        assertTrue(iter.hasNext());"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertFalse(iter.hasNext()); // No more batches"
+        "content": "        Batch batchToRemove \u003d iter.next();"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertFalse(iter.hasNext()); // No more batches"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        batches.remove(batchToRemove.getBatchNumber());"
+        "content": ""
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        batches.remove(batchToRemove.getBatchNumber());"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": ""
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withQuantity(\"0\")"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withExpiry(\"-\")"
+        "content": "                .withQuantity(\"0\")"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withBatches(batches).build();"
+        "content": "                .withExpiry(\"-\")"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withBatches(batches).build();"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch inputBatch \u003d new BatchBuilder(batchToRemove).withQuantity(\"0\").build();"
+        "content": ""
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(inputBatch).withNoExpiry().build();"
+        "content": "        Batch inputBatch \u003d new BatchBuilder(batchToRemove).withQuantity(\"0\").build();"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(inputBatch).withNoExpiry().build();"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
+        "content": ""
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, inputBatch);"
+        "content": ""
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, inputBatch);"
       },
       {
         "lineNumber": 188,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 189,
         "author": {
           "gitId": "flxffy"
         },
         "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
-        "lineNumber": 189,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 190,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": ""
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": ""
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_removeBatchUnfilteredListOneOtherBatch_success() {"
+        "content": "    @Test"
       },
       {
         "lineNumber": 195,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "    public void execute_removeBatchUnfilteredListOneOtherBatch_success() {"
+      },
+      {
+        "lineNumber": 196,
         "author": {
           "gitId": "flxffy"
         },
         "content": "        Index index \u003d INDEX_THIRD_MEDICINE;"
       },
       {
-        "lineNumber": 196,
+        "lineNumber": 197,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
       },
       {
-        "lineNumber": 197,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 198,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Map\u003cBatchNumber, Batch\u003e batches \u003d new HashMap\u003c\u003e(medicineToUpdate.getBatches());"
+        "content": ""
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Iterator\u003cBatch\u003e iter \u003d batches.values().iterator();"
+        "content": "        Map\u003cBatchNumber, Batch\u003e batches \u003d new HashMap\u003c\u003e(medicineToUpdate.getBatches());"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(iter.hasNext());"
+        "content": "        Iterator\u003cBatch\u003e iter \u003d batches.values().iterator();"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch batchToRemove \u003d iter.next();"
+        "content": "        assertTrue(iter.hasNext());"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Batch batchToRemove \u003d iter.next();"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(iter.hasNext()); // There is one more batch after removing"
+        "content": ""
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch batchRemaining \u003d iter.next();"
+        "content": "        assertTrue(iter.hasNext()); // There is one more batch after removing"
       },
       {
         "lineNumber": 205,
@@ -98703,63 +98654,63 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": "        Expiry newExpiry \u003d batches.values().stream().min(Comparator.comparing(Batch::getExpiry)).get().getExpiry();"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withQuantity(Integer.toString(newQuantity))"
+        "content": ""
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withExpiry(batchRemaining.getExpiry().toString())"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withBatches(batches).build();"
+        "content": "                .withQuantity(Integer.toString(newQuantity))"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withExpiry(newExpiry.toString())"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch inputBatch \u003d new BatchBuilder(batchToRemove).withQuantity(\"0\").build();"
+        "content": "                .withBatches(batches).build();"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(inputBatch).withNoExpiry().build();"
+        "content": ""
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Batch inputBatch \u003d new BatchBuilder(batchToRemove).withQuantity(\"0\").build();"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(inputBatch).withNoExpiry().build();"
       },
       {
         "lineNumber": 220,
@@ -98773,7 +98724,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, inputBatch);"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
       },
       {
         "lineNumber": 222,
@@ -98787,7 +98738,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, inputBatch);"
       },
       {
         "lineNumber": 224,
@@ -98801,126 +98752,126 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_filteredList_success() {"
+        "content": ""
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        showMedicineAtIndex(model, INDEX_FIRST_MEDICINE);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineInFilteredList \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
+        "content": "    public void execute_filteredList_success() {"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        showMedicineAtIndex(model, INDEX_FIRST_MEDICINE);"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "        Medicine medicineInFilteredList \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": ""
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineInFilteredList)"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY)"
+        "content": ""
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withExpiry(BatchBuilder.DEFAULT_EXPIRY)"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineInFilteredList)"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedBatch(defaultBatch)"
+        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY)"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .build();"
+        "content": "                .withExpiry(BatchBuilder.DEFAULT_EXPIRY)"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withAddedBatch(defaultBatch)"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, defaultBatch);"
+        "content": "                .build();"
       },
       {
         "lineNumber": 243,
@@ -98934,154 +98885,154 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineInFilteredList, updatedMedicine);"
+        "content": "        String expectedMessage \u003d String.format(UpdateCommand.MESSAGE_SUCCESS, defaultBatch);"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        showMedicineAtIndex(expectedModel, INDEX_FIRST_MEDICINE); // List should remain filtered after update"
+        "content": ""
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.setSelectedMedicine(updatedMedicine);"
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineInFilteredList, updatedMedicine);"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        showMedicineAtIndex(expectedModel, INDEX_FIRST_MEDICINE); // List should remain filtered after update"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
+        "content": "        expectedModel.setSelectedMedicine(updatedMedicine);"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(updateCommand, model, commandHistory, expectedMessage, expectedModel);"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_invalidMedicineIndexUnfilteredList_failure() {"
+        "content": ""
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredMedicineList().size() + 1);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "    public void execute_invalidMedicineIndexUnfilteredList_failure() {"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(outOfBoundIndex, newBatchDetails);"
+        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredMedicineList().size() + 1);"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(updateCommand, model, commandHistory, Messages.MESSAGE_INVALID_MEDICINE_DISPLAYED_INDEX);"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(outOfBoundIndex, newBatchDetails);"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandFailure(updateCommand, model, commandHistory, Messages.MESSAGE_INVALID_MEDICINE_DISPLAYED_INDEX);"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_exceedMaxQuantityUnfilteredList_failure() {"
+        "content": ""
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch newBatch \u003d new BatchBuilder().withQuantity(Integer.toString(Quantity.MAX_QUANTITY)).build();"
+        "content": "    @Test"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(newBatch).build();"
+        "content": "    public void execute_exceedMaxQuantityUnfilteredList_failure() {"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Batch newBatch \u003d new BatchBuilder().withQuantity(Integer.toString(Quantity.MAX_QUANTITY)).build();"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_MAX_QUANTITY_EXCEEDED;"
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(newBatch).build();"
       },
       {
         "lineNumber": 266,
@@ -99093,79 +99044,79 @@
       {
         "lineNumber": 267,
         "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_MAX_QUANTITY_EXCEEDED;"
+      },
+      {
+        "lineNumber": 268,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 269,
+        "author": {
           "gitId": "flxffy"
         },
         "content": "        // Try to exceed max quantity to the second medicine in the inventory."
       },
       {
-        "lineNumber": 268,
+        "lineNumber": 270,
         "author": {
           "gitId": "flxffy"
         },
         "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_SECOND_MEDICINE, newBatchDetails);"
       },
       {
-        "lineNumber": 269,
+        "lineNumber": 271,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
       },
       {
-        "lineNumber": 270,
+        "lineNumber": 272,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 271,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 272,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": "    @Test"
-      },
-      {
         "lineNumber": 273,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_expiredBatchUnfilteredList_failure() {"
+        "content": ""
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch newBatch \u003d new BatchBuilder().withExpiry(\"1/1/2000\").build();"
+        "content": "    @Test"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(newBatch).build();"
+        "content": "    public void execute_expiredBatchUnfilteredList_failure() {"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Batch newBatch \u003d new BatchBuilder().withExpiry(\"1/1/2000\").build();"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_EXPIRED_BATCH;"
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(newBatch).build();"
       },
       {
         "lineNumber": 278,
@@ -99179,245 +99130,245 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // Try to add max quantity to the first medicine in the inventory."
+        "content": "        String expectedMessage \u003d UpdateCommand.MESSAGE_EXPIRED_BATCH;"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": ""
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
+        "content": "        // Try to add max quantity to the first medicine in the inventory."
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandFailure(updateCommand, model, commandHistory, expectedMessage);"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     * Update filtered list where index is larger than size of filtered list,"
+        "content": ""
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     * but smaller than size of inventory"
+        "content": "    /**"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     */"
+        "content": "     * Update filtered list where index is larger than size of filtered list,"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "     * but smaller than size of inventory"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void execute_invalidMedicineIndexFilteredList_failure() {"
+        "content": "     */"
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        showMedicineAtIndex(model, INDEX_FIRST_MEDICINE);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Index outOfBoundIndex \u003d INDEX_SECOND_MEDICINE;"
+        "content": "    public void execute_invalidMedicineIndexFilteredList_failure() {"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // ensures that outOfBoundIndex is still in bounds of inventory list"
+        "content": "        showMedicineAtIndex(model, INDEX_FIRST_MEDICINE);"
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(outOfBoundIndex.getZeroBased() \u003c model.getInventory().getMedicineList().size());"
+        "content": "        Index outOfBoundIndex \u003d INDEX_SECOND_MEDICINE;"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // ensures that outOfBoundIndex is still in bounds of inventory list"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "        assertTrue(outOfBoundIndex.getZeroBased() \u003c model.getInventory().getMedicineList().size());"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(outOfBoundIndex, newBatchDetails);"
+        "content": ""
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(updateCommand, model, commandHistory, Messages.MESSAGE_INVALID_MEDICINE_DISPLAYED_INDEX);"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(outOfBoundIndex, newBatchDetails);"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandFailure(updateCommand, model, commandHistory, Messages.MESSAGE_INVALID_MEDICINE_DISPLAYED_INDEX);"
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void executeUndoRedo_validIndexUnfilteredListNewBatch_success() throws Exception {"
+        "content": ""
       },
       {
         "lineNumber": 303,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
+        "content": "    @Test"
       },
       {
         "lineNumber": 304,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "    public void executeUndoRedo_validIndexUnfilteredListNewBatch_success() throws Exception {"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY)"
+        "content": ""
       },
       {
         "lineNumber": 309,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withExpiry(BatchBuilder.DEFAULT_EXPIRY)"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedBatch(defaultBatch)"
+        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY)"
       },
       {
         "lineNumber": 311,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .build();"
+        "content": "                .withExpiry(BatchBuilder.DEFAULT_EXPIRY)"
       },
       {
         "lineNumber": 312,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withAddedBatch(defaultBatch)"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": "                .build();"
       },
       {
         "lineNumber": 314,
@@ -99431,154 +99382,154 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // update -\u003e first medicine updated"
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        updateCommand.execute(model, commandHistory);"
+        "content": ""
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // update -\u003e first medicine updated"
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
+        "content": "        updateCommand.execute(model, commandHistory);"
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.undoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
       },
       {
         "lineNumber": 321,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        expectedModel.undoInventory();"
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // redo -\u003e same first medicine updated again"
+        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 323,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.redoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // redo -\u003e same first medicine updated again"
       },
       {
         "lineNumber": 325,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        expectedModel.redoInventory();"
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 327,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void executeUndoRedo_validIndexUnfilteredListExistingBatch_success() throws Exception {"
+        "content": ""
       },
       {
         "lineNumber": 329,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
+        "content": "    @Test"
       },
       {
         "lineNumber": 330,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
+        "content": "    public void executeUndoRedo_validIndexUnfilteredListExistingBatch_success() throws Exception {"
       },
       {
         "lineNumber": 331,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
       },
       {
         "lineNumber": 332,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Iterator\u003cBatch\u003e iter \u003d medicineToUpdate.getBatches().values().iterator();"
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
       },
       {
         "lineNumber": 333,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(iter.hasNext());"
+        "content": ""
       },
       {
         "lineNumber": 334,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch batchToUpdate \u003d iter.next();"
+        "content": "        Iterator\u003cBatch\u003e iter \u003d medicineToUpdate.getBatches().values().iterator();"
       },
       {
         "lineNumber": 335,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertTrue(iter.hasNext());"
       },
       {
         "lineNumber": 336,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch updatedBatch \u003d new BatchBuilder(batchToUpdate).withQuantity(VALID_QUANTITY_AMOXICILLIN).build();"
+        "content": "        Batch batchToUpdate \u003d iter.next();"
       },
       {
         "lineNumber": 337,
@@ -99592,56 +99543,56 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        int changeInQuantity \u003d updatedBatch.getQuantity().getNumericValue() - batchToUpdate.getQuantity()"
+        "content": "        Batch updatedBatch \u003d new BatchBuilder(batchToUpdate).withQuantity(VALID_QUANTITY_AMOXICILLIN).build();"
       },
       {
         "lineNumber": 339,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .getNumericValue();"
+        "content": ""
       },
       {
         "lineNumber": 340,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        int changeInQuantity \u003d updatedBatch.getQuantity().getNumericValue() - batchToUpdate.getQuantity()"
       },
       {
         "lineNumber": 341,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": "                .getNumericValue();"
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedQuantity(Integer.toString(changeInQuantity))"
+        "content": ""
       },
       {
         "lineNumber": 343,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedBatch(updatedBatch).build();"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 344,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withAddedQuantity(Integer.toString(changeInQuantity))"
       },
       {
         "lineNumber": 345,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(updatedBatch).withNoExpiry().build();"
+        "content": "                .withAddedBatch(updatedBatch).build();"
       },
       {
         "lineNumber": 346,
@@ -99655,7 +99606,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(updatedBatch).withNoExpiry().build();"
       },
       {
         "lineNumber": 348,
@@ -99669,7 +99620,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
       },
       {
         "lineNumber": 350,
@@ -99683,161 +99634,161 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // update -\u003e second medicine updated"
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 352,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        updateCommand.execute(model, commandHistory);"
+        "content": ""
       },
       {
         "lineNumber": 353,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // update -\u003e second medicine updated"
       },
       {
         "lineNumber": 354,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
+        "content": "        updateCommand.execute(model, commandHistory);"
       },
       {
         "lineNumber": 355,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.undoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 356,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
       },
       {
         "lineNumber": 357,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        expectedModel.undoInventory();"
       },
       {
         "lineNumber": 358,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // redo -\u003e same first medicine updated again"
+        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 359,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.redoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 360,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // redo -\u003e same first medicine updated again"
       },
       {
         "lineNumber": 361,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        expectedModel.redoInventory();"
       },
       {
         "lineNumber": 362,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 363,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 364,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void executeUndoRedo_validIndexUnfilteredListRemoveBatch_success() throws Exception {"
+        "content": ""
       },
       {
         "lineNumber": 365,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
+        "content": "    @Test"
       },
       {
         "lineNumber": 366,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
+        "content": "    public void executeUndoRedo_validIndexUnfilteredListRemoveBatch_success() throws Exception {"
       },
       {
         "lineNumber": 367,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": ""
+        "content": "        Index index \u003d INDEX_SECOND_MEDICINE;"
       },
       {
         "lineNumber": 368,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Map\u003cBatchNumber, Batch\u003e batches \u003d new HashMap\u003c\u003e(medicineToUpdate.getBatches());"
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(index.getZeroBased());"
       },
       {
         "lineNumber": 369,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Iterator\u003cBatch\u003e iter \u003d batches.values().iterator();"
+        "content": ""
       },
       {
         "lineNumber": 370,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(iter.hasNext());"
+        "content": "        Map\u003cBatchNumber, Batch\u003e batches \u003d new HashMap\u003c\u003e(medicineToUpdate.getBatches());"
       },
       {
         "lineNumber": 371,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch batchToRemove \u003d iter.next();"
+        "content": "        Iterator\u003cBatch\u003e iter \u003d batches.values().iterator();"
       },
       {
         "lineNumber": 372,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertTrue(iter.hasNext());"
       },
       {
         "lineNumber": 373,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        batches.remove(batchToRemove.getBatchNumber());"
+        "content": "        Batch batchToRemove \u003d iter.next();"
       },
       {
         "lineNumber": 374,
@@ -99851,7 +99802,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        int changeInQuantity \u003d -(batchToRemove.getQuantity().getNumericValue());"
+        "content": "        batches.remove(batchToRemove.getBatchNumber());"
       },
       {
         "lineNumber": 376,
@@ -99865,119 +99816,119 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        String updatedExpiry;"
+        "content": "        int changeInQuantity \u003d -(batchToRemove.getQuantity().getNumericValue());"
       },
       {
         "lineNumber": 378,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        if (batches.size() \u003e 0) {"
+        "content": ""
       },
       {
         "lineNumber": 379,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "        String updatedExpiry;"
+      },
+      {
+        "lineNumber": 380,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "        if (batches.size() \u003e 0) {"
+      },
+      {
+        "lineNumber": 381,
         "author": {
           "gitId": "flxffy"
         },
         "content": "            updatedExpiry \u003d batches.values().stream()"
       },
       {
-        "lineNumber": 380,
+        "lineNumber": 382,
         "author": {
           "gitId": "flxffy"
         },
         "content": "                    .min(Comparator.comparing(Batch::getExpiry)).get().getExpiry().toString();"
       },
       {
-        "lineNumber": 381,
+        "lineNumber": 383,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        } else {"
       },
       {
-        "lineNumber": 382,
+        "lineNumber": 384,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "            updatedExpiry \u003d \"-\";"
       },
       {
-        "lineNumber": 383,
+        "lineNumber": 385,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 384,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 385,
-        "author": {
-          "gitId": "jtankw3"
-        },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
-      },
-      {
         "lineNumber": 386,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedQuantity(Integer.toString(changeInQuantity))"
+        "content": ""
       },
       {
         "lineNumber": 387,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withExpiry(updatedExpiry)"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 388,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withBatches(batches).build();"
+        "content": "                .withAddedQuantity(Integer.toString(changeInQuantity))"
       },
       {
         "lineNumber": 389,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withExpiry(updatedExpiry)"
       },
       {
         "lineNumber": 390,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(batchToRemove).withQuantity(\"0\")"
+        "content": "                .withBatches(batches).build();"
       },
       {
         "lineNumber": 391,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withNoExpiry().build();"
+        "content": ""
       },
       {
         "lineNumber": 392,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(batchToRemove).withQuantity(\"0\")"
       },
       {
         "lineNumber": 393,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
+        "content": "                .withNoExpiry().build();"
       },
       {
         "lineNumber": 394,
@@ -99991,7 +99942,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(index, newBatchDetails);"
       },
       {
         "lineNumber": 396,
@@ -100003,135 +99954,135 @@
       {
         "lineNumber": 397,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        // update -\u003e second medicine updated"
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 398,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        updateCommand.execute(model, commandHistory);"
+        "content": ""
       },
       {
         "lineNumber": 399,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": ""
+        "content": "        // update -\u003e second medicine updated"
       },
       {
         "lineNumber": 400,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
+        "content": "        updateCommand.execute(model, commandHistory);"
       },
       {
         "lineNumber": 401,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.undoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 402,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
       },
       {
         "lineNumber": 403,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        expectedModel.undoInventory();"
       },
       {
         "lineNumber": 404,
         "author": {
-          "gitId": "flxffy"
+          "gitId": "jtankw3"
         },
-        "content": "        // redo -\u003e same second medicine updated again"
+        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 405,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.redoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 406,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "flxffy"
         },
-        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // redo -\u003e same second medicine updated again"
       },
       {
         "lineNumber": 407,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        expectedModel.redoInventory();"
       },
       {
         "lineNumber": 408,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 409,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 410,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void executeUndoRedo_invalidIndexUnfilteredList_failure() {"
+        "content": ""
       },
       {
         "lineNumber": 411,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredMedicineList().size() + 1);"
+        "content": "    @Test"
       },
       {
         "lineNumber": 412,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // ensures that outOfBoundIndex is still in bounds of inventory list"
+        "content": "    public void executeUndoRedo_invalidIndexUnfilteredList_failure() {"
       },
       {
         "lineNumber": 413,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(outOfBoundIndex.getZeroBased() \u003e\u003d model.getInventory().getMedicineList().size());"
+        "content": "        Index outOfBoundIndex \u003d Index.fromOneBased(model.getFilteredMedicineList().size() + 1);"
       },
       {
         "lineNumber": 414,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // ensures that outOfBoundIndex is still in bounds of inventory list"
       },
       {
         "lineNumber": 415,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "        assertTrue(outOfBoundIndex.getZeroBased() \u003e\u003d model.getInventory().getMedicineList().size());"
       },
       {
         "lineNumber": 416,
@@ -100145,7 +100096,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(outOfBoundIndex, newBatchDetails);"
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 418,
@@ -100159,556 +100110,570 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // execution failed -\u003e inventory state not added into model"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(outOfBoundIndex, newBatchDetails);"
       },
       {
         "lineNumber": 420,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(updateCommand, model, commandHistory, Messages.MESSAGE_INVALID_MEDICINE_DISPLAYED_INDEX);"
+        "content": ""
       },
       {
         "lineNumber": 421,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // execution failed -\u003e inventory state not added into model"
       },
       {
         "lineNumber": 422,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // single inventory state in model -\u003e undoCommand and redoCommand fail"
+        "content": "        assertCommandFailure(updateCommand, model, commandHistory, Messages.MESSAGE_INVALID_MEDICINE_DISPLAYED_INDEX);"
       },
       {
         "lineNumber": 423,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_FAILURE);"
+        "content": ""
       },
       {
         "lineNumber": 424,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandFailure(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_FAILURE);"
+        "content": "        // single inventory state in model -\u003e undoCommand and redoCommand fail"
       },
       {
         "lineNumber": 425,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        assertCommandFailure(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_FAILURE);"
       },
       {
         "lineNumber": 426,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandFailure(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_FAILURE);"
       },
       {
         "lineNumber": 427,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 428,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     * 1. Updates a {@code Medicine} from a filtered list."
+        "content": ""
       },
       {
         "lineNumber": 429,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     * 2. Undo the update."
+        "content": "    /**"
       },
       {
         "lineNumber": 430,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     * 3. The unfiltered list should be shown now. Verify that the index of the previously updated medicine in the"
+        "content": "     * 1. Updates a {@code Medicine} from a filtered list."
       },
       {
         "lineNumber": 431,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     * unfiltered list is different from the index at the filtered list."
+        "content": "     * 2. Undo the update."
       },
       {
         "lineNumber": 432,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     * 4. Redo the update. This ensures {@code RedoCommand} updates the medicine object regardless of indexing."
+        "content": "     * 3. The unfiltered list should be shown now. Verify that the index of the previously updated medicine in the"
       },
       {
         "lineNumber": 433,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "     */"
+        "content": "     * unfiltered list is different from the index at the filtered list."
       },
       {
         "lineNumber": 434,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "     * 4. Redo the update. This ensures {@code RedoCommand} updates the medicine object regardless of indexing."
       },
       {
         "lineNumber": 435,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void executeUndoRedo_validIndexFilteredList_sameMedicineUpdated() throws Exception {"
+        "content": "     */"
       },
       {
         "lineNumber": 436,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_SECOND_MEDICINE.getZeroBased());"
+        "content": "    @Test"
       },
       {
         "lineNumber": 437,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "    public void executeUndoRedo_validIndexFilteredList_sameMedicineUpdated() throws Exception {"
       },
       {
         "lineNumber": 438,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": "        Medicine medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_SECOND_MEDICINE.getZeroBased());"
       },
       {
         "lineNumber": 439,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 440,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
+        "content": "        UpdateCommand updateCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 441,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY)"
+        "content": ""
       },
       {
         "lineNumber": 442,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .withAddedBatch(defaultBatch)"
+        "content": "        Medicine updatedMedicine \u003d new MedicineBuilder(medicineToUpdate)"
       },
       {
         "lineNumber": 443,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "                .build();"
+        "content": "                .withAddedQuantity(BatchBuilder.DEFAULT_QUANTITY)"
       },
       {
         "lineNumber": 444,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "                .withAddedBatch(defaultBatch)"
       },
       {
         "lineNumber": 445,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        showMedicineAtIndex(model, INDEX_SECOND_MEDICINE);"
+        "content": "                .build();"
       },
       {
         "lineNumber": 446,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
+        "content": ""
       },
       {
         "lineNumber": 447,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
+        "content": "        showMedicineAtIndex(model, INDEX_SECOND_MEDICINE);"
       },
       {
         "lineNumber": 448,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.setSelectedMedicine(null);"
+        "content": "        medicineToUpdate \u003d model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased());"
       },
       {
         "lineNumber": 449,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        Model expectedModel \u003d getExpectedModel(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 450,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // update -\u003e updates second medicine in unfiltered medicine list / first medicine in filtered medicine list"
+        "content": "        expectedModel.setSelectedMedicine(null);"
       },
       {
         "lineNumber": 451,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        updateCommand.execute(model, commandHistory);"
+        "content": ""
       },
       {
         "lineNumber": 452,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // update -\u003e updates second medicine in unfiltered medicine list / first medicine in filtered medicine list"
       },
       {
         "lineNumber": 453,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
+        "content": "        updateCommand.execute(model, commandHistory);"
       },
       {
         "lineNumber": 454,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.undoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 455,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // undo -\u003e reverts Inventory back to previous state and filtered medicine list to show all medicines"
       },
       {
         "lineNumber": 456,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertNotEquals(model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased()), medicineToUpdate);"
+        "content": "        expectedModel.undoInventory();"
       },
       {
         "lineNumber": 457,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(new UndoCommand(), model, commandHistory, UndoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 458,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // redo -\u003e updates same second medicine in unfiltered medicine list"
+        "content": "        assertNotEquals(model.getFilteredMedicineList().get(INDEX_FIRST_MEDICINE.getZeroBased()), medicineToUpdate);"
       },
       {
         "lineNumber": 459,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.redoInventory();"
+        "content": ""
       },
       {
         "lineNumber": 460,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
+        "content": "        // redo -\u003e updates same second medicine in unfiltered medicine list"
       },
       {
         "lineNumber": 461,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        expectedModel.redoInventory();"
       },
       {
         "lineNumber": 462,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertCommandSuccess(new RedoCommand(), model, commandHistory, RedoCommand.MESSAGE_SUCCESS, expectedModel);"
       },
       {
         "lineNumber": 463,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 464,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public void equals() {"
+        "content": ""
       },
       {
         "lineNumber": 465,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
+        "content": "    @Test"
       },
       {
         "lineNumber": 466,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        final UpdateCommand standardCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": "    public void equals() {"
       },
       {
         "lineNumber": 467,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateBatchDescriptor newBatchDetails \u003d new UpdateBatchDescriptorBuilder(defaultBatch).build();"
       },
       {
         "lineNumber": 468,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // same values -\u003e returns true"
+        "content": "        final UpdateCommand standardCommand \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 469,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateCommand commandWithSameValues \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
+        "content": ""
       },
       {
         "lineNumber": 470,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(standardCommand.equals(commandWithSameValues));"
+        "content": "        // same values -\u003e returns true"
       },
       {
         "lineNumber": 471,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        UpdateCommand commandWithSameValues \u003d new UpdateCommand(INDEX_FIRST_MEDICINE, newBatchDetails);"
       },
       {
         "lineNumber": 472,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // same object -\u003e returns true"
+        "content": "        assertTrue(standardCommand.equals(commandWithSameValues));"
       },
       {
         "lineNumber": 473,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertTrue(standardCommand.equals(standardCommand));"
+        "content": ""
       },
       {
         "lineNumber": 474,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // same object -\u003e returns true"
       },
       {
         "lineNumber": 475,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // null -\u003e returns false"
+        "content": "        assertTrue(standardCommand.equals(standardCommand));"
       },
       {
         "lineNumber": 476,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertFalse(standardCommand.equals(null));"
+        "content": ""
       },
       {
         "lineNumber": 477,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // null -\u003e returns false"
       },
       {
         "lineNumber": 478,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // different types -\u003e returns false"
+        "content": "        assertFalse(standardCommand.equals(null));"
       },
       {
         "lineNumber": 479,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertFalse(standardCommand.equals(new ClearCommand()));"
+        "content": ""
       },
       {
         "lineNumber": 480,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // different types -\u003e returns false"
       },
       {
         "lineNumber": 481,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // different index -\u003e returns false"
+        "content": "        assertFalse(standardCommand.equals(new ClearCommand()));"
       },
       {
         "lineNumber": 482,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertFalse(standardCommand.equals(new UpdateCommand(INDEX_SECOND_MEDICINE, newBatchDetails)));"
+        "content": ""
       },
       {
         "lineNumber": 483,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        // different index -\u003e returns false"
       },
       {
         "lineNumber": 484,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        // different UpdateBatchDescriptor -\u003e returns false"
+        "content": "        assertFalse(standardCommand.equals(new UpdateCommand(INDEX_SECOND_MEDICINE, newBatchDetails)));"
       },
       {
         "lineNumber": 485,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Batch differentBatch \u003d new BatchBuilder().withBatchNumber(VALID_BATCHNUMBER_AMOXICILLIN).build();"
+        "content": ""
       },
       {
         "lineNumber": 486,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        UpdateBatchDescriptor differentBatchDetails \u003d new UpdateBatchDescriptorBuilder(differentBatch).build();"
+        "content": "        // different UpdateBatchDescriptor -\u003e returns false"
       },
       {
         "lineNumber": 487,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        assertFalse(standardCommand.equals(new UpdateCommand(INDEX_FIRST_MEDICINE, differentBatchDetails)));"
+        "content": "        Batch differentBatch \u003d new BatchBuilder().withBatchNumber(VALID_BATCHNUMBER_AMOXICILLIN).build();"
       },
       {
         "lineNumber": 488,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        UpdateBatchDescriptor differentBatchDetails \u003d new UpdateBatchDescriptorBuilder(differentBatch).build();"
       },
       {
         "lineNumber": 489,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "        assertFalse(standardCommand.equals(new UpdateCommand(INDEX_FIRST_MEDICINE, differentBatchDetails)));"
       },
       {
         "lineNumber": 490,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public Model getExpectedModel(Medicine medicineToUpdate, Medicine updatedMedicine) {"
+        "content": "    }"
       },
       {
         "lineNumber": 491,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        Model expectedModel \u003d new ModelManager(new Inventory(model.getInventory()), new UserPrefs());"
+        "content": ""
       },
       {
         "lineNumber": 492,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.setMedicine(medicineToUpdate, updatedMedicine);"
+        "content": "    public Model getExpectedModel(Medicine medicineToUpdate, Medicine updatedMedicine) {"
       },
       {
         "lineNumber": 493,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.commitInventory();"
+        "content": "        Model expectedModel \u003d new ModelManager(new Inventory(model.getInventory()), new UserPrefs());"
       },
       {
         "lineNumber": 494,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        expectedModel.setSelectedMedicine(updatedMedicine);"
+        "content": "        expectedModel.setMedicine(medicineToUpdate, updatedMedicine);"
       },
       {
         "lineNumber": 495,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "        return expectedModel;"
+        "content": "        expectedModel.commitInventory();"
       },
       {
         "lineNumber": 496,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    }"
+        "content": "        expectedModel.setSelectedMedicine(updatedMedicine);"
       },
       {
         "lineNumber": 497,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "}"
+        "content": "        return expectedModel;"
       },
       {
         "lineNumber": 498,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 499,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 500,
         "author": {
           "gitId": "jtankw3"
         },
@@ -100716,7 +100681,7 @@
       }
     ],
     "authorContributionMap": {
-      "jtankw3": 480,
+      "jtankw3": 482,
       "flxffy": 18
     }
   },
@@ -130617,318 +130582,325 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withBatches(\"GKP1684\", \"233\", \"13/08/2019\", \"GKP1685\", \"300\", \"15/08/2019\").build();"
+        "content": "            .withBatches(\"GKP1684\", \"233\", \"13/08/2019\", \"GKP1685\", \"300\", \"15/08/2019\", \"GKP1682\", \"5\", \"31/07/2019\")"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public static final Medicine LISINOPRIL \u003d new MedicineBuilder().withName(\"Lisinopril\")"
+        "content": "            .build();"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withCompany(\"Takeda Pharmaceutical Co.\").withQuantity(\"94\").withExpiry(\"06/07/2019\")"
+        "content": "    public static final Medicine LISINOPRIL \u003d new MedicineBuilder().withName(\"Lisinopril\")"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withBatches(\"307002\", \"94\", \"06/07/2019\").build();"
+        "content": "            .withCompany(\"Takeda Pharmaceutical Co.\").withQuantity(\"94\").withExpiry(\"06/07/2019\")"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public static final Medicine PREDNISONE \u003d new MedicineBuilder().withName(\"Prednisone\")"
+        "content": "            .withBatches(\"307002\", \"94\", \"06/07/2019\").build();"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withCompany(\"Gilead Sciences\").withQuantity(\"427\").withExpiry(\"19/11/2019\")"
+        "content": "    public static final Medicine PREDNISONE \u003d new MedicineBuilder().withName(\"Prednisone\")"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withBatches(\"A030F21\", \"427\", \"19/11/2019\").build();"
+        "content": "            .withCompany(\"Gilead Sciences\").withQuantity(\"427\").withExpiry(\"19/11/2019\")"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public static final Medicine LIPITOR \u003d new MedicineBuilder().withName(\"Lipitor\").withCompany(\"Johnson \u0026 Johnson\")"
+        "content": "            .withBatches(\"A030F21\", \"427\", \"19/11/2019\").build();"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withQuantity(\"82\").withExpiry(\"25/01/2020\").withBatches(\"NDC 0777-3105-02\", \"82\", \"25/01/2020\").build();"
+        "content": "    public static final Medicine LIPITOR \u003d new MedicineBuilder().withName(\"Lipitor\").withCompany(\"Johnson \u0026 Johnson\")"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "            .withQuantity(\"82\").withExpiry(\"25/01/2020\").withBatches(\"NDC 0777-3105-02\", \"82\", \"25/01/2020\").build();"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "    // Manually added"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "-"
         },
-        "content": "    public static final Medicine NAPROXEN \u003d new MedicineBuilder().withName(\"Naproxen Sodium\")"
+        "content": "    // Manually added"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withCompany(\"Boehringer-Ingelheim\").withQuantity(\"424\").withExpiry(\"29/07/2019\")"
+        "content": "    public static final Medicine NAPROXEN \u003d new MedicineBuilder().withName(\"Naproxen Sodium\")"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withBatches(\"HH 5100004\", \"224\", \"29/07/2019\", \"HH 5100011\", \"200\", \"11/08/2019\").build();"
+        "content": "            .withCompany(\"Boehringer-Ingelheim\").withQuantity(\"424\").withExpiry(\"29/07/2019\")"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public static final Medicine HYDROCHLOROTHIAZIDE \u003d new MedicineBuilder().withName(\"Hydrochlorothiazide\")"
+        "content": "            .withBatches(\"HH 5100004\", \"224\", \"29/07/2019\", \"HH 5100011\", \"200\", \"11/08/2019\").build();"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withCompany(\"NovaBay Pharmaceuticals\").withQuantity(\"0\").withExpiry(\"-\").build();"
+        "content": "    public static final Medicine HYDROCHLOROTHIAZIDE \u003d new MedicineBuilder().withName(\"Hydrochlorothiazide\")"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "jtankw3"
         },
-        "content": ""
+        "content": "            .withCompany(\"NovaBay Pharmaceuticals\").withQuantity(\"0\").withExpiry(\"-\").build();"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "jtankw3"
+          "gitId": "-"
         },
-        "content": "    // Manually added - Medicine\u0027s details found in {@code CommandTestUtil}"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public static final Medicine AMOXICILLIN \u003d new MedicineBuilder().withName(VALID_NAME_AMOXICILLIN)"
+        "content": "    // Manually added - Medicine\u0027s details found in {@code CommandTestUtil}"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withCompany(VALID_COMPANY_AMOXICILLIN).withQuantity(VALID_QUANTITY_AMOXICILLIN)"
+        "content": "    public static final Medicine AMOXICILLIN \u003d new MedicineBuilder().withName(VALID_NAME_AMOXICILLIN)"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withExpiry(VALID_EXPIRY_AMOXICILLIN).withTags(VALID_TAG_FEVER)"
+        "content": "            .withCompany(VALID_COMPANY_AMOXICILLIN).withQuantity(VALID_QUANTITY_AMOXICILLIN)"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withBatches(VALID_BATCHNUMBER_AMOXICILLIN, VALID_QUANTITY_AMOXICILLIN, VALID_EXPIRY_AMOXICILLIN).build();"
+        "content": "            .withExpiry(VALID_EXPIRY_AMOXICILLIN).withTags(VALID_TAG_FEVER)"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "    public static final Medicine GABAPENTIN \u003d new MedicineBuilder().withName(VALID_NAME_GABAPENTIN)"
+        "content": "            .withBatches(VALID_BATCHNUMBER_AMOXICILLIN, VALID_QUANTITY_AMOXICILLIN, VALID_EXPIRY_AMOXICILLIN).build();"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withCompany(VALID_COMPANY_GABAPENTIN).withQuantity(VALID_QUANTITY_GABAPENTIN)"
+        "content": "    public static final Medicine GABAPENTIN \u003d new MedicineBuilder().withName(VALID_NAME_GABAPENTIN)"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            .withExpiry(VALID_EXPIRY_GABAPENTIN).withTags(VALID_TAG_PAINKILLER, VALID_TAG_FEVER).build();"
+        "content": "            .withCompany(VALID_COMPANY_GABAPENTIN).withQuantity(VALID_QUANTITY_GABAPENTIN)"
       },
       {
         "lineNumber": 62,
+        "author": {
+          "gitId": "jtankw3"
+        },
+        "content": "            .withExpiry(VALID_EXPIRY_GABAPENTIN).withTags(VALID_TAG_PAINKILLER, VALID_TAG_FEVER).build();"
+      },
+      {
+        "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 64,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    public static final String KEYWORD_MATCHING_SODIUM \u003d \"Sodium\"; // A keyword that matches SODIUM"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 66,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    private TypicalMedicines() {} // prevents instantiation"
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 69,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "     * Returns an {@code Inventory} with all the typical medicines."
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 70,
+        "lineNumber": 71,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    public static Inventory getTypicalInventory() {"
       },
       {
-        "lineNumber": 71,
+        "lineNumber": 72,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        Inventory inv \u003d new Inventory();"
       },
       {
-        "lineNumber": 72,
+        "lineNumber": 73,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        for (Medicine medicine : getTypicalMedicines()) {"
       },
       {
-        "lineNumber": 73,
+        "lineNumber": 74,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "            inv.addMedicine(medicine);"
       },
       {
-        "lineNumber": 74,
+        "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 75,
+        "lineNumber": 76,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "        return inv;"
       },
       {
-        "lineNumber": 76,
+        "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 77,
+        "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 78,
+        "lineNumber": 79,
         "author": {
           "gitId": "jtankw3"
         },
         "content": "    public static List\u003cMedicine\u003e getTypicalMedicines() {"
       },
       {
-        "lineNumber": 79,
+        "lineNumber": 80,
         "author": {
           "gitId": "flxffy"
         },
         "content": "        return new ArrayList\u003c\u003e(Arrays.asList(ACETAMINOPHEN, IBUPROFEN, LEVOTHYROXINE, LIPITOR, LISINOPRIL, PARACETAMOL,"
       },
       {
-        "lineNumber": 80,
+        "lineNumber": 81,
         "author": {
           "gitId": "flxffy"
         },
         "content": "                PREDNISONE));"
       },
       {
-        "lineNumber": 81,
+        "lineNumber": 82,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 82,
+        "lineNumber": 83,
         "author": {
           "gitId": "-"
         },
@@ -130936,7 +130908,7 @@
       }
     ],
     "authorContributionMap": {
-      "jtankw3": 54,
+      "jtankw3": 55,
       "melpulomas": 2,
       "-": 24,
       "flxffy": 2
@@ -132437,7 +132409,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            sortedData.sort(Comparator.comparing(b -\u003e b.getExpiry()));"
+        "content": "            sortedData.sort(Comparator.comparing(Batch::getExpiry));"
       },
       {
         "lineNumber": 103,
@@ -132458,7 +132430,7 @@
         "author": {
           "gitId": "jtankw3"
         },
-        "content": "            sortedData.sort(Comparator.comparing(b -\u003e b.getQuantity().getNumericValue()));"
+        "content": "            sortedData.sort(Comparator.comparing(Batch::getQuantity));"
       },
       {
         "lineNumber": 106,

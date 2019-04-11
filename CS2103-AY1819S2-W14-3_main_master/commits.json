@@ -1506,10 +1506,17 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 1,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ae4205c20a123fb44a1e4ab6f4c5ce87b0ab6711",
+            "message": "Change output jar name to battleship",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "iwle": [
@@ -3379,10 +3386,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 57,
+        "deletions": 70,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a00b23cb15864acd9dd47e0a35f6fecb0ed981d5",
+            "message": "Remove refs to Address in tests Remove refs to Address in tests for Orientation, Battleship.",
+            "insertions": 0,
+            "deletions": 22
+          },
+          {
+            "hash": "3171c6617b83d1776e062de68bcbb52af42547d8",
+            "message": "Add specific exception class",
+            "insertions": 57,
+            "deletions": 45
+          },
+          {
+            "hash": "9f010d6cda26616f5db16d22a00e069d76c7e2a9",
+            "message": "Remove unused imports",
+            "insertions": 0,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "lucydotc": [
@@ -4082,10 +4108,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 11,
+        "deletions": 11,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "dfe44e9e79a280946d8fe08801a04aa0fad2a276",
+            "message": "Change order of enemy shooting for cardinal cells",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "904441aa0cc399d4bb3090e90a45842381e77684",
+            "message": "Remove the seed i pushed on accident",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "801c03d34ce5cab855d886f6ebf0b0e44732f7da",
+            "message": "Fix typo.",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "bos10": [
@@ -4927,8 +4972,8 @@
         ]
       },
       {
-        "insertions": 88,
-        "deletions": 346,
+        "insertions": 122,
+        "deletions": 385,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -4978,6 +5023,24 @@
             "message": "Added in renew stats. Remove unused import.",
             "insertions": 24,
             "deletions": 31
+          },
+          {
+            "hash": "942b0a8b16cb405d57aa1df6d012a27d9a1c1e14",
+            "message": "Included stats view at end game. Fixed message outputs",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "d1b2aeb32e34bf704242fe6c63ac788410e8feae",
+            "message": "Checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ac7d606f8299171c551c439bd0fe3103d21e8cc1",
+            "message": "Rectified bugs",
+            "insertions": 25,
+            "deletions": 33
           }
         ]
       }
@@ -6141,16 +6204,16 @@
   },
   "authorFinalContributionMap": {
     "erjillsison": 1208,
-    "iwle": 2919,
-    "lucydotc": 784,
-    "bos10": 1240,
-    "s-tr": 1926
+    "iwle": 2909,
+    "lucydotc": 782,
+    "bos10": 1239,
+    "s-tr": 1922
   },
   "authorContributionVariance": {
-    "erjillsison": 188439.4,
-    "iwle": 33064.027,
-    "lucydotc": 4715.1113,
-    "bos10": 22416.441,
+    "erjillsison": 188429.86,
+    "iwle": 32830.316,
+    "lucydotc": 4704.3926,
+    "bos10": 23405.812,
     "s-tr": 154766.11
   },
   "authorDisplayNameMap": {

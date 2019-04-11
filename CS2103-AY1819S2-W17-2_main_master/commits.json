@@ -2099,6 +2099,12 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "cchj1995": [
@@ -4243,6 +4249,12 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "kylerwsm": [
@@ -6056,6 +6068,55 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 131,
+        "deletions": 2,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "9e672541f7a89f10f0ce17acb9ce84694a925c3f",
+            "message": "New error message for future date and method to check it",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "76b5340444bbaba4197438d50ef42e0796a1899c",
+            "message": "Throws a new specific error if dob is after today",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "4e644027214ae0e937139a8935075aa91c1d149e",
+            "message": "More specific exception thrown if dob is after today",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "5cb4b834387e2998ef9c374050eb093f15446b8f",
+            "message": "New test case to check for new dob exception",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "05933a54b4b51d680194b20e6d581b3d18f2b782",
+            "message": "DOB is now valid for today\u0027s date",
+            "insertions": 12,
+            "deletions": 1
+          },
+          {
+            "hash": "0ef92909e1a1841eeb87bbae68403abb1ba7ed06",
+            "message": "CommandParserTestUtil prints more details about errors now",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "80666a244e51a55e9a54c4f9fe2dfa5039e2d276",
+            "message": "New tests for dob",
+            "insertions": 87,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "wSemis": [
@@ -6983,6 +7044,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
         "commitResults": []
       }
     ],
@@ -8474,8 +8541,8 @@
         "commitResults": []
       },
       {
-        "insertions": 477,
-        "deletions": 135,
+        "insertions": 790,
+        "deletions": 159,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -8581,6 +8648,12 @@
             "deletions": 2
           },
           {
+            "hash": "b2d62be81a7bec1d4710f15c263b354f8d1ed19d",
+            "message": "Added PdfSerializableAddressBookTest.java",
+            "insertions": 53,
+            "deletions": 0
+          },
+          {
             "hash": "60420ac80982819179c25f6fc75752a7ae2ea452",
             "message": "Revert \"Fixed Variable access definition order in TaskEditCommand and TeethEditCommand.\"",
             "insertions": 2,
@@ -8591,6 +8664,121 @@
             "message": "Revert \"Changed variables and methods that can be private to private.\"",
             "insertions": 19,
             "deletions": 19
+          },
+          {
+            "hash": "9a09779b08fd08c838db62e6cafab33f57a6c41b",
+            "message": "Updated PdfSerializableAddressBookTest",
+            "insertions": 260,
+            "deletions": 24
+          }
+        ]
+      },
+      {
+        "insertions": 369,
+        "deletions": 263,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "a13728ab83b888145f43835681ea6256fcd2f948",
+            "message": "Refactored PdfSerializableAddressBookTest.java.",
+            "insertions": 27,
+            "deletions": 59
+          },
+          {
+            "hash": "8d156806b558d34e300977ffebac1a1fc44318b9",
+            "message": "Added parseOpenSave() tests and parseImportExport() tests to ParserUtilTest.java.",
+            "insertions": 168,
+            "deletions": 0
+          },
+          {
+            "hash": "f8ef8c73639b6538731ecd4b40140aa967a1813c",
+            "message": "Changed \u0027\\\u0027 and \u0027/\u0027 to File.separator in DrawTeethUtil.java, ParserUtil.java and InOutAddressBook.java. Updated slash changing loop in ParserUtil.java.",
+            "insertions": 23,
+            "deletions": 10
+          },
+          {
+            "hash": "f740339e18af5d3a1805c3893a724a0649a1a544",
+            "message": "Changed \u0027\\\u0027 and \u0027/\u0027 to File.separator in DrawTeethUtil.java that was missed out.",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "7d250dd1fed21923de0b69e8bcfcab24c60badd0",
+            "message": "Added OpenCommandParserTest.java.",
+            "insertions": 58,
+            "deletions": 0
+          },
+          {
+            "hash": "2f3b5133d650a43a504b87ecce18b92346ae0cd0",
+            "message": "Removed unused imports.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "fb9c52383d55ee4b8f158b33f87788b865d4f882",
+            "message": "Refactored parse message that was used multiple times.",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "53f0c6675dac49acdcecf1807c5ea2f54439cd30",
+            "message": "Refactored OpenCommandParserTest ParseException message.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7ede1ca0a2f7d6c9809ae1636f29ee976ba1e2c4",
+            "message": "Added SaveCommandParserTest.java.",
+            "insertions": 60,
+            "deletions": 1
+          },
+          {
+            "hash": "e654acd02eced1cd10beb0253c96e4c77472e055",
+            "message": "Removed unused imports.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "16b9a08a68430c1612099b501b5ba8eba62a5b5d",
+            "message": "Removed unused test file.",
+            "insertions": 0,
+            "deletions": 152
+          },
+          {
+            "hash": "f5bdd8b031abbc11a13883c06a7b7d5d719249b0",
+            "message": "Changed \"Address Book\" to \"TeethHub\" at \"Stopping TeethHub\"in MainApp.java.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "77bfe3161dde5b86251c3982551fecd2a2b09860",
+            "message": "Changed OpenCommand and ImportCommand such that the Address Book will not be emptied if the .json file has invalid contents.",
+            "insertions": 15,
+            "deletions": 20
+          },
+          {
+            "hash": "3d17e7e5ece773b84a5b54e94b36bbd703525cda",
+            "message": "Unknown automatic replacement of \"}\" with \"}\"",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b095e6b8409263632bb6ff1dccb7b280f5f1a620",
+            "message": "Bugfixed parseOpenSave() and parseImportExport(): Updated regex to accept \"/\" and \"\\\" again.",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "c6aece4d480be42b9feac2364fd099994b9af866",
+            "message": "Added End of File is preferences.json",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4ddb4335bfe20bebbbda8f9eec598b17cf153896",
+            "message": "Removed unused commands in OpenCommand and ImportCommand.",
+            "insertions": 0,
+            "deletions": 2
           }
         ]
       }
@@ -8598,17 +8786,17 @@
   },
   "authorFinalContributionMap": {
     "kthSim": 5028,
-    "cchj1995": 4114,
-    "kylerwsm": 3665,
+    "cchj1995": 4112,
+    "kylerwsm": 3794,
     "wSemis": 1044,
-    "JiaHaoLim": 2974
+    "JiaHaoLim": 3344
   },
   "authorContributionVariance": {
-    "kthSim": 102871.47,
-    "cchj1995": 84909.11,
-    "kylerwsm": 61921.832,
-    "wSemis": 725027.75,
-    "JiaHaoLim": 77234.5
+    "kthSim": 101556.76,
+    "cchj1995": 83765.59,
+    "kylerwsm": 60889.8,
+    "wSemis": 713257.25,
+    "JiaHaoLim": 87379.65
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",

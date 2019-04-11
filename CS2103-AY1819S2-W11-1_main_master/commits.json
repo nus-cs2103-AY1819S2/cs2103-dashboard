@@ -1169,6 +1169,18 @@
             "deletions": 132
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "ckjohn000": [
@@ -2141,6 +2153,61 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 611,
+        "deletions": 2,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "04f69fce9734ddfee8ac501338f471392eb1a048",
+            "message": "make jsonserialisable public",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "721b0a4614d8433df0247c973b499c7d7dadbedc",
+            "message": "add typical deck for testing",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "a6dd9460f0ddfd03c59d856284369f8f77392e08",
+            "message": "add export parser test",
+            "insertions": 38,
+            "deletions": 0
+          },
+          {
+            "hash": "d80acff6e91cb7ea958eb15d240ce8df4a3e7271",
+            "message": "add import parser test",
+            "insertions": 36,
+            "deletions": 0
+          },
+          {
+            "hash": "8e9d3c83ade9ad9bf2e6a9088e42b1791ca060ba",
+            "message": "add exportcommand test",
+            "insertions": 150,
+            "deletions": 0
+          },
+          {
+            "hash": "445ed6de822be49b312be7745ada5ce6917ed527",
+            "message": "add importtcommand test",
+            "insertions": 345,
+            "deletions": 0
+          },
+          {
+            "hash": "2c8e99962eb4292e80cde08b3c4f5e814a8bcfcf",
+            "message": "add newline",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "xsot": [
@@ -2961,10 +3028,97 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 98,
+        "deletions": 183,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "09d21143a85f603ae54cb777cf6f6b8defb1aea0",
+            "message": "Remove StudyPanelCommandResult",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "1aa723cb8168f83758c76e92f161271ea8e808f1",
+            "message": "Remove list onChange listeners",
+            "insertions": 0,
+            "deletions": 65
+          },
+          {
+            "hash": "bee000c8e16226d13759cd8d0f678652855a8639",
+            "message": "Move states to model",
+            "insertions": 93,
+            "deletions": 95
+          },
+          {
+            "hash": "6e132221297dd4c16d912e54eaf1a2f186365f7c",
+            "message": "Simplify ListViewState",
+            "insertions": 3,
+            "deletions": 20
+          },
+          {
+            "hash": "f6fee2c6a4c28c77346b1b0c71ec5dbf8c6783f5",
+            "message": "Minor fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9d4547318f3f14e5b4a7c38ba9be942a999f99a9",
+            "message": "Minor fix",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 71,
+        "deletions": 72,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "8000123e7ef2892c213ef9a03ff6189988e1219a",
+            "message": "Fix checkstyle",
+            "insertions": 67,
+            "deletions": 68
+          },
+          {
+            "hash": "7f14efc0dd5242c6a5fccb59d1b0a138a421d49d",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d8faea0cfcf6910488cf0c63ecbfc9e859944af3",
+            "message": "Fix broken imports",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 7,
+        "deletions": 10,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "9f1f94969f147f7236ca8f1a3d61f2a01ea48ecf",
+            "message": "Fix import",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "14f2101d342cf6efef204a09683aef2570a6fab5",
+            "message": "Update imports after merge",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "d82ee2367092886b2980d884c55c36615552e652",
+            "message": "Update imports after merge",
+            "insertions": 3,
+            "deletions": 6
+          }
+        ]
       }
     ],
     "sciffany": [
@@ -4040,20 +4194,124 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 325,
+        "deletions": 165,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "43365372cfb6b9f4021770b2f1889c5c6692bcaa",
+            "message": "Limit inputs for rating",
+            "insertions": 54,
+            "deletions": 5
+          },
+          {
+            "hash": "c13f1f0aadf7dcaa3025cf2da169fd3a7e3e4c06",
+            "message": "Create tests for Difficulty Class",
+            "insertions": 44,
+            "deletions": 1
+          },
+          {
+            "hash": "5bd1bdc4f8209d226902d5c2a96261febd3e299e",
+            "message": "Refactor code for Difficulty Class",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "910ef0c5a2ba4109ff1d96c15da27f7d55721c71",
+            "message": "Change Card UI",
+            "insertions": 79,
+            "deletions": 46
+          },
+          {
+            "hash": "00747f2af4e46649b313c1ccd9f8a194a15c4370",
+            "message": "Tweak Card UI",
+            "insertions": 14,
+            "deletions": 8
+          },
+          {
+            "hash": "5f3de27e35deebbebf4fc6697fd752b73d0ae188",
+            "message": "Fix Study Panel UI",
+            "insertions": 55,
+            "deletions": 46
+          },
+          {
+            "hash": "02b6153484b278d1cd3832d73f77854e454ce739",
+            "message": "Reformat code",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "c75763fc31d1e94808b11bfaee61121f5c8b85a5",
+            "message": "Support Help, Exit, and History in study view",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "5baae90473e4035c3a5bbfec92acdda2728329b3",
+            "message": "Update Ui.png",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "f4a716cdccba8bf2875cc24134e131041bfddf0a",
+            "message": "Implement equality for DeckShuffler and StudyView",
+            "insertions": 47,
+            "deletions": 12
+          },
+          {
+            "hash": "f5e1b682e93906d078c959924f56519dee36f2af",
+            "message": "Fix Back Command Test",
+            "insertions": 23,
+            "deletions": 33
+          }
+        ]
+      },
+      {
+        "insertions": 79,
+        "deletions": 78,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "f2f47b0fc238d527dbf64f266aca36b656420935",
+            "message": "Fix tests for StudyDeckCommand",
+            "insertions": 69,
+            "deletions": 66
+          },
+          {
+            "hash": "f09c70cee78909163aa95495f101c61b8a003020",
+            "message": "Fix checkstyle errors",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "82a7c520856f60687916d8cfcea387ccce689f71",
+            "message": "Reduce Typical decks to three decks",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "c862efb84c5d6beff21f8678560587a1428a7385",
+            "message": "Reduce typical decks to two",
+            "insertions": 2,
+            "deletions": 6
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 5057,
-    "ckjohn000": 4887,
-    "xsot": 1813,
-    "sciffany": 2579
+    "ChangDarren": 5030,
+    "ckjohn000": 5366,
+    "xsot": 1778,
+    "sciffany": 2811
   },
   "authorContributionVariance": {
-    "ChangDarren": 513075.2,
-    "ckjohn000": 113366.22,
-    "xsot": 49893.3,
-    "sciffany": 511642.3
+    "ChangDarren": 499976.94,
+    "ckjohn000": 113370.766,
+    "xsot": 48756.938,
+    "sciffany": 496686.6
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

@@ -699,6 +699,12 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "kayheen": [
@@ -1251,8 +1257,8 @@
         ]
       },
       {
-        "insertions": 388,
-        "deletions": 244,
+        "insertions": 496,
+        "deletions": 262,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -1278,8 +1284,38 @@
             "message": "Solve bug for WaterMark command",
             "insertions": 19,
             "deletions": 5
+          },
+          {
+            "hash": "368f3a77ac72db863f92e1b978a4bd17ba34a27f",
+            "message": "Fix bug in WaterMarkCommand",
+            "insertions": 28,
+            "deletions": 17
+          },
+          {
+            "hash": "b65aaa5529fb71c364103ff3d5aa83c4c28d5624",
+            "message": "Add WaterCommandParserTest.",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "6cab6e712509a6a5c32aad17c6f0efd66372a204",
+            "message": "Add size restriction to resize command",
+            "insertions": 22,
+            "deletions": 1
+          },
+          {
+            "hash": "30144df72f76ecb4af110a23bd5c13e18735176e",
+            "message": "Add tests for rotatecommand.",
+            "insertions": 13,
+            "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "carrein": [
@@ -2217,8 +2253,8 @@
         ]
       },
       {
-        "insertions": 24,
-        "deletions": 3733,
+        "insertions": 320,
+        "deletions": 3895,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -2244,6 +2280,103 @@
             "message": "Fix imagelist not clearing on Save Command.",
             "insertions": 1,
             "deletions": 0
+          },
+          {
+            "hash": "4e4245541363524c050019ca54548a06e6ff3131",
+            "message": "Update User Guide to reflect maximum image size for import command.",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "b63849cdbbfc3b221852ebd98e5962b8a06415e7",
+            "message": "Add repo sense config.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fb0ab9e3c8d53084fed25faab29ba8cd6fd3987f",
+            "message": "Reinitalize previously failing tests.",
+            "insertions": 130,
+            "deletions": 3
+          },
+          {
+            "hash": "dca60baccb2a60541376c9ad720ab8271b446d6d",
+            "message": "Fix indentation style.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "f850a31373c1ee630eb217ecd53199754d523627",
+            "message": "Switch assert tests out of loop variant.",
+            "insertions": 9,
+            "deletions": 14
+          },
+          {
+            "hash": "8d1b5582ff48e178ef1607302a11b3f0ad2ec558",
+            "message": "Fix case sensitivity for Travis test.",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "ab33cf1720ddcae4f19e659ccaae55a3938aabc6",
+            "message": "Revert assets to temp folder.",
+            "insertions": 34,
+            "deletions": 3
+          },
+          {
+            "hash": "bd38ccd6c1850422199c098955e2ff0d0ebd6850",
+            "message": "Add test cases for Album.",
+            "insertions": 99,
+            "deletions": 128
+          },
+          {
+            "hash": "ba5c83a83a9dba680eb9752c59ec2fb37da26451",
+            "message": "Switch assets from temp folder again.",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "110633bed25fdd3534121ecd85742119844dac3f",
+            "message": "Remove unused references.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "568784fb47566d67737c4f54bb2a6144bdd29ae8",
+            "message": "Fix system property test.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "99a96e28f63b634732bfaa1b2517834a58c799ca",
+            "message": "Fix resource walker.",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "90b48cad5b7b50c079ae3e3a5854ea4e9c95e869",
+            "message": "Add seperator.",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 9,
+        "deletions": 5,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "e60230b862323f53b779e1c421cf418c98f06ff5",
+            "message": "Fix sample import importing multiple times.",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "615621ff30aa986a7f500129398e4d5d465fe170",
+            "message": "Resolve unused imports.",
+            "insertions": 0,
+            "deletions": 1
           }
         ]
       }
@@ -2748,6 +2881,31 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 138,
+        "deletions": 126,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "098b87cbcce983115f57d8d48e44d022ecc15f6a",
+            "message": "fix export command",
+            "insertions": 114,
+            "deletions": 109
+          },
+          {
+            "hash": "fbfb43ed8fc68d98dd632345b76b8fc423ebacee",
+            "message": "fix undo test",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "aadbde20b952cbfb6f7b95ff6c1be231d5a40fd1",
+            "message": "travis",
+            "insertions": 12,
+            "deletions": 7
+          }
+        ]
       }
     ],
     "thamsimun": [
@@ -3560,26 +3718,81 @@
         ]
       },
       {
+        "insertions": 356,
+        "deletions": 55,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "b9b0ec8c4bf078aa30efac56ca20b2a2ed2ba56d",
+            "message": "Fix bug in watermarkcommand and presetcommand",
+            "insertions": 17,
+            "deletions": 11
+          },
+          {
+            "hash": "0f9dc8682a29626750b47096513f395df3537d43",
+            "message": "Add contrast command parser test",
+            "insertions": 72,
+            "deletions": 9
+          },
+          {
+            "hash": "a0c9668b2573016caefb12194edf660ba6fbf10a",
+            "message": "Add brightness command parser tests",
+            "insertions": 68,
+            "deletions": 5
+          },
+          {
+            "hash": "0046e6d3285de5d0f9c316570b0edac901415623",
+            "message": "Add black white command parser test",
+            "insertions": 72,
+            "deletions": 13
+          },
+          {
+            "hash": "820e994c31c0eedac0c3fe9a8a6834c3d3802a5a",
+            "message": "Solve preset and watermark bug",
+            "insertions": 50,
+            "deletions": 14
+          },
+          {
+            "hash": "49142fa5cd8317eb50ae3924c5a8f0b4fa923f43",
+            "message": "Add javadocs to method in transformationset",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "9bd845b998051c35738ae43036a7e6cfcb0f0f8c",
+            "message": "add savepresetcommand parser test",
+            "insertions": 35,
+            "deletions": 2
+          },
+          {
+            "hash": "531bbac8ab503fa150e96487acd436661d91f6c0",
+            "message": "add setpresetcommand parser test",
+            "insertions": 36,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-10",
+        "date": "2019-04-11",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "itszp": 451,
-    "kayheen": 1049,
-    "carrein": 2319,
-    "randytqw": 435,
-    "thamsimun": 1113
+    "itszp": 466,
+    "kayheen": 1149,
+    "carrein": 2470,
+    "randytqw": 449,
+    "thamsimun": 1390
   },
   "authorContributionVariance": {
-    "itszp": 2629.8032,
-    "kayheen": 13249.172,
-    "carrein": 265185.62,
-    "randytqw": 4682.394,
-    "thamsimun": 31954.88
+    "itszp": 2593.3906,
+    "kayheen": 15779.833,
+    "carrein": 318559.97,
+    "randytqw": 5582.6265,
+    "thamsimun": 33311.16
   },
   "authorDisplayNameMap": {
     "itszp": "TAY...ENG",

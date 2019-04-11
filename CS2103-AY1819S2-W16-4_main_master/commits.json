@@ -665,6 +665,25 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 42,
+        "deletions": 48,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "01a7df4c0d6dd89f8dcc455a87905dfdf88f5005",
+            "message": "- Failing Edit tests are fixed. Since Editing process is changed (Before: with using filteredPersonsList from model class / after: using persons list from AddressBook class), the unnecessary tests are excluded",
+            "insertions": 41,
+            "deletions": 46
+          },
+          {
+            "hash": "1cc5dfcc7c35079fbe7bccf1687d8222efaec928",
+            "message": "checkStyleFixes",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "charnixon": [
@@ -1071,6 +1090,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
         "commitResults": []
       }
     ],
@@ -1567,6 +1592,12 @@
             "deletions": 11
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "DMGreenhouse": [
@@ -2246,30 +2277,159 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 147,
+        "deletions": 65,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "299122c360bbdb824590cbe74ee35066a7e3b9f5",
+            "message": "Fix bug: education, skills, positions, endorsements are now not case sensitive",
+            "insertions": 17,
+            "deletions": 5
+          },
+          {
+            "hash": "e10e6d6a72e9c7112424f6ec08e352dd39ee5d11",
+            "message": "Rewriting of sort methods to utilise abstraction",
+            "insertions": 34,
+            "deletions": 32
+          },
+          {
+            "hash": "886e4b7ac45a7412a892c1e3892ca108a99e25f5",
+            "message": "Updates to user guide specifying lower case sorting ability for endorsements, positions and skills",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "7556eb14ed547e5b136f974c27ebd01aac925097",
+            "message": "Addition of position and endorsement tag attributes to persons in the PersonBuilder for testing purposes",
+            "insertions": 93,
+            "deletions": 25
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 344,
+        "deletions": 193,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4d0576ab10d1705ae5e265d0ba5f2ed87e4c85af",
+            "message": "Additional methods to person class: firstNameToString and getPositionString",
+            "insertions": 24,
+            "deletions": 0
+          },
+          {
+            "hash": "45c35dd7cb9219c696d9013a6e33155618a5edb5",
+            "message": "Changes to browser panel to include linked in page. 5 different searching methods are used and all temporarily kept here for the purpose of the upcoming deadline",
+            "insertions": 68,
+            "deletions": 2
+          },
+          {
+            "hash": "8769021c3f2766674eade353769fc8f75e6ed6f5",
+            "message": "Changes to the tests to allow for different tags. In general previous tags were changed to skills and there is now room for seperate skill, position and endorsement tags. These are all utilised by the PersonBuilder.",
+            "insertions": 91,
+            "deletions": 88
+          },
+          {
+            "hash": "7552f3d830b8ac49c07bde80ce90490d4eaaac8a",
+            "message": "Typical persons updated to include the new skill, endorsement and position fields. FilterCommand tests are updated accordingly",
+            "insertions": 18,
+            "deletions": 17
+          },
+          {
+            "hash": "d4b1793cdf196de811b4d574af7af205a327df16",
+            "message": "Update to the AddCommand error message to suit the new product",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "8954468f0c7c8bcdc04aa28d662f830c22f84166",
+            "message": "Added to SortCommandTest to test the new sorting methods (by skills, positions, endorsements, skill number, position number, endorsement number)",
+            "insertions": 83,
+            "deletions": 13
+          },
+          {
+            "hash": "b14319b9c119f6090dac408241f1f215d0debd65",
+            "message": "Re-include default webpage for testing purposes",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "bf3668fc2b51ca335ff5be7371148324127a906c",
+            "message": "Fix SkillsTag calls (sometimes the type was not being recorded while other times it was)",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "7f571dae061c228ed3c842153515830e09a9a0e3",
+            "message": "Check Style Errors",
+            "insertions": 19,
+            "deletions": 9
+          },
+          {
+            "hash": "c1c371f9502414a718dcbff18d4d0e92cd987dc6",
+            "message": "Check Style Changes",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "76b3a59fd4d9c99e920e4ba161bb7f97b299ba1a",
+            "message": "Bug fix for adapted tag and updates to browser panel and test to include the linked in panel",
+            "insertions": 24,
+            "deletions": 51
+          },
+          {
+            "hash": "fba3ecfd4c19a24acb6852cb8803d355c616a0c4",
+            "message": "Bug fix",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 68,
+        "deletions": 43,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "46c68d182eb3ddd635c507a72a61524b7bdb06e0",
+            "message": "PersonListPanelTest Test fix: the issue was with the new tags, so additional persons with no tags are added and used for the test",
+            "insertions": 31,
+            "deletions": 2
+          },
+          {
+            "hash": "873578bc7cd4940ca32418055219fba9c4f78fe0",
+            "message": "Test fixes: JsonAdaptedPersonTest -\u003e solution: use a person without tags to circumvent issue Update Json typical persons to match the new typical persons",
+            "insertions": 20,
+            "deletions": 19
+          },
+          {
+            "hash": "caf2ec42290f9cec19635ae8eb880ea9250c20b5",
+            "message": "Check Style error alterations",
+            "insertions": 14,
+            "deletions": 19
+          },
+          {
+            "hash": "c5d5f7184f1200770c6447c6d7864c93aa546d41",
+            "message": "More check style error corrections",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "barisbatuhan": 2366,
-    "charnixon": 211,
-    "abwilli": 453,
-    "DMGreenhouse": 1025
+    "barisbatuhan": 2362,
+    "charnixon": 209,
+    "abwilli": 440,
+    "DMGreenhouse": 1444
   },
   "authorContributionVariance": {
-    "barisbatuhan": 591553.0,
-    "charnixon": 1759.5487,
-    "abwilli": 110533.65,
-    "DMGreenhouse": 23059.998
+    "barisbatuhan": 582135.7,
+    "charnixon": 1731.3092,
+    "abwilli": 108771.47,
+    "DMGreenhouse": 26924.723
   },
   "authorDisplayNameMap": {
     "barisbatuhan": "TOP...HAN",

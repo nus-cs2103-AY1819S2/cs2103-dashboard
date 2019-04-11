@@ -28225,7 +28225,7 @@
         "author": {
           "gitId": "DoItTomorrow"
         },
-        "content": "            + \"Example: \" + COMMAND_WORD + \"APA 1\";"
+        "content": "            + \"Example: \" + COMMAND_WORD + \" APA 1\";"
       },
       {
         "lineNumber": 27,
@@ -59621,6 +59621,1009 @@
     }
   },
   {
+    "path": "src/main/java/seedu/address/model/source/Author.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "package seedu.address.model.source;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "import static java.util.Objects.requireNonNull;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "import static seedu.address.commons.util.AppUtil.checkArgument;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "import static seedu.address.model.source.Source.validateSourceAttribute;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": " * Represents a Source\u0027s Author(s) in the infinity machine."
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": " * Guarantees: immutable; is valid as declared in {@link #isValidAuthor(String)}"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "public class Author {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public static final String MESSAGE_CONSTRAINTS \u003d"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            \"Author names can take any value, and it should not be blank\";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /*"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * The first character of an Author\u0027s name must not be a whitespace,"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * otherwise \" \" (a blank string) becomes a valid input."
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public static final String VALIDATION_REGEX \u003d \"[^\\\\s].*\";"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public final String author;"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Constructs a {@code Author}."
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * @param author A valid author."
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public Author(String author) {"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        requireNonNull(author);"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        checkArgument(validateSourceAttribute(author, VALIDATION_REGEX), MESSAGE_CONSTRAINTS);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        this.author \u003d author;"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public static boolean isValidAuthor(String test) {"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return validateSourceAttribute(test, VALIDATION_REGEX);"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return other \u003d\u003d this // short circuit if same object"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                || (other instanceof Author // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                \u0026\u0026 author.equals(((Author) other).author)); // state check"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public int hashCode() {"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return author.hashCode();"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Format state as text for viewing."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public String toString() {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return \u0027[\u0027 + author + \u0027]\u0027;"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "DoItTomorrow": 58
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/model/source/BiblioFields.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "package seedu.address.model.source;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "import java.util.Arrays;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": " * Represents a field for bibliographical information in the address book."
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": " * Guarantees: All entries are populated by placeholders if not defined by user."
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "public class BiblioFields {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public static final String[] ACCEPTED_FIELD_HEADERS \u003d"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        {\"City\", \"Journal\", \"Pages\", \"Publisher\", \"URL\", \"Webpage\", \"Website\", \"Day\", \"Month\", \"Year\"};"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    private final String[] fieldBodies \u003d new String[ACCEPTED_FIELD_HEADERS.length];"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Constructs an empty {@code BiblioFields object}."
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public BiblioFields() {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        Arrays.fill(fieldBodies, \"\");"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Replaces a field in BiblioFields."
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * @param header A valid biblio field type"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * @param body A valid biblio field body"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * @return true if edit is successful"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public boolean replaceField (String header, String body) throws IllegalArgumentException {"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        requireAllNonNull(header, body);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        if (getHeaderIndex(header) \u003d\u003d 0) {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        } else {"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            fieldBodies[getHeaderIndex(header)] \u003d body;"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            return true;"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public String[] getFieldBodies() {"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return fieldBodies;"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public String getField(String header) {"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return fieldBodies[getHeaderIndex(header)];"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    private int getHeaderIndex(String header) {"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        for (int i \u003d 0; i \u003c ACCEPTED_FIELD_HEADERS.length; i++) {"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            if (ACCEPTED_FIELD_HEADERS[i].equals(header)) {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                return i;"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return 0;"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return other \u003d\u003d this // short circuit if same object"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                || (other instanceof BiblioFields // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                \u0026\u0026 fieldBodies.equals(((BiblioFields) other).getFieldBodies())); // State check"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public int hashCode() {"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return fieldBodies.toString().hashCode();"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Format state as text for viewing."
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public String toString() {"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        String output \u003d \"Biblio fields:\\n\";"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        for (int i \u003d 0; i \u003c ACCEPTED_FIELD_HEADERS.length; i++) {"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            output \u003d output + String.format(\"[%s: %s]\\n\", ACCEPTED_FIELD_HEADERS[i], fieldBodies[i]);"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return output;"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "DoItTomorrow": 83
+    }
+  },
+  {
     "path": "src/main/java/seedu/address/model/source/Detail.java",
     "lines": [
       {
@@ -59710,9 +60713,9 @@
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    public static final String MESSAGE_CONSTRAINTS \u003d \"Details can take any values, and it should not be blank\";"
+        "content": "    public static final String MESSAGE_CONSTRAINTS \u003d \"Details can take any value, and it should not be blank\";"
       },
       {
         "lineNumber": 14,
@@ -60031,7 +61034,8 @@
       }
     ],
     "authorContributionMap": {
-      "case141": 56,
+      "DoItTomorrow": 1,
+      "case141": 55,
       "fterh": 2
     }
   },
@@ -60041,959 +61045,1105 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "package seedu.address.model.source;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "import java.util.Collections;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "import java.util.HashSet;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "import java.util.Objects;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "import java.util.Set;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
         "content": "import java.util.logging.Logger;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
         "content": "import java.util.regex.PatternSyntaxException;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
         "content": "import seedu.address.commons.core.LogsCenter;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
         "content": "import seedu.address.model.ModelManager;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "import seedu.address.model.tag.Tag;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "/**"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": " * Represents a Source in the address book."
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": " * Guarantees: details are present and not null, field values are validated, immutable."
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": " */"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "public class Source {"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
         "content": "    private static final Logger logger \u003d LogsCenter.getLogger(ModelManager.class);"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "    private final Title title;"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    private final Type type;"
+        "content": "    private final Author author;"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    private final Detail detail;"
+        "content": "    private final Type type;"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": ""
+        "content": "    private final Detail detail;"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    private final Set\u003cTag\u003e tags \u003d new HashSet\u003c\u003e();"
+        "content": "    private final BiblioFields biblioFields \u003d new BiblioFields();"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    public Source(Title title, Type type, Detail detail, Set\u003cTag\u003e tags) {"
+        "content": "    private final Set\u003cTag\u003e tags \u003d new HashSet\u003c\u003e();"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "case141"
-        },
-        "content": "        requireAllNonNull(title, type, detail, tags);"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        this.title \u003d title;"
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        this.type \u003d type;"
-      },
-      {
-        "lineNumber": 33,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        this.detail \u003d detail;"
-      },
-      {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        this.tags.addAll(tags);"
-      },
-      {
-        "lineNumber": 35,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public Source(Title title, Type type, Detail detail, Set\u003cTag\u003e tags) {"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        requireAllNonNull(title, type, detail, tags);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        this.title \u003d title;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        this.type \u003d type;"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        this.detail \u003d detail;"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        this.tags.addAll(tags);"
+      },
+      {
         "lineNumber": 37,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "     * A static utility method to validate a source attribute with a regex expression."
+        "content": "        this.author \u003d new Author(\"Default Author\");"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    /**"
+        "content": "    public Source(Title title, Author author, Type type, Detail detail, Set\u003cTag\u003e tags) {"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "     * A private utility method to validate a source attribute with a regex expression."
+        "content": "        requireAllNonNull(title, author, type, detail, tags);"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "     * @param attribute An attribute of the source class, e.g. title."
+        "content": "        this.title \u003d title;"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "     * @param regex A regex expression with which to validate `attribute`."
+        "content": "        this.author \u003d author;"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "     * @return true if `attribute` is valid, and false if either `attribute` or `regex` is invalid."
+        "content": "        this.type \u003d type;"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "     */"
+        "content": "        this.detail \u003d detail;"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    public static boolean validateSourceAttribute(String attribute, String regex) {"
+        "content": "        this.tags.addAll(tags);"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        boolean validationResult;"
+        "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        try {"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "            validationResult \u003d attribute.matches(regex);"
+        "content": "    /**"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        } catch (PatternSyntaxException e) {"
+        "content": "     * A static utility method to validate a source attribute with a regex expression."
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "            logger.severe(e.toString());"
+        "content": "     */"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "            return false;"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        }"
+        "content": "    /**"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": ""
+        "content": "     * A private utility method to validate a source attribute with a regex expression."
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        return validationResult;"
+        "content": "     * @param attribute An attribute of the source class, e.g. title."
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    }"
+        "content": "     * @param regex A regex expression with which to validate `attribute`."
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "fterh"
+          "gitId": "DoItTomorrow"
         },
-        "content": ""
+        "content": "     * @return true if `attribute` is valid, and false if either `attribute` or `regex` is invalid."
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    public Title getTitle() {"
+        "content": "     */"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        return title;"
+        "content": "    public static boolean validateSourceAttribute(String attribute, String regex) {"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    }"
+        "content": "        boolean validationResult;"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": ""
+        "content": "        try {"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    public Type getType() {"
+        "content": "            validationResult \u003d attribute.matches(regex);"
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        return type;"
+        "content": "        } catch (PatternSyntaxException e) {"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    }"
+        "content": "            logger.severe(e.toString());"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 67,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    public Detail getDetail() {"
-      },
-      {
-        "lineNumber": 68,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        return detail;"
-      },
-      {
-        "lineNumber": 69,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 71,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 72,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     * Returns an immutable tag set, which throws {@code UnsupportedOperationException}"
-      },
-      {
-        "lineNumber": 73,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     * if modification is attempted."
-      },
-      {
-        "lineNumber": 74,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 75,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    public Set\u003cTag\u003e getTags() {"
-      },
-      {
-        "lineNumber": 76,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        return Collections.unmodifiableSet(tags);"
-      },
-      {
-        "lineNumber": 77,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 78,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 79,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 80,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     * Returns true if both sources of the have the same title and same detail."
-      },
-      {
-        "lineNumber": 81,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     * Two sources will only be the same if they have the same title and same details."
-      },
-      {
-        "lineNumber": 82,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     * This defines a weaker notion of equality between two sources."
-      },
-      {
-        "lineNumber": 83,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 84,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    public boolean isSameSource(Source otherSource) {"
-      },
-      {
-        "lineNumber": 85,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        if (otherSource.getTitle().title.equals(this.getTitle())"
-      },
-      {
-        "lineNumber": 86,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                \u0026\u0026 otherSource.getDetail().detail.equals(this.getDetail())) {"
-      },
-      {
-        "lineNumber": 87,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "            return true;"
-      },
-      {
-        "lineNumber": 88,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 90,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        return otherSource !\u003d null"
-      },
-      {
-        "lineNumber": 91,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                \u0026\u0026 otherSource.getTitle().equals(getTitle())"
-      },
-      {
-        "lineNumber": 92,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                \u0026\u0026 otherSource.getDetail().equals(getDetail());"
-      },
-      {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 94,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 95,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 96,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     * Returns true if both sources have the same identity and data fields."
-      },
-      {
-        "lineNumber": 97,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     * This defines a stronger notion of equality between two sources."
-      },
-      {
-        "lineNumber": 98,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 99,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 100,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    public boolean equals(Object other) {"
-      },
-      {
-        "lineNumber": 101,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        if (other \u003d\u003d this) {"
-      },
-      {
-        "lineNumber": 102,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "            return true;"
-      },
-      {
-        "lineNumber": 103,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 104,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 105,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        if (!(other instanceof Source)) {"
-      },
-      {
-        "lineNumber": 106,
-        "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "            return false;"
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 67,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 108,
+        "lineNumber": 68,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return validationResult;"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public Title getTitle() {"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return title;"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public Author getAuthor() {"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return author;"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public Type getType() {"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return type;"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public Detail getDetail() {"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return detail;"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public BiblioFields getBiblioFields() {"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return biblioFields;"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Returns an immutable tag set which throws {@code UnsupportedOperationException}"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * if modification is attempted."
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public Set\u003cTag\u003e getTags() {"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return Collections.unmodifiableSet(tags);"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Returns true if both sources of the have the same title and same detail."
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * Two sources will only be the same if they have the same title and same details."
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     * This defines a weaker notion of equality between two sources."
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public boolean isSameSource(Source otherSource) {"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        if (otherSource.getTitle().title.equals(this.getTitle())"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                \u0026\u0026 otherSource.getDetail().detail.equals(this.getDetail())) {"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            return true;"
+      },
+      {
         "lineNumber": 109,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        Source otherSource \u003d (Source) other;"
+        "content": "        }"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        return otherSource.getTitle().equals(getTitle())"
+        "content": ""
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "                \u0026\u0026 otherSource.getType().equals(getType())"
+        "content": "        return otherSource !\u003d null"
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "                \u0026\u0026 otherSource.getDetail().equals(getDetail())"
+        "content": "                \u0026\u0026 otherSource.getTitle().equals(getTitle())"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "                \u0026\u0026 otherSource.getTags().equals(getTags());"
+        "content": "                \u0026\u0026 otherSource.getDetail().equals(getDetail());"
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "    }"
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    @Override"
+        "content": "    /**"
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    public int hashCode() {"
+        "content": "     * Returns true if both sources have the same identity and data fields."
       },
       {
         "lineNumber": 118,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        // use this method for custom fields hashing instead of implementing your own"
+        "content": "     * This defines a stronger notion of equality between two sources."
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        return Objects.hash(title, type, detail, tags);"
+        "content": "     */"
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "case141"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 121,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 122,
-        "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": "    @Override"
       },
       {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        if (other \u003d\u003d this) {"
+      },
+      {
         "lineNumber": 123,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "    public String toString() {"
+        "content": "            return true;"
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
-        "content": "        final StringBuilder builder \u003d new StringBuilder();"
+        "content": "        }"
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "case141"
-        },
-        "content": "        builder.append(\"Title: \")"
-      },
-      {
-        "lineNumber": 126,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                .append(getTitle() + \"\\n\")"
-      },
-      {
-        "lineNumber": 127,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                .append(\"Type: \")"
-      },
-      {
-        "lineNumber": 128,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                .append(getType() + \"\\n\")"
-      },
-      {
-        "lineNumber": 129,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                .append(\"Detail: \")"
-      },
-      {
-        "lineNumber": 130,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                .append(getDetail() + \"\\n\")"
-      },
-      {
-        "lineNumber": 131,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "                .append(\"Tags: \");"
-      },
-      {
-        "lineNumber": 132,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        getTags().forEach(builder::append);"
-      },
-      {
-        "lineNumber": 133,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "        return builder.toString();"
-      },
-      {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "case141"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 135,
-        "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
         },
         "content": ""
       },
       {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        if (!(other instanceof Source)) {"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        Source otherSource \u003d (Source) other;"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return otherSource.getTitle().equals(getTitle())"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                \u0026\u0026 otherSource.getType().equals(getType())"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                \u0026\u0026 otherSource.getDetail().equals(getDetail())"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                \u0026\u0026 otherSource.getTags().equals(getTags());"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
         "lineNumber": 136,
         "author": {
-          "gitId": "case141"
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public int hashCode() {"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        // use this method for custom fields hashing instead of implementing your own"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return Objects.hash(title, type, detail, tags);"
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    public String toString() {"
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        final StringBuilder builder \u003d new StringBuilder();"
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        builder.append(\"Title: \")"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                .append(getTitle() + \"\\n\")"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                .append(\"Type: \")"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                .append(getType() + \"\\n\")"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                .append(\"Detail: \")"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                .append(getDetail() + \"\\n\")"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "                .append(\"Tags: \");"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        getTags().forEach(builder::append);"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "        return builder.toString();"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "DoItTomorrow"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "DoItTomorrow"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "case141": 109,
-      "fterh": 27
+      "DoItTomorrow": 157
     }
   },
   {

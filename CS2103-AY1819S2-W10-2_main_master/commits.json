@@ -791,6 +791,12 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "jeffgan96": [
@@ -2421,6 +2427,12 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "dehui333": [
@@ -3800,6 +3812,12 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "shunnizuka": [
@@ -4854,22 +4872,152 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 24,
+        "deletions": 9,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1d8ca7ce1805efbcee8dd4e72f3feeaabf7edc67",
+            "message": "Update editProjectInfo to edit the projectName in employee also",
+            "insertions": 24,
+            "deletions": 9
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 280,
+        "deletions": 42,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "bf6cea46c162d4f8a281443195c703d942686dc1",
+            "message": "Add Test",
+            "insertions": 48,
+            "deletions": 8
+          },
+          {
+            "hash": "9cda90ae32cb7843fb099aad6b935d7128a3c5ee",
+            "message": "Implement EditProjectMilestoneCommand",
+            "insertions": 215,
+            "deletions": 30
+          },
+          {
+            "hash": "36904d1993e0b5c77bce2ef7d0183ae8c46b26cb",
+            "message": "Update parser",
+            "insertions": 17,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 848,
+        "deletions": 78,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "483fd056321545503907488eb5a89e9454d7b008",
+            "message": "Add test for command",
+            "insertions": 301,
+            "deletions": 7
+          },
+          {
+            "hash": "2f604b3f9911cbaa04e3f3d8cd61f7be266d88fe",
+            "message": "Add systemtest",
+            "insertions": 255,
+            "deletions": 3
+          },
+          {
+            "hash": "1c5b3fa84440db1ef3c2ec56848287536f854862",
+            "message": "Fix Formatting",
+            "insertions": 6,
+            "deletions": 14
+          },
+          {
+            "hash": "1301c7866e3cbbf806f408f84cc737c87efbe4e2",
+            "message": "Add systemtest for edit milestone",
+            "insertions": 208,
+            "deletions": 0
+          },
+          {
+            "hash": "79e2c9984dfbc86f99f3477aff70bc6f2eff478e",
+            "message": "Fix Formatting",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "e88b3a6e68c7ccaa3d709459deb67a8a53b5c796",
+            "message": "Update UG",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "23c6b30b520bdca151a1ab83ed9b0aef95aa7008",
+            "message": "Fix Formatting",
+            "insertions": 35,
+            "deletions": 34
+          },
+          {
+            "hash": "32cfca205971074ae488a2a266b2f68e82e4d42a",
+            "message": "Fix Formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "baa0ce0eaee61848b95e99b0641a0d374fa6f036",
+            "message": "Fix Formatting",
+            "insertions": 20,
+            "deletions": 7
+          },
+          {
+            "hash": "23afb489022d44831ea9f6e7d81a33d7e87d4094",
+            "message": "Fix Formatting",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "52546556cf4dd70a94712f8426cd7e0952a378a0",
+            "message": "Comment out the failing case (it passed in intellij ughh)",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "4223f804353744cb08eeb21b478cab87f19c6ef9",
+            "message": "Fixed",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 37,
+        "deletions": 1,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "b303aa5deec3b39908d9c9bbfa9d714829a943c6",
+            "message": "add check for milestone date",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "2cd8d3f666895f9a802d46d0320037eee856f303",
+            "message": "test to check for milestonedate",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "5e01dc50a92ad85b583e630ba054d2cf1ccc4ab8",
+            "message": "test to check for projectDeadline",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "3b9de18b0891150ce54c39b83acc8ab13c683d8e",
+            "message": "fix formatting",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "jothipillay": [
@@ -6712,8 +6860,8 @@
         ]
       },
       {
-        "insertions": 231,
-        "deletions": 70,
+        "insertions": 795,
+        "deletions": 603,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -6769,24 +6917,109 @@
             "message": "fixed formatting",
             "insertions": 10,
             "deletions": 10
+          },
+          {
+            "hash": "1bb6653d0a38577df9ba5bde68557bef5bba9b5c",
+            "message": "changed name to employeeName",
+            "insertions": 158,
+            "deletions": 158
+          },
+          {
+            "hash": "48648c148339c9013d353c2e9e4ec3e14c04a759",
+            "message": "created abstract class name and others extend from it",
+            "insertions": 39,
+            "deletions": 60
+          },
+          {
+            "hash": "d7013beee0245d118f1583ccd0b16332fd7a03b6",
+            "message": "edited errors causing compile error",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "dcb73b3eed4b0b6e0c660f2332c08a9c96553d31",
+            "message": "added new description classes",
+            "insertions": 114,
+            "deletions": 0
+          },
+          {
+            "hash": "6617b13846f2a0ff5dc339e3fccb62499bd87a99",
+            "message": "edited project task name and user story function to extend description",
+            "insertions": 72,
+            "deletions": 79
+          },
+          {
+            "hash": "bc9ed3a48c92ed3b954799467159595df75e3112",
+            "message": "fixed failing tests",
+            "insertions": 8,
+            "deletions": 24
+          },
+          {
+            "hash": "9269ad5f68ac55ae8034c5a6771c543a04cf2743",
+            "message": "renamed missing statement",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ef1841327d6bd5fd020bc3334ad862004de01920",
+            "message": "completed abstraction for description. regression testing complete",
+            "insertions": 115,
+            "deletions": 165
+          },
+          {
+            "hash": "bbbcc28487e01289b489530fafff06f5242f51ad",
+            "message": "rearranged imports",
+            "insertions": 27,
+            "deletions": 26
+          },
+          {
+            "hash": "559438c9e3b483912179a9e73a418f80bf86fb92",
+            "message": "corrected formatting",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c32bace9fd26904ca412632702a919e10ba056d4",
+            "message": "corrected formatting",
+            "insertions": 25,
+            "deletions": 16
+          }
+        ]
+      },
+      {
+        "insertions": 11,
+        "deletions": 11,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "5811d98b6488aeafd9bbebed5da9f85782fcf4ea",
+            "message": "updated description to milestone description",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "89cc59239b608a3603bc6b2a02d0d7430ca41523",
+            "message": "edited errors",
+            "insertions": 6,
+            "deletions": 6
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 3739,
-    "jeffgan96": 6243,
-    "dehui333": 3927,
-    "shunnizuka": 3436,
-    "jothipillay": 5167
+    "ditan96": 3661,
+    "jeffgan96": 6158,
+    "dehui333": 3909,
+    "shunnizuka": 4421,
+    "jothipillay": 5556
   },
   "authorContributionVariance": {
-    "ditan96": 221136.67,
-    "jeffgan96": 157626.0,
-    "dehui333": 107887.29,
-    "shunnizuka": 55113.945,
-    "jothipillay": 123754.44
+    "ditan96": 217869.97,
+    "jeffgan96": 155918.73,
+    "dehui333": 106417.266,
+    "shunnizuka": 65489.04,
+    "jothipillay": 145876.14
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

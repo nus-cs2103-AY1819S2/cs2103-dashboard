@@ -56288,362 +56288,453 @@
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "wfxronald"
         },
-        "content": "import seedu.giatros.model.patient.Patient;"
+        "content": "import seedu.giatros.model.allergy.Allergy;"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": ""
+        "content": "import seedu.giatros.model.patient.Patient;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
-        "content": " * The Browser Panel of the App."
+        "content": "/**"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
-        "content": " */"
+        "content": " * The Browser Panel of the App."
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
-        "content": "public class BrowserPanel extends UiPart\u003cRegion\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "public class BrowserPanel extends UiPart\u003cRegion\u003e {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final URL DEFAULT_PAGE \u003d"
+        "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "-"
         },
-        "content": "            requireNonNull(MainApp.class.getResource(FXML_FILE_FOLDER + \"default.html\"));"
+        "content": "    public static final URL DEFAULT_PAGE \u003d"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final String SEARCH_PAGE_URL \u003d \"https://se-education.org/dummy-search-page/?name\u003d\";"
+        "content": "            requireNonNull(MainApp.class.getResource(FXML_FILE_FOLDER + \"default.html\"));"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    public static final String SEARCH_PAGE_URL \u003d \"https://www.google.com/search?q\u003d\";"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static final String FXML \u003d \"BrowserPanel.fxml\";"
+        "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private static final String FXML \u003d \"BrowserPanel.fxml\";"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": "    private final Logger logger \u003d LogsCenter.getLogger(getClass());"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private final Logger logger \u003d LogsCenter.getLogger(getClass());"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "    @FXML"
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": "    private WebView browser;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private WebView browser;"
       },
       {
         "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
         "author": {
           "gitId": "chuaes"
         },
         "content": "    public BrowserPanel(ObservableValue\u003cPatient\u003e selectedPatient) {"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 36,
         "author": {
           "gitId": "-"
         },
         "content": "        super(FXML);"
       },
       {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": "        // To prevent triggering events for typing inside the loaded Web page."
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": "        getRoot().setOnKeyPressed(Event::consume);"
+        "content": "        // To prevent triggering events for typing inside the loaded Web page."
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        getRoot().setOnKeyPressed(Event::consume);"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "        // Load patient page when selected patient changes."
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "        selectedPatient.addListener((observable, oldValue, newValue) -\u003e {"
+        "content": "        // Load patient page when selected patient changes."
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "            if (newValue \u003d\u003d null) {"
+        "content": "        selectedPatient.addListener((observable, oldValue, newValue) -\u003e {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "                loadDefaultPage();"
+        "content": "            if (newValue \u003d\u003d null) {"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "                return;"
+        "content": "                loadDefaultPage();"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "            }"
+        "content": "                return;"
       },
       {
         "lineNumber": 46,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 47,
         "author": {
           "gitId": "chuaes"
         },
         "content": "            loadPatientPage(newValue);"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
         "content": "        });"
       },
       {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "        loadDefaultPage();"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        loadDefaultPage();"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "     * Loads a Google search page for the first allergy associated with the {@Code Patient},"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "     * if the {@code Patient} has some allergies. Otherwise, loads the default homepage."
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 57,
         "author": {
           "gitId": "chuaes"
         },
         "content": "    private void loadPatientPage(Patient patient) {"
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 58,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "wfxronald"
         },
-        "content": "        loadPage(SEARCH_PAGE_URL + patient.getName().fullName);"
+        "content": "        // Modify the method to load the patient\u0027s allergy instead of the name of the patient"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 59,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        if (patient.getAllergies().isEmpty()) {"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "            loadDefaultPage();"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "            return;"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        Allergy firstAllergy \u003d (Allergy) patient.getAllergies().toArray()[0];"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        loadPage(SEARCH_PAGE_URL + firstAllergy.allergyName);"
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
         "content": "    public void loadPage(String url) {"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
         "content": "        Platform.runLater(() -\u003e browser.getEngine().load(url));"
       },
       {
-        "lineNumber": 58,
+        "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
         "content": "     * Loads a default HTML file with a background that matches the general theme."
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
         "content": "    private void loadDefaultPage() {"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
         "content": "        loadPage(DEFAULT_PAGE.toExternalForm());"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 79,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
@@ -56651,8 +56742,9 @@
       }
     ],
     "authorContributionMap": {
-      "chuaes": 10,
-      "-": 57
+      "chuaes": 9,
+      "wfxronald": 15,
+      "-": 56
     }
   },
   {
@@ -65297,226 +65389,226 @@
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "    -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    background-color: #383838; /* Used in the default.html file */"
+        "content": "    background-color: #00280b; /* Used in the default.html file */"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
         "content": "}"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
         "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ".label {"
+        "content": "body {"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-font-size: 11pt;"
+        "content": "    color: #ffffff;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
+        "content": "    font-family: \"Century Gothic\";"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-text-fill: #555555;"
+        "content": "}"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-opacity: 0.9;"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "}"
+        "content": "h1, h3, p {"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    text-align: center;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
-        },
-        "content": ".label-bright {"
-      },
-      {
-        "lineNumber": 14,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    -fx-font-size: 11pt;"
-      },
-      {
-        "lineNumber": 15,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
-      },
-      {
-        "lineNumber": 16,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    -fx-text-fill: white;"
-      },
-      {
-        "lineNumber": 17,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    -fx-opacity: 1;"
-      },
-      {
-        "lineNumber": 18,
-        "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
         "content": "}"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ".center {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    display: block;"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    margin-left: auto;"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    margin-right: auto;"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    width: 40%;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
-        "content": ".label-header {"
+        "content": "}"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 32pt;"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Light\";"
+        "content": ".label {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "    -fx-font-size: 11pt;"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-opacity: 1;"
+        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-text-fill: #555555;"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-opacity: 0.9;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "-"
         },
-        "content": ".text-field {"
+        "content": "}"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 12pt;"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
+        "content": ".label-bright {"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-font-size: 11pt;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": ".tab-pane {"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 0 0 0 1;"
+        "content": "    -fx-opacity: 1;"
       },
       {
         "lineNumber": 34,
@@ -65537,203 +65629,203 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".tab-pane .tab-header-area {"
+        "content": ".label-header {"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 0 0 0 0;"
+        "content": "    -fx-font-size: 32pt;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-min-height: 0;"
+        "content": "    -fx-font-family: \"Segoe UI Light\";"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-max-height: 0;"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-opacity: 1;"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
-        "content": ".table-view {"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-base: #1d1d1d;"
+        "content": ".text-field {"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-control-inner-background: #1d1d1d;"
+        "content": "    -fx-font-size: 12pt;"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #1d1d1d;"
+        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-table-cell-border-color: transparent;"
+        "content": "}"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-table-header-border-color: transparent;"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 5;"
+        "content": ".tab-pane {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-padding: 0 0 0 1;"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": ".table-view .column-header-background {"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: transparent;"
+        "content": ".tab-pane .tab-header-area {"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-padding: 0 0 0 0;"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-min-height: 0;"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": ".table-view .column-header, .table-view .filler {"
+        "content": "    -fx-max-height: 0;"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-size: 35;"
+        "content": "}"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 0 0 1 0;"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: transparent;"
+        "content": ".table-view {"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-border-color:"
+        "content": "    -fx-base: #001907;"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "        transparent"
+        "content": "    -fx-control-inner-background: #001907;"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "        transparent"
+        "content": "    -fx-background-color: #001907;"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "        derive(-fx-base, 80%)"
+        "content": "    -fx-table-cell-border-color: transparent;"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "        transparent;"
+        "content": "    -fx-table-header-border-color: transparent;"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-insets: 0 10 1 0;"
+        "content": "    -fx-padding: 5;"
       },
       {
         "lineNumber": 65,
@@ -65754,259 +65846,259 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".table-view .column-header .label {"
+        "content": ".table-view .column-header-background {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 20pt;"
+        "content": "    -fx-background-color: transparent;"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Light\";"
+        "content": "}"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-alignment: center-left;"
+        "content": ".table-view .column-header, .table-view .filler {"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-opacity: 1;"
+        "content": "    -fx-size: 35;"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-border-width: 0 0 1 0;"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-background-color: transparent;"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": ".table-view:focused .table-row-cell:filled:focused:selected {"
+        "content": "    -fx-border-color:"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: -fx-focus-color;"
+        "content": "        transparent"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "        transparent"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        derive(-fx-base, 80%)"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "-"
         },
-        "content": ".split-pane:horizontal .split-pane-divider {"
+        "content": "        transparent;"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "    -fx-border-insets: 0 10 1 0;"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-color: transparent transparent transparent #4d4d4d;"
+        "content": "}"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".table-view .column-header .label {"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "-"
         },
-        "content": ".split-pane {"
+        "content": "    -fx-font-size: 20pt;"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-radius: 1;"
+        "content": "    -fx-font-family: \"Segoe UI Light\";"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 1;"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "    -fx-alignment: center-left;"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-opacity: 1;"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
-        "content": ".list-view {"
+        "content": ""
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-insets: 0;"
+        "content": ".table-view:focused .table-row-cell:filled:focused:selected {"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 0;"
+        "content": "    -fx-background-color: -fx-focus-color;"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "}"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".split-pane:horizontal .split-pane-divider {"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ".list-cell {"
+        "content": "    -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-label-padding: 0 0 0 0;"
+        "content": "    -fx-border-color: transparent transparent transparent #4d4d4d;"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-graphic-text-gap : 0;"
+        "content": "}"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 0 0 0 0;"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".split-pane {"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-border-radius: 1;"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": ".list-cell:filled:even {"
+        "content": "    -fx-border-width: 1;"
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-background-color: #3c3e3f;"
+        "content": "    -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 104,
@@ -66027,189 +66119,189 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".list-cell:filled:odd {"
+        "content": ".list-view {"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #515658;"
+        "content": "    -fx-background-insets: 0;"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-padding: 0;"
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": ".list-cell:filled:selected {"
+        "content": "}"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #424d5f;"
+        "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".list-cell {"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-label-padding: 0 0 0 0;"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": ".list-cell:filled:selected #cardPane {"
+        "content": "    -fx-graphic-text-gap : 0;"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-color: #3e7b91;"
+        "content": "    -fx-padding: 0 0 0 0;"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 1;"
+        "content": "}"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".list-cell:filled:even {"
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ".list-cell .label {"
+        "content": "    -fx-background-color: #004c15;"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "}"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".list-cell:filled:odd {"
       },
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ".cell_big_label {"
+        "content": "    -fx-background-color: #00280b;"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
+        "content": "}"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 16px;"
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: #010504;"
+        "content": ".list-cell:filled:selected {"
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "}"
+        "content": "    -fx-background-color: #0a5b4a;"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "-"
         },
-        "content": ".cell_small_label {"
+        "content": ""
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI\";"
+        "content": ".list-cell:filled:selected #cardPane {"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-font-size: 13px;"
+        "content": "    -fx-border-color: #043027;"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: #010504;"
+        "content": "    -fx-border-width: 1;"
       },
       {
         "lineNumber": 133,
@@ -66230,14 +66322,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".stack-pane {"
+        "content": ".list-cell .label {"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": "     -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 137,
@@ -66258,28 +66350,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".pane-with-border {"
+        "content": ".cell_big_label {"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "-"
         },
-        "content": "     -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "    -fx-font-family: \"Segoe UI Semibold\";"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
-        "content": "     -fx-border-color: derive(#1d1d1d, 10%);"
+        "content": "    -fx-font-size: 16px;"
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "     -fx-border-top-width: 1px;"
+        "content": "    -fx-text-fill: #00280b;"
       },
       {
         "lineNumber": 143,
@@ -66300,252 +66392,252 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".status-bar {"
+        "content": ".cell_small_label {"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 30%);"
+        "content": "    -fx-font-family: \"Segoe UI\";"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-font-size: 13px;"
       },
       {
         "lineNumber": 148,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-text-fill: #00280b;"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "-"
         },
-        "content": ".result-display {"
+        "content": "}"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: transparent;"
+        "content": ""
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Light\";"
+        "content": ".stack-pane {"
       },
       {
         "lineNumber": 152,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-font-size: 13pt;"
+        "content": "     -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "}"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".pane-with-border {"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ".result-display .label {"
+        "content": "     -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-text-fill: black !important;"
+        "content": "     -fx-border-color: derive(#001907, 10%);"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "     -fx-border-top-width: 1px;"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "-"
         },
-        "content": ".status-bar .label {"
+        "content": ""
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Light\";"
+        "content": ".status-bar {"
       },
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "    -fx-background-color: derive(#001907, 30%);"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 4px;"
+        "content": "}"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-pref-height: 30px;"
+        "content": ""
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".result-display {"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-background-color: transparent;"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
-        "content": ".status-bar-with-border {"
+        "content": "    -fx-font-family: \"Segoe UI Light\";"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 30%);"
+        "content": "    -fx-font-size: 13pt;"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-color: derive(#1d1d1d, 25%);"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 1px;"
+        "content": "}"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".result-display .label {"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "-"
         },
-        "content": ".status-bar-with-border .label {"
+        "content": "    -fx-text-fill: black !important;"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "}"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".status-bar .label {"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "-"
         },
-        "content": ".grid-pane {"
+        "content": "    -fx-font-family: \"Segoe UI Light\";"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 30%);"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-color: derive(#1d1d1d, 30%);"
+        "content": "    -fx-padding: 4px;"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 1px;"
+        "content": "    -fx-pref-height: 30px;"
       },
       {
         "lineNumber": 181,
@@ -66566,98 +66658,98 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".grid-pane .stack-pane {"
+        "content": ".status-bar-with-border {"
       },
       {
         "lineNumber": 184,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 30%);"
+        "content": "    -fx-background-color: derive(#001907, 30%);"
       },
       {
         "lineNumber": 185,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "}"
+        "content": "    -fx-border-color: derive(#001907, 25%);"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-border-width: 1px;"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "-"
         },
-        "content": ".context-menu {"
+        "content": "}"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 50%);"
+        "content": ""
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".status-bar-with-border .label {"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
-        "content": ".context-menu .label {"
+        "content": "}"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": ""
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".grid-pane {"
       },
       {
         "lineNumber": 194,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-background-color: derive(#001907, 30%);"
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ".menu-bar {"
+        "content": "    -fx-border-color: derive(#001907, 30%);"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "    -fx-border-width: 1px;"
       },
       {
         "lineNumber": 197,
@@ -66678,644 +66770,644 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".menu-bar .label {"
+        "content": ".grid-pane .stack-pane {"
       },
       {
         "lineNumber": 200,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-font-size: 14pt;"
+        "content": "    -fx-background-color: derive(#001907, 30%);"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Light\";"
+        "content": "}"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": ""
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-opacity: 0.9;"
+        "content": ".context-menu {"
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "}"
+        "content": "    -fx-background-color: derive(#001907, 50%);"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
-        "content": ".menu .left-container {"
+        "content": ""
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: black;"
+        "content": ".context-menu .label {"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "-"
         },
-        "content": "/*"
+        "content": ""
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "-"
         },
-        "content": " * Metro style Push Button"
+        "content": ".menu-bar {"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": " * Author: Pedro Duque Vieira"
+        "content": "    -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
-        "content": " * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/"
+        "content": "}"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "-"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "-"
         },
-        "content": ".button {"
+        "content": ".menu-bar .label {"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 5 22 5 22;"
+        "content": "    -fx-font-size: 14pt;"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-color: #e2e2e2;"
+        "content": "    -fx-font-family: \"Segoe UI Light\";"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 2;"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-radius: 0;"
+        "content": "    -fx-opacity: 0.9;"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #1d1d1d;"
+        "content": "}"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI\", Helvetica, Arial, sans-serif;"
+        "content": ""
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 11pt;"
+        "content": ".menu .left-container {"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: #d8d8d8;"
+        "content": "    -fx-background-color: black;"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-insets: 0 0 0 0, 0, 1, 2;"
+        "content": "}"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "/*"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "-"
         },
-        "content": ".button:hover {"
+        "content": " * Metro style Push Button"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #3a3a3a;"
+        "content": " * Author: Pedro Duque Vieira"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": " * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": " */"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "-"
         },
-        "content": ".button:pressed, .button:default:hover:pressed {"
+        "content": ".button {"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "-"
         },
-        "content": "  -fx-background-color: white;"
+        "content": "    -fx-padding: 5 22 5 22;"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "-"
         },
-        "content": "  -fx-text-fill: #1d1d1d;"
+        "content": "    -fx-border-color: #e2e2e2;"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-border-width: 2;"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-background-radius: 0;"
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ".button:focused {"
+        "content": "    -fx-background-color: #001907;"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-color: white, white;"
+        "content": "    -fx-font-family: \"Segoe UI\", Helvetica, Arial, sans-serif;"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 1, 1;"
+        "content": "    -fx-font-size: 11pt;"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-style: solid, segments(1, 1);"
+        "content": "    -fx-text-fill: #d8d8d8;"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-radius: 0, 0;"
+        "content": "    -fx-background-insets: 0 0 0 0, 0, 1, 2;"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-insets: 1 1 1 1, 0;"
+        "content": "}"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".button:hover {"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "-"
         },
-        "content": ".button:disabled, .button:default:disabled {"
+        "content": "    -fx-background-color: #3a3a3a;"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-opacity: 0.4;"
+        "content": "}"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #1d1d1d;"
+        "content": ""
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": ".button:pressed, .button:default:hover:pressed {"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "  -fx-background-color: white;"
       },
       {
         "lineNumber": 249,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "  -fx-text-fill: #001907;"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "-"
         },
-        "content": ".button:default {"
+        "content": "}"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: -fx-focus-color;"
+        "content": ""
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: #ffffff;"
+        "content": ".button:focused {"
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-border-color: white, white;"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-border-width: 1, 1;"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "-"
         },
-        "content": ".button:default:hover {"
+        "content": "    -fx-border-style: solid, segments(1, 1);"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(-fx-focus-color, 30%);"
+        "content": "    -fx-border-radius: 0, 0;"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-border-insets: 1 1 1 1, 0;"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
-        "content": ".dialog-pane {"
+        "content": ""
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #1d1d1d;"
+        "content": ".button:disabled, .button:default:disabled {"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-opacity: 0.4;"
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-background-color: #001907;"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "-"
         },
-        "content": ".dialog-pane \u003e *.button-bar \u003e *.container {"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: #1d1d1d;"
+        "content": "}"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".button:default {"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "-"
         },
-        "content": ".dialog-pane \u003e *.label.content {"
+        "content": "    -fx-background-color: -fx-focus-color;"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 14px;"
+        "content": "    -fx-text-fill: #ffffff;"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-weight: bold;"
+        "content": "}"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": ""
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".button:default:hover {"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-background-color: derive(-fx-focus-color, 30%);"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
-        "content": ".dialog-pane:header *.header-panel {"
+        "content": "}"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 25%);"
+        "content": ""
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".dialog-pane {"
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-background-color: #001907;"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "-"
         },
-        "content": ".dialog-pane:header *.header-panel *.label {"
+        "content": "}"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 18px;"
+        "content": ""
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-style: italic;"
+        "content": ".dialog-pane \u003e *.button-bar \u003e *.container {"
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-fill: white;"
+        "content": "    -fx-background-color: #001907;"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "}"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".dialog-pane \u003e *.label.content {"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "-"
         },
-        "content": ".scroll-bar {"
+        "content": "    -fx-font-size: 14px;"
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 20%);"
+        "content": "    -fx-font-weight: bold;"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "-"
         },
-        "content": ".scroll-bar .thumb {"
+        "content": ""
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: derive(#1d1d1d, 50%);"
+        "content": ".dialog-pane:header *.header-panel {"
       },
       {
         "lineNumber": 290,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-background-insets: 3;"
+        "content": "    -fx-background-color: derive(#001907, 25%);"
       },
       {
         "lineNumber": 291,
@@ -67336,252 +67428,252 @@
         "author": {
           "gitId": "-"
         },
-        "content": ".scroll-bar .increment-button, .scroll-bar .decrement-button {"
+        "content": ".dialog-pane:header *.header-panel *.label {"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: transparent;"
+        "content": "    -fx-font-size: 18px;"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 0 0 0 0;"
+        "content": "    -fx-font-style: italic;"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-fill: white;"
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "-"
         },
-        "content": ".scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {"
+        "content": "}"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-shape: \" \";"
+        "content": ""
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".scroll-bar {"
       },
       {
         "lineNumber": 301,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-background-color: derive(#001907, 20%);"
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "-"
         },
-        "content": ".scroll-bar:vertical .increment-arrow, .scroll-bar:vertical .decrement-arrow {"
+        "content": "}"
       },
       {
         "lineNumber": 303,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 1 8 1 8;"
+        "content": ""
       },
       {
         "lineNumber": 304,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".scroll-bar .thumb {"
       },
       {
         "lineNumber": 305,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-background-color: derive(#001907, 50%);"
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "-"
         },
-        "content": ".scroll-bar:horizontal .increment-arrow, .scroll-bar:horizontal .decrement-arrow {"
+        "content": "    -fx-background-insets: 3;"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 8 1 8 1;"
+        "content": "}"
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 309,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".scroll-bar .increment-button, .scroll-bar .decrement-button {"
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "-"
         },
-        "content": "#cardPane {"
+        "content": "    -fx-background-color: transparent;"
       },
       {
         "lineNumber": 311,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: transparent;"
+        "content": "    -fx-padding: 0 0 0 0;"
       },
       {
         "lineNumber": 312,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 0;"
+        "content": "}"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 314,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {"
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "-"
         },
-        "content": "#commandTypeLabel {"
+        "content": "    -fx-shape: \" \";"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 11px;"
+        "content": "}"
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: #F70D1A;"
+        "content": ""
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ".scroll-bar:vertical .increment-arrow, .scroll-bar:vertical .decrement-arrow {"
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-padding: 1 8 1 8;"
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "-"
         },
-        "content": "#commandTextField {"
+        "content": "}"
       },
       {
         "lineNumber": 321,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: transparent #383838 transparent #383838;"
+        "content": ""
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-insets: 0;"
+        "content": ".scroll-bar:horizontal .increment-arrow, .scroll-bar:horizontal .decrement-arrow {"
       },
       {
         "lineNumber": 323,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-color: #383838 #383838 #ffffff #383838;"
+        "content": "    -fx-padding: 8 1 8 1;"
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-insets: 0;"
+        "content": "}"
       },
       {
         "lineNumber": 325,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-border-width: 1;"
+        "content": ""
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-family: \"Segoe UI Light\";"
+        "content": "#cardPane {"
       },
       {
         "lineNumber": 327,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 13pt;"
+        "content": "    -fx-background-color: transparent;"
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "    -fx-border-width: 0;"
       },
       {
         "lineNumber": 329,
@@ -67600,383 +67692,495 @@
       {
         "lineNumber": 331,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "#filterField, #patientListPanel, #patientWebpage {"
+        "content": "#commandTypeLabel {"
       },
       {
         "lineNumber": 332,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-effect: innershadow(gaussian, black, 10, 0, 0, 0);"
+        "content": "    -fx-font-size: 11px;"
       },
       {
         "lineNumber": 333,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-text-fill: #F70D1A;"
       },
       {
         "lineNumber": 334,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 335,
         "author": {
           "gitId": "-"
         },
-        "content": "#resultDisplay .content {"
+        "content": ""
       },
       {
         "lineNumber": 336,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-color: transparent, #383838, transparent, #383838;"
+        "content": "#commandTextField {"
       },
       {
         "lineNumber": 337,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    -fx-background-radius: 0;"
+        "content": "    -fx-background-color: #00280b #00280b #00280b #00280b;"
       },
       {
         "lineNumber": 338,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-background-insets: 0;"
       },
       {
         "lineNumber": 339,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "    -fx-border-color: #00280b #00280b #ffffff #00280b;"
       },
       {
         "lineNumber": 340,
         "author": {
           "gitId": "-"
         },
-        "content": "#tags {"
+        "content": "    -fx-border-insets: 0;"
       },
       {
         "lineNumber": 341,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-hgap: 7;"
+        "content": "    -fx-border-width: 1;"
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-vgap: 3;"
+        "content": "    -fx-font-family: \"Segoe UI Light\";"
       },
       {
         "lineNumber": 343,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-font-size: 13pt;"
       },
       {
         "lineNumber": 344,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 345,
         "author": {
           "gitId": "-"
         },
-        "content": "#tags .label {"
+        "content": "}"
       },
       {
         "lineNumber": 346,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-padding: 1 3 1 3;"
+        "content": ""
       },
       {
         "lineNumber": 347,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "    -fx-border-radius: 2;"
+        "content": "#filterField, #patientListPanel, #patientWebpage {"
       },
       {
         "lineNumber": 348,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-background-radius: 2;"
+        "content": "    -fx-effect: innershadow(gaussian, black, 10, 0, 0, 0);"
       },
       {
         "lineNumber": 349,
         "author": {
           "gitId": "-"
         },
-        "content": "    -fx-font-size: 11;"
+        "content": "}"
       },
       {
         "lineNumber": 350,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 351,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "#resultDisplay .content {"
       },
       {
         "lineNumber": 352,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "#tags .blue {"
+        "content": "    -fx-background-color: #00280b, #00280b, #00280b, #00280b;"
       },
       {
         "lineNumber": 353,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "    -fx-background-radius: 0;"
       },
       {
         "lineNumber": 354,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "    -fx-background-color: #127a9c;"
+        "content": "}"
       },
       {
         "lineNumber": 355,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 356,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "#tags {"
       },
       {
         "lineNumber": 357,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "#tags .red {"
+        "content": "    -fx-hgap: 7;"
       },
       {
         "lineNumber": 358,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "    -fx-vgap: 3;"
       },
       {
         "lineNumber": 359,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "    -fx-background-color: #d60d0d;"
+        "content": "}"
       },
       {
         "lineNumber": 360,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "}"
+        "content": ""
       },
       {
         "lineNumber": 361,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "#tags .label {"
       },
       {
         "lineNumber": 362,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "#tags .yellow {"
+        "content": "    -fx-padding: 1 3 1 3;"
       },
       {
         "lineNumber": 363,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "    -fx-text-fill: black;"
+        "content": "    -fx-border-radius: 2;"
       },
       {
         "lineNumber": 364,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "    -fx-background-color: #eecc00;"
+        "content": "    -fx-background-radius: 2;"
       },
       {
         "lineNumber": 365,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": "}"
+        "content": "    -fx-font-size: 11;"
       },
       {
         "lineNumber": 366,
         "author": {
-          "gitId": "wfxronald"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 367,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "#tags .green {"
+        "content": ""
       },
       {
         "lineNumber": 368,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "#tags .blue {"
       },
       {
         "lineNumber": 369,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-background-color: #0da507;"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 370,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "}"
+        "content": "    -fx-background-color: #127a9c;"
       },
       {
         "lineNumber": 371,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 372,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "#tags .orange {"
+        "content": ""
       },
       {
         "lineNumber": 373,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-text-fill: black;"
+        "content": "#tags .red {"
       },
       {
         "lineNumber": 374,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-background-color: #ffa700;"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 375,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "}"
+        "content": "    -fx-background-color: #d60d0d;"
       },
       {
         "lineNumber": 376,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 377,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "#tags .black {"
+        "content": ""
       },
       {
         "lineNumber": 378,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-text-fill: white;"
+        "content": "#tags .yellow {"
       },
       {
         "lineNumber": 379,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-background-color: #000000;"
+        "content": "    -fx-text-fill: black;"
       },
       {
         "lineNumber": 380,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "}"
+        "content": "    -fx-background-color: #eecc00;"
       },
       {
         "lineNumber": 381,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 382,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "#tags .white {"
+        "content": ""
       },
       {
         "lineNumber": 383,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-text-fill: black;"
+        "content": "#tags .green {"
       },
       {
         "lineNumber": 384,
         "author": {
           "gitId": "wfxronald"
         },
-        "content": "    -fx-background-color: #ffffff;"
+        "content": "    -fx-text-fill: white;"
       },
       {
         "lineNumber": 385,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    -fx-background-color: #0da507;"
+      },
+      {
+        "lineNumber": 386,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 387,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 388,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "#tags .orange {"
+      },
+      {
+        "lineNumber": 389,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    -fx-text-fill: black;"
+      },
+      {
+        "lineNumber": 390,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    -fx-background-color: #ffa700;"
+      },
+      {
+        "lineNumber": 391,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 392,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 393,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "#tags .black {"
+      },
+      {
+        "lineNumber": 394,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    -fx-text-fill: white;"
+      },
+      {
+        "lineNumber": 395,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    -fx-background-color: #000000;"
+      },
+      {
+        "lineNumber": 396,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 397,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 398,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "#tags .white {"
+      },
+      {
+        "lineNumber": 399,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    -fx-text-fill: black;"
+      },
+      {
+        "lineNumber": 400,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    -fx-background-color: #ffffff;"
+      },
+      {
+        "lineNumber": 401,
         "author": {
           "gitId": "wfxronald"
         },
@@ -67985,8 +68189,8 @@
     ],
     "authorContributionMap": {
       "chuaes": 1,
-      "wfxronald": 35,
-      "-": 349
+      "wfxronald": 87,
+      "-": 313
     }
   },
   {
@@ -68622,6 +68826,113 @@
     ],
     "authorContributionMap": {
       "chuaes": 6
+    }
+  },
+  {
+    "path": "src/main/resources/view/default.html",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c!DOCTYPE html\u003e"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003chtml\u003e"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003chead\u003e"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \u003clink rel\u003d\"stylesheet\" href\u003d\"DarkTheme.css\"\u003e"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    \u003ch1\u003eWelcome to Giatros!\u003c/h1\u003e"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    \u003cimg src\u003d\"../images/welcome.png\" alt\u003d\"Hospital Corridor\" class\u003d\"center\"\u003e"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    \u003ch3\u003ePatient management made easy\u003c/h3\u003e"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    \u003cp\u003eClick on a patient with allergy, and the application will show you the Google search result of the first allergy in the list.\u003c/p\u003e"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "    \u003cp\u003eClicking on a patient without any allergy will show this default page.\u003c/p\u003e"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c/head\u003e"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003cbody class\u003d\"background\"\u003e"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c/body\u003e"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003c/html\u003e"
+      }
+    ],
+    "authorContributionMap": {
+      "wfxronald": 5,
+      "-": 9
     }
   },
   {
@@ -116800,257 +117111,320 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "import static seedu.giatros.testutil.TypicalPatients.CARL;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "-"
         },
-        "content": "import java.net.URL;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import java.net.URL;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "-"
         },
-        "content": "import org.junit.Before;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "-"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.Before;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import org.junit.Test;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "-"
         },
-        "content": "import guitests.guihandles.BrowserPanelHandle;"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "-"
         },
-        "content": "import javafx.beans.property.SimpleObjectProperty;"
+        "content": "import guitests.guihandles.BrowserPanelHandle;"
       },
       {
         "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.beans.property.SimpleObjectProperty;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "import seedu.giatros.model.allergy.Allergy;"
+      },
+      {
+        "lineNumber": 16,
         "author": {
           "gitId": "chuaes"
         },
         "content": "import seedu.giatros.model.patient.Patient;"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 16,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "public class BrowserPanelTest extends GuiUnitTest {"
-      },
-      {
-        "lineNumber": 17,
-        "author": {
-          "gitId": "chuaes"
-        },
-        "content": "    private SimpleObjectProperty\u003cPatient\u003e selectedPatient \u003d new SimpleObjectProperty\u003c\u003e();"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
-        "content": "    private BrowserPanel browserPanel;"
+        "content": "public class BrowserPanelTest extends GuiUnitTest {"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "    private BrowserPanelHandle browserPanelHandle;"
+        "content": "    private SimpleObjectProperty\u003cPatient\u003e selectedPatient \u003d new SimpleObjectProperty\u003c\u003e();"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private BrowserPanel browserPanel;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Before"
+        "content": "    private BrowserPanelHandle browserPanelHandle;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void setUp() {"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "        guiRobot.interact(() -\u003e browserPanel \u003d new BrowserPanel(selectedPatient));"
+        "content": "    @Before"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "-"
         },
-        "content": "        uiPartRule.setUiPart(browserPanel);"
+        "content": "    public void setUp() {"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": ""
+        "content": "        guiRobot.interact(() -\u003e browserPanel \u003d new BrowserPanel(selectedPatient));"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "-"
         },
-        "content": "        browserPanelHandle \u003d new BrowserPanelHandle(browserPanel.getRoot());"
+        "content": "        uiPartRule.setUiPart(browserPanel);"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        browserPanelHandle \u003d new BrowserPanelHandle(browserPanel.getRoot());"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Test"
+        "content": "    }"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void display() throws Exception {"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "        // default web page"
+        "content": "    @Test"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(BrowserPanel.DEFAULT_PAGE, browserPanelHandle.getLoadedUrl());"
+        "content": "    public void display() throws Exception {"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        // default web page"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "        // associated web page of a patient"
+        "content": "        assertEquals(BrowserPanel.DEFAULT_PAGE, browserPanelHandle.getLoadedUrl());"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "        guiRobot.interact(() -\u003e selectedPatient.set(ALICE));"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "        URL expectedPatientUrl \u003d new URL(BrowserPanel.SEARCH_PAGE_URL + ALICE.getName().fullName"
+        "content": "        // associated web page of a patient"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "                .replaceAll(\" \", \"%20\"));"
+        "content": "        guiRobot.interact(() -\u003e selectedPatient.set(ALICE));"
       },
       {
         "lineNumber": 38,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        Allergy expectedAllergy \u003d (Allergy) ALICE.getAllergies().toArray()[0];"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        URL expectedPatientUrl \u003d new URL(BrowserPanel.SEARCH_PAGE_URL + expectedAllergy.allergyName);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        waitUntilBrowserLoaded(browserPanelHandle);"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        assertEquals(expectedPatientUrl, browserPanelHandle.getLoadedUrl());"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        // default page for a patient without any allergy"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        guiRobot.interact(() -\u003e selectedPatient.set(CARL));"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "wfxronald"
+        },
+        "content": "        expectedPatientUrl \u003d BrowserPanel.DEFAULT_PAGE;"
+      },
+      {
+        "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
         "content": "        waitUntilBrowserLoaded(browserPanelHandle);"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 49,
         "author": {
           "gitId": "chuaes"
         },
         "content": "        assertEquals(expectedPatientUrl, browserPanelHandle.getLoadedUrl());"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
@@ -117058,7 +117432,8 @@
       }
     ],
     "authorContributionMap": {
-      "chuaes": 10,
+      "chuaes": 8,
+      "wfxronald": 11,
       "-": 32
     }
   },
@@ -132918,1818 +133293,1846 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "wfxronald"
         },
-        "content": "import guitests.guihandles.PatientListPanelHandle;"
+        "content": "import guitests.guihandles.PatientCardHandle;"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "import guitests.guihandles.ResultDisplayHandle;"
+        "content": "import guitests.guihandles.PatientListPanelHandle;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "import guitests.guihandles.StatusBarFooterHandle;"
+        "content": "import guitests.guihandles.ResultDisplayHandle;"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "import seedu.giatros.TestApp;"
+        "content": "import guitests.guihandles.StatusBarFooterHandle;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.commons.core.index.Index;"
+        "content": "import seedu.giatros.TestApp;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.logic.commands.ClearCommand;"
+        "content": "import seedu.giatros.commons.core.index.Index;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.logic.commands.FindCommand;"
+        "content": "import seedu.giatros.logic.commands.ClearCommand;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.logic.commands.ListCommand;"
+        "content": "import seedu.giatros.logic.commands.FindCommand;"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.logic.commands.SelectCommand;"
+        "content": "import seedu.giatros.logic.commands.ListCommand;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.model.GiatrosBook;"
+        "content": "import seedu.giatros.logic.commands.SelectCommand;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.model.Model;"
+        "content": "import seedu.giatros.model.GiatrosBook;"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.testutil.TypicalPatients;"
+        "content": "import seedu.giatros.model.Model;"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.ui.BrowserPanel;"
+        "content": "import seedu.giatros.testutil.TypicalPatients;"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "import seedu.giatros.ui.CommandBox;"
+        "content": "import seedu.giatros.ui.BrowserPanel;"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": ""
+        "content": "import seedu.giatros.ui.CommandBox;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 45,
         "author": {
           "gitId": "chuaes"
         },
         "content": " * A system test class for GiatrosBook, which provides access to handles of GUI components and helper methods"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
         "content": " * for test verification."
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
         "content": " */"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 48,
         "author": {
           "gitId": "chuaes"
         },
         "content": "public abstract class GiatrosBookSystemTest {"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
         "content": "    @ClassRule"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
         "content": "    public static ClockRule clockRule \u003d new ClockRule();"
       },
       {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static final List\u003cString\u003e COMMAND_BOX_DEFAULT_STYLE \u003d Arrays.asList(\"text-input\", \"text-field\");"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static final List\u003cString\u003e COMMAND_BOX_ERROR_STYLE \u003d"
+        "content": "    private static final List\u003cString\u003e COMMAND_BOX_DEFAULT_STYLE \u003d Arrays.asList(\"text-input\", \"text-field\");"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "            Arrays.asList(\"text-input\", \"text-field\", CommandBox.ERROR_STYLE_CLASS);"
+        "content": "    private static final List\u003cString\u003e COMMAND_BOX_ERROR_STYLE \u003d"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            Arrays.asList(\"text-input\", \"text-field\", CommandBox.ERROR_STYLE_CLASS);"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "    private MainWindowHandle mainWindowHandle;"
+        "content": ""
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "    private TestApp testApp;"
+        "content": "    private MainWindowHandle mainWindowHandle;"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "    private SystemTestSetupHelper setupHelper;"
+        "content": "    private TestApp testApp;"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private SystemTestSetupHelper setupHelper;"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": "    @BeforeClass"
+        "content": ""
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static void setupBeforeClass() {"
+        "content": "    @BeforeClass"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "        SystemTestSetupHelper.initialize();"
+        "content": "    public static void setupBeforeClass() {"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        SystemTestSetupHelper.initialize();"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Before"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void setUp() {"
+        "content": "    @Before"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": "        setupHelper \u003d new SystemTestSetupHelper();"
+        "content": "    public void setUp() {"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
-        "content": "        testApp \u003d setupHelper.setupApplication(this::getInitialData, getDataFileLocation());"
+        "content": "        setupHelper \u003d new SystemTestSetupHelper();"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
-        "content": "        mainWindowHandle \u003d setupHelper.setupMainWindowHandle();"
+        "content": "        testApp \u003d setupHelper.setupApplication(this::getInitialData, getDataFileLocation());"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        mainWindowHandle \u003d setupHelper.setupMainWindowHandle();"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": "        waitUntilBrowserLoaded(getBrowserPanel());"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertApplicationStartingStateIsCorrect();"
+        "content": "        waitUntilBrowserLoaded(getBrowserPanel());"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        assertApplicationStartingStateIsCorrect();"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
-        "content": "    @After"
+        "content": ""
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void tearDown() {"
+        "content": "    @After"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "        setupHelper.tearDownStage();"
+        "content": "    public void tearDown() {"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        setupHelper.tearDownStage();"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns the data to be loaded into the file in {@link #getDataFileLocation()}."
+        "content": "    /**"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * Returns the data to be loaded into the file in {@link #getDataFileLocation()}."
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "    protected GiatrosBook getInitialData() {"
+        "content": "     */"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "        return TypicalPatients.getTypicalGiatrosBook();"
+        "content": "    protected GiatrosBook getInitialData() {"
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "    }"
+        "content": "        return TypicalPatients.getTypicalGiatrosBook();"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns the directory of the data file."
+        "content": "    /**"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * Returns the directory of the data file."
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected Path getDataFileLocation() {"
+        "content": "     */"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
-        "content": "        return TestApp.SAVE_LOCATION_FOR_TESTING;"
+        "content": "    protected Path getDataFileLocation() {"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return TestApp.SAVE_LOCATION_FOR_TESTING;"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": "    public MainWindowHandle getMainWindowHandle() {"
+        "content": ""
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "        return mainWindowHandle;"
+        "content": "    public MainWindowHandle getMainWindowHandle() {"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return mainWindowHandle;"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "    public CommandBoxHandle getCommandBox() {"
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "        return mainWindowHandle.getCommandBox();"
+        "content": "    public CommandBoxHandle getCommandBox() {"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return mainWindowHandle.getCommandBox();"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "    public PatientListPanelHandle getPatientListPanel() {"
+        "content": ""
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "        return mainWindowHandle.getPatientListPanel();"
+        "content": "    public PatientListPanelHandle getPatientListPanel() {"
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "    }"
+        "content": "        return mainWindowHandle.getPatientListPanel();"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "    public MainMenuHandle getMainMenu() {"
+        "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": "        return mainWindowHandle.getMainMenu();"
+        "content": "    public MainMenuHandle getMainMenu() {"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return mainWindowHandle.getMainMenu();"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
-        "content": "    public BrowserPanelHandle getBrowserPanel() {"
+        "content": ""
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": "        return mainWindowHandle.getBrowserPanel();"
+        "content": "    public BrowserPanelHandle getBrowserPanel() {"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return mainWindowHandle.getBrowserPanel();"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
-        "content": "    public StatusBarFooterHandle getStatusBarFooter() {"
+        "content": ""
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": "        return mainWindowHandle.getStatusBarFooter();"
+        "content": "    public StatusBarFooterHandle getStatusBarFooter() {"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return mainWindowHandle.getStatusBarFooter();"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "-"
         },
-        "content": "    public ResultDisplayHandle getResultDisplay() {"
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
-        "content": "        return mainWindowHandle.getResultDisplay();"
+        "content": "    public ResultDisplayHandle getResultDisplay() {"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        return mainWindowHandle.getResultDisplay();"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Executes {@code command} in the application\u0027s {@code CommandBox}."
+        "content": "    /**"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Method returns after UI components have been updated."
+        "content": "     * Executes {@code command} in the application\u0027s {@code CommandBox}."
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * Method returns after UI components have been updated."
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void executeCommand(String command) {"
+        "content": "     */"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
-        "content": "        rememberStates();"
+        "content": "    protected void executeCommand(String command) {"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "-"
         },
-        "content": "        // Injects a fixed clock before executing a command so that the time stamp shown in the status bar"
+        "content": "        rememberStates();"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "-"
         },
-        "content": "        // after each command is predictable and also different from the previous command."
+        "content": "        // Injects a fixed clock before executing a command so that the time stamp shown in the status bar"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "-"
         },
-        "content": "        clockRule.setInjectedClockToCurrentTime();"
+        "content": "        // after each command is predictable and also different from the previous command."
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        clockRule.setInjectedClockToCurrentTime();"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "-"
         },
-        "content": "        mainWindowHandle.getCommandBox().run(command);"
+        "content": ""
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        mainWindowHandle.getCommandBox().run(command);"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "-"
         },
-        "content": "        waitUntilBrowserLoaded(getBrowserPanel());"
+        "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        waitUntilBrowserLoaded(getBrowserPanel());"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 137,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 138,
         "author": {
           "gitId": "chuaes"
         },
         "content": "     * Displays all patients in the Giatros book."
       },
       {
-        "lineNumber": 138,
+        "lineNumber": 139,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 139,
+        "lineNumber": 140,
         "author": {
           "gitId": "chuaes"
         },
         "content": "    protected void showAllPatients() {"
       },
       {
-        "lineNumber": 140,
+        "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
         "content": "        executeCommand(ListCommand.COMMAND_WORD);"
       },
       {
-        "lineNumber": 141,
+        "lineNumber": 142,
         "author": {
           "gitId": "chuaes"
         },
         "content": "        assertEquals(getModel().getGiatrosBook().getPatientList().size(), getModel().getFilteredPatientList().size());"
       },
       {
-        "lineNumber": 142,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 146,
         "author": {
           "gitId": "chuaes"
         },
         "content": "     * Displays all patients with any parts of their names matching {@code keyword} (case-insensitive)."
       },
       {
-        "lineNumber": 146,
+        "lineNumber": 147,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 147,
+        "lineNumber": 148,
         "author": {
           "gitId": "chuaes"
         },
         "content": "    protected void showPatientsWithName(String keyword) {"
       },
       {
-        "lineNumber": 148,
+        "lineNumber": 149,
         "author": {
           "gitId": "-"
         },
         "content": "        executeCommand(FindCommand.COMMAND_WORD + \" \" + keyword);"
       },
       {
-        "lineNumber": 149,
+        "lineNumber": 150,
         "author": {
           "gitId": "chuaes"
         },
         "content": "        assertTrue(getModel().getFilteredPatientList().size() \u003c getModel().getGiatrosBook().getPatientList().size());"
       },
       {
-        "lineNumber": 150,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 151,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 153,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 154,
         "author": {
           "gitId": "chuaes"
         },
         "content": "     * Selects the patient at {@code index} of the displayed list."
       },
       {
-        "lineNumber": 154,
+        "lineNumber": 155,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 155,
+        "lineNumber": 156,
         "author": {
           "gitId": "chuaes"
         },
         "content": "    protected void selectPatient(Index index) {"
       },
       {
-        "lineNumber": 156,
+        "lineNumber": 157,
         "author": {
           "gitId": "-"
         },
         "content": "        executeCommand(SelectCommand.COMMAND_WORD + \" \" + index.getOneBased());"
       },
       {
-        "lineNumber": 157,
+        "lineNumber": 158,
         "author": {
           "gitId": "chuaes"
         },
         "content": "        assertEquals(index.getZeroBased(), getPatientListPanel().getSelectedCardIndex());"
       },
       {
-        "lineNumber": 158,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 161,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 162,
         "author": {
           "gitId": "chuaes"
         },
         "content": "     * Deletes all patients in the Giatros book."
       },
       {
-        "lineNumber": 162,
+        "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 163,
+        "lineNumber": 164,
         "author": {
           "gitId": "chuaes"
         },
         "content": "    protected void deleteAllPatients() {"
       },
       {
-        "lineNumber": 164,
+        "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
         "content": "        executeCommand(ClearCommand.COMMAND_WORD);"
       },
       {
-        "lineNumber": 165,
+        "lineNumber": 166,
         "author": {
           "gitId": "chuaes"
         },
         "content": "        assertEquals(0, getModel().getGiatrosBook().getPatientList().size());"
       },
       {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Asserts that the {@code CommandBox} displays {@code expectedCommandInput}, the {@code ResultDisplay} displays"
+        "content": "    /**"
       },
       {
         "lineNumber": 170,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "     * {@code expectedResultMessage}, the storage contains the same patient objects as {@code expectedModel}"
+        "content": "     * Asserts that the {@code CommandBox} displays {@code expectedCommandInput}, the {@code ResultDisplay} displays"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "     * and the patient list panel displays the patients in the model correctly."
+        "content": "     * {@code expectedResultMessage}, the storage contains the same patient objects as {@code expectedModel}"
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "     */"
+        "content": "     * and the patient list panel displays the patients in the model correctly."
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void assertApplicationDisplaysExpected(String expectedCommandInput, String expectedResultMessage,"
+        "content": "     */"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "-"
         },
-        "content": "                                                     Model expectedModel) {"
+        "content": "    protected void assertApplicationDisplaysExpected(String expectedCommandInput, String expectedResultMessage,"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(expectedCommandInput, getCommandBox().getInput());"
+        "content": "                                                     Model expectedModel) {"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(expectedResultMessage, getResultDisplay().getText());"
+        "content": "        assertEquals(expectedCommandInput, getCommandBox().getInput());"
       },
       {
         "lineNumber": 177,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "        assertEquals(new GiatrosBook(expectedModel.getGiatrosBook()), testApp.readStorageGiatrosBook());"
+        "content": "        assertEquals(expectedResultMessage, getResultDisplay().getText());"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "        assertListMatching(getPatientListPanel(), expectedModel.getFilteredPatientList());"
+        "content": "        assertEquals(new GiatrosBook(expectedModel.getGiatrosBook()), testApp.readStorageGiatrosBook());"
       },
       {
         "lineNumber": 179,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "    }"
+        "content": "        assertListMatching(getPatientListPanel(), expectedModel.getFilteredPatientList());"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 182,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 183,
         "author": {
           "gitId": "chuaes"
         },
         "content": "     * Calls {@code BrowserPanelHandle}, {@code PatientListPanelHandle} and {@code StatusBarFooterHandle} to remember"
       },
       {
-        "lineNumber": 183,
+        "lineNumber": 184,
         "author": {
           "gitId": "-"
         },
         "content": "     * their current state."
       },
       {
-        "lineNumber": 184,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     */"
-      },
-      {
         "lineNumber": 185,
         "author": {
           "gitId": "-"
         },
-        "content": "    private void rememberStates() {"
+        "content": "     */"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": "        StatusBarFooterHandle statusBarFooterHandle \u003d getStatusBarFooter();"
+        "content": "    private void rememberStates() {"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "-"
         },
-        "content": "        getBrowserPanel().rememberUrl();"
+        "content": "        StatusBarFooterHandle statusBarFooterHandle \u003d getStatusBarFooter();"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "-"
         },
-        "content": "        statusBarFooterHandle.rememberSaveLocation();"
+        "content": "        getBrowserPanel().rememberUrl();"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": "        statusBarFooterHandle.rememberSyncStatus();"
+        "content": "        statusBarFooterHandle.rememberSaveLocation();"
       },
       {
         "lineNumber": 190,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        statusBarFooterHandle.rememberSyncStatus();"
+      },
+      {
+        "lineNumber": 191,
         "author": {
           "gitId": "chuaes"
         },
         "content": "        getPatientListPanel().rememberSelectedPatientCard();"
       },
       {
-        "lineNumber": 191,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 192,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Asserts that the previously selected card is now deselected and the browser\u0027s url is now displaying the"
+        "content": "    /**"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "-"
         },
-        "content": "     * default page."
+        "content": "     * Asserts that the previously selected card is now deselected and the browser\u0027s url is now displaying the"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @see BrowserPanelHandle#isUrlChanged()"
+        "content": "     * default page."
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * @see BrowserPanelHandle#isUrlChanged()"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void assertSelectedCardDeselected() {"
+        "content": "     */"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(BrowserPanel.DEFAULT_PAGE, getBrowserPanel().getLoadedUrl());"
+        "content": "    protected void assertSelectedCardDeselected() {"
       },
       {
         "lineNumber": 200,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertEquals(BrowserPanel.DEFAULT_PAGE, getBrowserPanel().getLoadedUrl());"
+      },
+      {
+        "lineNumber": 201,
         "author": {
           "gitId": "chuaes"
         },
         "content": "        assertFalse(getPatientListPanel().isAnyCardSelected());"
       },
       {
-        "lineNumber": 201,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 202,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 204,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 205,
         "author": {
           "gitId": "chuaes"
         },
         "content": "     * Asserts that the browser\u0027s url is changed to display the details of the patient in the patient list panel at"
       },
       {
-        "lineNumber": 205,
+        "lineNumber": 206,
         "author": {
           "gitId": "-"
         },
         "content": "     * {@code expectedSelectedCardIndex}, and only the card at {@code expectedSelectedCardIndex} is selected."
       },
       {
-        "lineNumber": 206,
+        "lineNumber": 207,
         "author": {
           "gitId": "-"
         },
         "content": "     * @see BrowserPanelHandle#isUrlChanged()"
       },
       {
-        "lineNumber": 207,
+        "lineNumber": 208,
         "author": {
           "gitId": "chuaes"
         },
         "content": "     * @see PatientListPanelHandle#isSelectedPatientCardChanged()"
-      },
-      {
-        "lineNumber": 208,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     */"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void assertSelectedCardChanged(Index expectedSelectedCardIndex) {"
+        "content": "     */"
       },
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "        getPatientListPanel().navigateToCard(getPatientListPanel().getSelectedCardIndex());"
+        "content": "    protected void assertSelectedCardChanged(Index expectedSelectedCardIndex) {"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "        String selectedCardName \u003d getPatientListPanel().getHandleToSelectedCard().getName();"
+        "content": "        getPatientListPanel().navigateToCard(getPatientListPanel().getSelectedCardIndex());"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "        URL expectedUrl;"
+        "content": "        PatientCardHandle selectedCard \u003d getPatientListPanel().getHandleToSelectedCard();"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
-        "content": "        try {"
+        "content": "        URL expectedUrl;"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "-"
         },
-        "content": "            expectedUrl \u003d new URL(BrowserPanel.SEARCH_PAGE_URL + selectedCardName.replaceAll(\" \", \"%20\"));"
+        "content": "        try {"
       },
       {
         "lineNumber": 215,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "        } catch (MalformedURLException mue) {"
+        "content": "            expectedUrl \u003d new URL(BrowserPanel.SEARCH_PAGE_URL + selectedCard.getAllergies().toArray()[0]);"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "-"
         },
-        "content": "            throw new AssertionError(\"URL expected to be valid.\", mue);"
+        "content": "        } catch (MalformedURLException mue) {"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "            throw new AssertionError(\"URL expected to be valid.\", mue);"
       },
       {
         "lineNumber": 218,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "        assertEquals(expectedUrl, getBrowserPanel().getLoadedUrl());"
+        "content": "        } catch (IndexOutOfBoundsException ioube) {"
       },
       {
         "lineNumber": 219,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": ""
+        "content": "            expectedUrl \u003d BrowserPanel.DEFAULT_PAGE;"
       },
       {
         "lineNumber": 220,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "        assertEquals(expectedSelectedCardIndex.getZeroBased(), getPatientListPanel().getSelectedCardIndex());"
+        "content": "        }"
       },
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "-"
+          "gitId": "wfxronald"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        assertEquals(expectedUrl, getBrowserPanel().getLoadedUrl());"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "     * Asserts that the browser\u0027s url and the selected card in the patient list panel remain unchanged."
+        "content": "        assertEquals(expectedSelectedCardIndex.getZeroBased(), getPatientListPanel().getSelectedCardIndex());"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @see BrowserPanelHandle#isUrlChanged()"
+        "content": "    }"
       },
       {
         "lineNumber": 226,
         "author": {
-          "gitId": "chuaes"
+          "gitId": "-"
         },
-        "content": "     * @see PatientListPanelHandle#isSelectedPatientCardChanged()"
+        "content": ""
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 228,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "    protected void assertSelectedCardUnchanged() {"
+        "content": "     * Asserts that the browser\u0027s url and the selected card in the patient list panel remain unchanged."
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertFalse(getBrowserPanel().isUrlChanged());"
+        "content": "     * @see BrowserPanelHandle#isUrlChanged()"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "chuaes"
         },
-        "content": "        assertFalse(getPatientListPanel().isSelectedPatientCardChanged());"
+        "content": "     * @see PatientListPanelHandle#isSelectedPatientCardChanged()"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "     */"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    protected void assertSelectedCardUnchanged() {"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "        assertFalse(getBrowserPanel().isUrlChanged());"
       },
       {
         "lineNumber": 234,
         "author": {
-          "gitId": "-"
+          "gitId": "chuaes"
         },
-        "content": "     * Asserts that the command box\u0027s shows the default style."
+        "content": "        assertFalse(getPatientListPanel().isSelectedPatientCardChanged());"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void assertCommandBoxShowsDefaultStyle() {"
+        "content": ""
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(COMMAND_BOX_DEFAULT_STYLE, getCommandBox().getStyleClass());"
+        "content": "    /**"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "     * Asserts that the command box\u0027s shows the default style."
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    protected void assertCommandBoxShowsDefaultStyle() {"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Asserts that the command box\u0027s shows the error style."
+        "content": "        assertEquals(COMMAND_BOX_DEFAULT_STYLE, getCommandBox().getStyleClass());"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void assertCommandBoxShowsErrorStyle() {"
+        "content": ""
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(COMMAND_BOX_ERROR_STYLE, getCommandBox().getStyleClass());"
+        "content": "    /**"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "     * Asserts that the command box\u0027s shows the error style."
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "    protected void assertCommandBoxShowsErrorStyle() {"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Asserts that the entire status bar remains the same."
+        "content": "        assertEquals(COMMAND_BOX_ERROR_STYLE, getCommandBox().getStyleClass());"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void assertStatusBarUnchanged() {"
+        "content": ""
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "-"
         },
-        "content": "        StatusBarFooterHandle handle \u003d getStatusBarFooter();"
+        "content": "    /**"
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertFalse(handle.isSaveLocationChanged());"
+        "content": "     * Asserts that the entire status bar remains the same."
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertFalse(handle.isSyncStatusChanged());"
+        "content": "     */"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    protected void assertStatusBarUnchanged() {"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        StatusBarFooterHandle handle \u003d getStatusBarFooter();"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "        assertFalse(handle.isSaveLocationChanged());"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Asserts that only the sync status in the status bar was changed to the timing of"
+        "content": "        assertFalse(handle.isSyncStatusChanged());"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "-"
         },
-        "content": "     * {@code ClockRule#getInjectedClock()}, while the save location remains the same."
+        "content": "    }"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected void assertStatusBarUnchangedExceptSyncStatus() {"
+        "content": "    /**"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": "        StatusBarFooterHandle handle \u003d getStatusBarFooter();"
+        "content": "     * Asserts that only the sync status in the status bar was changed to the timing of"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "-"
         },
-        "content": "        String timestamp \u003d new Date(clockRule.getInjectedClock().millis()).toString();"
+        "content": "     * {@code ClockRule#getInjectedClock()}, while the save location remains the same."
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "-"
         },
-        "content": "        String expectedSyncStatus \u003d String.format(SYNC_STATUS_UPDATED, timestamp);"
+        "content": "     */"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(expectedSyncStatus, handle.getSyncStatus());"
+        "content": "    protected void assertStatusBarUnchangedExceptSyncStatus() {"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertFalse(handle.isSaveLocationChanged());"
+        "content": "        StatusBarFooterHandle handle \u003d getStatusBarFooter();"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        String timestamp \u003d new Date(clockRule.getInjectedClock().millis()).toString();"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        String expectedSyncStatus \u003d String.format(SYNC_STATUS_UPDATED, timestamp);"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "        assertEquals(expectedSyncStatus, handle.getSyncStatus());"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Asserts that the starting state of the application is correct."
+        "content": "        assertFalse(handle.isSaveLocationChanged());"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "-"
         },
-        "content": "    private void assertApplicationStartingStateIsCorrect() {"
+        "content": ""
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(\"\", getCommandBox().getInput());"
+        "content": "    /**"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
-        "content": "        assertEquals(\"\", getResultDisplay().getText());"
+        "content": "     * Asserts that the starting state of the application is correct."
       },
       {
         "lineNumber": 274,
-        "author": {
-          "gitId": "chuaes"
-        },
-        "content": "        assertListMatching(getPatientListPanel(), getModel().getFilteredPatientList());"
-      },
-      {
-        "lineNumber": 275,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        assertEquals(BrowserPanel.DEFAULT_PAGE, getBrowserPanel().getLoadedUrl());"
-      },
-      {
-        "lineNumber": 276,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        assertEquals(Paths.get(\".\").resolve(testApp.getStorageSaveLocation()).toString(),"
-      },
-      {
-        "lineNumber": 277,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                getStatusBarFooter().getSaveLocation());"
-      },
-      {
-        "lineNumber": 278,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        assertEquals(SYNC_STATUS_INITIAL, getStatusBarFooter().getSyncStatus());"
-      },
-      {
-        "lineNumber": 279,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 280,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 281,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 282,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     * Returns a defensive copy of the current model."
-      },
-      {
-        "lineNumber": 283,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 284,
+        "lineNumber": 275,
         "author": {
           "gitId": "-"
         },
-        "content": "    protected Model getModel() {"
+        "content": "    private void assertApplicationStartingStateIsCorrect() {"
       },
       {
-        "lineNumber": 285,
+        "lineNumber": 276,
         "author": {
           "gitId": "-"
         },
-        "content": "        return testApp.getModel();"
+        "content": "        assertEquals(\"\", getCommandBox().getInput());"
       },
       {
-        "lineNumber": 286,
+        "lineNumber": 277,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertEquals(\"\", getResultDisplay().getText());"
+      },
+      {
+        "lineNumber": 278,
+        "author": {
+          "gitId": "chuaes"
+        },
+        "content": "        assertListMatching(getPatientListPanel(), getModel().getFilteredPatientList());"
+      },
+      {
+        "lineNumber": 279,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertEquals(BrowserPanel.DEFAULT_PAGE, getBrowserPanel().getLoadedUrl());"
+      },
+      {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertEquals(Paths.get(\".\").resolve(testApp.getStorageSaveLocation()).toString(),"
+      },
+      {
+        "lineNumber": 281,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                getStatusBarFooter().getSaveLocation());"
+      },
+      {
+        "lineNumber": 282,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertEquals(SYNC_STATUS_INITIAL, getStatusBarFooter().getSyncStatus());"
+      },
+      {
+        "lineNumber": 283,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
+        "lineNumber": 284,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 285,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 286,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns a defensive copy of the current model."
+      },
+      {
         "lineNumber": 287,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 288,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    protected Model getModel() {"
+      },
+      {
+        "lineNumber": 289,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return testApp.getModel();"
+      },
+      {
+        "lineNumber": 290,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 291,
         "author": {
           "gitId": "-"
         },
@@ -134737,8 +135140,9 @@
       }
     ],
     "authorContributionMap": {
-      "chuaes": 49,
-      "-": 238
+      "chuaes": 48,
+      "wfxronald": 6,
+      "-": 237
     }
   },
   {

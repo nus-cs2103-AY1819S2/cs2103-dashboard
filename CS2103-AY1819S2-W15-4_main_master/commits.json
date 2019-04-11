@@ -1487,16 +1487,54 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 143,
+        "deletions": 7,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a2a04f600381d2454e40aeef17fbe455201f4b1b",
+            "message": "Added DutyStorage into DutyCalendar",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7dd1bf75886c121ead5778e3c95ccfc3210f65e9",
+            "message": "Created toString() for Duty",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "fa0245f0de46c34be7ffcb683d5e55c3c4546905",
+            "message": "Updated DutyStorage and created JsonAdaptedDutyStorage and JsonAdaptedDutyStoragePerson",
+            "insertions": 134,
+            "deletions": 5
+          },
+          {
+            "hash": "93a3e0c45329e9ad301dc59567a825f83bc8a786",
+            "message": "Debugged dutyStorage issue",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 167,
+        "deletions": 37,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f9fcc9e7b8cf17899b8902c5e369d86586201f11",
+            "message": "Enable DutyPoints in DutyStorage to revert back to previous Points",
+            "insertions": 88,
+            "deletions": 19
+          },
+          {
+            "hash": "d37a7877c60b90ce3f359db81c4f1ec5e638c688",
+            "message": "Debugged issue of Edit and Remove Command screwing up the duty list and points",
+            "insertions": 79,
+            "deletions": 18
+          }
+        ]
       }
     ],
     "dreampursuer95": [
@@ -3743,8 +3781,8 @@
         ]
       },
       {
-        "insertions": 48,
-        "deletions": 32,
+        "insertions": 341,
+        "deletions": 127,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -3764,24 +3802,48 @@
             "message": "Change method name to fit codacy",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "8f0f26f1cfef16932b62887caf319b6fdc9c26ad",
+            "message": "Add functionality to bring up calendar view or person view for different commands",
+            "insertions": 282,
+            "deletions": 87
+          },
+          {
+            "hash": "b019d65b2fa2ff342d1d849474949b7d4afa010d",
+            "message": "UserGuide.adoc: add viewNext and viewCurrent commands",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "9d33a74f2ee6d9149aa5e4ec9e0df923f8cc750c",
+            "message": "Change checkstyling issues",
+            "insertions": 0,
+            "deletions": 7
+          },
+          {
+            "hash": "e60307bd35a708596481beed116c3d5e65b9a7cb",
+            "message": "Change checkstyling",
+            "insertions": 3,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Valatheking": 456,
-    "yjpan47": 909,
-    "dreampursuer95": 1031,
-    "mechome": 3084,
-    "exactlyprecise": 2423
+    "Valatheking": 454,
+    "yjpan47": 1195,
+    "dreampursuer95": 1007,
+    "mechome": 3075,
+    "exactlyprecise": 2665
   },
   "authorContributionVariance": {
     "Valatheking": 13146.531,
-    "yjpan47": 38339.75,
+    "yjpan47": 38700.348,
     "dreampursuer95": 32609.9,
     "mechome": 370751.56,
-    "exactlyprecise": 34186.547
+    "exactlyprecise": 36679.016
   },
   "authorDisplayNameMap": {
     "Valatheking": "VAL...JAN",

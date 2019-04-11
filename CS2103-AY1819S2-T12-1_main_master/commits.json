@@ -742,6 +742,18 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "sreycodes": [
@@ -1816,6 +1828,18 @@
             "deletions": 214
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ],
     "Tejas2805": [
@@ -3139,10 +3163,133 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 128,
+        "deletions": 92,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b53b1ede2bb02dd7fc90dcef44ccf851ad8c65e2",
+            "message": "Fixed bug in date of birth.",
+            "insertions": 48,
+            "deletions": 29
+          },
+          {
+            "hash": "cfddd7c64f23af5cd837c4acc44b75a4f24e3777",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 68,
+            "deletions": 46
+          },
+          {
+            "hash": "c2d956ec054662c6b34b1ac6c0963bbc631d2205",
+            "message": "Errors corrected.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "e38e22a30d926ce37a14570ed94e27594ab2cfbe",
+            "message": "Corrected errors to please checkStyle.",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "d3318144bd05d0f1b378b760d6f351f65879cb43",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "f4bf261a65f638985c70f651febad8cdeb9d1f63",
+            "message": "Corrected errors.",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 7,
+        "deletions": 7,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "d136c53f310112ea88a0e322328006a7c29d3549",
+            "message": "Made changes to checking for DateOfBirth.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "64b636d6b8520c0a2c52afe1cd3a20ed59a6451d",
+            "message": "Corrected errors.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4535bc485b891348db3973883dc0b2fc7b9f5a91",
+            "message": "Corrected tests.",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 1692,
+        "deletions": 726,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "971f6bd28f74051ec22ee693e0da2b2280376a8f",
+            "message": "Fixed bugs founds in Dry Run. Bug 1: Edited customer can be made same as existing customer Bug 2: Edit reservation example command Bug 3: Customer indices for other Users shows exception if invalid.",
+            "insertions": 36,
+            "deletions": 14
+          },
+          {
+            "hash": "c50c02ffbb8714a7cb289f4d7de5b955485c41b6",
+            "message": "Added tests for Reservation. Added tests for FindCommands. Added tests for ParserCommands.",
+            "insertions": 1054,
+            "deletions": 159
+          },
+          {
+            "hash": "05dd13fc3ecfc87ef5303f27d8039475493b10a9",
+            "message": "Added tests for HotelParser.",
+            "insertions": 407,
+            "deletions": 357
+          },
+          {
+            "hash": "2e3b78c28606a1d07950d74d6f919b0d350bd5b7",
+            "message": "Correct errors for Travis.",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "0c186f1fae315606fe730fa3f9c043234def6627",
+            "message": "Corrected errors for checkStyle and codacy. Made tests for reservation run.",
+            "insertions": 156,
+            "deletions": 144
+          },
+          {
+            "hash": "878d7242391c28439336fc4d65c01d7872b259b3",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "c625227234341b32d869ddca4952bb89ea65db20",
+            "message": "Corrected codacy errors.",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "0bb2b84157ef546f5e0b01292a25805a429e611d",
+            "message": "Corrected errors to please checkStyle.",
+            "insertions": 20,
+            "deletions": 22
+          },
+          {
+            "hash": "c285273998d82ba83c1ca37111bca1d6b30ff1a9",
+            "message": "Corrected errors for travis.",
+            "insertions": 9,
+            "deletions": 22
+          }
+        ]
       }
     ],
     "nerrons": [
@@ -3742,20 +3889,32 @@
         "deletions": 0,
         "date": "2019-04-08",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 3782,
-    "sreycodes": 12158,
-    "Tejas2805": 4224,
-    "nerrons": 1170
+    "ZhangCX10032": 3780,
+    "sreycodes": 11909,
+    "Tejas2805": 5456,
+    "nerrons": 1174
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 722854.94,
-    "sreycodes": 2.5061902E7,
-    "Tejas2805": 202976.6,
-    "nerrons": 219617.9
+    "ZhangCX10032": 700767.4,
+    "sreycodes": 2.4263298E7,
+    "Tejas2805": 274655.3,
+    "nerrons": 212804.33
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

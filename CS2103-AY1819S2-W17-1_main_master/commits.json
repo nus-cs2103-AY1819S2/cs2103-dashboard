@@ -667,10 +667,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 229,
+        "deletions": 8,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4936f919a4972564abe214cce5c6efbe199a95ac",
+            "message": "Fix display of added/edited/deleted review",
+            "insertions": 3,
+            "deletions": 8
+          },
+          {
+            "hash": "a1e210cd0ced94219deced81871fc4a4540de430",
+            "message": "Add SortCommand to sort Restaurants by avgRatings",
+            "insertions": 226,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -679,10 +692,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 260,
+        "deletions": 51,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "68d6f4e072f00ee1562eb71c46e7bd9d13a691c8",
+            "message": "Implement Sort Command which will leave the current list of Restaurants sorted according to rating, allow limit tag to filter the top few Restaurants by ratings",
+            "insertions": 259,
+            "deletions": 47
+          },
+          {
+            "hash": "470ab99fca5c4a551c9495f1eb1312b026b76273",
+            "message": "Edit Sort command description",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e5debb8048b687dc9d25f2bf33516e0c39c43c84",
+            "message": "Undo Postal addition to Restaurant Card UI",
+            "insertions": 0,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "chanqingzhou": [
@@ -4661,14 +4693,14 @@
     ]
   },
   "authorFinalContributionMap": {
-    "weixin-koh": 1943,
-    "chanqingzhou": 1437,
+    "weixin-koh": 2370,
+    "chanqingzhou": 1441,
     "rbth7e5": 4834,
     "Wklee96": 1106,
     "skpai27": 1325
   },
   "authorContributionVariance": {
-    "weixin-koh": 25012.22,
+    "weixin-koh": 26312.371,
     "chanqingzhou": 18122.469,
     "rbth7e5": 442533.03,
     "Wklee96": 5761.706,
