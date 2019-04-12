@@ -1725,10 +1725,47 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 177,
+        "deletions": 75,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "118778020334f1140a1bc412f060f90751d2c7db",
+            "message": "Change addall command to take in either 1 or 2 inputs for destination and source(optional)",
+            "insertions": 87,
+            "deletions": 28
+          },
+          {
+            "hash": "872a64e6dcad2c9088712cf48ff628c3d492d469",
+            "message": "Add functionality to automatically add person to job when job is created",
+            "insertions": 49,
+            "deletions": 13
+          },
+          {
+            "hash": "9b657f61226dc4f1e97cf3424d67bdc216622ec4",
+            "message": "Restore sanity",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "ead2e1d30652cb6aea728eef7c103c9f53a970f6",
+            "message": "fix style",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "07c4fafa2138941445be6fed354f4fd4d6dab323",
+            "message": "Change Regex for jobsapply and jobname",
+            "insertions": 19,
+            "deletions": 9
+          },
+          {
+            "hash": "0fac8115e7fa3d6dd6b1be9446aa02ceb1457234",
+            "message": "Fix commons, model and ui test",
+            "insertions": 20,
+            "deletions": 19
+          }
+        ]
       }
     ],
     "CaesarTY": [
@@ -2538,8 +2575,8 @@
         ]
       },
       {
-        "insertions": 390,
-        "deletions": 142,
+        "insertions": 601,
+        "deletions": 219,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -2553,6 +2590,18 @@
             "message": "Fix style and make test runable",
             "insertions": 271,
             "deletions": 91
+          },
+          {
+            "hash": "dd7a3d7955fe57a31ff4dd7b0e567c99904a8055",
+            "message": "Can filter Interview Scores",
+            "insertions": 177,
+            "deletions": 43
+          },
+          {
+            "hash": "e673106b60fdd092aec7c3bf1fa1d831aa4ead38",
+            "message": "Fix Style",
+            "insertions": 34,
+            "deletions": 34
           }
         ]
       }
@@ -3485,17 +3534,17 @@
     ]
   },
   "authorFinalContributionMap": {
-    "chiuyuhua": 4523,
+    "chiuyuhua": 4501,
     "COGnitiveAspian": 0,
-    "DanielDSSim": 1566,
-    "CaesarTY": 3656,
-    "WeeSooJun": 1538
+    "DanielDSSim": 1703,
+    "CaesarTY": 3784,
+    "WeeSooJun": 1535
   },
   "authorContributionVariance": {
     "chiuyuhua": 120693.19,
     "COGnitiveAspian": 0.0,
-    "DanielDSSim": 49738.316,
-    "CaesarTY": 60568.605,
+    "DanielDSSim": 50370.04,
+    "CaesarTY": 65941.61,
     "WeeSooJun": 16773.578
   },
   "authorDisplayNameMap": {

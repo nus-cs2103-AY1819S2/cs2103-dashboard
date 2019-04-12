@@ -701,10 +701,47 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 208,
+        "deletions": 19,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7e7c07730082e082550cb753b27f4f67e649525d",
+            "message": "listfiles test done",
+            "insertions": 65,
+            "deletions": 0
+          },
+          {
+            "hash": "6a779a9be4647f3c9c6500be8eec55939fca0cb9",
+            "message": "testcase lisefiles 2",
+            "insertions": 20,
+            "deletions": 10
+          },
+          {
+            "hash": "0507aade356db06018bd71a14ca71a78591913fd",
+            "message": "OpenCommandParser Test",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "fa0dd7d8b6592c789419d7c9e059ca690bbeb599",
+            "message": "SaveCommandParser Test",
+            "insertions": 92,
+            "deletions": 5
+          },
+          {
+            "hash": "f2ed0ce86d4629f8d6f4be4aa905e7d672e664f9",
+            "message": "checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "3518af94863110e402aedbbef34727650fb5d6c5",
+            "message": "Checkstyle",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "kayheen": [
@@ -1312,10 +1349,35 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 420,
+        "deletions": 280,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6073ee37ecaddc23f95c3572d5526fea35600880",
+            "message": "Uncomment test cases for rotate, crop and resize command.",
+            "insertions": 380,
+            "deletions": 264
+          },
+          {
+            "hash": "b373fb958621a198bcff3fda6cee0b2e82c4bb64",
+            "message": "Add WaterMarkCommand Test.",
+            "insertions": 35,
+            "deletions": 12
+          },
+          {
+            "hash": "e25617b18c041e3b2e517ef485a0603c1d5d0216",
+            "message": "Made minor tweaks to the comments for each test case.",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "0f693f971c1d734e5d25513f6039a021b0c4afb0",
+            "message": "Add author for test.",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "carrein": [
@@ -2883,8 +2945,8 @@
         "commitResults": []
       },
       {
-        "insertions": 138,
-        "deletions": 126,
+        "insertions": 201,
+        "deletions": 140,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -2904,6 +2966,18 @@
             "message": "travis",
             "insertions": 12,
             "deletions": 7
+          },
+          {
+            "hash": "70165ef7e4846f418a182f2526bb143a3eec390e",
+            "message": "redo command test",
+            "insertions": 47,
+            "deletions": 14
+          },
+          {
+            "hash": "18367fcd9423aa35ee2a51a84b8a2f709477ae6d",
+            "message": "bug fix",
+            "insertions": 16,
+            "deletions": 0
           }
         ]
       }
@@ -3773,26 +3847,57 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 386,
+        "deletions": 58,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4a9d172662722852b2865633dd2435c87bf95835",
+            "message": "contrastcommand test",
+            "insertions": 120,
+            "deletions": 57
+          },
+          {
+            "hash": "c2fac87137e03763c97c5552ebfe08a0f9740f8f",
+            "message": "add brightnesscommand test",
+            "insertions": 61,
+            "deletions": 0
+          },
+          {
+            "hash": "57a54bb728bf9226c05b868aa6b73ed8d8689ee8",
+            "message": "add blackwhitecommand test",
+            "insertions": 61,
+            "deletions": 0
+          },
+          {
+            "hash": "f8db56dd841037b45b3a515c8a8e2f230a334da0",
+            "message": "add savepreset command test",
+            "insertions": 137,
+            "deletions": 0
+          },
+          {
+            "hash": "e56ec60f1451c691a242dd234637a78244e41fce",
+            "message": "Edit image filter test to clear album at the start",
+            "insertions": 7,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "itszp": 466,
-    "kayheen": 1149,
+    "itszp": 655,
+    "kayheen": 1286,
     "carrein": 2470,
-    "randytqw": 449,
-    "thamsimun": 1390
+    "randytqw": 506,
+    "thamsimun": 1716
   },
   "authorContributionVariance": {
-    "itszp": 2593.3906,
-    "kayheen": 15779.833,
+    "itszp": 3275.062,
+    "kayheen": 22869.752,
     "carrein": 318559.97,
-    "randytqw": 5582.6265,
-    "thamsimun": 33311.16
+    "randytqw": 6289.4707,
+    "thamsimun": 35396.21
   },
   "authorDisplayNameMap": {
     "itszp": "TAY...ENG",

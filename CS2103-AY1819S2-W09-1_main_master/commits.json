@@ -571,6 +571,37 @@
             "deletions": 92
           }
         ]
+      },
+      {
+        "insertions": 749,
+        "deletions": 271,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "66624a2ad1678e4082818442510fd10dc2326591",
+            "message": "Add AddCapEntryCommandParserTest Add DeleteCapEntryCommandTest Add ModuleSemesterTest Add UniqueModuleSemesterListTest Add functionality to sort ModuleSemester List ascendingly",
+            "insertions": 634,
+            "deletions": 270
+          },
+          {
+            "hash": "a4f016abea54f680de6f673d62d5fce82ac7790e",
+            "message": "Add FindSemesterCommand Add ListCapEntryCommand",
+            "insertions": 115,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "shimeilee": [
@@ -1261,6 +1292,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -2075,6 +2124,49 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 113,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "4d69200d88912f271a2cc3415a98101a22542e6f",
+            "message": "Added new class FindModuleCommand.",
+            "insertions": 44,
+            "deletions": 0
+          },
+          {
+            "hash": "9d3b8c6ed06e139b6aae3dae7f56e034b485161e",
+            "message": "Added FindModuleCommandParser class.",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "b2857c64d8be145c38ea13af47c147783045f989",
+            "message": "Added ModuleCodeContainsKeywordsPredicate class",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "8848082c95ea97c9fb2b8556c7d75db27e2f4122",
+            "message": "Updated Messages class and UltiStudenParser for the FindModuleCommand.",
+            "insertions": 5,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "NgWeiXin": [
@@ -2880,20 +2972,38 @@
             "deletions": 12
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "andrewscw": 3735,
-    "shimeilee": 8641,
-    "LimZhengJieBenjamin": 2385,
+    "andrewscw": 4215,
+    "shimeilee": 8639,
+    "LimZhengJieBenjamin": 2498,
     "NgWeiXin": 5407
   },
   "authorContributionVariance": {
-    "andrewscw": 174989.45,
-    "shimeilee": 1058811.4,
-    "LimZhengJieBenjamin": 31005.773,
-    "NgWeiXin": 764210.2
+    "andrewscw": 179595.72,
+    "shimeilee": 1009182.3,
+    "LimZhengJieBenjamin": 29661.389,
+    "NgWeiXin": 729338.0
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",

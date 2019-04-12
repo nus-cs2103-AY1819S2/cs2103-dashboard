@@ -904,6 +904,18 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "stanleymok": [
@@ -1776,8 +1788,8 @@
         "commitResults": []
       },
       {
-        "insertions": 54,
-        "deletions": 133,
+        "insertions": 89,
+        "deletions": 202,
         "date": "2019-04-08",
         "commitResults": [
           {
@@ -1815,14 +1827,128 @@
             "message": "Fix 5 philip\u0027s test cases",
             "insertions": 11,
             "deletions": 11
+          },
+          {
+            "hash": "beb1b5f547a8ca8bfa6fb89471a31aa4cd941cf6",
+            "message": "Refactor setDirty method",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "737ee9520c8143242af420c874e62a51ea570d65",
+            "message": "refactor Apparel\u0027s setDirty method to setWorn",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "fc27a512267d334b856d2b0b884a3377bcba60ff",
+            "message": "Update use method to increment usage count for wear method",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "937550780b2304a36ebf92fbc7ef4d1aa1fd1d73",
+            "message": "Harden available command",
+            "insertions": 12,
+            "deletions": 32
+          },
+          {
+            "hash": "f5046f1c41c3cf953e1bced525144e6bcaf77ed1",
+            "message": "Harden wash and wear command, clean up code",
+            "insertions": 16,
+            "deletions": 32
           }
         ]
       },
       {
-        "insertions": 3,
-        "deletions": 4,
+        "insertions": 93,
+        "deletions": 119,
         "date": "2019-04-09",
         "commitResults": [
+          {
+            "hash": "11b8f67e939d57501e7496e666bc43c8e06528dd",
+            "message": "Clean up unavailable command",
+            "insertions": 0,
+            "deletions": 23
+          },
+          {
+            "hash": "7c367c883225d4295e441fb69c0a32c137c8b2ff",
+            "message": "Fix wash command not working",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "486e564692140ad3d8c702a02720ba182c1fac47",
+            "message": "Update feedback message for wear command",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e2b237a8c05257e570cd7c3260b5b4b96d08273c",
+            "message": "Update wear feedback string",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "7de8283556ce5460d12f224378ca03ed2363e451",
+            "message": "Clean up wash and wear command classes",
+            "insertions": 0,
+            "deletions": 51
+          },
+          {
+            "hash": "2a35700e95f0207c1aef69e7b9696e10b91ab142",
+            "message": "Make feedback string more professional",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "6ae9d228cbe02f6faf3a3e82c37bb257577dd35f",
+            "message": "Remove redundant code",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "725fb9c7ca8565e6ad70a9c0dcd898221466353e",
+            "message": "Add new user feedback string if wear apparel thats dirty",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "753398f0fbe912d072584e8013eb0c5b0a08b8ea",
+            "message": "Clean up redundant global var",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "4cdc45370cc281faefee523617cbd393bfd54533",
+            "message": "Add new timeWorn field to Apparel that resets upon wash",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "1ea89a87cec4b2e5a5e882dd975e1061a85ae98d",
+            "message": "Clean up wash code",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "7da60b160cb652555e7417ada61355c8d55a6f61",
+            "message": "Clean up wash command",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "4a10bebcb7eb195e06fb0091cd122ceaf58e70a1",
+            "message": "Add random message feedback if user wears dirty clothes",
+            "insertions": 44,
+            "deletions": 3
+          },
+          {
+            "hash": "81baaa227c066bbfc45e7736d682c4ca85dbe204",
+            "message": "Update checkstyle",
+            "insertions": 21,
+            "deletions": 14
+          },
           {
             "hash": "8584b45f86c133cbda347b2a9b0e3f60866b158e",
             "message": "Close #108 fix colors message",
@@ -1842,6 +1968,55 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 129,
+        "deletions": 161,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "9d69dde61020ab6007c4d5ffd5272285a3c9cdd7",
+            "message": "Add new assertion test for wash command when return string for wash is random",
+            "insertions": 51,
+            "deletions": 3
+          },
+          {
+            "hash": "1c143a3a3e7f24433866c13a0982906a1e347571",
+            "message": "Fix wear command test failing after adding random feedback message",
+            "insertions": 59,
+            "deletions": 111
+          },
+          {
+            "hash": "b9f6773c0a3e4b1239b8c6af38bb451514d86dd1",
+            "message": "Fix wash command failing after refactoring constructor",
+            "insertions": 5,
+            "deletions": 42
+          },
+          {
+            "hash": "20d5fa5e97f95a9efc24a03a769b158906066e12",
+            "message": "Fix checkstyle",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "699d9b4afd71007b0e9d78795528f0edfe9c0527",
+            "message": "Fix checkstyle",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "5cf43e6964c6d0eb8c8882b360f58e294aa69b42",
+            "message": "Fix attempt at test case error showing on travis but not on intellij",
+            "insertions": 6,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "PhilipPhil": [
@@ -2756,6 +2931,18 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "ReinSheer": [
@@ -3593,20 +3780,63 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 12,
+        "deletions": 12,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "db391c578e384bae2f3f25beca18734e7c5e20cd",
+            "message": "Update names of PPP (sorry guys i got the wrong format last time)",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "3f4a2c1d8df054ec700eead15a1fb59440815599",
+            "message": "Update AboutUs to include PPP links",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "34de35057a778337806af0e393e02672881242f2",
+            "message": "Standardise UG and DG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1f1a3c7ae8df7306652447a4868c60482bab6532",
+            "message": "Update Readme",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0681a337ccce9e1b79fa8b97181ef1915303d182",
+            "message": "Update product website",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rafflesandrison": 1458,
-    "stanleymok": 1452,
-    "PhilipPhil": 1604,
-    "ReinSheer": 1843
+    "rafflesandrison": 1523,
+    "stanleymok": 1397,
+    "PhilipPhil": 1603,
+    "ReinSheer": 1899
   },
   "authorContributionVariance": {
-    "rafflesandrison": 22459.46,
-    "stanleymok": 30147.691,
-    "PhilipPhil": 13789.826,
-    "ReinSheer": 240696.6
+    "rafflesandrison": 21872.041,
+    "stanleymok": 31159.56,
+    "PhilipPhil": 13416.32,
+    "ReinSheer": 233322.83
   },
   "authorDisplayNameMap": {
     "rafflesandrison": "RAF...SON",

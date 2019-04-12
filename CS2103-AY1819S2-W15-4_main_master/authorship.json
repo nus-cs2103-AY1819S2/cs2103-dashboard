@@ -25527,6 +25527,378 @@
     }
   },
   {
+    "path": "src/main/java/seedu/address/logic/commands/PointsCommand.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "package seedu.address.logic.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import static java.util.Objects.requireNonNull;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.commons.core.Messages;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.commons.core.index.Index;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.logic.CommandHistory;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.model.Model;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.model.duty.DutyStorage;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.model.person.Person;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "public class PointsCommand extends Command {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"points\";"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Display points accumulated by each person.\\n\";"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    private final Index index;"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public PointsCommand() {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        this.index \u003d null;"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public PointsCommand(Index index) {"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        this.index \u003d index;"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public CommandResult executeAdmin(Model model, CommandHistory commandHistory) throws CommandException {"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        requireNonNull(model);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        DutyStorage dutyStorage \u003d model.getDutyStorage();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        if (this.index \u003d\u003d null) {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            return new CommandResult(dutyStorage.printPoints());"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        List\u003cPerson\u003e lastShownList \u003d model.getFilteredPersonList();"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        if (index.getZeroBased() \u003e\u003d lastShownList.size()) {"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            throw new CommandException(Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        Person person \u003d lastShownList.get(index.getZeroBased());"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        return new CommandResult(dutyStorage.printDetails(person));"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public CommandResult executeGeneral(Model model, CommandHistory commandHistory) throws CommandException {"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        throw new CommandException(Messages.MESSAGE_NO_AUTHORITY);"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "yjpan47": 52
+    }
+  },
+  {
     "path": "src/main/java/seedu/address/logic/commands/RedoCommand.java",
     "lines": [
       {
@@ -26039,9 +26411,9 @@
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "yjpan47"
         },
-        "content": "            + \"See below for details\\n\\n%s\\n\\n%s\\n\\n\";"
+        "content": "            + \"See below for details\\n%s\\n%s\\n\";"
       },
       {
         "lineNumber": 33,
@@ -26228,10 +26600,10 @@
     ],
     "authorContributionMap": {
       "Valatheking": 4,
-      "yjpan47": 39,
+      "yjpan47": 40,
       "dreampursuer95": 9,
       "mechome": 1,
-      "exactlyprecise": 5
+      "exactlyprecise": 4
     }
   },
   {
@@ -34118,782 +34490,824 @@
       {
         "lineNumber": 26,
         "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.logic.commands.PointsCommand;"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
           "gitId": "-"
         },
         "content": "import seedu.address.logic.commands.RedoCommand;"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 28,
         "author": {
           "gitId": "yjpan47"
         },
         "content": "import seedu.address.logic.commands.ScheduleCommand;"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
         "content": "import seedu.address.logic.commands.SelectCommand;"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
         "content": "import seedu.address.logic.commands.SortCommand;"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 31,
         "author": {
           "gitId": "mechome"
         },
         "content": "import seedu.address.logic.commands.SwapCommand;"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 32,
         "author": {
           "gitId": "dreampursuer95"
         },
         "content": "import seedu.address.logic.commands.UnconfirmCommand;"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
         "content": "import seedu.address.logic.commands.UndoCommand;"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 34,
         "author": {
           "gitId": "dreampursuer95"
         },
         "content": "import seedu.address.logic.commands.ViewCommand;"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 35,
         "author": {
           "gitId": "Valatheking"
         },
         "content": ""
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 36,
         "author": {
           "gitId": "-"
         },
         "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": " * Parses user input."
+        "content": "/**"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": " */"
+        "content": " * Parses user input."
       },
       {
         "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 41,
         "author": {
           "gitId": "mechome"
         },
         "content": "public class PersonnelDatabaseParser {"
       },
       {
-        "lineNumber": 41,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Used for initial separation of command word and args."
+        "content": "    /**"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * Used for initial separation of command word and args."
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static final Pattern BASIC_COMMAND_FORMAT \u003d Pattern.compile(\"(?\u003ccommandWord\u003e\\\\S+)(?\u003carguments\u003e.*)\");"
+        "content": "     */"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private static final Pattern BASIC_COMMAND_FORMAT \u003d Pattern.compile(\"(?\u003ccommandWord\u003e\\\\S+)(?\u003carguments\u003e.*)\");"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Parses user input into command for execution."
+        "content": "    /**"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "     *"
+        "content": "     * Parses user input into command for execution."
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @param userInput full user input string"
+        "content": "     *"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @return the command based on the user input"
+        "content": "     * @param userInput full user input string"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @throws ParseException if the user input does not conform the expected format"
+        "content": "     * @return the command based on the user input"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * @throws ParseException if the user input does not conform the expected format"
       },
       {
         "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 55,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "    public Command parseCommand(String userInput, UserType userType, String userName) throws ParseException {"
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
         "content": "        final Matcher matcher \u003d BASIC_COMMAND_FORMAT.matcher(userInput.trim());"
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
         "content": "        if (!matcher.matches()) {"
       },
       {
-        "lineNumber": 57,
+        "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
         "content": "            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, HelpCommand.MESSAGE_USAGE));"
       },
       {
-        "lineNumber": 58,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": "        final String commandWord \u003d matcher.group(\"commandWord\");"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "        final String arguments \u003d matcher.group(\"arguments\");"
+        "content": "        final String commandWord \u003d matcher.group(\"commandWord\");"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "        switch (commandWord) {"
+        "content": "        final String arguments \u003d matcher.group(\"arguments\");"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        switch (commandWord) {"
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "mechome"
+          "gitId": "-"
         },
-        "content": "        case AcceptSwapCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "mechome"
         },
-        "content": "            return new AcceptSwapCommandParser().parse(arguments, userType, userName);"
+        "content": "        case AcceptSwapCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "mechome"
         },
-        "content": ""
+        "content": "            return new AcceptSwapCommandParser().parse(arguments, userType, userName);"
       },
       {
         "lineNumber": 67,
+        "author": {
+          "gitId": "mechome"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
         "content": "        case AddCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 69,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "            return new AddCommandParser().parse(arguments, userType, userName);"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "dreampursuer95"
-        },
-        "content": "        case BlockDateCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new BlockDateCommandParser().parse(arguments, userType, userName);"
+        "content": "        case BlockDateCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new BlockDateCommandParser().parse(arguments, userType, userName);"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "dreampursuer95"
+          "gitId": "-"
         },
-        "content": "        case ClearCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new ClearCommand();"
+        "content": "        case ClearCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new ClearCommand();"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "        case DeleteCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 77,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        case DeleteCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 78,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "            return new DeleteCommandParser().parse(arguments, userType, userName);"
       },
       {
-        "lineNumber": 78,
+        "lineNumber": 79,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 79,
-        "author": {
-          "gitId": "dreampursuer95"
-        },
-        "content": "        case EditCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new EditCommandParser().parse(arguments, userType, userName);"
+        "content": "        case EditCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new EditCommandParser().parse(arguments, userType, userName);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "        case ExitCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new ExitCommand();"
+        "content": "        case ExitCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new ExitCommand();"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "        case FindCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 86,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        case FindCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 87,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "            return new FindCommandParser().parse(arguments, userType, userName);"
       },
       {
-        "lineNumber": 87,
+        "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 88,
-        "author": {
-          "gitId": "dreampursuer95"
-        },
-        "content": "        case HelpCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new HelpCommand();"
+        "content": "        case HelpCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new HelpCommand();"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
-        "content": "        case HistoryCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "            return new HistoryCommand();"
+        "content": "        case HistoryCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            return new HistoryCommand();"
       },
       {
         "lineNumber": 94,
         "author": {
-          "gitId": "dreampursuer95"
+          "gitId": "-"
         },
-        "content": "        case ListCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new ListCommand();"
+        "content": "        case ListCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new ListCommand();"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "        case RedoCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "            return new RedoCommand();"
+        "content": "        case RedoCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            return new RedoCommand();"
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "-"
         },
-        "content": "        case ScheduleCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            return new ScheduleCommand();"
+        "content": "        case ScheduleCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "            return new ScheduleCommand();"
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "dreampursuer95"
+          "gitId": "yjpan47"
         },
-        "content": "        case SelectCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new SelectCommandParser().parse(arguments, userType, userName);"
+        "content": "        case SelectCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new SelectCommandParser().parse(arguments, userType, userName);"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "        case SortCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new SortCommand();"
+        "content": "        case SortCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "-"
+          "gitId": "dreampursuer95"
         },
-        "content": ""
+        "content": "            return new SortCommand();"
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "-"
         },
-        "content": "        case ConfirmScheduleCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            return new ConfirmScheduleCommand();"
+        "content": "        case ConfirmScheduleCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "            return new ConfirmScheduleCommand();"
       },
       {
         "lineNumber": 112,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 113,
         "author": {
           "gitId": "mechome"
         },
         "content": "        case SwapCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 114,
         "author": {
           "gitId": "dreampursuer95"
         },
         "content": "            return new SwapCommandParser().parse(arguments, userType, userName);"
       },
       {
-        "lineNumber": 114,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": "        case UndoCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": "            return new UndoCommand();"
+        "content": "        case UndoCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "            return new UndoCommand();"
       },
       {
         "lineNumber": 118,
         "author": {
-          "gitId": "dreampursuer95"
+          "gitId": "-"
         },
-        "content": "        case ViewCommand.COMMAND_WORD:"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "dreampursuer95"
         },
-        "content": "            return new ViewCommandParser().parse(arguments, userType, userName);"
+        "content": "        case ViewCommand.COMMAND_WORD:"
       },
       {
         "lineNumber": 120,
+        "author": {
+          "gitId": "dreampursuer95"
+        },
+        "content": "            return new ViewCommandParser().parse(arguments, userType, userName);"
+      },
+      {
+        "lineNumber": 121,
         "author": {
           "gitId": "mechome"
         },
         "content": ""
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 122,
         "author": {
           "gitId": "dreampursuer95"
         },
         "content": "        case UnconfirmCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 122,
+        "lineNumber": 123,
         "author": {
           "gitId": "dreampursuer95"
         },
         "content": "                return new UnconfirmCommand();"
       },
       {
-        "lineNumber": 123,
+        "lineNumber": 124,
         "author": {
           "gitId": "dreampursuer95"
         },
         "content": ""
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 125,
         "author": {
           "gitId": "yjpan47"
         },
         "content": "        case DutySettingsCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 125,
+        "lineNumber": 126,
         "author": {
           "gitId": "yjpan47"
         },
         "content": "            return new DutySettingsCommandParser().parse(arguments, userType, userName);"
       },
       {
-        "lineNumber": 126,
+        "lineNumber": 127,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 127,
+        "lineNumber": 128,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        case PointsCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            return new PointsCommandParser().parse(arguments, userType, userName);"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            "
+      },
+      {
+        "lineNumber": 132,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "        case ViewCurrentCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 128,
+        "lineNumber": 133,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "            return new ViewCurrentCommand();"
       },
       {
-        "lineNumber": 129,
+        "lineNumber": 134,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
         "content": ""
       },
       {
-        "lineNumber": 130,
+        "lineNumber": 135,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "        case ViewNextCommand.COMMAND_WORD:"
       },
       {
-        "lineNumber": 131,
+        "lineNumber": 136,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "                return new ViewNextCommand();"
       },
       {
-        "lineNumber": 132,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        default:"
-      },
-      {
-        "lineNumber": 133,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            throw new ParseException(MESSAGE_UNKNOWN_COMMAND);"
-      },
-      {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 135,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 136,
+        "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 137,
+        "lineNumber": 138,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        default:"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            throw new ParseException(MESSAGE_UNKNOWN_COMMAND);"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
@@ -34902,11 +35316,201 @@
     ],
     "authorContributionMap": {
       "Valatheking": 2,
-      "yjpan47": 11,
+      "yjpan47": 16,
       "dreampursuer95": 26,
       "-": 79,
       "mechome": 8,
-      "exactlyprecise": 11
+      "exactlyprecise": 12
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/logic/parser/PointsCommandParser.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "package seedu.address.logic.parser;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.commons.core.UserType;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.commons.core.index.Index;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.logic.commands.PointsCommand;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "public class PointsCommandParser  implements Parser\u003cPointsCommand\u003e {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public PointsCommand parse(String args, UserType userType, String userName) throws ParseException {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            if (args.equals(\"\")) {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "                return new PointsCommand();"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            } else {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "                Index index \u003d ParserUtil.parseIndex(args);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "                return new PointsCommand(index);"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        } catch (ParseException pe) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            throw new ParseException("
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "                    String.format(MESSAGE_INVALID_COMMAND_FORMAT, PointsCommand.MESSAGE_USAGE), pe);"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "yjpan47": 26
     }
   },
   {
@@ -47134,12 +47738,75 @@
         "author": {
           "gitId": "yjpan47"
         },
+        "content": ""
+      },
+      {
+        "lineNumber": 272,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public void swap(Person t1, Person t2, DutyStorage dutyStorage) {"
+      },
+      {
+        "lineNumber": 273,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        for (Duty duty : this.getScheduledDuties()) {"
+      },
+      {
+        "lineNumber": 274,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            duty.replacePerson(t1, t2);"
+      },
+      {
+        "lineNumber": 275,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            duty.replacePerson(t2, t1);"
+      },
+      {
+        "lineNumber": 276,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 277,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        dutyStorage.undo();"
+      },
+      {
+        "lineNumber": 278,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        dutyStorage.update(this.getScheduledDuties());"
+      },
+      {
+        "lineNumber": 279,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "yjpan47"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
       "Valatheking": 27,
-      "yjpan47": 183,
+      "yjpan47": 192,
       "dreampursuer95": 48,
       "mechome": 9,
       "exactlyprecise": 4
@@ -48679,350 +49346,350 @@
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "Valatheking"
+          "gitId": "yjpan47"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "Valatheking"
+          "gitId": "yjpan47"
         },
-        "content": "     * Comparator method to compare person by points"
+        "content": "    public String printDetails(Person person) {"
       },
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "Valatheking"
+          "gitId": "yjpan47"
         },
-        "content": "     */"
+        "content": "        StringBuilder sb \u003d new StringBuilder();"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "    public Comparator\u003cPerson\u003e comparebyPoints() {"
+        "content": "        sb.append(String.format(\"Points : %d\\n\", this.dutyPoints.getOrDefault(person, 0)));"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        return (p1, p2) -\u003e {"
+        "content": "        sb.append(\"--- All Duties ---\\n\");"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            if (!this.dutyPoints.containsKey(p1) \u0026\u0026 !this.dutyPoints.containsKey(p2)) {"
+        "content": "        for (String dutyDetails : this.dutyRecords.getOrDefault(person, new ArrayList\u003c\u003e())) {"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                return 0;"
+        "content": "            sb.append(dutyDetails);"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            } else if (!this.dutyPoints.containsKey(p1)) {"
+        "content": "        }"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                return 1;"
+        "content": "        return sb.toString();"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            } else if (!this.dutyPoints.containsKey(p2)) {"
+        "content": "    }"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                return -1;"
+        "content": ""
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "Valatheking"
         },
-        "content": "            } else {"
+        "content": "    /**"
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "Valatheking"
         },
-        "content": "                return this.dutyPoints.get(p1) - this.dutyPoints.get(p2);"
+        "content": "     * Comparator method to compare person by points"
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "Valatheking"
         },
-        "content": "            }"
+        "content": "     */"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        };"
+        "content": "    public Comparator\u003cPerson\u003e comparebyPoints() {"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "    }"
+        "content": "        return (p1, p2) -\u003e {"
       },
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "dreampursuer95"
+          "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "            if (!this.dutyPoints.containsKey(p1) \u0026\u0026 !this.dutyPoints.containsKey(p2)) {"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "    public void removePerson(Person remove) {"
+        "content": "                return 0;"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        for (Person p : this.dutyPoints.keySet()) {"
+        "content": "            } else if (!this.dutyPoints.containsKey(p1)) {"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
+        "content": "                return 1;"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                this.dutyPoints.remove(p);"
+        "content": "            } else if (!this.dutyPoints.containsKey(p2)) {"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                break;"
+        "content": "                return -1;"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            }"
+        "content": "            } else {"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        }"
+        "content": "                return this.dutyPoints.get(p1) - this.dutyPoints.get(p2);"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        for (Person p : this.prevDutyPoints.keySet()) {"
+        "content": "        };"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
+        "content": "    }"
       },
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "yjpan47"
+          "gitId": "dreampursuer95"
         },
-        "content": "                this.prevDutyPoints.remove(p);"
+        "content": ""
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                break;"
+        "content": "    public void removePerson(Person remove) {"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            }"
+        "content": "        for (Person p : this.dutyPoints.keySet()) {"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        }"
+        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "                this.dutyPoints.remove(p);"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        for (Person p : this.dutyRecords.keySet()) {"
+        "content": "                break;"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
+        "content": "            }"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                this.dutyRecords.remove(p);"
+        "content": "        }"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                break;"
+        "content": ""
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            }"
+        "content": "        for (Person p : this.prevDutyPoints.keySet()) {"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        }"
+        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "                this.prevDutyPoints.remove(p);"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        for (Person p : this.prevDutyRecords.keySet()) {"
+        "content": "                break;"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
+        "content": "            }"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                this.prevDutyRecords.remove(p);"
+        "content": "        }"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "                break;"
+        "content": ""
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "            }"
+        "content": "        for (Person p : this.dutyRecords.keySet()) {"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        }"
+        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "                this.dutyRecords.remove(p);"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "                break;"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "dreampursuer95"
+          "gitId": "yjpan47"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 163,
         "author": {
-          "gitId": "dreampursuer95"
+          "gitId": "yjpan47"
         },
         "content": ""
       },
@@ -49031,42 +49698,42 @@
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "    public void replacePerson(Person personToEdit, Person editedPerson) {"
+        "content": "        for (Person p : this.prevDutyRecords.keySet()) {"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        Set\u003cPerson\u003e persons \u003d new HashSet\u003c\u003e();"
+        "content": "            if (remove.getNric().toString().equals(p.getNric().toString())) {"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        persons.addAll(this.dutyPoints.keySet());"
+        "content": "                this.prevDutyRecords.remove(p);"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        persons.addAll(this.dutyRecords.keySet());"
+        "content": "                break;"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        persons.addAll(this.prevDutyPoints.keySet());"
+        "content": "            }"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        persons.addAll(this.prevDutyRecords.keySet());"
+        "content": "        }"
       },
       {
         "lineNumber": 170,
@@ -49080,150 +49747,227 @@
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        Person target \u003d null;"
+        "content": ""
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "yjpan47"
         },
-        "content": "        for (Person p : persons) {"
+        "content": ""
       },
       {
         "lineNumber": 173,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            if (personToEdit.getNric().toString().equals(p.getNric().toString())) {"
-      },
-      {
-        "lineNumber": 174,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "                target \u003d p;"
-      },
-      {
-        "lineNumber": 175,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "                break;"
-      },
-      {
-        "lineNumber": 176,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 177,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 178,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 179,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "        if (target !\u003d null) {"
-      },
-      {
-        "lineNumber": 180,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.dutyPoints.put(editedPerson, this.dutyPoints.get(target));"
-      },
-      {
-        "lineNumber": 181,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.dutyRecords.put(editedPerson, this.dutyRecords.get(target));"
-      },
-      {
-        "lineNumber": 182,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.prevDutyPoints.put(editedPerson, this.prevDutyPoints.get(target));"
-      },
-      {
-        "lineNumber": 183,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.prevDutyRecords.put(editedPerson, this.prevDutyRecords.get(target));"
-      },
-      {
-        "lineNumber": 184,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 185,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.dutyPoints.remove(target);"
-      },
-      {
-        "lineNumber": 186,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.dutyRecords.remove(target);"
-      },
-      {
-        "lineNumber": 187,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.prevDutyPoints.remove(target);"
-      },
-      {
-        "lineNumber": 188,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "            this.prevDutyRecords.remove(target);"
-      },
-      {
-        "lineNumber": 189,
-        "author": {
-          "gitId": "yjpan47"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 190,
         "author": {
           "gitId": "dreampursuer95"
         },
         "content": "    }"
       },
       {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "dreampursuer95"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "    public void replacePerson(Person personToEdit, Person editedPerson) {"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        Set\u003cPerson\u003e persons \u003d new HashSet\u003c\u003e();"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        persons.addAll(this.dutyPoints.keySet());"
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        persons.addAll(this.dutyRecords.keySet());"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        persons.addAll(this.prevDutyPoints.keySet());"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        persons.addAll(this.prevDutyRecords.keySet());"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        Person target \u003d null;"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        for (Person p : persons) {"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            if (personToEdit.getNric().toString().equals(p.getNric().toString())) {"
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "                target \u003d p;"
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 189,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 190,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        if (target !\u003d null) {"
+      },
+      {
         "lineNumber": 191,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.dutyPoints.put(editedPerson, this.dutyPoints.get(target));"
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.dutyRecords.put(editedPerson, this.dutyRecords.get(target));"
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.prevDutyPoints.put(editedPerson, this.prevDutyPoints.get(target));"
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.prevDutyRecords.put(editedPerson, this.prevDutyRecords.get(target));"
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.dutyPoints.remove(target);"
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.dutyRecords.remove(target);"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.prevDutyPoints.remove(target);"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "            this.prevDutyRecords.remove(target);"
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "yjpan47"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "dreampursuer95"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 202,
         "author": {
           "gitId": "yjpan47"
         },
         "content": "}"
       },
       {
-        "lineNumber": 192,
+        "lineNumber": 203,
         "author": {
           "gitId": "yjpan47"
         },
@@ -49232,7 +49976,7 @@
     ],
     "authorContributionMap": {
       "Valatheking": 16,
-      "yjpan47": 171,
+      "yjpan47": 182,
       "dreampursuer95": 5
     }
   },
@@ -51557,124 +52301,33 @@
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "mechome"
+          "gitId": "yjpan47"
         },
-        "content": "        builder.append(\" NRIC: \")"
+        "content": "        builder.append(this.getRank().toString() + \" \" + this.getName().toString());"
       },
       {
         "lineNumber": 163,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(getNric())"
-      },
-      {
-        "lineNumber": 164,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(\" Company: \")"
-      },
-      {
-        "lineNumber": 165,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(getCompany())"
-      },
-      {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(\" Section: \")"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(getSection())"
-      },
-      {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(\" Rank: \")"
-      },
-      {
-        "lineNumber": 169,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(getRank())"
-      },
-      {
-        "lineNumber": 170,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(\" Name: \")"
-      },
-      {
-        "lineNumber": 171,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "                .append(getName())"
-      },
-      {
-        "lineNumber": 172,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                .append(\" Phone: \")"
-      },
-      {
-        "lineNumber": 173,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                .append(getPhone())"
-      },
-      {
-        "lineNumber": 174,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                .append(\" Tags: \");"
-      },
-      {
-        "lineNumber": 175,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        getTags().forEach(builder::append);"
-      },
-      {
-        "lineNumber": 176,
         "author": {
           "gitId": "-"
         },
         "content": "        return builder.toString();"
       },
       {
-        "lineNumber": 177,
+        "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 178,
+        "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 179,
+        "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
@@ -51683,9 +52336,10 @@
     ],
     "authorContributionMap": {
       "Valatheking": 11,
+      "yjpan47": 1,
       "dreampursuer95": 5,
-      "-": 102,
-      "mechome": 34,
+      "-": 98,
+      "mechome": 24,
       "exactlyprecise": 27
     }
   },
@@ -75598,6 +76252,308 @@
       "-": 167,
       "mechome": 14,
       "exactlyprecise": 13
+    }
+  },
+  {
+    "path": "src/test/java/seedu/address/logic/LoginTest.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "package seedu.address.logic;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import org.junit.Assert;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import org.junit.Test;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import seedu.address.commons.core.UserType;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import seedu.address.model.Model;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import seedu.address.model.ModelManager;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import seedu.address.model.UserPrefs;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import static seedu.address.testutil.TypicalPersons.ADMIN_TAN_PASSWORD;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import static seedu.address.testutil.TypicalPersons.ADMIN_TAN_USERNAME;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import static seedu.address.testutil.TypicalPersons.GENERAL_DAN_PASSWORD;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import static seedu.address.testutil.TypicalPersons.GENERAL_DAN_USERNAME;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "import static seedu.address.testutil.TypicalPersons.getTypicalPersonnelDatabase;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "public class LoginTest {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    private Model model \u003d new ModelManager(getTypicalPersonnelDatabase(), new UserPrefs());"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    private Logic logic \u003d new LogicManager(model, null);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public static final String WRONG_USERNAME \u003d \"General\";"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public static final String WRONG_PASSWORD \u003d \"General\";"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public void findFalseUserPassFailure() {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        Assert.assertNotEquals(UserType.GENERAL, logic.findAccount(WRONG_USERNAME, WRONG_PASSWORD));"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        Assert.assertNotEquals(UserType.ADMIN, logic.findAccount(WRONG_USERNAME, WRONG_PASSWORD));"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        Assert.assertEquals(null, logic.findAccount(WRONG_USERNAME, WRONG_PASSWORD));"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public void findUserPassSuccess() {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        Assert.assertEquals(UserType.GENERAL, logic.findAccount(GENERAL_DAN_USERNAME, GENERAL_DAN_PASSWORD));"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        Assert.assertEquals(UserType.ADMIN, logic.findAccount(ADMIN_TAN_USERNAME, ADMIN_TAN_PASSWORD));"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public void findFalseUserPassCombinationFailure() {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        Assert.assertEquals(null, logic.findAccount(ADMIN_TAN_USERNAME, GENERAL_DAN_PASSWORD));"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        Assert.assertEquals(null, logic.findAccount(GENERAL_DAN_USERNAME, ADMIN_TAN_PASSWORD));"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "exactlyprecise": 42
     }
   },
   {
@@ -114902,306 +115858,306 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "    public static final Person ALICE \u003d new PersonBuilder().withNric(\"S9673566K\").withCompany(\"Leopard\")"
+        "content": "    public static final String GENERAL_DAN_USERNAME \u003d \"S9687543K\";"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"1\").withRank(\"CFC\").withName(\"Alice Pauline\")"
+        "content": "    public static final String GENERAL_DAN_PASSWORD \u003d \"Pass\";"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "            .withPhone(\"94351253\").withTags(\"outstanding\").buildReduced();"
+        "content": "    public static final String ADMIN_TAN_USERNAME \u003d \"S9876543P\";"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "    public static final Person BENSON \u003d new PersonBuilder().withNric(\"S9478974B\").withCompany(\"Hawk\")"
+        "content": "    public static final String ADMIN_TAN_PASSWORD \u003d \"password\";"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"2\").withRank(\"PTE\").withName(\"Benson Meier\")"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "            .withPhone(\"98765432\").withTags(\"injured\").buildReduced();"
+        "content": "    public static final Person ALICE \u003d new PersonBuilder().withNric(\"S9673566K\").withCompany(\"Leopard\")"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "mechome"
         },
-        "content": "    public static final Person CARL \u003d new PersonBuilder().withNric(\"S9324325I\").withCompany(\"Cougar\")"
+        "content": "            .withSection(\"1\").withRank(\"CFC\").withName(\"Alice Pauline\")"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"3\").withRank(\"REC\").withName(\"Carl Kurz\")"
+        "content": "            .withPhone(\"94351253\").withTags(\"outstanding\").buildReduced();"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withPhone(\"95352563\").buildReduced();"
+        "content": "    public static final Person BENSON \u003d new PersonBuilder().withNric(\"S9478974B\").withCompany(\"Hawk\")"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "mechome"
         },
-        "content": "    public static final Person DANIEL \u003d new PersonBuilder().withNric(\"T0034567L\").withCompany(\"Falcon\")"
+        "content": "            .withSection(\"2\").withRank(\"PTE\").withName(\"Benson Meier\")"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"4\").withRank(\"LCP\").withName(\"Daniel Meier\")"
+        "content": "            .withPhone(\"98765432\").withTags(\"injured\").buildReduced();"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withPhone(\"87652533\").withTags(\"friends\").buildReduced();"
+        "content": "    public static final Person CARL \u003d new PersonBuilder().withNric(\"S9324325I\").withCompany(\"Cougar\")"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "mechome"
         },
-        "content": "    public static final Person ELLE \u003d new PersonBuilder().withNric(\"S9876567I\").withCompany(\"Ninja\")"
+        "content": "            .withSection(\"3\").withRank(\"REC\").withName(\"Carl Kurz\")"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"2\").withRank(\"REC\").withName(\"Elle Meyer\")"
+        "content": "            .withPhone(\"95352563\").buildReduced();"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withPhone(\"9482224\").buildReduced();"
+        "content": "    public static final Person DANIEL \u003d new PersonBuilder().withNric(\"T0034567L\").withCompany(\"Falcon\")"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "mechome"
         },
-        "content": "    public static final Person FIONA \u003d new PersonBuilder().withNric(\"S9357825I\").withCompany(\"2nd\")"
+        "content": "            .withSection(\"4\").withRank(\"LCP\").withName(\"Daniel Meier\")"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"1\").withRank(\"PTE\").withName(\"Fiona Kunz\")"
+        "content": "            .withPhone(\"87652533\").withTags(\"friends\").buildReduced();"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withPhone(\"9482427\").buildReduced();"
+        "content": "    public static final Person ELLE \u003d new PersonBuilder().withNric(\"S9876567I\").withCompany(\"Ninja\")"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "mechome"
         },
-        "content": "    public static final Person GEORGE \u003d new PersonBuilder().withNric(\"T0065782J\").withCompany(\"1st\")"
+        "content": "            .withSection(\"2\").withRank(\"REC\").withName(\"Elle Meyer\")"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"2\").withRank(\"CFC\").withName(\"George Best\")"
+        "content": "            .withPhone(\"9482224\").buildReduced();"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withPhone(\"+942442\").buildReduced();"
+        "content": "    public static final Person FIONA \u003d new PersonBuilder().withNric(\"S9357825I\").withCompany(\"2nd\")"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "-"
+          "gitId": "mechome"
         },
-        "content": ""
+        "content": "            .withSection(\"1\").withRank(\"PTE\").withName(\"Fiona Kunz\")"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "-"
+          "gitId": "exactlyprecise"
         },
-        "content": "    // Manually added"
+        "content": "            .withPhone(\"9482427\").buildReduced();"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "mechome"
         },
-        "content": "    public static final Person HOON \u003d new PersonBuilder().withNric(\"S1234567H\").withCompany(\"Jaguar\")"
+        "content": "    public static final Person GEORGE \u003d new PersonBuilder().withNric(\"T0065782J\").withCompany(\"1st\")"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "mechome"
         },
-        "content": "            .withSection(\"3\").withRank(\"PTE\").withName(\"Hoon Meier\")"
+        "content": "            .withSection(\"2\").withRank(\"CFC\").withName(\"George Best\")"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "            .withPhone(\"8482424\").buildReduced();"
+        "content": "            .withPhone(\"+942442\").buildReduced();"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "    public static final Person IDA \u003d new PersonBuilder().withNric(\"S1234567I\").withCompany(\"Mohawk\")"
+        "content": "    public static final Person GENERAL_DAN \u003d new PersonBuilder().withNric(GENERAL_DAN_USERNAME).withCompany(\"3rd\")"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(\"3\").withRank(\"LCP\").withName(\"Ida Mueller\")"
+        "content": "            .withSection(\"5\").withRank(\"LTC\").withName(\"Dan\").withPhone(\"98765432\")"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "            .withPhone(\"8482131\").buildReduced();"
+        "content": "            .withPassword(GENERAL_DAN_PASSWORD).withUserType(UserType.GENERAL).build();"
       },
       {
         "lineNumber": 63,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public static final Person ADMIN_TAN \u003d new PersonBuilder().withNric(ADMIN_TAN_USERNAME).withCompany(\"7th\")"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withSection(\"4\").withRank(\"CFC\").withName(\"Tan\").withPhone(\"12345678\")"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withPassword(ADMIN_TAN_PASSWORD).withUserType(UserType.ADMIN).build();"
+      },
+      {
+        "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
-        "content": "    // Manually added - Person\u0027s details found in {@code CommandTestUtil}"
-      },
-      {
-        "lineNumber": 65,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "    public static final Person AMY \u003d new PersonBuilder().withNric(VALID_NRIC_AMY).withCompany(VALID_COMPANY_AMY)"
-      },
-      {
-        "lineNumber": 66,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "            .withSection(VALID_SECTION_AMY).withRank(VALID_RANK_AMY).withName(VALID_NAME_AMY)"
-      },
-      {
-        "lineNumber": 67,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "            .withPhone(VALID_PHONE_AMY).withTags(VALID_TAG_FRIEND).withPassword(VALID_PASSWORD_AMY)"
+        "content": "    // Manually added"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withUserType(UserType.ADMIN).build();"
+        "content": "    public static final Person HOON \u003d new PersonBuilder().withNric(\"S1234567H\").withCompany(\"Jaguar\")"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "mechome"
         },
-        "content": "    public static final Person BOB \u003d new PersonBuilder().withNric(VALID_NRIC_BOB).withCompany(VALID_COMPANY_BOB)"
+        "content": "            .withSection(\"3\").withRank(\"PTE\").withName(\"Hoon Meier\")"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "mechome"
+          "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(VALID_SECTION_BOB).withRank(VALID_RANK_BOB).withName(VALID_NAME_BOB)"
+        "content": "            .withPhone(\"8482424\").buildReduced();"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withPhone(VALID_PHONE_BOB).withTags(VALID_TAG_HUSBAND, VALID_TAG_FRIEND)"
+        "content": "    public static final Person IDA \u003d new PersonBuilder().withNric(\"S1234567I\").withCompany(\"Mohawk\")"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "            .withPassword(VALID_PASSWORD_BOB).withUserType(UserType.GENERAL).build();"
+        "content": "            .withSection(\"3\").withRank(\"LCP\").withName(\"Ida Mueller\")"
       },
       {
         "lineNumber": 73,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withPhone(\"8482131\").buildReduced();"
+      },
+      {
+        "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 74,
-        "author": {
-          "gitId": "exactlyprecise"
-        },
-        "content": "    // Since added in add command, password \u003d nric, usertype \u003d General"
-      },
-      {
         "lineNumber": 75,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "    // Manually added - Person\u0027s details found in {@code CommandTestUtil}"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "    public static final Person AMY_TO_ADD \u003d new PersonBuilder().withNric(VALID_NRIC_AMY).withCompany(VALID_COMPANY_AMY)"
+        "content": "    public static final Person AMY \u003d new PersonBuilder().withNric(VALID_NRIC_AMY).withCompany(VALID_COMPANY_AMY)"
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
         "content": "            .withSection(VALID_SECTION_AMY).withRank(VALID_RANK_AMY).withName(VALID_NAME_AMY)"
       },
@@ -115217,147 +116173,147 @@
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "            .withUserType(UserType.ADMIN).buildReduced();"
+        "content": "            .withUserType(UserType.ADMIN).build();"
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": ""
+        "content": "    public static final Person BOB \u003d new PersonBuilder().withNric(VALID_NRIC_BOB).withCompany(VALID_COMPANY_BOB)"
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "mechome"
         },
-        "content": "    public static final Person BOB_TO_ADD \u003d new PersonBuilder().withNric(VALID_NRIC_BOB).withCompany(VALID_COMPANY_BOB)"
+        "content": "            .withSection(VALID_SECTION_BOB).withRank(VALID_RANK_BOB).withName(VALID_NAME_BOB)"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "            .withSection(VALID_SECTION_BOB).withRank(VALID_RANK_BOB).withName(VALID_NAME_BOB)"
+        "content": "            .withPhone(VALID_PHONE_BOB).withTags(VALID_TAG_HUSBAND, VALID_TAG_FRIEND)"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "exactlyprecise"
         },
-        "content": "            .withPhone(VALID_PHONE_BOB).withTags(VALID_TAG_HUSBAND, VALID_TAG_FRIEND)"
+        "content": "            .withPassword(VALID_PASSWORD_BOB).withUserType(UserType.GENERAL).build();"
       },
       {
         "lineNumber": 84,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    // Since added in add command, password \u003d nric, usertype \u003d General"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public static final Person AMY_TO_ADD \u003d new PersonBuilder().withNric(VALID_NRIC_AMY).withCompany(VALID_COMPANY_AMY)"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withSection(VALID_SECTION_AMY).withRank(VALID_RANK_AMY).withName(VALID_NAME_AMY)"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withPhone(VALID_PHONE_AMY).withTags(VALID_TAG_FRIEND).withPassword(VALID_PASSWORD_AMY)"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withUserType(UserType.ADMIN).buildReduced();"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "    public static final Person BOB_TO_ADD \u003d new PersonBuilder().withNric(VALID_NRIC_BOB).withCompany(VALID_COMPANY_BOB)"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withSection(VALID_SECTION_BOB).withRank(VALID_RANK_BOB).withName(VALID_NAME_BOB)"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "            .withPhone(VALID_PHONE_BOB).withTags(VALID_TAG_HUSBAND, VALID_TAG_FRIEND)"
+      },
+      {
+        "lineNumber": 95,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "            .withPassword(VALID_PASSWORD_BOB).withUserType(UserType.GENERAL).buildReduced();"
       },
       {
-        "lineNumber": 85,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 86,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    public static final String KEYWORD_MATCHING_MEIER \u003d \"Meier\"; // A keyword that matches MEIER"
-      },
-      {
-        "lineNumber": 87,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 88,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    private TypicalPersons() {} // prevents instantiation"
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 90,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 91,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "     * Returns an {@code PersonnelDatabase} with all the typical persons."
-      },
-      {
-        "lineNumber": 92,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "    public static PersonnelDatabase getTypicalPersonnelDatabase() {"
-      },
-      {
-        "lineNumber": 94,
-        "author": {
-          "gitId": "mechome"
-        },
-        "content": "        PersonnelDatabase ab \u003d new PersonnelDatabase();"
-      },
-      {
-        "lineNumber": 95,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        for (Person person : getTypicalPersons()) {"
-      },
-      {
         "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
-        "content": "            ab.addPerson(person);"
+        "content": ""
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "    public static final String KEYWORD_MATCHING_MEIER \u003d \"Meier\"; // A keyword that matches MEIER"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "        return ab;"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    private TypicalPersons() {} // prevents instantiation"
       },
       {
         "lineNumber": 100,
@@ -115371,59 +116327,143 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    public static List\u003cPerson\u003e getTypicalPersons() {"
+        "content": "    /**"
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "-"
+          "gitId": "mechome"
         },
-        "content": "        return new ArrayList\u003c\u003e(Arrays.asList(ALICE, BENSON, CARL, DANIEL, ELLE, FIONA, GEORGE));"
+        "content": "     * Returns an {@code PersonnelDatabase} with all the typical persons."
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "     */"
       },
       {
         "lineNumber": 104,
+        "author": {
+          "gitId": "mechome"
+        },
+        "content": "    public static PersonnelDatabase getTypicalPersonnelDatabase() {"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "mechome"
+        },
+        "content": "        PersonnelDatabase ab \u003d new PersonnelDatabase();"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        for (Person person : getTypicalPersons()) {"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            ab.addPerson(person);"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return ab;"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static List\u003cPerson\u003e getTypicalPersons() {"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "        return new ArrayList\u003c\u003e(Arrays.asList(ALICE, BENSON, CARL, DANIEL, ELLE, FIONA, GEORGE,"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "exactlyprecise"
+        },
+        "content": "                GENERAL_DAN, ADMIN_TAN));"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 116,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": ""
       },
       {
-        "lineNumber": 105,
+        "lineNumber": 117,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "    public static String getTypicalPersonNric(int i) {"
       },
       {
-        "lineNumber": 106,
+        "lineNumber": 118,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "        Person targetedPerson \u003d getTypicalPersons().get(i);"
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 119,
         "author": {
           "gitId": "exactlyprecise"
         },
         "content": "        return targetedPerson.getNric().value;"
       },
       {
-        "lineNumber": 108,
+        "lineNumber": 120,
         "author": {
-          "gitId": "exactlyprecise"
+          "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
@@ -115434,7 +116474,7 @@
       "Valatheking": 8,
       "-": 42,
       "mechome": 25,
-      "exactlyprecise": 34
+      "exactlyprecise": 46
     }
   },
   {

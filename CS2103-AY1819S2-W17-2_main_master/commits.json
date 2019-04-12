@@ -2089,21 +2089,307 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 75,
+        "deletions": 33,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3c9b375d1c32bf275b552da2e5c57bc794b29a93",
+            "message": "added bright options for css",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "bf6d9bd81991f2432c071dffd13f697d59158ba8",
+            "message": "Reorganized statWindow layour and colors",
+            "insertions": 17,
+            "deletions": 21
+          },
+          {
+            "hash": "62a92762720dccd34dd58f68a3815f91d6918e45",
+            "message": "Added teethViewing",
+            "insertions": 14,
+            "deletions": 5
+          },
+          {
+            "hash": "3318b93a3ffc8d0a579b617f95ff1caf9916dda9",
+            "message": "modified the constructor",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "d9a86b94fde4a4d1f3eb80caae9eb230ab10fa94",
+            "message": "populates pieChartBox",
+            "insertions": 20,
+            "deletions": 1
+          },
+          {
+            "hash": "e258e44f2df56f34f61b6e0b9f31fbeb4dc984c9",
+            "message": "added pieChart code to fxml",
+            "insertions": 6,
+            "deletions": 5
+          }
+        ]
       },
       {
-        "insertions": 0,
+        "insertions": 3,
         "deletions": 0,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7bb5370fee19f6a0318366d68f5eb25450c05a99",
+            "message": "Updated pieChart color",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 119,
+        "deletions": 20,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "22b464721ce3f89b797011a4c7bfb099502d0b6b",
+            "message": "Modified charts label colors",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "4a55ad4485ef5a22c12cb4728a4a4bf61ddac0c7",
+            "message": "updated statWindow default size",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "26fd0bcd00fade675a1c0a65b9819fb1a8dfb473",
+            "message": "closes statWindow if still open on exit",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "fa19dc870c58245b3d323c09a71d080b6b03ec58",
+            "message": "fixed mistake",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d02ca4bee537ac3b09879e533ae6954cb5810c0d",
+            "message": "added css for stat text",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "6197a67e9e41951744da798d845b4fc61c35ab3b",
+            "message": "add new popluatePatientData method",
+            "insertions": 18,
+            "deletions": 6
+          },
+          {
+            "hash": "2e9243bb4dee27d3808bbbe9b1f3867c999ec1a9",
+            "message": "reorganized statWindow fxml",
+            "insertions": 24,
+            "deletions": 5
+          },
+          {
+            "hash": "ef652fccf44fef9c556b353ebce9b79229f87476",
+            "message": "updated StatWindow fxml with new data",
+            "insertions": 26,
+            "deletions": 2
+          },
+          {
+            "hash": "075d1c9cc0f97b40b2c31cfef3c5e232dd61b5fc",
+            "message": "stat window sets new data",
+            "insertions": 21,
+            "deletions": 1
+          },
+          {
+            "hash": "7709856187a3be5cfb6649dfa4787cc10ec10837",
+            "message": "updated info panel size",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 610,
+        "deletions": 60,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "54b40e967b10889502a69d448398fd187beef38f",
+            "message": "Added blank sortCommandSystemTest",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "74d3ac497058879f872651e02b2cbc8d85559b34",
+            "message": "Created blank typical Records",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "6560fa6ddcd757b28b02669abf5daa9450b1e925",
+            "message": "Implemented typicalRecords containing 10 records, each with a different procedure",
+            "insertions": 39,
+            "deletions": 0
+          },
+          {
+            "hash": "6b7642dd6f71aa640d37378193174974073c7248",
+            "message": "Base functionality for SortCommandSystemTest",
+            "insertions": 62,
+            "deletions": 1
+          },
+          {
+            "hash": "54b683395bc0de16bf12f89d09e7683aac7dcbd5",
+            "message": "minor change to procedure list",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7caefa3da3b80ca3f344b7927c58dbe77ae8a422",
+            "message": "new assertMethod for testing Records",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "6d84d35df653c9528cf80d50f1924fe205254d28",
+            "message": "minor syntex change",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6db4bce7529e0585b14e64b32b415e4e776b4d1e",
+            "message": "checkStyle update",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7be81df146a6efe66fc583b6ddaa65f0a38a1994",
+            "message": "added procedure comparator",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "7bdf4ac2e14743fdf7b0dbf9e1b4efb44c797957",
+            "message": "updated sortCommandSystemTest with record testing",
+            "insertions": 54,
+            "deletions": 8
+          },
+          {
+            "hash": "aba0acfd72b14cb8cd0f7f4ac406c080498db4b5",
+            "message": "cehckstyle updates",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "ec747d805ecb57f3e9cc5950f4b3102c1c0238a5",
+            "message": "test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ff21538de11aa6f7d689700b4d09b1bbfbfb8e95",
+            "message": "temp comment out",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "914ebd7f9294468d9b1ee73a6cb9cd7accec0deb",
+            "message": "testing new test",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "6e9f98016362830e922d1fa99cf9fcfdd40c972c",
+            "message": "attempt to work",
+            "insertions": 35,
+            "deletions": 1
+          },
+          {
+            "hash": "fdc1d78d04c8fa65bf3245cf5dd3033b7de44987",
+            "message": "Test for failure as well",
+            "insertions": 16,
+            "deletions": 5
+          },
+          {
+            "hash": "d6101fad9e5b700d2c0382221828d9a29793b98f",
+            "message": "updated parserTests",
+            "insertions": 54,
+            "deletions": 0
+          },
+          {
+            "hash": "6645a32231c46c56bf8d5d622f37eecb3c5f87c7",
+            "message": "Added toString() methods",
+            "insertions": 18,
+            "deletions": 1
+          },
+          {
+            "hash": "e06e929cec285a1b9399df7ff98ece49b1bfb2fa",
+            "message": "Multiple predicates test",
+            "insertions": 33,
+            "deletions": 2
+          },
+          {
+            "hash": "db37740af7220f0535e1ddb47226236da6271b82",
+            "message": "Added equals function for TagsContainKeywordsPredicate",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "c620f9ea09e31075400c27ad6d2ce1182d2f9165",
+            "message": "Created blank shortcutSystemTest",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "f3a4813e20c3522805ab87b7a76171deda49b38b",
+            "message": "change private to public",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "1128200b51e819027725fdfb8fa3aaab1263ed1f",
+            "message": "Created SuggestionSystemTest",
+            "insertions": 141,
+            "deletions": 1
+          },
+          {
+            "hash": "8db1d5db2811cb6ca7fad00695bd0fe2769a3d92",
+            "message": "Created blank StatSystemTest",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "e1c3f6a1984a7ff93d740ec59cfe23850a377874",
+            "message": "Created blank StatWindowHandle",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "914ddfb93ebb19a2e751ea1424d0c358b7553337",
+            "message": "Implementation for StatWindowHandle",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "39397b4b69207bbc56b3998ae07063a832ec7a23",
+            "message": "Implementation for statSystemTests",
+            "insertions": 42,
+            "deletions": 1
+          },
+          {
+            "hash": "807bd1d14fdfa83d6a81da6da675040ed59a6ce5",
+            "message": "CheckStyle Update",
+            "insertions": 5,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-10",
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -4251,10 +4537,175 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 10,
+        "deletions": 11,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d2dc7a59538188ea78fe2a0c09afe04b521a86e3",
+            "message": "Updated UI",
+            "insertions": 10,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 1758,
+        "deletions": 64,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "b18051255cc22bc80814a8a82179ffb1cfa079cd",
+            "message": "Fixed bug with record info display tab",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "fec7b736863ffedc0dd7784dc8e71e1853a1a500",
+            "message": "Shifted commandbox and result display box to bottom of window",
+            "insertions": 16,
+            "deletions": 15
+          },
+          {
+            "hash": "129ba1a2783c667332d8163cbad3cfc9c2a4a90b",
+            "message": "Added TaskBuilder class file to help test Task related commands",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "c3b6cc1c1919431fb48479f07c3c3466f8d4ad66",
+            "message": "Added attributes for TaskBuilder",
+            "insertions": 23,
+            "deletions": 0
+          },
+          {
+            "hash": "02131ba6c2b1f2093babb0b59b99a5e4cfa36870",
+            "message": "Added constructors for TaskBuilder",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "6635345adfc8b16df6f7fa046774ab7cecfb4605",
+            "message": "Added methods to TaskBuilder",
+            "insertions": 58,
+            "deletions": 0
+          },
+          {
+            "hash": "6cd7b48d5c35076985823ad76524f15d93bb67aa",
+            "message": "Added build method to TaskBuilder",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "d962c389cd1eacb9c2ac5fbeb93ae2e3d1fa6973",
+            "message": "Added new TaskAddCommandTest file",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "6fa439bdeb4425ed143e27e1a6838de7153f42b5",
+            "message": "Updated TaskAddCommandTest",
+            "insertions": 381,
+            "deletions": 2
+          },
+          {
+            "hash": "79e92d4e15f1c9e70f1c4276a9afbdf98d612bdd",
+            "message": "Added TypicalTasks class file",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "86fb6f6e726c21abfa62813ea524cb55c5288f3d",
+            "message": "Updated CommandTestUtil, Added new EditTaskDescriptorBuilder",
+            "insertions": 167,
+            "deletions": 3
+          },
+          {
+            "hash": "1200fc974c94c8e3c74017b974af15040c0c7ccf",
+            "message": "Added new TypicalTasks file",
+            "insertions": 114,
+            "deletions": 3
+          },
+          {
+            "hash": "8cf686efe115b0ceed561610783451757e071f0a",
+            "message": "Added TaskDeleteCommandTest with tested codes",
+            "insertions": 207,
+            "deletions": 3
+          },
+          {
+            "hash": "7990c4968912ef0d6f5149df0988ae0a458c1351",
+            "message": "Fixed style",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "516dec8401e1ff9ca31c08eae308cbda98bba47f",
+            "message": "Updated Calendar Window label text color for visibility",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "ae02bd3c5cfbf2d89ee49efa20cdf39f3c7f7bc1",
+            "message": "Added TaskEditCommandTest file with code",
+            "insertions": 261,
+            "deletions": 1
+          },
+          {
+            "hash": "1fa2a9fdc9892fbb6bdd34b6ecacfcbb4d442a9e",
+            "message": "Added TaskDoneCommandTest file with code",
+            "insertions": 190,
+            "deletions": 12
+          },
+          {
+            "hash": "a0567be222251f8afccecfde33cb29a2ecb1f4a8",
+            "message": "Added TaskAddCommandParserTest with code",
+            "insertions": 118,
+            "deletions": 0
+          },
+          {
+            "hash": "b154ef75aa76ea5116a343bb26a0a33e68182b18",
+            "message": "Added TaskCalendarCommandSystemTest file with code",
+            "insertions": 161,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 52,
+        "deletions": 44,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "ad2518d2677ab7877a4a92b114e22098cdb4bf76",
+            "message": "Fixed bugs with tests and coding style",
+            "insertions": 39,
+            "deletions": 32
+          },
+          {
+            "hash": "aaead7d32299bcccb4d115ccdb8fa80967f2d0c4",
+            "message": "Added newline to EOF in preferences.json",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "19c0d766d61497ef4715f87fc4afd6c4a8c9deaf",
+            "message": "Merged and fixed bug in TeethPanel",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "aadcda85c08aa206fb89b935430c52bbf41acae6",
+            "message": "Added newline to EOF in preferences.json",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "a3e160f81651d9d9a4e621c1fd9b414465646d64",
+            "message": "Removed unused import",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "kylerwsm": [
@@ -6117,6 +6568,18 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "wSemis": [
@@ -7050,6 +7513,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -8674,8 +9149,8 @@
         ]
       },
       {
-        "insertions": 369,
-        "deletions": 263,
+        "insertions": 375,
+        "deletions": 268,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -8779,24 +9254,128 @@
             "message": "Removed unused commands in OpenCommand and ImportCommand.",
             "insertions": 0,
             "deletions": 2
+          },
+          {
+            "hash": "1a6640bd85a0a320d351805ee88d9902a5f61d95",
+            "message": "Changed \"Teeth Hub\" to \"TeethHub\"",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4fff4bf6fbbc540abe19d0b835aff61355a9c696",
+            "message": "Bugfixed: PdfSerializableAddressBook now ignores copies just like JsonSerializableAddressBook",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6fafa8c6f06b0a2a9bbe78c2e3b8df860c5fbcf8",
+            "message": "Bugfixed parseImportExport() in ParserUtil: Wrong ParseException message was being thrown for splitRegex for \"all\" keyword.",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 758,
+        "deletions": 677,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "eb9ac8f628b226dbc316b3e16086410fb7634712",
+            "message": "Added newline in PdfSerializableAddressBook.java so that line is not longer than 120 characters.",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "fb63daa092bb526a88bcd3adc410573df57434f4",
+            "message": "Updated IO regex to accept empty file names. Updated parseOpenSave() and parseImportExport() exception messages. Refactored parseOpenSave() and parseImportExport().",
+            "insertions": 95,
+            "deletions": 44
+          },
+          {
+            "hash": "110b030536b976340848569c6731911a172b7f2b",
+            "message": "Fixed wrong lines deleted in merge conflict resolution.",
+            "insertions": 26,
+            "deletions": 18
+          },
+          {
+            "hash": "ea150223bfd1acf804ccf1e26c7baf12622bb0a4",
+            "message": "Fixed parseOpenSave() and parseImportExport() to throw corrrect exception messages.",
+            "insertions": 62,
+            "deletions": 58
+          },
+          {
+            "hash": "03946d1a8c6fc613452347155187fa3ba6ec2ee2",
+            "message": "Updated CommandResult message in OpenCommand, SaveCommand, ImportCommand and ExportCommand.",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "57786fd33ecef34543177ad3cb4b04ea1d0db7e9",
+            "message": "Added PdfUtil.java and shifted commands over from InOutAddressBookStorage.java",
+            "insertions": 353,
+            "deletions": 317
+          },
+          {
+            "hash": "49a02d0a2f71bba9c4da11fae1306a1b28bdab2d",
+            "message": "Refactored parseOpenSave() and parseImportExport() ParserUtil.java",
+            "insertions": 16,
+            "deletions": 22
+          },
+          {
+            "hash": "1aab57607353481fb8d0a2cc4aa3809f0ac71be9",
+            "message": "Added InCommand.java to handle file validation instead of OpenCommandParser.java and ImportCommandParser.java.",
+            "insertions": 77,
+            "deletions": 57
+          },
+          {
+            "hash": "f52f3a42ebfdf6f7ca451326d195a535fe855378",
+            "message": "Refactored ImportCommand, ImportCommandParser, OpenCommand, OpenCommandParser. Added OutCommand.java to handle file validation instead of SaveCommandParser.java and ExportCommandParser.java.",
+            "insertions": 77,
+            "deletions": 121
+          },
+          {
+            "hash": "4bafdd92e988d7543402b36c382e155668b02cef",
+            "message": "Refactored index parsing in parseImportExport() in ParserUtil.java Bugfixed parseImportExport(): Wrong regex was used for empty filenames with \"all\" keyword.",
+            "insertions": 42,
+            "deletions": 31
+          }
+        ]
+      },
+      {
+        "insertions": 4,
+        "deletions": 13,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "bb73d0ad8c6d4bfda674c125db06b48ee50ea83c",
+            "message": "Updated IO commands to bypass StorageManager as it was being called needlessly.",
+            "insertions": 4,
+            "deletions": 10
+          },
+          {
+            "hash": "e3dfa4d1e683e9349bd8ae975f7bc95465b68fda",
+            "message": "Removed unused import.",
+            "insertions": 0,
+            "deletions": 3
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kthSim": 5028,
-    "cchj1995": 4112,
-    "kylerwsm": 3794,
-    "wSemis": 1044,
-    "JiaHaoLim": 3344
+    "kthSim": 5738,
+    "cchj1995": 5834,
+    "kylerwsm": 3793,
+    "wSemis": 1043,
+    "JiaHaoLim": 3385
   },
   "authorContributionVariance": {
-    "kthSim": 101556.76,
-    "cchj1995": 83765.59,
-    "kylerwsm": 60889.8,
-    "wSemis": 713257.25,
-    "JiaHaoLim": 87379.65
+    "kthSim": 102126.164,
+    "cchj1995": 126621.61,
+    "kylerwsm": 59473.133,
+    "wSemis": 690825.56,
+    "JiaHaoLim": 111677.914
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",

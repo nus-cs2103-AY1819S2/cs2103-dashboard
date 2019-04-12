@@ -529,6 +529,43 @@
             "deletions": 51
           }
         ]
+      },
+      {
+        "insertions": 159,
+        "deletions": 45,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "388be8ec2f9dccf4599d8c13c5d44f3068e41a47",
+            "message": "Update UG for Photo feature, Fix command error for Photo FILE_PATH.",
+            "insertions": 93,
+            "deletions": 6
+          },
+          {
+            "hash": "cf1849fa8536361599610128fe552eee0fffc541",
+            "message": "Add additional parsePhoto utility to take care of leading and trailing double quotes around filepaths",
+            "insertions": 13,
+            "deletions": 6
+          },
+          {
+            "hash": "d7aaf2510591d4abc8f82d05553e30752d2ca285",
+            "message": "Update UG and remove Photo debug statements",
+            "insertions": 25,
+            "deletions": 19
+          },
+          {
+            "hash": "44c3b11e3a882874c1ca3631162e6003746a75aa",
+            "message": "Update UG for intro language",
+            "insertions": 28,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "chung-ming": [
@@ -1388,6 +1425,56 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 34,
+        "deletions": 31,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "5c44c37ebdb080dc439e27538f722515fc70266b",
+            "message": "Update DATE_VISITED parameter in sample data and unit test case",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "1321e15327145729d604f1ed35c3f8e7eefd2e2e",
+            "message": "Fixed grammatical error in DG and added RepoSense link to PPP",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "c81d84d3d860bd30f3ec932cd726b85481494d2a",
+            "message": "Modify PPP",
+            "insertions": 15,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 68,
+        "deletions": 112,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "f9c95a42a6279ed53ab6512d96174506eb198cae",
+            "message": "Standardize asciidoc attributes in UG, DG and my PPP.",
+            "insertions": 67,
+            "deletions": 69
+          },
+          {
+            "hash": "791fdab223129359608a11dbbf4fe55c5500835a",
+            "message": "Remove unused methods to increase coverage",
+            "insertions": 0,
+            "deletions": 42
+          },
+          {
+            "hash": "a2015d24b5d511e719947465cbebe29bcf9f2b87",
+            "message": "Fixed trailing whitespaces",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "PremBagda": [
@@ -1958,6 +2045,25 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 497,
+        "deletions": 287,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "119f6f51fa8b5df93390b9995ddd19c0be71bb2d",
+            "message": "Update PPP \u0026 List of Country Codes",
+            "insertions": 497,
+            "deletions": 287
+          }
+        ]
       }
     ],
     "nivenang": [
@@ -2674,20 +2780,70 @@
             "deletions": 101
           }
         ]
+      },
+      {
+        "insertions": 174,
+        "deletions": 179,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "e8fa7eeef5c34ebc25061d22c4c7238fc4da57f0",
+            "message": "Update PPP",
+            "insertions": 66,
+            "deletions": 33
+          },
+          {
+            "hash": "b5f199f0a083ff8e2195bb97798dc7d7a391f15e",
+            "message": "Fix PPP formatting",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1286d2d8da28d32ab5ca286bc3dc0b1cbef88253",
+            "message": "Fix formatting issues for PPP",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "e59ba8d2c952dfced5d13d818637eb0b7ba49d2b",
+            "message": "Update JsonChartBookStorageTest",
+            "insertions": 100,
+            "deletions": 140
+          },
+          {
+            "hash": "09df56ac2fb0ade8a29bdea687973f40fc5ca9d0",
+            "message": "Fix PPP html formatting bug",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 74,
+        "deletions": 6,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "a0d982cb4bd5a1b53c56a645cebc0a2891bea553",
+            "message": "Add tests for Photo feature to improve coverage",
+            "insertions": 74,
+            "deletions": 6
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "shaungohsc": 981,
-    "chung-ming": 7660,
-    "PremBagda": 2962,
-    "nivenang": 4691
+    "shaungohsc": 1100,
+    "chung-ming": 7438,
+    "PremBagda": 3196,
+    "nivenang": 4918
   },
   "authorContributionVariance": {
-    "shaungohsc": 12803.39,
-    "chung-ming": 701123.3,
-    "PremBagda": 295392.62,
-    "nivenang": 68155.89
+    "shaungohsc": 12821.571,
+    "chung-ming": 679380.3,
+    "PremBagda": 293110.8,
+    "nivenang": 66747.62
   },
   "authorDisplayNameMap": {
     "shaungohsc": "Goh Shau Cher Shaun",

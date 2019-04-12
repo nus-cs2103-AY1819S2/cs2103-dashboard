@@ -790,6 +790,12 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "JeremyLoye": [
@@ -1491,6 +1497,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -2367,8 +2379,8 @@
         ]
       },
       {
-        "insertions": 228,
-        "deletions": 22,
+        "insertions": 231,
+        "deletions": 23,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -2406,14 +2418,70 @@
             "message": "Update UserGuide.adoc",
             "insertions": 1,
             "deletions": 2
+          },
+          {
+            "hash": "b4a0dd2d786c7868fce995218d0c9f4020bfdd44",
+            "message": "UserGuide updated",
+            "insertions": 3,
+            "deletions": 1
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 331,
+        "deletions": 74,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2ed96d8d7d9a7df494d43f0ec4501fb052fbce31",
+            "message": "Added tests",
+            "insertions": 282,
+            "deletions": 39
+          },
+          {
+            "hash": "0589183e8eac3446a4b39ef0fd4bad897df64630",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bfda9484d700b7483e4bab54d11d9a69d5768cf8",
+            "message": "Edit PPP + add `show` in DG",
+            "insertions": 18,
+            "deletions": 7
+          },
+          {
+            "hash": "2c2f84bcd648998b65d250e20a3e9f803d3f492a",
+            "message": "Coveralls badge",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e7f1ea25bd73f5498699201e2e26f069121f493b",
+            "message": "Updated GUI Intro to make images smaller",
+            "insertions": 27,
+            "deletions": 23
+          },
+          {
+            "hash": "8c035dcbd91604dc84f051c8e82c651d1c73911a",
+            "message": "Updated image size in UG and DG",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 70,
+        "deletions": 76,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "1105453021c455c33e2198069066fa161cb83cfe",
+            "message": "Updated UG, DG, PPP",
+            "insertions": 70,
+            "deletions": 76
+          }
+        ]
       }
     ],
     "eugeneyl": [
@@ -3165,8 +3233,8 @@
         ]
       },
       {
-        "insertions": 355,
-        "deletions": 647,
+        "insertions": 531,
+        "deletions": 680,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -3216,8 +3284,98 @@
             "message": "Checkstyle fix",
             "insertions": 139,
             "deletions": 30
+          },
+          {
+            "hash": "6a672fdf9692cd14d789e5b4e81915f4fa0cc132",
+            "message": "Change date to not accept future dates",
+            "insertions": 25,
+            "deletions": 1
+          },
+          {
+            "hash": "ca4caeb49f53053ec914c77956f6f4118d17c2da",
+            "message": "Bug fix: Changed test cases to dates before today",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5399a58ff0ffa3c21750a8eaffeb68cca89e8755",
+            "message": "Corrected Date\u0027s message constraints",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "71853462e502dacfeb099d22c4c54cc253622309",
+            "message": "Corrected Set Command usage message and implemented SetCommandTest",
+            "insertions": 75,
+            "deletions": 2
+          },
+          {
+            "hash": "a516bb10b497c836128d17f1806f9d9a39b5b283",
+            "message": "Implemented SetCommandParserTest",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "29cd3b31b7bb3852fd998eb0e4a848cb4fbf1238",
+            "message": "Removed check print statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "68defdbe79a16ec1e838486bc1918893e6d708ab",
+            "message": "Corrected AllocateCommandParserTest",
+            "insertions": 20,
+            "deletions": 7
+          },
+          {
+            "hash": "b4a3e1fbf7825b1df7e29c4f53c0e3833681623e",
+            "message": "Checkstyle fix",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "c0b843d8a3107428454aadd8dbae6773743ece0f",
+            "message": "Checkstyle fix",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "d6f96599971884267b4b40efef8c2fcb84b0a5ac",
+            "message": "Added javadoc for setCommandTest",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "6bfa3e2342e91bb437c9cfb0c5f77e1373a82c82",
+            "message": "Checkstyle fix",
+            "insertions": 13,
+            "deletions": 6
+          },
+          {
+            "hash": "b9afd95ffe1f245eb46f28fef4570a96a0187f7a",
+            "message": "Updated the UI class diagram of developer guide",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "dab3fa25973c158d87bc98279e12ede3cfedd04c",
+            "message": "Updated the logic class diagram of developer guide",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "485d018c6c640bd78fcb49f2a268e48f3b68a7f6",
+            "message": "Updated the model class diagram of developer guide",
+            "insertions": 3,
+            "deletions": 9
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "kjiaxuan": [
@@ -4439,26 +4597,93 @@
         ]
       },
       {
+        "insertions": 118,
+        "deletions": 85,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "d0b889e2e4e045408af9b3702ffda0e2d24d9456",
+            "message": "Added some tests related to future date and updated user guide",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "4557e73b8dfa09ca599b76dee65b740564036540",
+            "message": "Legend colours correspond with pie chart colours",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "79905185eb55dc79a861eb542fcefd5585176351",
+            "message": "Edited formatting of code",
+            "insertions": 7,
+            "deletions": 11
+          },
+          {
+            "hash": "f9935e1b99436a997e9f803caaa52aa597e43765",
+            "message": "Checkstyle Fixes",
+            "insertions": 8,
+            "deletions": 9
+          },
+          {
+            "hash": "5f59381fb9a83335f792432aca41e31e5a455841",
+            "message": "Updated TODO sections in editcommandparsertest",
+            "insertions": 14,
+            "deletions": 21
+          },
+          {
+            "hash": "e357c2610f8922f43ea418331af8bbb9729d16ed",
+            "message": "updated todo test in jsonfinancetrackerstoragetest",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "9a5e9f97b5c2d670db3f033c69474299466eb429",
+            "message": "Updated TODO in jsonserializablefinancetrackertest",
+            "insertions": 38,
+            "deletions": 23
+          },
+          {
+            "hash": "eb1ead32cf33e54cfb0c79ff286551644b6c324a",
+            "message": "Updated TODO in RecordCardTest",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "48003ae8b60eab78f56521de2fdbd4ac970e17a0",
+            "message": "Updated TODO in RecordListPanelTest",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "c50903577b15108effcf0c2fa4281e014c48283c",
+            "message": "Checkstyle Fixes",
+            "insertions": 5,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-11",
+        "date": "2019-04-12",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "geezlouisee": 1999,
-    "JeremyLoye": 1567,
-    "Jackimaru96": 3499,
-    "eugeneyl": 2389,
-    "kjiaxuan": 4354
+    "geezlouisee": 1982,
+    "JeremyLoye": 1555,
+    "Jackimaru96": 3722,
+    "eugeneyl": 2553,
+    "kjiaxuan": 4442
   },
   "authorContributionVariance": {
-    "geezlouisee": 34496.223,
-    "JeremyLoye": 109748.305,
-    "Jackimaru96": 95135.79,
-    "eugeneyl": 331860.22,
-    "kjiaxuan": 186766.55
+    "geezlouisee": 34031.8,
+    "JeremyLoye": 108164.78,
+    "Jackimaru96": 94708.13,
+    "eugeneyl": 333388.34,
+    "kjiaxuan": 183777.52
   },
   "authorDisplayNameMap": {
     "geezlouisee": "LOUISE LEE HUI LING",

@@ -3022,16 +3022,186 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 57,
+        "deletions": 64,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8467ee7ca139141a4d8c49287db262bd0b6c657d",
+            "message": "remove hashcode methods",
+            "insertions": 22,
+            "deletions": 24
+          },
+          {
+            "hash": "9af3525c85133a3b8fa729dccde9f5bd883fd83b",
+            "message": "remove hashcode methods",
+            "insertions": 18,
+            "deletions": 23
+          },
+          {
+            "hash": "a9ecae1a98ee81fbe0962322ed585e50f183a92a",
+            "message": "comment out hashcode tests for restore and delete",
+            "insertions": 17,
+            "deletions": 17
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 475,
+        "deletions": 233,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "85fef2bad8f921dc46bf1c3a41dadd193d50355f",
+            "message": "add RecycleBinParser to parser",
+            "insertions": 47,
+            "deletions": 3
+          },
+          {
+            "hash": "356cc3353d1206d723c0387e06b217d29878705d",
+            "message": "add ParserMode enum class",
+            "insertions": 25,
+            "deletions": 1
+          },
+          {
+            "hash": "5d49fee0573cda3e742343059906fc3bae101dc2",
+            "message": "add javadoc comment for setParser in LogicManager",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "dcc6d784872dbd3c1da8ee37483d8c8be00ea17b",
+            "message": "move setParser to ModelManager",
+            "insertions": 15,
+            "deletions": 16
+          },
+          {
+            "hash": "9d0ac186ec82c8f1d103d6518b3c3b5d11b327e5",
+            "message": "add setMode and getMode to Logic interface",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "2f20a79f1f57d1d87a58aded82ed661178ec1395",
+            "message": "remove parser mode functionality",
+            "insertions": 2,
+            "deletions": 38
+          },
+          {
+            "hash": "8d7dba97b2f2e3c6d177f6ea6dfe8fde8ff5e183",
+            "message": "implement BasicParser class",
+            "insertions": 46,
+            "deletions": 5
+          },
+          {
+            "hash": "c7fe8fbbe555733dd94ef4cf363457d2501a21cd",
+            "message": "change default case result in parser manager classes",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "41c50f3d8f8566f793df986196bf7f1f7c5eca75",
+            "message": "add ParserMode enumeration",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "e3fc457145d80237e6487d912e62910aff6b9bd8",
+            "message": "add setParserMode and getParserMode",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "da303152cab0eae80c21a2d5edd2df4a0c678426",
+            "message": "write switch statement for logicmanager parser switching",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "24cc848a8a2cfb3552afe8f6720c8be421764e18",
+            "message": "refactor listdeletedcommand to recyclebincommand",
+            "insertions": 19,
+            "deletions": 20
+          },
+          {
+            "hash": "2d162b6e990ac7f10154a68c742b2ecc0a07ccc0",
+            "message": "add emptybin and exitbin commands",
+            "insertions": 66,
+            "deletions": 12
+          },
+          {
+            "hash": "439d2b8ef3465c8c0bf18413527ff559a158f8fb",
+            "message": "add restore back in sourcemanager, write throw exception message",
+            "insertions": 10,
+            "deletions": 3
+          },
+          {
+            "hash": "5b2b814d8d35ad5ee60f642d3449e385a3cee4cd",
+            "message": "disable restore in sourcemanager again",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "ad515f6677030cc7c1d5d52f8c73b1c820f1b267",
+            "message": "update delete for recycle bin mode",
+            "insertions": 14,
+            "deletions": 2
+          },
+          {
+            "hash": "39747e4e9a56df72b2a9ea11c05bd2494be5abfd",
+            "message": "add help and select command to basic parser, add count command to recyclebin parser",
+            "insertions": 18,
+            "deletions": 5
+          },
+          {
+            "hash": "f9b0f1d43c271badbba05aed18a28cc72f7e58c9",
+            "message": "update count command for recyclebin",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "0702d348e4be84718216b7ce7b9e374a3f65d483",
+            "message": "update restore command result message",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "b774ed0de6e794a3c189fa698e27f220503b5583",
+            "message": "move switchToSource and switchToDeletedSources method calls to setParserMode in model",
+            "insertions": 36,
+            "deletions": 25
+          },
+          {
+            "hash": "a71dd3076c38d27270f4714b6d7acb721b5a5dbe",
+            "message": "remove deletesources functionality from ClearCommand",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "0c92511cc9ea427577620ca78f9a7b432887a24c",
+            "message": "refactor empty-bin command and wrote javadoc comments",
+            "insertions": 10,
+            "deletions": 8
+          },
+          {
+            "hash": "70b4335677534fc544f39219191c5fe932c0baf6",
+            "message": "add comment explanation for delete and restore",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "e11c4e34574bc5486dfffeb56e89e46118e66396",
+            "message": "update clear command in UserGuide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ddd6a8b951ccdc6100647015e2066c23304fce2d",
+            "message": "fix travis checkstyle errors and @ignored delete and restore under CommandHashTest",
+            "insertions": 84,
+            "deletions": 64
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -3040,10 +3210,119 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1227,
+        "deletions": 1173,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b991e0b06aedf6168e4270ce069136e6113ba263",
+            "message": "remove BasicParser class and made SourceManagerParser a parent instead",
+            "insertions": 109,
+            "deletions": 95
+          },
+          {
+            "hash": "cfe34214ee0aad258acc4f1ab316cb18f4d9838c",
+            "message": "fixed most tests",
+            "insertions": 11,
+            "deletions": 20
+          },
+          {
+            "hash": "62ef70d20f8241f6d63715ed21d3728f7e6741f3",
+            "message": "fix clearcommandtest",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "5c9a8349eb18bd3395b0b945faa5111b3a16af26",
+            "message": "restore all system tests from PR#118",
+            "insertions": 537,
+            "deletions": 480
+          },
+          {
+            "hash": "49e8b3cb8af22c754e72d32d86465eb6bc396d98",
+            "message": "restore all system tests from PR#118",
+            "insertions": 43,
+            "deletions": 40
+          },
+          {
+            "hash": "c0329dd9eab30c0a3b7ba4822eec07203a16a667",
+            "message": "fix travis stylecheck errors",
+            "insertions": 17,
+            "deletions": 29
+          },
+          {
+            "hash": "550bc89aaaf2ff531a6307950747cc51633964da",
+            "message": "refactor sample test data to suit infinity machine",
+            "insertions": 385,
+            "deletions": 382
+          },
+          {
+            "hash": "804c94aff709e87a4600b38cfbb8c6a13b8a68d4",
+            "message": "resolve refactoring issues in searchcommandtest",
+            "insertions": 37,
+            "deletions": 35
+          },
+          {
+            "hash": "23de67b5024346e5d472750cafe5d40435acbd0b",
+            "message": "fix travis checkstyle errors",
+            "insertions": 29,
+            "deletions": 22
+          },
+          {
+            "hash": "d498abaa010667c7b5b9fea94d9ad8ba1cd8bd07",
+            "message": "fix JsonSerializableSourceManagerTest error",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "3c9499af204703e1111e854d691ef038dabbab5a",
+            "message": "ignore failing systemtests",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "e1cf632f47d5d472e04fa18fc692378c2d21c772",
+            "message": "remove alias commands from recyclebinparser",
+            "insertions": 1,
+            "deletions": 31
+          },
+          {
+            "hash": "9b1397fd3c10d695b82a8fbd11f1b26d047e945c",
+            "message": "remove unused message",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "e7060e754cb0482356a973fb5defdec5b3e01006",
+            "message": "change protected to private for SourceManagerParser Alias features",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "6678d9c6c40b99dba11cf77e3cdd6cd420e2d0f6",
+            "message": "change if to switch statement in modelmanager",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "5a740b5a1ba0b2caeb9c11a9217780566e8279a7",
+            "message": "fix travis checkstyle error",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "df37f3663fc9c5e82939c1cc3381991c1a1c5b80",
+            "message": "add break to default in switch",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "5902bb85d321a01760cf90ad3eb180266f8a6d98",
+            "message": "add relevant sample data for infinity machine",
+            "insertions": 12,
+            "deletions": 12
+          }
+        ]
       }
     ],
     "DarrenDragonLee": [
@@ -4834,16 +5113,16 @@
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 1566,
-    "DoItTomorrow": 515,
-    "case141": 4530,
-    "DarrenDragonLee": 2281,
-    "fterh": 2734
+    "suriruhani": 1437,
+    "DoItTomorrow": 514,
+    "case141": 4813,
+    "DarrenDragonLee": 2265,
+    "fterh": 2677
   },
   "authorContributionVariance": {
     "suriruhani": 47376.996,
     "DoItTomorrow": 4048.7705,
-    "case141": 4.449921E9,
+    "case141": 4.4488991E9,
     "DarrenDragonLee": 27732.797,
     "fterh": 127055.63
   },

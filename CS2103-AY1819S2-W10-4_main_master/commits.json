@@ -857,8 +857,8 @@
         ]
       },
       {
-        "insertions": 120,
-        "deletions": 19,
+        "insertions": 126,
+        "deletions": 21,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -878,6 +878,18 @@
             "message": "Fixed indentation error",
             "insertions": 1,
             "deletions": 3
+          },
+          {
+            "hash": "8964195c6e06c5ea15116bb2e9640a38091aa5bd",
+            "message": "Update developer guide and PPP",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "b2203bfca8d59166426bd483b57a71b9520082c0",
+            "message": "Fix typo",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
@@ -894,10 +906,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 9,
+        "deletions": 6,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ad31813d0369d0fbd0146713a85574d56dbfc757",
+            "message": "Restrict folder names to only contain letters and characters",
+            "insertions": 9,
+            "deletions": 6
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -924,10 +943,66 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 42,
+        "deletions": 13,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "094a7c4b403fcb46a46281a4324558cf99362f6f",
+            "message": "Make editfolder command enforce valid folder names",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "49f113150c6965ff603a21a6596b4e96ff06ea61",
+            "message": "Fix bug with undo command undoing editfolder",
+            "insertions": 20,
+            "deletions": 4
+          },
+          {
+            "hash": "026dbf57d71ddcd5c2e03d4d48991f7a36cc023b",
+            "message": "Update status bar to display folder name inside folder",
+            "insertions": 15,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 135,
+        "deletions": 108,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "538ca07304ae5f207a40dc2af894ec0272729bae",
+            "message": "Make folder name allow whitespaces and restrict length to 50 characters",
+            "insertions": 51,
+            "deletions": 26
+          },
+          {
+            "hash": "2ba5f8cfbd48183afaaa0a57c86741518c3ecf7a",
+            "message": "Rename PPP",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "a319b21712c3354ff9ac8f6f13135ec6b49c6c56",
+            "message": "Move folder operations above card operations in UG",
+            "insertions": 78,
+            "deletions": 78
+          },
+          {
+            "hash": "bd2ba1572e0909fb540ecb05914c49f262a2c785",
+            "message": "Update addfolder and editfolder descriptions in UG",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "4b8a91dfc3c17feb3f89337f2ad3a380fc62b908",
+            "message": "Update command format to reinclude explanation for \u0027...\u0027",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "yichong96": [
@@ -2211,6 +2286,12 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "dlqs": [
@@ -3428,6 +3509,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
         "commitResults": []
       }
     ],
@@ -5188,6 +5275,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "mmdlow": [
@@ -6448,22 +6541,28 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 4958,
-    "yichong96": 1302,
-    "dlqs": 2658,
-    "KerrynEer": 1852,
-    "mmdlow": 1298
+    "afterdusk": 5071,
+    "yichong96": 1268,
+    "dlqs": 2654,
+    "KerrynEer": 1846,
+    "mmdlow": 1297
   },
   "authorContributionVariance": {
-    "afterdusk": 1474969.4,
-    "yichong96": 14703.785,
-    "dlqs": 147279.67,
-    "KerrynEer": 33747.82,
-    "mmdlow": 26874.254
+    "afterdusk": 1450216.0,
+    "yichong96": 14531.95,
+    "dlqs": 145017.47,
+    "KerrynEer": 33341.59,
+    "mmdlow": 26521.0
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

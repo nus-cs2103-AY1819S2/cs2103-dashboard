@@ -715,6 +715,18 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "chanqingzhou": [
@@ -1510,6 +1522,18 @@
             "deletions": 18
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "rbth7e5": [
@@ -2686,6 +2710,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
         "commitResults": []
       }
     ],
@@ -3942,6 +3978,91 @@
             "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 138,
+        "deletions": 53,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "caf11477cd2819fd8271d5bf0aa15d015aa50342",
+            "message": "implemented a placeholder for Email",
+            "insertions": 17,
+            "deletions": 1
+          },
+          {
+            "hash": "7e0265c253a1fcdbfc0dd22fe254acb7841aa9b1",
+            "message": "implement dummy placeholder for phone",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
+            "hash": "ae29d1a9e1fd81d313bc99ea6043ecdfeae046e0",
+            "message": "make phone and email optional to be added",
+            "insertions": 15,
+            "deletions": 3
+          },
+          {
+            "hash": "7f67dc72f6d7165ab733c640f05794f8bf27102b",
+            "message": "made phone and email optional and updated add message",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "8eca1d6ba20376cea7959b927a0e4b00d4dcaf34",
+            "message": "changed toString of all optional fields to be empty string",
+            "insertions": 26,
+            "deletions": 7
+          },
+          {
+            "hash": "1b802384eee4f9195ff8c227f2b3279d88f55b2c",
+            "message": "updated UI to not show optional fields",
+            "insertions": 19,
+            "deletions": 2
+          },
+          {
+            "hash": "0b395f4402616983384b792e38e69eced9faeeb1",
+            "message": "logged no internet exception",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f8f87dfd04391f88f707b41d28d07b330f039aa3",
+            "message": "modified Restaurant\u0027s toString method to show only non optional",
+            "insertions": 25,
+            "deletions": 10
+          },
+          {
+            "hash": "df505ca6c2d9b1dc48f92ecbaadd022abd2badbb",
+            "message": "changed restaurant toString to display only non default fields",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "58b9a45c336a215ec03828b9176013014c19039d",
+            "message": "removed tests for optional fields",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "b8e10d13f9cd8cda0192b13306caaee20ed392f4",
+            "message": "removed optional fields failure tests",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "c93f9a21b4f552c2b3a46e75018fc5674531ee95",
+            "message": "added postal desc to tests",
+            "insertions": 7,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "skpai27": [
@@ -4689,22 +4810,34 @@
             "deletions": 5
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
     "weixin-koh": 2370,
-    "chanqingzhou": 1441,
-    "rbth7e5": 4834,
-    "Wklee96": 1106,
+    "chanqingzhou": 1430,
+    "rbth7e5": 4832,
+    "Wklee96": 1219,
     "skpai27": 1325
   },
   "authorContributionVariance": {
-    "weixin-koh": 26312.371,
-    "chanqingzhou": 18122.469,
-    "rbth7e5": 442533.03,
-    "Wklee96": 5761.706,
-    "skpai27": 7851.884
+    "weixin-koh": 25624.035,
+    "chanqingzhou": 17603.326,
+    "rbth7e5": 429037.78,
+    "Wklee96": 5964.1514,
+    "skpai27": 7638.29
   },
   "authorDisplayNameMap": {
     "weixin-koh": "KOH...XIN",

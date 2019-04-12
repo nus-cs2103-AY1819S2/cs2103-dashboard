@@ -731,6 +731,12 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "ptvrajsk": [
@@ -1860,9 +1866,124 @@
         ]
       },
       {
+        "insertions": 704,
+        "deletions": 524,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "8f6db9618c7565a5215b7d55a677238ada0ed924",
+            "message": "(v1.4) SizeTest In Progress",
+            "insertions": 42,
+            "deletions": 50
+          },
+          {
+            "hash": "aee2e5f42df4dac04757e8d5e0bb7b30e4857de3",
+            "message": "(v1.4) Size Representation",
+            "insertions": 57,
+            "deletions": 12
+          },
+          {
+            "hash": "3612c602b8605cac76d3a26e707a15eed5349a9e",
+            "message": "(v1.4) SizeTest Complete",
+            "insertions": 64,
+            "deletions": 10
+          },
+          {
+            "hash": "22fe4b395a27eb95b60a6565aee7404ea87cbb9a",
+            "message": "(v1.4) Checkstyle \u0026 Travis Fixes",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "106d6c143ec3571821fa348759fabb9f6bb63f47",
+            "message": "(v1.4) DirectoryTest Complete",
+            "insertions": 24,
+            "deletions": 10
+          },
+          {
+            "hash": "ee3bfdf4249a7dd310e6111b87af5c9cd290fc78",
+            "message": "Checkstyle Fixes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "de248de620ae219f2335488f87aec743746da5db",
+            "message": "(v1.4) SizeTest Streamlining",
+            "insertions": 13,
+            "deletions": 9
+          },
+          {
+            "hash": "9424b85e65518404c3290c16a1ace338830a1529",
+            "message": "Coveralls Testing",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "31cbaa1d84d18c12d2a71103d922dc2b838e22ab",
+            "message": "Increase testing capability Coveralls",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "f4cc307fafee9622d2c05a63095ed1571471dab0",
+            "message": "Coveralls Testing",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "75a19ecb26f58491c3de4c206acbee9066e9dd61",
+            "message": "(v1.4) Pdf toString refactor",
+            "insertions": 13,
+            "deletions": 26
+          },
+          {
+            "hash": "7a7c3f824dfed7244ae01c273d3f3e0514aaef7f",
+            "message": "(v1.4) UniquePdfListTest.java working",
+            "insertions": 66,
+            "deletions": 72
+          },
+          {
+            "hash": "36cc2dfebc88a54543a650596c5ed6abc9aca009",
+            "message": "(v1.4) TagTest.java working",
+            "insertions": 25,
+            "deletions": 8
+          },
+          {
+            "hash": "ceab204809aa5a3bba7fd915b744e3c5f746e581",
+            "message": "(v1.4) Completed DeadlineTest",
+            "insertions": 134,
+            "deletions": 59
+          },
+          {
+            "hash": "90d2b6873435dd029e63eafa288603f5dbced698",
+            "message": "(v1.4) UserPrefsTest \u0026 PdfBookTest Working",
+            "insertions": 29,
+            "deletions": 31
+          },
+          {
+            "hash": "bf465fca74f653d70661a49bb28b34ee6b66635b",
+            "message": "(v1.4) Working VersionedPdfBookTest",
+            "insertions": 214,
+            "deletions": 214
+          },
+          {
+            "hash": "625d9d3b1b11092438a4930e65539e916aa1bf62",
+            "message": "Checkstyle Fixes #217",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "c853ec26288f8781a09f618eb1ad5040a348b21a",
+            "message": "(v1.4) Add Commons \u0026 Model test to coverage",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-11",
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -3022,10 +3143,90 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 201,
+        "deletions": 140,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f8da2c988f987e73ca0ab6b4d65748a3a97b76e5",
+            "message": "Minor adjustment for Tag command",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "aacef37e885c10b5743ed9b80d69b8efe16bec99",
+            "message": "Remove unused import statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "7b2db3bbd7556e3ecf8a24f9d886657a78ecba70",
+            "message": "Enable the tests for travis",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "001ef876f1fa05f1662371afaf6a0450fe971e3a",
+            "message": "Testing with build.gradle",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "16413615dbedca0ddd2bf3404448829d701a7b1d",
+            "message": "(v1.4) Model Tests",
+            "insertions": 164,
+            "deletions": 95
+          },
+          {
+            "hash": "5d56761f7b313cdb026f7eb65e10e4f6d8166126",
+            "message": "(v1.4) ModelManagerTest",
+            "insertions": 20,
+            "deletions": 31
+          },
+          {
+            "hash": "850014663bf64875201697f87fe82cb66da83b0f",
+            "message": "travis test",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "40fab113d0664f9a564ef411beb67c4049b12aa8",
+            "message": "(v1.4) Travis",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "2a76361ef247aae6cc5e1592572dc63dd2627ad0",
+            "message": "travis",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e95572e0a58d26a271eeebe34990701add0be99f",
+            "message": "travis",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 254,
+        "deletions": 11,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "f8c1a6120ef722bde760b2f854c696f9560ef65e",
+            "message": "(v1.4) Logic Commands Tests",
+            "insertions": 250,
+            "deletions": 6
+          },
+          {
+            "hash": "b9b894b8751af26233469fb2c2f721771c5f9b85",
+            "message": "travis",
+            "insertions": 4,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "jetkan-yk": [
@@ -3650,20 +3851,26 @@
             "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "lormee94": 1235,
-    "ptvrajsk": 2810,
-    "WeiTangLau": 3602,
-    "jetkan-yk": 407
+    "lormee94": 1231,
+    "ptvrajsk": 3254,
+    "WeiTangLau": 3833,
+    "jetkan-yk": 399
   },
   "authorContributionVariance": {
-    "lormee94": 13750.432,
-    "ptvrajsk": 148303.03,
-    "WeiTangLau": 112366.766,
-    "jetkan-yk": 7.1635144E7
+    "lormee94": 13566.185,
+    "ptvrajsk": 163738.05,
+    "WeiTangLau": 111071.07,
+    "jetkan-yk": 7.0499408E7
   },
   "authorDisplayNameMap": {
     "lormee94": "JER...LOW",

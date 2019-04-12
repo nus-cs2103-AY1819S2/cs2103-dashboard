@@ -2141,8 +2141,8 @@
         "commitResults": []
       },
       {
-        "insertions": 10,
-        "deletions": 0,
+        "insertions": 315,
+        "deletions": 103,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -2150,6 +2150,72 @@
             "message": "Network: clean up AsyncHttpClient on exit",
             "insertions": 10,
             "deletions": 0
+          },
+          {
+            "hash": "6de9b17aef226c8b0013ac6170f651edd27e8f81",
+            "message": "rename feed context add -\u003e addindex",
+            "insertions": 23,
+            "deletions": 28
+          },
+          {
+            "hash": "06a40dad90878bda240f62294cdef85cb2f57b2c",
+            "message": "lift add command",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "8678d3971e9195891df27d03244be97585f99b24",
+            "message": "lift subscribe",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "37fb8100c9649338150cb9d37dc778bb64a512a6",
+            "message": "UG: Move add and subscribe into non-contextual",
+            "insertions": 43,
+            "deletions": 37
+          },
+          {
+            "hash": "62ddd7d482d465fa1fbb4179553834d2d6590ec0",
+            "message": "UG: while here document list context refresh",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "127f987c94e059c296186155c619d4df026b6147",
+            "message": "move select from EBP into the inherited parsers",
+            "insertions": 11,
+            "deletions": 5
+          },
+          {
+            "hash": "c60cfbfbb0d101a61967a5305b024b610c15c9aa",
+            "message": "UG: document archives/select",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "a390d3272946c7e62287b90bc64d764b21a18cf7",
+            "message": "Parsers: add a couple tests",
+            "insertions": 157,
+            "deletions": 0
+          },
+          {
+            "hash": "d0b4ee2392109277997c7b2f6dca966ceb4f492d",
+            "message": "Bing: add help message",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "3f51acdcdd5687941a3faf744cc68a0c8b5c8254",
+            "message": "FeedUtil: take in Set of Tags",
+            "insertions": 27,
+            "deletions": 8
+          },
+          {
+            "hash": "b901bf36db3147bd6b884f1d7a9f253367cbc234",
+            "message": "feeds/{sub,refresh}: tag entries",
+            "insertions": 2,
+            "deletions": 3
           }
         ]
       }
@@ -4149,8 +4215,8 @@
         ]
       },
       {
-        "insertions": 74,
-        "deletions": 486,
+        "insertions": 84,
+        "deletions": 492,
         "date": "2019-04-06",
         "commitResults": [
           {
@@ -4164,6 +4230,12 @@
             "message": "Remove \"Address\" field from test files",
             "insertions": 63,
             "deletions": 309
+          },
+          {
+            "hash": "412cfd69cbf673a290971279b9d053c6189165e2",
+            "message": "Fix documentation for find command",
+            "insertions": 10,
+            "deletions": 6
           },
           {
             "hash": "3b7f40f678fdd4cf09f1ba166a4b20c024b63e92",
@@ -4206,16 +4278,16 @@
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 7302,
-    "qjqqyy": 1912,
-    "thomastanck": 2684,
-    "epicfailname": 5234
+    "rlrh": 7284,
+    "qjqqyy": 2152,
+    "thomastanck": 2678,
+    "epicfailname": 5232
   },
   "authorContributionVariance": {
     "rlrh": 684312.8,
-    "qjqqyy": 46364.926,
+    "qjqqyy": 48372.156,
     "thomastanck": 72021.1,
-    "epicfailname": 633545.06
+    "epicfailname": 633707.06
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

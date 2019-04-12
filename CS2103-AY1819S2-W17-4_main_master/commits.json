@@ -925,10 +925,109 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 143,
+        "deletions": 39,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "33ed23410fab3536c9601c2b3cb25cab4ba9c62a",
+            "message": "Updates UG, DG and ppp",
+            "insertions": 60,
+            "deletions": 33
+          },
+          {
+            "hash": "5f6cd7e0c2831a6790c4768c58e059d1daa38466",
+            "message": "report feature DG updated",
+            "insertions": 17,
+            "deletions": 6
+          },
+          {
+            "hash": "918db09a3f0d320f33d893bd62bd9dda5497d2ae",
+            "message": "Writting DG for autocomplete",
+            "insertions": 66,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 208,
+        "deletions": 58,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "fad5ab8ad613977e71eda7163e221f6c6c980e38",
+            "message": "adds autocomplete activity diagram",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "007275c04a20d164eaf376a15537f46bb15fef82",
+            "message": "UG, DG PPP are done, update autocomplete to non-case sensitive",
+            "insertions": 27,
+            "deletions": 37
+          },
+          {
+            "hash": "2d22af2e2fb3f0d8b023eb2526c732c88783ece9",
+            "message": "add autocomplete ui test",
+            "insertions": 101,
+            "deletions": 13
+          },
+          {
+            "hash": "ae8b3dc0b5706f9c4129148a438b42ef9531ee3b",
+            "message": "add allowance to report system test",
+            "insertions": 78,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 342,
+        "deletions": 143,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "1d1c58de5714aab8dfc8bc20216c7aeb2221478e",
+            "message": "adds clean text button, accelerator and clear text function",
+            "insertions": 238,
+            "deletions": 43
+          },
+          {
+            "hash": "db5c84b12525511d1f062aca6cac0c25e3591b2d",
+            "message": "adds clean text",
+            "insertions": 23,
+            "deletions": 16
+          },
+          {
+            "hash": "33ebbf2592bbef91f9fe10e23c0dd8e6568d57cf",
+            "message": "adds integration test for report command",
+            "insertions": 42,
+            "deletions": 52
+          },
+          {
+            "hash": "244a65ba73eb2a0ed8f86eb5321e2746ea98328e",
+            "message": "fix checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "c01c8fbe1ee9b421df42b095417e8f044d75a7c1",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "3c71a179760dacea5bc6467167c5ae55f7c4135e",
+            "message": "fixed undo and redo unit test",
+            "insertions": 36,
+            "deletions": 26
+          },
+          {
+            "hash": "a06cc9f4de11d96ec18538532a743e2a8dbfe314",
+            "message": "fixed two errors in find and sort integration test",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "kev-inc": [
@@ -1467,6 +1566,55 @@
             "deletions": 48
           }
         ]
+      },
+      {
+        "insertions": 1005,
+        "deletions": 96,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "ca0c2bb1d2e318d1c6b873dc98d19fef9a1c9a2c",
+            "message": "added addallowancecommandparsertest",
+            "insertions": 131,
+            "deletions": 1
+          },
+          {
+            "hash": "b9f3a2dec24dd9d344de4a965526d3635431525e",
+            "message": "added deleteallowancecommandparsertest",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "7fffde6da4368e6a138a73a060ba37121e95b5fc",
+            "message": "added editallowancecommandparsertest",
+            "insertions": 403,
+            "deletions": 27
+          },
+          {
+            "hash": "9b2359ccf66698c4cfa660bdae5d9205b7a5d357",
+            "message": "added addallowancecommand system tests and some storage tests",
+            "insertions": 429,
+            "deletions": 50
+          },
+          {
+            "hash": "78493d121a164ed5dd1ea9e7d284d85efae0ce88",
+            "message": "fix merge",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "530e54f7bc152055b06f3deedcb73ca7a6bbca01",
+            "message": "added back some ignored tests",
+            "insertions": 10,
+            "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "pdnm": [
@@ -1916,6 +2064,38 @@
             "message": "Fix edit expense tags",
             "insertions": 2,
             "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 70,
+        "deletions": 1,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "00070413834c2cd7633b7b6bb8922f748a9516ed",
+            "message": "Typetag on seperate line",
+            "insertions": 70,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 219,
+        "deletions": 24,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "861dac5df37a073a0b2f1b86da6e949e1dc42634",
+            "message": "addExpense command system test",
+            "insertions": 213,
+            "deletions": 18
+          },
+          {
+            "hash": "ddd32c68a0c5890ba9f690f974ed75b037a8e211",
+            "message": "Fix test dates",
+            "insertions": 6,
+            "deletions": 6
           }
         ]
       }
@@ -3329,8 +3509,8 @@
         ]
       },
       {
-        "insertions": 1960,
-        "deletions": 1302,
+        "insertions": 1963,
+        "deletions": 1306,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3566,6 +3746,24 @@
             "message": "fix ppp issue",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "8d9a5fbf600e9b0882d09404c9a8f0223ce320b2",
+            "message": "add project portfolio header",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "bc1966d2f2db788b94c2896ebd56d0d9716403a7",
+            "message": "resize header",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "160efd34897c5c0cf065fd0a330bff6e902c0187",
+            "message": "change ppp header",
+            "insertions": 1,
+            "deletions": 3
           }
         ]
       },
@@ -3940,8 +4138,8 @@
         "commitResults": []
       },
       {
-        "insertions": 277,
-        "deletions": 273,
+        "insertions": 304,
+        "deletions": 301,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -4057,8 +4255,117 @@
             "message": "change toString $ in cost to just a number",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "13f7e93eb49fa933d3c354524dedc8a7668d3601",
+            "message": "reformat ui for budget",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "9862df95a7e5f602766b691af666881b11eb748b",
+            "message": "Remove duplicate INVALID DATE FORMAT message",
+            "insertions": 19,
+            "deletions": 20
           }
         ]
+      },
+      {
+        "insertions": 210,
+        "deletions": 205,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "b6724e4d0c7b0275a78866b691ea7d574ca7e867",
+            "message": "Change messages to make it more readable",
+            "insertions": 43,
+            "deletions": 41
+          },
+          {
+            "hash": "28ad69fcf590703efffec51c93b87a412c273df0",
+            "message": "Change toString method for Budget",
+            "insertions": 7,
+            "deletions": 12
+          },
+          {
+            "hash": "77f83a16fa88903480c09f7b1601e6d7bfbb0fb1",
+            "message": "Add toString method in BudgetTest",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "e3cfdbc31c9532915255c2da7cc9ca4798c7611e",
+            "message": "checkstyle fix",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "17e3612be996631c4631b116da25bc264b474d35",
+            "message": "Update figure 3, component interactions for deleteExpense 1 command",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c4195da57bb783bce240623725e784e4927df93f",
+            "message": "Update Ui class diagram, figure 4",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f1b16ed24164ac91a207f8c3f27b220edeea1692",
+            "message": "replace address book with ePiggy and change delete to deleteExpense in dev guide",
+            "insertions": 62,
+            "deletions": 62
+          },
+          {
+            "hash": "179d69aae4ae1f55c499966061ac6412509fb19d",
+            "message": "Update addBudgetSequenceDiagram and ui class diagram",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8bfb8f25c54bbfb5b8b82c321a13c438789ec55f",
+            "message": "Add deleteBudgetSequenceDiagram to developer guide",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "da4a24f122ad0a14fe24ac82a009747de7fce4ac",
+            "message": "update user guide for budgeting parts",
+            "insertions": 28,
+            "deletions": 25
+          },
+          {
+            "hash": "17d934d9465dc1c57e120717cbc1e339d09f4a3f",
+            "message": "Fix typo in command summary",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "571e3726883a2dfca4ab19d6173fc4c47c62f84b",
+            "message": "update user guide",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "fbe8772a7966e5e268e37c68d3ec57e9df9a0a66",
+            "message": "update PPP",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "76852ae031a492b0711d8ca338c37ebcb55beb89",
+            "message": "Add alias to user guide",
+            "insertions": 41,
+            "deletions": 39
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "rahulb99": [
@@ -4427,8 +4734,8 @@
         ]
       },
       {
-        "insertions": 726,
-        "deletions": 331,
+        "insertions": 742,
+        "deletions": 332,
         "date": "2019-03-26",
         "commitResults": [
           {
@@ -4516,6 +4823,12 @@
             "deletions": 67
           },
           {
+            "hash": "0d6c3bdcbaa81e801c8d65009a1c625ad20b0d15",
+            "message": "IU-2018.3.5 \u003crahulbaid@Rahuls-MacBook-Air.local Update Default.xml",
+            "insertions": 16,
+            "deletions": 1
+          },
+          {
             "hash": "b24db1fac782263832270b40503bb3febd20726c",
             "message": "removed some library",
             "insertions": 0,
@@ -4560,10 +4873,16 @@
         ]
       },
       {
-        "insertions": 125,
-        "deletions": 58,
+        "insertions": 133,
+        "deletions": 60,
         "date": "2019-03-27",
         "commitResults": [
+          {
+            "hash": "7255ae05c56783a676a8d965d25702b6a7bbf4ca",
+            "message": "IU-2018.3.5 \u003crahulbaid@Rahuls-MacBook-Air.local Update Default.xml",
+            "insertions": 8,
+            "deletions": 2
+          },
           {
             "hash": "d278c117468ea7489f14b38ea38e14418a8a331f",
             "message": "fixed formatting",
@@ -4912,14 +5231,20 @@
         ]
       },
       {
-        "insertions": 224,
-        "deletions": 142,
+        "insertions": 231,
+        "deletions": 146,
         "date": "2019-04-09",
         "commitResults": [
           {
             "hash": "3762e6bb03cef1b702c45c52530587cf3d3b6e52",
             "message": "fixed checkstyle 4",
             "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3c0193989de8028b2b9cc132682b97494d5c4e9b",
+            "message": "IU-2018.3.5 \u003crahulbaid@Rahuls-MacBook-Air.local Update find.xml, Default.xml",
+            "insertions": 5,
             "deletions": 2
           },
           {
@@ -4945,30 +5270,116 @@
             "message": "final",
             "insertions": 20,
             "deletions": 5
+          },
+          {
+            "hash": "14c7f3ead888a02041a19fbfb154ec80841a7e1e",
+            "message": "IU-2018.3.5 \u003crahulbaid@Rahuls-MacBook-Air.local Update find.xml",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "7dc0f77d443868b943093417818230e286d430b1",
+            "message": "IU-2018.3.5 \u003crahulbaid@Rahuls-MacBook-Air.local Update find.xml",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 4,
+        "deletions": 174,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "6cc590aeca249954de42d5d936756726eafb8bd7",
+            "message": "some changes",
+            "insertions": 4,
+            "deletions": 163
+          },
+          {
+            "hash": "02d7ba80e98880c05ba100353e32abc81a1baa16",
+            "message": "fixed error",
+            "insertions": 0,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 608,
+        "deletions": 184,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "a589820ba0faa0636d7e6f79ebb05d7e22cae2a3",
+            "message": "added FindExpenseCommandParserTest",
+            "insertions": 112,
+            "deletions": 0
+          },
+          {
+            "hash": "614bf838c9110fbad8acc98dfc47a7b0e0d99bf4",
+            "message": "keywords validation for findExpense feature",
+            "insertions": 272,
+            "deletions": 109
+          },
+          {
+            "hash": "b922b70444cd2c4f071b13af8dd283f4257ed653",
+            "message": "pass most tests including findExpense",
+            "insertions": 48,
+            "deletions": 25
+          },
+          {
+            "hash": "5eb0e29c28c5560fd990a1bc0f6bae60550112b4",
+            "message": "fix systemtest for fE",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "f6118884c739fdacf95089da1acb05d6f719ca4d",
+            "message": "added parser test sortExpense",
+            "insertions": 87,
+            "deletions": 4
+          },
+          {
+            "hash": "1912f99d033fdeb2225a34163ca287b2bd3d75c8",
+            "message": "updated ppp and ug",
+            "insertions": 80,
+            "deletions": 37
+          },
+          {
+            "hash": "67632759498276c7070958248f83a84b634af25a",
+            "message": "fixed checkstyle",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "1a8ab5e11b3cb736824f0fd90e036b23f54c5121",
+            "message": "fixed checkstyle",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-10",
+        "date": "2019-04-12",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 2902,
-    "kev-inc": 355,
-    "pdnm": 471,
-    "tehwenyi": 5237,
-    "rahulb99": 2027
+    "yunjun199321": 3424,
+    "kev-inc": 1306,
+    "pdnm": 747,
+    "tehwenyi": 5333,
+    "rahulb99": 2484
   },
   "authorContributionVariance": {
-    "yunjun199321": 48992.64,
-    "kev-inc": 4011.5542,
-    "pdnm": 3715.9504,
-    "tehwenyi": 277209.28,
-    "rahulb99": 931006.4
+    "yunjun199321": 49827.99,
+    "kev-inc": 22402.152,
+    "pdnm": 4492.6694,
+    "tehwenyi": 270971.97,
+    "rahulb99": 906621.7
   },
   "authorDisplayNameMap": {
     "yunjun199321": "WU ...JUN",

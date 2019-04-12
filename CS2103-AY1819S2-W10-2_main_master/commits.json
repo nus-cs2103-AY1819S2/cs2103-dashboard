@@ -787,15 +787,96 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 353,
+        "deletions": 237,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "93ae6d50eb4c7c66159e9d928e5d6e4f99e601af",
+            "message": "Combine status into one class",
+            "insertions": 125,
+            "deletions": 202
+          },
+          {
+            "hash": "cde2be9d83f2d94eacf9397f47e09ab67ede1d85",
+            "message": "Teach parser to accept update projecttask command",
+            "insertions": 107,
+            "deletions": 3
+          },
+          {
+            "hash": "6e55b74c0a7a06b6e543c6376a7c064b0db5202b",
+            "message": "Update milestone and task UI",
+            "insertions": 77,
+            "deletions": 18
+          },
+          {
+            "hash": "18a5e8467558998a6fb401f4b1ad9a3e0d6bfa51",
+            "message": "Add date of completion to project task",
+            "insertions": 44,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 507,
+        "deletions": 81,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "7a914b22005107594da99500d9d965a77a4fbd2e",
+            "message": "Add tests for UpdateTask",
+            "insertions": 462,
+            "deletions": 64
+          },
+          {
+            "hash": "71f34190b761cb8efee7bff214f7b640770f9b6a",
+            "message": "Fix formatting",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "b24c8f9766a3e320898bf55b6e99c1080420ea35",
+            "message": "Move duplicate project task message to Messages",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "987678c4627c28c81773dcfc685e214d67ea75c7",
+            "message": "Add more tests",
+            "insertions": 30,
+            "deletions": 2
+          },
+          {
+            "hash": "4f009561908828c08b67c6b18d2840f756c9616e",
+            "message": "Fix formatting",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b4c046e43c5c453f2180689f459c6f2a1ebc1774",
+            "message": "Update status arguments to be case insensitive",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 3,
+        "deletions": 20,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "8b0e85b1082cf71e8a1c85fb3ea1fef29bb52075",
+            "message": "Fix formatting",
+            "insertions": 3,
+            "deletions": 20
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-10",
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -2433,6 +2514,86 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 4,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "6eca57782d10127faf0cb98eda94e5e92c111084",
+            "message": "fix for details panel not updating when first employee/project is deleted",
+            "insertions": 4,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 428,
+        "deletions": 95,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "12f0d950e9642116b5ffd7d9e98050852c0a405b",
+            "message": "halfway editing",
+            "insertions": 306,
+            "deletions": 1
+          },
+          {
+            "hash": "b3cc1a200dac307bb5bf61522c78b77952f79f79",
+            "message": "added natural ordering of user stories",
+            "insertions": 19,
+            "deletions": 10
+          },
+          {
+            "hash": "23a1cd04fed43b86a08833005f381fb17e173818",
+            "message": "editted typical user stories",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0773a493ebb73b6db124c60810d81406e2837325",
+            "message": "make equals() check more robust",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "6303885d83c1dff9bbbc87eede2ef9d8f4e907b2",
+            "message": "added command tests for edit user stories",
+            "insertions": 50,
+            "deletions": 37
+          },
+          {
+            "hash": "2d8329f0ff7f113636d250e8ddc83332bcfc49e5",
+            "message": "formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "33606a668d5998e61172422b798ffa13b998eaaa",
+            "message": "fix test cases",
+            "insertions": 28,
+            "deletions": 21
+          },
+          {
+            "hash": "5e70ac415569b32454bc0f0a838e5680cbc2a938",
+            "message": "formatting",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "de93403c608f7ccbe4809b74b965801ed3048d99",
+            "message": "formatting",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "629400918fd0dd86f551a08f0c00d51606f52dde",
+            "message": "minor edits to css",
+            "insertions": 14,
+            "deletions": 15
+          }
+        ]
       }
     ],
     "dehui333": [
@@ -3818,6 +3979,18 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "shunnizuka": [
@@ -5018,6 +5191,18 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "jothipillay": [
@@ -7004,22 +7189,34 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 3661,
-    "jeffgan96": 6158,
-    "dehui333": 3909,
-    "shunnizuka": 4421,
-    "jothipillay": 5556
+    "ditan96": 4377,
+    "jeffgan96": 6419,
+    "dehui333": 3896,
+    "shunnizuka": 4394,
+    "jothipillay": 5491
   },
   "authorContributionVariance": {
-    "ditan96": 217869.97,
-    "jeffgan96": 155918.73,
-    "dehui333": 106417.266,
-    "shunnizuka": 65489.04,
-    "jothipillay": 145876.14
+    "ditan96": 216543.6,
+    "jeffgan96": 153090.5,
+    "dehui333": 103588.805,
+    "shunnizuka": 63851.86,
+    "jothipillay": 142556.83
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

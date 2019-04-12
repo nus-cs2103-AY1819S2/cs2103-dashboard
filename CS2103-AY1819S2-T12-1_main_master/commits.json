@@ -750,10 +750,109 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 276,
+        "deletions": 240,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "173c626ffa58672dd4fb37996d1550c65cd49806",
+            "message": "panel will be scrolled to the newly added item now",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "cb6937aebfd77a8bf68eda4c57b8a36a0aced8e3",
+            "message": "the service type and room type panel will not be scrolled",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "3538b0f95693c8e5e2a7a08720020dda9a310f5a",
+            "message": "fix unit test for adding commands",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "2e57f6d9bff4a75801cb20dd41724822dcc5f27c",
+            "message": "fix test",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "fcceab512432de5c91b2a9b33a33b122f1a023bc",
+            "message": "fix some UI tests",
+            "insertions": 235,
+            "deletions": 225
+          },
+          {
+            "hash": "b9bf34f14cee02520cbc364859a59aec30df11c0",
+            "message": "improve style",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "be1afa7f89bdbb6182459a2aeb8dddeb98e90746",
+            "message": "Fix the date range bug   now a valid date should be equals to or after today and with in one year after current date",
+            "insertions": 25,
+            "deletions": 6
+          },
+          {
+            "hash": "a248e7dc244b8f8f19fa9db35f04f45f15e4d96f",
+            "message": "Update user guide",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "723171259f0d998216955961af705f821c13330c",
+            "message": "Update user guide",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 28,
+        "deletions": 26,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "82897e57f7829d52694d6631801dd6fbf4f931d6",
+            "message": "Add check for 0 in bill panel so that it will not print service/room types with 0 amount remove some System.out.println() codes",
+            "insertions": 12,
+            "deletions": 10
+          },
+          {
+            "hash": "95afb4bdd59fa23aae277e6fe39ec47e5648d2a9",
+            "message": "Handle numberFormatException in switch tab command parser",
+            "insertions": 16,
+            "deletions": 16
+          }
+        ]
+      },
+      {
+        "insertions": 258,
+        "deletions": 6,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "ef315eb654f2b229d7b146fffe9008323053e3a8",
+            "message": "Implement tests for dateRange and timeRange",
+            "insertions": 256,
+            "deletions": 2
+          },
+          {
+            "hash": "8e1557f4b3e910c15080c3e7b9a5c673ee8a3c4d",
+            "message": "remove some test cases to please codacy",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "33c8e23f38939890416e950cbd84195639724af7",
+            "message": "adjust test case",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "sreycodes": [
@@ -1839,6 +1938,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -3290,6 +3401,170 @@
             "deletions": 22
           }
         ]
+      },
+      {
+        "insertions": 3669,
+        "deletions": 2804,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "ecef5548d017712aed8c67d7c98019daed2ab3be",
+            "message": "Added tests. Fixed original tests.",
+            "insertions": 1927,
+            "deletions": 1478
+          },
+          {
+            "hash": "a7355e968c7a7fd34e2c547b9adb6254da8da658",
+            "message": "Corrected errors.",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "90f9bf965d019652085844fa03124dfe74f06dc2",
+            "message": "Corrected errors.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0fa4654fd2d9966c415ae6a4bc7471d90bec2abc",
+            "message": "Correct errors.",
+            "insertions": 20,
+            "deletions": 23
+          },
+          {
+            "hash": "061fe22c5b917930c2dc39731fcc8230029b009e",
+            "message": "Corrected errors.",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "84f6ce500fe49c1201e29f26dedf53481de4ef56",
+            "message": "Corrected errors.",
+            "insertions": 433,
+            "deletions": 412
+          },
+          {
+            "hash": "030e067eaeb440741b23c79a8f4b36ea31604394",
+            "message": "Corrected errors.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f3cfa392f20f6f3e091ee85050dcbbdac06a3ddf",
+            "message": "Corrected original tests.",
+            "insertions": 341,
+            "deletions": 341
+          },
+          {
+            "hash": "caae782b21393221ab72d6706a8b4383aa1ae8b8",
+            "message": "Added tests for deleteReservationCommand.",
+            "insertions": 202,
+            "deletions": 202
+          },
+          {
+            "hash": "091b122c69d264f84f3bee778b6444c60a6b0045",
+            "message": "Added parser tests for GenerateBillCommands.",
+            "insertions": 306,
+            "deletions": 27
+          },
+          {
+            "hash": "132f25207b22c6f7255bbd070d515610eab35b87",
+            "message": "Corrected errors for checkStyle. Added parser tests for SwitchTabCommand.",
+            "insertions": 30,
+            "deletions": 1
+          },
+          {
+            "hash": "337f175e489d6caafc0024e15f5596c1311d98c8",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 15,
+            "deletions": 6
+          },
+          {
+            "hash": "df64146c8facbb89ea5eae60fe703e4df0797834",
+            "message": "Added tests to SwitchTabCommandParser",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "5b61ce0eee8e73bbc47a561f2175c89608239bea",
+            "message": "Added tests for HotelManagementSystem.",
+            "insertions": 37,
+            "deletions": 1
+          },
+          {
+            "hash": "0967810f1cf9574e82740d728d7c9cec21803413",
+            "message": "Corrected UG commands.",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "f4090f8863ff9cc6ad0e9bba616235ac47c0f466",
+            "message": "Corrected errors.",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "92d839d980e6c07866898834c96ee530749bc38a",
+            "message": "Corrected errors.",
+            "insertions": 302,
+            "deletions": 287
+          },
+          {
+            "hash": "760651b68dedd5c3d065f975b4f7349d46e3b03f",
+            "message": "Corrected tests.",
+            "insertions": 29,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 533,
+        "deletions": 199,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "7ed385c70b8e58a0619d7b9f9d4742465375d3c2",
+            "message": "Added more tests overall.",
+            "insertions": 126,
+            "deletions": 2
+          },
+          {
+            "hash": "4d6c32de3c91319f017a98936e456455d537da43",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "63757666f1a22e95cc9b8a2add6cd388444b3c33",
+            "message": "Added more tests.",
+            "insertions": 127,
+            "deletions": 4
+          },
+          {
+            "hash": "4d8b53916a0b05c56ad418fa25ff42dc7fd58e86",
+            "message": "Corrected errors.",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "6a8c618cc98a352086080969bdcfcee63f35682f",
+            "message": "Added tests for GenerateBillForReservation as ReservationWithDatePredicate was activated",
+            "insertions": 267,
+            "deletions": 177
+          },
+          {
+            "hash": "8b7c1e1ae9b854abb26cfb31562995f38b9e57d8",
+            "message": "Corrected errors to plesase checkStyle.",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "8f10f2a2e3f901110fd33d3663b9f180b73ad689",
+            "message": "Corrected errors.",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "nerrons": [
@@ -3901,20 +4176,32 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 3780,
-    "sreycodes": 11909,
-    "Tejas2805": 5456,
-    "nerrons": 1174
+    "ZhangCX10032": 2737,
+    "sreycodes": 11836,
+    "Tejas2805": 7339,
+    "nerrons": 1172
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 700767.4,
-    "sreycodes": 2.4263298E7,
-    "Tejas2805": 274655.3,
-    "nerrons": 212804.33
+    "ZhangCX10032": 678982.5,
+    "sreycodes": 2.3513906E7,
+    "Tejas2805": 879267.56,
+    "nerrons": 206398.45
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

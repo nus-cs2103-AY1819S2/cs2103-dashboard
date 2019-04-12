@@ -1177,10 +1177,60 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 62,
+        "deletions": 36,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "bd10c3c7f142591b7a97743176803d9cb7c288aa",
+            "message": "Update card dev guide",
+            "insertions": 36,
+            "deletions": 32
+          },
+          {
+            "hash": "bea67231cd15e23c4bf935f643511e658135a461",
+            "message": "Update card dev guide",
+            "insertions": 26,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 630,
+        "deletions": 171,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "7d5a00607d504e68a21a9b6f6b31e7e82afb6c42",
+            "message": "Add PPP",
+            "insertions": 361,
+            "deletions": 0
+          },
+          {
+            "hash": "13c6a7e12863de4698ace861a91d8c7e2d70e689",
+            "message": "Update dev guide and PPP",
+            "insertions": 119,
+            "deletions": 43
+          },
+          {
+            "hash": "0601f066d51ee60f105fb573ce8d025bd08095ab",
+            "message": "Edit Card system tests",
+            "insertions": 90,
+            "deletions": 68
+          },
+          {
+            "hash": "97f11cf4587567102ec3f0b3f8ce7ee9d5c943e6",
+            "message": "Fix Checkstyle",
+            "insertions": 58,
+            "deletions": 58
+          },
+          {
+            "hash": "93b9487858aa949eec549a3960359641e82ed324",
+            "message": "Fix Checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "ckjohn000": [
@@ -2161,8 +2211,8 @@
         "commitResults": []
       },
       {
-        "insertions": 611,
-        "deletions": 2,
+        "insertions": 837,
+        "deletions": 18,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -2206,8 +2256,80 @@
             "message": "add newline",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "2b4ead7854a6b6925a7925cfb30d2685addbbac1",
+            "message": "add portmanager test",
+            "insertions": 85,
+            "deletions": 0
+          },
+          {
+            "hash": "717bca3b749470241eb0d2c1904a32fa48bb37f8",
+            "message": "add jsonExportabledeck test",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "7214d1f5a2088a7f7ece60dbfa42c337e1a1d030",
+            "message": "minor bug fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e3c99ab07bffbe867307d45163c839a7df8102b9",
+            "message": "add invalid deck for testing",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "89c846c1e425dbb3d4acbbf8d6e7c2b62dc24221",
+            "message": "valid exported deck for testing",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "084e701f3eff1943724c2722247f7607f1005484",
+            "message": "fix minor checkstyle issue",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b23ab296526a7dedcd7dee947ec32b9752f5987e",
+            "message": "add newline to json file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ce5497683aa1950b05939853aedc1645ed446b9b",
+            "message": "edit error message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1f64d67dcd1888a950907c07c3844e1c2bc7058c",
+            "message": "update ug",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "ed8accde8dd27af46eefb867f1e8dc38544d3830",
+            "message": "edit ug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6d7ece22e4b86ac52bc4a90306ee2b96248433cd",
+            "message": "edit ppp",
+            "insertions": 40,
+            "deletions": 10
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "xsot": [
@@ -3096,8 +3218,8 @@
         ]
       },
       {
-        "insertions": 7,
-        "deletions": 10,
+        "insertions": 154,
+        "deletions": 114,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -3117,8 +3239,68 @@
             "message": "Update imports after merge",
             "insertions": 3,
             "deletions": 6
+          },
+          {
+            "hash": "0f89a356cadbab6ae2227dc7a1a47f399603964c",
+            "message": "Fix study command usage message",
+            "insertions": 3,
+            "deletions": 50
+          },
+          {
+            "hash": "8657bee6d963955f58eab2c9f039b46c4954ee20",
+            "message": "Specialise select command by viewState",
+            "insertions": 102,
+            "deletions": 32
+          },
+          {
+            "hash": "8af47f91a93eda4d373c7628b45cc03a3a392c47",
+            "message": "Disable undo/redo in study view",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "1326119b04e868f1f38a539fca1ae69ff21f3d52",
+            "message": "Fix select card test",
+            "insertions": 13,
+            "deletions": 3
+          },
+          {
+            "hash": "f0aa951520868aa9cad390473746cfdff7dbda23",
+            "message": "Make selection messages consistent",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "a6748a055aecd663e1daeb587b486cc016b914e6",
+            "message": "Improve consistency of usage messages",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "83504ee3045d47c5c6b483c4cc727e72cd66e111",
+            "message": "Add missing newline",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c70ad2522045cb0c089768c0e30574a6bca4eb5f",
+            "message": "Update tests",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "ee17a043689da8d67c7c8a8cb9fac919551ec5d2",
+            "message": "Fix broken test",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "sciffany": [
@@ -4298,20 +4480,26 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 5030,
-    "ckjohn000": 5366,
-    "xsot": 1778,
-    "sciffany": 2811
+    "ChangDarren": 5463,
+    "ckjohn000": 5534,
+    "xsot": 1859,
+    "sciffany": 2804
   },
   "authorContributionVariance": {
-    "ChangDarren": 499976.94,
-    "ckjohn000": 113370.766,
-    "xsot": 48756.938,
-    "sciffany": 496686.6
+    "ChangDarren": 494492.72,
+    "ckjohn000": 116412.23,
+    "xsot": 48450.535,
+    "sciffany": 489079.8
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

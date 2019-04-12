@@ -891,6 +891,12 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
       }
     ],
     "yjpan47": [
@@ -1518,8 +1524,8 @@
         ]
       },
       {
-        "insertions": 167,
-        "deletions": 37,
+        "insertions": 262,
+        "deletions": 52,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -1533,6 +1539,43 @@
             "message": "Debugged issue of Edit and Remove Command screwing up the duty list and points",
             "insertions": 79,
             "deletions": 18
+          },
+          {
+            "hash": "beb9f5042f262c209926f6cb46538ade3aae6181",
+            "message": "Added PointsCommand that allows Admin to view points",
+            "insertions": 78,
+            "deletions": 0
+          },
+          {
+            "hash": "e99c0647e18622eeab3571634390f54722a825aa",
+            "message": "Minor edit to command message of ScheduleCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6e36824f0becb5f0d6ae78f6aeb5cb6916b1fea5",
+            "message": "Changed toString() of Person",
+            "insertions": 1,
+            "deletions": 14
+          },
+          {
+            "hash": "5fd5ce8a728e5a7f45cd5ad9ee194949a214eb00",
+            "message": "Updated PointCommand",
+            "insertions": 15,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 9,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "b138f70a3657bd060bdd4003905bb4a371fd7471",
+            "message": "Added swap() method for DutyMonth",
+            "insertions": 9,
+            "deletions": 0
           }
         ]
       }
@@ -2180,6 +2223,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
         "commitResults": []
       }
     ],
@@ -2863,6 +2912,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
         "commitResults": []
       }
     ],
@@ -3828,22 +3883,41 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 57,
+        "deletions": 3,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "cb0d43c9d3a2ed0ebd6b933a5a8cb385648fafa8",
+            "message": "Create test for login functionality",
+            "insertions": 56,
+            "deletions": 1
+          },
+          {
+            "hash": "ec38e508df8162bb308d642945187be3c6d3f2ab",
+            "message": "Change to fit codacy review",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "Valatheking": 454,
-    "yjpan47": 1195,
+    "yjpan47": 1300,
     "dreampursuer95": 1007,
-    "mechome": 3075,
-    "exactlyprecise": 2665
+    "mechome": 3065,
+    "exactlyprecise": 2719
   },
   "authorContributionVariance": {
-    "Valatheking": 13146.531,
-    "yjpan47": 38700.348,
-    "dreampursuer95": 32609.9,
-    "mechome": 370751.56,
-    "exactlyprecise": 36679.016
+    "Valatheking": 12952.902,
+    "yjpan47": 38819.848,
+    "dreampursuer95": 32145.902,
+    "mechome": 365000.12,
+    "exactlyprecise": 36087.414
   },
   "authorDisplayNameMap": {
     "Valatheking": "VAL...JAN",
