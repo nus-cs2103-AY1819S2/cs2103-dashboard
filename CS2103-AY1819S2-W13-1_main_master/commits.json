@@ -1519,8 +1519,8 @@
         ]
       },
       {
-        "insertions": 564,
-        "deletions": 723,
+        "insertions": 921,
+        "deletions": 851,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -1540,8 +1540,38 @@
             "message": "fixed checkstyle errors",
             "insertions": 0,
             "deletions": 3
+          },
+          {
+            "hash": "d59c912f3a9dbf226929b0defe405f1f8108e03b",
+            "message": "added test cases for all doctor commands and parsers",
+            "insertions": 276,
+            "deletions": 36
+          },
+          {
+            "hash": "609873e29ba73f0d93ab50c5bfee352ca1cc277d",
+            "message": "updated UG + standardised doctor commands",
+            "insertions": 66,
+            "deletions": 75
+          },
+          {
+            "hash": "cb3c1cca49eecfd8ce4d808b8c837e8d5965c262",
+            "message": "fixed files for checkstyle errors:",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "e5bb731234391b31f7657aea915b0ba904e33614",
+            "message": "updated PPP",
+            "insertions": 8,
+            "deletions": 11
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "wayneswq": [
@@ -2484,6 +2514,12 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "amuletxheart": [
@@ -3170,10 +3206,48 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 71,
+        "deletions": 126,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2c96e17c51d21989311060c08f2ed6eebc0c8e93",
+            "message": "removed duplicate code",
+            "insertions": 2,
+            "deletions": 20
+          },
+          {
+            "hash": "8ce29fc00262bd65d62da48dcefe2641753ddceb",
+            "message": "fixed bugs with missing docx.json",
+            "insertions": 20,
+            "deletions": 6
+          },
+          {
+            "hash": "abdf4c8035aaa2f5946a4d7991a92eb9e218d355",
+            "message": "updated UG for appointment",
+            "insertions": 47,
+            "deletions": 100
+          },
+          {
+            "hash": "40a809512ecc05147d48c00efe71a2620f2a7af9",
+            "message": "edited UG",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 112,
+        "deletions": 13,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "539a6199cba805f2867821af672edc3532cecad7",
+            "message": "added UI for null patient or doctor in appointments",
+            "insertions": 112,
+            "deletions": 13
+          }
+        ]
       }
     ],
     "GongChangda": [
@@ -3744,8 +3818,8 @@
         ]
       },
       {
-        "insertions": 150,
-        "deletions": 4,
+        "insertions": 527,
+        "deletions": 12,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -3759,14 +3833,106 @@
             "message": "Fix one style issue",
             "insertions": 2,
             "deletions": 1
+          },
+          {
+            "hash": "e4b763f7625b0e6c6406a66841ebdae6ee88cd53",
+            "message": "add a new feature to search for prescriptions whose description contains specified key words add a new feature to select a particular prescription using index to display more info about it",
+            "insertions": 377,
+            "deletions": 8
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 110,
+        "deletions": 47,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1b1e8f8b8ae98f10fd745cd5334e894b76e97fb0",
+            "message": "Fix a bug of addPrescription command",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "aeb531014b2e7794e138ec851253fdd63a603162",
+            "message": "Fix style errors",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "83c20e2230ea7c1582863da1e88bf484ab698dcb",
+            "message": "Fix one style error",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3df9c186656415e971535298dee0c18f5989a74f",
+            "message": "Update user guide for add-presc and list-presc",
+            "insertions": 20,
+            "deletions": 13
+          },
+          {
+            "hash": "c3e005663652df48c82d4d5c86c95e435f43b6f3",
+            "message": "Update user guide for add-presc",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "97195061901ccff43e9724b934f06bdf22bf7012",
+            "message": "Add date attribute to Prescription class",
+            "insertions": 69,
+            "deletions": 23
+          },
+          {
+            "hash": "763adab2ed2734c744cae4d77f9ec474dbfb0806",
+            "message": "Fix one style issue in Prescription.java",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 416,
+        "deletions": 108,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "2abb594f50a1fbc0b096fe1ff105155bc3960dea",
+            "message": "Add test cases for prescription package",
+            "insertions": 255,
+            "deletions": 3
+          },
+          {
+            "hash": "c8afe770e01d2ad303818189e6a80457f07a23c2",
+            "message": "Fix one bug in UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9025f441e94cd6be34dc4c9f0d72026c3221a08e",
+            "message": "Fix style issues",
+            "insertions": 7,
+            "deletions": 100
+          },
+          {
+            "hash": "ae6cc4393c12d30866806ea6e873b7ced79fd661",
+            "message": "Add sort-presc command",
+            "insertions": 149,
+            "deletions": 1
+          },
+          {
+            "hash": "9f1f7a6c2111e0d1020757e8a5b28a8542165c95",
+            "message": "Fix one style error",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c51daab2859d1d75cb45e8a48ea448ed6c808b54",
+            "message": "Fix style issues",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "Liuyy99": [
@@ -4878,8 +5044,8 @@
         ]
       },
       {
-        "insertions": 435,
-        "deletions": 231,
+        "insertions": 438,
+        "deletions": 234,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -4971,6 +5137,12 @@
             "message": "recover undo/redo ...",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "b5ef457355c11505ceab4ff16da03981295c4831",
+            "message": "minor change",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       },
@@ -4987,26 +5159,94 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 677,
+        "deletions": 37,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "28b80bca48d37842bab9991fa6e44e2ea791cc3a",
+            "message": "minor changes",
+            "insertions": 9,
+            "deletions": 8
+          },
+          {
+            "hash": "2e071725ae69c2b4b0a6accfa9dc1b5a410f5bec",
+            "message": "fix Search bug",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "24cd5ed0203e32bd15d415e3b2f0cd6b404e051a",
+            "message": "model test cases",
+            "insertions": 342,
+            "deletions": 1
+          },
+          {
+            "hash": "bd09e0f663a99e065789711eac0c9eefc41aeb71",
+            "message": "checkstyle",
+            "insertions": 5,
+            "deletions": 19
+          },
+          {
+            "hash": "438bd9b437913d0ab20fda6dd374149514b4d8fb",
+            "message": "checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b9b24c58cc4f8085cda4379c61f094d771ec258d",
+            "message": "checktyle",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "4ade7561d9eba4b3aa3a603432a08781b16c7d78",
+            "message": "checkstyle",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "c64ac0d146456d189a06f5a3bde8ded2be04dedc",
+            "message": "add test cases",
+            "insertions": 306,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 91,
+        "deletions": 506,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "99946201f0ad18d39ee47700686f50e0ee7ce1b1",
+            "message": "tests",
+            "insertions": 90,
+            "deletions": 106
+          },
+          {
+            "hash": "005639741154c854205df5b094d21dda3f65860c",
+            "message": "checkstyle",
+            "insertions": 1,
+            "deletions": 400
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "siyingpoof": 7424,
-    "wayneswq": 8346,
-    "amuletxheart": 3098,
-    "GongChangda": 1652,
-    "Liuyy99": 2755
+    "siyingpoof": 7546,
+    "wayneswq": 8047,
+    "amuletxheart": 3321,
+    "GongChangda": 2421,
+    "Liuyy99": 3359
   },
   "authorContributionVariance": {
-    "siyingpoof": 1419645.9,
-    "wayneswq": 1334923.9,
-    "amuletxheart": 43630.242,
-    "GongChangda": 20001.918,
-    "Liuyy99": 55567.992
+    "siyingpoof": 1417089.8,
+    "wayneswq": 1315255.6,
+    "amuletxheart": 43065.543,
+    "GongChangda": 27130.396,
+    "Liuyy99": 63808.715
   },
   "authorDisplayNameMap": {
     "siyingpoof": "ONG...ING",

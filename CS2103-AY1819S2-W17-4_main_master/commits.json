@@ -981,8 +981,8 @@
         ]
       },
       {
-        "insertions": 342,
-        "deletions": 143,
+        "insertions": 512,
+        "deletions": 198,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -1026,6 +1026,49 @@
             "message": "fixed two errors in find and sort integration test",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "bf6f1524492c36aba226438793f1118a4a23da31",
+            "message": "modified report parser test",
+            "insertions": 36,
+            "deletions": 8
+          },
+          {
+            "hash": "3af3829b0006cece0fba3050895d88edae16d8c3",
+            "message": "deletes helpCommand undre epiggy folder",
+            "insertions": 115,
+            "deletions": 35
+          },
+          {
+            "hash": "ed4b524953ee71c91db39b9a07112ec0a94edcc0",
+            "message": "update reportCommand",
+            "insertions": 19,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 162,
+        "deletions": 194,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "ff1d82d6224757954edf865117ff0da9c8ef67cc",
+            "message": "changes string to stringBuilder in report system test",
+            "insertions": 125,
+            "deletions": 175
+          },
+          {
+            "hash": "85d88a96f47f5518ef2a2ba4f8e77063cdc303cb",
+            "message": "fixed checkstyle",
+            "insertions": 5,
+            "deletions": 10
+          },
+          {
+            "hash": "f1d80e26fda1f325e82d33362a5fef74ea90be72",
+            "message": "update DG and PPP",
+            "insertions": 32,
+            "deletions": 9
           }
         ]
       }
@@ -1611,9 +1654,46 @@
         ]
       },
       {
+        "insertions": 130,
+        "deletions": 85,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "cf57a072f54bbfa3838b50d5670681cfe19d19a2",
+            "message": "unignored somemore tests",
+            "insertions": 52,
+            "deletions": 36
+          },
+          {
+            "hash": "60dffcb43b16dae6be694eaaa9ba267ff9ee749a",
+            "message": "removed unused commands from UG",
+            "insertions": 53,
+            "deletions": 46
+          },
+          {
+            "hash": "4ee68f2251caac95798797f2f2453c9c8fcaee07",
+            "message": "prevent user from creating allowance and expense tags",
+            "insertions": 20,
+            "deletions": 1
+          },
+          {
+            "hash": "501952d6c05cc68c42ec745529a8216ac3a368d2",
+            "message": "corrected formatting for UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3acd25c605c408e9f46bc48ef4526b08ea1c67b1",
+            "message": "fixed broken test cases",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-12",
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -2098,6 +2178,12 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "tehwenyi": [
@@ -4362,9 +4448,88 @@
         ]
       },
       {
+        "insertions": 207,
+        "deletions": 149,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "f524fc4474aa5f54ad6068ccc9473fd2a3f8d019",
+            "message": "Add user guide and dev guide into PPP",
+            "insertions": 15,
+            "deletions": 9
+          },
+          {
+            "hash": "db0e3174357419f9eb6d1b751db80c34c8a3636f",
+            "message": "update PPP",
+            "insertions": 58,
+            "deletions": 2
+          },
+          {
+            "hash": "b9dbabda03c84a3d46c826266910bc344a707ca3",
+            "message": "remove About segment in UG",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "c92f4ae5034ba85844b7226430a063ec4fc6e014",
+            "message": "update user guide",
+            "insertions": 25,
+            "deletions": 42
+          },
+          {
+            "hash": "31a4b23c6b2c9a575be4fe283768ab440f6aef2c",
+            "message": "arrange command summary in alphabetical order and rephrase future implementations",
+            "insertions": 36,
+            "deletions": 33
+          },
+          {
+            "hash": "8d7f59774437887a85ee2a2de4c6bc1e0072acad",
+            "message": "rephrase future implementations",
+            "insertions": 4,
+            "deletions": 13
+          },
+          {
+            "hash": "110d348d97babb098a979a8bf1df3660d5d52002",
+            "message": "rephrase FAQ",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "e8e681be9d4d3377ddf35463337f32e3069c28de",
+            "message": "move goal feature above report",
+            "insertions": 20,
+            "deletions": 21
+          },
+          {
+            "hash": "76be5afccb2d463ba599fb0db7f318493e7b0858",
+            "message": "Add new filled UI image",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "93d0e61ba993138292681a632b2314d514c16ab6",
+            "message": "Add status and reminder of budgets",
+            "insertions": 22,
+            "deletions": 2
+          },
+          {
+            "hash": "57e9eb15fd087551b1371eab8bcbee100aeeb7f3",
+            "message": "update PPP",
+            "insertions": 4,
+            "deletions": 11
+          },
+          {
+            "hash": "1d11bb49611035c808290485df28cce19ece934a",
+            "message": "checkstyle changes",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-12",
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -5360,26 +5525,46 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 25,
+        "deletions": 62,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b21e795b0f4c4f84eb1fb03f30a7f942ca564785",
+            "message": "updated PPP, UG",
+            "insertions": 25,
+            "deletions": 62
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 34,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "2cf9300ed84fad475435f36f57c3340ebe5227dc",
+            "message": "removed helpcommand in epiggy/",
+            "insertions": 1,
+            "deletions": 34
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 3424,
-    "kev-inc": 1306,
+    "yunjun199321": 3592,
+    "kev-inc": 1346,
     "pdnm": 747,
-    "tehwenyi": 5333,
-    "rahulb99": 2484
+    "tehwenyi": 5388,
+    "rahulb99": 2411
   },
   "authorContributionVariance": {
-    "yunjun199321": 49827.99,
-    "kev-inc": 22402.152,
-    "pdnm": 4492.6694,
-    "tehwenyi": 270971.97,
-    "rahulb99": 906621.7
+    "yunjun199321": 53256.03,
+    "kev-inc": 22534.174,
+    "pdnm": 4425.609,
+    "tehwenyi": 266890.94,
+    "rahulb99": 892328.9
   },
   "authorDisplayNameMap": {
     "yunjun199321": "WU ...JUN",

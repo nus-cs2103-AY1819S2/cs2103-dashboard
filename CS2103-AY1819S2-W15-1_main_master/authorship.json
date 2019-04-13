@@ -29217,14 +29217,14 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        String favApparel \u003d \"Your favourite apparel is \" + model.getFavApparel();"
+        "content": "        String favApparel \u003d model.getFavApparel();"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        String favColor \u003d \"Your favourite color is \" + model.getFavColor();"
+        "content": "        String favColor \u003d model.getFavColor();"
       },
       {
         "lineNumber": 33,
@@ -29238,70 +29238,70 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        String totalColor \u003d \"Total Different Colors : \" + model.getTotalColor();"
+        "content": "        String totalColor \u003d model.getTotalColor();"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        String leastFavApparel \u003d model.getLeastFavApparel();"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        outputStats.add(favApparel);"
+        "content": "        String cleanOrDirty \u003d model.getCleanOrDirty();"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        outputStats.add(favColor);"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        outputStats.add(totalApparel);"
+        "content": "        outputStats.add(favApparel);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        outputStats.add(totalColor);"
+        "content": "        outputStats.add(favColor);"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        outputStats.add(totalApparel);"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        String returnMessage \u003d MESSAGE_SUCCESS;"
+        "content": "        outputStats.add(totalColor);"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        return new CommandResult(String.format(returnMessage, String.join(\"\\n\", outputStats)));"
+        "content": "        outputStats.add(leastFavApparel);"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": "        outputStats.add(cleanOrDirty);"
       },
       {
         "lineNumber": 44,
@@ -29315,38 +29315,80 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    @Override"
+        "content": "        CommandResult outputCommand \u003d new CommandResult("
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "                String.format(MESSAGE_SUCCESS, String.join(\"\\n\", outputStats)));"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        return other \u003d\u003d this //short circuit if same object"
+        "content": "        return outputCommand;"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                || (other instanceof StatisticsCommand); // instance of handles nulls"
+        "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 50,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        return other \u003d\u003d this //short circuit if same object"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                || (other instanceof StatisticsCommand); // instance of handles nulls"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
         "author": {
           "gitId": "ReinSheer"
         },
@@ -29354,7 +29396,7 @@
       }
     ],
     "authorContributionMap": {
-      "ReinSheer": 50
+      "ReinSheer": 56
     }
   },
   {
@@ -38609,7 +38651,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    int getTotalColor();"
+        "content": "    String getTotalColor();"
       },
       {
         "lineNumber": 136,
@@ -38628,6 +38670,20 @@
       {
         "lineNumber": 138,
         "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    String getLeastFavApparel();"
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    String getCleanOrDirty();"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
           "gitId": "-"
         },
         "content": "}"
@@ -38636,7 +38692,7 @@
     "authorContributionMap": {
       "rafflesandrison": 7,
       "-": 105,
-      "ReinSheer": 26
+      "ReinSheer": 28
     }
   },
   {
@@ -39837,7 +39893,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    public int getTotalColor() {"
+        "content": "    public String getTotalColor() {"
       },
       {
         "lineNumber": 172,
@@ -39886,7 +39942,7 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        return outputTotalColor.size();"
+        "content": "        return \"Total Different Colors : \" + outputTotalColor.size();"
       },
       {
         "lineNumber": 179,
@@ -39898,14 +39954,14 @@
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": ""
       },
       {
         "lineNumber": 181,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": "    @Override"
       },
@@ -40019,913 +40075,1305 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        return output;"
+        "content": "        if (filteredApparels.size() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": "            return \"Your favorite apparel is none!\";"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        } else {"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    @Override"
+        "content": "            return \"Your favorite apparel is \" + output;"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    public String getFavColor() {"
+        "content": "        }"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        ArrayList\u003cString\u003e favColor \u003d new ArrayList\u003c\u003e();"
+        "content": "    }"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        for (int i \u003d 0; i \u003c filteredApparels.size(); i++) {"
+        "content": ""
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            favColor.add(filteredApparels.get(i).getColor().toString());"
+        "content": "    @Override"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        }"
+        "content": "    public String getFavColor() {"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        ArrayList\u003cString\u003e favColor \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        Map\u003cString, Integer\u003e hm \u003d new HashMap();"
+        "content": "        for (int i \u003d 0; i \u003c filteredApparels.size(); i++) {"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        for (int i \u003d 0; i \u003c favColor.size(); i++) {"
+        "content": "            favColor.add(filteredApparels.get(i).getColor().toString());"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            String key \u003d favColor.get(i);"
+        "content": "        }"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            if (hm.containsKey(key)) {"
+        "content": ""
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                int value \u003d hm.get(key);"
+        "content": "        Map\u003cString, Integer\u003e hm \u003d new HashMap();"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                hm.put(key, value + 1);"
+        "content": "        for (int i \u003d 0; i \u003c favColor.size(); i++) {"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            } else {"
+        "content": "            String key \u003d favColor.get(i);"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                hm.put(key, 1);"
+        "content": "            if (hm.containsKey(key)) {"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            }"
+        "content": "                int value \u003d hm.get(key);"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        }"
+        "content": "                hm.put(key, value + 1);"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "            } else {"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        int maxCount \u003d 0;"
+        "content": "                hm.put(key, 1);"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        String output \u003d null;"
+        "content": "            }"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        for (Map.Entry\u003cString, Integer\u003e value : hm.entrySet()) {"
+        "content": "        }"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            if (maxCount \u003c value.getValue()) {"
+        "content": "        int maxCount \u003d -1;"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                maxCount \u003d value.getValue();"
+        "content": "        String output \u003d null;"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                output \u003d value.getKey();"
+        "content": "        for (Map.Entry\u003cString, Integer\u003e value : hm.entrySet()) {"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            }"
+        "content": "            if (maxCount \u003c value.getValue()) {"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        }"
+        "content": "                maxCount \u003d value.getValue();"
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        return output;"
+        "content": "                output \u003d value.getKey();"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": "            }"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Selected apparel \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": "        }"
       },
       {
         "lineNumber": 229,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        if (filteredApparels.size() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 230,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    @Override"
+        "content": "            return \"Your favorite color is none!\";"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    public ReadOnlyProperty\u003cApparel\u003e selectedPersonProperty() {"
+        "content": "        } else {"
       },
       {
         "lineNumber": 232,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        return selectedPerson;"
+        "content": "            return \"Your favorite color is \" + output;"
       },
       {
         "lineNumber": 233,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 234,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "    public Apparel getSelectedApparel() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 237,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        return selectedPerson.getValue();"
+        "content": "    public String getLeastFavApparel() {"
       },
       {
         "lineNumber": 238,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": "        Map\u003cString, Integer\u003e hm \u003d new HashMap();"
       },
       {
         "lineNumber": 239,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        for (int i \u003d 0; i \u003c filteredApparels.size(); i++) {"
       },
       {
         "lineNumber": 240,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    @Override"
+        "content": "            String key \u003d filteredApparels.get(i).getName().toString();"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    public void setSelectedPerson(Apparel apparel) {"
+        "content": "            int value \u003d filteredApparels.get(i).getUsageCount();"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        if (apparel !\u003d null \u0026\u0026 !filteredApparels.contains(apparel)) {"
+        "content": "            hm.put(key, value);"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            throw new ApparelNotFoundException();"
+        "content": "        }"
       },
       {
         "lineNumber": 244,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        }"
+        "content": "        int minCount \u003d 10000;"
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        selectedPerson.setValue(apparel);"
+        "content": "        String output \u003d null;"
       },
       {
         "lineNumber": 246,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": "        for (Map.Entry\u003cString, Integer\u003e value : hm.entrySet()) {"
       },
       {
         "lineNumber": 247,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "            if (minCount \u003e value.getValue()) {"
       },
       {
         "lineNumber": 248,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    /**"
+        "content": "                minCount \u003d value.getValue();"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "     * Ensures {@code selectedPerson} is a valid apparel in {@code filteredApparels}."
+        "content": "                output \u003d value.getKey();"
       },
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "     */"
+        "content": "            }"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "    private void ensureSelectedPersonIsValid(ListChangeListener.Change\u003c? extends Apparel\u003e change) {"
+        "content": "        }"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        while (change.next()) {"
+        "content": "        if (filteredApparels.size() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "            if (selectedPerson.getValue() \u003d\u003d null) {"
+        "content": "            return \"You should wear more of none of your apparels! :(\";"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                // null is always a valid selected apparel, so we do not need to check that it is valid anymore."
+        "content": "        } else {"
       },
       {
         "lineNumber": 255,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "                return;"
+        "content": "            return \"You should wear more of \" + output + \" :(\";"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "            }"
+        "content": "        }"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "-"
-        },
-        "content": "            boolean wasSelectedPersonReplaced \u003d change.wasReplaced() \u0026\u0026 change.getAddedSize() \u003d\u003d change.getRemovedSize()"
-      },
-      {
-        "lineNumber": 259,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                    \u0026\u0026 change.getRemoved().contains(selectedPerson.getValue());"
-      },
-      {
-        "lineNumber": 260,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            if (wasSelectedPersonReplaced) {"
-      },
-      {
-        "lineNumber": 261,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                // Update selectedPerson to its new value."
-      },
-      {
-        "lineNumber": 262,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                int index \u003d change.getRemoved().indexOf(selectedPerson.getValue());"
-      },
-      {
-        "lineNumber": 263,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                selectedPerson.setValue(change.getAddedSubList().get(index));"
-      },
-      {
-        "lineNumber": 264,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                continue;"
-      },
-      {
-        "lineNumber": 265,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 266,
-        "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": ""
       },
       {
+        "lineNumber": 259,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 260,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    public String getCleanOrDirty() {"
+      },
+      {
+        "lineNumber": 261,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        float cleanCount \u003d 0;"
+      },
+      {
+        "lineNumber": 262,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        float dirtyCount \u003d 0;"
+      },
+      {
+        "lineNumber": 263,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        for (int i \u003d 0; i \u003c filteredApparels.size(); i++) {"
+      },
+      {
+        "lineNumber": 264,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "            if (filteredApparels.get(i).isAvailable()) {"
+      },
+      {
+        "lineNumber": 265,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                cleanCount++;"
+      },
+      {
+        "lineNumber": 266,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "            } else {"
+      },
+      {
         "lineNumber": 267,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "            boolean wasSelectedPersonRemoved \u003d change.getRemoved().stream()"
+        "content": "                dirtyCount++;"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                    .anyMatch(removedPerson -\u003e selectedPerson.getValue().isSameApparel(removedPerson));"
+        "content": "            }"
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "            if (wasSelectedPersonRemoved) {"
+        "content": "        }"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                // Select the apparel that came before it in the list,"
+        "content": "        if (cleanCount \u003e dirtyCount) {"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "                // or clear the selection if there is no such apparel."
+        "content": "            return \"Your wardrobe is quite clean! (\""
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "                selectedPerson.setValue(change.getFrom() \u003e 0 ? change.getList().get(change.getFrom() - 1) : null);"
+        "content": "                    + Math.round(cleanCount / (filteredApparels.size()) * 100) + \"% clean)\";"
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "            }"
+        "content": "        } else if (dirtyCount \u003e cleanCount) {"
       },
       {
         "lineNumber": 274,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        }"
+        "content": "            return \"Your wardrobe is getting dirty... (\""
       },
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    }"
+        "content": "                    + Math.round(dirtyCount / (filteredApparels.size()) * 100) + \"% dirty)\";"
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        } else if (cleanCount \u003d\u003d 0 \u0026\u0026 dirtyCount \u003d\u003d 0) {"
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    @Override"
+        "content": "            return \"Your wardrobe is empty!\";"
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    public boolean equals(Object obj) {"
+        "content": "        } else if (cleanCount \u003d\u003d dirtyCount) {"
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        // short circuit if same object"
+        "content": "            return \"Your wardrobe is equally clean and dirty :O\";"
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        if (obj \u003d\u003d this) {"
+        "content": "        } else {"
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "            return true;"
+        "content": "            return null;"
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": "        }"
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 284,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        // instanceof handles nulls"
+        "content": "    //\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Selected apparel \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (!(obj instanceof ModelManager)) {"
+        "content": ""
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "-"
         },
-        "content": "            return false;"
+        "content": "    @Override"
       },
       {
         "lineNumber": 287,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        }"
+        "content": "    public ReadOnlyProperty\u003cApparel\u003e selectedPersonProperty() {"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return selectedPerson;"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "-"
         },
-        "content": "        // state check"
+        "content": "    }"
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "-"
         },
-        "content": "        ModelManager other \u003d (ModelManager) obj;"
+        "content": ""
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "-"
         },
-        "content": "        return versionedAddressBook.equals(other.versionedAddressBook)"
+        "content": "    @Override"
       },
       {
         "lineNumber": 292,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "                \u0026\u0026 userPrefs.equals(other.userPrefs)"
+        "content": "    public Apparel getSelectedApparel() {"
       },
       {
         "lineNumber": 293,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "                \u0026\u0026 filteredApparels.equals(other.filteredApparels)"
+        "content": "        return selectedPerson.getValue();"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "-"
         },
-        "content": "                \u0026\u0026 Objects.equals(selectedPerson.get(), other.selectedPerson.get());"
+        "content": "    }"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 297,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    public void setSelectedPerson(Apparel apparel) {"
+      },
+      {
+        "lineNumber": 298,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        if (apparel !\u003d null \u0026\u0026 !filteredApparels.contains(apparel)) {"
+      },
+      {
+        "lineNumber": 299,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "            throw new ApparelNotFoundException();"
+      },
+      {
+        "lineNumber": 300,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 301,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        selectedPerson.setValue(apparel);"
+      },
+      {
+        "lineNumber": 302,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "     * Ensures {@code selectedPerson} is a valid apparel in {@code filteredApparels}."
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 307,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    private void ensureSelectedPersonIsValid(ListChangeListener.Change\u003c? extends Apparel\u003e change) {"
+      },
+      {
+        "lineNumber": 308,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        while (change.next()) {"
+      },
+      {
+        "lineNumber": 309,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            if (selectedPerson.getValue() \u003d\u003d null) {"
+      },
+      {
+        "lineNumber": 310,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                // null is always a valid selected apparel, so we do not need to check that it is valid anymore."
+      },
+      {
+        "lineNumber": 311,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                return;"
+      },
+      {
+        "lineNumber": 312,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 313,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 314,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            boolean wasSelectedPersonReplaced \u003d change.wasReplaced() \u0026\u0026 change.getAddedSize() \u003d\u003d change.getRemovedSize()"
+      },
+      {
+        "lineNumber": 315,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                    \u0026\u0026 change.getRemoved().contains(selectedPerson.getValue());"
+      },
+      {
+        "lineNumber": 316,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            if (wasSelectedPersonReplaced) {"
+      },
+      {
+        "lineNumber": 317,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                // Update selectedPerson to its new value."
+      },
+      {
+        "lineNumber": 318,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                int index \u003d change.getRemoved().indexOf(selectedPerson.getValue());"
+      },
+      {
+        "lineNumber": 319,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                selectedPerson.setValue(change.getAddedSubList().get(index));"
+      },
+      {
+        "lineNumber": 320,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                continue;"
+      },
+      {
+        "lineNumber": 321,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 322,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 323,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            boolean wasSelectedPersonRemoved \u003d change.getRemoved().stream()"
+      },
+      {
+        "lineNumber": 324,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                    .anyMatch(removedPerson -\u003e selectedPerson.getValue().isSameApparel(removedPerson));"
+      },
+      {
+        "lineNumber": 325,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            if (wasSelectedPersonRemoved) {"
+      },
+      {
+        "lineNumber": 326,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                // Select the apparel that came before it in the list,"
+      },
+      {
+        "lineNumber": 327,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                // or clear the selection if there is no such apparel."
+      },
+      {
+        "lineNumber": 328,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                selectedPerson.setValue(change.getFrom() \u003e 0 ? change.getList().get(change.getFrom() - 1) : null);"
+      },
+      {
+        "lineNumber": 329,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 330,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 331,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 332,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 333,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 334,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public boolean equals(Object obj) {"
+      },
+      {
+        "lineNumber": 335,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // short circuit if same object"
+      },
+      {
+        "lineNumber": 336,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (obj \u003d\u003d this) {"
+      },
+      {
+        "lineNumber": 337,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return true;"
+      },
+      {
+        "lineNumber": 338,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 339,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 340,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 341,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        if (!(obj instanceof ModelManager)) {"
+      },
+      {
+        "lineNumber": 342,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 343,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 344,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 345,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        // state check"
+      },
+      {
+        "lineNumber": 346,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        ModelManager other \u003d (ModelManager) obj;"
+      },
+      {
+        "lineNumber": 347,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return versionedAddressBook.equals(other.versionedAddressBook)"
+      },
+      {
+        "lineNumber": 348,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 userPrefs.equals(other.userPrefs)"
+      },
+      {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                \u0026\u0026 filteredApparels.equals(other.filteredApparels)"
+      },
+      {
+        "lineNumber": 350,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                \u0026\u0026 Objects.equals(selectedPerson.get(), other.selectedPerson.get());"
+      },
+      {
+        "lineNumber": 351,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 352,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 353,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 298,
+        "lineNumber": 354,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "     * Debugging tool to determine and output the property that is different."
       },
       {
-        "lineNumber": 299,
+        "lineNumber": 355,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 300,
+        "lineNumber": 356,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "    public void validateEquality(ModelManager other) {"
       },
       {
-        "lineNumber": 301,
+        "lineNumber": 357,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        if (!versionedAddressBook.equals(other.versionedAddressBook)) {"
       },
       {
-        "lineNumber": 302,
+        "lineNumber": 358,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "            System.out.println(\"versionedAddressBook is different\");"
       },
       {
-        "lineNumber": 303,
+        "lineNumber": 359,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 304,
+        "lineNumber": 360,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": ""
       },
       {
-        "lineNumber": 305,
+        "lineNumber": 361,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        if (!userPrefs.equals(other.userPrefs)) {"
       },
       {
-        "lineNumber": 306,
+        "lineNumber": 362,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "            System.out.println(\"userPrefs is different\");"
       },
       {
-        "lineNumber": 307,
+        "lineNumber": 363,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 308,
+        "lineNumber": 364,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": ""
       },
       {
-        "lineNumber": 309,
+        "lineNumber": 365,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        if (!filteredApparels.equals(other.filteredApparels)) {"
       },
       {
-        "lineNumber": 310,
+        "lineNumber": 366,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "            System.out.println(\"filteredApparels is different\");"
       },
       {
-        "lineNumber": 311,
+        "lineNumber": 367,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 312,
+        "lineNumber": 368,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": ""
       },
       {
-        "lineNumber": 313,
+        "lineNumber": 369,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        if (!Objects.equals(selectedPerson.get(), other.selectedPerson.get())) {"
       },
       {
-        "lineNumber": 314,
+        "lineNumber": 370,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "            System.out.println(\"selectedPerson is different\");"
       },
       {
-        "lineNumber": 315,
+        "lineNumber": 371,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 316,
+        "lineNumber": 372,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 317,
+        "lineNumber": 373,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": ""
       },
       {
-        "lineNumber": 318,
+        "lineNumber": 374,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 319,
+        "lineNumber": 375,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "    public String toString() {"
       },
       {
-        "lineNumber": 320,
+        "lineNumber": 376,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        return \"ModelManager{\""
       },
       {
-        "lineNumber": 321,
+        "lineNumber": 377,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "                + \"versionedAddressBook\u003d\" + versionedAddressBook"
       },
       {
-        "lineNumber": 322,
+        "lineNumber": 378,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "                + \", userPrefs\u003d\" + userPrefs"
       },
       {
-        "lineNumber": 323,
+        "lineNumber": 379,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "                + \", filteredApparels\u003d\" + filteredApparels"
       },
       {
-        "lineNumber": 324,
+        "lineNumber": 380,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "                + \", selectedPerson\u003d\" + selectedPerson"
       },
       {
-        "lineNumber": 325,
+        "lineNumber": 381,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "                + \u0027}\u0027;"
       },
       {
-        "lineNumber": 326,
+        "lineNumber": 382,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 327,
+        "lineNumber": 383,
         "author": {
           "gitId": "-"
         },
@@ -40935,7 +41383,7 @@
     "authorContributionMap": {
       "rafflesandrison": 37,
       "-": 197,
-      "ReinSheer": 93
+      "ReinSheer": 149
     }
   },
   {
@@ -62286,343 +62734,343 @@
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        public int getTotalColor() {"
+        "content": "        public String getTotalColor() {"
       },
       {
         "lineNumber": 217,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 218,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": "        }"
       },
       {
         "lineNumber": 219,
         "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 220,
-        "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
         "content": ""
       },
       {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        @Override"
+      },
+      {
         "lineNumber": 221,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    /**"
+        "content": "        public String getLeastFavApparel() {"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "     * A Model stub that contains a single apparel."
+        "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 223,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "     */"
+        "content": "        }"
       },
       {
         "lineNumber": 224,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "    private class ModelStubWithPerson extends ModelStub {"
+        "content": ""
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        private final Apparel apparel;"
+        "content": "        @Override"
       },
       {
         "lineNumber": 226,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "        public String getCleanOrDirty() {"
       },
       {
         "lineNumber": 227,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "        ModelStubWithPerson(Apparel apparel) {"
+        "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 228,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "            requireNonNull(apparel);"
+        "content": "        }"
       },
       {
         "lineNumber": 229,
-        "author": {
-          "gitId": "ReinSheer"
-        },
-        "content": "            this.apparel \u003d apparel;"
-      },
-      {
-        "lineNumber": 230,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 231,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 232,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        @Override"
-      },
-      {
-        "lineNumber": 233,
-        "author": {
-          "gitId": "rafflesandrison"
-        },
-        "content": "        public boolean hasApparel(Apparel apparel) {"
-      },
-      {
-        "lineNumber": 234,
-        "author": {
-          "gitId": "ReinSheer"
-        },
-        "content": "            requireNonNull(apparel);"
-      },
-      {
-        "lineNumber": 235,
-        "author": {
-          "gitId": "ReinSheer"
-        },
-        "content": "            return this.apparel.isSameApparel(apparel);"
-      },
-      {
-        "lineNumber": 236,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 237,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 238,
+        "lineNumber": 230,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 239,
+        "lineNumber": 231,
         "author": {
           "gitId": "-"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 240,
+        "lineNumber": 232,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "     * A Model stub that always accept the apparel being added."
+        "content": "     * A Model stub that contains a single apparel."
       },
       {
-        "lineNumber": 241,
+        "lineNumber": 233,
         "author": {
           "gitId": "-"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 242,
+        "lineNumber": 234,
         "author": {
           "gitId": "-"
         },
-        "content": "    private class ModelStubAcceptingPersonAdded extends ModelStub {"
+        "content": "    private class ModelStubWithPerson extends ModelStub {"
       },
       {
-        "lineNumber": 243,
+        "lineNumber": 235,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "        final ArrayList\u003cApparel\u003e personsAdded \u003d new ArrayList\u003c\u003e();"
+        "content": "        private final Apparel apparel;"
       },
       {
-        "lineNumber": 244,
+        "lineNumber": 236,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 245,
+        "lineNumber": 237,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        ModelStubWithPerson(Apparel apparel) {"
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "            requireNonNull(apparel);"
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "            this.apparel \u003d apparel;"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 242,
         "author": {
           "gitId": "-"
         },
         "content": "        @Override"
       },
       {
-        "lineNumber": 246,
+        "lineNumber": 243,
         "author": {
           "gitId": "rafflesandrison"
         },
         "content": "        public boolean hasApparel(Apparel apparel) {"
       },
       {
-        "lineNumber": 247,
+        "lineNumber": 244,
         "author": {
           "gitId": "ReinSheer"
         },
         "content": "            requireNonNull(apparel);"
       },
       {
-        "lineNumber": 248,
+        "lineNumber": 245,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            return personsAdded.stream().anyMatch(apparel::isSameApparel);"
+        "content": "            return this.apparel.isSameApparel(apparel);"
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 248,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "    /**"
       },
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": ""
+        "content": "     * A Model stub that always accept the apparel being added."
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "-"
         },
-        "content": "        @Override"
+        "content": "     */"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "rafflesandrison"
+          "gitId": "-"
         },
-        "content": "        public void addApparel(Apparel apparel) {"
+        "content": "    private class ModelStubAcceptingPersonAdded extends ModelStub {"
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "ReinSheer"
         },
-        "content": "            requireNonNull(apparel);"
+        "content": "        final ArrayList\u003cApparel\u003e personsAdded \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 254,
         "author": {
-          "gitId": "ReinSheer"
+          "gitId": "-"
         },
-        "content": "            personsAdded.add(apparel);"
+        "content": ""
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "        @Override"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": ""
+        "content": "        public boolean hasApparel(Apparel apparel) {"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        @Override"
+        "content": "            requireNonNull(apparel);"
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        public void commitAddressBook() {"
+        "content": "            return personsAdded.stream().anyMatch(apparel::isSameApparel);"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
-        "content": "            // called by {@code AddCommand#execute()}"
+        "content": "        }"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "-"
+          "gitId": "rafflesandrison"
         },
-        "content": "        @Override"
+        "content": "        public void addApparel(Apparel apparel) {"
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "        public ReadOnlyAddressBook getAddressBook() {"
+        "content": "            requireNonNull(apparel);"
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "-"
+          "gitId": "ReinSheer"
         },
-        "content": "            return new AddressBook();"
+        "content": "            personsAdded.add(apparel);"
       },
       {
         "lineNumber": 265,
@@ -62636,17 +63084,87 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 268,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public void commitAddressBook() {"
+      },
+      {
+        "lineNumber": 269,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            // called by {@code AddCommand#execute()}"
+      },
+      {
+        "lineNumber": 270,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 271,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 272,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        @Override"
+      },
+      {
+        "lineNumber": 273,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        public ReadOnlyAddressBook getAddressBook() {"
+      },
+      {
+        "lineNumber": 274,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            return new AddressBook();"
+      },
+      {
+        "lineNumber": 275,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 276,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 277,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 278,
         "author": {
           "gitId": "-"
         },
@@ -62656,7 +63174,7 @@
     "authorContributionMap": {
       "rafflesandrison": 10,
       "-": 217,
-      "ReinSheer": 41
+      "ReinSheer": 51
     }
   },
   {
@@ -75209,6 +75727,427 @@
     ],
     "authorContributionMap": {
       "rafflesandrison": 91
+    }
+  },
+  {
+    "path": "src/test/java/seedu/address/logic/commands/StatisticsCommandTest.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "/*"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "package seedu.address.logic.commands;"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "import static seedu.address.logic.commands.CommandTestUtil.assertCommandSuccess;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "import static seedu.address.testutil.TypicalApparels.getTypicalAddressBook;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "import org.junit.Test;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "import seedu.address.logic.CommandHistory;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "import seedu.address.model.Model;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "import seedu.address.model.ModelManager;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "import seedu.address.model.UserPrefs;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "public class StatisticsCommandTest {"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    private CommandHistory commandHistory \u003d new CommandHistory();"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    public void execute_emptyAddressBook_success() {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        Model model \u003d new ModelManager();"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        Model expectedModel \u003d new ModelManager();"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        expectedModel.commitAddressBook();"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String expectedCommandResult \u003d \"Current Statistics:\" + \"\\n\""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                + model.getFavApparel() + \"\\n\""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                + model.getFavColor() + \"\\n\""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                + \"Total Apparel in Wardrobe : \" + model.getFilteredApparelList().size() + \"\\n\""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                + model.getTotalColor() + \"\\n\""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                + model.getLeastFavApparel() + \"\\n\""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                + model.getCleanOrDirty();"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        assertCommandSuccess(new StatisticsCommand(), model, commandHistory,"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                expectedCommandResult, expectedModel);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    public void execute_nonEmptyAddressBook_success() {"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        Model model \u003d new ModelManager(getTypicalAddressBook(), new UserPrefs());"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        Model expectedModel \u003d new ModelManager(model.getAddressBook(), new UserPrefs());"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        expectedModel.setAddressBook(getTypicalAddressBook());"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        expectedModel.commitAddressBook();"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String command1 \u003d model.getFavApparel();"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String command2 \u003d model.getFavColor();"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String command3 \u003d \"Total Apparel in Wardrobe : \" + model.getFilteredApparelList().size();"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String command4 \u003d model.getTotalColor();"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String command5 \u003d model.getLeastFavApparel();"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String command6 \u003d model.getCleanOrDirty();"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        String expectedMessage \u003d String.format(StatisticsCommand.MESSAGE_SUCCESS,"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                String.join(\"\\n\", command1, command2, command3, command4, command5, command6));"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "        assertCommandSuccess(new StatisticsCommand(), model, commandHistory,"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "                expectedMessage, expectedModel);"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "ReinSheer"
+        },
+        "content": "*/"
+      }
+    ],
+    "authorContributionMap": {
+      "ReinSheer": 59
     }
   },
   {

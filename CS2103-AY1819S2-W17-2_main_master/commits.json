@@ -2387,10 +2387,300 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1302,
+        "deletions": 492,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "df2b835d61e02169fd8bb55e6dff32cb969a83d8",
+            "message": "Added blank RecordFindCommand class",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "a23b04f1a335d229685869857e97320394a5f3ea",
+            "message": "Clarified constraints of Procedure",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "103818712682d4d25d9c5d55dd912afa225c6e08",
+            "message": "updated usage of patientFind",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "c4772dc464e0b814bf7f4a5f5d3d6055a91697d2",
+            "message": "format update",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a1874253714497ceab507dc5b1dd1e035563d4db",
+            "message": "Added command words. usage, and basic constructor for rfind",
+            "insertions": 23,
+            "deletions": 0
+          },
+          {
+            "hash": "0b8a0147c8b07ffa71b46cb629b7e924bf89b1cb",
+            "message": "Added record list message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "621f9f2cfde8aa76c51c399c78e7ab5c6a7eb507",
+            "message": "Implemented execute \u0026 equals within rfind",
+            "insertions": 22,
+            "deletions": 1
+          },
+          {
+            "hash": "38a172c428751dabe26cfce8e8b3baecc4816faf",
+            "message": "Added blank recordfindCommandParser",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "34b19c4d27c4e025d41c13f5d43f87044b9a1ff9",
+            "message": "Craeted blank record predicate file",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "a1fa75458668ade163d97a3df3e4c2628111093f",
+            "message": "Implemented DescriptionRecordContainsKeywordsPredicate",
+            "insertions": 45,
+            "deletions": 1
+          },
+          {
+            "hash": "c552b9374d08772ed7744883900f6749e66ac924",
+            "message": "Implemented ProcedureContainsKeywordsPredicate",
+            "insertions": 46,
+            "deletions": 1
+          },
+          {
+            "hash": "6af69b16f488b357726f98b4b470d2efe37f5b46",
+            "message": "Moved to correct package",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "2cc1024e4caf2e58ef9fd49480316b72238fda3c",
+            "message": "updated suggestion",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "cb856b777d93ca1849abc7f0393fec242b0cc4bf",
+            "message": "Implemented RecordFindCommandParser",
+            "insertions": 106,
+            "deletions": 1
+          },
+          {
+            "hash": "a56e399da182520bf5f19d3f1ab0252a3feee931",
+            "message": "Linked recordFind to addressBook parser",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "d62220f6f4893fddd4c12fe5ab0c1868228670d2",
+            "message": "fixed format",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "dddcc99016618e01d8c632cfd782eb64f0e3f9eb",
+            "message": "fixed parser",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d91e50baa97c32e3d81ac1d46be1a024dbf1851d",
+            "message": "generic Predicate",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "6a557c9e44a8b110f2aafd221be664435fcd5e1d",
+            "message": "parser udpate",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "68b3c7b1033c465ce77458b651dd4ca430911d3a",
+            "message": "updated format",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "40795e19b9477d5344d1211c1b64fa10b7eb49f1",
+            "message": "Fixed bug",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "301e7963654a197966df5064fed21e47d92efe6a",
+            "message": "Fixed noka/same bug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f54f0098dc346c214447584c118053904e59a991",
+            "message": "Minor updates",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "deb51c4487857ca20a1b9dcc2c32c464f1f6498e",
+            "message": "Removed magic setence",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "b0f312472240dced2421d2424e516b7ac5143122",
+            "message": "Updated patientFindCommandTest",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "31a41e2b76dd9f3233cbdd4ae34556cbc6685969",
+            "message": "checkstyle update",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "47a8672bb959d91a9ba7648c86f7efb045893706",
+            "message": "updated Messages.java",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "edcdd2eefd7ed63543b3faa353089b965487ef54",
+            "message": "updated Test",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "cf5313858c42fd116f4dfcdf47ad5b51487ddef9",
+            "message": "Added blank RecordFindParserTest",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "14310ec96dc3f42f60e84aecce4f3217e002b331",
+            "message": "Added new constructors",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "d60345ae6435c96b6772b0b04dd47838fd2a848c",
+            "message": "Implemented RecordFindCommandParserTest",
+            "insertions": 69,
+            "deletions": 0
+          },
+          {
+            "hash": "0bda494170263ee0d23b9ef0eef122497e122aa8",
+            "message": "removed unused constructor",
+            "insertions": 1,
+            "deletions": 9
+          },
+          {
+            "hash": "239427a83bee240bd673f57208959fd5d2b57053",
+            "message": "added extra recordFindParser tests",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "895773d5d35ae1b85ee3b23f73566ef3040e27f6",
+            "message": "checkstyle update",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a1d508790402674e98b15c5ab489bfe52c8c5038",
+            "message": "renaming",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "b8af4993ded1a3b416c127bd0766a954a02ccbfb",
+            "message": "created customModelStub for Record testing",
+            "insertions": 301,
+            "deletions": 64
+          },
+          {
+            "hash": "bab75a45954994a2d548d13d11fcf57b2168b63a",
+            "message": "update",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "abf53db556bfe8ff3bb098ef50318da4d17b4cc3",
+            "message": "updated with 1 working test",
+            "insertions": 58,
+            "deletions": 8
+          },
+          {
+            "hash": "f80ed4af9f0c71713b51db9628ae0f4fdd07172f",
+            "message": "added test cleanup for recordtesting",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "83f58a910f4daf414bf925c6005822f4f1966ab5",
+            "message": "Added blank RecordFindCommandTest",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "162684e346398ebf946731b3094e17109b4d33dc",
+            "message": "Moved recordFind tests to proper file",
+            "insertions": 391,
+            "deletions": 0
+          },
+          {
+            "hash": "10048c67d1101d33ddc6137cde79d0ff874a6777",
+            "message": "restored proper recordFindCommandParserTests",
+            "insertions": 69,
+            "deletions": 363
+          },
+          {
+            "hash": "3011d2c4e44eb260f2cc43c93e1fb83ff6270378",
+            "message": "updated tests",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "aec7d692ef34827350db9a4e35541ffa0557270b",
+            "message": "updated predicate testing",
+            "insertions": 24,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 34,
+        "deletions": 1,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "36e4fdd7113447b425abf62810f3efec90fc6ff5",
+            "message": "Added recordList command",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "7e8d6095c6c6976985942754ac902dd8ac33436b",
+            "message": "Updated addressBookParser with recordList",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "521e5b44aef3613958b6222c9366905cb4726e83",
+            "message": "usage update",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "cchj1995": [
@@ -4706,6 +4996,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "kylerwsm": [
@@ -6580,6 +6876,12 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "wSemis": [
@@ -7525,6 +7827,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -9343,8 +9651,8 @@
         ]
       },
       {
-        "insertions": 4,
-        "deletions": 13,
+        "insertions": 380,
+        "deletions": 74,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -9358,24 +9666,54 @@
             "message": "Removed unused import.",
             "insertions": 0,
             "deletions": 3
+          },
+          {
+            "hash": "d151a5b29242dc5d6d768117d858139d661920b7",
+            "message": "Added ExportCommandParserTest.java. Bugfixed SaveCommandParserTest.java: OpenCommand was being returned instead.",
+            "insertions": 90,
+            "deletions": 1
+          },
+          {
+            "hash": "4b753572549e460b84c06306dcc4128a61c2ceb1",
+            "message": "Updated ExportCommandParserTest.java.",
+            "insertions": 249,
+            "deletions": 54
+          },
+          {
+            "hash": "d0ba519c823f24099242c8ba4c13c4bb9a55c36e",
+            "message": "Changed expected slashes to File.separator",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "7273d58b759bc6dffbece0c89447096e852ada9d",
+            "message": "Added empty filename tests to SaveCommandParser.java and ExportCommandParser.java.",
+            "insertions": 27,
+            "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kthSim": 5738,
+    "kthSim": 6583,
     "cchj1995": 5834,
     "kylerwsm": 3793,
     "wSemis": 1043,
-    "JiaHaoLim": 3385
+    "JiaHaoLim": 3698
   },
   "authorContributionVariance": {
-    "kthSim": 102126.164,
-    "cchj1995": 126621.61,
-    "kylerwsm": 59473.133,
-    "wSemis": 690825.56,
-    "JiaHaoLim": 111677.914
+    "kthSim": 141844.61,
+    "cchj1995": 124981.19,
+    "kylerwsm": 58785.7,
+    "wSemis": 680130.6,
+    "JiaHaoLim": 111350.305
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",

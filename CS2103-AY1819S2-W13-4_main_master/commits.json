@@ -563,8 +563,8 @@
         "commitResults": []
       },
       {
-        "insertions": 359,
-        "deletions": 174,
+        "insertions": 532,
+        "deletions": 186,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -620,8 +620,26 @@
             "message": "checkstyle fixes",
             "insertions": 4,
             "deletions": 1
+          },
+          {
+            "hash": "12e1574408264f1b013a071c387f4834028cafc0",
+            "message": "Add \"head staff\" role and put more restriction to normal staff role",
+            "insertions": 169,
+            "deletions": 10
+          },
+          {
+            "hash": "fc1c98bb736e262d59df337b32b0903e13c03107",
+            "message": "checkstyle fixes",
+            "insertions": 4,
+            "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "sickerin": [
@@ -990,6 +1008,12 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
       }
     ],
     "radhika-lakhtakia": [
@@ -1357,6 +1381,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
         "commitResults": []
       }
     ],
@@ -2080,16 +2110,10 @@
         ]
       },
       {
-        "insertions": 202,
-        "deletions": 43,
+        "insertions": 89,
+        "deletions": 42,
         "date": "2019-04-10",
         "commitResults": [
-          {
-            "hash": "50d851ebc264356764d5a3a3cc3dad4a871e2686",
-            "message": "Update the various documentations and first draft PPP",
-            "insertions": 113,
-            "deletions": 1
-          },
           {
             "hash": "2d1643ca881855d5d947f9b36330a0247ba00b1f",
             "message": "Some UI improvements",
@@ -2122,20 +2146,39 @@
             "deletions": 36
           }
         ]
+      },
+      {
+        "insertions": 302,
+        "deletions": 4,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "47e728fa5f1e59d3fa12ae3fe95f2ca892010116",
+            "message": "Update the tests for remall and others",
+            "insertions": 299,
+            "deletions": 1
+          },
+          {
+            "hash": "1b2782f87ab3324451cddf169a69faaef7b4bcab",
+            "message": "Fix the build.gradle file to run test properly",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "chuaes": 5165,
+    "chuaes": 5211,
     "sickerin": 0,
     "radhika-lakhtakia": 0,
-    "wfxronald": 1489
+    "wfxronald": 1790
   },
   "authorContributionVariance": {
-    "chuaes": 478095.34,
+    "chuaes": 473565.1,
     "sickerin": 0.0,
     "radhika-lakhtakia": 0.0,
-    "wfxronald": 49755.984
+    "wfxronald": 49437.387
   },
   "authorDisplayNameMap": {
     "chuaes": "CHU...OON",

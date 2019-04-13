@@ -968,8 +968,8 @@
         ]
       },
       {
-        "insertions": 135,
-        "deletions": 108,
+        "insertions": 235,
+        "deletions": 197,
         "date": "2019-04-11",
         "commitResults": [
           {
@@ -1001,6 +1001,98 @@
             "message": "Update command format to reinclude explanation for \u0027...\u0027",
             "insertions": 2,
             "deletions": 1
+          },
+          {
+            "hash": "9d5a75832710dcb736a4e0a53c051095be59aafe",
+            "message": "Make saving of folders not delete unrelated files",
+            "insertions": 28,
+            "deletions": 20
+          },
+          {
+            "hash": "4396d25f18a9e3e6a637fd36a424a6e85c4a3831",
+            "message": "Rename change command word to \u0027cd\u0027",
+            "insertions": 72,
+            "deletions": 69
+          }
+        ]
+      },
+      {
+        "insertions": 338,
+        "deletions": 239,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "495dd2bada57bb562997098556efc97e31aa20d3",
+            "message": "Update tests",
+            "insertions": 335,
+            "deletions": 239
+          },
+          {
+            "hash": "c9c3a3d0ea7764d7d038ba53ae6cd143623bf7b4",
+            "message": "Add data directory warning to QuickStart in UG",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 1096,
+        "deletions": 209,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "722ab6a8c78fc2d92fc361218068d75d4b01c54d",
+            "message": "Update ModelManagerTest and add AddFolderCommandTest",
+            "insertions": 531,
+            "deletions": 28
+          },
+          {
+            "hash": "767baad4e14ba107aaf7392b52cfa8fbd75ccb7c",
+            "message": "Update StorageManagerTest",
+            "insertions": 97,
+            "deletions": 7
+          },
+          {
+            "hash": "fc996e312d1abd0fc81e4696461bf0ee5388902d",
+            "message": "Add EditFolderTest",
+            "insertions": 127,
+            "deletions": 4
+          },
+          {
+            "hash": "4efd27d3b8755b58c11ca2881699ba3f82ee49b2",
+            "message": "Fix wrong invalid index message for EditFolderCommand",
+            "insertions": 121,
+            "deletions": 2
+          },
+          {
+            "hash": "72e85eb2e6ccbc04088e4dfaf766c05d7c82cb34",
+            "message": "Add DeleteFolderCommandTest",
+            "insertions": 23,
+            "deletions": 56
+          },
+          {
+            "hash": "749d68d1d1cc004c9a1a4c015836630af0f85072",
+            "message": "Update CardFolderTest",
+            "insertions": 36,
+            "deletions": 2
+          },
+          {
+            "hash": "753bbd53d9964fe815b9d0171da64cb5d326d9c4",
+            "message": "Fix resetData() test bug in CardFolderTest",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "ea5ab7d2b2fbc483b82ad868ef7ef115bcd89813",
+            "message": "Refactor tests and remove redundant ModelManager constructor",
+            "insertions": 135,
+            "deletions": 105
+          },
+          {
+            "hash": "d9d5b1894c9d7ce588cbbfb4e21894fbc1a41c28",
+            "message": "Fix bug in StorageManager and update tests accordingly",
+            "insertions": 24,
+            "deletions": 2
           }
         ]
       }
@@ -2292,6 +2384,18 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "dlqs": [
@@ -3515,6 +3619,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -5281,6 +5397,18 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "mmdlow": [
@@ -6547,22 +6675,34 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 5071,
-    "yichong96": 1268,
-    "dlqs": 2654,
-    "KerrynEer": 1846,
-    "mmdlow": 1297
+    "afterdusk": 6166,
+    "yichong96": 1252,
+    "dlqs": 2615,
+    "KerrynEer": 1822,
+    "mmdlow": 1299
   },
   "authorContributionVariance": {
-    "afterdusk": 1450216.0,
-    "yichong96": 14531.95,
-    "dlqs": 145017.47,
-    "KerrynEer": 33341.59,
-    "mmdlow": 26521.0
+    "afterdusk": 1422875.6,
+    "yichong96": 14198.272,
+    "dlqs": 140694.64,
+    "KerrynEer": 32554.252,
+    "mmdlow": 25840.2
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

@@ -392,6 +392,18 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "daviddl9": [
@@ -1466,16 +1478,72 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 76,
+        "deletions": 19,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0989be628789a1859f126ad21463e846a4e20079",
+            "message": "Added logger to assignrequestcommand",
+            "insertions": 76,
+            "deletions": 19
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 282,
+        "deletions": 65,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "e6d4fb26904e692f98d28fa62b85a786b07afe85",
+            "message": "Merged updates from org",
+            "insertions": 252,
+            "deletions": 46
+          },
+          {
+            "hash": "fbb34dd16fbbb3f101799525b3906f7cd84391e5",
+            "message": "Updated assign request to check for conflicting timings of healthworkers",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "2a0276dd8e34988a7c3f391ba36dda0c763fc124",
+            "message": "Fixed edit request command bug",
+            "insertions": 6,
+            "deletions": 9
+          },
+          {
+            "hash": "c58cd729541c45d9c83a056f5b6a20ab2d17da8e",
+            "message": "Updated user guide",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "2444f6bffa4e9da4fca2f1538fdb370b5d3e2db2",
+            "message": "Added minor documentation",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "a3c4674ea8ebac78761659dbe02f102b83a30b6f",
+            "message": "added eof to config",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "jing1324": [
@@ -2465,6 +2533,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -3913,15 +3993,78 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 29,
+        "deletions": 12,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "11b4552372580ef6009aa5bccb81b12b7421390f",
+            "message": "Updated UG filter healthworker command with image example.",
+            "insertions": 18,
+            "deletions": 4
+          },
+          {
+            "hash": "31937c5c332183dd6b2c128eaf3cd7f5cdb3de2a",
+            "message": "Fixed issue with image not rendering.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c8ad0915b2ef2ed8c47c03e4344ebec05ab0ea01",
+            "message": "Added developer guide contributions to PPP.",
+            "insertions": 10,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 254,
+        "deletions": 94,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "e7bb5c30edcb6d98fac6bd575a676fa5fcf6c200",
+            "message": "Added sequence diagrams for filter in Developer Guide. Restructured some components in the Developer Guide.",
+            "insertions": 254,
+            "deletions": 94
+          }
+        ]
+      },
+      {
+        "insertions": 344,
+        "deletions": 338,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "4ec92ec6ad45b3adfb473da0deee0c0ae5d5d40d",
+            "message": "Implemented isAssigned methods in ModelManager, RequestBook and UniqueRequestList.",
+            "insertions": 315,
+            "deletions": 319
+          },
+          {
+            "hash": "3a77c5c71e2322d8c4e510c4e22d3fd5e7d204c2",
+            "message": "Fixed EOF in config.json and healthworkerbook.json",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7479caf0b05fd0609d458d193513d7aa678fd1bd",
+            "message": "Fixed minor bugs in isAssigned tests.",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "93814c3b25e48dc3dd3ada6229ed4ee6b055552f",
+            "message": "Added bug fix to prevent deletion of HealthWorker that are assigned to pending requests.",
+            "insertions": 21,
+            "deletions": 13
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-11",
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -5144,22 +5287,107 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 723,
+        "deletions": 631,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "140992edfc36ac5ad4623a49023ab5a8ca14a7d9",
+            "message": "Changed huichun.adoc to huichun66.adoc for reference.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "639b7c1100cef33b919f951136ebfda93221a5c3",
+            "message": "Uncommented ModelHelper.java",
+            "insertions": 39,
+            "deletions": 39
+          },
+          {
+            "hash": "a67783f29c69d493b8e2d4c264a7a4d978c96e65",
+            "message": "Uncommented some lines in TestApp.java",
+            "insertions": 5,
+            "deletions": 10
+          },
+          {
+            "hash": "b8bdc11a99ddb01630eec81396fa8e8a2b5da1e6",
+            "message": "Uncommented some lines in TestUtil.java and implemented some methods in InfoPanelHandle.java",
+            "insertions": 54,
+            "deletions": 29
+          },
+          {
+            "hash": "9d25cc1b45780d654dd0e2ee386079664e77e9d5",
+            "message": "Edited TypicalRequests and TypicalHealthWorkers sample data to be a bit realistic.",
+            "insertions": 42,
+            "deletions": 17
+          },
+          {
+            "hash": "1a13711842bdc30d0de02708ffa83407fbddf746",
+            "message": "Implemented HelpCommandSystemTest.java",
+            "insertions": 107,
+            "deletions": 106
+          },
+          {
+            "hash": "8cb0d951fb509e722082e5f7afcbddb28c559be1",
+            "message": "Implemented SelectCommandSystemTest.java",
+            "insertions": 161,
+            "deletions": 160
+          },
+          {
+            "hash": "2c7fb288764dac5c617dada7a06d22c7d6a9546d",
+            "message": "Fixed checkstyle errors.",
+            "insertions": 12,
+            "deletions": 11
+          },
+          {
+            "hash": "45ea6561aa42028cec144a3d8a3bd624431e3737",
+            "message": "Modified HealthHubSystemTest.java and implemented DeleteRequestCommandSystemTest.java",
+            "insertions": 252,
+            "deletions": 229
+          },
+          {
+            "hash": "c438efdf0a17a7ccb40f796bdc7068dc6046db14",
+            "message": "Modified typicalrequests and typicalhealthworkers json files for consistency.",
+            "insertions": 31,
+            "deletions": 13
+          },
+          {
+            "hash": "2c54668293dc591fb4c4aaefcfef2deea94e2d43",
+            "message": "Fixed some of the failed tests.",
+            "insertions": 10,
+            "deletions": 8
+          },
+          {
+            "hash": "6911c9e3233adb38b2a3fc02d1f8a407cf2ff079",
+            "message": "Modified typicalrequests.java",
+            "insertions": 9,
+            "deletions": 8
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "brohandev": 22,
-    "daviddl9": 7220,
-    "jing1324": 3795,
-    "Lookuz": 6066,
-    "huichun66": 2857
+    "daviddl9": 7495,
+    "jing1324": 2955,
+    "Lookuz": 6433,
+    "huichun66": 3414
   },
   "authorContributionVariance": {
-    "brohandev": 15.591503,
-    "daviddl9": 141977.75,
-    "jing1324": 866514.06,
-    "Lookuz": 369470.2,
-    "huichun66": 71790.77
+    "brohandev": 15.111113,
+    "daviddl9": 137991.22,
+    "jing1324": 841566.8,
+    "Lookuz": 359338.97,
+    "huichun66": 92878.19
   },
   "authorDisplayNameMap": {
     "brohandev": "ROH...DEV",

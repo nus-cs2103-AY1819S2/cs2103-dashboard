@@ -701,7 +701,7 @@
         "commitResults": []
       },
       {
-        "insertions": 772,
+        "insertions": 776,
         "deletions": 210,
         "date": "2019-04-10",
         "commitResults": [
@@ -722,6 +722,12 @@
             "message": "Fix Filter UI bug",
             "insertions": 19,
             "deletions": 8
+          },
+          {
+            "hash": "7dd5a2fd3955093e46f08949b0a2d5078b53a9cb",
+            "message": "Create method to get current scene",
+            "insertions": 4,
+            "deletions": 0
           }
         ]
       },
@@ -729,6 +735,55 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 538,
+        "deletions": 386,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "ca27ce5b8fe7693e0a6c8d18978a04b312f31dca",
+            "message": "Change picture name to Ui",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fd7c34104ad8e7945e25b207893196dbc6154688",
+            "message": "Delete MainWindow.java",
+            "insertions": 0,
+            "deletions": 359
+          },
+          {
+            "hash": "472aa3d37a13fb39bb86013873f9ece60a974858",
+            "message": "Edit Person Card UI",
+            "insertions": 519,
+            "deletions": 23
+          },
+          {
+            "hash": "4c539cdd0fcbdc2f8bcb5d65087618f1e47a8067",
+            "message": "Edit Filter All UI",
+            "insertions": 15,
+            "deletions": 1
+          },
+          {
+            "hash": "f9310e85a014badff335ec41f7ac2bb68675f556",
+            "message": "Edit select UI",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "ef503d65f889afe8b5862834d56ce1a3bec9b06d",
+            "message": "Edit screen UI",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -1097,6 +1152,18 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -1764,6 +1831,116 @@
             "message": "Fix commons, model and ui test",
             "insertions": 20,
             "deletions": 19
+          }
+        ]
+      },
+      {
+        "insertions": 656,
+        "deletions": 449,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "ef9a2fa66bee890f67b174a3baaa76c56a753989",
+            "message": "Enable automatic adding of persons who applied for job to job",
+            "insertions": 29,
+            "deletions": 6
+          },
+          {
+            "hash": "51e3e9e3a6537eef02f1c82fb3c344e4d4a141de",
+            "message": "Style fix",
+            "insertions": 19,
+            "deletions": 18
+          },
+          {
+            "hash": "089a79022618861eca6f4af3904973565e41e3d7",
+            "message": "Delete Person from Job list and tests",
+            "insertions": 260,
+            "deletions": 7
+          },
+          {
+            "hash": "80c2d16b818be55a808521730aa31399e781867a",
+            "message": "Edit delete command to remove from jobs as well",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "b2b07a74c471755ae94b3337490c8c486abdc2dd",
+            "message": "Fix bugs in test",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "52b21c733705bc8f33b8c72b07135904cc054168",
+            "message": "style fix",
+            "insertions": 15,
+            "deletions": 13
+          },
+          {
+            "hash": "ffe5f8f59c91bcfdb03ec952053e8e4c1dd7a9d9",
+            "message": "Change mp command to do aj command\u0027s role and to enable multiple people",
+            "insertions": 164,
+            "deletions": 275
+          },
+          {
+            "hash": "95e7bd7a09a5ae568bd1a65c60cc1710ee13857c",
+            "message": "Change usage message of movePerson",
+            "insertions": 11,
+            "deletions": 4
+          },
+          {
+            "hash": "0bad0a13965b7f2fda4db255a5b221241a647fcf",
+            "message": "fix JobBuilder bug",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "78bd7c2590531934983a7e18adc15aa21339aae7",
+            "message": "fix bugs",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "89f0b8abe024a93ef06c59fc672bcb9765c1bf88",
+            "message": "fix bugs",
+            "insertions": 55,
+            "deletions": 14
+          },
+          {
+            "hash": "ba173b638a9428c6b13d1f51ff09ef73cf06381f",
+            "message": "fix style",
+            "insertions": 80,
+            "deletions": 91
+          },
+          {
+            "hash": "c41fc855917ea085e262593c27c9e49827322e7b",
+            "message": "fix bug",
+            "insertions": 10,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 375,
+        "deletions": 161,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "226f6b108af1830f43d49bdbeb85678d0196e48f",
+            "message": "Add Remove Command to remove person from list",
+            "insertions": 212,
+            "deletions": 2
+          },
+          {
+            "hash": "871fd1456cf98ccc990933917971ca17444dd97c",
+            "message": "fix style",
+            "insertions": 15,
+            "deletions": 6
+          },
+          {
+            "hash": "e598c8d00fe914faf9fb6f4ee99c6443a56a6908",
+            "message": "fix style",
+            "insertions": 148,
+            "deletions": 153
           }
         ]
       }
@@ -2604,6 +2781,80 @@
             "deletions": 34
           }
         ]
+      },
+      {
+        "insertions": 367,
+        "deletions": 163,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "234ca204d2ca475172d03f489cbe1399259b126a",
+            "message": "Make filter list in All job screen",
+            "insertions": 99,
+            "deletions": 33
+          },
+          {
+            "hash": "a4ff33e76692f279ba25f7940962076246145000",
+            "message": "Make delete filter work in All job screen",
+            "insertions": 13,
+            "deletions": 3
+          },
+          {
+            "hash": "adb23bb551b207532c8741feee5fa2e10165071f",
+            "message": "Handle some errors",
+            "insertions": 54,
+            "deletions": 14
+          },
+          {
+            "hash": "a214066fbc466affffe78398d8a0b703c092f916",
+            "message": "Fix create job",
+            "insertions": 14,
+            "deletions": 3
+          },
+          {
+            "hash": "1ede894bcd52c48ef14866ce28ff762b14ea9a48",
+            "message": "Make error handled",
+            "insertions": 57,
+            "deletions": 13
+          },
+          {
+            "hash": "d5599408f0c9a9c98d21bb0a073b1df43c2cdb3c",
+            "message": "Make add command error handle well",
+            "insertions": 57,
+            "deletions": 2
+          },
+          {
+            "hash": "792fa13a457d9d0ca2f2a2b2b81988e1b653bbea",
+            "message": "Make add command better",
+            "insertions": 47,
+            "deletions": 64
+          },
+          {
+            "hash": "bce0908eda42fff2b0c098c5b34a055424f6622f",
+            "message": "Refine message",
+            "insertions": 26,
+            "deletions": 31
+          }
+        ]
+      },
+      {
+        "insertions": 380,
+        "deletions": 211,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "38d42698e2ba2784f1310cf425dcdeda82620fd5",
+            "message": "Chnage message location",
+            "insertions": 194,
+            "deletions": 175
+          },
+          {
+            "hash": "e15251b246b3a26ecc5f5b69ed6f4de81c586343",
+            "message": "Add tests and fix message",
+            "insertions": 186,
+            "deletions": 36
+          }
+        ]
       }
     ],
     "WeeSooJun": [
@@ -3393,8 +3644,8 @@
         "commitResults": []
       },
       {
-        "insertions": 441,
-        "deletions": 157,
+        "insertions": 442,
+        "deletions": 158,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -3474,6 +3725,12 @@
             "message": "Update PPP",
             "insertions": 0,
             "deletions": 1
+          },
+          {
+            "hash": "0a8fc5d113ff951dc818eeeee8320fbc001a8c7f",
+            "message": "Update version for MainApp",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
@@ -3508,16 +3765,30 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 2,
+        "deletions": 2,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e4046a1efb5b24f527225ae63102fc94605f241f",
+            "message": "Update logger.info",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 22,
+        "deletions": 4,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "cebbb048ccebf5f67c3ff2ded6dbbeb79444cf0a",
+            "message": "Make delete person compatible with interviews",
+            "insertions": 22,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -3530,22 +3801,53 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 4,
+        "deletions": 132,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "89e35a9240c3d2d2a67921516a8ba22fa3679f62",
+            "message": "Resolve checkStyle issues for UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5fef3f1595cada1b2b97dd1b280521ac7844af29",
+            "message": "Fix documentation issues",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ade410f8c760e05d8c83dc5c4d4cc9f12f40564b",
+            "message": "Fix Systemtests",
+            "insertions": 2,
+            "deletions": 130
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "chiuyuhua": 4501,
+    "chiuyuhua": 4650,
     "COGnitiveAspian": 0,
-    "DanielDSSim": 1703,
-    "CaesarTY": 3784,
-    "WeeSooJun": 1535
+    "DanielDSSim": 2162,
+    "CaesarTY": 4186,
+    "WeeSooJun": 1533
   },
   "authorContributionVariance": {
-    "chiuyuhua": 120693.19,
+    "chiuyuhua": 127449.87,
     "COGnitiveAspian": 0.0,
-    "DanielDSSim": 50370.04,
-    "CaesarTY": 65941.61,
-    "WeeSooJun": 16773.578
+    "DanielDSSim": 69512.88,
+    "CaesarTY": 70134.266,
+    "WeeSooJun": 16417.318
   },
   "authorDisplayNameMap": {
     "chiuyuhua": "CHI...HUA",

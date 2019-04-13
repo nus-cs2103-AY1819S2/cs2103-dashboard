@@ -598,9 +598,40 @@
         "commitResults": []
       },
       {
+        "insertions": 670,
+        "deletions": 134,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "3c036520cabcaa612e99d772f4194f8e3ba8332f",
+            "message": "Add TestCases for AddCapEntryCommand Add TestCases for DeleteCapEntryCommand Add TestCases for EditCapEntryCommand",
+            "insertions": 584,
+            "deletions": 99
+          },
+          {
+            "hash": "18d17e16043b2fb1a5624ce92fb15e5aab485196",
+            "message": "Fix for checkStyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "99749886460fc26cd906468094c10946798f26bc",
+            "message": "Add Cap calculation function to be work with undo and redo commands",
+            "insertions": 80,
+            "deletions": 2
+          },
+          {
+            "hash": "1ac61d5d95545fc4089ef2c99a2c2233dd4a3c94",
+            "message": "Fix CheckStyle",
+            "insertions": 5,
+            "deletions": 32
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-12",
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -1310,6 +1341,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -2138,8 +2175,8 @@
         "commitResults": []
       },
       {
-        "insertions": 113,
-        "deletions": 0,
+        "insertions": 115,
+        "deletions": 2,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -2165,8 +2202,26 @@
             "message": "Updated Messages class and UltiStudenParser for the FindModuleCommand.",
             "insertions": 5,
             "deletions": 0
+          },
+          {
+            "hash": "f586d9b74f5daed60c5b113985a1a24a085f488f",
+            "message": "Renamed naming conventions of files.",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "3658920c6e42ca30ce0f6e1e7c9b73cd326e0813",
+            "message": "Updated AboutUs.adoc",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "NgWeiXin": [
@@ -2974,10 +3029,23 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 69,
+        "deletions": 43,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "54896ef29d66fe7c623ae290457afe862742854a",
+            "message": "Updated PPP and fixed Notes Manager main panel bug",
+            "insertions": 28,
+            "deletions": 12
+          },
+          {
+            "hash": "f73eaf3f57c26fc02b4c480c3a9eb6cf86cdc136",
+            "message": "Fixed bugs in notes manager edit and save functionality",
+            "insertions": 41,
+            "deletions": 31
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -2990,20 +3058,51 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 8,
+        "deletions": 8,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "6fe5da34d05f5206f8ca77a0f9edbd3e20063e6d",
+            "message": "Rename personal doc name",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "857294d659d5d08ae06233ec3908f9844509f1b6",
+            "message": "Change CapManagerSubPanel UI label",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d12ef84558f8fa76a95c252eb2cd247bc9e73793",
+            "message": "Change Icons for respective managers",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "1a625baa2161b4a3160c02a8f997a277cf080998",
+            "message": "Changed Icon for UltiStudent",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "andrewscw": 4215,
-    "shimeilee": 8639,
-    "LimZhengJieBenjamin": 2498,
-    "NgWeiXin": 5407
+    "andrewscw": 4760,
+    "shimeilee": 8635,
+    "LimZhengJieBenjamin": 2499,
+    "NgWeiXin": 5426
   },
   "authorContributionVariance": {
-    "andrewscw": 179595.72,
-    "shimeilee": 1009182.3,
-    "LimZhengJieBenjamin": 29661.389,
-    "NgWeiXin": 729338.0
+    "andrewscw": 183479.89,
+    "shimeilee": 993656.4,
+    "LimZhengJieBenjamin": 29248.455,
+    "NgWeiXin": 717793.06
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",

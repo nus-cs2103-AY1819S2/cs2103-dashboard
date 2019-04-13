@@ -796,6 +796,12 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "JeremyLoye": [
@@ -1494,15 +1500,64 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 626,
+        "deletions": 147,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f1ddba26374903a6a82e0e77b1731f42d1fd76f1",
+            "message": "Amount can now only contain positive numbers (\u003e0)",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "2ba6a6fd3d1a1ad04a1945de78d85fe6340e865b",
+            "message": "Fixed bug of spend data not being updated before allocate is set. Made set function able to set budget multiple times.",
+            "insertions": 33,
+            "deletions": 13
+          },
+          {
+            "hash": "5178ee7f5f887881e4dae395fbc2fa2ce982f0f5",
+            "message": "Added support for undo/redo of SetFileCommand",
+            "insertions": 201,
+            "deletions": 61
+          },
+          {
+            "hash": "73f353dd4412b01952919b565a7a101847cdd2ec",
+            "message": "Updated support for undo/redo of SpendCommand to work with allocated budgets",
+            "insertions": 21,
+            "deletions": 4
+          },
+          {
+            "hash": "f16b2681812f03300b160a55e3afca2c617a8d66",
+            "message": "Changed logic of Budget to reflect changes to CategoryBudget in EditCommand",
+            "insertions": 29,
+            "deletions": 1
+          },
+          {
+            "hash": "9590d2cb33bae5d42a9e0cbcec0da30f3cb1a19b",
+            "message": "Merge https://github.com/CS2103-AY1819S2-W17-3/main into week12",
+            "insertions": 292,
+            "deletions": 53
+          },
+          {
+            "hash": "c0d806a3c9ccdcaaad90367fb37c214731e484d4",
+            "message": "Merge https://github.com/CS2103-AY1819S2-W17-3/main into week12",
+            "insertions": 46,
+            "deletions": 14
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -2471,8 +2526,8 @@
         ]
       },
       {
-        "insertions": 70,
-        "deletions": 76,
+        "insertions": 89,
+        "deletions": 119,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -2480,8 +2535,20 @@
             "message": "Updated UG, DG, PPP",
             "insertions": 70,
             "deletions": 76
+          },
+          {
+            "hash": "71308a8cabb25d8de2fd68655dd48c330a5978e7",
+            "message": "Updated UG and PPP",
+            "insertions": 19,
+            "deletions": 43
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "eugeneyl": [
@@ -3375,6 +3442,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -4664,26 +4737,64 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 23,
+        "deletions": 9,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1a59aa29bf6aae8afbd8ff2d1a04869ee8a977f4",
+            "message": "Included diagrams in user guide",
+            "insertions": 12,
+            "deletions": 3
+          },
+          {
+            "hash": "a4ae25777f3a1102f750062fc0dc242d527e673e",
+            "message": "Added diagram for reverse command",
+            "insertions": 11,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 12,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "db452a74b49a6ebd6301cac9e985893765ce8b34",
+            "message": "Updated lifelines in the two diagrams",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "3567e725da6733b5ede2ce0d1f36504f5667115d",
+            "message": "Updated sort implementation in dg",
+            "insertions": 45,
+            "deletions": 6
+          },
+          {
+            "hash": "38550debe6b0c3bcf2bbc21f462928ef96e68eda",
+            "message": "Removed design considerations for reverse command",
+            "insertions": 0,
+            "deletions": 5
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "geezlouisee": 1982,
-    "JeremyLoye": 1555,
-    "Jackimaru96": 3722,
-    "eugeneyl": 2553,
-    "kjiaxuan": 4442
+    "JeremyLoye": 1769,
+    "Jackimaru96": 3729,
+    "eugeneyl": 2534,
+    "kjiaxuan": 4494
   },
   "authorContributionVariance": {
-    "geezlouisee": 34031.8,
-    "JeremyLoye": 108164.78,
-    "Jackimaru96": 94708.13,
-    "eugeneyl": 333388.34,
-    "kjiaxuan": 183777.52
+    "geezlouisee": 33579.24,
+    "JeremyLoye": 113383.08,
+    "Jackimaru96": 93551.17,
+    "eugeneyl": 328327.03,
+    "kjiaxuan": 180883.16
   },
   "authorDisplayNameMap": {
     "geezlouisee": "LOUISE LEE HUI LING",
