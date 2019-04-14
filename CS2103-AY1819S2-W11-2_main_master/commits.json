@@ -1315,6 +1315,146 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 693,
+        "deletions": 108,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "ddeb5cb66e1bbb8e86970d21a7d22a14a849f5ae",
+            "message": "refactor: refactor staff related files to staff packages",
+            "insertions": 59,
+            "deletions": 35
+          },
+          {
+            "hash": "5a6523d70ea3507212ac9633c89cd4bef9a10242",
+            "message": "style: fix import order",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "540f6698862cb80a51d5e51848bdca4ae40fe533",
+            "message": "style: fix import order",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "884916edffc7f9970c74eb57fad29e3d1eaceb6d",
+            "message": "logic/commands/staff: add ListStaffCommand",
+            "insertions": 65,
+            "deletions": 0
+          },
+          {
+            "hash": "cccfaf97f778c868f543d77f4325152e86fd23f5",
+            "message": "model/person/staff: add StaffPredicate",
+            "insertions": 44,
+            "deletions": 0
+          },
+          {
+            "hash": "9d32952f2a9ae4967bb4410dca2154d09eed3264",
+            "message": "logic/commands/staff: update list staff command",
+            "insertions": 6,
+            "deletions": 22
+          },
+          {
+            "hash": "7186d56d66938f04744be075988e52c158039ba4",
+            "message": "logic/parser/staff: add parser for list staff command",
+            "insertions": 60,
+            "deletions": 3
+          },
+          {
+            "hash": "fcfc5f725a63413e4ded06b00d3af6076a83a403",
+            "message": "logic/parser: handle list staff command",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "8ac4e406603f3467aa19fa5357b6910fd19c4cbc",
+            "message": "create additional packages",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "62ca9767df6292c9231221e0d24d0291040f5a71",
+            "message": "docs: update user guide",
+            "insertions": 13,
+            "deletions": 12
+          },
+          {
+            "hash": "925258d84fe161ba46f9311fe5f55b85b95b468b",
+            "message": "docs: update user guide",
+            "insertions": 32,
+            "deletions": 6
+          },
+          {
+            "hash": "0b148469c32d1a910a67268f625f362d70c7f3db",
+            "message": "docs: update user guide",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "1aac5a66f87aaac02095fc128b751c8bec9c94b1",
+            "message": "tests: add tests for AddShiftCommandParser",
+            "insertions": 139,
+            "deletions": 1
+          },
+          {
+            "hash": "4b7dc813bf0a7d3368253a1a267c6e7775eea795",
+            "message": "tests: add tests for DeleteShiftCommandParser",
+            "insertions": 160,
+            "deletions": 19
+          },
+          {
+            "hash": "614f2c2e6d35f7985043984b59796c3206dcb5eb",
+            "message": "style: remove unused imports",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "c0fd75fcbf90c54094c369403d562a67f9e03f53",
+            "message": "tests: add tests for ListStaffCommandParser",
+            "insertions": 44,
+            "deletions": 0
+          },
+          {
+            "hash": "3c7bfa551521e7fc213637a36d9cb03c4885fa7f",
+            "message": "tests: add tests for UpdateCapacityCommandParser",
+            "insertions": 45,
+            "deletions": 0
+          },
+          {
+            "hash": "88b9537a23a351b8f9f055c1b54eacae63b5c715",
+            "message": "style: remove unused imports",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 264,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "accfd64e63ddb776bdee51ba551e9e954437e16b",
+            "message": "tests: add tests for JsonAdaptedIngredientAndQuantity",
+            "insertions": 116,
+            "deletions": 0
+          },
+          {
+            "hash": "20da6e9740c0b751d01da0ad035e6f133d818cec",
+            "message": "tests: add tests for JsonAdaptedBooking",
+            "insertions": 133,
+            "deletions": 0
+          },
+          {
+            "hash": "63e13e40d23d2488f8ba8efce83bf22697af4413",
+            "message": "tests: add additional tests for JsonAdaptedBooking and JsonAdaptedIngredientAndQuantity constructors",
+            "insertions": 15,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "lingyanhao": [
@@ -2928,6 +3068,56 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 85,
+        "deletions": 75,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "9f05ae5771e75907a7a15df9d7f8b4cabfab8f74",
+            "message": "Update dev guide, make image look nicer",
+            "insertions": 1,
+            "deletions": 26
+          },
+          {
+            "hash": "8f02847c9bb4a40abc7754edc588b4a1697b3e76",
+            "message": "Refactor project structure + add javadocs",
+            "insertions": 79,
+            "deletions": 44
+          },
+          {
+            "hash": "fa542b061fbea8bd662bcb125b415ee6b757639a",
+            "message": "Change import order",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "02d482d9180009321d6fa600bd75c28ce1d62c57",
+            "message": "Change import order",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 8,
+        "deletions": 9,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "a0da6fbeab92d9ca72a25c4a775f87a192a42249",
+            "message": "Fix json bug",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "c4ce8c90654dc29448447ad6ca1541c864ee6294",
+            "message": "Update MainWindow.java",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "hiyingnn": [
@@ -4164,6 +4354,18 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "limli": [
@@ -5284,20 +5486,70 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 118,
+        "deletions": 74,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "fdfcefc0cdfce62f39c798b5f92764b842c08e4b",
+            "message": "arrange folders",
+            "insertions": 105,
+            "deletions": 61
+          },
+          {
+            "hash": "6f1a407d4d5080e04d2e6ff157e5b4b877477e90",
+            "message": "fix checkstyle",
+            "insertions": 13,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 51,
+        "deletions": 9,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "c7e385282953c5b7740d94d53a01cf6ef9cc4da3",
+            "message": "make capacity visible on ui",
+            "insertions": 42,
+            "deletions": 7
+          },
+          {
+            "hash": "0a025aad9370d9da8014fea4c7387bdda1bfa9df",
+            "message": "fix checkstyle",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "7d29cd7fcb5aa6d3da3070515302b1620387de19",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fcf778e4366be22b87c730be0d9db54df2cc40e1",
+            "message": "fix compile error in ModelStub",
+            "insertions": 6,
+            "deletions": 0
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "zj-cs2103": 5651,
-    "lingyanhao": 4563,
-    "hiyingnn": 4764,
-    "limli": 3587
+    "zj-cs2103": 6489,
+    "lingyanhao": 4582,
+    "hiyingnn": 4756,
+    "limli": 3682
   },
   "authorContributionVariance": {
-    "zj-cs2103": 75963.445,
-    "lingyanhao": 80831.6,
-    "hiyingnn": 94206.39,
-    "limli": 247014.42
+    "zj-cs2103": 80494.016,
+    "lingyanhao": 78665.64,
+    "hiyingnn": 91881.53,
+    "limli": 239527.94
   },
   "authorDisplayNameMap": {
     "zj-cs2103": "WAN...IAN",

@@ -1032,10 +1032,72 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 334,
+        "deletions": 199,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a0052d77b16a456db081aca6203555e53c055230",
+            "message": "Add limits to string length, number of batches and number of tags allowed",
+            "insertions": 122,
+            "deletions": 32
+          },
+          {
+            "hash": "7b13b0a1ef6df8cc1c531405ae26565cb60c45a8",
+            "message": "Edit description for add, edit, find command",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "68871ab90cc663afae00ca1f9f24d9764570a017",
+            "message": "Make font size dynamic in informmation panel",
+            "insertions": 19,
+            "deletions": 4
+          },
+          {
+            "hash": "c5294d5b8c1f9441af762876804848e5ef73d0f7",
+            "message": "Add final tests for update command and information panel",
+            "insertions": 18,
+            "deletions": 15
+          },
+          {
+            "hash": "3b6ef97528bc546c700d4c1a0b20f20fda1a6bfb",
+            "message": "Move methods for testing to InformationPanelHandle",
+            "insertions": 136,
+            "deletions": 118
+          },
+          {
+            "hash": "bfa80ad66146e80d674b8d5b527dc73c37bb9646",
+            "message": "Change arguments for SortCommand",
+            "insertions": 33,
+            "deletions": 24
+          }
+        ]
+      },
+      {
+        "insertions": 474,
+        "deletions": 213,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "8d6661b2b1ff389fd8f43c5c6d4c0864485c9c99",
+            "message": "Various code style changes",
+            "insertions": 167,
+            "deletions": 206
+          },
+          {
+            "hash": "8ae6e3826b376f1c789a4056236e06c6fb907514",
+            "message": "Add UpdateCommandSystemTest",
+            "insertions": 307,
+            "deletions": 6
+          },
+          {
+            "hash": "31841ecc0ea5aefa3f13152dc839b3d74470e55c",
+            "message": "Remove trailing whitespace",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "kevvvinn": [
@@ -1415,6 +1477,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -2114,6 +2182,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -3376,6 +3450,31 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 9,
+        "deletions": 4,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "451dca57b91e068017a72bfc6e3fb03b0665c54d",
+            "message": "Update CsvWrapper.java",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "d788056977f5de8b31331c4d2a736a028cce8d50",
+            "message": "Update FileName.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "66f56df3d2fd10ef929e50f84db9546c3aa77738",
+            "message": "Update UserGuide.adoc",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "flxffy": [
@@ -4270,8 +4369,8 @@
         ]
       },
       {
-        "insertions": 72,
-        "deletions": 150,
+        "insertions": 307,
+        "deletions": 279,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -4297,24 +4396,60 @@
             "message": "changed import order",
             "insertions": 11,
             "deletions": 9
+          },
+          {
+            "hash": "fd19885d0a1e26f0c4fd0466f3c75fb4f70c213a",
+            "message": "changed condition for date and threshold",
+            "insertions": 153,
+            "deletions": 73
+          },
+          {
+            "hash": "fa8587b97714024e05a9fccc34c5724bbeadb783",
+            "message": "catch exception for invalid threshold when loading from user pref",
+            "insertions": 19,
+            "deletions": 9
+          },
+          {
+            "hash": "954c1047fb9aa3f28d9afe99192a15f08bffd6e9",
+            "message": "lambda style",
+            "insertions": 12,
+            "deletions": 13
+          },
+          {
+            "hash": "711dab923372467a9d8a58f50419e28521669761",
+            "message": "lambda style",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "febb8f2af87383313d19ea3d8438e02769884e9e",
+            "message": "changed configuration for user pref and added test",
+            "insertions": 42,
+            "deletions": 25
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jtankw3": 7471,
+    "jtankw3": 7870,
     "kevvvinn": 0,
     "melpulomas": 721,
-    "JonathanLeeWH": 1394,
-    "flxffy": 2773
+    "JonathanLeeWH": 1397,
+    "flxffy": 2860
   },
   "authorContributionVariance": {
-    "jtankw3": 1022791.94,
+    "jtankw3": 1008430.25,
     "kevvvinn": 0.0,
-    "melpulomas": 4776.717,
-    "JonathanLeeWH": 87474.96,
-    "flxffy": 33353.363
+    "melpulomas": 4712.159,
+    "JonathanLeeWH": 86177.31,
+    "flxffy": 36554.734
   },
   "authorDisplayNameMap": {
     "jtankw3": "TAN...SON",

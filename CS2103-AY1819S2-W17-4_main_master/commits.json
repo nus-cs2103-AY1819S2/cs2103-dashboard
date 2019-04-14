@@ -1048,8 +1048,8 @@
         ]
       },
       {
-        "insertions": 162,
-        "deletions": 194,
+        "insertions": 206,
+        "deletions": 319,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -1069,8 +1069,74 @@
             "message": "update DG and PPP",
             "insertions": 32,
             "deletions": 9
+          },
+          {
+            "hash": "bb7f206216f3b4f8658c5f56c3431d76f97a0477",
+            "message": "commit before merge",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "a0e67ce083c3df03b513c79d5d7a6e3cba8e09f1",
+            "message": "remove title in the aboutUs page",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "de901a064a381dbc9260cb2981c2d2769bff99e0",
+            "message": "removes v2.0 in ppp",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "e509c0892685fb1b5a9a4f94f62a8498621bbbfc",
+            "message": "modify autocomplete to auto-complete",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "109d4e5dc8a8418b312d9fcb50d11c0e24ba43e5",
+            "message": "update ppp",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "b1f5c9e667c8c6a87ca1589595488a14ceb69bec",
+            "message": "update ppp",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "f8493f7bd1182cb90422dd04e141ef8a75bf589c",
+            "message": "modify ppp",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3af75d36ead7a3e678b2b64c31c093679292c11c",
+            "message": "modify ppp",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e6dbea7fdf52e79ec80345052d64a6453395314d",
+            "message": "modify ppp",
+            "insertions": 9,
+            "deletions": 88
+          },
+          {
+            "hash": "7672e429df8b27b53473b07c851f3b0a9cdddf55",
+            "message": "fixed bug in commandbox test",
+            "insertions": 9,
+            "deletions": 10
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "kev-inc": [
@@ -1691,9 +1757,40 @@
         ]
       },
       {
+        "insertions": 205,
+        "deletions": 35,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "e305718d7d5f6f23425ebb6acbcbbdeacb2aa0f5",
+            "message": "fixed goal-savings difference to 2dp",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "b2dfae7b0e96f0c115bf193cc8b309bbc183e860",
+            "message": "added text wrap for goal in UI",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "5cf0364bb4f7286d325b224790f4b14da667cf6d",
+            "message": "refined my commands and tests",
+            "insertions": 97,
+            "deletions": 23
+          },
+          {
+            "hash": "1c8aa089c12f6ebe5aa1b38c5c7e36dd4b7ee43b",
+            "message": "added editallowancecommandtest, nametest and costtest",
+            "insertions": 101,
+            "deletions": 7
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -2184,6 +2281,19 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 10,
+        "deletions": 4,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "640ffef828afdb3268e2f9d5d6dbb12ad18a222b",
+            "message": "Update UG \u0026 DG",
+            "insertions": 10,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "tehwenyi": [
@@ -4448,8 +4558,8 @@
         ]
       },
       {
-        "insertions": 207,
-        "deletions": 149,
+        "insertions": 208,
+        "deletions": 150,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -4523,14 +4633,274 @@
             "message": "checkstyle changes",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "beb4f39940f294eed2240e9e0bf8c8aecf691887",
+            "message": "fix missing addBudgetSequenceDiagram in dev guide",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 337,
+        "deletions": 357,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ab340257eeb0b01bf8324c0cf159015221b34d75",
+            "message": "Add section headers for user guide and dev guide, command format and callouts",
+            "insertions": 18,
+            "deletions": 2
+          },
+          {
+            "hash": "8ee23c79c164a1e0d9d5325034bbc052a2f54af4",
+            "message": "edit section headers",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d878e9116b2e50af0e7c1bee6029f7334a59e899",
+            "message": "update section headers",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "a46bc1887d4aa98d32641ffb0968b3d60519f417",
+            "message": "decrease size of section headers",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "492290d00b41276918a9769799a0ac6e810843d3",
+            "message": "Add more section headers",
+            "insertions": 11,
+            "deletions": 8
+          },
+          {
+            "hash": "07f5ac3b63387848abff8a2bd1bbfe21b83838ed",
+            "message": "Add additionalInformation header",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "bd3a354958dfb8c858b1eb11f32b36e1edd88c29",
+            "message": "Add spaces",
+            "insertions": 52,
+            "deletions": 13
+          },
+          {
+            "hash": "6c4b9343e515165be11d32f5351991f7a4256d7f",
+            "message": "remove spaces",
+            "insertions": 2,
+            "deletions": 30
+          },
+          {
+            "hash": "9ff5062993c13825233f18f070f8706848b23db5",
+            "message": "Add example section headers",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "37a1bbcdd6c9807e08f3695a505521fb386e523e",
+            "message": "reduce size of example section header",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "0e33821583ca1c0b49fc541cc48e46690b70b82a",
+            "message": "Add budget status",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "663d31c22e7dc2e0266b3cb7ad63d68e8045ec47",
+            "message": "standardise spaces",
+            "insertions": 2,
+            "deletions": 15
+          },
+          {
+            "hash": "0c7de9b17d7c8351782228a69c6865838242bb10",
+            "message": "Add FAQ header",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "5001193b25a649627a38712567da898e85a2da4c",
+            "message": "increase size of FAQ header",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c0db6f4ee36388692d438511c0761a59f9babae7",
+            "message": "change autocomplete to auto-complete",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "547b219bcda4998729aa61e57a4bbb4bb7882683",
+            "message": "standardise diagram size",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "31bc30c139c25b0f422a982fd13a57fe43de1e6c",
+            "message": "update PPP",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "ad2748d124c05f90c502c2a863821ef4d8e47a3e",
+            "message": "add headers to PPP",
+            "insertions": 18,
+            "deletions": 10
+          },
+          {
+            "hash": "e421b2802212f309b4edd1f482a70f92d7cd70d7",
+            "message": "Add more section headers in PPP",
+            "insertions": 27,
+            "deletions": 17
+          },
+          {
+            "hash": "6216bef9a2073fc12329251c806d3e52caa03e53",
+            "message": "reformat PPP",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "a54c39c6a4f4d8b1e9f26d5da60aadb62ce1e9fa",
+            "message": "update PPP section headers sizes",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "584c6267004e5612aa88f165b7991ac9c17fa024",
+            "message": "increase section headers sizes",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "2d1d78504e5cfd8c8ba51dce1ebcc6ca89ce3c63",
+            "message": "format PPP",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4a490c1b87827be14cc9b8914fb3ecfe82f6bd4b",
+            "message": "reformat PPP",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "4caf676831288d3c048422995159966574a68866",
+            "message": "udpate major enhancement",
+            "insertions": 11,
+            "deletions": 7
+          },
+          {
+            "hash": "599bfc6c9f581e3216426d389e84b62a0fb343d6",
+            "message": "update PPP and update Ui in user guide",
+            "insertions": 52,
+            "deletions": 44
+          },
+          {
+            "hash": "9d3d9d52b0c7831d0892b81c8a8d7657abf7114c",
+            "message": "fix typo in PPP",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "015d2ef99217377c0feb5e6f1977d0ba0b561998",
+            "message": "update PPP",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "3ca339bb10782f9f9f3ebd61bb22a580051f907a",
+            "message": "edit tags in dev guide",
+            "insertions": 14,
+            "deletions": 6
+          },
+          {
+            "hash": "5b89459598d2400bf26fdd2a1ada4b4ee8097548",
+            "message": "update PPP",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "869e91e588063f377e9a9254d40cc352450d4db7",
+            "message": "remove links from appearing on PPP",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "f8735c071037308fa1aef6a59ff18c338630e942",
+            "message": "fix extracts not showing up in PPP",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d70004e36a108098ca9c9ddf949c3d1471bbe12d",
+            "message": "fix extracts not showing up in PPP",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "ceb2a2ea511123a1340b2f086485598a53d96ebc",
+            "message": "update ppp",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "6cdc7de123afe1e09eee3b1feddd0b2a8089e84e",
+            "message": "delete johndoe ppp",
+            "insertions": 0,
+            "deletions": 72
+          },
+          {
+            "hash": "4802b6b7997aff9765520c26fafbb6e728f2217d",
+            "message": "remove title for PPP",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "49f4c309e4a181de19bd58ec320bb459538e5b45",
+            "message": "Cut down on PPP",
+            "insertions": 17,
+            "deletions": 26
+          },
+          {
+            "hash": "af592189588bb3a92860bd5a8bbf615c244b04a4",
+            "message": "cut down further on PPP",
+            "insertions": 5,
+            "deletions": 11
+          },
+          {
+            "hash": "2cd502cd0f0c4d5277e6f174826a4041a79e4adf",
+            "message": "fix typo in dev guide",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "0c30d559c58b399b8c94ba720328c1bc7c723b4c",
+            "message": "checkstyle fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2b7a4072810891827d5c0ceb198950032fabe22e",
+            "message": "checkstyle fix",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "rahulb99": [
@@ -5538,8 +5908,8 @@
         ]
       },
       {
-        "insertions": 1,
-        "deletions": 34,
+        "insertions": 303,
+        "deletions": 134,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -5547,24 +5917,66 @@
             "message": "removed helpcommand in epiggy/",
             "insertions": 1,
             "deletions": 34
+          },
+          {
+            "hash": "e377d6ce4adf7790eba3955d624975c92bf75202",
+            "message": "updated README for coverage",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "79b4e1cd2e7f1e34cde61949255b01ce22c46bc5",
+            "message": "updated README for appveyor",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "bfa02f8f64cbe32003dd71105c9a6d8fa0eeb6e1",
+            "message": "updated README for codacy",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5d885c4948235889598725f8303f64cd0a6a25c5",
+            "message": "added netlify to readme",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "f3d6ecc83d77c01de33aa4e63579bafdd92fd739",
+            "message": "Update UG, DG and PPP",
+            "insertions": 117,
+            "deletions": 82
+          },
+          {
+            "hash": "e00984a9f786e8f49674366ee78799b3902c2371",
+            "message": "added SortCommandSystemTest",
+            "insertions": 181,
+            "deletions": 13
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "yunjun199321": 3592,
-    "kev-inc": 1346,
-    "pdnm": 747,
-    "tehwenyi": 5388,
-    "rahulb99": 2411
+    "yunjun199321": 3551,
+    "kev-inc": 1504,
+    "pdnm": 756,
+    "tehwenyi": 5423,
+    "rahulb99": 2631
   },
   "authorContributionVariance": {
-    "yunjun199321": 53256.03,
-    "kev-inc": 22534.174,
-    "pdnm": 4425.609,
-    "tehwenyi": 266890.94,
-    "rahulb99": 892328.9
+    "yunjun199321": 54328.85,
+    "kev-inc": 22790.396,
+    "pdnm": 4356.5376,
+    "tehwenyi": 265878.97,
+    "rahulb99": 879271.06
   },
   "authorDisplayNameMap": {
     "yunjun199321": "WU ...JUN",

@@ -1231,6 +1231,18 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "ckjohn000": [
@@ -2330,6 +2342,18 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "xsot": [
@@ -3318,6 +3342,56 @@
             "message": "Update tests",
             "insertions": 0,
             "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 17,
+        "deletions": 27,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "d353e8f85433baa6c758d5738336da8f99c90f7c",
+            "message": "Update comments for state classes",
+            "insertions": 17,
+            "deletions": 27
+          }
+        ]
+      },
+      {
+        "insertions": 274,
+        "deletions": 185,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "9773aeb2bfd0096efcd2e707b094b3640cc2d092",
+            "message": "Separate parsing logic from states",
+            "insertions": 233,
+            "deletions": 163
+          },
+          {
+            "hash": "98685101bc4d4211bf0fb7e7277c967385cecb64",
+            "message": "Simplify ListCommand",
+            "insertions": 8,
+            "deletions": 14
+          },
+          {
+            "hash": "a12300880543e975437a0870e41467fcbf4a5b11",
+            "message": "Fix newline at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5194667777be4c7759736b792f6b01d7647e0be1",
+            "message": "Write documentation for classes",
+            "insertions": 26,
+            "deletions": 2
+          },
+          {
+            "hash": "0d26c8c9869b7f35f2aef40bb267c753d9ee0315",
+            "message": "Update some documentation",
+            "insertions": 6,
+            "deletions": 5
           }
         ]
       }
@@ -4501,24 +4575,177 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 64,
+        "deletions": 34,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a0605943b098ba4552b74f17ae1fbd0b6024ec38",
+            "message": "Create Copy Constructor for DeckShuffler",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "732837c355f84a122d8781dd965284bd871a7645",
+            "message": "Create copy constructor for Study view, equality test for study view, and clean up unused items in Study view",
+            "insertions": 11,
+            "deletions": 9
+          },
+          {
+            "hash": "45d5d4a5ff11c63d25b803a03d7da2e88f10c087",
+            "message": "Fix test for Generate Question Command",
+            "insertions": 16,
+            "deletions": 12
+          },
+          {
+            "hash": "ddc9238b41ae31cc1fe154e864747123a2172b76",
+            "message": "Fix ShowAnswerTest and correct generatequestion typo",
+            "insertions": 14,
+            "deletions": 13
+          },
+          {
+            "hash": "7dcbe986cb26a8cca6f55703f7e8f7fe9aa5c22c",
+            "message": "Test for EmptyDeckException",
+            "insertions": 19,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 388,
+        "deletions": 73,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "490b29b014ccebe0e161a38689f9f9dc3e9ea038",
+            "message": "Create test for study deck command parser",
+            "insertions": 55,
+            "deletions": 0
+          },
+          {
+            "hash": "ae23fd656d162a1bfc0b8f44fd795602daca770f",
+            "message": "Write test for open deck parser",
+            "insertions": 57,
+            "deletions": 1
+          },
+          {
+            "hash": "e17986a9717a4ccc99146c7044ba09c1239b23ed",
+            "message": "Write tests for GenerateQuestionCommandParser",
+            "insertions": 62,
+            "deletions": 6
+          },
+          {
+            "hash": "624cd730138faf8c5ee7e2b6fe2f98cea1f944d7",
+            "message": "Try to solve editcarderror",
+            "insertions": 14,
+            "deletions": 6
+          },
+          {
+            "hash": "a35fb37e0741d4e1a013667f87f40f6010a16e49",
+            "message": "Fix checkstyle complaints on EOF",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "6d695160cdd7983236aa8cd04c3bf616a7eeb928",
+            "message": "Add newline to end of files",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4888b4d844ddd202d47ae89481a6846c92b81751",
+            "message": "Clean up Study View",
+            "insertions": 4,
+            "deletions": 20
+          },
+          {
+            "hash": "3affc5e782f43042687b934495be0c430bc588f2",
+            "message": "Refactor in order to rewrite GenerateQuestionCommand",
+            "insertions": 32,
+            "deletions": 15
+          },
+          {
+            "hash": "c675d081751aa02b72c9467fcb8636faecd96c1b",
+            "message": "Reset Valid Exported Deck",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2fa967d4a51b4b7e9d923e24740bfa7bb6645857",
+            "message": "Rewrite copy constructors",
+            "insertions": 12,
+            "deletions": 4
+          },
+          {
+            "hash": "01c4ed7cab0fac0db3c99ac46fa7c3119f058d3e",
+            "message": "Write tests for studyview and make minor mods to generateqncommand",
+            "insertions": 49,
+            "deletions": 3
+          },
+          {
+            "hash": "be5670d52d9fe5afedf7cc64dcb119deb6426554",
+            "message": "Write equality test for DeckShuffler, and fix checkstyle errors",
+            "insertions": 34,
+            "deletions": 3
+          },
+          {
+            "hash": "4e1e1a65942b28deca5861ad318c6689e9be4907",
+            "message": "Add parser tests for study view",
+            "insertions": 38,
+            "deletions": 0
+          },
+          {
+            "hash": "59f0e874a7947311fa6b58af775ad09b1b32afe9",
+            "message": "Write tests for study parser",
+            "insertions": 21,
+            "deletions": 5
+          },
+          {
+            "hash": "d697c855da0ea4932c9f5e390cc2a2006be8c1dd",
+            "message": "Change topdeck to save every time new question is generated",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 177,
+        "deletions": 123,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "4f1403b4ce67c3949d5ee664af22e98a19ac6728",
+            "message": "Update UG general UI description",
+            "insertions": 38,
+            "deletions": 6
+          },
+          {
+            "hash": "9564512e5810c5faf0a26b25e71918f8217d12c0",
+            "message": "Fix UG",
+            "insertions": 93,
+            "deletions": 42
+          },
+          {
+            "hash": "03014a5dddcd3c0b4db96dd7951c6299042d19b9",
+            "message": "Fix checkstyle errors",
+            "insertions": 46,
+            "deletions": 75
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 5462,
-    "ckjohn000": 5513,
-    "xsot": 1888,
-    "sciffany": 2802
+    "ChangDarren": 5401,
+    "ckjohn000": 5463,
+    "xsot": 2064,
+    "sciffany": 3233
   },
   "authorContributionVariance": {
-    "ChangDarren": 494492.72,
-    "ckjohn000": 116412.23,
-    "xsot": 48286.652,
-    "sciffany": 489079.8
+    "ChangDarren": 482550.88,
+    "ckjohn000": 113650.58,
+    "xsot": 48749.82,
+    "sciffany": 475155.47
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

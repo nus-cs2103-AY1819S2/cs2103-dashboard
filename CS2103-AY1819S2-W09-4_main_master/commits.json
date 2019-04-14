@@ -840,16 +840,84 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 150,
+        "deletions": 124,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8925fef62da00513f902cab31f559c34a6d6f1ce",
+            "message": "update userguide",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "50e14ffb07f00c9404743484cf3a87fa2cf96b51",
+            "message": "update developer guide for logic",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "373bcce1016d8a7ea4e479e5e09c67734f7cfbe1",
+            "message": "update use case and manual testing section for statistics. update current implmentation section for statistics and record section",
+            "insertions": 119,
+            "deletions": 97
+          },
+          {
+            "hash": "783db04555122fe2609e4c93fcb4b487749a75f3",
+            "message": "update developer guide for statistics implmentation - alternatives considered",
+            "insertions": 11,
+            "deletions": 10
+          },
+          {
+            "hash": "eb709b8cae9b742ae89df3660e27a50223ac1fdc",
+            "message": "add record creation sd to developer guide",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "ddec5ae4bae4eb3e1e901c96014fcdab7f45ad99",
+            "message": "fixed Sequence Diagram for creating records",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bfa956b63fbc0d5f95ec8a43a5b56ad598d3b28e",
+            "message": "added SD for adding a record",
+            "insertions": 9,
+            "deletions": 7
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 211,
+        "deletions": 52,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1bcd1088c54a895e34ce93bb6aaa1eed4c7c9802",
+            "message": "update userguide command summary. added draft ppp for self",
+            "insertions": 176,
+            "deletions": 25
+          },
+          {
+            "hash": "4b36f87de8bfb5dd4a9261b5104126a30d9ea182",
+            "message": "fixed some userguide formatting, and alias error",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "6c04bfec868b0b88b6a505dbb72206a5c34054ae",
+            "message": "fixed userguide formatting for Format and Alias",
+            "insertions": 29,
+            "deletions": 20
+          },
+          {
+            "hash": "e0d84a270dedc4518f146e053a076ae25e143020",
+            "message": "add newline at eof to ppp",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "ongaaron96": [
@@ -2468,22 +2536,79 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 155,
+        "deletions": 42,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f75e54f9ef26a32c7499c597a42e15c92f4397e5",
+            "message": "Edited comments for add and edit patient",
+            "insertions": 25,
+            "deletions": 17
+          },
+          {
+            "hash": "6628dfefb9e4eb814e3d1d8ca6b9a7fb09cf751d",
+            "message": "Edited testcases and comments for listpatient and deletepatient",
+            "insertions": 130,
+            "deletions": 25
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 150,
+        "deletions": 126,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "79c5efd295825aefc16c513bac63c62f0b956fcc",
+            "message": "Commented and refractor JsonAdaptedPatient and JsonAdaptedConsultation",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "5832562a63b1ab02ee7cb303a4b34883e8ecbc42",
+            "message": "Refractor and add comments to rootlayout",
+            "insertions": 61,
+            "deletions": 52
+          },
+          {
+            "hash": "fff2711c03ac75bf979c93d5173ff18b37b773ad",
+            "message": "Documentation edits",
+            "insertions": 86,
+            "deletions": 69
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 109,
+        "deletions": 76,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "69398a99287680da72dd4b0d333407f9f01fa1f0",
+            "message": "Added comments for patient component classes",
+            "insertions": 30,
+            "deletions": 17
+          },
+          {
+            "hash": "8bad067854b3a8b4b53b8edca5c0d989b9f7982c",
+            "message": "UGDG edits",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "fe21e202449290b15608f76d3b94ff3e63c87225",
+            "message": "Commenting and refractoring for consultation features",
+            "insertions": 36,
+            "deletions": 20
+          },
+          {
+            "hash": "4916c83d8ef5c8174340714cf188bc58f03da6ab",
+            "message": "UG edits",
+            "insertions": 36,
+            "deletions": 32
+          }
+        ]
       }
     ],
     "Xue-Chenyang": [
@@ -3527,15 +3652,15 @@
     ]
   },
   "authorFinalContributionMap": {
-    "bentwj": 1646,
+    "bentwj": 1859,
     "ongaaron96": 0,
-    "simjiazhi": 7525,
-    "Xue-Chenyang": 5536
+    "simjiazhi": 7604,
+    "Xue-Chenyang": 5396
   },
   "authorContributionVariance": {
-    "bentwj": 22988.107,
+    "bentwj": 24119.672,
     "ongaaron96": 0.0,
-    "simjiazhi": 156160.39,
+    "simjiazhi": 154198.23,
     "Xue-Chenyang": 878829.25
   },
   "authorDisplayNameMap": {

@@ -874,8 +874,8 @@
         ]
       },
       {
-        "insertions": 106,
-        "deletions": 81,
+        "insertions": 274,
+        "deletions": 92,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -913,13 +913,62 @@
             "message": "Fix formatting",
             "insertions": 0,
             "deletions": 1
+          },
+          {
+            "hash": "6ae083b0c87fb49f11435bc69a568886ef5b30d4",
+            "message": "Add RemoveProjectTaskFromCommand and dependencies",
+            "insertions": 138,
+            "deletions": 7
+          },
+          {
+            "hash": "206958b93f9ce5cc69dea9cf0b8ebc064f328402",
+            "message": "Enhance RemoveFromParser to parse removing project tasks",
+            "insertions": 30,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 179,
+        "deletions": 107,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "306bc1bde286f6e110199995b9ebd141ef59b6a1",
+            "message": "Add unit test and parser test for RemoveProjectTaskFromCommand",
+            "insertions": 140,
+            "deletions": 8
+          },
+          {
+            "hash": "b9a9444fee37e6d0fd9401a51083872a02771300",
+            "message": "Fix formatting",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "26e13e534b6ba1edf7a10735da1d48bf52413391",
+            "message": "Update parser test",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "fdc38d9009e38ce02264715ecf9edd3cbf1b469e",
+            "message": "Remove completion date from project tasks",
+            "insertions": 35,
+            "deletions": 96
+          },
+          {
+            "hash": "27e54efc03eb5738023772c9a2b9787ce6d68ca9",
+            "message": "Fix formatting",
+            "insertions": 0,
+            "deletions": 1
           }
         ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -2643,6 +2692,12 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "dehui333": [
@@ -4084,6 +4139,12 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "shunnizuka": [
@@ -5301,6 +5362,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -7352,8 +7419,8 @@
         ]
       },
       {
-        "insertions": 110,
-        "deletions": 4,
+        "insertions": 181,
+        "deletions": 43,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -7361,24 +7428,67 @@
             "message": "updated date feature",
             "insertions": 110,
             "deletions": 4
+          },
+          {
+            "hash": "ebb5f828e69e7a298751ac70a1583da20b8ca998",
+            "message": "fixed bugs. regression testing complete",
+            "insertions": 69,
+            "deletions": 37
+          },
+          {
+            "hash": "c4d64e11357b6a876a9a9ec61c29fdf42a1e0e1d",
+            "message": "fixed errors",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 82,
+        "deletions": 35,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "d185f2014f28d1781570fd22f7598834b7f2dc19",
+            "message": "updated regex for date so that it no longer accepts 1900 dates",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "47458087f3eb34c4ee0aaf3ba18570dd6fbb77ab",
+            "message": "added tests for pocket project parser",
+            "insertions": 77,
+            "deletions": 30
+          },
+          {
+            "hash": "1ff35ece8b6d3a06ef6c7a378320b6f98be0d1f6",
+            "message": "fixed formatting",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "77c680387bac8d5c015f9f1d19dbc96e8d4c8343",
+            "message": "fixed failing test",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ditan96": 4416,
-    "jeffgan96": 6410,
-    "dehui333": 3869,
-    "shunnizuka": 4395,
-    "jothipillay": 5744
+    "ditan96": 4629,
+    "jeffgan96": 6374,
+    "dehui333": 3866,
+    "shunnizuka": 4393,
+    "jothipillay": 5856
   },
   "authorContributionVariance": {
-    "ditan96": 213109.94,
-    "jeffgan96": 151515.53,
-    "dehui333": 102205.984,
-    "shunnizuka": 63061.11,
-    "jothipillay": 139208.48
+    "ditan96": 210548.89,
+    "jeffgan96": 149963.38,
+    "dehui333": 100897.8,
+    "shunnizuka": 62288.215,
+    "jothipillay": 137029.11
   },
   "authorDisplayNameMap": {
     "ditan96": "DAR...ANG",

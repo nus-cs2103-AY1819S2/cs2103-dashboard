@@ -799,8 +799,8 @@
         ]
       },
       {
-        "insertions": 112,
-        "deletions": 3,
+        "insertions": 184,
+        "deletions": 28,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -814,6 +814,67 @@
             "message": "checkstyle",
             "insertions": 0,
             "deletions": 3
+          },
+          {
+            "hash": "2a2523d092f008a96990da5740b4b677c2b0da90",
+            "message": "update to user guide",
+            "insertions": 41,
+            "deletions": 15
+          },
+          {
+            "hash": "707e8f3ee9138101aba6ae18c61669c93f265b06",
+            "message": "small update to ug",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "aba9ef87c2c840d47eb4387513bd4de176249cf0",
+            "message": "accepts tiff for save function. updated tests",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "36fe51ffa0270c9d268d31bd26a787f8eef5cf15",
+            "message": "update to ug",
+            "insertions": 19,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 84,
+        "deletions": 63,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "17114020b19e340ce3fc839461af91a89671d117",
+            "message": "updates to developer guide",
+            "insertions": 70,
+            "deletions": 49
+          },
+          {
+            "hash": "5a93aa9e963557d39c46f6996e3221a9ac2f41b5",
+            "message": "some changes",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4ca544d84d1f03084eb91eb5306d338dab04c365",
+            "message": "some edits",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "49c4d1d9055701cc1bec1ab1e4604e949bda3c18",
+            "message": "type",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "9ca45af456cafe04776c4b0aa519758bf8b7368d",
+            "message": "edits",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       }
@@ -1473,9 +1534,22 @@
         ]
       },
       {
+        "insertions": 1,
+        "deletions": 12,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "63bef6de469604de6d905f2c622f508d1891ec16",
+            "message": "Remove some lines of code",
+            "insertions": 1,
+            "deletions": 12
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -2567,10 +2641,60 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 269,
+        "deletions": 106,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "12adb355d30d9e9a938f2a068c2c99a06eaf3838",
+            "message": "Updates to UG/DG/PPP. Minor refactoring of exisiting code. Minor unit tests updates.",
+            "insertions": 84,
+            "deletions": 36
+          },
+          {
+            "hash": "93848bf62cf681743c643cebf63ad88c5218d829",
+            "message": "Add additional details on assets, temp, and import command restrictions.",
+            "insertions": 171,
+            "deletions": 59
+          },
+          {
+            "hash": "8abc91604c2a11ea43377655ede60393bfb49604",
+            "message": "Refresh sequence diagram to fit theme.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "069a347972cd60d82076d76a68f6274a424cebd4",
+            "message": "Update author tags.",
+            "insertions": 10,
+            "deletions": 7
+          },
+          {
+            "hash": "33fd2ee277aaac5357a29c7f302c4a7ab80eed9b",
+            "message": "Update two additional image formats.",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "21222df3577f7ef592c90153891b7971a0650145",
+            "message": "Modify Gradle Build to remove web header.",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 4,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "e5a08c58c2cc4935b72ed7ac4cf5eb2f9032998b",
+            "message": "Update image captions and change Gradle Build webpage and title.",
+            "insertions": 5,
+            "deletions": 4
+          }
+        ]
       }
     ],
     "randytqw": [
@@ -3122,6 +3246,61 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 208,
+        "deletions": 22,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "0b0d041e9aefb93826da1350ef646f67ba261b33",
+            "message": "add export and exportparser test",
+            "insertions": 184,
+            "deletions": 7
+          },
+          {
+            "hash": "0bb57db4b883a42445696979b5cb8554839ed8b5",
+            "message": "update DG",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "0fb71f30a165a4d5bb5659ee701c2bc675d36508",
+            "message": "Update DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b828521f9056b12ba8edbaa3f2b192f0d92adf8d",
+            "message": "Update DG",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "fedb14a49d055e88a9b41f09266d741fc9062bf7",
+            "message": "Update UG",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "19a5cbc9e59a67074e82345a80e6da713494d307",
+            "message": "Update again",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "b0f00b01c7272578e9777b4ba5b0c465800d27be",
+            "message": "more updates",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "d7c4b22ee858549e13a15f398d812ed5ae5d6628",
+            "message": "add export",
+            "insertions": 7,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "thamsimun": [
@@ -4085,22 +4264,28 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "itszp": 796,
-    "kayheen": 1352,
-    "carrein": 2582,
-    "randytqw": 558,
-    "thamsimun": 1867
+    "itszp": 932,
+    "kayheen": 1281,
+    "carrein": 2811,
+    "randytqw": 789,
+    "thamsimun": 1865
   },
   "authorContributionVariance": {
-    "itszp": 3800.2322,
-    "kayheen": 22196.092,
-    "carrein": 308935.72,
-    "randytqw": 6106.277,
-    "thamsimun": 35034.54
+    "itszp": 4360.935,
+    "kayheen": 21865.547,
+    "carrein": 304717.53,
+    "randytqw": 6673.664,
+    "thamsimun": 34596.52
   },
   "authorDisplayNameMap": {
     "itszp": "TAY...ENG",

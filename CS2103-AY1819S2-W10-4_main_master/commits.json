@@ -1036,8 +1036,8 @@
         ]
       },
       {
-        "insertions": 1096,
-        "deletions": 209,
+        "insertions": 1251,
+        "deletions": 279,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -1093,6 +1093,79 @@
             "message": "Fix bug in StorageManager and update tests accordingly",
             "insertions": 24,
             "deletions": 2
+          },
+          {
+            "hash": "60e5dd16d1ab71670e7b541cc9a7fc1e4db162f4",
+            "message": "Update User Guide Quick Start",
+            "insertions": 30,
+            "deletions": 11
+          },
+          {
+            "hash": "ab350ee74b9e1122f89733529fafefbd71047a9e",
+            "message": "Further additions to UG Quick Start",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "db19e9017a36788f41df1a2425dec975f353d577",
+            "message": "Update UI.png",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ba67f3516db87b1219964bc8912ddc86b3013142",
+            "message": "Update PPP",
+            "insertions": 81,
+            "deletions": 32
+          },
+          {
+            "hash": "12a42e7092a15a5b9bda941f44549919f6e7036d",
+            "message": "Fix typos and rephrase some sentences",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "e4f787c7aa374979cdf107ec11f4f9401db9d6cb",
+            "message": "Update Developer Guide",
+            "insertions": 26,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 99,
+        "deletions": 33,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "549be0c6dc366e20fbf802bf04a43d70f78fe3ea",
+            "message": "Fix mistakes in DG and PPP",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "6614ae78bff66ac9fcedcde6aa56310d422478a5",
+            "message": "Add manual testing for folders",
+            "insertions": 79,
+            "deletions": 18
+          },
+          {
+            "hash": "6d1ba9989512365c65951ab9a5f0ae1cebe40b59",
+            "message": "Fix checkstyle issues",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "570137c4a80c8f67fefca8c0e4a87ea95cee5f15",
+            "message": "Replace \u0027the user\u0027 with \u0027you\u0027 in UG",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "487150f089a1951f1b77d74f1fc61e1c88266f5f",
+            "message": "Update addfolder command in UG to have UI image",
+            "insertions": 5,
+            "deletions": 1
           }
         ]
       }
@@ -2396,6 +2469,12 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "dlqs": [
@@ -3604,10 +3683,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 41,
+        "deletions": 20,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "55e733e9a875d9e35f730d354330996e6bcb9b1d",
+            "message": "add minimum questions answered for commiting",
+            "insertions": 16,
+            "deletions": 3
+          },
+          {
+            "hash": "55e5db8a8de6d6512c52ec5d0116d9e00cf0a213",
+            "message": "update user guide",
+            "insertions": 12,
+            "deletions": 8
+          },
+          {
+            "hash": "6f09b73782fec7cda583d889f3a902e36abcb2b3",
+            "message": "change score appearance to percentage",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "069647238d52fa139ccd330c49d320938e68db9e",
+            "message": "add line about minimum number of questions",
+            "insertions": 7,
+            "deletions": 3
+          },
+          {
+            "hash": "4b6001f59ae852511ca0d55f004b613da0da4566",
+            "message": "checkstyle fix",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -3628,10 +3738,72 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 145,
+        "deletions": 1,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "40fe8eb47782d96214e3b43890c20a3de1d2a3e0",
+            "message": "add test for sort command",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "238f1d9c30eb0791f8c81cf05396ac9451ee4ab8",
+            "message": "add comparator test",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "e52c589c563e2a1d2daf06766ae1c09e9867e3d5",
+            "message": "add test for end report",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "c54fd83c3e2af6f6ab6f3a9381000eb256c3d058",
+            "message": "fix checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "82296ec7327769031ee52c5a7e3ac32a2c853e0c",
+            "message": "add system test for report",
+            "insertions": 108,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 133,
+        "deletions": 3,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "9802c49a96070a8b5292cd02d82260c63905a178",
+            "message": "add test system test",
+            "insertions": 130,
+            "deletions": 0
+          },
+          {
+            "hash": "01a95128c700fa9b96a518357c4374da33d9ba76",
+            "message": "update comment",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9b0700d13125e4bb5c50ed7934079afbe6328e62",
+            "message": "fix comment",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "54b644e7ac5e4ed7522e7ae3d3d032c0bfb77f55",
+            "message": "fix naming",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "KerrynEer": [
@@ -5405,9 +5577,160 @@
         "commitResults": []
       },
       {
+        "insertions": 330,
+        "deletions": 115,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "66da2b772a553e6bcc068184fb1c0945a18fddc3",
+            "message": "Replace previous saveLocation in status bar to currentStatus",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "3b785bb4166805794b0b44f62550e4080aeaf884",
+            "message": "Replace saveLocation with current status in comment",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "02e7ce9c66ca7b27ba3488eed2c7a6f6d705e1c2",
+            "message": "Add test command logic junit and integration test for an empty folder",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "c4cb5172bc061e70cf7411c55b38b8a6561582e8",
+            "message": "Add next command test for the case when there are no more cards in the folder.",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "925d3dfdefeda35ff0887259e5d88be072d94d67",
+            "message": "Fix set current tested Card test method name typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "aeea1bb60a7f1f9078ea345b42bfa6a1e3ea69a1",
+            "message": "Correct mistake in set current tested card test method in ModelManager",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ae2edbb28a797cf13003596a6831924412444873",
+            "message": "Refactor testCardFolder() to startTestSession() in model",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "9a076dd2cb93183eba39aa99fb7e004f8f19ec1e",
+            "message": "Fix typo in comment for sort test in model",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1e50f08d239cc22a847f747b6ed6ed9ac9d3b463",
+            "message": "Add getters in Model Manager for testing - get current tested card folder - get num answered correctly",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "8e9fc6a1f177db5dff8abfca4519afab785ed5c7",
+            "message": "Add setup methods for test session related tests",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "9a503b3cfb48a2d9f9dc31edffe731ce06cd7167",
+            "message": "Add tests for test session ModelManager methods and use assertNull/Non-Null",
+            "insertions": 78,
+            "deletions": 2
+          },
+          {
+            "hash": "d98ae692082405af5dd2650e8b3ae0d6f73c1688",
+            "message": "Revert commit: add test command logic junit and integration test for an empty folder - this is tested in modelManager test",
+            "insertions": 0,
+            "deletions": 20
+          },
+          {
+            "hash": "36f569f8ef98daf77330f91f6b9e53d9fda87fb3",
+            "message": "Fix checkstyle",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "f5cadbce445dc954d8061ae57783aa8eb6d018b6",
+            "message": "Fix error due to duplicate card folder names for next command test",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "6a37add477b4bf23c9cb63de33193e9ec23a4361",
+            "message": "Remove old comment",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c998f8646e77806071ade1e85812ad9e754500f4",
+            "message": "Refactor some contents in browser panel to flashcard context",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "217804613d19ed8f5a73fb8af2125201a62fa305",
+            "message": "Update User guide",
+            "insertions": 24,
+            "deletions": 19
+          },
+          {
+            "hash": "aabab51feec59df79a9dfa008f7d523205d47fd3",
+            "message": "Update DG",
+            "insertions": 17,
+            "deletions": 16
+          },
+          {
+            "hash": "45fd0698139a5cf01c2a5ec727f222fa108e4f49",
+            "message": "Update PPP",
+            "insertions": 13,
+            "deletions": 5
+          },
+          {
+            "hash": "7deb651f8faee15a33b4b0a79ce7bd8c54662c44",
+            "message": "Add manual testing for test session features in DG",
+            "insertions": 77,
+            "deletions": 3
+          },
+          {
+            "hash": "2aefb17cf95530f1461f68b08f7262484037e966",
+            "message": "Remove se-edu bar from website",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "d751c00a22453a26bf5f1036e0862bad6451c65c",
+            "message": "Fix typos in DG and ppp",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "f90b843d4e54516ce1ab389b73e28deae391e81b",
+            "message": "Remove space in manual testing instructions in DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "44e26914f2e4b552394dc7583d7fd2ff492209bf",
+            "message": "Fix typo in PPP",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -6665,44 +6988,161 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 3,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "32f89adcbd5c6e86ebe6ba5185225ae5b64fa4bf",
+            "message": "Change browser panel UI colors",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 212,
+        "deletions": 106,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5e77c117acf7054ac4d1d9e4f1b2ba6d0d45361b",
+            "message": "Add message for illegal number of arguments for card operations",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "68f1308b905d341e6af0d1ae6eefccac2b99bda0",
+            "message": "Create CardOperationUtil class",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "f1a0285b6fd5aa5233ec24aa67a040717ed0badb",
+            "message": "Add minor changes to CardOperationUtil class",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "ba77bb0be382b264a7692ba5a63582467b32097f",
+            "message": "Check number of valid arguments for add command",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "b09c597594e0ef5c4cd4b11396c1c624b93abfe1",
+            "message": "Check number of valid arguments for edit command",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "d0acd24a441664d983d522f4ee2f4d7b12702585",
+            "message": "Add message for exceeding max command length",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "5d306e6a407243eaab15e65522a82000df56b9ec",
+            "message": "Restrict max command length to 1024 characters",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "89ce57575b8675c69487a2e0e095e16d8683055a",
+            "message": "Increase max command length to 10000",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "915f82fcbb962edb00fe92140d87a621022b75d6",
+            "message": "Restrict max length for questions, answers, hints and options",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "3fe5a10149873d9dde6604d43773d5ff3015dfd6",
+            "message": "Update message constraints for questions, answers, hints and options",
+            "insertions": 12,
+            "deletions": 9
+          },
+          {
+            "hash": "84e9bd8de799eb5922cdc7b5ab43e6846539d465",
+            "message": "Abstract out max number of question, answer, hint and option to Card",
+            "insertions": 19,
+            "deletions": 11
+          },
+          {
+            "hash": "d1af85360a579f0893eab9fb4f411a47977e26b4",
+            "message": "Update junit tests for AddCommandParserTest",
+            "insertions": 60,
+            "deletions": 29
+          },
+          {
+            "hash": "7d57ce23c505cb807d1eeafea576e991b7316f48",
+            "message": "Update junit tests for EditCommandParserTest",
+            "insertions": 44,
+            "deletions": 37
+          },
+          {
+            "hash": "32cec3b5e03c91687bb6e768b4da56df1baff813",
+            "message": "Update junit tests for system tests",
+            "insertions": 8,
+            "deletions": 9
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 22,
+        "deletions": 10,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "2c2d99280aa88bcc6d2752347593920a94b9c5f5",
+            "message": "Add junit test for command length exceeding max length",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
+            "hash": "519bb3f137b23ffe63d88e2471c8d7786ddace82",
+            "message": "Update user guide",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "138b83917a81ee302762e399772fd4cb6753a061",
+            "message": "Rename PPP",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 6166,
+    "afterdusk": 6251,
     "yichong96": 1252,
-    "dlqs": 2615,
-    "KerrynEer": 1822,
-    "mmdlow": 1299
+    "dlqs": 2915,
+    "KerrynEer": 2070,
+    "mmdlow": 1466
   },
   "authorContributionVariance": {
-    "afterdusk": 1422875.6,
-    "yichong96": 14198.272,
-    "dlqs": 140694.64,
-    "KerrynEer": 32554.252,
-    "mmdlow": 25840.2
+    "afterdusk": 1408967.2,
+    "yichong96": 14036.302,
+    "dlqs": 138302.97,
+    "KerrynEer": 33973.758,
+    "mmdlow": 26307.92
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",

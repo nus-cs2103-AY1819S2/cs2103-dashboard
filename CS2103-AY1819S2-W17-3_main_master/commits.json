@@ -792,16 +792,97 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 144,
+        "deletions": 47,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "00af18caadd4684ad98a70a1bd9ca98f52d4a773",
+            "message": "Added more colors, still have to update GuiTestAssert",
+            "insertions": 101,
+            "deletions": 1
+          },
+          {
+            "hash": "ed7814c6cd89af56da6616837e7cde5975c84760",
+            "message": "Edited summaryPanel",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "f9eda475bc08bfd6969efe458e730cdeaf3d3f65",
+            "message": "Edited GuiTestAssert.java",
+            "insertions": 34,
+            "deletions": 37
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 103,
+        "deletions": 229,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0f0e9b0be16ef0ba7d9bd2dfa85def47756068ad",
+            "message": "updated User Guide - Summary Feature",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "632fe91e8f1acfd703cd8395a61004fc75d2fec5",
+            "message": "updated User Guide - v2.0",
+            "insertions": 17,
+            "deletions": 9
+          },
+          {
+            "hash": "b79865f54345585f9c56af59846d999e8bd56c39",
+            "message": "Removed D3.js related files since not needed anymore",
+            "insertions": 11,
+            "deletions": 176
+          },
+          {
+            "hash": "0f6cc649125df6ef64399b538825438b403b2718",
+            "message": "Updated DG - Summary Feature",
+            "insertions": 50,
+            "deletions": 27
+          },
+          {
+            "hash": "e06e7ecabcd69fd2cfb802d5fb55c8b5170580d8",
+            "message": "Minor edits and formatting to UG and DG",
+            "insertions": 13,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 63,
+        "deletions": 77,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "2c4d05b93c04ef0ad11ee10f47de789cebd52057",
+            "message": "Updated PPP",
+            "insertions": 24,
+            "deletions": 43
+          },
+          {
+            "hash": "66048a0dfe88a3edba867f79555c63a4f47fa696",
+            "message": "Added more colors for category tags",
+            "insertions": 37,
+            "deletions": 32
+          },
+          {
+            "hash": "4ce7cdec71a295200a9044acd461b55ef97b2548",
+            "message": "Resolved checkstyleMain errors",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6995f7d5f2c64405fddf1acd5110e4e7f2b2eb3f",
+            "message": "Resolved checkstyleMain errors",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "JeremyLoye": [
@@ -1549,15 +1630,83 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 55,
+        "deletions": 11,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6eaf5e1f3aa7a737cb26e2206012c1db3b82099f",
+            "message": "Made changes to set, setfile and undo sections of UserGuide.adoc",
+            "insertions": 48,
+            "deletions": 8
+          },
+          {
+            "hash": "3acb20f550506049117be2add01e3fc19c9f2338",
+            "message": "Made setfile only accept filenames that are 250 chars or lesser to conform to filename length limit",
+            "insertions": 7,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 389,
+        "deletions": 116,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "c71f5e24d3f2797e2bdf0ea466edf0edba81adf1",
+            "message": "Major revamp of JeremyLoye PPP and minor example edit in UserGuide",
+            "insertions": 119,
+            "deletions": 59
+          },
+          {
+            "hash": "33ad24c228d58dd83246c51e781ab590ef93ecec",
+            "message": "Limit filenames to 250 characters and under",
+            "insertions": 1,
+            "deletions": 7
+          },
+          {
+            "hash": "44f1ccad94f3c18ebfa82a0f95c43b6dcec249b4",
+            "message": "Checkstyle fixes",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b7cd2a33dfc1e787f479aff7c7fe52606a9fa521",
+            "message": "Fully implemented SetFileCommandTest logic",
+            "insertions": 117,
+            "deletions": 10
+          },
+          {
+            "hash": "920d7ce43dd01719c6a77d83d87b9ab151495550",
+            "message": "Minor fixes",
+            "insertions": 1,
+            "deletions": 12
+          },
+          {
+            "hash": "1d3b3796f66ef2552b06e160ae136c4c5b64ca97",
+            "message": "Added BudgetTest implementation",
+            "insertions": 142,
+            "deletions": 19
+          },
+          {
+            "hash": "5b328e68ad351aa8c0e8b920a78e446526b6e0d9",
+            "message": "CheckStyle Fixes",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "bf10afb7b888770dc44efcb7b1564a9fbcf65fce",
+            "message": "Fixes for failing tests",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -2545,9 +2694,76 @@
         ]
       },
       {
+        "insertions": 223,
+        "deletions": 214,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "cf5c65714269a88b7936f13e44f494ab924d34cc",
+            "message": "Updated UG for theme and PPP",
+            "insertions": 29,
+            "deletions": 14
+          },
+          {
+            "hash": "7317d29e19e6b7fd6e9cc7dc8cd735694f71a788",
+            "message": "Updated DG and PPP",
+            "insertions": 29,
+            "deletions": 8
+          },
+          {
+            "hash": "1e18fcf79ef7567b380860e97e38391ef0c14a2c",
+            "message": "Updated DG",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "f4e3a4f45e7949184790d7c25bb4614287bf49f7",
+            "message": "UG updated",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "67d721543d5adfedfca8c71de0c672131aa5d6ae",
+            "message": "Removed IncreaseCommands and associated files",
+            "insertions": 10,
+            "deletions": 173
+          },
+          {
+            "hash": "2dcfe01a48333886362ef21583c37e9629c91a82",
+            "message": "Update PPP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "699cde0c7408de0188a2d640662a4872c9dcd66e",
+            "message": "Updated Storage Tests",
+            "insertions": 84,
+            "deletions": 0
+          },
+          {
+            "hash": "ba6f29edfb1eb3699c089b9f05f0fee9eaab5f08",
+            "message": "Checkstyle fixes",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "2c6b23672412a4522eec705073679e652351266c",
+            "message": "Updated PPP to include less GUI Intro part",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "df80169abfe41e6f29a25152d8aaa0870e61c2ba",
+            "message": "Updated Record tests",
+            "insertions": 54,
+            "deletions": 13
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -3445,10 +3661,36 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 164,
+        "deletions": 55,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5e4574f2b8849580910c7bec1e845bf9bd6c2589",
+            "message": "Updated UG and DG",
+            "insertions": 66,
+            "deletions": 21
+          },
+          {
+            "hash": "4f1e04653d6e854ec8295c87c89267503ff3b1fe",
+            "message": "Updated PPP",
+            "insertions": 98,
+            "deletions": 34
+          }
+        ]
+      },
+      {
+        "insertions": 31,
+        "deletions": 27,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "67ad18d5aabd488e2b8d8874749e2011c3a80d00",
+            "message": "Reduce pages for PPP",
+            "insertions": 31,
+            "deletions": 27
+          }
+        ]
       }
     ],
     "kjiaxuan": [
@@ -4756,8 +4998,8 @@
         ]
       },
       {
-        "insertions": 48,
-        "deletions": 12,
+        "insertions": 141,
+        "deletions": 99,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -4777,24 +5019,115 @@
             "message": "Removed design considerations for reverse command",
             "insertions": 0,
             "deletions": 5
+          },
+          {
+            "hash": "e5f4d3639843308ef4ae726840ecd5dc50d0ce19",
+            "message": "Updated DG manual testing section (spend and sort)",
+            "insertions": 56,
+            "deletions": 9
+          },
+          {
+            "hash": "9d6b65cb0c929d30c7e19fb904fdce24efab7942",
+            "message": "Updated ppp enhancements made section",
+            "insertions": 29,
+            "deletions": 28
+          },
+          {
+            "hash": "1c7d406f285c6d5984545476c30e40c17f5ac55b",
+            "message": "Updated ppp",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "2b7b4b2a9dec7ca237f839e676519d7f4f6e0029",
+            "message": "Formatting edits",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c11ae779e362400f84fe394d1ad88cd2d85a1b40",
+            "message": "Formatting edits",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "dc5946ff1bd0be7f36e8ac45d66342bf44250581",
+            "message": "formatting edits",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4c06f32cc8c2ccd90cde12525d7bc89d8d6085fa",
+            "message": "Deleted DuplicateRecordException",
+            "insertions": 0,
+            "deletions": 11
+          },
+          {
+            "hash": "2d31f8c21c31e1bbb2da1bb842b3786e6ecb1706",
+            "message": "deleted componentmanager.java",
+            "insertions": 0,
+            "deletions": 28
+          }
+        ]
+      },
+      {
+        "insertions": 21,
+        "deletions": 18,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "067f09adba83037444c5b187455f19d45f4856ab",
+            "message": "Minor edits to formatting",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "2f1b2abb1488e45be767e5f4490af02702ac5dc3",
+            "message": "Edited sort and rev effect on empty filtered list",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "e6fa7962e141dfd0ac8de918fd27dfe31a16b73b",
+            "message": "Updated formatting",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "b38aeb6b6f1c153866bc4afa1ea683a3e16495f3",
+            "message": "Commented out select in UG\u0027s command summary section",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c95fde5887c870df6efc01d72e8defb74792e10a",
+            "message": "Added $ in SetCommand\u0027s message_success message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d04e917536a4c8d48648a46521d076638558b3e7",
+            "message": "Updated UG\u0027s summary command format",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "geezlouisee": 1982,
-    "JeremyLoye": 1769,
-    "Jackimaru96": 3729,
-    "eugeneyl": 2534,
-    "kjiaxuan": 4494
+    "geezlouisee": 1991,
+    "JeremyLoye": 2089,
+    "Jackimaru96": 3759,
+    "eugeneyl": 2620,
+    "kjiaxuan": 4482
   },
   "authorContributionVariance": {
-    "geezlouisee": 33579.24,
-    "JeremyLoye": 113383.08,
-    "Jackimaru96": 93551.17,
-    "eugeneyl": 328327.03,
-    "kjiaxuan": 180883.16
+    "geezlouisee": 34125.95,
+    "JeremyLoye": 113736.4,
+    "Jackimaru96": 93610.99,
+    "eugeneyl": 323181.4,
+    "kjiaxuan": 178221.5
   },
   "authorDisplayNameMap": {
     "geezlouisee": "LOUISE LEE HUI LING",

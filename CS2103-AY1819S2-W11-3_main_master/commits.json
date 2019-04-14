@@ -562,8 +562,8 @@
         ]
       },
       {
-        "insertions": 2130,
-        "deletions": 536,
+        "insertions": 2159,
+        "deletions": 539,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -583,6 +583,62 @@
             "message": "To prevent merge conflict",
             "insertions": 1411,
             "deletions": 88
+          },
+          {
+            "hash": "8e241808aaef1265cbf46ac399b491f9cc344b04",
+            "message": "Change Menu CSS to better fit Light-Theme colour-scheme",
+            "insertions": 18,
+            "deletions": 1
+          },
+          {
+            "hash": "81ed4b1dc565d052e494d10e93f70ef8728515d0",
+            "message": "Change ExpandedPlacePanel background color",
+            "insertions": 11,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 101,
+        "deletions": 46,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "4783d30234b9c058bf1a5ab1e6072fae6c671370",
+            "message": "Fix adoc checkstyle and java checkstyle errors",
+            "insertions": 26,
+            "deletions": 26
+          },
+          {
+            "hash": "fffa36d338fe750edd601763aba3281622bf8792",
+            "message": "Fix CSS code quality",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "eb54ee950b4ec59e9171c40f9a848214d6939ea8",
+            "message": "Add ExpandedPlacePanelTest",
+            "insertions": 74,
+            "deletions": 1
+          },
+          {
+            "hash": "ee394a122282c3826aa1a9647f0ccabfed364a9a",
+            "message": "Remove unused method from RightParentPanel",
+            "insertions": 0,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 58,
+        "deletions": 6,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "6e2986782694b54f6c06d1adad47e75fbda9fbed",
+            "message": "Improve test coverage",
+            "insertions": 58,
+            "deletions": 6
           }
         ]
       }
@@ -1471,8 +1527,8 @@
         ]
       },
       {
-        "insertions": 161,
-        "deletions": 199,
+        "insertions": 205,
+        "deletions": 1554,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -1504,8 +1560,39 @@
             "message": "Modify PPP",
             "insertions": 12,
             "deletions": 10
+          },
+          {
+            "hash": "4d422eb58d7ba2ac75a06375993450e65ae94611",
+            "message": "Fix bug in rating chart",
+            "insertions": 44,
+            "deletions": 1355
           }
         ]
+      },
+      {
+        "insertions": 56,
+        "deletions": 47,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "a0a3ed325c25da6ec18fbbfcc771886daca911ef",
+            "message": "Modify UG, DG and PPP for Chart feature",
+            "insertions": 42,
+            "deletions": 34
+          },
+          {
+            "hash": "8c330a7b32bdb792945ff2bd0453b25d5f1c9da1",
+            "message": "Fix checkstyle errors",
+            "insertions": 14,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "PremBagda": [
@@ -2123,6 +2210,31 @@
             "message": "Update UG, DG, PPP \u0026 CountryCodes file.",
             "insertions": 76,
             "deletions": 80
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 175,
+        "deletions": 98,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "ce9986aac50a3d24d65c2582de1813cb4c952429",
+            "message": "Modify UG \u0026 PPP for v1.4",
+            "insertions": 149,
+            "deletions": 90
+          },
+          {
+            "hash": "af247a71a508e879731f94bcce1a3183f6cbbc41",
+            "message": "Fix EOF error.",
+            "insertions": 26,
+            "deletions": 8
           }
         ]
       }
@@ -2891,20 +3003,39 @@
             "deletions": 6
           }
         ]
+      },
+      {
+        "insertions": 2431,
+        "deletions": 95,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "2b8f81178f0f0903720ec1155a7389cf116244c7",
+            "message": "Update UserGuide, DeveloperGuide, PPP and diagrams for search",
+            "insertions": 2431,
+            "deletions": 95
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "shaungohsc": 1281,
-    "chung-ming": 7443,
-    "PremBagda": 4555,
-    "nivenang": 4911
+    "shaungohsc": 1412,
+    "chung-ming": 7466,
+    "PremBagda": 3314,
+    "nivenang": 7246
   },
   "authorContributionVariance": {
-    "shaungohsc": 121443.73,
-    "chung-ming": 679347.3,
-    "PremBagda": 359781.1,
-    "nivenang": 66747.62
+    "shaungohsc": 120298.266,
+    "chung-ming": 693776.5,
+    "PremBagda": 349129.28,
+    "nivenang": 152611.64
   },
   "authorDisplayNameMap": {
     "shaungohsc": "Goh Shau Cher Shaun",

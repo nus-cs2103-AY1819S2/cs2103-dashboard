@@ -617,6 +617,12 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "crumpledpaper": [
@@ -1048,6 +1054,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -1851,10 +1863,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 120,
+        "deletions": 14,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "520122df4d3a12d9632c6f674abc5faeec93cd57",
+            "message": "some changes to code list",
+            "insertions": 120,
+            "deletions": 14
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1863,27 +1882,85 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 59,
+        "deletions": 51,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f998ffe5d71d5c2be27f2e2297fbb7392eed9af2",
+            "message": "Updated Developer\u0027s Guide",
+            "insertions": 59,
+            "deletions": 51
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 48,
+        "deletions": 22,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "05fad439b23a3861227ee5e5199c76627dd28ee8",
+            "message": "Updates to DG",
+            "insertions": 48,
+            "deletions": 22
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 69,
+        "deletions": 44,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3c3573ea5554bae8b2aee3c18ba844f97772e807",
+            "message": "changes to DG",
+            "insertions": 24,
+            "deletions": 13
+          },
+          {
+            "hash": "6db7e362396501a75102a1b48234e87a1f8282bf",
+            "message": "Update DG",
+            "insertions": 13,
+            "deletions": 8
+          },
+          {
+            "hash": "6c7f1caf83439883d31d188a3a15e50b458de6b4",
+            "message": "updated UG",
+            "insertions": 32,
+            "deletions": 23
+          }
+        ]
+      },
+      {
+        "insertions": 1013,
+        "deletions": 519,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "737828f6cfdfd615d5391ed55fa26a9da303296a",
+            "message": "Increased test coverage for Course package Renamed variable and classes for some of the UI classes Updated UGDG",
+            "insertions": 1009,
+            "deletions": 515
+          },
+          {
+            "hash": "4f1c998fdcef58eabce80269f132ad31bd4509ea",
+            "message": "Fixed some test errors",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "3cf16a92ca1434cc21e03b3b96d0735c46c25324",
+            "message": "fixed checkstyle error",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -2662,8 +2739,8 @@
         "commitResults": []
       },
       {
-        "insertions": 489,
-        "deletions": 675,
+        "insertions": 842,
+        "deletions": 878,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -2689,6 +2766,61 @@
             "message": "fixed line too long",
             "insertions": 6,
             "deletions": 3
+          },
+          {
+            "hash": "1a90ab4dbe75378556ef7dccd538904f5353f500",
+            "message": "renamed SemLimit to SemesterLimit updated UG and DG",
+            "insertions": 180,
+            "deletions": 25
+          },
+          {
+            "hash": "6fbfb58295a095563e7fcad7bf33760c9cfba227",
+            "message": "fixed long line",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "5ccf8e9f54a1de42bed608caf612ff500eb35b8c",
+            "message": "updated UGDG",
+            "insertions": 65,
+            "deletions": 140
+          },
+          {
+            "hash": "a96d2fbeba93f18c6d99510001b6725909fabd8b",
+            "message": "fixed default modules",
+            "insertions": 75,
+            "deletions": 25
+          },
+          {
+            "hash": "52cbc3908d165b9e4c74ec905ccd3e6ae9a5bc7a",
+            "message": "fixed default modules",
+            "insertions": 14,
+            "deletions": 6
+          },
+          {
+            "hash": "8dc3763d4050f07c1a5ef9d17c2e7eb112d13b9e",
+            "message": "fixed limitchecker printing and editcommand grades finalizing edited UG with new images",
+            "insertions": 17,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 142,
+        "deletions": 50,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "c277a254397606cae006c66dae6ab8fdd292a41b",
+            "message": "userguide changes",
+            "insertions": 82,
+            "deletions": 40
+          },
+          {
+            "hash": "f7e58f7327f1ba746e13a79ff2a769719c5596f1",
+            "message": "UG,DG,PPP changes",
+            "insertions": 60,
+            "deletions": 10
           }
         ]
       }
@@ -3603,8 +3735,8 @@
         ]
       },
       {
-        "insertions": 175,
-        "deletions": 300,
+        "insertions": 193,
+        "deletions": 305,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -3636,30 +3768,67 @@
             "message": "updates to rec, eligiblemodulepredicate not working yet",
             "insertions": 45,
             "deletions": 245
+          },
+          {
+            "hash": "00784c3ea44eddbb0a74a538db47917cf396b2df",
+            "message": "ppp update",
+            "insertions": 18,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 241,
+        "deletions": 21,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "6c5a16fc4c7f816f1a33a1e88a409659a376abb3",
+            "message": "slight changes to docs",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "3b48533291b369e043f17267d4ac7bb551e88f9a",
+            "message": "updated rec tests",
+            "insertions": 173,
+            "deletions": 0
+          },
+          {
+            "hash": "b62f7503968a0e6f37c4885701d89159f789c06e",
+            "message": "updated some tests",
+            "insertions": 31,
+            "deletions": 8
+          },
+          {
+            "hash": "3c03787aa3d1686a09797a3ce249c8d1dc3bf41d",
+            "message": "attempt to fix prereq stuff problem: dummy node can be AND/OR",
+            "insertions": 30,
+            "deletions": 6
           }
         ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Anand270294": 2053,
-    "crumpledpaper": 190,
-    "monikernemo": 5278,
-    "alexchong711": 4875,
-    "lshwayne96": 2150
+    "Anand270294": 2045,
+    "crumpledpaper": 192,
+    "monikernemo": 6415,
+    "alexchong711": 5107,
+    "lshwayne96": 2355
   },
   "authorContributionVariance": {
-    "Anand270294": 22285.936,
-    "crumpledpaper": 1233.1353,
-    "monikernemo": 586658.44,
-    "alexchong711": 221280.9,
-    "lshwayne96": 94927.11
+    "Anand270294": 21977.15,
+    "crumpledpaper": 1214.795,
+    "monikernemo": 591865.44,
+    "alexchong711": 239355.8,
+    "lshwayne96": 93797.43
   },
   "authorDisplayNameMap": {
     "Anand270294": "T A...MAR",

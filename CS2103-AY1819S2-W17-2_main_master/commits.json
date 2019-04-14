@@ -2132,10 +2132,16 @@
         ]
       },
       {
-        "insertions": 3,
-        "deletions": 0,
+        "insertions": 30,
+        "deletions": 4,
         "date": "2019-04-09",
         "commitResults": [
+          {
+            "hash": "e69e6feb061bcd3fc195a74aff2a10b7cc0b0684",
+            "message": "Documents implementation of Sort within DevGuide",
+            "insertions": 27,
+            "deletions": 4
+          },
           {
             "hash": "7bb5370fee19f6a0318366d68f5eb25450c05a99",
             "message": "Updated pieChart color",
@@ -2387,8 +2393,8 @@
         ]
       },
       {
-        "insertions": 1302,
-        "deletions": 492,
+        "insertions": 1304,
+        "deletions": 494,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -2520,6 +2526,18 @@
           {
             "hash": "301e7963654a197966df5064fed21e47d92efe6a",
             "message": "Fixed noka/same bug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5d5e9b96ddb552c02977b77f8257e9e42a06f22d",
+            "message": "minor doc update, Resolves #165",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "38a11235bd0f89c8ad8bfd1ac2cc839b19e9901d",
+            "message": "minor prefix update",
             "insertions": 1,
             "deletions": 1
           },
@@ -2658,8 +2676,8 @@
         ]
       },
       {
-        "insertions": 34,
-        "deletions": 1,
+        "insertions": 237,
+        "deletions": 68,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -2678,6 +2696,139 @@
             "hash": "521e5b44aef3613958b6222c9366905cb4726e83",
             "message": "usage update",
             "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "684036ea17102dc00bd083e74441c84d03030891",
+            "message": "Udapted patientfield within userGuide",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "661da7af23aa2d2ca15eb75234ade906bc321b7e",
+            "message": "minor format update",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a5b2b58b588e447c0a734ee991a05bb6f08e6062",
+            "message": "Added userGuide details for recordlist and recordFind",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "d8dd396c693772608010add2444943e2003f1174",
+            "message": "added dev details of Stat",
+            "insertions": 19,
+            "deletions": 1
+          },
+          {
+            "hash": "3110bead106e80645408066a16cb66a47c1218ef",
+            "message": "update image link",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ca7eede137d8c1765c01a808acdc415a0ce4bc5f",
+            "message": "minor changes",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "d6d187c7a070d07741d43ad3114c665d621b223d",
+            "message": "Resolves #161, updates user Guide",
+            "insertions": 26,
+            "deletions": 14
+          },
+          {
+            "hash": "61532b11afc94823de18d5dd91efb8ba782fea8d",
+            "message": "Shift order of image",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "62f4cf9f2a7a34b6b5ca4db00123a3e07628819a",
+            "message": "update preamble",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "05d8d40dd7ea2e8f0de36741a04add364abf1719",
+            "message": "added umbrella",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "be6b35ddf5ca6bb0ae292bfba7545dda8424a9bf",
+            "message": "minor formatting",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "5e54b7c55bf801194107e4b101837a9f35ae2e1a",
+            "message": "updated find dev docs",
+            "insertions": 21,
+            "deletions": 8
+          },
+          {
+            "hash": "2d19f2886186aa9b144547b25175ffed11f60965",
+            "message": "updated design consideration of sort command",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "f6a0e0da2096752036cc6507f40f165fd5c5ba0f",
+            "message": "format update",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "3aafa07b556b0c30f50f9c09152ea12032987dc3",
+            "message": "updated PP",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "fd1c372c0ed0caaa0b095a5aad5e6e681af43c32",
+            "message": "udpated tagging",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "a590379ba9cd3e9797107d22b3ec9f398c032c09",
+            "message": "updated dev gudie contents for stat",
+            "insertions": 31,
+            "deletions": 5
+          },
+          {
+            "hash": "a252953e88973d3991d44f011359979bbcd1e37d",
+            "message": "updated PPP",
+            "insertions": 14,
+            "deletions": 6
+          },
+          {
+            "hash": "067d6709afdd8a5ac0a33eb32091f3f93fc57cf8",
+            "message": "removed prefix link in patientedit",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 8,
+        "deletions": 2,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "3730a5878def0e10382618c9a225ccc230d57732",
+            "message": "Update kylerwsm.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "28e74cf57907a551124907dcddc194720f668a10",
+            "message": "PPP updates",
+            "insertions": 7,
             "deletions": 1
           }
         ]
@@ -5002,6 +5153,12 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "kylerwsm": [
@@ -6750,10 +6907,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 2,
         "deletions": 0,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "41d11274f79f24e31d716f893b04f9e8ffecbbc9",
+            "message": "Revert \"Style changes\"",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -6866,22 +7030,284 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 158,
+        "deletions": 36,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0a54663bad5353009c8b8a98ad1792db190e6d66",
+            "message": "Updated the overview",
+            "insertions": 23,
+            "deletions": 10
+          },
+          {
+            "hash": "06e662cfd74b8ca5948147d652c4fe1e4af01765",
+            "message": "Updated DG with goto/back implementation details",
+            "insertions": 77,
+            "deletions": 0
+          },
+          {
+            "hash": "6e704c989ec17d53f5de04d92588ed4fcdcf188d",
+            "message": "Removed redundant line",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "97c9c9ccc6f66227bb97a060e4084538dfc367d1",
+            "message": "Typo corrections",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "4b0e97285d120183a9a231eecb88e55905d89244",
+            "message": "Patient class added to DG",
+            "insertions": 43,
+            "deletions": 11
+          },
+          {
+            "hash": "11721fc312dd97e1a114d31ffc390e631213dd8d",
+            "message": "Corrected typos",
+            "insertions": 6,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 508,
+        "deletions": 153,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8e5a31fe389246d2c28b4da4eeaacd57245d45a3",
+            "message": "New diagrams and documentation for DG",
+            "insertions": 211,
+            "deletions": 90
+          },
+          {
+            "hash": "f91d8ee11d72f32c75a8edd2a879963eb091b75a",
+            "message": "New diagrams and documentation for DG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b9650506ad4a133a02ba536d83a58aca0b6fd590",
+            "message": "New diagrams and documentation for DG",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "9a201fe3d3056b06203fa4cadb3733e41f773e37",
+            "message": "Corrected typos",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d368fe6e41f7305b904670ba2d7e8b007e5d3566",
+            "message": "Updated format to PPP",
+            "insertions": 5,
+            "deletions": 11
+          },
+          {
+            "hash": "6447114529229bb571de303170c6fbf473ea5ff8",
+            "message": "Removed some description",
+            "insertions": 0,
+            "deletions": 12
+          },
+          {
+            "hash": "7dce858c9b5dafe544824b03abd3b26e14c4c02e",
+            "message": "Corrected the images",
+            "insertions": 3,
+            "deletions": 8
+          },
+          {
+            "hash": "74e8c4631583e8a9882c59ff235da4c2af3bf36d",
+            "message": "Updated format",
+            "insertions": 281,
+            "deletions": 11
+          },
+          {
+            "hash": "03364903bf203776b77a32f71e8d2eda552e5cf2",
+            "message": "Minimised the size of class diagram",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "dd4f931767132198900b3526ee324440dc68cc4d",
+            "message": "Aligned images to center",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "aa87129650b53f7bf24281d01b79bbabcf154f55",
+            "message": "Removed a manual test from ppp",
+            "insertions": 0,
+            "deletions": 12
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 594,
+        "deletions": 280,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f90e3dd34adebdda433aa475d002a6406847603d",
+            "message": "Updated UG",
+            "insertions": 61,
+            "deletions": 56
+          },
+          {
+            "hash": "3585865ef5bf69ab5508520eaf615dd1f28b0dd7",
+            "message": "Updated UG",
+            "insertions": 16,
+            "deletions": 13
+          },
+          {
+            "hash": "b2d92beea6e13c8b1551c2cb36cb284ae6eaf064",
+            "message": "Updated UG",
+            "insertions": 28,
+            "deletions": 11
+          },
+          {
+            "hash": "2fdffe08c4f5728ab7daddd46b24ceabe42c461e",
+            "message": "Updated UG",
+            "insertions": 40,
+            "deletions": 36
+          },
+          {
+            "hash": "c591ae691bc6575b8ac985cc48ebe1678c827261",
+            "message": "Updated UG",
+            "insertions": 17,
+            "deletions": 14
+          },
+          {
+            "hash": "e32c9d3e3b55b2f72b9715dc6cb980d0c7159231",
+            "message": "Updated UG",
+            "insertions": 9,
+            "deletions": 13
+          },
+          {
+            "hash": "1700ce4838c3e06b61cb87cdd11011886cbf6986",
+            "message": "Updated UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "432df16677e4a39c9e2edfa8d2f187b432049ece",
+            "message": "Updated UG",
+            "insertions": 11,
+            "deletions": 12
+          },
+          {
+            "hash": "9223a1b101f5bb7045347d890141e0720ed1949e",
+            "message": "Updated PPP, AboutUs",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "58d13aad9286fb9931981c61555d6cb880c62448",
+            "message": "Updated DG",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "c9bf544f1b9bfbbbbafd409e46ed95f7c3c85f6a",
+            "message": "Updated PPP",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "232dc955f22bc4e01f6ee58095efb1f8b47642e8",
+            "message": "Removed the dentist command",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "dc69353ee244d0ddf835960747716d8aec24f1b5",
+            "message": "Draft1 of PPP",
+            "insertions": 270,
+            "deletions": 2
+          },
+          {
+            "hash": "d33c5a6c539e633e6a0bbeddb9bb87574ca67120",
+            "message": "Updated PPP and UG",
+            "insertions": 26,
+            "deletions": 39
+          },
+          {
+            "hash": "93f1edddba0d82739258d13bf952983e80e114fd",
+            "message": "Updated PPP and UG",
+            "insertions": 40,
+            "deletions": 44
+          },
+          {
+            "hash": "dcb242eb9c8b9a5acbaf6115112a5c23e56e0071",
+            "message": "Updated PPP and UG",
+            "insertions": 63,
+            "deletions": 18
+          },
+          {
+            "hash": "532fb6c6fe14d2994d04c3bd55fdd85e067991b8",
+            "message": "Updated PPP and UG",
+            "insertions": 0,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 136,
+        "deletions": 367,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "56fdda7da15fda66d0c7c7977a717f9e39dbe68e",
+            "message": "Updated PPP and UG",
+            "insertions": 99,
+            "deletions": 102
+          },
+          {
+            "hash": "d14464603c263456bf204885daf90c617f737c72",
+            "message": "Updated PPP and UG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "9180257658a4917901cd77ddba4d796cb234b47c",
+            "message": "Updated PPP",
+            "insertions": 1,
+            "deletions": 66
+          },
+          {
+            "hash": "9627b0e37a961088ae72e3f5781b1533f1a27bd2",
+            "message": "Updated PPP",
+            "insertions": 3,
+            "deletions": 190
+          },
+          {
+            "hash": "0cc48b461b5065188d2a76ecb4a96b62a1ddb657",
+            "message": "Updated PPP",
+            "insertions": 24,
+            "deletions": 4
+          },
+          {
+            "hash": "c1f20eff1c292b06be6d4f6344e3f4245f949fef",
+            "message": "Updated PPP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1acbba31feda0a27eaa8aded2a2903e1c0b39ade",
+            "message": "Updated PPP",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "873b280dcf300efa31844c7e68065592f9555df5",
+            "message": "Updated PPP",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "wSemis": [
@@ -7833,6 +8259,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -9324,10 +9756,16 @@
         "commitResults": []
       },
       {
-        "insertions": 790,
+        "insertions": 795,
         "deletions": 159,
         "date": "2019-04-09",
         "commitResults": [
+          {
+            "hash": "9893913f831672197f5258448955c1a4106b69a7",
+            "message": "New future functionality in User guide",
+            "insertions": 5,
+            "deletions": 0
+          },
           {
             "hash": "02177856cbb9e72e1f5d8bc868ef649df7628cec",
             "message": "Changed \"OurTeeth\" to \"TeethHub\" again due to changes unaccounted for. Removed preferences.json from gitignore so that the default file will always be saved as TeethHub.json",
@@ -9457,8 +9895,8 @@
         ]
       },
       {
-        "insertions": 375,
-        "deletions": 268,
+        "insertions": 399,
+        "deletions": 276,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -9526,6 +9964,12 @@
             "message": "Removed unused test file.",
             "insertions": 0,
             "deletions": 152
+          },
+          {
+            "hash": "4515f4ef3695aace00a67ebe614935d12b87586a",
+            "message": "Added v1.5 to v1.7 features to UserGuide.",
+            "insertions": 24,
+            "deletions": 8
           },
           {
             "hash": "f5bdd8b031abbc11a13883c06a7b7d5d719249b0",
@@ -9651,8 +10095,8 @@
         ]
       },
       {
-        "insertions": 380,
-        "deletions": 74,
+        "insertions": 599,
+        "deletions": 265,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -9690,30 +10134,164 @@
             "message": "Added empty filename tests to SaveCommandParser.java and ExportCommandParser.java.",
             "insertions": 27,
             "deletions": 0
+          },
+          {
+            "hash": "9ca5f65bfbf532b3fe09775f167d3a60267bf0a9",
+            "message": "Pre-bugfixed ExportCommand: Failed to add correctly parsed persons with the same name and with double digit index at the same time. Post bugfixed ExportCommand: Fixed above problem. Implementation of fix also reduced unnecessary steps resulting in better performance.",
+            "insertions": 4,
+            "deletions": 8
+          },
+          {
+            "hash": "0a4c4b5229d146ebec235f18281426a69a0aa30b",
+            "message": "Removed unused import.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "bd58b2c301c709162aec53aab54dc12da773947a",
+            "message": "Refactored ExportCommandParserTest.java",
+            "insertions": 74,
+            "deletions": 153
+          },
+          {
+            "hash": "286612cf3d176733b47406e3c12b37cdbbbe8fab",
+            "message": "Added ExportCommandTest.java",
+            "insertions": 90,
+            "deletions": 0
+          },
+          {
+            "hash": "a0f2269effc1b268f7f8bde5eed0b06719fdfa1f",
+            "message": "Refactored and added Javadoc in ExportCommandTest.java.",
+            "insertions": 34,
+            "deletions": 19
+          },
+          {
+            "hash": "363d0547651a6ad826d0515a3a83a2b66851cebc",
+            "message": "Added Javadoc to ExportCommandParserTest.java and renamed methods to match Checkstyle\u0027s requirements.",
+            "insertions": 17,
+            "deletions": 10
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 463,
+        "deletions": 161,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ec4f7f2d614fccc5fefb641e2c1d64861c0fd4c2",
+            "message": "Test",
+            "insertions": 0,
+            "deletions": 72
+          },
+          {
+            "hash": "83a64bf31e37f1463ba2fd83c6d2998dc670cd4b",
+            "message": "Added Personal Project Portfolio jiahaolim.adoc.",
+            "insertions": 84,
+            "deletions": 0
+          },
+          {
+            "hash": "eba8655d415b5584d4305249cf9613911d7ce16c",
+            "message": "Updated jiahaolim.adoc.",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "87e86bd203f79e47159d41ebd76f83b2c8177d2c",
+            "message": "Updated jiahaolim.adoc.",
+            "insertions": 325,
+            "deletions": 15
+          },
+          {
+            "hash": "edc13f8fa46e06cffb8108d1eaa2881903a124e9",
+            "message": "Updated jiahaolim.adoc.",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "783b2d5959c67a3619b38f6f274e34a1060153f6",
+            "message": "Changed File.separator back to \"/\" as it broke when compiled to a .jar file.",
+            "insertions": 25,
+            "deletions": 32
+          },
+          {
+            "hash": "d6f057193ebe1eb6ee3b94c43ebd86d5f95da9b8",
+            "message": "Changed File.separator back to \"/\" as it broke when compiled to a .jar file.",
+            "insertions": 5,
+            "deletions": 9
+          },
+          {
+            "hash": "e674232ae3c84d29244eb038c755afba517003a5",
+            "message": "Changed File.separator back to \"/\" as it broke when compiled to a .jar file.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "45d4d41e97b71b5baf5d1d274f01ef34c94c7be2",
+            "message": "Removed unused imports.",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "0a796bb2b12d53df7fd4aa34d31be618e8be2e59",
+            "message": "Updated ParserUtilTest.java",
+            "insertions": 8,
+            "deletions": 16
+          },
+          {
+            "hash": "595d5a85877b8d3bfe9e328dccfe595a0b68afb9",
+            "message": "Removed trailing whitespace.",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 29,
+        "deletions": 10,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "e97b3d208ab84aa291d3756cb39df1ac103aa4ce",
+            "message": "Updated AboutUs.adoc",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "769712c5f4574b116c733f6c4a09f8d36eaa7c6a",
+            "message": "Trimmed jiahaolim.adoc",
+            "insertions": 2,
+            "deletions": 5
+          },
+          {
+            "hash": "a85835dd8935083386688fb9b82c8c1ebbc7fff3",
+            "message": "Updated jiahaolim.adoc",
+            "insertions": 17,
+            "deletions": 1
+          },
+          {
+            "hash": "558d9ce897016b55ae9f9e5ccdc17c30f4681243",
+            "message": "Added newline at the end of jiahaolim.adoc",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "kthSim": 6583,
-    "cchj1995": 5834,
-    "kylerwsm": 3793,
+    "kthSim": 6632,
+    "cchj1995": 5839,
+    "kylerwsm": 4478,
     "wSemis": 1043,
-    "JiaHaoLim": 3698
+    "JiaHaoLim": 4055
   },
   "authorContributionVariance": {
-    "kthSim": 141844.61,
-    "cchj1995": 124981.19,
-    "kylerwsm": 58785.7,
-    "wSemis": 680130.6,
-    "JiaHaoLim": 111350.305
+    "kthSim": 139996.94,
+    "cchj1995": 123380.72,
+    "kylerwsm": 71529.61,
+    "wSemis": 669761.44,
+    "JiaHaoLim": 119505.945
   },
   "authorDisplayNameMap": {
     "kthSim": "SIM...ITH",

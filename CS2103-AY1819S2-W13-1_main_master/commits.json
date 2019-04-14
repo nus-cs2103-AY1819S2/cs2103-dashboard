@@ -1568,9 +1568,22 @@
         ]
       },
       {
+        "insertions": 534,
+        "deletions": 567,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "d34a65b876792ebb2b50912e997e4437f2ac9d37",
+            "message": "added more tests for doctors",
+            "insertions": 534,
+            "deletions": 567
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -2520,6 +2533,12 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "amuletxheart": [
@@ -3237,8 +3256,8 @@
         ]
       },
       {
-        "insertions": 112,
-        "deletions": 13,
+        "insertions": 415,
+        "deletions": 78,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -3246,6 +3265,55 @@
             "message": "added UI for null patient or doctor in appointments",
             "insertions": 112,
             "deletions": 13
+          },
+          {
+            "hash": "55f04eed6f696d28728c91d341105d619022d3ae",
+            "message": "fixed bug with marking appointments with deleted patients",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "dd527ac1f6ed42dddb3d04f9937c5ed321e43366",
+            "message": "added filters to list-appt",
+            "insertions": 212,
+            "deletions": 22
+          },
+          {
+            "hash": "fca59bab3d8adac1bee893b32b73cdcaa3266f0a",
+            "message": "added patient ID and doctor ID validation for filters",
+            "insertions": 18,
+            "deletions": 11
+          },
+          {
+            "hash": "c9f4be4ae7552ae4d4ba0bb0b4e6903b07a4b17b",
+            "message": "moved appointment classes to its own folder",
+            "insertions": 66,
+            "deletions": 28
+          }
+        ]
+      },
+      {
+        "insertions": 149,
+        "deletions": 29,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "d219b1ebb79786abe06691001766d672156c83dd",
+            "message": "added chronology filter to list-appt",
+            "insertions": 138,
+            "deletions": 18
+          },
+          {
+            "hash": "db7981ea11458417ec2436f1d1c3d5236ce9fb98",
+            "message": "fixed checkstyle for tests",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "8e9f35541ec6acc0a2d066d23ffc28f8fe979c2b",
+            "message": "Updated README.adoc",
+            "insertions": 8,
+            "deletions": 8
           }
         ]
       }
@@ -3892,8 +3960,8 @@
         ]
       },
       {
-        "insertions": 416,
-        "deletions": 108,
+        "insertions": 932,
+        "deletions": 129,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -3931,8 +3999,50 @@
             "message": "Fix style issues",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "fda9eff95390254e3c35f5830784468402b271a5",
+            "message": "Fix one bug for search-presc command, add more tests to prescription package",
+            "insertions": 178,
+            "deletions": 2
+          },
+          {
+            "hash": "8b25072b2c47029fad7267fe1465e4ed3132e75b",
+            "message": "Add more test cases",
+            "insertions": 184,
+            "deletions": 2
+          },
+          {
+            "hash": "24a8297cb5af1a0675a135ee97b71451e7e76e9f",
+            "message": "Add EditPrescriptionCommandTest",
+            "insertions": 99,
+            "deletions": 4
+          },
+          {
+            "hash": "b555a618090ceb61b23e0bc8997cf540fb351d3a",
+            "message": "Fix small bugs in AddPrescriptionCommandParser, add tests for AddPrescriptionCommandParser",
+            "insertions": 46,
+            "deletions": 3
+          },
+          {
+            "hash": "a723741651384fe3864293414c41dfc58073e4c4",
+            "message": "Fix style errors",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "61f44667bd594ea5aa57d30e0ab0e5c6287f6d0b",
+            "message": "Correct style issues",
+            "insertions": 3,
+            "deletions": 7
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "Liuyy99": [
@@ -5214,8 +5324,8 @@
         ]
       },
       {
-        "insertions": 91,
-        "deletions": 506,
+        "insertions": 354,
+        "deletions": 2010,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -5229,24 +5339,145 @@
             "message": "checkstyle",
             "insertions": 1,
             "deletions": 400
+          },
+          {
+            "hash": "98481b856e7d6e67fcc60e69a3dfb027cd408eb0",
+            "message": "minor changes",
+            "insertions": 13,
+            "deletions": 9
+          },
+          {
+            "hash": "319d1673388c56b772a6f0d0e83b636f39c7d66e",
+            "message": "refresh browser panel after deletion",
+            "insertions": 99,
+            "deletions": 6
+          },
+          {
+            "hash": "1612a59de07993f6c7df2d4fd2ba893f6b51bdf3",
+            "message": "checkstyle",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "6ea7f43ac944e1b3337c4c91fa7bf3bac258decc",
+            "message": "remove Undo/Redo and dead code",
+            "insertions": 1,
+            "deletions": 700
+          },
+          {
+            "hash": "f745a2b3d40f7ae359f4d864a4f914833faea6dc",
+            "message": "delete test cases",
+            "insertions": 1,
+            "deletions": 679
+          },
+          {
+            "hash": "605fb338b530e7b47b5961ea75ab425769d80801",
+            "message": "remove delete med-hist command",
+            "insertions": 4,
+            "deletions": 87
+          },
+          {
+            "hash": "c6aff2e339c4e23771223e0c29efaa7a3425f31d",
+            "message": "add test case",
+            "insertions": 90,
+            "deletions": 1
+          },
+          {
+            "hash": "6fa74ff719f66418694f63916b6c0e8ef23c9c71",
+            "message": "add JsonAdaptedMedicalHistory check",
+            "insertions": 48,
+            "deletions": 16
+          }
+        ]
+      },
+      {
+        "insertions": 339,
+        "deletions": 212,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "5a043e3e6323401975ada4ca83efe5cc768b953b",
+            "message": "remove deleteMedHist from model",
+            "insertions": 6,
+            "deletions": 30
+          },
+          {
+            "hash": "162be303c8cc0f2930dcd836142bcba66207fc2d",
+            "message": "pack medhist id into class",
+            "insertions": 48,
+            "deletions": 9
+          },
+          {
+            "hash": "ae8fb61b075192dfe7c69b46b9a3d5ecae9f4bb6",
+            "message": "modify list medical history",
+            "insertions": 91,
+            "deletions": 77
+          },
+          {
+            "hash": "80ba17854e812b9c65f7253483bbdcafe186efdb",
+            "message": "pack all med hist command/parser to package",
+            "insertions": 67,
+            "deletions": 27
+          },
+          {
+            "hash": "45e34094956356a97121419ebed1159d5c033b90",
+            "message": "checkstyle",
+            "insertions": 21,
+            "deletions": 16
+          },
+          {
+            "hash": "6fa622c009aafa33b2d04675e16762ca82c955f8",
+            "message": "checkstyle of tests",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4773e055a0166f7ca69832a739bb7e89601b8d84",
+            "message": "checkstyle of tests",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d5b92e1baab65bf07401cfc4e98b173f3f60756f",
+            "message": "checkstyle of tests",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0249b676aad2b71aa0da78c5e1a64472c7fda19e",
+            "message": "checkstyle of tests",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "469f304847bb7692fb7d6ac27f2ba79c5c1b9cda",
+            "message": "update user guide",
+            "insertions": 32,
+            "deletions": 24
+          },
+          {
+            "hash": "fdc30ef5e18660f4b1db50fdad5ebd7cca1e7210",
+            "message": "modify sort command",
+            "insertions": 66,
+            "deletions": 22
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "siyingpoof": 7546,
-    "wayneswq": 8047,
-    "amuletxheart": 3321,
-    "GongChangda": 2421,
-    "Liuyy99": 3359
+    "siyingpoof": 7407,
+    "wayneswq": 7534,
+    "amuletxheart": 3664,
+    "GongChangda": 2893,
+    "Liuyy99": 3655
   },
   "authorContributionVariance": {
-    "siyingpoof": 1417089.8,
-    "wayneswq": 1315255.6,
-    "amuletxheart": 43065.543,
-    "GongChangda": 27130.396,
-    "Liuyy99": 63808.715
+    "siyingpoof": 1402838.5,
+    "wayneswq": 1296154.6,
+    "amuletxheart": 45058.66,
+    "GongChangda": 39079.09,
+    "Liuyy99": 139077.12
   },
   "authorDisplayNameMap": {
     "siyingpoof": "ONG...ING",

@@ -640,6 +640,25 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 322,
+        "deletions": 50,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "47b41b6c210b21362adc580ebf810b4c1635edc9",
+            "message": "Fixes to wrong message displayed after entering a command",
+            "insertions": 250,
+            "deletions": 40
+          },
+          {
+            "hash": "fd1cdacf2cc525c18c89f3e0701ec915a52317af",
+            "message": "Fix checkstyle issues",
+            "insertions": 72,
+            "deletions": 10
+          }
+        ]
       }
     ],
     "sickerin": [
@@ -1014,6 +1033,12 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
       }
     ],
     "radhika-lakhtakia": [
@@ -1387,6 +1412,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
       }
     ],
@@ -2148,8 +2179,8 @@
         ]
       },
       {
-        "insertions": 302,
-        "deletions": 4,
+        "insertions": 336,
+        "deletions": 61,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -2163,22 +2194,53 @@
             "message": "Fix the build.gradle file to run test properly",
             "insertions": 3,
             "deletions": 3
+          },
+          {
+            "hash": "5a74337e2cf5cb1a2cb8c7d1ff285d38997ad7bf",
+            "message": "Edit typo in user guide to reflect the tag addremall",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2e29659926c4327d83e371d9614720e9da0f9ac7",
+            "message": "Refactor addall and remall command - Ensure that not removing/adding allergy is considered an exception, and should not modify the giatrosbook state (not undo/redoable) - Change the test to assert failure instead - Change the instruction for addall and remall to reflect the user guide - Change the error handling for addall and remall when only index is provided but no allergy tags",
+            "insertions": 32,
+            "deletions": 55
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 2,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "baa63c60a33d45fb215362454bb28c149e31387b",
+            "message": "Change the app version",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0ef36747569aeecacd3c3e962a3c4495d2d4732a",
+            "message": "Remove unused import in RemallCommandTest",
+            "insertions": 0,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "chuaes": 5211,
+    "chuaes": 5499,
     "sickerin": 0,
     "radhika-lakhtakia": 0,
-    "wfxronald": 1790
+    "wfxronald": 1764
   },
   "authorContributionVariance": {
-    "chuaes": 473565.1,
+    "chuaes": 466599.53,
     "sickerin": 0.0,
     "radhika-lakhtakia": 0.0,
-    "wfxronald": 49437.387
+    "wfxronald": 49540.11
   },
   "authorDisplayNameMap": {
     "chuaes": "CHU...OON",

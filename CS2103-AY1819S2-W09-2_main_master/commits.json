@@ -404,6 +404,12 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "daviddl9": [
@@ -1544,6 +1550,12 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "jing1324": [
@@ -2545,6 +2557,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -4031,8 +4049,8 @@
         ]
       },
       {
-        "insertions": 344,
-        "deletions": 338,
+        "insertions": 413,
+        "deletions": 342,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -4058,13 +4076,110 @@
             "message": "Added bug fix to prevent deletion of HealthWorker that are assigned to pending requests.",
             "insertions": 21,
             "deletions": 13
+          },
+          {
+            "hash": "59181bbd9ad32fe1afdd8771a13bc98ed7a54f07",
+            "message": "Added functionality to filter healthworker by nric field.",
+            "insertions": 69,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 246,
+        "deletions": 189,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "e643c2276d38d3b4c365f8c1a5ca7ed7b9ff3701",
+            "message": "Added methods for updating request upon updating health worker.",
+            "insertions": 83,
+            "deletions": 20
+          },
+          {
+            "hash": "04cd41bc799f21d70dacc1809eaa80c6dff402e5",
+            "message": "Updated Diagrams for DeveloperGuide.",
+            "insertions": 15,
+            "deletions": 27
+          },
+          {
+            "hash": "0c5f7e63afa7eff59e2ed7be70896109cc671fa0",
+            "message": "Added automatic update of assigned healthworker NRIC when NRIC field in HealthWorker class is edited.",
+            "insertions": 17,
+            "deletions": 28
+          },
+          {
+            "hash": "6b6b1b65d10dd89951494bb38db26afb5d55c16b",
+            "message": "Fixed EOF in json files",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "9749a9921792d4a34198a37f9b99717f99951b47",
+            "message": "Fixed bug in AddRequestCommandTest",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "9841d5a992b0df4f8d2b23c8efd238396bc42191",
+            "message": "Updated TestApp to include typical requests and healthworkers",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "cef1c184810f796222377cfdd7ffa8f7da82dcec",
+            "message": "Updated System Tests.",
+            "insertions": 63,
+            "deletions": 58
+          },
+          {
+            "hash": "86d585fb4eebfa66abb2730f1df7276ad4e8683f",
+            "message": "Fixed indentation errors.",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "eb3abdbf29f25e63942f33449dea9e768064c45c",
+            "message": "Stupid asciidoctor bugs.",
+            "insertions": 14,
+            "deletions": 11
+          },
+          {
+            "hash": "bbb99fa2229f6984c78c16ab41b08f4e6da419fc",
+            "message": "FUCK LA LOL",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "29d6b1e31c9ef8a4da2c471a9bec9d804db9c6d9",
+            "message": "Deprecated tests that are not working.",
+            "insertions": 6,
+            "deletions": 12
+          },
+          {
+            "hash": "debdb6a656cc7804734a5eeb29ad9325fa5874fe",
+            "message": "Javadocs",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "1258c8183987fd3810e6cb578020ec1c4e67fc63",
+            "message": "config.json",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "18d0e2c0c222cb6c30f5b02e86844bf09a4eb808",
+            "message": "I HEAR THE DRUMS ECHOING TONIGHT",
+            "insertions": 6,
+            "deletions": 5
           }
         ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -5372,22 +5487,95 @@
             "deletions": 8
           }
         ]
+      },
+      {
+        "insertions": 356,
+        "deletions": 306,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "9adedd8d5968c67625ab30e20b80b39a87b2cd11",
+            "message": "Renamed FindCommandSystemTest.java to FilterCommandSystemTest.java",
+            "insertions": 178,
+            "deletions": 178
+          },
+          {
+            "hash": "2adcc457feeb8875c92f8150ce866a4dc04f0dea",
+            "message": "Fixed SampleDataTest problems.",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "5efb01c874f85afda8694816c1c20814d68a43ed",
+            "message": "Commented out JsonSerializableRequestBookTest.java, behaves very irratic.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f0c340b60a125188d657525eee0821ac44f92729",
+            "message": "Uncommented SampleDataTest.java and implemented FilterCommandSystemTest.java",
+            "insertions": 14,
+            "deletions": 12
+          },
+          {
+            "hash": "10a5ace1d4dfef59657b24ab89a2d89c9f6c32f1",
+            "message": "Added nric field to show in the GUI for health worker.",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "5992375210b3c48d2e4694adf16b8c9a69082715",
+            "message": "Fix checkstyle errors.",
+            "insertions": 6,
+            "deletions": 9
+          },
+          {
+            "hash": "d8aa4219f9791dd47478d2fb36f10fa10d166428",
+            "message": "Renamed some methods.",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "492505a3425c5798f6e4efe8ad66ba313488f403",
+            "message": "Implemented FilterCommandSystemTest.java",
+            "insertions": 131,
+            "deletions": 87
+          },
+          {
+            "hash": "e68f40b6e6fbb44871f0f4c163586ac47a7a94c4",
+            "message": "Renamed FilterCommandSystemTest.java to FilterRequestCommandSystemTest.java",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a403271533b266c16ed630159c80c703628d5324",
+            "message": "Updated some minor css.",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "6c5ee118b7d9ad3493d5e5dbcc219fe56e57b1d9",
+            "message": "Added a line of code to fix a bug.",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
     "brohandev": 22,
-    "daviddl9": 7495,
-    "jing1324": 2955,
-    "Lookuz": 6433,
-    "huichun66": 3414
+    "daviddl9": 7509,
+    "jing1324": 2771,
+    "Lookuz": 6610,
+    "huichun66": 3614
   },
   "authorContributionVariance": {
-    "brohandev": 15.111113,
-    "daviddl9": 137991.22,
-    "jing1324": 841566.8,
-    "Lookuz": 359338.97,
-    "huichun66": 92878.19
+    "brohandev": 14.881836,
+    "daviddl9": 136440.8,
+    "jing1324": 829619.4,
+    "Lookuz": 354768.78,
+    "huichun66": 95327.11
   },
   "authorDisplayNameMap": {
     "brohandev": "ROH...DEV",

@@ -858,6 +858,36 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "dukesun99": [
@@ -1031,10 +1061,23 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 90,
+        "deletions": 18,
         "date": "2019-03-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c828535edb41044f902bcbb292c8f494ae0c61ca",
+            "message": "Add DisplayCommand, update command return message",
+            "insertions": 81,
+            "deletions": 5
+          },
+          {
+            "hash": "aca5b24debc5c9a227d0fdb8ba863ca7e222f93a",
+            "message": "Fix style issues.",
+            "insertions": 9,
+            "deletions": 13
+          }
+        ]
       },
       {
         "insertions": 352,
@@ -1116,7 +1159,7 @@
         ]
       },
       {
-        "insertions": 203,
+        "insertions": 210,
         "deletions": 233,
         "date": "2019-03-11",
         "commitResults": [
@@ -1211,6 +1254,18 @@
             "deletions": 121
           },
           {
+            "hash": "143e6a42fcc193a731ae48b5d8a1cbfa10eb8d21",
+            "message": "Modify gradle build.",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "1e4fd20cf18d02fdcfed536be9b393e1e644c94c",
+            "message": "Modify gradle build.",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
             "hash": "abddbc9ae0a94fee85c6098fe53b2217f36c9119",
             "message": "Fix test bug in EquipmentManagerSystemTest.",
             "insertions": 3,
@@ -1249,8 +1304,8 @@
         ]
       },
       {
-        "insertions": 89,
-        "deletions": 14,
+        "insertions": 95,
+        "deletions": 16,
         "date": "2019-03-12",
         "commitResults": [
           {
@@ -1270,6 +1325,12 @@
             "message": "Fix import order.",
             "insertions": 4,
             "deletions": 4
+          },
+          {
+            "hash": "5bea9f927757f650fd6bb894661956f6cb94c0b9",
+            "message": "Update User Guide and Developer Guide for display command",
+            "insertions": 6,
+            "deletions": 2
           }
         ]
       },
@@ -1420,16 +1481,84 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 410,
+        "deletions": 64,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9c4de0619c76e4bfd44f62a4e04adc7a11692910",
+            "message": "Update equipemnt detail page to support split window.",
+            "insertions": 267,
+            "deletions": 34
+          },
+          {
+            "hash": "4b92d2388779a7980667dc80eb444b357fcaab47",
+            "message": "Change the base URL to actual url.",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "127cfe3592f2dba1f69a8148445aaea6f20f488a",
+            "message": "Fix line length issue.",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "bae84b0a35297b9079f3c0c5cfaedd0c92c47924",
+            "message": "Fix style error.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e747eb1114ede60314ce8b5b25c8ae74805479e5",
+            "message": "Remove trailing spaces in DisplayEquipmentDetail",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "78c2ed2d989274f1b90ce2857a9ad9fcdc1acb47",
+            "message": "Update Yiqun\u0027s PPP and About US page",
+            "insertions": 61,
+            "deletions": 1
+          },
+          {
+            "hash": "f6c81a3a893269e5ba59fc2c4833a8cf5658d820",
+            "message": "Fix hyperlinks in Yiqun\u0027s PPP",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "4f70d2e4d5a2b99e4589c925bc8a4eb8ef68e130",
+            "message": "Fix reference issues in PPP",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "47c5b23b6841f6768f3ffe1d3b71c761432c8e4c",
+            "message": "Fix tags in UG",
+            "insertions": 60,
+            "deletions": 9
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 911,
+        "deletions": 1,
         "date": "2019-04-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "61d1c191d337915d1a0328976b00df527bcb2365",
+            "message": "Fix tags in UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cfe50b7c312fc43c375988ab532b65807c849e5f",
+            "message": "Add developer guide back",
+            "insertions": 910,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1450,10 +1579,71 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 423,
+        "deletions": 11,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d1ceaa70df0a7f973f8cfe32eaca9b7b27900eaa",
+            "message": "Add DisplayRoutes.html to static pages to publish",
+            "insertions": 100,
+            "deletions": 0
+          },
+          {
+            "hash": "3eff85c29eb8c6af0f8df3354166de6795907132",
+            "message": "Beautify format",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2b9528439a904b84569d79f303cc516d6dde32f8",
+            "message": "Implement route function",
+            "insertions": 149,
+            "deletions": 3
+          },
+          {
+            "hash": "c79814a16a08d1b50c85a8e309e4783bde46e021",
+            "message": "Add tests for route feature and fix bug",
+            "insertions": 57,
+            "deletions": 2
+          },
+          {
+            "hash": "f55a9804ce488a0e9f6230324e173a63fed15245",
+            "message": "Add unit test for route command class.",
+            "insertions": 80,
+            "deletions": 0
+          },
+          {
+            "hash": "b5434e338becc4d3484f06eb90fbb54094b2aac2",
+            "message": "Fix date format in tests",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cb8a2c71b27267b8e0c020b99e065360116d0fba",
+            "message": "Add more tests on RouteCommand",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "28a45b988c8e57386d12fcc6a096206b09d889ba",
+            "message": "Fix checkstyle",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "f4cbe4129675189d6522b06b7dbb811ad2179707",
+            "message": "Fix tests.",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "54e76e5c8a1d142ab3ec07dc77f80e8ed421b2f3",
+            "message": "Fix style.",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1466,6 +1656,68 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 81,
+        "deletions": 4,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "df6bc8d502cbddea0dcd8304b52aae268281b2bd",
+            "message": "Fix bug related to #169 select-display-select bug",
+            "insertions": 42,
+            "deletions": 2
+          },
+          {
+            "hash": "7a22307d15bd09e69ba3be2af68ed7e10165e1fc",
+            "message": "Add more test to route related to the #169 issue",
+            "insertions": 13,
+            "deletions": 1
+          },
+          {
+            "hash": "94e8ae64ae67e6e4bf64de034ecd7ad07a8910b4",
+            "message": "Add config file for repoSense",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "d435cdbf5d261b29e9a057f65f527ecc12d346a5",
+            "message": "Add newline",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "5a7540899b688080f304448e5cf3279b3dd3e5f9",
+            "message": "Adding extra timeout time as needed",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "bendymochi": [
@@ -2131,6 +2383,36 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-09",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -3287,20 +3569,168 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 189,
+        "deletions": 61,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "0ae76970e64ed418fad8c0ee8a53eee21d067436",
+            "message": "Add select-c to select client",
+            "insertions": 189,
+            "deletions": 61
+          }
+        ]
+      },
+      {
+        "insertions": 314,
+        "deletions": 32,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "e49a8e22157f515c8f7af1df2426a22470dfceca",
+            "message": "fix select command, find selected client by filter function",
+            "insertions": 111,
+            "deletions": 5
+          },
+          {
+            "hash": "5a5175824ca483029ba1735c6c2970421815400c",
+            "message": "remove system print codes",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "94c11b97de0f4f48aaeb9b54eaf83fb6f520a575",
+            "message": "Added selectClientCommand test",
+            "insertions": 158,
+            "deletions": 7
+          },
+          {
+            "hash": "5f0dcd3c829a8424c9d9e1a75367c4ec7d357c7d",
+            "message": "Add testing for select client command",
+            "insertions": 45,
+            "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 106,
+        "deletions": 732,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "cc576365160718537fcfb411cfddf9816d898d9b",
+            "message": "space",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "71f68784ed458870c50e6d3fc4f1861468a3fa96",
+            "message": "Fix client cards",
+            "insertions": 17,
+            "deletions": 5
+          },
+          {
+            "hash": "eb27d301fcafef4c4e94c11eca62a9ea6cfdd834",
+            "message": "remove add client command and testing",
+            "insertions": 0,
+            "deletions": 585
+          },
+          {
+            "hash": "87cea942fca9c9f10536c9c33523bf568a860fda",
+            "message": "Enhance UI Labels",
+            "insertions": 4,
+            "deletions": 47
+          },
+          {
+            "hash": "b3e189a7c9bb97c657c03406b9ad5588f0b4c678",
+            "message": "fix checkstyle",
+            "insertions": 8,
+            "deletions": 31
+          },
+          {
+            "hash": "9bd7e2cf230941672f5275d0c4e1ddedb93d82b1",
+            "message": "update dg, all to update the command summary accordingly",
+            "insertions": 33,
+            "deletions": 30
+          },
+          {
+            "hash": "37c7ad8651e547a13982b0089d2412ccfe0fe00b",
+            "message": "update dg",
+            "insertions": 20,
+            "deletions": 12
+          },
+          {
+            "hash": "9c20248b0539d923d787486e1def3b4964aefee4",
+            "message": "update ug, ppp",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "7cdd4156dbd900d9793399c349a251193c83cd91",
+            "message": "Update ppp",
+            "insertions": 20,
+            "deletions": 19
+          }
+        ]
+      },
+      {
+        "insertions": 94,
+        "deletions": 109,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "083a4fe5916956ecce500880b49c7bd1f2634bc5",
+            "message": "update ug, make it more consistent",
+            "insertions": 79,
+            "deletions": 95
+          },
+          {
+            "hash": "77910a4bf930a58062938285020fcab66e3d53e1",
+            "message": "update dg",
+            "insertions": 9,
+            "deletions": 7
+          },
+          {
+            "hash": "f723ab81f7bf90bb5e53d043050ff77e7d444afe",
+            "message": "comment out a test",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b2b78ac7d54efd92af912b26d08d02e988721847",
+            "message": "fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2124175426c1f97ac7f7bac68b12a2d6f634e100",
+            "message": "fix check style",
+            "insertions": 3,
+            "deletions": 4
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "LiuXuanIan": 3374,
-    "dukesun99": 372,
-    "bendymochi": 1984,
-    "e0191632": 5618
+    "LiuXuanIan": 3354,
+    "dukesun99": 1544,
+    "bendymochi": 1977,
+    "e0191632": 5462
   },
   "authorContributionVariance": {
-    "LiuXuanIan": 48207.51,
-    "dukesun99": 6348.2285,
-    "bendymochi": 50421.215,
-    "e0191632": 478434.5
+    "LiuXuanIan": 44939.883,
+    "dukesun99": 23576.863,
+    "bendymochi": 46852.445,
+    "e0191632": 447471.72
   },
   "authorDisplayNameMap": {
     "LiuXuanIan": "LIU...UAN",

@@ -702,9 +702,186 @@
         ]
       },
       {
+        "insertions": 268,
+        "deletions": 100,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "6e1942b0b9858201903fa68516136591e0e4d988",
+            "message": "avoid simple command concatenation",
+            "insertions": 28,
+            "deletions": 0
+          },
+          {
+            "hash": "71bc73d38a2ef50e8b3551245b51c918fbcaaf0c",
+            "message": "checkstyle",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "b9cabf4ae78970399395381ee9e7eea354a2ea63",
+            "message": "IU-2018.3.3 \u003cchenwen@CHEN-Wen.local Create code.style.schemes, ui.lnf.xml, laf.xml, filetypes.xml, colors.scheme.xml, debugger.xml",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "5f693fc43269159eeb8687cb8e84bca71c6026ea",
+            "message": "split out a method",
+            "insertions": 18,
+            "deletions": 27
+          },
+          {
+            "hash": "75d7de23c3e5c2c9e9f8298d48ca9c857632ca27",
+            "message": "remove junk files",
+            "insertions": 0,
+            "deletions": 33
+          },
+          {
+            "hash": "f7d6bafd34b62b1ce018b42b18a6f6b6a77543ec",
+            "message": "fix system test bugs",
+            "insertions": 34,
+            "deletions": 12
+          },
+          {
+            "hash": "ce885ee9d60420eb87cd97ed65c98a8429ab334b",
+            "message": "IU-2018.3.3 \u003cchenwen@CHEN-Wen.local Create code.style.schemes, ui.lnf.xml, laf.xml, colors.scheme.xml, debugger.xml",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "631f91e8e91a99b6b288842a88b457c9e97f5626",
+            "message": "checkstyle",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "1aa25c063a9fa5653fddfa81f998eb4f8dcc8aee",
+            "message": "delete junk files",
+            "insertions": 0,
+            "deletions": 7
+          },
+          {
+            "hash": "ed2ba6fb4866d7ee5e6977e38b5b9c2e3070b0b1",
+            "message": "IU-2018.3.3 \u003cchenwen@CHEN-Wen.local Create filetypes.xml",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "52ac6bfb49106573c46f270de78b1c96421f4229",
+            "message": "IU-2018.3.3 \u003cchenwen@CHEN-Wen.local Create path.macros.xml, Default.xml",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "6a10fb8a4cd2a01db1723c84dfc583e3f79b91bd",
+            "message": "amend command concatenation",
+            "insertions": 38,
+            "deletions": 0
+          },
+          {
+            "hash": "830a793abab687cabc28e8133455ad8687527e60",
+            "message": "fix minor bugs",
+            "insertions": 1,
+            "deletions": 5
+          },
+          {
+            "hash": "6f69509ba08b68140d8f6bf3cd0bb49c7c2f2fcf",
+            "message": "IU-2018.3.3 \u003cchenwen@CHEN-Wen.local Create code.style.schemes, ui.lnf.xml, laf.xml, filetypes.xml, path.macros.xml, editor.xml, Default.xml, debugger.xml",
+            "insertions": 48,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 12,
+        "deletions": 2,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "daad008ece0acfb698d535b545d48348cf5baded",
+            "message": "IU-2018.3.3 \u003cchenwen@CHEN-Wen.local Update ui.lnf.xml, laf.xml\tCreate ide.general.xml, colors.scheme.xml",
+            "insertions": 12,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 303,
+        "deletions": 469,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "7730ef615356d851e64da18d06939eb8a89c80eb",
+            "message": "test",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "fc4ca503e955fe7035053580a69bf3a1c30c482d",
+            "message": "ignore files",
+            "insertions": 0,
+            "deletions": 58
+          },
+          {
+            "hash": "80807022a0a78e4ea63ecd3288ff27de80ad0992",
+            "message": "refactor pin book",
+            "insertions": 58,
+            "deletions": 72
+          },
+          {
+            "hash": "097553308b32527d7c58074def93a82734109110",
+            "message": "checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "e9d182155940b8d192a2f7c01f5f68ed33946462",
+            "message": "delete unused import",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "895297f4bac7216b703155ded87102e0bf24e009",
+            "message": "delete unused files",
+            "insertions": 0,
+            "deletions": 308
+          },
+          {
+            "hash": "e6af47a6873a9d7837ee9333c66a329f432ea176",
+            "message": "add some tests for PinCommand and UnpinCommand",
+            "insertions": 166,
+            "deletions": 3
+          },
+          {
+            "hash": "3645c6706387bcee5a90fdbaab46feec415ff733",
+            "message": "fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6f76b4fa35a2a71a199bad37053e9c6332ec431b",
+            "message": "delete unused private methods",
+            "insertions": 1,
+            "deletions": 17
+          },
+          {
+            "hash": "6cf1984b5a0a27b960c2e7741653594fc69a8bba",
+            "message": "checkstyle",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "59ca2d6d0840d508537d55474245652bb6c5ca00",
+            "message": "Test for command parser",
+            "insertions": 69,
+            "deletions": 3
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-11",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -1246,6 +1423,122 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 173,
+        "deletions": 81,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "f3a02e1153a84bc3f42c3b3c83c3b56f7b174661",
+            "message": "Refactor Model classes and modify add command to check for duplicate identity fields",
+            "insertions": 125,
+            "deletions": 62
+          },
+          {
+            "hash": "99d0eb716ba82b1807672cd12b27189919521e93",
+            "message": "Amend Checkstyle errors",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "a6fcc64f0b6a97194eb15272872baac0ed65d94f",
+            "message": "Amend checkstyle error",
+            "insertions": 12,
+            "deletions": 6
+          },
+          {
+            "hash": "3987424143eab11166fa65248db2168b2c467672",
+            "message": "Update tests",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "a1fe7249e5f5f12fc2b7aabd4e4d916d4d0bf8fe",
+            "message": "Modify edit command to check for invalid edit parameters and update relevant tests.",
+            "insertions": 21,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 368,
+        "deletions": 379,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "855671918a54fadf0595865a4667ff4a08b808b8",
+            "message": "Update tests",
+            "insertions": 315,
+            "deletions": 298
+          },
+          {
+            "hash": "ebe54d626593a184a2d1eb2d43ad96db9429b8b7",
+            "message": "Amend Checkstyle error",
+            "insertions": 17,
+            "deletions": 14
+          },
+          {
+            "hash": "e1fa456f290ef46c580bb87621763a74ee60835e",
+            "message": "Amend checkstyle error",
+            "insertions": 8,
+            "deletions": 20
+          },
+          {
+            "hash": "679858f018f5f3c69e7ff0281939205c6b13785d",
+            "message": "Improve code quality",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "eea7c1ba13615566da98e692057776f395759fae",
+            "message": "Modify HelpCommandSystemTest",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d89f5cc96310a2ca64ee9e1cbfc78dbaa261abc6",
+            "message": "Amend checkstyle error",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "d39405aa503060642e6c1fae1c2ece099b9efde0",
+            "message": "Omit test failing on Travis-Ci",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "12edea534fd1b56ab06d932fa9a90007ecd1dca6",
+            "message": "Integrate tests for pin feature",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "ffc475d3787a8ffad3e922cc83e63202bfc3d75c",
+            "message": "Update tests",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "484aaf1b14d95f54c90c6bd0632120d16e87cccc",
+            "message": "Amend checkstyle error",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "4443a84a26983224de599d9d228a96d90cbd8ffd",
+            "message": "Update tests",
+            "insertions": 2,
+            "deletions": 12
+          }
+        ]
       }
     ],
     "yongxiang1095": [
@@ -2071,18 +2364,55 @@
             "deletions": 71
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 165,
+        "deletions": 66,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "61e8f77efdcb79c9e88740ed2c2c3844c3b510cf",
+            "message": "Update documentation",
+            "insertions": 126,
+            "deletions": 16
+          },
+          {
+            "hash": "63ba3b9bd0e3a08d013fca53d5ce317b40633fa3",
+            "message": "Refactor BrowserPanel and modify selection for AddCommand",
+            "insertions": 25,
+            "deletions": 50
+          },
+          {
+            "hash": "ec97e0bf0be044428944d05021d8828d6eea57b9",
+            "message": "Update existing tests",
+            "insertions": 14,
+            "deletions": 0
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChenWenCUHK": 1980,
-    "tanlongbin": 1944,
-    "yongxiang1095": 2831
+    "ChenWenCUHK": 1893,
+    "tanlongbin": 2231,
+    "yongxiang1095": 2937
   },
   "authorContributionVariance": {
-    "ChenWenCUHK": 36346.645,
-    "tanlongbin": 60242.152,
-    "yongxiang1095": 40389.277
+    "ChenWenCUHK": 43895.773,
+    "tanlongbin": 64997.832,
+    "yongxiang1095": 39117.996
   },
   "authorDisplayNameMap": {
     "ChenWenCUHK": "CHE...WEN",

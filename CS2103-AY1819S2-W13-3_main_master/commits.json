@@ -1659,8 +1659,8 @@
         ]
       },
       {
-        "insertions": 69,
-        "deletions": 70,
+        "insertions": 298,
+        "deletions": 220,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -1704,6 +1704,54 @@
             "message": "Updated BiblioCommandTest to match new BiblioCommand inputs Minor cleanup in BiblioCommand",
             "insertions": 18,
             "deletions": 18
+          },
+          {
+            "hash": "69de86387ec0299f60346598e7b8f9042c28ad0c",
+            "message": "Cleanup for biblio-related features Editted Typical sources to include various valid types Expanded coverage for BiblioCommandTest",
+            "insertions": 67,
+            "deletions": 63
+          },
+          {
+            "hash": "e26d0e75feeef996fd5a4885201c120f0492a64f",
+            "message": "Checkstyle Edits",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "967357b0c4719b87bc2d594a028b4eb2cf364f25",
+            "message": "Update to BiblioCommandTest",
+            "insertions": 35,
+            "deletions": 18
+          },
+          {
+            "hash": "9e1974320dc1ffc2cba70dbfc784e461fde717a1",
+            "message": "Added persistent storage for BiblioFields",
+            "insertions": 95,
+            "deletions": 50
+          },
+          {
+            "hash": "1d7c285368fdcf3df6f5258f715c5c1de478d808",
+            "message": "Checkstyle Edits",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "9ef8d65b54e2c72cfb8dc422d6c0f68a4f40dc6a",
+            "message": "Checkstyle Edits",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "ca2a50862fdc93f1ff4b463974dedc904fd79fb0",
+            "message": "Checkstyle Edits",
+            "insertions": 21,
+            "deletions": 11
+          },
+          {
+            "hash": "741f26dab57fb2c2bba5e3ac0370987b6674a23e",
+            "message": "Set 2 tests to Ignore",
+            "insertions": 2,
+            "deletions": 0
           }
         ]
       }
@@ -3405,16 +3453,132 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 170,
+        "deletions": 69,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "13815e3b8af2d8a4ddf0c69eb2a102603e6dc0fd",
+            "message": "add exitbincommand test",
+            "insertions": 49,
+            "deletions": 1
+          },
+          {
+            "hash": "28f932302a2c2ab138c6f3248bb8b4d8bd2dafdd",
+            "message": "add emptybincommand test",
+            "insertions": 40,
+            "deletions": 2
+          },
+          {
+            "hash": "5dde4f912d5dc46f8b50e421714818038829e95e",
+            "message": "add recyclebincommand test",
+            "insertions": 47,
+            "deletions": 0
+          },
+          {
+            "hash": "875ec3712dfbefb6152f73436ce1d6a5ef6ae0fd",
+            "message": "add restorecommand test class",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "0421691e9031ec18366b9d00024b34adcff4e864",
+            "message": "remove delete and restore from CommandHashTest",
+            "insertions": 0,
+            "deletions": 39
+          },
+          {
+            "hash": "9140d62ff22919ae2d388c5b757c6906d7c892a2",
+            "message": "fix travis checkstyle errors",
+            "insertions": 25,
+            "deletions": 24
+          },
+          {
+            "hash": "1174812fa727a85af5d361316c8f28e76e3073ad",
+            "message": "fix editcommandtest error",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 174,
+        "deletions": 981,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5269400e9469255bb40656e15070b50d9149e899",
+            "message": "remove restore command from SourceManagerParser",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "c602ceaeeccca7a68a37612dbb42db7c25017c5b",
+            "message": "fix travis checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "5854f77c1d933fe4c7491b1a40de905077a3ce26",
+            "message": "renamed variables with ALICE, BENSON, CARLS to new names",
+            "insertions": 30,
+            "deletions": 31
+          },
+          {
+            "hash": "8c364555f7426db64d2e90d0a86e5c400a6e9c51",
+            "message": "update countcommandtest",
+            "insertions": 37,
+            "deletions": 6
+          },
+          {
+            "hash": "3e11cd3bda1ce47cabe2f7a2b62e978405d9f54f",
+            "message": "fix failing deleteCommandTest and add test case",
+            "insertions": 95,
+            "deletions": 13
+          },
+          {
+            "hash": "e47c4ab646d95914d2dfd67552f51bc6caf20bf6",
+            "message": "write proper explanation in javadoc comment for test case in deletecommandtest",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "1c9d4b566d4c5a3cbe01901d4c19e4ffb9ca08b1",
+            "message": "fix travis checkstyle and remove ignored test in ParserUtilTest",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "a48ddb5289b6c33a207feedad0cef7b931c0188f",
+            "message": "update coverage to infinity machine\u0027s",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "3bbd2e45892efea968305f459346fd29c2fb3c6b",
+            "message": "fix travis checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b96c74c62afc31b1389b449597d94ebbdf2baf7a",
+            "message": "update coverage",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f47e62eb7546b27d8f2cce04b8f61deebc45a295",
+            "message": "removed addressbook files",
+            "insertions": 3,
+            "deletions": 823
+          },
+          {
+            "hash": "7bb154b5c8571b6708df5797a768cd3899882c8f",
+            "message": "removed personbuilder",
+            "insertions": 0,
+            "deletions": 94
+          }
+        ]
       }
     ],
     "DarrenDragonLee": [
@@ -4087,10 +4251,107 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 670,
+        "deletions": 227,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5ae2988496b947320b331a0702b0d83465fd5c6e",
+            "message": "Modified Add and Edit command to incorporate the Author field",
+            "insertions": 259,
+            "deletions": 135
+          },
+          {
+            "hash": "d4a536d7f68984634a396ace1958c5427e340ed6",
+            "message": "Modified tests and descriptor to confrom with necessary functionality",
+            "insertions": 71,
+            "deletions": 9
+          },
+          {
+            "hash": "a83a26667dd5f003abe8f618572cdc14837d0982",
+            "message": "Removed single white space",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "28eaa5b16af2fcd5498fffd9801b20bd8018ed7f",
+            "message": "Minor import order changes",
+            "insertions": 79,
+            "deletions": 29
+          },
+          {
+            "hash": "1a750418aba389a9cc9fadce2db4e6f4ab0144f0",
+            "message": "Modified the tags regex to let it take in any special characters and spaces",
+            "insertions": 32,
+            "deletions": 14
+          },
+          {
+            "hash": "76a25d6fd34851e362703d1b520bebd24fb51dab",
+            "message": "Removed 1 whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6484cd423c3c5f5c01fa44de029e9a932fd6d94b",
+            "message": "Modified regex for tags again to remove special characters",
+            "insertions": 5,
+            "deletions": 10
+          },
+          {
+            "hash": "3796286efadfe3aa9b73c669043d71083ed410b6",
+            "message": "Removed 1 whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "55e9b95cb9a98e1a4ec8a508cfd63f07c6a423ac",
+            "message": "Updated user guide to iron out minor documentation errors",
+            "insertions": 77,
+            "deletions": 10
+          },
+          {
+            "hash": "74b5de1ffae863aa5e4395eb76a90d033e1cb9d6",
+            "message": "Added additional comments to account for multiple titles in the add command.",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "d9be7e9d9bc0e76380e3272cf3a2fbb52261c207",
+            "message": "Removed 1 whitespace",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "4fb8208873736e54b56d486e8646b8ef80ea5239",
+            "message": "Removed whitespace again",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3193017ee4dbaf72e6131087ce9b09697b2f1b7d",
+            "message": "Added pin and unpin components to the user guide",
+            "insertions": 69,
+            "deletions": 3
+          },
+          {
+            "hash": "29ae99d306ef047128f5117d2dfcf2b9b4ae04b3",
+            "message": "Added additional tests for the author field for the add and edit commands",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "4bc65e3f58a1d12b848adfb86bd80274d612e1f0",
+            "message": "Minor typo updates to uer guide",
+            "insertions": 27,
+            "deletions": 10
+          },
+          {
+            "hash": "210f0f75dd6ee9c7daf031f836a1c7fd3b64087e",
+            "message": "Removed 1 whitespace",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "fterh": [
@@ -5215,10 +5476,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 6,
+        "deletions": 1,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "574485e5c3844e5b7719555b4a74fb3d8ea73806",
+            "message": "Add sequence diagram for AliasManager aliasing operation",
+            "insertions": 6,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -5229,18 +5497,18 @@
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 1438,
-    "DoItTomorrow": 1024,
-    "case141": 4804,
-    "DarrenDragonLee": 2265,
-    "fterh": 2685
+    "suriruhani": 1433,
+    "DoItTomorrow": 1128,
+    "case141": 4963,
+    "DarrenDragonLee": 2761,
+    "fterh": 2658
   },
   "authorContributionVariance": {
     "suriruhani": 46058.863,
-    "DoItTomorrow": 9179.562,
-    "case141": 4.3111491E9,
-    "DarrenDragonLee": 26999.22,
-    "fterh": 123538.56
+    "DoItTomorrow": 12701.999,
+    "case141": 4.3107144E9,
+    "DarrenDragonLee": 37662.426,
+    "fterh": 123511.45
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",

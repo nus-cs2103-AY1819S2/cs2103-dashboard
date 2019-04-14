@@ -853,6 +853,32 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 50,
+        "deletions": 6,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "c49b3eb2ad4e6e0a1b1224f2377eb3d31d076c3e",
+            "message": "undo is working for service type and room type commands now",
+            "insertions": 50,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 10,
+        "deletions": 2,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "74bc39886a27124a1ef57af8ee9aeeb778b7b21e",
+            "message": "BillPanel will show message if there is no booking or reservation available for the selected customer",
+            "insertions": 10,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "sreycodes": [
@@ -1947,10 +1973,36 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
+        "insertions": 86,
         "deletions": 0,
         "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "8dff0d23f973d16eafe9c93c913fbda0a339361b",
+            "message": "No duplicates in service and room type list",
+            "insertions": 86,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 12,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "d733eb613822b17fda48b47705bb64fea1e8bb36",
+            "message": "Now edit also checks for uniqueness",
+            "insertions": 12,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "Tejas2805": [
@@ -3518,8 +3570,8 @@
         ]
       },
       {
-        "insertions": 533,
-        "deletions": 199,
+        "insertions": 1623,
+        "deletions": 525,
         "date": "2019-04-12",
         "commitResults": [
           {
@@ -3563,6 +3615,56 @@
             "message": "Corrected errors.",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "d71950e50f518a5bef21c262a9d9e804116901aa",
+            "message": "Made new branch and merged",
+            "insertions": 832,
+            "deletions": 63
+          },
+          {
+            "hash": "aa5eb92e8beb3565059b42d03c013cbfde3772a9",
+            "message": "Corrected errors for checkStyle.",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "d3a22b2e82b16264b0af33344603174855c0c86a",
+            "message": "Corrected errors.",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "38d6af4c4012153a1fcde83f76a442ad244cf794",
+            "message": "Corrected errors.",
+            "insertions": 256,
+            "deletions": 256
+          }
+        ]
+      },
+      {
+        "insertions": 21,
+        "deletions": 12,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "042984b0d495b7c78f187e48ae14e5e3f3d236ce",
+            "message": "Corrected errors.",
+            "insertions": 21,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 222,
+        "deletions": 47,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "a91ffdf64c933ec82e53bc6e03d89bf3a73ced18",
+            "message": "Tiny bugs like space errors in command examples fixed. UG updated. DG updated.",
+            "insertions": 222,
+            "deletions": 47
           }
         ]
       }
@@ -4188,20 +4290,32 @@
         "deletions": 0,
         "date": "2019-04-12",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 2737,
-    "sreycodes": 11836,
-    "Tejas2805": 7339,
-    "nerrons": 1172
+    "ZhangCX10032": 2793,
+    "sreycodes": 12098,
+    "Tejas2805": 7848,
+    "nerrons": 1161
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 678982.5,
-    "sreycodes": 2.3513906E7,
-    "Tejas2805": 879267.56,
-    "nerrons": 206398.45
+    "ZhangCX10032": 659152.1,
+    "sreycodes": 2.2806484E7,
+    "Tejas2805": 900752.2,
+    "nerrons": 200365.34
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

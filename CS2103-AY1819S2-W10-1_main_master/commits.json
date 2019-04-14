@@ -1151,16 +1151,78 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 101,
+        "deletions": 28,
         "date": "2019-04-06",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "03167b9ba56be032af7792418909bd63145717c5",
+            "message": "Add navigation sidebar, use custom fonts",
+            "insertions": 73,
+            "deletions": 14
+          },
+          {
+            "hash": "ab6df8d29f29ad47743e086f67cbd99d326fcf85",
+            "message": "Fix nav button pressed style bug",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "a2ae51c36d9d0232edf240ff8942e45879980069",
+            "message": "Change to Roboto, Lato font pairing",
+            "insertions": 24,
+            "deletions": 10
+          },
+          {
+            "hash": "205ddd1d8130b04e604f026b49e85cd49bc6c2ed",
+            "message": "Move tags to bottom, restrict to bright colours",
+            "insertions": 2,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 174,
+        "deletions": 54,
         "date": "2019-04-07",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0189489cc2f872d32e8f8f8b6e9f65ce870928fd",
+            "message": "Change deprecated compile to implementation in build.gradle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7782a5e654a56553266155c5b5638540f0f72d4d",
+            "message": "Make navigation sidebar observe model context",
+            "insertions": 93,
+            "deletions": 28
+          },
+          {
+            "hash": "e0a32b7e5c951926995c516ce9150fd4c3dd2604",
+            "message": "Update tests for new tag colors",
+            "insertions": 24,
+            "deletions": 19
+          },
+          {
+            "hash": "81bdb0f7f40f70f4f16f41d6241671d95a1a2070",
+            "message": "Add new method executeCommand to Logic",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "9e0f22db0994de8d7f800784ad944177cacb9539",
+            "message": "Change context on navigation sidebar button click",
+            "insertions": 39,
+            "deletions": 3
+          },
+          {
+            "hash": "9fd30b3e80841e6ad97300a2a20fd66606c1ac3e",
+            "message": "Clean up imports in MainWindow.fxml",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1169,22 +1231,115 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 234,
+        "deletions": 151,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ee6b35d464c8d49d8364014460663643e7094d9d",
+            "message": "Refactor into NavigationBar UI component",
+            "insertions": 142,
+            "deletions": 92
+          },
+          {
+            "hash": "81f07483e442af73232c96dfb0c0d685aa57f66c",
+            "message": "Refine UI styling",
+            "insertions": 72,
+            "deletions": 48
+          },
+          {
+            "hash": "90145760fb65dc9cba8bcdb4a515851a2b2a0ee9",
+            "message": "Hide BrowserPanel in Feeds context",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "e0fc581b8c96645384110997b51028eefa45b45d",
+            "message": "While here update Google News command",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "3eb530eba17e4d8154f243df5a6cb02b2e03f19d",
+            "message": "Fix bug with hiding BrowserPanel in MainWindow",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d67936eb2cf8d2b2887d25885910c1a61665b31a",
+            "message": "Update messages to be more user-friendly",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "2ee1c44318f96eeb1354653de20130c583f0470e",
+            "message": "Remove unused import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "4a72435ce258aa09ccd1c1c1b050947e76384889",
+            "message": "Update EntryCardTest, EntryListPanelTest",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 19,
+        "deletions": 20,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "cecf247bf0012861127f2fb6d4c7a875c82a0605",
+            "message": "Remove mnemonic parsing",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "0a893227cfa0d6859e53287c8d2ef1e86cf3563c",
+            "message": "Change CommandResultProperty and ExceptionProperty ChangeListener to InvalidationListener to fix bug with UI not updating",
+            "insertions": 11,
+            "deletions": 12
+          },
+          {
+            "hash": "be572e585002304dfce47a7e9d222f30a601c33c",
+            "message": "Move fonts to their own folder",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 4,
+        "deletions": 6,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "85d6512485d1ab53a7cb30e8160d699e40d2c7ab",
+            "message": "Change icon",
+            "insertions": 4,
+            "deletions": 6
+          }
+        ]
       }
     ],
     "qjqqyy": [
@@ -2043,8 +2198,8 @@
         "commitResults": []
       },
       {
-        "insertions": 84,
-        "deletions": 79,
+        "insertions": 90,
+        "deletions": 80,
         "date": "2019-04-07",
         "commitResults": [
           {
@@ -2112,6 +2267,12 @@
             "message": "SubscribeCommand: try extracting info from URL too",
             "insertions": 1,
             "deletions": 0
+          },
+          {
+            "hash": "3fc2e13b6bc631611e6d05354433e986b54d5702",
+            "message": "hotfix to make merge compile",
+            "insertions": 6,
+            "deletions": 1
           }
         ]
       },
@@ -2218,6 +2379,24 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ],
     "thomastanck": [
@@ -3225,6 +3404,24 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -4252,16 +4449,47 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 236,
+        "deletions": 1,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "782e7cef82e0a00597e7ba72b09cc72ed1cd8a0d",
+            "message": "Prevent display entry list from refreshing on add",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "e97ca70f6a271652c42d1e51e0093323a4d84ebf",
+            "message": "Add test for Archive and Unarchive command",
+            "insertions": 231,
+            "deletions": 0
+          },
+          {
+            "hash": "b02f734a9ae6fca79545dc995b0e7e5a2ba441c1",
+            "message": "Enable FindCommand for arhives context",
+            "insertions": 5,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 31,
-        "deletions": 14,
+        "insertions": 363,
+        "deletions": 36,
         "date": "2019-04-09",
         "commitResults": [
+          {
+            "hash": "990f30ae8e33ae730db69bbda6703679d3d09923",
+            "message": "Add Archive(and Unarchive) system tests",
+            "insertions": 332,
+            "deletions": 21
+          },
+          {
+            "hash": "73723469d3d5563bd4d51b510614a549e36a46f9",
+            "message": "Fix checkstyle bug",
+            "insertions": 0,
+            "deletions": 1
+          },
           {
             "hash": "bef555448412d7dbf03555440d7d3200adb35528",
             "message": "Add sequence diagram for context changing",
@@ -4287,20 +4515,51 @@
         "deletions": 0,
         "date": "2019-04-11",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 184,
+        "deletions": 44,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "670ee89ca3b99c83385b65aed631d0b64f94091f",
+            "message": "Add more system tests",
+            "insertions": 183,
+            "deletions": 41
+          },
+          {
+            "hash": "bc552e5614424b456f97803d77749e50eb1860db",
+            "message": "Remove unused variables",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 7290,
-    "qjqqyy": 2152,
-    "thomastanck": 2678,
-    "epicfailname": 5243
+    "rlrh": 7611,
+    "qjqqyy": 2149,
+    "thomastanck": 2669,
+    "epicfailname": 5919
   },
   "authorContributionVariance": {
-    "rlrh": 684312.8,
-    "qjqqyy": 48372.156,
-    "thomastanck": 72021.1,
-    "epicfailname": 633358.94
+    "rlrh": 652397.2,
+    "qjqqyy": 46329.395,
+    "thomastanck": 69146.664,
+    "epicfailname": 604330.5
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

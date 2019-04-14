@@ -1506,8 +1506,8 @@
         ]
       },
       {
-        "insertions": 1,
-        "deletions": 1,
+        "insertions": 12,
+        "deletions": 18,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -1515,6 +1515,12 @@
             "message": "Change output jar name to battleship",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "ee809fa46d5d5e14ae213de0165d0e1a55a5bc44",
+            "message": "Update PPP",
+            "insertions": 11,
+            "deletions": 17
           }
         ]
       },
@@ -1531,10 +1537,78 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 15,
+        "deletions": 325,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ea995bbc00ecec3393ce83340ca8d64ec7f6151e",
+            "message": "Remove AB4 code",
+            "insertions": 0,
+            "deletions": 317
+          },
+          {
+            "hash": "181da46d0da5bc1a860b7ec587c30914be1daa67",
+            "message": "Update ExitCommand message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ab83f89e5d70cb4d1f9d5c68c8c2de39daf538c7",
+            "message": "Rename AddressBookParser to BattleshipParser",
+            "insertions": 14,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 65,
+        "deletions": 48,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "fe1ed306fea16d2e13989f942e031ce7bee258f3",
+            "message": "Update javadocs",
+            "insertions": 25,
+            "deletions": 15
+          },
+          {
+            "hash": "9263394cafe5b00e8250b108563b2b1f4bb3625d",
+            "message": "Update InitialiseMapCommand.java",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "f88a87ac3e1c324ea2c51a74679cd32a8f70e97c",
+            "message": "Fix checkstyle",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "e92b354889a4155137ae3f7eb9200426d6d86319",
+            "message": "Fix coordinates of Cell",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4d6875f28dc5d8a43276fc4925f7706e28d7a863",
+            "message": "Update InitialiseMapCommand.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "be9588ecb995e265511bca9b23df57b5ca905cd3",
+            "message": "Update InitialiseMapCommand usage prompt",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "891c15a2c935a874d00047108ce2e0653e29e686",
+            "message": "Refactor Map.java",
+            "insertions": 33,
+            "deletions": 25
+          }
+        ]
       }
     ],
     "iwle": [
@@ -3544,10 +3618,108 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 160,
+        "deletions": 46,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "64341458e01dccecef784f274321e39f4fac2d0f",
+            "message": "Remove trailing lines in ListCommand",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "6c276f7411cb6861c4b47f5c4a1f7455e62aa4cd",
+            "message": "Add JavaDocs to ListCommand",
+            "insertions": 37,
+            "deletions": 7
+          },
+          {
+            "hash": "8496ca844b28e690424396706801f843faa9aaf5",
+            "message": "Add JavaDocs to ListTagsCommand",
+            "insertions": 18,
+            "deletions": 2
+          },
+          {
+            "hash": "8c88643890f7bbd4d1a91900c463233883f8e96c",
+            "message": "Refactor, add JavaDocs to PutShipCommand",
+            "insertions": 36,
+            "deletions": 20
+          },
+          {
+            "hash": "30dca58bfbb908f73d0569ab11d3b3de179ef34d",
+            "message": "Update JavaDocs for PutShip, List, ListTags",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "6b176b3b13e8e87a49a3d9f017cf0f89577cbdd0",
+            "message": "Update MESSAGE_USAGE for PutShipCommand",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0689b1f869fc145dd845824ef520e895037792ea",
+            "message": "Add JavaDocs to Coordinates",
+            "insertions": 50,
+            "deletions": 10
+          },
+          {
+            "hash": "567e18e3c912c888e52fe108a305cbdef8bcf02a",
+            "message": "Update JavaDocs in PutShip, ListTags, List",
+            "insertions": 14,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 261,
+        "deletions": 73,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "fd4726d5b713df1a04eafd30974bae71cea4b36c",
+            "message": "Add JavaDocs to Battleship and related classes",
+            "insertions": 74,
+            "deletions": 27
+          },
+          {
+            "hash": "3402ca0942462f205e4cb79e9eca0c92eeb1e6a4",
+            "message": "Remove unused variables in Orientation",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "e4e4e3b3b6249d79bb77a63f525c8ee3be8684c6",
+            "message": "Add JavaDocs to Orientation",
+            "insertions": 23,
+            "deletions": 8
+          },
+          {
+            "hash": "28be1e456ddec775cb332e63e592d0011e8c040d",
+            "message": "Add JavaDocs for BoundaryValueException",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "f8dd15c0209c25e31d070157b6acd20ec7937843",
+            "message": "Refactor, add JavaDocs to Fleet, FleetTest",
+            "insertions": 137,
+            "deletions": 30
+          },
+          {
+            "hash": "abc8b482ff4e6958a03113b1ac4a32ad0145ad32",
+            "message": "Remove ref to Address Book in comments in Tag",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ba4de9ebcc9fc6381b907659c1eaaa8546a56094",
+            "message": "Add JavaDocs, update message in BoundaryValueChecker",
+            "insertions": 20,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "lucydotc": [
@@ -4287,6 +4459,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -5214,8 +5392,8 @@
         "commitResults": []
       },
       {
-        "insertions": 172,
-        "deletions": 625,
+        "insertions": 347,
+        "deletions": 647,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -5223,6 +5401,115 @@
             "message": "Removed or Commented out AB4 Storage Components",
             "insertions": 172,
             "deletions": 625
+          },
+          {
+            "hash": "8ec88ef08a303db7fa0bf19af9793d73d57d3a72",
+            "message": "Added Modified StatsSequenceDiagram",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "a15b80e70d1a90c1cca9c23e176fe526e92aa1cf",
+            "message": "Added Tests for LogicManager stats part",
+            "insertions": 17,
+            "deletions": 9
+          },
+          {
+            "hash": "2c59a9f1e875a5f797977fbde4bda4915fabca96",
+            "message": "Added test for SaveCommand",
+            "insertions": 152,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 288,
+        "deletions": 200,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "27cfd71ad13b559277ad23a0909049a2fdf4d476",
+            "message": "Checkstyle",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "866f838b8fe90c39ff0b88a99422c5ce3a1b9b5a",
+            "message": "Added test for StatsCommand",
+            "insertions": 178,
+            "deletions": 122
+          },
+          {
+            "hash": "b3bb3a81c94217765ce6974acc7b46b6ef210d5a",
+            "message": "Rectify json",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "f1781e7583db2dffe77652ecb65ecb8eebce8308",
+            "message": "Rectify json",
+            "insertions": 11,
+            "deletions": 4
+          },
+          {
+            "hash": "5fc62a4ec2d8682f6e893b8a629e64ccdbcb8227",
+            "message": "Rectify json",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "3836144fb4ae1b4e739e5f7c5b3227fd814924ed",
+            "message": "Rectify Json Problems",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "376253366f4a0418045eeed4924f4cba81f08f1c",
+            "message": "Json problems",
+            "insertions": 24,
+            "deletions": 19
+          },
+          {
+            "hash": "fd51fcea170ca63b18f7ea3c963694e814937c8d",
+            "message": "Added newline at EOF",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "a0b747454ba63aeba58bd799f5e351adb93b5cb8",
+            "message": "Will reinitialize JSON files at the start of each test",
+            "insertions": 36,
+            "deletions": 4
+          },
+          {
+            "hash": "86d9b8258300152ad60f1be6de6481d025052841",
+            "message": "Added newline at EOF using File Util",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "512f9db846d17b22ec962378428b6c2907b9679c",
+            "message": "Modified Test cases to include newline at EOF",
+            "insertions": 1,
+            "deletions": 16
+          },
+          {
+            "hash": "e26eeea3436fbf32baf6c6e30286fd7657d7f45c",
+            "message": "Modified StatsComamnd Test Case",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c58ac98bec1f50e8592d0901f011fef8b75ece80",
+            "message": "Commented out StatsCommand Test",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "e08097844d5ee0237c79d7afaa73b66cd90d0a7a",
+            "message": "checkstyle",
+            "insertions": 4,
+            "deletions": 1
           }
         ]
       }
@@ -6399,22 +6686,28 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "erjillsison": 1145,
-    "iwle": 3285,
+    "erjillsison": 1164,
+    "iwle": 3592,
     "lucydotc": 782,
-    "bos10": 1402,
+    "bos10": 1643,
     "s-tr": 1868
   },
   "authorContributionVariance": {
-    "erjillsison": 180413.66,
-    "iwle": 38289.207,
-    "lucydotc": 4510.5615,
-    "bos10": 30848.027,
-    "s-tr": 148267.89
+    "erjillsison": 177805.45,
+    "iwle": 38174.41,
+    "lucydotc": 4449.37,
+    "bos10": 38008.51,
+    "s-tr": 146219.36
   },
   "authorDisplayNameMap": {
     "erjillsison": "SIS...NES",

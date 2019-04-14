@@ -629,9 +629,34 @@
         ]
       },
       {
+        "insertions": 104,
+        "deletions": 31,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "c1537782d909658b73ed8a204a35fe6e16e87d65",
+            "message": "Update UserGuide Add images",
+            "insertions": 80,
+            "deletions": 30
+          },
+          {
+            "hash": "3252a85300a65240c69c2d3bdb00819846e9cc95",
+            "message": "Update UserGuide Pictures",
+            "insertions": 23,
+            "deletions": 0
+          },
+          {
+            "hash": "19670dcf10c03bfb5500bdbe8b5f14c227d86f05",
+            "message": "Change Picture for DG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-14",
         "commitResults": []
       }
     ],
@@ -1348,6 +1373,37 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 195,
+        "deletions": 34,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "2f9317d2776ce58773e262bef93e431707609691",
+            "message": "Created FindNote by note name command",
+            "insertions": 89,
+            "deletions": 0
+          },
+          {
+            "hash": "92d2a2f0219afdcd6a494968a58341f0e91d822e",
+            "message": "Implemented ListNote command",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "de205d4fc6e0443220630c9a2038594f14912714",
+            "message": "Added AddNoteCommandParserTest",
+            "insertions": 52,
+            "deletions": 0
+          },
+          {
+            "hash": "382244ca397c66d3f1949e94e495f4e1b2097e62",
+            "message": "Added ListNoteCommand and updated AddNoteCommandParser and its test",
+            "insertions": 29,
+            "deletions": 34
+          }
+        ]
       }
     ],
     "LimZhengJieBenjamin": [
@@ -2218,10 +2274,78 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 55,
+        "deletions": 165,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5f8fc81ccbdf45487cf7254a978567c1860516d4",
+            "message": "Removed dead code from the homework class.",
+            "insertions": 0,
+            "deletions": 58
+          },
+          {
+            "hash": "864c533e9c38c5ad6f1eb770d540cd6df9b44e47",
+            "message": "Removed dead code Year class.",
+            "insertions": 0,
+            "deletions": 49
+          },
+          {
+            "hash": "4302980496ea00b73ac5d44cd901e1e8e102aec4",
+            "message": "Editted comments within command classes.",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "38667e07c582a334671390e28c81f517e1db6cf5",
+            "message": "Edited comments in Json classes.",
+            "insertions": 4,
+            "deletions": 5
+          },
+          {
+            "hash": "124b2ed9a8c33d98b19a8b7cb269ec1bb9d179c8",
+            "message": "Edited comments in List classes.",
+            "insertions": 18,
+            "deletions": 17
+          },
+          {
+            "hash": "2efd9235717a5f57212655f073c173b8a023b6fb",
+            "message": "Edited comments in Model.",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "8ffaad3875e5f0d5d5eba40c27e45a5543bc5116",
+            "message": "Editted comments in Exception.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "e6520a2e7281366b9cc52e45f732291e457704df",
+            "message": "Editted comments in Model and ModelManager.",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "5b9692dde3b313a965b28424660dc3d72e99574e",
+            "message": "Edited comments in ModuleCode.",
+            "insertions": 3,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 35,
+        "deletions": 30,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "3556d07e3976251526de64126d32a4d83cb9106e",
+            "message": "Made changes to UG.",
+            "insertions": 35,
+            "deletions": 30
+          }
+        ]
       }
     ],
     "NgWeiXin": [
@@ -3060,8 +3184,8 @@
         "commitResults": []
       },
       {
-        "insertions": 8,
-        "deletions": 8,
+        "insertions": 796,
+        "deletions": 2435,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -3087,22 +3211,112 @@
             "message": "Changed Icon for UltiStudent",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "5fd888617c1bb3510e6f92634067282c42494785",
+            "message": "Fixed HomeworkManager date bug",
+            "insertions": 23,
+            "deletions": 22
+          },
+          {
+            "hash": "a3f30079fbf10e9ced3fca4bc0e1a0dae3634500",
+            "message": "Renamed addressbook to ultistudent",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b26da511d77abff8314f82251e31ebbce157cc70",
+            "message": "Change commitAddressBook to commitUltiStudent",
+            "insertions": 39,
+            "deletions": 39
+          },
+          {
+            "hash": "1edb05bd6bcf2569097a46888db4e322885d45aa",
+            "message": "Refractor naming of addressbook to ultistudent",
+            "insertions": 257,
+            "deletions": 347
+          },
+          {
+            "hash": "329ab7daa2d622d0bb414dbde647124a4176a57d",
+            "message": "Refractor naming of addressbook to ultistudent",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b8749987f6c1b6197cc403ce227cdcbcba8ebd81",
+            "message": "Refractor naming of addressbook to ultistudent",
+            "insertions": 32,
+            "deletions": 32
+          },
+          {
+            "hash": "62f3ee96f60c52dfeae7c4a32624dbb6e5f08158",
+            "message": "Refractor naming of addressBook to ultiStudent",
+            "insertions": 3,
+            "deletions": 9
+          },
+          {
+            "hash": "1e8c09e91b057a6d4f5deb784517d09e33e6a905",
+            "message": "Refract naming of addressbook to ultistudent",
+            "insertions": 189,
+            "deletions": 189
+          },
+          {
+            "hash": "31e125452a522b5866d84bd8912b02c0d584faa5",
+            "message": "removed book from ultistudent",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "2fd04f84cb8bf094b6c80931e2d637f41d299cd1",
+            "message": "Refract naming of addressbook to ultistudent",
+            "insertions": 78,
+            "deletions": 78
+          },
+          {
+            "hash": "7589e56d8bf669b013fbd5165691473a0d52a852",
+            "message": "Refract naming of addressbook to ultistudent",
+            "insertions": 15,
+            "deletions": 15
+          },
+          {
+            "hash": "397803d31767d15649237368d9e2f9c86e697f87",
+            "message": "Refract naming of addressbook to ultistudent",
+            "insertions": 33,
+            "deletions": 33
+          },
+          {
+            "hash": "f3d0a7205ddb36596e8428224a123e04b19160d8",
+            "message": "Removed commented codes and files",
+            "insertions": 0,
+            "deletions": 1598
+          },
+          {
+            "hash": "c15b892477208d5b066b29ede3d3c93e4a7ffa97",
+            "message": "Updated UserGuide and PPP",
+            "insertions": 115,
+            "deletions": 61
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "andrewscw": 4760,
-    "shimeilee": 8635,
-    "LimZhengJieBenjamin": 2499,
-    "NgWeiXin": 5426
+    "andrewscw": 4729,
+    "shimeilee": 8763,
+    "LimZhengJieBenjamin": 2335,
+    "NgWeiXin": 4391
   },
   "authorContributionVariance": {
-    "andrewscw": 183479.89,
-    "shimeilee": 993656.4,
-    "LimZhengJieBenjamin": 29248.455,
-    "NgWeiXin": 717793.06
+    "andrewscw": 180620.95,
+    "shimeilee": 978175.6,
+    "LimZhengJieBenjamin": 29151.5,
+    "NgWeiXin": 847787.4
   },
   "authorDisplayNameMap": {
     "andrewscw": "AND...WEN",
