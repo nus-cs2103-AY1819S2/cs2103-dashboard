@@ -889,8 +889,8 @@
         ]
       },
       {
-        "insertions": 211,
-        "deletions": 52,
+        "insertions": 343,
+        "deletions": 56,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -916,8 +916,81 @@
             "message": "add newline at eof to ppp",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "0f4e50a414b60591e6db1a266c0277ec2bd60a56",
+            "message": "update draft for ppp",
+            "insertions": 79,
+            "deletions": 1
+          },
+          {
+            "hash": "1c29f656c9667e3d3a2b826115effe9a4f223415",
+            "message": "update ppp for self",
+            "insertions": 45,
+            "deletions": 2
+          },
+          {
+            "hash": "ffa35c4a71d4f446d5e31301f7b34dee892f8447",
+            "message": "StatisticsManager: added more conditions so that invalid dates will throw exceptions",
+            "insertions": 8,
+            "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 267,
+        "deletions": 87,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "7198a033beab391e83e96e676b46d523010a3cee",
+            "message": "Statistics.java: changed equals() method of statistics, BigDecimals are checked for equality using compareTo() instead of equals().",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "0df757ef5077d1b216517aee5391ba7dad5d3550",
+            "message": "StatisticsManagerTest.java : added a lot more test cases",
+            "insertions": 134,
+            "deletions": 29
+          },
+          {
+            "hash": "3533869fd32c87ab4ca7e0434a61c05ab517c880",
+            "message": "add test cases for child Record classes",
+            "insertions": 48,
+            "deletions": 18
+          },
+          {
+            "hash": "1ce2dc24e0d1ed1912530c31769a2f68f83a405c",
+            "message": "update StatisticsTest.java",
+            "insertions": 52,
+            "deletions": 4
+          },
+          {
+            "hash": "b97dbd988cfb8be5593dc5b4791a5e3b98f843cb",
+            "message": "add test case for statistics storage",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "3f732cb2a6045afd03063eaada82adaf6f06894c",
+            "message": "add newline to eof",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c17a879f43f952be5b6f4320862e86d0f3887c04",
+            "message": "fix checkstyle",
+            "insertions": 15,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "ongaaron96": [
@@ -958,10 +1031,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 3,
+        "deletions": 3,
         "date": "2019-02-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "814171826154700ca1990de19bc93bd953f534ed",
+            "message": "Added aaron, wenjian and jiazhi png images",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -976,10 +1056,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 75,
+        "deletions": 12,
         "date": "2019-02-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ca1925a009b33b3a92a4e7984572f2f70f2285f0",
+            "message": "Added use case for Appointment module and made 1 change in user guide",
+            "insertions": 53,
+            "deletions": 2
+          },
+          {
+            "hash": "218bd6fa0a0cf55e67c2152d92ebf2f81aaead75",
+            "message": "Adds backup file path so that address book can be saved in a fixed temporary location (.backup)",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "a8f00c95729f7dedd671acb92d2f0d57696808e2",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "64465137e4a142702e78f09e4ae53b0e1c54e17a",
+            "message": "Changed use case heading",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "175d065699a034ede576cb99bc542dfa0df2975f",
+            "message": "Fixed checkstyle errors",
+            "insertions": 6,
+            "deletions": 7
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1036,22 +1147,139 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 588,
+        "deletions": 132,
         "date": "2019-03-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "38841b91c2f84cf7a9213f437fc3aab536a80989",
+            "message": "Added command and parsers for appadd",
+            "insertions": 149,
+            "deletions": 0
+          },
+          {
+            "hash": "f17c18556b62962b2e5ae4286169a1f3354a1d66",
+            "message": "Added Appointment class and manager",
+            "insertions": 105,
+            "deletions": 0
+          },
+          {
+            "hash": "21b0abd0ad700d01d27cbe15f1319979ad3b5eba",
+            "message": "Changed model and added test case for appadd. appadd works",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "f8186dd883cff39b642c7dd7e26d261c2825f2e4",
+            "message": "Parse date and time using ParserUtil",
+            "insertions": 127,
+            "deletions": 54
+          },
+          {
+            "hash": "63accb8338971ee8ac2cc79bf3e8e4a00b7340d8",
+            "message": "Include date attribute for Appointments",
+            "insertions": 46,
+            "deletions": 77
+          },
+          {
+            "hash": "64c68b1d32dc4bca44da7d20e30cb8586116f78e",
+            "message": "Added addApp command tests",
+            "insertions": 132,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 988,
+        "deletions": 172,
         "date": "2019-03-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7c429d93282a5d7556c3bb147c4e1738a6763c6a",
+            "message": "Changed format of addapp to NRIC Changed Appointment field Person to Patient Added sample patient data when initialising",
+            "insertions": 128,
+            "deletions": 90
+          },
+          {
+            "hash": "f3962d9aea79ec35d4a9c3830483741ea3fac4f9",
+            "message": "Added tests for addapp and Appointment",
+            "insertions": 103,
+            "deletions": 40
+          },
+          {
+            "hash": "a9dba116147786c85bea929d711a57992c38a836",
+            "message": "Added applist command with tests",
+            "insertions": 129,
+            "deletions": 9
+          },
+          {
+            "hash": "90e8ef06ab7c0edf4f9684ce431d7bfd8d94149b",
+            "message": "Fixed Checkstyle errors",
+            "insertions": 9,
+            "deletions": 11
+          },
+          {
+            "hash": "f6ecb6052f5d62e05f128b44d0e93ddcc1f204a6",
+            "message": "Created Reminder classes",
+            "insertions": 125,
+            "deletions": 1
+          },
+          {
+            "hash": "457d27070f99b864b06290665c4f5966d1b3fe8a",
+            "message": "Added remapp command",
+            "insertions": 161,
+            "deletions": 6
+          },
+          {
+            "hash": "1af43b8cc6ebc62a17e435b346d1f5f84f360b31",
+            "message": "Added tests for remadd",
+            "insertions": 333,
+            "deletions": 15
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 563,
+        "deletions": 140,
         "date": "2019-03-03",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3db8f08c8778ae70f41265efbaedd638b0fd1343",
+            "message": "Added remlist command with tests",
+            "insertions": 111,
+            "deletions": 5
+          },
+          {
+            "hash": "99d3b8767dafcd254ee53a47764f7365d7fce199",
+            "message": "Sample Appointments, Reminders, and Patients intialised on startup",
+            "insertions": 107,
+            "deletions": 89
+          },
+          {
+            "hash": "ae925dc6d64572438fc82f0796d86f1162725759",
+            "message": "Adding an appointment creates and adds its corresponding reminder automatically",
+            "insertions": 37,
+            "deletions": 11
+          },
+          {
+            "hash": "87f06f10bc39e9dc69e78a5cb7561082fcaf12e6",
+            "message": "Changed getPatientWithNric() to return Optional\u003cPatient\u003e",
+            "insertions": 29,
+            "deletions": 21
+          },
+          {
+            "hash": "fce4c85d3df595179b8a1620da27ba9d06547391",
+            "message": "Added ReminderCards for the UI to display reminders",
+            "insertions": 273,
+            "deletions": 2
+          },
+          {
+            "hash": "428dccfc9b080650da2e34625f99caa73a7c3acd",
+            "message": "Fixed Checkstyle errors",
+            "insertions": 6,
+            "deletions": 12
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1060,10 +1288,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 75,
+        "deletions": 46,
         "date": "2019-03-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7055710881589ea22bc04d544cb9d189d774b170",
+            "message": "Modified user guide and developer guide for appointment and reminder module",
+            "insertions": 75,
+            "deletions": 46
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1120,10 +1355,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 4,
+        "deletions": 3,
         "date": "2019-03-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "32517457b6f6f8365c3b4d0ccc38617e331c4360",
+            "message": "Fix: make reminder cards \u0027live\u0027",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1132,10 +1374,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 455,
+        "deletions": 69,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3a41f6a819046da8d114050527ea1f849538131d",
+            "message": "Merged Appointment/Reminder Managers to centralised QuickDocs",
+            "insertions": 31,
+            "deletions": 5
+          },
+          {
+            "hash": "06215740eb68c7f5d66331a7add6d531471b257b",
+            "message": "Done storage for Appointment",
+            "insertions": 105,
+            "deletions": 13
+          },
+          {
+            "hash": "e877d929c4e00d5c05690ae32819a3da69d02b36",
+            "message": "Done storage for Reminder",
+            "insertions": 105,
+            "deletions": 17
+          },
+          {
+            "hash": "8f74c181e91cba3487fa853d269a955153d25ee3",
+            "message": "Test for JsonAdaptedAppointment",
+            "insertions": 127,
+            "deletions": 22
+          },
+          {
+            "hash": "0994ea5225a3e7d29f4c2dede46fc2679b9f69d0",
+            "message": "Test for JsonAdaptedReminder",
+            "insertions": 87,
+            "deletions": 12
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1144,10 +1417,77 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 475,
+        "deletions": 464,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "dce54eabe8ec62be96cd06ff88848fddc4791be3",
+            "message": "Delete appointment command",
+            "insertions": 156,
+            "deletions": 0
+          },
+          {
+            "hash": "ba4b5f8ac2b965ee6082548395473cc7b952a866",
+            "message": "Deleting an appointment will delete its reminder automatically",
+            "insertions": 59,
+            "deletions": 6
+          },
+          {
+            "hash": "f5dc391d62a27647889387c2b11c78c5e6cd2804",
+            "message": "Tests for appdelete",
+            "insertions": 164,
+            "deletions": 1
+          },
+          {
+            "hash": "782a269e30b867dacfb8b948a85fcd9255418bf5",
+            "message": "Removed Redo command",
+            "insertions": 1,
+            "deletions": 173
+          },
+          {
+            "hash": "a3290ac90a5f96602ff68de60f7cd6a65ef0e186",
+            "message": "Removed Undo command",
+            "insertions": 0,
+            "deletions": 105
+          },
+          {
+            "hash": "75fd8ec5ffb27bd2c3ddccbaa1d13606e2ef645d",
+            "message": "Created QuickDocsStorage interface for its Json class",
+            "insertions": 35,
+            "deletions": 1
+          },
+          {
+            "hash": "101863d65d6af7341d1a3c44f14e39e0fba20193",
+            "message": "Modified Storage architecture diagram",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e9096826bca525cd65cad5721df9b82492162abe",
+            "message": "Implementation of appfree in DG",
+            "insertions": 49,
+            "deletions": 0
+          },
+          {
+            "hash": "c1b7422848ec85294c980db7fb4454e6c104d38f",
+            "message": "Design considerations for appfree",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "5cc3da634e973b245921574d2352faec1da8dab3",
+            "message": "Remove FindCommandSystemTest (fixed merge conflict)",
+            "insertions": 0,
+            "deletions": 175
+          },
+          {
+            "hash": "f77ce3afaea6e72b6cf71b843fbc4369f63d1669",
+            "message": "Checkstyle changes",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1186,28 +1526,230 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 474,
+        "deletions": 60,
         "date": "2019-03-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e455eeb6c04e13cc8c466661c8ce88bdf8e3d35f",
+            "message": "Changed command word for Reminders and Appointment commands",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "f1d394a2dee0a3b40d30304ec41378eda51a4890",
+            "message": "\u0027listapp\u0027 accepts arguments",
+            "insertions": 128,
+            "deletions": 7
+          },
+          {
+            "hash": "9d2e1ef2e9c44f7c3030aec088390e76088ea9d2",
+            "message": "Implemented searching of appointments by patient or by date search range",
+            "insertions": 102,
+            "deletions": 33
+          },
+          {
+            "hash": "93e251cb93f5a2e68b855a3b382daf2a05ead502",
+            "message": "Fixed example for addrem",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "8a2fd597cecfa10aab4c454f62f22ba9b9d0eabc",
+            "message": "Tests for listapp",
+            "insertions": 237,
+            "deletions": 13
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 480,
+        "deletions": 135,
         "date": "2019-03-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ada9181eadf68de2bb068189ea7fc5fdf9575d95",
+            "message": "Created new Slot class",
+            "insertions": 75,
+            "deletions": 0
+          },
+          {
+            "hash": "2fd41787d88308cc88304d780ce47525c944b03b",
+            "message": "Appointment class extends Slot class",
+            "insertions": 18,
+            "deletions": 34
+          },
+          {
+            "hash": "0742c6298ebbcaf565356918d7f6a87ec1250fe0",
+            "message": "Reminder class extends Slot class",
+            "insertions": 23,
+            "deletions": 41
+          },
+          {
+            "hash": "936578fd84eadfbe93914d7e56172a9aec99b227",
+            "message": "Removed Reminder dependency with Appointment",
+            "insertions": 16,
+            "deletions": 18
+          },
+          {
+            "hash": "ff72968e998af158c5883d668c1cc37af4e3bac6",
+            "message": "Added timing contraints when adding an appointment",
+            "insertions": 57,
+            "deletions": 19
+          },
+          {
+            "hash": "a14b0a9248e50df4eb7797d3dde1337fd9a58b4a",
+            "message": "Test for Slot class",
+            "insertions": 47,
+            "deletions": 0
+          },
+          {
+            "hash": "8f666a7ecc77a9ac1550f21152e6a6aeb77fc08e",
+            "message": "Tests for constraints when adding an appointment",
+            "insertions": 57,
+            "deletions": 10
+          },
+          {
+            "hash": "76a9aff6edb65d381e325534a5892dd9ef143a01",
+            "message": "Added appointments are placed in sorted position in the list",
+            "insertions": 38,
+            "deletions": 6
+          },
+          {
+            "hash": "5e9544283c4f751b2c48e9eb00d5194ec55f800d",
+            "message": "Quickdocs accepts freeapp command",
+            "insertions": 149,
+            "deletions": 7
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 514,
+        "deletions": 155,
         "date": "2019-03-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7977422264219117e921faec1ce15daa609b7056",
+            "message": "freeapp command works",
+            "insertions": 122,
+            "deletions": 18
+          },
+          {
+            "hash": "2cfe9eb9ad627c31f4ffdf362bf2e39f63c6d3be",
+            "message": "Alias for Appointment and Reminder commands",
+            "insertions": 14,
+            "deletions": 2
+          },
+          {
+            "hash": "ef501ec96c1b1827f98548ccb30783fe8ac35005",
+            "message": "Refine result format when listing out free slots",
+            "insertions": 35,
+            "deletions": 8
+          },
+          {
+            "hash": "bb882e73b858bb660fa432054c28804f7e5db732",
+            "message": "Tests for freeapp",
+            "insertions": 204,
+            "deletions": 10
+          },
+          {
+            "hash": "c3235208094babb8548c9103544fcfdb4dac6021",
+            "message": "Changed string representation of an Appointment",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "616c31b896240efc95a9067e216cd320dc704695",
+            "message": "Added office hour timing constraint for appointments",
+            "insertions": 23,
+            "deletions": 18
+          },
+          {
+            "hash": "9a169df94ca835a909a7bb56fa1c1ef13503ee5c",
+            "message": "Update tests to increase coverage",
+            "insertions": 36,
+            "deletions": 4
+          },
+          {
+            "hash": "360a6767853cd5704b81574bf5b3d61a2694df5c",
+            "message": "Moved parsing of format and dates to ParserUtil",
+            "insertions": 77,
+            "deletions": 90
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1214,
+        "deletions": 517,
         "date": "2019-03-29",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "84495c9f4ce998d3a406492088b7c2e2df99df1c",
+            "message": "QuickDocs constructor now accepts filepath",
+            "insertions": 41,
+            "deletions": 7
+          },
+          {
+            "hash": "cdc508edf72d5ca1cefcf297456626d6460dc265",
+            "message": "Include equals method for all managers",
+            "insertions": 68,
+            "deletions": 0
+          },
+          {
+            "hash": "472b3acf6e724fde67282388bd34397de0fb9275",
+            "message": "Created JsonQuickDocsStorageTest",
+            "insertions": 198,
+            "deletions": 16
+          },
+          {
+            "hash": "8769d383cee33d996790383dd65ac193a91f753b",
+            "message": "Created sample Appointment and Reminder data for tests",
+            "insertions": 134,
+            "deletions": 0
+          },
+          {
+            "hash": "4b332c1dfb308c1abd1612b7ca13a3635e4e69aa",
+            "message": "Created JsonSerializableQuickDocsTest",
+            "insertions": 552,
+            "deletions": 56
+          },
+          {
+            "hash": "eaeaaaa4e6d0f9678695d7073435e931db8c4496",
+            "message": "Overload getPatientByNric() method",
+            "insertions": 21,
+            "deletions": 61
+          },
+          {
+            "hash": "bd8ff548d0728734d8667e0eb8b9b8cf91c0af5b",
+            "message": "Modified tests involving Appointments to use sample test data",
+            "insertions": 113,
+            "deletions": 155
+          },
+          {
+            "hash": "8e69cf54fd22f7deab2d43fbf8039bdb69f7e69f",
+            "message": "Modified tests involving Reminders to use sample test data",
+            "insertions": 62,
+            "deletions": 113
+          },
+          {
+            "hash": "87b9f03a49e1ddda4d5ee73753183001f45fdf3e",
+            "message": "Newline at EOF for checkstyle",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "e5943cc2e4dd3c2473ad4735af70bc449ef20da9",
+            "message": "Removed equals() method of Managers",
+            "insertions": 10,
+            "deletions": 91
+          },
+          {
+            "hash": "ffeffa5a1f07308c24482241a56ffc1a1f92c40d",
+            "message": "Update tests for Slot class",
+            "insertions": 10,
+            "deletions": 13
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1222,16 +1764,108 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 323,
+        "deletions": 57,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e41e5e627559877b321548e261399d5fc22ecf62",
+            "message": "DG: Testing for adding and removing an appointment",
+            "insertions": 42,
+            "deletions": 10
+          },
+          {
+            "hash": "66f7a7fb8400e727cd4024c5c381486e327db651",
+            "message": "JsonQuickDocsStorageTest works",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "e387ac05766d9efce551680644a0fa1f8ea82005",
+            "message": "Update DG for storage",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "acbb4777930afcb4bb331e9ac5987cb6c93d72ad",
+            "message": "Reminder sidebar displays only the reminders for the week",
+            "insertions": 27,
+            "deletions": 2
+          },
+          {
+            "hash": "899518ac6101814690ba3c26c0302e9756b0f8a1",
+            "message": "deleterem command",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "9703349621040a61b1676a218059b8ba2a3edbfa",
+            "message": "deleterem command",
+            "insertions": 88,
+            "deletions": 15
+          },
+          {
+            "hash": "9a5b43f0f6d687c9e8c41ebcae50ce0ef84aca3c",
+            "message": "Tests for deleterem command",
+            "insertions": 150,
+            "deletions": 20
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 771,
+        "deletions": 249,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0494c8eb027f415d2dc470cf0f5b8ef1ff4f1414",
+            "message": "Update UG for appointment and reminder modules, without pictures",
+            "insertions": 316,
+            "deletions": 78
+          },
+          {
+            "hash": "94902586168793387b51bf1a1aafb076e1aa1d2d",
+            "message": "listrem lists reminders on the sidebar",
+            "insertions": 158,
+            "deletions": 23
+          },
+          {
+            "hash": "f567a6e55409a58e0149b0bee58030d26185a55d",
+            "message": "Modified deleterem to integrate with new listrem",
+            "insertions": 17,
+            "deletions": 42
+          },
+          {
+            "hash": "fba4e6a3dc012bc908a996e9fea54842dd727cc8",
+            "message": "Modified tests for listrem",
+            "insertions": 169,
+            "deletions": 13
+          },
+          {
+            "hash": "d02fdc69feb7fad295e89b344a1d4f5da72ceeac",
+            "message": "Changes made to reminder list appears on sidebar",
+            "insertions": 45,
+            "deletions": 36
+          },
+          {
+            "hash": "8fea5dec942c1f99d3809407b43387cfd4144371",
+            "message": "Reminders are added to the list in sorted order",
+            "insertions": 21,
+            "deletions": 5
+          },
+          {
+            "hash": "f8bd2084fee80aca88bb5c29f0dc9ca15a993d59",
+            "message": "Added diagrams for Appointment and Reminder commands to UG",
+            "insertions": 44,
+            "deletions": 37
+          },
+          {
+            "hash": "7e7db5eccc32d34e44292d193de4cfcac3846aee",
+            "message": "Removed extra white spaces",
+            "insertions": 1,
+            "deletions": 15
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -1264,40 +1898,336 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1,
+        "deletions": 1,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "516fcbf124dc78392bd244638ca7d86ec237d2aa",
+            "message": "Fixed reposense by adding author name",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 174,
+        "deletions": 61,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d72b27d93b9894ca2adc1552789fe3610e4a5779",
+            "message": "DG: Modified Storage diagram to include added JsonAdapted classes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "44bda2686ce2a95c0e11b0bbb2dc13ee4947d59b",
+            "message": "Modified logic of freeapp to show no free slots",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "9433e7b91bfa1c7f742027025b890e99c06bfcc6",
+            "message": "DG: Modified implementation explanation of freeapp",
+            "insertions": 106,
+            "deletions": 34
+          },
+          {
+            "hash": "ae3be7e2a30a0d8de610671df941504c0f10d21f",
+            "message": "DG: Formatting changes in freeapp implementation",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "f05abd8769afd351964e6a42c6f56c7113de0cfd",
+            "message": "Modfied tests for freeapp",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "d225aaf13f21ec68980c30099cd965e681036d72",
+            "message": "Modified format of listapp to be similar to listpat",
+            "insertions": 23,
+            "deletions": 9
+          },
+          {
+            "hash": "26a748f43c2974de69161f1dc0790a9d5cba648d",
+            "message": "Modified the background colour of reminder cards",
+            "insertions": 23,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 371,
+        "deletions": 95,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "4f6b51db344c6df0dc9c402d3cdefa617db54478",
+            "message": "Fix reminder card colour bug",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "11c9bb44977c7cb3d928e8a1617097880a787364",
+            "message": "Fixed bug when listing appointments by nric",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "70876310f5419ec405acc257913303ed5b3fcfe6",
+            "message": "Clicking reminder card displays its info on display",
+            "insertions": 22,
+            "deletions": 6
+          },
+          {
+            "hash": "85e0d87e2244e3bd0cbebfde168bf8adbf5fe4b6",
+            "message": "Minor changes to format of reminder cards",
+            "insertions": 36,
+            "deletions": 7
+          },
+          {
+            "hash": "8ed81928b4b9ff1639681ffdc5aeb2f92ead4078",
+            "message": "Fixed multiple listing of reminder card bug",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "58d7c30943c2284c7adf6027c34a60d8d3a34b1b",
+            "message": "Default format for freeapp shows next month\u0027s free slots",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "72da3bc4eceddc9805d8beed5d32d0ce23d0457d",
+            "message": "Changed format of reminder title for appointments",
+            "insertions": 18,
+            "deletions": 8
+          },
+          {
+            "hash": "062b3f4781eec1d61eecc898089f206cc5902763",
+            "message": "Update test for Slot",
+            "insertions": 74,
+            "deletions": 30
+          },
+          {
+            "hash": "87fdb08dda8b7198e46d65c4f4004b719f916b14",
+            "message": "Added non office hour constraint for deleteapp",
+            "insertions": 21,
+            "deletions": 1
+          },
+          {
+            "hash": "6eb588f1b1164177acb215ba495790d9946a799d",
+            "message": "listrem accepts index to list a single reminder",
+            "insertions": 77,
+            "deletions": 12
+          },
+          {
+            "hash": "742634a519aa45dfb35631338a2d7047982195c1",
+            "message": "Updated tests for updated listrem",
+            "insertions": 100,
+            "deletions": 15
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 16,
+        "deletions": 17,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fe18782549372d86047fbe55687298994cb39bd3",
+            "message": "DG: Editted Storage Class diagram",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "22dfe1e73a438c33a41d495501ef6b8187fe72b3",
+            "message": "DG: Updated UI overview screenshot",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "2af91b4e32eaf924f05bb3941a9505a2ac9332e3",
+            "message": "Updated UG and README UI screenshots",
+            "insertions": 11,
+            "deletions": 10
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 149,
+        "deletions": 18,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "31ba942913f2ec1778c6144b7ac3458c15064931",
+            "message": "DG: Added implementation of appointment commands and sequence diagrams",
+            "insertions": 149,
+            "deletions": 18
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1427,
+        "deletions": 807,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "88112b89c8a3fb3667911df852d61b40aa8c1eb4",
+            "message": "DG: Added reminder implementations",
+            "insertions": 134,
+            "deletions": 3
+          },
+          {
+            "hash": "f5fe60f5cb0e667633ce80c1e4ee7272a4e7ba84",
+            "message": "UG: updated diagrams and listrem command",
+            "insertions": 69,
+            "deletions": 53
+          },
+          {
+            "hash": "0939d2166b0057eeb93a7daf0f165d820be5f181",
+            "message": "Fix readme UI picture",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "bac4614a1ad2810253e3097045fdb005952257c7",
+            "message": "Refactor Appointment and Reminder code in Model",
+            "insertions": 245,
+            "deletions": 174
+          },
+          {
+            "hash": "fadface9a3af2c4ff6eba41f1952524df5fd23e6",
+            "message": "Added equals() method for AppointmentManager and ReminderManager",
+            "insertions": 32,
+            "deletions": 10
+          },
+          {
+            "hash": "c468d03001c6246cb5b61413ab7c21e969e5974c",
+            "message": "Edits to UG and DG",
+            "insertions": 62,
+            "deletions": 54
+          },
+          {
+            "hash": "551cf431a1b192f94df1351aaa579c64e69f929e",
+            "message": "Refactor Command codes for Appointments and Reminders",
+            "insertions": 119,
+            "deletions": 96
+          },
+          {
+            "hash": "80410da95c1dc5e10ef5fcbd452ffeb8b233f920",
+            "message": "Refactor CommandParser codes for Appointment and Reminders",
+            "insertions": 101,
+            "deletions": 45
+          },
+          {
+            "hash": "bc84b27384f4d21d7d6e90061062b045d4ac9c08",
+            "message": "Refactor code for Storage components",
+            "insertions": 87,
+            "deletions": 55
+          },
+          {
+            "hash": "8855332d0da0f933af9ac1623bd7761e965212a7",
+            "message": "Refactor CommandTests for Appointments and Reminders",
+            "insertions": 149,
+            "deletions": 101
+          },
+          {
+            "hash": "12a8314d4c83d34ffb841d5cdbc0ed69ac99a93e",
+            "message": "Refactor CommandParserTest for Appointments and Reminders",
+            "insertions": 64,
+            "deletions": 4
+          },
+          {
+            "hash": "d928a3bd01a0abbe4208c8248add5036d8d490f7",
+            "message": "Refactored Appointment, Reminder and Slot tests",
+            "insertions": 135,
+            "deletions": 79
+          },
+          {
+            "hash": "5d0d1babfe03d82cc771a527aff2cbf56c96d1be",
+            "message": "Added tests for AppointmentManager, ReminderManager and ReminderWithinDatesPredicate",
+            "insertions": 206,
+            "deletions": 0
+          },
+          {
+            "hash": "656d41a0aeaeb0655b7dc043bd7f1358531d37c6",
+            "message": "Removed unused Sample Util classes and methods",
+            "insertions": 4,
+            "deletions": 129
+          },
+          {
+            "hash": "ab268041fd247e860c1a78cdc1daceecb72c4f1b",
+            "message": "Added predicate test for ModelManager",
+            "insertions": 15,
+            "deletions": 0
+          },
+          {
+            "hash": "708b92c227524ec741ed1d16071215be1593abd3",
+            "message": "Fixed checkstyle for ModelManagerTest",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 492,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "3add702066afadea852a2ee31e2aada2c796c284",
+            "message": "PPP draft",
+            "insertions": 492,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 150,
+        "deletions": 214,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "f88d952bcd188e7cfcf7796ae54429f0d43fd3cf",
+            "message": "Final changes to DG and UG",
+            "insertions": 87,
+            "deletions": 35
+          },
+          {
+            "hash": "7de3d20969c0a0b25c6f0e8ba92b2509724aed81",
+            "message": "Final changes to PPP",
+            "insertions": 58,
+            "deletions": 175
+          },
+          {
+            "hash": "8d5710a444f6bb84ca7cff1af05ca8b7b94bd4d1",
+            "message": "PPP: added link to code contributions",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "710005d7ed40128e206cc8d1853687891aa12b9b",
+            "message": "PPP: Newline at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3bc89b81556262f1de13034c3ceda27d439dc645",
+            "message": "Fixed reposense",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "39f093c7f6ca8d118fafb4f1a4e149c8f0fe2301",
+            "message": "Fixed reposense/config.json",
+            "insertions": 0,
+            "deletions": 3
+          }
+        ]
       }
     ],
     "simjiazhi": [
@@ -2580,8 +3510,8 @@
         ]
       },
       {
-        "insertions": 109,
-        "deletions": 76,
+        "insertions": 142,
+        "deletions": 108,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -2607,6 +3537,128 @@
             "message": "UG edits",
             "insertions": 36,
             "deletions": 32
+          },
+          {
+            "hash": "0d2cfb82202fa0d2fdccd55ba75e3f373aac7320",
+            "message": "Further UG edits",
+            "insertions": 26,
+            "deletions": 26
+          },
+          {
+            "hash": "45252f612fd80d76a2855d42316bcb6720896ecb",
+            "message": "Intermediate edit to dev guide before pulling commits from team repo",
+            "insertions": 7,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 908,
+        "deletions": 398,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "5adecee4591470b2a8e958ac5a2d7c2b9f77ffd8",
+            "message": "Documentation and diagram edits",
+            "insertions": 64,
+            "deletions": 44
+          },
+          {
+            "hash": "2bb2c2ff24ae8a8228df288e976b067d68b94fa8",
+            "message": "Updated AddPatient Tests",
+            "insertions": 110,
+            "deletions": 23
+          },
+          {
+            "hash": "97f98684f080d31d65a00d7531a73c43c7171fdb",
+            "message": "updated EditPatient tests",
+            "insertions": 149,
+            "deletions": 76
+          },
+          {
+            "hash": "256180d3c8db57643d3eead6c4779e9fb928a85c",
+            "message": "fixed bug pertaining to DOB and patient edit tests",
+            "insertions": 34,
+            "deletions": 9
+          },
+          {
+            "hash": "9c214b64f213150292daed62f64b0594cfb3f822",
+            "message": "updated listpatient and deletepatient tests",
+            "insertions": 119,
+            "deletions": 101
+          },
+          {
+            "hash": "329e690c8aa9a3f893c07ac22671c05ed00bf40c",
+            "message": "Add tag checking into editpatient tests to prevent fall in coverage",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "71c22005dba9ce43fa29724382de28d6b00f9d21",
+            "message": "Shift 2.0 features back to administration section",
+            "insertions": 20,
+            "deletions": 19
+          },
+          {
+            "hash": "e37b00dddc92be12ad6c40adceb528eeb00dc594",
+            "message": "Edited AddPatientParser to try and improve coverage",
+            "insertions": 24,
+            "deletions": 10
+          },
+          {
+            "hash": "fc226febade7ec1a3088d28c44f0af944318ef4e",
+            "message": "Edited PatientEditedFieldsTest to improve coverage",
+            "insertions": 44,
+            "deletions": 13
+          },
+          {
+            "hash": "4bc0e5a9df584f9e0506b91543ef270eab44c871",
+            "message": "updated consultation module tests",
+            "insertions": 140,
+            "deletions": 71
+          },
+          {
+            "hash": "ce8a68ad18de79526e69aba44a3d707ef9a969e8",
+            "message": "updated symptom, diagnosis, prescription and assessment tests",
+            "insertions": 41,
+            "deletions": 11
+          },
+          {
+            "hash": "29d0d343c04236b388d73b9a6df1fb0ac71ae1a1",
+            "message": "Added JsonAdaptedConsultationTest",
+            "insertions": 81,
+            "deletions": 1
+          },
+          {
+            "hash": "0a371bdce87a2e2a696dd0367d5ff148faf701ce",
+            "message": "Edited PatientManager and ConsultationManager tests",
+            "insertions": 48,
+            "deletions": 8
+          },
+          {
+            "hash": "3c9af0b7307a2c6fa944ec02a27a515c37b4a70c",
+            "message": "Checkstyle fix",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "0dc9e973dad26cc5916c7e96b101e73b17b0c19c",
+            "message": "edit to PPP, changed ConsultationManagerTest code for addConsultation",
+            "insertions": 25,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 13,
+        "deletions": 14,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "86a56c32a095f0b77101a3779b18f5678237c12c",
+            "message": "PPP and DG edits",
+            "insertions": 13,
+            "deletions": 14
           }
         ]
       }
@@ -3631,8 +4683,8 @@
         ]
       },
       {
-        "insertions": 137,
-        "deletions": 21,
+        "insertions": 153,
+        "deletions": 25,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -3646,22 +4698,96 @@
             "message": "test fix",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "02533472a9402b8d08caa448943e2ade18c1dd63",
+            "message": "aesthetic improvement",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "1ddaf5d32970cf5c6486291df221de439f44c378",
+            "message": "aesthetic improvement 2",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 457,
+        "deletions": 25,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "198c33aebda053f2caba7ef61dc0cc37d1f7a667",
+            "message": "PPP",
+            "insertions": 226,
+            "deletions": 7
+          },
+          {
+            "hash": "61f5404b86453a98468ffaf7d71581f311283ec2",
+            "message": "trial",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3926d8efa29675774134c0cbc903c99628a368a9",
+            "message": "experiment",
+            "insertions": 1,
+            "deletions": 9
+          },
+          {
+            "hash": "9a6995ca4f5ca6b3371af09901f3d39a5a659665",
+            "message": "PPP",
+            "insertions": 229,
+            "deletions": 8
+          }
+        ]
+      },
+      {
+        "insertions": 45,
+        "deletions": 217,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "9ed66422ab353652944b27c2fdf6331ed20744f4",
+            "message": "finalised PPP",
+            "insertions": 36,
+            "deletions": 208
+          },
+          {
+            "hash": "45798a95f0ed5bdce3311cda04a7172d58d2b5a9",
+            "message": "checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a72025a65c1d3e1d2fddcda63e4dfd9375217f74",
+            "message": "grammar",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e5d6dc3bdccb8e7827909a9ca41958ecef0991aa",
+            "message": "Grammar",
+            "insertions": 7,
+            "deletions": 7
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "bentwj": 1859,
-    "ongaaron96": 0,
-    "simjiazhi": 7604,
-    "Xue-Chenyang": 5396
+    "bentwj": 2169,
+    "ongaaron96": 6478,
+    "simjiazhi": 8130,
+    "Xue-Chenyang": 5735
   },
   "authorContributionVariance": {
-    "bentwj": 24119.672,
-    "ongaaron96": 0.0,
-    "simjiazhi": 154198.23,
-    "Xue-Chenyang": 878829.25
+    "bentwj": 25734.262,
+    "ongaaron96": 181712.5,
+    "simjiazhi": 168163.92,
+    "Xue-Chenyang": 852282.4
   },
   "authorDisplayNameMap": {
     "bentwj": "TAN...IAN",

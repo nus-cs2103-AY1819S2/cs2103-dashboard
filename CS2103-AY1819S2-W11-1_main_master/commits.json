@@ -1239,9 +1239,40 @@
         "commitResults": []
       },
       {
+        "insertions": 71,
+        "deletions": 152,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "4134f9a4d2f241133dff1a86194db7715ef5b5af",
+            "message": "Fix FindCardCommandParser bug due to extra \\\"",
+            "insertions": 36,
+            "deletions": 7
+          },
+          {
+            "hash": "0797a4707145339dd78f4b3373796847ee8969c5",
+            "message": "Edit model diagram",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "af6f3e4ecf603dea403d980304c69a684d756fea",
+            "message": "Modified PPP",
+            "insertions": 15,
+            "deletions": 103
+          },
+          {
+            "hash": "977ba20922425444d2a7b3be9e943787a61e647d",
+            "message": "Modified PPP",
+            "insertions": 12,
+            "deletions": 39
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-14",
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -2350,9 +2381,34 @@
         "commitResults": []
       },
       {
+        "insertions": 29,
+        "deletions": 245,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "2a7a60af6bcd23e9b519b2cc48fbd8d262ed55cf",
+            "message": "edit docs for ug dg and ppp",
+            "insertions": 27,
+            "deletions": 243
+          },
+          {
+            "hash": "92b2c2f9e8c0555e57179d25874961beb3881f53",
+            "message": "add newline",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d3da0d36a4b73f400a6a256eebd13c208d0b4b21",
+            "message": "add newline",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-14",
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -3359,8 +3415,8 @@
         ]
       },
       {
-        "insertions": 274,
-        "deletions": 185,
+        "insertions": 301,
+        "deletions": 209,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3392,8 +3448,32 @@
             "message": "Update some documentation",
             "insertions": 6,
             "deletions": 5
+          },
+          {
+            "hash": "537710029df16fedbd4d110b9c89f422f1520cec",
+            "message": "Add MainPanel",
+            "insertions": 14,
+            "deletions": 4
+          },
+          {
+            "hash": "a7a72e2b7d37388a7e8bd2cfbb0ae94d4858c0ce",
+            "message": "Stop using UIPanel directly",
+            "insertions": 13,
+            "deletions": 18
+          },
+          {
+            "hash": "e8d11cf5238a0bed137a01abfc85af56115ced1c",
+            "message": "Cleanup unused imports",
+            "insertions": 0,
+            "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "sciffany": [
@@ -4732,20 +4812,57 @@
             "deletions": 75
           }
         ]
+      },
+      {
+        "insertions": 105,
+        "deletions": 63,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "ed80303a6659f5ff2bbcd1bbe58d8c772cbd90b7",
+            "message": "Write tests for studyViewParser",
+            "insertions": 87,
+            "deletions": 44
+          },
+          {
+            "hash": "75a3d2607c57e51f4a2f8fe1a1c25746d720645d",
+            "message": "Enable text to go to next line",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "1b5f812dcc89b75e026059d8d57b0a5ce340bac3",
+            "message": "Add newlines",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4688e4fa9956bc66da17ec9f5f82ecde894c9d9d",
+            "message": "Fix inconsistent code in logic manager",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "9341d0cd8645149be45a31dd768b1c4fa66cde3a",
+            "message": "Make UG summary consistent with UG",
+            "insertions": 7,
+            "deletions": 6
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 5401,
-    "ckjohn000": 5463,
-    "xsot": 2064,
-    "sciffany": 3233
+    "ChangDarren": 5325,
+    "ckjohn000": 5250,
+    "xsot": 2070,
+    "sciffany": 3269
   },
   "authorContributionVariance": {
-    "ChangDarren": 482550.88,
-    "ckjohn000": 113650.58,
-    "xsot": 48749.82,
-    "sciffany": 475155.47
+    "ChangDarren": 475300.47,
+    "ckjohn000": 112082.67,
+    "xsot": 48776.7,
+    "sciffany": 467845.62
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

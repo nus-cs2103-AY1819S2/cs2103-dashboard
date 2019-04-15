@@ -3954,8 +3954,8 @@
         ]
       },
       {
-        "insertions": 121,
-        "deletions": 71,
+        "insertions": 199,
+        "deletions": 165,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3975,6 +3975,30 @@
             "message": "Corrected Checkstyle error",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "d0b7a077e4eeef7601f68e126f055611383a15dd",
+            "message": "Refactored MemberFilterCommand and related classes and resolved single filter issue",
+            "insertions": 42,
+            "deletions": 87
+          },
+          {
+            "hash": "d624b1e944c093647f4a481aee73526d3c3c400e",
+            "message": "Corrected minor error",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "223cfdf950e6442d4fcc1056acb0b7fd1690ebf9",
+            "message": "Implemented filtering by tags",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "b9e44b8603856a721247876cf906e301bbd2fed6",
+            "message": "Made minor change to memberDetailPanel",
+            "insertions": 3,
+            "deletions": 4
           }
         ]
       }
@@ -3985,14 +4009,14 @@
     "A0143487X-Kevin": 1964,
     "ivyyangyq": 5705,
     "melkwx": 544,
-    "joel0111": 3298
+    "joel0111": 3282
   },
   "authorContributionVariance": {
     "minernchan": 9441.133,
     "A0143487X-Kevin": 28175.148,
     "ivyyangyq": 99004.875,
     "melkwx": 31271.22,
-    "joel0111": 42001.484
+    "joel0111": 42876.168
   },
   "authorDisplayNameMap": {
     "minernchan": "CHA...ERN",

@@ -879,9 +879,58 @@
         ]
       },
       {
+        "insertions": 538,
+        "deletions": 65,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "db35bcfffb60a4aabca842f06a4bf962303df01a",
+            "message": "add test for panel and storage",
+            "insertions": 422,
+            "deletions": 0
+          },
+          {
+            "hash": "c83d81799b9b6b5dcec7718b433211389a6dab51",
+            "message": "add PinSelectCommandParserTest",
+            "insertions": 29,
+            "deletions": 0
+          },
+          {
+            "hash": "5a93e3a2b9afd273de2b181ab43be2a75ef96a17",
+            "message": "check command arguments",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "b129fb7205b4eef1445ef962b31667e12dd2bf58",
+            "message": "minor changes",
+            "insertions": 1,
+            "deletions": 39
+          },
+          {
+            "hash": "5fc0456886813eea38d4f1f125ac7b45c889cb94",
+            "message": "delete unused imports",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "ae8c57d72e4b7d474ceb9cac96bcd9a058f4b13e",
+            "message": "revert changes",
+            "insertions": 35,
+            "deletions": 18
+          },
+          {
+            "hash": "ecfeecc7b8ea9f05e67f1b7fe0f62546e524484a",
+            "message": "update UG",
+            "insertions": 23,
+            "deletions": 2
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-14",
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -1468,8 +1517,8 @@
         ]
       },
       {
-        "insertions": 368,
-        "deletions": 379,
+        "insertions": 874,
+        "deletions": 482,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -1537,6 +1586,103 @@
             "message": "Update tests",
             "insertions": 2,
             "deletions": 12
+          },
+          {
+            "hash": "7d54c9583d7fcc8f1e437f18cd46531d54e72c7f",
+            "message": "Improve find function and update relevant tests.",
+            "insertions": 79,
+            "deletions": 34
+          },
+          {
+            "hash": "70f826539ba777879a78a257bc415185e13989b4",
+            "message": "Amend checkstyle error",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "0308c907d411bdb542620b773d09f22dca3a3004",
+            "message": "Modfy add and edit command to check for duplicates in archive and pin list.",
+            "insertions": 202,
+            "deletions": 47
+          },
+          {
+            "hash": "2533427cb3d354b83d388f3f7f62eeda1bc58d81",
+            "message": "Amend usage message",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cb100fc3b88a1d3a2e8d17b3babb66fba44b4439",
+            "message": "Modify find command usage message and remove CustomerType Enum",
+            "insertions": 4,
+            "deletions": 14
+          },
+          {
+            "hash": "a19ff4af7796c5350b86a6278796f9b7860f70b6",
+            "message": "Adapt find command for archive",
+            "insertions": 92,
+            "deletions": 2
+          },
+          {
+            "hash": "5e685019e0dacca2aa7c8748e5658357d88c3a99",
+            "message": "Add tests for archivefind feature",
+            "insertions": 126,
+            "deletions": 0
+          },
+          {
+            "hash": "4d026e7ba14114db8bf2bf09ff92cd0ee3155cc5",
+            "message": "Amend checkstylel error",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 263,
+        "deletions": 240,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "148ba4424bd7405dc569babf37649cd2be66e917",
+            "message": "Rename find feature to search feature and update user guide",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "25583232165be8fadc4c5af88c54b9edea322351",
+            "message": "Rename find feature to search and update user guide",
+            "insertions": 216,
+            "deletions": 196
+          },
+          {
+            "hash": "21f7376ef33e8f7eba97fb29d86fec585d6f556d",
+            "message": "Update user guide",
+            "insertions": 35,
+            "deletions": 32
+          },
+          {
+            "hash": "bd616fbd1cb80d858a1dd6fddc462acd977f1d6b",
+            "message": "update user guide",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "f6a7ea617d3ef4021a9688d99e1dd553de2544b7",
+            "message": "amend checkstyle error",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "51d5d5e0d2c1b1f7e25338c412d2f59ab393d40d",
+            "message": "amend checkstyle error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c735bd55cdaf6e1203c6383c8d6fa488c8c7a3b9",
+            "message": "amend checkstyle error",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       }
@@ -2378,8 +2524,8 @@
         "commitResults": []
       },
       {
-        "insertions": 165,
-        "deletions": 66,
+        "insertions": 1442,
+        "deletions": 359,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -2399,20 +2545,93 @@
             "message": "Update existing tests",
             "insertions": 14,
             "deletions": 0
+          },
+          {
+            "hash": "8408d7cf869d0faa55c995a4c3edd7350034ac42",
+            "message": "Update documentation",
+            "insertions": 54,
+            "deletions": 26
+          },
+          {
+            "hash": "8fd9f06f70350a6912f4f791fb6762f34604e1b6",
+            "message": "Refactor undo/redo/commit to do for all books together",
+            "insertions": 72,
+            "deletions": 245
+          },
+          {
+            "hash": "66a85ec4c18669fb114f54ba28d8a57881da7213",
+            "message": "Add new tests",
+            "insertions": 251,
+            "deletions": 3
+          },
+          {
+            "hash": "53e5e937eb26394fcc5d42a7e166dba22cfa37f4",
+            "message": "Amend checkstyle error",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "ca0418e587df593487ef81dbc2e98ab9d6df204d",
+            "message": "Add/update new tests for new archive feature commands",
+            "insertions": 340,
+            "deletions": 13
+          },
+          {
+            "hash": "1aa174d41bb23c1688815822e621bd15cecb8d59",
+            "message": "Add parser tests for new archive feature commands",
+            "insertions": 88,
+            "deletions": 0
+          },
+          {
+            "hash": "0e00bb22bab03cf5c5f071c97df486a88a5a59c1",
+            "message": "Add new storage tests for new archive feature",
+            "insertions": 357,
+            "deletions": 0
+          },
+          {
+            "hash": "a1f4330e3b60c9c0a47b2d5a7693c72370b8ef07",
+            "message": "Add new tests for ModelManagerTest",
+            "insertions": 106,
+            "deletions": 2
+          },
+          {
+            "hash": "868a84f5dc8c04d3149cf8b8c5b3679a1a543d51",
+            "message": "Minor updates to UG",
+            "insertions": 9,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 52,
+        "deletions": 79,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "0b04751ad464f64e3e0ba6c91af4c6dc1f901235",
+            "message": "Refactor and update tests",
+            "insertions": 50,
+            "deletions": 79
+          },
+          {
+            "hash": "a5a4e6ae13fd30064ba02652bb18cef476d01b88",
+            "message": "Ignore AddCommandSystemTest that passes on local build, but fails on AppVeyor",
+            "insertions": 2,
+            "deletions": 0
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChenWenCUHK": 1893,
-    "tanlongbin": 2231,
-    "yongxiang1095": 2937
+    "ChenWenCUHK": 2256,
+    "tanlongbin": 2816,
+    "yongxiang1095": 4009
   },
   "authorContributionVariance": {
-    "ChenWenCUHK": 43895.773,
-    "tanlongbin": 64997.832,
-    "yongxiang1095": 39117.996
+    "ChenWenCUHK": 47465.22,
+    "tanlongbin": 84585.44,
+    "yongxiang1095": 81513.84
   },
   "authorDisplayNameMap": {
     "ChenWenCUHK": "CHE...WEN",

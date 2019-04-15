@@ -1075,8 +1075,8 @@
         ]
       },
       {
-        "insertions": 474,
-        "deletions": 213,
+        "insertions": 497,
+        "deletions": 234,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -1096,8 +1096,26 @@
             "message": "Remove trailing whitespace",
             "insertions": 0,
             "deletions": 1
+          },
+          {
+            "hash": "226c8af09fce891b2847ffa84b32935a9a805747",
+            "message": "Change order of medicine card fields",
+            "insertions": 11,
+            "deletions": 7
+          },
+          {
+            "hash": "1df10d1f867eba5c6507ade086c51c45b3628148",
+            "message": "Change toLowerCase and equals to equalsIgnoreCase",
+            "insertions": 12,
+            "deletions": 14
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "kevvvinn": [
@@ -1483,6 +1501,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -2185,10 +2209,60 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 79,
+        "deletions": 43,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "53a5fe3e4a94c3ae32b82b5b334aacc1fdcbb8ba",
+            "message": "Editied developer guide for v1.4",
+            "insertions": 29,
+            "deletions": 16
+          },
+          {
+            "hash": "4c0ac87f01a82e76601b124c4b32c2ccdb7126d9",
+            "message": "Edit User Guide",
+            "insertions": 27,
+            "deletions": 10
+          },
+          {
+            "hash": "0795012c4e1bc4e0bb9f77dcb7167117b6070e6f",
+            "message": "Edited Label command, now users cannot hvae input of length above a limit",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "65e8b182430fd26a765b3dd3066a1f19bda1c63d",
+            "message": "edited Label Test for 1.4",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "b5d55a24e05b57e2e0bc438526b2cc211957b074",
+            "message": "Edited User guide to include coming in v2.0",
+            "insertions": 9,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 17,
+        "deletions": 18,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "ff443923ca9e1dc4587d913a6565cb9d56432e95",
+            "message": "Shifted documentation for 1.4",
+            "insertions": 14,
+            "deletions": 17
+          },
+          {
+            "hash": "a95addf55a576c2e599076e5ef76d4b132abc634",
+            "message": "Change to constant max file length",
+            "insertions": 3,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "JonathanLeeWH": [
@@ -3475,6 +3549,43 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 2,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "21d9879b391727cb0ab2b7b4443224b14603a92e",
+            "message": "Update CsvWrapper.java",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "51fed298853187a07b1e1df66adc0280549989b4",
+            "message": "Update CsvWrapper.java",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "9ea2f4e76ca0cf0bc3fd18a8b666c2933661eba2",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "76799b7c1ac78307dc7f360f2f5cc058fb001019",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "086fe8e8be16d1b28949988cfbecb2f3ce55c1c9",
+            "message": "Update DeveloperGuide.adoc",
+            "insertions": 8,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "flxffy": [
@@ -4434,22 +4545,28 @@
         "deletions": 0,
         "date": "2019-04-14",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jtankw3": 7870,
+    "jtankw3": 7872,
     "kevvvinn": 0,
-    "melpulomas": 721,
-    "JonathanLeeWH": 1397,
-    "flxffy": 2860
+    "melpulomas": 759,
+    "JonathanLeeWH": 1437,
+    "flxffy": 2859
   },
   "authorContributionVariance": {
-    "jtankw3": 1008430.25,
+    "jtankw3": 994940.7,
     "kevvvinn": 0.0,
-    "melpulomas": 4712.159,
-    "JonathanLeeWH": 86177.31,
-    "flxffy": 36554.734
+    "melpulomas": 4771.4062,
+    "JonathanLeeWH": 84864.234,
+    "flxffy": 36113.3
   },
   "authorDisplayNameMap": {
     "jtankw3": "TAN...SON",

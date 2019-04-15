@@ -866,6 +866,73 @@
             "deletions": 7
           }
         ]
+      },
+      {
+        "insertions": 671,
+        "deletions": 350,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "3623ea03f4a8d792fdccb09d6446db15d75f4e7f",
+            "message": "Degree filtering is added, test cases are arranged according to that",
+            "insertions": 349,
+            "deletions": 112
+          },
+          {
+            "hash": "c5795870a80c6bd12a28b53bd0ff2afb50bb79dc",
+            "message": "checkStyle errors",
+            "insertions": 14,
+            "deletions": 14
+          },
+          {
+            "hash": "4b1fd74cbbc4a6fa9a2d64c39a4bf2a08ae58e6c",
+            "message": "Code Quality Arrangements",
+            "insertions": 11,
+            "deletions": 11
+          },
+          {
+            "hash": "f3252717ec2c18056ae464780ed658dcf5e6912a",
+            "message": "Process fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2676e975e3494091cfcc209e7b0bce1ef00f7fbd",
+            "message": "System tests are fixed",
+            "insertions": 176,
+            "deletions": 147
+          },
+          {
+            "hash": "b310888686f627032b6244e37d00324310f96ff3",
+            "message": "CHECKsTYLE TEST FIXES",
+            "insertions": 27,
+            "deletions": 17
+          },
+          {
+            "hash": "97d91a334a685e67de0b340d090d235e35afe913",
+            "message": "Document updates",
+            "insertions": 52,
+            "deletions": 39
+          },
+          {
+            "hash": "7b455a6eccfc3c3b2bb440010c1e8fa5f70fa0d7",
+            "message": "no message",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "e55ef1a75cc158fe0b5c4a0511aecafc4741ba95",
+            "message": "no message",
+            "insertions": 36,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "charnixon": [
@@ -1334,6 +1401,18 @@
             "deletions": 4
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "abwilli": [
@@ -1932,6 +2011,18 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "DMGreenhouse": [
@@ -2752,30 +2843,172 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 160,
+        "deletions": 48,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8e49be995001794b859606359111290c208ddc51",
+            "message": "Secondary sorting for persons of matching surnames",
+            "insertions": 39,
+            "deletions": 1
+          },
+          {
+            "hash": "9883707ccdb011e590a599a22af2cc52c327eb7c",
+            "message": "Rewriting of sort methods to include a SortMethod Interface.",
+            "insertions": 121,
+            "deletions": 47
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 323,
+        "deletions": 167,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5ef4bba1d49872d8fc9852c290864ab4f92e1069",
+            "message": "Implementation of \u0027Intelligent Sorting\u0027. The sort methods go through a second round of sorting if they returned matching person paramaters on the first sorting method. The choice of this secondary sorting method is chosen to be most useful for the user (e.g. if skill number is the first sort, then the second sort shall be by skills alphabetically)",
+            "insertions": 126,
+            "deletions": 132
+          },
+          {
+            "hash": "a6149202b3382e461341cff0870b64de8c676efe",
+            "message": "Sort command test updated as per new sorting methods",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "f90c29b815e2e6ecad7d77e1832991925458f199",
+            "message": "Updates to sort method and initial blind implementation of degree sort. Commited now to retieve Charlotte\u0027s latest PR",
+            "insertions": 190,
+            "deletions": 28
+          }
+        ]
+      },
+      {
+        "insertions": 168,
+        "deletions": 160,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "caea8c98b68aca2a9c738afd66f2b75da4a1f8dc",
+            "message": "Full implementation of sort degree",
+            "insertions": 108,
+            "deletions": 128
+          },
+          {
+            "hash": "5e47ff9d63399d6c26f972b11dd55b098165daed",
+            "message": "Checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "7aff0b221f2f349cd619485652ba417ea625a6c7",
+            "message": "Remove print statement",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2db24ad16860f8d3f5322f22dd190efa6188f106",
+            "message": "Checkstyle",
+            "insertions": 60,
+            "deletions": 30
+          }
+        ]
+      },
+      {
+        "insertions": 204,
+        "deletions": 185,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "147ee74d4d6650e170bd34feb4e59d47a729d8f2",
+            "message": "FilterCommandIntegrationTest change to new sorting method interface",
+            "insertions": 29,
+            "deletions": 36
+          },
+          {
+            "hash": "fe18ba21dd61ca47d928275f1b8c27597ea223fa",
+            "message": "Conflict res",
+            "insertions": 5,
+            "deletions": 13
+          },
+          {
+            "hash": "c88e130cfda325e66c468f156bcd8f2a66edc4bd",
+            "message": "Conflict res",
+            "insertions": 11,
+            "deletions": 5
+          },
+          {
+            "hash": "572880fc3fd0ea74a148e7fbd410ff67158f8f32",
+            "message": "filter sort integration conflict",
+            "insertions": 12,
+            "deletions": 9
+          },
+          {
+            "hash": "6a2bd5a322895c454eb2ec55cddb9772d61826d8",
+            "message": "Filter -sort-reverse testing corrected and passing",
+            "insertions": 4,
+            "deletions": 10
+          },
+          {
+            "hash": "7aa810a023cb1bdeaa2c5780ac44a2b5fb42aae7",
+            "message": "Addition of sort degree test",
+            "insertions": 88,
+            "deletions": 66
+          },
+          {
+            "hash": "e6c60183de60997bdc045863ff127a9b29660d6f",
+            "message": "Check Style",
+            "insertions": 9,
+            "deletions": 11
+          },
+          {
+            "hash": "e0e9ce7a4659a9508ecef3f1fcbffeb3eaf9e11e",
+            "message": "Check Style",
+            "insertions": 11,
+            "deletions": 11
+          },
+          {
+            "hash": "fb4284b10fffce48860e4aea4031b3ed32283572",
+            "message": "Code Quality update",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "2b0de67c880953dcf8c0217a6c9732be5f1dfb08",
+            "message": "Code quality update",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "bc0716da7f71c7aec485f2cd53345c92910093a0",
+            "message": "Coding standard change and PPP update",
+            "insertions": 22,
+            "deletions": 7
+          },
+          {
+            "hash": "57ceee034677e80cc1967a9c4b96e23bd51c22b7",
+            "message": "Removal of user guide/ developer guide links",
+            "insertions": 0,
+            "deletions": 4
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "barisbatuhan": 3782,
-    "charnixon": 561,
-    "abwilli": 558,
-    "DMGreenhouse": 1416
+    "barisbatuhan": 4173,
+    "charnixon": 556,
+    "abwilli": 545,
+    "DMGreenhouse": 1818
   },
   "authorContributionVariance": {
-    "barisbatuhan": 598053.94,
-    "charnixon": 8178.6875,
-    "abwilli": 105659.07,
-    "DMGreenhouse": 26175.906
+    "barisbatuhan": 589735.44,
+    "charnixon": 7934.96,
+    "abwilli": 102501.73,
+    "DMGreenhouse": 30936.914
   },
   "authorDisplayNameMap": {
     "barisbatuhan": "TOP...HAN",

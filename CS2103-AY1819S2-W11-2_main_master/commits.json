@@ -1455,6 +1455,25 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 45,
+        "deletions": 11,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "275db7014b143487c6608c7b69f3490c668c5e80",
+            "message": "docs: update ppp",
+            "insertions": 15,
+            "deletions": 10
+          },
+          {
+            "hash": "798edd0abd04b294fc441e5a5fc12ff52bfd1220",
+            "message": "docs: update developer guide",
+            "insertions": 30,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "lingyanhao": [
@@ -3101,8 +3120,8 @@
         ]
       },
       {
-        "insertions": 8,
-        "deletions": 9,
+        "insertions": 26,
+        "deletions": 922,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3116,6 +3135,103 @@
             "message": "Update MainWindow.java",
             "insertions": 0,
             "deletions": 1
+          },
+          {
+            "hash": "58fdaf91f56188f0eb0e5fdee01b14a709d340d4",
+            "message": "Remove select command",
+            "insertions": 2,
+            "deletions": 377
+          },
+          {
+            "hash": "5d8503869561f1d432a5b224b241dda8eca2e999",
+            "message": "Remove find command",
+            "insertions": 3,
+            "deletions": 16
+          },
+          {
+            "hash": "a1d2e467e1986f8ca1258a9fe759512d17187555",
+            "message": "Remove unused import",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "14dfda27441708fdeb526339bc3fba1036bca42f",
+            "message": "Remove unwanted files",
+            "insertions": 0,
+            "deletions": 418
+          },
+          {
+            "hash": "7482061cf0b288c5a936725fca110552064e0cf6",
+            "message": "Remove imports",
+            "insertions": 0,
+            "deletions": 13
+          },
+          {
+            "hash": "dfcecc3d7d83c22bd9041827012c03cd9b45bb34",
+            "message": "Remove more unused imports",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "7178d802a40233e235cd3686967dd3151a6c2bc1",
+            "message": "Fix formatting issues in PPP + user gude",
+            "insertions": 7,
+            "deletions": 79
+          },
+          {
+            "hash": "af485e93fb17d7d5ccce9a2cae3dac79282f6eb8",
+            "message": "Make some small edits to diagrams",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "bfbae22a9d81ae5680966396a15397c677c1eeca",
+            "message": "Fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "49cdc563d2d7f2b1e7b2ec3fa4f3526da1a63664",
+            "message": "Make small edits",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 18,
+        "deletions": 12,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "cb6e8a4a6395bda0a22ac196649747080871401e",
+            "message": "Include message telling user to increase screen height",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "bb75da6e1644b4044b33744025f6eae0a54889df",
+            "message": "Tell user to not put other commands in between",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "b2ab6d945082409e7ef97dce412d4dd782a712bc",
+            "message": "Add community contribution",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "969e6e4c1dff5bd28cd8eebb6ab72da4e7c78461",
+            "message": "Remove trailing whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "90bede851df87f76025476e5d92213f7b8501f62",
+            "message": "Make sure my ppp fits in 10 pages",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
@@ -4362,10 +4478,120 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 615,
+        "deletions": 269,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "368ba3a1180ad1e4bea984afaee3a6198c63a2f6",
+            "message": "Implemented addIngredient system test",
+            "insertions": 303,
+            "deletions": 4
+          },
+          {
+            "hash": "3aa096a4cca350ca5a2a695f82f5c90982654e49",
+            "message": "Moved ingredient and recipe to correct subdirectory",
+            "insertions": 73,
+            "deletions": 41
+          },
+          {
+            "hash": "daecc3f5cf4801fe62a1faa5643d0718efe07780",
+            "message": "Updated aliases in RestaurantBook",
+            "insertions": 134,
+            "deletions": 66
+          },
+          {
+            "hash": "6d211a3ddeab0d1de2b056d908ae97e739b8d77f",
+            "message": "Fixed minor errors in UG",
+            "insertions": 83,
+            "deletions": 26
+          },
+          {
+            "hash": "9455b5f10429e1f299622ef27e8d5b8e1d36a60e",
+            "message": "Fixed minor errors in UG",
+            "insertions": 12,
+            "deletions": 12
+          },
+          {
+            "hash": "9d081bb503f1897d66e174459cb51efc5b1cd470",
+            "message": "Edited success message for clear command.",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c97f2d17787522fe1fd617c50ee65b67b1b431a7",
+            "message": "Removed unused recipe methods",
+            "insertions": 0,
+            "deletions": 24
+          },
+          {
+            "hash": "ad38e43921d5e64c35315bcf639c1241ecaad956",
+            "message": "Removed ListCommand",
+            "insertions": 9,
+            "deletions": 86
+          },
+          {
+            "hash": "04b3eb3931f25be172ecbe8406403c17a21c9b96",
+            "message": "Removed unused recipe methods in tests",
+            "insertions": 0,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 115,
+        "deletions": 32,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "b7b4ba336e2f2d521ca59cf166669fba895b1459",
+            "message": "Edited DG and UG",
+            "insertions": 62,
+            "deletions": 3
+          },
+          {
+            "hash": "ec50ff85e809fba596d254c423cdc24b576e74a9",
+            "message": "Add screenshots for DG testings",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "8cb7b08417cfd4b13d409c4581f9ad7796203343",
+            "message": "Fix image for DG testing",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cbe49b26e1fe607b70a3ead8bcd41e707c420027",
+            "message": "Fixed minor issue in DG",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "9383a8d2740634feac960b621302a49e9af65edf",
+            "message": "Fixed minor issue in DG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "8628210dcc74ed17d8a187dbe8fba84ebfd040d2",
+            "message": "Fixed minor issue in DG",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "32d1daba4ec6e2e9a1a646ee57fc17efc5ad5e56",
+            "message": "Fixed minor issue in DG",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "8e2df48d9b10a58e9454c7d081fc0634f42ade9b",
+            "message": "Edited RecipeSet such that no duplicate indexes allowed",
+            "insertions": 36,
+            "deletions": 16
+          }
+        ]
       }
     ],
     "limli": [
@@ -5507,8 +5733,8 @@
         ]
       },
       {
-        "insertions": 51,
-        "deletions": 9,
+        "insertions": 67,
+        "deletions": 26,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -5534,22 +5760,77 @@
             "message": "fix compile error in ModelStub",
             "insertions": 6,
             "deletions": 0
+          },
+          {
+            "hash": "0a31a2cef5dae835f6aa50960616af3071b2ac4f",
+            "message": "update docs",
+            "insertions": 13,
+            "deletions": 16
+          },
+          {
+            "hash": "1a49f5ee2090ed8682f4862bc1978df16e706ae1",
+            "message": "add item list panel class diagram",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "9d70858b7bf4370308afde87e86966f3f34604b7",
+            "message": "fix filename",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 53,
+        "deletions": 6,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "d546dfc34d7e4cd70e66d0d9e1f798f3b9458d59",
+            "message": "update manual testing for members and stats",
+            "insertions": 49,
+            "deletions": 1
+          },
+          {
+            "hash": "d2c41b047ea6269186bd07f3be5877b270d7849e",
+            "message": "update user guide, staff name can be the same",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "1d1f4881e8249a9ea55317c764fe72be8b780e30",
+            "message": "fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a6cdc71488cb2450bae9866ed35592d0dedbfa79",
+            "message": "add an \u0027e.g.\u0027 to the list of undoable commands",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b3e1cda3f13b441c4ce45a60387ecf1e67bcbbf5",
+            "message": "fix typo",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "zj-cs2103": 6489,
-    "lingyanhao": 4582,
-    "hiyingnn": 4756,
-    "limli": 3682
+    "zj-cs2103": 6463,
+    "lingyanhao": 4541,
+    "hiyingnn": 5378,
+    "limli": 3626
   },
   "authorContributionVariance": {
-    "zj-cs2103": 80494.016,
-    "lingyanhao": 78665.64,
-    "hiyingnn": 91881.53,
-    "limli": 239527.94
+    "zj-cs2103": 79397.44,
+    "lingyanhao": 86625.7,
+    "hiyingnn": 98534.836,
+    "limli": 235963.28
   },
   "authorDisplayNameMap": {
     "zj-cs2103": "WAN...IAN",

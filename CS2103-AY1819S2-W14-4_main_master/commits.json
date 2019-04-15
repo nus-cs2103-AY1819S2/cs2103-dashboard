@@ -619,9 +619,70 @@
         "commitResults": []
       },
       {
+        "insertions": 231,
+        "deletions": 73,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "954c58cdf10d78cd43f89adafd0c986bd5c7865c",
+            "message": "updated DG",
+            "insertions": 79,
+            "deletions": 34
+          },
+          {
+            "hash": "477fba8f628e10265b3608990baf176a641f52b5",
+            "message": "updated DG II",
+            "insertions": 34,
+            "deletions": 13
+          },
+          {
+            "hash": "93c4bd11ac0ba5b7c5e0d640c885d74ac58aadbb",
+            "message": "updated UG III",
+            "insertions": 10,
+            "deletions": 7
+          },
+          {
+            "hash": "41a92a04ace6a666136a473cb206a273e26643c5",
+            "message": "test DG",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "447e61afd5a00cf134b57c33878d35f371e0350d",
+            "message": "updated DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "97aceedc7940ff493c848103d68ac74667a7f56b",
+            "message": "update DG IV",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "940f92e57ef083cd967d494e895bbd41abbbd3b9",
+            "message": "PPP",
+            "insertions": 90,
+            "deletions": 4
+          },
+          {
+            "hash": "219f0ec5d9a86a4d4e50c5d930ec618994c38ac0",
+            "message": "ppp",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "43c7bb6487a7b3aba791c79bbdb9ecbecf3e8263",
+            "message": "fixed errors",
+            "insertions": 6,
+            "deletions": 4
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-14",
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -1060,6 +1121,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -1958,10 +2025,48 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1201,
+        "deletions": 434,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "082c4626b50df58dbafb7bcde831afa18d9b2171",
+            "message": "changes to UGDG",
+            "insertions": 14,
+            "deletions": 291
+          },
+          {
+            "hash": "74a5f78eb5fe8ec34cf85deef7881d550ff024c9",
+            "message": "Updated UG, DG, PPP. Updated readme to reflect changes to the app more accurately Fixed allignment of some error messages.",
+            "insertions": 122,
+            "deletions": 83
+          },
+          {
+            "hash": "48956a8840d3aeb9687ffa78764d91230d6e6497",
+            "message": "added new tests for coursestorage packages",
+            "insertions": 1065,
+            "deletions": 60
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 3,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "be0945062a90396633e58e2efd7754ef2f93fb24",
+            "message": "add new line at EOF for DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "55268db8510c11f2b829df56fa3fcf453398c5c1",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "alexchong711": [
@@ -2806,8 +2911,8 @@
         ]
       },
       {
-        "insertions": 142,
-        "deletions": 50,
+        "insertions": 554,
+        "deletions": 132,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -2821,6 +2926,73 @@
             "message": "UG,DG,PPP changes",
             "insertions": 60,
             "deletions": 10
+          },
+          {
+            "hash": "6c54e09e179c8b0ad0ddd151fccda4b021c72e18",
+            "message": "added LimitCheckerTest. updated PPP",
+            "insertions": 231,
+            "deletions": 13
+          },
+          {
+            "hash": "2a7dd581a59ca4c10750edffd5830af475377186",
+            "message": "updated LimitCheckerTest",
+            "insertions": 26,
+            "deletions": 0
+          },
+          {
+            "hash": "8f32773264862f78670c2a4b64140d6a5f2dc09c",
+            "message": "added newline at EOF",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a7ba88316e73a0320b8fff81c243f669e9ebf3e4",
+            "message": "refactored the classforprinting, DG,PPP updates",
+            "insertions": 142,
+            "deletions": 58
+          },
+          {
+            "hash": "158d37addb957f2bbb1f5b26674e5f27494ca5ed",
+            "message": "PPP updates",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "a20622e4b8340c5895cc52a2315fcb0b451aad55",
+            "message": "fixed line too long",
+            "insertions": 4,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 83,
+        "deletions": 74,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "462326260e9fef11f59b129698adf549a2e3ebfc",
+            "message": "fixed line too long",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "329f3eec7b55a44c3b3651512ffafa5619f13d39",
+            "message": "added new lines",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "67cb766ee4278556f43c90aa4c0e2fce4175c1a6",
+            "message": "changed user to student to standardize actor name",
+            "insertions": 40,
+            "deletions": 40
+          },
+          {
+            "hash": "54d262097c262f3fdd15d5cb014d4368e7fce141",
+            "message": "DG updates and javadoc changes",
+            "insertions": 39,
+            "deletions": 32
           }
         ]
       }
@@ -3809,26 +3981,130 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 397,
+        "deletions": 138,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "722155a9627e6f8030aee89a2ed137956cf1c917",
+            "message": "some changes to UG,DG",
+            "insertions": 53,
+            "deletions": 86
+          },
+          {
+            "hash": "1011756968d3c57d18a69a89012722c22ea8d485",
+            "message": "added some use cases for find and rec",
+            "insertions": 33,
+            "deletions": 5
+          },
+          {
+            "hash": "ce35a464b43dfc2d7c53ed33940679278e729efd",
+            "message": "updated diagrams in DG",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "17f6279cab3298573e8bf8c138c43d34012cabba",
+            "message": "small changes to UG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a3fe1296bee4ade00e6881cadd9ec391e00a58b9",
+            "message": "DG update",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "5a227649f3944b549e54171f6b49d4f1b41377c5",
+            "message": "changes to science requirements; hopefully i fixed the check prereq bug",
+            "insertions": 34,
+            "deletions": 27
+          },
+          {
+            "hash": "1979a3d8449c2194e84c27044763d0428a7d3079",
+            "message": "ppp",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "461b872e0b0ab9b6bea260c80dbbc64fd9bd49ac",
+            "message": "added test",
+            "insertions": 239,
+            "deletions": 0
+          },
+          {
+            "hash": "667bb0733e53fad57a38529196675ed31f682c27",
+            "message": "check prereq now treats modules with/out letter as equivalents; removed CS3213 from course.json (discontinued); updated course lists in typicalmoduletaken",
+            "insertions": 21,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 206,
+        "deletions": 81,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "9cffafef7e7df9b6429be174ecca64b0ef4d8d9b",
+            "message": "fixed hasParent() in Node",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6dec48a8721f11858f025cf591ee5f3f9af259db",
+            "message": "rec no longer displays UE mods; updated UG,DG,tests",
+            "insertions": 134,
+            "deletions": 41
+          },
+          {
+            "hash": "6c2fd8f48124d1ac649f3c8fb502a9f944d0d7e8",
+            "message": "removed CS3213 from course.json and SampleCourseRequirement",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "5e293bac70e7fc1315e767942d403859ef0ec611",
+            "message": "ug dg update",
+            "insertions": 19,
+            "deletions": 10
+          },
+          {
+            "hash": "38079b439f78c606657fb84f754dc988f4c01027",
+            "message": "module code, semester, grade now case-insensitive (change made in ParserUtil)",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "96fc21f8c772a42a397b14b9ac6b1bb44a781bf4",
+            "message": "changed recmodulepredicate and eligiblemodulepredicate to take in ReadOnlyGradTrak instead of GradTrak; updated the interface and test accordingly",
+            "insertions": 45,
+            "deletions": 21
+          },
+          {
+            "hash": "1e110b4c79bbde607869944e6976535be21e152e",
+            "message": "checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Anand270294": 2045,
-    "crumpledpaper": 192,
-    "monikernemo": 6415,
-    "alexchong711": 5107,
-    "lshwayne96": 2355
+    "Anand270294": 2172,
+    "crumpledpaper": 126,
+    "monikernemo": 7460,
+    "alexchong711": 5513,
+    "lshwayne96": 2783
   },
   "authorContributionVariance": {
-    "Anand270294": 21977.15,
-    "crumpledpaper": 1214.795,
-    "monikernemo": 591865.44,
-    "alexchong711": 239355.8,
-    "lshwayne96": 93797.43
+    "Anand270294": 22617.555,
+    "crumpledpaper": 1196.9863,
+    "monikernemo": 604543.25,
+    "alexchong711": 239190.06,
+    "lshwayne96": 94017.65
   },
   "authorDisplayNameMap": {
     "Anand270294": "T A...MAR",

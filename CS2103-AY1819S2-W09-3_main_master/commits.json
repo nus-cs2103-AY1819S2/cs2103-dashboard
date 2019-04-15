@@ -1053,10 +1053,22 @@
         ]
       },
       {
-        "insertions": 92,
+        "insertions": 189,
         "deletions": 7,
         "date": "2019-04-03",
         "commitResults": [
+          {
+            "hash": "10931dc3503e23ee1bd7547811ccc85aa9d0d594",
+            "message": "Create PPP",
+            "insertions": 95,
+            "deletions": 0
+          },
+          {
+            "hash": "a9fc3e520b3c7f62d6d6820cdb7ade87fe780a6b",
+            "message": "PPP",
+            "insertions": 2,
+            "deletions": 0
+          },
           {
             "hash": "d38b16db1f1224d184c6b0a1b78b94de0d8f6a80",
             "message": "Add Popular Menu List Panel into Statistics Mode UI",
@@ -1360,6 +1372,56 @@
             "message": "Made changes as suggested",
             "insertions": 17,
             "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 220,
+        "deletions": 96,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "f030395749dea9fa7daea48e75730da6e3da5e02",
+            "message": "Changes to DG for Bill Command.",
+            "insertions": 177,
+            "deletions": 60
+          },
+          {
+            "hash": "0e4c2c9e87f81e3966a436e07b7ba61322d4e62d",
+            "message": "Rearrange BillCommand Code to make it nicer",
+            "insertions": 15,
+            "deletions": 8
+          },
+          {
+            "hash": "5e7983d487ca664b45eef64e53c47819f39c9cc3",
+            "message": "Clean PPP for into",
+            "insertions": 28,
+            "deletions": 28
+          }
+        ]
+      },
+      {
+        "insertions": 47,
+        "deletions": 24,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "ca3c624cef54ffb056e92509c3a1ddb65fdbc606",
+            "message": "Made changes",
+            "insertions": 36,
+            "deletions": 14
+          },
+          {
+            "hash": "5b9109ee04367df45f9bd143afc299166d48fae7",
+            "message": "edit PPP",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "0394fe37e64481c2d10bf50ff461d0be9f51a9e3",
+            "message": "Made changes",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
@@ -2293,10 +2355,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 61,
+        "deletions": 1,
         "date": "2019-04-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d59e3d2c855e5e0aeac0779772f57f85332b5458",
+            "message": "Updates to docs",
+            "insertions": 61,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 161,
@@ -2358,6 +2427,80 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 126,
+        "deletions": 24,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "1058154ad768e0492c7f50f3734bbba59af42443",
+            "message": "Update UG with current and future commands, including some cosmetic changes",
+            "insertions": 125,
+            "deletions": 23
+          },
+          {
+            "hash": "7ece5109e1fca97796b9c9fc0d13b4431a829855",
+            "message": "Update StorageComponentClassDiagram to reflect changes in Statistics feature Fix parameter restrictions in UG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 1013,
+        "deletions": 530,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "4fba2175fb21fb8fd834050a8371daf018deaf55",
+            "message": "Update UG and DG",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "a311195ce5f9e5cb5545152bbb39c52ce05da7a2",
+            "message": "Update Developer Guide and User Guide Add a max restriction for number of menu items that can be added.",
+            "insertions": 218,
+            "deletions": 34
+          },
+          {
+            "hash": "5f348134aeb2a5f26de383599aff673022d5f641",
+            "message": "Fix checkstyle issues and remove DeleteFromMenuSequenceDiagram from Developer Guide.",
+            "insertions": 17,
+            "deletions": 30
+          },
+          {
+            "hash": "ddbf005f7e5c8e1c596d3ac12f8e5eec28b68da5",
+            "message": "Weird commit",
+            "insertions": 449,
+            "deletions": 84
+          },
+          {
+            "hash": "548520639bfb774651727a4b85a56a9d27e262ea",
+            "message": "Fix format of ITEM_PRICE",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7d46b666a3fbe7429844acbf0ab63b7525eaef34",
+            "message": "Small changes to PPP",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "c376b4d0f5de33801a32b9e77d64836d277bd460",
+            "message": "Weird commit again",
+            "insertions": 316,
+            "deletions": 376
+          },
+          {
+            "hash": "f1910cbd885d8b1a27adf8a3024de4de79fd1673",
+            "message": "Resolve merge conflicts",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "whyjayxp": [
@@ -3617,6 +3760,31 @@
             "message": "Remove pesky trailing whitespace",
             "insertions": 0,
             "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 101,
+        "deletions": 50,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "e5ab5e129e3676ca74e208d4cc0fbf786bbe608e",
+            "message": "Update diagrams, UG, DG and PPP",
+            "insertions": 99,
+            "deletions": 46
+          },
+          {
+            "hash": "dd08273b3792938d24abe2e803e15823eaf9e430",
+            "message": "Update to the docs",
+            "insertions": 2,
+            "deletions": 4
           }
         ]
       }
@@ -5261,20 +5429,70 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 162,
+        "deletions": 50,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "98397dece1356e2d282f959e9f70efd381cc6153",
+            "message": "Update docs",
+            "insertions": 28,
+            "deletions": 10
+          },
+          {
+            "hash": "a622103b158ce4adc29473a08ac32ff091ff22de",
+            "message": "Complete table features for UG",
+            "insertions": 122,
+            "deletions": 28
+          },
+          {
+            "hash": "f771ac719557d2158003157315d7bf1448759743",
+            "message": "Refactor all RestOrRant to ROR in table features",
+            "insertions": 12,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 205,
+        "deletions": 94,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "efaf6498a42d21a89bc8e6a77092dfbf581cc158",
+            "message": "Update DG",
+            "insertions": 151,
+            "deletions": 60
+          },
+          {
+            "hash": "4064bae6da067c7d5d6082afa1288cf75fff6de6",
+            "message": "Update docs",
+            "insertions": 47,
+            "deletions": 27
+          },
+          {
+            "hash": "aea9d97c04a5a2295aef735583a7d8ea448ae15d",
+            "message": "Fix checkstyle errors",
+            "insertions": 7,
+            "deletions": 7
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Beesaycheese": 6942,
-    "bava98": 3607,
-    "whyjayxp": 8559,
-    "Qing-Yuan": 6464
+    "Beesaycheese": 7059,
+    "bava98": 4336,
+    "whyjayxp": 8516,
+    "Qing-Yuan": 6776
   },
   "authorContributionVariance": {
-    "Beesaycheese": 265416.84,
-    "bava98": 142727.25,
-    "whyjayxp": 414860.47,
-    "Qing-Yuan": 1631709.2
+    "Beesaycheese": 257503.48,
+    "bava98": 167233.34,
+    "whyjayxp": 404506.56,
+    "Qing-Yuan": 1582081.0
   },
   "authorDisplayNameMap": {
     "Beesaycheese": "LEO...ICE",

@@ -54351,238 +54351,238 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import java.util.Arrays;"
+        "content": "import seedu.address.commons.core.Messages;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "import seedu.address.logic.CommandHistory;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.commons.core.Messages;"
+        "content": "import seedu.address.model.Model;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.logic.CommandHistory;"
+        "content": "import seedu.address.model.person.GenderContainsKeywordsPredicate;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.logic.parser.FilterCriteriaContainsKeywordPredicate;"
+        "content": "import seedu.address.model.person.MajorContainsKeywordsPredicate;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.model.Model;"
+        "content": "import seedu.address.model.person.TagsContainsKeywordsPredicate;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.model.person.GenderContainsKeywordsPredicate;"
+        "content": "import seedu.address.model.person.YearOfStudyContainsKeywordsPredicate;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.model.person.MajorContainsKeywordsPredicate;"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.model.person.YearOfStudyContainsKeywordsPredicate;"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "/**"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": " * A command that filters the member\u0027s list based on a given filter criteria."
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "/**"
+        "content": " */"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " * A command that filters the member\u0027s list based on a given filter criteria."
+        "content": "public class MemberFilterCommand extends MemberCommand {"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " */"
-      },
-      {
-        "lineNumber": 19,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "public class MemberFilterCommand extends MemberCommand {"
-      },
-      {
-        "lineNumber": 20,
-        "author": {
-          "gitId": "joel0111"
-        },
         "content": "    public static final String COMMAND_WORD \u003d \"memberFilter\";"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 19,
         "author": {
           "gitId": "A0143487X-Kevin"
         },
         "content": "    public static final String COMMAND_ALIAS \u003d \"mFilter\";"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 20,
         "author": {
           "gitId": "joel0111"
         },
         "content": ""
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 21,
         "author": {
           "gitId": "joel0111"
         },
         "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \" ：Generates a filtered member\u0027s list based on a given\""
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 22,
         "author": {
           "gitId": "joel0111"
         },
         "content": "            + \" filter criteria. \""
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 23,
         "author": {
           "gitId": "joel0111"
         },
         "content": "            + \"Parameters:  CRITERIA KEYWORD [MORE KEYWORDS]\\n\""
       },
       {
-        "lineNumber": 26,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 27,
+        "lineNumber": 24,
         "author": {
           "gitId": "joel0111"
         },
         "content": "            + \"Example: \" + COMMAND_WORD + \" yearofstudy\" + \" 2\";"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 25,
         "author": {
           "gitId": "joel0111"
         },
         "content": ""
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 26,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public final FilterCriteriaContainsKeywordPredicate criteria;"
+        "content": "    public final String[] input;"
       },
       {
-        "lineNumber": 30,
+        "lineNumber": 27,
         "author": {
           "gitId": "joel0111"
         },
         "content": "    public final YearOfStudyContainsKeywordsPredicate yearOfStudyPredicate;"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 28,
         "author": {
           "gitId": "joel0111"
         },
         "content": "    public final MajorContainsKeywordsPredicate majorPredicate;"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 29,
         "author": {
           "gitId": "joel0111"
         },
         "content": "    public final GenderContainsKeywordsPredicate genderPredicate;"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 30,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    public final TagsContainsKeywordsPredicate tagsPredicate;"
+      },
+      {
+        "lineNumber": 31,
         "author": {
           "gitId": "joel0111"
         },
         "content": ""
       },
       {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    public MemberFilterCommand(String[] input) {"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        requireNonNull(input[0]);"
+      },
+      {
         "lineNumber": 34,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public MemberFilterCommand(FilterCriteriaContainsKeywordPredicate criteria) {"
+        "content": "        requireNonNull(input[1]);"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        requireNonNull(criteria);"
+        "content": "        this.input \u003d input;"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        this.criteria \u003d criteria;"
+        "content": "        this.majorPredicate \u003d new MajorContainsKeywordsPredicate(input[1]);"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        this.majorPredicate \u003d new MajorContainsKeywordsPredicate(Arrays.asList(criteria.getFilterKeywords()));"
+        "content": "        this.genderPredicate \u003d new GenderContainsKeywordsPredicate(input[1]);"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        this.genderPredicate \u003d new GenderContainsKeywordsPredicate(Arrays.asList(criteria.getFilterKeywords()));"
+        "content": "        this.tagsPredicate \u003d new TagsContainsKeywordsPredicate(input[1]);"
       },
       {
         "lineNumber": 39,
@@ -54596,7 +54596,7 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                new YearOfStudyContainsKeywordsPredicate(Arrays.asList(criteria.getFilterKeywords()));"
+        "content": "                new YearOfStudyContainsKeywordsPredicate(input[1]);"
       },
       {
         "lineNumber": 41,
@@ -54638,7 +54638,7 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        if (criteria.toString().equalsIgnoreCase(\"gender\")) {"
+        "content": "        if (input[0].equalsIgnoreCase(\"gender\")) {"
       },
       {
         "lineNumber": 47,
@@ -54652,7 +54652,7 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        } else if (criteria.toString().equalsIgnoreCase(\"major\")) {"
+        "content": "        } else if (input[0].equalsIgnoreCase(\"major\")) {"
       },
       {
         "lineNumber": 49,
@@ -54666,7 +54666,7 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        } else if (criteria.toString().equalsIgnoreCase(\"yearofstudy\")) {"
+        "content": "        } else if (input[0].equalsIgnoreCase(\"yearofstudy\")) {"
       },
       {
         "lineNumber": 51,
@@ -54680,21 +54680,21 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        }"
+        "content": "        } else if (input[0].equalsIgnoreCase(\"tags\")) {"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "            model.updateFilteredPersonList(tagsPredicate);"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        model.getFilteredPersonList();"
+        "content": "        }"
       },
       {
         "lineNumber": 55,
@@ -54708,73 +54708,80 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return new CommandResult("
+        "content": "        model.getFilteredPersonList();"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                String.format(Messages.MESSAGE_PERSONS_LISTED_OVERVIEW, model.getFilteredPersonList().size()));"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "        return new CommandResult("
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "                String.format(Messages.MESSAGE_PERSONS_LISTED_OVERVIEW, model.getFilteredPersonList().size()));"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
+        "content": "    @Override"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                || (other instanceof MemberFilterCommand // instanceof handles nulls"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                \u0026\u0026 criteria.equals(((MemberFilterCommand) other).criteria)); // state check"
+        "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "                || (other instanceof MemberFilterCommand); // instanceof handles nulls"
       },
       {
         "lineNumber": 66,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "joel0111"
         },
@@ -54783,7 +54790,7 @@
     ],
     "authorContributionMap": {
       "A0143487X-Kevin": 1,
-      "joel0111": 65
+      "joel0111": 66
     }
   },
   {
@@ -59973,350 +59980,6 @@
     }
   },
   {
-    "path": "src/main/java/seedu/address/logic/parser/FilterCriteriaContainsKeywordPredicate.java",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "package seedu.address.logic.parser;"
-      },
-      {
-        "lineNumber": 2,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 3,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "import static java.util.Objects.requireNonNull;"
-      },
-      {
-        "lineNumber": 4,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 5,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "import java.util.function.Predicate;"
-      },
-      {
-        "lineNumber": 6,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 7,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "/**"
-      },
-      {
-        "lineNumber": 8,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": " * Tests that a criteria given matches the list of available sorting criteria."
-      },
-      {
-        "lineNumber": 9,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": " */"
-      },
-      {
-        "lineNumber": 10,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "public class FilterCriteriaContainsKeywordPredicate implements Predicate\u003cString\u003e {"
-      },
-      {
-        "lineNumber": 11,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    private final String criteria;"
-      },
-      {
-        "lineNumber": 12,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    private final String[] filterKeywords;"
-      },
-      {
-        "lineNumber": 13,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    private final String[] keywords \u003d {\"gender\", \"major\", \"tags\", \"yearofstudy\"};"
-      },
-      {
-        "lineNumber": 14,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 15,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    public FilterCriteriaContainsKeywordPredicate(String criteria) {"
-      },
-      {
-        "lineNumber": 16,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        requireNonNull(criteria);"
-      },
-      {
-        "lineNumber": 17,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        requireNonNull(criteria.split(\"\\\\s+\", 2)[1]);"
-      },
-      {
-        "lineNumber": 18,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        this.criteria \u003d criteria.split(\"\\\\s+\", 2)[0];"
-      },
-      {
-        "lineNumber": 19,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        this.filterKeywords \u003d criteria.split(\"\\\\s+\", 2)[1].split(\"\\\\s+\");"
-      },
-      {
-        "lineNumber": 20,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 21,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 22,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 23,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    public boolean test(String criteria) {"
-      },
-      {
-        "lineNumber": 24,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        for (int i \u003d 0; i \u003c keywords.length; i++) {"
-      },
-      {
-        "lineNumber": 25,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "            if (criteria.equalsIgnoreCase(keywords[i])) {"
-      },
-      {
-        "lineNumber": 26,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                return true;"
-      },
-      {
-        "lineNumber": 27,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 28,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 29,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        return false;"
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 33,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    public boolean equals(Object other) {"
-      },
-      {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
-      },
-      {
-        "lineNumber": 35,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                || (other instanceof FilterCriteriaContainsKeywordPredicate // instanceof handles nulls"
-      },
-      {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                \u0026\u0026 criteria.equals(((FilterCriteriaContainsKeywordPredicate) other).criteria)); // state check"
-      },
-      {
-        "lineNumber": 37,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 38,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 39,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 40,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    public String toString() {"
-      },
-      {
-        "lineNumber": 41,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        return criteria;"
-      },
-      {
-        "lineNumber": 42,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 43,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 44,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    public String[] getFilterKeywords() {"
-      },
-      {
-        "lineNumber": 45,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "        return filterKeywords;"
-      },
-      {
-        "lineNumber": 46,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 47,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "}"
-      }
-    ],
-    "authorContributionMap": {
-      "joel0111": 48
-    }
-  },
-  {
     "path": "src/main/java/seedu/address/logic/parser/FindCriteriaContainsKeywordPredicate.java",
     "lines": [
       {
@@ -62364,318 +62027,409 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.logic.commands.MemberFilterCommand;"
+        "content": "import java.util.Arrays;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "import seedu.address.logic.commands.MemberFilterCommand;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " * Parses input arguments and creates a new MemberFilterCommand object"
+        "content": "/**"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " */"
+        "content": " * Parses input arguments and creates a new MemberFilterCommand object"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "public class MemberFilterCommandParser implements Parser\u003cMemberFilterCommand\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    private final String[] keywords \u003d {\"gender\", \"major\", \"tags\", \"yearofstudy\"};"
+        "content": "public class MemberFilterCommandParser implements Parser\u003cMemberFilterCommand\u003e {"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "    private final String[] keywords \u003d {\"gender\", \"major\", \"tags\", \"yearofstudy\"};"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     * Parses the given {@code String} of arguments in the context of the MemberFindCommand"
+        "content": "    /**"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     * and returns an MemberFindCommand object for execution."
+        "content": "     * Parses the given {@code String} of arguments in the context of the MemberFindCommand"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     *"
+        "content": "     * and returns an MemberFindCommand object for execution."
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     * @throws ParseException if the user input does not conform to the expected format"
+        "content": "     *"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     */"
+        "content": "     * @throws ParseException if the user input does not conform to the expected format"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public MemberFilterCommand parse(String args) throws ParseException {"
+        "content": "     */"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        String trimmedArgs \u003d args.trim();"
+        "content": "    public MemberFilterCommand parse(String args) throws ParseException {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        String trimmedArgs \u003d args.trim();"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        if (trimmedArgs.isEmpty()) {"
+        "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "            throw new ParseException("
+        "content": "        if (trimmedArgs.isEmpty()) {"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                    String.format(MESSAGE_INVALID_COMMAND_FORMAT, MemberFilterCommand.MESSAGE_USAGE));"
+        "content": "            throw new ParseException("
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        }"
+        "content": "                    String.format(MESSAGE_INVALID_COMMAND_FORMAT, MemberFilterCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        String[] input \u003d trimmedArgs.split(\"\\\\s+\");"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        if (input.length \u003c 2 || !isCriteriaValid(input[0])) {"
+        "content": "        String[] input \u003d trimmedArgs.split(\" \");"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "            throw new ParseException("
+        "content": "        if (input.length \u003c 2 || !isCriteriaValid(input[0])) {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                    String.format(MESSAGE_INVALID_COMMAND_FORMAT, MemberFilterCommand.MESSAGE_USAGE));"
+        "content": "            throw new ParseException("
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        }"
+        "content": "                    String.format(MESSAGE_INVALID_COMMAND_FORMAT, MemberFilterCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return new MemberFilterCommand(new FilterCriteriaContainsKeywordPredicate(trimmedArgs));"
+        "content": "        String[] criteriaAndKeyword \u003d combineKeywords(input);"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        return new MemberFilterCommand(criteriaAndKeyword);"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     * to check if the filter type is valid."
+        "content": "    /**"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     */"
+        "content": "     * to check if the filter type is valid."
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    private Boolean isCriteriaValid(String criteria) {"
+        "content": "     */"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        for (int i \u003d 0; i \u003c keywords.length; i++) {"
+        "content": "    private Boolean isCriteriaValid(String criteria) {"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "            if (criteria.equalsIgnoreCase(keywords[i])) {"
+        "content": "        for (int i \u003d 0; i \u003c keywords.length; i++) {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                return true;"
+        "content": "            if (criteria.equalsIgnoreCase(keywords[i])) {"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "            }"
+        "content": "                return true;"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return false;"
+        "content": "        }"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "        return false;"
       },
       {
         "lineNumber": 50,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "     *  Concatenate keywords from the input."
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    private String[] combineKeywords(String[] input) {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        String[] keywordsArray \u003d Arrays.copyOfRange(input, 1, input.length);"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        String keywords \u003d String.join(\" \", keywordsArray);"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        String[] criteriaAndKeyword \u003d new String[2];"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        criteriaAndKeyword[0] \u003d input[0]; //store criteria"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        criteriaAndKeyword[1] \u003d keywords; //store keywords"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        return criteriaAndKeyword;"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 63,
         "author": {
           "gitId": "joel0111"
         },
@@ -62683,7 +62437,7 @@
       }
     ],
     "authorContributionMap": {
-      "joel0111": 50
+      "joel0111": 63
     }
   },
   {
@@ -86258,56 +86012,56 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import java.util.List;"
+        "content": "import java.util.function.Predicate;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import java.util.function.Predicate;"
+        "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "/**"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.commons.util.StringUtil;"
+        "content": " * Tests that a {@code Person}\u0027s {@code Gender} matches any of the keywords given."
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": " */"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " * Tests that a {@code Person}\u0027s {@code Gender} matches any of the keywords given."
+        "content": "public class GenderContainsKeywordsPredicate implements Predicate\u003cPerson\u003e {"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " */"
+        "content": "    private final String keywords;"
       },
       {
         "lineNumber": 11,
@@ -86321,143 +86075,115 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "public class GenderContainsKeywordsPredicate implements Predicate\u003cPerson\u003e {"
+        "content": "    public GenderContainsKeywordsPredicate(String keywords) {"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    private final List\u003cString\u003e keywords;"
+        "content": "        this.keywords \u003d keywords;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public GenderContainsKeywordsPredicate(List\u003cString\u003e keywords) {"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        this.keywords \u003d keywords;"
+        "content": "    @Override"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "    public boolean test(Person person) {"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        return keywords.equalsIgnoreCase(person.getGender().value);"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean test(Person person) {"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return keywords.stream()"
+        "content": "    @Override"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                .allMatch(keyword -\u003e StringUtil.equalsWordIgnoreCase(person.getGender().value, keyword));"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "                || (other instanceof GenderContainsKeywordsPredicate // instanceof handles nulls"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "                \u0026\u0026 keywords.equals(((GenderContainsKeywordsPredicate) other).keywords)); // state check"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "    }"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
-      },
-      {
-        "lineNumber": 28,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                || (other instanceof GenderContainsKeywordsPredicate // instanceof handles nulls"
-      },
-      {
-        "lineNumber": 29,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                \u0026\u0026 keywords.equals(((GenderContainsKeywordsPredicate) other).keywords)); // state check"
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "joel0111"
-        },
         "content": ""
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 28,
         "author": {
           "gitId": "joel0111"
         },
@@ -86465,7 +86191,7 @@
       }
     ],
     "authorContributionMap": {
-      "joel0111": 32
+      "joel0111": 28
     }
   },
   {
@@ -86911,56 +86637,56 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import java.util.List;"
+        "content": "import java.util.function.Predicate;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import java.util.function.Predicate;"
+        "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "/**"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.commons.util.StringUtil;"
+        "content": " * Tests that a {@code Person}\u0027s {@code Major} matches any of the keywords given."
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": " */"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " * Tests that a {@code Person}\u0027s {@code Major} matches any of the keywords given."
+        "content": "public class MajorContainsKeywordsPredicate implements Predicate\u003cPerson\u003e {"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " */"
+        "content": "    private final String keywords;"
       },
       {
         "lineNumber": 11,
@@ -86974,143 +86700,115 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "public class MajorContainsKeywordsPredicate implements Predicate\u003cPerson\u003e {"
+        "content": "    public MajorContainsKeywordsPredicate(String keywords) {"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    private final List\u003cString\u003e keywords;"
+        "content": "        this.keywords \u003d keywords;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public MajorContainsKeywordsPredicate(List\u003cString\u003e keywords) {"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        this.keywords \u003d keywords;"
+        "content": "    @Override"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "    public boolean test(Person person) {"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        return keywords.equalsIgnoreCase(person.getMajor().value);"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean test(Person person) {"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return keywords.stream()"
+        "content": "    @Override"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                .allMatch(keyword -\u003e StringUtil.equalsWordIgnoreCase(person.getMajor().value, keyword));"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "                || (other instanceof MajorContainsKeywordsPredicate // instanceof handles nulls"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "                \u0026\u0026 keywords.equals(((MajorContainsKeywordsPredicate) other).keywords)); // state check"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "    }"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
-      },
-      {
-        "lineNumber": 28,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                || (other instanceof MajorContainsKeywordsPredicate // instanceof handles nulls"
-      },
-      {
-        "lineNumber": 29,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                \u0026\u0026 keywords.equals(((MajorContainsKeywordsPredicate) other).keywords)); // state check"
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "joel0111"
-        },
         "content": ""
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 28,
         "author": {
           "gitId": "joel0111"
         },
@@ -87118,7 +86816,7 @@
       }
     ],
     "authorContributionMap": {
-      "joel0111": 32
+      "joel0111": 28
     }
   },
   {
@@ -90142,6 +89840,210 @@
     }
   },
   {
+    "path": "src/main/java/seedu/address/model/person/TagsContainsKeywordsPredicate.java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "package seedu.address.model.person;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "import java.util.function.Predicate;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": " * Tests that a {@code Person}\u0027s {@code Tags} matches any of the keywords given."
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "public class TagsContainsKeywordsPredicate implements Predicate\u003cPerson\u003e {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    private final String keywords;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    public TagsContainsKeywordsPredicate(String keywords) {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        this.keywords \u003d keywords;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    public boolean test(Person person) {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        return person.getTags().toString().toLowerCase().contains(keywords.toLowerCase());"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    public boolean equals(Object other) {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        return other \u003d\u003d this // short circuit if same object"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "                || (other instanceof TagsContainsKeywordsPredicate // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "                \u0026\u0026 keywords.equals(((TagsContainsKeywordsPredicate) other).keywords)); // state check"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "joel0111": 28
+    }
+  },
+  {
     "path": "src/main/java/seedu/address/model/person/UniquePersonList.java",
     "lines": [
       {
@@ -92119,56 +92021,56 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import java.util.List;"
+        "content": "import java.util.function.Predicate;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import java.util.function.Predicate;"
+        "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "/**"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "import seedu.address.commons.util.StringUtil;"
+        "content": " * Tests that a {@code Person}\u0027s {@code YearOfStudy} matches any of the keywords given."
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": " */"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " * Tests that a {@code Person}\u0027s {@code YearOfStudy} matches any of the keywords given."
+        "content": "public class YearOfStudyContainsKeywordsPredicate implements Predicate\u003cPerson\u003e {"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "joel0111"
         },
-        "content": " */"
+        "content": "    private final String keywords;"
       },
       {
         "lineNumber": 11,
@@ -92182,143 +92084,115 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "public class YearOfStudyContainsKeywordsPredicate implements Predicate\u003cPerson\u003e {"
+        "content": "    public YearOfStudyContainsKeywordsPredicate(String keywords) {"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    private final List\u003cString\u003e keywords;"
+        "content": "        this.keywords \u003d keywords;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public YearOfStudyContainsKeywordsPredicate(List\u003cString\u003e keywords) {"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        this.keywords \u003d keywords;"
+        "content": "    @Override"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "    public boolean test(Person person) {"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        return keywords.equalsIgnoreCase(person.getYearOfStudy().value);"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean test(Person person) {"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return keywords.stream()"
+        "content": "    @Override"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                .allMatch(keyword -\u003e StringUtil.equalsWordIgnoreCase(person.getYearOfStudy().value, keyword));"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "        return other \u003d\u003d this // short circuit if same object"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "                || (other instanceof YearOfStudyContainsKeywordsPredicate // instanceof handles nulls"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "                \u0026\u0026 keywords.equals(((YearOfStudyContainsKeywordsPredicate) other).keywords)); // state check"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "    }"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return other \u003d\u003d this // short circuit if same object"
-      },
-      {
-        "lineNumber": 28,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                || (other instanceof YearOfStudyContainsKeywordsPredicate // instanceof handles nulls"
-      },
-      {
-        "lineNumber": 29,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "                \u0026\u0026 keywords.equals(((YearOfStudyContainsKeywordsPredicate) other).keywords)); // state check"
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "joel0111"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "joel0111"
-        },
         "content": ""
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 28,
         "author": {
           "gitId": "joel0111"
         },
@@ -92326,7 +92200,7 @@
       }
     ],
     "authorContributionMap": {
-      "joel0111": 32
+      "joel0111": 28
     }
   },
   {
@@ -101892,35 +101766,35 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        if (attendedCounter \u003d\u003d 0) {"
+        "content": "        participationRate.setText(\"Participation Rate:\\n\""
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "            rateOfParticipation \u003d \"N/A\";"
+        "content": "                + \"(Number of activities completed by member\\n / total number of completed activities) \u003d \""
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        }"
+        "content": "                + rateOfParticipation);"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        participationRate.setText(\"Participation Rate (out of all completed activities) \u003d \" + rateOfParticipation);"
+        "content": "    }"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 94,
@@ -101934,255 +101808,248 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    /**"
+        "content": "     * Loads a default HTML file with a background that matches the general theme."
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     * Loads a default HTML file with a background that matches the general theme."
+        "content": "     */"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "     */"
+        "content": "    private void loadDefaultPage() {"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    private void loadDefaultPage() {"
+        "content": "        name.setText(\"\");"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        name.setText(\"\");"
+        "content": "        matricNumber.setText(\"\");"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        matricNumber.setText(\"\");"
+        "content": "        phone.setText(\"\");"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        phone.setText(\"\");"
+        "content": "        email.setText(\"\");"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        email.setText(\"\");"
+        "content": "        address.setText(\"\");"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        address.setText(\"\");"
+        "content": "        gender.setText(\"\");"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        gender.setText(\"\");"
+        "content": "        yearOfStudy.setText(\"\");"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        yearOfStudy.setText(\"\");"
+        "content": "        major.setText(\"\");"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        major.setText(\"\");"
+        "content": "        statistics.setText(\"\");"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        statistics.setText(\"\");"
+        "content": "        attendedActivitiesCounter.setText(\"\");"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        attendedActivitiesCounter.setText(\"\");"
+        "content": "        participationRate.setText(\"\");"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        participationRate.setText(\"\");"
+        "content": "    }"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    @Override"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        // short circuit if same object"
+        "content": "        if (other \u003d\u003d this) {"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        if (other \u003d\u003d this) {"
+        "content": "            return true;"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "            return true;"
+        "content": "        }"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        // instanceof handles nulls"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        // instanceof handles nulls"
+        "content": "        if (!(other instanceof Person)) {"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        if (!(other instanceof Person)) {"
+        "content": "            return false;"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "            return false;"
+        "content": "        }"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "joel0111"
         },
-        "content": ""
+        "content": "        // state check"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        // state check"
+        "content": "        MemberDetailPanel detail \u003d (MemberDetailPanel) other;"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        MemberDetailPanel detail \u003d (MemberDetailPanel) other;"
+        "content": "        return name.getText().equals(detail.name.getText())"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        return name.getText().equals(detail.name.getText())"
+        "content": "                \u0026\u0026 matricNumber.getText().equals(matricNumber);"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                \u0026\u0026 matricNumber.getText().equals(matricNumber);"
+        "content": "    }"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 130,
-        "author": {
-          "gitId": "joel0111"
-        },
         "content": ""
       },
       {
-        "lineNumber": 131,
+        "lineNumber": 130,
         "author": {
           "gitId": "joel0111"
         },
@@ -102190,7 +102057,7 @@
       }
     ],
     "authorContributionMap": {
-      "joel0111": 131
+      "joel0111": 130
     }
   },
   {
@@ -136699,73 +136566,94 @@
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        MemberFilterCommand expectedFilterCommand \u003d"
+        "content": "        String[] input \u003d new String[2];"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                new MemberFilterCommand(new FilterCriteriaContainsKeywordPredicate((\"yearOfStudy 2\")));"
+        "content": "        input[0] \u003d \"yearofstudy\";"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        assertParseSuccess(parser, \"yearOfStudy 2\", expectedFilterCommand);"
+        "content": "        input[1] \u003d \"2\";"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        assertParseFailure(parser, \"year 1\", String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
+        "content": "        MemberFilterCommand expectedFilterCommand \u003d"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                MemberFilterCommand.MESSAGE_USAGE));"
+        "content": "                new MemberFilterCommand(input);"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        assertParseFailure(parser, \"field economics\", String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
+        "content": "        assertParseSuccess(parser, \"yearOfStudy 2\", expectedFilterCommand);"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                MemberFilterCommand.MESSAGE_USAGE));"
+        "content": "        assertParseFailure(parser, \"year 1\", String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "        assertParseFailure(parser, \"sex male\", String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
+        "content": "                MemberFilterCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "                MemberFilterCommand.MESSAGE_USAGE));"
+        "content": "        assertParseFailure(parser, \"field economics\", String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "joel0111"
         },
-        "content": "    }"
+        "content": "                MemberFilterCommand.MESSAGE_USAGE));"
       },
       {
         "lineNumber": 34,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "        assertParseFailure(parser, \"sex male\", String.format(MESSAGE_INVALID_COMMAND_FORMAT,"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "                MemberFilterCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "joel0111"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 37,
         "author": {
           "gitId": "joel0111"
         },
@@ -136773,7 +136661,7 @@
       }
     ],
     "authorContributionMap": {
-      "joel0111": 34
+      "joel0111": 37
     }
   },
   {

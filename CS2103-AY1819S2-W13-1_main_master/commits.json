@@ -1585,6 +1585,12 @@
         "deletions": 0,
         "date": "2019-04-14",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "wayneswq": [
@@ -2539,6 +2545,139 @@
         "deletions": 0,
         "date": "2019-04-14",
         "commitResults": []
+      },
+      {
+        "insertions": 765,
+        "deletions": 843,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "f18caf15df566e9e1e345ba4b99b3878a2a3bcfe",
+            "message": "fix bug for patient appointment status and update sampledata",
+            "insertions": 52,
+            "deletions": 18
+          },
+          {
+            "hash": "2089464c01f01baacb707476571fcb1624b56d8d",
+            "message": "minor checkstyle changes",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "cd759130328bfa10f6d512042dc51cc28d3a0898",
+            "message": "update cascade",
+            "insertions": 13,
+            "deletions": 12
+          },
+          {
+            "hash": "6a06115a71e6536a16f3b629a208de0e260ecfbf",
+            "message": "fix checkstyle1",
+            "insertions": 46,
+            "deletions": 46
+          },
+          {
+            "hash": "37a4fa9fd1b64eb1eab176bc5d59d858b15f3156",
+            "message": "fix checkstyle2",
+            "insertions": 18,
+            "deletions": 21
+          },
+          {
+            "hash": "58624641499940f8a6b19efbd9ad0efeb75b44df",
+            "message": "remove search-p-tag",
+            "insertions": 0,
+            "deletions": 79
+          },
+          {
+            "hash": "b7e6e51172d07091da395e02db3a5d1af7428fd0",
+            "message": "fix checkstyle3",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "dbd93ee7e4f51ffad80315a50c1af0eb48efa2d4",
+            "message": "fix checkstyle4",
+            "insertions": 28,
+            "deletions": 28
+          },
+          {
+            "hash": "81032404629f01297bf71005c212ba9dc6c4a6c3",
+            "message": "fix minor bug regarding edit-p",
+            "insertions": 2,
+            "deletions": 23
+          },
+          {
+            "hash": "391145df2455581d6af926dd55dba027a676be0f",
+            "message": "repackage patient",
+            "insertions": 246,
+            "deletions": 216
+          },
+          {
+            "hash": "042ae6b7c66e8c656a3573bf6a2efcbc75b9f03a",
+            "message": "delete tons of unused code",
+            "insertions": 12,
+            "deletions": 167
+          },
+          {
+            "hash": "661601819f8ff3d14cb89cf19bf6ff7701118501",
+            "message": "fix checkstyl1",
+            "insertions": 110,
+            "deletions": 63
+          },
+          {
+            "hash": "3f3e51672b06dd3488a0d0a679c33e0058f5f376",
+            "message": "fix checkstyle2",
+            "insertions": 16,
+            "deletions": 13
+          },
+          {
+            "hash": "aac37cff5962106c8125924c909423c9fd566fb8",
+            "message": "fix checkstyle3",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "2bfaa1add9f0ecd01b03225f6a01974a314e43b6",
+            "message": "fix checkstyle4",
+            "insertions": 56,
+            "deletions": 51
+          },
+          {
+            "hash": "a8dfe4a15d31c64932a578e45670460c2fdf6635",
+            "message": "minor change to ui so pid and did can always be shown",
+            "insertions": 17,
+            "deletions": 33
+          },
+          {
+            "hash": "452fbf016472b37b93012cf7516e3060e2da5ffe",
+            "message": "update patient command name changes",
+            "insertions": 19,
+            "deletions": 20
+          },
+          {
+            "hash": "bfe9afbd1be613d0380380ad7af0f6f119a0f395",
+            "message": "update UG",
+            "insertions": 16,
+            "deletions": 15
+          },
+          {
+            "hash": "68eac9cffe2b000211bed555884b11514ea1d246",
+            "message": "update PPP",
+            "insertions": 69,
+            "deletions": 0
+          },
+          {
+            "hash": "df9f1fe92a2743f896abedb0cf41904f4fd052d3",
+            "message": "added codacy badge to readme",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e6887d922d0b3a330b6f9773c84df502aa58ecf7",
+            "message": "update UG",
+            "insertions": 34,
+            "deletions": 30
+          }
+        ]
       }
     ],
     "amuletxheart": [
@@ -3293,8 +3432,8 @@
         ]
       },
       {
-        "insertions": 149,
-        "deletions": 29,
+        "insertions": 170,
+        "deletions": 43,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3314,6 +3453,37 @@
             "message": "Updated README.adoc",
             "insertions": 8,
             "deletions": 8
+          },
+          {
+            "hash": "0ea6f55df11880fde17b47a51accc4341f69d90d",
+            "message": "all main appointment features completed",
+            "insertions": 21,
+            "deletions": 14
+          }
+        ]
+      },
+      {
+        "insertions": 47,
+        "deletions": 83,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "392e3e4d5c8e79ea2881de8ad7a7a099128823d8",
+            "message": "updated DG",
+            "insertions": 35,
+            "deletions": 73
+          },
+          {
+            "hash": "186b3230cc4b3402df43e83962ec8d9529a15462",
+            "message": "fixed DG styling errors",
+            "insertions": 8,
+            "deletions": 6
+          },
+          {
+            "hash": "a696d8d99d376c85fd04124227eca0899866f4d4",
+            "message": "fixed test cases",
+            "insertions": 4,
+            "deletions": 4
           }
         ]
       }
@@ -4042,6 +4212,12 @@
         "insertions": 0,
         "deletions": 0,
         "date": "2019-04-14",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -5391,8 +5567,8 @@
         ]
       },
       {
-        "insertions": 339,
-        "deletions": 212,
+        "insertions": 380,
+        "deletions": 253,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -5460,24 +5636,67 @@
             "message": "modify sort command",
             "insertions": 66,
             "deletions": 22
+          },
+          {
+            "hash": "c9f1d6099c8c68cfc4b36ec912ebf519b1e6601e",
+            "message": "change package to medicalhistory",
+            "insertions": 40,
+            "deletions": 40
+          },
+          {
+            "hash": "e8603e42a76613e9829ec55524af35f11c523d75",
+            "message": "update DG",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 195,
+        "deletions": 22,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "36942950ef8188e66ec8d5d592ec7bb9d6f172ca",
+            "message": "update MedHist when patient/doctor is edited",
+            "insertions": 87,
+            "deletions": 14
+          },
+          {
+            "hash": "a3984c4a6a1fc366efb15298519d0f4522636f10",
+            "message": "update Appt when patient/doctor is edited",
+            "insertions": 75,
+            "deletions": 7
+          },
+          {
+            "hash": "2d1ba83e5dee663026d6af5b7d00e53b04ed1a25",
+            "message": "Update DG",
+            "insertions": 31,
+            "deletions": 0
+          },
+          {
+            "hash": "35e763567e899a80970204659dbbb8f759050d0f",
+            "message": "Update DG",
+            "insertions": 2,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "siyingpoof": 7407,
-    "wayneswq": 7534,
-    "amuletxheart": 3664,
-    "GongChangda": 2893,
-    "Liuyy99": 3655
+    "siyingpoof": 7373,
+    "wayneswq": 8096,
+    "amuletxheart": 3611,
+    "GongChangda": 2879,
+    "Liuyy99": 3791
   },
   "authorContributionVariance": {
-    "siyingpoof": 1402838.5,
-    "wayneswq": 1296154.6,
-    "amuletxheart": 45058.66,
-    "GongChangda": 39079.09,
-    "Liuyy99": 139077.12
+    "siyingpoof": 1383631.4,
+    "wayneswq": 1302041.2,
+    "amuletxheart": 44498.445,
+    "GongChangda": 38536.367,
+    "Liuyy99": 138061.03
   },
   "authorDisplayNameMap": {
     "siyingpoof": "ONG...ING",

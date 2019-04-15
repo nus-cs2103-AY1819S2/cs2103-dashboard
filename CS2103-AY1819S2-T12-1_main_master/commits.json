@@ -868,8 +868,8 @@
         ]
       },
       {
-        "insertions": 10,
-        "deletions": 2,
+        "insertions": 58,
+        "deletions": 14,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -877,8 +877,26 @@
             "message": "BillPanel will show message if there is no booking or reservation available for the selected customer",
             "insertions": 10,
             "deletions": 2
+          },
+          {
+            "hash": "3e0d585902f15e2ac4d39676ebbc2e49be276050",
+            "message": "Fix dateRange withinMethod only comparing dates and not including time Correct message for full reservation",
+            "insertions": 44,
+            "deletions": 9
+          },
+          {
+            "hash": "7b3a7723b87e90145d2482c4daf882cdc1297d53",
+            "message": "fix room full check method",
+            "insertions": 4,
+            "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "sreycodes": [
@@ -2003,6 +2021,12 @@
             "deletions": 0
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "Tejas2805": [
@@ -3656,8 +3680,8 @@
         ]
       },
       {
-        "insertions": 222,
-        "deletions": 47,
+        "insertions": 965,
+        "deletions": 163,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3665,6 +3689,55 @@
             "message": "Tiny bugs like space errors in command examples fixed. UG updated. DG updated.",
             "insertions": 222,
             "deletions": 47
+          },
+          {
+            "hash": "6a95dc77d58ef44786fae43813da093930acb6fd",
+            "message": "Implemented ClearRoomTypeCommand and ClearServiceTypeCommand.",
+            "insertions": 277,
+            "deletions": 13
+          },
+          {
+            "hash": "8c1523811ff83d1446f273ecda185b21a513f99a",
+            "message": "Corrected errors.",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "d1a7159aada18a32ec7d200384519d3cca8f4d9f",
+            "message": "Corrected errors.",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "88c931d7f08b7800eb1513d4b4302e5f75c73580",
+            "message": "Added tests to increase coverage. Added tests to DateOfBirth and SwitchTabCommand. Implemented new tests for BookingCard and ReservationCard.",
+            "insertions": 461,
+            "deletions": 99
+          }
+        ]
+      },
+      {
+        "insertions": 145,
+        "deletions": 23,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "9146468368cb92e0048d0fce3b6010ac9f2fcc1e",
+            "message": "Made UI for RoomTypeListCardCard and ServiceTypeListCard easier to understand and find by adding indexes.",
+            "insertions": 10,
+            "deletions": 5
+          },
+          {
+            "hash": "b0aa648e3d0e56b7bcf4089a025cecc7cce35234",
+            "message": "Added tests for UI to increase coverage.",
+            "insertions": 69,
+            "deletions": 0
+          },
+          {
+            "hash": "6c84ab2d0bf547f9a7986e42e1baae8d9abbc321",
+            "message": "Updated UG for final stage. Only example pictures are left.",
+            "insertions": 66,
+            "deletions": 18
           }
         ]
       }
@@ -4302,20 +4375,26 @@
         "deletions": 0,
         "date": "2019-04-14",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 2793,
-    "sreycodes": 12098,
-    "Tejas2805": 7848,
-    "nerrons": 1161
+    "ZhangCX10032": 2837,
+    "sreycodes": 12084,
+    "Tejas2805": 8705,
+    "nerrons": 1063
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 659152.1,
-    "sreycodes": 2.2806484E7,
-    "Tejas2805": 900752.2,
-    "nerrons": 200365.34
+    "ZhangCX10032": 649525.94,
+    "sreycodes": 2.2469842E7,
+    "Tejas2805": 895747.0,
+    "nerrons": 197478.67
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

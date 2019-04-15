@@ -817,6 +817,12 @@
         "deletions": 0,
         "date": "2019-04-14",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "ptvrajsk": [
@@ -2171,10 +2177,66 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 156,
+        "deletions": 41,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3cd1db765494c5eccc5d0ae73ad70148d716484f",
+            "message": "(v1.4) Improvements in Find Feature DG",
+            "insertions": 20,
+            "deletions": 13
+          },
+          {
+            "hash": "8f71804685f74df2eb37295a415e79da75dbdf36",
+            "message": "Checkstyle Fixes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d8979c91c76ecd6def613d0ff32f9b0abd697165",
+            "message": "(v1.4) UG Update",
+            "insertions": 55,
+            "deletions": 2
+          },
+          {
+            "hash": "1e90db7a42b98589861512695d84df011209a4b6",
+            "message": "DG Update: Select",
+            "insertions": 50,
+            "deletions": 20
+          },
+          {
+            "hash": "9e717782b89f450dd8996c451fa9fca78a8b6358",
+            "message": "DG Update: Sort",
+            "insertions": 30,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 353,
+        "deletions": 229,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "24cc362c6e79d12140ce42cfedc1023453842894",
+            "message": "DG: Update Tag",
+            "insertions": 53,
+            "deletions": 12
+          },
+          {
+            "hash": "a7df48f0b98fbd5f8eb2ada0982b86947065cfc5",
+            "message": "DG: Update Filter",
+            "insertions": 37,
+            "deletions": 7
+          },
+          {
+            "hash": "726710fe462ba8baf311034ef8c26a24d063d218",
+            "message": "UG \u0026 PPP Update",
+            "insertions": 263,
+            "deletions": 210
+          }
+        ]
       }
     ],
     "WeiTangLau": [
@@ -3702,9 +3764,64 @@
         ]
       },
       {
+        "insertions": 472,
+        "deletions": 264,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "ec2b2e22cb3c2b93516b03b3a038ac01ecddd090",
+            "message": "(v1.4) DG for File Protection section",
+            "insertions": 160,
+            "deletions": 15
+          },
+          {
+            "hash": "f72a2a0b3091ee09c88eefbe279fc81745f8aa8b",
+            "message": "(v1.4) Developer Guide for File Protection",
+            "insertions": 27,
+            "deletions": 36
+          },
+          {
+            "hash": "dfccfc5a932045b68ce07aed4f89723dbb56bf87",
+            "message": "Travis test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1661dffd7139f0fb6437db21aef3eeb07d8def21",
+            "message": "UG Modification for File Protection",
+            "insertions": 154,
+            "deletions": 135
+          },
+          {
+            "hash": "41e1cef5ed1458b7873603a057e87770df2451d4",
+            "message": "(v1.4) UG modification for File Protection section",
+            "insertions": 13,
+            "deletions": 16
+          },
+          {
+            "hash": "81d2bd4d274bd6eefeb36ae7bd1f9fe422bfa909",
+            "message": "(v1.4) UG Guide for File Protection",
+            "insertions": 40,
+            "deletions": 25
+          },
+          {
+            "hash": "6aa0793ddc125d37bf18fe630fba3b17d1790b16",
+            "message": "(v1.4) UG for FileProtection",
+            "insertions": 59,
+            "deletions": 22
+          },
+          {
+            "hash": "c193a4909a87ab99647a377ce29b69bb2e3b548f",
+            "message": "(v1.4) Architecture diagram adjustments",
+            "insertions": 18,
+            "deletions": 14
+          }
+        ]
+      },
+      {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-14",
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -4429,8 +4546,8 @@
         ]
       },
       {
-        "insertions": 20,
-        "deletions": 20,
+        "insertions": 1055,
+        "deletions": 7647,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -4450,22 +4567,53 @@
             "message": "Checkstyle fixes",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "07d4cf18e387ba8474441586659981a735f54bd9",
+            "message": "Refactor to PDF++",
+            "insertions": 997,
+            "deletions": 7589
+          },
+          {
+            "hash": "4df406d5c12135c6ce3ac542c6824f2b4121cadf",
+            "message": "Refactor to PDF++",
+            "insertions": 38,
+            "deletions": 38
+          }
+        ]
+      },
+      {
+        "insertions": 6595,
+        "deletions": 3,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "33344909a19c40bf2daf0c267d8a2c139f4c25ee",
+            "message": "Bug fixes for refactoring to PDF++",
+            "insertions": 6592,
+            "deletions": 0
+          },
+          {
+            "hash": "6ba903e60d23b6b19dc69721b5e85dfa54017584",
+            "message": "Minor refactor",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "lormee94": 1359,
-    "ptvrajsk": 3288,
-    "WeiTangLau": 4431,
-    "jetkan-yk": 650
+    "lormee94": 1200,
+    "ptvrajsk": 2107,
+    "WeiTangLau": 2602,
+    "jetkan-yk": 6213
   },
   "authorContributionVariance": {
-    "lormee94": 14361.219,
-    "ptvrajsk": 161192.36,
-    "WeiTangLau": 129066.25,
-    "jetkan-yk": 6.8319368E7
+    "lormee94": 14183.61,
+    "ptvrajsk": 160455.14,
+    "WeiTangLau": 131925.83,
+    "jetkan-yk": 6.8570472E7
   },
   "authorDisplayNameMap": {
     "lormee94": "JER...LOW",

@@ -897,33 +897,255 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 72,
+        "deletions": 27,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0dfca1c913a9bcc81e7f275cefb04d015f82be00",
+            "message": "implement Levenshtien Distance check for autocorrect feature",
+            "insertions": 58,
+            "deletions": 6
+          },
+          {
+            "hash": "c2689ccb63ed129f9717cb0c877ade37233e224b",
+            "message": "fix current tests",
+            "insertions": 14,
+            "deletions": 21
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 16,
+        "deletions": 9,
         "date": "2019-04-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "10bf86b0bb67eda64d485d895f57f08d94a9308e",
+            "message": "update tests for new enhancement",
+            "insertions": 15,
+            "deletions": 8
+          },
+          {
+            "hash": "da9a410864fde1d208515b9b7024fae5bf9a85ca",
+            "message": "enhance tests",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 92,
+        "deletions": 37,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "78912a163decfc4a1fccdd6a6789556dd2fe55f8",
+            "message": "rename PPP to github id",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "46a29bd4790fe108877b836177457b2d98f91c88",
+            "message": "edit reposense link in PPP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2557b9095ce4e1ddb252949f77189b3895390fb5",
+            "message": "update PPP",
+            "insertions": 25,
+            "deletions": 6
+          },
+          {
+            "hash": "750915430fc5f88209b71c300a8b20bc42a61050",
+            "message": "fix PPP typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f33a62b9470bafa6dd6794c010e62ee0b80fac12",
+            "message": "update DG",
+            "insertions": 28,
+            "deletions": 2
+          },
+          {
+            "hash": "c6fef5ea87ddb890e973edadadb97ca69b1a7e4a",
+            "message": "update UG",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "26e173163c931ee31f9aad486dc509899c8b86b5",
+            "message": "updates javadoc",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "e6b07ba2c9c060050e94543550ce92408f792481",
+            "message": "update doc",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "d07d37c9d3aa11a1bf25e3ef9e2dd8b183dcab1d",
+            "message": "fix SearchCommandTest.java",
+            "insertions": 9,
+            "deletions": 19
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 153,
+        "deletions": 74,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d5c950005347666659085fcb793c190ba9c6544b",
+            "message": "modify TypicalSources for search logic",
+            "insertions": 78,
+            "deletions": 44
+          },
+          {
+            "hash": "806a228f0b7752fa1add5fc46702aad79a84f5c8",
+            "message": "temp tests fix [with temp functions]",
+            "insertions": 32,
+            "deletions": 22
+          },
+          {
+            "hash": "90e9aa950fe718c61ca58347842e5e68f9b12309",
+            "message": "implement list 2 arguments logic",
+            "insertions": 39,
+            "deletions": 4
+          },
+          {
+            "hash": "bacbba8f02882680b2d2d083368bf557255005ad",
+            "message": "add all member porfolio links to aboutus",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 472,
+        "deletions": 266,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "405ef9fb331b5607d83f7432a355da38cb65789e",
+            "message": "implement negative list argument",
+            "insertions": 59,
+            "deletions": 11
+          },
+          {
+            "hash": "92dc26b24e96edd728e0c574b74bd9312ebcf9db",
+            "message": "minor fixes",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "9dd52d492dde8f890372f9dfec9db572eaad9d11",
+            "message": "implement list tests",
+            "insertions": 58,
+            "deletions": 7
+          },
+          {
+            "hash": "255c0667e1d47ae5b6838dc09c74774a0af516cb",
+            "message": "modify list tests",
+            "insertions": 20,
+            "deletions": 2
+          },
+          {
+            "hash": "8d6e0850028c5850719ff12b7e0180689d5f5b8d",
+            "message": "fix list command tests",
+            "insertions": 46,
+            "deletions": 50
+          },
+          {
+            "hash": "f16c51bb3bd9433e1a54cbda4b9ece83a7f27451",
+            "message": "create ListCommandParserTest",
+            "insertions": 74,
+            "deletions": 2
+          },
+          {
+            "hash": "5e4395bd1e36db45d6612408ea202403e21e57f6",
+            "message": "fix search test",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "cfde7c4ac2cbb5c70292fed8acded84ff4722d4d",
+            "message": "update listcommand equals",
+            "insertions": 34,
+            "deletions": 10
+          },
+          {
+            "hash": "95d2e0383c366eb54c5f634810d1ae40167868f4",
+            "message": "fix listcommand tests",
+            "insertions": 9,
+            "deletions": 11
+          },
+          {
+            "hash": "b25fd3c621150377554adf17a00f68ecbc6b2f45",
+            "message": "fix listcommandparser tests",
+            "insertions": 3,
+            "deletions": 43
+          },
+          {
+            "hash": "b41e2493400d3321b94208a1632b1d921b6044f2",
+            "message": "mid-PR travis check",
+            "insertions": 87,
+            "deletions": 62
+          },
+          {
+            "hash": "b1c6d57e4aa7fa307f826f275792bc7e0277fbab",
+            "message": "updated UG with list",
+            "insertions": 47,
+            "deletions": 9
+          },
+          {
+            "hash": "04e434504381bfcf728ada513515925ec150f760",
+            "message": "update list command tests",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "64248c26bb490e08d48ac0d84b91f16cc56cca86",
+            "message": "update PPP intro",
+            "insertions": 4,
+            "deletions": 56
+          }
+        ]
+      },
+      {
+        "insertions": 273,
+        "deletions": 136,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "201da217e52df1369aa7d966cafbbc6ddc29d5a2",
+            "message": "update DG and rename variables in ListCommand",
+            "insertions": 125,
+            "deletions": 47
+          },
+          {
+            "hash": "dcf9b9f2a6b8238e7ab0593f14acf31e09fd9a33",
+            "message": "update PPP",
+            "insertions": 26,
+            "deletions": 89
+          },
+          {
+            "hash": "6298c66d55dd6cc38493d5d702668e642c85b4e6",
+            "message": "add ListCommandSystemTest",
+            "insertions": 122,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
         "deletions": 0,
-        "date": "2019-04-13",
+        "date": "2019-04-15",
         "commitResults": []
       }
     ],
@@ -1659,8 +1881,8 @@
         ]
       },
       {
-        "insertions": 298,
-        "deletions": 220,
+        "insertions": 362,
+        "deletions": 221,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -1751,6 +1973,122 @@
             "hash": "741f26dab57fb2c2bba5e3ac0370987b6674a23e",
             "message": "Set 2 tests to Ignore",
             "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "072bb3e6950bfb92433a4ea7a4a3b803368b6343",
+            "message": "Added test for BiblioEditCommand",
+            "insertions": 64,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 272,
+        "deletions": 85,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "5f9f0bde388096e4002138600b84ac65c1ee5bdd",
+            "message": "Updated SampleDataUtil to match test data.",
+            "insertions": 214,
+            "deletions": 29
+          },
+          {
+            "hash": "ae32a157f13e9bd1caf56e791976591cdcdfdf5a",
+            "message": "Checkstyle Edits",
+            "insertions": 13,
+            "deletions": 7
+          },
+          {
+            "hash": "2b1b73bcec634cb296f8e2db78bb579b38df1bab",
+            "message": "Removed old constructors for Source.",
+            "insertions": 36,
+            "deletions": 34
+          },
+          {
+            "hash": "486159fda70bc7c5f700612a977786840ee2bfe2",
+            "message": "Ignored 2 tests that are failling when run on their own but not when runned with all other tests",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "c381662c9de4b309555fce219f2b2220f5a2a078",
+            "message": "Revert \"Ignored 2 tests that are failling when run on their own but not when runned with all other tests\"",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "3c2aaf5439df9373334b771809e2be1d87e8fe7d",
+            "message": "Ignored 2 tests Tests are passing when run on their own but not when runned with all other tests",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "4e5196e9baee89dd82357dce821953021f90bf35",
+            "message": "Removed unnecessary toString in EditCommand",
+            "insertions": 0,
+            "deletions": 9
+          },
+          {
+            "hash": "e32499be516ef4c6959c6926c2186018eb7da0dd",
+            "message": "Checkstyle Edit",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 50,
+        "deletions": 42,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "d84789212e15a080a6730a900906b3de30952ea0",
+            "message": "Update to BiblioEditCommand to not break other tests. One test is current ignored.",
+            "insertions": 21,
+            "deletions": 16
+          },
+          {
+            "hash": "bce8f5107100d8c916b68ae57bc35ef96adf69e1",
+            "message": "Checkstyle Edits",
+            "insertions": 3,
+            "deletions": 7
+          },
+          {
+            "hash": "db06a51620af73dbc277898a02a413fa6e27cd66",
+            "message": "Checkstyle Edits",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "925a3dcf697099fba50584caa4630ad9f9272009",
+            "message": "Added test for SampleDataUtil",
+            "insertions": 23,
+            "deletions": 15
+          },
+          {
+            "hash": "3c0c15c32e75c11d5dc4d551a6000dbaf39fbe54",
+            "message": "Removed unnecessary import in util/TypicalSources",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "fe384ad3a0b30439f80aaa2a1985a65470edc1fc",
+            "message": "Checkstyle Edits",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7042b597407b9cc0600b164f3a078c5d25a778d8",
+            "message": "Removed unnecessay import in util/TypicalSources.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "c526a5559728ee2bdd1c7d84d2092b1a48a3fe56",
+            "message": "Readded accidental removal of import",
+            "insertions": 1,
             "deletions": 0
           }
         ]
@@ -3502,8 +3840,8 @@
         ]
       },
       {
-        "insertions": 174,
-        "deletions": 981,
+        "insertions": 227,
+        "deletions": 990,
         "date": "2019-04-13",
         "commitResults": [
           {
@@ -3577,8 +3915,153 @@
             "message": "removed personbuilder",
             "insertions": 0,
             "deletions": 94
+          },
+          {
+            "hash": "8108afb255eb21cbf2e4e6579018a495e0fff932",
+            "message": "update CountCommandTest.java",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "3bd7a92a62422eff064f550fb0165e19ed66801a",
+            "message": "fix travis checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "32c16d4108420afc630d7203e9bd52ea75c7889c",
+            "message": "add restorecommandparsertest",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "5953a2aab98f2b797edfa1069cf2c478425d44dc",
+            "message": "added testcase in deletecommandtest",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "a8009d2840cb94549db11cc1a0e09c378c6e3ca9",
+            "message": "update README.adoc to reflect coverage",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 690,
+        "deletions": 329,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "e3d6226b542a42bb1cf333e7bba69bd306ada119",
+            "message": "update coverage badge",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "455a9f88eb56831eaa0b7437a7a47f026298517f",
+            "message": "update UI with author and bibliofields",
+            "insertions": 23,
+            "deletions": 4
+          },
+          {
+            "hash": "81ccf231622e3f1e52931a3a4da0473bb0f400e5",
+            "message": "fix travis checkstyle errors and add RecycleBinParserTest test cases",
+            "insertions": 86,
+            "deletions": 7
+          },
+          {
+            "hash": "3fc5d109e190c4354d986843bfdedd1d5126afd6",
+            "message": "fix travis checkstyle error",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2c164a44ce906dad76633d33d7b34ef4e916a915",
+            "message": "Update README.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b9ba77065fa8c022a647057c83a442c6bf0be622",
+            "message": "fix undo redo bug and fix editcommandtest",
+            "insertions": 83,
+            "deletions": 10
+          },
+          {
+            "hash": "3e50080f7ba3dc20104800e117c6d9700f5c8e1b",
+            "message": "added message for deletecommand",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "a411e4e90853778f38025e9a015842ffed24a0c0",
+            "message": "remove seventh index from Typicalindexes",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "156135e14fb702e231aa7b6ff46e17b755eed03b",
+            "message": "fix travis checkstyle errors",
+            "insertions": 17,
+            "deletions": 12
+          },
+          {
+            "hash": "4730c8a349b3ff7bf2547a5fd155f334ecb973cf",
+            "message": "add restore command tests and update delete command and delete command tests",
+            "insertions": 153,
+            "deletions": 26
+          },
+          {
+            "hash": "7af3d0fa5fa9d66c9f5d27c7ac2150ffd718ba1c",
+            "message": "add redo and undo for recycle bin mode",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "7a793dec073d9bd996e4e7460f743f2a005e9d64",
+            "message": "add tests for undo and redo in recyclebin mode",
+            "insertions": 53,
+            "deletions": 14
+          },
+          {
+            "hash": "e8b864cf1f8e66186907a04b8cee8b5ecec36687",
+            "message": "add tests for undo and redo in recyclebin mode",
+            "insertions": 8,
+            "deletions": 13
+          },
+          {
+            "hash": "6521bbad2621262c896d3368e535eccce617086c",
+            "message": "add tests for undo and redo in restore command",
+            "insertions": 46,
+            "deletions": 4
+          },
+          {
+            "hash": "9985297b73536b935f5fab35198edeb3b03ea765",
+            "message": "add JsonDeletedSourcesStorageTests",
+            "insertions": 123,
+            "deletions": 0
+          },
+          {
+            "hash": "9522c038cf7d016da0bc4ef9e8c056458bedf350",
+            "message": "add code to generate sampleDeletedData.json file",
+            "insertions": 41,
+            "deletions": 202
+          },
+          {
+            "hash": "1bb147e12e3d7596a0609212b92490585f1226ad",
+            "message": "fix travis checkstyle errors",
+            "insertions": 21,
+            "deletions": 28
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "DarrenDragonLee": [
@@ -4352,6 +4835,37 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 74,
+        "deletions": 12,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "d8eccb8fc0ceb5f8c4f6cf82efb2f7500445393f",
+            "message": "Massive update to the developer guide to properly explain implementation of the pin and unpin function",
+            "insertions": 63,
+            "deletions": 5
+          },
+          {
+            "hash": "ea02b98684a69a06d426f3f3a3895984b7efd9ce",
+            "message": "Minor edits for image paths",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "28c6445f9c58b18dabc598135e5e3e2d3f311766",
+            "message": "Added sequence diagrams for pin and unpin commands",
+            "insertions": 5,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ],
     "fterh": [
@@ -5493,22 +6007,83 @@
         "deletions": 0,
         "date": "2019-04-13",
         "commitResults": []
+      },
+      {
+        "insertions": 52,
+        "deletions": 189,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "4549edfc17c84cd2243d023cc0c502070be946b5",
+            "message": "Update developer guide for alias feature",
+            "insertions": 24,
+            "deletions": 16
+          },
+          {
+            "hash": "e83643b39a19383adccbedb4d20e0b60244033aa",
+            "message": "Update user guide",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "3a5cb729ced55021e8384f0289b825e223d694a6",
+            "message": "Update user guide",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "ca963acc810b3e82b164b65dbe126ae7976d2e71",
+            "message": "Update fterh.adoc",
+            "insertions": 5,
+            "deletions": 158
+          },
+          {
+            "hash": "62f4bdc26baa45bd884f6db578efe809831a2ded",
+            "message": "Update fterh.adoc",
+            "insertions": 4,
+            "deletions": 7
+          },
+          {
+            "hash": "e418cc2029455723fb98765e65b89fb9ce076abb",
+            "message": "Remove trailing whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "35749245e6fad7d999a3adb47d07eea315a105c9",
+            "message": "Fix incorrect adoc include tag",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "d295e5f825738f0d3329db5d81680d178ec2d3a0",
+            "message": "Close adoc tags",
+            "insertions": 5,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-15",
+        "commitResults": []
       }
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 1433,
-    "DoItTomorrow": 1128,
-    "case141": 4963,
-    "DarrenDragonLee": 2761,
-    "fterh": 2658
+    "suriruhani": 2038,
+    "DoItTomorrow": 1417,
+    "case141": 5287,
+    "DarrenDragonLee": 2799,
+    "fterh": 2519
   },
   "authorContributionVariance": {
-    "suriruhani": 46058.863,
-    "DoItTomorrow": 12701.999,
-    "case141": 4.3107144E9,
-    "DarrenDragonLee": 37662.426,
-    "fterh": 123511.45
+    "suriruhani": 52692.375,
+    "DoItTomorrow": 14891.446,
+    "case141": 4.18094541E9,
+    "DarrenDragonLee": 36603.89,
+    "fterh": 120158.67
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",
