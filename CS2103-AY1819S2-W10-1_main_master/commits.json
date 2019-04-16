@@ -1434,8 +1434,8 @@
         ]
       },
       {
-        "insertions": 256,
-        "deletions": 198,
+        "insertions": 355,
+        "deletions": 207,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -1443,6 +1443,18 @@
             "message": "Change icon",
             "insertions": 4,
             "deletions": 6
+          },
+          {
+            "hash": "621fb72019dac25627014a513ac371425fb73a92",
+            "message": "Add GoogleNewsCommandParserTest",
+            "insertions": 24,
+            "deletions": 1
+          },
+          {
+            "hash": "074b01c19a5c9f38f445632c3348b56bcde54c7c",
+            "message": "Add tests in StringUtilTest",
+            "insertions": 72,
+            "deletions": 5
           },
           {
             "hash": "91d24ccefa3533372099a98ec599948876055a95",
@@ -1485,12 +1497,18 @@
             "message": "Fix checkstyle error",
             "insertions": 5,
             "deletions": 1
+          },
+          {
+            "hash": "169ae8b45f06d635af1974091210d9b277cf5c73",
+            "message": "Change team info, add rlrh portfolio link",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       },
       {
-        "insertions": 28,
-        "deletions": 5,
+        "insertions": 187,
+        "deletions": 54,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -1498,6 +1516,42 @@
             "message": "Update view mode UG section with images and more examples",
             "insertions": 28,
             "deletions": 5
+          },
+          {
+            "hash": "35c2ae0e3aa91f491dd1ee4dbc822cce4ecc6f5f",
+            "message": "Credit se-edu team in AboutUs",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "a972fe23e7e1ee61554ca2e85e8dab5691d6146c",
+            "message": "Update StringUtil, StringUtilTest",
+            "insertions": 71,
+            "deletions": 8
+          },
+          {
+            "hash": "923466d133318c23de9b39a2faa0ae533662cb3b",
+            "message": "First update of rlrh PPP",
+            "insertions": 18,
+            "deletions": 18
+          },
+          {
+            "hash": "feb0cd7ecf167348eea653e69ce80a8d805fc68a",
+            "message": "Update Reader View section in DG",
+            "insertions": 38,
+            "deletions": 6
+          },
+          {
+            "hash": "345da0fa6d07a65605188611c32c2e73264c2847",
+            "message": "Update rlrh PP, UG tags",
+            "insertions": 24,
+            "deletions": 16
+          },
+          {
+            "hash": "c91ef874aba420920dbcf8e5ba14e32c7d1166aa",
+            "message": "Add FAQ",
+            "insertions": 6,
+            "deletions": 0
           }
         ]
       }
@@ -2559,10 +2613,119 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 986,
+        "deletions": 551,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f391fe1cb14fed4e4e57eb22298f459d41cb0996",
+            "message": "test/TypicalEntries: refactor base urls out",
+            "insertions": 26,
+            "deletions": 8
+          },
+          {
+            "hash": "11198ae089994cbc872b037673e5c16ef59b5db3",
+            "message": "test/FeedCommand: use URLs from TypicalEntries",
+            "insertions": 12,
+            "deletions": 16
+          },
+          {
+            "hash": "6d135902e82cd5e4c0be7089dc696a86c9986f3e",
+            "message": "test/FeedUtil: remove makeRssFromTriple",
+            "insertions": 44,
+            "deletions": 49
+          },
+          {
+            "hash": "cd14afb1e38c5ead1fdca54e327ff21707426529",
+            "message": "test: move animereviews feed to TypicalEntries",
+            "insertions": 61,
+            "deletions": 65
+          },
+          {
+            "hash": "687de3951cec9053a33ca7427bcd3adf3fdadad8",
+            "message": "test/FeedCommand: use NXDomain url from TypicalEntries",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "b9fe593c7befc3c85ef5ea58caf101f645b507a7",
+            "message": "test/FeedCommand: remove imported unused Exception",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "6d13d4d83bdbadafad8ae18dc33460c8a93fb9c2",
+            "message": "test: lift ModelStub out",
+            "insertions": 311,
+            "deletions": 300
+          },
+          {
+            "hash": "f1d868888c730e85def816802cedc3ace3ed5b2f",
+            "message": "test: add tests for SubscribeCommand",
+            "insertions": 236,
+            "deletions": 0
+          },
+          {
+            "hash": "11fbe9706dd5939b76558de688c68ba2aec4d13d",
+            "message": "StringUtil: use more succinct implementation",
+            "insertions": 14,
+            "deletions": 22
+          },
+          {
+            "hash": "02562805d1172cce3d7b262ac62acc03c810ab8e",
+            "message": "parser: lift find command to all contexts",
+            "insertions": 13,
+            "deletions": 18
+          },
+          {
+            "hash": "881b2e4b1c54dc96dbbed214dff93600c7ea66a1",
+            "message": "tests: move showNoEntry to CommandTestUtil",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "e06287c1a4939cb329172126ab5936c1658cfa0f",
+            "message": "tests: add tests for unsub",
+            "insertions": 116,
+            "deletions": 0
+          },
+          {
+            "hash": "26764f7bea40b461d4aac446032710b51a6e8160",
+            "message": "update qjqqyy ppp \u0026 dg parts",
+            "insertions": 60,
+            "deletions": 40
+          },
+          {
+            "hash": "928dbef4061aa988ec1ca605a75faced128b2acb",
+            "message": "UG: add images for sub command",
+            "insertions": 16,
+            "deletions": 4
+          },
+          {
+            "hash": "74e8b271b7fd7ff616b484c593f660779b8a9acb",
+            "message": "UG: fix typo",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "7a405c78654b7e63f580b54a2c3887b4f3620685",
+            "message": "update",
+            "insertions": 36,
+            "deletions": 1
+          },
+          {
+            "hash": "4e873cdbf9cb89a5dd3904328b1912fef964e3b8",
+            "message": "finish up @qjqqyy DG",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "d0e4bdf8450bd3d5a3bfaeff6e4a6515ec98cc7a",
+            "message": "aa",
+            "insertions": 16,
+            "deletions": 10
+          }
+        ]
       }
     ],
     "thomastanck": [
@@ -3610,8 +3773,8 @@
         ]
       },
       {
-        "insertions": 2768,
-        "deletions": 245,
+        "insertions": 2793,
+        "deletions": 378,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3831,6 +3994,12 @@
             "deletions": 1
           },
           {
+            "hash": "58a9c55ba1dce6571e37d937cdb9d82045fee011",
+            "message": "Get rid of startup sample data",
+            "insertions": 14,
+            "deletions": 133
+          },
+          {
             "hash": "176ae3dd03a8fe2eed2fc835452413ec15578034",
             "message": "Network: Follow redirects (up to 15 times)",
             "insertions": 86,
@@ -3849,6 +4018,12 @@
             "deletions": 2
           },
           {
+            "hash": "c7be4d6c08f043cc030f85531e8c1336ea42c62e",
+            "message": "Add missing refreshall command to list context",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
             "hash": "e71a258b482bb15e13209b8fd2fd5c647d98437d",
             "message": "Network: Refactor magic number to constant DEFAULT_NUM_REDIRECTS",
             "insertions": 3,
@@ -3863,8 +4038,8 @@
         ]
       },
       {
-        "insertions": 34,
-        "deletions": 12,
+        "insertions": 816,
+        "deletions": 120,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -3878,6 +4053,150 @@
             "message": "Tweak test: check strings are contained in exception instead of exact match",
             "insertions": 34,
             "deletions": 4
+          },
+          {
+            "hash": "bd9edc361d3db414d69d3f800e1670c0a9d2d3a4",
+            "message": "Scroll list panel to any changes made to the currently viewed list",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "c00f011e5c743300b1c193e3c3c535220d88d4b8",
+            "message": "Improve logging message",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "27de598cd8fbf515d33d6ee27a9e943a265fc680",
+            "message": "Add offline command to enable/disable offline mode",
+            "insertions": 126,
+            "deletions": 9
+          },
+          {
+            "hash": "29cdb8faa78fc3fdd4e479a197750f1eab53e3bd",
+            "message": "Add tests for offline mode",
+            "insertions": 67,
+            "deletions": 0
+          },
+          {
+            "hash": "2756f43ad0f301cde3922acc8259ef7c1266861d",
+            "message": "Add offline mode command to user guide",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "952d45d7cf88cc2ea4ef71538bb49c20d23adc2d",
+            "message": "Position enable/disable literal first in String comparison",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1c2d1f307536e5edd75dddb09fd0a78e9c94d137",
+            "message": "Add tests for model\u0027s offline mode behaviour and offline command",
+            "insertions": 122,
+            "deletions": 0
+          },
+          {
+            "hash": "b65dec8676634caafde470ace36fea731033853b",
+            "message": "Update Thomas\u0027 PPP",
+            "insertions": 131,
+            "deletions": 36
+          },
+          {
+            "hash": "7e887f474591ab2d5fe946ca83b7a519a56945b5",
+            "message": "Remove [since xxx] and [updated xxx] tags",
+            "insertions": 19,
+            "deletions": 19
+          },
+          {
+            "hash": "1cf594961a705ecca596cbb2479f73f8cb1eb7bf",
+            "message": "Update quick tour",
+            "insertions": 6,
+            "deletions": 5
+          },
+          {
+            "hash": "50d3ec0a086a0352c132ce8b6cccc9e98a946cb7",
+            "message": "Add all commands to User Guide",
+            "insertions": 188,
+            "deletions": 8
+          },
+          {
+            "hash": "53f6b67bc30b7c5248e7c707c3b3e07a923a74a9",
+            "message": "Add tag for offline mode command",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "ab7f0c2bc4ee2e563ced9892c352e0e4167d736f",
+            "message": "Update refresh doc and fix xrefs",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "b532e624e714e665f2c5467651fda6cf22366ac8",
+            "message": "Add section on async in Network",
+            "insertions": 23,
+            "deletions": 1
+          },
+          {
+            "hash": "9383c21ea0ecd698ccf20af4935921f3b35f615f",
+            "message": "Update storage component documentation",
+            "insertions": 13,
+            "deletions": 2
+          },
+          {
+            "hash": "dbe31014c226144145262147ffb3dbc8079a5993",
+            "message": "Update UserGuide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a74f575d2924d748a2492534a833158d923aead6",
+            "message": "UG: Fix typo in find command title",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c9d55966fad277d32bcca1103e7e260ec708e03b",
+            "message": "UG: update archiveall, TT PPP: remove section",
+            "insertions": 3,
+            "deletions": 5
+          },
+          {
+            "hash": "675cb08a5809d23c93351716e9e431c564572623",
+            "message": "Update gradle task to generate puml diagrams",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7738807d9d68a14d47d0bd6aaa5a7d7a6e723d9b",
+            "message": "Finish section on Offline mode",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "58ccd305cdcc7fbb81c294af1a0d87074a168288",
+            "message": "Add activity diagram to docs",
+            "insertions": 7,
+            "deletions": 0
+          },
+          {
+            "hash": "1fb1a9adc388a2a15e6db3ba2d11d98e7d7af2c8",
+            "message": "Add offline mode to thomas PPP",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "ba0b0da8d30cf1877edb3a51232c728254df4874",
+            "message": "Make everything fit in PPP",
+            "insertions": 9,
+            "deletions": 12
+          },
+          {
+            "hash": "2c567c4770ca895406fca7048bba187efc46245b",
+            "message": "Add captions",
+            "insertions": 2,
+            "deletions": 0
           }
         ]
       }
@@ -5066,24 +5385,91 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 344,
+        "deletions": 68,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "df4da3dddbff39a184462d6dbfe5ac35ec40963d",
+            "message": "Update DG",
+            "insertions": 20,
+            "deletions": 19
+          },
+          {
+            "hash": "a105670aaeb16c99fbe344275b15d7d0dac7e822",
+            "message": "Update UG and PPP Jonathan",
+            "insertions": 11,
+            "deletions": 4
+          },
+          {
+            "hash": "23738e33971e53d812fe911d33a36edc77efb0ca",
+            "message": "Update UG diagram to make PP smaller",
+            "insertions": 4,
+            "deletions": 10
+          },
+          {
+            "hash": "06fc3f83fb642e636b4af32628506177267de327",
+            "message": "Remove section in PPP for size req",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "58f47591b129f395f8eda32cd6a70282d30cd86d",
+            "message": "Test",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "bd05d731c941aa18b4fb6b73435ab9d9025efd0a",
+            "message": "Add deleteall command for Archives and List context",
+            "insertions": 70,
+            "deletions": 0
+          },
+          {
+            "hash": "f5b5589bf176af4668078fc3fa2a4efe942c1619",
+            "message": "Add tests for deleteall command",
+            "insertions": 114,
+            "deletions": 0
+          },
+          {
+            "hash": "f9745cff0d8e8a372c3978832f9e47d4f5d28db9",
+            "message": "Update UG UI image and description",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "5c74f2d1a476e734e1b3f545b36f8852d17b2c53",
+            "message": "Add command summary section",
+            "insertions": 107,
+            "deletions": 20
+          },
+          {
+            "hash": "16b0f7a045ed0193831ee9a6eaed304d6bb035ea",
+            "message": "Fix bugs",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "71fb94eb91d61476eb2ba32e3594a65ffb467f5b",
+            "message": "Add tip for add command (unique entry/link requirement)",
+            "insertions": 2,
+            "deletions": 0
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rlrh": 7810,
-    "qjqqyy": 2115,
-    "thomastanck": 5407,
-    "epicfailname": 6145
+    "rlrh": 7910,
+    "qjqqyy": 2890,
+    "thomastanck": 6004,
+    "epicfailname": 6402
   },
   "authorContributionVariance": {
-    "rlrh": 638510.2,
-    "qjqqyy": 45679.168,
-    "thomastanck": 196026.11,
-    "epicfailname": 598305.2
+    "rlrh": 638148.0,
+    "qjqqyy": 78472.39,
+    "thomastanck": 219450.11,
+    "epicfailname": 597527.8
   },
   "authorDisplayNameMap": {
     "rlrh": "RAY...HAN",

@@ -442,10 +442,23 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 330,
+        "deletions": 112,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "99fb17f8ab66df7464385ab1c3d5f15c646696b8",
+            "message": "Selecting flashcard display date until its use in quiz (#91)",
+            "insertions": 101,
+            "deletions": 12
+          },
+          {
+            "hash": "671fa0bf96bd6613fb9ef160533b4de97d827a07",
+            "message": "Docs srs stats (#94)",
+            "insertions": 229,
+            "deletions": 100
+          }
+        ]
       }
     ],
     "lucatriglia": [
@@ -1307,8 +1320,8 @@
         "commitResults": []
       },
       {
-        "insertions": 86,
-        "deletions": 53,
+        "insertions": 604,
+        "deletions": 395,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -1316,6 +1329,24 @@
             "message": "Image support fixes (#92)",
             "insertions": 86,
             "deletions": 53
+          },
+          {
+            "hash": "431ca94fe71645a01da66565eeecd83cd4bebdc1",
+            "message": "Complete Rewrite of User Guide: Robin\u0027s and Neutral Features (#95)",
+            "insertions": 393,
+            "deletions": 265
+          },
+          {
+            "hash": "a0bdb5041d823755523701dd7f15470a1c4a08a8",
+            "message": "Developer Guide: Robin\u0027s Features (#97)",
+            "insertions": 53,
+            "deletions": 31
+          },
+          {
+            "hash": "a1062f4dbbf74bf85b48a51877333fb2e6ba27dd",
+            "message": "Add Robin\u0027s PPP (#99)",
+            "insertions": 72,
+            "deletions": 46
           }
         ]
       }
@@ -1815,24 +1846,49 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 146,
+        "deletions": 73,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9d9808006585bdd46c32868eef6945fd0b2d5559",
+            "message": "DeveloperGuide: Quiz Mode (#93)",
+            "insertions": 76,
+            "deletions": 12
+          },
+          {
+            "hash": "3505e52723e582fed8987ffc2d889006477f80e0",
+            "message": "Docs: Add PPP - Sergio Vieri (#59)",
+            "insertions": 69,
+            "deletions": 49
+          },
+          {
+            "hash": "91560f1ae0e5e277c43592aefdf4b63f6bd4e28d",
+            "message": "Remove use cases from PPP (#98)",
+            "insertions": 0,
+            "deletions": 11
+          },
+          {
+            "hash": "0512f3cf3c94520b71c129d03e35b023b50134c8",
+            "message": "Quiz Fix (#100)",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "lungsin": 1819,
-    "lucatriglia": 1367,
-    "robincyu": 3948,
-    "sergiovieri": 2677
+    "lungsin": 2124,
+    "lucatriglia": 1296,
+    "robincyu": 4300,
+    "sergiovieri": 2752
   },
   "authorContributionVariance": {
-    "lungsin": 25207.338,
+    "lungsin": 27590.482,
     "lucatriglia": 29878.613,
-    "robincyu": 1331047.0,
-    "sergiovieri": 153866.84
+    "robincyu": 1341632.4,
+    "sergiovieri": 153988.75
   },
   "authorDisplayNameMap": {
     "lungsin": "KWE...SIN",

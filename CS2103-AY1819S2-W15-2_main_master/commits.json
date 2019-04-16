@@ -1124,6 +1124,56 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 21,
+        "deletions": 0,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "766593cf357527ec5ecb193ba22617a062cee54e",
+            "message": "Update DG and PPP",
+            "insertions": 21,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 2,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "cbfe4e0d01239abaf54acdc36df4a185aaecc446",
+            "message": "Update PPP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7083538d44bd68df45928e3f6f40cf905c5a67f4",
+            "message": "Update PPP",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "jhocx": [
@@ -1766,6 +1816,140 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 1102,
+        "deletions": 181,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "8ef209a95f0eb1a7ffadaadc0deebe9b818b1b2f",
+            "message": "ConvertRecurringToExpenseCommand works with Undo.",
+            "insertions": 175,
+            "deletions": 97
+          },
+          {
+            "hash": "92332013d26cf6f21edc7f9cba35e55f4f1346cf",
+            "message": "Add AddRecurringCommandParserTest.java (not working) Add DeleteRecurringCommandParserTest.java (completed)",
+            "insertions": 90,
+            "deletions": 14
+          },
+          {
+            "hash": "5f89677fd77879d15424361887ba1dd236fb0015",
+            "message": "Add EditRecurringCommandParserTest.java (completed)",
+            "insertions": 174,
+            "deletions": 9
+          },
+          {
+            "hash": "eb4b333a92e781016f28fd67919481a29c58268e",
+            "message": "Add ListRecurringCommandParserTest.java (completed)",
+            "insertions": 82,
+            "deletions": 0
+          },
+          {
+            "hash": "42213df1f8f7ac8c8cff2fae5cc64e35bc5f7429",
+            "message": "Add SelectRecurringCommandParserTest.java (completed)",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "23f0eb71a785538c01b9f33f8a4a36c0126d7ac2",
+            "message": "Fix AddRecurringCommandParserTest.java (completed) Add RecurringTest.java (completed) Add RecurringListTest.java (uncompleted)",
+            "insertions": 286,
+            "deletions": 6
+          },
+          {
+            "hash": "f912ea0216f36b1e2fee31cf74d77dc39ef70cf3",
+            "message": "Fix RecurringListTest.java (completed)",
+            "insertions": 170,
+            "deletions": 3
+          },
+          {
+            "hash": "b914952181585bf1a182234dcd91853cad2b9349",
+            "message": "Fix AddRecurringCommandParserTest.java",
+            "insertions": 2,
+            "deletions": 24
+          },
+          {
+            "hash": "345f65a1bcb7341e3c2581fa5c21f034b4c3ed37",
+            "message": "Add all Recurring Parser and Model tests. Pass checkstyles.",
+            "insertions": 93,
+            "deletions": 28
+          }
+        ]
+      },
+      {
+        "insertions": 173,
+        "deletions": 19,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "ad125746affe826c4cba5c01370c10d2fbb738d6",
+            "message": "Add ConvertRecurringToExpenseCommandTest.java",
+            "insertions": 100,
+            "deletions": 1
+          },
+          {
+            "hash": "447ba45a6efec06db4cc984b29b4a9ad3afd373e",
+            "message": "Change ConvertRecurringToExpenseCommandTest.java to pass checkstyle.",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "5032cc5c6ecd1f376b60499a6c3c4296358b17f8",
+            "message": "Fix EOF",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "46bd8dbc4e1c6ef44452e5c5a6a183fe7e61efd7",
+            "message": "Update Recurring in UG.",
+            "insertions": 19,
+            "deletions": 1
+          },
+          {
+            "hash": "42e4607805df3868b9fb5d10d672b9d784712573",
+            "message": "Update Recurring in DG.",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "1bb9ba33e08b10338e711b096122660cb0437b1d",
+            "message": "Update Johnson PPP.",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "57051dee173fdbc74d4c86f693d28d5d717e0829",
+            "message": "Remove comments from ConvertRecurringToExpenseCommand.java",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "6d22b94acfd2e0c5e7cbba80ba347554e4a478e7",
+            "message": "Fix bug regarding EditRecurring resetting the lastConvertedDate.",
+            "insertions": 34,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "zht96830": [
@@ -2684,6 +2868,158 @@
         "deletions": 0,
         "date": "2019-04-10",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 939,
+        "deletions": 353,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "5a7fc21784d02f06ceafcb6eea5c54df50a6583a",
+            "message": "Update Statistics Implementation to allow for extension",
+            "insertions": 58,
+            "deletions": 55
+          },
+          {
+            "hash": "8dc53ac71bd5284e4d1f882194835e1a83ce7012",
+            "message": "Add Logic support for new Stats commands",
+            "insertions": 321,
+            "deletions": 7
+          },
+          {
+            "hash": "34c634cea85bbb8816173cd3715ea63f85ceee03",
+            "message": "Edit StatsTrendCommandParser",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "b4aba92ef893df4a2b45fcf907fe0feb9a7a4944",
+            "message": "Update StatsCompareCommand Functionality",
+            "insertions": 196,
+            "deletions": 63
+          },
+          {
+            "hash": "94fdf0f286f20377498d28e909b4559927270c28",
+            "message": "Update StatsTrendCommand and StatsCompareCommand",
+            "insertions": 155,
+            "deletions": 67
+          },
+          {
+            "hash": "3f3a86f430132d92954d1e7b52d245437f90c3f5",
+            "message": "Checkstyle",
+            "insertions": 115,
+            "deletions": 85
+          },
+          {
+            "hash": "3c67135938fcb45d2f682304d681007c4cfa8e72",
+            "message": "Update User Guide and Messages to properly reflect statistics functionality",
+            "insertions": 88,
+            "deletions": 76
+          }
+        ]
+      },
+      {
+        "insertions": 817,
+        "deletions": 371,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "43a9b2857efd1e6085839349f40facd365235cc2",
+            "message": "Update UG and DG",
+            "insertions": 18,
+            "deletions": 10
+          },
+          {
+            "hash": "d293b21bfac09a2552db6fcc5eb922d0eb64a26a",
+            "message": "Add Statistics html file skeleton",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "e6ef7c407f8d8419c8cd5235e513bf0d72f37eb9",
+            "message": "EOF issues",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "784369fcc37e7a3e9083c18c6758a9f15a741db8",
+            "message": "Update PPP",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d796da0c00876d361dd0d97f4520020a2da563c1",
+            "message": "Add StatCommandSequenceDiagram, Update DG",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "0615cddaa292e09121edf82e497232e7cce4569f",
+            "message": "Add StatisticsTest",
+            "insertions": 97,
+            "deletions": 3
+          },
+          {
+            "hash": "0f0d76e3343215e7ea983ffa96eb0c93cba0869c",
+            "message": "Update Statistics",
+            "insertions": 14,
+            "deletions": 4
+          },
+          {
+            "hash": "e76db2ccfb05cda7d5ef046b383c24a87f05720c",
+            "message": "Statistics Test",
+            "insertions": 353,
+            "deletions": 8
+          },
+          {
+            "hash": "8fc28d1ad4b04cece137b9206782ce6e12851728",
+            "message": "Update UG",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "6bfa369eda37d7a8bd51b893b1f078407ec2907a",
+            "message": "Statistics Test",
+            "insertions": 289,
+            "deletions": 277
+          },
+          {
+            "hash": "58c593120e54c7c8750acb1352cb38804d880764",
+            "message": "Update Statistics Trend error message for maximum periods. Updated User Guide to reflect change. Update PPP",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "957b39f6bbca27192f696360c45831a6b4cef906",
+            "message": "Update PPP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e53247998392de2d896d84109c1c47d9ca757323",
+            "message": "Update DG USe cases",
+            "insertions": 31,
+            "deletions": 55
+          }
+        ]
       }
     ],
     "jamessspanggg": [
@@ -3551,6 +3887,87 @@
             "deletions": 18
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 127,
+        "deletions": 79,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "b2f838e0ba57c47a3e6f0bee3926c57e567265bb",
+            "message": "Update UG, DG and PPP",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "459d9255e26e76c5677db256836b1db712426954",
+            "message": "Update Select Commands",
+            "insertions": 11,
+            "deletions": 8
+          },
+          {
+            "hash": "a56b1c56f9bd21c6b23d224474c3fcb37b6d2b21",
+            "message": "Update application icon",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "58c8514fb77a90de5e417906501329180bd038bb",
+            "message": "Update mistakes in UG, DG and PPP",
+            "insertions": 27,
+            "deletions": 28
+          },
+          {
+            "hash": "ca3dd3d8673bc1df7c126d6b1a9a0a31149e90e3",
+            "message": "Refactor names of variables and remove magic numbers",
+            "insertions": 53,
+            "deletions": 35
+          },
+          {
+            "hash": "48fa3f4ce7d94854db9e8df360b5ea4feb5dab83",
+            "message": "Update documentation in PPP, AboutUs and DG",
+            "insertions": 11,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 4,
+        "deletions": 3,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "38205f898467bd1c8d280cd258ba725a94100073",
+            "message": "Update PPP",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 2,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "04e8216d165fa08dd646f0d3e5e9ec429d875c6a",
+            "message": "Fix DG errors",
+            "insertions": 5,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "lim-jiahui": [
@@ -4255,22 +4672,133 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 371,
+        "deletions": 240,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "abaca631c8e4397a9949018197f78ce175b041cd",
+            "message": "Fix checkstyle",
+            "insertions": 349,
+            "deletions": 221
+          },
+          {
+            "hash": "ae0b3f0320d8668d698ef239b87a7fb61ab6533f",
+            "message": "Add newline at EOF",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "a83ecc24f2519bafed99a9b6d3ee7b8367179211",
+            "message": "Fix code quality",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "e588ecfaa479d1e9004f5984d218104caa87a09e",
+            "message": "Fix code quality",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6066efbe4918a5a6c181e68d28112ce4374f8887",
+            "message": "no message",
+            "insertions": 6,
+            "deletions": 8
+          },
+          {
+            "hash": "ea71c798684229a286db831a9fd9ae772b51c19b",
+            "message": "no message",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "8f1dec7dfc9b7ddc2015ed7c87850119507f82bb",
+            "message": "Update DG",
+            "insertions": 4,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-13",
+        "commitResults": []
+      },
+      {
+        "insertions": 22,
+        "deletions": 5,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "eff06d4d971a11cf734f606167612c8125b018fc",
+            "message": "Update PPP",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "003908f526543ccf6d54e8fe55e98730cc343582",
+            "message": "Update DG",
+            "insertions": 14,
+            "deletions": 2
+          },
+          {
+            "hash": "e650ac6c571b98471cb4b8b2822221cd28743537",
+            "message": "Add newline at EOF",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 37,
+        "deletions": 140,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "d20f8d72e730be5e8bd8c7151b27cf118e9980b6",
+            "message": "Remove unnecessary comments",
+            "insertions": 28,
+            "deletions": 129
+          },
+          {
+            "hash": "016ce84ff3c5e6a671076c1125866e18860bd7cf",
+            "message": "Edit tag on DG for PPP",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "4c4c67dbd24c29278110198b35cb6516f4e25664",
+            "message": "no message",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "gohyinhao": 6151,
-    "jhocx": 2593,
-    "zht96830": 1874,
-    "jamessspanggg": 5567,
-    "lim-jiahui": 4995
+    "gohyinhao": 6172,
+    "jhocx": 3749,
+    "zht96830": 2931,
+    "jamessspanggg": 5492,
+    "lim-jiahui": 5114
   },
   "authorContributionVariance": {
-    "gohyinhao": 469255.38,
-    "jhocx": 77477.83,
-    "zht96830": 83915.766,
-    "jamessspanggg": 107762.34,
-    "lim-jiahui": 105374.555
+    "gohyinhao": 436775.34,
+    "jhocx": 94089.31,
+    "zht96830": 118883.01,
+    "jamessspanggg": 101287.234,
+    "lim-jiahui": 101496.695
   },
   "authorDisplayNameMap": {
     "gohyinhao": "GOH...HAO",

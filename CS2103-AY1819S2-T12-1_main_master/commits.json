@@ -893,10 +893,107 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1131,
+        "deletions": 95,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "87aedcde8467ed7d7dec2841fb4730d909cbf436",
+            "message": "implement booking list panel test",
+            "insertions": 415,
+            "deletions": 9
+          },
+          {
+            "hash": "6b8956d3542a457fd20d2a1a8f290097f847f982",
+            "message": "comment out unused variables",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "62812d437bef2477c225677dadeaa671132861c6",
+            "message": "refactor bookingListPanel\u0027s and reservationListPanel\u0027s constructor implement test for reservationListPanel",
+            "insertions": 391,
+            "deletions": 30
+          },
+          {
+            "hash": "5c57fa845aff0baa593dc0bb8aac4763c0e6d535",
+            "message": "fix numOfCustomers in booking and add comment",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "30d433cf8d6bc31a3d9872696a5bb32732857bf8",
+            "message": "remove unused imports",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "80d4005a487c960595c314c3a1f33694e8bf93f7",
+            "message": "reduce the size of performance test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "75f07fdd6361451f9e4f3ef336c423173fb4aee0",
+            "message": "Fix service full check bug",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "7b1cc1f8c93875a038306f7b1abf6f17592698e7",
+            "message": "fix reservation full check bug",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a0c0f41ddc2abe95c197428407ee98016d6913f8",
+            "message": "update UI picture update UI component diagram update DeveloperGuide add PPP for Zhang Chenxi",
+            "insertions": 77,
+            "deletions": 0
+          },
+          {
+            "hash": "1ea15c84327a4e1d141730844bae27712f8cd6dc",
+            "message": "update user guide update PPP",
+            "insertions": 100,
+            "deletions": 1
+          },
+          {
+            "hash": "14613cf4f6175df0e5affafe346788c99c647ace",
+            "message": "update PPP",
+            "insertions": 76,
+            "deletions": 3
+          },
+          {
+            "hash": "800068a563697b7998980a8eec484dc053dc0d85",
+            "message": "Update ZhangChenxi.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6cb7037d59df626aeaa8e0b16a30ea7c6635dfbd",
+            "message": "update PPP and about us page",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "100822db857dcd6ac47912835257f75c4a53a053",
+            "message": "add diagram in developer guide",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "08e80e4060b060f94ce205e5b3d5cb50cce8bb3f",
+            "message": "add diagram in developer guide",
+            "insertions": 28,
+            "deletions": 15
+          },
+          {
+            "hash": "68093e2b932a38a895d1a3cf138d747adabbae0e",
+            "message": "update DG",
+            "insertions": 22,
+            "deletions": 22
+          }
+        ]
       }
     ],
     "sreycodes": [
@@ -2004,29 +2101,139 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 475,
+        "deletions": 14,
         "date": "2019-04-13",
-        "commitResults": []
-      },
-      {
-        "insertions": 12,
-        "deletions": 0,
-        "date": "2019-04-14",
         "commitResults": [
           {
-            "hash": "d733eb613822b17fda48b47705bb64fea1e8bb36",
-            "message": "Now edit also checks for uniqueness",
-            "insertions": 12,
+            "hash": "8cf3b54091c71c19bd9d9ae4d31026fdd6760dd5",
+            "message": "Manual testing for service and room type remaining",
+            "insertions": 411,
+            "deletions": 14
+          },
+          {
+            "hash": "b0bc82c8e2239581547658e4660255ef45743155",
+            "message": "Finished manual testing and use cases",
+            "insertions": 64,
             "deletions": 0
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 47,
+        "deletions": 41,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "a0d0c81eb0af780ff77cddf2773017d38dfe2c83",
+            "message": "DG Stuff",
+            "insertions": 9,
+            "deletions": 34
+          },
+          {
+            "hash": "d733eb613822b17fda48b47705bb64fea1e8bb36",
+            "message": "Now edit also checks for uniqueness",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "e2c704ea5d868bcd55f1d87b253c79264ac4c22a",
+            "message": "Merging",
+            "insertions": 18,
+            "deletions": 7
+          },
+          {
+            "hash": "3dfcc67a46b43e21ddd478a663787e729bec9fe9",
+            "message": "Implement interface properly",
+            "insertions": 8,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 1059,
+        "deletions": 989,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "254f8991899f840cf0c77770d17f12d6e02f75bd",
+            "message": "Adding my stuff",
+            "insertions": 65,
+            "deletions": 43
+          },
+          {
+            "hash": "3cb9f7fd4c70aa860320024b25cb9e989d3cec95",
+            "message": "Add stuff",
+            "insertions": 889,
+            "deletions": 0
+          },
+          {
+            "hash": "96b1bd63166e059d3f1cdc174a935ebd653c2aa8",
+            "message": "Finish my part",
+            "insertions": 11,
+            "deletions": 7
+          },
+          {
+            "hash": "fd909708909297e09f51d9fdeb87938be31a21f3",
+            "message": "Removed unnecessary html file",
+            "insertions": 3,
+            "deletions": 889
+          },
+          {
+            "hash": "40df9112f88352145d158b3da608c96378b393ad",
+            "message": "PPP",
+            "insertions": 36,
+            "deletions": 15
+          },
+          {
+            "hash": "cf8d8e4425628fdb144544d2280847895f0f41bd",
+            "message": "Added images for misc command",
+            "insertions": 19,
+            "deletions": 2
+          },
+          {
+            "hash": "682490a70dac9c37781d256869f96bd65879411f",
+            "message": "Added image for undo",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "d840bbdd19956452339738bdc74c7345bb18bd1f",
+            "message": "Updating readme",
+            "insertions": 9,
+            "deletions": 12
+          },
+          {
+            "hash": "17f49f3444bf2f9795713166b1bc9e4334269dcc",
+            "message": "Make toc to the side",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "cc9ddcee1e396680d76b4f131a8b954e47b7277d",
+            "message": "Fixed typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "055456e36c9b7014ac7979034343f8733bcb8d53",
+            "message": "fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "46fc55b3c06459f263cccdac41c8abe78b818bdc",
+            "message": "Fix formatting issue",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "73d4e075f79a1b67454a68f9fb61de474c33b145",
+            "message": "Fixed all typos",
+            "insertions": 17,
+            "deletions": 18
+          }
+        ]
       }
     ],
     "Tejas2805": [
@@ -3717,8 +3924,8 @@
         ]
       },
       {
-        "insertions": 145,
-        "deletions": 23,
+        "insertions": 1010,
+        "deletions": 449,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -3738,6 +3945,42 @@
             "message": "Updated UG for final stage. Only example pictures are left.",
             "insertions": 66,
             "deletions": 18
+          },
+          {
+            "hash": "ca4930c08d2a6a4a25c2430cf225f4d0070e3e97",
+            "message": "Updated all docs - PPP, User Guide and Developer Guide.",
+            "insertions": 646,
+            "deletions": 140
+          },
+          {
+            "hash": "5b38deb2670711911507637520249481334bc04a",
+            "message": "Add intro to the PPP",
+            "insertions": 25,
+            "deletions": 10
+          },
+          {
+            "hash": "8fe5a76c8eddbbf73663b8f13528d9ae75ff98ed",
+            "message": "Updated UG completely with all relevant pics.",
+            "insertions": 156,
+            "deletions": 56
+          },
+          {
+            "hash": "6ed712ea34a262e777b18266e1be4e35cc678d47",
+            "message": "Final update PPP",
+            "insertions": 35,
+            "deletions": 114
+          },
+          {
+            "hash": "14204eef45f25d6c5eeae6f289baf8066fe8d1a6",
+            "message": "Updated ppp",
+            "insertions": 1,
+            "deletions": 11
+          },
+          {
+            "hash": "8f63b49f301c4d8e2bb76182f501598a8a35e168",
+            "message": "ppp",
+            "insertions": 2,
+            "deletions": 95
           }
         ]
       }
@@ -4365,36 +4608,141 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 524,
+        "deletions": 121,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "75dc65694d26503d81a2af8523f23a4c90e54e8a",
+            "message": "Add a primitive text report for stats command",
+            "insertions": 310,
+            "deletions": 1
+          },
+          {
+            "hash": "854dfb0f7ffb076e5234904840140c20f43003e6",
+            "message": "Abstract out StatsItems",
+            "insertions": 163,
+            "deletions": 70
+          },
+          {
+            "hash": "eeae29fcdb5c41c75e4de4fed8ceff6029f25180",
+            "message": "Ensure alignment for longest key",
+            "insertions": 51,
+            "deletions": 50
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 51,
+        "deletions": 8,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e6f628af86b14d403d947117e1bf0e6093957d52",
+            "message": "Add docs for stats",
+            "insertions": 32,
+            "deletions": 5
+          },
+          {
+            "hash": "a3d381508dba1de6bc6858ad958b900fe60b0c9a",
+            "message": "Add layout for the stats window",
+            "insertions": 19,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 508,
+        "deletions": 82,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "087aaf99ffb993662b4f1ac85f1cda71ed7c63b7",
+            "message": "Make StatsItem store the map so it can be reused",
+            "insertions": 27,
+            "deletions": 6
+          },
+          {
+            "hash": "a94d24734c506315186f1b42008e775a1c1f1ad0",
+            "message": "Add charts",
+            "insertions": 88,
+            "deletions": 10
+          },
+          {
+            "hash": "57ee68cf1108bda1d18f5d24538aafe37b470e05",
+            "message": "Add a filter mechanism for stats",
+            "insertions": 21,
+            "deletions": 11
+          },
+          {
+            "hash": "6cb596e4d4c4e7c4b8e81d208d73f5f2c3b89d59",
+            "message": "Add options for what statitems to show",
+            "insertions": 113,
+            "deletions": 22
+          },
+          {
+            "hash": "9573313a785a26b11e33c4b8622128fa9be3f0c7",
+            "message": "Handle wrong commands",
+            "insertions": 56,
+            "deletions": 14
+          },
+          {
+            "hash": "13b36bcea285ef559e1e70c0f64225d73016c7ad",
+            "message": "Please codacy and checkstyle",
+            "insertions": 1,
+            "deletions": 15
+          },
+          {
+            "hash": "592e8dcfc68bd379d2dc19cff87423c8e8780f22",
+            "message": "Please codacy and checkstyle again",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "087d7afcca49f4f13488e25aafa3fb4d191da31c",
+            "message": "Fix tests",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "1cef74a4cdb8544c4eef35f9bb408c2888ad3498",
+            "message": "Add Stats to DG",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "7f8dd472aaf518467cb484fd14c7b36686dad01b",
+            "message": "Add Stats to UG",
+            "insertions": 25,
+            "deletions": 0
+          },
+          {
+            "hash": "316d12a16af10d9486ffb123bd6315a87b6144c2",
+            "message": "Add Portfolio",
+            "insertions": 124,
+            "deletions": 0
+          },
+          {
+            "hash": "8bca68c8f6074ff585b97cbd61270f80f8367da6",
+            "message": "fix",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ZhangCX10032": 2837,
-    "sreycodes": 12084,
-    "Tejas2805": 8705,
-    "nerrons": 1063
+    "ZhangCX10032": 3795,
+    "sreycodes": 12450,
+    "Tejas2805": 9283,
+    "nerrons": 1941
   },
   "authorContributionVariance": {
-    "ZhangCX10032": 649525.94,
-    "sreycodes": 2.2469842E7,
-    "Tejas2805": 895747.0,
-    "nerrons": 197478.67
+    "ZhangCX10032": 663334.2,
+    "sreycodes": 2.2459798E7,
+    "Tejas2805": 911859.94,
+    "nerrons": 204435.25
   },
   "authorDisplayNameMap": {
     "ZhangCX10032": "ZHA...NXI",

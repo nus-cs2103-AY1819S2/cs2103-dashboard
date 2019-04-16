@@ -735,16 +735,157 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 59,
+        "deletions": 21,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "88c1edbe75dee72bcfec07697291f63650ee4365",
+            "message": "Resize panels and main window",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "21e249f776606457c8dd57dd1244a2a1f39df17c",
+            "message": "Add placeholder images for each panel, change the logo of the app, include postal code in restaurant summary, add titles to all panels",
+            "insertions": 56,
+            "deletions": 18
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 536,
+        "deletions": 59,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3fddad4a3ab51d0341ff79193586086c4b4d082c",
+            "message": "Add tests for RestaurantSummaryPanel",
+            "insertions": 341,
+            "deletions": 11
+          },
+          {
+            "hash": "62fe7d328efafb9f207e7a4702bdf5bd74703eae",
+            "message": "Add SortCommand Test",
+            "insertions": 193,
+            "deletions": 13
+          },
+          {
+            "hash": "2a47dd6e26d12f48a911485c1f641ff154f64505",
+            "message": "Remove SortName comparator",
+            "insertions": 0,
+            "deletions": 26
+          },
+          {
+            "hash": "abfd8919c7101141b6422bbabbd99bf441bb0771",
+            "message": "Fix checkstyle",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "5829ddde1b7fd649bc43c0775ec3e17276a81d2f",
+            "message": "Fix checkstyletest",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "d89af3cfb06922d0d415a3a3d3c8dc0dfd8c1f19",
+            "message": "Increase height of ResultDisplayPlaceholder",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 606,
+        "deletions": 500,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "c548c58c98f91713d68220a0a242ee0588a21709",
+            "message": "Remove unused pictures and update select activity \u0026 sequence diagrams, fix some minor errors in DG as well",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "536e70547f92be12f1cae442d5229ed93e157bea",
+            "message": "Make SortCommand more modular, fix SummaryPanel label for test",
+            "insertions": 35,
+            "deletions": 23
+          },
+          {
+            "hash": "66d8ab2321500946ac41f449e2393cff26092a2f",
+            "message": "Modify Tip, Note and Warning icons",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "bcdb07e15a9c01aca8ba1a78cc25229b97db8faa",
+            "message": "Modify boolean variable name",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "1a582afb3c349895d47c9b8bb4545e5f24c7e671",
+            "message": "Edit command message",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "55a1dcebbdc21b673134af958e65506677bde2c6",
+            "message": "Update diagrams for DG and update DG",
+            "insertions": 294,
+            "deletions": 171
+          },
+          {
+            "hash": "4801d2d6077d125810ce6971ad0e75fcee24b575",
+            "message": "Edit UG and update pictures",
+            "insertions": 95,
+            "deletions": 73
+          },
+          {
+            "hash": "951f9e0de4bd6e32bc294b71bcb575a16fc5fe9d",
+            "message": "Change tag in PPP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9894ceb761e7f80b32b354504b598b0ecd1116a6",
+            "message": "Make changes to UG/DG and shorten PPP",
+            "insertions": 105,
+            "deletions": 132
+          },
+          {
+            "hash": "f5b9d2995f795799a7274d3515ec8827443a5766",
+            "message": "Grammar fix to UG and add undo/redo commands",
+            "insertions": 26,
+            "deletions": 5
+          },
+          {
+            "hash": "a1f44635d8812356147e2cd7e4d6d9e033a202d2",
+            "message": "Minor tweaks to DG and PPP",
+            "insertions": 30,
+            "deletions": 70
+          },
+          {
+            "hash": "c3789337e332a79d19e911db18a495ef32d3f4ea",
+            "message": "Edit DG",
+            "insertions": 1,
+            "deletions": 8
+          },
+          {
+            "hash": "439458fd3214d576da3764ee55ab8c2dc5ef9749",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4c57ee136c0257e1601090470ca9354c83aa50cf",
+            "message": "Fix checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "chanqingzhou": [
@@ -1560,16 +1701,115 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 80,
+        "deletions": 48,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "50f7dde0fe1fe995c0eaef6f413575dc5c8fb892",
+            "message": "updated implementation",
+            "insertions": 80,
+            "deletions": 48
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 341,
+        "deletions": 46,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9f6c31abf6bc5e9354eee8463966f4aa40174e05",
+            "message": "updated test cases",
+            "insertions": 298,
+            "deletions": 16
+          },
+          {
+            "hash": "b1fd316e6c90a7f3f3331758b4bb751517293aae",
+            "message": "updated test cases to work with postal data",
+            "insertions": 43,
+            "deletions": 30
+          }
+        ]
+      },
+      {
+        "insertions": 191,
+        "deletions": 186,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "9af2975dc3463772d600e0aed3b7058ba734f9ee",
+            "message": "updated doucments",
+            "insertions": 43,
+            "deletions": 31
+          },
+          {
+            "hash": "81e7c30e18833e44d8d8e6818929b40797f2c51a",
+            "message": "updated documentaions",
+            "insertions": 7,
+            "deletions": 5
+          },
+          {
+            "hash": "8a786835a17ee20b86ebb93f82b5f55e2525a7ca",
+            "message": "updated documents",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "c57b375dbdfe79a3ea796e8ec068a9a5e5df5c97",
+            "message": "updated docs",
+            "insertions": 22,
+            "deletions": 17
+          },
+          {
+            "hash": "2783ea5d908eadb011b6c565d4a5ff20cd4276f7",
+            "message": "fixed styling errors",
+            "insertions": 31,
+            "deletions": 60
+          },
+          {
+            "hash": "0deb4ff6e7acdf484c6bdedec541f7c81e556d67",
+            "message": " updated documentation grammar",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "f751bee47fba6c27672703780b6f750912259bae",
+            "message": "updated test case and docs",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "5c67d3948845aff52494e99e27b00add00496825",
+            "message": "updated documents",
+            "insertions": 29,
+            "deletions": 10
+          },
+          {
+            "hash": "e9df3e285b1cd6945abeaab48d8e568ab79e4df8",
+            "message": "updated grammar",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "19f9555dda6063d8ec161784ab1814b58a34c7d0",
+            "message": "updated docs",
+            "insertions": 10,
+            "deletions": 11
+          },
+          {
+            "hash": "9af440f08c06fc90aea1c27d5c2352ae4f46465c",
+            "message": "Update UserGuide.adoc",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "00abb3891af5918cd77a58f389c9cbb26c0ddeef",
+            "message": "final updated doucments",
+            "insertions": 10,
+            "deletions": 11
+          }
+        ]
       }
     ],
     "rbth7e5": [
@@ -2903,6 +3143,37 @@
             "message": "hide url in docs",
             "insertions": 4,
             "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 24,
+        "deletions": 16,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "05b19bd3b731121d3b8f692efe189053b26850d2",
+            "message": "add logos to intro page and PPP",
+            "insertions": 17,
+            "deletions": 7
+          },
+          {
+            "hash": "429184462e8bfed1ef21deeb581329fd709e34ca",
+            "message": "shift user and dev guide logo down to welcome section",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "a810e0f2ad4b18ba389d67e42d0f7dde7208208a",
+            "message": "fix typo in note callout",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "646559a381bd040bab4669a7405fc797ad68e5a2",
+            "message": "fix display error",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
@@ -4476,6 +4747,79 @@
             "deletions": 13
           }
         ]
+      },
+      {
+        "insertions": 228,
+        "deletions": 97,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "a7ff41507524c90fa703e0aa6f842e9fcf1f98c7",
+            "message": "added sample data w/o reviews",
+            "insertions": 75,
+            "deletions": 1
+          },
+          {
+            "hash": "a86d106bde9e069e69d0b29d193914597f142f5f",
+            "message": "updated weblink validation check",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "fe31b7ab5a60e5e00491f2cf4b00a20f87c71c47",
+            "message": "updated dg on manual testing",
+            "insertions": 43,
+            "deletions": 0
+          },
+          {
+            "hash": "31368e5ea3877b40eae50f78a2c827ed2089f9f6",
+            "message": "updated visitWeb error messages",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "aea83cc1852c5275a81b2986b870238882c6d471",
+            "message": "updated tests",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "a95f3ee8e40e68acdf8ba37cda3789b72ccc03da",
+            "message": "removed phone and email to check if restaurant is equal since items are removed from the card if absent",
+            "insertions": 50,
+            "deletions": 54
+          },
+          {
+            "hash": "5db2ce747955afb80ac750955d73b91a6d5ba189",
+            "message": "commented qz tests",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "9b8187f1a309cba090450e8e8c0d589806684212",
+            "message": "updated docs and sample data reviews",
+            "insertions": 30,
+            "deletions": 14
+          },
+          {
+            "hash": "ed99f5bb31616fb9e23d66dcbf409462a56e83dc",
+            "message": "updated docs",
+            "insertions": 4,
+            "deletions": 9
+          },
+          {
+            "hash": "6fe9bdaf7bcca9237787a16645b6924914ceb328",
+            "message": "update docs",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "b1423e6887979b20b8d4181abcff92413c7bac96",
+            "message": "updated UG",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "skpai27": [
@@ -5249,8 +5593,8 @@
         "commitResults": []
       },
       {
-        "insertions": 173,
-        "deletions": 56,
+        "insertions": 213,
+        "deletions": 71,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -5276,24 +5620,133 @@
             "message": "typo fix",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "7c3658d343c671e0e4681b620eb5a04119812b4b",
+            "message": "modified ReviewBuilder final variables to private",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "d0509886c4f03c6d005a4f7b2ca37c43ce24f768",
+            "message": "added test cases for AddReviewCommandTest, for successful and unsuccessful command execution",
+            "insertions": 31,
+            "deletions": 12
+          },
+          {
+            "hash": "89f6341619b261aa2e397c1089d8d4fe869723bc",
+            "message": "added default review values to EditReviewDescriptorBuilder",
+            "insertions": 3,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 425,
+        "deletions": 108,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "eb6bcb73b4536a73f0339a5a15b8a553fd64c0e1",
+            "message": "Added tests for EditReviewCOmmand, default values for editReviewDescriptorBuilder, minor changes to UG",
+            "insertions": 79,
+            "deletions": 6
+          },
+          {
+            "hash": "dde461b7382fc8321fc819bb2c37686f83039928",
+            "message": "editReviewCOmmandTest edit",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "ece117dd48d0f68ce943caffee9e7b3d42bcd518",
+            "message": "Implemented EditReviewDescriptorTest",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "2bc126e7b2a049c52db3eb1695507faa500f586a",
+            "message": "implemented DeleteReviewCommandtest",
+            "insertions": 68,
+            "deletions": 0
+          },
+          {
+            "hash": "67c067fadb5c403001274ee8ff2bf375322a4edc",
+            "message": "implemented AddReviewCommandParserTest, modified equals() of AddReviewCommand",
+            "insertions": 62,
+            "deletions": 1
+          },
+          {
+            "hash": "6ae1270f490e3d2e498c48782e85a9de714859d5",
+            "message": "Implemented EditReviewCommandParserTest, and minor changes to the EditReviewDescriptorBuilder (removed default values for 0 argument constructor)",
+            "insertions": 74,
+            "deletions": 6
+          },
+          {
+            "hash": "4b92446e700a638853ccbe21118b3e2053295123",
+            "message": "implemented DeleteReviewCommandParserTest",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "2074f2fd6ffe89968aa7032e4ebb9e8382b3520b",
+            "message": "checkstyle for AddReviewCOmmadnParserTest",
+            "insertions": 5,
+            "deletions": 2
+          },
+          {
+            "hash": "3581b74f3a2bb3ac94591eddca9c06edb209fa61",
+            "message": "checkstyle",
+            "insertions": 2,
+            "deletions": 4
+          },
+          {
+            "hash": "93355c235f6a06272bcb12d7d790b32545f79790",
+            "message": "manual test case for review commands",
+            "insertions": 40,
+            "deletions": 0
+          },
+          {
+            "hash": "27a7b4da1dcfc70631f8c02c2d4f82953ff9635c",
+            "message": "edited aboutUS page",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5746f32edf0aa555f035c1bc9d951865682ba7ba",
+            "message": "ug, dg ppp of skpai27 edits",
+            "insertions": 21,
+            "deletions": 80
+          },
+          {
+            "hash": "89bece419e9e3e7ce69f45e69fa0aa949895de25",
+            "message": "added image to ppp",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "a332deeb5c81b2fb9401c7e494ef05a62c0e0a18",
+            "message": "documentation ug, ppp changes",
+            "insertions": 3,
+            "deletions": 2
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "weixin-koh": 2358,
-    "chanqingzhou": 1412,
-    "rbth7e5": 5076,
-    "Wklee96": 1913,
-    "skpai27": 1449
+    "weixin-koh": 3053,
+    "chanqingzhou": 1717,
+    "rbth7e5": 5031,
+    "Wklee96": 2053,
+    "skpai27": 1784
   },
   "authorContributionVariance": {
-    "weixin-koh": 24652.73,
-    "chanqingzhou": 16877.074,
-    "rbth7e5": 409698.62,
-    "Wklee96": 13445.403,
-    "skpai27": 7899.314
+    "weixin-koh": 44269.04,
+    "chanqingzhou": 19990.508,
+    "rbth7e5": 403664.34,
+    "Wklee96": 14317.293,
+    "skpai27": 11847.907
   },
   "authorDisplayNameMap": {
     "weixin-koh": "KOH...XIN",

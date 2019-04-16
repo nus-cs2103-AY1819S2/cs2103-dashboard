@@ -1017,10 +1017,131 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 615,
+        "deletions": 70,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7e64b7b26c9051b09ada4b0288c03b1f5c55367e",
+            "message": "Update ppp",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "42ca574309054836ed3b8ef863c84cfb63750f62",
+            "message": "Add swap command",
+            "insertions": 127,
+            "deletions": 0
+          },
+          {
+            "hash": "d5dd1e18e5eb52a440ef2512a79c74bc1807f641",
+            "message": "Update user guide - add Swap Command",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "0b3ac1aacbd8e6d3b9bbf8ce6841fc53cb76b08b",
+            "message": "Add Swap Command TEst",
+            "insertions": 86,
+            "deletions": 0
+          },
+          {
+            "hash": "9fa63499435831820da5994a6c4840db93231a62",
+            "message": "Update Raffles ppp",
+            "insertions": 21,
+            "deletions": 1
+          },
+          {
+            "hash": "3a6182ed81d84ca14460e60279e297f0a7742cea",
+            "message": "Update Raffles PPP",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "928c3655fad5d378065aac9dd66848dca8ca41aa",
+            "message": "Add test for sort command parser",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "49d2beb4796fc50e350ff29fd56ae34b1ddf8694",
+            "message": "Add test for swap command parser",
+            "insertions": 48,
+            "deletions": 4
+          },
+          {
+            "hash": "dd41d5848feefdc54ca6a0753d6840269980f4a3",
+            "message": "Fix checkstyle",
+            "insertions": 6,
+            "deletions": 16
+          },
+          {
+            "hash": "ee10ef83d3669344fe39e991ec1cf713add0de44",
+            "message": "Update Raffles ppp",
+            "insertions": 64,
+            "deletions": 28
+          },
+          {
+            "hash": "6a26f5a1b4aede10990a35ba449e8aec2ce381b9",
+            "message": "Update Developer Guide",
+            "insertions": 23,
+            "deletions": 2
+          },
+          {
+            "hash": "02e465a2a237eaf91d1bcf484c4ef69434e9fc89",
+            "message": "Enable to sorting in descending order.",
+            "insertions": 40,
+            "deletions": 9
+          },
+          {
+            "hash": "190fe6b13d9790eaf550b44b8acea41a56281568",
+            "message": "Update sort command",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "79229397823a049c659cfcb85cc49ff3f90c4aa6",
+            "message": "Improve parse sort command for desc parameter validation",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "566798160e127d862030d98c74c3141fa9ef9418",
+            "message": "Update SortCommandParser test",
+            "insertions": 17,
+            "deletions": 2
+          },
+          {
+            "hash": "feb5cdb14b4eef4f47a99c22d00af07a1eff0f1d",
+            "message": "Update parse sort command test",
+            "insertions": 18,
+            "deletions": 0
+          },
+          {
+            "hash": "785d1dc826320e6fef1ab82fcd42411545007efd",
+            "message": "Fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c8d6263545ed049dd80dfb02ed118e152d0dd5d4",
+            "message": "Update parse test",
+            "insertions": 92,
+            "deletions": 0
+          },
+          {
+            "hash": "e5e0978160b89bcec77f11cbae6e3f0b772e8cee",
+            "message": "Update Developer Guide",
+            "insertions": 15,
+            "deletions": 2
+          },
+          {
+            "hash": "c98d5378347a0c57c58f80563f0ec35a76de72f1",
+            "message": "Update ppp",
+            "insertions": 3,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "stanleymok": [
@@ -2282,8 +2403,8 @@
         ]
       },
       {
-        "insertions": 145,
-        "deletions": 47,
+        "insertions": 153,
+        "deletions": 55,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -2315,6 +2436,24 @@
             "message": "Update ppp; last few commits for this project ::cryingface::",
             "insertions": 15,
             "deletions": 13
+          },
+          {
+            "hash": "3b0f2008c18fef4f6ca3c0a65132e608e33287e5",
+            "message": "Fix attempt at image not showing in adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b0baa53f5b081e0b4c63e575a1c6423bddc8c2d0",
+            "message": "Reset image from jpg to png, capitalise path",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f82e55d73c0b252a39edcff24ab2bc38e7770081",
+            "message": "Fix image not showing in adoc",
+            "insertions": 5,
+            "deletions": 5
           }
         ]
       }
@@ -4277,24 +4416,67 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 87,
+        "deletions": 38,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e359a5b122d894bd69a7f2b56c29f5a1541967f6",
+            "message": "Add screenshot in UG",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "b8df6376308b29a1713ef45d9b265ada9a6d090a",
+            "message": "Update screenshot in UG",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "b79028b4734087657edfd1c428f8a796016378dc",
+            "message": "Update DG for stats",
+            "insertions": 33,
+            "deletions": 8
+          },
+          {
+            "hash": "f11d6594f9628be8ef82b3797c2550b5a165977d",
+            "message": "Update PPP",
+            "insertions": 28,
+            "deletions": 15
+          },
+          {
+            "hash": "a35369eec476196d74d1554b85d10fabd74a94bf",
+            "message": "Fix checkstyle",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "fbf5698d42091863810c7bc9a0fa58d9b6ef31f1",
+            "message": "Add tags for stats in UG",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "aa6616d6ba243f4b6fa2e3572dca1d9a10e9a5b6",
+            "message": "Last update to PPP",
+            "insertions": 6,
+            "deletions": 11
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "rafflesandrison": 1844,
-    "stanleymok": 2067,
-    "PhilipPhil": 1580,
-    "ReinSheer": 2055
+    "rafflesandrison": 2377,
+    "stanleymok": 2063,
+    "PhilipPhil": 1581,
+    "ReinSheer": 2108
   },
   "authorContributionVariance": {
-    "rafflesandrison": 26778.98,
-    "stanleymok": 54502.242,
+    "rafflesandrison": 32320.908,
+    "stanleymok": 54562.59,
     "PhilipPhil": 12861.011,
-    "ReinSheer": 225935.48
+    "ReinSheer": 225689.27
   },
   "authorDisplayNameMap": {
     "rafflesandrison": "RAF...SON",

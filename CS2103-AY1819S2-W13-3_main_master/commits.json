@@ -1143,10 +1143,197 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 753,
+        "deletions": 557,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0540cbb30e5a4388d4121152257ad6de878024d1",
+            "message": "minor change to search logic and DG update",
+            "insertions": 74,
+            "deletions": 24
+          },
+          {
+            "hash": "9da3fdb0bd4fd82680afd7935151b5dda8a13980",
+            "message": "add MT to PPP",
+            "insertions": 14,
+            "deletions": 0
+          },
+          {
+            "hash": "e0b7516ec925a7edfaf25370ff2d9c036a9be81a",
+            "message": "update DG",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "ac7f62fa49e58683c672ee41833473512a44de3d",
+            "message": "update tests",
+            "insertions": 24,
+            "deletions": 51
+          },
+          {
+            "hash": "fff43e066e382ed66fc2f53d34bb2de5083fb1bf",
+            "message": "add search command seq. diagram",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "6ee4ac25f55563445630700c6779e5b7c4372ab6",
+            "message": "add pic to PPP",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "538ee32dc897d6352e6446e6ed68ed491cff6a2c",
+            "message": "add ListCommand seq. diagram",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "48f62475d5ea28c66f8d1b0083a675e303b37eac",
+            "message": "delete dummy command greet",
+            "insertions": 0,
+            "deletions": 25
+          },
+          {
+            "hash": "261a534ac4da4f28d2d419657a2465a8df932661",
+            "message": "add typical sources",
+            "insertions": 49,
+            "deletions": 3
+          },
+          {
+            "hash": "206d67e9d12cad7c72c760580fd769b6c7daca5c",
+            "message": "fixed breaking tests",
+            "insertions": 107,
+            "deletions": 28
+          },
+          {
+            "hash": "ea5aa45cfc01e18ecd100cebbee9f733deeb4fb0",
+            "message": "fixed breaking tests",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "310419f0ab838b4095a4556b32fa3a93df74a87c",
+            "message": "ignore failing json serializable source manager test",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "2d0401bed309599b8e10a602a983a7118e5d7baf",
+            "message": "clean list command",
+            "insertions": 23,
+            "deletions": 13
+          },
+          {
+            "hash": "9d129cc7911572ff14e3a1b253a7b6eec4bfa46e",
+            "message": "clean list command parser",
+            "insertions": 6,
+            "deletions": 7
+          },
+          {
+            "hash": "b5d8abdc7f7baba81c7c0411d501a7cf6201c453",
+            "message": "clean search command",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "471e874794cad898ac3f233a91845e79b1f2f7dc",
+            "message": "no author name msg",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "f4c593e0958283d88cea3b300f816bd8e9c81707",
+            "message": "clean SCKP",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "f2aa850facd7caf9c6edf05b88bc778e6a3ea071",
+            "message": "clean list command test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6fb1b30aea8235af0e67daf3c9f56986afefa757",
+            "message": "clean list command parser",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "727f7ec51c281d9161392b0bf104ffcd7f09cf33",
+            "message": "clean list command test",
+            "insertions": 22,
+            "deletions": 0
+          },
+          {
+            "hash": "898ab840033504d7345aa3d5fd4d787f316aed6b",
+            "message": "clean search command parser test",
+            "insertions": 29,
+            "deletions": 2
+          },
+          {
+            "hash": "c0dffa1f2a9d52b9350c0b8ae20eb3ce77880682",
+            "message": "clean aboutus",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "70014f5dd8bb0278d395b0363a5936c1b4e76303",
+            "message": "clean contact us",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "f2af0548698b3b88e95f01f87af706256494322d",
+            "message": "clean README",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "203a36522c6271fc68e19d1acb9c2ec7ae6c2605",
+            "message": "clean PPP",
+            "insertions": 20,
+            "deletions": 13
+          },
+          {
+            "hash": "9293ccde70e2fc47aa0f050cb1693a6ac97d8429",
+            "message": "clean UG",
+            "insertions": 26,
+            "deletions": 9
+          },
+          {
+            "hash": "a310a91b9f4276d53e6d28540c16a979b6bcf34d",
+            "message": "Merge branch \u0027master\u0027 of /Users/suriruhani/Desktop/CS2103/main with conflicts.",
+            "insertions": 86,
+            "deletions": 99
+          },
+          {
+            "hash": "5fefd2e512450853f889be17fe2e096c136e1f14",
+            "message": "fixes",
+            "insertions": 103,
+            "deletions": 125
+          },
+          {
+            "hash": "70ddbeca4856ed8d229e707124c068162bad1094",
+            "message": "restored DG",
+            "insertions": 57,
+            "deletions": 32
+          },
+          {
+            "hash": "c0471bb7ae37c164ba676b1529ca2fa2cda68e4d",
+            "message": "restored DG",
+            "insertions": 3,
+            "deletions": 28
+          },
+          {
+            "hash": "a8c94578344bc4d79a9711a4d7846d994e08b36f",
+            "message": "update",
+            "insertions": 69,
+            "deletions": 80
+          }
+        ]
       }
     ],
     "DoItTomorrow": [
@@ -2039,8 +2226,8 @@
         ]
       },
       {
-        "insertions": 50,
-        "deletions": 42,
+        "insertions": 323,
+        "deletions": 197,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -2090,6 +2277,96 @@
             "message": "Readded accidental removal of import",
             "insertions": 1,
             "deletions": 0
+          },
+          {
+            "hash": "eeb592cf73d93c547463eb1640e20cce2ad55b54",
+            "message": "Updated sample and test source\u0027s biblioFields Changed from Placeholder * to Foo* Serves to differentiate entries from placeholders used by BilbioCommand more.",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "915042dafaec2dd0d27861846846d5438f41cc8e",
+            "message": "Change biblioFields access in Source to private final",
+            "insertions": 14,
+            "deletions": 12
+          },
+          {
+            "hash": "23d35e453af00eed68aca489b2ae803e833636cb",
+            "message": "Removed unnecessary import",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "029448dcf405ae1046dacdf2e960b5af8100d771",
+            "message": "Update to Userguide entries for biblio and biblioEdit commands",
+            "insertions": 21,
+            "deletions": 4
+          },
+          {
+            "hash": "031f83e77f25334f65873d7dc676b3850536c8b5",
+            "message": "Update to Userguide entries for Biblio and BiblioCommand",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "bc207d62492dc76f0e6f7b4f8100bcfdba78e66c",
+            "message": "Update to User and Dev guide entries on Biblio.",
+            "insertions": 38,
+            "deletions": 11
+          },
+          {
+            "hash": "4f5dcecb02625299f07d8f1b013f884ed48596c3",
+            "message": "Formatting adjustements to Biblio and BiblioEdit entries in DG",
+            "insertions": 7,
+            "deletions": 9
+          },
+          {
+            "hash": "145841dda879cfe16910fb4a9ec239f40ef60b09",
+            "message": "Updated DG entries on Biblio feature",
+            "insertions": 79,
+            "deletions": 26
+          },
+          {
+            "hash": "526984f037b00c4c419c14d93b2603930643d19e",
+            "message": "Update to Biblio feature on Developer and User guide.",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "0b08ecdb8851552099091d9e09fa06394e473b9f",
+            "message": "Update to biblio relate features for userguide.",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "8f9bf70c5ee24178a490fa180a94c28adbd5b23b",
+            "message": "Updated PPP",
+            "insertions": 53,
+            "deletions": 72
+          },
+          {
+            "hash": "7990dd0b18bbc8609cb8c66367dc72b180a41144",
+            "message": "Updated Code contributions in PPP",
+            "insertions": 11,
+            "deletions": 2
+          },
+          {
+            "hash": "5e265b084609901244aee260b3e5086659af8e7c",
+            "message": "Formatting changes to PPP",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "79d3ef01f0ad871c523afebb9165380777195dbf",
+            "message": "Added process diagram Minor formatting edits",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "ea5b02b1dd532adf4a15e12674619491e08229af",
+            "message": "Update to AboutUs",
+            "insertions": 2,
+            "deletions": 1
           }
         ]
       }
@@ -4058,10 +4335,239 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 611,
+        "deletions": 408,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6aeaa455a5a053931a24b8dccad21cf7aabf71ea",
+            "message": "add userguide mode explanation",
+            "insertions": 12,
+            "deletions": 0
+          },
+          {
+            "hash": "12cd712fdcd716af6c6aaac431040a4402faf7f3",
+            "message": "restructured userguide",
+            "insertions": 53,
+            "deletions": 51
+          },
+          {
+            "hash": "e62bb4d3d69aa1a1ef4f635af8c8e22c0d1c250c",
+            "message": "change structure",
+            "insertions": 56,
+            "deletions": 55
+          },
+          {
+            "hash": "6024eb31df9c7e955201b9c60111ff350253fee8",
+            "message": "update userguide.adoc",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "41096d4d85e62ee774924eca784803bccee6b44d",
+            "message": "update userguide.adoc",
+            "insertions": 9,
+            "deletions": 28
+          },
+          {
+            "hash": "071241f93c98cae1721c7ae7edd744bcb40a1ea5",
+            "message": "update userguide.adoc",
+            "insertions": 18,
+            "deletions": 29
+          },
+          {
+            "hash": "19cff6b1a29defe8a66b03cbcb6e085214c3d8b4",
+            "message": "update userguide.adoc",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "cdd2d9b8ab5f70f2c293b4b237072dda06f75589",
+            "message": "update userguide.adoc",
+            "insertions": 22,
+            "deletions": 22
+          },
+          {
+            "hash": "f4b5776da8b070bea9d5fa8fb373589a81b09846",
+            "message": "update userguide.adoc",
+            "insertions": 32,
+            "deletions": 0
+          },
+          {
+            "hash": "ef4971762037ea32144a8ca269fe74d2b50356e3",
+            "message": "update userguide.adoc",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "48cccbda231dddef6f62d83d7d993b1321cb3061",
+            "message": "update userguide.adoc",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1ed76b1d8d51bba2696ae7a205518289ccbe6df9",
+            "message": "update userguide.adoc",
+            "insertions": 35,
+            "deletions": 0
+          },
+          {
+            "hash": "75e605e201d0f3db2b28b976698d31318b6f3b1f",
+            "message": "update userguide.adoc",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d91eb37b51252507fa2637644b68e2b573c6818c",
+            "message": "update userguide.adoc",
+            "insertions": 10,
+            "deletions": 8
+          },
+          {
+            "hash": "9b6fb5ff96162aebe65c8e4ebf5baa57fbf884d2",
+            "message": "update userguide recyclebin section",
+            "insertions": 150,
+            "deletions": 10
+          },
+          {
+            "hash": "dbd1c339173c7733fcd745cb2f389c99452e75fd",
+            "message": "update userguide recyclebin section",
+            "insertions": 0,
+            "deletions": 11
+          },
+          {
+            "hash": "011cf2a1bd6b212e0c8826addea00c3e4ccc181b",
+            "message": "update userguide",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "02f428db6c3d69b177f7b94bd1d3951d5530d967",
+            "message": "update userguide",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "d779822c56c234a55b14c9911b022241f4f73fbd",
+            "message": "update userguide",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "179c9285f3b48d69620b09c2ca59e01da0702390",
+            "message": "update userguide",
+            "insertions": 16,
+            "deletions": 8
+          },
+          {
+            "hash": "8eb9406bbaadc58eea410a7bf89fe3ef61ed440a",
+            "message": "rename PPP file and updating aboutus.adoc",
+            "insertions": 6,
+            "deletions": 75
+          },
+          {
+            "hash": "5dfaccc48efeaa1712c523e0cd61b516de9fb5bc",
+            "message": "update aboutus.adoc",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "6a75cc1bfba5d599858a349be7ecdb3cfc6e18f3",
+            "message": "updated issamesource to detect author field",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "89b4068ea543f34a278f166ad9a036d8371ffca7",
+            "message": "explain duplicate sources in user guide",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "079ca053a1bf2a168e5d3cf2950173ced1977235",
+            "message": "update userguide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2d7638a7b4decfe5c39b6d1db20c467c8dc75a2a",
+            "message": "update userguide",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "62f8f2f8775bed7c0399ddfedbbaec3cd0b985e9",
+            "message": "edit duplicate sources test",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4618376898b473e2b0c537c01adfaa9cd61dab56",
+            "message": "update userguide",
+            "insertions": 7,
+            "deletions": 15
+          },
+          {
+            "hash": "fe4e0d695157b8686ee1580503e2c46ff01453da",
+            "message": "update PPP",
+            "insertions": 49,
+            "deletions": 21
+          },
+          {
+            "hash": "e14b267ab6b03e8e393d3b099e4a7db7e5b1c67b",
+            "message": "update PPP",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "eb5ab5ac9c05d5c36724332f2ea0f8e2c36f40e3",
+            "message": "update ppp",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "ed7b015142c53a3347cafde49953b60be2664135",
+            "message": "update ppp",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "02606471909740d487768781dd801a663dbd9e81",
+            "message": "update dev guide undoredo",
+            "insertions": 20,
+            "deletions": 20
+          },
+          {
+            "hash": "cc3d00e7fa11666e3ef61108c37cd6205d712cc2",
+            "message": "update dev guide",
+            "insertions": 15,
+            "deletions": 4
+          },
+          {
+            "hash": "63d416ada9a2290e7a6dd623108678286c3b0edf",
+            "message": "update devguide",
+            "insertions": 45,
+            "deletions": 11
+          },
+          {
+            "hash": "3ae3a08eec73f792e7307bae0f7908b5e590a792",
+            "message": "update dev guide and ppp",
+            "insertions": 2,
+            "deletions": 7
+          },
+          {
+            "hash": "a23b3c0dfd34eeb3cdf49eaa5e69b889a762a0f1",
+            "message": "add diagram",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "5061af2035a542c245d4fd5d2ad1f5e9f2e75174",
+            "message": "portfolio",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "DarrenDragonLee": [
@@ -4862,10 +5368,113 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 655,
+        "deletions": 180,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "ba2a24e4d11606f05330bc8f89c91ba83579af14",
+            "message": "Added UI component for the Pinned sources",
+            "insertions": 47,
+            "deletions": 5
+          },
+          {
+            "hash": "d74655285da1b50719caa15de060a8e9a9a494a0",
+            "message": "Removed Whitespaces and minor typo edits",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "0c00103f1fd4272a675e54a49ee0c0e9280e6460",
+            "message": "Updated developer docs for new UI component and added new tests for pinned sources",
+            "insertions": 21,
+            "deletions": 0
+          },
+          {
+            "hash": "748bebfecc9aeeefcc1b451fb5630aa4fdf9dedb",
+            "message": "Added new tests and sligitly improved logic",
+            "insertions": 22,
+            "deletions": 2
+          },
+          {
+            "hash": "3461786a7b1f6fefb60aac707f33f1e9cd5f32f7",
+            "message": "Minor enhancement to the pin command to limit users to 5 pinned sources only",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "6bd7d501702a5280b3c81c0a0af16f082553855f",
+            "message": "Removed ONE whitespace",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0efe044b1924e8f15755e2d24e73aa407e8fce85",
+            "message": "Added new sources for the demo",
+            "insertions": 130,
+            "deletions": 1
+          },
+          {
+            "hash": "588a5d7f8ade0d184e8cf7d9e747f7bed5f2a359",
+            "message": "Revert \"Added new sources for the demo\"",
+            "insertions": 1,
+            "deletions": 130
+          },
+          {
+            "hash": "c059c33c052d2b90a9979e0a6575701e6a2bfcc1",
+            "message": "Added new sources for the demo",
+            "insertions": 130,
+            "deletions": 1
+          },
+          {
+            "hash": "9f9d8bad653df21cff2f9efb7f950ba244c17d16",
+            "message": "Added a few new figures and finalised the PPP",
+            "insertions": 230,
+            "deletions": 5
+          },
+          {
+            "hash": "3287de00336fc7590f1df16b56f1b9793e1ea522",
+            "message": "Added tip to tell users not to add or edit same source",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "f15f35951bde5734dc37bb1c50d5f285a1dfe9b6",
+            "message": "Added picture to PPP",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "0a12a06fac497f66f0f0249b4ea0237ec441907b",
+            "message": "Minor edit",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "e9cfc66af4ab433f371e7caf52f7aed733e3de0b",
+            "message": "More edits",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "3a19487c6260c470ed00cf20db8f071347644437",
+            "message": "Edits",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "02f365e5479ac4474fe49b5c4b26b6955580407f",
+            "message": "Edit again",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "57703eba0d06aafeb0d94dbb6e9a2a18dc222004",
+            "message": "Added EOF",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "fterh": [
@@ -6064,26 +6673,57 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 16,
+        "deletions": 21,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7b631fbe8f3aa54fd2718cff7e60ca7e8f5ab111",
+            "message": "Update PPP",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "df72f8f55d30d2731da13ae18715de05b2cb784c",
+            "message": "Remove projects section from PPP",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "ef81df90f4adaaf18ed4098125d5409a2fd1fc58",
+            "message": "Fix inaccuracy in UserGuide",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "3a7f7acc04729ba73e615beb506acc3d408d1d9e",
+            "message": "Fix typos/bugs",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "50dd10ac4b351ae17ee3c6b19d64552788571564",
+            "message": "Update responsibilities",
+            "insertions": 3,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "suriruhani": 2038,
-    "DoItTomorrow": 1417,
-    "case141": 5287,
-    "DarrenDragonLee": 2799,
-    "fterh": 2519
+    "suriruhani": 2366,
+    "DoItTomorrow": 1603,
+    "case141": 5630,
+    "DarrenDragonLee": 3205,
+    "fterh": 2504
   },
   "authorContributionVariance": {
-    "suriruhani": 52692.375,
-    "DoItTomorrow": 14891.446,
-    "case141": 4.18094541E9,
-    "DarrenDragonLee": 36603.89,
-    "fterh": 120158.67
+    "suriruhani": 74736.97,
+    "DoItTomorrow": 18279.186,
+    "case141": 4.18064742E9,
+    "DarrenDragonLee": 45110.418,
+    "fterh": 120036.65
   },
   "authorDisplayNameMap": {
     "suriruhani": "RUH...URI",

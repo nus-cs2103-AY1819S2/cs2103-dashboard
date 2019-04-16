@@ -1270,10 +1270,23 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 309,
+        "deletions": 56,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c2fb333ee8c0e9b7ecb6e4cbd06fa88afb1a9ead",
+            "message": "Fix gradle build",
+            "insertions": 14,
+            "deletions": 12
+          },
+          {
+            "hash": "c38669830fa1765c8a1de6b2941f4767aacb4ab3",
+            "message": "Update Card DG and AboutUs.adoc",
+            "insertions": 295,
+            "deletions": 44
+          }
+        ]
       }
     ],
     "ckjohn000": [
@@ -3415,8 +3428,8 @@
         ]
       },
       {
-        "insertions": 301,
-        "deletions": 209,
+        "insertions": 322,
+        "deletions": 227,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3424,6 +3437,12 @@
             "message": "Separate parsing logic from states",
             "insertions": 233,
             "deletions": 163
+          },
+          {
+            "hash": "ec66013bf087649e09d697ef3ad890fb290be5d4",
+            "message": "Update docs",
+            "insertions": 21,
+            "deletions": 18
           },
           {
             "hash": "98685101bc4d4211bf0fb7e7277c967385cecb64",
@@ -3470,10 +3489,23 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 290,
+        "deletions": 198,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "6e43bcf18c7a966d31feb9faffece09d3ee458dc",
+            "message": "Update docs and ppp",
+            "insertions": 289,
+            "deletions": 197
+          },
+          {
+            "hash": "2b13fa0ee6ae31ce6f946370186b334608d48e0c",
+            "message": "Change cover image",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "sciffany": [
@@ -4814,8 +4846,8 @@
         ]
       },
       {
-        "insertions": 105,
-        "deletions": 63,
+        "insertions": 548,
+        "deletions": 402,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -4847,22 +4879,82 @@
             "message": "Make UG summary consistent with UG",
             "insertions": 7,
             "deletions": 6
+          },
+          {
+            "hash": "efc1dcde3eefb909a4cb17f9db23ec70fb0f5fd7",
+            "message": "Fix resolution of image and links in UG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c675c2d6d9434a734c3e21dc23b563ee1f382f48",
+            "message": "Clean up code",
+            "insertions": 0,
+            "deletions": 5
+          },
+          {
+            "hash": "2df58a77d3b9950f8ef175ccbee232ba059cf4a5",
+            "message": "Make code consistent for StudyView",
+            "insertions": 9,
+            "deletions": 11
+          },
+          {
+            "hash": "b4dc8f344f46701be9e3cf6ee03ca599dfcfcaf2",
+            "message": "modify ugdg",
+            "insertions": 133,
+            "deletions": 64
+          },
+          {
+            "hash": "e0cfd4e25ad49409fa571a0f892434bdda700098",
+            "message": "fix checkstyle issues",
+            "insertions": 1,
+            "deletions": 73
+          },
+          {
+            "hash": "1d379d5c9592a89429ac1f88b030006e30a0e9e1",
+            "message": "Revert changes and do ppp",
+            "insertions": 176,
+            "deletions": 89
+          },
+          {
+            "hash": "c7ba18fdd4565926084db73322642dc52ed54733",
+            "message": "make changes to ppp",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
+            "hash": "4f5fe3d3929fe61e4172eeab654e766201dd78f1",
+            "message": "Make final changes to UGDG",
+            "insertions": 106,
+            "deletions": 88
+          },
+          {
+            "hash": "afa12a5faf8cb265e3266aba38a7a5493a8894aa",
+            "message": "Update UserGuide.adoc",
+            "insertions": 9,
+            "deletions": 0
+          },
+          {
+            "hash": "22ee41718f605152ec3a012046e9ca9fbe63fbe3",
+            "message": "Update UserGuide.adoc",
+            "insertions": 0,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "ChangDarren": 5325,
-    "ckjohn000": 5250,
-    "xsot": 2070,
-    "sciffany": 3269
+    "ChangDarren": 5340,
+    "ckjohn000": 5243,
+    "xsot": 2322,
+    "sciffany": 3578
   },
   "authorContributionVariance": {
-    "ChangDarren": 475300.47,
+    "ChangDarren": 473631.38,
     "ckjohn000": 112082.67,
-    "xsot": 48776.7,
-    "sciffany": 467845.62
+    "xsot": 51207.24,
+    "sciffany": 477166.53
   },
   "authorDisplayNameMap": {
     "ChangDarren": "ChangDarren",

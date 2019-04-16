@@ -680,10 +680,89 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 790,
+        "deletions": 56,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "bfbcc87b2e6f971fed15dec3ea8b49f2fb758a0f",
+            "message": "added 2 test",
+            "insertions": 93,
+            "deletions": 20
+          },
+          {
+            "hash": "66228f7c3cc0e4cdd7f8740f0563ffd203e34aa2",
+            "message": "added some test",
+            "insertions": 121,
+            "deletions": 2
+          },
+          {
+            "hash": "b270ca2137e8c3b7d72bd22f45f2f4cce12e704b",
+            "message": " added additional test",
+            "insertions": 59,
+            "deletions": 0
+          },
+          {
+            "hash": "19225bc3c0c014be00f0bbece71dd9d2d73d13d0",
+            "message": "updated some test",
+            "insertions": 211,
+            "deletions": 1
+          },
+          {
+            "hash": "5e5e7578c52be8652e25c3c413399803b18c7adf",
+            "message": "edited error in test case",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b8a1e23e13c67537ff236ad57ef3ee56298779a3",
+            "message": "added test case for codecontainskeywordpredicate",
+            "insertions": 94,
+            "deletions": 13
+          },
+          {
+            "hash": "7c528dc87430681d146d6784a0210df8d08c56e1",
+            "message": "Pushing test cases to the limit",
+            "insertions": 101,
+            "deletions": 0
+          },
+          {
+            "hash": "171739104ea595b466395d26ae32b4d9e88c54ad",
+            "message": "edited some errors",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "ddf5394560e6777bc1e48747820a7e19a994d106",
+            "message": "parserTest",
+            "insertions": 51,
+            "deletions": 0
+          },
+          {
+            "hash": "9248a703958828bf1eb10c7e4435552dc3c5acf1",
+            "message": "changed checkstyle",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "0b1509e7dd4fb389eafc9ee38182dcd411bf58bc",
+            "message": "fixed checkstyle",
+            "insertions": 6,
+            "deletions": 3
+          },
+          {
+            "hash": "b87ffd576e0c33d4f90786149af75889c7b207c2",
+            "message": "added more test to parser",
+            "insertions": 41,
+            "deletions": 1
+          },
+          {
+            "hash": "c058d77ebf3f1a320fc1fdced053cc0de3172601",
+            "message": "added more cases for test",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "crumpledpaper": [
@@ -877,8 +956,8 @@
         ]
       },
       {
-        "insertions": 53,
-        "deletions": 0,
+        "insertions": 54,
+        "deletions": 1,
         "date": "2019-03-06",
         "commitResults": [
           {
@@ -886,6 +965,12 @@
             "message": "added SetCourseCommand parser, temporary added a method \"getCourseByName\" in Course to make it work",
             "insertions": 53,
             "deletions": 0
+          },
+          {
+            "hash": "a808664df9a37baf3b74943e3cf7c42cd989cf28",
+            "message": "Version 1.1",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
@@ -1124,10 +1209,77 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 337,
+        "deletions": 118,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1cf525164b4a942ebacfc3bff642a2316ac5e5b4",
+            "message": "changed add command to only allow modules in ModuleInfoList",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "7e2ffdb3cf5ff61afbc86fee00765793ec946717",
+            "message": "add command now checks prerequisites",
+            "insertions": 19,
+            "deletions": 9
+          },
+          {
+            "hash": "3c8ef249dacbaf230e4b7eaf9dc9af0b946d80ba",
+            "message": "delete command now only allows deletion if module is not a prerequisite for other modules",
+            "insertions": 43,
+            "deletions": 1
+          },
+          {
+            "hash": "f8cd412f17913a4360ade42c4b019a59c1647ed3",
+            "message": "edit command can only change module code if prerequisites are satisfied",
+            "insertions": 18,
+            "deletions": 16
+          },
+          {
+            "hash": "5850147405b0e80d38588d5be5e3adec55bf909f",
+            "message": "fixed edit to allow user to edit a prerequisite to another prerequisite that still satisfies all checks",
+            "insertions": 60,
+            "deletions": 2
+          },
+          {
+            "hash": "9cdbd4fac180a8597f2ad3e9225add46ddee6060",
+            "message": "merged changes",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "8bb1ff8a779dc659c83fca6d939290c2a11cdf20",
+            "message": "checkstyle",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "0de0255c8184f7d4fba9cf8fb9eac9a409adfce0",
+            "message": "JUnit Tests",
+            "insertions": 134,
+            "deletions": 22
+          },
+          {
+            "hash": "7922f9ec6c8f8821ec7324f812f9d7b5b3cdd2de",
+            "message": "JUnit Tests",
+            "insertions": 32,
+            "deletions": 47
+          },
+          {
+            "hash": "b8ec4d407cfb6fc2bccb982f251ff240d71d0b27",
+            "message": "JUnit Tests",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "9d5c265caeb9fe3ffbd6d348bca26b1e6b9f4031",
+            "message": "checkstyle",
+            "insertions": 8,
+            "deletions": 9
+          }
+        ]
       }
     ],
     "monikernemo": [
@@ -2050,8 +2202,8 @@
         ]
       },
       {
-        "insertions": 2,
-        "deletions": 3,
+        "insertions": 5,
+        "deletions": 6,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -2065,6 +2217,12 @@
             "message": "Update README.adoc",
             "insertions": 1,
             "deletions": 2
+          },
+          {
+            "hash": "2df46bc0c6659cdd1004bb7d60faffe23d3389e4",
+            "message": "renamed annotated-UI.PNG to annotated-ui.png",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
@@ -2966,8 +3124,8 @@
         ]
       },
       {
-        "insertions": 83,
-        "deletions": 74,
+        "insertions": 197,
+        "deletions": 129,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -2993,6 +3151,36 @@
             "message": "DG updates and javadoc changes",
             "insertions": 39,
             "deletions": 32
+          },
+          {
+            "hash": "19d1ce369ad9739be39cbbd0c5b8c4acd03a7e1f",
+            "message": "UG,DG,PPP changes",
+            "insertions": 37,
+            "deletions": 37
+          },
+          {
+            "hash": "78df81829803ca8f29dcfd61978fffc64188ca01",
+            "message": "DG fix",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1bf985e30479f84207364eab0cb3c94e37fd2819",
+            "message": "UG changes",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "abe353c8cc95a4e900f9289f21897059d127a909",
+            "message": "weightedgradetest added",
+            "insertions": 59,
+            "deletions": 0
+          },
+          {
+            "hash": "a05418bc002ab2f3ce52c28f882eab94dd3c36d4",
+            "message": "UG,DG,PPP updated",
+            "insertions": 11,
+            "deletions": 11
           }
         ]
       }
@@ -4042,8 +4230,8 @@
         ]
       },
       {
-        "insertions": 206,
-        "deletions": 81,
+        "insertions": 489,
+        "deletions": 103,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -4087,24 +4275,72 @@
             "message": "checkstyle",
             "insertions": 0,
             "deletions": 1
+          },
+          {
+            "hash": "812ee3161d8943199a53ec33ca3e05a7399ed4f9",
+            "message": "shifted a level check to gradtrak",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "f545149abea3a690435022b10baa62a9aefdda25",
+            "message": "added  reccommand test",
+            "insertions": 167,
+            "deletions": 0
+          },
+          {
+            "hash": "4ebdbb849cc9fdfe1ebed15f0ef55da1b9749f05",
+            "message": "added more mods to a level regex",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "a612af583937c01c29e55a59f023f3718e771cdb",
+            "message": "checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5f3e86063d73676d6aad71f37b7bf57a9ce15795",
+            "message": "updated geq regex",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "a773839f5f865668a5690f077f4bf659f41c67ac",
+            "message": "test update for geq regex",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f04e5be872e84b9e405e745468f6c936694394b5",
+            "message": "updated alevel regex again",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "b56d56ca4f8a7b98e8a91e35785779522ef902f7",
+            "message": "update test",
+            "insertions": 94,
+            "deletions": 1
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "Anand270294": 2172,
-    "crumpledpaper": 126,
-    "monikernemo": 7460,
-    "alexchong711": 5513,
-    "lshwayne96": 2783
+    "Anand270294": 2888,
+    "crumpledpaper": 418,
+    "monikernemo": 7408,
+    "alexchong711": 5577,
+    "lshwayne96": 3022
   },
   "authorContributionVariance": {
-    "Anand270294": 22617.555,
-    "crumpledpaper": 1196.9863,
-    "monikernemo": 604543.25,
-    "alexchong711": 239190.06,
-    "lshwayne96": 94017.65
+    "Anand270294": 32059.9,
+    "crumpledpaper": 4230.092,
+    "monikernemo": 604461.3,
+    "alexchong711": 239326.72,
+    "lshwayne96": 96406.36
   },
   "authorDisplayNameMap": {
     "Anand270294": "T A...MAR",

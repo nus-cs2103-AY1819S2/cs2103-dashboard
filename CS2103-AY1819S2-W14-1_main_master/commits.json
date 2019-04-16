@@ -626,6 +626,105 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 111,
+        "deletions": 27,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "9cdc2400e7d0d51882994a07188305b202565cd7",
+            "message": "Update jeraldtsy.adoc",
+            "insertions": 46,
+            "deletions": 10
+          },
+          {
+            "hash": "09ce7979c12e998244cbea5918254a9fd9db78e6",
+            "message": "Update UserGuide for User transfer file feature",
+            "insertions": 34,
+            "deletions": 8
+          },
+          {
+            "hash": "8ce7a9c6d2794359cfb8db65710ff74541aa149d",
+            "message": "Update UGDG with userstorage explanation",
+            "insertions": 31,
+            "deletions": 9
+          }
+        ]
+      },
+      {
+        "insertions": 32,
+        "deletions": 18,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "a152ebbee44777ba1259880d3583d7d6f0ba14da",
+            "message": "Update documents to fit style",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d5f6ae970fbbd86a603b0ce802362560c85351af",
+            "message": "Update DG",
+            "insertions": 26,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 99,
+        "deletions": 52,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "103a6700f08ef87759f9b4f5e06453e37d533733",
+            "message": "Update AboutUs roles Update DG by adding code snippet Update jeraldtsy.adoc Update CSVUserStorage.java to remove magic numbers",
+            "insertions": 80,
+            "deletions": 7
+          },
+          {
+            "hash": "9cfa9c75b020e885190dcdeb8ddeb50a5bdd0bd7",
+            "message": "Update jeraldtsy.adoc",
+            "insertions": 6,
+            "deletions": 8
+          },
+          {
+            "hash": "75e75379df6304e672420993672f7c21f012ff81",
+            "message": "Update DG",
+            "insertions": 2,
+            "deletions": 31
+          },
+          {
+            "hash": "7614ae5f288f774822c4d0c0a29c00708fbd638b",
+            "message": "Update DG",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "37a5c74a4d1371e19b8fe9d7848f118f49e48eea",
+            "message": "Update DG",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "eugenefdw": [
@@ -1549,6 +1648,179 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 14,
+        "deletions": 11,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "e8ccdf62461903c60f9494fcf6fa8744af4a52df",
+            "message": "Update default data storage locations",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "799024ee29691fa8292933b7b412af88b06d9e58",
+            "message": "Update AboutUs to refer to our team instead of se-edu.",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "64f9fc2861b5f15eea4d1d43c889f142f1435ba4",
+            "message": "Add back page header",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8243bd045978f2e1f3e8695ac517ad28bbff3ab1",
+            "message": "Update PPP partially",
+            "insertions": 9,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 215,
+        "deletions": 255,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "c6f88d17c3ef2d3dc4f7f468f122a10ad163cd09",
+            "message": "Update file format saving for separate header",
+            "insertions": 43,
+            "deletions": 11
+          },
+          {
+            "hash": "8e95a4b85471222d9256563de6f7d74a55513512",
+            "message": "Add parsing for header data from file",
+            "insertions": 64,
+            "deletions": 1
+          },
+          {
+            "hash": "0b06803609b1d2d155fffbe39995076e49a5cec4",
+            "message": "Add parsing of field names",
+            "insertions": 43,
+            "deletions": 14
+          },
+          {
+            "hash": "549b9038d102c492911755e18568a05c15734d8a",
+            "message": "Finish full modification to lesson save data format",
+            "insertions": 21,
+            "deletions": 62
+          },
+          {
+            "hash": "333e740e38fe660c2d2016dbb38f3212e972b4b3",
+            "message": "Update tests for new format",
+            "insertions": 41,
+            "deletions": 144
+          },
+          {
+            "hash": "4156d12b06d4d8c6a1a48754daf26d73d816a569",
+            "message": "Update all missing optional handles for readLessonList",
+            "insertions": 3,
+            "deletions": 23
+          }
+        ]
+      },
+      {
+        "insertions": 170,
+        "deletions": 48,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "fe271e5cee124836f93fb5a9d044da5ade9f949e",
+            "message": "Update UG",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "66b1be21ab7dd47ea4ea26c376d38910454c6ec6",
+            "message": "Update PPP",
+            "insertions": 29,
+            "deletions": 29
+          },
+          {
+            "hash": "dfa48fe6d2ddab9a24d30880c85488b35137583e",
+            "message": "Update PPP, UG",
+            "insertions": 112,
+            "deletions": 7
+          },
+          {
+            "hash": "3c1efb0dcfdc4559343bcdab89642a86cc1a51c7",
+            "message": "Update DG",
+            "insertions": 19,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 224,
+        "deletions": 89,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "1c14177ce0c1bdb56b58b21f73c73adef37e65ad",
+            "message": "Update DG",
+            "insertions": 57,
+            "deletions": 63
+          },
+          {
+            "hash": "a5d7929938af4d92808c37fb2cf61e0d4dd7c64b",
+            "message": "Update DG",
+            "insertions": 10,
+            "deletions": 4
+          },
+          {
+            "hash": "59a94f9308dcc33d514ddf16d5e185023456ba29",
+            "message": "Update docs",
+            "insertions": 140,
+            "deletions": 11
+          },
+          {
+            "hash": "48aa0a276ba2b472bc1c0344bd7878fd7f3f22d1",
+            "message": "Update PPP",
+            "insertions": 17,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 45,
+        "deletions": 200,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "89df3fb77f6c4d58c1b1cda5a87f2a64f85df4af",
+            "message": "Update docs",
+            "insertions": 13,
+            "deletions": 187
+          },
+          {
+            "hash": "6f8a7f129586eb629ac038d4f3b3c2b1049b59c7",
+            "message": "Update UG and PPP",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "d95ac9aa4f9724711bd25e59912db8038775bebc",
+            "message": "Update UG grammar",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "9a0c33340807442117cf9170bdef9c2e3ee8baf5",
+            "message": "Add intro to DG",
+            "insertions": 13,
+            "deletions": 0
+          }
+        ]
       }
     ],
     "halcyoneee": [
@@ -2910,6 +3182,220 @@
             "deletions": 17
           }
         ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 571,
+        "deletions": 104,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "d2d8872967842ebc578f5fd756210a619c3330de",
+            "message": "Add QuizResult UI to show the stats before exiting quiz mode",
+            "insertions": 466,
+            "deletions": 43
+          },
+          {
+            "hash": "9863e37179a324d68fa6bcca34972f0dd933e2d0",
+            "message": "Remove unused headers getter and setter",
+            "insertions": 0,
+            "deletions": 46
+          },
+          {
+            "hash": "e3f381cf23939181de46a386a9f0757bdddac2eb",
+            "message": "Add new test for edge case - end with card answered wrongly twice",
+            "insertions": 56,
+            "deletions": 0
+          },
+          {
+            "hash": "c897eeed6dc554f78dc6a4ef5fa14b0054ada628",
+            "message": "Add legends to footer",
+            "insertions": 47,
+            "deletions": 3
+          },
+          {
+            "hash": "723461242f10160a9bd9f2c24999cd64299602df",
+            "message": "Refactor QuizAnswerCommand checking",
+            "insertions": 2,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 268,
+        "deletions": 57,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "17147f88638dbff24fbbd7f7f62477032a726f4a",
+            "message": "Fix extension style not showing",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "85b4c112e7a7e1a7f461ae97ac9c8b963ece56ad",
+            "message": "Updating UGDG for quiz mode",
+            "insertions": 266,
+            "deletions": 55
+          }
+        ]
+      },
+      {
+        "insertions": 605,
+        "deletions": 554,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "3d32bab618af8ed6b69d9880a2190ff42570472d",
+            "message": "Update use case and manual testing in DG",
+            "insertions": 112,
+            "deletions": 21
+          },
+          {
+            "hash": "d7a7650e2385e0eb7169eef2833da1dc12e8c016",
+            "message": "Update UGDG for changeTheme",
+            "insertions": 18,
+            "deletions": 4
+          },
+          {
+            "hash": "23166a9dbec0c9c08a8958cc49013705e83c34e5",
+            "message": "Quiz code clean up",
+            "insertions": 49,
+            "deletions": 71
+          },
+          {
+            "hash": "d9e6cb8107971690b6cf8ce7b7cd4523d21969d1",
+            "message": "Rename to QuizAnswerIntegrationTest",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "476f66e4b8e980e30d9b6122f81fd3bf23bb0653",
+            "message": "Add QuizAnswerCommand with stub",
+            "insertions": 199,
+            "deletions": 0
+          },
+          {
+            "hash": "9e17babed828a7065f64e12516085a0b62f3ef12",
+            "message": "Add description for quiz commands",
+            "insertions": 25,
+            "deletions": 22
+          },
+          {
+            "hash": "e95b7da6d05dba68c11c308ed21455ac47b66319",
+            "message": "Format quiz javadoc",
+            "insertions": 67,
+            "deletions": 55
+          },
+          {
+            "hash": "bb575ea1582b0922ff81ec3db7c8bef8974016b5",
+            "message": "Update ChangeTheme test to use stub",
+            "insertions": 20,
+            "deletions": 7
+          },
+          {
+            "hash": "104749ccb39d5b1d6db3128bd3648aca445482bd",
+            "message": "Fix expectMessage for wrongModel",
+            "insertions": 5,
+            "deletions": 8
+          },
+          {
+            "hash": "4638fd42310cb94c373ff955e02af5c05a735803",
+            "message": "Refactor QuizStartCommand to StartCommand",
+            "insertions": 49,
+            "deletions": 48
+          },
+          {
+            "hash": "0202ad0ba1d79417ee249e6cb6b8ba4abc3f8e68",
+            "message": "Rename executeActual to executeQuiz",
+            "insertions": 7,
+            "deletions": 7
+          },
+          {
+            "hash": "3dab5e56414c1f5c355d1c2e1818f0923e1bda8f",
+            "message": "Remove Suggested programming task from DG",
+            "insertions": 0,
+            "deletions": 276
+          },
+          {
+            "hash": "793044a0d6498ee58c4f298f259c8dedb7b89cb5",
+            "message": "Update font to non light",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "6cf19d6b65b95ef47a3fb6380e6ff5b95e3beb47",
+            "message": "Remove unused BrowserPanel",
+            "insertions": 0,
+            "deletions": 8
+          },
+          {
+            "hash": "dfa61f96decca3f33e54af9c95f0690d0abb3758",
+            "message": "Update DG UG PPP for quiz mode",
+            "insertions": 50,
+            "deletions": 23
+          },
+          {
+            "hash": "77fad05c2d0c28f808dea699255ef90bac44a84d",
+            "message": "Add EOF at PPP",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 160,
+        "deletions": 113,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "fbcde41687b05cb3061e15e41bf64ab85a714e65",
+            "message": "Update quiz tag and section details",
+            "insertions": 17,
+            "deletions": 10
+          },
+          {
+            "hash": "9c146525b89303b3f7676b45680955e77e1c5280",
+            "message": "Update UGDG and about us",
+            "insertions": 16,
+            "deletions": 4
+          },
+          {
+            "hash": "a859a0535d236ded13c0634dd57418f124c6a87e",
+            "message": "Update PPP",
+            "insertions": 9,
+            "deletions": 4
+          },
+          {
+            "hash": "9dd6ab01ee1318a478592855c35ce5b16dbb4c7d",
+            "message": "Update DG sentence case and glossary",
+            "insertions": 91,
+            "deletions": 83
+          },
+          {
+            "hash": "3f073ce3b1328bfa0738e65d1313cbb17721e38d",
+            "message": "Update user stories and sequence diagrams",
+            "insertions": 23,
+            "deletions": 7
+          },
+          {
+            "hash": "a3c386fb6096e11948371c50d16ea2ab091579e4",
+            "message": "Update command header",
+            "insertions": 4,
+            "deletions": 5
+          }
+        ]
       }
     ],
     "lallanachang": [
@@ -3552,6 +4038,159 @@
             "hash": "d30bd65e13429b628f80a5150754e12a34a6dd65",
             "message": "Solve large count issue",
             "insertions": 13,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-11",
+        "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-12",
+        "commitResults": []
+      },
+      {
+        "insertions": 59,
+        "deletions": 44,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "8939beeb21c0059409e11d9d8d9741c6bc8c3f1a",
+            "message": "Update for v1.4",
+            "insertions": 59,
+            "deletions": 44
+          }
+        ]
+      },
+      {
+        "insertions": 311,
+        "deletions": 146,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "906a3c256cfae994caab5c3a901ae4345026c7f6",
+            "message": "Update comments",
+            "insertions": 90,
+            "deletions": 6
+          },
+          {
+            "hash": "28180a45442088d970e070e602465e3ce6866a6e",
+            "message": "Fix errors",
+            "insertions": 50,
+            "deletions": 86
+          },
+          {
+            "hash": "cb3fd2c1a4ddee542ab0804c3322f58d87da2895",
+            "message": "Fix style error",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "5d66d6f91f23668185c2f23c21d45e2aac17b889",
+            "message": "Update UG",
+            "insertions": 30,
+            "deletions": 15
+          },
+          {
+            "hash": "e24928d7f24dc3f2bf5990799a4771bcb1132601",
+            "message": "Update UG in PPP",
+            "insertions": 13,
+            "deletions": 4
+          },
+          {
+            "hash": "391dc4288b4f56d3b8dba92d748adcbd596c2840",
+            "message": "Fix bugs #188",
+            "insertions": 17,
+            "deletions": 4
+          },
+          {
+            "hash": "5d72a869b7b96b4ecfd8325667cfc7d5f419cfc4",
+            "message": "Update PPP",
+            "insertions": 33,
+            "deletions": 12
+          },
+          {
+            "hash": "3126b6a147242a2260e440b7b39e98753a9a76f2",
+            "message": "Update DG and PPP",
+            "insertions": 74,
+            "deletions": 13
+          },
+          {
+            "hash": "51f5ea147b998e06c2ee2571cab7a88a87243723",
+            "message": "Fix style",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "f0d90c13758c4bdbe8df053998ec9afca36b0569",
+            "message": "Fix style",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 36,
+        "deletions": 13,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "68d17ec3beb07a834ca9ad851417ce8e4b5a03c9",
+            "message": "Update graph",
+            "insertions": 11,
+            "deletions": 9
+          },
+          {
+            "hash": "4fdc624804f72e9055ec6fab0a629f05e080db33",
+            "message": "Update DG",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "7f369d5d0b9a563b898e9df4f2c945fb8ec36955",
+            "message": "Update PPP",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a633b47fa9484e165d6e3538fdc116aa7c748e81",
+            "message": "Update graph",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "dc09374d339fa759faef69b4350b20b509c9d047",
+            "message": "Fix style",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "c2490facac101c1d543b3338fc5227c6771ef95a",
+            "message": "Update PPP",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "decffdba265f37f772f3c1ede377639b20b2b47a",
+            "message": "Fix style",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "c2874e52f34a8e704dec549633ae9a4b18f0d859",
+            "message": "Improve graph quality",
+            "insertions": 1,
             "deletions": 1
           }
         ]
@@ -5674,22 +6313,549 @@
         "deletions": 0,
         "date": "2019-04-09",
         "commitResults": []
+      },
+      {
+        "insertions": 0,
+        "deletions": 0,
+        "date": "2019-04-10",
+        "commitResults": []
+      },
+      {
+        "insertions": 432,
+        "deletions": 99,
+        "date": "2019-04-11",
+        "commitResults": [
+          {
+            "hash": "a3f43697ee473593049fb7f1ef040350e588c377",
+            "message": "Update coverage of management UI",
+            "insertions": 3,
+            "deletions": 6
+          },
+          {
+            "hash": "79b81a4b3999386d54985eba9bfbdc32d3a2f8a0",
+            "message": "Enforce singleton design for utility classes",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "a49be99eafd553dfdfadabb5bd7bb167b01fb6cb",
+            "message": "Refactor core utils and tests",
+            "insertions": 19,
+            "deletions": 7
+          },
+          {
+            "hash": "ba4afc53493d2f29ed08fdbbca2b9ead02b15f75",
+            "message": "Refactor Version and its test",
+            "insertions": 23,
+            "deletions": 13
+          },
+          {
+            "hash": "d000c29ec8f7025b178d7e981d957962d3d271d2",
+            "message": "Add GuiSettings JUnit test",
+            "insertions": 30,
+            "deletions": 0
+          },
+          {
+            "hash": "5c7d1a9e5f427a343f5a252f9f47101ef76799bf",
+            "message": "Add LogsCenter JUnit test",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "379c1008b559f3d2a9811ee3a50910bbbc2d2d63",
+            "message": "Refactor VersionTest",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "2ad0f266928d7b35bd7b0e429d3d7ff989e71279",
+            "message": "Update Lessons Overview and Lesson View",
+            "insertions": 48,
+            "deletions": 16
+          },
+          {
+            "hash": "bf6bc88e7356c1ecb387ebcd892a134992cbee47",
+            "message": "Add SetQuestionAnswerCommand - resolves #118",
+            "insertions": 211,
+            "deletions": 2
+          },
+          {
+            "hash": "d079a52078458d099cfc0a4633128369126f2ac8",
+            "message": "Update GUI",
+            "insertions": 72,
+            "deletions": 52
+          }
+        ]
+      },
+      {
+        "insertions": 349,
+        "deletions": 179,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "3555b29e165fbeff788ad620d12943177c8dde45",
+            "message": "Update GUI",
+            "insertions": 16,
+            "deletions": 14
+          },
+          {
+            "hash": "ab70f93a5ce6ee38eba0bd34ab3f69bad7772170",
+            "message": "Refactor messages",
+            "insertions": 26,
+            "deletions": 19
+          },
+          {
+            "hash": "2248f59fc37331f6dde1472516cb87e931ae7307",
+            "message": "Update messages",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "812ba99951ad8d743b1b289b5fc07e44d5d78657",
+            "message": "Fix bug in model stub",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "062370587da44254e39aa43075d54482edd9dc32",
+            "message": "Update CloseLesson and OpenLesson commands",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "bf6a996a30f45cd73d6c5a56eedf1585db2eb0c5",
+            "message": "Various fixes",
+            "insertions": 23,
+            "deletions": 20
+          },
+          {
+            "hash": "7ca438428b0698e386390831d8c2be86ee638d73",
+            "message": "Refactor seedu.address.commons.core package",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "1927901dcdafd6f6293087441582125bc7bccf08",
+            "message": "Refactor seedu.address.commons.util package",
+            "insertions": 85,
+            "deletions": 7
+          },
+          {
+            "hash": "95e9e1a47bc53cebf6296d6dfce370b6f5de2058",
+            "message": "Update SetTest command",
+            "insertions": 19,
+            "deletions": 46
+          },
+          {
+            "hash": "ef617b83c708e7de52afb9671cb65b8e915d8d71",
+            "message": "Update Dark and Light themes",
+            "insertions": 11,
+            "deletions": 11
+          },
+          {
+            "hash": "d8fd9a97978a018e13325d6e2ef4ad20ded5ec09",
+            "message": "Fix CSS bugs",
+            "insertions": 16,
+            "deletions": 16
+          },
+          {
+            "hash": "f26997a744cf38ead1f6528c246b6b9688482c62",
+            "message": "Refactor CSS themes",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "fd1614b2a74a8a7a25b2ec424c6949245f70a431",
+            "message": "Refactor ParserUtil to prevent instantiation",
+            "insertions": 13,
+            "deletions": 0
+          },
+          {
+            "hash": "33923a63cffe95d4559c41036a707975e441caaf",
+            "message": "Extend StringUtil and update test",
+            "insertions": 48,
+            "deletions": 13
+          },
+          {
+            "hash": "c8145956561e1cb365166bec016e41348fc0964e",
+            "message": "Fix label UI component bugs (fixes #182 fixes #181)",
+            "insertions": 51,
+            "deletions": 19
+          }
+        ]
+      },
+      {
+        "insertions": 1143,
+        "deletions": 881,
+        "date": "2019-04-13",
+        "commitResults": [
+          {
+            "hash": "c9906db952517e3963ef6d3976c577b8d8129ca8",
+            "message": "Update UI tests",
+            "insertions": 26,
+            "deletions": 5
+          },
+          {
+            "hash": "2e5a06a9ab67f9fe6e7a413115da08b2883d4af5",
+            "message": "Improve contrast of light theme",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "c8d6ad05f030ad9c9857da0bb7ca7eaa2136e959",
+            "message": "Update AddCardCommandTest",
+            "insertions": 218,
+            "deletions": 0
+          },
+          {
+            "hash": "96d1179057efb54f3f9f1b1d1068d1f5d1751186",
+            "message": "Add SetTestCommand-related tests",
+            "insertions": 146,
+            "deletions": 144
+          },
+          {
+            "hash": "d8cee1ce637711c5837fb0703bfd107573cd53ec",
+            "message": "Refactor `seedu.address.commons.core` and `seedu.address.commons.util` packages",
+            "insertions": 14,
+            "deletions": 66
+          },
+          {
+            "hash": "2d05e76acff548d991b3ccddaf18aefded71515d",
+            "message": "Update ManagementModeParserTest and ManagmentModelManagerTest",
+            "insertions": 39,
+            "deletions": 9
+          },
+          {
+            "hash": "8746aa9258444159c2cf0f943f900105c76d3d2b",
+            "message": "Update tests",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "049b80329d308e355694a2334861f7b22d37d6d9",
+            "message": "Refactor OpenLessonCommand command word",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "3245b4d659f6c77ce4cd80cbc0271dce12832c51",
+            "message": "Refactor CloseLessonCommand command word",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1ca970bd1af5627999499fdadc1dd69aa0f03308",
+            "message": "Refactor Open/Close messages",
+            "insertions": 18,
+            "deletions": 15
+          },
+          {
+            "hash": "fb5df20384d8666dd9cf8d3feb61960496dc5eb2",
+            "message": "Update AddLessonParserTest",
+            "insertions": 21,
+            "deletions": 21
+          },
+          {
+            "hash": "94a88921b847676ca5043acabecf9d6601fb52f7",
+            "message": "Update LessonOverviewTest",
+            "insertions": 8,
+            "deletions": 4
+          },
+          {
+            "hash": "b9a6a11b682f80a54daceef60cf7751090de6f3e",
+            "message": "Update LessonCardTest",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "974b77991a86180aa655bf3ad221d79b03cc810f",
+            "message": "Update Syntax",
+            "insertions": 6,
+            "deletions": 1
+          },
+          {
+            "hash": "90c664096c35d17403ed9e33a3d764a32141399e",
+            "message": "Add additional scripts for local testing",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "fd34c927f0a11323cb4e1d8f5a5a6455c20cac5a",
+            "message": "Refactor `openLesson` command to `edit` command",
+            "insertions": 106,
+            "deletions": 104
+          },
+          {
+            "hash": "bae0bcf784b175738f35654367672c880bed9577",
+            "message": "Refactor `closeLesson` command to `save` command",
+            "insertions": 46,
+            "deletions": 45
+          },
+          {
+            "hash": "ea399da4d53e1942f31e377373ca4d2eb471d9ea",
+            "message": "Update messages",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "25e500201af20fc676fa34de8ddec1a4eba60547",
+            "message": "Refactor `reloadLessons` to `reload`",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e521816ee504b04c2145338536fabb23d23c7c97",
+            "message": "Refactor core c/ and optional o/ parameters",
+            "insertions": 63,
+            "deletions": 63
+          },
+          {
+            "hash": "e3e0b6e0748427c34129bd89a088f9c635cbace3",
+            "message": "Update themes",
+            "insertions": 8,
+            "deletions": 5
+          },
+          {
+            "hash": "ff56cb1e78f6f091fec6e73c1ecdcb5efbb4aa8d",
+            "message": "Implements result box colour change to indicate failed command",
+            "insertions": 54,
+            "deletions": 17
+          },
+          {
+            "hash": "b3d60ab1ec7e1930c2fb91c36fa5405959c45aa3",
+            "message": "Refactor `addLesson` command to use `\\t` and `\\h` params",
+            "insertions": 39,
+            "deletions": 141
+          },
+          {
+            "hash": "d68daa84711701560ece440b01e3b1fbf99f5394",
+            "message": "Refactor `setTest` command word to `set`",
+            "insertions": 50,
+            "deletions": 50
+          },
+          {
+            "hash": "7edb1f3906519c823141349a1b992620d821f069",
+            "message": "Remove unused parameters `q/` and `a/`",
+            "insertions": 8,
+            "deletions": 10
+          },
+          {
+            "hash": "0813dbaa6d2cd3263be929ad09bdfb8779f9a756",
+            "message": "Refactor `save` command word to `quit` command word",
+            "insertions": 63,
+            "deletions": 61
+          },
+          {
+            "hash": "2893fb77d4d2ede9b5eb222ddb82d04f6558ae9a",
+            "message": "Add UI fixes",
+            "insertions": 39,
+            "deletions": 33
+          },
+          {
+            "hash": "bfa5427fb5c11acf33d7390576b39363028a6555",
+            "message": "Fix system tests",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "e438673b121e8e70695f0bda3c035df5b93c26af",
+            "message": "Remove unstable tests",
+            "insertions": 0,
+            "deletions": 22
+          },
+          {
+            "hash": "e8da67dfb0ce729b6103e549a43fc66c68b63289",
+            "message": "Fix AddLessonParserTest",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "40fcdce1a1cd044a65e62d73442326989ef0af7f",
+            "message": "Update messages",
+            "insertions": 13,
+            "deletions": 9
+          },
+          {
+            "hash": "07db1350355853f9196ef8f8067c17161c5a541e",
+            "message": "Refactor `SampleDataUtil`, adds `SampleLessons` and `SampleCards`",
+            "insertions": 84,
+            "deletions": 30
+          },
+          {
+            "hash": "7ac53aedce37ad688e638db14f3fd66831aff40b",
+            "message": "Fixes #184 - now able to delete sample lesson",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "40be73829b1bc476a61fe9344d8e8ae9120cdce0",
+            "message": "Add another sample lesson",
+            "insertions": 45,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 139,
+        "deletions": 114,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "44e228b460a29e30b014ca8530381682a9cdbc86",
+            "message": "Update AboutUs",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "4e8aac5c157e95eb8d341a3750f9b147e3914b98",
+            "message": "Update Personal Portfolio Page",
+            "insertions": 57,
+            "deletions": 42
+          },
+          {
+            "hash": "38e39e44afecfa077219801b9a2e5af763b3d4ea",
+            "message": "Update messages",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "13d50a37614ba962e6107a42c3821c91b20e1300",
+            "message": "Update EditLessonCommandSystemTest",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "5a5ddc48edc89651ca6b8f7689dfeaa031531b02",
+            "message": "Fix EditLessonCommandSystemTest",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "9931022fb907cccc741bdf711fed2109932f74b5",
+            "message": "Force Codacy test",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "455ce4fc47417d1152e8c3e66f8aa8a060e8217b",
+            "message": "Fix bugs",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "288da40e506451f52c20fdbb8ea8155a176160f7",
+            "message": "Fix #187 bug",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "ba328647fc95259c52cd083b4b9c1bb6d3c370fb",
+            "message": "Update digipie.adoc",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "25973bad44db061e9d4874abc45e3574e6435604",
+            "message": "Update UG/DG",
+            "insertions": 40,
+            "deletions": 32
+          },
+          {
+            "hash": "9b7a47031a3a2db8e405876729702fc7408dfb59",
+            "message": "Fix critical lesson/card parsing bugs",
+            "insertions": 8,
+            "deletions": 8
+          },
+          {
+            "hash": "84b811f25f71a5452e6775311621629d418a6f64",
+            "message": "Update QuizStartCommand",
+            "insertions": 1,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 1059,
+        "deletions": 622,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "89e6f6d69c757a04d94407308581880ce8b9b252",
+            "message": "Update PPP/UG",
+            "insertions": 310,
+            "deletions": 142
+          },
+          {
+            "hash": "e524ede46d9db0c5bcdd33b0e61871ab1ef03ff7",
+            "message": "Update UG/DG",
+            "insertions": 50,
+            "deletions": 120
+          },
+          {
+            "hash": "415eb624f27a236230171a9a862bde3709921502",
+            "message": "Update UG/DG",
+            "insertions": 73,
+            "deletions": 136
+          },
+          {
+            "hash": "906cad4a62e16e228a83b017dfc5234b5d2ad1be",
+            "message": "Update UG/DG",
+            "insertions": 103,
+            "deletions": 123
+          },
+          {
+            "hash": "1ae836c2c8639444093fec14fc43eec4672cdf6d",
+            "message": "Update Messages strings",
+            "insertions": 19,
+            "deletions": 11
+          },
+          {
+            "hash": "5efc02c46b23ed6f970bb0d55f07bb965968b0a9",
+            "message": "Update UG/DG",
+            "insertions": 211,
+            "deletions": 10
+          },
+          {
+            "hash": "3728bd02d79350734e7295650592f50c31b0c534",
+            "message": "Update DG",
+            "insertions": 95,
+            "deletions": 3
+          },
+          {
+            "hash": "5942c80484d0baf0f294761f32c8af652a70dab1",
+            "message": "Update UG/DG",
+            "insertions": 19,
+            "deletions": 17
+          },
+          {
+            "hash": "5f03d1cf19b26a57ba04d6cd1e576e3512a46bd0",
+            "message": "Update to UG/DG",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "ab8f0bf191f8d086c0317f6d87200e601a420341",
+            "message": "Final update to UG/DG",
+            "insertions": 177,
+            "deletions": 57
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jeraldtsy": 623,
-    "eugenefdw": 1829,
-    "halcyoneee": 5088,
-    "lallanachang": 1414,
-    "DigiPie": 7383
+    "jeraldtsy": 751,
+    "eugenefdw": 2061,
+    "halcyoneee": 5970,
+    "lallanachang": 1650,
+    "DigiPie": 8936
   },
   "authorContributionVariance": {
-    "jeraldtsy": 8293.923,
-    "eugenefdw": 3260215.0,
-    "halcyoneee": 480933.9,
-    "lallanachang": 23729.266,
-    "DigiPie": 377973.97
+    "jeraldtsy": 7928.771,
+    "eugenefdw": 2963368.0,
+    "halcyoneee": 452646.44,
+    "lallanachang": 24168.428,
+    "DigiPie": 419574.78
   },
   "authorDisplayNameMap": {
     "jeraldtsy": "TAN...ALD",

@@ -1170,14 +1170,80 @@
         ]
       },
       {
-        "insertions": 1,
-        "deletions": 1,
+        "insertions": 97,
+        "deletions": 89,
         "date": "2019-04-15",
         "commitResults": [
           {
             "hash": "78baae717d0462d7ba7ff173283979b918a6c53f",
             "message": "Update jar file link in UG",
             "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "530e6119ace9f168dca5870bf9cf8fc8e6a54fce",
+            "message": "Update documentation",
+            "insertions": 36,
+            "deletions": 39
+          },
+          {
+            "hash": "86e309c24a1c46f5635c51f0eead7ce93a07bd63",
+            "message": "Fix bug with select command message",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "001480456ace64ccd5829054c30cb2c39ebcceff",
+            "message": "Update report display image in UG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "5c6756f7deb8ea60f4fe83971142452c4e110964",
+            "message": "Add new line at EOF :) :)",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0c9126f5bc057a71f450e7a2f7a7403cb554a47a",
+            "message": "Update User Guide",
+            "insertions": 23,
+            "deletions": 19
+          },
+          {
+            "hash": "a1974c0699b6b9fc3c2615a54d6c4313eb83b24b",
+            "message": "Make AnswerCommand and RevealCommand not commit to state history",
+            "insertions": 1,
+            "deletions": 6
+          },
+          {
+            "hash": "08e124ad433e1c3fa36fb73b23b152ac5e78249f",
+            "message": "Undo previous commit and make Test Session clear state history",
+            "insertions": 13,
+            "deletions": 9
+          },
+          {
+            "hash": "4eab37a1211fc4631a8e80fb9bd6bd003b60f11f",
+            "message": "Make folder names case insensitive",
+            "insertions": 11,
+            "deletions": 6
+          },
+          {
+            "hash": "8fc193d18b5377a4913ba120bc5a68b060bf39c6",
+            "message": "Rename a variable in EditFolderCommand",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0d5f97babf8ae49514e965e8c6c31d073bb4e7b8",
+            "message": "Fix checkstyle issues",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "28be935c2b8c4882231f305882332dee4eecae6b",
+            "message": "Fix error in resetStates() of VersionedCardFolder",
+            "insertions": 2,
             "deletions": 1
           }
         ]
@@ -2466,34 +2532,231 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 43,
+        "deletions": 12,
         "date": "2019-04-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "41de0dd48e83846a3540af9fbf558e58ca106c61",
+            "message": "add check method for invalid file names",
+            "insertions": 14,
+            "deletions": 1
+          },
+          {
+            "hash": "43187ab0534d62b8602cc0bc1cedaea9d73ebcba",
+            "message": "adjust code to account for 3 options",
+            "insertions": 11,
+            "deletions": 9
+          },
+          {
+            "hash": "4287197340a313cfdb13ead911880732e2111726",
+            "message": "fix test cases for new csv option headers",
+            "insertions": 18,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 14,
+        "deletions": 4,
         "date": "2019-04-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f8548f442bd43400ccd8ff8abd78a6bd27b9f8ed",
+            "message": "rename PPP ascii doc",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "ee6243650052fa65394ac5afd5e571e0018cf5a6",
+            "message": "update PPP intro",
+            "insertions": 14,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 57,
+        "deletions": 38,
         "date": "2019-04-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3086d6c12595ed59ecab42226d82efdefd05973c",
+            "message": "update documentation",
+            "insertions": 34,
+            "deletions": 31
+          },
+          {
+            "hash": "cf4e9151775e0e1d2c7e60de1e88afcfb452471c",
+            "message": "added UI to PPP and update import export code",
+            "insertions": 15,
+            "deletions": 2
+          },
+          {
+            "hash": "f32fb0a02d7e6c9b93580d634c64acac9f5bbe77",
+            "message": "update blood csv test",
+            "insertions": 8,
+            "deletions": 5
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 123,
+        "deletions": 55,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "265bb2552295186378a3ee9016dcb2ec3f7e5542",
+            "message": "change design considerations to table format",
+            "insertions": 74,
+            "deletions": 29
+          },
+          {
+            "hash": "1e8c51bb2f7f9aa1d94cf557808f208ccc574045",
+            "message": "add preface to design considerations",
+            "insertions": 25,
+            "deletions": 4
+          },
+          {
+            "hash": "ee28a73208c37ca5b8a7a9732821022cd9f4d45f",
+            "message": "changedd IMPORTANT notation to NOTE",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b1fc81547412b340519a5dd3b492a7b2d3c84090",
+            "message": "update sequence diagram and PPP",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "3036519056ce9d2e5a3b706dfdd5a06fa3d4c447",
+            "message": "fix bug for missing fields csv file",
+            "insertions": 8,
+            "deletions": 3
+          },
+          {
+            "hash": "af4849683681197a5792fda1ffc3a0d510ad10cc",
+            "message": "change import command exception message",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "6cd69b5ad578b1a16e3a3c4256073bcf455e5b7f",
+            "message": "fix parser test",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5b2914a0325831e750884ef3e5b9ff7b32e61d12",
+            "message": "remove UI of KIA from PPP",
+            "insertions": 3,
+            "deletions": 7
+          },
+          {
+            "hash": "4063b91cad0abec6ec26b0dbc80642c6cb9203d8",
+            "message": "reduce documentation from PPP",
+            "insertions": 4,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 248,
+        "deletions": 273,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d8502857b87d2de3fa09cadb1956bec4420a3bfe",
+            "message": "add red text legend",
+            "insertions": 7,
+            "deletions": 2
+          },
+          {
+            "hash": "020b1063cb962e0257c0797186f2b9340ef9cf6b",
+            "message": "update command summary UG for export",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "47f605040eda8b6db5ed9968d5f033408c5f1128",
+            "message": "change import file line endings and added red text for PPP",
+            "insertions": 33,
+            "deletions": 35
+          },
+          {
+            "hash": "930ccdec7d6808b7a13b3bf26e4a2f5b5ca928ec",
+            "message": "add appendix f for dev guide",
+            "insertions": 37,
+            "deletions": 2
+          },
+          {
+            "hash": "346c1c58a9a4d031cf0ec5d27d4bcf0badf1d425",
+            "message": "update user guide legend",
+            "insertions": 12,
+            "deletions": 11
+          },
+          {
+            "hash": "314b9386b2bc7600fdff288d6dd7d040044db4f1",
+            "message": "change grey markup legend",
+            "insertions": 25,
+            "deletions": 26
+          },
+          {
+            "hash": "c0b61f102b79a8210f619929900793c2ca5bd3fe",
+            "message": "change DG design consideration table format",
+            "insertions": 117,
+            "deletions": 79
+          },
+          {
+            "hash": "4349d8538de1e99cd0f622fbeee7a0ccea5a6c9b",
+            "message": "fix checkstyle bugs",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "4ed0906b731063455c8817187d6b30f49c1e1009",
+            "message": "fix unwanted symbols",
+            "insertions": 4,
+            "deletions": 104
+          },
+          {
+            "hash": "9ba9335b9588dbd68b574e0fd6abe725253f1e31",
+            "message": "fix additional bugs",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1942edb37c7899a314b1818e75d537fcb3a5f652",
+            "message": "add collated code preface",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e1ed47c1569e4d3afe3ce8830e7872cf128058c5",
+            "message": "add back csv file structure in dev guide",
+            "insertions": 0,
+            "deletions": 2
+          },
+          {
+            "hash": "3905c103a69f048cff9938b1ba768cef8410f6dd",
+            "message": "edit documentation",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "c854c7e7c8a441b9c5dfe5c42bd925c6d54bfef1",
+            "message": "update dev guide",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "1718f6637d15e02cab945ac3b044e01983e3aa53",
+            "message": "modified glossary",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "dlqs": [
@@ -3794,8 +4057,8 @@
         ]
       },
       {
-        "insertions": 133,
-        "deletions": 3,
+        "insertions": 194,
+        "deletions": 22,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -3821,14 +4084,207 @@
             "message": "fix naming",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "27852f0cde62ee41efb936ff5c596d035a091947",
+            "message": "add capitalization",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "7054850bb5647e4ac21047c4572c5505c9475ae8",
+            "message": "update definition",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "1fb0725bd6ddb734a0ba8f61de7999f26ac08a3d",
+            "message": "add explaination for report command",
+            "insertions": 46,
+            "deletions": 10
+          },
+          {
+            "hash": "cfbeee204ff4c9bc0d67d206d969ffa5bdbf5ac5",
+            "message": "update my adoc name",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "0799e5c52f35d792f301d4ef48746b6067946fe9",
+            "message": "add link to reposense",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "eb5cab62e42469377e3ed01141fa431a4ac23898",
+            "message": "add formating code snippet",
+            "insertions": 5,
+            "deletions": 3
+          },
+          {
+            "hash": "38ecf859fff733a7a1157086a0299b673573a20c",
+            "message": "add new screenshot for report",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "618adf405bd292faf879d048ef9245a508fe5241",
+            "message": "fix ordering caption",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 151,
+        "deletions": 32,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5bce35b94739becae797826292231e240a2fbb0a",
+            "message": "add unit test for messages",
+            "insertions": 53,
+            "deletions": 0
+          },
+          {
+            "hash": "079d76dce60674c0296c045b2db756a9f5bea9c3",
+            "message": "add testing instruction for report",
+            "insertions": 20,
+            "deletions": 0
+          },
+          {
+            "hash": "7f4fa2c25fafd95d5f7bf10e9710e55bdef771b6",
+            "message": "add sort manual testing",
+            "insertions": 16,
+            "deletions": 0
+          },
+          {
+            "hash": "5b5e872c849e28f35a43104665058af6f69ed74c",
+            "message": "add invalid manual test",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "f18ceff33ea2934befc011c2bbe87d10781a58e6",
+            "message": "fix missing images on netlify",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "be9e71f561d742e2e01273cd639fcfc41bdbd79f",
+            "message": "fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d4fe23bbd1472cd4f9af3acf303f80786bf0788d",
+            "message": "add new v2 feature",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "e1a529c227255ab2a347b8291a137d761d4c0aae",
+            "message": "update ppp",
+            "insertions": 7,
+            "deletions": 4
+          },
+          {
+            "hash": "d9f487bad872e14740761deeb0d491075c71c57b",
+            "message": "fix indent",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "279feb9a602b234f9c4daba89ec300abd44b99dc",
+            "message": "add new pr",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "173957af2814b5eaf03fd93aab3964e16ce28d50",
+            "message": "fix indent",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "f1d3b2a6b6b7dde610fa32d90239e690ce8eb941",
+            "message": "fix image",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "f9c2e1c32f3644e98d2652e85f5abc1f6b998ca0",
+            "message": "update doc",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "d7f80534d775a99eec1c4e32d78cd24530601340",
+            "message": "change pos",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "7f018ba48215b10aa5dcb41623a20b484b4830bb",
+            "message": "typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c2b189b2f8689597e7ab792e1d3f8bccf12e3445",
+            "message": "add newline",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "27dab73d9a94c0997ec3834b62d0d39b799f26d6",
+            "message": "change to tip",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "ba1ab1d1664c2ceb75fecba0f203fcdc0d3feb67",
+            "message": "change to box",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "eb9826ac27cf8b836988e5a888f3c7b0f06e585a",
+            "message": "change note",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "e2113e3f935a911006c50947e601957b2d17f78b",
+            "message": "uppercase",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e6251767917fb19e25ec56314b8fd92252805356",
+            "message": "fix wrong size committed",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "e6df7496292a79838824e5d07e9fdcb351a97dc0",
+            "message": "fix div by zeo bug",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "b9d9d05d5a6507a702cb0a0989ff6ca95053257a",
+            "message": "liang\u0027s aasserts",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "320445a613c410170ee28442b2cf6618d76a0fed",
+            "message": "yc\u0027s changes",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "KerrynEer": [
@@ -5832,8 +6288,8 @@
         ]
       },
       {
-        "insertions": 21,
-        "deletions": 15,
+        "insertions": 74,
+        "deletions": 52,
         "date": "2019-04-15",
         "commitResults": [
           {
@@ -5871,6 +6327,102 @@
             "message": "Fix typos in DG",
             "insertions": 5,
             "deletions": 4
+          },
+          {
+            "hash": "05bd3122432dd35247c4788cde1b9aeda1cbd519",
+            "message": "Update manual testing answer command - now doesnt accept invalid option number",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "05c7797aa4752fef97beae0fee6a2af8ce93426d",
+            "message": "Fix Sequence Diagram For Delete Card image not showing",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "477e16914da6c0f7ae561217e91e709dfd51ee91",
+            "message": "Fix typo in DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "c101f50ff7d323149f74d36b61b49f9c0712b384",
+            "message": "Fix all links in DG",
+            "insertions": 15,
+            "deletions": 11
+          },
+          {
+            "hash": "452d3cbac9c5d443bdf6a4c64609a3f96491624c",
+            "message": "Update NFRs",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "30f29d08493920ea84fdeccd8bae5b553408bb82",
+            "message": "Fix UI images naming in README",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "14e1b4d12aa78ff83acd447d0b97d7237c143351",
+            "message": "Fix UG example format in add command",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "0cb228d7611b46f656f329ef4ef46ec5359c522a",
+            "message": "Fix typo in DG",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "e4e29dacf1353811dd388fd756dce5e4a4cfb1ee",
+            "message": "Update UG to reflect test session undoability",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "b35e2a7590a199d6d6f044fcf78615ae7b060527",
+            "message": "Revert \"Update UG to reflect test session undoability\"",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "f36e56ff1782a808008d8fcb9a9e1077d33f7d2c",
+            "message": "Update undo command and test operations docs - now no longer undoable",
+            "insertions": 8,
+            "deletions": 1
+          },
+          {
+            "hash": "8f3dcf2e3d031d3dcc52a23c262b1a8326095487",
+            "message": "Bold all instances of Know-it-all in UG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ba663d6f31681e87edc039bb85d993645aa300cf",
+            "message": "Fix typo",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "b2da476dc28c00eb8cdb03a9badf387b938ef6b5",
+            "message": "Fix small typo in DG",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8fd9b840ae5ca9bc758f786e0641c220e21cf801",
+            "message": "Revert \"Bold all instances of Know-it-all in UG\"",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "461a3e30e550d5090f5103fa5958c21433163754",
+            "message": "Fix typo in link",
+            "insertions": 1,
+            "deletions": 2
           }
         ]
       }
@@ -7374,26 +7926,129 @@
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 135,
+        "deletions": 94,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "eaac4e6664611153d93bf1d5d4ed1ef058728ad1",
+            "message": "Shrink image sizes in PPP",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "4477b843e9b13eb604254e30bd9603f722634237",
+            "message": "Add card section to manual testing section in developer guide",
+            "insertions": 50,
+            "deletions": 0
+          },
+          {
+            "hash": "e4cb7805d635e4e0f3727cee60d35779a66b34d4",
+            "message": "Restructure manual testing section of developer guide",
+            "insertions": 46,
+            "deletions": 59
+          },
+          {
+            "hash": "52ac3a212015288733f7ec1f4e46a1f597fdd2bb",
+            "message": "Update PPP",
+            "insertions": 9,
+            "deletions": 3
+          },
+          {
+            "hash": "4207da924e0607154cd199056361170665515100",
+            "message": "Remove images in PPP",
+            "insertions": 0,
+            "deletions": 7
+          },
+          {
+            "hash": "e50bdab575b5d595f08de70e0967a5dc3568020f",
+            "message": "Fix bug where check for duplicate cards was not case-insensitive",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e91daa62e70a0b08625f8e32357729d036106f6f",
+            "message": "Shrink size of card comparison images in add card section of UG",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7c91b6b02e6550822536852d7e9c1f157d03436d",
+            "message": "Add correct answer ui image to PPP",
+            "insertions": 3,
+            "deletions": 1
+          },
+          {
+            "hash": "c096d7649ae383759bc42f715b4c2ca10089ae33",
+            "message": "Fix formatting in PPP",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "c91f776c9826597b23e547116146c06483ed125a",
+            "message": "Update user guide to describe duplicate card constraints",
+            "insertions": 1,
+            "deletions": 0
+          },
+          {
+            "hash": "82bb8f9f59c30f6bc1e86d96fe9ad63e5dce6144",
+            "message": "Set fxid of browserpanel scrollpane",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "db4dfb7d780ea95166ab7be05b5d0d24062eba6c",
+            "message": "Set browserpanel scrollbar to be always present",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "981f6e6125f764b3e0f7b87d393d82481816c98f",
+            "message": "Remove browserpanel scrollbar and enable click and drag for card ui",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "5d3b086c5ee51d9248ae018788ae8c4e08af8213",
+            "message": "Update glossary references in user guide",
+            "insertions": 7,
+            "deletions": 8
+          },
+          {
+            "hash": "f4284ffc54cadf5a1a4907119e2f72277420eb15",
+            "message": "Remove errors in command summary of user guide",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0a06b385f30968d133a246c7007d583d61f000e6",
+            "message": "Fix minor error in dev guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e516442731c39c578c4356540ed7dc96c798712d",
+            "message": "Update PPP",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "afterdusk": 6247,
-    "yichong96": 1251,
-    "dlqs": 2907,
-    "KerrynEer": 2094,
-    "mmdlow": 1574
+    "afterdusk": 6248,
+    "yichong96": 1358,
+    "dlqs": 3049,
+    "KerrynEer": 2122,
+    "mmdlow": 1627
   },
   "authorContributionVariance": {
-    "afterdusk": 1388526.5,
-    "yichong96": 13877.509,
-    "dlqs": 136316.17,
-    "KerrynEer": 33677.81,
-    "mmdlow": 26108.69
+    "afterdusk": 1387446.5,
+    "yichong96": 16940.088,
+    "dlqs": 136479.72,
+    "KerrynEer": 33625.367,
+    "mmdlow": 26363.525
   },
   "authorDisplayNameMap": {
     "afterdusk": "AU ...JUN",
