@@ -56,10 +56,46 @@
         "commitResults": []
       },
       {
-        "insertions": 7,
-        "deletions": 7,
+        "insertions": 52,
+        "deletions": 36,
         "date": "2019-02-19",
         "commitResults": [
+          {
+            "hash": "947b72b7e0b1ce31d462cee8bf27377a7847c222",
+            "message": "Edited README.adoc 1) Replaced the travis, coveralls, codacy badges, removed appveyor 2) Removed Learning Outcomes 3) Added Ui.jpg and replaced existing UI mockup image 4) Inserted marketing blurb, replacing the instructional excerpt at the beginning portion",
+            "insertions": 36,
+            "deletions": 17
+          },
+          {
+            "hash": "0fdb5da96fd6897ce0772c9aa51108c460699f95",
+            "message": "Removed the additional lingering codacy badge at the top (my bad) Inserted a \u0027Why AB4?\u0027",
+            "insertions": 3,
+            "deletions": 4
+          },
+          {
+            "hash": "3570896c1027d26680db4b35981964a68991e06d",
+            "message": "Edited Codacy Badge",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8f6b1776f5924046671f3e5316b59bb6f590b43b",
+            "message": "Added a new line to the bottom of the README",
+            "insertions": 1,
+            "deletions": 3
+          },
+          {
+            "hash": "7b8535a726c22b71dc715d881f991a417c2f007d",
+            "message": "Changed origin of travis badge to correct organisation",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "8af3794289d6cf14baf06240b7d6af7860427c5e",
+            "message": "Changed .org to .com",
+            "insertions": 1,
+            "deletions": 1
+          },
           {
             "hash": "88fff60a7362015db3d021afc55bc1dd77141773",
             "message": "Update README.adoc",
@@ -71,6 +107,12 @@
             "message": "Update README.adoc",
             "insertions": 6,
             "deletions": 6
+          },
+          {
+            "hash": "47062b9d7237ae12e5471f58b8f387c6e6be9413",
+            "message": "Updated \u0027About Us\u0027 and \u0027Contact Us\u0027 to absolute links on README.adoc",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       },
@@ -117,10 +159,47 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 176,
+        "deletions": 21,
         "date": "2019-02-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a6a0f5c94d1fc9b4345309b259a96a82dab35d08",
+            "message": "Added Patient Class, did not include organization as a field cos irrelevant",
+            "insertions": 74,
+            "deletions": 0
+          },
+          {
+            "hash": "a8c25be349368fc5029978b0700eb53d5a1063ab",
+            "message": "Added PatientBuilder class extends PersonBuilder class. Made small changes wrt organization field in Patient class.",
+            "insertions": 72,
+            "deletions": 2
+          },
+          {
+            "hash": "24be53d7f56b561c76caa29f850487aadafa0b37",
+            "message": "made checkstyle changes to PatientBuilder",
+            "insertions": 16,
+            "deletions": 12
+          },
+          {
+            "hash": "31d5623f5fb465c71d01cba3494dfb0b2a781d94",
+            "message": "more checkstyle changes",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "e0eee8dfd34c0af6e762fbd3e765563501520839",
+            "message": "more lexicographic checkstyle changes again",
+            "insertions": 4,
+            "deletions": 3
+          },
+          {
+            "hash": "a3169382f31151efecc1885d48029d30cc0a6136",
+            "message": "more checkstyle changes to RequestBuilder and TypicalHealthWorkers",
+            "insertions": 8,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -183,28 +262,182 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 263,
+        "deletions": 50,
         "date": "2019-03-10",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1f762d4693fd2958fb89ca6cd60a5442c81259c3",
+            "message": "small change to PatientBuilder.java updated major changes to TypicalPatients.java",
+            "insertions": 57,
+            "deletions": 44
+          },
+          {
+            "hash": "87b01524d1cd20d99803f45f8210b6e532fa0520",
+            "message": "added default strings for patient objects to CommandTestUtil.java",
+            "insertions": 11,
+            "deletions": 0
+          },
+          {
+            "hash": "63532c0302b7444c11c7310f0ea617453fd1e282",
+            "message": "made major changes to PatientTest.java followed subdirectory style of HealthWorkers and put Patient.java in a distinct subdirectory",
+            "insertions": 182,
+            "deletions": 0
+          },
+          {
+            "hash": "4262a73251c30a042b7ebcce033c4ced02ffb9e0",
+            "message": "checkstyle changes",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "b7b91b7b4ce59aa2cd04f1dbea1dc01cbda8a99c",
+            "message": "more checkstyle changes",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "9d27b287d734c0ce88c9a5767e99ab41f17ed066",
+            "message": "even more checkstyle changes",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 175,
+        "deletions": 42,
         "date": "2019-03-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e88a2d83297486f241fb03f231504841c10b8128",
+            "message": "deleted duplicate PatientTest class",
+            "insertions": 0,
+            "deletions": 4
+          },
+          {
+            "hash": "abef1a99d77d71fe5d2f0704e034b38e7f978e49",
+            "message": "Added ConditionTag --\u003e accepts any form of alnum input; code based off AB4\u0027s Tag class",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "5fd5d0aaf1e2198089e7b57587c3184af62b8452",
+            "message": "Updated ConditionTag.java with getName() method",
+            "insertions": 57,
+            "deletions": 0
+          },
+          {
+            "hash": "a233e560f84d359a75371e2a6b2fbd97722298ee",
+            "message": "Updated 1) Patient class with string input parser method 2) Conditions class --\u003e conditions object to be a hashset of conditionTags each patient suffers from 3) ConditionTag class --\u003e checks for argument validity and accepts any alnum input",
+            "insertions": 85,
+            "deletions": 1
+          },
+          {
+            "hash": "c2d12224b7e2388e3a925d009de968638fa723fa",
+            "message": "Updated Patient Class with getConditions()",
+            "insertions": 7,
+            "deletions": 1
+          },
+          {
+            "hash": "cca6f193519452dee9605ef7b40f50bbd64f06a2",
+            "message": "Update Patient and PatientBuilder classes",
+            "insertions": 22,
+            "deletions": 36
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 69,
+        "deletions": 38,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "e55b0851262d490fe12c50c5bd19647cd66e95fd",
+            "message": "updated Conditions class with another constructor method",
+            "insertions": 10,
+            "deletions": 0
+          },
+          {
+            "hash": "52324792e707ccae7adedfaa66897e32a7fd6238",
+            "message": "Updated PatientBuilder Added TypicalPatients class",
+            "insertions": 37,
+            "deletions": 19
+          },
+          {
+            "hash": "c96032c71e279516822f96ecceb0d8a7b3f47d1f",
+            "message": "checkstyle changes",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "1db8847a86fd169e3e04f1dbd089a2bc315dca56",
+            "message": "more checkstyle",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "f44ec303edf72c6af49ce4da72a0e6bc48de1074",
+            "message": "indentation",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "fe0aee03cdeb5124ddd0ccf1dfcbe8c287b81219",
+            "message": "indentation trial",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "39f7d932c22955da202e2a84a7c8122ceff20310",
+            "message": "indentation and",
+            "insertions": 6,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 173,
+        "deletions": 39,
         "date": "2019-03-13",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7f87dbcbb36b00be84754a516ebc24919cf9b7d1",
+            "message": "added additional assert statement on PatientTest",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "593eefb8ed70b6de19545c3bbda8f849e0b57da5",
+            "message": "cleaned up Patient class",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "fe3a4b80d8cecc094154bedc04e16ca6bf857ed8",
+            "message": "rebuffed .equals and .isSamePatient methods in Patient",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "a7bcc4f80b3154bed52b414519f6db3cb66fa45b",
+            "message": "revamped Patient isSamePatient method again",
+            "insertions": 2,
+            "deletions": 6
+          },
+          {
+            "hash": "1cac911917fcadf258ab5c52174f20ff8e4dd95d",
+            "message": "Made changes to Request and RequestBuilder to accommodate Patient class Conditions",
+            "insertions": 32,
+            "deletions": 23
+          },
+          {
+            "hash": "ac810861adb84235391f6bf474c7031880db28ea",
+            "message": "changed JsonAdaptedPatient to accept Patient objects instead of Person objects",
+            "insertions": 124,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -213,22 +446,97 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 8,
+        "deletions": 11,
         "date": "2019-03-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "22b162c903f760622fd4ff2fbc90319137c3b58f",
+            "message": "changed the valiadtion regex in ConditionTag.java changes the Conditions contructor to have a hashset\u003cConditionTag\u003e instead",
+            "insertions": 8,
+            "deletions": 11
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 566,
+        "deletions": 19,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "9a78268ca61125ec48908aacf38ed7fb324b7d57",
+            "message": "added AddPatientCommand class added PatientCommand class added parsing methods for strings -\u003e conditions in ParserUtil",
+            "insertions": 41,
+            "deletions": 0
+          },
+          {
+            "hash": "d74565e4b4089c015cb58262145e9432600c563a",
+            "message": "added prefixes for Patient and Conditions",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "47b3d81014e3e7c3f3763ac66da0798cbe6e9f29",
+            "message": "changed RequestTest to accommodate conditionTag hashset into RequestBuilder",
+            "insertions": 10,
+            "deletions": 2
+          },
+          {
+            "hash": "61e275a2e818c2a19d0f0c0b65782066c265c207",
+            "message": "1) literally only changed PREFIX_CONDITION to PREFIX_CONDITIONS in CreateRequestCommand 2) Made major changes to PatientCommand, AddPatientCommand, and AddCommandParser in tandem 3) Included hasPatient and addPatient methods to Model interface",
+            "insertions": 151,
+            "deletions": 14
+          },
+          {
+            "hash": "1bc5d0d792add6645a2a49825f04e5fb7dc3ebae",
+            "message": "Added PatientBook, ReadOnlyPatientBook, VersionedPatientBook Added UniquePatientList Tests not written yet",
+            "insertions": 363,
+            "deletions": 2
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 266,
+        "deletions": 154,
         "date": "2019-03-17",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1ce81e02798e49d9fcb3e8ac147a0fcb3d68aece",
+            "message": "adeed in PatientBook to all CommandTests since ModelManager required PatientBook in its constructor",
+            "insertions": 238,
+            "deletions": 124
+          },
+          {
+            "hash": "dbe19da27873e2f6130b397f6f3f07fbe3a3f0d3",
+            "message": "should settle compilation",
+            "insertions": 4,
+            "deletions": 13
+          },
+          {
+            "hash": "07101d4b5521d7f81dc0f44317cf4cdb4108e280",
+            "message": "checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "2a6b2776214e927bdfb896d8a7d264ec71d919ee",
+            "message": "more checkstyle",
+            "insertions": 11,
+            "deletions": 12
+          },
+          {
+            "hash": "9c97e568dad845e83777278cbbcc95499ea30080",
+            "message": "more checkstyle",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "177281e67503254d3f151f669ec9f93b4457b550",
+            "message": "checkstyle again",
+            "insertions": 11,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -237,16 +545,30 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 52,
+        "deletions": 6,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "f3e976900d1b6eca6d711d28f2917f777ac1374f",
+            "message": "model manager changes",
+            "insertions": 52,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
+        "insertions": 102,
         "deletions": 0,
         "date": "2019-03-20",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1c6a6b1509b3658891123e64d264c2cd23254ff1",
+            "message": "AddPatientCommandTest",
+            "insertions": 102,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -261,10 +583,89 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 338,
+        "deletions": 722,
         "date": "2019-03-23",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "331fbbc238c9817f6a4d738fd91f390079bbbc23",
+            "message": "Refactored Tag -\u003e Condition Removed Conditions and ConditionTag",
+            "insertions": 226,
+            "deletions": 519
+          },
+          {
+            "hash": "168b3acc726dc22c3773d1fb615877dbae4ba152",
+            "message": "More refactoring of Condition into Tag",
+            "insertions": 65,
+            "deletions": 158
+          },
+          {
+            "hash": "6c8b7d86d8e4b3457ba61123038c4f8cf116349d",
+            "message": "checkstyle",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "3948818fdb0b25aa0a0ca1d021d846c0687b0e42",
+            "message": "checkstyle",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "48259043d77c8090dc69b7aca25e1601963995f8",
+            "message": "modified isSameRequest method in Request and changed assertion in RequestTest",
+            "insertions": 5,
+            "deletions": 7
+          },
+          {
+            "hash": "d32987f320370cd545bb14d8788c9a028cf4f2ca",
+            "message": "checkstyle changes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "04dd56fbb9f931e2c86c2433dd26ce6e489abc0e",
+            "message": "checkstyle changes",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "f55054eafbbe5583c4d3ddb4bdf8e0da78c6761f",
+            "message": "checkstyle",
+            "insertions": 8,
+            "deletions": 7
+          },
+          {
+            "hash": "1e1ac5073b4604c77745256ab630691064dba49b",
+            "message": "checkstyle",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "b48672eeaedb1e01b34dc04bacc86e8eedefcfc7",
+            "message": "changes isSameRequest method for address consideration",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "175199e151c10e14fd1f71a2b74859f032db7a6c",
+            "message": "commented out some methods --\u003e annotated with TODO",
+            "insertions": 6,
+            "deletions": 0
+          },
+          {
+            "hash": "c0c631de67f35a865fc3594b8a03338528d85df5",
+            "message": "checkstyle madness",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "c8ed255bd9bff6283aa1a9c10d51c49f87afc135",
+            "message": "made having the sameAddress compulsory for isSameRequest method in Request class",
+            "insertions": 4,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -279,22 +680,97 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 158,
+        "deletions": 42,
         "date": "2019-03-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "14d088ef480b5e7deb6a89ae35117f9a18e8cde5",
+            "message": "added Statistics class, and getStatistics() method",
+            "insertions": 78,
+            "deletions": 0
+          },
+          {
+            "hash": "3dd20eee8d08638b4d94f870e3087a8cbf311306",
+            "message": "slight modifications to Statistics and StatisticsTest; changed comments in CliSyntax",
+            "insertions": 27,
+            "deletions": 7
+          },
+          {
+            "hash": "a86d9d5035d577cf8c10e78f9f4160853c37039f",
+            "message": "Added StatisticsCommand and switch case condition in AdressBookParser",
+            "insertions": 52,
+            "deletions": 35
+          },
+          {
+            "hash": "dd3a83c606ef36fa25257e4e7a1352668ef55d54",
+            "message": "touching up StatisticsCommand \u003c- only purpose is to get treemap of conditions",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 50,
+        "deletions": 43,
         "date": "2019-03-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "303c647236c15aedc002fd32e4ee867b805d50bb",
+            "message": "added test cases to StatisticsTest",
+            "insertions": 38,
+            "deletions": 27
+          },
+          {
+            "hash": "cacdc710cccbd5fb5f88f2de4fc481dec5c658e3",
+            "message": "Toyed around with StatisticsCommand",
+            "insertions": 4,
+            "deletions": 2
+          },
+          {
+            "hash": "d5b6454fea880fc79e85b45e836d1923a878141d",
+            "message": "small change",
+            "insertions": 0,
+            "deletions": 3
+          },
+          {
+            "hash": "b37f76462e73ddb479ea0306f1002d0d2f301aac",
+            "message": "checkstylo milo",
+            "insertions": 8,
+            "deletions": 11
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 44,
+        "deletions": 49,
         "date": "2019-03-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d71d2a16e6255ca75e82d3087a435cbd660cb19e",
+            "message": "checkstyle",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "a120de2f4fab61b7b3a898d31b82b727cfac0763",
+            "message": "added StatisticsCommand to AddressBookParser",
+            "insertions": 5,
+            "deletions": 12
+          },
+          {
+            "hash": "7f42700bf37fe58744ba998d9b49d5e0a928a150",
+            "message": "checkstyle",
+            "insertions": 31,
+            "deletions": 30
+          },
+          {
+            "hash": "acf564d726c50649192f6f0dc0f35bd3eeeb4580",
+            "message": "checkstyle",
+            "insertions": 5,
+            "deletions": 5
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -316,9 +792,16 @@
       },
       {
         "insertions": 0,
-        "deletions": 0,
+        "deletions": 1,
         "date": "2019-04-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "8bbd26f9c54d0e583147552b4c51b311a1912d5d",
+            "message": "resolved conflict",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -327,10 +810,16 @@
         "commitResults": []
       },
       {
-        "insertions": 17,
-        "deletions": 11,
+        "insertions": 42,
+        "deletions": 29,
         "date": "2019-04-03",
         "commitResults": [
+          {
+            "hash": "80bbeaf87a31c3507f79988c11dcac28337fd7c4",
+            "message": "blah",
+            "insertions": 1,
+            "deletions": 1
+          },
           {
             "hash": "6cf11a3c606023c0f90409f50f90cdf8030761b0",
             "message": "Update brohandev.adoc",
@@ -338,18 +827,79 @@
             "deletions": 9
           },
           {
+            "hash": "6cb8b910448e8206c6934e66740a3e2d83ad2b1e",
+            "message": "more changes to statistics to make it work",
+            "insertions": 7,
+            "deletions": 6
+          },
+          {
             "hash": "dc016a71a1ef6ad2ad42ae71e5f60dd0b769f699",
             "message": "Update brohandev.adoc",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "d0de15aab48bb9abeb834a3eb36f3f9d1a05bbb1",
+            "message": "added javadocs",
+            "insertions": 3,
+            "deletions": 0
+          },
+          {
+            "hash": "6f6156ed829739e3491036ffebdb4b8f131eb2e9",
+            "message": "checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "66381eba266248be61d1179a0c6b4f6587e6b9b1",
+            "message": "added comparator for descending order gains",
+            "insertions": 13,
+            "deletions": 10
           }
         ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 65,
+        "deletions": 20,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5ce9b734f646a4bcabcdc9945aad28dfcf8b5bc3",
+            "message": "made changes to Statistics when delete/ clear requests -\u003e fixed bug",
+            "insertions": 23,
+            "deletions": 16
+          },
+          {
+            "hash": "edc9a7a436c7bdda43e9deb9135e3b9b2a45b1ec",
+            "message": "checkstyle",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "32528fce3847f031bfe370c5ab5eb86be49ee6f5",
+            "message": "checkstyle",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "d4742df5a19cdcd9cb0db654e6ef8d469beff5a8",
+            "message": "UG changes",
+            "insertions": 2,
+            "deletions": 0
+          },
+          {
+            "hash": "eb4e46b183e7871754595914a623c1754f4fdf06",
+            "message": "userguide changes for statistics",
+            "insertions": 17,
+            "deletions": 0
+          },
+          {
+            "hash": "b68d3abac116205a02234ad0b43c5f6ce325eac2",
+            "message": "statistics update to DG",
+            "insertions": 16,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -376,10 +926,35 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 73,
+        "deletions": 18,
         "date": "2019-04-09",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1c9dc156f8fd2114eee6c584e5e8e4abdcf19e8e",
+            "message": "fixed statistics class 1) initializes with the correct conditions values at startup time 2) inegrated undo redo features 3) removes condition from statistics list completely upon reaching 0 occurences",
+            "insertions": 53,
+            "deletions": 3
+          },
+          {
+            "hash": "fa196345812471880ef3c10d5cb1edab02e717a3",
+            "message": "checkstyle",
+            "insertions": 10,
+            "deletions": 9
+          },
+          {
+            "hash": "0d68e5940a4507febf00c86cb3dcd34dd932d353",
+            "message": "checkstyle",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "93392336cefb3d1143483166cea3713a51b7f44b",
+            "message": "checkstyle",
+            "insertions": 4,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -406,16 +981,96 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 68,
+        "deletions": 8,
         "date": "2019-04-14",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c694daacddab6299a25795ef5bf523958e861320",
+            "message": "editRequest_statistics bug fixed",
+            "insertions": 4,
+            "deletions": 0
+          },
+          {
+            "hash": "f3e919764198bcf8175297476f991379a662eb71",
+            "message": "implemented ordering by value of treemap into a linkedhashmap",
+            "insertions": 21,
+            "deletions": 2
+          },
+          {
+            "hash": "1013078218cd5eb926ef29e6b21ac95c534643eb",
+            "message": "javadocs",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "ea87fc27c27baef330537181635de230bb9aaed0",
+            "message": "user guide",
+            "insertions": 38,
+            "deletions": 6
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 492,
+        "deletions": 114,
         "date": "2019-04-15",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fa5b9a1bcbb7a9f9ec3811aa426db870e6671c97",
+            "message": "streamlined more statistics commands",
+            "insertions": 28,
+            "deletions": 27
+          },
+          {
+            "hash": "c3bcd1fe0bc3eab1408c9b65a57111a0cd1d86af",
+            "message": "checkstyle unused imports",
+            "insertions": 0,
+            "deletions": 29
+          },
+          {
+            "hash": "ac219ef67aec4c329206a687095112bcfcd0a80d",
+            "message": "developer guide gains",
+            "insertions": 142,
+            "deletions": 9
+          },
+          {
+            "hash": "3ed83b5efab8f0b769bb1270704e307a0896f86b",
+            "message": "UG gainzzzzzz",
+            "insertions": 35,
+            "deletions": 8
+          },
+          {
+            "hash": "3a3ecdfa91f70bd7aeca579e867084f650fa98df",
+            "message": "brohandev ppp",
+            "insertions": 49,
+            "deletions": 14
+          },
+          {
+            "hash": "8e04944ff165df16889a601c46a520da25e20bca",
+            "message": "brohandev GAINZZZZ",
+            "insertions": 13,
+            "deletions": 23
+          },
+          {
+            "hash": "a8af9ef469824dbbd243a6e3f0371b7c2f1e5881",
+            "message": "cosmetic changes",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "667451c6913ce64c3d5953d1601d680ccdaac5d1",
+            "message": "further changes",
+            "insertions": 223,
+            "deletions": 2
+          },
+          {
+            "hash": "9b0d7df094042737c308353d9f1c2a5f168d6a87",
+            "message": "more",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ],
     "daviddl9": [
@@ -486,16 +1141,48 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 110,
+        "deletions": 4,
         "date": "2019-02-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "de1be9cdf24de69b433b4e4a0a787611c757dc93",
+            "message": "Added request class",
+            "insertions": 108,
+            "deletions": 0
+          },
+          {
+            "hash": "278b3938779f524ba200f32cd456fda51c96ba5e",
+            "message": "Added request class",
+            "insertions": 2,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 153,
+        "deletions": 150,
         "date": "2019-02-22",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "b242c0af8b9d28debf9c5e7a53995d19af15923e",
+            "message": "Fixed style settings",
+            "insertions": 55,
+            "deletions": 53
+          },
+          {
+            "hash": "bb775d5f7af8836096ead15ebaed410ca629396b",
+            "message": "Fixed style",
+            "insertions": 87,
+            "deletions": 88
+          },
+          {
+            "hash": "65c667c3cb0da71f7cb4515afeec7439bb8d8c08",
+            "message": "Added request class",
+            "insertions": 11,
+            "deletions": 9
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -510,22 +1197,127 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 412,
+        "deletions": 7,
         "date": "2019-02-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a3cf9d497beb7e766eadaccc14a7ae6188b5a673",
+            "message": "Created new tests and helper classes for tests of request class",
+            "insertions": 412,
+            "deletions": 7
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 325,
+        "deletions": 137,
         "date": "2019-02-26",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3dfeb2b8d14e56d75a4fa99eff29592e330d830d",
+            "message": "Fixed bug that fails to check for all conditions when looking for request equality",
+            "insertions": 24,
+            "deletions": 26
+          },
+          {
+            "hash": "c307ed3e4a1c4e09b9d86c8a0801147d4158e0ca",
+            "message": "Refactored `HealthStaff` to `HealthWorker` for standardisation and to minimise ambiguity",
+            "insertions": 20,
+            "deletions": 20
+          },
+          {
+            "hash": "942c93a47abdfffe25702ec702207def43be723d",
+            "message": "Updated line in Request due to abide by 120 line char limit",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "d1ae015753ab80833bda6f8e138371c57af69680",
+            "message": "Adjusted import statements to adhere to code style",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "59aa6b379104ed3161df4841f1db0296c3511c85",
+            "message": "Adjusted import statements to adhere to code style",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "896a0bc4e1d979652f72eff87c68524bb102f091",
+            "message": "Adjusted import statements to adhere to code style",
+            "insertions": 4,
+            "deletions": 1
+          },
+          {
+            "hash": "fe400b63ebed9cc707e5ff8b93b315e08f12c04a",
+            "message": "Adjusted import statements to adhere to code style",
+            "insertions": 5,
+            "deletions": 4
+          },
+          {
+            "hash": "33d26fb6b4ed7aba9373c8adee8b4c0d3e97549b",
+            "message": "Adjusted import statements to adhere to code style",
+            "insertions": 6,
+            "deletions": 8
+          },
+          {
+            "hash": "a2b30801f5d294f6969e78c37680aea68099438f",
+            "message": "Adjusted import statements to adhere to code style",
+            "insertions": 12,
+            "deletions": 11
+          },
+          {
+            "hash": "8c12bb906a299c1efc8aec64da2db2a2120a7ade",
+            "message": "Adjusted code style for uniformity",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "90245b2d7e7312fbcdf70f286121b4fb2dfe65ec",
+            "message": "Added JavaDoc",
+            "insertions": 26,
+            "deletions": 14
+          },
+          {
+            "hash": "77ccee75f43134b65d3daf9772b2e43419a87cb8",
+            "message": "Added JavaDoc",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7cfe5d64af893eef639c69139b19049ced48042c",
+            "message": "Created `RequestStatus` enum for better handling of status constants.",
+            "insertions": 199,
+            "deletions": 36
+          },
+          {
+            "hash": "9370b7b2f30bc1bad5585bae0eaef277b2341bff",
+            "message": "Added JavaDoc",
+            "insertions": 12,
+            "deletions": 5
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 45,
+        "deletions": 31,
         "date": "2019-02-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "bc8d19791f8c330d537b1710c04bf9d8ef642fa7",
+            "message": "Integrated HealthWorker into the Request Object",
+            "insertions": 37,
+            "deletions": 29
+          },
+          {
+            "hash": "d4cd36a650f56bf70778b8de4b7ed2d32c2a61c2",
+            "message": "Updated import statements",
+            "insertions": 8,
+            "deletions": 2
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -534,10 +1326,17 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 459,
+        "deletions": 1,
         "date": "2019-03-01",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fd791fa5a4af8c0de6825ecb48a284ce009660e5",
+            "message": "Created helper classes for the Request class",
+            "insertions": 459,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -558,10 +1357,83 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1010,
+        "deletions": 343,
         "date": "2019-03-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "fc09935a59f2009938958f937199a25db15c5cb9",
+            "message": "Update storage classes to help with the storage of Request objects",
+            "insertions": 470,
+            "deletions": 9
+          },
+          {
+            "hash": "6b831ed3bec3ef41e1ce41891432cbb0c6aecd2b",
+            "message": "Cleaned up code by removing unnecessary class",
+            "insertions": 0,
+            "deletions": 125
+          },
+          {
+            "hash": "c3c0cccdd3cace5402df66d93641b21893e13637",
+            "message": "resolved merge conflict",
+            "insertions": 1,
+            "deletions": 4
+          },
+          {
+            "hash": "535da3f184a26aaf3877108bb643020d55cf6b1a",
+            "message": "Deconflicted issue with shared Prefix",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "138d3b9efeee5d02db0c333d7676683b8a271d24",
+            "message": "fixed checkstyle errors",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "dd3f423a1719f69080bf2b1d943ae3c7172ba46d",
+            "message": "fixed checkstyle errors",
+            "insertions": 63,
+            "deletions": 62
+          },
+          {
+            "hash": "933832114995d67954e3109127aef0373113a215",
+            "message": "Added tests to improve test coverage",
+            "insertions": 366,
+            "deletions": 6
+          },
+          {
+            "hash": "f95b97be83fbb9b17d491134caaa79f3586b4ead",
+            "message": "Added EOF to fix checkstyle",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "429acc1c82f12c62ff2e254ae133f7ab7ffe64d3",
+            "message": "Added EOF to fix checkstyle",
+            "insertions": 3,
+            "deletions": 2
+          },
+          {
+            "hash": "8157e9bd67181b3aa344090e350b3d7d7a06b8b9",
+            "message": "Fixed checkstyle",
+            "insertions": 6,
+            "deletions": 4
+          },
+          {
+            "hash": "ec8222883740dbf8357a95d669b6c51df168e76f",
+            "message": "Added JsonAdaptedRequest tests",
+            "insertions": 97,
+            "deletions": 124
+          },
+          {
+            "hash": "91c68de1529a4e7328caca085daa267e81f46c47",
+            "message": "fixed checkstyle errors",
+            "insertions": 1,
+            "deletions": 3
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -576,10 +1448,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 283,
+        "deletions": 28,
         "date": "2019-03-08",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a899cd00d2eb0fcab19a4bfdb0dd0b208957d423",
+            "message": "Fixed checkstyle errors",
+            "insertions": 276,
+            "deletions": 21
+          },
+          {
+            "hash": "86b63e66a22caf27581c7f89e79ce3eb21880522",
+            "message": "Refactored JsonRequestListStorage to JsonRequestBookStorage to standardise naming conventionds.",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "734f43a71f8ed9ab53aa91e266c091bb98e578bf",
+            "message": "Refactoring to fix naming conventions",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -594,16 +1485,42 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 684,
+        "deletions": 67,
         "date": "2019-03-11",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "24e63e2ea0756490bb7289fdd57e6ed4e9e756af",
+            "message": "Create versioned RequestBook class to manage requests",
+            "insertions": 568,
+            "deletions": 20
+          },
+          {
+            "hash": "320dd6d0d0fd816eec0430f83f45c6ed6f6c6193",
+            "message": "Adapted styling to fix checkstyle errors",
+            "insertions": 106,
+            "deletions": 17
+          },
+          {
+            "hash": "eef7e4a0e2b30a4c2c3127e0decd660ce39dd2bf",
+            "message": "Added tests to improve test coverage",
+            "insertions": 10,
+            "deletions": 30
+          }
+        ]
       },
       {
-        "insertions": 0,
+        "insertions": 11,
         "deletions": 0,
         "date": "2019-03-12",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "7e7f366f955fcdf1b1924609b9d8fd4f26541878",
+            "message": "Added tests to improve test coverage",
+            "insertions": 11,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -624,10 +1541,29 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 657,
+        "deletions": 188,
         "date": "2019-03-16",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "02bbdec7df5ce07afd9f30c946dc70d0369d890a",
+            "message": "Create EditRequestCommand class",
+            "insertions": 56,
+            "deletions": 20
+          },
+          {
+            "hash": "6a9c4aa6e8ceeda8390eee6e44ec20700e097b10",
+            "message": "Finished EditRequestCommand class",
+            "insertions": 314,
+            "deletions": 14
+          },
+          {
+            "hash": "d777bbc6c7c19e16b9f420eeacbf7e0fb7ce4ec0",
+            "message": "added tests for editrequestcommand",
+            "insertions": 287,
+            "deletions": 154
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -636,52 +1572,270 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 539,
+        "deletions": 159,
         "date": "2019-03-18",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "dc414897fc08b7349c7d8393efc00f6361a2079e",
+            "message": "fixed checkstyle errors",
+            "insertions": 97,
+            "deletions": 62
+          },
+          {
+            "hash": "3edfa89ef3ad3d47f1c4aabc666284c3881bc442",
+            "message": "resolved compilation errors",
+            "insertions": 53,
+            "deletions": 21
+          },
+          {
+            "hash": "468495bea50d537045639e98b7aefef0c3523323",
+            "message": "added test for editrequestdescriptor",
+            "insertions": 105,
+            "deletions": 10
+          },
+          {
+            "hash": "e751a20f64e473a0d03410a052fa59d8b9166be4",
+            "message": "added tests for editrequestcommand",
+            "insertions": 205,
+            "deletions": 19
+          },
+          {
+            "hash": "16bc844311175df7fbfc7ff93b5cc26d342a3d46",
+            "message": "fixed checkstyle errors",
+            "insertions": 79,
+            "deletions": 47
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 127,
+        "deletions": 44,
         "date": "2019-03-19",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "1161fb23591443054ea8fb7000809a9197b034ee",
+            "message": "fixed bug for JsonRequestBookStorage and JsonSerializableRequestBook",
+            "insertions": 127,
+            "deletions": 44
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 72,
+        "deletions": 112,
         "date": "2019-03-20",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "71324f464758492a8d263d34a9e813abf1897130",
+            "message": "updated invalidRequestBook",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bdd934ad782151a231d621a83ec5d20ee385d47e",
+            "message": "removed unnecessary ID field in Request object",
+            "insertions": 71,
+            "deletions": 111
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 614,
+        "deletions": 601,
         "date": "2019-03-21",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "d7c7d88975b128e978d1ad122bb2817f3592c938",
+            "message": "finalised request class and RequestBookStorage",
+            "insertions": 336,
+            "deletions": 457
+          },
+          {
+            "hash": "6c25e20043cc434936e3dc0dccc28975c01a50e6",
+            "message": "Updated tests for request class",
+            "insertions": 86,
+            "deletions": 0
+          },
+          {
+            "hash": "68cea9853f8eed30710a790801ddb4ef0647c25e",
+            "message": "Updated tests for request class",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "c9c6a64406b959ba9503e585e72068d2a99ac75a",
+            "message": "Updated user guide",
+            "insertions": 8,
+            "deletions": 0
+          },
+          {
+            "hash": "f3944bb5d8baddb000aa04566420f49e42495160",
+            "message": "fixed checkstyle",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "8a8cb838e1f141ad93b08545e487303b6b3d40c2",
+            "message": "Updated user guide",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "7481f7bd01229d4466f21f2a4bdb191d56c30aae",
+            "message": "Fixed checkstyle errors",
+            "insertions": 4,
+            "deletions": 11
+          },
+          {
+            "hash": "c79257284dc95faca49b522059ba36bc45b3f109",
+            "message": "Fixed bug in Request `isSameRequest` class that checks for similarity poorly. Fixed bug in Condition tag class that checks for equality incorrectly as well.",
+            "insertions": 170,
+            "deletions": 124
+          },
+          {
+            "hash": "95fa848cb5710c798ffc34227d22e3f6c8cc916a",
+            "message": "fixed checkstyle",
+            "insertions": 4,
+            "deletions": 4
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 190,
+        "deletions": 4,
         "date": "2019-03-22",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "3fde69312f9da06f5fee1396ae6a9f6473db3209",
+            "message": "Updated developer guide",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "21d3c45a016da1570df6e2462abd9f6b7c1890e0",
+            "message": "Fixed bug in `UniqueRequestList` where `add` is called instead of `set`",
+            "insertions": 186,
+            "deletions": 2
+          },
+          {
+            "hash": "1481f9855cf448d97b5fb829264b7614f68589ec",
+            "message": "fix checktyle",
+            "insertions": 2,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 427,
+        "deletions": 128,
         "date": "2019-03-23",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "a0602ec213e0a3b0ceee7a2ca603f990c1e0aec5",
+            "message": "Updated request test and typical requests",
+            "insertions": 5,
+            "deletions": 29
+          },
+          {
+            "hash": "4e49ebcf0209c34e4bbe3a14322e86af5087fe45",
+            "message": "Fixed bug where there was default placeholder values in RequestBuilder constructor",
+            "insertions": 40,
+            "deletions": 32
+          },
+          {
+            "hash": "65246edd8a6b996c9e817def30c4b1c7ddf3ae60",
+            "message": "Created List Request Command",
+            "insertions": 107,
+            "deletions": 35
+          },
+          {
+            "hash": "71d5e13e2b64b36583547aff92824f24954495f1",
+            "message": "Added list request command and tests",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "37d3fd9938650be950a10b9359641eafd20dff55",
+            "message": "Updated user guide",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "df00bbd5f26abd13e3b04a7bfc9e19fd7a242e9d",
+            "message": "fixed typo in ListRequestCommand command word",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "26217c72befc164f4e0975ed3d6b9f1e9c81bc4e",
+            "message": "fixed checkstyle",
+            "insertions": 28,
+            "deletions": 28
+          },
+          {
+            "hash": "0d91feee4cafd5bcc3fa34c12166ca76ed7bdecf",
+            "message": "Created Delete Request Command",
+            "insertions": 138,
+            "deletions": 0
+          },
+          {
+            "hash": "dd88eaad55ea7e4b838edf1f7034a339273c28a2",
+            "message": "Updated user guide",
+            "insertions": 5,
+            "deletions": 0
+          },
+          {
+            "hash": "8da271cad87083bee13698de6c939de4e4584001",
+            "message": "Added delete request parser",
+            "insertions": 97,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 191,
+        "deletions": 1,
         "date": "2019-03-24",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "0fd089cc21e0cea2faec567acef26dd543ce7546",
+            "message": "updated styling for selectrequestparser",
+            "insertions": 191,
+            "deletions": 1
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 238,
+        "deletions": 33,
         "date": "2019-03-25",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "5bb2d25fea6728838482e7694dffcd0874539fa8",
+            "message": "Added select request command and it\u0027s relevant test",
+            "insertions": 5,
+            "deletions": 6
+          },
+          {
+            "hash": "28bd80504cc64377c638056805f8d6fd4a0841bc",
+            "message": "Updated developer guide for create request command",
+            "insertions": 204,
+            "deletions": 21
+          },
+          {
+            "hash": "eef78eadf5d90812d0ef736e4b182b8ea9e1857d",
+            "message": "Updated message in help box for incorrect commands",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "f002233743ff11cdf841d2ee25c22b8387209498",
+            "message": "Fixed error where requestbook and healthworkerbook does not save when application is exited",
+            "insertions": 23,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -690,16 +1844,66 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 1980,
+        "deletions": 75,
         "date": "2019-03-27",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "29bc14cf7d2c571111db095c89514933d9ed98ac",
+            "message": "Fixed checkstyle errors",
+            "insertions": 1779,
+            "deletions": 3
+          },
+          {
+            "hash": "240ec63f2bc7ed2f4162bb342e497f8c00160a89",
+            "message": "Updated user guide",
+            "insertions": 48,
+            "deletions": 10
+          },
+          {
+            "hash": "cab9e23b99b082f558c1d3551ab1199c77f930d7",
+            "message": "Added tests for parser and fixed delete request bug",
+            "insertions": 30,
+            "deletions": 62
+          },
+          {
+            "hash": "98dec290e1eefc2a5409627ab2e2887f8f8e0741",
+            "message": "Fixed assign request command bug",
+            "insertions": 123,
+            "deletions": 0
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 391,
+        "deletions": 3,
         "date": "2019-03-28",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "c4243dae2edc295da5efc4a1e6a487f991a94490",
+            "message": "Created clear request command",
+            "insertions": 111,
+            "deletions": 2
+          },
+          {
+            "hash": "99814ca987c95dddaadd38c333640774f93e6ccc",
+            "message": "Updated user guide",
+            "insertions": 245,
+            "deletions": 0
+          },
+          {
+            "hash": "a65d47de5619ac391da1c326a6f181f9ae18310b",
+            "message": "added config files",
+            "insertions": 34,
+            "deletions": 0
+          },
+          {
+            "hash": "a0bb5d01dcb91e4b910b22c9c1267d8c712ea0b4",
+            "message": "Fixed checkstyle error",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -726,10 +1930,41 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 71,
+        "deletions": 37,
         "date": "2019-04-02",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "43fa94e172f05d0a458e3e93099594ed31516723",
+            "message": "Fixed bug where completed requests can be assigned to healthworkers",
+            "insertions": 19,
+            "deletions": 0
+          },
+          {
+            "hash": "db474f5fc02cfea64d4cb337bcc636a9c56c89a4",
+            "message": "Fixed coveralls not showing in project README",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "d9b61809fc8d693b00179f6389d111333f0fc0f0",
+            "message": "Refactored AddressBookParser for HealthHubParser",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "21e94e603df89357fde0cc4eaa2c785beb1798d4",
+            "message": "Added request diagrams and ppp",
+            "insertions": 36,
+            "deletions": 27
+          },
+          {
+            "hash": "593902373f934ac8028a9cecd639b7e90acbd7e6",
+            "message": "Added assign request command to user guide",
+            "insertions": 6,
+            "deletions": 0
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -738,16 +1973,78 @@
         "commitResults": []
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 249,
+        "deletions": 20,
         "date": "2019-04-04",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "89532a70be0421d55a2908d17c57eec23b0bd390",
+            "message": "Added Dev guide documentation",
+            "insertions": 106,
+            "deletions": 16
+          },
+          {
+            "hash": "36629986468f6f6f475fd1f27e719a4027669811",
+            "message": "Added add request image to dev guide",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "36df1f1adbfdbd64c1a448769d583dd90439f018",
+            "message": "updated user guide and developer guide",
+            "insertions": 142,
+            "deletions": 3
+          }
+        ]
       },
       {
-        "insertions": 0,
-        "deletions": 0,
+        "insertions": 119,
+        "deletions": 41,
         "date": "2019-04-05",
-        "commitResults": []
+        "commitResults": [
+          {
+            "hash": "907a00fd6650428944d7508d769dbad36356da0c",
+            "message": "Fixed Filter command bug where NRIC is not recognised, and added User Guide documentation",
+            "insertions": 35,
+            "deletions": 11
+          },
+          {
+            "hash": "7685d3f38cfe6dd7d79afdb94d6a5665ee0d9856",
+            "message": "Fixed add request command bug where there is no message shown to user when duplicate request is created",
+            "insertions": 2,
+            "deletions": 1
+          },
+          {
+            "hash": "ae9fe5ac84cec26242a85a0b206df1232fd12e89",
+            "message": "Added EOF newline character to config file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "e96e8f7e5676f84e2aeaaf199aba1ad493f0daae",
+            "message": "Updated user guide and fixed edit request command bug where it does not check for NRIC field",
+            "insertions": 58,
+            "deletions": 20
+          },
+          {
+            "hash": "f87b1ddc309484c3a6fe3f60ee43ed90c83dfb20",
+            "message": "Added EOF newline character to config file",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ceea5e48960dd30d9b1bfef1c13cb3978453f6b7",
+            "message": "Updated user guide",
+            "insertions": 5,
+            "deletions": 1
+          },
+          {
+            "hash": "364cb4bfc7c51aa3b289420a32e5d5ef285730b3",
+            "message": "Updated user guide for",
+            "insertions": 17,
+            "deletions": 6
+          }
+        ]
       },
       {
         "insertions": 0,
@@ -5283,15 +6580,15 @@
     ]
   },
   "authorFinalContributionMap": {
-    "brohandev": 13,
-    "daviddl9": 3465,
+    "brohandev": 983,
+    "daviddl9": 7585,
     "jing1324": 3088,
     "Lookuz": 6666,
     "huichun66": 3737
   },
   "authorContributionVariance": {
-    "brohandev": 14.65941,
-    "daviddl9": 5700.879,
+    "brohandev": 31019.018,
+    "daviddl9": 134608.34,
     "jing1324": 818021.5,
     "Lookuz": 349140.75,
     "huichun66": 95766.16
