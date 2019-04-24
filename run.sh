@@ -15,4 +15,4 @@
 ## Examples of other valid options; For more, please view the user guide
 ### java -jar RepoSense.jar --repos https://github.com/reposense/RepoSense.git
 
-java -jar RepoSense.jar --config ./configs --since 10/02/2019 --until 15/04/2019
+java -jar RepoSense.jar --config ./configs --since 10/02/2019 --until 25/04/2019
